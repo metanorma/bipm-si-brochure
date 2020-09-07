@@ -22,16 +22,16 @@
 
 == Overview
 
-The purpose of this document is to develop CCL/WG-N 
-recommendations for the use of x-ray interferometry (XRI), 
-relying on the reference value of the bulk silicon lattice 
-parameter, as a pathway for traceability to the 
+The purpose of this document is to develop CCL/WG-N
+recommendations for the use of x-ray interferometry (XRI),
+relying on the reference value of the bulk silicon lattice
+parameter, as a pathway for traceability to the
 SI metre for applications in dimensional nanometrology.
 
 
 == Current state of the art for realisation of traceable length metrology
 
-The current _Mise en Pratique_ of the definition of the metre offers 
+The current _Mise en Pratique_ of the definition of the metre offers
 three routes to realizing the metre which may be summarized as:
 
 . [[route-1]]time of flight of an electromagnetic wave (distance is based on the speed of light);
@@ -40,51 +40,51 @@ three routes to realizing the metre which may be summarized as:
 
 . [[route-3]]use of a frequency or wavelength standard selected from a list of prescribed standards.
 
-The first method is used mainly for long ranges (due to the precision 
-required on the timing). The second and third methods are generally used 
-for macro-scale applications where the distance or length is measured 
-using either static or displacement interferometry, with the optical 
-wavelength being of the order of 0.5 μm to 1 μm. A classic example of 
-method <<route-2>> being the use of frequency comb systems to calibrate laser 
-wavelength standards. Method <<route-3>> is used in many NMIs where a He-Ne 
-laser, stabilised to saturated absorption in iodine, offers a (vacuum) 
-wavelength (or frequency standard) at the level of a few parts in stem:[10^11], 
+The first method is used mainly for long ranges (due to the precision
+required on the timing). The second and third methods are generally used
+for macro-scale applications where the distance or length is measured
+using either static or displacement interferometry, with the optical
+wavelength being of the order of 0.5 μm to 1 μm. A classic example of
+method <<route-2>> being the use of frequency comb systems to calibrate laser
+wavelength standards. Method <<route-3>> is used in many NMIs where a He-Ne
+laser, stabilised to saturated absorption in iodine, offers a (vacuum)
+wavelength (or frequency standard) at the level of a few parts in stem:[10^11],
 based on recommendations from the CIPM.
 
-Currently traceability for length metrology at the nanoscale is realized 
-by sub-division of optical fringes, from an interferometer usually 
-illuminated with a helium neon stabilized laser. In recent years other 
-wavelengths _e.g._ from neodymium YAG lasers (532.24503 nm) have been used 
-and there is increasing interest in the use of laser diodes. Whichever 
-light source is used, simple fringe counting using optical wavelengths in 
-the visible or near-IR spectrum can resolve distances to one--half or 
-one-quarter wavelength and careful fringe sub-division can increase the 
-resolution further to a few hundredths of a fringe, _i.e._ of the order of 
-1 nm. More elaborate schemes claim resolutions of tenths of a nanometre. 
-Fringe division in optical interferometers is subject to non-linearity 
-caused by a combination of stray reflections and polarisation leakage 
-within the interferometer and mismatch of the optical signals and errors 
-within the fringe counting hardware. For macroscale metrology in the 
-range of millimetres to metres, the limiting uncertainty contributions 
-are normally those associated with air refractive index correction, 
-thermal expansion of the object being measured and diffraction effects 
-causing wavefront aberration in the beams of light passing through the 
-optical interferometer; the latter, without careful control can cause 
-relative uncertainties of stem:[10^{-7}]. These uncertainty contributions are 
-typically at the stem:[10^{-8}] level or worse and the uncertainty of the 
-wavelength or the fringe sub-division is less of a concern. For 
-dimensional nanometrology, where the length scale to be measured is of 
-the order of 1 nm to tens or hundreds of micrometres, the refractive 
-index, thermal effects and wavelength uncertainty can be dwarfed by the 
-inaccuracy of the fringe sub-division. In most cases this is at the level 
-of 0.1 nm although some elaborate interferometers claim picometre levels 
+Currently traceability for length metrology at the nanoscale is realized
+by sub-division of optical fringes, from an interferometer usually
+illuminated with a helium neon stabilized laser. In recent years other
+wavelengths _e.g._ from neodymium YAG lasers (532.24503 nm) have been used
+and there is increasing interest in the use of laser diodes. Whichever
+light source is used, simple fringe counting using optical wavelengths in
+the visible or near-IR spectrum can resolve distances to one--half or
+one-quarter wavelength and careful fringe sub-division can increase the
+resolution further to a few hundredths of a fringe, _i.e._ of the order of
+1 nm. More elaborate schemes claim resolutions of tenths of a nanometre.
+Fringe division in optical interferometers is subject to non-linearity
+caused by a combination of stray reflections and polarisation leakage
+within the interferometer and mismatch of the optical signals and errors
+within the fringe counting hardware. For macroscale metrology in the
+range of millimetres to metres, the limiting uncertainty contributions
+are normally those associated with air refractive index correction,
+thermal expansion of the object being measured and diffraction effects
+causing wavefront aberration in the beams of light passing through the
+optical interferometer; the latter, without careful control can cause
+relative uncertainties of stem:[10^{-7}]. These uncertainty contributions are
+typically at the stem:[10^{-8}] level or worse and the uncertainty of the
+wavelength or the fringe sub-division is less of a concern. For
+dimensional nanometrology, where the length scale to be measured is of
+the order of 1 nm to tens or hundreds of micrometres, the refractive
+index, thermal effects and wavelength uncertainty can be dwarfed by the
+inaccuracy of the fringe sub-division. In most cases this is at the level
+of 0.1 nm although some elaborate interferometers claim picometre levels
 of non-linearity. However, experience shows the
-non-linearity realised is often dependant on optimal alignment of the 
-interferometer in the individual set up and delivery and management of 
-polarization light in the interferometer. Even though much effort has 
-been directed towards eliminating these errors <<pisani>> there is usually a 
-term that can range from a few picometres up to a few hundred picometres. 
-This is a fundamental issue limiting the accuracy of optical 
+non-linearity realised is often dependant on optimal alignment of the
+interferometer in the individual set up and delivery and management of
+polarization light in the interferometer. Even though much effort has
+been directed towards eliminating these errors <<pisani>> there is usually a
+term that can range from a few picometres up to a few hundred picometres.
+This is a fundamental issue limiting the accuracy of optical
 interferometry to realise the SI metre at nanoscale.
 
 The future demands on nanometrology, predicted by Taniguchi in his 1983 paper <<taniguchi>> have been realised and the trends continue to require ever more accurate machining and control at the nanometre and sub-nanometre scale. <<fig-1>> is a simplified update on the key graph from Taniguchi's paper and versions of this graph may be found in several manufacturing and metrology research papers and presentations.
@@ -95,46 +95,46 @@ The future demands on nanometrology, predicted by Taniguchi in his 1983 paper <<
 image::mep-1/fig1.png[]
 
 
-It is clear that the inability to accurately realise the SI metre at the 
-scale of the nanometre and below will impact on high precision machining 
-and ultra-precision processing within the next decade; the impact is 
-already being felt in the nano-positioning and ultra-high precision 
-machining communities. Furthermore, the ever-improving accuracy of macro 
-scale engineering and metrology is already resulting in Calibration and 
-Measurement Capabilities (CMCs) at the level of one or a few nanometres 
-and there is a trend amongst the users of the highest accuracy 
-positioning systems (_e.g._ Si wafer lithography) to abandon laser 
-wavelength scales due to refractive index limitations, and to use 
-physical linescale systems to control relative positioning. However, such 
-linescales cannot demonstrate traceability to the SI at uncertainties 
+It is clear that the inability to accurately realise the SI metre at the
+scale of the nanometre and below will impact on high precision machining
+and ultra-precision processing within the next decade; the impact is
+already being felt in the nano-positioning and ultra-high precision
+machining communities. Furthermore, the ever-improving accuracy of macro
+scale engineering and metrology is already resulting in Calibration and
+Measurement Capabilities (CMCs) at the level of one or a few nanometres
+and there is a trend amongst the users of the highest accuracy
+positioning systems (_e.g._ Si wafer lithography) to abandon laser
+wavelength scales due to refractive index limitations, and to use
+physical linescale systems to control relative positioning. However, such
+linescales cannot demonstrate traceability to the SI at uncertainties
 below a few nanometres and are also subject to non-linearity <<yacoot>>.
 
 
-At present, the shortest wavelength listed in the SI Recommended values 
-of standard frequencies <<bipm>> is the 237 nm wavelength of the ^115^In^+^, 5s^2^ ^1^S~0~ – 5s5p ^3^P~0~ transition in the indium ion. This is only a factor of 2-3 
-below the common He-Ne 633 nm wavelength used in most optical 
-interferometers, so does not produce the orders of magnitude improvement 
-in fringe sub-division required for sub-nm metrology (should a suitable 
-stabilized light source be available). To achieve sub-nm accuracy will 
-require an interferometer operating at a wavelength of the order of one 
+At present, the shortest wavelength listed in the SI Recommended values
+of standard frequencies <<bipm>> is the 237 nm wavelength of the ^115^In^+^, 5s^2^ ^1^S~0~ – 5s5p ^3^P~0~ transition in the indium ion. This is only a factor of 2-3
+below the common He-Ne 633 nm wavelength used in most optical
+interferometers, so does not produce the orders of magnitude improvement
+in fringe sub-division required for sub-nm metrology (should a suitable
+stabilized light source be available). To achieve sub-nm accuracy will
+require an interferometer operating at a wavelength of the order of one
 or a few nanometres, or similar technology.
 
-Fortunately, the technique of x-ray interferometry combined with 
-knowledge of the silicon lattice spacing, does provide a metrological 
-standard with a periodicity that is small enough. The lattice parameter 
-of silicon has been determined on bulk silicon crystals with relative 
+Fortunately, the technique of x-ray interferometry combined with
+knowledge of the silicon lattice spacing, does provide a metrological
+standard with a periodicity that is small enough. The lattice parameter
+of silicon has been determined on bulk silicon crystals with relative
 uncertainties down to stem:[10^{-8}] using optical and x-ray interferometry <<mohr>>.
 
-In keeping with the optical equivalent of a grating interferometer, an 
-x-ray interferometer is achromatic; the interferometer fringe spacing is 
-based purely on the lattice parameter of the crystal from which x-rays 
-are diffracted and is independent of the wavelength of x-rays used. When 
-using x-ray interferometry there is no significant non-linearity as the 
-technique is based on counting atoms within a crystal. The lattice 
-parameter of silicon sets the effective periodicity at 0.192 nm when 
-x-rays are diffracted from the stem:[d_{220}] planes. Low integer-order 
-sub-division of the lattice spacing is possible with appropriate x-ray 
-interferometer configurations thereby taking the resolution down to a few 
+In keeping with the optical equivalent of a grating interferometer, an
+x-ray interferometer is achromatic; the interferometer fringe spacing is
+based purely on the lattice parameter of the crystal from which x-rays
+are diffracted and is independent of the wavelength of x-rays used. When
+using x-ray interferometry there is no significant non-linearity as the
+technique is based on counting atoms within a crystal. The lattice
+parameter of silicon sets the effective periodicity at 0.192 nm when
+x-rays are diffracted from the stem:[d_{220}] planes. Low integer-order
+sub-division of the lattice spacing is possible with appropriate x-ray
+interferometer configurations thereby taking the resolution down to a few
 picometres, with only small non-linearity at this level <<yacoot-kuetgens>>.
 
 
