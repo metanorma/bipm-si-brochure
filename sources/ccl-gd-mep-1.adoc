@@ -1,0 +1,287 @@
+= Realization of the SI metre using silicon lattice parameter and x-ray interferometry for nanometre and sub-nanometre scale applications in dimensional nanometrology
+:appendix: 2
+:partnumber: 1
+:edition: 1
+:copyright-year: 2019
+:revdate: 2019-04-30
+:language: en
+:title-en: Mise en pratique for the definition of the second in the SI
+:title-fr: Mise en pratique for the definition of the second in the SI
+:doctype: appendix
+:committee: Consultative Committee for Time and Frequency
+:docstage: 60
+:docsubstage: 60
+:imagesdir: images
+:docfile: ccl-gd-mep-1.adoc
+:mn-document-class: bipm
+:mn-output-extensions: xml,html,doc,pdf,rxl
+:local-cache-only:
+:data-uri-image:
+
+
+
+== Overview
+
+The purpose of this document is to develop CCL/WG-N 
+recommendations for the use of x-ray interferometry (XRI), 
+relying on the reference value of the bulk silicon lattice 
+parameter, as a pathway for traceability to the 
+SI metre for applications in dimensional nanometrology.
+
+
+== Current state of the art for realisation of traceable length metrology
+
+The current _Mise en Pratique_ of the definition of the metre offers 
+three routes to realizing the metre which may be summarized as:
+
+. [[route-1]]time of flight of an electromagnetic wave (distance is based on the speed of light);
+
+. [[route-2]]calculation of a wavelength from a measured frequency (using speed of light in the conversion);
+
+. [[route-3]]use of a frequency or wavelength standard selected from a list of prescribed standards.
+
+The first method is used mainly for long ranges (due to the precision 
+required on the timing). The second and third methods are generally used 
+for macro-scale applications where the distance or length is measured 
+using either static or displacement interferometry, with the optical 
+wavelength being of the order of 0.5 μm to 1 μm. A classic example of 
+method <<route-2>> being the use of frequency comb systems to calibrate laser 
+wavelength standards. Method <<route-3>> is used in many NMIs where a He-Ne 
+laser, stabilised to saturated absorption in iodine, offers a (vacuum) 
+wavelength (or frequency standard) at the level of a few parts in 10^11^, 
+based on recommendations from the CIPM.
+
+Currently traceability for length metrology at the nanoscale is realized 
+by sub-division of optical fringes, from an interferometer usually 
+illuminated with a helium neon stabilized laser. In recent years other 
+wavelengths _e.g._ from neodymium YAG lasers (532.24503 nm) have been used 
+and there is increasing interest in the use of laser diodes. Whichever 
+light source is used, simple fringe counting using optical wavelengths in 
+the visible or near-IR spectrum can resolve distances to one--half or 
+one-quarter wavelength and careful fringe sub-division can increase the 
+resolution further to a few hundredths of a fringe, _i.e._ of the order of 
+1 nm. More elaborate schemes claim resolutions of tenths of a nanometre. 
+Fringe division in optical interferometers is subject to non-linearity 
+caused by a combination of stray reflections and polarisation leakage 
+within the interferometer and mismatch of the optical signals and errors 
+within the fringe counting hardware. For macroscale metrology in the 
+range of millimetres to metres, the limiting uncertainty contributions 
+are normally those associated with air refractive index correction, 
+thermal expansion of the object being measured and diffraction effects 
+causing wavefront aberration in the beams of light passing through the 
+optical interferometer; the latter, without careful control can cause 
+relative uncertainties of 10^-7^. These uncertainty contributions are 
+typically at the 10^-8^ level or worse and the uncertainty of the 
+wavelength or the fringe sub-division is less of a concern. For 
+dimensional nanometrology, where the length scale to be measured is of 
+the order of 1 nm to tens or hundreds of micrometres, the refractive 
+index, thermal effects and wavelength uncertainty can be dwarfed by the 
+inaccuracy of the fringe sub-division. In most cases this is at the level 
+of 0.1 nm although some elaborate interferometers claim picometre levels 
+of non-linearity. However, experience shows the
+non-linearity realised is often dependant on optimal alignment of the 
+interferometer in the individual set up and delivery and management of 
+polarization light in the interferometer. Even though much effort has 
+been directed towards eliminating these errors <<pisani>> there is usually a 
+term that can range from a few picometres up to a few hundred picometres. 
+This is a fundamental issue limiting the accuracy of optical 
+interferometry to realise the SI metre at nanoscale.
+
+The future demands on nanometrology, predicted by Taniguchi in his 1983 paper <<taniguchi>> have been realised and the trends continue to require ever more accurate machining and control at the nanometre and sub-nanometre scale. <<fig-1>> is a simplified update on the key graph from Taniguchi's paper and versions of this graph may be found in several manufacturing and metrology research papers and presentations.
+
+
+[[fig-1]]
+.Extrapolation of the trends predicted by Taniguchi in 1983. On the right, measuring and inspection equipment operating at this level of accuracy.
+image::mep-1/fig1.png[]
+
+
+It is clear that the inability to accurately realise the SI metre at the 
+scale of the nanometre and below will impact on high precision machining 
+and ultra-precision processing within the next decade; the impact is 
+already being felt in the nano-positioning and ultra-high precision 
+machining communities. Furthermore, the ever-improving accuracy of macro 
+scale engineering and metrology is already resulting in Calibration and 
+Measurement Capabilities (CMCs) at the level of one or a few nanometres 
+and there is a trend amongst the users of the highest accuracy 
+positioning systems (_e.g._ Si wafer lithography) to abandon laser 
+wavelength scales due to refractive index limitations, and to use 
+physical linescale systems to control relative positioning. However, such 
+linescales cannot demonstrate traceability to the SI at uncertainties 
+below a few nanometres and are also subject to non-linearity <<yacoot>>.
+
+
+At present, the shortest wavelength listed in the SI Recommended values 
+of standard frequencies <<bipm>> is the 237 nm wavelength of the ^115^In^+^, 5s^2^ ^1^S~0~ – 5s5p ^3^P~0~ transition in the indium ion. This is only a factor of 2-3 
+below the common He-Ne 633 nm wavelength used in most optical 
+interferometers, so does not produce the orders of magnitude improvement 
+in fringe sub-division required for sub-nm metrology (should a suitable 
+stabilized light source be available). To achieve sub-nm accuracy will 
+require an interferometer operating at a wavelength of the order of one 
+or a few nanometres, or similar technology.
+
+Fortunately, the technique of x-ray interferometry combined with 
+knowledge of the silicon lattice spacing, does provide a metrological 
+standard with a periodicity that is small enough. The lattice parameter 
+of silicon has been determined on bulk silicon crystals with relative 
+uncertainties down to 10^-8^ using optical and x-ray interferometry <<mohr>>.
+
+In keeping with the optical equivalent of a grating interferometer, an 
+x-ray interferometer is achromatic; the interferometer fringe spacing is 
+based purely on the lattice parameter of the crystal from which x-rays 
+are diffracted and is independent of the wavelength of x-rays used. When 
+using x-ray interferometry there is no significant non-linearity as the 
+technique is based on counting atoms within a crystal. The lattice 
+parameter of silicon sets the effective periodicity at 0.192 nm when 
+x-rays are diffracted from the _d_~220~ planes. Low integer-order 
+sub-division of the lattice spacing is possible with appropriate x-ray 
+interferometer configurations thereby taking the resolution down to a few 
+picometres, with only small non-linearity at this level <<yacoot-kuetgens>>.
+
+
+== Background on XRI and Si lattice
+
+The technique of x-ray interferometry was first demonstrated by Bonse and Hart <<bonse>> and Hart <<hart>> proposed the concept of using x-ray interferometry for dimensional metrology.
+
+Until the 1990s, most x-ray interferometry work undertaken by metrology institutes was directed towards the measurements of the lattice parameter of silicon _d_~220~ planes as part of a larger project with aim of determining the Avogadro constant in support of mass metrology <<windisch>> <<seyfried>>. In addition to measuring the lattice parameter, its variation as a function of impurity content has also been examined <<martin>>. Several values for the Si _d_~220~ lattice spacing have been published <<massa>> and the _d_~220~ lattice spacing appears in CODATA <<mohr>>. More recently for the Avogadro project work has been directed towards measurements of the lattice parameter of ^28^Si isotopes <<andreas>>.
+
+
+=== Dimensional Metrology Experience
+
+By the early 1990s NPL, PTB and IMGC (now INRIM) recognized that Si _d_~220~ lattice spacing was sufficiently well known for it to be used as a reference standard for dimensional metrology using x-ray interferometry. They built a combined optical and x-ray interferometry (COXI) <<basile>> facility at NPL for the calibration of displacement measuring transducers. This established traceability to the metre via both the laser frequency of a He-Ne laser and the lattice parameter of silicon which had previously been measured using x-ray interferometry. Long range measurements (up to ±1 mm) were realised using the optical interferometer and short range, high accuracy measurements were realised using the x-ray interferometer working on a similar principle to a Vernier scale. This obviated the need for optical fringe
+division. Subsequent collaborative work by NPL and PTB has led to the evaluation of several displacement measuring transducers and the use of the x-ray interferometer as a positioning stage for scanning probe microscopy <<kuetgens>>. In 2011 the NANOTRACE project <<pisani>> was completed in which the performance of several high accuracy state of the art optical interferometers developed by NMIs was evaluated. Sub x-ray fringe positioning capability has also been demonstrated <<yacoot-kuetgens>>.
+
+Since then other applications have taken the lattice spacing as a constant and used it for dimensional metrology: specifically: the development of crystalline atomic steps for step height standards that can be used to calibrate atomic force microscopes <<koenders>> and for transmission electron microscopy and CD metrology <<dai>> <<zhu>>. The traceability for the use of the Si lattice parameter in these practical applications is based on the XRI measurements of the bulk lattice parameter of silicon lamellae a few hundred micrometres thick.
+
+
+== Practical Implementation
+
+=== Requirements and Challenges
+
+==== Operating principle
+
+Silicon is the preferred choice for XRI construction, not only because of knowledge of the lattice parameter, but also because it is available as pure defect-free crystals in the form of rods in specific crystallographic orientations and is elastic. The demanding tolerance with which the components must be aligned has led to most interferometers having a monolithic construction being machined from a large single crystal, although a separated crystal system for long range AFM metrology is being jointly developed by NPL and PTB. <<fig-2>> shows a schematic diagram of the plan view of an x-ray interferometer together with the path traced by the x-rays.
+
+[[fig-2]]
+.Plan view of a monolithic x-ray interferometer. B, M and A are lamellae.
+image::mep-1/fig2.png[]
+
+
+Material is machined away from the top of the original block of silicon to leave three equally spaced thin lamellae typically a few hundred micrometres thick, which are usually referred to as the beam-splitter
+(B), mirror (M) and analyser (A) lamella, respectively. The faces of the lamellae are orientated perpendicular to the crystallographic planes from which x-rays can be diffracted, usually (220). Around the third lamella (A, analyser) a flexure stage has been machined so that application of a force parallel to the lamellae faces results in displacement of the third lamella. In use the interferometer is aligned so that collimated x-rays are incident on the Beam-splitter lamella (B) at the Bragg angle for the diffracting planes and diffracted from the first lamella (B). Two diffracted beams are produced which are incident on the second lamella (M), from which two more pairs of diffracted beams emerge. The inward pointing beams from each pair recombine at the third lamella (A). The combination of these two beams results in an interference pattern whose periodicity is given by the lattice parameter of the planes from which the x-rays have been diffracted, _i.e._ the fringe pattern is independent of the wavelength of the x-rays that have been used. The lattice parameter of the (220) planes is of the order of 0.192 nm. A third lamella (A) is used to produce a moiré fringe pattern between the x-ray beams and the atomic planes in the crystal. Consequently, when the third lamella is displaced through a distance equal to the lattice spacing of the diffracting planes, the intensity of the x-ray beams transmitted through the third lamella cycles through maximum and minimum. By measuring the intensity of the x-ray signal as the third lamella is displaced, one is able to measure the displacement of the flexure stage in terms of the lattice spacing of silicon. The range of the interferometer's flexure is a few micrometres. The stage is translated using a piezo actuator, any significant pitching of the stage will cause a reduction of the fringe contrast. The tolerances on design of the flexure stage and location of the piezo are such that allowed angular errors are of the order of 10^-8^ radians.
+
+
+==== Interfacing to the x-ray interferometer
+
+For the XRI to be useful, the displacement must be '`interfaced`' to the external world. On the sides of the XRI there are optical mirrors, one of which is moved by the translation stage. In addition, there are fixed mirrors on the interferometer. Any optical sensor to be evaluated can be interfaced to these moving and fixed mirrors. Alternatively, any bulk object to be translated can be placed directly above the third lamella resting on the two moving optical mirrors. Although the x-ray interferometer is capable of generating very accurate displacements and inherently requires translation capability with sub arc second angular errors, as with any precision motion system, care is required when interfacing the sensor to the system to ensure that the potential for Abbe and cosine errors are minimized. As such any sensor being measured should be in line with the centre of the x-ray beam in the crystal.
+
+
+==== X-ray source
+
+The source of x-rays for use with an XRI is usually a copper Kα source (wavelength 0.154 nm) with collimating optics capable of producing a beam with a divergence of typically a few minutes of arc or better, that is incident on the first lamella. The shape of the beam is typically up to 1 mm wide and several millimeters high.
+
+
+==== Operating Environment
+
+Both temperature stability and a knowledge of the absolute temperature are extremely important. The thermal expansion coefficient of silicon around 20 °C is 2.57 × 10^-6^ K^-1^ <<watanabe>>. Any temperature gradient across the lamella of an x-ray interferometer will result in a variation of the lattice parameter and hence a reduction of fringe contrast leading to a reduction in the useable signal. The temperature uniformity across the lamellae should be better than 10 mK.
+
+Needless to say, isolation from mechanical and acoustic vibration is essential for operation of the XRI.
+
+
+==== Silicon Crystal purity
+
+The silicon single crystal used for manufacture of the XRI should be ultra-pure, undoped and dislocation free grown by the float zone method with a carbon and oxygen content of less than 5 × 10^15^ cm^-3^. Double crystal x-ray topography can be used to examine lattice homogeneity at a few parts in 10^-8^ and the crystal used can be compared with one whose lattice parameter is known.
+
+
+=== Position Statement of CCL/WG-N
+
+. CCL/WG-N believes that XRI, is an important measurement technology with applications in dimensional nanometrology.
+
+. If appropriate practices are followed, dimensional measurements with XRI may be made traceable to the SI metre through reference to the silicon lattice.
+
+. WG-N has a responsibility to promote good measurement practice and SI traceability in dimensional nanometrology and thus proposes, after further development of this document, to issue a Recommendation to the Consultative Committee for Length (CCL).
+
+
+== CCL approval of recommendation from CCL/WG-N on the entry of the Si {220} lattice parameter into the Mise en Pratique
+
+At the 2018 meeting of the CCL, the following recommendation was tabled by CCL-WG-N and was approved by CCL. with no objections.
+
+
+=== RECOMMENDATION CCL-WG-N 1 (2018): On the entry of the Si {220} lattice parameter into the mise en pratique
+
+*Under* its Terms of Reference, given by CCL and
+
+*considering:*
+
+* that the needs of dimensional metrology to demonstrate traceability to the SI at the nanometre scale are already approaching the limits of resolution available from the existing methods defined in the _Mise en Pratique_ of the definition of the metre;
+
+* that nano-scale manufacturing is following predictions made in the 1980s in terms of the accuracy levels demanded in future decades and that these are now requiring manufacturing capability at the nanometre or sub-nanometre scale for which the traceability infrastructure is not fully available;
+
+* that there is an increased risk that industry and science, working at the nanometre scale, may look to non-SI traceability routes if there is no suitable traceability infrastructure in place to fulfil their needs;
+
+and *taking into account*
+
+* recent work, preparing for the forthcoming revision of the SI, has resulted in an agreed CODATA value for the Si {220} lattice spacing, _d_~220~ = 192.0155714 × 10^-12^ m, which is available with a standard uncertainty of 0.0000032 × 10^-12^ m,
+
+
+*the CCL Working Group on Dimensional Nanometrology (CCL/WG-N),*
+
+*recommends* that:
+
+* member laboratories of the CCL increase their efforts towards making the Si {220} lattice spacing an available standard for use in providing traceability to the SI metre for dimensional nanometrology applications in the broader sense;
+
+* the CCL prepares the necessary documentation and evidence for the future consideration of the Si {220} lattice spacing as a candidate for entry into the _Mise en Pratique_ of the definition of the metre, for applications in dimensional nanometrology;
+
+* the CCL approves the inclusion of the Si {220} lattice spacing in the _Mise en Pratique_ of the definition of the metre.
+
+
+Thus, the entry of the Si {220} lattice spacing is approved by CCL for entry into the _Mise en Pratique_ of the definition of the metre and the relevant document has now been revised by the chairpersons of the CCL Working Groups including the chair(s) of WG-N. The revised _Mise en Pratique_ contains additional information on the basis and limitation of the use of the Si {220} lattice constant as a secondary realization of the metre.
+
+Additionally, three CCL Guidance Documents are prepared to accompany the revised _Mise en Pratique_ document, in order to serve as the '`necessary documentation`' stated in the above Recommendation. These three Guidance Documents are:
+
+CCL-GD-MeP-1:: Realization of the SI metre using silicon lattice parameter and x-ray interferometry for nanometre and sub-nanometre scale applications in dimensional nanometrology {this document}.
+
+CCL-GD-MeP-2:: Realization of SI metre using silicon lattice and Transmission Electron Microscopy for Dimensional Nanometrology.
+
+CCL-GD-MeP-3:: Realization of SI metre using height of monoatomic steps of crystalline silicon surfaces.
+
+
+[bibliography]
+== References
+
+* [[[pisani,1]]]  Pisani M, Yacoot A, Balling P, Bancone N, Birlikseven C, Çelik M, Flügge J, Hamid R, Köchert P, Kren P, Kuetgens U, Lassila A, Picotto G B, Şahin E, Seppä J, Tedaldi M and Weichert C, “Comparison of the performance of the next generation of optical interferometers”, _Metrologia_ *49* (4) (2012) 1394/49/4/455. https://iopscience.iop.org/article/10.1088/0026-1394/49/4/455[DOI: 10.1088/0026-1394/49/4/455]
+
+* [[[taniguchi,2]]]  Taniguchi N, “Current status in, and Future Trends of, Ultraprecision Machining and Ultrafine Materials Processing”, _CIRP Annals - Manufacturing Technology_, *32* (2) (1983) 573–582. https://www.sciencedirect.com/science/article/abs/pii/S0007850607601851?via%3Dihub[DOI: 10.1016/S0007-8506(07)60185-1]
+
+* [[[yacoot,3]]]  Yacoot A and Cross N, “Measurements of Picometre non-linearity in an optical grating encoder using x-ray interferometer”, _Meas. Sci. Technol_. *14* (2003) 148-152. https://iopscience.iop.org/article/10.1088/0957-0233/14/1/321[DOI: 10.1088/0957-0233/14/1/321]
+
+* [[[bipm,4]]]  BIPM, “Recommended values of standard frequencies” (2018). https://www.bipm.org/en/publications/mises-en-pratique/standard-frequencies.html
+
+* [[[mohr,5]]]  Mohr P J, Taylor B N, and Newell D B, “CODATA recommended values of the fundamental physical constants: 2010”, Rev. Mod. Phys. *84* (2012) 1527-1605. https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.84.1527[DOI: 10.1103/RevModPhys.84.1527]
+
+* [[[bonse,6]]]  Bonse U and Hart M, “An x-ray interferometer”, Appl. Phys. Lett. *6* (1965) 155-6. https://doi.org/10.1063/1.1754212[DOI: 10.1063/1.1754212]
+
+* [[[hart,7]]]  Hart M, “An Angstrom Ruler”, J. Phys D *11* (1968) 1405. https://doi.org/10.1088/0022-3727/1/11/303[DOI: 10.1088/0022-3727/1/11/303]
+
+* [[[windisch,8]]]  Windisch D and Becker P, “Silicon lattice parameters as an absolute scale of length for high precision measurements of fundamental constants”, Phys. Status Solidi A *118* (1990) 379–88. https://doi.org/10.1002/pssa.2211180205[DOI: 10.1002/pssa.2211180205]
+
+* [[[seyfried,9]]]  Seyfried P et al. “A determination of the Avogadro Constant”, Zeit. Phys. *B87* (1992) 289- 298. https://doi.org/10.1007/BF01309282[DOI: 10.1007/BF01309282]
+
+* [[[martin,10]]] Martin J, Kuetgens U, Stümpel J S and Becker P, “The silicon lattice parameter - an invariant quantity of nature ?”, Metrologia *35* (1998) 811–817. https://link.springer.com/article/10.1007%2FBF01309282[DOI: 10.1088/0026-1394/35/6/4]
+
+* [[[massa,11]]]  Massa E, Mana G and Kuetgens U, “Comparison of the INRIM and PTB lattice-spacing standards”, Metrologia *46* (2009) 249–53. https://iopscience.iop.org/article/10.1088/0026-1394/35/6/4[DOI: 10.1088/0026-1394/35/6/4]
+
+* [[[andreas,12]]]  Andreas B et al., “Determination of the Avogadro constant by counting atoms in a 28Si crystal”, Phys. Rev. Lett. *106* (2011) 030801. https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.106.030801[DOI: 10.1103/PhysRevLett.106.030801]
+
+* [[[basile,13]]]  Basile G, Becker P, Bergamin A, Cavagnero G, Franks A, Jackson K, Kuetgens U, Mana G, Palmer EW, Robbie C J, Stedman M, Stümpel J, Yacoot A and Zosi G, “Combined optical and x-ray interferometer for high precision dimensional metrology”, Proc. R. Soc. A *456* (2000) 701–29. https://doi.org/10.1098/rspa.2000.0536[DOI: 10.1098/rspa.2000.0536]
+
+* [[[kuetgens,14]]] Yacoot A, Kuetgens K, Koenders L and Weimann T, “A combined x-ray interferometer andscanning tunnelling microscope”, Meas. Sci. Technol. *12* (2001) 1660.DOI: https://iopscience.iop.org/article/10.1088/0957-0233/12/10/306[10.1088/0957-0233/12/10/306]
+
+* [[[yacoot-kuetgens,15]]] Yacoot A and Kuetgens U, “Sub atomic dimensional metrology : Developments in the control ofx-ray interferometers”, Meas. Sci. Technol. *12* (2012) (10) 074003.DOI: 10.1088/0957-0233/23/7/074003
+
+* [[[koenders,16]]] Yacoot A, Koenders L and Wolff H, “An atomic force microscope for the study of the effects oftip-sample interactions on dimensional metrology”, Meas. Sci. Technol. *18* (2) (2007) 1660-1665. https://iopscience.iop.org/article/10.1088/0957-0233/23/7/074003[DOI: 10.1088/0957-0233/18/2/S05]
+
+* [[[dai,17]]] Dai G, Häßler-Grohne W, Hüser D, Wolff H, Flügge J, and Bosse H, “New developments atPhysikalisch Technische Bundesanstalt in three-dimensional atomic force microscopy withtapping and torsion atomic force microscopy mode and vector approach probing strategy”, J.Micro/Nanolith. MEMS MOEMS *11* (2012) 011004. https://doi.org/10.1117/1.JMM.11.1.011004[DOI: 10.1117/1.JMM.11.1.011004]
+
+* [[[zhu,18]]] Dai G, Zhu F, Heidelmann M, Fritz G, Bayer T, Kalt S, and Flügge J, “Development andcharacterisation of a new linewidth reference material”, Meas. Sci. Technol. *26* (2015) 115006. https://doi.org/10.1088/0957-0233/26/11/115006[DOI: 10.1088/0957-0233/26/11/115006]
+
+* [[[watanabe,19]]] Watanabe H, Yamada N and Okaji M “Linear Thermal Expansion Coefficient of Silicon from 293to 1000~{K}”, International Journal of Thermophysics, *25* (1) (2004) 221–236.DOI: 10.1023/B:IJOT.0000022336.83719.43
