@@ -1,0 +1,418 @@
+= Realization of SI metre using height of monoatomic steps of crystalline silicon surfaces
+:appendix: 2
+:partnumber: 1
+:edition: 1
+:copyright-year: 2019
+:revdate: 2019-04-30
+:language: en
+:title-en: Realization of SI metre using height of monoatomic steps of crystalline silicon surfaces
+:title-fr: Realization of SI metre using height of monoatomic steps of crystalline silicon surfaces
+:doctype: mise-en-pratique
+:parent-document: si-brochure.adoc
+:committee: Consultative Committee for Time and Frequency
+:docstage: 60
+:docsubstage: 60
+:imagesdir: images
+:docfile: metre-mep-3.adoc
+:mn-document-class: bipm
+:mn-output-extensions: xml,html,doc,pdf,rxl
+:local-cache-only:
+:data-uri-image:
+
+
+== Overview
+
+The purpose of this document is to develop CCL/WG-N guidance for the use of monoatomic steps of crystalline silicon surfaces as a pathway for traceability to the SI unit of metre for dimensional, molecular and biological applications at the nanoscale. Most of the work described here is an outcome of the European Metrology Research Programme Project Crystal <<euramet>>.
+
+
+== Current state of the art for step height calibration standards
+
+High precision displacement metrology is used in so-called metrological atomic force microscopes (MAFMs) for the calibration of 1D and 2D grating standards in the micrometre and nanometre range. In particular, for AFMs with larger scanning ranges measuring over a large number of identical grating structures, the achievable uncertainties for mean pitch measurements are in the picometre range. However, measurements of distance between two lateral positions or between two planes separated vertically (step height) is limited to sub-nanometre uncertainty. Contributions arise from the non-linearity of the displacement interferometer, the Abbe offset, the surface roughness, waviness or probe-sample interactions. The smallest step height realized in a commercially available step height standard based on a silicon dioxide (SiO~2~) layer on silicon (Si) is in the range of 6 nm. However, the uncertainty of such SiO~2~/Si step height standards is rather large with stem:[u(k = 1)] around 0.5 nm <<wgdm>>, compared to the resolution of the AFM. Therefore, the available uncertainty for step height standards currently limits the achievable measurement uncertainty for height measurements of features of interest in clearly resolved AFM images of for example, single-walled and multi-walled carbon nanotubes, (SW-CNT, MW-CNT), molecules, Bucky balls, polymers, thin films and DNA lying on flat surfaces.
+
+There is therefore a need for new standards to overcome this limit. Standards which show finer steps or structures, and whose size can be related to a natural constant with a small uncertainty are needed. Crystalline surfaces have both, a fixed distance between atoms in the surface of a given crystallographic orientation, a so-called natural constant, and in vertical direction steps between sets of crystallographic planes. The spacings between monoatomic steps formed from families of crystallographic planes are in the useful range between 0.1 nm to 0.3 nm. The specific emphasis of this document is on the use of monocrystalline silicon with surfaces with {111} and {100} orientation as a metrological reference for height measurement of localized nanostructures. Note that in surface science investigations refer to the (001) orientation, whereas in the semiconductor industry reference is made to the (100) plane, but from the point of view of this document, they are equivalent. The height of monoatomic steps can be traced back to distances between atoms in the bulk crystal in the same direction. However, the most critical point is to assign to such a step height a realistic measurement uncertainty taking into account some special conditions related to surfaces.
+
+
+== Experience
+
+=== Background - the bulk value of Si unit cell stem:[d_{220}]
+
+The lattice constant of silicon has been determined on bulk silicon crystals with very small uncertainty down to stem:[10^{-8}] or less by using optical interferometry combined with x-ray interferometry <<andreas>>. Up to now all of the measurements performed are in good agreement <<mohr>>. For measurement in the nanometre region alone, the Si lattice spacing can be regarded as a natural constant <<andreas>> with a known uncertainty.
+
+
+== Crystalline surfaces under UHV conditions
+
+Clean crystalline surfaces, _i.e._ free of oxygen and other contamination,
+can be produced under ultrahigh-vacuum (UHV) conditions. Under such conditions the atoms of the clean surface can relax or
+reconstruct themselves, because there are no atoms above them, which would constrain the atoms to
+the normal positions in a bulk lattice _i.e._ multiples of the unit cell configurations. Therefore, surface
+atoms arrange in a periodic manner to build a so-called surface unit cell, which is representative for
+the whole ideal surface.
+
+Therefore, it is reasonable to investigate the real/true value of the lattice distance at surfaces in both
+directions, laterally and vertically. Atoms on a clean surface in UHV have free electron bonds, which
+are energetically unfavourable. This condition can be improved by a rearrangement or reconstruction
+of the atoms on the surface layer. On the other hand, this could introduce some stress or strain
+between surface layers and the bulk crystal, thereby affecting the lattice spacing at the surface.
+
+After removal of the native oxide by heating in UHV, and in the case of Si surfaces the (111) shows a
+stem:[7 xx 7] reconstruction). '`stem:[7 xx 7]`' means that in each direction the surface unit cell is a factor of 7 larger than
+it would be estimated from the bulk value. Here six adatoms building the upmost surface layer reduces
+the number of free bonds of the underlying Si-atoms as shown in <<fig-1>>.
+
+
+[[fig-1]]
+.Image of the Si(111) stem:[7 times 7] surface as obtained by STM into the unfilled states of the Si surface. The size of the unit cell is indicated.
+image::metre/mep-3/fig-1.png[]
+
+
+In this image only the adatoms lying on the surface are shown, which can be detected by scanning
+tunnelling microscopy (STM) <<binnig>> and atomic force microscopy (AFM) <<giessibl>>. Beyond this layer, the atoms
+are arranged in the stem:[7 xx 7] structure, including a stacking fault. The whole stem:[7 xx 7] surface unit cell of Si(111)
+is explained by the DAS model <<takayanagi>> <<qian>>. If the Si(111) surface is carefully prepared in UHV, the same
+arrangement of atoms is obtained on all terraces which also are separated by a monoatomic step or
+multiple steps. Therefore, the terraces are physically identical and the step heights between successive
+terraces are either identical or multiples of the lattice spacing.
+
+In the case of the Si(100) surface, two nearby atoms share the electrons in the form of dimers. The
+surface unit cell is a stem:[2 times 1], the direction of the dimers changes from terrace to terrace (see <<fig-2>>) by
+90°.
+
+
+[[fig-2]]
+.Si(100) stem:[2 xx 1] surface with a monoatomic step of 0.13 nm. Two unit cells indicated on the lower and one on the upper plane rotated by 90°.
+image::metre/mep-3/fig-2.png[]
+
+
+Steps are created in the annealing process to remove the oxygen layer on the top surface. The number of steps formed is arbitrary and depends on misorientation of the prepared surface with respect to the crystallographic planes and the annealing process. Direct current heating of a sample can induce step bunching if the electric field is applied in the wrong direction <<homma>> <<yang>>. Nevertheless, owing to symmetry considerations, the first estimate of the spacing between two successive surface lattice planes must be close to the bulk value, _i.e._ stem:[d_{111}] = 0.313 nm for Si(111) and stem:[d_{100}] = 0.134 nm for Si(100) surfaces (<<fig-3>>).
+
+
+[[fig-3]]
+.Atomically resolved Si(111) - stem:[7 xx 7] surface showing two monoatomic steps in UHV.
+image::metre/mep-3/fig-3.png[]
+
+Under UHV conditions the step of a clean Si(111)-stem:[7 xx 7] surface is used for validation of the calibration of piezo actuators in high-resolution instruments, such as STM and AFM. However, for this step height a larger uncertainty must be taken into account than in the case of lattice planes in the bulk crystal owing to effects caused by the rearrangement of atoms at surfaces and stress or strain effects.
+
+
+=== Preparation of atomically flat regions and monoatomic steps on Si(111) in UHV
+
+Several groups have investigated the preparation of nearly step-free surfaces on Si wafers <<hibino>> <<tanaka>>. Homma _et al._ <<hibino>> have presented a method based on a pre-structured Si(111) wafer. Square shaped craters with 150 x 150 stem:[mu "m"^2] in size and an initial depth of 1 μm were etched in the silicon surface. Afterwards an annealing under UHV conditions formed single atomic steps within the pre-structured craters. The surfaces were investigated using a scanning electron microscope (SEM). A temperature-dependence of step spacing was found and could make the contrast between stem:[7 xx 7] and 1x1 reconstructed areas clearly visible. The largest step-free areas were terraces with a width of approximately 30 μm. Blakely and his co-workers have done similar experiments and also investigated the change of the morphology of stepped surfaces due to oxidation with AFM <<oliver>>. They found that the oxidation of Si, _i.e._ the change of the Si surface to SiO~2~, does not change the steps. They assume that the oxidation of Si is dominated by a lateral growing. Fissel _et al._ <<fissel>> have presented a method to prepare large step-free areas on pre-structured plateaus on a Si(111) wafer surface. They have used molecular beam epitaxy (MBE) as a silicon growing process to smooth the surface of different sized plateaus from 8 stem:[times] 8 stem:[mu "m"^2] up to stem:[15 xx 15] stem:[mu "m"^2]. Depending on the temperature during silicon growth they obtained either complete step-free areas or areas with several single steps. A closer examination of a prepared step-free surface using an AFM has sometimes revealed surface artefacts; triangular voids and islands with a lateral width of 100 nm and a depth, or height respectively, of just one atomic silicon bilayer.
+
+Other groups have worked on Si(100) surfaces which are also pre-structured with 2D-patterns based on etched grating structures or etched trenches to prepare single atomic steps <<li>> <<ignatescu>>.
+
+By improved preparation techniques, recently <<ignatescu>> also larger step-free areas on Si(111) surfaces could be realized, see <<fig-4>>.
+
+
+[[fig-4]]
+.Optical images of a) a step-free region, b) staircase and c) amphitheatre-like arranged steps.
+image::metre/mep-3/fig-4.png[]
+
+
+These images are obtained by a special procedure using laser-scanning confocal microscopy (LSCM) to get a quick overview of interesting parts of the sample. Additionally, such selected regions of the samples have been checked by AFM to validate step-free and undisturbed monoatomic step regions.
+
+In the following section, the main features of the production of atomic terraced surfaces are described. The essential process steps are defined and described, but without in-depth details of the technical and plant-specific production process. This process results in larger step-free regions of about 100 μm in size, in regions with terraces in the micrometre range separated by monoatomic steps in a staircase or in an amphitheatre-like structure. A corresponding detailed description of the production can be found, for example, in <<busch>>. Therein more details are given about deviation which occurs due to insufficient preparation of the Si surface. This includes two procedures for the calibration of instruments by using Si monoatomic steps as indicated in Fig 5. More details are given in <<garnaes>>.
+
+<<fig-5>> shows in detail the so-called amphitheatre structure. It is essential for the improvement of calibrations of the vertical axis of AFMs due to the underlying crystal structure of the terraces. All areas of a terrace are on one level. Therefore, the orientation of the AFMs can be significantly improved during measurement and evaluation.
+
+
+[[fig-5]]
+.Image of a so-called amphitheatre structure (above) and the schematic representation of the underlying crystalline structure.
+image::metre/mep-3/fig-5.png[]
+
+
+
+== Practical Implementation
+
+=== Preparation of Si(111) samples with monoatomic steps and step-free regions
+
+The aim of producing atomically smooth or atomically stepped surfaces is to continue the single crystal structure present in the underlying crystalline bulk crystal to the surface without interference. The starting point is therefore a monocrystalline silicon wafer with the desired mesh plane at the cut surface. In the following, the Si (111) mesh plane is considered. The starting material should have a miscut angle as close as possible to zero footnote:[Due to production limitations, even wafers with miscut angle of 0° have a remaining misalignment of a few arcminutes with random orientation. However, this is negligible for the manufacturing process.] and should have a low doping concentration. The crystal lattice in the volume of the wafer is undisturbed and with the use of high-quality starting materials, large-scale crystal defects such as dislocations, swirls, etc. can be ruled out. The concentration of
+localized crystal defects, such as voids, interstitial atoms, foreign atoms is so low in the wafer qualities available on the market that they can be neglected for further processing.
+
+=== Sample preparation
+
+The following five process steps are required for the preparation of suitable samples:
+
+. Thermal oxidation
+. Lithography for lateral structuring
+. Sample cleaning
+. Annealing in UHV
+. Optical characterization
+
+The first two steps are for general sample preparation.
+
+The second part of the production (steps 3 and 4) is then used directly to generate the sub-nanometre steps in a self-organized process, _i.e._ the undisturbed continuation of the bulk crystal lattice up to the sample surface is achieved by a combined diffusion and attachment process of silicon atoms to the underlying crystal lattice.
+
+During the various process steps, rigorous quality management must ensure that no contamination of the samples occurs. In particular, contamination with nanoparticles must be avoided as they cannot be removed without damage to the sample surface. <<fig-6>> shows an example of a Si surface with a pattern, the sample during annealing and the image obtained by LSCM on an annealed pattern on the Si(111) surface.
+
+
+[[fig-6]]
+.Steps showing the Si samples preparation. a) after oxidation and e-beam lithography with stem:[5 xx 5] fields, b) during annealing at high temperature in UHV, c) image on one field obtained by LSCM.
+image::metre/mep-3/fig-6.png[]
+
+
+*1: Oxidation*
+
+An oxide layer is needed to produce pits of the desired size in which at the bottom, an oxygen-free surface can be generated and on which diffusion of Si atoms is possible. Native silicon dioxide on typical wafer is too thin to act as thermal protection layer for the sample. Therefore, a thicker thermal oxide layer has to be grown on the surface, because the melting point for SiO~2~ is much higher than for Si. The thickness of the oxide layer should be at least 100 nm. Good experiences are obtained with a 300 nm SiO~2~ layer. The smallest lateral structure size of the pits generated in this step is in the ten-micrometre range. Accordingly, no high-resolution structuring process is required here.
+
+
+*2: Lithography for lateral structuring*
+
+A photoresist is applied to the wafer to generate a useful pattern of pits etched partly into the SiO~2~ layer. In the exposed (optical or e-beam lithography) areas, the thermal oxide layer is removed by reactive ion etching, leaving a very thin oxide layer (t = 1 … 5 nm) at the bottom of the pits. The pit surrounding thick SiO~2~ layer acts as a thermally protective layer to prevent Si evaporation. At the bottom of the pit, which is free from oxygen, Si atoms can diffuse to produce atomically smooth or terraced surfaces.
+
+After the structuring of the wafer has been completed, it is assembled, since in the subsequent UHV process only sample sizes of small dimensions, typically between 5 and 10 mm, can be processed. In particular, the sawing of the wafer is a considerable source of nanoparticulate impurities (essentially Si nanoparticles (Si-NP)). Therefore, suitable measures (use of protective varnish) must be taken before sawing to avoid a corresponding contamination of the sample surface. Simple removal of the protective lacquer by dissolving it in acetone leads to NP contamination again, as the Si-NP do not dissolve and subsequently adhere to the Si surface again. An additional treatment of the sample in a plasma asher before washing it in acetone is suitable to avoid the contamination from sawing.
+
+
+*3: Sample cleaning*
+
+Immediately before the ready-made and structured sample blanks are transferred to the UHV chamber, they are subjected to multi-stage cleaning in an ultrasonic bath. This cleaning cycle starts with a bath for approx. 10 minutes in a basic cleaning solution, followed by a short dip in deionized water and a two-minute bath in deionized water. The final step is a two-minute bath in pure ethanol. All cleaning steps are carried out at 60°C with ultrasonic assistance.
+
+This cleaning step achieves two objectives: 1.) During the storage of the sample unavoidable contaminations (hydrocarbons etc.) are reduced as far as possible and 2.) the SiO~2~ surface of the sample is preconditioned by immersion in a bath of the basic cleaning solution in order to simplify the evaporation of this layer and the release of Si atoms during the annealing process.
+
+
+*4: Annealing under UHV conditions*
+
+The Si sample is fixed on a tantalum holder and transferred into an UHV chamber. After reaching a base pressure of better than stem:[1 times 10^-9^] mbar an annealing process starts.
+
+The sample can be heated with e.g. an electron beam heater (as shown in the example (<<fig-6>>b)). The required heating power is applied to the back of the sample with an electron beam. With this type of heating, however, structure formation on both sides is not possible. Alternatively, a direct current heating can also be carried out, in which the required heating power is transferred by a current flowing transversal through the sample. In this case, it is also possible to generate atomic steps on the top and bottom of the sample.
+
+A typical temperature profile is shown in <<fig-7>>. There are three regions which are important for further cleaning, removing of the residual thin oxide layer at the bottom of the cavities (1), flattening
+of oxygen free region by diffusion (2), and last but not the least a carefully transition from the high-temperature 1x1 phase to the stem:[7 xx 7] structure at around 850 °C (3).
+
+
+[[fig-7]]
+.Schematic of the temperature profile for annealing Si samples. The first temperature ramp is a further cleaning step in which the sample is cleaned of remaining foreign atoms (1). While holding the sample at approx. 900°C (section 2), the Si surface lattice is reconstructed into a stem:[7 xx 7] structure. In the course of the last temperature ramp, the terraces or atomically smooth areas are formed by self-organization (3).
+image::metre/mep-3/fig-7.png[]
+
+
+First, a further cleaning of the sample is achieved by two temperature steps. One at ~600 °C to remove water from the surface, and a temperature ramp up to T ≈ 1200°C to remove the residual thin oxide layer (sublimation of SiO in high vacuum) at the bottom of the produced cavities. It is important that during these steps the pressure remains below stem:[1 times 10^{-9}] mbar, otherwise residual hydrocarbons can contaminate the silicon surface and distort the needed diffusion process. In the second section, the sample is kept at a constant temperature of approximately 900°C for several hours to allow Si atoms to diffuse on the surface and to smooth the originally rough silicon surface at the bottom of the cavities. In the third phase the sample is cooled down. Here an important point is to do this slowly enough at approximately 850 °C where the high temperature "`1x1`" phase changes to the stable stem:[7 xx 7] phase <<lin>>. If this cooling is too fast the remaining "`1x1`" phase areas show a different height compared to the stem:[7 xx 7] regions. This height change can be detected by a high resolution AFM scan but will influence a step height calibration. Other deviations which are caused by wrong annealing are meander like structures and in some cases, chains of silicon atoms lying on the surface. Whereas the first has an effect on step height calibration, the effect due to the latter is insignificantly small.
+
+Such carefully prepared Si samples and their monoatomic steps can be used directly in UHV for calibration of an AFM and for STM with precise positioning control.
+
+
+*5: Optical inspection and use in air*
+
+In the case of an outward transfer of the sample to air, the sample will be brought by transfer chambers in which dry nitrogen is used to interact with the pure Si surface. During the transfer time a native oxide layer is grown which protects the Si. With a thickness of 1-2 nm, this oxide layer is sufficiently thin and at the same time homogeneous to maintain the structure of atomic steps generated earlier. It also stabilizes the samples in the long term. Sample stability over several months was demonstrated, individual samples produced at the Physikalisch-Technische Bundesanstalt (PTB) could even be successfully stored over several years for their use <<yacoot>>. However, during storage care should be taken to avoid contamination of the surface.
+
+In air confocal laser scanning microscopy can be used to detect the monoatomic steps and to indicate cavities with appropriate structures for the calibration (see <<fig-6>>c). At the bottom of the pits, areas with atomically smooth regions, staircases or amphitheatre-like arrangement of steps can typically be obtained. Details are described in <<busch>>.
+
+
+=== Use of monoatomic Si steps for the calibration of instruments
+
+Metrological investigations of Si steps are mainly done in air, because the metrology instruments are usually not compatible with UHV conditions. However, during the EMRP project "`Crystal`" the PTB started to equip a UHV-STM with a high resolution interferometer for traceable investigations of surfaces under UHV conditions <<yacoot>>.
+
+For the analysis of the steps it is necessary to differentiate between the staircase and the amphitheatre arrangement of monoatomic steps. Garnaes _et al._ could show that in the case of a low number of steps (~ 5 – 7) the amphitheatre arrangement has some advantages <<garnaes>>. Therefore, we present a more detailed analysis procedure for the amphitheatre arrangement in this guide. Improved instruments and a high number of steps are helpful to reduce the claimed uncertainty for monoatomic steps.
+
+
+. Staircase arrangement of steps
++
+--
+The first investigations by metrological AFM in air were made on single-sided atomic steps (Figures 2 and 3) combined with small terraces, only <<tsai>> <<fu>>. However, the length of the terraces used was less than 100 nm, therefore the determination of the step height critically depends on the guidance deviation of the instruments and on the base length of the Si terraces between monoatomic steps, and the used algorithms. The measured step height values are close to d111 = 0.313 nm with a small measurement uncertainty. However, most of the steps are limited to small terrace lengths, _i.e._ 30 nm to 100 nm, which is too small to be useful for other instruments than AFM, e.g. optical microscopes. Furthermore it is necessary to apply a correction to take into account any tilt of the steps. This is much easier with larger terraces and amphitheatre like structures described below. Details necessary for the analysis and use of the Si step heights in <<table-1>> on page 12 are given in <<yacoot>>.
+--
+
+. Amphitheatre arrangement of steps
++
+--
+In this case the symmetrical analysis routines described in ISO 5436-1 <<iso5436>> and ISO 25178-70 <<iso25178>> can be applied. An example is shown in <<fig-8>>.
+--
+
+[[fig-8]]
+.Amphitheatre-like arrangement of steps and use of an evaluation in analogy to ISO 5436 to determine the step height (from J. Garnaes, DFM)
+image::metre/mep-3/fig-8.png[]
+
+
+The image shows on both sides of a flat inner part a monoatomic step and terrace. The line sections superimposed on the profile in <<fig-8>> shows which parts of the profile are used for the analysis: the part in the flat region at the centre of the bottom and the parts at the terraces of the monoatomic steps. The transition range is excluded. The large terraces in the micrometre range generated by the procedure described above are advantageous for an improved averaging of data of the same level. Such large smooth regions can thus be used to show deviations of the scanning instrument on a nano- and sub-nanometre scale.
+
+Typical scanning systems based on piezoelectric actuators show deviation due to non-ideal behaviour of the actuator. Although systems with additional position control and feedback systems offer improved positioning control, they still show position errors due to pitch, yaw and roll errors <<klapetek>>. Furthermore, all positioning systems including laser interferometer control show deviations from linearity, _i.e._ non-linearity effects. Additional deviations are caused by fluctuations in environmental conditions. In the case of sophisticated instruments, such deviations can be in the sub-nanometre range, but can be detected on the smooth regions of a large step-free crystalline surface. Due to the properties of the bonding of atoms it can be assumed that over regions of 100 μm such a surface should be flat and any deviation from flatness will be much smaller than deviations of current scanning systems or positioning controls. Therefore, the calibration procedure for small step height should include detection scanner deviation during the procedure to allow a good calibration. However, if the deviations of the scanning system are too big, _i.e._ in the nanometre range or if the deviations are not stable, a calibration of the vertical axis using the silicon steps is not helpful.
+
+J. Garneas _et al._ <<garnaes>> has used an amphitheatre-like structure to determine the deviation of the scanner and has fitted the deviation by a polynomial of second and higher order. <<fig-10>> shows results of this analysis.
+
+
+[[fig-10]]
+.Use of a polynomial fit to correct for scanner deviations by J. Garnaes [to be published]. Here a polynomial of fourth order was sufficient. Result of 4th order: dcor = (0.3137 ± 0.0038) nm, that is, u(dcor) = 1.2 %.
+image::metre/mep-3/fig-10.png[]
+
+
+Once the steps are localized, the height of the measured steps is estimated using a least squares procedure. The latter assumes a model that aims to describe all the features captured with the AFM, except the intrinsic noise of the measurement. The well-known value of the lattice spacing associated with the step standards makes it possible to establish a model with very well-defined properties:
+
+* Atomic step heights are invariant, and thus, all the measured steps must have the same height.
+
+* Flat plateaus between steps. This means that any tilting in the measured profile comes from incorrect leveling of the sample, contamination of the sample (e.g., oxide layers) or nonlinearities of the microscope.
+
+Based on these two properties, it is possible to formulate the following parametric model:
+
+[stem%unnumbered]
+++++
+hat y = nh + c_0 + c_1 x + c_2 x^2 + c_3 x^3 + ... + c_p x^p = nh + sum_{k=0}^p c_k x^k
+++++
+
+where stem:[h] is the step height, stem:[n] is an integer that accounts for the jumps between steps relative to the lowest plateau, and the polynomial with coefficients stem:[c_k] accounts for other effects such as incorrect leveling of the sample and nonlinearities of the microscope. The residual between the measured data and the model is then defined as follows
+
+[stem%unnumbered]
+++++
+R^2 = sum_{i=1}^N (y_i - hat y_i)^2
+++++
+
+where stem:[N] is the total number of data points used in the fit. Note that model points stem:[hat y_i] from different plateaus will have different values of stem:[n]. The edges between steps shall not be included in the fit, as they would increase the highest order (stem:[p]) of the polynomial significantly. The least squares procedure minimizes the sum of the residuals by solving the following equations:
+
+[stem%unnumbered]
+++++
+{del R^2} / {del h} = 2 sum_{i=1}^N (y_i - hat y_i) {del hat y_i} / {del h} = 2 (- sum_{i=1}^N y_i x_i^k + sum_{i=1}^N hat y_i x_i^k) = 0
+++++
+
+[stem%unnumbered]
+++++
+{del R^2} / {del c_k} = 2 sum_{i=1}^N (y_i - hat y_i) {del hat y_i} / {del c_k} = 2 (- sum_{i=1}^N y_i x_i^k + sum_{i=1}^N hat y_i x_i^k) = 0 " for " k = 0,1,2,...,p.
+++++
+
+This system of (stem:[p+2]) equations gives the best possible solution in a least squares sense.
+
+More information can be found in <<busch>>.
+
+For the microscope used in his study, the artifacts could be estimated using a 4^th^ order polynomial or higher. Taking into consideration the theoretical value of a Si(111) atomic step and using a fit percentage of 75%, the best results are achieved with a 5^th^ order polynomial, with a standard uncertainty of 1 pm.
+
+
+== Position Statement of CCL/WG-N
+
+. CCL/WG-N believes that Si samples with large step-free areas and areas with monoatomic steps and broad terraces are very useful for the detection of scanner deviations and for the calibration of the vertical axis of instruments used for applications in dimensional nanometrology.
+
+. If monoatomic steps on Si samples are prepared in an appropriate manner the vertical axis can be made traceable to the SI metre through reference values of the silicon step height given in
+<<table-1>>. Whereas, there is enough experience for the use of Si(111) and Si(100) under UHV conditions and Si(111) in air, further experiments on Si(100) in air are recommended.
+
+. WG-N believes that for the step height value a larger uncertainty has to be used instead of the very small uncertainty for bulk values. Reasons are related to unknown stress or strain effects and due to unknown effects due to oxidation. The use of improved instruments in future can lead to a further reduction of the stated uncertainty.
+
+. WG-N has a responsibility to promote good measurement practice and SI traceability in dimensional nanometrology and thus proposes, after further development of
+
+
+== Recommendations of CCL/WG-N for use of flat and stepped silicon surfaces
+
+The CCL/WG-N recommends the use of the silicon lattice parameter for the calibration of the normal scan axes of high-resolution instruments in surface metrology. Depending on their crystallographic orientation, the following values (see <<table-1>>) should be used for the distance between adjacent monoatomic steps.
+
+
+[[table-1]]
+.Recommended values for the silicon monoatomic step height
+[cols="3",options="header"]
+|===
+| 2+| silicon monoatomic step height
+a| Surface orientation +
+Lattice parameter
+a| under UHV +
+/pm 
+a| in air +
+/pm
+
+| stem:[d_{100}] | 135 (5) | 135 (15)
+| stem:[d_{111}] | 313 (5) | 313 (15)
+
+|===
+
+
+
+The uncertainty given in the parenthesis is the expanded uncertainty (stem:[k = 2]). Details about the sources of uncertainty are given <<garnaes>>.
+
+The useful range of Si steps for the calibration of surface measuring instruments is limited to heights below 10 nm. Further research in the manufacturing processes of the monoatomic silicon step height standards might in future allow to increase this calibration range and allow a further reduction of the measurement uncertainty of monoatomic Si steps.
+
+
+[bibliography]
+== References
+
+* [[[euramet,1]]] https://www.euramet.org/research-innovation/search-research-projects/details/?eurametCtcp_project_show%5Bproject%5D=1186&eurametCtcp_project%5Bback%5D=472&cHash=5e49a3a1777470c078779d2845444a0b
+
+* [[[wgdm,2]]] WGDM-7 Preliminary Comparison on nanometrology according to the rules of CCL key comparisons https://www.bipm.org/utils/common/pdf/final_reports/L/S2/CCL-S2.pdf
+
+* [[[andreas,3]]] Andreas B _et al._, "`Determination of the Avogadro constant by counting atoms in a 28Si crystal`", Phys. Rev. Lett. 106 (2011) 030801. https://doi.org/10.1103/PhysRevLett.106.030801[DOI: 10.1103/PhysRevLett.106.030801]
+
+* [[[mohr,4]]] Mohr P J, Taylor B N, and Newell D B, "`CODATA recommended values of the fundamental physical constants: 2010`", Rev. Mod. Phys. 84 (2012) 1527-1605. https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.84.1527[DOI: 10.1103/RevModPhys.84.1527]
+
+* [[[binnig,5]]] Binnig G, Rohrer H, Gerber Ch, and Weibel E, "`stem:[7 xx 7] reconstruction on Si(111) resolved in real space`", Phys. Rev. Lett. 50 (2) (1983) 120–123. https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.50.120[DOI: 10.1103/PhysRevLett.50.120]
+
+* [[[giessibl,6]]] Giessibl F J, "`Atomic resolution of the silicon (111)-(stem:[7 xx 7]) surface by atomic force microscopy`", Science 267 (1995) (5194) 68–71. https://doi.org/10.1126/science.267.5194.68[DOI: 10.1126/science.267.5194.68]
+
+* [[[takayanagi,7]]] Takayanagi K, Tanishiro Y, Takahashi M, and Takahashi S, "`Structural analysis of Si(111)-7x7 by UHV-transmission electron diffraction and microscopy`", J. Vac. Sci. Technol. A 3 (3) (1985) 1502–1506. https://doi.org/10.1116/1.573160[DOI: 10.1116/1.573160]
+
+* [[[qian,8]]] Qian G-X, Chadi D J, "`Si(111)-7x7 surface: Energy minimization calculation for dimer-adatom-stacking-fault model`", Phys. Rev. B 35 (1987) 1288. https://doi.org/10.1103/PhysRevB.35.1288[DOI: 10.1103/PhysRevB.35.1288]
+
+* [[[homma,9]]] Homma Y, McClelland R, Hibino H, "`DC-Resistive-Heating-Induced Step Bunching on Vicinal Si (111)`", Jpn. J. Appl. Phys. 29 (1990) L2254—L2256
+
+* [[[yang,10]]] Y.-N. Yang, E. Fu, E. Williams, “An STM study of current-induced step bunching on Si(111)“, Surf. Sci. 356 (1996) 101-111
+
+* [[[hibino,11]]] Homma Y, Hibino H, Ogino T, and N Aizawa N, "`Sublimation of the Si(111) surface in ultrahigh vacuum`", Phys. Rev. B 55 (16) (1997) R10237. DOI: 10.1103/PhysRevB.55.R10237
+
+* [[[tanaka,12]]] Tanaka S, Umbach C C, Blakely J M, Tromp R M, and Mankos M, "`Fabrication of arrays of large step‐free regions on Si(001)`", Appl. Phys. Lett. 69 (9) (1996) 1235. https://aip.scitation.org/doi/10.1063/1.117422[DOI: 10.1063/1.117422]
+
+* [[[oliver,13]]] Oliver A C, Blakely J M, "`Thin SiO~2~ layers on Si(111) with ultralow atomic step density`", JVST B 18 (2000) 2862. DOI: 10.1116/1.1320804
+
+* [[[fissel,14]]] Fissel A, Krügener J, and Osten H J, "`Preparation of large step‐free mesas on Si(111) by molecular beam epitaxy`", Phys. Status Solidi C 9 (10-11) (2012) 2050. DOI: 10.1002/pssc.201200139
+
+* [[[li,15]]] Li K, Pradeep N, Chikkamaranahalli S, Stan G, Attota R, Fu J, and Silver R, "`Controlled formation of atomic step morphology on micropatterned Si (100)`", J. Vac. Sci. Technol. B 29 (4) (2011) 041806. https://avs.scitation.org/doi/10.1116/1.3610955[DOI: 10.1116/1.3610955]
+
+* [[[ignatescu,16]]] Ignatescu V and Blakely J M, "`Morphological evidence for surface pre-melting on Si(111)`", Surface Science 601 (23) (2007) 5459 – 5465. https://linkinghub.elsevier.com/retrieve/pii/S0039602807009211[DOI: 10.1016/j.susc.2007.09.013]
+
+* [[[busch,17]]] Busch I _et al._, Self-organized dimensional standards for Nanometrology – About the production of Si(111) surfaces with single atomic steps for step height measurements. to be published
+
+* [[[garnaes,18]]] Garnaes J _et al._ Investigations about the use of Si monoatomic steps for the calibration of instruments, to be published
+
+* [[[lin,19]]] Lin J L, Petrovykh D Y, Viernow J, Men F K, Seo D J, and Himpsel F J, "`Formation of regular step arrays on Si(111)-7x7`", J Appl Phys 84 (1998) 255
+
+* [[[yacoot,20]]] Yacoot A, Koenders L, and Wolff H, "`An atomic force microscope for the study of the effects of tip sample interactions on dimensional metrology`", Meas. Sci. Technol. 18 (2007) 350-359 https://doi.org/10.1088/0957-0233/18/2/S05[DOI: 10.1088/0957-0233/18/2/S05]
+
+* [[[ostermann,21]]] Ostermann J, Busch I, Flügge J, Koenders L, Lemmens P, Lenck O, Popadic R, "`Implementation of a metrological UHV-STM`", Proc. 16th euspen, Nottingham, May 2016, 125
+
+* [[[tsai,22]]] Tsai V W, Vorburger T, Dixson R, Fu J, Köning R, Silver R, and Williams E D, "`The study of silicon stepped surfaces as atomic force microscope calibration standards with a calibrated AFM at NIST`", AIP Conference Proceedings 449 (1) (1998) 839. DOI: 10.1063/1.56874
+
+* [[[fu,23]]] Fu J, Tsai V, Köning R, Dixson R, and Vorburger T, "`Algorithms for calculating single-atom step heights`", Nanotechnology 10 (4) (1999) 428. https://aip.scitation.org/doi/abs/10.1063/1.56874[DOI: 10.1088/0957-4484/10/4/312]
+
+* [[[iso5436,ISO 5436-1:2000]]] ISO 5436-1:2000 Geometrical Product Specifications (GPS) -- Surface texture: Profile method; Measurement standards -- Part 1: Material measures
+
+* [[[iso25178,ISO 25178-70:2014]]] ISO 25178-70:2014 Geometrical product specification (GPS) -- Surface texture: Areal -- Part 70: Material measures
+
+* [[[klapetek,26]]] Yacoot A, Klapetek P, Valtr M, Grolich P, Dongmo H, Lazzerini G M and Bridges A 2019 Design and performance of a test rig for evaluation of nanopositioning stages Meas. Sci. Technol. 30 035002 (10pp) https://doi.org/10.1088/1361-6501/aafd03[DOI: 10.1088/1361-6501/aafd03]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
