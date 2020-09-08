@@ -1,0 +1,178 @@
+= Realization of SI metre using silicon lattice and Transmission Electron Microscopy for Dimensional Nanometrology
+:appendix: 2
+:partnumber: 1
+:edition: 1
+:copyright-year: 2019
+:revdate: 2019-04-30
+:language: en
+:title-en: Realization of SI metre using silicon lattice and Transmission Electron Microscopy for Dimensional Nanometrology
+:title-fr: Realization of SI metre using silicon lattice and Transmission Electron Microscopy for Dimensional Nanometrology
+:doctype: mise-en-pratique
+:parent-document: si-brochure.adoc
+:committee: Consultative Committee for Time and Frequency
+:docstage: 60
+:docsubstage: 60
+:imagesdir: images
+:docfile: ccl-gd-mep-1.adoc
+:mn-document-class: bipm
+:mn-output-extensions: xml,html,doc,pdf,rxl
+:local-cache-only:
+:data-uri-image:
+
+
+== Overview
+
+The purpose of this document is to develop CCL/WG-N recommendations for
+the use of Transmission Electron Microscopy (TEM) and the reference value
+of the bulk silicon lattice constant as a pathway for traceability to the
+SI metre for applications in dimensional nanometrology. Displacement
+interferometry is the most traditional and widely used method of
+realizing traceability to the SI metre for dimensional metrology at all
+length scales. For those circumstances for which the uncertainty of a
+measurement is primarily sensitive to the accuracy of this displacement
+metrology, an additional link to the SI metre is not necessary. However,
+most probing techniques, from coordinate measuring machines (CMMs) at
+large scales to atomic force microscopes (AFMs) at the nanoscale, also
+have uncertainties related to the probe-specimen interaction. These
+uncertainties tend to be dramatically larger for those measurements for
+which this interaction is translationally asymmetric (_i.e._., opposite
+faces of a part or rising versus falling edges). Such measurements are
+usually classified as bidirectional in CMM metrology or as width
+measurements in AFM or scanning electron microscope (SEM) dimensional
+nanometrology. Therefore, the specific emphasis of this document is on
+the use of TEM as a reference metrology for linewidth measurement of
+localized nanostructures.
+
+
+== Background
+
+The lattice constant of silicon has been determined on bulk silicon 
+crystals with very small relative uncertainty down to stem:[10^{-8}] by 
+using optical interferometry combined with x-ray interferometry. Up to 
+the present all of measurements performed are in good agreement <<mohr>>.
+
+
+=== Dimensional Metrology Experience
+
+Since the early 2000s, at least two NMIs have experimented with using the known value of the bulk silicon lattice constant to establish traceability to the SI metre for dimensional nanometrology applications. Techniques such as x-ray scattering, can provide a link to the silicon lattice for certain measurands (notably, film thickness) that are defined over large sampling areas. However, for highly localized measurements of specific nanostructures, various forms of transmission electron microscopy (TEM) seem the most appropriate method of linking. During the last 15 years, both NIST and PTB have carried out significant efforts in dimensional nanometrology that relied on this approach.
+
+The NIST single crystal critical dimension reference material (SCCDRM) project has been a multi-generation effort to develop standards for linewidth metrology at and below the 100 nm size scale [2-4]. The goal of this project was to establish traceable width metrology of specific crystalline Si nanostructures. The measurand was localized – with unique mutual navigation indicators and equivalent sampling strategy, and only the native silicon oxide was present on Si structures.
+
+The general approach was to use critical dimension atomic force microscopy (CD-AFM) as a comparator between those structures that were cross-sectioned for TEM and the structures remaining intact. The
+limiting expanded uncertainty on transfer experiment was 0.6 nm (stem:[k = 2]). However, the standards distributed to users had expanded uncertainties (stem:[k = 2]) of between 1.5 nm and 2 nm.
+
+This overall approach and the use of TEM to achieve traceability were generally accepted within the dimensional nanometrology community – specifically within the semiconductor metrology field. Indeed, one commercial vendor of secondary standards for that industry implemented a similar approach to calibrate one of their products <<tortonese>>.
+
+More recently, PTB independently implemented a conceptually related methodology <<dai>>. Two important distinctions between the NIST and PTB efforts were that PTB used an in-house form of CD-AFM, rather than the commercially available version used at NIST <<martin>> <<schmitz>>. The PTB implementation of CD-AFM is based on a method known as vector approach probing (VAP) <<wolff>>. The PTB project also used a form of scanning TEM (STEM) to provide the TEM reference metrology. NIST relied primarily on high resolution TEM (HRTEM) – a full-field interference-based technique – with subsequent validation using STEM. Ultimately, the final uncertainties of the NIST and PTB implementations were nearly identical. However, consideration of possible outliers suggests that the PTB method can be potentially extended to even lower uncertainties.
+
+Even more recently, PTB has collaborated with a commercial standards vendor to develop a form of crystalline silicon linewidth standard that is commercially available <<zhu>>. Ultimately, this development affords the opportunity for other organizations, both NMIs and industrial customers to implement their own versions of a TEM transfer technique to bring lattice traceability to dimensional nanometrology. This may increase the importance of practical guidelines for this application from CCL and WG-N.
+
+
+=== Surface Analysis Experience
+
+In contrast to the dimensional metrology community, however, those NMI staff involved with the surface analysis and thin film characterization areas have a different experience and perspective on the suitability of using TEM for traceability to the SI metre. This is due partly to the CCQM experience during the same time period with two with comparisons of SiO~2~ thickness measurements: a pilot study P38 <<seah>> and a subsequent key comparison K32 <<unger>>.
+
+In the P38 study, multiple specimens were included with SiO~2~ thicknesses ranging from 1.5 nm to 8 nm. Regression analysis yielded slopes and intercepts for comparison between the measured and reference values. TEM calibrated to the Si lattice – through the commercial MAG*I*CAL sample <<mccaffrey>> – was one of the methods included in the study. However, the average TEM results were furthest from the reference (slope: 0.92 nm, intercept: 0.8 nm). In contrast, x-ray photoelectron spectroscopy (XPS) was the closest (slope: 1.045, intercept: 0.172). Due to the perceived performance limitations of TEM for this application, it was not included in the eventual K32 key comparison <<unger>>.
+
+Although TEM was used to measure length-dimensional quantities in both the P38 comparison (layer thickness) and the PTB and NIST linewidth standard projects (line width), there are some fundamental differences between the two applications. In the NIST and PTB efforts, the measurand was highly localized – the width of a specific structure at a specific location. Position markers were used for mutual navigation between AFM and TEM, and multiple measurements were used to help achieve equivalent sampling.
+
+In contrast, the film thickness measurand in the P38 study was the amount of SiO~2~ on a Si wafer expressed as layer thickness which is not a highly localized property, and the samples used in the P38 study did not have location-specific markers to ensure consistent navigation among the methods. Consequently, the reported results did not necessarily correspond to overlapping regions or sampling of the same size.
+
+One commonality between the applications is that both underscored the importance of considering of SiO~2~ /Si interface ambiguity, sample preparation/capping layer/thinning of layers, and carbonaceous contamination for any application of TEM in dimensional nanometrology.
+
+
+== Practical Implementation
+
+=== Requirements and Challenges
+
+It remains a challenging issue to accurately assign the feature edges in high resolution (S)TEM images, and this is of central importance in using TEM metrology to provide a traceable reference for dimensional nanometrology. The uncertainties in the feature edge locations directly impact the uncertainty of a width measurement. Generally, these uncertainties must be 1 nm or less in order to preserve a useful uncertainty in the final width calibration.
+
+The edge uncertainties are dependent upon multiple factors, including: (1) the nature of the original sample (_i.e._., crystallinity), (2) the performance of the sample preparation – including potential damage, annealing, and (3) the image-formation physics in the TEM.
+
+In order to directly obtain traceability through resolving the silicon lattice, a necessary requirement is that at least some portion of the sample material, ideally the primary target feature, must be mono-crystalline. For both the NIST and PTB projects this was the case. However, this requirement places considerable limitations on sample design and fabrication. The only comparable commercial implementation used an approach in which the primary target was poly-crystalline, but a nearby feature, which could be included in the same field-of-view (FOV) was mono-crystalline. Although it has been successfully implemented, this approach is partly dependent on a thorough understanding of the imaging performance and non-linearity of the TEM throughout its FOV. When the target feature is crystalline, only nonlinearity over the thickness of the oxide or other capping layer could contribute to the final uncertainty. In the case of an adjacent feature, the separation may be two orders of magnitude larger. In high-end TEM instrumentation, this is unlikely to be significant, but it would be practical consideration for those attempting to implement the approach with lower-end or less-characterized instruments.
+
+Another variant on the general approach was also implemented by PTB, referred to as the "`pitch method`" <<dai>>. The sample involved had a pair of target structures that could be observed within the TEM FOV. Prior to performing the TEM cross-section, the pitch of these features was measured using AFM. While AFM width measurements are highly dependent upon the tip width, pitch (unidirectional) measurements using AFM are sensitive primarily to scanner displacement. PTB used their metrological AFM, which has displacement interferometry incorporated into the scanner, to perform pitch measurements traceable to the SI metre. Since both of the features could then be observed within the same TEM FOV, it was thus possible to transfer the AFM traceability to the TEM scale and ultimately to the feature widths. The PTB experimental study demonstrated consistency between the pitch method and the silicon lattice approach to better than 0.3 nm <<martin>>. This approach eliminates the dependence on
+the silicon lattice to connect the TEM image scale to the SI metre. Therefore, it does not necessarily require monocrystalline target features. However, the issues of sample preparation, oxides, encapsulating layers, and edge definition still contribute to the uncertainties.
+
+To achieve low uncertainties, the definition of the "`edge-operator`" must be carefully considered and correspond well with the physical edge of the structure. Modeling of (S)TEM imaging processes in various measurement modalities such as TEM, EFTEM, BF STEM, DF STEM, HAADF STEM etc. as well as different measurement parameters is an important task, so as to relate the images to the "`real structure`". However, when complex modeling physics, such is used in SEM, is required, this can impact the uncertainties and the traceability.
+
+The initial appeal of TEM in the original NIST project was that it would substantially realize a lattice plane count across a target feature to measure the width. A monocrystalline target feature combined with lattice resolution meant that only a very basic edge operator was required for the underlying crystalline features and there was very little uncertainty about the width. The oxide layer and its interface with the encapsulating layer contributed more uncertainty. The image quality, however, made it possible to estimate these contributions without reliance on modeling physics to interpret the images.
+
+Pushing the general approach to a significantly lower uncertainty may well require complex edge operators and TEM image/signal interpretation, but this would also add an extra step in the traceability chain and introduce new sources of uncertainty.
+
+
+== Position Statement of CCL/WG-N
+
+. CCL/WG-N believes that TEM, in both full field and scanning instruments, is an important measurement technology for applications in dimensional nanometrology.
+
+. If appropriate practices are followed, dimensional measurements with TEM may be made traceable to the SI metre through reference to the silicon lattice.
+
+. The P38 study of CCQM does illustrate important limitations of TEM. However, these issues are more limiting for film thickness applications than for structural metrology as described here.
+
+. WG-N regards the localized metrology of micro and nano-structures as residing within the CCL and WG-N space. However, distributed properties such as film thickness fall within the spaces of both CCL and CCQM. Perhaps this might be an area of future cooperation between the two CCs.
+
+
+== Recommendations of CCL/WG-N for use of TEM in Traceable Dimensional Nanometrology:
+
+. The highly localized nature of TEM sample preparation and metrology render it more suitable for dimensional nanometrology of specific nanostructures as opposed to non-localized measurements such as film thickness.
+
+. Traceability to the SI metre may be realized through the use of specimens and techniques that permit the referencing of the TEM scale to the silicon lattice. Traceability of the TEM image scale may also be achieved through the PTB pitch method.
+
+. There are two major TEM contrast mechanisms and instrument types that are appropriate for the dimensional nanometrology regime: (A) High resolution TEM (HRTEM), and (B) high angle annular dark field scanning TEM (HAADF-STEM) [14, 15]. In a given application, each technique will have different strengths, but since both are capable of detecting the lattice periodicity either type of measurement could be made traceable.
+.. HRTEM is a coherent imaging technique in which the contrast is generated by interference between the transmitted and diffracted beams. The correspondence between the intensity of the fringes and the atomic sites is also dependent on the specimen thickness.
+.. HAADF-STEM is an incoherent scanning technique in which the detected signal is proportional to the intensity of the electrons scattered from each lattice site.
+
+. There are two broad cases for how SI traceability might be realized through the silicon lattice for a TEM measurement: (A) direct image calibration for cases in which all or a portion of the structure is crystalline Si, or (B) transfer calibration using a crystalline Si structure to calibrate the magnification for the target measurement.
++
+--
+. Direct image calibration for metrology of crystalline Si structures is probably more straightforward but is only applicable to crystalline Si structures. This was the method used by NIST, a commercial standards vendor, and PTB for TEM calibration of silicon linewidth standards [2, 5, 6].
+. Transfer calibration is more widely applicable but may result in larger measurement uncertainty. At least one commercial standard is available which could be used to implement this method. This standard itself also includes lower magnification (_i.e._., larger periodicity) structures that were calibrated using crystalline Si portion of the standard <<mccaffrey>>. Participants in the P38 comparison were able to use either or both methods. One participant observed a 0.2 % difference in scale calibration between the two approaches.
+
+An additional approach for realizing SI traceability for non-crystal structures is to use the pitch method where the metrological AFM and TEM techniques are applied in a combined manner. The metrological AFM offers traceable pitch results, which is transferred via the TEM to the CD results.
+--
+
+. Sample preparation is integral to TEM metrology. With either contrast mechanism or magnification calibration method, it is necessary to pay close attention to sample preparation to protect the integrity of the measured structure – including oxide – during specimen preparation.
+Major factors to be considered are the protective/encapsulating layers and the thinning process to achieve electron transparency.
+
+.. Encapsulating layers are often metallic, though epoxies are sometimes used. Metals commonly used, including for the P38 comparison, are Pt, Ti, Al, and Au. However, possible interactions between metallic layer and the oxide surface, which could modify the SiO~2~, should be considered. Contamination in the coating is also a possible concern. In the SCCDRM project, NIST used an initial Au-Pd coating with a Pt layer. The PTB project has included the investigation of different protection layers for the TEM sample preparation, and these results indicated that the best combination is an initial carbon coating followed by a Pt layer.
+.. The major methods of thinning are: (1) mechanical polishing, and (2) focused-ion beam (FIB) milling – typically using Ga and Ar ions. <<mayer>> During thinning there is the risk that thin layer of the specimen used for TEM, commonly referred to as a lamella, could be damaged by the ion beam – including the possibility of implantation. While it is expected that dramatic damage to the lamella would be readily observed in the TEM image, the possibility of induced stress or substitution defects, which could change the lattice spacing, should be considered carefully. In their own work, NIST and PTB believe the magnitude of such effects to be lower than the other uncertainties in their TEM measurements. But the potential for subtle effects should be further investigated and may be important in pushing the limits of this traceability transfer paradigm.
+.. For all methods, it is essential to realizing traceability that the measured feature – including oxide – remains intact with boundaries that can be clearly drawn in the final image. All of these preparation methods have been used successfully, but all have pitfalls that may generate unusable results. In most cases, however, the invalidity of the results will be apparent due to structural damage or the absence of a visible interfaces between the substrate and oxide or oxide and capping layer.
+
+
+[bibliography]
+== References
+
+* [[[mohr,1]]] Mohr P J, Taylor B N, and Newell DB, "`CODATA recommended values of the fundamental physical constants: 2010`", Rev. Mod. Phys., 84 (2012) 1527-1605. https://doi.org/10.1103/RevModPhys.84.1527[DOI: 10.1103/RevModPhys.84.1527]
+
+* [[[cresswell,2]]] Cresswell M, Guthrie W, Dixson R, Allen R A, Murabito C E, Martinez de Pinillos J V, "`RM8111: Development of a Prototype Linewidth Standard`", J. Res. Natl. Inst. Stand. Technol. 111 (2006) 187 – 203. https://nvlpubs.nist.gov/nistpubs/jres/111/3/V111.N03.A01.pdf
+
+* [[[dixson,3]]] Dixson R G, Allen R A, Guthrie W F, and Cresswell M W, "`Traceable calibration of critical-dimension atomic force microscope linewidth measurements with nanometer uncertainty`", J. Vac. Sci. Technol. B 23 (2005) 3028-3032. https://doi.org/10.1116/1.2130347[DOI: 10.1116/1.2130347]
+
+* [[[bogardus,4]]] Cresswell M W, Bogardus E H, Martinez de Pinillos J V, Bennett M H, Allen R A, Guthrie W F, Murabito C E, am Ende B A, Linholm L W, "`CD Reference Materials for Sub-Tenth Micrometer Applications`", Proc. SPIE 4689 (2002) 116 - 127. https://doi.org/10.1117/12.473450[DOI: 10.1117/12.473450]
+
+* [[[tortonese,5]]] Tortonese M, Lorusso G, Blanquies R, Prochazka J, and Grella L, "`Sub-50-nm isolated line and trench width artifacts for CD metrology`", Proc. SPIE 5375 (2004) 647-656. https://doi.org/10.1117/12.536812[DOI: 10.1117/12.536812]
+
+* [[[dai,6]]] Dai G, Heidelmann M, Kübel C, Prang R, Fuegge J, and Bosse H, "`Reference nano-dimensional metrology by scanning transmission electron microscopy`", Meas. Sci. Technol. 24 (2013) 085001. https://doi.org/10.1088/0957-0233/24/8/085001[DOI: 10.1088/0957-0233/24/8/085001]
+
+* [[[martin,7]]] Martin Y, Wickramasinghe H K, "`Method for Imaging Sidewalls by Atomic Force Microscopy`", Applied Physics Letters 64 (1994) 2498-2500. DOI: https://aip.scitation.org/doi/10.1063/1.111578[10.1063/1.111578]
+
+* [[[schmitz,8]]] Schmitz I, Osborn M, Hand S, and Chen Q, "`Improvement in metrology on new 3D-AFM platform`", Proc. SPIE 7122 (2008) 71222X. https://doi.org/10.1117/12.803581[DOI: 10.1117/12.803581]
+
+* [[[wolff,9]]] Dai G, Häßler-Grohne W, Hüser D, Wolff H, Fluegge J, and Bosse H, "`New developments at Physikalisch Technische Bundesanstalt in three-dimensional atomic force microscopy with tapping and torsion atomic force microscopy mode and vector approach probing strategy`", J. Micro/Nanolith. MEMS MOEMS 11 (2012) 011004 (2012). https://doi.org/10.1117/1.JMM.11.1.011004[DOI: 10.1117/1.JMM.11.1.011004]
+
+* [[[zhu,10]]] Dai G, Zhu F, Heidelmann M, Fritz G, Bayer T, Kalt S, Fluegge J, "`Development and characterisation of a new linewidth reference material`", Meas. Sci. Technol. 26 (2015) 115006. https://iopscience.iop.org/article/10.1088/0957-0233/26/11/115006[DOI: 10.1088/0957-0233/26/11/115006]
+
+* [[[seah,11]]] Seah M P, Spencer S J, Bensebaa F, Vickridge I, Danzebrink H, Krumrey M, Gross T, Oesterle W, Wendler E, Rheinländer B, Azuma Y, Kojima I, Suzuki N, Suzuki M, Tanuma S, Moon D W, Lee H J, Cho H M, Chen H Y, Wee A T S, Osipowicz T, Pan J S, Jordaan W A, Hauert R, Klotz U, van der Marel C, Verheijen M, Tamminga Y, Jeynes C, Bailey P, Biswas S, Falke U, Nguyen N V, Chandler-Horowitz D, Ehrstein J R, Muller D and Dura J A, "`Critical review of the current status of thickness measurements for ultrathin SiO~2~ on Si Part V: Results of a CCQM pilot study`", Surf. Interface Anal. 36 (2004) 1269-1303. https://doi.org/10.1002/sia.1909[DOI: 10.1002/sia.1909]
+
+* [[[unger,12]]] Seah M P, Unger W E S, Wang H, Jordaan W, Gross Th, Dura J A, Moon D W, Totarong P, Krumrey M, Hauert R, Zhiqiang M, “Ultra-thin SiO~2~ on Si IX: absolute measurements of the
+amount of silicon oxide as a thickness of SiO~2~ on Si”, Surf. Interface Anal. 41 (2009) 430-439. https://onlinelibrary.wiley.com/doi/abs/10.1002/sia.1909[DOI: 10.1002/sia.3045]
+
+* [[[mccaffrey,13]]]McCaffrey J P and Baribeau J-M, "`A transmission electron microscope (TEM) calibration standardsample for all magnification, camera constant and image-diffraction pattern rotationcalibrations`", Microscopy Research and Technique, 32 (5) (1995) 449-454. https://onlinelibrary.wiley.com/doi/abs/10.1002/sia.3045[DOI: 10.1002/jemt.1070320507]
+
+* [[[diebold,14]]]Diebold A C, Foran B, Kisielowski C, Muller D A, Pennycook S J, Principe E, and Stemmer S, "`ThinDielectric Film Thickness Determination by Advanced Transmission Electron Microscopy`",Microsc. Microanal. 9 (2003) 493–508. https://doi.org/10.1002/jemt.1070320507[DOI: 10.1017/S1431927603030629]
+
+* [[[orji,15]]]Orji N G, Dixson R G, Garcia-Gutierrez D I, Bunday B D, Bishop M, Cresswell M W, Allen R A, andAllgair J A, "`TEM Calibration Methods for Critical Dimension Standards`", Proc. SPIE 6518 (2007)651810-1-10. https://doi.org/10.1117/12.713368[DOI: 10.1117/12.713368]
+
+* [[[mayer,16]]]Mayer J, Giannuzzi L A, Kamino T, and Michael J, "`TEM Sample Preparation and FIB-InducedDamage`", Materials Research Society Bulletin, 32 (2007) 400-407. https://doi.org/10.1557/mrs2007.63[DOI: 10.1557/mrs2007.63]
+
+
