@@ -1,0 +1,81 @@
+
+== Unités en dehors du SI dont l’usage est accepté avec le SI
+
+Le SI fournit les unités de référence approuvées au niveau international en fonction
+desquelles toutes les autres unités sont définies. Les unités SI cohérentes ont l’avantage
+considérable de ne pas nécessiter de conversions d’unités quand on attribue des valeurs
+particulières aux grandeurs dans les équations aux grandeurs.
+
+Il est néanmoins reconnu que certaines unités en dehors du SI sont très utilisées et
+continueront selon toute vraisemblance à l’être pendant de nombreuses années. C’est la
+raison pour laquelle le CIPM a accepté que certaines unités en dehors du SI soient utilisées
+avec le SI: elles sont répertoriées dans le <<table-8>>. Lorsque ces unités sont utilisées, il faut
+bien comprendre que l’on perd certains avantages du SI. Les préfixes du SI peuvent être
+utilisés avec plusieurs de ces unités mais cela n’est pas possible, par exemple, avec les
+unités de temps en dehors du SI.
+
+[[table-8]]
+.Unités en dehors du SI dont l’usage est accepté avec le SI
+[cols="4",options="header"]
+|===
+| Grandeur | Nom de l’unité | Symbole de l’unité | Valeur en unités SI
+
+.3+| temps | minute | min | 1 min = 60 s
+| heure | h | 1 h = 60 min = 3600 s
+| jour | d | 1 d = 24 h = 86 400 s
+| longueur | unité astronomique footnote:[Décision de la XXVIII^e^ Assemblée générale de l’Union astronomique internationale (Résolution B2, 2012).] | au | 1 au = 149 597 870 700 m
+.3+| angle plan et de phase | degré | ° | stem:[1° = (pi//180)] stem:["rad"]
+|  minute | ′ | stem:[1' = (1//60)° = (pi // 10800)] stem:["rad"]
+| seconde footnote:[En astronomie, les petits angles sont mesurés en secondes d’arc (c’est-à-dire en secondes d’angle plan),
+symbole as ou ″, et en milliarcsecondes, microarcsecondes et picoarcsecondes, de symboles respectifs
+mas, stem:[mu "as"] et pas, l’arcseconde étant un autre nom pour la seconde d’angle plan.] | ″ | stem:[1'' = (1//60)' = (pi // 648 000)] stem:["rad"]
+| superficie | hectare footnote:[L’unité hectare et son symbole ha ont été adoptés par le CIPM en 1879 (PV, 1879, 41). L’hectare est
+utilisé pour exprimer des superficies agraires.] | ha | stem:[1] stem:["ha" = 1] stem:["hm"^2 = 10^4] stem:["m"^2]
+| volume | litre footnote:[Le litre et son symbole l (en minuscule) ont été adoptés par le CIPM en 1879 (PV, 1879, 41).
+Le symbole L (en majuscule) a été adopté par la CGPM à sa 16e réunion (1979, Résolution 6; CR, 101
+et Metrologia, 1980, 16, 56-57), comme alternative pour éviter le risque de confusion entre la lettre l et
+le chiffre un, 1.] | l, L | stem:[1] stem:["l" = 1] stem:["L" = 1] stem:["dm"^3 = 10^3] stem:["cm"^3 = 10^{-3}] stem:["m"^3]
+.2+| masse | tonne footnote:[La tonne et son symbole t ont été adoptés par le CIPM en 1879 (PV, 1879, 41). Dans les pays de
+langue anglaise, cette unité est généralement désignée sous le nom « tonne métrique ».] | t | stem:[1 "t" = 10^3] stem:["kg"]
+| dalton footnote:[Le dalton (Da) et l’unité de masse atomique unifiée (u) sont d’autres noms (et symboles) pour la même
+unité, égale à 1/12 de la masse de l’atome de ^12^C libre, au repos et dans son état fondamental. Cette valeur
+du dalton est la valeur recommandée dans l’ajustement de 2018 de CODATA.] | Da | stem:[1] stem:["Da"] stem:[= 1,660 539 066 60(50) xx 10^{-27}] stem:["kg"]
+| énergie | électronvolt footnote:[L’électronvolt est l’énergie cinétique acquise par un électron après traversée d’une différence de
+potentiel de 1 V dans le vide. L’électronvolt est souvent combiné aux préfixes du SI.] | eV | stem:[1] stem:["eV"] stem:[= 1,602 176 634 xx 10^{-19}] stem:["J"]
+.3+| logarithme d’un rapport | neper
+footnote:note-h[Lorsque l’on utilise ces unités, il est important de
+préciser quelle est la nature de la grandeur en
+question et la valeur de référence utilisée.] | Np | voir notes de bas de page
+| bel footnote:note-h[] | B |
+| decibel footnote:note-h[] | dB |
+|===
+
+[NOTE]
+====
+Le gal, symbole Gal, est une unité en dehors
+du SI utilisée en géodésie et géophysique pour
+exprimer l’accélération due à la pesanteur.
+
+stem:[1] stem:["Gal"] stem:[= 1] stem:["cm s"^{-2}] = stem:[10^{-2}] stem:["m s"^{-2}]
+====
+
+Le <<table-8>> mentionne aussi les unités des grandeurs logarithmiques, le néper, le bel et le
+décibel. Elles sont utilisées pour véhiculer des informations sur la nature du logarithme
+d’un rapport de grandeurs. Le néper, Np, est utilisé pour exprimer la valeur de grandeurs
+dont la valeur numérique est un logarithme néperien (ou naturel) d’un rapport de grandeurs,
+stem:[ln = log_e]. Le bel et le décibel, stem:["B"] et stem:["dB"], stem:[1] stem:["dB"] stem:[= (1//10)] stem:["B"],
+sont utilisés pour exprimer la valeur
+de grandeurs dont la valeur numérique est un logarithme de base 10 d’un rapport de
+grandeurs, stem:["lg" = log_10]. L’égalité stem:[L_X = m] stem:["dB"] stem:[= (m//10)] stem:["B"] (où m est un nombre) est comprise
+comme signifiant que stem:[m = 10 "lg"(X//X_0)]. L’usage des unités néper, bel et décibel avec le SI a
+été accepté par le CIPM mais ces unités ne sont pas des unités du SI.
+
+Il existe de nombreuses autres unités en dehors du SI qui
+présentent un intérêt historique ou qui sont encore utilisées
+dans un domaine spécialisé (comme le baril de pétrole) ou dans
+certains pays (comme le pouce, le pied ou le yard). Le CIPM ne
+voit aucune raison de continuer à utiliser ces unités dans les
+travaux scientifiques et techniques modernes.
+Cependant, il est important de connaître la relation entre
+ces unités et les unités SI correspondantes, et ceci restera vrai
+encore de nombreuses années.
