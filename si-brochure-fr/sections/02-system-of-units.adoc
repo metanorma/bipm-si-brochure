@@ -9,8 +9,8 @@ référence. Le nombre est le rapport entre la valeur de la grandeur en question
 
 Pour une grandeur particulière, différentes unités
 peuvent être utilisées. Par exemple, la valeur
-de la vitesse v d’une particule peut être exprimée sous
-la forme stem:[v = 25 " m/s"] ou stem:[v = 90 " km/h"],
+de la vitesse stem:[v] d’une particule peut être exprimée sous
+la forme stem:[v = 25] stem:["m/s"] ou stem:[v = 90] stem:["km/h"],
 les unités « mètre par seconde » et « kilomètre
 par heure » étant des unités alternatives pour
 exprimer la même valeur de la grandeur « vitesse ».
@@ -64,17 +64,17 @@ Le Système international d’unités, le SI, est le système d’unités selon 
 * la fréquence de la transition hyperfine de l’état fondamental de l’atome de
 césium 133 non perturbé, stem:[Delta ν_{C_s}], est égale à 9 192 631 770 Hz,
 * la vitesse de la lumière dans le vide, _c_, est égale à 299 792 458 m/s,
-* la constante de Planck, _h_, est égale à 6,626 070 15 × 10^−34^ J s,
-* la charge élémentaire, _e_, est égale à 1,602 176 634 × 10^−19^ C,
-* la constante de Boltzmann, _k_, est égale à 1,380 649 × 10^−23^ J/K,
-* la constante d’Avogadro, _N_~A~, est égale à 6,022 140 76 × 1023 mol^−1^,
+* la constante de Planck, stem:[h], est égale à stem:[6,62607015 xx 10^{-34}] stem:["J s"],
+* la charge élémentaire, stem:[e], est égale à stem:[1,602176634 xx 10^{-19}] C,
+* la constante de Boltzmann, stem:[k], est égale à stem:[1,380649 xx 10^{-23}] stem:["J/K"],
+* la constante d’Avogadro, stem:[N_A], est égale à stem:[6,02214076 xx 10^23] stem:["mol"^{-1}],
 * l’efficacité lumineuse d’un rayonnement monochromatique de fréquence
-540 × 10^12^ Hz, stem:[K_{cd}], est égale à 683 lm/W,
+stem:[540 xx 10^12] stem:["Hz"], stem:[K_{cd}], est égale à stem:[683] stem:["lm/W"],
 
 où les unités hertz, joule, coulomb, lumen et watt, qui ont respectivement pour symbole Hz,
 J, C, lm et W, sont reliées aux unités seconde, mètre, kilogramme, ampère, kelvin, mole et
 candela, qui ont respectivement pour symbole s, m, kg, A, K, mol et cd, selon les relations
-Hz = s^–1^, J = kg m2 s^–2^, C = A s, lm = cd m^2 m^–2^ = cd sr, et W = kg m^2^ s^–3^.
+stem:["Hz" = "s"^{-1}], stem:["J" = "kg m"^2 "s"^{-2}], stem:["C" = "A s"], stem:["lm" = "cd m"^2 "m"^{-2} = "cd sr"], et stem:["W" = "kg m"^2 "s"^{-3}].
 
 La valeur numérique de chacune des sept constantes définissant le SI n’a pas d’incertitude.
 
@@ -112,7 +112,7 @@ améliorées en fonction des progrès technologiques, sans qu’il soit nécessa
 définition de l’unité.
 
 Une constante technique telle que stem:[K_{cd}], efficacité lumineuse d’un rayonnement
-monochromatique de fréquence 540 × 10^12^ Hz, fait référence à une application spécifique.
+monochromatique de fréquence stem:[540 xx 10^12] stem:["Hz"], fait référence à une application spécifique.
 En principe, cette constante technique peut être choisie librement, notamment pour inclure
 des facteurs physiologiques conventionnels ou d’autres facteurs de pondération.
 En revanche, cela n’est pas possible en général lorsqu’on utilise une constante
@@ -125,7 +125,7 @@ permettent d’obtenir les incertitudes les plus faibles possible. Les conventio
 spécifications techniques retenues tiennent également compte des développements
 historiques.
 
-La constante de Planck, _h_, et la vitesse de la lumière dans le vide, c, sont appelées à juste
+La constante de Planck, stem:[h], et la vitesse de la lumière dans le vide, stem:[c], sont appelées à juste
 titre constantes fondamentales: elles régissent, respectivement, des effets quantiques et des
 propriétés générales de l’espace-temps et affectent de la même façon particules et champs
 sur toutes les échelles et dans tous les environnements.
@@ -134,11 +134,11 @@ La charge élémentaire, e, correspond à une constante de couplage de la force
 électromagnétique via la constante de structure fine
 stem:[alpha = e^2//(2c epsilon_0 h)] où stem:[epsilon_0] est la permittivité
 diélectrique du vide (également connue sous le nom de constante électrique). Certaines
-théories prédisent une variation de α avec le temps. Les limites expérimentales de la
-variation maximale possible de α sont néanmoins si faibles qu’un effet sur des mesures
+théories prédisent une variation de  avec le temps. Les limites expérimentales de la
+variation maximale possible de stem:[alpha] sont néanmoins si faibles qu’un effet sur des mesures
 pratiques à venir peut être exclu.
 
-La constante de Boltzmann, k, est une constante de proportionnalité entre les grandeurs
+La constante de Boltzmann, stem:[k], est une constante de proportionnalité entre les grandeurs
 « température » (avec pour unité le kelvin) et « énergie » (avec pour unité le joule), dont la
 valeur numérique est obtenue à partir de spécificités historiques concernant l’échelle de
 température. La température d’un système varie avec son énergie thermique mais cela n’est
@@ -152,18 +152,18 @@ transition hyperfine de l’état fondamental de l’atome de césium
 affecté par l’environnement -- par des champs électromagnétiques par exemple. Toutefois,
 la transition sous-jacente est parfaitement connue et stable; elle constitue, d’un point de
 vue pratique, un bon choix de transition de référence. Le choix d’un paramètre atomique
-comme stem:[Delta v_{C_s}] ne dissocie pas la définition de la réalisation comme dans le cas de _h_, _c_, _e_ ou _k_,
+comme stem:[Delta v_{C_s}] ne dissocie pas la définition de la réalisation comme dans le cas de stem:[h], stem:[c], stem:[e] ou stem:[k],
 mais précise la référence retenue.
 
-La constante d’Avogadro, _N_~A~, est une constante de proportionnalité entre la grandeur
+La constante d’Avogadro, stem:[N_A], est une constante de proportionnalité entre la grandeur
 « quantité de matière » (dont l’unité est la mole) et une grandeur dont la valeur est déterminée
 par comptage d’entités (dont l’unité est le nombre « un », symbole 1). Elle a ainsi le caractère
-d’une constante de proportionnalité similaire à la constante de Boltzmann, k.
+d’une constante de proportionnalité similaire à la constante de Boltzmann, stem:[k].
 
-L’efficacité lumineuse d’un rayonnement monochromatique de fréquence 540 × 1012 Hz,
+L’efficacité lumineuse d’un rayonnement monochromatique de fréquence stem:[540 xx 10^12] stem:[Hz],
 stem:[K_{cd}], est une constante technique qui établit une relation numérique exacte entre les
 caractéristiques purement physiques du flux énergétique stimulant l’oeil humain à une
-fréquence de 540 × 1012 hertz (W) et la réponse photobiologique provoquée par le flux
+fréquence de stem:[540 xx 10^12] stem:["hertz (W)"] et la réponse photobiologique provoquée par le flux
 lumineux reçu par un observateur moyen (lm).
 
 
@@ -225,7 +225,7 @@ numérique fixée de la fréquence du césium, stem:[Delta ν_{c_s}], la fréque
 hyperfine de l’état fondamental de l’atome de césium 133 non perturbé, égale à
 9192631770 lorsqu’elle est exprimée en Hz, unité égale à s^−1^.*
 
-Cette définition implique la relation exacte stem:[Delta ν_{c_s} = 9192631770 " Hz"]. En inversant cette
+Cette définition implique la relation exacte stem:[Delta ν_{c_s} = 9192631770] stem:["Hz"]. En inversant cette
 relation, la seconde est exprimée en fonction de la constante stem:[Delta v_{C_s}]:
 
 
@@ -308,7 +308,7 @@ prototype doit désormais être déterminée de façon expérimentale.
 
 Le nombre choisi pour fixer la valeur numérique de la constante de Planck est tel qu’au
 moment de l’adoption de cette définition de l’unité de masse, le kilogramme était égal à la
-masse du prototype international stem:[m(K) = 1 " kg"] avec une incertitude-type relative égale à
+masse du prototype international stem:[m(K) = 1] stem:["kg"] avec une incertitude-type relative égale à
 stem:[1 xx 10^{−8}], soit l’incertitude-type de la combinaison des meilleures estimations de la valeur de
 la constante de Planck à ce moment-là.
 
@@ -319,16 +319,16 @@ des réalisations primaires à tout point de l’échelle de masse.
 *L’ampère*
 
 *L’ampère, symbole A, est l’unité de courant électrique du SI. Il est défini en prenant
-la valeur numérique fixée de la charge élémentaire, e, égale à 1,602 176 634 × 10−19
+la valeur numérique fixée de la charge élémentaire, e, égale à stem:[1,602176634 xx 10{-19}]
 lorsqu’elle est exprimée en C, unité égale à A s, la seconde étant définie en fonction de
 stem:[Delta v_{C_s}].*
 
-Cette définition implique la relation exacte stem:[e = 1,602 176 634 xx 10^{-19}] A s. En inversant
+Cette définition implique la relation exacte stem:[e = 1,602 176 634 xx 10^{-19}] stem:["A s"]. En inversant
 cette relation, l’ampère est exprimé en fonction des constantes e et stem:[Delta v_{C_s}]:
 
 [stem%unnumbered]
 ++++
-1 " A" = (e/{1,602176634 xx 10^-19}) " s"^-1
+1 " A" = (e/{1,602176634 xx 10^-19}) " s"^{-1}
 ++++
 
 relation identique à
@@ -344,7 +344,7 @@ stem:[1//(1,602 176 634 xx 10^-19)] charges élémentaires par seconde.
 
 La précédente définition de l’ampère, fondée sur la force produite entre deux conducteurs
 traversés par du courant, fixait la valeur de la perméabilité magnétique du vide μ0 (également
-connue sous le nom de constante magnétique) à exactement stem:[4 pi xx 10^-7 " H m"^-1 = 4 pi xx 10^-7 " N A"^-2],
+connue sous le nom de constante magnétique) à exactement stem:[4 pi xx 10^-7 " H m"^{-1} = 4 pi xx 10^-7 " N A"^{-2}],
 H et N représentant les unités dérivées cohérentes « henry » et « newton », respectivement.
 La nouvelle définition de l’ampère fixe la valeur numérique de e et non plus celle de μ0.
 Par conséquent, μ0 doit désormais être déterminée de façon expérimentale.
@@ -357,7 +357,7 @@ les valeurs de stem:[epsilon_0], stem:[Z_0], et stem:[Y_0] doivent désormais
 être déterminées de façon expérimentale et ont la même incertitude-type relative que μ0
 puisque la valeur de c est connue avec exactitude. Le produit stem:[epsilon_0 mu_0 = 1//c_2] et le quotient
 stem:[Z_0// mu_0 = c] restent exacts. Au moment de l’adoption de l’actuelle définition de l’ampère,
-μ0 était égale à stem:[4 pi xx 10^-7] H/m avec une incertitude-type relative de stem:[2,3 × 10^-10].
+stem:[mu_0] était égale à stem:[4 pi xx 10^-7] stem:["H/m"] avec une incertitude-type relative de stem:[2,3 xx 10^{-10}].
 
 
 
@@ -365,11 +365,11 @@ stem:[Z_0// mu_0 = c] restent exacts. Au moment de l’adoption de l’actuelle 
 
 *Le kelvin, symbole K, est l’unité de température thermodynamique du SI. Il est défini
 en prenant la valeur numérique fixée de la constante de Boltzmann, k, égale à
-1,380 649 × 10^−23^ lorsqu’elle est exprimée en J K^−1^, unité égale à kg m^2^ s^−2^ K^−1^,
+stem:[1,380 649 xx 10^{-23}] lorsqu’elle est exprimée en J K^−1^, unité égale à kg m^2^ s^−2^ K^−1^,
 le kilogramme, le mètre et la seconde étant définis en fonction de h, c et stem:[Delta v_{C_s}].*
 
-Cette définition implique la relation exacte _k_ = 1,380 649 × 10^−23^ kg m^2^ s^−2^ K^−1^.
-En inversant cette relation, le kelvin est exprimé en fonction des constantes _k_, _h_ et stem:[Delta v_{C_s}]:
+Cette définition implique la relation exacte stem:[k = 1,380649 xx 10^{-23}] stem:["kg m"^2 "s"^{-2} "K"^{-1}].
+En inversant cette relation, le kelvin est exprimé en fonction des constantes stem:[k], stem:[h] et stem:[Delta v_{C_s}]:
 
 
 [stem%unnumbered]
@@ -386,14 +386,14 @@ relation identique à
 
 
 Il résulte de cette définition qu’un kelvin est égal au changement de la température
-thermodynamique résultant d’un changement de l’énergie thermique _kT_ de
-1,380 649 × 10^−23^ J.
+thermodynamique résultant d’un changement de l’énergie thermique stem:["kT"] de
+stem:[1,380649 xx 10^{-23}] stem:["J"].
 
 La précédente définition du kelvin établissait la température du point triple de l’eau TTPW
 comme étant exactement égale à 273,16 K. Étant donné que l’actuelle définition du kelvin
 fixe la valeur numérique de k et non plus celle de stem:[T_{TPW}], cette dernière doit désormais être
 déterminée de façon expérimentale. Au moment de l’adoption de l’actuelle définition du
-kelvin, stem:[T_{TPW}] était égale à 273,16 K avec une incertitude-type relative de 3,7 × 10^−7^
+kelvin, stem:[T_{TPW}] était égale à 273,16 K avec une incertitude-type relative de stem:[3,7 xx 10^{-7}]
 déterminée à partir des mesures de k réalisées avant la redéfinition.
 
 En raison de la manière dont les échelles de température étaient habituellement définies,
@@ -435,16 +435,16 @@ point de l’échelle de température.
 *La mole*
 
 *La mole, symbole mol, est l’unité de quantité de matière du SI. Une mole contient
-exactement 6,022 140 76 × 10^23^ entités élémentaires. Ce nombre, appelé
+exactement stem:[6,02214076 xx 10^23] entités élémentaires. Ce nombre, appelé
 « nombre d’Avogadro », correspond à la valeur numérique fixée de la constante
 d’Avogadro, stem:[N_A], lorsqu’elle est exprimée en mol^−1^.*
 
-*La quantité de matière, symbole _n_, d’un système est une représentation du nombre
+*La quantité de matière, symbole stem:[n], d’un système est une représentation du nombre
 d’entités élémentaires spécifiées. Une entité élémentaire peut être un atome,
 une molécule, un ion, un électron, ou toute autre particule ou groupement spécifié de
 particules.*
 
-Cette définition implique la relation exacte stem:[N_A = 6,022 140 76 × 10^23] mol^−1^. En inversant
+Cette définition implique la relation exacte stem:[N_A = 6,022140 76 xx 10^23] stem:["mol"^{-1}]. En inversant
 cette relation, on obtient l’expression exacte de la mole en fonction de la constante stem:[N_A]:
 
 [stem%unnumbered]
@@ -454,14 +454,14 @@ cette relation, on obtient l’expression exacte de la mole en fonction de la co
 
 
 Il résulte de cette définition que la mole est la quantité de matière d’un système qui contient
-6,022 140 76 × 10^23^ entités élémentaires spécifiées.
+stem:[6,02214076 xx 10^23] entités élémentaires spécifiées.
 
 La précédente définition de la mole fixait la valeur de la masse molaire du carbone 12,
 M(^12^C), comme étant exactement égale à 0,012 kg/mol. Selon l’actuelle définition de la
 mole, M(^12^C) n’est plus connue avec exactitude et doit être déterminée de façon
 expérimentale. La valeur choisie pour stem:[N_A] est telle qu’au moment de l’adoption de la
 présente définition de la mole, M(^12^C) était égale à 0,012 kg/mol avec une incertitude-type
-relative de 4,5 × 10^−10^.
+relative de stem:[4,5 xx 10^{-10}].
 
 La masse molaire d’un atome ou d’une molécule X peut toujours être obtenue à partir de sa
 masse atomique relative à l’aide de l’équation:
@@ -506,9 +506,9 @@ matière » est généralement abrégé en « concentration de matière ».
 
 *La candela, symbole cd, est l’unité du SI d’intensité lumineuse dans une direction
 donnée. Elle est définie en prenant la valeur numérique fixée de l’efficacité lumineuse
-d’un rayonnement monochromatique de fréquence 540 × 10^12^ Hz, stem:[K_{cd}], égale à
-683 lorsqu’elle est exprimée en lmW^−1^, unité égale à cd srW^−1^, ou cd sr kg−1 m−2 s3,
-le kilogramme, le mètre et la seconde étant définis en fonction de _h_, _c_ et stem:[Delta v_{C_s}].*
+d’un rayonnement monochromatique de fréquence stem:[540 xx 10^12] stem:["Hz"], stem:[K_{cd}], égale à
+683 lorsqu’elle est exprimée en lmW^−1^, unité égale à cd srW^−1^, ou cd sr kg^-1^ m^2^ s^3^,
+le kilogramme, le mètre et la seconde étant définis en fonction de stem:[h], stem:[c] et stem:[Delta v_{C_s}].*
 
 Cette définition implique la relation exacte Kcd = 683 cd sr kg^−1^ m^−2^ s^3^ pour le rayonnement
 monochromatique de fréquence stem:[ν = 540 xx 10^12] Hz. En inversant cette relation, la candela
@@ -516,7 +516,7 @@ est exprimée en fonction des constantes stem:[K_{cd}], h et stem:[Delta v_{C_s}
 
 [stem%unnumbered]
 ++++
-1 " cd" = ( K_{cd} / 683 ) " kg m"^2 " s"^-3 " sr"^-1
+1 " cd" = ( K_{cd} / 683 ) " kg m"^2 " s"^{-3} " sr"^{-1}
 ++++
 
 relation identique à
@@ -534,7 +534,7 @@ relation identique à
 
 Il résulte de cette définition que la candela est l’intensité lumineuse, dans une direction
 donnée, d’une source qui émet un rayonnement monochromatique de fréquence
-540 × 10^12^ Hz et dont l’intensité énergétique dans cette direction est (1/683)W sr^-1^.
+stem:[540 xx 10^12] Hz et dont l’intensité énergétique dans cette direction est stem:[(1/683)W] stem:["sr"^{-1}].
 La définition du stéradian est donnée au bas du <<table-4>>.
 
 
@@ -595,10 +595,11 @@ la dimension d’une grandeur Q s’écrit sous la forme d’un produit dimensio
 
 [stem%unnumbered]
 ++++
-"dim " Q = sf "T"^{alpha} sf "L"^{beta} sf "M"^{gamma} sf "I"^{delta} Theta^{epsilon} sf "N"^{zeta} sf "J"^{eta}
+dim Q = sf "T"^{alpha} sf "L"^{beta} sf "M"^{gamma} sf "I"^{delta} Theta^{epsilon} sf "N"^{zeta} sf "J"^{eta}
 ++++
 
-où les exposants α, β, γ, δ, ε, ζ et η, qui sont en général de petits nombres entiers positifs,
+où les exposants stem:[alpha], stem:[beta], stem:[gamma], stem:[delta],
+stem:[epsilon], stem:[zeta] et stem:[eta], qui sont en général de petits nombres entiers positifs,
 négatifs ou nuls, sont appelés exposants dimensionnels.
 
 Certaines grandeurs stem:[Q] sont définies par une équation aux grandeurs telle que tous les
@@ -772,7 +773,7 @@ formés à l’aide de préfixes SI.
 | perméabilité | henry par mètre | H m^−1^ | kg m s^−2^ A^−2^
 | énergie molaire | joule par mole | J mol^−1^ | kg m^2^ s^−2^ mol^−1^
 | entropie molaire, capacité thermique molaire | joule par mole kelvin | J K^−1^ mol^−1^ | kg m^2^ s^−2^ mol^−1^ K^−1^
-| exposition (rayons x et γ) | coulomb par kilogramme | C kg^−1^ | A s kg^−1^
+| exposition (rayons x et stem:[gamma]) | coulomb par kilogramme | C kg^−1^ | A s kg^−1^
 | débit de dose absorbée | gray par seconde | Gy s^−1^ | m^2^ s^−3^
 | intensité énergétique | watt par stéradian | W sr^−1^ | kg m^2^ s^−3^
 | luminance énergétique | watt par mètre carré stéradian | W sr^−1^ m^−2^ | kg s^−3^
@@ -886,7 +887,7 @@ comprennent des effets relativistes.
 Pour les étalons de fréquence, il est possible de conduire des comparaisons à distance au
 moyen de signaux électromagnétiques. Pour interpréter les résultats, il est nécessaire de
 faire appel à la théorie de la relativité générale puisque celle-ci prédit, entre autres,
-un décalage de fréquence entre les étalons d’environ 1 × 10^−16^ en valeur relative par mètre
+un décalage de fréquence entre les étalons d’environ stem:[1 xx 10^{-16}] en valeur relative par mètre
 d’altitude à la surface de la Terre. Des effets de cet ordre de grandeur doivent être corrigés
 lors de la comparaison des meilleurs étalons de fréquence.
 
