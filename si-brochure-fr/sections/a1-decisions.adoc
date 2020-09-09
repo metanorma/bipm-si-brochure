@@ -355,10 +355,10 @@ ces tranches ne sont jamais séparées par des points, ni par des virgules.
 |===
 | Unités | Symboles | Unités | Symboles
 
-a| * mètre | m | ampère | A
-a| * mètre carré | m^2^ | volt | V
-a| * mètre cube | m^3^ | watt | W
-a| * micron | μ | ohm | Ω
+a| * mètre | stem:["m"] | ampère | stem:["A"]
+a| * mètre carré | stem:["m"^2] | volt | stem:["V"]
+a| * mètre cube | stem:["m"^3] | watt | stem:["W"]
+a| * micron | stem:[mu] | ohm | stem:[Omega]
 a| * litre | l | coulomb | C
 a| * gramme | g | farad | F
 a| * tonne | t | henry | H
@@ -473,7 +473,7 @@ a émis un avis favorable au rattachement de la seconde à l’année tropique,
 internationale (Rome, 1952), la seconde de temps des éphémérides (T.E.) est la fraction
 +
 --
-stem:[12960276813//408986496 xx 10^-9] de l’année tropique pour 1900 janvier 0 à 12 h T.E.,
+stem:[12960276813//408986496 xx 10^{-9}] de l’année tropique pour 1900 janvier 0 à 12 h T.E.,
 décide
 
 « La seconde est la fraction 1/31 556 925,9747 de l’année tropique pour 1900 janvier 0 à
@@ -615,19 +615,14 @@ suivants:
 --
 [cols="1,^,^,1,^,^",options="header,unnumbered"]
 |===
-a| Facteur par lequel +
-l’unité est multipliée
-| Préfixe | Symbole
-a| Facteur par lequel +
-l’unité est multipliée
-| Préfixe | Symbole
+| Facteur par lequel l’unité est multipliée | Préfixe | Symbole | Facteur par lequel l’unité est multipliée | Préfixe | Symbole
 
-| 1 000 000 000 000 = 10^12^ | téra | T | 0,1 = 10^-1^ | déci | d
-| 1 000 000 000 = 10^9^ | giga | G | 0,01 = 10^-2^ | centi | c
-| 1 000 000 = 10^6^ | méga | M | 0,001 = 10^-3^ | milli | m
-| 1 000 = 10^3^ | kilo | k | 0,000 001 = 10^-6^ | micro | μ
-| 100 = 10^2^ | hecto | h | 0,000 000 001 = 10^-9^ | nano | n
-| 10 = 10^1^ | déca | da | 0,000 000 000 001 = 10^-12^ | pico | p
+| stem:[1000000000000 = 10^12] | téra | T | stem:[0,1 = 10^{-1}] | déci | d
+| stem:[1 000 000 000 = 10^9] | giga | G | stem:[0,01 = 10^{-2}] | centi | c
+| stem:[1 000 000 = 10^6] | méga | M | stem:[0,001 = 10^{-3}] | milli | m
+| stem:[1 000 = 10^3] | kilo | k | stem:[0,000001 = 10^{-6}] | micro | stem:[mu]
+| stem:[100 = 10^2] | hecto | h | stem:[0,000000001 = 10^{-9}] | nano | n
+| stem:[10 = 10^1] | déca | da | stem:[0,000000000001 = 10^{-12}] | pico | p
 |===
 
 NOTE: D’autres préfixes furent
@@ -831,8 +826,8 @@ paragraphe 3, les deux nouveaux préfixes suivants:
 |===
 | Facteur par lequel l’unité est multipliée | Préfixe | Symbole
 
-| 10^-15^ | femto | f
-| 10^-18^ | atto | a
+| stem:[10^{-15}] | femto | f
+| stem:[10^{-18}] | atto | a
 |===
 
 
@@ -1040,7 +1035,7 @@ Conférence générale (1948),
 
 *décide* en conséquence de retirer de la Résolution 7 de la Neuvième Conférence:
 
-. le nom d’unité « micron », et le symbole « μ » qui fut attribué à cette unité et qui est devenu
+. le nom d’unité « micron », et le symbole « stem:[mu] » qui fut attribué à cette unité et qui est devenu
 un préfixe;
 . le nom d’unité « bougie nouvelle ».
 
@@ -1786,10 +1781,10 @@ la 12^e^ CGPM, Résolution 8 et la 15^e^ CGPM, Résolution 10, les préfixes sui
 |===
 | Facteur par lequel l’unité est multipliée | Préfixe | Symbole
 
-| 10^21^ | zetta | Z
-| 10^-21^ | zepto | z
-| 10^24^ | yotta | Y
-| 10^-24^ | yocto | y
+| stem:[10^21] | zetta | Z
+| stem:[10^{-21}] | zepto | z
+| stem:[10^24] | yotta | Y
+| stem:[10^{-24}] | yocto | y
 |===
 
 
@@ -1865,7 +1860,7 @@ La 21^e^ Conférence générale des poids et mesures,
 * l'importance pour la santé humaine et la sécurité de faciliter l'emploi des unités du Système
 international d’unités (SI) dans les domaines de la médecine et de la biochimie,
 * qu'une unité en dehors du SI appelée « unité » représentée par le symbole U, qui est égale à
-1 μmol ∙ min^–1^, et qui n'est pas cohérente avec le SI, a été largement répandue en médecine et
+stem:[1] stem:[mu "mol" cdot "min"^{-1}], et qui n'est pas cohérente avec le SI, a été largement répandue en médecine et
 en biochimie depuis 1964 pour exprimer l'activité catalytique,
 * que l'absence d'un nom spécial pour désigner l'unité dérivée et cohérente du SI qu'est la mole
 par seconde a conduit à ce que des résultats de mesures cliniques soient donnés en
@@ -2025,7 +2020,7 @@ de stem:["Hg"^+], de l’ion piégé d’In^+^, et de l’ion piégé d’Yb^+^,
 ** des valeurs mises à jour de la fréquence de lasers asservis sur le rubidium, de lasers à
 grenat d’yttrium-aluminium dopé au néodyme (Nd:YAG) et de lasers à hélium-néon
 (He-Ne) asservis sur l’iode, de lasers à hélium-néon asservis sur le méthane, et de lasers
-à dioxyde de carbone asservis sur le tétroxyde d’osmium à 10 μm,
+à dioxyde de carbone asservis sur le tétroxyde d’osmium à stem:[10] stem:[mu"m"],
 ** des valeurs de la fréquence d’étalons pour les télécommunications optiques, y compris
 les lasers asservis sur le rubidium et l’acétylène.
 
@@ -2104,7 +2099,7 @@ une réduction considérable de l’incertitude;
 
 * les valeurs mises à jour des fréquences de la transition quadripolaire de l’ion piégé de ^88^Sr^\+^ et
 de la transition octupolaire de l’ion piégé de ^171^Yb^+^;
-* la valeur mise à jour de la fréquence de l’étalon asservi sur l’acétylène à 1,54 μm;
+* la valeur mise à jour de la fréquence de l’étalon asservi sur l’acétylène à stem:[1,54] stem:[mu"m"];
 * des valeurs mises à jour de la fréquence d’étalons asservis sur l’iode à 543 nm et à 515 nm.
 
 
@@ -2224,12 +2219,12 @@ télécommunications optiques, à l’aide de peignes à impulsions femtoseconde
 * les valeurs mises à jour des fréquences des transitions quadripolaires de l’ion piégé de ^88^Sr^\+^,
 de l’ion piégé de ^199^Hg^+^ et de l’ion piégé de ^171^Yb^+^;
 * la valeur mise à jour de la fréquence de la transition de l’atome de calcium;
-* la valeur mise à jour de la fréquence de l’étalon asservi sur l’acétylène à 1,54 μm;
+* la valeur mise à jour de la fréquence de l’étalon asservi sur l’acétylène à stem:[1,54] stem:[mu"m"];
 * la valeur mise à jour de la fréquence de l’étalon asservi sur l’iode à 515 nm;
 * la fréquence de la transition de l’atome de ^87^Sr à 698 nm;
 * les fréquences des transitions de l’atome de ^87^Rb autour de 760 nm;
 * les fréquences des transitions de la bande (stem:[ν1 + ν3]) de ^12^C~2~H~2~, et des bandes (stem:[ν1 + ν3]) et
-(stem:[ν1 + ν3 + ν4 + ν5]) de ^13^C~2~H~2~, autour de 1,54 μm.
+(stem:[ν1 + ν3 + ν4 + ν5]) de ^13^C~2~H~2~, autour de stem:[1,54] stem:[mu"m"].
 
 
 === CIPM, 2006
@@ -2573,7 +2568,7 @@ expériences de la balance du watt ou les mesures de la masse d’un atome de si
 
 * que les incertitudes associées à l’ensemble des unités électriques du SI réalisées, directement ou
 indirectement, au moyen de l’effet Josephson et de l’effet Hall quantique et à partir des valeurs
-dans le SI des constantes de Josephson et de von Klitzing, _K~J~_ et _R~K~_, pourraient être réduites de
+dans le SI des constantes de Josephson et de von Klitzing, stem:[K_J] et stem:[R_K], pourraient être réduites de
 manière significative si le kilogramme était redéfini de façon à ce qu’il soit relié à une valeur
 numérique exacte de stem:[h], et si l’ampère était redéfini de façon à ce qu’il soit relié à une valeur
 numérique exacte de la charge élémentaire e,
@@ -2722,8 +2717,8 @@ sera abrogée,
 partir de la définition proposée par le Comité international des poids et mesures (CIPM, 1946,
 Résolution 2), sera abrogée,
 
-* les valeurs conventionnelles de la constante de Josephson _K_~J–90~ et de la constante de von
-Klitzing _R_~K–90~ adoptées par le Comité international des poids et mesures
+* les valeurs conventionnelles de la constante de Josephson stem:[K_{J–90}] et de la constante de von
+Klitzing stem:[R_{K–90}] adoptées par le Comité international des poids et mesures
 (CIPM, 1988, Recommandations 1 et 2) à la demande de la CGPM (18^e^ réunion de la CGPM,
 1987, Résolution 6) pour l’établissement des représentations du volt et de l’ohm à l’aide des
 effets Josephson et Hall quantique, respectivement, seront abrogées,
@@ -2733,7 +2728,7 @@ effets Josephson et Hall quantique, respectivement, seront abrogées,
 3), sera abrogée,
 
 * la définition de la mole en vigueur depuis 1971 (14^e^ réunion de la CGPM, 1971, Résolution
-3), selon laquelle la masse molaire du carbone 12 a la valeur exacte de 0,012 kg mol^−1^, sera
+3), selon laquelle la masse molaire du carbone 12 a la valeur exacte de stem:[0,012] stem:["kg mol"^{-1}], sera
 abrogée,
 
 * les définitions existantes du mètre, de la seconde et de la candela, en vigueur depuis leur
@@ -2744,11 +2739,11 @@ La Conférence générale des poids et mesures,
 
 *prend en considération* qu’à la même date
 
-* la masse du prototype international du kilogramme _m(K)_ sera égale à 1 kg, avec cependant
+* la masse du prototype international du kilogramme stem:[m(K)] sera égale à 1 kg, avec cependant
 une incertitude relative égale à celle de la valeur recommandée de h juste avant la
 redéfinition, puis sa valeur sera déterminée de façon expérimentale,
 
-* la constante magnétique (la perméabilité du vide) μ~0~ sera égale à stem:[4 pi xx 10^{-7}] stem:["H m"^{-1}], avec
+* la constante magnétique (la perméabilité du vide) stem:[mu_0] sera égale à stem:[4 pi xx 10^{-7}] stem:["H m"^{-1}], avec
 cependant une incertitude relative égale à celle de la valeur recommandée de la constante
 de structure fine stem:[alpha], puis sa valeur sera déterminée de façon expérimentale,
 
@@ -2902,7 +2897,7 @@ recommandées et les approuver comme représentations secondaires de la seconde:
 ** la transition optique non perturbée 5d ^10^6s ^2^S~1/2~ – 5d ^9^6s^2^ ^2^D~5/2~ de l’ion de ^199^Hg^+^,
 à la fréquence de 1 064 721 609 899 145,3 Hz avec une incertitude-type relative
 estimée de stem:[1,9 xx 10^{-15}];
-** la transition optique non perturbée 6s 2S1/2 (F = 0, _m~F~_ = 0) – 5d ^2^D~3/2~ (F = 2, mF = 0) de
+** la transition optique non perturbée 6s 2S1/2 (stem:[F = 0], stem:[m_F = 0]) – 5d ^2^D~3/2~ (F = 2, mF = 0) de
 l’ion de 171Yb+ (quadrupôle), à la fréquence de 688 358 979 309 307,1 Hz avec une
 incertitude-type relative estimée de stem:[3 xx 10^{-15}];
 ** la transition optique non perturbée 5s 2S1/2 – 4d ^2^D~5/2~ de l’ion de ^88^Sr^+^, à la fréquence
@@ -3163,12 +3158,12 @@ selon lequel:
 * la fréquence de la transition hyperfine de l’état fondamental de l’atome de césium
 133 non perturbé, stem:[Delta ν_{Cs}], est égale à 9 192 631 770 Hz,
 * la vitesse de la lumière dans le vide, stem:[c], est égale à 299 792 458 m/s,
-* la constante de Planck, stem:[h], est égale à 6,626 070 stem:[15 xx 10^{-34}] stem:["J s"],
-* la charge élémentaire, stem:[e], est égale à 1,602 176 stem:[634 xx 10^{-19}] stem:["C"],
-* la constante de Boltzmann, stem:[k], est égale à 1,380 stem:[649 xx 10^{-23}] stem:["J/K"],
+* la constante de Planck, stem:[h], est égale à stem:[6,626 070 15 xx 10^{-34}] stem:["J s"],
+* la charge élémentaire, stem:[e], est égale à stem:[1,602 176 634 xx 10^{-19}] stem:["C"],
+* la constante de Boltzmann, stem:[k], est égale à stem:[1,380 649 xx 10^{-23}] stem:["J/K"],
 * la constante d’Avogadro, stem:[N_A], est égale à stem:[6,02214076 xx 10^23^] stem:["mol"^{-1}],
 * l’efficacité lumineuse d’un rayonnement monochromatique de fréquence
-stem:[540 xx 10^12] Hz, K~cd~, est égale à 683 lm/W,
+stem:[540 xx 10^12] Hz, stem:[K_{cd}], est égale à 683 lm/W,
 
 où les unités hertz, joule, coulomb, lumen et watt, qui ont respectivement pour symbole Hz, J, C,
 lm et W, sont reliées aux unités seconde, mètre, kilogramme, ampère, kelvin, mole et candela,
@@ -3221,7 +3216,7 @@ sur lesquelles se fondent les valeurs des constantes choisies pour définir le S
 incertitude-type relative égale à celle de la valeur recommandée de h au moment de
 l’adoption de la présente résolution, à savoir stem:[1,0 xx 10^{-8}]; dans le futur, sa valeur sera
 déterminée de façon expérimentale,
-* la perméabilité magnétique du vide, μ^0^, est égale à stem:[4 pi xx 10^{-7}] stem:["H m"^{-1}] avec une incertitude-type
+* la perméabilité magnétique du vide, stem:[mu_0], est égale à stem:[4 pi xx 10^{-7}] stem:["H m"^{-1}] avec une incertitude-type
 relative égale à celle de la valeur recommandée de la constante de structure fine stem:[alpha]
 au moment de l’adoption de la présente résolution, à savoir stem:[2,3 xx 10^{-10}]; dans le futur,
 sa valeur sera déterminée de façon expérimentale,
@@ -3263,10 +3258,10 @@ seconde étant définis en fonction de stem:[h], stem:[c] et stem:[Delta ν_{Cs}
 * La mole, symbole mol, est l’unité de quantité de matière du SI. Une mole contient exactement
 stem:[6,02214076 xx 10^23] entités élémentaires. Ce nombre, appelé « nombre d’Avogadro »,
 correspond à la valeur numérique fixée de la constante d’Avogadro, NA, lorsqu’elle est
-exprimée en mol^-1^.
+exprimée en stem:["mol"^{-1}].
 +
 --
-La quantité de matière, symbole _n_, d’un système est une représentation du nombre d’entités
+La quantité de matière, symbole stem:[n], d’un système est une représentation du nombre d’entités
 élémentaires spécifiées. Une entité élémentaire peut être un atome, une molécule, un ion,
 un électron, ou toute autre particule ou groupement spécifié de particules.
 --

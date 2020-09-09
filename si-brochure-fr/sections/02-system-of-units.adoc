@@ -63,7 +63,7 @@ Le Système international d’unités, le SI, est le système d’unités selon 
 
 * la fréquence de la transition hyperfine de l’état fondamental de l’atome de
 césium 133 non perturbé, stem:[Delta ν_{C_s}], est égale à 9 192 631 770 Hz,
-* la vitesse de la lumière dans le vide, _c_, est égale à 299 792 458 m/s,
+* la vitesse de la lumière dans le vide, stem:[c], est égale à 299 792 458 m/s,
 * la constante de Planck, stem:[h], est égale à stem:[6,62607015 xx 10^{-34}] stem:["J s"],
 * la charge élémentaire, stem:[e], est égale à stem:[1,602176634 xx 10^{-19}] C,
 * la constante de Boltzmann, stem:[k], est égale à stem:[1,380649 xx 10^{-23}] stem:["J/K"],
@@ -85,13 +85,13 @@ La valeur numérique de chacune des sept constantes définissant le SI n’a pas
 
 | Constante | Symbole | Valeur numérique | Unité
 
-| fréquence de la transition hyperfine du césium | stem:[Delta v_{c_s}]  | 9 192 631 770 | Hz
-| vitesse de la lumière dans le vide | stem:[c] | 299 792 458 | m s^-1^
-| constante de Planck | stem:[h] | 6,626 070 15 × 10^−34^ | J s
-| charge élémentaire | stem:[e] | 1,602 176 634 × 10^−19^ | C
-| constante de Boltzmann | stem:[k] | 1,602 176 634 × 10^−19^ | J K^-1^
-| constante d’Avogadro | stem:[N_A] | 1,602 176 634 × 10^−19^ | mol^-1^
-| efficacité lumineuse | stem:[K_{cd}] | 683 | lm W^-1^ 
+| fréquence de la transition hyperfine du césium | stem:[Delta v_{c_s}]  | stem:[9 192 631 770] | stem:["Hz"]
+| vitesse de la lumière dans le vide | stem:[c] | stem:[299792458] | stem:["m s"^{-1}]
+| constante de Planck | stem:[h] | stem:[6,62607015 xx 10^{-34}] | stem:["J s"]
+| charge élémentaire | stem:[e] | stem:[1,602176634 xx 10^{-19}] | stem:["C"]
+| constante de Boltzmann | stem:[k] | stem:[1,602 176 634 xx 10^{-19}] | stem:["J K"^{-1}]
+| constante d’Avogadro | stem:[N_A] | stem:[1,602176634 xx 10^{-19}] | stem:["mol"^{-1}]
+| efficacité lumineuse | stem:[K_{cd}] | 683 | stem:["lm W"^{-1}]
 
 |===
 
@@ -279,7 +279,7 @@ valeur numérique fixée de la constante de Planck, stem:[h], égale à stem:[6,
 lorsqu’elle est exprimée en J s, unité égale à kg m^2^ s^−1^, le mètre et la seconde étant
 définis en fonction de stem:[c] et stem:[Delta ν_{c_s}].*
 
-Cette définition implique la relation exacte stem:[h = 6,62607015 xx 10^{−34}] kg m^2^ s^−1^. En inversant
+Cette définition implique la relation exacte stem:[h = 6,62607015 xx 10^{−34}] stem:["kg m"^2 "s"^-1]. En inversant
 cette relation, le kilogramme est exprimé en fonction des trois
 constantes stem:[h], stem:[Delta ν_{c_s}] et stem:[c]:
 
@@ -328,36 +328,36 @@ cette relation, l’ampère est exprimé en fonction des constantes e et stem:[D
 
 [stem%unnumbered]
 ++++
-1 " A" = (e/{1,602176634 xx 10^-19}) " s"^{-1}
+1 " A" = (e/{1,602176634 xx 10^{-19}}) " s"^{-1}
 ++++
 
 relation identique à
 
 [stem%unnumbered]
 ++++
-1 " A" = ( e / {1,602176634 xx 10^-19} ) " s"^-1
+1 " A" = ( e / {1,602176634 xx 10^{-19}} ) " s"^{-1}
 ++++
 
 
 Il résulte de cette définition qu’un ampère est le courant électrique correspondant au flux de
-stem:[1//(1,602 176 634 xx 10^-19)] charges élémentaires par seconde.
+stem:[1//(1,602 176 634 xx 10^{-19})] charges élémentaires par seconde.
 
 La précédente définition de l’ampère, fondée sur la force produite entre deux conducteurs
-traversés par du courant, fixait la valeur de la perméabilité magnétique du vide μ0 (également
-connue sous le nom de constante magnétique) à exactement stem:[4 pi xx 10^-7 " H m"^{-1} = 4 pi xx 10^-7 " N A"^{-2}],
+traversés par du courant, fixait la valeur de la perméabilité magnétique du vide stem:[mu_0] (également
+connue sous le nom de constante magnétique) à exactement stem:[4 pi xx 10^{-7} " H m"^{-1} = 4 pi xx 10^{-7} " N A"^{-2}],
 H et N représentant les unités dérivées cohérentes « henry » et « newton », respectivement.
-La nouvelle définition de l’ampère fixe la valeur numérique de e et non plus celle de μ0.
-Par conséquent, μ0 doit désormais être déterminée de façon expérimentale.
+La nouvelle définition de l’ampère fixe la valeur numérique de e et non plus celle de stem:[mu_0].
+Par conséquent, stem:[mu_0] doit désormais être déterminée de façon expérimentale.
 
 Ainsi, comme la permittivité diélectrique du vide
 stem:[epsilon_0] (également connue sous le nom de constante électrique),
 l’impédance du vide caractéristique stem:[Z_0] et l’admittance du vide stem:[Y_0] sont
 égales à stem:[1//mu_0 c_2], stem:[mu_0 c] et stem:[1//mu_0 c] respectivement,
 les valeurs de stem:[epsilon_0], stem:[Z_0], et stem:[Y_0] doivent désormais
-être déterminées de façon expérimentale et ont la même incertitude-type relative que μ0
+être déterminées de façon expérimentale et ont la même incertitude-type relative que stem:[mu_0]
 puisque la valeur de c est connue avec exactitude. Le produit stem:[epsilon_0 mu_0 = 1//c_2] et le quotient
 stem:[Z_0// mu_0 = c] restent exacts. Au moment de l’adoption de l’actuelle définition de l’ampère,
-stem:[mu_0] était égale à stem:[4 pi xx 10^-7] stem:["H/m"] avec une incertitude-type relative de stem:[2,3 xx 10^{-10}].
+stem:[mu_0] était égale à stem:[4 pi xx 10^{-7}] stem:["H/m"] avec une incertitude-type relative de stem:[2,3 xx 10^{-10}].
 
 
 
@@ -374,14 +374,14 @@ En inversant cette relation, le kelvin est exprimé en fonction des constantes s
 
 [stem%unnumbered]
 ++++
-1 " K" = ( {1,380649 xx 10^-23} / k ) "kg m"^2 " s"^-2
+1 " K" = ( {1,380649 xx 10^{-23}} / k ) "kg m"^2 " s"^{-2}
 ++++
 
 relation identique à
 
 [stem%unnumbered]
 ++++
-1 " K" = {1,380649 xx 10^-23} / {(6,62607015 xx 10^-34)(9192631770)} {Delta v_{C_s} h} / k ~~ 2,2666653 {Delta v_{C_s} h} / k
+1 " K" = {1,380649 xx 10^{-23}} / {(6,62607015 xx 10^{-34})(9192631770)} {Delta v_{C_s} h} / k ~~ 2,2666653 {Delta v_{C_s} h} / k
 ++++
 
 
@@ -468,7 +468,7 @@ masse atomique relative à l’aide de l’équation:
 
 [stem%unnumbered]
 ++++
-M(X) = A_r (X) [M(&#x200c;^12 C)//12] = A_r (X) M_u
+M(X) = A_r (X) [M(""^12 C)//12] = A_r (X) M_u
 ++++
 
 et la masse molaire d’un atome ou d’une molécule X est également reliée à la masse d’une
@@ -510,8 +510,8 @@ d’un rayonnement monochromatique de fréquence stem:[540 xx 10^12] stem:["Hz"]
 683 lorsqu’elle est exprimée en lmW^−1^, unité égale à cd srW^−1^, ou cd sr kg^-1^ m^2^ s^3^,
 le kilogramme, le mètre et la seconde étant définis en fonction de stem:[h], stem:[c] et stem:[Delta v_{C_s}].*
 
-Cette définition implique la relation exacte Kcd = 683 cd sr kg^−1^ m^−2^ s^3^ pour le rayonnement
-monochromatique de fréquence stem:[ν = 540 xx 10^12] Hz. En inversant cette relation, la candela
+Cette définition implique la relation exacte stem:[K_{cd} = 683] stem:["cd sr kg"^{-1} "m"^{-2} "s"^3] pour le rayonnement
+monochromatique de fréquence stem:[ν = 540 xx 10^12] stem:["Hz"]. En inversant cette relation, la candela
 est exprimée en fonction des constantes stem:[K_{cd}], h et stem:[Delta v_{C_s}]:
 
 [stem%unnumbered]
@@ -523,7 +523,7 @@ relation identique à
 
 [stem%unnumbered]
 ++++
-1 " cd" = 1/{(6,62607015 xx 10^-34)(9192631770)^2} (Delta v_{C_s})^2 h K_{cd}
+1 " cd" = 1/{(6,62607015 xx 10^{-34})(9192631770)^2} (Delta v_{C_s})^2 h K_{cd}
 ++++
 
 [stem%unnumbered]
@@ -734,19 +734,19 @@ formés à l’aide de préfixes SI.
 |===
 | Grandeur dérivée | Symbole caractéristique de la grandeur | Unité dérivée exprimée en unités de base
 
-| superficie | stem:[A] | m^2^
-| volume | stem:[V] | m^3^
-| vitesse | stem:[v] | m s^−1^
-| accélération | stem:[a] | m s^−2^
-| nombre d’ondes | stem:[sigma] | m^−1^
-| masse volumique | stem:[rho] | kg m^−3^
-| masse surfacique | stem:[rho A] | kg m^−2^
-| volume massique | stem:[v] | m^3^ kg^−1^
-| densité de courant | stem:[j] | A m^−2^
-| champ magnétique | stem:[H] | A m^−1^
-| concentration de quantité de matière | stem:[c] | mol m^−3^
-| concentration massique | stem:[rho, gamma] | kg m^−3^
-| luminance lumineuse | stem:[L_v] | cd m^−2^
+| superficie | stem:[A] | stem:["m"^2]
+| volume | stem:[V] | stem:["m"^3]
+| vitesse | stem:[v] | stem:["m s"^{-1}]
+| accélération | stem:[a] | stem:["m s"^{-2}]
+| nombre d’ondes | stem:[sigma] | stem:["m"^{-1}]
+| masse volumique | stem:[rho] | stem:["kg m"^{-3}]
+| masse surfacique | stem:[rho A] | stem:["kg m"^{-2}]
+| volume massique | stem:[v] | stem:["m"^3 "kg"^{-1}]
+| densité de courant | stem:[j] | stem:["A m"^{-2}]
+| champ magnétique | stem:[H] | stem:["A m"^{-1}]
+| concentration de quantité de matière | stem:[c] | stem:["mol m"^{-3}]
+| concentration massique | stem:[rho, gamma] | stem:["kg m"^{-3}]
+| luminance lumineuse | stem:[L_v] | stem:["cd m"^{-2}]
 |===
 
 
@@ -815,7 +815,7 @@ puissance moins un », l’emploi de noms différents sert à souligner la diff�
 des grandeurs en question. Il est particulièrement important de distinguer les fréquences des
 fréquences angulaires car leurs valeurs numériques diffèrent par définition d’un facteur 
 footnote:[Voir la norme ISO 80000-3 pour de plus amples détails.] de
-2π. Ignorer cela peut provoquer une erreur de 2π. On remarque que dans certains pays
+stem:[2 pi]. Ignorer cela peut provoquer une erreur de stem:[2 pi]. On remarque que dans certains pays
 les valeurs de fréquence sont exprimées par convention à l’aide de « cycle/s » ou « cps » au
 lieu de l’unité SI « Hz », bien que « cycle » et « cps » ne soient pas des unités du SI.
 On remarque également qu’il est courant, bien que cela ne soit pas recommandé, d’utiliser
