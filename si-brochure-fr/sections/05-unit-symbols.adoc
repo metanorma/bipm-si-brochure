@@ -45,7 +45,7 @@ d’une barre oblique dans une expression donnée s’il n’y a pas de parenth�
 toute ambiguïté.
 
 Il n’est pas autorisé d’utiliser des abréviations pour les symboles et noms d’unités, comme
-sec (pour s ou seconde), mm car. (pour mm^2^ ou millimètre carré), cc (pour cm^3^ ou
+sec (pour s ou seconde), mm car. (pour stem:["mm"^2] ou millimètre carré), cc (pour stem:["cm"^3] ou
 centimètre cube), ou mps (pour m/s ou mètre par seconde). L’utilisation correcte des
 symboles des unités du SI et des unités en général, dont il a été fait mention dans les
 chapitres précédents de cette brochure, est obligatoire. C’est ainsi que l’on évite les
@@ -107,7 +107,7 @@ quotient d’une grandeur et d’une unité en tête de colonne d’un tableau, 
 du tableau soient simplement des nombres. Par exemple, un tableau exprimant la vitesse au
 carré en fonction d’une pression peut prendre la forme suivante:
 
-[cols="2",options="unnumbered"]
+[cols="^,^",options="unnumbered"]
 |===
 | stem:[p//kPa] | stem:[ν^2//(m//s)^2]
 | 48,73 | 94766
@@ -152,7 +152,7 @@ U = 1000 V_{"max"}.
 La fraction massique du cuivre de
 l’échantillon de silicium s’exprime
 sous la forme stem:["w(Cu)" = 1,3 xx 10^{-6}]
-mais pas stem:[1,3 xx 10^{-6}] stem:[w/w].
+mais pas stem:[1,3 xx 10^{-6}] stem:["w/w"].
 ====
 
 
@@ -167,7 +167,7 @@ pour lesquels il n’y a pas d’espace entre la valeur numérique et le symbole
 
 NOTE: m = 12,3 g où m est
 utilisé comme symbole de la
-grandeur « masse » mais stem:[phi = 30° 22' 8"]
+grandeur « masse » mais stem:[phi = 30° 22' 8'']
 où stem:[phi] est utilisé comme symbole
 de la grandeur « angle plan ».
 
@@ -348,7 +348,7 @@ relation stem:[360° = 2 pi] stem:["rad"]. On remarque que le degré, symbole °
 
 L’angle solide, exprimé en stéradian, correspond au rapport entre l’aire stem:[A] de la surface
 d’une sphère de rayon r et le rayon au carré, stem:[= A//r^2] stem:["sr"]. Un stéradian correspond à l’angle
-solide pour lequel stem:[A = r^2], ainsi 1 sr = 1.
+solide pour lequel stem:[A = r^2], ainsi stem:[1] stem:["sr" = 1].
 
 Les unités rad et sr correspondent respectivement aux rapports de deux longueurs et de
 deux longueurs au carré. Toutefois, les unités rad et sr ne doivent être utilisées que pour
