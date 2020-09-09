@@ -1,0 +1,707 @@
+= Mise en pratique for the definition of the metre in the SI
+:appendix: 2
+:partnumber: 1
+:edition: 1
+:copyright-year: 2019
+:revdate: 2019-04-30
+:language: en
+:title-en: Mise en pratique for the definition of the metre in the SI
+:title-fr: Mise en pratique for the definition of the metre in the SI
+:doctype: mise-en-pratique
+:parent-document: si-brochure.adoc
+:committee: Consultative Committee for Length
+:docstage: 60
+:docsubstage: 60
+:imagesdir: images
+:docfile: metre-si-app2.adoc
+:mn-document-class: bipm
+:mn-output-extensions: xml,html,doc,pdf,rxl
+:local-cache-only:
+:data-uri-image:
+
+
+
+== Introduction
+
+The purpose of this _Mise en Pratique_, prepared by the Consultative Committee for Length (CCL) of the International Committee for Weights and Measures (CIPM), is to indicate how the definition of the SI base unit, the metre, symbol m, may be realized in practice.
+
+In general, the term '`to realize a unit`' is interpreted to mean the establishment of the value and associated uncertainty of a quantity of the same kind as the unit that is consistent with the definition of the unit. A primary method of realizing a unit is a method having the highest metrological properties; whose operation can be completely described and understood; for which a complete uncertainty statement can be written down in terms of SI units; and which does not require a reference standard of the same quantity.
+
+This document starts with the definition of the metre as agreed at the 26^th^ meeting of the Conférence Générale des poids et Mesures (CGPM) in November 2018. This is followed by a description of the methods by which the definition of the metre may be realized in practice, both primary realisations related to the speed of light (as implied in the definition) and secondary methods as used in specific fields of metrology. Annexes describe the theory underpinning the various realization techniques, together with details of their limitations.
+
+
+== Definition of the metre
+
+The definition of the metre, SI base unit of length, is as follows <<bipm>>:
+
+____
+The metre, symbol m, is the SI unit of length. It is defined by taking the fixed numerical value of the speed of light in vacuum c to be 299 792 458 when expressed in the unit stem:["m s"^{-1}], where the second is defined in terms of the caesium frequency stem:[Delta v_{C_s}].
+____
+
+This definition implies that '`_The metre is the length of the path travelled by light in vacuum during a time interval of 1/299792458 of a second_`', as it was stated in the previous definition of the metre, which was in place since 1983 <<editors-note>>, thus ensuring the continuity of the SI unit of length with the previous definition.
+
+The second is defined by an exact value of the hyperfine transition frequency stem:[Delta v_{C_s}] of the caesium 133 atom.
+
+
+== Definition of the metre
+
+The definition of the metre, SI base unit of length, is as follows <<bipm>>:
+The metre, symbol m, is the SI unit of length. It is defined by taking the fixed numerical value of the speed of light in vacuum c to be 299 792 458 when expressed in the unit stem:["m s"^{-1}], where the second is defined in terms of the caesium frequency stem:[Delta v_{C_s}].
+
+This definition implies that '`The metre is the length of the path travelled by light in vacuum during a time interval of 1/299 792 458 of a second`', as it was stated in the previous definition of the metre, which was in place since 1983 <<editors-note>>, thus ensuring the continuity of the SI unit of length with the previous definition.
+
+The second is defined by an exact value of the hyperfine transition frequency stem:[Delta v_{C_s}] of the caesium 133 atom.
+
+
+
+== Primary methods for the practical realization of the definition of the metre
+
+The fundamental equation underlying the above definition of the metre is a direct relationship between a length, a time interval and the speed of light:
+
+[[equation-1]]
+[stem]
+++++
+l = c cdot Delta t,
+++++
+
+in which stem:[c] is the fixed value for the speed of light in vacuum, stem:[c = 299792458] stem:["m s"^{-1}] <<resolution-2>>, and stem:[Delta t] is the travelling time of the light along a geometrical path, of length l. Realization of the length unit, at a primary level, is thus linked to measurement of light travelling time; this may be achieved directly with high relative accuracy for long ranges (_e.g._ lunar ranging) but at typical macroscale ranges, indirect travelling time measurement offers better accuracy (due to the challenge of measuring a very short time interval).
+
+Accordingly, the definition of the metre can be realized in practice by one of the following primary methods:
+
+. by direct measurement of light travelling time,
+. by indirect measurement of light travelling time.
+
+
+These two measurement methods are explained in more detail in <<scls-3a>> and <<scls-3b>>, below.
+
+_Note on the speed of light_
+____
+While the definition for the metre refers to light travelling in vacuum, in most cases the realization of the length unit is performed under atmospheric pressure. Then the exact value of the influence of the air on the speed of light is of major importance. Therefore, a distinction has to be made between stem:[c], the speed of light in vacuum and stem:[c'], the speed of light in general. Under atmospheric pressure, the air refractive index reduces the speed of light (stem:[c' = c//n]) with a relative effect of the order of stem:[3 xx 10^{-4}] corresponding to stem:[300] stem:[mu "m"] per metre of measured length. Moreover, in the case of modulated light it is important to consider the group refractive index of air ng instead of the (phase-) refractive index, n. For example, for green light stem:[(lambda ~~ 520 " nm") n_g – n] is approximately stem:[10^{-5}], _i.e._ considering n instead of ng causes an additional error of stem:[10] stem:[mu "m"] per metre. This difference is significant and comparable in size to the variation of the phase refractive index of air over the entire range of visible light: stem:[n(380 "nm") – n(780 " nm") = 9 xx 10^{-6}]. Thus, determination of the exact speed of light to use in <<equation-1>> is a significant consideration in realizing the metre through primary methods.
+____
+
+
+[[scls-3a]]
+=== Direct measurement of light travelling time (time of flight measurement)
+
+The direct measurement of the travelling time of light requires some form of modulation of the light in order to generate fiducial features used for the timing process. Any kind of modulation, even applied to monochromatic light, generates a superposition of light waves forming a wave packet. The path length of propagation of such a wave packet, _e.g._ of a laser pulse, can be determined as shown in <<fig-1>>. A light pulse is split into two parts so that two pulses are generated, one of which travels a short reference pathway, the other travels the measurement pathway. The reflectors in both pathways are arranged such that the light is retro-reflected. After second passage through the beam splitter the light pulse originating from the reference pathway first hits a light detector which sets a first trigger at a defined threshold, defining a reference point in time. A second trigger is generated by the delayed
+light pulse originating from the measurement pathway. The two pulses must be clearly separated in time.
+
+
+[[fig-1]]
+.Primary realization of the length by direct measurement of time delay between light-wave packets travelling pathways of different lengths before reaching a detector. The green curves inside the wave packets indicate the average light intensity that is sensed by the detector.
+image::metre/si-app2/fig-1.png[]
+
+
+Measurement of the time delay stem:[Delta t] between both detector signals allows determination of the length difference, stem:[Delta z], between measurement and reference pathways, which represents the length, stem:[l]:
+
+
+[stem]
+++++
+l = Delta z = 1/2 c_g cdot Delta t,
+++++
+
+in which stem:[c_g] is the group velocity of the wave packet. While under vacuum conditions stem:[c_g] is identical to stem:[c]; under the influence of the atmosphere stem:[c_g] is obtained from stem:[c_g = c // n_g], in which ng is the group refractive index of air:
+
+[stem]
+++++
+n_g (lambda) = n (lambda) - lambda cdot {dn}/{d lambda}
+++++
+
+A prominent example of direct measurement of light travelling time is the measurement of the distance from the earth to the moon <<bender>>. Here the length of the reference pathway can be neglected, and the major part of the measurement pathway is in space (vacuum), _i.e._ a relative error of less than stem:[10^{-8}] is caused by usage of stem:[c] (instead of stem:p[c']) as the speed of light in <<equation-1>> for this example.
+
+The direct measurement of light travelling time is largely used for long distance measurements on the earth under the influence of the atmosphere in which the air refractive index, its homogeneity and invariance are limiting the attainable measurement uncertainty (besides the accuracy of the electronics and clocks used). The relationship between time delay and length differences can easily be demonstrated for short distances with standard equipment (an oscilloscope). However, since the time delay is as small as approximately 3 ns per metre, the attainable accuracy of length measurements for short distances is limited by the electronics. For example, measurement of 1 m to an accuracy of 1 mm requires an accuracy of 3 ps for the measurement of the travelling time. Therefore, the direct measurement of light travelling time is mostly inappropriate for short lengths.
+
+
+[[scls-3b]]
+=== Indirect measurement of light travelling time (optical interferometry)
+
+For the realization of lengths below a few metres, but also for the most accurate realization of length
+in general, interferometric techniques are preferable. Optical interferometry is a measurement method
+based on the superposition (interference) of light. Light is considered as an electromagnetic wave, the
+electric field of which is propagating along the measurement pathway (defined as z-direction):
+
+[stem]
+++++
+E(z,t) = A cos[varphi] = A cos[omega cdot t - k cdot z + delta]
+++++
+
+in which stem:[A] is the amplitude, stem:[omega] the phase, stem:[k] the angular frequency, k the wave number, and stem:[delta] the initial
+phase. The relationship between the parameters stem:[omega] and k with wavelength stem:[lambda] and frequency stem:[f] is given by
+stem:[k = 2 pi // lambda] and stem:[omega = 2 pi cdot f].
+
+
+Wavefronts travel the distance of a single wavelength during a single oscillation period stem:[T (T = 1//f)].
+Consequently, the speed of a monochromatic light wave, stem:[c], is equal to stem:[c = f cdot lambda], the phase velocity.
+
+While the average intensity of a single monochromatic light wave is just related to the square of its
+amplitude, interference of two light waves of the same frequency results in a detectable intensity:
+
+[[equation-5]]
+[stem]
+++++
+I = I_0 (1 + gamma cdot cos[varphi_1 - varphi_2])
+++++
+
+which is related to the phase difference between the waves (see <<annex-1>> for details). In practice,
+interfering waves are generated by means of optical interferometers, the simplest arrangement of which
+is shown in <<fig-2>>, left, which is basically the same as the arrangement in <<fig-1>>.
+
+
+[[fig-2]]
+.Primary realization of the length unit by interferometry, _i.e._ by indirect measurement of the time delay between monochromatic light-waves travelling pathways of different lengths before reaching a detector.
+image::metre/si-app2/fig-2.png[]
+
+
+The length of the reference pathway is assumed to be unchanged, while the length of the measurement
+pathway is assumed to be variable. The phase difference needed in <<equation-5>> is then strictly related to
+the path length differences stem:[Delta z], _i.e._
+
+[stem]
+++++
+Delta varphi = k cdot 2 Delta z = {2 pi Delta z}/{lambda//2}
+++++
+
+Consequently, the detector signal varies periodically as shown in <<fig-2>>, right. The amount of
+variation, _i.e._ the interference contrast stem:[gamma] of the detected intensity, is related to the ratio of the
+individual intensities stem:[a = I_1 // I_2], stem:[gamma = 2 sqrt{a} // (a + 1)]. As can be seen in <<fig-2>> for the case of stem:[a = 0.001],
+even extreme intensity ratios result in easily detectable interference signals.
+
+In the simplest case a length along the measurement pathway can be measured by continuously shifting
+the measurement mirror while counting the number of periods, _i.e._ the order of interference stem:[Delta phi // 2 pi = 1, 2, ...] . In any case, the size of shift of the measurement mirror, _i.e._ the length, is an arithmetic product
+of half of the light wavelength and the order of interference. This length can be considered as half of
+the speed of light multiplied with the delay Δt between the two phases of the interfering light waves:
+
+[[equation-7]]
+[stem]
+++++
+l = Delta z = lambda / 2 cdot {Delta varphi} / 2 pi = 1 / 2 cdot c / pi cdot Delta t .
+++++
+
+In <<equation-7>> the relationship between the length and the travelling time of the light waves is made clear since the equation uses stem:[c] (phase velocity of light) and stem:[Delta t] the delay time between wavefronts originating from measurement beam with respect to the reference beam. Accordingly, the travelling time, measured indirectly by interferometry, amounts to
+
+[[equation-8]]
+[stem]
+++++
+Delta = 1 / {2 pi} cdot {Delta varphi} / f .
+++++
+
+<<equation-8>> clearly reveals that the indirect measurement of the travelling time of light requires
+measurement of the following quantities: the *frequency* stem:[f] of the light; *the phase difference* stem:[Delta varphi]
+between the two interfering waves resulting from the observation of the intensity of interference using
+an interferometer.
+
+Knowledge of the *frequency of the light*, stem:[f], is an essential requirement for the realization of the unit
+of length. It provides the scaling factor between a measured phase difference and the length that is
+realized by interferometry. Often, the value of the so called '`vacuum wavelength`', which describes the
+distance between the wavefronts in vacuum under idealized conditions (stem:[𝜆_0 = c // f]), is stated instead of
+the frequency. For highest demands on the accuracy of the light frequency, a light source could be
+synchronized to the primary frequency standards by an appropriate technique.
+
+As an alternative to direct measurement of frequency or vacuum wavelength, the CCL and CCTF Joint Working Group on Frequency Standards (WGFS) produced and maintains a single list of recommended values of standard frequencies for applications including the practical realization of the metre. This list, now known as the CIPM _List of recommended frequency standard values_ (LoF) <<bipm-frequencies>> is updated periodically by recommendation of new candidate standard frequencies by the CCL or CCTF. Candidate frequencies are examined according to a published set of guidelines and procedures <<riehle>> and only those that pass the necessary checks, are recommended to the CIPM for entry. The LoF, maintained by the BIPM, is made available from their website <<bipm-frequencies>>. The list contains specifications relating to each frequency standard which are displayed after selecting a particular standard on the web page. For the full list of specifications, reference should be made to the original _CIPM Recommendation_ (cited in the online list) and to the various updates that have since been approved by the CIPM. Laboratories which use a light source which is part of the _CIPM List of recommended frequency standard values_ for their realisation of the metre are required to take part in the international key comparison CCL-K11 <<cll-k11>> at least every 10 years (unless they are node laboratories in this comparison). The comparison tests the laboratory’s ability to realise the relevant optical frequency standard within their stated uncertainties.
+
+*Measurement of phase differences*, stem:[Delta varphi], by using length measuring interferometers is mostly performed in air. The presence of air reduces the speed of the light to stem:[c//n] and the wavelength to stem:[lambda = lambda_0 // n]. Reduction of the speed of light leads to enlargement of the measured phase difference, _i.e._ the same length is realized in vacuum and in air according to <<equation-7>>. The actual amount of the air refractive index is dependent on the air parameters and the wavelength. It can be determined in two ways: (i) by considering an empirical equation for n involving measured absolute values for pressure, temperature, humidity and stem:["CO"_2] content <<birch>> – <<potulski>>, (ii) direct measurement of the refractive index along the measurement pathway (refractometry). Method (ii) may be realized by positioning an evacuated cell nearby the measuring pathway of light and measuring the difference between a light pathway in air with the one in vacuum, along the known geometrical length of the cell.
+
+At standard conditions (101,325 Pa, 20 °C, 50 % RH and 400 ppm stem:["CO"_2]) the refractive index of air is approximately 1.00027 for a wavelength of 633 nm. Neglecting the refractive index in a length measurement in air thus leads to an effect of approximately 0.27 mm in 1 m. The sensitivity of the air refractive index (at 633 nm wavelength) to changes of environmental parameters at standard laboratory conditions is shown in <<table-1>>. It can be seen that air pressure and air temperature are the most critical (most sensitive) parameters due to high sensitivity and relatively large diurnal changes in typical uncontrolled environments.
+
+
+[[table-1]]
+.Critical influence parameters affecting the air refractive index, their standard values and sensitivity coefficients.
+[cols="3",options="header"]
+|===
+| Influence parameter
+| Value at standard conditions
+| Refractive index sensitivity coefficient
+
+| Temperature | 20 °C | -9.2 × 10-7 K-1
+| Pressure | 101,325 Pa
++2.7 × 10-9 Pa-1
+| stem:["CO"_2] content
+400 ppm
++1.4 × 10-10 (ppm)-1
+| Humidity: | |
+| Relative humidity | 50 % RH | -8.7 × 10-9 (% RH)-1
+| Dew point | 9.27 °C | -1.5 × 10-8 K-1
+| Water vapour pressure | 1168 Pa | -1.8 × 10-10 Pa-1
+|===
+
+
+Besides light frequency and the effect of the air refractive index, the attainable measurement uncertainty in the practical realization of the length by interferometry is limited by many influences, as given in <<annex-2>>. Each of the contributions to the overall measurement uncertainty can only be reduced to a certain level.
+
+
+== Secondary methods of realizing the metre for dimensional nanometrology
+
+The convenience of realization of the SI unit of length based on time-of-flight measurement or displacement measuring interferometry is dependent upon the length scale. These traditional methods, which are sometimes described within the dimensional nanometrology field as top-down approaches, are most readily implemented at larger scales. At scales relevant to current dimensional nanometrology, these methods are limited by fringe sub-division and periodic non-linearities in visible-wavelength interferometry.
+
+Yet, at the same time, nano-scale manufacturing is following predictions made in the 1980s <<taniguchi>> in terms of the accuracy levels demanded in future decades, and these are now requiring manufacturing capability at the nanometre or sub-nanometre scale for which the traceability infrastructure is not fully available. In order to ensure adequate provision of length metrology that is traceable to the SI for the rapidly emerging requirements in nanometrology, an alternative route to traceability at the nanometre and sub-nanometre level is necessary.
+
+The success of the semiconductor industry and prevalence of silicon-based technology has led to silicon being one of the most thoroughly studied materials in nature and the availability of very high purity crystalline silicon. Work in preparation for the 2018 revision of the SI, has resulted in an agreed CODATA value for the Si {220} lattice spacing stem:[d_{220} = 192.0155714 xx 10^{-12}] stem:["m"], with a standard uncertainty of 0.000 003 2 × 10–12 m, (_i.e._ stem:[Delta d // d = 1.67 xx 10^{-8}]) at a temperature of 22.5 °C in vacuum. This is the lattice spacing of an ideal single crystal of natural-isotopically undoped silicon that is free of impurities and imperfections.
+
+Impurities and vacancies affect the lattice parameter; the impurities that have the most effect on the atomic spacing are carbon and oxygen with boron and nitrogen playing a less significant role in the concentrations in which they are normally encountered. Details of the strain induced in silicon as determined both by experimental and theoretical work are listed in Becker <<becker>> and reproduced here in <<table-2>>.
+
+
+[[table-2]]
+.Reproduced from <<becker>> showing theoretical and experimental values for the effective radius and lattice strain parameters (stem:[beta]) of impurity atoms in a silicon lattice.
+[cols="5",options="header"]
+|===
+| Atom
+| Theoretical
+| Radius (nm)
+| Experimental radius (nm)
+| Theoretical strain parameter stem:[beta] (stem:[10^{-24}] stem:["cm"^{-3}])
+| Experimental strain parameter stem:[beta] (stem:[10^{-24}] stem:[cm-3])
+
+| C | stem:[0.077] | stem:[0.077] | stem:[-6.9] | stem:[-6.9 +- 0.2]
+| O | interstitial | stem:[0.142] |  | stem:[+4.4 +- 0.5]
+| N | interstitial | stem:[0.150] |  | stem:[+5.7 +- 0.1]
+| B | stem:[0.088] | stem:[0.084] | stem:[-5.1] | stem:[-5.6 +- 0.2]
+| P | stem:[0.110] | stem:[0.109] | stem:[-1.4] | stem:[-1.3 +- 0.2]
+| As | stem:[0.118] | stem:[0.117] | stem:[+-0] | stem:[-0.007 +- 0.5]
+| Sb| stem:[0.136] | stem:[0.133] | stem:[+3] | stem:[+2.8 +- 0.2]
+| Vacancies | stem:[0.129] | stem:[0.1274] | stem:[+2] | stem:[+1.7 +- 0.5]
+| Si | stem:[0.117] | stem:[0.1176] | | 
+|===
+
+
+To achieve values of lattice spacing uncertainty approaching the CODATA value, the concentration of the impurities in a silicon crystal must be determined either from the manufacturer or by using a suitable technique such as, X-ray fluorescence, neutron activation, infra-red or mass spectroscopy. The saturation concentrations of carbon nitrogen and oxygen in silicon are given by Ammon _et al._ (1996) <<ammon>> and Wolf _et al._ (1996) <<wolf>>. Normally the impurity content will be much lower than saturation values for float zoned silicon. Typical concentrations of impurities in high-purity float zoned silicon are: carbon stem:[< 1 xx 10^16] stem:[cm^{-3}], oxygen stem:[< 2 xx 10^16] stem:["cm"^{-3}] and nitrogen stem:[< 1 xx 10^15] stem:["cm"^{-3}].When the concentrations are unknown, but it is known that the crystal was grown using the float zoned method, these values could be taken as a worst case scenario and a modified value for the lattice parameter calculated. The magnitude of the effects impurities have on the atomic spacing can be determined by multiplying the strain parameter, stem:[beta], with the impurity concentration. As an example, <<table-3>> shows the change in lattice spacing of the stem:[d_{220}] planes in a piece of high purity silicon, WASO4, used for lattice parameter measurements:
+
+[[table-3]]
+.Dilation of lattice parameter due to impurities on WASO4 silicon.
+[cols="^,^,^,^,^,^,^,^",options="header"]
+|===
+| Impurity of WASO4 Si
+| C
+| O
+| N
+| B
+| P
+| Vacancies
+| Self interstitials
+
+| stem:[xx 10^15] stem:["cm"^{-3}]
+| stem:[2.5 +- 0.5]
+| stem:[1.2 +- 0.7]
+| stem:[0.62 +- 0.11]
+| stem:[< 0.001]
+| stem:[< 0.003]
+| stem:[< 1]
+| stem:[< 1]
+
+| stem:[{Delta d}/d]
+| stem:[-1.75 xx 10^{-8}]
+| stem:[5.2 xx 10^{-9}]
+| stem:[3.54 xx 10^{-9}]
+| stem:[-5.6 xx 10^{-12}]
+| stem:[-3.9 xx 10^{-12}]
+| stem:[1.7 xx 10^{-9}]
+| 
+|===
+
+
+An alternative approach for determining the lattice spacing is to use a lattice comparator <<martin>> <<kessler>> Martin _et al._ (1998), Kessler _et al._ (2017), to compare silicon with unknown impurity concentration with a piece of silicon whose lattice spacing is known.
+
+The relative uncertainties obtainable are comparable to the wavelength uncertainty of polarization stabilized He-Ne lasers that are typically used in displacement measuring interferometry systems.
+
+There are several examples of how a traceability pathway through the silicon lattice spacing is relevant for dimensional nanometrology. Three of these are particularly noteworthy:
+
+. X-ray interferometry for displacement metrology;
+. calibration of TEM magnification; and
+. step height standards based on the silicon lattice.
+
+There has been considerable progress recently in the use of X-ray interferometry for displacement metrology at the sub-micrometre and nanometre scale. The fringe sub-division and non-linearity challenges that hamper visible wavelength interferometry are essentially negligible when using X-ray interferometry, due to the very small fringe period. Instead of deriving traceability through the X-ray wavelength (or frequency), the fringe spacing is given by the _lattice spacing_ of planes from which X-rays are diffracted in the interferometer. Since high purity silicon is available for this application, it is possible to link the fringes to the silicon lattice spacing with very high accuracy, thus providing a traceable nano-scale displacement measuring system. More discussion of this is given in <<annex-3>>.
+
+At very high magnification, there are TEM imaging modes capable of resolving the lattice of crystalline materials. Silicon is a widely utilized material in nanofabrication, and thus many nanostructures of interest are crystalline silicon. This affords the opportunity to utilize the silicon lattice spacing as a traceable ruler within a TEM image. More discussion of this topic is given in <<annex-4>>.
+
+Properly prepared surfaces that are slightly misaligned relative to the crystal planes will exhibit monoatomic steps which correspond to the single lattice plane separation. If the material and surface properties (_e.g._, relaxation) are understood, the value of such step heights can be directly related to the bulk lattice parameter of the material. There has been considerable investigation of this possibility with respect to silicon, and such samples are a promising source of traceable calibration at the nanometre scale. More discussion of this topic is given in <<annex-5>>.
+
+The accessibility of the silicon lattice as a ruler is more important than the relative uncertainty of the known lattice spacing for TEM measurements and silicon steps since measurements are made over a few atoms and other sources of uncertainty will dominate those attributed to lattice imperfections. This is not the case for X-ray interferometry where the measurement range is over many thousands of lattice planes.
+
+When determining the range over which X-ray interferometer measurements can be made, the effect of the impurity concentration on the lattice parameter as well as temperature, pressure, errors in the motion system, and any other error sources must be taken into account together with the desired uncertainty of measurement. For these reasons, the CCL Working Group on Nanometrology has placed limits on the applicable range and estimated uncertainty with which the stem:[d_{220}] lattice constant may be used as a secondary realisation of the metre. Detailed discussion of these limitations is given in Guidance Documents available from the CCL website, and referenced in <<annex-3>>, <<annex-4>>, and <<annex-5>>, but, in summary:
+
+The Si {220} lattice spacing, stem:[d_{220} = 192.0155714 xx 10^{-12}] stem:["m"], may be used as a secondary realisation of the definition of the metre, for dimensional nanometrology applications, using the following techniques, and with the associated caveats and uncertainty limits:
+
+. Measurement of a displacement by reference to the stem:[d_{220}] lattice plane, using an X-ray interferometer can be made using either a monolithic interferometer or an interferometer comprising two parts. Both types of interferometer have uncertainties associated with them. Previous experience shows an uncertainty of 10 pm is realistic with a stem:[10] stem:[mu "m"] displacement from a monolithic interferometer and with a 1 mm range from a separated crystal interferometer if corrections are made for errors in the scanning stage of the separated crystal. As described above, a correction must be applied to the lattice spacing to take into account impurities within the crystal. Additionally, all sources of uncertainty associated with the interferometer, its operation and operating environment must be taken into account as described by Basile _et al._ 2000 <<basile>> for a monolithic interferometer and, Massa _et al._ 2015 <<massa>> for a separated crystal arrangement.
+
+. Calibration of TEM magnification by reference to a single crystal silicon artefact, where the crystal lattice is visible in the field of view of the TEM and the size or width of the single crystalline nanostructure can thus be determined by counting the number of lattice planes in the nanostructure. By this method expanded uncertainties below 1 nm for the widths of line structures smaller than 200 nm could be achieved.
+
+. Measurement of step height standard artefacts manufactured from single crystal silicon, where the height range of multiple monoatomic steps currently is limited up to 10 nm and the uncertainties of the monoatomic step heights are 5 pm under UHV conditions and 15 pm under ambient conditions.
+
+
+[bibliography]
+=== References
+
+* [[[bipm,BIPM SI Brochure]]] BIPM, The International System of Units (SI Brochure) [9th edition, 2019], https://www.bipm.org/en/publications/si-brochure/.
+
+* [[[editors-note,1]]] Editor’s Note, "`Documents concerning the New Definition of the Metre`", _Metrologia_ 19 (1984) 163. https://doi.org/10.1088/0026-1394/19/4/004[DOI: 10.1088/0026-1394/19/4/004]
+
+* [[[resolution-2,1]]] Resolution 2 in Comptes Rendus de la 15e CGPM (1975), 1976, p.103, reported in "`News from the Bureau International des Poids et Mesures`", _Metrologia_ 11 (1975) 179–183. http://dx.doi.org/10.1088/0026-1394/11/4/006[DOI: 10.1088/0026-1394/11/4/006]
+
+* [[[bender,2]]] Bender P L, Currie D G, Poultney S K, Alley C O, Dicke R H, Wilkinson D T, Eckhardt D H, Faller J E, Kaula W M, Mulholland J D, Plotkin H H, Silverberg E C, and Williams J G, "`The Lunar Laser Ranging Experiment`", Science 19 (1973) 229-239. https://doi.org/10.1126/science.182.4109.229[DOI: 10.1126/science.182.4109.229]
+
+* [[[bipm-frequencies,BIPM standard-frequencies]]] BIPM, "`Recommended values of standard frequencies`" (2018). https://www.bipm.org/en/publications/mises-en-pratique/standard-frequencies.html
+
+* [[[riehle,4]]] Riehle F, Gill P, Arias F, and Robertson L, "`The CIPM list of recommended frequency standard values: guidelines and procedures`", _Metrologia_ 55 (2018) 188. https://iopscience.iop.org/article/10.1088/1681-7575/aaa302[DOI: 10.1088/1681-7575/aaa302]
+
+* [[[cll-k11,5]]] International comparison CCL-K11. https://kcdb.bipm.org/appendixB/KCDB_ApB_info.asp?cmp_idy=913&cmp_cod=CCL-K11
+
+* [[[birch,6]]] Birch K P and Downs M J, "`Correction to the Updated Edlén Equation for the Refractive Index of Air`", _Metrologia_ 31 (1994) 315-316. https://iopscience.iop.org/article/10.1088/0026-1394/31/4/006[DOI: 10.1088/0026-1394/31/4/006]
+
+* [[[ciddor,7]]] Ciddor P E, "`Refractive index of air: new equations for the visible and near infrared`", Appl. Opt. 35 (1996) 1566-1573. https://doi.org/10.1364/AO.35.001566[DOI: 10.1364/AO.35.001566]
+
+* [[[hill,8]]] Ciddor P E and R J. Hill, "`Refractive index of air. 2. Group index`", Appl. Opt. 38 (1999) 1663-1667. https://www.osapublishing.org/ao/abstract.cfm?uri=ao-38-9-1663[DOI: 10.1364/AO.38.001663]
+
+* [[[potulski,9]]] Bönsch G and Potulski E, "`Measurement of the refractive index of air and comparison with modified Edlen’s formulae`", _Metrologia_ 35 (1998) 133–9. DOI: https://iopscience.iop.org/article/10.1088/0026-1394/35/2/8[10.1088/0026-1394/35/2/8]
+
+* [[[taniguchi,1]]] Taniguchi N, "`Current status in, and future trends of, ultraprecision machining and ultrafine material processing`", Annals of CIRP 32 (2) (1983) 573-582. https://linkinghub.elsevier.com/retrieve/pii/S0007850607601851[DOI: 10.1016/S0007-8506(07)60185-1]
+
+* [[[becker,2]]] Becker P, "`History and progress in the accurate determination of the Avogadro constant`", Rep. Prog. Phys. *64* (2001) 1945-2008. DOI: http://dx.doi.org/doi:10.1088/0034-4885/64/12/206[10.1088/0034-4885/64/12/206]
+
+* [[[ammon,3]]] Ammon W, Dreier P, Hensel W, Lambert U, and Köster L, "`Influence of oxygen and nitrogen on point defect aggregation in silicon single crystals`", Mat. Sci. and Engg. B36 (1996) 33-41. DOI: 10.1016/B978-0-444-82413-4.50014-7
+
+* [[[wolf,4]]] Wolf E, Schröder, W Riemann H, and Lux B, "`The influences of carbon hydrogen and nitrogen on the floating zone growth of four inch silicon crystals`", Mat. Sci. and Engg. B36 (1996) 209-212. https://linkinghub.elsevier.com/retrieve/pii/B9780444824134500536[DOI: 10.1016/B978-0-444-82413-4.50053-6]
+
+* [[[martin,5]]] Martin J, Kuetgens U, Stümpel J S, and Becker P, "`The silicon lattice parameter - an invariant quantity of nature ?`", _Metrologia_ 35 (1998) 811–817. https://iopscience.iop.org/article/10.1088/0026-1394/35/6/4[DOI: 10.1088/0026-1394/35/6/4]
+
+* [[[kessler,6]]] Kessler E G, Szabo C I, Cline J P, Henins A, Hudson L T, Mendenhall M H, and Vaudin M D, "`The Lattice Spacing Variability of Intrinsic Float-Zone Silicon`", Journal of Research of the National Institute of Standards and Technology 122 (2017) Article No. 24. https://nvlpubs.nist.gov/nistpubs/jres/122/jres.122.024.pdf[DOI: 10.6028/jres.122.024]
+
+* [[[basile,7]]] Basile G, Becker P, Bergamin A, Cavagnero G, Franks A, Jackson K, Kuetgens U, Mana G, Palmer E W, Robbie C J, Stedman M, Stümpel J, Yacoot A, and Zosi G, "`Combined optical and x-ray interferometer for high precision dimensional metrology`", Proc. R. Soc. A 456 (2000) 701–729. https://royalsocietypublishing.org/doi/10.1098/rspa.2000.0536[DOI: 10.1098/rspa.2000.0536]
+
+* [[[massa,8]]] Massa E, Sasso C P Mana G, and Palmisano C, "`A More Accurate Measurement of the 28Si Lattice Parameter`", J. of Physical and Chemical Reference Data 44 (2015) 031208. https://aip.scitation.org/doi/10.1063/1.4917488[DOI: 10.1063/1.4917488]
+
+
+[[annex-1]]
+[appendix]
+== Physical background of interference
+
+The realization of a length by interferometry requires superposition of at least two light waves.
+
+In a simplified approach, the average intensity of a single light wave that is measurable by a detector
+is given by footnote:[In a strict sense the intensity of an electromagnetic wave, _i.e._ its power density, is defined as temporal average value of the Poynting Vectors stem:[vec S = vec E xx vec H]. The density of the electric field, stem:[vec E] , is proportional to the density of the magnetic field stem:[vec H] . For simplicity, all constants of proportionality are set to unity here.]
+
+[stem]
+++++
+I = langle E^2 rangle_t = lim_{t -> oo} {int_0^t (E(t,z))^2 dt} / t = A^2/2
+++++
+
+The situation is different for the interference of two light waves:
+
+[stem]
+++++
+{:(E_1, =, A_1 cos[varphi_1]),(E_2, =, A_2 cos[varphi_2]):}}  rarr I = langle (E_1 + E_2)^2 rangle_t = {A_1^2}/2 + {A_2^2}/2 + A_1 A_2 cos[varphi_1 - varphi_2]
+++++
+
+[stem%unnumbered]
+++++
+= I_2 + I_2 + 2 sqrt{I_1 I_2} cos[varphi_1 - varphi_2]
+++++
+
+[stem%unnumbered]
+++++
+= I_0 (1 + gamma cos[varphi_1 - varphi_2])
+++++
+
+_i.e._ the measurable intensity is related to the cosine of phase difference stem:[phi_1 - phi_2] between both waves. stem:[gamma] denotes the interference contrast stem:[gamma = 2 sqrt{I_1 I_2} // (I_1 + I_2) = (I_{"max"} - I_{"min"}) // (I_{"max"} + I_{"min"})] and stem:[I_0 = I_1 + I_2] the maximum intensity.
+
+
+[[annex-2]]
+[appendix]
+== Typical uncertainty contributions in the practical realization of the length unit by interferometry
+
+. The direction of wave propagation must coincide with the direction of the length to be realized. This requirement can be satisfied to a certain degree by appropriate design of the optics (retro reflectors along the measurement pathway) or dedicated adjustment methods (autocollimation adjustment) <<lewis>>, <<schodel>>. Care should be taken to minimise both the Abbe error and cosine error <<abbe>>, <<flack>>.
+
+. The finite size of a real '`point light source`', positioned in the focal point of a collimating lens, leads to a length proportional aperture correction that must be applied <<bruce>>.
+
+. When an extended light beam covers a certain area within which interferometry is used to determine the length of material artefacts by measuring differences in the phase topography:
+.. the lateral position of the length measurement must have a clear assignment to the geometry;
+.. the resulting lengths must be insensitive to the orientation of the phase topography itself;
+.. the phase change on reflection at the surfaces is 180° only for perfect (zero roughness), non-absorbing (zero extinction of the material) surfaces; in length measurements of material artefacts such as gauge blocks, the phase change will depend on the material properties - such effects must be taken into consideration by appropriate corrections <<doi>>, <<thwaite>>.
+
+. The shape of the wavefront of real light is not perfectly flat; any deformed wavefront is subject to evolution during propagation along a distance. To keep this effect as small as possible almost ideally flat optical components are necessary. The remaining effect due to wavefront distortion must be treated as a source of measurement uncertainty.
+
+. Unless the optical field is plane wave, the wavelength is an ill-defined concept. In fact, because of diffraction, the distance travelled by a wavefront during one oscillation period differs from that of the plane wave and varies from one point to another. Therefore, the relationship between the interference phase and the difference between the lengths of the interferometer arms requires corrections that depend on the modal spectra of the interfering beams and the specific interferometer operation and phase detection. For instance, in the interference of identical Gaussian beams, when the arm difference is much smaller than the Rayleigh distance, the period of the integrated interference pattern differs from the plane-wave wavelength by a quarter of the squared divergence (in relative terms) <<bergamin>>, <<andreas>>.
+
+. The vector nature of the optical field implies dynamical as well geometrical contributions to the phase. Carrying polarization states through an interferometer is analogous to the parallel transport of vectors on a sphere and leads to different Berry’s phase accumulation along different paths. Therefore, the interference phase might include contributions also from the transport of polarization, which appears as non-linearities <<krempel>>.
+
+. Light separation based on polarization is imperfect in practice. Crosstalk can substantially limit the achievable measurement uncertainty, for example in heterodyne interferometry. The polarization properties of optical elements are also influenced by the measurement conditions.
+
+. Unwanted reflections leading to parasitic interferences must be considered as error sources <<schwider>>.
+
+. For incremental and absolute measurements, the mechanical stability of the reference pathway must be ensured.
+
+. In case of AC detection schemes, the detector can influence the phase measurement. Amplitude to phase-coupling or small beam wandering in case of local inhomogeneity can increase the uncertainty substantially and must be carefully avoided.
+
+. Impurity of the light: the light source used may contain fractions of light whose frequency differs from the intended light frequency. Although in a laser a certain resonator mode is made predominant, the laser light generally contains minor resonator modes. When entering an interferometer, the presence of parasitic modes, will affect the length measurement <<franke>>.
+
+. The refractive index of air depends on several parameters (pressure, temperature, partial fraction of minor gases such as water vapour or stem:["CO"_2]). Details are available in <<table-1>>. Incorrect assumption or determination of refractive index will result in incorrect wavelength, leading to direct length-dependent errors.
+
+. The frequency/wavelength of the light being used should be calibrated – any uncertainty in the calibration of the light source will have a direct effect on the measured length <<stone>>.
+
+Exact values of the above uncertainty contributions will depend strongly on the particular design of the measurement process, but typical values that may be encountered in length measurement using interferometry are given in <<table-4>> (using typical values for dimensions of precision measuring interferometers).
+
+
+[[table-4]]
+.Sources of uncertainty in using interferometry to measure length: uncertainty sources and typical magnitudes.
+[cols="2",options="header"]
+|===
+| Uncertainty source | Typical size
+
+| Abbe error (sine error)
+| Depends on offset distance (stem:[d]) and change in tilt angle (stem:[theta]); error stem:[= d tan theta], _e.g._ for stem:[d = 1] stem:["mm"], stem:[theta = 1] second of arc, error = 5 nm.
+
+| Cosine error
+| Depends on angular error (stem:[theta]). For small angles, fractional error stem:[~~ theta^2 // 2], _e.g._ for stem:[theta = 1] second of arc, fractional error is stem:[1.2 xx 10^{-11}].
+
+| Light source aperture correction
+| Depends on aperture diameter (stem:[d]) and focal length (stem:[f]) of collimator, _e.g._ for stem:[d = 1] stem:["mm"], stem:[f = 1000] stem:["mm"], fractional error (given by stem:[d^2 // 16 f^2]) is stem:[6.25 xx 10^{-8}].
+
+| Phase change on reflection
+| *~20 nm* difference between _e.g._ steel and glass, *~3 nm* variation in different steels.
+
+| Wavefront aberrations
+| Depends on quality of delivery optics, typically stem:[lambda//20] to stem:[lambda//40], leading to 15 nm to 30 nm surface error across entire image, but locally smaller effects (few nm).
+
+| Non-planar wavefronts
+| Typically, of the order of one or two nm for diffraction-limited systems.
+
+| Polarization transport effects
+| Affects fringe interpolation, leading to errors of order of a *few nm* at low power.
+
+| Polarization crosstalk
+| Affects fringe interpolation, leading to cyclical errors of order of a few nm.
+
+| Unwanted parasitic reflections
+| Affects fringe interpolation, leading to errors of order of a *few nm* at low power.
+
+| Reference path instability
+| Directly contributes to error with 1:1 correspondence, _e.g._ consider a 1 m mechanical arm made of steel (CTE stem:[10.7 xx 10^{-6}] stem:[K^{-1}]), a 1 °C change in temperature would change the arm length by stem:[10.7] stem:[mu "m"], leading to a length error of the same value.
+
+| AC detection issues
+| Depends on geometry but could cause significant fringe fraction error (_e.g._ up to stem:[1//2] fringe, ~320 nm).
+
+| Secondary modes in lasers
+| At low powers, secondary laser modes affect fringe interpolation, leading to errors of order of a *few nm* in topography or length measurement. For some diffraction-based measurements the effect
+could be larger (_e.g._ 640 nm secondary mode in 633 nm laser giving 1.1 % error in diffracted order <<thwaite>>).
+
+| Air refractive index
+| See <<table-1>> and <<hill>> to [3.11]
+Typical laboratory conditions, uncorrected refractive index (assuming vacuum) gives 0.00027 fractional error. Typical diurnal variation (10 °C, 50 hPa, 10 % RH, 100 ppm stem:["CO"_2]) changes refractive index by stem:[~3 xx 10^{-5}].
+
+| Light frequency/wavelength <<thwaite>>
+| An uncalibrated, unstabilized 633 nm He-Ne laser can be assumed to have a wavelength stem:[lambda = 632.9908] stem:["nm"] with a relative standard uncertainty of stem:[1.5 xx 10^{-6}]. A laser which is frequency stabilized can be calibrated with an uncertainty of a few parts in stem:[10^11] -- typical commercial stabilized lasers can achieve frequency stability of around stem:[10^{-9}].
+|===
+
+
+[bibliography]
+=== References
+
+* [[[lewis,1]]] Lewis A and Pugh D J, "`Interferometer light source and alignment aid using single-mode optical fibres`", Meas. Sci. Technol. 3 (1992) 929-930. https://iopscience.iop.org/article/10.1088/0957-0233/3/9/022[DOI: 10.1088/0957-0233/3/9/022]
+
+* [[[schodel,2]]] Schödel R and Bönsch G, "`Highest accuracy interferometer alignment by retroreflection scanning`", Appl. Opt. 43 (2004) 5738-5743. https://www.osapublishing.org/ao/abstract.cfm?uri=ao-43-31-5738[DOI: 10.1364/AO.43.005738]
+
+* [[[abbe,3]]] Abbe E, "`Messapparate für Physiker`", _Zeitschrift fur Instrumentenkunde_ 10 (1890) 446–448.
+
+* [[[flack,4]]] Flack D and Hannaford J, "`Fundamental Good Practice in Dimensional Metrology`", NPL Good Practice Guide No. 80, ISSN 1368-6550, Oct 2012, National Physical Laboratory. https://www.npl.co.uk/resources/gpgs/dimensional-metrology-guide
+
+* [[[bruce,5]]] Bruce C F, "`The Effects of Collimation and Oblique Incidence in Length Interferometers`", Australian J. Phys. 8 (1955) 224-240. https://doi.org/10.1071/PH550224[DOI: 10.1071/PH550224]
+
+* [[[doi,6]]] Doi T, Toyoda K, and Tanimura Y, "`Effects of phase changes on reflection and their wavelength dependence in optical profilometry`", Appl. Opt. 36 (1997) 7157-7161. https://doi.org/10.1364/AO.36.007157[DOI: 10.1364/AO.36.007157]
+
+* [[[thwaite,7]]] Thwaite E G, "`Phase correction in the interferometric measurement of end standards`", _Metrologia_ 14 (1978) 53. https://doi.org/10.1007/s100530050275[DOI: 10.1088/0026-1394/14/2/002]
+
+* [[[bergamin,8]]] Bergamin A, Cavagnero G, Cordiali L, and Mana G, "`A Fourier optics model of two-beam scanning laser interferometers`", Eur. Phys. J. D 5 (1999) 433–440. https://link.springer.com/article/10.1007%2Fs100530050275[DOI: 10.1007/s100530050275]
+
+* [[[andreas,9]]] Andreas B, Fujii K, Kuramoto N, and Mana G, "`The uncertainty of the phase-correction in sphere-diameter measurements`", _Metrologia_ 49 (2012) 479-486. https://iopscience.iop.org/article/10.1088/0026-1394/49/4/479[DOI: 10.1088/0026-1394/49/4/479]
+
+* [[[krempel,10]]] Massa E, Mana G, Krempel J, and Jentschel M, "`Polarization delivery in heterodyne interferometry`", Opt. Express 21, 27119-27126 (2013). https://www.osapublishing.org/oe/abstract.cfm?uri=oe-21-22-27119[DOI: 10.1364/OE.21.027119]
+
+* [[[schwider,11]]] Schwider J, Burow R, Elssner K-E, Grzanna J, Spolaczyk R, and Merkel K, "`Digital wave-front measuring interferometry: some systematic error sources`", Appl. Opt. 22 (1983) 3421-3432. https://doi.org/10.1364/AO.22.003421[DOI: 10.1364/AO.22.003421]
+
+* [[[franke,12]]] Schödel R and Franke P, "`The effect of a parasitic light mode in length measurements by interferometry`", _Metrologia_ 56 015009 (2019). https://iopscience.iop.org/article/10.1088/1681-7575/aaf480[DOI: 10.1088/1681-7575/aaf480]
+
+* [[[stone,13]]] Stone J A, Decker J E, Gill P, Juncar P, Lewis A, Rovera G D, and Viliesid M, "`Advice from the CCL on the use of unstabilized lasers as standards of wavelength: the helium–neon laser at 633 nm`", _Metrologia_ 46 (2009) 11. DOI: 10.1088/0026-1394/46/1/002
+
+
+[[annex-3]]
+[appendix]
+== Secondary realization of the SI metre using silicon lattice parameter and X-ray interferometry for nanometre and sub-nanometre scale applications in dimensional nanometrology
+
+The technique of X-ray interferometry was first demonstrated by Bonse and Hart <<bonse>> and Hart <<hart>> proposed the concept of using X-ray interferometry for dimensional metrology. An X-ray interferometer (XRI) is achromatic; the interferometer fringe spacing is based purely on the lattice spacing of the crystal planes from which X-rays are diffracted. There is no significant periodic non-linearity as the technique is based on counting atoms within a crystal. The lattice parameter of silicon sets the effective periodicity at 0.192 nm when X-rays are diffracted from the stem:[d_{220}] planes. Low integer-order sub-division of the lattice spacing is possible with appropriate X-ray interferometer configurations thereby taking the resolution down to a few picometres, with only small non-linearity at this level.
+
+Until the 1990s, most X-ray interferometry work undertaken by metrology institutes was directed towards measuring the spacing of silicon stem:[d_{220}] planes as part of a larger project to determine the Avogadro constant in support of mass metrology, <<windisch>>, <<seyfried>>. In addition to measuring the lattice parameter, its variation as a function of impurity content has also been examined, <<windisch>>, <<becker>>. Several values for the Si stem:[d_{220}] lattice spacing have been published <<mana>> and the stem:[d_{220}] lattice spacing appears in CODATA <<mohr>>. By the early 1990s NPL, PTB and IMGC (now INRIM) recognized that Si stem:[d_{220}] lattice spacing was sufficiently well known for it to be used as a reference standard for dimensional metrology using X-ray interferometry. They built a combined optical and X-ray interferometry (COXI) facility at NPL <<cavagnero>> for the calibration of displacement measuring transducers. This established traceability to the metre via both the laser frequency of a He-Ne laser and the lattice parameter of silicon which had previously been measured using X-ray interferometry. Long range measurements (up to stem:[+- 1] stem:[mm]) were realised using the optical interferometer and short range, high accuracy measurements were realised using the X-ray interferometer working on a similar principle to a Vernier scale. This obviated the need for optical fringe division. Subsequent work by NPL and PTB in collaboration has led to the evaluation of several displacement measuring transducers and the use of the X-ray interferometer as a positioning stage for scanning probe microscopy <<koenders>>. In 2011 the NANOTRACE project <<pisani>> was completed in which the performance of several high accuracy state of the art optical interferometers developed by NMIs was evaluated. Sub X-ray fringe positioning capability has also been demonstrated <<kuetgens>>.
+
+
+=== Operating principle
+
+Silicon is the preferred choice for XRI construction, not only because of knowledge of the lattice parameter, but also because it is available as pure defect-free crystals in the form of rods in specific crystallographic orientations and is elastic. The silicon single crystal used for manufacture of the XRI should be ultra-pure, un-doped and dislocation free grown by the float zone method with a carbon and oxygen content of less than stem:[5 xx 10^15] stem:["cm"^{-3}]. Impurity content can be determined separately by a variety of techniques including infra-red or mass spectrometry, neutron activation, or X-ray fluorescence. Double crystal X-ray topography can be used to examine lattice homogeneity at an accuracy of a few parts in 10–8 and the crystal used can, if desired, be compared with one whose lattice parameter is known.
+
+The demanding tolerance with which the components must be aligned has led to most X-ray interferometers having a monolithic construction being machined from a large single crystal. <<fig-3>> shows a schematic diagram of the plan view of a monolithic X-ray interferometer together with the path traced by the X-rays. Material is machined away from the top of the original block of silicon to leave three equally spaced thin lamellae typically a few hundred micrometres thick, which are usually referred to as the beam-splitter (B), mirror (M) and analyser (A) lamella, respectively. The faces of the lamellae are orientated perpendicular to the crystallographic planes from which X-rays can be diffracted, usually (220). Around the third lamella (A, analyser) a flexure stage has been machined so that application of a force parallel to the lamellae faces results in displacement of the third lamella.
+
+[[fig-3]]
+.Plan view of a monolithic X-ray interferometer. B, M and A are lamellae.
+image::metre/si-app2/fig-3.png[]
+
+
+In use the interferometer is aligned so that collimated X-rays are incident on the beam-splitter lamella (B) at the Bragg angle for the diffracting planes and diffracted from the first lamella (B). Two diffracted beams are produced which are incident on the second lamella (M), from which two more pairs of diffracted beams emerge. The inward pointing beams from each pair recombine at the third lamella (A). The combination of these two beams results in an interference pattern whose periodicity is given by the lattice parameter of the planes from which the X-rays have been diffracted. The lattice parameter of the (220) planes is of the order of 0.192 nm. A third lamella (A) is used to produce a moiré fringe pattern between the X-ray beams and the atomic planes in the crystal. Consequently, when the third lamella is displaced through a distance equal to the lattice spacing of the diffracting planes, the intensity of the X-ray beams transmitted through the third lamella cycles through maximum and minimum. By measuring the intensity of the X-ray signal as the third lamella is displaced, one is able to measure the displacement of the flexure stage in terms of the lattice spacing of silicon. The range of the interferometer’s flexure is a few micrometres. The stage is translated using a piezo actuator, and any significant pitching of the stage will cause a reduction of the fringe contrast. The tolerances on design of the flexure stage and location of the piezo are such that allowed angular errors are of the order of stem:[10^{-8}] radians.
+
+
+=== Interfacing to the X-ray interferometer
+
+For the XRI to be useful, the displacement must be '`interfaced`' to the external world. On the sides of the XRI there are optical mirrors, one of which is moved by the translation stage. In addition, there are fixed mirrors on the interferometer. Any optical sensor to be evaluated can be interfaced to these moving and fixed mirrors. Alternatively, any bulk object to be translated can be placed directly above the third lamella resting on the two moving optical mirrors. Although the X-ray interferometer is capable of generating very accurate displacements and inherently requires translation capability with sub arc second angular errors, as with any precision motion system, care is required when interfacing the sensor to the system to ensure that the potential for Abbe and cosine errors are minimized. As such any sensor being measured should be in line with the centre of the X-ray beam in the crystal. Both temperature stability and a knowledge of the absolute temperature are essential. The thermal expansion coefficient of silicon around 20 °C is stem:[2.57 xx 10^{-6}] stem:["K"^{-1}] <<wantanabe>>. Any temperature gradient across the lamella of an X-ray interferometer will vary the lattice parameter and hence reduce fringe contrast leading to a reduction in the useable signal. The temperature uniformity across the lamellae should be better than 10 mK. Isolation from mechanical and acoustic vibration is essential for operation of the XRI.
+
+
+Further detailed information concerning the use of X-ray interferometry as a secondary realisation of the metre may be found in the CCL WG-Nano document CCL-GD-MeP-1: _Realization of the SI metre using silicon lattice parameter and X-ray interferometry for nanometre and sub-nanometre scale applications in dimensional nanometrology_ which is available from the https://www.bipm.org/en/committees/cc/ccl/publications-cc.html[CCL website].
+
+
+[bibliography]
+=== References
+
+* [[[bonse,1]]] Bonse U and Hart M, "`An x-ray interferometer`", _Appl. Phys._ Lett. 6 (1965) 155–156. https://aip.scitation.org/doi/10.1063/1.1754212[DOI: 10.1063/1.1754212]
+
+* [[[hart,2]]] Hart M, "`An Angstrom Ruler`", J. Phys. D 11 (1968) 1405. https://doi.org/10.1088/0022-3727/1/11/303[DOI: 10.1088/0022-3727/1/11/303]
+
+* [[[windisch,3]]] Windisch D and Becker P, "`Silicon lattice parameters as an absolute scale of length for high precision measurements of fundamental constants`", Phys. Status Solidi A 118 (1990) 379–388. https://doi.org/10.1002/pssa.2211180205[DOI: 10.1002/pssa.2211180205]
+
+* [[[seyfried,4]]] Seyfried P _et al._, "`A determination of the Avogadro Constant`", Zeit. Phys. B87 (1992) 289–298. https://link.springer.com/article/10.1007%2FBF01309282[DOI: 10.1007/BF01309282]
+
+* [[[martin-j,5]]] Martin J, Kuetgens U, Stümpel J S, and Becker P, "`The silicon lattice parameter - an invariant quantity of nature ?`", _Metrologia_ 35 (1998) 811–817. https://iopscience.iop.org/article/10.1088/0026-1394/35/6/4[DOI: 10.1088/0026-1394/35/6/4]
+
+* [[[becker-p,6]]] Becker P "`History and progress in the accurate determination of the Avogadro constant`", Rep. Prog. Phys. 64 (2001) 1945-2008. https://iopscience.iop.org/article/10.1088/0034-4885/64/12/206[DOI: 10.1088/0034-4885/64/12/206]
+
+* [[[mana,7]]] Massa E, Mana G, and Kuetgens U, "`Comparison of the INRIM and PTB lattice-spacing standards`", _Metrologia_ 46 (2009) 249–253. https://iopscience.iop.org/article/10.1088/0026-1394/35/6/4[DOI: 10.1088/0026-1394/35/6/4]
+
+* [[[mohr,8]]] Mohr P J, Taylor B N, and Newell D B, "`CODATA recommended values of the fundamental physical constants: 2010`", Rev. Mod. Phys. 84 (2012) 1527–1605. https://journals.aps.org/rmp/abstract/10.1103/RevModPhys.84.1527[DOI: 10.1103/RevModPhys.84.1527]
+
+* [[[cavagnero,9]]] Basile G, Becker P, Bergamin A, Cavagnero G, Franks A, Jackson K, Kuetgens U, Mana G, Palmer E W, Robbie C J, Stedman M, Stümpel J, Yacoot A, and Zosi G, "`Combined optical and x-ray interferometer for high precision dimensional metrology`", Proc. R. Soc. A 456 (2000) 701–729. https://royalsocietypublishing.org/doi/10.1098/rspa.2000.0536[DOI: 10.1098/rspa.2000.0536]
+
+* [[[koenders,10]]] Yacoot A, Kuetgens K, Koenders L and Weimann T, "`A combined x-ray interferometer and scanning tunnelling microscope`", Meas. Sci. Technol. 12 (2001) 1660. https://iopscience.iop.org/article/10.1088/0957-0233/12/10/306[DOI: 10.1088/0957-0233/12/10/306]
+
+* [[[pisani,11]]] Pisani M, Yacoot A, Balling P, Bancone N, Birlikseven C, Çelik M, Flügge J, Hamid R, Köchert P, Kren P, Kuetgens U, Lassila A, Picotto G B, Şahin E, Seppä J, Tedaldi M, and Weichert C, "`Comparison of the performance of the next generation of optical interferometers`", _Metrologia_ 49(4) (2012) 455–467. https://iopscience.iop.org/article/10.1088/0026-1394/49/4/455[DOI: 10.1088/0026-1394/49/4/455]
+
+* [[[kuetgens,12]]] Yacoot A and Kuetgens U, "`Sub atomic dimensional metrology : Developments in the control of x-ray interferometers`", Meas. Sci. Technol. 12 (10) (2012) 074003. https://iopscience.iop.org/article/10.1088/0957-0233/23/7/074003[DOI: 10.1088/0957-0233/23/7/074003]
+
+* [[[wantanabe,13]]] Watanabe H, Yamada N, and Okaji M, "`Linear Thermal Expansion Coefficient of Silicon from 293 to 1000 K`", International Journal of Thermophysics 25(1) (2004) 221–236. https://link.springer.com/article/10.1023%2FB%3AIJOT.0000022336.83719.43[DOI: 10.1023/B:IJOT.0000022336.83719.43]
+
+
+[[annex-4]]
+[appendix]
+== Secondary realization of SI metre using silicon lattice and transmission electron microscopy for dimensional nanometrology
+
+Since the early 2000s, experiments were performed using the known value of the bulk silicon lattice constant to establish traceability to the SI metre for dimensional nanometrology applications. Techniques such as X-ray scattering, can provide a link to the silicon lattice for certain measurands (notably, film thickness) that are defined over large sampling areas. However, for highly localized measurements of specific nanostructures, various forms of transmission electron microscopy (TEM) provide the most appropriate method of linking.
+
+The so-called single crystal critical dimension reference material (SCCDRM) project has been an effort to develop standards for linewidth metrology at and below the 100 nm size scale <<cresswell>>-<<bogardus>>. The goal of this project was to establish traceable width metrology of specific crystalline silicon nanostructures. The measurand was localized – with unique mutual navigation indicators and equivalent sampling strategy, and only the native silicon oxide was present on silicon structures.
+
+The general approach was to use critical dimension atomic force microscopy (CD-AFM) as a comparator between those structures that were cross-sectioned for TEM and the structures remaining intact. The expanded uncertainty limit on the transfer experiment was 0.6 nm (stem:[k = 2]). However, the standards distributed to users had expanded uncertainties (stem:[k = 2]) of between 1.5 nm and 2 nm. This overall approach and the use of TEM to achieve traceability were generally accepted within the dimensional nanometrology community -- specifically within the semiconductor metrology field. More recently, other approaches independently implemented a conceptually related methodology <<dai>>.
+
+In contrast to the dimensional metrology community, however, those involved with the surface analysis and thin film characterization areas have a different experience and perspective on the suitability of using TEM for traceability to the SI metre. This is due partly to the CCQM experience during the same time period with two comparisons of stem:["SiO"_2] thickness measurements: a pilot study P38 <<seah>> and a subsequent key comparison K32 <<unger>>.
+
+Although TEM was used to measure quantities with dimensions of length in both the P38 comparison (layer thickness) and the linewidth standard projects, there are some fundamental differences between the two applications. In the linewidth standard efforts, the measurand was highly localized -- the width of a specific structure at a specific location. Position markers were used for mutual navigation between AFM and TEM, and multiple measurements were used to help achieve equivalent sampling.
+
+In contrast, the film thickness measurand in the P38 study was the amount of stem:["SiO"_2] on a silicon wafer expressed as layer thickness, which is not a highly localized property, and the samples used in the P38 study did not have location-specific markers to ensure consistent navigation among the methods. Consequently, the reported results did not necessarily correspond to overlapping regions or sampling of the same size.
+
+One commonality between the applications is that both underscored the importance of considering of stem:["SiO"_2 // "Si"] interface ambiguity, sample preparation/capping layer/thinning of layers, and carbonaceous contamination for any application of TEM in dimensional nanometrology.
+
+
+=== Practical implementation
+
+In order to directly obtain traceability through resolving the silicon lattice, a necessary requirement is that at least some portion of the sample material, ideally the primary target feature, must be mono-crystalline.
+
+It remains a challenging issue to accurately assign the feature edges in high resolution (S)TEM images, and this is of central importance in using TEM metrology to provide a traceable reference for dimensional nanometrology. The uncertainties in the feature edge locations directly impact the uncertainty of a width measurement. Generally, these uncertainties must be 1 nm or less in order to preserve a useful uncertainty in the final width calibration. The edge uncertainties are dependent upon multiple factors, including: (1) the nature of the original sample (_i.e._, crystallinity), (2) the performance of the sample preparation – including potential damage, annealing, and (3) the image-formation physics in the TEM.
+
+Sample preparation is integral to TEM metrology. With either the contrast mechanism or magnification calibration method, it is necessary to pay close attention to sample preparation to protect the integrity of the measured structure – including oxide – during specimen preparation. Major factors to be considered are the protective/encapsulating layers and the thinning process to achieve electron transparency.
+
+Further detailed information concerning the use of silicon lattice and TEM as a secondary realisation of the metre in nanometrology may be found in the CCL WG-Nano document CCL-GD-MeP-2: _Realization of SI Metre using silicon lattice and transmission electron microscopy for dimensional nanometrology_ which is available from the https://www.bipm.org/en/committees/cc/ccl/publications-cc.html[CCL website].
+
+
+[bibliography]
+=== References
+
+* [[[cresswell,1]]] Cresswell M, Guthrie W, Dixson R, Allen R A, Murabito C E, and Martinez de Pinillos JV, "`RM8111: Development of a Prototype Linewidth Standard`", J. Res. Natl. Inst. Stand. Technol. 111 (2006) 187–203. https://nvlpubs.nist.gov/nistpubs/jres/111/3/V111.N03.A01.pdf[DOI: 10.6028/jres.111.016]
+
+* [[[dixson,2]]] Dixson R G, Allen R A, Guthrie W F, and Cresswell M W, "`Traceable Calibration of Critical-Dimension Atomic Force Microscope Linewidth Measurements with Nanometer Uncertainty`", J. Vac. Sci. Technol. B 23 (6) (2005) 3028–3032. https://doi.org/10.1116/1.2130347[DOI: 10.1116/1.2130347]
+
+* [[[bogardus,3]]] Cresswell M W, Bogardus E H, Martinez de Pinillos J V, Bennett M H, Allen R A, Guthrie W F, Murabito C E, am Ende B A, and Linholm L W, "`CD Reference Materials for Sub-Tenth Micrometer Applications`", Proc. SPIE 4689 (2002) 116–127. https://doi.org/10.1117/12.473450[DOI: 10.1117/12.473450]
+
+* [[[dai,4]]] Dai G, Heidelmann M, Kübel C, Prang R, Fluegge J, and Bosse H, "`Reference nano-dimensional metrology by scanning transmission electron microscopy`", Meas. Sci. Technol. 24 (2013) 085001. https://iopscience.iop.org/article/10.1088/0957-0233/24/8/085001[DOI: 10.1088/0957-0233/23/7/074003]
+
+* [[[seah,5]]] Seah M P, Spencer S J, Bensebaa F, Vickridge I, Danzebrink H, Krumrey M, Gross T, Oesterle W, Wendler E, Rheinländer B, Azuma Y, Kojima I, Suzuki N, Suzuki M, Tanuma S, Moon D W, Lee H J, Cho H M, Chen H Y, Wee A T S, Osipowicz T, Pan J S, Jordaan W A, Hauert R, Klotz U, van der MarelC, Verheijen M, Tamminga Y, Jeynes C, Bailey P, Biswas S, Falke U, Nguyen N V, Chandler-Horowitz D, Ehrstein J R, Muller D, and Dura J A, "`Critical review of the current status of thickness measurements for ultrathin stem:["SiO"_2] on Si Part V: Results of a CCQM pilot study`", Surf. Interface Anal. 36 (2004) 1269–1303. https://onlinelibrary.wiley.com/doi/abs/10.1002/sia.1909[DOI: 10.1002/sia.1909]
+
+* [[[unger,6]]] Seah M P, Unger W E S, Wang H, Jordaan W, Gross Th, Dura J A, Moon D W, Totarong P, Krumrey M, Hauert R, and Zhiqiang M, "`Ultra-thin stem:["SiO"_2] on Si IX: absolute measurements of the amount of silicon oxide as a thickness of stem:["SiO"_2] on Si`", Surf. Interface Anal. 41 (2009) 430–439. https://doi.org/10.1002/sia.3045[DOI: 10.1002/sia.3045]
+
+
+[[annex-5]]
+[appendix]
+== Secondary realization of SI metre using height of monoatomic steps of crystalline silicon surfaces
+
+There is a need for standards for the calibration of the axes of high-resolution instruments in surface metrology. Especially in the case of measurements of small objects, like molecules, DNA, Single-Walled and Multi-Walled Carbon Nanotubes (SWCNT, MWCNT), etc.; in the nanometre and sub-nanometre range, an accurate calibration of the normal measurement axis, _i.e._ the z-axis, is mandatory. Today, the smallest commercially available step height standard based on a silicon dioxide (stem:["SiO"_2]) layer on silicon (stem:[Si]) is in the range of some nanometres; however, the expanded uncertainty of such a stem:["SiO"_2//Si] step height standard is rather large compared to the accuracy needed. This limits the achievable measurement accuracy for height measurements of objects of interest, which can otherwise clearly be resolved in AFM images.
+
+
+=== Monoatomic steps
+
+Due to the high symmetry of the monocrystalline lattice and the resulting almost perfect reproducibility of the mesh plane distance, silicon single crystals offer a possibility to realize the SI metre in the nanometre range. The silicon lattice spacing stem:[d_{220}] has been determined by using X-ray-interferometry in combination with laser interferometry with traceability to the SI unit of length, the metre. All the experiments obtained on different silicon crystals gave very reproducible values with small uncertainty. Additionally, variations as function of impurities have been investigated, too, and are listed in CODATA [A5.1] reports.
+
+The silicon lattice spacing stem:[d_{220}] is quoted as
+
+stem:[d_{220} = 192.015 5714(32)] stem:["pm"] with a standard uncertainty of stem:[0.0000032 xx 10^{-12}] stem:["m"],
+
+The Si lattice parameter of other crystallographic orientations of the silicon crystal, such as (100) or (111), can be calculated by using the following equation
+
+[stem%unnumbered]
+++++
+d_{"hkl"} = {a_0} / sqrt{h^2 + k^2 + l^2}
+++++
+
+where stem:[a_0 = 543.102 0504(89)] pm (<<newell>>; specified for natural silicon at 22.5 °C) is the lattice constant and h, k, and l are the Miller indices.
+
+The bulk value of stem:[a_0] can be used to determine the step height between two successive lattice planes, a so-called monoatomic step, obtained at the surface. Here clean silicon surfaces under ultra-high vacuum (UHV) conditions and in air are considered. In air, the silicon surface is covered by a homogenous thin layer of silicon oxide, whose thickness depends on the conditions used for the oxidation, which was again proven by experiments.
+
+The clean surfaces in UHV undergo a surface reconstruction, such as stem:[7 xx 7] for the (111) orientation. However, since the reconstruction is the same on each free surface plane, the bulk distance value will not be influenced. Furthermore, the growth of a thin silicon oxide layer does not modify the morphology of steps. Again, experiments have proven, that the steps retain their standard size.
+
+
+=== Recommendations
+
+The CCL/WG-N recommends the use of the silicon lattice parameter for the calibration of the normal scan axes of high resolution instruments in surface metrology. Depending on their crystallographic orientation, the following values (see <<table-5>>) should be used for the distance between adjacent monoatomic steps.
+
+
+[[table-5]]
+[cols="^,^,^",options="header"]
+.Recommended values for the silicon monoatomic step height.
+|===
+| 2+| silicon monoatomic step height
+| Surface orientation Lattice parameter
+a| under UHV +
+/pm
+| in air +
+/pm
+
+| stem:[d_{100}]
+| 135 (5)
+| 135 (15)
+
+| stem:[d_{111}]
+| 313 (5)
+| 313 (15)
+
+|===
+
+The uncertainty given in the parenthesis is the expanded uncertainty (stem:[k = 2]). Details about the sources of uncertainty are given in the Guideline CCL-GD-MeP-3 _Realization of SI metre using height of monoatomic steps of crystalline silicon surfaces_.
+
+
+=== Measurement range and conditions
+
+The useful range of calibration of surface measuring instruments by using multiple monoatomic steps on silicon surfaces is currently limited to 10 nm. Further research in the manufacturing processes of the monoatomic silicon step height standards might in future allow to increase the calibration range.
+
+The instrument to be calibrated should be used in a clean environment to reduce possible particle contamination of the sample.
+
+Firstly, the CCL WG-N recommends using large step-free terraces on the silicon sample to determine the cross-talk of the x-y scanning unit in the z-direction and the noise (determination of Rq or Sq). The step height calibration should be done at the same scanner position and the same x-y scan range. This allows for systematic correction of the cross-talk.
+
+Secondly, areas with steps should be scanned for the z-axis calibration. There are two types of step arrangements on carefully prepared silicon surfaces: the first is a so-called amphitheatre (pairs of opposing terraces on the same height level) and the second is a staircase-like structure. On the amphitheatre-arranged steps, the algorithm defined in <<iso5436-1>> can be applied for the determination of the step height, which allows a well-defined alignment and is less dependent on x-y scanner deviations (cross-talk to z, …). In the case of staircase-like structures, large step-free terraces on both sides of a monoatomic step should be used for the levelling. In both cases it is recommended to use step free terraces larger than stem:[1] stem:[mu "m"] in size for the levelling area on the lower and upper planes. Furthermore, the calibration should be done in the range of the axis which is later used in experiments and the maximum height range should be less than 20 nm.
+
+Further detailed information concerning the use of monoatomic steps as a secondary realisation of the metre in nanometrology may be found in the CCL WG-Nano document CCL-GD-MeP-3: Realization of SI metre using height of monoatomic steps of crystalline silicon surfaces which is available from the CCL website.
+
+
+[bibliography]
+=== References
+
+* [[[newell,1]]] Mohr P J, Newell D B, Taylor B N and Tiesinga E, "`Data and analysis for the CODATA 2017 special fundamental constants adjustment`", _Metrologia_ *55* (1) (2018) 125. DOI: 10.1088/1681-7575/aa99bc
+
+* [[[iso5436-1,ISO 5436-1]]] ISO 5436-1, "`Geometrical Product Specifications (GPS) - Surface texture: Profile method; Measurement standards - Part 1: Material measures`", International Organization for Standardization, Geneva, Switzerland (2000). https://www.iso.org/standard/21978.html
+
