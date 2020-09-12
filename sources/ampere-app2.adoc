@@ -1,0 +1,281 @@
+= Mise en pratique for the definition of the ampere and other electric units in the SI
+:appendix: 2
+:partnumber: 1
+:edition: 1
+:copyright-year: 2019
+:revdate: 2019-05-20
+:language: en
+:title-en: Mise en pratique for the definition of the ampere and other electric units in the SI
+:title-fr: Mise en pratique for the definition of the ampere and other electric units in the SI
+:doctype: mise-en-pratique
+:parent-document: si-brochure.adoc
+:committee: Consultative Committee for Electricity and Magnetism
+:docstage: 60
+:docsubstage: 60
+:imagesdir: images
+:docfile: ampere-app2.adoc
+:mn-document-class: bipm
+:mn-output-extensions: xml,html,doc,pdf,rxl
+:local-cache-only:
+:data-uri-image:
+
+
+
+[[sec-1]]
+== Introduction
+
+The purpose of this Mise en pratique, prepared by the Consultative Committee for Electricity and Magnetism (CCEM) of the International Committee for Weights and Measures (CIPM), is to indicate how the SI base unit, the ampere, symbol A, and the derived electric SI units with names and symbols, the volt stem:[V], ohm stem:[Omega], siemens stem:[S], coulomb stem:[C], farad stem:[F], henry stem:[H], watt stem:[W], tesla stem:[T], and weber stem:[Wb], may be realized in practice.
+
+In general, the term "`to realize a unit`" is interpreted to mean the establishment of the value and associated uncertainty of a quantity of the same kind as the unit that is consistent with the definition of the unit. The definition of the ampere does not imply any particular experiment for its practical realization. Any method capable of deriving an electric current value traceable to the set of seven reference constants could, in principle, be used. Thus, the list of methods given is not meant to be an exhaustive list of all possibilities, but rather a list of those primary methods that are easiest to implement and/or that provide the smallest uncertainties.
+
+A primary method is a method having the highest metrological properties; whose operation can be completely described and understood; for which a complete uncertainty statement can be written down in terms of SI units; and which does not require a reference standard of the same quantity.
+
+
+== Definition of the ampere
+
+The definition of the ampere, SI base unit of electric current, is as follows <<bipm>>:
+
+____
+The ampere, symbol A, is the SI unit of electric current. It is defined by taking the fixed numerical value of the elementary charge e to be stem:[1.602 176 634 xx 10^{-19}] when expressed in the unit stem:[C], which is equal to stem:["A s"], where the second is defined in terms of stem:[Delta v_{C_s}].
+____
+
+
+[[sec-3]]
+== Practical realization of the ampere
+
+As already noted in <<sec-1>>, to realize a unit generally means to establish the value and associated uncertainty of a quantity of the same kind as the unit that is consistent with the definition of the unit. In practice, the ampere A can be realized:
+
+. by using Ohm's law, the unit relation stem:[A = V//Omega], and using practical realizations of the SI
+derived units the volt stem:[V] and the ohm stem:[Omega], based on the Josephson and quantum Hall effects,
+respectively, as discussed in <<sec-4>> and <<sec-5>> below; or
+
+. by using a single electron transport (SET) or similar device, the unit relation stem:[A = C//s], the
+value of e given in the definition of the ampere and a practical realization of the SI base unit
+the second s; or
+
+. by using the relation stem:[I = C cdot dU//dt], the unit relation stem:[A = F cdot V // s], and practical realizations of the
+SI derived units the volt stem:[V] and the farad stem:[F] and of the SI base unit second s.
+
+At the time of the preparation of this _Mise en pratique_, single electron transport (SET)
+implementations still have technical limitations and often larger relative uncertainties than some
+other competitive techniques. However, SET implementations are included in this _Mise en pratique_
+because they offer unique and elegant approaches to realizing SI units, and their uncertainties have
+been improving in recent years, and they promise to improve further in the future.
+
+
+[[sec-4]]
+== Practical realization of the volt, V, SI derived unit of electric potential difference (voltage) and electromotive force
+
+The volt stem:[V] can be realized using the Josephson effect and the following value of the Josephson constant stem:[K_J]:
+
+[[eq-1]]
+[stem]
+++++
+K_J = 483 597.848 416 984 "&nbsp;" "GHz V"^{-1}
+++++
+
+NOTE: This value has been calculated to 15 significant digits.
+
+This value follows from the assumption of the accuracy of the equation stem:[K_J = 2e//h], which is strongly
+supported by a large body of experimental and theoretical works, and the values of h and e given in
+<<bipm>>. Although the quotient stem:[2e//h] can obviously be calculated with any number of digits, this truncated
+recommended value is in error by less than 1 part in stem:[10^15], which is intended to be negligible in the
+vast majority of applications. In those rare cases where this error may not be negligible, additional
+digits should be employed. The advantage of recommending a particular value of stem:[K_J] for practical use
+is that it ensures that virtually all realizations of the volt based on the Josephson effect employ
+exactly the same value.
+
+Note that the value of stem:[K_J] in <<eq-1>> is smaller than the value stem:[K_{J-90} = 483 597.9 "&nbsp;" "GHz V"^{-1}], which was
+adopted by the CIPM starting 1 January 1990 for the international realization of the volt using the
+Josephson effect, by the fractional amount stem:[106.665 xx 10^{-9}]. This implies that the unit of voltage
+realized using stem:[K_{J-90}] was larger than the present SI unit as realized using the value in <<eq-1>> by the
+same fractional amount. Thus, the numerical value of a voltage measured in terms of stem:[K_{J-90}] would
+have been smaller by the same fractional amount as the numerical value of the identical voltage
+measured today in terms of the present SI volt realized using the value of stem:[K_J] given in <<eq-1>>.
+
+
+[[sec-5]]
+== Practical realization of the ohm, stem:[Omega], SI derived unit of electric resistance and impedance
+
+The ohm stem:[Omega] can be realized as follows:
+
+. by using the quantum Hall effect in a manner consistent with the CCEM Guidelines <<delahaye>> and the following value of the von Klitzing constant stem:[R_K]:
+
+[[eq-2]]
+[stem]
+++++
+R_K = 25 812.807 459 3045 "&nbsp;" Omega
+++++
+
+NOTE: This value has been calculated to 15 significant digits.
+
+
+This value follows from the assumption of the accuracy of the equation stem:[R_K = h//e^2], which is
+strongly supported by a large body of experimental and theoretical works, and the values of h
+and stem:[e] given in <<bipm>>. Although the quotient stem:[h//e^2] can obviously be calculated with any number
+of digits, this truncated recommended value is in error by less than 1 part in stem:[10^15], which is
+intended to be negligible in the vast majority of applications. In those rare cases where this
+error may not be negligible, additional digits should be employed. The advantage of
+recommending a particular value of stem:[R_K] for practical use is that it ensures that virtually all
+realizations of the ohm based on the quantum Hall effect employ exactly the same value; or
+
+. by comparing an unknown resistance to the impedance of a known capacitance using, for
+example, a quadrature bridge, where, for example, the capacitance has been determined by
+means of a calculable capacitor and the value of the electric constant given by <<eq-3>> in
+section 13 below.
+
+
+Note that the value of stem:[R_K] in <<eq-2>> is larger than the value stem:[R_{K-90} = 25 812.807 "&nbsp;" Omega], which was adopted
+by the CIPM starting 1 January 1990 for the international realization of the ohm using the quantum
+Hall effect, by the fractional amount stem:[17.793 xx 10^{-9}]. This implies that the unit of resistance realized
+using stem:[R_{K-90}] was larger than the present SI unit as realized using the value in <<eq-2>> by the same
+fractional amount. Thus, the numerical value of a resistance measured in terms of stem:[R_{K-90}] would have
+been smaller by the same fractional amount as the numerical value of the identical resistance
+measured today in terms of the present SI ohm realized using the value of stem:[R_K] given in <<eq-2>>.
+
+
+
+== Practical realization of the siemens, S, SI derived unit of electric conductance
+
+The siemens stem:[S] can be realized from a realization of the ohm (see <<sec-5>>) since stem:[S] is related to stem:[Omega] by the
+unit relation stem:[S = Omega^{-1}].
+
+
+== Practical realization of the coulomb, C, SI derived unit of electric charge
+
+The coulomb stem:[C] can be realized as follows:
+
+. by measuring the duration in terms of the SI unit of time, the second s, of the flow of an
+electric current known in terms of the ampere realized as indicated in <<sec-3>>; or
+
+. by determining the amount of charge placed on a capacitance known in terms of the farad stem:[F] realized by method <<item-8a>> or <<item-8b>>, using the unit relation stem:[C = F cdot V] and by measuring the voltage across the capacitance in terms of the volt stem:[V] as realized by the Josephson effect and the value of the Josephson constant given in <<eq-1>> (see <<sec-4>>); or
+
+. by using a SET or similar device to transfer a known amount of charge based on the value of stem:[e], given in the definition of the ampere, onto a suitable circuit element.
+
+
+[[sec-8]]
+== Practical realization of the farad, F, SI derived unit of capacitance
+
+The farad stem:[F] can be realized as follows:
+
+. [[item-8a]]by comparing the impedance of a known resistance obtained using the quantum Hall effect and the value of the von Klitzing constant given in <<eq-2>> (see <<sec-5>>), including a quantized Hall resistance itself, to the impedance of an unknown capacitance using, for example, a quadrature bridge; or
+
+. [[item-8b]]by using a calculable capacitor and the value of the electric constant given by <<eq-3>>.
+
+
+== Practical realization of the henry, H, SI derived unit of inductance
+
+The henry stem:[H] can be realized as follows:
+
+. by comparing the impedance of an unknown inductance to the impedance of a known capacitance with the aid of known resistances using, for example, a Maxwell-Wien bridge, where the known capacitance and resistances have been determined, for example, from the quantum Hall effect and the value of stem:[R_K] given in <<eq-2>> (see <<sec-5>> and <<sec-8>>); or
+
+. by using a calculable inductor of, for example, the Campbell type of mutual inductor and the value of the magnetic constant stem:[mu_0] given by <<eq-6>>.
+
+
+== Practical realization of the watt, W, SI derived unit of power
+
+The watt W can be realized using electrical units by using the fact that electric power is equal to current times voltage, the unit relation based on Ohm's law, stem:[W = V^2//Omega], and realizations of the volt and ohm using the Josephson and quantum Hall effects and the values of the Josephson and von Klitzing constants given in <<eq-1>> and <<eq-2>> (see <<sec-4>> and <<sec-5>>).
+
+
+
+== Practical realization of the tesla, T, SI derived unit of magnetic flux density
+
+The tesla stem:[T] can be realized as follows:
+
+. by using a solenoid, Helmholtz coil or other configuration of conductors of known dimensions carrying an electric current determined in terms of the ampere realized as
+discussed in <<sec-3>>, and the value of the magnetic constant stem:[mu_0] given in <<eq-6>> in the calculation of the magnetic flux density generated by the current carrying conductors; or
+
+. by using nuclear magnetic resonance (NMR) with a sample of known gyromagnetic ratio, for example, a spherical sample of pure stem:[H_2 O] at 25 °C and the most recent recommended value of the shielded gyromagnetic ratio of the proton stem:[gamma_{p'}] given by CODATA.
+
+
+== Practical realization of the weber, Wb, SI derived unit of magnetic flux
+
+The weber Wb can be realized from the tesla based on the unit relation stem:[Wb = T m^2] or from the volt based on the unit relation stem:[Wb = V "&nbsp;" s]. Use can also be made of the fact that the magnetic flux quantum stem:[phi_0], which characterizes the magnetic properties of superconductors, is related to h and e as given in <<bipm>> by the exact relation stem:[phi_0 = h//2e].
+
+
+== Magnetic constant stem:[mu_0] and related quantities
+
+The new definitions of the kilogram, ampere, kelvin, and mole do not alter the relationships among the magnetic constant (permeability of vacuum) stem:[mu_0], electric constant (permittivity of vacuum) stem:[epsilon_0], characteristic impedance of vacuum stem:[Z_0], admittance of vacuum stem:[Y_0], and speed of light in vacuum stem:[c]. Moreover, they do not change the exact value of stem:[c], which is explicit in the definition of the SI base unit of length, the metre, m. The relationships among these constants are
+
+[[eq-3]]
+[stem]
+++++
+epsilon_0 = 1 // mu_0 c^2
+++++
+
+[stem]
+++++
+Z_0 = mu_0 c = (mu_0 // epsilon_0)^{1//2}
+++++
+
+[stem]
+++++
+Y_0 = 1 // mu_0 c = (epsilon_0 // mu_0)^{1//2} = 1 // Z_0
+++++
+
+
+However, the new definitions do affect the value of stem:[mu_0], and hence the values of stem:[epsilon_0], stem:[Z_0], and stem:[Y_0]. In particular, stem:[mu_0] no longer has the exact value stem:[4 pi xx 10^{-7} "&nbsp;" "N A"^{-2}] and must be determined experimentally. The value of stem:[mu_0] can be obtained with a relative standard uncertainty, stem:[u_r], identical to that of the fine structure constant α from the exact relation
+
+[[eq-6]]
+[stem]
+++++
+mu_0 = alpha {2h} / {c e^2}
+++++
+
+
+Since stem:[h], stem:[c], and stem:[e] have fixed numerical values, it follows from <<eq-3>>-<<eq-6>> that
+
+
+[stem]
+++++
+u_r (Y_0) = u_r (Z_0) = u_r (epsilon_0) = u_r (u_0) = u_r (alpha)
+++++
+
+The recommended values of stem:[h], stem:[e], stem:[k], and stem:[N_A] resulting from the 2017 CODATA special least-squares adjustment of the values of the fundamental constants <<newell>> were the basis of the exact values used for these four constants in the new definitions of the kilogram, ampere, kelvin, and mole adopted by the 26^th^ CGPM <<bipm>>. The 2017 special adjustment but with stem:[h], stem:[e], stem:[k], and stem:[N_A] taken to have the exact values used in the new definitions, yields the following currently recommended value of the magnetic constant:
+
+
+[stem]
+++++
+mu_0 = 4 pi [1 + 2.0(2.3) xx 10^{-10}] xx 10^{-7} "&nbsp;" "N A"^{-2}
+= 12.5663706169(29) xx 10^{-7} "&nbsp;" "N A"^{-2}
+++++
+
+
+However, users should always compute the value from the most recent CODATA adjustment <<codata>>. The values and uncertainties of the electric constant, characteristic impedance of vacuum and characteristic admittance of vacuum may always be obtained from the relationships of <<eq-3>>-<<eq-6>>.
+
+It should be recognized that the recommended values for stem:[mu_0], stem:[epsilon_0], stem:[Z_0], and stem:[Y_0] are expected to change slightly from one future CODATA adjustment to the next, as new data that influence the value of α become available. Users of this document should, therefore, always employ the most up-to-date CODATA recommended values for these constants in their calculations. Of course, the values of stem:[h], stem:[e], stem:[k], and stem:[N_A] fixed by the new definitions will be unchanged from one adjustment to the next.
+
+
+[bibliography]
+== Reference
+
+* [[[bipm,1]]] BIPM, The International System of Units (SI Brochure) [9th edition, 2019], https://www.bipm.org/en/publications/si-brochure/.
+
+* [[[delahaye,2]]] F. Delahaye and B. Jeckelmann, ‘Revised technical guidelines for reliable dc measurements of the quantized Hall resistance’, Metrologia, 40(5), 217-223 (2003).
+
+* [[[newell,3]]] D. Newell, F. Cabiati, J. Fischer, K. Fujii, S. G. Karshenboim, H. S. Margolis, E. de Mirandes, P.J. Mohr, F. Nez, K. Pachucki, T. J. Quinn, B. N. Taylor, M. Wang, B. Wood and Z. Zhang, ‘The CODATA 2017 Values of h, e, k, and N A for the Revision of the SI’, Metrologia, 55(1) L13-L16 (2018).
+
+* [[[codata,4]]] '`CODATA recommended values of the fundamental physical constants: 2018`', https://physics.nist.gov/cuu/Constants/index.html.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
