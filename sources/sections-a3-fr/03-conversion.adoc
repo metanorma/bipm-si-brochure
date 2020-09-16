@@ -1,0 +1,23 @@
+== Conversion des spectres d’action entre système radiométrique spectral et système photonique spectral
+
+Comme décrit précédemment, les mesures de rayonnements optiques en photochimie et photobiologie peuvent être réalisées en fonction de la distribution spectrale de puissance ou de la distribution spectrale photonique. Si un effet est purement actinique (interaction purement chimique/moléculaire), l’amplitude de l’effet est gouvernée par le nombre de photons absorbés et la fonction de pondération dans le système photonique spectral est ainsi proportionnelle au spectre d’absorption du matériau actinique. Dans ce cas, il est nécessaire d’appliquer une conversion au spectre d’absorption avant de l’utiliser dans le système de distribution spectrale de puissance. Au contraire, si un effet est purement thermique (c’est-à-dire lié à la chaleur, sans changement chimique et donc dépendant de l’énergie absorbée), la fonction de pondération dans le système radiométrique spectral est proportionnelle au spectre d’absorption. Dans ce cas, une conversion doit être appliquée au spectre d’absorption pour pouvoir l’utiliser dans le système photonique spectral.
+
+Les grandeurs photochimiques et photobiologiques peuvent être déterminées à l’aide du système radiométrique spectral ou du système photonique spectral, c’est pourquoi il est essentiel non seulement d’appliquer la fonction de pondération adéquate mais aussi d’indiquer clairement le système utilisé avec la grandeur. Ainsi, par analogie avec l’<<eq-a-3-1>>, l’érythème causé par une source de rayonnement ultraviolet peut être caractérisé en unités du système de distribution spectrale photonique à l’aide de l’éclairement érythémal photonique :
+
+[[eq-a-3-2]]
+[stem]
+++++
+E_("p,er") = int E_("p",lambda)(lambda) s_("p,er")(lambda) "d" lambda
+++++
+
+où stem:[E_("p",lambda)(lambda)] est le flux spectral de photons footnote:[Le flux de photons est le nombre de photons émis, transmis ou reçus par unité d’intervalle de temps, généralement exprimé en unité s^−1^.] par unité de surface à la longueur d’onde stem:[lambda] (généralement exprimé en unité stem:["s"^(−1) text( )"m"^(−2) text( )"nm"^(−1)]) et stem:[s_("p,er")(lambda)] est la fonction de pondération spectrale de l’érythème exprimée dans le système de distribution spectrale photonique et normalisée à 1 à sa valeur spectrale maximale. L’éclairement érythémal *photonique*, stem:[E_("p,er")], déterminé de cette façon est généralement exprimé en unité stem:["s"^(−1) text( ) "m"^(−2)] car le nombre de photons est une grandeur sans dimension.
+
+Il résulte directement des équations ci-dessus que la relation entre les expressions de la grandeur spectralement pondérée dans les deux systèmes dépend à la fois de la forme spectrale de stem:[E_(lambda)(lambda)] et du spectre d’action. Toutefois, pour un processus de réponse générale stem:["A"], la relation entre les formes des deux fonctions de pondération spectrales stem:[s_("p,A")(lambda)] et stem:[s_("e,A")(lambda)] (dans le système photonique et dans le système radiométrique, respectivement) pouvant être utilisée pour décrire l’effet est gouvernée par :
+
+[[eq-a-3-3]]
+[stem]
+++++
+s_("p,A")(lambda) = gamma_"A" * (hc)/(lambda) * n_"a"(lambda) * s_("e,A")(lambda)
+++++
+
+où stem:[gamma_"A"] est une constante (exprimée en unité stem:[J^(−1)]), indépendante de l’éclairement énergétique, stem:[E_(lambda)(lambda)], qui répond à l’exigence de fixer les valeurs maximales de stem:[s_("p,A")(lambda)] à 1, stem:[h] étant la constante de Planck, stem:[c] la vitesse de la lumière dans le vide, et stem:[n_"a"(lambda)] l’indice de réfraction dans l’air footnote:[Les spectres d’action sont définis en termes d’amplitude de l’effet en fonction de la longueur d’onde. La longueur d’onde d’un rayonnement dépend de l’indice de réfraction du milieu, ce qui signifie que la valeur du spectre d’action à une longueur d’onde donnée varie en fonction du milieu dans lequel cette longueur d’onde est déterminée. En général, le milieu pris en considération est l’air et les spectres d’action définis par la CIE mentionnés ci-dessus s’appliquent pour des longueurs d’onde mesurées dans l’air.] à une longueur d’onde donnée, stem:[lambda]. Il convient de noter que les deux fonctions de pondération spectrale stem:[s_("p,A")(lambda)] et stem:[s_("e,A")(lambda)] décrivant le même effet diffèrent par leur forme et que la longueur d’onde de crête de l’effet est différente si les grandeurs sont exprimées en fonction du système photonique ou radiométrique.
