@@ -36,7 +36,7 @@ des entités mathématiques.
 
 Les règles classiques de multiplication ou de division algébriques s’appliquent pour former
 les produits et quotients de symboles d’unités. La multiplication doit être indiquée par une
-espace ou un point à mi-hauteur centré (stem:[cdot]) pour éviter que certains préfixes soient
+espace ou un point à mi-hauteur centré (stem:[*]) pour éviter que certains préfixes soient
 interprétés à tort comme un symbole d’unité. La division est indiquée par une ligne
 horizontale, par une barre oblique (/) ou par des exposants négatifs. Lorsque l’on combine
 plusieurs symboles d’unités, il faut prendre soin d’éviter toute ambiguïté en utilisant par
@@ -81,9 +81,9 @@ individuelles, il convient d’utiliser une espace ou un tiret pour séparer cha
 
 Les symboles des grandeurs sont en général formés d’une seule lettre en italique mais des
 informations complémentaires sur la grandeur peuvent être précisées par un indice ou un
-exposant ajouté au symbole ou au moyen de parenthèses. Par exemple, C est le symbole
-recommandé pour la capacité thermique, cm pour la capacité thermique molaire, cm,p pour
-la capacité thermique molaire à pression constante et cm,V pour la capacité thermique
+exposant ajouté au symbole ou au moyen de parenthèses. Par exemple, stem:[C] est le symbole
+recommandé pour la capacité thermique, stem:[c_"m"] pour la capacité thermique molaire, stem:[c_("m",p)] pour
+la capacité thermique molaire à pression constante et stem:[c_("m",V)] pour la capacité thermique
 molaire à volume constant.
 
 Les noms et symboles recommandés pour les grandeurs figurent dans de nombreux
@@ -102,14 +102,14 @@ Les symboles des unités sont traités comme des entités mathématiques. Lorsqu
 exprime la valeur d’une grandeur comme le produit d’une valeur numérique par une unité,
 la valeur numérique et l’unité peuvent être traitées selon les règles ordinaires de l’algèbre.
 Une telle démarche applique les principes du calcul formel ou de l’algèbre des grandeurs.
-Par exemple l’équation stem:[p = 48] stem:["kPa"] peut aussi s’écrire stem:[p//"kPa" = 48]. Il est courant d’écrire le
+Par exemple l’équation stem:[p = 48 " kPa"] peut aussi s’écrire stem:[p//"kPa" = 48]. Il est courant d’écrire le
 quotient d’une grandeur et d’une unité en tête de colonne d’un tableau, afin que les entrées
 du tableau soient simplement des nombres. Par exemple, un tableau exprimant la vitesse au
 carré en fonction d’une pression peut prendre la forme suivante:
 
 [cols="^,^",options="unnumbered"]
 |===
-| stem:[p//kPa] | stem:[ν^2//(m//s)^2]
+| stem:[p//"kPa"] | stem:[v^2//("m/s")^2]
 | 48,73 | 94766
 | 72,87 | 94771
 | 135,42 | 94784
@@ -131,30 +131,10 @@ grandeur. Les unités ne doivent jamais servir à fournir des informations compl
 sur la nature de la grandeur; ce type d’information doit être attaché au symbole de la
 grandeur et non à celui de l’unité.
 
-
 [NOTE]
 ====
-Par exemple, la différence de potentiel électrique maximale s’exprime
-sous la forme:
-
-[stem%unnumbered]
-++++
-U_{"max"} = 1000 V
-++++
-
-mais pas
-
-[stem%unnumbered]
-++++
-U = 1000 V_{"max"}.
-++++
-
-La fraction massique du cuivre de
-l’échantillon de silicium s’exprime
-sous la forme stem:["w(Cu)" = 1,3 xx 10^{-6}]
-mais pas stem:[1,3 xx 10^{-6}] stem:["w/w"].
+Par exemple, la différence de potentiel électrique maximale s’exprime sous la forme: stem:[U_{"max"} = 1000 " " V] mais pas stem:[U = 1000 " " V_{"max"}]. La fraction massique du cuivre de l’échantillon de silicium s’exprime sous la forme stem:[w("Cu") = 1,3 xx 10^{-6}] mais pas stem:[1,3 xx 10^{-6}] stem:["w/w"].
 ====
-
 
 ==== Écriture de la valeur d’une grandeur
 
@@ -165,18 +145,16 @@ l’espace entre le nombre et l’unité est considérée comme un signe de mult
 d’unité pour le degré, la minute et la seconde d’angle plan (respectivement °, ′ e t ″)
 pour lesquels il n’y a pas d’espace entre la valeur numérique et le symbole de l’unité.
 
-NOTE: m = 12,3 g où m est
+NOTE: stem:[m = 12,3 " g"] où m est 
 utilisé comme symbole de la
 grandeur « masse » mais stem:[phi = 30° 22' 8'']
 où stem:[phi] est utilisé comme symbole
 de la grandeur « angle plan ».
 
-Cette règle signifie que le symbole °C pour le degré Celsius est précédé d’une espace pour
-exprimer la valeur de la température Celsius, t.
+Cette règle signifie que le symbole stem:["°C"] pour le degré Celsius est précédé d’une espace pour
+exprimer la valeur de la température Celsius, stem:[t].
 
-NOTE: stem:[t = 30,2] stem:["°C"]
-mais pas stem:[t = 30,2] stem:["°C"]
-ni stem:[t = 30,2] stem:["°C"]
+NOTE: stem:[t = 30,2 " °C"] mais pas stem:[t = 30,2 " °C"] ni stem:[t = 30,2 " °C"]
 
 En anglais, même lorsque la valeur d’une grandeur est utilisée comme adjectif, il convient
 de laisser une espace entre la valeur numérique et le symbole de l’unité. Ce n’est que
@@ -190,9 +168,7 @@ diviser le degré de manière décimale. Ainsi, il est préférable d’écrire 
 22° 12′, sauf dans les domaines tels que la navigation, la cartographie, l’astronomie et la
 mesure d’angles très petits.
 
-NOTE: l = 10,234m
-mais pas
-l = 10 m 23,4 cm
+NOTE: stem:[ l = 10,234 " m"] mais pas stem:[l = 10 " m " 23,4 " cm"]
 
 
 ==== Écriture des nombres et séparateur décimal
@@ -207,7 +183,7 @@ Si le nombre se situe entre +1 et −1, le séparateur décimal est toujours pr�
 
 [NOTE]
 ====
-−0,234 mais pas −,234
+stem:[−0,234] mais pas stem:[−,234]
 ====
 
 Conformément à la décision de la CGPM à sa 9e réunion (1948, Résolution 7) et à sa
@@ -219,9 +195,9 @@ pas isoler un chiffre par une espace. L’habitude de grouper ainsi les chiffres
 choix personnel; elle n’est pas toujours suivie dans certains domaines spécialisés tels que le
 dessin industriel, les documents financiers et les scripts qui doivent être lus par ordinateur.
 
-NOTE: 43 279,168 29 mais pas 43.279,168.29
+NOTE: stem:[43 " "279,168 " "29] mais pas stem:[43.279,168.29]
 
-NOTE: 3279,1683 ou 3279,1683
+NOTE: stem:[3279,1683] ou stem:[3 " "279,168 " "3]
 
 Le format utilisé pour écrire les nombres dans un tableau doit rester cohérent dans une
 même colonne.
@@ -232,26 +208,26 @@ même colonne.
 L’incertitude associée à la valeur estimée d’une grandeur doit être évaluée et exprimée en
 accord avec le Guide JCGM 100:2008 (GUM 1995 avec des corrections mineures),
 _Évaluation des données de mesure - Guide pour l’expression de l’incertitude de mesure_.
-L’incertitude-type associée à une grandeur x est désignée par u(x). Un moyen commode de
+L’incertitude-type associée à une grandeur stem:[x] est désignée par stem:[u(x)]. Un moyen commode de
 représenter l’incertitude-type est donné dans l’exemple suivant:
 
 [stem%unnumbered]
 ++++
-m_n = 1,674927471 (21) xx 10^{-27} " kg"
+m_"n" = 1,674 " "927 " "471 " "(21) xx 10^{-27} " kg"
 ++++
 
-où mn est le symbole de la grandeur (ici la masse du neutron) et le nombre entre parenthèses
+où stem:[m_"n"] est le symbole de la grandeur (ici la masse du neutron) et le nombre entre parenthèses
 la valeur numérique de l’incertitude-type sur les deux derniers chiffres de la valeur estimée
-de mn, dans le cas présent : stem:[u("mn") = 0,000000 021 xx 10^{-27}] stem:["kg"]. Si une incertitude élargie
-U(x) est utilisée au lieu de l’incertitude-type u(x), alors la probabilité d’élargissement p et le
-facteur d’élargissement k doivent être précisés.
+de stem:[m_"n"], dans le cas présent : stem:[u(m_"n") = 0,000 " "000 " "021 xx 10^{-27} " kg"]. Si une incertitude élargie
+stem:[U(x)] est utilisée au lieu de l’incertitude-type stem:[u(x)], alors la probabilité d’élargissement stem:[p] et le
+facteur d’élargissement stem:[k] doivent être précisés.
 
 
 ==== Multiplication ou division des symboles des grandeurs, des valeurs des grandeurs et des nombres
 
 Pour multiplier ou diviser les symboles des grandeurs, il est possible d’utiliser n’importe
-laquelle des écritures suivantes: stem:[ab], stem:[a] stem:[b], stem:[a cdot b], stem:[a xx b], stem:[a//b],
-stem:[a//b], stem:[a b^{-1}].
+laquelle des écritures suivantes: stem:[ab], stem:[a] stem:[b], stem:[a * b], stem:[a xx b], stem:[a//b],
+stem:[a/b], stem:[a b^{-1}].
 
 Lorsque l’on multiplie la valeur des grandeurs, il convient d’utiliser un signe de
 multiplication stem:[xx], des parenthèses (ou des crochets), mais pas le point (centré) à mi-hauteur.
@@ -265,37 +241,29 @@ parenthèses pour lever toute ambiguïté.
 stem:[F = ma] pour une force égale
 à la masse multipliée par l’accélération
 
-(53 m/s) stem:[xx] 10,2 s ou (53 m/s)(10,2 s)
+stem:[(53 " m/s") xx 10,2 " s"] ou stem:[(53 " m/s")(10,2 " s")]
 
-25 stem:[xx] 60,5 mais pas 25 ⋅ 60,5
+stem:[25 xx 60,5] mais pas stem:[25 * 60,5]
 
-(20 m)/(5 s) = 4 m/s
+stem:[(20 " m")"/"(5 "s") = 4 " m/s"]
 
-(a/b)/c, mais pas a/b/c
+stem:["(a/b)/c"], mais pas stem:["a/b/c"]
 ====
 
 
 [[scls547]]
 ==== Écriture des valeurs des grandeurs exprimées par des nombres
 
-Comme mentionné dans la section 2.3.3, les valeurs des grandeurs d’unité « un » sont
+Comme mentionné dans la <<dim_des_grandeurs>>, les valeurs des grandeurs d’unité « un » sont
 simplement exprimées par des nombres. Le symbole d’unité, 1, ou le nom d’unité « un »
 ne sont pas écrits explicitement. Comme les symboles de préfixes du SI ne peuvent pas être
 attachés au symbole 1 ni au nom d’unité « un », les puissances de 10 sont utilisées pour
 exprimer les valeurs particulièrement grandes ou particulièrement petites.
 
-[NOTE]
-====
-stem:[n = 1,51]
-mais pas
-stem:[n = 1,51 xx 1]
-où n est le symbole
-de la grandeur
-« indice de réfraction »
-====
+NOTE: stem:[n = 1,51] mais pas stem:[n = 1,51 xx 1] où stem:[n] est le symbole de la grandeur « indice de réfraction »
 
 Les grandeurs qui sont des rapports de grandeurs de même nature (rapports de longueur,
-fractions molaires, etc.) peuvent être exprimées avec des unités (m/m, mol/mol) afin de
+fractions molaires, etc.) peuvent être exprimées avec des unités (stem:["m/m", " mol/mol"]) afin de
 faciliter la compréhension de la grandeur exprimée et afin de permettre l’utilisation de
 préfixes du SI, si cela est préférable (stem:[mu"m/m"], stem:["nmol/mol"]). Cela n’est pas possible avec les
 grandeurs de comptage qui sont simplement des nombres.
@@ -318,9 +286,9 @@ d’éviter de les employer.
 [NOTE]
 ====
 Bien que dans les pays de langue anglaise le
-terme « billion » corresponde à 109,
-et le terme « trillion » à stem:[10^12], le terme « billion »
-peut parfois correspondre à stem:[10^12] et « trillion » à stem:[10^18].
+terme « billion » corresponde à stem:[10^9],
+et le terme « trillion » à stem:[10^(12)], le terme « billion »
+peut parfois correspondre à stem:[10^(12)] et « trillion » à stem:[10^(18)].
 L’abréviation ppt est aussi parfois comprise comme
 une partie par millier (ou millième), ce qui est
 source de confusionsupplémentaire.
@@ -330,25 +298,25 @@ source de confusionsupplémentaire.
 [[scls548]]
 ==== Angles plans, angles solides et angles de phase
 
-L’unité cohérente du SI pour l’angle plan et l’angle de phase est le radian, symbole rad,
-et celle de l’angle solide est le stéradian, symbole sr.
+L’unité cohérente du SI pour l’angle plan et l’angle de phase est le radian, symbole stem:["rad"],
+et celle de l’angle solide est le stéradian, symbole stem:["sr"].
 
 Lorsqu’il est exprimé en radian, l’angle plan entre deux lignes partant d’un point commun
-est la longueur de l’arc circulaire s balayée entre ces lignes par un vecteur rayon de
-longueur r depuis le point commun, divisée par la longueur du vecteur rayon, stem:[theta = s//r] stem:["rad"].
+est la longueur de l’arc circulaire stem:[s] balayée entre ces lignes par un vecteur rayon de
+longueur stem:[r] depuis le point commun, divisée par la longueur du vecteur rayon, stem:[theta = s//r] stem:["rad"].
 L’angle de phase (communément appelé « phase ») est l’argument de tout nombre
 complexe. C’est l’angle entre l’axe réél positif et le rayon de la représentation polaire du
 nombre complexe dans le plan complexe.
 
-Un radian correspond à l’angle pour lequel s = r, ainsi 1 rad = 1. La mesure de l’angle droit
+Un radian correspond à l’angle pour lequel stem:[s = r], ainsi stem:[1 " rad" = 1]. La mesure de l’angle droit
 est exactement égale au nombre stem:[pi//2].
 
 Le degré est une convention historique. La conversion entre radians et degrés découle de la
-relation stem:[360° = 2 pi] stem:["rad"]. On remarque que le degré, symbole °, n’est pas une unité du SI.
+relation stem:[360° = 2 pi " rad"]. On remarque que le degré, symbole °, n’est pas une unité du SI.
 
 L’angle solide, exprimé en stéradian, correspond au rapport entre l’aire stem:[A] de la surface
-d’une sphère de rayon r et le rayon au carré, stem:[= A//r^2] stem:["sr"]. Un stéradian correspond à l’angle
-solide pour lequel stem:[A = r^2], ainsi stem:[1] stem:["sr" = 1].
+d’une sphère de rayon r et le rayon au carré, stem:[Omega = A//r^2] stem:["sr"]. Un stéradian correspond à l’angle
+solide pour lequel stem:[A = r^2], ainsi stem:[1 " sr" = 1].
 
 Les unités rad et sr correspondent respectivement aux rapports de deux longueurs et de
 deux longueurs au carré. Toutefois, les unités rad et sr ne doivent être utilisées que pour
