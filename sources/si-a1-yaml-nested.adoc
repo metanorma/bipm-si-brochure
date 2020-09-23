@@ -26,11 +26,8 @@ include::sections-a1-yaml/00-toc.adoc[]
 ----
 {% for path in paths %}
 
-hello cgpm-resolutions/{{ path }}
-
 [yaml2text,cgpm-resolutions/{{ path }},data]
 --
-Hi data from {{ path }}
 
 == {{ data.metadata.title }}, {{ data.metadata.date | split: "-" | first }}
 
