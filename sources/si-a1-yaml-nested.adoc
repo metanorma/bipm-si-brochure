@@ -1,0 +1,60 @@
+= Decisions of the CGPM and the CIPM
+:appendix: 1
+:partnumber: 1
+:edition: 9
+:copyright-year: 2019
+:revdate: 2019-05-20
+:language: en
+:title-en: Decisions of the CGPM and the CIPM
+:title-fr: Décisions de la CGPM et du CIPM
+:doctype: appendix
+:committee: bipm
+:docstage: 60
+:docsubstage: 60
+:imagesdir: images
+:mn-document-class: bipm
+:mn-output-extensions: xml,html,doc,pdf,rxl
+:local-cache-only:
+:data-uri-image:
+
+
+include::sections-a1-yaml/00-foreword.adoc[]
+
+include::sections-a1-yaml/00-toc.adoc[]
+
+[yaml2text,sections-a1-yaml/resolutions.yml,paths]
+----
+{% for path in paths %}
+
+hello cgpm-resolutions/{{ path }}
+
+[yaml2text,cgpm-resolutions/{{ path }},data]
+--
+Hi data from {{ path }}
+
+== {{ data.metadata.title }}, {{ data.metadata.date | split: "-" | first }}
+
+{% for resolution in data.resolutions %}
+
+=== {{ resolution.title }}
+
+[align=center]
+*Resolution {{ resolution.identifier }}*
+
+{% for approval in resolution.approvals %}
+{{ approval.message }}
+{% endfor %}
+
+{% for consideration in resolution.considerations %}
+{{ consideration.message }}
+{% endfor %}
+
+{% for action in resolution.actions %}
+{{ action.message }}
+{% endfor %}
+
+{% endfor %}
+--
+
+{% endfor %}
+----
