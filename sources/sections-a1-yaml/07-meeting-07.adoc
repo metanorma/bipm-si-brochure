@@ -7,18 +7,6 @@
 
 === {{resolution.title}}
 
-[align=center]
-*Resolution {{resolution.identifier}}*
-
-
-{resolution.approvals.*,item,EOF}
-{item.message}
-{EOF}
-
-{resolution.considerations.*,item,EOF}
-* {item.message}
-{EOF}
-
 {resolution.actions.*,item,EOF}
 * {item.message}
 {EOF}
