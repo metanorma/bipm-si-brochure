@@ -1,0 +1,28 @@
+
+[yaml2text,cgpm-resolutions/meetings-en/meeting-14.yml,data]
+----
+== {{data.metadata.title}}, {{ data.metadata.date | split: "-" | first }}
+
+{% for resolution in data.resolutions %}
+
+=== {{resolution.title}}
+
+[align=center]
+link:{{resolution.url}}[*Resolution {{resolution.identifier}}*]
+
+
+{resolution.approvals.*,item,EOF}
+{item.message}
+{EOF}
+
+{resolution.considerations.*,item,EOF}
+* {item.message}
+{EOF}
+
+{resolution.actions.*,item,EOF}
+* {item.message}
+{EOF}
+
+
+{% endfor %}
+----
