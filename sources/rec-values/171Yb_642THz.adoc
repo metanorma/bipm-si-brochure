@@ -1,0 +1,77 @@
+= Recommended Values of Standard Frequencies for Applications Including the Practical Realization of the Metre and Secondary Representations of the Definition of the Second
+:appendix: 2
+:partnumber: 1
+:edition: 9
+:copyright-year: 2019
+:language: en
+:docnumber: 
+:title-en: 
+:title-fr: 
+:doctype: guide
+:parent-document: si-brochure.adoc
+:committee-acronym: CCTF
+:committee-en: Consultative Committee for Time and Frequency
+:docstage: in-force
+:confirmed-date: 2015-10
+:revdate: 2016-05
+:docsubstage: 60
+:imagesdir: images
+:mn-document-class: bipm
+:mn-output-extensions: xml,html,pdf,rxl
+:local-cache-only:
+:data-uri-image:
+
+== Ytterbium 171 Ion (stem:[f ~~ 642" THz"])
+
+*^171^Yb ion, ^2^S~1/2~ – ^2^F~7/2~ unperturbed optical transition*
+
+=== Recommended value <<ci2015>> of the frequency
+
+_f_(^171^Yb^+^, octupole) = 642 121 496 772 645.0 Hz
+
+equivalent to
+
+stem:[lambda](^171^Yb^+^) = 466 878 090.060 497 fm
+
+with an estimated relative standard uncertainty of stem:[6 xx 10^(-16)].
+
+This radiation is already endorsed by the CIPM as a secondary representation of the definition of the second.
+
+=== Source data
+
+[align=left]
+Adopted value:: _f_(^171^Yb^+^, octupole)= 642 121 496 772 645.0 Hz +
+stem:[u_c//y = 6 xx 10^(−16)]
+
+calculated from
+
+[cols="^,^,^,^,^"]
+[%unnumbered]
+|===
+| f(^171^Yb^+^) / Hz | u / Hz | f(^171^Yb^\+^ oct)/ f(^171^Yb^+^ quad) | u | source data
+| 642 121 496 772 657.0 | 12 | | | <<hosaka>>
+| 642 121 496 772 645.15 | 0.52 | | | <<huntemann2012>>
+| 642 121 496 772 646.22 | 0.67 | | | <<king>>
+| 642 121 496 772 644.91 | 0.37 | | | <<godun>>
+| 642 121 496 772 645.36 | 0.25 | | | <<huntemann2014>>
+| | | 0.932 829 404 530 964 65 | stem:[3.1 xx 10^(−16)] | <<godun>>
+|===
+
+as a weighted mean from the above values applying the method of ref. <<margolis>>. Considering that the values came from only two laboratories, the CCTF considered it prudent to enlarge the uncertainty by a factor of two.
+
+[bibliography]
+=== References
+
+* [[[ci2015,1]]], CIPM Recommendation 2 (CI-2015): Updates to the list of standard frequencies http://www.bipm.org/jsp/en/CIPMRecommendations.jsp
+
+* [[[hosaka,2]]], K. Hosaka, S. A. Webster, A. Stannard, B. R. Walton, H. S. Margolis, and P. Gill: Frequency measurement of the 2S1/2 -2F7/2 electric octupole transition in a single ^171^Yb^+^ ion, _Phys. Rev. A_ *79*, 033403 (2009).
+
+* [[[huntemann2012,3]]], N. Huntemann, M. Okhapkin, B. Lipphardt, S. Weyers, Chr. Tamm, and E. Peik: High-Accuracy Optical Clock Based on the Octupole Transition in ^171^Yb^+^, _Phys. Rev. Lett._ *108*, 090801 (2012).
+
+* [[[king,4]]], S. A. King, R. M. Godun, S. A. Webster, H. S. Margolis, L. A. M. Johnson, K. Szymaniec, P. E. G. Baird, and P Gill: Absolute frequency measurement of the ^2^S~1/2~–^2^F~7/2~ electric octupole transition in a single ion of ^171^Yb^+^ with 10^−15^ fractional uncertainty, _New J. Phys._ *14*, 013045 (2012).
+
+* [[[godun,5]]], Godun, R. M.; Nisbet-Jones, P. B. R.; Jones, J. M.; King, S. A.; Johnson, L. A. M.; Margolis, H. S.; Szymaniec, K.; Lea, S. N.; Bongs, K. & Gill, P.: Frequency ratio of two optical clock transitions in ^171^Yb^+^ and constraints on the time-variation of fundamental constants, _Phys. Rev. Lett.,_ *113*, 210801 (2014).
+
+* [[[huntemann2014,6]]], N. Huntemann, B. Lipphardt, Chr. Tamm, V. Gerginov, S. Weyers, and E. Peik: Improved Limit on a Temporal Variation of m~p~/m~e~ from Comparisons of Yb^+^ and Cs Atomic Clocks, _Phys. Rev. Lett._ *113*, 210802 (2014).
+
+* [[[margolis,7]]], H. S. Margolis, P. Gill: Least-squares analysis of clock frequency comparison data to deduce optimized frequency and frequency ratio values; _Metrologia_, 2015, *52*, 628-634

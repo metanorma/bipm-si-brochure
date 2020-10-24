@@ -1,0 +1,61 @@
+= Recommended Values of Standard Frequencies for Applications Including the Practical Realization of the Metre and Secondary Representations of the Definition of the Second
+:appendix: 2
+:partnumber: 1
+:edition: 9
+:copyright-year: 2019
+:language: en
+:docnumber: 
+:title-en: 
+:title-fr: 
+:doctype: guide
+:parent-document: si-brochure.adoc
+:committee-acronym: CCTF
+:committee-en: Consultative Committee for Time and Frequency
+:docstage: in-force
+:confirmed-date: 2015-10
+:revdate: 2016-05
+:docsubstage: 60
+:imagesdir: images
+:mn-document-class: bipm
+:mn-output-extensions: xml,html,pdf,rxl
+:local-cache-only:
+:data-uri-image:
+
+== Iodine (stem:[lambda ~~ 531" nm"])
+
+*Absorbing atom ^127^I~2~, a~1~ component, R(36) 32-0 transition*
+
+=== Recommended value <<ci2015>>
+
+_f_(^127^I~2~) = 564 074 632.42 MHz
+
+equivalent to
+
+stem:[lambda = 531 " "476 " "582.65 " fm"]
+
+with an estimated relative standard uncertainty of stem:[1 xx 10^(-10)] applies to the radiation of a frequency-doubled diode DFB laser, stabilized with an iodine cell external to the laser with the following parameters:
+
+* cold-finger temperature stem:[(25 +- 0.5)"°C"] (corresponding to the iodine pressure stem:[p = 41" Pa"])
+* frequency modulation width, peak-to-peak, stem:[(12 +- 1)" MHz"] for stem:[3f] detection cases;
+* saturating beam intensity of stem:[12.7" mW "(+10%)] at a beam diameter of 1 mm
+
+=== Source data
+
+Adopted value:: _f_ = 564 074 632.42 MHz +
+stem:[u_c//y = 1 xx 10^(−10)]
+taken from::
+
+[cols="^,^,^"]
+[%unnumbered]
+|===
+| stem:[f // "kHz"] | stem:[u_c//y] | source data
+| 564 074 632 419(8) | stem:[1.4 xx 10^(−11)] | <<kobayashi>>
+|===
+
+This value was issued from only a single laboratory under conditions where strong linear absorption at Doppler centre occurs, thereby degrading the signal-to-noise level at this high iodine vapour pressure <<kobayashi>>. Thus, the CIPM following a recommendation of the CCL considered it prudent to enlarge the standard uncertainty by a factor of seven, and round to stem:[1 xx 10^(-10)].
+
+[bibliography]
+=== References
+
+* [[[ci2015,1]]], CIPM Recommendation 2 (CI-2015): Updates to the list of standard frequencies http://www.bipm.org/jsp/en/CIPMRecommendations.jsp
+* [[[kobayashi,2]]], T. Kobayashi, D. Akamatsu, K. Hosaka, H. Inaba, S. Okubo, T. Tanabe, M. Yasuda, A. Onae, F.-L. Hong, Compact iodine-stabilized laser operating at 531 nm with stability at the 10^-12^ level and using a coin-sized laser module, _Optics Express_, *23*, 20749 (2015).

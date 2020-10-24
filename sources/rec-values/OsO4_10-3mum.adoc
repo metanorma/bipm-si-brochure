@@ -1,0 +1,161 @@
+= MEP 2003
+:appendix: 2
+:partnumber: 1
+:edition: 9
+:copyright-year: 2019
+:language: en
+:docnumber: 
+:title-en: 
+:title-fr: 
+:doctype: guide
+:parent-document: si-brochure.adoc
+:committee-acronym: CCTF
+:committee-en: Consultative Committee for Time and Frequency
+:docstage: in-force
+:confirmed-date:
+:revdate:
+:docsubstage: 60
+:imagesdir: images
+:mn-document-class: bipm
+:mn-output-extensions: xml,html,pdf,rxl
+:local-cache-only:
+:data-uri-image:
+
+== Osmium tetroxide (stem:[lambda ~~ 10.3" "mu"m"])
+
+Absorbing molecule OsO~4~, transition in coincidence with the ^12^C^16^O~2~, R(10) (00^0^1) – (10^0^0) laser line
+
+=== CIPM recommended values
+
+[align=left]
+The values:: stem:[f = 29" "054" "057" "446" "579" Hz"] +
+stem:[lambda = 10" "318" "436" "884.460" fm"]
+
+with a relative standard uncertainty of stem:[1.4 xx 10^(−13)] apply to the radiation of a CO~2~ laser stabilized with an external OsO~4~ cell at a pressure below 0.2 Pa. This laser line is selected due to its reduced sensitivity to pressure shifts and other effects, in comparison with the previously selected R(12) laser line.
+
+=== Source data
+
+[align=left]
+Adopted value:: stem:[f = 29" "054" "057" "446" "579" "(20)" Hz"] +
+stem:[u_c//y = 6.9 xx 10^(−13)]
+
+[align=left]
+for which::
+stem:[lambda =10" "318" "436" "884.460" "(7)" fm"] +
+stem:[u_c//y = 6.9 xx 10^(−13)]
+
+calculated from::
+
+[%unnumbered]
+|===
+| stem:[f // "Hz"] | stem:[u_c//y] | source data
+| 29 054 057 446 579 | stem:[1.4 xx 10^(−13)] | <<daussy>>
+|===
+
+With this value, based on measurements made over more than one year, but determined by one single laboratory, the CCL considered it prudent to adopt a standard uncertainty given for standard conditions <<rovera>> of 20 Hz, i.e. five times the reported measured uncertainty of 4 Hz, giving a relative standard uncertainty of stem:[6.9 xx 10^(−13)].
+
+This value is linked to the earlier recommended transition, R(12) (00^0^1)-(10^0^0) laser line in ^12^C^16^O~2~, resonant with OsO~4~ <<clairon3>>, <<clairon4>>, <<acef5>>, <<ci2002>>.
+
+=== Absolute frequency of the other transitions related to those adopted as recommended and frequency intervals between transitions and hyperfine components
+
+This table replaces that published in BIPM Com. Cons. Long., 2001, *10*, 178 and Metrologia, 2003, *40*, 125.
+
+The notation for the transitions and the components is that used in the source references. The values adopted for the frequency intervals are the weighted means of the values given in the references.
+
+For the uncertainties, account has been taken of:
+
+* the uncertainties given by the authors;
+* the spread in the different determinations of a single component;
+* the effect of any perturbing components;
+* the difference between the calculated and the measured values.
+
+In the table, stem:[u_c] represents the estimated combined standard uncertainty (stem:[1 sigma] ).
+
+[%unnumbered]
+|===
+8+| stem:[lambda ~~ 10.3" "mu"m OsO"4]
+| | ^12^C^16^O~2~ | OsO~4~ | | | | |
+| stem:[n] | laser line | line | [isotope] | stem:[[ f_n − f {R(10)}\]//"kHz"] | stem:[u_c//"kHz"] | stem:[[ f (OsO_4) − f (CO_2)\]//"kHz"] | stem:[u_c//"kHz"]
+
+| 1 | P(22) | P(74)A1(5) | [192] | −802 127 930.98 | 0.09 | −12 149.5 | 0.2
+| 2 | P(20) | _not identified_ | | −747 823 325.30 | 0.09 | 9 229.6 | 0.2
+| 3 | P(18) | _n. i._ | | −694 298 622.36 | 0.08 | −14 992 | 5
+| 4 | P(18) | _n. i._ | | −694 287 490.14 | 0.08 | −3 855.2 | 0.1
+| 5 | P(18) | P(64)A1(2) − | [188] | −694 228 479.74 | 0.08 | 55 150 | 5
+| 6 | P(18) | P(64)A1(2) + | [188] | −694 222 035.30 | 0.08 | 61 594 | 5
+| 7 | P(16) | _n. i._ | | −641 510 912.32 | 0.08 | −43 197 | 5
+| 8 | P(16) | _n. i._ | | −641 434 335.52 | 0.08 | 33 384.6 | 0.1
+| 9 | P(14) | _n. i._ | | −589 380 507.62 | 0.08 | 3 219.6 | 0.2
+| 10 | P(12) | P(39)A1(3) | [192] | −538 005 458.32 | 0.08 | 25 330.6 | 0.1
+| 11 | P(12) | P(39)A1(2) | [192] | −538 005 001.14 | 0.08 | 25 782 | 5
+| 12 | P(10) | _n. i._ | | −487 427 074.66 | 0.08 | −18 821.1 | 0.1
+| 13 | P(8) | P(30)A1(1) | [188] | −437 503 817.04 | 0.08 | 11 864.7 | 0.1
+| 14 | P(6) | _n. i._ | | −388 374 844.21 | 0.08 | −22 003 | 5
+| 15 | P(4) | _n. i._ | | −339 945 022.42 | 0.08 | −25 299 | 5
+| 16 | P(4) | _n. i._ | | −339 937 689.31 | 0.08 | −17 966 | 5
+| 17 | P(4) | _n. i._ | | −339 929 467.51 | 0.08 | 9 744 | 5
+| 18 | R(0) | Q(15)A2(2) | [188] | −222 040 746.1 | 2.0 | –9 519.0 | 2
+| 19 | R(2) | _n. i._ | | −176 145 049.74 | 0.08 | 9 955 | 5
+| 20 | R(4) | _n. i._ | | −131 026 773.25 | 0.08 | −15 760 | 5
+| 21 | R(6) | _n. i._ | | −86 634 255.43 | 0.08 | −33 873.0 | 0.1
+| 22 | R(8) | _n. i._ | | −42 940 582.49 | 0.08 | −16 145 | 5
+| 23 | R(8) | _n. i._ | | −42 920 080 | 1 | 4 368 | 1
+| 24 | R(8) | _n. i._ | | −42 898 034.29 | 0.08 | 26 402 | 5
+| 25 | R(8) | _n. i._ | | −42 894 454.94 | 0.08 | 29 982 | 5
+| 26 | R(8) | R(26)A1(0) | [189] | −42 876 821.68 | 0.08 | 47 615 | 5
+| 27 | R(8) | _n. i._ | | −42 876 683.60 | 0.08 | 47 753 | 5
+| 28 | R(8) | _n. i._ | | −42 875 301.45 | 0.08 | 49 135 | 5
+| 29 | R(8) | _n. i._ | | −42 875 199.99 | 0.08 | 49 237 | 5
+| 30 | R(10) | _n. i._ | | 0 | − | −15 252.7 | 0.6
+| 31 | R(12) | _n. i._ | | 42 217 505.67 | 0.08 | 558.1 | 0.1
+| 32 | R(14) | _n. i._ | | 83 689 586.75 | 0.08 | 10 919.1 | 0.1
+| 33 | R(16) | R(49)A1(2) | [187] | 124 411 469.06 | 0.08 | 13 237.9 | 0.1
+| 34 | R(18) | _n. i._ | | 164 349 843.53 | 0.08 | −23 400 | 5
+| 35 | R(18) | _n. i._ | | 164 392 583.43 | 0.08 | 19 342.6 | 0.1
+| 36 | R(18) | _n. i._ | | 164 394 642.25 | 0.08 | 21 398 | 5
+| 37 | R(20) | R(67) | [192] | 203 576 376.40 | 0.08 | −24 706.6 | 0.2
+| 38 | R(22) | R(73)A1(0) | [192] | 242 072 138.79 | 0.08 | −6 788 | 5
+| 39 | R(22) | _n. i._ | | 242 088 910.50 | 0.08 | 9 986.0 | 0.2
+| 40 | R(24) | _n. i._ | | 279 818 815.98 | 0.09 | 15 102.1 | 0.1
+| 41 | R(26) | _n. i._ | | 316 756 631.74 | 0.09 | −15 542.5 | 0.1
+3+| Frequencies referenced to 4+| R(10) / CO~2~, OsO~4~: stem:[f = 29" "054" "057" "446" "579" Hz"] | <<ci2002>>
+|===
+<<bernard>>, <<clairon8>>, <<clairon9>>, <<chardonnet10>>, <<clairon11>>, <<chardonnet12>>, <<frech>>, <<acef14>>, <<bradley>>, <<siemsen>>, <<maki>>
+
+
+[bibliography]
+=== References
+
+* [[[daussy,1]]], Daussy C., Ducos F., Rovera G. D., Acef O., Performances of OsO~4~ Stabilized CO~2~ Lasers as Optical Frequency Standards Near 29 THz, _IEEE Trans. Ultrason. Ferroel. Freq. Contr._, 2000, *47*, 518-521.
+
+* [[[rovera,2]]], Rovera G. D., Acef O., Absolute Frequency Measurement of Mid-Infrared Secondary Frequency Standards at BNM-LPTF, _IEEE Trans. Instrum. Measur._, 1999, *48*, 571-573.
+
+* [[[clairon3,3]]], Clairon A., Dahmani B., Filimon A., Rutman J., Precise Frequency Measurements of CO~2~/OsO~4~ and HeNe/CH~4~-Stabilized Lasers, _IEEE Trans. Instrum. Meas._, 1985, *IM34*, 265-268.
+
+* [[[clairon4,4]]], Clairon A., Dahmani B., Acef O., Granveaud M., Domnin Yu. S., Pouchkine S. B., Tatarenkov V. M., Felder R., Recent Experiments Leading to the Characterization of the Performance of Portable (He-Ne)/CH~4~ Lasers, Part II: Results of the 1986 LPTF Absolute Frequency Measurements, _Metrologia_, 1988, *25*, 9-16.
+
+* [[[acef5,5]]], Acef O., Metrological properties of CO~2~/OsO~4~ optical frequency standard, _Opt. Commun._, 1997, *134*, 479-486.
+
+* [[[bernard,6]]], Bernard V., Nogues G., Daussy Ch., Constantin L., Chardonnet Ch., CO~2~ laser stabilized on narrow saturated absorption resonances of CO~2~; improved absolute frequency measurements, _Metrologia_, 1997, *34*, 313-318.
+
+* [[[ci2002,7]]], Recommendation M1 (BIPM Com. Cons. Déf. Mètre, 10th meeting, 2001) adopted by the Comité International des Poids et Mesures at its 91th Meeting as Recommendation 1 (CI-2002).
+
+* [[[clairon8,8]]], Clairon A., Van Lerberghe A., Salomon C., Ouhayoun M., Bordé Ch. J., Towards a New Absolute Frequency Reference Grid in the 28 THz Range, _Opt. Commun._, 1980, *35*, 368-372.
+
+* [[[clairon9,9]]], Clairon A., Van Lerberghe A., Bréant Ch., Salomon Ch., Camy G., Bordé Ch. J., A New Absolute Frequency Reference Grid in the 28 THz Range: Troisième symposium sur les étalons de fréquence et la métrologie (Aussois, 1981), _J. Phys. (Paris)_, Colloque C8, Suppl. to No. 12, *42*, C8 127-135.
+
+* [[[chardonnet10,10]]], Chardonnet Ch., Van Lerberghe A., Bordé Ch. J., Absolute Frequency Determination of Super-Narrow CO~2~ Saturation Peaks Observed in an External Absorption Cell, _Opt. Commun._, 1986, *58*, 333-337.
+
+* [[[clairon11,11]]], Clairon A., Acef O., Chardonnet Ch., Bordé C. J., State-of-the-Art for High Accuracy Frequency Standards in the 28 THz Range Using Saturated Absorption Resonnances of OsO~4~ and CO~2~, _Frequency Standards and Metrology: Proceedings_ (Edited by A. De Marchi), Springer-Verlag, 1989, 212-221.
+
+* [[[chardonnet12,12]]], Chardonnet Ch., Bordé Ch. J., Hyperfine Interactions in the stem:[nu_3] Band of Osmium Tetroxide: Accurate Determination of the Spin-Rotation Constant by Crossover Resonance Spectroscopy, _J. Mol. Spectrosc._, 1994, *167*, 71-98.
+
+* [[[frech,13]]], Frech B., Constantin L. F., Amy-Klein A., Phavorin O., Daussy C., Chardonnet Ch., Mürtz M., Frequency measurements of saturated-fluorescence-stabilized CO~2~ laser lines: comparison with an OsO~4~-stabilized CO~2~ laser standard, _Appl. Phys. B_, 1998, *67*, 217-221.
+
+* [[[acef14,14]]], Acef O., Michaud F., Rovera D., Accurate Determination of OsO Absolute Frequency Grid at 28/29 THz, _IEEE Trans. Instrum. Meas._, 1999, *48*, 567-570.4
+
+* [[[bradley,5]]], Bradley L. C., Soohoo K. L., Freed C., Absolute Frequencies of Lasing Transitions in Nine CO Isotopic Species, _IEEE J. Quant. Electr._, 1986, *QE-22*, 234-267.2
+
+* [[[siemsen,6]]], Siemsen K. J., Bernard J. E., Madej A. A., Marmet L., Absolute frequency measurement of a CO~2~/OsO~4~ stabilized laser at 28.8 THz, _Appl. Phys. B._, 2001, *72*, 567-573
+
+* [[[maki,7]]], Maki A. G., Chou C.-C., Evenson K. M., Zink L. E., Shy J.-T., Improved Molecular Constants and Frequencies for the CO~2~ Laser from New High-J regular and Hot-Band Frequency Measurements, _J. Mol. Spec._, 1994, *167*, 211-224.

@@ -1,0 +1,77 @@
+= Recommended Values of Standard Frequencies for Applications Including the Practical Realization of the Metre and Secondary Representations of the Definition of the Second
+:appendix: 2
+:partnumber: 1
+:edition: 9
+:copyright-year: 2019
+:language: en
+:docnumber: 
+:title-en: 
+:title-fr: 
+:doctype: guide
+:parent-document: si-brochure.adoc
+:committee-acronym: CCTF
+:committee-en: Consultative Committee for Time and Frequency
+:docstage: in-force
+:confirmed-date: 2015-10
+:revdate: 2016-05
+:docsubstage: 60
+:imagesdir: images
+:mn-document-class: bipm
+:mn-output-extensions: xml,html,pdf,rxl
+:local-cache-only:
+:data-uri-image:
+
+== Ytterbium 171 Ion (stem:[f ~~ 688" THz"])
+
+*^171^Yb^+^ ion, 6s ^2^S~1/2~ – 5d ^2^D~3/2~ unperturbed optical transition*
+
+=== Recommended value <<ci2015>> of the frequency
+
+_f_(Yb^+^, quadrupole) = 688 358 979 309 308.3 Hz
+
+equivalent to
+
+stem:[lambda](Yb^+^)= 435 517 610.739 688 fm
+
+with an estimated relative standard uncertainty of stem:[6 xx 10^(-16)].
+
+This radiation is already endorsed by the CIPM as a secondary representation of the definition of the second.
+
+=== Source data
+
+[align=left]
+Adopted value:: _f_(Yb^+^) = 688 358 979 309 308.3 Hz +
+stem:[u_c//y = 6 xx 10^(−16)]
+
+calculated from
+
+[cols="<,^,^,^,^"]
+[%unnumbered]
+|===
+| f (^171^Yb^+^, quadrupole) / Hz | u / Hz | f(^171^Yb^\+^ oct)/ f(^171^Yb^+^ quad) | u | source data
+| 688 358 979 309 308 | 2.14 | | | <<ccl2005>>
+| 688 358 979 309 306.97 | 0.73 | | | <<tamm2009>>
+| 688 358 979 309 310 | 9 | | | <<webster>>
+| 688 358 979 309 308.42 | 0.42 | | | <<godun>>
+| 688 358 979 309 307.82 | 0.36 | | | <<tamm2014>>
+| | | 0.932 829 404 530 964 65 | stem:[3.1 xx 10^(−16)] | <<godun>>
+|===
+
+as a weighted mean from the above values applying the method of Margolis and Gill <<margolis>>. Considering that the values came from only two laboratories, the CCTF considered it prudent to enlarge the uncertainty by a factor of two.
+
+[bibliography]
+=== References
+
+* [[[ci2015,1]]], CIPM Recommendation 2 (CI-2015): Updates to the list of standard frequencies http://www.bipm.org/jsp/en/CIPMRecommendations.jsp
+
+* [[[ccl2005,2]]], Report of the 12th meeting, Consultative Committee for Length (CCL), 15-16 Sept. 2005; available at http://www.bipm.org/utils/common/pdf/CCL12.pdf and Questionnaire previous to the 2006 meeting of the CCL/CCTF Joint Working GroupCCL-CCTF/06-11.
+
+* [[[tamm2009,3]]], Chr. Tamm, S. Weyers, B. Lipphardt, and E. Peik: Stray-field-induced quadrupole shift and absolute frequency of the 688-THz ^171^Yb^+^ single-ion optical frequency standard, _Phys. Rev. A_ *80*, 043403 (2009).
+
+* [[[webster,4]]], S. Webster, R. Godun, S. King, G. Huang, B. Walton, V. Tsatourian, H. Margolis, S. Lea and P. Gill: Frequency Measurement of the 2S1/2–2D3/2 Electric Quadrupole Transition in a Single ^171^Yb^+^ Ion, _IEEE Trans.on Ultrasonics, Ferroelectrics, and Frequency Control_, *57*, 592 (2010).
+
+* [[[godun,5]]], Godun, R. M.; Nisbet-Jones, P. B. R.; Jones, J. M.; King, S. A.; Johnson, L. A. M.; Margolis, H. S.; Szymaniec, K.; Lea, S. N.; Bongs, K. & Gill, P.: Frequency ratio of two optical clock transitions in ^171^Yb^+^ and constraints on the time-variation of fundamental constants, _Phys. Rev. Lett._, *113*, 210801 (2014).
+
+* [[[tamm2014,6]]], Tamm, C.; Huntemann, N.; Lipphardt, B.; Gerginov, V.; Nemitz, N.; Kazda, M.; Weyers, S. & Peik, E.: A Cs-Based Optical Frequency Measurement Using Cross-Linked Optical and Microwave Oscillators, _Phys. Rev.A_, *89*, 023820 (2014).
+
+* [[[margolis,7]]], H. S. Margolis, P. Gill: Least-squares analysis of clock frequency comparison data to deduce optimized frequency and frequency ratio values; _Metrologia_, 2015, *52*, 628-634

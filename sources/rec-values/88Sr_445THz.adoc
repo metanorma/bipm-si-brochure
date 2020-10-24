@@ -1,0 +1,77 @@
+= Recommended Values of Standard Frequencies for Applications Including the Practical Realization of the Metre and Secondary Representations of the Definition of the Second
+:appendix: 2
+:partnumber: 1
+:edition: 9
+:copyright-year: 2019
+:language: en
+:docnumber: 
+:title-en: 
+:title-fr: 
+:doctype: guide
+:parent-document: si-brochure.adoc
+:committee-acronym: CCTF
+:committee-en: Consultative Committee for Time and Frequency
+:docstage: in-force
+:confirmed-date: 2017-06
+:revdate: 2018-04
+:docsubstage: 60
+:imagesdir: images
+:mn-document-class: bipm
+:mn-output-extensions: xml,html,pdf,rxl
+:local-cache-only:
+:data-uri-image:
+
+== Strontium 88 Ion (stem:[f ~~ 445" THz"])
+
+*^88^Sr^+^, 5s ^2^S~1/2~ – 4d ^2^D~5/2~ unperturbed optical transition*
+
+=== Recommended value <<cctf21>> of the frequency in the CIPM List of Frequencies
+
+_f_(^88^Sr^+^) = 444 779 044 095 486.5 Hz
+
+equivalent to
+
+stem:[lambda](^88^Sr^+^) = 674 025 590.863 134 fm,
+
+with a relative standard uncertainty of stem:[1.5 xx 10^(−15)].
+
+This radiation was endorsed by the CIPM as a secondary representation of the definition of the second <<ci2006>>.
+
+=== Source data
+
+[align=left]
+Adopted value:: _f_(^88^Sr^+^) = 444 779 044 095 486.5 Hz
+With relative standard uncertainty:: stem:[1.5 xx 10^(−15)]
+calculated from::
+
+[%unnumbered]
+|===
+| _f_(^88^Sr^+^) / Hz | stem:[u // "Hz"] | source data
+| 444 779 044 095 484.6 | 1.5 | <<margolis>>
+| 444 779 044 095 484 | 15 | <<dube2005>>
+| 444 779 044 095 485.5 | 0.9 | <<madej>>
+| 444 779 044 095 486.71 | 0.24 | <<barwood>> footnote:[Since the result is largely dominated by the single measurement of ref. <<barwood>>, the final uncertainty has been increased by a factor of three following the procedures outlined in ref. <<riehle>>.]
+| 444 779 044 095 485.27 | 0.75 | <<dube2017>>
+|===
+
+as a weighted mean of the above values.
+
+
+[bibliography]
+=== References
+
+* [[[cctf21,1]]], Consultative Committee for Time and Frequency (CCTF): Report of the 21st meeting (8-9 June 2017) to the International Committee for Weights and Measures; https://www.bipm.org/utils/common/pdf/CC/CCTF/CCTF21.pdf
+
+* [[[ci2006,2]]], CIPM Recommendation 1 (CI-2006): RECOMMENDATION 1 (CI-2006): Concerning secondary representations of the second https://www.bipm.org/utils/en/pdf/CIPMOutcomes/CI-2006-Recommendation-1.pdf
+
+* [[[margolis,3]]], H. S. Margolis, G.P. Barwood, G. Huang, H. A. Klein, S. N. Lea, K. Szymaniec, P. Gill: Hertz-Level Measurement of the Optical Clock Frequency in a Single ^88^Sr^+^ Ion; _Science_ *306* 1355 - 1358 (2004)
+
+* [[[dube2005,4]]], P. Dubé, A. A. Madej, J. E. Bernard, L. Marmet, J.-S. Boulanger, S. Cundy: Electric Quadrupole Shift Cancellation in Single-ion Optical Frequency Standards; _Phys. Rev. Lett._ *95* 033001-1-4 (2005)
+
+* [[[madej,5]]], A.A. Madej, P. Dubé, Z. Zhu, J. E. Bernard, M. Gertsvolf: ^88^Sr^+^ 445-THz Single Ion Reference at the 10^−17^ Level via Control and Cancellation of Systematic Uncertainties and its Measurement against the SI Second; _Phys. Rev. Lett._ *109*, 203002 (2012)
+
+* [[[barwood,6]]], G. P. Barwood, G. Huang, H. A. Klein, L. A. M. Johnson, S. A. King, H. S. Margolis, K. Szymaniec, P. Gill: Agreement between two ^88^Sr^+^ optical clocks to 4 parts in 1017; _Phys. Rev. A_ *89*, 050501 (2014)
+
+* [[[dube2017,7]]], P. Dubé, J. Bernard, M. Gertsvolf: Absolute frequency measurement of the ^88^Sr^+^ clock transition using a GPS link to the SI second; _Metrologia_ *54*, 290 - 298 (2017)
+
+* [[[riehle,8]]], F. Riehle, P. Gill, F. Arias, L. Robertsson: The CIPM List of Recommended Frequency Standard Values: Guidelines and Procedures; _Metrologia_ *55*, 188 - 200 (2018)

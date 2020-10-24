@@ -1,0 +1,134 @@
+= MEP 2003
+:appendix: 2
+:partnumber: 1
+:edition: 9
+:copyright-year: 2019
+:language: en
+:docnumber: 
+:title-en: 
+:title-fr: 
+:doctype: guide
+:parent-document: si-brochure.adoc
+:committee-acronym: CCTF
+:committee-en: Consultative Committee for Time and Frequency
+:docstage: in-force
+:confirmed-date:
+:revdate:
+:docsubstage: 60
+:imagesdir: images
+:mn-document-class: bipm
+:mn-output-extensions: xml,html,pdf,rxl
+:local-cache-only:
+:data-uri-image:
+
+== Iodine (stem:[lambda ~~ 543" nm"])
+
+*Absorbing molecule ^127^I~2~, b~10~ component, R(106) 28-0 transition* footnote:[All transitions in I~2~ refer to the B^3^Π 0~u~^\+^ – X^1^ Σ~g~^+^ system.]
+
+=== CIPM recommended values
+
+[align=left]
+The values:: stem:[f = 551" "580" "162" "400" kHz"] +
+stem:[lambda = 543" "515" "663.608" fm"]
+
+with a relative standard uncertainty of stem:[4.5 xx 10^(-11)] apply to the radiation of a laser stabilized to an external iodine cell and subject to the following conditions:
+
+* cold point temperature stem:[(0 +- 2)" °C"] footnote:2[For the specification of operating conditions, such as temperature, modulation width and laser power, the symbols ± refer to a tolerance, not an uncertainty.];
+* frequency modulation width, peak-to-peak, stem:[(2.0 +- 0.5)" MHz"].
+
+=== Source data
+
+[align=left]
+Adopted value:: stem:[f = 551" "580" "162" "400" (25) kHz"] +
+stem:[u_c//y = 4.5 xx 10^(-11)]
+
+[align=left]
+for which:: stem:[lambda = 543" "515" "663.608" "(24)" fm"] +
+stem:[u_c//y = 4.5 xx 10^(-11)]
+
+calculated from::
+
+[%unnumbered]
+|===
+| stem:[f // "kHz"] | stem:[u_c//y] | source data
+| 551 580 162 397.1 | stem:[1.3 xx 10^(-11)] | <<ma>>
+|===
+
+Given the small number of calibrations and the individual behaviour of participating lasers in this calibration, the CCL considered it prudent to adopt an uncertainty of 25 kHz for the recommended value. The final CCL value chosen was stem:[f = 551" "580" "162" "400" "(25)" kHz"] with the following operating conditions:
+
+* cold point temperature stem:[(0 +- 2)" °C"] footnote:2[];
+* frequency modulation width, peak-to-peak, stem:[(2.0 +- 0.5)" MHz"].
+
+It was felt appropriate not to define the laser type.
+
+=== Absolute frequency of the other transitions related to those adopted as recommended and frequency intervals between transitions and hyperfine components
+
+These tables replace those published in BIPM Com. Cons. Long., 2001, *10*, 182-183 and Metrologia, 2003, *40*, 126.
+
+The notation for the transitions and the components is that used in the source references. The values adopted for the frequency intervals are the weighted means of the values given in the references.
+
+For the uncertainties, account has been taken of:
+
+* the uncertainties given by the authors;
+* the spread in the different determinations of a single component;
+* the effect of any perturbing components;
+* the difference between the calculated and the measured values.
+
+In the tables, uc represents the estimated combined standard uncertainty (stem:[1 sigma] ).
+
+All transitions in molecular iodine refer to the B-X system.
+
+|===
+6+^.^| stem:[lambda ~~ 543" nm"] ^127^I~2~ R(12) 26-0
+| stem:[a_n] | stem:[[f (a_n) – f (b_(10))\]//"MHz"] | stem:[u_c//"MHz"] | stem:[a_n] | stem:[[f (a_n) – f (b_(10))\]//"MHz"] | stem:[u_c//"MHz"]
+
+| stem:[a_1] | –1162.24 | 0.02 | stem:[a_9] | –679.420 | 0.005
+| stem:[a_2] | –909.87 | 0.02 | stem:[a_(10)] | –596.134 | 0.005
+| stem:[a_3] | –900.11 | 0.03 | stem:[a_(11)] | –485.61 | 0.01
+| stem:[a_4] | –853.336 | 0.005 | stem:[a_(12)] | –476.35 | 0.01
+| stem:[a_5] | –848.131 | 0.005 | stem:[a_(13)] | –423.23 | 0.01
+| stem:[a_6] | –795.92 | 0.01 | stem:[a_(14)] | –410.01 | 0.01
+| stem:[a_7] | –752.382 | 0.005 | stem:[a_(15)] | –305.910 | 0.005
+| stem:[a_8] | –733.134 | 0.005 | | |
+6+a| Frequency referenced to::
+stem:[b_(10)], R(106) 28-0, ^127^I~2~: stem:[f = 551" "580" "162" "400" kHz"] <<ci2003>>
+|===
+Ref. <<chartier1986>>, <<glaser>>, <<chartier1989>>, <<simonsen1990>>, <<fredin>>, <<lin>>, <<simonsen1994>>
+
+|===
+6+^.^| stem:[lambda ~~ 543" nm"] ^127^I~2~ R(106) 28-0
+| stem:[b_n] | stem:[[f (b_n) – f (b_(10))\]//"MHz"] | stem:[u_c//"MHz"] | stem:[b_n] | stem:[[f (b_n) – f (b_(10))\]//"MHz"] | stem:[u_c//"MHz"]
+
+| stem:[b_1] | –573.765 | 0.005 | stem:[b_9] | -114.575 | 0.005
+| stem:[b_2] | –320.462 | 0.005 | stem:[b_(10)] | 0 | -
+| stem:[b_3] | –291.59 | 0.01 | stem:[b_(11)] | 124.83 | 0.01
+| stem:[b_4] | –282.143 | 0.005 | stem:[b_(12)] | 132.31 | 0.01
+| stem:[b_5] | –253.675 | 0.005 | stem:[b_(13)] | 154.51 | 0.01
+| stem:[b_6] | –172.693 | 0.005 | stem:[b_(14)] | 162.65 | 0.01
+| stem:[b_7] | –159.428 | 0.005 | stem:[b_(15)] | 287.24 | 0.01
+| stem:[b_8] | –127.760 | 0.005 | | |
+6+a| Frequency referenced to::
+stem:[b_(10)], R(106) 28-0, ^127^I~2~: stem:[f = 551" "580" "162" "400" kHz"] <<ci2003>>
+|===
+Ref. <<chartier1986>>, <<glaser>>, <<chartier1989>>, <<simonsen1990>>, <<fredin>>, <<lin>>, <<simonsen1994>>
+
+[bibliography]
+=== References
+
+* [[[ma,1]]], Ma L.-S., Picard S., Zucco M., Chartier J.-M., Robertsson L., Balling P., Kren P., Qian J., Liu Z., Shi C., Viliesid Alonso M., Xu G., Tan S. L., Nyholm K., Henningsen J., Hald J., Windeler R., Absolute Frequency Measurement of the b~10~ component of the R(106) 28-0 Transition in ^127^I~2~ at stem:[lambda=543" nm"], provisionally published in _Rapport BIPM-2004/16_.
+
+* [[[ci2003,2]]], Recommendation CCL 2c (_BIPM Com. Cons. Long._, 11th Meeting, 2003) adopted by the Comité International des Poids et Mesures at its 92nd Meeting as Recommendation 1 (CI-2003).
+
+* [[[chartier1986,3]]], Chartier J.-M., Hall J. L., Gläser M., Identification of the I~2~-saturated absorption lines excited at 543 nm with the external beam of the green He-Ne Laser, Proc. CPEM'86, 1986, 323.
+
+* [[[glaser,4]]], Gläser M., Hyperfine Components of Iodine for Optical Frequency Standards _PTB-Bericht_, 1987, *PTB-Opt-25*.
+
+* [[[chartier1989,5]]], Chartier J.-M., Fredin-Picard S., Robertsson L., Frequency-Stabilized 543 nm He-Ne Laser Systems: A New Candidate for the Realization of the Metre ?, _Opt. Commun._, 1989, *74*, 87-92.
+
+* [[[simonsen1990,6]]], Simonsen H., Poulsen O., Frequency Stabilization of an Internal Mirror He-Ne Laser at 543.5 nm to I~2~-Saturated Absorptions, _Appl. Phys. B_, 1990, *50*, 7-12.
+
+* [[[fredin,7]]], Fredin-Picard S., Razet A., On the hyperfine structure of ^127^I~2~ lines at the 543 nm wavelength of the He-Ne laser, _Opt. Commun._, 1990, *78*, 149-152.
+
+* [[[lin,8]]], Lin T., Liu Y.-W., Cheng W.-Y., Shy J.-T., Iodine-stabilized 543 nm He-Ne Lasers, _Opt. Commun._, 1994, *107*, 389-394.
+
+* [[[simonsen1994,9]]], Simonsen H.R., Brand U., Riehle F., International Comparison of Two Iodine-stabilized He-Ne Lasers at stem:[lambda = 543" nm"], _Metrologia_, 1994/95, *31*, 341-347.
