@@ -1,0 +1,727 @@
+= Calibrant Assessment Guideline: ZEN
+:edition: 1
+:copyright-year: 2020
+:revdate: 2020-04-07
+:language: en
+:docnumber: CAG-02
+:title-en: Calibrant Assessment Guideline: ZEN
+:title-fr:
+:doctype: guide
+:parent-document: si-brochure.adoc
+:committee-en:
+:committee-fr:
+:committee-acronym:
+:fullname: Gustavo Martos
+:affiliation: BIPM
+:fullname_2: Xiuqin Li
+:affiliation_2: NIM
+:fullname_3: Zhen Guo
+:affiliation_3: NIM
+:fullname_4: Xiaomin Li
+:affiliation_4: NIM
+:fullname_5: Ralf Josephs
+:affiliation_5: BIPM
+:fullname_6: Steven Westwood
+:affiliation_6: BIPM
+:fullname_7: Adeline Daireaux
+:affiliation_7: BIPM
+:fullname_8: Hongmei Li
+:affiliation_8: NIM
+:fullname_9: Robert Wielgosz
+:affiliation_9: BIPM
+:supersedes-date:
+:supersedes-draft:
+:docstage: in-force
+:docsubstage: 60
+:imagesdir: images
+:mn-document-class: bipm
+:mn-output-extensions: xml,html,pdf,rxl
+:local-cache-only:
+:data-uri-image:
+
+== Scope
+
+This document has been prepared to provide guidance on the preparation and value assignment of a calibration solution of Zearalenone (ZEN) in the mass fraction range of stem:[10-20" "mu"g/g"]. The calibration solution is prepared by gravimetric dilution of a gravimetrically prepared stock solution having known ZEN mass fraction and it is intended for use as a primary calibrator for ZEN analysis.
+
+The information summarized in the document was obtained as part of the BIPM Metrology for Safe Food and Feed Programme for capacity building and knowledge transfer on the production and characterization of reference materials for mycotoxin analysis.
+
+== Introduction
+
+In collaboration with the National Institute of Metrology, China (NIM) and the National Metrology Institute of South Africa (NMISA), the BIPM initiated in 2016 a Capacity Building and Knowledge Transfer programme for Metrology for Safe Food and Feed (MMCBKT) in Developing Economies <<bipm_cbkt>>. This project is designed to allow NMIs/DIs to work together to strengthen the world-wide mycotoxin metrology infrastructure; provide knowledge transfer to scientists developing capabilities in this area and to enable NMIs/DIs in developing regions to provide calibrants, matrix reference materials and proficiency test samples that support testing activities and laboratory services for mycotoxin analysis within their countries.
+
+Calibration solutions prepared from well-characterized, high-purity compounds are the source of metrological traceability of most routine organic analysis results. The preparation and characterization of these solutions is therefore essential within the measurement infrastructure that supports the delivery of reliable results. It is particularly challenging in the case of the provision of standards to underpin mycotoxin testing in developing economies due to stringent export / import regulations, challenging logistics and high costs.
+
+Zearalenone (ZEN) is an estrogenic mycotoxin produced by several moulds of the _Fusarium_ genus which frequently contaminate cereal crops such as maize, wheat, rice and soybeans.<<whitlow>> ZEN is heat-stable, can enter the food chain through contaminated food and feed and may cause carcinogenic effects, hormonal imbalances and reproductive disorders in humans.<<omotayo>>
+
+The present guideline summarizes methods that can be used for the preparation and characterization of ZEN calibration solutions. The method development and validation studies carried out within the BIPM MMCBKT programme are the basis for the results and procedures described herein. The document is intended to be of use to other metrology institutes and reference measurement service providers needing to prepare and characterize their own ZEN primary calibrator solution to underpin the metrological traceability of results. Stock and calibration solutions were prepared from a ZEN source material. For the MMCBKT programme that material was value assigned in-house for purity. Methods for the characterization of ZEN pure materials are described in a separate purity evaluation guideline (PEG). <<westwood>> The ZEN solutions prepared gravimetrically from the MMCBKT source material were value assigned and dispensed into glass ampoules and flame-sealed. A range of analytical methods were developed to quantify the mass fractions of _trans_-ZEN and related structure impurities in solution in order to evaluate the homogeneity and stability of the materials, as well as to verify the gravimetrically assigned ZEN solution mass fraction value.
+
+== Properties of Zearalenone solutions
+
+=== Hazard identification
+
+The substance poses high potential risks for human health if handled inappropriately. It is acutely toxic by inhalation, in contact with skin and if swallowed. Exposure to ZEN solutions may cause reproductive disorders, skin or eye corrosion, cough, shortness of breath, headache, nausea and vomiting. Recommendations for handling high-purity solid samples of ZEN are given in reference <<westwood>>.
+
+*DISCLAIMER:* The safety recommendations given in this section are based on best practice reported in the literature and are not verified by the BIPM.
+
+==== Protective measures
+
+Avoid breathing of vapours, mist or gas. Wear protective gloves, goggles and clothing. Take special care to avoid skin exposure if handling solutions and work in adequately ventilated areas. Wash hands thoroughly after handling.
+
+==== Emergency procedures
+
+*General advice*:: Immediately call a POISON CENTRE or doctor/physician. Show this safety data sheet to the doctor in attendance. Move out of dangerous area.
+
+*If inhaled*:: Move person into fresh air. If not breathing, give artificial respiration. Consult a physician.
+
+*In case of skin contact*:: Wash off with soap and plenty of water. Consult a physician.
+
+*In case of eye contact*:: Rinse thoroughly with plenty of water for at least 15 minutes and consult a physician.
+
+*If swallowed*:: Immediately call a POISON CENTRE or doctor/physician. Never give anything by mouth to an unconscious person. Rinse mouth with water.
+
+==== Spillage / Projections
+
+Contain spillage and then collect by wet-brushing and place in container for disposal. Keep in suitable, closed containers for disposal according to local regulations.
+
+=== Physical and chemical properties
+
+[%unnumbered]
+|===
+| Common Name: | *Zearalenone*
+| Synonyms: a| [S-(E)]-3, 4, 5, 6, 9, 10-Hexahydro-14, 16-dihydroxy-3-methyl-1H-2-benzoxacyclotetradecin-1, 7(8H)-dione
+| CAS Registry Number: | 17924-92-4
+| Molecular Formula: | stem:["C"_(18)"H"_(22)"O"_5]
+| Molar Mass: | 318.36 g/mol
+| Monoisotopic mass: | 318.147
+| Melting point: | 164 °C <<crc>>
+| Appearance: | White crystalline powder
+| Solubility: a| Insoluble in water. Slightly soluble in aqueous alkali. Soluble in benzene, ethanol, diethyl ether, etc. <<crc>>
+| UV maxima: | 236 nm (stem:[epsilon = 29700]), 274 nm (stem:[epsilon = 13909]), 316 nm (stem:[epsilon = 6020]) [stem:[epsilon in "CH"_3"OH"]]. <<oneil>>
+|===
+
+=== Structure
+
+[[fig1]]
+.Chemical structure of the measurand _trans_-Zearalenone (ZEN) and its isomer _cis_-Zearalenone, commonly found as impurity. stem:["C"_(18)"H"_(22)"O"_5]. stem:[Mw = 318.36" Da"].
+====
+._trans_-zearalenone
+image::img01.png[]
+
+._cis_-zearalenone
+image::img02.png[]
+====
+
+[[methods]]
+== Methods for the characterization of zearalenone solutions
+
+This section of the Guideline describes the methods developed during the BIPM MMCBKT programme for the characterization of ZEN stock and calibration solutions prepared from the source ZEN material. The methods are the basis for the stability and homogeneity studies and for the analytical confirmation of the ZEN mass fraction value assigned gravimetrically.
+
+*DISCLAIMER:* Commercial instruments, software and materials are identified in this document in order to describe some procedures. This does not imply a recommendation or endorsement by the BIPM nor does it imply that any of the instruments, equipment and materials identified are necessarily the best available for the purpose.
+
+=== ZEN and related structure impurities analysis by LC-DAD-MS/MS
+
+A method based on liquid chromatography inline coupled to diode array detection (DAD) and tandem mass spectrometry (MS/MS) was developed for the quantification of related structure impurities in the ZEN source material (BIPM ref. OGO.178). Details on the method development and validation are described in the purity evaluation guideline. <<westwood>> Briefly, commercial standards were purchased for the potential impurities ZAN, a-ZEL, b-ZEL, a-ZAL and b-ZAL (<<fig2>>). The purity of ZAN was assessed by qNMR while for the rest of impurities it was taken from information in the supplier's certificates. ZEN (BIPM ref. OGO.178) and ZAN (BIPM ref. OGO.182) materials obtained from _Chemtek., Inc. First Standard_ were used to prepare 200 mg/kg acetonitrile solutions that served as the basis for the LC method development. The impurity standards were used to optimize the chromatographic separation and MS/MS detection parameters that are reported below. The method was validated in-house for the performance characteristics of linearity, precision and limits of detection and quantification. 
+
+[[fig2]]
+.Chemical structures of zearalenone and related impurities optimized for detection by LC-MS/MS.
+====
+._trans_-Zearalenone (ZEN), stem:["C"_(18)"H"_(22)"O"_5]; stem:["MW: "318.36" Da"]; stem:[P_(kow): -3.83]
+image::img03.png[]
+
+.Zearalanone (ZAN), stem:["C"_(18)"H"_(24)"O"_5]; stem:["MW: "320.38" Da"]; stem:[P_(kow): -3.45]
+image::img04.png[]
+
+.7'-dehydrozearalenone (7'-dehydroZEN) stem:["C"_(18)"H"_(20)"O"_5] , stem:["MW:"316.34" Da"];
+image::img05.png[]
+
+.7-dehydrozearalenone +O2; stem:["C"_(18)"H"_(20)"O"_7] , stem:[MW:348.35 Da];
+image::img06.png[]
+
+._cis_-Zearalenone (_cis_-ZEN); stem:["C"_(18)"H"_(22)"O"_5], stem:["MW":318.36" Da"];
+image::img07.png[]
+
+.(stem:[alpha])-Zearalanol (stem:[alpha]-ZAL), stem:["C"_(18)"H"_(26)"O"_5] stem:["MW": 322.396" Da"]; stem:[P_(kow): -3.86]
+image::img08.png[]
+
+.(stem:[beta])-Zearalanol (stem:[beta]-ZAL), stem:["C"_(18)"H"_(26)"O"_5]; stem:["MW": 322.396" Da"]; stem:[P_(kow): -3.86]
+image::img09.png[]
+
+.(stem:[alpha])-Zearalenol (stem:[alpha]-ZAL), stem:["C"_(18)"H"_(24)"O"_5] stem:["MW": 318.38" Da"]; stem:[P_(kow): -4.17]
+image::img10.png[]
+
+.(stem:[beta])-Zearalenol (stem:[beta]-ZAL), stem:["C"_(18)"H"_(24)"O"_5]; stem:["MW": 320.38" Da"]; stem:[P_(kow): -4.17]
+image::img11.png[]
+====
+
+==== Materials
+
+* Acetonitrile. HPLC gradient grade (HiPerSolv Chromanorm VWR)
+* Ultrapure water (Milli-Q)
+* Formic acid (FA, GPR Rectapur VWR).
+* ZEN stock (BIPM ref. OGP.025) and calibration (BIPM ref. OGP.024) solutions.
+* Impurity standards: ZAN, a-ZEL, b-ZEL, a-ZAL, b-ZAL (First Standard via NIM China).
+
+==== Sample preparation
+
+Ampoules of the stock or calibration solution were vortexed before opening and 0.5 mL aliquots of solution were transferred to glass injection vials and placed in the autosampler at 4 °C for immediate analysis.
+
+==== Instrumentation
+
+An Agilent 1100 HPLC Liquid chromatography system, equipped with a diode array detector (DAD) and coupled to a Sciex 4000 Qtrap mass spectrometry detector.
+
+==== Liquid chromatography parameters
+
+[%unnumbered]
+|===
+| *Column:* 2+a| Phenomenex Kinetex EVO stem:["C"_(18)] 100 Å, (stem:[250 xx 4.6" mm, "2.6" "mu"m"])
+| Column temperature: 2+| 25 °C
+| *Mobile phase:* 2+a| A) Acetonitrile/H2O 40:60 (v/v) + 0.1 % FA +
+B) Acetonitrile + 0.1 % FA
+| Operation mode: 2+| Gradient (inclusive cleaning gradient)
+.7+| Solvent gradient: | Time (min) | Mobile phase A
+| 0 | 100 %
+| 45 | 100 %
+| 46 | 5 %
+| 47 | 5 %
+| 48 | 100 %
+| 65 | 100 %
+| Flow rate: 2+| stem:[0.6" mL/min"]
+| Injection volume: 2+| stem:[10" "mu"L"]
+| *Duration:* 2+| stem:[65" min"]
+|===
+
+To avoid contamination of the sensitive MS instrument by the high mass fraction level of the main ZEN compound, the mobile phase was diverted to waste during the elution window of ZEN. It was measured in the DAD detector but it did not reach the MS.
+
+==== DAD detection parameters
+
+The absorption wavelength used for the detection of the main component ZEN was 274 nm (step and slit widths 2 nm and 4 mm, respectively).
+
+==== MS/MS detection parameters
+
+The 4000 QTRAP was operated in negative electrospray ionization (ESI) mode. The capillary voltage was set at -4500 V and the source temperature at 550 °C. Nitrogen was used as the ion source gas, curtain gas and collision gas. The Gas 1 and Gas 2 of the ion source were set at 55 psi and 50 psi, respectively. The curtain gas (CUR) was set at 15 psi. The Collision Gas (CAD) was set at "Mid". <<table1>> lists the optimized transitions and conditions for multiple reaction monitoring (MRM) detection of (_trans_- and _cis_-) ZEN and its most frequent, structurally related impurities are depicted in <<fig2>>.
+
+[[table1]]
+.Transition ions and MS/MS parameters for the detection of ZEN and its impurities in MRM mode. Transitions marked with an asterisk were used for quantification purposes.
+|===
+| _Compounds_ | stem:[Q1" "m//z] | stem:[Q3" "m//z] | _Time (ms)_ | _DP(V)_ | _CE(V)_ | _EP(V)_ | _CXP(V)_
+
+.3+a| Zearalenone +
+(ZEN) .3+.<| 317.2 | 131.1* | 50 | -95 | -40 | -11 | -10
+| 175.1 | 50 | -95 | -30 | -11 | -10
+| 187.0 | 50 | -95 | -27 | -11 | -10
+.2+a| Zearalanone +
+(ZAN) .2+.<| 319.3 | 275.0* | 50 | -110 | -30 | -11 | -10
+| 205.1 | 50 | -110 | -33 | -11 | -10
+.2+a| Zearalenol +
+(stem:[alpha-//beta-] ZEL) .2+.<| 319.3 | 275.0* | 50 | -110 | -30 | -11 | -10
+| 160.1 | 50 | -110 | -41 | -11 | -10
+.2+a| Zearalanol +
+(stem:[alpha-//beta-] ZAL) .2+.<| 321.3 | 277.1* | 50 | -110 | -33 | -11 | -10
+| 303.2 | 50 | -110 | -31 | -11 | -10
+.2+a| Dehydrozearalenone +
+(dehydroZEN) .2+.<| 315.3 | 175.1* | 50 | -90 | -30 | -11 | -10
+| 271.1 | 50 | -90 | -30 | -11 | -10
+.2+| dehydroZEN +O2 .2+.<| 347.2 | 315.3* | 50 | -90 | -30 | -11 | -10
+| 271.1 | 50 | -90 | -30 | -11 | -10
+| HYD | 335.1 | 187.0 | 50 | -90 | -30 | -11 | -10
+| HYD-CO2 | 290.1 | 187.0 | 50 | -90 | -30 | -11 | -10
+| HYD-H2O | 316.0 | 187.0 | 50 | -90 | -30 | -11 | -10
+| HYD-C9H18O3 | 160.0 | 149.0 | 50 | -90 | -30 | -11 | -10
+|===
+
+
+==== Data analysis
+
+Data was evaluated using Analyst 1.6.3 software (SCIEX). Peak integration was verified manually for all samples and standards. Peak areas were extracted for quantification and uncertainty evaluation.
+
+=== ZEN related compounds analysis by UV-spectrophotometry
+
+==== Materials
+
+* Acetonitrile. HPLC gradient grade (HiPerSolv Chromanorm, VWR)
+* Ultra-Micro Cell Quartz Cuvette, 10 mm light path (Perkin Elmer).
+* ZEN stock (OGP.025) and calibration (OGP.024) solutions.
+
+==== Sample preparation
+
+Ampoules of the stock or calibration solution were opened and an aliquot of the material was transferred to the cuvette (minimum sample intake stem:[50" "mu"L"]) for analysis without further manipulation. Acetonitrile was used in a reference cuvette to perform the instrument auto-zero (blank subtraction).
+
+==== Instrumentation
+
+Measurements were performed in a PerkinElmer Lambda 650 UV/VIS spectrometer. The temperature was controlled and fixed at 20 °C.
+
+==== UV-spectrophotometry parameters
+
+A wavelength scan measurement method was used for qualitative analysis (i.e. identification of absorption maxima) and a fixed wavelength method to determine the absorbance value of solutions for quantitative analysis.
+
+Wavelength scan method parameters:
+
+* Deuterium lamp: on
+* Tungsten lamp: on
+* Scan from 370.00 nm to 190.00 nm
+* Data interval: 1.00 nm, scan speed: 266.75 nm/min
+* Ordinate mode: A (Absorbance)
+* Cycle: 1
+* Slit: 2 nm
+* No cell changer
+
+Fixed wavelength method parameters:
+
+* Deuterium lamp: on
+* Tungsten lamp: on
+* Wavelengths: 235 nm, 274 nm and 314 nm (first one only for OGP.024).
+* Ordinate mode: A (Absorbance)
+* Cycle: 3
+* Slit: 1 nm
+* Gain: Auto
+* Response 0.2 s
+* No cell changer
+
+==== Data analysis
+
+The typical wavelength spectrum of ZEN is reproduced in <<fig3>>. <<krska>> The three observed absorption maxima at 235 nm, 274 nm and 314 nm were selected as the fixed wavelengths for the quantitative analysis of ZEN.
+
+[[fig3]]
+.UV-VIS absorption spectrum of ZEN.
+image::img12.png[]
+
+Data were acquired using the Perkin Elmer UV WinLab software and absorbance measurements were extracted for data evaluation.
+
+== Characterization summary of the zearalenone stock solution
+
+[[characterization-preparation]]
+=== Preparation and value assignment
+
+The ZEN stock solution (OGP.025) was prepared gravimetrically by dissolving about 100 mg of ZEN powder material (OGO.178) in 1 L of acetonitrile. Mettler Toledo balances MX5 and XP~1~0002S were used for the mass determination of OGO.178 and the final solution, respectively. <<table2>> summarizes the preparation of the stock solution and the mass fraction assignment, calculated according to <<eq1>>. The purity of OGO.178 was determined in-house by quantitative NMR corrected for related structure impurities, as described in a separate purity evaluation guideline. <<westwood>>
+
+[[table2]]
+.Experimental data corresponding to the preparation of the ZEN stock solution and the calculated mass fraction.
+|===
+4+^h| _trans_-Zearalenone stock solution preparation
+| h| Weighed mass (m) h| Buoyancy (b) h| stem:[m xx b]
+
+h| ZEN powder (stem:["mg"]) | 101.605 | 1.000872 | 101.694
+h| stock solution (stem:["g"]) | 778.11 | 1.001386 | 779.189
+h| purity ± U (stem:["mg/g"]) | stem:[996.7 +- 1.9] | |
+h| Mass fraction (stem:[mu"g/g"]) | 130.08 | |
+|===
+
+[[eq1]]
+[stem]
+++++
+w_("stock") = (m_p*b_p*w_p)/(m_(sol)*b_(sol))
+++++
+
+Where:
+
+stem:[m_p]:: observed mass of ZEN powder
+stem:[b_p]:: buoyancy correction of powder weighing
+stem:[w_p]:: mass fraction of ZEN powder
+stem:[m_(sol)]:: observed mass of stock solution
+stem:[b_(sol)]:: buoyancy correction of solution weighing
+
+The uncertainties from input quantities in <<eq1>> were combined (<<eq2>>) and the final uncertainty was calculated (<<table3>>). A minor uncertainty component, u(V), was included to account for the potential solvent loss due to evaporation during sample preparation and weighing. The buoyancy mass correction and its uncertainty were calculated as described by Reichmuth et al. <<reichmuth>>
+
+[[eq2]]
+[stem]
+++++
+u(w_("stock")) = w_("stock")*sqrt([(u(m_p))/m_p]^2 + [(u(b_p))/b_p]^2 + [(u(w_p))/w_p]^2 + [(u(m_(sol)))/m_(sol)]^2 + [(u(b_(sol)))/b_(sol)]^2 + [(u(V))/V]^2)
+++++
+
+[[table3]]
+[cols="^,^,^,^,^,^,^,^,^,^"]
+.Individual uncertainty components contributing to the final combined uncertainty of the ZEN stock solution mass fraction.
+|===
+h| Unc. source | stem:[(u(m_p))/m_p] | stem:[(u(b_p))/b_p] | stem:[(u(w_p))/w_p] | stem:[(u(m_(sol)))/m_(sol)] | stem:[(u(b_(sol)))/b_(sol)] | stem:[(u(V))/V]^2] | stem:[u_("rel")] (%) a| stem:[u(w_("stock")" "mu"g/g"]) a| stem:[U(w_("stock"))" "mu"g/g (k=2)"]
+h| Value (%) | 0.0033 | 0.0031 | 0.09 | 0.0028 | 0.0012 | 0.005 | 0.091 | 0.118 | 0.236
+|===
+
+The 1L flask containing the stock solution was agitated thoroughly and about 100 mL were used to prepare the calibration solution (<<preparation>>). The rest of the stock solution was stored at 4 °C until ampouling, which took place within 24 h of preparation. The ampouling process was similar to that of the calibration solution and is described in detail in <<prep-ampouling>>.
+
+=== Stability study
+
+The present section provides a summary of the stock solution isochronous stability study results. A detailed description of the study design and evaluation is given for the characterization of the calibration solution (<<stability-study>>). The detected ZEN related impurities in the stock solution were 7'dehydroZEN, zearalanone (ZAN) and zearalenone isomer or _cis_-zearalenone (ZEN isomer or _cis_-ZEN). They were measured in the tested ampoules by LC-DAD-MS/MS whereas the main component ZEN was measured by LC-DAD and UV spectrophotometry (total absorbance of ZEN related compounds).
+
+Original impurity standards were used for external calibration of the LC-DAD-MS/MS method and the calculated mass fractions were normalized to the reference samples (stored at -20 °C). For _cis_-ZEN impurity the calibration was performed using ZEN as standard. For the main component ZEN, no calibration was performed so peak areas (LC-DAD) and absorbance values (UV-spectrophotometry) were directly normalized to the ZEN peak area and total absorbance (at 314 and 274 nm) in the reference samples, respectively. Data were evaluated as a function of the storage time at each of the studied temperatures.
+
+A summary of the stability results of the stock solution is presented in <<fig4>>. Data obtained for the impurities by LC-DAD and LC-MS/MS largely agreed. For the main component, ZEN, LC-DAD results also agreed with UV-spectrophotometry results.
+
+[[fig4]]
+.Summary of the stability results for ZEN and detected related impurities in the ZEN stock solution. Bars represent the amount of time the indicated compound was found stable at the tested temperature.
+image::img13.png[]
+
+It was suspected that ZEN could be light sensitive because of the occasional occurrence of the ZEN cis isomer. An accelerated stability study was performed to investigate the light sensitivity of ZEN. The stability of the ZEN stock solution was tested under three storage conditions for seven days: 4 °C in dark, 22 °C in dark and 22 °C exposed to light. The mass fraction of _cis_-ZEN was determined on day 0, 1, 2, 3, 4 and 7 by LC-MS/MS under repeatability conditions. It could be demonstrated that no ZEN isomer was formed in the ZEN stock solution when it was not exposed to light no matter if it was stored at 4 °C or 22 °C. The mass fraction of _cis_-ZEN in the ZEN stock solution increased to about 7 mg/g after seven days of light exposure. It was concluded that light should be avoided during shipment and storage. <<josephs>>
+
+On the basis of these studies it was concluded that the material was suitably stable for short-term transport provided it was not exposed to light and to temperatures significantly in excess of 22 °C. To minimize the potential for changes in the material composition, long-term storage is recommended at -20 °C in the dark.
+
+=== Homogeneity study and combined uncertainty
+
+The homogeneity study for the _trans_-ZEN stock solution is analogous to that of the calibration solution, which is reviewed in detail in <<homogeneity-study>>. The present discussion is therefore limited to a summary of the results. _Trans_-ZEN in the ten selected homogeneity samples was measured by LC-DAD (274 nm detection wavelength) and its impurities were measured by LC-MS/MS. Total ZEN was measured by UV-spectrophotometry (absorbance of ZEN related compounds at 274 nm and 314 nm).
+
+Homogeneity evaluation was done by single factor ANOVA, allowing for the separation of the variation associated with the method (stem:[s_("wb")]) from the actual variation between ampoules (stem:[s_("bb")]), which is an estimate of the uncertainty associated to batch inhomogeneity. This maximum relative standard uncertainty contribution due to inhomogeneity was 0.83 %, 1.75 %, 2.37% and 2.45% for ZEN and the three detected impurities 7'DehydroZEN, ZAN and _cis_-ZEN, respectively (<<table4>>). Homogeneity evaluation of UV-spectrophotometry measurements resulted in homogeneity-associated relative standard uncertainties of 0.49 % and 0.75 % in the total ZEN value assigned at a wavelength of 274 nm and 314 nm, respectively.
+
+[[table4]]
+[cols="<,^,^,^,^"]
+.Homogeneity results of the ZEN stock solution OGP.025 using the LC-DAD-MS/MS method.
+|===
+| | _trans_-ZEN | 7'DehydroZEN | ZAN | _cis_-ZEN
+| N | 30 | 30 | 30 | 30
+| stem:[s_("wb")] (%) | 0.50 | 4.79 | 4.02 | 4.13
+| stem:[s_("bb")] (%) | 0.83 | 1.75 | 2.37 | 2.45
+| stem:[u_("bb")**] (%) | 0.16 | 1.56 | 1.31 | 1.34
+| stem:[u_("bb")] (%)/stem:[s_("bb")] (%) footnote:[Higher value (u*~bb~ or s~bb~) was taken as uncertainty estimate for potential inhomogeneity] | *0.83* | *1.75* | *2.37* | *2.45*
+| stem:[F] | 9.43 | 1.40 | 2.04 | 2.06
+| stem:[F_(crit)] | 2.39 | 2.39 | 2.39 | 2.39
+|===
+
+The homogeneity uncertainty contribution for the main component _trans_-ZEN obtained by LC-DAD, stem:[u_("bb")], was combined with the uncertainty from the gravimetric value assignment (see stem:[u(w_("stock"))] in <<characterization-preparation>>) to produce a final estimate of the mass fraction uncertainty of the batch (<<table5>>).
+
+[[table5]]
+[cols="^,^,^,^,^"]
+.Combination of the uncertainty from the gravimetric value assignment and the uncertainty from between-ampoule homogeneity to estimate the final uncertainty of the _trans_-ZEN mass fraction in the batch of the stock solution OGP.025.
+|===
+| stem:[u(w_("stock"))_(rel)] (%) | stem:[u_("bb")] (%) | stem:[u("comb")_(rel)] (%) | stem:[w_("stock")" "mu"g/g"] | stem:[U("comb")" "mu"g/g (k=2)"]
+| 0.091 | 0.83 | 0.835 | 130.1 | 2.2
+|===
+
+[[preparation]]
+== Preparation and characterization of the zearalenone calibration solution
+
+[[prep-ampouling]]
+=== Preparation and ampouling
+
+The _trans_-ZEN calibration solution (BIPM reference: OGP.024) was prepared by gravimetric dilution of 100 mL of the stock solution with acetonitrile to a final volume of 1 L. The solution was stored at 4 °C until ampouling, which took place within 24 h of the preparation. A 500 mL bottle and 1-10 mL bottle-top dispenser (Dispensette, Brand GMBH) were rinsed twice with the calibration solution and a stainless steel flat tip syringe needle was fitted at the outlet of the dispenser to ensure that all solution is discharged at the bottom of the ampoule.
+
+10 mL glass ampoules were selected for a filling volume of 4 mL to ensure that sufficient head space remains above the liquid and therefore minimizing the risk of accidental ignition of the solvent during the sealing process. An Ampoulmatic (Bioscience Inc) system connected to propane and oxygen cylinders was used to ampoule the batch. The flow of both gases was adjusted so as to produce a bright blue flame at the neck of the ampoules.
+
+The ampoules were filled with 4 mL of OGP.025, one at a time, to minimize the impact of evaporation of acetonitrile. A refrigerant (Jelt Refroidisseur 5320) was sprayed onto the lower portion of the ampoule before being placed in the ampouling carousel to further reduce the ignition risk. After flame sealing, ampoules were allowed to cool down at room temperature in an upright position and were labelled according to the order of filling
+
+To test for possible leaks, ampoules were placed into a vacuum drying oven (Haraeus) in an upright position and vacuum (50 mbar approx.) was applied for at least 4 hours. The ampoules then remained in the sealed oven overnight, after which they were visually inspected for changes in the solution levels. Inadequately sealed ampoules were noted and discarded while the rest of the batch was stored at -20 °C.
+
+[[stability-study]]
+=== Stability study
+
+==== Study design
+
+Short-term stability studies consider the impact of temperature and time to simulate potential transport conditions and/or storage conditions. Any significant influence of light, UV-radiation, moisture, etc. is excluded provided that the storage facilities and transport/packaging conditions are appropriate.
+
+The stability study of OGP.024 followed an isochronous design <<lamberty>> with a reference temperature of -20 °C and study temperatures of 4 °C, 22 °C and 40 °C and storage in the dark. Selected sample units were transferred from study temperatures to the reference temperature every two weeks until the end of the eight-week study.
+
+The sample units were selected using a random stratified sampling scheme from each of the quartiles of the approximately 200-unit batch. The study was composed of three units at the reference temperature and twelve units at each of the study temperatures, requiring 39 samples in total (<<table6>>).
+
+[[table6]]
+[cols="<,^,^"]
+.Temperatures, time points and sample units selected for the stability study of OGP.024 (reserve samples in brackets).
+|===
+| Temperature | Time (weeks) | Units
+| -20 °C (reference temperature) | n.a. | 015,127,(074)
+.4+| 4 °C dark | 2 | 048,111,(067)
+| 4 | 023,174,(118)
+| 6 | 012,157,(100)
+| 8 | 026,163,(071)
+.4+| 22 °C dark | 2 | 004,191,(104)
+| 4 | 007,150,(080)
+| 6 | 018,182,(144)
+| 8 | 036,185,(113)
+.4+| 40 °C dark | 2 | 035,159,(115)
+| 4 | 016,189,(081)
+| 6 | 042,179,(110)
+| 8 | 010,138,(064)
+|===
+
+[[stability-study-meas]]
+==== Stability study measurements
+
+Two samples of each time point and temperature conditions were measured under repeatability conditions (same day and run) in a randomized manner using the UV spectrophotometry method for total ZEN and the LC-DAD-MS/MS for _trans_-ZEN and the related structure impurities. Ampoules were vortexed before opening and two aliquots were measured in the UV spectrophotometer and then transferred into separate injection vials to have duplicate measurements of each sample (4 measurements for each condition) by LC-DAD-MS/MS. Representative TIC and DAD chromatograms of OGP.024 samples are shown in <<fig5>>.
+
+[[fig5]]
+.DAD 274 nm chromatogram (top) and total ion chromatogram (bottom) of a representative sample of OGP.024.
+====
+image::img14.png[]
+
+image::img15.png[]
+====
+
+The three structure-related impurities found in OGP.024 were 7'-dehydroZEN, ZAN and ZEN isomer (or _cis_-ZEN). In order to quantify them by external calibration, four standard solutions covering the mass fraction range of 8.6 ng/g to 87.7 ng/g for 7'-dehydroZEN and 9.7 ng/g to 98.5 ng/g for ZAN were prepared using the respective standards (<<fig6>>). The calibration for _cis_-ZEN was based on _trans_-ZEN (16.3 ng/g to 165.2 ng/g) as standard due to the lack of the cis isomer standard material. Triplicate injections per standard level were spread over the analytical sequence. For the main component _trans_-ZEN, no calibration was performed so peak areas (measured by LC-DAD) were directly normalized to the ZEN peak areas (LC-DAD) in the reference samples. Similarly, the absorbance values of ZEN-related compounds (measured by UV spectrophotometry at 314, 274 and 235 nm) were normalized to the corresponding values in the reference samples.
+
+[[fig6]]
+.External calibration functions for the quantification of structure-related impurities 7'dehydroZEN (top), ZEN (medium) and ZEN isomer (bottom) in OGP.024.
+====
+image::img16.png[]
+
+image::img17.png[]
+
+image::img18.png[]
+====
+
+[[stability-data]]
+==== Stability data evaluation
+
+Calculated mass fraction values of impurities 7'-dehydro-ZEN, ZAN and _cis_-ZEN by LC-MS/MS, _trans_-ZEN peak area values by LC-DAD and absorbance values (UV-spectrophotometry at 235, 274 and 314 nm) were normalized to the respective average values of the reference samples (stored at -20 °C) to render results comparable. Statistical outliers were only removed in case of known technical reasons. As a first evaluation step, normalized data were plotted according to the injection sequence to discard any potential analytical drift. The slopes of the fitted regression lines were not significant (t-test) at the 95 % confidence level (<<fig7a>>-<<fig7d>>) for _trans_-ZEN, ZAN and _cis_-ZEN. A slight declining trend was detected for 7'-dehydroZEN, but the slope was considered small enough (-0.15 %) so as not to affect data evaluation.
+
+[[fig7]]
+.OGP.024 stability data analysis to identify potential trends in the analytical sequence. Data correspond to normalized mass fractions of 7'-dehydro ZEN, ZAN and _cis_-ZEN impurities (determined using LC-MS/MS) and normalized peak areas of the main compound _trans_-ZEN (measured by LC-DAD).
+====
+[[fig7a]]
+image::img19.png[]
+
+[[fig7b]]
+image::img20.png[]
+
+[[fig7c]]
+image::img21.png[]
+
+[[fig7d]]
+image::img22.png[]
+====
+
+The analytical sequence of the UV-spectrophotometry measurements for total ZEN was also evaluated for significant trends but none was found (95 % confidence level) at any of the measured wavelengths (<<fig8>>).
+
+[[fig8]]
+.OGP.024 stability data analysis to identify potential trends in the analytical sequence. Data correspond to normalized absorbance values measured at 235 nm (top), 274 nm (medium) and 314 nm (bottom).
+image::img23.png[]
+
+For each temperature, regression lines of the normalized values versus storage time were calculated. The fitted regression model was tested for overall significance (loss/increase due to storage) using an F-test (95 % confidence level). The LC-DAD-MS/MS stability results of the main component and the impurities at each of the studied temperatures are shown in <<fig9>> and <<fig10>>, respectively.
+
+[[fig9]]
+.Stability results of OGP.024 for the main compound _trans_-ZEN at the three studied temperatures. Data correspond to normalized peak areas of _trans_-ZEN measured by LC-DAD.
+image::img24.png[]
+
+[[fig10]]
+.Stability results of OGP.024 for the detected ZEN impurities at the three studied temperatures. Data correspond to normalized mass fractions of 7'-dehydro ZEN (top), ZAN (middle) and _cis_-ZEN (bottom) as determined by LC-MS/MS. Dotted lines represent stability-associated uncertainty intervals of the normalized values as a function of the storage time.
+====
+image::img25.png[]
+
+image::img26.png[]
+
+image::img27.png[]
+====
+
+At 4 °C, all studied compounds in OGP.024 were stable for 8 weeks, as evidenced by the absence of a significant trend (F-test, 95 % confidence level). At 22 °C and 40 °C the _cis_-ZEN mass fraction changed significantly compared to the reference conditions and 7'-dehydroZEN was unstable at 40 °C, as evidenced by a significant declining trend. The main component ZEN was found to be stable at all studied temperatures.
+
+The 235 nm and 274 nm UV-absorbance results reflecting total ZEN content showed a significant declining trend for 40 °C and 22 °C storage conditions (<<fig11>>). At 4 °C, no significant trend was observed in 274 nm and 314 nm measurements. Absorbance results at 235 nm indicated a slight trend (F-test, 95 % confidence level) at this temperature, but the slope of the regression line was considered negligible (-0.04 %).
+
+[[fig11]]
+.Stability results of OGP.024 for the three studied temperatures (4 °C blue, 22 °C green and 40 °C red) as determined by UV-spectrophotometry at three different wavelengths: 235 nm, 274 nm and 314 nm. Lines represent the linear regression fitting and error bars correspond to the standard deviation of the values measured for each temperature condition.
+image::img28.png[]
+
+Overall, the LC-DAD-MS/MS and UV-spectrophotometry measurement results of the OGP.024 stability samples indicated that shipment conditions should not exceed 4 °C. Long-term storage is recommended at -20 °C.
+
+==== Stability under light exposure
+
+A separate diluted ZEN solution, OGP.026a, of a concentration similar to that of OGP.024 was prepared from the stock solution OGP.025 to evaluate the stability of _trans_-ZEN and related impurities upon exposure to light for a total period of 4 weeks.
+
+The study was composed of two units at the reference temperature and six units at each of the study temperatures, requiring a total of 14 samples. For each condition, two ampoules were studied, as described in the table below:
+
+[[table7]]
+[cols="^,^,^,^"]
+.Design of the light exposure stability study for the ZEN solution OGP.026a. The batch numbers of the two ampoules tested for each storage condition are indicated.
+|===
+h| Time h| -20 °C (reference) h| 4 °C h| 22 °C and light
+h| 0 week | OGP.026a 006 and 054 | --- | ---
+h| 1 week | --- | OGP.026a 028 and 048 | OGP.026a 009 and 058
+h| 2 weeks | --- | OGP.026a 007 and 037 | OGP.026a 031 and 046
+h| 4 weeks | --- | OGP.026a 024 and 056 | OGP.026a 021 and 038
+|===
+
+_trans_-ZEN and its main impurities 7'-dehydroZEN, ZAN and _cis_-ZEN were quantified in the study ampoules of OGP.026a as described in <<stability-study-meas>> by LC-DAD and LC-MS/MS, respectively. Data evaluation was similar to the OGP.025 stability study described in <<stability-data>>. Briefly, for each temperature, regression lines of the normalized values versus storage time were calculated. The fitted regression model was tested for overall significance (loss/increase due to storage) using an F-test (95 % confidence level). The LC-DAD and LC-MS/MS stability results of the main component and the impurities at each of the studied conditions are shown in <<fig12>> and <<fig13>>, respectively.
+
+[[fig12]]
+.Stability results of OGP.026a for the two studied conditions: 4 °C in the dark and 22 °C under light. Data correspond to normalized mass fractions of ZEN as determined by LC-DAD (274 nm). Dotted lines represent stability-associated uncertainty intervals of the normalized values as a function of the storage time.
+image::img29.png[]
+
+[[fig13]]
+.Stability results of OGP.026a for the two studied conditions: 4 °C in the dark and 22 °C under light. Data correspond to normalized mass fractions of ZEN impurities as determined by LC-MS/MS. Dotted lines represent stability-associated uncertainty intervals of the normalized values as a function of the storage time.
+====
+image::img30.png[]
+
+image::img31.png[]
+
+image::img32.png[]
+====
+
+Under light exposure, _trans_-ZEN and 7'-dehydroZEN mass fractions experienced a significant decrease while _cis_-ZEN mass fraction increased dramatically during the 4-week period. Based on these results, it was concluded that ZEN calibration solutions should be protected from light during transport and storage.
+
+[[homogeneity-study]]
+=== Homogeneity study
+
+==== Study design
+
+Homogeneity between ampoules was evaluated to ensure that the assigned value of the calibration solution was valid for all units of the material, within the stated uncertainty. It was therefore necessary to determine this between-unit variation and incorporate it in a combined uncertainty estimate.
+
+Ten ampoules were selected from the OGP.024 batch following a randomly stratified sampling scheme. They were measured under repeatability conditions using UV-spectrophotometry for ZEN-related compound mass fractions, LC-DAD for ZEN and LC-MS/MS for the structure-related impurities 7'-dehydroZEN, ZAN and ZEN isomer (or _cis_-ZEN).
+
+==== Homogeneity study measurements
+
+The selected ampoules were allowed to equilibrate at room temperature and were vortexed before opening. They were analysed in a random order to ensure that any trends in the ampouling process could be distinguished from potential trends in the analytical sequence.
+
+Three aliquots per ampoule were measured consecutively by UV-spectrophotometry using the fixed wavelength method at 235, 274 and 314 nm. Triplicate measurements of each aliquot gave rise to a total of nine measurements per ampoule and wavelength. The aliquots were transferred into glass injection vials for LC-DAD-MS/MS analysis.
+
+==== Homogeneity data evaluation
+
+Absorbance and peak area values were normalized with respect to the average result for each of the studied compounds. Statistical outliers were only removed in case of known technical reasons. Linear regression functions were calculated for the normalized values arranged in ampouling and analysis order. The slopes of the lines were tested for significance at a 95 % confidence level to discard the presence of trends. <<fig14>> shows the 235 nm UV-absorbance measurements displayed according to the order of analysis and of ampouling. No significant trends were found in the analytical sequences at the three studied wavelengths (274 nm and 314 nm results not shown).
+
+[[fig14]]
+.Homogeneity results of OGP.024 as determined by UV-spectrophotometry at 235 nm plotted according to the analysis (top) and ampouling (bottom) order.
+image::img33.png[]
+
+Homogeneity samples results for the main compound _trans_-ZEN and related impurities 7'-dehydroZEN, ZAN and _cis_-ZEN obtained by LC-DAD-MS/MS are shown in <<fig15>> as normalized peak areas. Minor trends were observed for the injection sequences of _trans_-ZEN and _cis_-ZEN (not shown), which increase slightly the variability of measurement results and it is therefore reflected in the estimated uncertainty for homogeneity. No significant trends were observed for the injection sequences of all other compounds measured.
+
+[[fig15]]
+.Homogeneity results of OGP.024 calibration solution as determined by LC-DAD (274 nm) for _trans_-ZEN and by LC-MS/MS for related impurities 7'dehydroZEN, ZAN and _cis_-ZEN.
+image::img34.png[]
+
+Quantification of between-unit heterogeneity was undertaken by analysis of variance (ANOVA), which allows for the separation of the variation between ampoules (stem:[s_("bb")]) from that associated with the method repeatability (stem:[s_("wb")]). These variances are calculated as follows: <<linsinger>>
+
+[[eq3]]
+[stem]
+++++
+S_("bb")^2 = (MS_(btw)-MS_(with))/n
+++++
+
+[[eq4]]
+[stem]
+++++
+S_("wb")^2 = MS_(with)
+++++
+
+where stem:[MS_(btw)] and stem:[MS_(with)] are the mean sums of squares between- and within-units obtained by the ANOVA evaluation and stem:[n] is the number of replicates per ampoule (stem:[n=3]).
+
+The standard deviation between the sample units is used as the estimator for the between-units variability. The measurement variation sets a lower limit to this estimator reflected in stem:[MS_(btw)] being smaller than stem:[MS_(with)]. This does not imply that the material is perfectly homogeneous, but only shows that the study set-up was not adequate to detect evidence of heterogeneity. In this case, the maximum heterogeneity that could be hidden by the intrinsic variability of the method, stem:[u_("bb")**], is calculated according to the equation below: <<linsinger>>
+
+[[eq5]]
+[stem]
+++++
+u_("bb")** = sqrt((MS_w)/n) * root(4)(2/(p(n-1)))
+++++
+
+where stem:[p] is the number of measured ampoules (stem:[p=10]) and stem:[n] is the number of measurement replicates per ampoule (stem:[n=3]).
+
+The final uncertainty from homogeneity (stem:[u_("bb")]) is estimated as stem:[s_("bb")] or stem:[u_("bb")**], depending on which of these is larger. This uncertainty is presented in <<table8>> for every measured compound using the LC-DAD-MS/MS method and the UV-spectrophotometric method. The F-test at the 95 % confidence level did not detect significant differences between ampoules for any of the studied compounds. Therefore, the ZEN calibration solution OGP.024 can be regarded as homogeneous.
+
+[[table8]]
+.Homogeneity uncertainty results of OGP.024 from data generated by UV-spectrophotometry (235 nm, 274 nm and 314 nm) and by LC-DAD (274 nm) for _trans_-ZEN and LC-MS/MS for related structure impurities.
+|===
+| | UV-235nm | UV-274nm | UV-314nm | _trans_-ZEN | 7'-dehydroZEN | ZAN | _cis_-ZEN
+| N (df) | 29 | 29 | 29 | 29 | 29 | 29 | 29
+| stem:[s_("wb")] (%) | 0.62 | 0.80 | 1.11 | 0.46 | 3.86 | 4.61 | 5.85
+| stem:[s_("bb")] (%) | 0.27 | 0.41 | 0.55 | 0.17 | 1.63 | - footnote:[Not calculable because MS~btw~ < MS~with~] | 3.65
+| stem:[u_("bb")**] (%) | 0.20 | 0.26 | 0.36 | 0.15 | 1.25 | 1.50 | 1.90
+| stem:[u_("bb")] (%) or stem:[s_("bb")] (%) footnote:[Higher value (u~bb~* or s~bb~) was taken as uncertainty estimate for potential inhomogeneity] | 0.27 | 0.41 | 0.55 | 0.17 | 1.63 | 1.50 | 3.65
+| stem:[F] | 1.58 | 1.77 | 1.74 | 1.39 | 1.54 | 0.44 | 2.17
+| stem:[F_(crit)] | 2.39 | 2.39 | 2.39 | 2.39 | 2.39 | 2.39 | 2.39
+|===
+
+[[mass-fr-assignment]]
+=== Mass fraction value assignment and uncertainty
+
+The preparation of the calibration solution and the mass fraction assignment, stem:[w_(cal)], are shown in <<table9>>. Mettler Toledo balances AX504 and XP~1~0002S were used for mass determinations.
+
+[[table9]]
+.Experimental data corresponding to the preparation of the ZEN calibration solution and the calculated mass fraction.
+|===
+4+^h| _trans_-Zearalenone calibration solution preparation
+| h| Weighed mass (stem:[m]) h| Buoyancy (stem:[b]) h| stem:[m xx b]
+
+h| ZEN stock sol. (mg) | 77.694 | 1.001386 | 77.802
+h| Calibration sol. (g) | 778.13 | 1.001386 | 779.209
+h| stem:[w("stock") +- u" "(mu"g/g")] | 130.08 ± 0.12 footnote:[The standard uncertainty of the stock solution mass fraction does not include any homogeneity contribution since the bulk stock solution (prior to ampouling) was used as source material (see <<table3>>).] | |
+h| stem:[w_(cal)" "(mu"g/g")] | 12.988 | |
+|===
+
+The ZEN mass fraction of OGP.024, calculated according to <<eq6>>, was stem:[12.988" "mu"g/g"]. The associated uncertainty was calculated by considering the input quantities and related uncertainties represented in the Ishikawa diagram of <<fig16>>.
+
+[[eq6]]
+[stem]
+++++
+w_(cal) = (m_("stock")*b_("stock")*w_("stock"))/(m_"sol"*b_"sol")
+++++
+
+Where:
+
+stem:[m_("stock")]:: weighed mass of ZEN stock solution
+stem:[b_("stock")]:: buoyancy correction of stock solution weighing
+stem:[w_("stock")]:: ZEN mass fraction of the stock solution
+stem:[m_("sol")]:: weighed mass of calibration solution OGP.024
+stem:[b_("sol")]:: buoyancy correction of calibration solution weighing
+
+[[fig16]]
+.Ishikawa diagram indicating the input quantities contributing to the final uncertainty of the _trans_-ZEN mass fraction of the calibration solution OGP.024.
+image::img35.png[]
+
+The standard uncertainties of the input quantities of <<fig16>> were combined (<<eq7>>) to produce the uncertainty of the calibration solution mass fraction, stem:[u(w_(cal))] (<<table10>>). The uncertainty of the stock solution already comprises the purity of the source material and the weighing operations, as described in <<characterization-preparation>>. The evaporation uncertainty, stem:[u(V)], accounts for potential solvent losses during the weighing of the stock solution and of the final solution. The buoyancy mass correction and its uncertainty were calculated as described by Reichmuth _et al._ <<reichmuth>>
+
+[[eq7]]
+[stem]
+++++
+u(w_(cal)) = w_(cal) * sqrt([(u(m_("stock")))/m_("stock")]^2 + [(u(b_("stock")))/b_("stock")]^2 + [(u(w_("stock")))/w_("stock")]^2 + [(u(m_(sol)))/m_(sol)]^2 + [(u(b_(sol)))/b_(sol)]^2 + 2*[(u(V))/V]^2)
+++++
+
+[[table10]]
+.Individual uncertainty components contributing to the final combined uncertainty of OGP.024 mass fraction.
+|===
+| Unc. source | stem:[(u(m_("stock")))/m_("stock")] | stem:[(u(b_("stock")))/b_("stock")] | stem:[(u(w_("stock")))/w_("stock")] | stem:[(u(m_(sol)))/m_(sol)] | stem:[(u(b_(sol)))/b_(sol)] | stem:[(u(V))/V] | stem:[u_(rel)] (%) | stem:[u(w_(cal))" "mu"g/g"] | stem:[U(w_(cal))" "mu"g/g (k=2)"]
+| Value (%) | 0.00044 | 0.0012 | 0.091 | 0.0028 | 0.0012 | 0.005 | 0.091 | 0.0118 | *0.024*
+|===
+
+
+The uncertainty stem:[u(w_(cal))] corresponding to the gravimetric value assignment was combined with the homogeneity uncertainty contribution for the main component _trans_-ZEN, stem:[u_("bb") = 0.17 %] (<<table8>>, <<homogeneity-study>>) to produce a final estimate of the mass fraction uncertainty of the batch (<<table11>>).
+
+[[table11]]
+[cols="^,^,^,^,^"]
+.Combination of the uncertainty from the gravimetric value assignment and the uncertainty from between-ampoule homogeneity to estimate the final uncertainty of the _trans_-ZEN mass fraction in the batch of the calibration solution OGP.024. 
+|===
+| stem:[u(w_(cal))_(rel)] (%) | stem:[u_("bb")] (%) | stem:[u(comb)_(rel)] (%) | stem:[w_(cal)" "mu"g/g"] | stem:[U(comb)" "mu"g/g "(k = 2)]
+| 0.0909 | 0.168 | 0.191 | 12.988 | 0.050
+|===
+
+The zearalenone mass fraction value and associated expanded uncertainty (stem:[k=2]) of the calibration solution batch OGP.024 was stem:[12.988 +- 0.050" "mu"g/g"].
+
+=== Mass fraction value verification by analytical methods
+
+The _trans_-ZEN mass fraction value assigned gravimetrically to the calibration solution OGP.024 was verified by an independent analytical method to gain additional confidence in the certified value. The LC-DAD-MS/MS method described in <<methods>> was used for this purpose. Ideally, a different ZEN calibrant of certified purity should be used for calibration so that results are completely independent. In the absence of such calibrant, a partially independent calibration solution was prepared from the same original source material (OGO.178).
+
+<<fig17>> shows the mass fraction value verification of an ampoule of OGP.024 material. The value assigned gravimetrically (<<mass-fr-assignment>>) was compared to the analytical values obtained using the LC-DAD (274 nm detection) and LC-MS/MS method calibrated externally with a semi-independent ZEN standard. The agreement between the pairs of methods values is conveniently assessed using the degrees of equivalence (DoE):
+
+[[eq8]]
+[stem]
+++++
+DoW = w(cal)_(meth) - w(cal)_(grav)
+++++
+
+where stem:[w(cal)_(meth)] and stem:[w(cal)_(grav)] are the mass fractions calculated using the analytical and the gravimetric methods, respectively.
+
+The standard uncertainties of the gravimetric (including the homogeneity component) and analytical values add in quadrature to yield the combined uncertainty of the DoE value. The expanded uncertainty bars (stem:[k = 2]) crossing zero indicate the agreement of the analytical measurements (LC-DAD or LC-MS/MS) with the gravimetrically assigned value, taking into account the uncertainty associated with each value, at an approximately 95 % confidence level.
+
+[[fig17]]
+.Degrees of equivalence (DoE) plot between the gravimetrically assigned value of OGP.024 and the analytical values obtained by LC-DAD and LC-MS/MS methods respectively. Error bars represent expanded uncertainties of the DoE values (stem:[k=2]).
+image::img36.png[]
+
+== Acknowledgements
+
+The chromatography and mass spectrometry methods used in this study were developed by the co-author of this document, Xiuqin Li, in the course of her secondment at the BIPM. The ZEN stability study under light exposure was carried out by Eliane Rego (INMETRO) and Mariano Simon (INTI) during their CBKT secondment at the BIPM. The support of the parent institutions in making them available for secondment to the BIPM is gratefully acknowledged.
+
+[bibliography]
+== References
+
+* [[[bipm_cbkt,1]]], _BIPM CBKT programme: Safe Food and Feed in Developing Economies._
+
+* [[[whitlow,2]]], Whitlow, L and Hagler, W. _Nutritional Biotechnology in the feed and food industries. Proceedings of All tech's. 20th Annual Symposium: re-imagining the feed industry._ Lexington, Kentucky, USA. : s.n., 23-26 May 2004.
+
+* [[[omotayo,3]]], Omotayo, Oluwadara Pelumi et al. _Prevalence of mycotoxins and their consequences on human health._ 2019. pp. 1-7. Vol. 35.
+
+* [[[westwood,4]]], https://www.bipm.org/utils/common/pdf/rapportBIPM/RapportBIPM-2019-06.pdf[Westwood, S. _Purity Evaluation Guideline: Zearalenone. BIPM-PEG-01. Rapport BIPM-2019/06._ Sèvres (France) : Bureau International des Poids et Mesures, 2019.]
+
+* [[[crc,5]]], _CRC Handbook of Chemistry and Physics, 97th ed._
+
+* [[[oneil,6]]], O'Neil MJ, Smith A, Heckelman PE, Budavari S. _The Merck Index._ 13th ed. s.l. : Whitehouse Station, NJ: Merck & Co, 2001.
+
+* [[[krska,7]]], Krska, Rudolf, Welzig, Elvira et al. _Purity Assessment of Crystalline Zearalenone_ . s.l. : J. AOAC Intl., 2003.
+
+* [[[reichmuth,8]]], Reichmuth A, Wunderli S, Weber , Meyer R. _The Uncertainty of weighing data obtained with electronic analytical balances._ s.l. : Microchim. Acta, 2004. pp. 133-141. Vol. 148.
+
+* [[[josephs,9]]], Josephs, RD. CCQM-154a / K154a.1 Key Comparison (draft B) report. _Gravimetric preparation and value assignment of _trans_-zearalenone (ZEN) in acetonitrile (ACN)._ Sèvres (France) : Bureau International des Poids et Mesures, 2020.
+
+* [[[lamberty,10]]], Lamberty A, Shimmel H, Pauwels J. _The study of stability of reference materials by isochronous measurements._ s.l. : Fresenius J Anal Chem., 1998. pp. 359-361. Vol. 360.
+
+* [[[linsinger,11]]], Linsinger TPJ, Powels J, van der Veen AMH, Schimmel H, Lamberty A. _Homogeneity and stability of reference materials._ s.l. : Accred Qual Assur., 2001. pp. 20-25. Vol. 6.
