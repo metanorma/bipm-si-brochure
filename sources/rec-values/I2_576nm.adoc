@@ -1,0 +1,138 @@
+= MEP 2003
+:appendix: 2
+:partnumber: 1
+:edition: 9
+:copyright-year: 2019
+:language: en
+:docnumber: 
+:title-en: 
+:title-fr: 
+:doctype: guide
+:parent-document: si-brochure.adoc
+:committee-acronym: CCTF
+:committee-en: Consultative Committee for Time and Frequency
+:docstage: in-force
+:confirmed-date:
+:revdate:
+:docsubstage: 60
+:imagesdir: images
+:mn-document-class: bipm
+:mn-output-extensions: xml,html,pdf,rxl
+:local-cache-only:
+:data-uri-image:
+
+== Iodine (stem:[lambda ~~ 576 nm])
+
+*Absorbing molecule ^127^I~2~, a~1~ component, P(62) 17-1 transition* footnote:[All transitions in I~2~ refer to the B^3^Π 0~u~^\+^ – X^1^ Σ~g~^+^ system.]
+
+=== CIPM recommended values
+
+[align=left]
+The values:: stem:[f = 520" "206" "808.4" MHz"] +
+stem:[lambda = 576" "294" "760.4" fm"]
+
+with a relative standard uncertainty of stem:[4 xx 10^(−10)] apply to the radiation of a dye laser (or frequency-doubled He-Ne laser) stabilized with an iodine cell, within or external to the laser, having a cold-finger temperature of stem:[(6 +- 2)" °C"] footnote:[For the specification of operating conditions, such as temperature, modulation width and laser power, the symbols ± refer to a tolerance, not an uncertainty.].
+
+=== Source data
+
+[align=left]
+Adopted value:: stem:[f = 520" "206" "808.4" (2) MHz"] +
+stem:[u_c//y = 4 xx 10^(-10)]
+
+[align=left]
+for which:: stem:[lambda = 576" "294" "760.4" (2) fm"] +
+stem:[u_c//y = 4 xx 10^(-10)]
+
+calculated from::
+
+[%unnumbered]
+|===
+| stem:[f // "kHz"] | stem:[u_c//y] | source data
+| 520 206 808 491 | stem:[1.5 xx 10^(−10)] | <<sec2-1>>
+| 520 206 808 280 | stem:[1 xx 10^(−10)] | <<sec2-2>>
+3+a| Unweighted mean:: stem:[f = 520" "206" "808" "388" kHz"]
+|===
+
+With this mean based on only two determinations, the CCL considered it prudent to assume an estimated relative standard uncertainty of stem:[4 xx 10^(-10)], closely equivalent to the difference between the two values.
+
+Source data
+
+[[sec2-1]]
+==== {blank}
+
+Reference <<ccdm82-30>> gives:: stem:[f_(a1) = 520" "206" "808" "547" kHz"] +
+stem:[u_c // y = 1.5 xx 10^(−10)],
+
+reduced by 12 kHz at the request of the NBS delegate at the CCDM meeting in 1982 <<doc-metre>>, <<bipm-metre>>. This value has been multiplied by the ratio (88 376 181 600.5/88 376 181 608) to account for the 1992 reference value of the methane frequency (see methane at stem:[lambda ~~ 3.39" "mu"m"], unresolved hyperfine structure) giving:
+
+[align=left]
+stem:[f_(a1) = 520" "206" "808" "491" kHz"] +
+stem:[u_c//y = 1.5 xx 10^(−10)].
+
+[[sec2-2]]
+==== {blank}
+
+[align=left]
+Barwood et al. <<barwood>> give:: stem:[f_(a1) // f_i = 1.098" "381" "317" "29] +
+stem:[u_c//y = 1 xx 10^(−10)].
+
+Using the recommended value of the absorbing molecule ^127^I~2~, stem:[a_(16)] or f component, R(127) 11-5 transition (see iodine at stem:[lambda ~~ 633" nm"] and frequency differences listed in corresponding <<table1>>) one obtains
+
+[align=left]
+stem:[f_i = 473" "612" "214" "712" kHz"] +
+stem:[u_c//y = 2.2 xx 10^(−11)],
+
+one calculates
+
+[align=left]
+stem:[f_(a1) = 520" "206" "808" "280" kHz"] +
+stem:[u_c//y = 1 xx 10^(−10)].
+
+=== Absolute frequency of the other transitions related to those adopted as recommended and frequency intervals between transitions and hyperfine components
+
+This table replaces that published in BIPM Com. Cons. Long., 2001, *10*, 183 and Metrologia, 2003, *40*, 127.
+
+The notation for the transitions and the components is that used in the source references. The values adopted for the frequency intervals are the weighted means of the values given in the references.
+
+For the uncertainties, account has been taken of:
+
+* the uncertainties given by the authors;
+* the spread in the different determinations of a single component;
+* the effect of any perturbing components;
+* the difference between the calculated and the measured values.
+
+In the tables, uc represents the estimated combined standard uncertainty (stem:[1 sigma]).
+
+All transitions in molecular iodine refer to the B-X system.
+
+[[table1]]
+|===
+8+^.^| stem:[lambda ~~ 576" nm"] ^127^I~2~ P(62) 17-1
+| stem:[a_n] | stem:[x] | stem:[[f (a_n) – f (a_1)\]//"MHz"] | stem:[u_c//"MHz"] | stem:[a_n] | stem:[x] | stem:[[f (a_n) – f (a_1))\]//"MHz"] | stem:[u_c//"MHz"]
+
+| stem:[a_1] | o | 0 | - | stem:[a_7] | I | 428.51 | 0.02
+| stem:[a_2] | n | 275.03 | 0.02 | stem:[a_8] | H | 440.17 | 0.02
+| stem:[a_3] | m | 287.05 | 0.02 | stem:[a_9] | G | 452.30 | 0.02
+| stem:[a_4] | l | 292.57 | 0.02 | stem:[a_(10)] | F | 579.43 | 0.03
+| stem:[a_5] | k | 304.26 | 0.02 | stem:[a_(15)] | A | 869.53 | 0.03
+| stem:[a_6] | j | 416.67 | 0.02 | | | |
+8+a| Frequency referenced to::
+stem:[a_1], P(62) 17-1, ^127^I~2~: stem:[f = 520" "206" "808.4" MHz"] <<ci2002>>
+|===
+Ref. <<barwood>>, <<baird>>
+
+
+[bibliography]
+=== References
+
+* [[[ccdm82-30,1]]], CCDM/82-30, NBS Measurement of Frequencies in the Visible and near I.R.
+
+* [[[doc-metre,2]]], Documents Concerning the New Definition of the Metre, _Metrologia_, 1984, *19*, 163-178.
+
+* [[[bipm-metre,3]]], _BIPM Com. Cons. Déf. Mètre_, 1982, *7*, M 130–131.
+
+* [[[barwood,4]]], Barwood G.P., Rowley W.R.C., Characteristics of a ^127^I~2~-Stabilized Dye Laser at 576 nm, _Metrologia_, 1984, *20*, 19-23.
+
+* [[[ci2002,5]]], Recommendation CCL3 (_BIPM Com. Cons. Long._, 10th Meeting, 2001) adopted by the Comité International des Poids et Mesures at its 91th Meeting as Recommendation 1 (CI-2002).
+
+* [[[baird,6]]], Baird K.M., Evenson K.M., Hanes G.R., Jennings D.A., Petersen F.R., Extension of absolute-frequency measurements to the visible: frequencies of ten hyperfine components of iodine, _Opt. Lett._, 1979, *4*, 263-264.

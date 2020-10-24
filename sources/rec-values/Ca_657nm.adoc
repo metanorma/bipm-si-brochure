@@ -1,0 +1,68 @@
+= MEP 2005
+:appendix: 2
+:partnumber: 1
+:edition: 9
+:copyright-year: 2019
+:language: en
+:docnumber: 
+:title-en: 
+:title-fr: 
+:doctype: guide
+:parent-document: si-brochure.adoc
+:committee-acronym: CCTF
+:committee-en: Consultative Committee for Time and Frequency
+:docstage: in-force
+:confirmed-date:
+:revdate:
+:docsubstage: 60
+:imagesdir: images
+:mn-document-class: bipm
+:mn-output-extensions: xml,html,pdf,rxl
+:local-cache-only:
+:data-uri-image:
+
+== Calcium (stem:[lambda ~~ 657 nm])
+
+*Absorbing atom ^40^Ca, ^1^S~0~ – ^3^P~1~; stem:[Delta m_"J" = "0 transition"]*
+
+=== CIPM recommended values
+
+[align=left]
+The values:: stem:[f = 455" "986" "240" "494" "140" Hz"] +
+stem:[lambda = 657" "459" "439.291" "683" fm"]
+
+with a relative standard uncertainty of stem:[1.8 xx 10^(−14)] apply to the radiation of a laser stabilized to Ca atoms. The values correspond to the mean frequency of the two recoil-split components for atoms which are effectively stationary, i.e. the values are corrected for the second-order Doppler shift.
+
+
+=== Source data
+
+[align=left]
+Adopted value:: stem:[f = 455" "986" "240" "494" "140" "(8)" Hz"] +
+stem:[u_c//y = 1.8 xx 10^(-14)]
+
+[align=left]
+for which:: stem:[lambda = 657" "459" "439.291" "683" "(12)" fm"] +
+stem:[u_c//y = 1.8 xx 10^(-14)]
+
+calculated from::
+
+[cols="^,^,^"]
+[%unnumbered]
+|===
+| _f_ / Hz | stem:[u_c//y] | source data
+| 455 986 240 494 144 | stem:[1.2 xx 10^(−14)] | <<degenhardt>>
+| 455 986 240 494 135.8 | stem:[7.5 xx 10^(−15)] | <<wilpers2006>>, <<wilpers2007>>
+3+a| Unweighted mean:: stem:[f = 455" "986" "240" "494" "140" Hz"] |
+|===
+
+The CCL decided to adopt the unweighted mean of the two values, with an uncertainty of 8 Hz, equal to the difference between the values.
+
+
+[bibliography]
+=== References
+
+* [[[degenhardt,1]]], Degenhardt C., Stoehr H., Lisdat Ch., Wilpers G., Schnatz H., Lipphardt B., Nazarova T., Pottie P.-E., Sterr U., Helmcke J., Riehle F., Calcium Optical Frequency Standard with Ultracold Atoms: Approaching 10-15 Relative Uncertainty, _Phys. Rev. A_, *72*, 062111/1-17, 2005.
+
+* [[[wilpers2006,2]]], Wilpers G., Oates C. W., Hollberg L., Improved Uncertainty Budget for Optical Frequency Measurements with Microkelvin Neutral Atoms: Results for a High-Stability ^40^Ca Optical Frequency Standard, _Appl. Phys. B_ *85*, pp. 31-44, 2006.
+
+* [[[wilpers2007,3]]], Wilpers G., Oates C. W., Diddams S. A., Bartels A., Fortier T M., Oskay W. H., Bergquist J. C., Jefferts S. R., Heavner T. P., Parker T. E., Hollberg L., Absolute Frequency Measurement of the Neutral ^40^Ca Optical Frequency Standard at 657 nm based on Microkelvin Atoms, _Metrologia_, *44*, pp. 146-151, 2007.

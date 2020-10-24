@@ -1,0 +1,352 @@
+= MEP 3
+:appendix: 2
+:partnumber: 1
+:edition: 9
+:copyright-year: 2019
+:language: en
+:docnumber: 
+:title-en: 
+:title-fr: 
+:doctype: guide
+:parent-document: si-brochure.adoc
+:committee-acronym: CCTF
+:committee-en: Consultative Committee for Time and Frequency
+:docstage: in-force
+:confirmed-date:
+:revdate:
+:docsubstage: 60
+:imagesdir: images
+:mn-document-class: bipm
+:mn-output-extensions: xml,html,pdf,rxl
+:local-cache-only:
+:data-uri-image:
+
+== Iodine (stem:[lambda ~~ 612" nm"])
+
+*Absorbing molecule ^127^I~2~, a~7~ component, R(47) 9-2 transition* footnote:[All transitions in I~2~ refer to the B^3^Π 0~u~^\+^ – X^1^ Σ~g~^+^ system.]
+
+=== CIPM recommended values
+
+[align=left]
+The values:: stem:[f = 489" "880" "354.9" MHz"] +
+stem:[lambda = 611" "970" "770.0" fm"]
+
+with a relative standard uncertainty of stem:[3 xx 10^(−10)] apply to the radiation of a He-Ne laser stabilized with an iodine cell, within or external to the laser, having a cold-finger temperature of stem:[(–5 +- 2)" °C"] footnote:[For the specification of operating conditions, such as temperature, modulation width and laser power, the symbols ± refer to a tolerance, not an uncertainty.].
+
+=== Source data
+
+[align=left]
+Adopted value:: stem:[f = 489" "880" "354.93" "(15)" MHz"] +
+stem:[u_c//y = 3.0 xx 10^(-10)] +
+
+[align=left]
+for which:: stem:[lambda = 611" "970" "769.97" "(18)" fm"] +
+stem:[u_c//y = 3.0 xx 10^(-10)]
+
+calculated from::
+
+[%unnumbered]
+|===
+| stem:[f // "kHz"] | stem:[u_c//y] | source data
+| 489 880 354 979 | stem:[1 xx 10^(−10)] | <<sec2-1>>
+| 489 880 354 728 | stem:[2.1 xx 10^(−10)] | <<sec2-2>>
+| 489 880 355 026 | stem:[8.3 xx 10^(−11)] | <<sec2-3>>
+| 489 880 355 062 | stem:[3.0 xx 10^(−10)] | <<sec2-4>>
+| 489 880 358 850 | stem:[8.5 xx 10^(−11)] | <<sec2-5>>
+3+a| Unweighted mean:: stem:[f = 489" "880" "354" "929" kHz"]
+|===
+
+Other available values having relative uncertainties higher than stem:[3.0 xx 10^(−10)] have not been used. The relative standard uncertainty calculated from the dispersion of the six values is stem:[2.8 xx 10^(−10)] , which the CCL preferred to round up to stem:[3.0 xx 10^(-10)].
+
+Source data
+
+[[sec2-1]]
+==== {blank}
+
+[align=left]
+Reference <<ccdm82-34>> gives:: stem:[f_(a7) // f_i = 1.034" "349" "072" "43] +
+stem:[u_c//y = 1 xx 10^(−10)].
+
+Using the recommended value of the absorbing molecule ^127^I~2~, a~16~ or f component, R(127) 11-5 transition (see iodine at stem:[lambda ~~ 633" nm"] and frequency differences listed in corresponding <<table1>>) one obtains
+
+[align=left]
+stem:[f_i = 473" "612" "214" "712" kHz"] +
+stem:[u_c//y = 2.2 xx 10^(−11)],
+
+one calculates
+
+[align=left]
+stem:[f_(a7) = 489" "880" "354" "979" kHz"] +
+stem:[u_c//y = 1 xx 10^(−10)].
+
+[[sec2-2]]
+==== {blank}
+
+[align=left]
+Reference <<ccdm82-19a>> gives:: stem:[f_(a7) // f_i = 1.034" "349" "071" "90] +
+stem:[u_c//y = 2.1 xx 10^(−10)].
+
+Using the recommended value of the absorbing molecule ^127^I~2~, a~16~ or f component, R(127) 11-5 transition (see iodine at stem:[lambda ~~ 633" nm"] and frequency differences listed in corresponding <<table1>>) one obtains
+
+[align=left]
+stem:[f_i = 473" "612" "214" "712" kHz"] +
+stem:[u_c//y = 2.2 xx 10^(−11)],
+
+one calculates
+
+[align=left]
+stem:[f_(a7) = 489" "880" "354" "728" kHz"] +
+stem:[u_c//y = 2.1 xx 10^(−10)].
+
+[[sec2-3]]
+==== {blank}
+
+[align=left]
+Bönsch et al. <<bonsch>> give:: stem:[lambda_(b15)//lambda_i = 0.966" "791" "921" "43] +
+stem:[u_c//y = 8 xx 10^(−11)].
+
+Using the recommended value of the absorbing molecule ^127^I~2~, a~16~ or f component, R(127) 11-5 transition (see iodine at stem:[lambda ~~ 633" nm"] and frequency differences listed in corresponding <<table1>>) one obtains
+
+[align=left]
+stem:[f_i = 473" "612" "214" "712" kHz"] +
+stem:[u_c//y = 2.2 xx 10^(−11)],
+
+one calculates
+
+[align=left]
+stem:[f_(b15) = 489" "880" "194" "708" kHz"] +
+stem:[u_c//y = 8.3 xx 10^(−11)].
+
+[align=left]
+From the measured value (see <<table4>> below) +
+stem:[f_(b15) – f_(a7) = –160" "318" kHz"] +
+stem:[u_c = 3" kHz"]
+
+one calculates
+
+[align=left]
+stem:[f_(a7) = 489" "880" "355" "026" kHz"] +
+stem:[u_c//y = 8.3 xx 10^(−11)].
+
+[[sec2-4]]
+==== {blank}
+
+[align=left]
+Vitushkin et al. <<vitushkin>> give:: stem:[lambda_d // lambda_(a7) = 1.034" "348" "712] +
+stem:[u_c//y = 3 xx 10^(−10)].
+
+Using the recommended value of the absorbing molecule ^127^I~2~, a~16~ or f component, R(127) 11-5 transition (see iodine at stem:[lambda ~~ 633" nm"] and frequency differences listed in corresponding <<table1>>) one obtains
+
+[align=left]
+stem:[f_d = 473" "612" "379" "828" kHz"] +
+stem:[u_c//y = 2.2 xx 10^(−11)],
+
+one calculates
+
+[align=left]
+stem:[f_(a7) = 489" "880" "355" "062" kHz"] +
+stem:[u_c//y = 3.0 xx 10^(−10)].
+
+[[sec2-5]]
+==== {blank}
+
+[align=left]
+Himbert et al. <<himbert>> give:: stem:[f_(a13) = 489" "880" "604" "541" kHz"] +
+stem:[u_c = 88" kHz"].
+
+This value is a result of the frequency ratio stem:[f_(a13)//f_e], to which the recommended value adopted by the CIPM in 1983 <<bipm1983>>, <<docs-metre>> was applied, i.e. stem:[f_i = 473" "612" "214.8" MHz"]. (see iodine at stem:[lambda ~~ 633" nm"] and frequency differences listed in corresponding <<table1>>)
+
+[align=left]
+stem:[f_e – f_i = 152" "255" kHz"] +
+stem:[u_c = 5" kHz"],
+
+one obtains
+
+stem:[f_e = 473" "612" "367" "055" kHz"],
+
+and hence
+
+[align=left]
+stem:[f_(a13) // f_e = 1.034" "349" "267] +
+stem:[u_c//y = 8 xx 10^(−11)].
+
+Using the recommended value of the absorbing molecule ^127^I~2~, a~16~ or f component, R(127) 11-5 transition (see iodine at stem:[lambda ~~ 633" nm"] and frequency differences listed in corresponding <<table1>>) one obtains
+
+[align=left]
+stem:[f_e = 473" "612" "366" "967" kHz"] +
+stem:[u_c//y = 2.2 xx 10^(−11)],
+
+one calculates
+
+[align=left]
+stem:[f_(a13) = 489" "880" "604" "450] +
+stem:[u_c//y = 8.3 xx 10^(−11)].
+
+[align=left]
+Knowing the frequency difference (see <<table1>>) +
+stem:[f_(a7) – f_(a13) = –249" "600" kHz"] +
+stem:[u_c = 10" kHz"], 
+
+one obtains
+
+[align=left]
+stem:[f_(a7) = 489" "880" "354" "850] +
+stem:[u_c//y = 8.5 xx 10^(−11)].
+
+
+=== Absolute frequency of the other transitions related to those adopted as recommended and frequency intervals between transitions and hyperfine components
+
+These tables replace those published in BIPM Com. Cons. Long., 2001, *10*, 184-187 and Metrologia, 2003, *40*, 127-128.
+
+The notation for the transitions and the components is that used in the source references. The values adopted for the frequency intervals are the weighted means of the values given in the references.
+
+For the uncertainties, account has been taken of:
+
+* the uncertainties given by the authors;
+* the spread in the different determinations of a single component;
+* the effect of any perturbing components;
+* the difference between the calculated and the measured values.
+
+In the tables, stem:[u_c] represents the estimated combined standard uncertainty (stem:[1 sigma] ).
+
+All transitions in molecular iodine refer to the B-X system.
+
+[[table1]]
+|===
+8+^.^| stem:[lambda ~~ 612" nm"] ^127^I~2~ R(47) 9-2
+| stem:[a_n] | stem:[x] | stem:[[f (a_n) – f (a_7)\]//"MHz"] | stem:[u_c//"MHz"] | stem:[a_n] | stem:[x] | stem:[[f (a_n) – f (a_7)\]//"MHz"] | stem:[u_c//"MHz"]
+
+| stem:[a_1] | u | –357.16 | 0.02 | stem:[a_(12)] | j | 219.602 | 0.006
+| stem:[a_2] | t | –333.97 | 0.01 | stem:[a_(13)] | i | 249.60 | 0.01
+| stem:[a_3] | s | –312.46 | 0.02 | stem:[a_(14)] | h | 284.30 | 0.01
+| stem:[a_4] | r | –86.168 | 0.007 | stem:[a_(15)] | g | 358.37 | 0.03
+| stem:[a_5] | q | –47.274 | 0.004 | stem:[a_(16)] | f | 384.66 | 0.01
+| stem:[a_6] | p | –36.773 | 0.003 | stem:[a_(17)] | e | 403.76 | 0.02
+| stem:[a_7] | o | 0 | - | stem:[a_(18)] | d | 429.99 | 0.02
+| stem:[a_8] | n | 81.452 | 0.003 | stem:[a_(19)] | c | 527.16 | 0.02
+| stem:[a_9] | m | 99.103 | 0.003 | stem:[a_(20)] | b | 539.22 | 0.02
+| stem:[a_(10)] | l | 107.463 | 0.005 | stem:[a_(21)] | a | 555.09 | 0.02
+| stem:[a_(11)] | k | 119.045 | 0.006 | | | |
+8+a| Frequency referenced to::
+stem:[a_7], R(47) 9-2, ^127^I~2~: stem:[f = 489" "880" "354.9" MHz"] <<ci2002>>
+|===
+Ref. <<glaser-ptb>>, <<razet>>, <<cerez>>, <<glaser-im>>, <<bertinetto1985>>, <<robertsson>>
+
+
+[[table2]]
+|===
+6+^.^| stem:[lambda ~~ 612" nm"] ^127^I~2~ P(48) 11-3
+| stem:[b_n] | stem:[[f (b_n) – f (a_7)\]//"MHz"] | stem:[u_c//"MHz"] | stem:[b_n] | stem:[[f (b_n) – f (a_7)\]//"MHz"] | stem:[u_c//"MHz"]
+
+| stem:[b_1] | –1034.75 | 0.07 | stem:[b_9] | –579.91 | 0.01
+| stem:[b_2] | –755.86 | 0.05 | stem:[b_(10)] | –452.163 | 0.005
+| stem:[b_3] | –748.28 | 0.03 | stem:[b_(11)] | –316.6 | 0.4
+| stem:[b_4] | –738.35 | 0.04 | stem:[b_(12)] | –315.8 | 0.4
+| stem:[b_5] | –731.396 | 0.006 | stem:[b_(13)] | –297.42 | 0.03
+| stem:[b_6] | –616.01 | 0.03 | stem:[b_(14)] | –294.72 | 0.03
+| stem:[b_7] | –602.42 | 0.03 | stem:[b_(15)] | –160.318 | 0.003
+| stem:[b_8] | –593.98 | 0.01 | | |
+6+a| Frequency referenced to::
+stem:[a_7], R(47) 9-2, ^127^I~2~: stem:[f = 489" "880" "354.9" MHz"] <<ci2002>>
+|===
+Ref. <<glaser-ptb>>, <<razet>>, <<glaser-im>>, <<bertinetto1985>>, <<robertsson>>, <<bertinetto1983>>
+
+
+[[table3]]
+|===
+6+^.^| stem:[lambda ~~ 612" nm"] ^127^I~2~ R(48) 15-5
+| stem:[c_n] | stem:[[f (c_n) – f (a_7)\]//"MHz"] | stem:[u_c//"MHz"] | stem:[c_n] | stem:[[f (c_n) – f (a_7)\]//"MHz"] | stem:[u_c//"MHz"]
+
+| stem:[c_1] | –513.83 | 0.03 | stem:[c_5] | –209.96 | 0.03
+| stem:[c_2] | –237.40 | 0.03 | stem:[c_6] | –97.74 | 0.03
+| stem:[c_3] | –228.08 | 0.03 | stem:[c_8] | –73.92 | 0.03
+| stem:[c_4] | –218.78 | 0.03 | stem:[c_9] | –59.30 | 0.03
+6+a| Frequency referenced to::
+stem:[a_7], R(47) 9-2, ^127^I~2~: stem:[f = 489" "880" "354.9" MHz"] <<ci2002>>
+|===
+Ref. <<razet>>
+
+
+[[table4]]
+|===
+8+^.^| stem:[lambda ~~ 612" nm"] ^129^I~2~ P(110) 10-2
+| stem:[a_n] | stem:[x] | stem:[[f (a_n) – f (a7{""^(127)I_2})\]//"MHz"] | stem:[u_c//"MHz"] | stem:[a_n] | stem:[x] | stem:[[f (a_n) – f (a_7{^(127)I_2})\]//"MHz"] | stem:[u_c//"MHz"]
+
+| stem:[a_1] | b' | –376.29 | 0.05 | stem:[a_(15)] | n | 1.61 | 0.20
+| stem:[a_2] | a' | –244.76 | 0.10 | stem:[a_(16)] | m | 10.63 | 0.15
+| stem:[a_3] | z | –230.79 | 0.20 | stem:[a_(17)] | l | 15.82 | 0.20
+| stem:[a_4] | y | –229.40 | 0.20 | stem:[a_(18)] | k | 25.32 | 0.10
+| stem:[a_5] | x | –216.10 | 0.05 | stem:[a_(19)] | j | 49.44 | 0.15
+| stem:[a_6] | w | –149.37 | 0.10 | stem:[a_(20)] | i | 54.66 | 0.20
+| stem:[a_7] | v | –134.68 | 0.10 | stem:[a_(21)] | h | 69.02 | 0.10
+| stem:[a_8] | u | –130.98 | 0.10 | stem:[a_(22)] | g | 74.47 | 0.15
+| stem:[a_9] | t | –116.67 | 0.05 | stem:[a_(23)] | f | 110.60 | 0.10
+| stem:[a_(10)] | s | –96.26 | 0.20 | stem:[a_(24)] | e | 153.09 | 0.20
+| stem:[a_(11)] | r | –90.70 | 0.20 | stem:[a_(25)] | d | 154.70 | 0.20
+| stem:[a_(12)] | q | –84.12 | 0.20 | stem:[a_(26)] | c | 163.98 | 0.20
+| stem:[a_(13)] | p | –77.79 | 0.20 | stem:[a_(27)] | b | 166.22 | 0.20
+| stem:[a_(14)] | o | –72.70 | 0.20 | stem:[a_(28)] | a | 208.29 | 0.10
+8+a| Frequency referenced to::
+stem:[a_7], R(47) 9-2, ^127^I~2~: stem:[f = 489" "880" "354.9" MHz"] <<ci2002>>
+|===
+Ref. <<kegung>>, <<ciddor>>, <<glaser1981>>
+
+
+[[table5]]
+|===
+8+^.^| stem:[lambda ~~ 612" nm"] ^129^I~2~ R(113) 14-4
+| stem:[b_n] | stem:[x] | stem:[[f (b_n) – f (a7{""^(127)I_2})\]//"MHz"] | stem:[u_c//"MHz"] | stem:[b_n] | stem:[x] | stem:[[f (b_n) – f (a_7{^(127)I_2})\]//"MHz"] | stem:[u_c//"MHz"]
+
+| stem:[b_(19)] | r | –410.4 | 0.3 | stem:[b_(28)] | i | –289.4 | 0.5
+| stem:[b_(20)] | q | –390.0 | 0.3 | stem:[b_(29)] | h | –273.1 | 0.3
+| stem:[b_(21)] | p | –383.9 | 0.5 | stem:[b_(30)] | g | –255.7 | 0.5
+| stem:[b_(22)] | o | –362.8 | 0.3 | stem:[b_(31)] | f | –247 | 5
+| stem:[b_(23)] | n | –352.9 | 0.3 | stem:[b_(32)] | e | –237 | 5
+| stem:[b_(24)] | m | –346.4 | 0.3 | stem:[b_(33)] | d | –223 | 5
+| stem:[b_(25)] | l | –330.0 | 0.3 | stem:[b_(34)] | c | –198.6 | 0.3
+| stem:[b_(26)] | k | –324.9 | 0.3 | stem:[b_(35)] | b | –193.1 | 0.3
+| stem:[b_(27)] | j | –304.7 | 0.3 | stem:[b_(36)] | a | –187.0 | 0.3
+8+a| Frequency referenced to::
+stem:[a_7], R(47) 9-2, ^127^I~2~: stem:[f = 489" "880" "354.9" MHz"] <<ci2002>>
+|===
+Ref. <<ciddor>>, <<glaser1981>>
+
+
+[bibliography]
+=== References
+
+* [[[ccdm82-34,1]]], CCDM/82-34 , NPL, Laser wavelength Measurements, May 1982.
+
+* [[[ccdm82-19a,2]]], CCDM/82-19a, BIPM, Réponse au questionnaire CCDM/82-3.
+
+* [[[bonsch,3]]], Bönsch G., Gläser M., Spieweck F., Bestimmung der Wellenlängenverhältnisse von drei ^127^I~2~-stabilisierten Lasern bei 515 nm, 612 nm und 633 nm, _PTB Jahresbericht_, 1986, 161.
+
+* [[[vitushkin,4]]], Vitushkin L. F., Zakharenko Yu. G., Yvanov I. V., Leibengardt G. I., Shur V. L., Measurements of Wavelength of High-Stabilized He-Ne/I~2~ Laser at 612 nm, _Opt. Spectr._, 1990, *68*, 705-707.
+
+* [[[himbert,5]]], Himbert M., Bouchareine P., Hachour A., Juncar P., Millerioux Y., Razet A., Measurements of Optical Wavelength Ratios Using a Compensated Field Sigmameter, _IEEE Trans. Instrum. Meas._, 1991, *40*, 200-203.
+
+* [[[bipm1983,6]]], _BIPM, Proc. Verb. Com. Int. Poids et Mesures_, 1983, *51*.
+
+* [[[docs-metre,7]]], Documents Concerning the New Definition of the Metre, _Metrologia_, 1984, *19*, 163-178.
+
+* [[[ci2002,8]]], Recommendation CCL3 (_BIPM Com. Cons. Long._, 10th Meeting, 2001) adopted by the Comité International des Poids et Mesures at its 91th Meeting as Recommendation 1 (CI-2002).
+
+* [[[glaser-ptb,9]]], Gläser M., Hyperfine Components of Iodine for Optical Frequency Standards _PTB-Bericht_, 1987, *PTB-Opt-25*.
+
+* [[[razet,10]]], Razet A., Millerioux Y., Juncar P., Hyperfine Structure of the 47R(9-2), 48P(11-3) and 48R(15-5) Lines of ^127^I~2~ at 612 nm as Secondary Standards of Optical Frequency, _Metrologia_, 1991, *28*, 309-316.
+
+* [[[cerez,11]]], Cérez P., Bennett S. J., Helium-neon laser stabilized by saturated absorption in iodine at 612 nm, _Appl. Opt._,1979, *18*, 1079-1083.
+
+* [[[glaser-im,12]]], Gläser M., Properties of a He-Ne Laser at stem:[lambda ~~ 612" nm"], Stabilized by Means of an External Iodine Absorption Cell, _IEEE Trans. Instrum. Meas._, 1987, *IM-36*, 604-608.
+
+* [[[bertinetto1985,13]]], Bertinetto F., Cordiale P., Fontana S., Picotto G. B., Recent Progresses in He-Ne Lasers Stabilized to ^127^I~2~, _IEEE Trans. Instrum. Meas._, 1985, *IM-34*, 256-261.
+
+* [[[robertsson,14]]], Robertsson L., Iodine-stabilized He-Ne lasers at stem:[lambda = 612" nm"] using internal and external cells, _BIPM Proc.-Verb. Com. Int. Poids et Mesures_, 1992, *60*, 160-162.
+
+* [[[bertinetto1983,15]]], Bertinetto F., Cordiale P., Picotto G. B., Chartier J.-M., Felder R., Gläser M., Comparison Between the ^127^I~2~ Stabilized He-Ne Lasers at 633 nm and at 612 nm of the BIPM and the IMGC, _IEEE Trans. Instrum. Meas._, 1983, *IM-32*, 72-76.
+
+* [[[kegung,16]]], Kegung D., Gläser M., Helmcke J., I~2~ Stabilized He-Ne Lasers at 612 nm, _IEEE Trans. Instrum. Meas._, 1980, *IM-29*, 354-357.
+
+* [[[ciddor,17]]], Ciddor P. E., Brown N., Hyperfine Spectra in Iodine-129 at 612 nm, _Opt. Commun._, 1980, *34*, 53-56.
+
+* [[[glaser1981,18]]], Gläser M., Kegung D., Foth H. J., Hyperfine Structure and Fluorescence Analysis of Enriched 129I2 at the 612 nm Wavelength of the He-Ne Laser, _Opt. Commun._, 1981, *38*, 119-123.

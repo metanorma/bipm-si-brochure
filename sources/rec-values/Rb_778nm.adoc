@@ -1,0 +1,223 @@
+= MEP 2005
+:appendix: 2
+:partnumber: 1
+:edition: 9
+:copyright-year: 2019
+:language: en
+:docnumber: 
+:title-en: 
+:title-fr: 
+:doctype: guide
+:parent-document: si-brochure.adoc
+:committee-acronym: CCTF
+:committee-en: Consultative Committee for Time and Frequency
+:docstage: in-force
+:confirmed-date:
+:revdate:
+:docsubstage: 60
+:imagesdir: images
+:mn-document-class: bipm
+:mn-output-extensions: xml,html,pdf,rxl
+:local-cache-only:
+:data-uri-image:
+
+== Rubidium (stem:[lambda ~~ 778 nm])
+
+*Absorbing atom ^85^Rb, 5S~1/2~ (F~g~ = 3) – 5D~5/2~ (F~e~ = 5) two-photon transition*
+
+=== CIPM recommended values
+
+[align=left]
+The values:: stem:[f = 385" "285" "142" "375" kHz"] +
+stem:[lambda = 778" "105" "421.23" fm"]
+
+with a relative standard uncertainty of stem:[1.3 xx 10^(−11)] apply to the radiation of a laser stabilized to the centre of the twophoton transition. The values apply to a rubidium cell at a temperature below 100 °C and are corrected to zero laser power.
+
+=== Source data
+
+[align=left]
+Adopted value:: stem:[f = 385" "285" "142" "375" "(5)" kHz"] +
+stem:[u_c//y = 1.3 xx 10^(-11)]
+
+[align=left]
+for which:: stem:[lambda = 778" "105" "421.23" "(1)" fm"] +
+stem:[u_c//y = 1.3 xx 10^(-11)]
+
+calculated from::
+
+[%unnumbered]
+|===
+| stem:[f // "kHz"] | stem:[u_c//y] | source data
+| 385 285 142 378.3 | stem:[5.2 × 10^(−12)] | <<touhari>>
+| 385 285 142 373.8 | stem:[3.4 × 10^(−12)] | <<jones>>
+| 385 285 142 372.3 | stem:[1.4 × 10^(−11)] | <<sec-bernard>>
+3+a| Weighted mean:: stem:[f = 385" "285" "142" "375.0" kHz"]
+|===
+
+applies to the single-photon laser frequency of the two-photon transition. The CCL decided to attribute a standard uncertainty of 5 kHz, corresponding to a relative standard uncertainty of stem:[1.3 xx 10^(−11)]. footnote:[A recent measurement made after the CCL 2001 has confirmed one of the data <<rovera>>.]
+
+[[sec-bernard]]
+==== {blank}
+
+Bernard et al. <<bernard>> gives
+
+[align=left]
+_f_ {^87^Rb, 5S~1/2~(F~g~ = 2) – 5D~5/2~(Fe = 4)}/2 = 385 284 566 370.4 kHz +
+stem:[u_c//y = 5.2 xx 10^(−12)].
+
+From <<felder>> cited in <<table4>>,
+
+[align=left]
+_f_ {^87^Rb, 5S~1/2~(F~g~ = 2) – 5D~5/2~(F~e~ = 4)}/2 - f {^85^Rb, 5S~1/2~(F~g~ = 3) – 5D~5/2~ (F~e~ = 5)}/2 = -576 002 kHz +
+stem:[u_c//y = 1.3 xx 10^(−11)],
+
+one obtains
+
+[align=left]
+_f_ {^85^Rb, 5S~1/2~ (F~g~ = 3) – 5D~5/2~ (F~e~ = 5)}/2 = 385 285 142 371.40 +
+stem:[u_c//y = 1.4 xx 10^(−11)].
+
+
+=== Absolute frequency of the other transitions related to those adopted as recommended and frequency intervals between transitions and hyperfine components
+
+These tables replace those published in BIPM Com. Cons. Long., 2001, *10*, 184-187 and Metrologia, 2003, *40*, 127-128.
+
+The notation for the transitions and the components is that used in the source references. The values adopted for the frequency intervals are the weighted means of the values given in the references.
+
+For the uncertainties, account has been taken of:
+
+* the uncertainties given by the authors;
+* the spread in the different determinations of a single component;
+* the effect of any perturbing components;
+* the difference between the calculated and the measured values.
+
+In the tables, stem:[u_c] represents the estimated combined standard uncertainty (stem:[1 sigma] ).
+
+When a two-photon transition is listed, the listed frequency indicates the one-photon laser frequency.
+
+[[table1]]
+|===
+3+^.^| stem:[lambda ~~ 778" nm"] ^85^Rb 5S~1/2~ - 5D~3/2~ two-photon transition
+| stem:["F"_"g" − "F"_"e"] | [_f_ (5S~1/2~ (F~g~) − 5D~5/2~ (F~e~))/2 − _f_~ref~]/kHz | stem:[u_c//"kHz"]
+| 3−1 | −44 462 655 | 7
+| 3−2 | −44 459 151 | 7
+| 3−3 | −44 453 175 | 7
+| 3−4 | −44 443 871 | 7
+| 2−1 | −42 944 789 | 7
+| 2−2 | −42 941 283 | 7
+| 2−3 | −42 935 308 | 7
+| 2−4 | −42 926 004 | 7
+3+a| Frequency referenced to:: (5S~1/2~ (F~g~=3) − 5D~5/2~ (F~e~=5))/2 {^85^Rb}: stem:[f_(ref) = 385" "285" "142" "375" kHz"] <<ci2002>>
+|===
+Ref. <<nez>>
+
+
+[[table2]]
+|===
+3+^.^| stem:[lambda ~~ 778" nm"] ^85^Rb 5S~1/2~ - 5D~5/2~ two-photon transition
+| stem:["F"_"g" − "F"_"e"] | [_f_ (5S~1/2~ (F~g~) − 5D~5/2~ (F~e~))/2 − _f_~ref~]/kHz | stem:[u_c//"kHz"]
+| 3−5 | 0 | —
+| 3−4 | 4 718 | 9
+| 3−3 | 9 228 | 9
+| 3−2 | 13 031 | 9
+| 3−1 | 15 771 | 14
+| 2−4 | 1 522 595 | 9
+| 2−3 | 1 527 094 | 9
+| 2−2 | 1 530 887 | 9
+| 2−1 | 1 533 631 | 11
+| 2−0 | 1 535 084 | 26
+3+a| Frequency referenced to:: (5S~1/2~ (F~g~=3) − 5D~5/2~ (F~e~=5))/2 {^85^Rb}: stem:[f_(ref) = 385" "285" "142" "375" kHz"] <<ci2002>>
+|===
+Ref. <<felder>> footnote:fref[Improved interval measurements are available for certain components and can be used provided appropriate consideration to uncertainties is made.], <<nez>>
+
+
+[[table3]]
+|===
+3+^.^| stem:[lambda ~~ 778" nm"] ^85^Rb 5S~1/2~ - 5D~3/2~ two-photon transition
+| stem:["F"_"g" − "F"_"e"] | [_f_ (5S~1/2~ (F~g~) − 5D~5/2~ (F~e~))/2 − _f_~ref~]/kHz | stem:[u_c//"kHz"]
+| 2−0 | −45 047 389 | 7
+| 2−1 | −45 040 639 | 7
+| 2−2 | −45 026 674 | 7
+| 2−3 | −45 004 563 | 7
+| 1−1 | −41 623 297 | 7
+| 1−2 | −41 609 335 | 7
+| 1−3 | −41 587 223 | 7
+3+a| Frequency referenced to:: (5S~1/2~ (F~g~=3) − 5D~5/2~ (F~e~=5))/2 {^85^Rb}: stem:[f_(ref) = 385" "285" "142" "375" kHz"] <<ci2002>>
+|===
+Ref. <<nez>>
+
+
+[[table4]]
+|===
+3+^.^| stem:[lambda ~~ 778" nm"] ^85^Rb 5S~1/2~ - 5D~5/2~ two-photon transition
+| stem:["F"_"g" − "F"_"e"] | [_f_ (5S~1/2~ (F~g~) − 5D~5/2~ (F~e~))/2 − _f_~ref~]/kHz | stem:[u_c//"kHz"]
+| 2−4 | −576 001 | 9
+| 2−3 | −561 589 | 9
+| 2−2 | −550 112 | 9
+| 2−1 | −542 142 | 9
+| 1−3 | 2 855 755 | 9
+| 1−2 | 2 867 233 | 9
+| 1−1 | 2 875 200 | 9
+3+a| Frequency referenced to:: (5S~1/2~ (F~g~=3) − 5D~5/2~ (F~e~=5))/2 {^85^Rb}: stem:[f_(ref) = 385" "285" "142" "375" kHz"] <<ci2002>>
+|===
+Ref. <<felder>> footnote:fref[], <<nez>>
+
+
+=== Absolute frequency of other transitions
+
+==== Absorbing atom ^87^Rb, 5S~1/2~ (F~g~ = 2) – 7S~1/2~ (F~e~ = 2) two-photon transition
+
+[align=left]
+The values:: stem:[f = 394" "397" "384" "460" kHz"] +
+stem:[lambda = 760" "127" "906.05" fm"]
+
+with a relative standard uncertainty of stem:[1.7 xx 10^(−10)] apply to the single-photon laser frequency of the two-photon transition.
+
+[align=left]
+Adopted value:: stem:[f = 394" "397" "384" "460" "(67)" kHz"] +
+stem:[u_c//y = 1.7 xx 10^(−10)]
+
+[align=left]
+for which:: stem:[lambda = 760" "127" "906.05" "(.13)" fm"] +
+stem:[u_c//y = 1.7 xx 10^(−10)]
+
+After [Refs <<marian2004>>, <<marian2005>>]
+
+==== Absorbing atom ^87^Rb, 5S~1/2~ (F~g~ = 1) – 7S~1/2~ (F~e~ = 1) two-photon transition
+
+[align=left]
+The values:: stem:[f = 394" "400" "482" "100" kHz"] +
+stem:[lambda = 760" "121" "936.0" fm"]
+
+with a relative standard uncertainty of stem:[4.5 xx 10^(−10)] apply to the single-photon laser frequency of the two-photon transition.
+
+[align=left]
+Adopted value : stem:[f = 394" "400" "482" "100" "(180)" kHz"] +
+stem:[u_c//y = 4.5 xx 10^(−10)]
+
+[align=left]
+for which:: stem:[lambda = 760" "121" "936.0" "(.34)" fm"] +
+stem:[u_c//y = 4.5 xx 10^(−10)]
+
+After [Refs <<marian2004>>, <<marian2005>>]
+
+[bibliography]
+=== References
+
+* [[[touhari,1]]], Touahri D., Acef O., Clairon A., Zondy J.-J., Felder R., Hilico L., de Beauvoir B., Biraben F., Nez F., Frequency measurement of the 5S~1/2~ (F=3) − 5D~1/2~ (F=5) two-photon transition in rubidium, _Opt. Commun._, 1997, *133*, 471-478.
+
+* [[[jones,2]]], Jones D. J., Diddams S. A., Ranka J. K., Stentz A., Windeler R. S., Hall J. L., Cundiff S. T.,, Carrier-Envelope Phase Control of Femtosecond Mode-Locked Lasers and Direct Optical Frequency Synthesis, _Science_, 2000, *288*, 635-639.
+
+* [[[rovera,3]]], Rovera G. D., Zondy J.-J., Acef O., Ducos F., Wallerand J.-P., Knight J. C., Russel P. St. J., New Results in Optical Frequency Measurement Using a Femtosecond Laser, Proc. _CPEM’02_ ISBN 0-7803-7243-5, catalog number 02CH 37279, 422-423.
+
+* [[[bernard,4]]], Bernard J. E., Madej A. A., Siemsen K. J., Marmet L., Latrasse C., Touahri D., Poulin M., Allard M., Têtu M., Absolute frequency measurement of a laser at 1556 nm locked to the 5S~1/2~-5D~5/2~ two-photon transition in ^87^Rb, _Opt. Commun._, 2000, *173*, 357-364.
+
+* [[[felder,5]]], Felder R., Touhari D., Acef O., Hilico L., Zondy J.-J., Clairon A., de Beauvoir B., Biraben F., Julien L., Nez F., Millerioux Y., Performance of a GaAlAs laser diode stabilized on a hyperfine component of two-photon transitions in rubidium at 778 nm, _SPIE_, 1995, *2378*, 52-57.
+
+* [[[ci2002,6]]], Recommendation M1 (_BIPM Com. Cons. Déf. Mètre_, 10th meeting, 2001) adopted by the Comité International des Poids et Mesures at its 91th Meeting as Recommendation 1 (CI-2002).
+
+* [[[nez,7]]], Nez F., Biraben F., Felder R., Millerioux Y., Optical frequency determination of the hyperfine components of the 5S~1/2~ – 5D~3/2~ two-photon transitions in rubidium, _Opt. Commun._, 1993, *102*, 432-438.
+
+* [[[marian2004,8]]], Marian A., Stowe M. C., Lawall J. R., Felinto D., Ye J., United Time-Frequency Spectroscopy for Dynamics and Global Structure, _Sciencexpress_, 1126/1-10, 2004.
+
+* [[[marian2005,9]]], Marian A., Stowe M. C., Felinto D., Ye J., Direct Frequency Comb Measurements of Absolute Optical Frequencies and Population Transfer Dynamics, _Phys. Rev. Lett._, *95*, 023001/1-4, 2005.

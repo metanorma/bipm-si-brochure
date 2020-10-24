@@ -1,0 +1,66 @@
+= Recommended Values of Standard Frequencies for Applications Including the Practical Realization of the Metre and Secondary Representations of the Definition of the Second
+:appendix: 2
+:partnumber: 1
+:edition: 9
+:copyright-year: 2019
+:language: en
+:docnumber: 
+:title-en: 
+:title-fr: 
+:doctype: guide
+:parent-document: si-brochure.adoc
+:committee-acronym: CCTF
+:committee-en: Consultative Committee for Time and Frequency
+:docstage: in-force
+:confirmed-date: 2015-10
+:revdate: 2016-05
+:docsubstage: 60
+:imagesdir: images
+:mn-document-class: bipm
+:mn-output-extensions: xml,html,pdf,rxl
+:local-cache-only:
+:data-uri-image:
+
+== Rubidium (stem:[lambda ~~ 780 nm])
+
+*^87^Rb atom, crossover transition between the _d_ and _f_ hyperfine components of the saturated absorption at 780 nm (D2 transition)*
+
+=== Recommended value <<ci2015>> of the frequency:
+
+f(^87^Rb~d/f~ ~crossover~) = 384 227 981.9 MHz
+
+equivalent to
+
+stem:[lambda](^87^Rb~d/f~ ~crossover~) = 780 246 291.6 fm,
+
+with an estimated relative standard uncertainty of stem:[5 xx 10^(-10)] applies to the radiation of a tunable Extended Cavity Diode Laser, stabilized to the _d/f_ saturated absorption line in a well characterized magnetically shielded rubidium absorption cell by the third-harmonic technique,
+
+* cell temperature stem:[(22.5 +- 1)"°C"]
+* frequency modulation width, peak-to-peak, stem:[(5 +- 1)" MHz"];
+* saturating beam intensity of stem:[(120 +- 20)" mW cm"^(-2)]
+
+=== Source data
+
+[align=left]
+Adopted value:: _f_ = 384 227 981.9 MHz +
+stem:[u_c//y = 5 xx 10^(-10)]
+
+calculated from
+
+[%unnumbered]
+|===
+^| _f_(^87^Rb~d/f~ ~crossover~) / kHz ^| stem:[u_c//y] ^| source data
+| 384 227 981 877.3 (5.5) ^| stem:[1.5 xx 10^(−11)] ^| <<ye>>
+| 384 227 981 867.8 (165) ^| stem:[4.3 xx 10^(−10)] ^| <<bitou>>
+|===
+
+as a weighted mean. The fractional uncertainty was evaluated to be approximately stem:[4.3 xx 10^(−10)] for a 0.01 s averaging time <<bitou>>. For the recommendation this uncertainty was rounded to stem:[5 xx 10^(−10)].
+
+[bibliography]
+=== References
+
+* [[[ci2015,1]]], CIPM Recommendation 2 (CI-2015): Updates to the list of standard frequencies http://www.bipm.org/jsp/en/CIPMRecommendations.jsp
+
+* [[[ye,2]]], J. Ye, S. Swartz, P. Jungner, and J. L. Hall, "Hyperfine structure and absolute frequency of the ^87^Rb 5P~3/2~ state", _Opt. Lett._ *21*, 1280 (1996).
+
+* [[[bitou,3]]], Y. Bitou, K. Sasaki, H. Inaba, F.-L. Hong, A. Onae, "Rubidium-stabilized diode laser for high-precision interferometer", _Opt. Eng._ *43*, 900 (2004).

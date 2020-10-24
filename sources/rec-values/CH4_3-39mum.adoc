@@ -1,0 +1,143 @@
+= MEP 2003
+:appendix: 2
+:partnumber: 1
+:edition: 9
+:copyright-year: 2019
+:language: en
+:docnumber: 
+:title-en: 
+:title-fr: 
+:doctype: guide
+:parent-document: si-brochure.adoc
+:committee-acronym: CCTF
+:committee-en: Consultative Committee for Time and Frequency
+:docstage: in-force
+:confirmed-date:
+:revdate:
+:docsubstage: 60
+:imagesdir: images
+:mn-document-class: bipm
+:mn-output-extensions: xml,html,pdf,rxl
+:local-cache-only:
+:data-uri-image:
+
+== Methane (stem:[lambda ~~ 3.39" "mu"m"])
+
+*Absorbing molecule stem:[CH_4, F_2^("(2)")] component, P(7) stem:[nu_3] transition*
+
+=== CIPM recommended values
+
+==== {blank}
+
+[align=left]
+The values:: stem:[f = 88" "376" "181" "600.18" kHz"] +
+stem:[lambda = 3" "392" "231" "397.327" fm"]
+
+with a relative standard uncertainty of stem:[3 xx 10^(-12)] apply to the radiation of a He-Ne laser stabilized to the central component, (7-6) transition, of the resolved hyperfine-structure triplet. The values correspond to the mean frequency of the two recoil-split components for molecules which are effectively stationary, i.e. the values are corrected for second-order Doppler shift.
+
+==== {blank}
+
+[align=left]
+The values:: stem:[f = 88" "376" "181" "600.5" kHz"] +
+stem:[lambda = 3" "392" "231" "397.31" fm"]
+
+with a relative standard uncertainty of stem:[2.3 xx 10^(−11)] apply to the radiation of a He-Ne laser stabilized to the centre of the unresolved hyperfine-structure of a methane cell, within or external to the laser, held at room temperature and subject to the following conditions:
+
+* methane pressure stem:[<= 3" Pa"];
+* mean one-way intracavity surface power density (i.e., the output power density divided by the transmittance of the output mirror) stem:[<= 10^4" W m"^(−2)];
+* radius of wavefront curvature stem:[>= 1" m"];
+* inequality of power between counter-propagating waves stem:[<= 5 %];
+* servo-referenced to a detector placed at the output facing the laser tube.
+
+=== Source data
+
+==== {blank}
+
+Resolved hyperfine structure
+
+[align=left]
+Adopted value:: stem:[f = 88" "376" "181" "600.18" "(27)" kHz"] +
+stem:[u_c//y = 3 xx 10^(−12)]
+
+[align=left]
+for which:: stem:[lambda = 3392" "231" "397.327" "(10)" fm"] +
+stem:[u_c//y = 3 xx 10^(−12)]
+
+calculated from::
+
+[%unnumbered]
+|===
+| stem:[x // "kHz"] | Laser | Frequency chain | Year | source data
+| 600.29 | LPI | PTB | 1991 | <<ccdm92-8a>>
+| 599.9 | LPI | VNIIFTRI | 1985-1986 | <<ccdm92-9a>>
+| 600.11 | LPI | VNIIFTRI | 1989-1992 | <<ccdm92-9a>>
+| 600.18 | PTB | VNIIFTRI | 1989 | <<ccdm92-9a>>
+| 600.16 | PTB | PTB | 1992 | <<kramer>>
+| 600.44 | ILP | ILP | 1988-1991 | <<ccdm92-23a>>
+6+| Unweighted mean:: stem:[f = 88" "376" "181" "600.18" kHz"] 
+6+| where stem:[f = (88" "376" "181" "000 + x)" kHz"].
+|===
+
+Other available values having uncertainties larger than 200 Hz have not been used. The relative standard uncertainty of one measurement was estimated to be stem:[2.9 xx 10^(−12)] using the maximum deviation from the mean and rounded to stem:[3 xx 10^(−12)].
+
+==== {blank}
+
+Unresolved hyperfine structure
+
+[align=left]
+Adopted value:: stem:[f = 88" "376" "181" "600.5" "(2.0)" kHz"] +
+stem:[u_c//y = 2.3 xx 10^(−11)]
+
+[align=left]
+for which:: stem:[lambda = 3392" "231" "397.31" "(8)" fm"] +
+stem:[u_c//y = 2.3 xx 10^(−11)]
+
+calculated from::
+
+[%unnumbered]
+|===
+| stem:[x // "kHz"] | Frequency source | Frequency chain | Year | source data
+| 600.9 | Stationary device | ILP | 1983 | <<ccdm92-23a>>, <<zakharyash>>, <<chebotayev>>, <<bagayev>>
+| 601.48 | Portable laser 2 | NRC | 1985 | <<ccdm92-4a>>, <<felder9>>
+| 599.33 | Portable laser 3 | NRC | 1986-1991 | <<ccdm92-4a>>, <<felder9>>
+| 596.82 | Portable laser 1 | AIST | 1988-1990| <<felder9>>
+| 601.52 | CH~4~ beam | PTB | 1987-1989 | <<felder9>>, <<weiss>>, <<felder11>>
+| 601.77 | Portable laser M101 | VNIIFTRI | 1985-1992 | <<ccdm92-9a>>, <<felder9>>
+| 600.12 | Portable laser P1 | VNIIFTRI | 1985-1988| <<ccdm92-9a>>, <<felder9>>
+| 598.5 | Portable laser PL | VNIIFTRI | 1986 | <<ccdm92-9a>>
+| 600.96 | Portable laser B.3 | BIPM | 1985-1992 | <<felder9>>
+| 601.33 | Portable laser VB | BIPM | 1988-1991 | <<felder9>>
+| 600.3 | Portable laser VNIBI | BIPM | 1991 | <<felder9>>, <<weiss>>, <<felder11>>, <<ccdm92-20a>>
+2+| Unweighted mean : 3+| stem:[f = 88" "376" "181" "600.46" kHz"]
+5+| where stem:[f_(CH4) = (88" "376" "181" "000 + x)" kHz"].
+|===
+
+The standard deviation of one determination is 1.7 kHz. This is equivalent to a relative uncertainty of stem:[1.9 xx 10^(−11)], increased by the CCL to stem:[2.3 xx 10^(−11)] to give an uncertainty of 2 kHz.
+
+
+[bibliography]
+=== References
+
+* [[[ccdm92-8a,1]]], CCDM/92-8a, LPI, Replies to the Questionnaire of the CCDM-92.
+
+* [[[ccdm92-9a,2]]], CCDM/92-9a, VNIIFTRI, Concerning He-Ne/CH~4~ laser absolute frequency.
+
+* [[[kramer,3]]], Kramer G., Lipphardt B., Weiss C. O., Coherent frequency synthesis in the infrared, _1992 IEEE Frequency Control Symposium_, May 27-29 1992, Hershey, PA, USA.
+
+* [[[ccdm92-23a,4]]], CCDM/92-23a, ILP, Replies of the Institute of Laser Physics of the Siberian Branch of the Russian Academy of Science to the BIPM Questionnaire (CCDM/92-1).
+
+* [[[zakharyash,5]]], Zakhar'yash V. F., Klement'ev V. M., Nikitin M. V., Timchenko B. A., Chebotaev V. P., Absolute measurement of the frequency of the E-Line of methane, _Sov. Phys. Tech. Phys._, 1983, *28*, 1374-1375.
+
+* [[[chebotayev,6]]], Chebotayev V. P., Klementyev V. M., Nikitin M. V., Timchenko B. A., Zakharyash V. F., Comparison of Frequency Stabilities of the Rb Standard and of the He-Ne/CH~4~ Laser Stabilized to the E Line in Methane, _Appl. Phys. B_, 1985, *36*, 59-61.
+
+* [[[bagayev,7]]], Bagayev S. N., Borisov B. D., Gol'Dort V. G., Gusev A. Yu., Dychkov A. S., Zakhar'yash V. F., Klement'yev V. M., Nikitin M. V., Timchenko B. A., Chebotayev V. P., Yumin V. V., An Optical Standard of Time, _Avtometrya_, 1983, *3*, 37-58.
+
+* [[[ccdm92-4a,8]]], CCDM/92-4a, NRC, Reponse to Questionnaire CCDM.
+
+* [[[felder9,9]]], Felder R., A Decade of Work on the Determination of the Frequency of stem:[F_2^2] Methane Transition at stem:[lambda ~~ 3.39" "mu"m"], _Rapport BIPM_, 1992, *92/8*.
+
+* [[[weiss,10]]], Weiss C. O., Kramer G., Lipphardt B., Garcia E., Frequency Measurement of a CH~4~ Hyperfine Line at 88 THz/"Optical Clock", _IEEE J. Quant. Electron._, 1988, *24*, 1970-1972.
+
+* [[[felder11,11]]], Felder R., Robertsson L., Report on the 1989 PTB Experiment, _Rapport BIPM_, 1992, *92/7*.
+
+* [[[ccdm92-20a,12]]], CCDM/92-20a, BIPM, Reply to the Questionnaire for the CCDM.
