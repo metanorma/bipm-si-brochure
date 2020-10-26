@@ -110,9 +110,9 @@ carré en fonction d’une pression peut prendre la forme suivante:
 [cols="^,^",options="unnumbered"]
 |===
 | stem:[p//"kPa"] | stem:[v^2//("m/s")^2]
-| 48,73 | 94766
-| 72,87 | 94771
-| 135,42 | 94784
+| stem:[48.73] | stem:[94766]
+| stem:[72.87] | stem:[94771]
+| stem:[135.42] | stem:[94784]
 |===
 
 Les axes d’un graphique peuvent aussi être identifiés de cette manière, afin que les
@@ -133,7 +133,7 @@ grandeur et non à celui de l’unité.
 
 [NOTE]
 ====
-Par exemple, la différence de potentiel électrique maximale s’exprime sous la forme: stem:[U_{"max"} = 1000 " " V] mais pas stem:[U = 1000 " " V_{"max"}]. La fraction massique du cuivre de l’échantillon de silicium s’exprime sous la forme stem:[w("Cu") = 1,3 xx 10^{-6}] mais pas stem:[1,3 xx 10^{-6}] stem:["w/w"].
+Par exemple, la différence de potentiel électrique maximale s’exprime sous la forme: stem:[U_{"max"} = 1000 " " V] mais pas stem:[U = 1000 " " V_{"max"}]. La fraction massique du cuivre de l’échantillon de silicium s’exprime sous la forme stem:[w("Cu") = 1.3 xx 10^{-6}] mais pas stem:[1.3 xx 10^{-6}] stem:["w/w"].
 ====
 
 ==== Écriture de la valeur d’une grandeur
@@ -145,7 +145,7 @@ l’espace entre le nombre et l’unité est considérée comme un signe de mult
 d’unité pour le degré, la minute et la seconde d’angle plan (respectivement °, ′ e t ″)
 pour lesquels il n’y a pas d’espace entre la valeur numérique et le symbole de l’unité.
 
-NOTE: stem:[m = 12,3 " g"] où m est 
+NOTE: stem:[m = 12.3 " g"] où m est 
 utilisé comme symbole de la
 grandeur « masse » mais stem:[phi = 30° 22' 8'']
 où stem:[phi] est utilisé comme symbole
@@ -154,7 +154,7 @@ de la grandeur « angle plan ».
 Cette règle signifie que le symbole stem:["°C"] pour le degré Celsius est précédé d’une espace pour
 exprimer la valeur de la température Celsius, stem:[t].
 
-NOTE: stem:[t = 30,2 " °C"] mais pas stem:[t = 30,2 " °C"] ni stem:[t = 30,2 " °C"]
+NOTE: stem:[t = 30.2 " °C"] mais pas stem:[t = 30.2 " °C"] ni stem:[t = 30.2 " °C"]
 
 En anglais, même lorsque la valeur d’une grandeur est utilisée comme adjectif, il convient
 de laisser une espace entre la valeur numérique et le symbole de l’unité. Ce n’est que
@@ -164,11 +164,11 @@ grammaticales ordinaires (voir un exemple en anglais page 149).
 Dans une expression donnée, une seule unité doit être utilisée. Les valeurs des grandeurs
 « temps » et « angle plan » exprimées au moyen d’unités en dehors du SI font exception à
 cette règle. Toutefois, en ce qui concerne l’angle plan, il est généralement préférable de
-diviser le degré de manière décimale. Ainsi, il est préférable d’écrire 22,20° plutôt que
+diviser le degré de manière décimale. Ainsi, il est préférable d’écrire 22.20° plutôt que
 22° 12′, sauf dans les domaines tels que la navigation, la cartographie, l’astronomie et la
 mesure d’angles très petits.
 
-NOTE: stem:[ l = 10,234 " m"] mais pas stem:[l = 10 " m " 23,4 " cm"]
+NOTE: stem:[ l = 10.234 " m"] mais pas stem:[l = 10 " m " 23.4 " cm"]
 
 
 ==== Écriture des nombres et séparateur décimal
@@ -183,7 +183,7 @@ Si le nombre se situe entre +1 et −1, le séparateur décimal est toujours pr�
 
 [NOTE]
 ====
-stem:[−0,234] mais pas stem:[−,234]
+stem:[−0.234] mais pas stem:[−,234]
 ====
 
 Conformément à la décision de la CGPM à sa 9e réunion (1948, Résolution 7) et à sa
@@ -195,9 +195,9 @@ pas isoler un chiffre par une espace. L’habitude de grouper ainsi les chiffres
 choix personnel; elle n’est pas toujours suivie dans certains domaines spécialisés tels que le
 dessin industriel, les documents financiers et les scripts qui doivent être lus par ordinateur.
 
-NOTE: stem:[43279,16829] mais pas stem:[43.279,168.29]
+NOTE: stem:[43279.16829] mais pas stem:[43.279.168.29]
 
-NOTE: stem:[3279,1683] ou stem:[3279,1683]
+NOTE: stem:[3279.1683] ou stem:[3279.1683]
 
 Le format utilisé pour écrire les nombres dans un tableau doit rester cohérent dans une
 même colonne.
@@ -213,12 +213,12 @@ représenter l’incertitude-type est donné dans l’exemple suivant:
 
 [stem%unnumbered]
 ++++
-m_"n" = 1,674927471(21) xx 10^{-27} " kg"
+m_"n" = 1.674927471(21) xx 10^{-27} " kg"
 ++++
 
 où stem:[m_"n"] est le symbole de la grandeur (ici la masse du neutron) et le nombre entre parenthèses
 la valeur numérique de l’incertitude-type sur les deux derniers chiffres de la valeur estimée
-de stem:[m_"n"], dans le cas présent : stem:[u(m_"n") = 0,000000021 xx 10^{-27} " kg"]. Si une incertitude élargie
+de stem:[m_"n"], dans le cas présent : stem:[u(m_"n") = 0.000000021 xx 10^{-27} " kg"]. Si une incertitude élargie
 stem:[U(x)] est utilisée au lieu de l’incertitude-type stem:[u(x)], alors la probabilité d’élargissement stem:[p] et le
 facteur d’élargissement stem:[k] doivent être précisés.
 
@@ -241,9 +241,9 @@ parenthèses pour lever toute ambiguïté.
 stem:[F = ma] pour une force égale
 à la masse multipliée par l’accélération
 
-stem:[(53 " m/s") xx 10,2 " s"] ou stem:[(53 " m/s")(10,2 " s")]
+stem:[(53 " m/s") xx 10.2 " s"] ou stem:[(53 " m/s")(10.2 " s")]
 
-stem:[25 xx 60,5] mais pas stem:[25 * 60,5]
+stem:[25 xx 60.5] mais pas stem:[25 * 60.5]
 
 stem:[(20 " m")"/"(5 "s") = 4 " m/s"]
 
@@ -260,7 +260,7 @@ ne sont pas écrits explicitement. Comme les symboles de préfixes du SI ne peuv
 attachés au symbole 1 ni au nom d’unité « un », les puissances de 10 sont utilisées pour
 exprimer les valeurs particulièrement grandes ou particulièrement petites.
 
-NOTE: stem:[n = 1,51] mais pas stem:[n = 1,51 xx 1] où stem:[n] est le symbole de la grandeur « indice de réfraction »
+NOTE: stem:[n = 1.51] mais pas stem:[n = 1.51 xx 1] où stem:[n] est le symbole de la grandeur « indice de réfraction »
 
 Les grandeurs qui sont des rapports de grandeurs de même nature (rapports de longueur,
 fractions molaires, etc.) peuvent être exprimées avec des unités (stem:["m/m", " mol/mol"]) afin de
