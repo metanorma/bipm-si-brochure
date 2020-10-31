@@ -451,10 +451,10 @@ Il résulte de cette définition que la mole est la quantité de matière d’un
 stem:[6.02214076 xx 10^(23)] entités élémentaires spécifiées.
 
 La précédente définition de la mole fixait la valeur de la masse molaire du carbone 12,
-M(^12^C), comme étant exactement égale à stem:[0.012 " kg/mol"]. Selon l’actuelle définition de la
-mole, M(^12^C) n’est plus connue avec exactitude et doit être déterminée de façon
+stem:[M(""^{12}"C")], comme étant exactement égale à stem:[0.012 " kg/mol"]. Selon l’actuelle définition de la
+mole, stem:[M(""^{12}"C")] n’est plus connue avec exactitude et doit être déterminée de façon
 expérimentale. La valeur choisie pour stem:[N_"A"] est telle qu’au moment de l’adoption de la
-présente définition de la mole, M(^12^C) était égale à stem:[0.012 " kg/mol"] avec une incertitude-type
+présente définition de la mole, stem:[M(""^{12}"C")] était égale à stem:[0.012 " kg/mol"] avec une incertitude-type
 relative de stem:[4.5 xx 10^{-10}].
 
 La masse molaire d’un atome ou d’une molécule stem:["X"] peut toujours être obtenue à partir de sa
@@ -462,7 +462,7 @@ masse atomique relative à l’aide de l’équation:
 
 [stem%unnumbered]
 ++++
-M("X") = A_"r" ("X") [M(""^12 C)//12] = A_"r" ("X") M_"u"
+M("X") = A_"r" ("X") [M(""^{12}"C")//12] = A_"r" ("X") M_"u"
 ++++
 
 et la masse molaire d’un atome ou d’une molécule stem:["X"] est également reliée à la masse d’une
@@ -474,7 +474,7 @@ M("X") = N_"A" m("X") = N_"A" A_"r" ("X") m_"u"
 ++++
 
 Dans ces équations, stem:[M_"u"] est la constante de masse molaire,
-égale à stem:[M]^12^C)/12, et stem:[m_"u"] est la
+égale à stem:[M](^12^C)/12, et stem:[m_"u"] est la
 constante de masse atomique unifiée, égale à stem:[m](^12^C)/12.
 Elles sont liées à la constante d’Avogadro par la relation:
 
@@ -501,7 +501,7 @@ matière » est généralement abrégé en « concentration de matière ».
 *La candela, symbole stem:["cd"], est l’unité du SI d’intensité lumineuse dans une direction
 donnée. Elle est définie en prenant la valeur numérique fixée de l’efficacité lumineuse
 d’un rayonnement monochromatique de fréquence stem:[540 xx 10^(12) " Hz"], stem:[K_{"cd"}], égale à
-683 lorsqu’elle est exprimée en stem:["lm W"^{-1}], unité égale à stem:["cd sr W"^{-1}], ou stem:["cd sr kg"^{-1} " m"^2 " s"^3],
+683 lorsqu’elle est exprimée en stem:["lm W"^{-1}], unité égale à stem:["cd sr W"^{-1}], ou stem:["cd sr kg"^{-1} " m"^{-2} " s"^3],
 le kilogramme, le mètre et la seconde étant définis en fonction de stem:[h], stem:[c] et stem:[Delta nu_{"Cs"}].*
 
 Cette définition implique la relation exacte stem:[K_{"cd"} = 683 " cd sr kg"^{-1} " m"^{-2} " s"^3] pour le rayonnement
@@ -517,12 +517,12 @@ relation identique à
 
 [stem%unnumbered]
 ++++
-1 " cd" = 1/((6.62607015 xx 10^(-34))(9192631770)^{2} 683)(Delta nu_("Cs"))^2 h K_("cd")
+1 " cd" = 1/((6.62607015 xx 10^(-34))(9192631770)^{2} 683)(Delta nu_("Cs"))^2 h " " K_("cd")
 ++++
 
 [stem%unnumbered]
 ++++
-~~ 2.6148305 xx 10^(10)(Delta nu_("Cs"))^2 h K_("cd")
+~~ 2.6148305 xx 10^(10)(Delta nu_("Cs"))^2 h " " K_("cd")
 ++++
 
 
@@ -681,7 +681,7 @@ cette catégorie a été supprimée en 1995.] | stem:["rad" = "m/m"] |
 | angle solide | stéradian footnote:[Le stéradian est l’unité cohérente d’angle solide. Un stéradian est un angle solide d’un cône qui,
 ayant son sommet au centre d’une sphère, découpe sur la surface de cette sphère une aire égale à
 celle d’un carré ayant pour côté une longueur égale au rayon de la sphère. Comme le radian,
-le stéradian était auparavant une unité SI supplémentaire.] | stem:["sr" = "m"^2 // m^2] |
+le stéradian était auparavant une unité SI supplémentaire.] | stem:["sr" = "m"^2 // "m"^2] |
 | fréquence | hertz footnote:[Le hertz ne doit être utilisé que pour les phénomènes périodiques et le becquerel que pour les
 processus aléatoires liés à la mesure de l’activité d’un radionucléide.] | stem:["Hz" = "s"^{-1}] | 
 | force | newton | stem:["N" = "kg m s"^{-2}] | 
