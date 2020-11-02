@@ -1,893 +1,477 @@
+== The International System of Units
 
-== Le Système international d’unités
+=== Defining the unit of a quantity
 
-=== Définition de l’unité d’une grandeur
+The value of a quantity is generally expressed as the product of a number and a unit. The unit is simply a particular example of the quantity concerned which is used as a reference, and the number is the ratio of the value of the quantity to the unit.
 
-La valeur d’une grandeur est généralement exprimée sous la forme du produit d’un nombre par
-une unité. L’unité n’est qu’un exemple particulier de la grandeur concernée, utilisée comme
-référence. Le nombre est le rapport entre la valeur de la grandeur en question et l’unité.
+NOTE: For example, the speed of light in vacuum is a constant of nature, denoted by stem:[c], whose value in SI units is given by the relation stem:[c = 299 text( )792 text( )458 " m/s"] where the numerical value is stem:[299 text( )792 text( )458] and the unit is stem:["m/s"].
 
-NOTE: Par exemple, la vitesse de la lumière dans
-le vide est une constante de la nature, notée stem:[c],
-dont la valeur en unités SI est donnée par la relation
-stem:[c = 299792458 " m/s"] où la valeur numérique
-est stem:[299792458] et l’unité stem:["m/s"].
+For a particular quantity different units may be used. For example, the value of the speed stem:[v] of a particle may be expressed as stem:[v = 25 " m/s"] or stem:[v = 90 " km/h"], where metre per second and kilometre per hour are alternative units for the same value of the quantity speed.
 
-Pour une grandeur particulière, différentes unités
-peuvent être utilisées. Par exemple, la valeur
-de la vitesse stem:[v] d’une particule peut être exprimée sous
-la forme stem:[v = 25 " m/s"] ou stem:[v = 90 " km/h"],
-les unités «&nbsp;mètre par seconde&nbsp;» et «&nbsp;kilomètre
-par heure&nbsp;» étant des unités alternatives pour
-exprimer la même valeur de la grandeur «&nbsp;vitesse&nbsp;».
+Before stating the result of a measurement, it is essential that the quantity being presented is adequately described. This may be simple, as in the case of the length of a particular steel rod, but can become more complex when higher accuracy is required and where additional parameters, such as temperature, need to be specified.
 
-Avant d’exprimer un résultat de mesure, il est essentiel que la grandeur considérée soit
-décrite de façon appropriée. Cela peut être simple, comme dans le cas de la longueur d’une
-tige en acier particulière, mais peut devenir plus compliqué lorsque qu’un plus haut niveau
-d’exactitude est requis et lorsque des paramètres supplémentaires, tels que la température,
-doivent être indiqués.
+When a measurement result of a quantity is reported, the *_estimated value_* of the measurand (the quantity to be measured), and the *_uncertainty_* associated with that value, are necessary. Both are expressed in the same unit.
 
-Pour exprimer le résultat de mesure d’une grandeur spécifique, la *_valeur estimée_* du
-mesurande (la grandeur à mesurer) et l’**_incertitude_** associée à la valeur de cette grandeur
-sont requises: elles sont exprimées dans la même unité.
+=== Definition of the SI
 
-
-=== Définition du SI
-
-Comme pour toute grandeur, la valeur d’une constante fondamentale peut être exprimée
-sous la forme du produit d’un nombre par une unité.
+As for any quantity, the value of a fundamental constant can be expressed as the product of a number and a unit.
 
 [NOTE]
 ====
-Les quotients des unités SI peuvent être exprimés par une barre oblique (/) ou un exposant négatif (^−^).
+Quotients of SI units may be expressed using either a solidus (/) or a negative exponent (^−^)
 
 [align=left]
-Par exemple, +
+For example, +
 stem:["m/s" = "m s"^{-1}] +
 stem:["mol/mol" = "mol mol"^{-1}]
 ====
 
-Les définitions présentées ci-dessous précisent la valeur numérique exacte de chaque
-constante lorsque sa valeur est exprimée dans l’unité du SI correspondante. En fixant la valeur
-numérique exacte, l’unité devient définie car le produit de la *_valeur numérique_* par l’*_unité_*
-doit être égal à la *_valeur_* de la constante qui, par hypothèse, est invariante.
+The definitions below specify the exact numerical value of each constant when its value is expressed in the corresponding SI unit. By fixing the exact numerical value, the unit becomes defined, since the product of the *_numerical value_* and the *_unit_* has to equal the *_value_* of the constant, which is postulated to be invariant.
 
-Les sept constantes définissant le SI ont été choisies de sorte que toute unité du SI puisse
-être exprimée à partir de l’une de ces sept constantes ou à partir de produits ou rapports de
-ces constantes.
+The seven constants are chosen in such a way that any unit of the SI can be written either through a defining constant itself or through products or quotients of defining constants.
 
-*Le Système international d’unités, le SI, est le système d’unités selon lequel:*
+*The International System of Units, the SI, is the system of units in which:*
 
-* *la fréquence de la transition hyperfine de l’état fondamental de l’atome de césium 133 non perturbé, stem:[Delta nu_{"Cs"}], est égale à stem:[9192631770 " Hz"],*
-* *la vitesse de la lumière dans le vide, stem:[c], est égale à stem:[299792458 " m/s"],*
-* *la constante de Planck, stem:[h], est égale à stem:[6.62607015 xx 10^{-34} " J s"],*
-* *la charge élémentaire, stem:[e], est égale à stem:[1.602176634 xx 10^{-19} " C"],*
-* *la constante de Boltzmann, stem:[k], est égale à stem:[1.380649 xx 10^{-23} " J/K"],*
-* *la constante d’Avogadro, stem:[N_"A"], est égale à stem:[6.02214076 xx 10^23 " mol"^{-1}],*
-* *l’efficacité lumineuse d’un rayonnement monochromatique de fréquence stem:[540 xx 10^12 " Hz"], stem:[K_{"cd"}], est égale à stem:[683 " lm/W"],*
+* *the unperturbed ground state hyperfine transition frequency of the caesium 133 atom, stem:[Delta nu_("Cs")], is stem:[9192631770 " Hz"],*
+* *the speed of light in vacuum, stem:[c], is stem:[299 text( )792 text( )458 " m/s"],* 
+* *the Planck constant, stem:[h], is stem:[6.626 text( )070 text( )15 times 10^(−34) " J s"],* 
+* *the elementary charge, stem:[e], is stem:[1.602 text( )176 text( )634 times 10^(−19) " C"],* 
+* *the Boltzmann constant, stem:[k], is stem:[1.380 text( )649 times 10^(-23) " J/K"],* 
+* *the Avogadro constant, stem:[N_"A"], is stem:[6.022 text( )140 text( )76 times 10^(23) " mol"^(−1)],*
+* *the luminous efficacy of monochromatic radiation of frequency stem:[540 times 10^(12) " Hz"], stem:[K_("cd")], is stem:[683 " lm/W"],*
 
-où les unités hertz, joule, coulomb, lumen et watt, qui ont respectivement pour symbole stem:["Hz", " J", " C", " lm"] et stem:["W"], sont reliées aux unités seconde, mètre, kilogramme, ampère, kelvin, mole et
-candela, qui ont respectivement pour symbole stem:["s", " m", " kg", " A", " K", " mol"] et stem:["cd"], selon les relations
-stem:["Hz" = "s"^{-1}], stem:["J" = "kg m"^2 " s"^{-2}], stem:["C" = "A s"], stem:["lm" = "cd m"^2 " m"^{-2} = "cd sr"], et stem:["W" = "kg m"^2 " s"^{-3}].
+where the hertz, joule, coulomb, lumen, and watt, with unit symbols stem:["Hz"], stem:["J"], stem:["C"], stem:["lm"], and stem:["W"], respectively, are related to the units second, metre, kilogram, ampere, kelvin, mole, and candela, with unit symbols stem:["s"], stem:["m"], stem:["kg"], stem:["A"], stem:["K"], stem:["mol"], and stem:["cd"], respectively, according to stem:["Hz" = "s"^(–1)], stem:["J" = "kg m"^2 " s"^(–2)], stem:["C" = "A s"], stem:["lm" = "cd m"^2 " m"^(–2) = "cd sr"], and stem:["W" = "kg m"^2 " s"^(–3)].
 
-La valeur numérique de chacune des sept constantes définissant le SI n’a pas d’incertitude.
+The numerical values of the seven defining constants have no uncertainty.
 
+.The seven defining constants of the SI and the seven corresponding units they define
+[cols="<,<,<,<"]
+|===
+| Defining constant | Symbol | Numerical value | Unit
 
-.Les sept constantes définissant le SI et les sept unités qu’elles définissent
-[cols="1,^,1,^", options="header"]
+| hyperfine transition frequency of stem:["Cs"] | stem:[Delta nu_("Cs")] | stem:[9192631770] | stem:["Hz"]
+| speed of light in vacuum | stem:[c] | stem:[299 text( )792 text( )458] | stem:["m  s"^(−1)]
+| Planck constant | stem:[h] | stem:[6.626 text( )070 text( )15 times 10^(−34)] | stem:["J s"]
+| elementary charge | stem:[e] | stem:[1.602 text( )176 text( )634 times 10^(−19)] | stem:["C"]
+| Boltzmann constant | stem:[k] | stem:[1.380 text( )649 times 10^(−23)] | stem:["J K"^(−1)]
+| Avogadro constant | stem:[N_"A"] | stem:[6.022 text( )140 text( )76 times 10^(23)] | stem:["mol"^(−1)]
+| luminous efficacy | stem:[K_("cd")] | stem:[683] | stem:["lm W"^(−1)]
 |===
 
-| Constante | Symbole | Valeur numérique | Unité
+Preserving continuity, as far as possible, has always been an essential feature of any changes to the International System of Units. The numerical values of the defining constants have been chosen to be consistent with the earlier definitions in so far as advances in science and knowledge allow.
 
-| fréquence de la transition hyperfine du césium | stem:[Delta nu_{"Cs"}]  | stem:[9192631770] | stem:["Hz"]
-| vitesse de la lumière dans le vide | stem:[c] | stem:[299792458] | stem:["m s"^{-1}]
-| constante de Planck | stem:[h] | stem:[6.62607015 xx 10^{-34}] | stem:["J s"]
-| charge élémentaire | stem:[e] | stem:[1.602176634 xx 10^{-19}] | stem:["C"]
-| constante de Boltzmann | stem:[k] | stem:[1.380649 xx 10^{-23}] | stem:["J K"^{-1}]
-| constante d’Avogadro | stem:[N_"A"] | stem:[6.02214076 xx 10^{23}] | stem:["mol"^{-1}]
-| efficacité lumineuse | stem:[K_{"cd"}] | stem:[683] | stem:["lm W"^{-1}]
+==== The nature of the seven defining constants
 
+The nature of the defining constants ranges from fundamental constants of nature to technical constants.
+
+The use of a constant to define a unit disconnects definition from realization. This offers the possibility that completely different or new and superior practical realizations can be developed, as technologies evolve, without the need to change the definition.
+
+A technical constant such as stem:[K_("cd")], the luminous efficacy of monochromatic radiation of frequency stem:[540 times 10^(12) " Hz"] refers to a special application. In principle, it can be chosen freely, such as to include conventional physiological or other weighting factors. In contrast, the use of a fundamental constant of nature, in general, does not allow this choice because it is related to other constants through the equations of physics.
+
+The set of seven defining constants has been chosen to provide a fundamental, stable and universal reference that simultaneously allows for practical realizations with the smallest uncertainties. The technical conventions and specifications also take historical developments into account.
+
+Both the Planck constant stem:[h] and the speed of light in vacuum stem:[c] are properly described as fundamental. They determine quantum effects and space-time properties, respectively, and affect all particles and fields equally on all scales and in all environments.
+
+The elementary charge stem:[e] corresponds to a coupling strength of the electromagnetic force via the fine-structure constant stem:[alpha = e^2//(2c epsilon_0h)] where stem:[epsilon_0] is the vacuum electric permittivity orelectric constant. Some theories predict a variation of stem:[alpha] over time. The experimental limits of the maximum possible variation in stem:[alpha] are so low, however, that any effect on foreseeable practical measurements can be excluded.
+
+The Boltzmann constant stem:[k] is a proportionality constant between the quantities temperature (with unit kelvin) and energy (with unit joule), whereby the numerical value is obtained from historical specifications of the temperature scale. The temperature of a system scales with the thermal energy, but not necessarily with the internal energy of a system. In statistical physics the Boltzmann constant connects the entropy stem:[S] with the number stem:[Omega] of quantum-mechanically accessible states, stem:[S = k " ln " Omega].
+
+The caesium frequency stem:[Delta nu_("Cs")], the unperturbed ground-state hyperfine transition frequency of the caesium 133 atom, has the character of an atomic parameter, which may be affected by the environment, such as electromagnetic fields. However, the underlying transition is well understood, stable and a good choice as a reference transition under practical considerations. The choice of an atomic parameter like stem:[Delta nu_("Cs")] does not disconnect definition and realization in the same way that stem:[h], stem:[c], stem:[e], or stem:[k] do, but specifies the reference.
+
+The Avogadro constant stem:[N_"A"] is a proportionality constant between the quantity amount of substance (with unit mole) and the quantity for counting entities (with unit one, symbol stem:[1]). Thus it has the character of a constant of proportionality similar to the Boltzmann constant stem:[k].
+
+The luminous efficacy of monochromatic radiation of frequency stem:[540 times 10^(12) "Hz"], stem:[K_("cd")], is a technical constant that gives an exact numerical relationship between the purely physical characteristics of the radiant power stimulating the human eye (stem:["W"]) and its photobiological response defined by the luminous flux due to the spectral responsivity of a standard observer (stem:["lm"]) at a frequency of stem:[540 times 10^(12) text( hertz)].
+
+=== Definitions of the SI units
+
+Prior to the definitions adopted in 2018, the SI was defined through seven _base units_ from which the _derived units_ were constructed as products of powers of the _base units._ Defining the SI by fixing the numerical values of seven defining constants has the effect that this distinction is, in principle, not needed, since all units, _base_ as well as _derived units_, may be constructed directly from the defining constants. Nevertheless, the concept of base and derived units is maintained because it is useful and historically well established, noting also that the ISO/IEC 80000 series of Standards specify base and derived quantities which necessarily correspond to the SI base and derived units defined here.
+
+==== Base units
+
+The base units of the SI are listed in <<table2>>.
+
+[[table2]]
+.SI base units
+|===
+2+h| Base quantity 2+h| Base unit
+<h| Name <h| Typical symbol <h| Name <h| Symbol
+
+<| time <| stem:[t] <| second <| stem:["s"]
+<| length <| stem:[l, x, r],etc. <| metre <| stem:["m"]
+<| mass <| stem:[m] <| kilogram <| stem:["kg"]
+<| electric current <| stem:[I, i] <| ampere <| stem:["A"]
+<| thermodynamic temperature <| stem:[T] <| kelvin <| stem:["K"]
+<| amount of substance <| stem:[n] <| mole <| stem:["mol"]
+<| luminous intensity <| stem:[I_"v"] <| candela <| stem:["cd"]
 |===
 
-Il a toujours été essentiel de préserver, autant que possible, la continuité du Système
-international d’unités lorsque des modifications ont été apportées au SI. Les valeurs
-numériques des sept constantes ont été choisies en cohérence avec les précédentes définitions
-dans la mesure où les avancées de la science et des connaissances le permettaient.
+NOTE: The symbols for quantities are generally single letters of the Latin or Greek alphabets, printed in an italic font, and are _recommendations_. The symbols for units are printed in an upright (roman) font and are _mandatory_, see <<unit_symbols>>.
+
+Starting from the definition of the SI in terms of fixed numerical values of the defining constants, definitions of each of the seven base units are deduced by using, as appropriate, one or more of these defining constants to give the following set of definitions:
 
 
-==== Nature des sept constantes définissant le SI
+*The second*
 
-La nature des sept constantes définissant le SI varie de constantes fondamentales de la
-nature jusqu’à des constantes techniques.
+*The second, symbol stem:["s"], is the SI unit of time. It is defined by taking the fixed numerical value of the caesium frequency, stem:[Delta nu_("Cs")], the* *unperturbed ground-state hyperfine transition frequency of the caesium 133 atom, to be stem:[9192631770] when expressed in the unit stem:["Hz"], which is equal to stem:["s"^(−1)].*
 
-L’utilisation d’une constante pour définir une unité dissocie la définition de la réalisation,
-ce qui ouvre la voie au développement de réalisations pratiques totalement différentes ou
-améliorées en fonction des progrès technologiques, sans qu’il soit nécessaire de modifier la
-définition de l’unité.
-
-Une constante technique telle que stem:[K_{"cd"}], efficacité lumineuse d’un rayonnement
-monochromatique de fréquence stem:[540 xx 10^(12)] stem:["Hz"], fait référence à une application spécifique.
-En principe, cette constante technique peut être choisie librement, notamment pour inclure
-des facteurs physiologiques conventionnels ou d’autres facteurs de pondération.
-En revanche, cela n’est pas possible en général lorsqu’on utilise une constante
-fondamentale de la nature car elle est reliée par des équations de la physique à d’autres
-constantes.
-
-Les sept constantes définissant le SI ont été choisies afin de former un ensemble qui
-constitue une référence fondamentale, stable et universelle, dont les réalisations pratiques
-permettent d’obtenir les incertitudes les plus faibles possible. Les conventions choisies et
-spécifications techniques retenues tiennent également compte des développements
-historiques.
-
-La constante de Planck, stem:[h], et la vitesse de la lumière dans le vide, stem:[c], sont appelées à juste
-titre constantes fondamentales: elles régissent, respectivement, des effets quantiques et des
-propriétés générales de l’espace-temps et affectent de la même façon particules et champs
-sur toutes les échelles et dans tous les environnements.
-
-La charge élémentaire, stem:[e], correspond à une constante de couplage de la force
-électromagnétique via la constante de structure fine
-stem:[alpha = e^2//(2c epsilon_0 h)] où stem:[epsilon_0] est la permittivité
-diélectrique du vide (également connue sous le nom de constante électrique). Certaines
-théories prédisent une variation de stem:[alpha] avec le temps. Les limites expérimentales de la
-variation maximale possible de stem:[alpha] sont néanmoins si faibles qu’un effet sur des mesures
-pratiques à venir peut être exclu.
-
-La constante de Boltzmann, stem:[k], est une constante de proportionnalité entre les grandeurs
-«&nbsp;température&nbsp;» (avec pour unité le kelvin) et «&nbsp;énergie&nbsp;» (avec pour unité le joule), dont la
-valeur numérique est obtenue à partir de spécificités historiques concernant l’échelle de
-température. La température d’un système varie avec son énergie thermique mais cela n’est
-pas forcément le cas concernant l’énergie interne du système. En physique statistique,
-la constante de Boltzmann relie l’entropie, stem:[S], au nombre stem:[Omega] d’états quantiques accessibles,
-stem:[S = k " ln " Omega].
-
-La fréquence du césium, stem:[Delta nu_{"Cs"}], fréquence de la
-transition hyperfine de l’état fondamental de l’atome de césium
-133 non perturbé, a le caractère d’un paramètre atomique qui peut être
-affecté par l’environnement -- par des champs électromagnétiques par exemple. Toutefois,
-la transition sous-jacente est parfaitement connue et stable; elle constitue, d’un point de
-vue pratique, un bon choix de transition de référence. Le choix d’un paramètre atomique
-comme stem:[Delta nu_{"Cs"}] ne dissocie pas la définition de la réalisation comme dans le cas de stem:[h], stem:[c], stem:[e] ou stem:[k],
-mais précise la référence retenue.
-
-La constante d’Avogadro, stem:[N_"A"], est une constante de proportionnalité entre la grandeur
-«&nbsp;quantité de matière&nbsp;» (dont l’unité est la mole) et une grandeur dont la valeur est déterminée
-par comptage d’entités (dont l’unité est le nombre «&nbsp;un&nbsp;», symbole 1). Elle a ainsi le caractère
-d’une constante de proportionnalité similaire à la constante de Boltzmann, stem:[k].
-
-L’efficacité lumineuse d’un rayonnement monochromatique de fréquence stem:[540 xx 10^(12) " Hz"],
-stem:[K_{"cd"}], est une constante technique qui établit une relation numérique exacte entre les
-caractéristiques purement physiques du flux énergétique stimulant l’oeil humain à une
-fréquence de stem:[540 xx 10^(12) " hertz (W)"] et la réponse photobiologique provoquée par le flux
-lumineux reçu par un observateur moyen (stem:["lm"]).
-
-
-=== Définitions des unités du SI
-
-Avant l’adoption de la révision du SI en 2018, le SI était défini à partir de sept _unités de base_, les _unités dérivées_ étant formées à partir de produits de puissances des _unités de base_.
-En définissant le SI en fixant la valeur numérique de sept constantes spécifiques,
-cette distinction n’est en principe pas nécessaire car les définitions de toutes les unités,
-qu’elles soient de base ou dérivées, peuvent être directement établies à partir des
-sept constantes. Toutefois, les concepts d’unités de base et d’unités dérivées sont conservés
-car ils sont pratiques et historiquement bien établis; par ailleurs, la série de normes
-ISO/IEC 80000 précise les grandeurs de base et les grandeurs dérivées qui doivent
-nécessairement correspondre aux unités de base du SI et aux unités dérivées, définies dans
-la présente brochure.
-
-
-==== Unités de base
-
-Les unités de base du SI sont rassemblées dans le <<table-2>>.
-
-[[table-2]]
-.Unités SI de base
-[cols="4"]
-|===
-2+h| Grandeur de base 2+h| Unité de base
-
-h| Nom h| Symbole caractéristique h| Nom h| Symbole
-
-| temps | stem:[t] | seconde | stem:["s"]
-| longueur | stem:[l, x, r], etc. | mètre | stem:["m"]
-| masse | stem:[m] | kilogramme | stem:["kg"]
-| courant électrique | stem:[I, i] | ampère | stem:["A"]
-| température thermodynamique | stem:[T] | kelvin | stem:["K"]
-| quantité de matière | stem:[n] | mole | stem:["mol"]
-| intensité lumineuse | stem:[I_"v"] | candela | stem:["cd"]
-
-|===
-
-NOTE: Les symboles des grandeurs, imprimés
-en italique, sont généralement de
-simples lettres de l’alphabet grec ou latin
-et constituent des _recommandations_.
-Les symboles des unités, imprimés en
-caractères romains (droits), sont
-_obligatoires_ (voir <<chapter5>>).
-
-
-La définition du SI fondée sur les valeurs numériques fixées des sept constantes choisies
-permet de déduire la définition de chacune des sept unités de base du SI à l’aide d’une ou
-plusieurs de ces constantes, selon les cas. Les définitions qui en découlent sont indiquées
-ci-après.
-
-
-*La seconde*
-
-*La seconde, symbole stem:["s"], est l’unité de temps du SI. Elle est définie en prenant la valeur
-numérique fixée de la fréquence du césium, stem:[Delta nu_{"Cs"}], la fréquence de la transition
-hyperfine de l’état fondamental de l’atome de césium 133 non perturbé, égale à
-stem:[9192631770] lorsqu’elle est exprimée en stem:["Hz"], unité égale à stem:["s"^{-1}].*
-
-Cette définition implique la relation exacte stem:[Delta nu_{"Cs"} = 9192631770 " Hz"]. En inversant cette
-relation, la seconde est exprimée en fonction de la constante stem:[Delta nu_{"Cs"}]:
-
+This definition implies the exact relation stem:[Delta nu_("Cs") = 9192631770 " Hz"]. Inverting this relation gives an expression for the unit second in terms of the defining constant stem:[Delta nu_("Cs")]:
 
 [stem%unnumbered]
 ++++
-1 " Hz" = {Delta nu_{"Cs"}} / {9192631770}  " ou " 1 " s" ={ 9192631770} / {Delta nu_{"Cs"}}
-++++ 
+1 " Hz" = (Delta nu_("Cs"))/(9192631770) " or " 1 " s" = (9192631770)/(Delta nu_("Cs"))
+++++
 
-Il résulte de cette définition que la seconde est égale à la durée de stem:[9192631770] périodes
-de la radiation correspondant à la transition entre les deux niveaux hyperfins de l’état
-fondamental de l’atome de césium 133 non perturbé.
+The effect of this definition is that the second is equal to the duration of stem:[9192631770] periods of the radiation corresponding to the transition between the two hyperfine levels of the unperturbed ground state of the ^133^Cs atom.
 
-Il est fait référence à un atome non perturbé afin d’indiquer clairement que la définition de
-la seconde du SI se fonde sur un atome de césium isolé qui n’est pas perturbé par un champ
-externe quel qu’il soit, tel que la radiation d’un corps noir à température ambiante.
+The reference to an unperturbed atom is intended to make it clear that the definition of the SI second is based on an isolated caesium atom that is unperturbed by any external field, such as ambient black-body radiation.
 
-La seconde ainsi définie est l’unité de temps propre, au sens de la théorie générale de la
-relativité. Pour établir une échelle de temps coordonné, les signaux de différentes horloges
-primaires dans le monde sont combinés, puis des corrections sont appliquées pour tenir
-compte du décalage relativiste de fréquence entre les étalons à césium (voir <<cls-236>>).
+The second, so defined, is the unit of proper time in the sense of the general theory of relativity. To allow the provision of a coordinated time scale, the signals of different primary clocks in different locations are combined, which have to be corrected for relativistic caesium frequency shifts (see <<si_units_gtr>>).
 
-Le CIPM a adopté différentes représentations secondaires de la seconde fondées sur un
-nombre choisi de raies spectrales d’atomes, ions ou molécules. Les fréquences non
-perturbées de ces raies peuvent être déterminées avec une incertitude relative qui n’est pas
-inférieure à celle de la réalisation de la seconde fondée sur la transition hyperfine de
-l’atome de ^133^Cs mais certaines peuvent être reproduites avec une meilleure stabilité.
+The CIPM has adopted various secondary representations of the second, based on a selected number of spectral lines of atoms, ions or molecules. The unperturbed frequencies of these lines can be determined with a relative uncertainty not lower than that of the realization of the second based on the ^133^Cs hyperfine transition frequency, but some can be reproduced with superior stability.
 
+*The metre*
 
-*Le mètre*
+*The metre, symbol stem:["m"], is the SI unit of length. It is defined by taking the fixed numerical value of the speed of light in vacuum, stem:[c], to be stem:[299792458] when expressed in the unit stem:["m s"^(−1)], where the second is defined in terms of the caesium frequency stem:[Delta nu_("Cs")].*
 
-*Le mètre, symbole stem:["m"], est l’unité de longueur du SI. Il est défini en prenant la valeur
-numérique fixée de la vitesse de la lumière dans le vide, stem:[c], égale à stem:[299792458]
-lorsqu’elle est exprimée en stem:["m s"^{-1}], la seconde étant définie en fonction de stem:[Delta nu_{"Cs"}].*
-
-Cette définition implique la relation exacte stem:[c = 299792458] stem:["m s"^{-1}]. En inversant cette
-relation, le mètre est exprimé en fonction des constantes stem:[c] et stem:[Delta nu_{"Cs"}]:
+This definition implies the exact relation stem:[c = 299792458 " m s"^(−1)].Inverting this relation gives an exact expression for the metre in terms of the defining constants stem:[c] and stem:[Delta nu_("Cs")]:
 
 [stem%unnumbered]
 ++++
-1 " m" = ( c / (299792458) ) s = (9192631770) / (299792458) c / {Delta nu_{"Cs"}} ~~ 30.663319 c / {Delta nu_{"Cs"}}
+1 " m" = (c/(299792458)) " s" = (9192631770)/(229792458) c/(Delta nu_("Cs")) ~~ 30.663319 c/(Delta nu_("Cs")).
 ++++
 
-Il résulte de cette définition que le mètre est la longueur du trajet parcouru dans le vide par
-la lumière pendant une durée de stem:[1//299792458] de seconde.
+The effect of this definition is that one metre is the length of the path travelled by light in vacuum during a time interval with duration of stem:[1//299792458] of a second.
 
+*The kilogram*
 
-*Le kilogramme*
+*The kilogram, symbol stem:["kg"], is the SI unit of mass. It is defined by taking the fixed numerical value of the Planck constant, stem:[h], to be stem:[6.62607015 times 10^(−34)] when expressed in the unit stem:["J s"], which is equal to stem:["kg m"^2 " s"^(−1)], where the metre and the second are defined in terms of stem:[c] and stem:[Delta nu_("Cs")].*
 
-*Le kilogramme, symbole stem:["kg"], est l’unité de masse du SI. Il est défini en prenant la
-valeur numérique fixée de la constante de Planck, stem:[h], égale à stem:[6.62607015 xx 10^{−34}]
-lorsqu’elle est exprimée en stem:["J s"], unité égale à stem:["kg m"^2 "s"^{-1}], le mètre et la seconde étant
-définis en fonction de stem:[c] et stem:[Delta nu_{"Cs"}].*
-
-Cette définition implique la relation exacte stem:[h = 6.62607015 xx 10^{−34} " kg m"^2 "s"^{-1}]. En inversant
-cette relation, le kilogramme est exprimé en fonction des trois
-constantes stem:[h], stem:[Delta nu_{"Cs"}] et stem:[c]:
-
+This definition implies the exact relation stem:[h = 6.62607015 times 10^(−34) " kg m"^2 " s"^(−1)]. Inverting this relation gives an exact expression for the kilogram in terms of the three defining constants stem:[h], stem:[Delta nu_("Cs")] and stem:[c]:
 
 [stem%unnumbered]
 ++++
-1 " kg" = ( h / {6.62607015 xx 10^{-34}}) " m"^{-2} "s"
+1 " kg" = (h/(6.62607015 times 10^(-34)))"m"^(-2)" s"
 ++++
 
-relation identique à
+which is equal to
 
 [stem%unnumbered]
 ++++
-1 " kg" = (299792458)^2 / {(6.62607015 xx 10^{-34})(9192631770)} {h Delta nu_{"Cs"}} / c^2 ~~ 1.4755214 xx 10^40 {h Delta nu_{"Cs"}} / c^2
+1 " kg" = ((299792458)^2)/((662607015 times 10^(-34))(9192631770)) (hDelta nu_("Cs"))/(c^2) ~~ 1.4755214 times 10^(40) (hDelta nu_("Cs"))/(c^2).
 ++++
 
-Cette définition permet de définir l’unité stem:["kg m"^2 " s"^{-1}] (l’unité des grandeurs physiques
-«&nbsp;action&nbsp;» et «&nbsp;moment cinétique&nbsp;»). Ainsi associée aux définitions de la seconde et du
-mètre, l’unité de masse est exprimée en fonction de la constante de Planck stem:[h].
+The effect of this definition is to define the unit stem:["kg m"^2 " s"^(−1)] (the unit of both the physical quantities action and angular momentum). Together with the definitions of the second and the metre this leads to a definition of the unit of mass expressed in terms of the Planck constant stem:[h].
 
-La précédente définition du kilogramme fixait la valeur de la masse du prototype
-international du kilogramme stem:[cc "K"], stem:[m(cc "K")], à exactement un kilogramme; la valeur de la
-constante de Planck stem:[h] devait donc être déterminée de façon expérimentale. L’actuelle
-définition du kilogrammme fixe la valeur numérique de stem:[h] de façon exacte et la masse du
-prototype doit désormais être déterminée de façon expérimentale.
+The previous definition of the kilogram fixed the value of the mass of the international prototype of the kilogram, stem:[m(cc "K")], to be equal to one kilogram exactly and the value of the Planck constant stem:[h] had to be determined by experiment. The present definition fixes the numerical value of stem:[h] exactly and the mass of the prototype has now to be determined by experiment.
 
-Le nombre choisi pour fixer la valeur numérique de la constante de Planck est tel qu’au
-moment de l’adoption de cette définition de l’unité de masse, le kilogramme était égal à la
-masse du prototype international stem:[m(cc "K") = 1] stem:["kg"] avec une incertitude-type relative égale à
-stem:[1 xx 10^{−8}], soit l’incertitude-type de la combinaison des meilleures estimations de la valeur de
-la constante de Planck à ce moment-là.
+The number chosen for the numerical value of the Planck constant in this definition is such that at the time of its adoption, the kilogram was equal to the mass of the international prototype, stem:[m(cc "K") = 1 " kg"], with a relative standard uncertainty of stem:[1 times 10^(−8)], which was the standard uncertainty of the combined best estimates of the value of the Planck constant at that time.
 
-Il est à noter que cette définition de l’unité de masse permet d’établir, en principe,
-des réalisations primaires à tout point de l’échelle de masse.
+Note that with the present definition, primary realizations can be established, in principle, at any point in the mass scale.
 
+*The ampere*
 
-*L’ampère*
+*The ampere, symbol stem:["A"], is the SI unit of electric current. It is defined by taking the fixed numerical value of the elementary charge, stem:[e], to be stem:[1.602176634 times 10^(−19)] when expressed in the unit stem:["C"], which is equal to stem:["A s"], where the second is defined in terms of stem:[Delta nu_("Cs")].*
 
-*L’ampère, symbole stem:["A"], est l’unité de courant électrique du SI. Il est défini en prenant
-la valeur numérique fixée de la charge élémentaire, stem:[e], égale à stem:[1.602176634 xx 10^{-19}]
-lorsqu’elle est exprimée en stem:["C"], unité égale à stem:["A s"], la seconde étant définie en fonction de
-stem:[Delta nu_{"Cs"}].*
-
-Cette définition implique la relation exacte stem:[e = 1.602176634 xx 10^{-19}] stem:["A s"]. En inversant
-cette relation, l’ampère est exprimé en fonction des constantes stem:[e] et stem:[Delta nu_{"Cs"}]:
+This definition implies the exact relation stem:[e = 1.602176634 times 10^(−19) " A s"].Inverting this relation gives an exact expression for the unit ampere in terms of the defining constants stem:[e] and stem:[Delta nu_("Cs")]:
 
 [stem%unnumbered]
 ++++
-1 " A" = (e/{1.602176634 xx 10^{-19}}) " s"^{-1}
+1 " A" = (e/(1.602176634 times 10^(-19)))" s"^(-1)
 ++++
 
-relation identique à
+which is equal to
 
 [stem%unnumbered]
 ++++
 1 " A" = 1/((9192631770)(1.602176634 times 10^(-19)))Delta nu_("Cs") e ~~ 6.7896868 times 10^8 Delta nu_("Cs") e.
 ++++
 
+The effect of this definition is that one ampere is the electric current corresponding to the flow of stem:[1//(1.602176634 times 10^(−19))] elementary charges per second.
 
-Il résulte de cette définition qu’un ampère est le courant électrique correspondant au flux de
-stem:[1//(1.602176634 xx 10^{-19})] charges élémentaires par seconde.
+The previous definition of the ampere was based on the force between two current carrying conductors and had the effect of fixing the value of the vacuum magnetic permeability stem:[mu_0] (also known as the magnetic constant) to be exactly stem:[4pi times 10^(−7) " H m"^(−1) = 4pi times 10^(−7) " N A"^(−2)], where stem:["H"] and stem:["N"] denote the coherent derived units henry and newton, respectively. The new definition of the ampere fixes the value of stem:[e] instead of stem:[mu_0]. As a result, stem:[mu_0] must be determined experimentally.
 
-La précédente définition de l’ampère, fondée sur la force produite entre deux conducteurs
-traversés par du courant, fixait la valeur de la perméabilité magnétique du vide stem:[mu_0] (également
-connue sous le nom de constante magnétique) à exactement stem:[4 pi xx 10^{-7} " H m"^{-1} = 4 pi xx 10^{-7} " N A"^{-2}],
-stem:["H"] et stem:["N"] représentant les unités dérivées cohérentes «&nbsp;henry&nbsp;» et «&nbsp;newton&nbsp;», respectivement.
-La nouvelle définition de l’ampère fixe la valeur numérique de stem:[e] et non plus celle de stem:[mu_0].
-Par conséquent, stem:[mu_0] doit désormais être déterminée de façon expérimentale.
+It also follows that since the vacuum electric permittivity stem:[epsilon_0] (also known as the electric constant), the characteristic impedance of vacuum stem:[Z_0], and the admittance of vacuum stem:[Y_0] are equal to stem:[1//mu_0 c^2], stem:[mu_0 c], and stem:[1//mu_0c], respectively, the values of stem:[epsilon_0], stem:[Z_0], and stem:[Y_0] must now also be determined experimentally, and are affected by the same relative standard uncertainty as stem:[mu_0] since stem:[c] is exactly known. The product stem:[epsilon_0 mu_0 = 1//c^2] and quotient stem:[Z_0//mu_0 = c] remain exact. At the time of adopting the present definition of the ampere, stem:[mu_0] was equal to stem:[4pi times 10^(−7) " H/m"] with a relative standard uncertainty of stem:[2.3 times 10^(−10)].
 
-Ainsi, comme la permittivité diélectrique du vide
-stem:[epsilon_0] (également connue sous le nom de constante électrique),
-l’impédance du vide caractéristique stem:[Z_0] et l’admittance du vide stem:[Y_0] sont
-égales à stem:[1//mu_0 c_2], stem:[mu_0 c] et stem:[1//mu_0 c] respectivement,
-les valeurs de stem:[epsilon_0], stem:[Z_0], et stem:[Y_0] doivent désormais
-être déterminées de façon expérimentale et ont la même incertitude-type relative que stem:[mu_0]
-puisque la valeur de stem:[c] est connue avec exactitude. Le produit stem:[epsilon_0 mu_0 = 1//c^2] et le quotient
-stem:[Z_0// mu_0 = c] restent exacts. Au moment de l’adoption de l’actuelle définition de l’ampère,
-stem:[mu_0] était égale à stem:[4 pi xx 10^{-7} " H/m"] avec une incertitude-type relative de stem:[2.3 xx 10^{-10}].
+*The kelvin*
 
+*The kelvin, symbol stem:["K"], is the SI unit of thermodynamic temperature. It is defined by taking the fixed numerical value of the Boltzmann constant, stem:[k], to be stem:[1.380649 times 10^(−23)] when expressed in the unit stem:["J K"^(−1)], which is equal to stem:["kg m"^2 " s"^(−2) " K"^(−1)], where the kilogram, metre and second are defined in terms of stem:[h], stem:[c] and stem:[Delta nu_("Cs")].*
 
-
-*Le kelvin*
-
-*Le kelvin, symbole stem:["K"], est l’unité de température thermodynamique du SI. Il est défini
-en prenant la valeur numérique fixée de la constante de Boltzmann, stem:[k], égale à
-stem:[1.380649 xx 10^{-23}] lorsqu’elle est exprimée en stem:["J K"^{-1}], unité égale à stem:["kg m"^2 " s"^{-2} " K"^{-1}],
-le kilogramme, le mètre et la seconde étant définis en fonction de stem:[h], stem:[c] et stem:[Delta nu_{"Cs"}].*
-
-Cette définition implique la relation exacte stem:[k = 1.380649 xx 10^{-23}] stem:["kg m"^2 " s"^{-2} " K"^{-1}].
-En inversant cette relation, le kelvin est exprimé en fonction des constantes stem:[k], stem:[h] et stem:[Delta nu_{"Cs"}]:
-
+This definition implies the exact relation stem:[k = 1.380649 times 10^(−23) " kg m"^2 " s"^(−2) " K"^(−1)]. Inverting this relation gives an exact expression for the kelvin in terms of the defining constants stem:[k], stem:[h] and stem:[Delta nu_("Cs")]:
 
 [stem%unnumbered]
 ++++
-1 " K" = ( {1.380649 xx 10^{-23}} / k ) "kg m"^2 " s"^{-2}
+1 " K" = ((1.380649 times 10^(-23))/k) " kg m"^2 " s"^(-2)
 ++++
 
-relation identique à
+which is equal to
 
 [stem%unnumbered]
 ++++
-1 " K" = {1.380649 xx 10^{-23}} / {(6.62607015 xx 10^{-34})(9192631770)} {Delta nu_{"Cs"} h} / k ~~ 2.2666653 {Delta nu_{"Cs"} h} / k
+1 " K" = (1.380649 times 10^(-23))/((6.62607015 times 10^(-34))(9192631770)) (Delta nu_("Cs")h)/k ~~ 2.2666653 (Delta nu_("Cs")h)/k
 ++++
 
+The effect of this definition is that one kelvin is equal to the change of thermodynamic temperature that results in a change of thermal energy stem:[kT] by stem:[1.380649 times 10^(−23) " J"].
 
-Il résulte de cette définition qu’un kelvin est égal au changement de la température
-thermodynamique résultant d’un changement de l’énergie thermique stem:[kT] de
-stem:[1.380649 xx 10^{-23}" J"].
+The previous definition of the kelvin set the temperature of the triple point of water, stem:[T_("TPW")] , to be exactly stem:[273.16 " K"]. Due to the fact that the present definition of the kelvin fixes the numerical value of stem:[k] instead of stem:[T_("TPW")], the latter must now be determined experimentally. At the time of adopting the present definition stem:[T_("TPW")] was equal to stem:[273.16 " K"] with a relative standard uncertainty of stem:[3.7 times 10^(−7)] based on measurements of stem:[k] made prior to the redefinition.
 
-La précédente définition du kelvin établissait la température du point triple de l’eau stem:[T_("TPW")]
-comme étant exactement égale à stem:[273.16 " K"]. Étant donné que l’actuelle définition du kelvin
-fixe la valeur numérique de k et non plus celle de stem:[T_{"TPW"}], cette dernière doit désormais être
-déterminée de façon expérimentale. Au moment de l’adoption de l’actuelle définition du
-kelvin, stem:[T_{"TPW"}] était égale à stem:[273.16 " K"] avec une incertitude-type relative de stem:[3.7 xx 10^{-7}]
-déterminée à partir des mesures de stem:[k] réalisées avant la redéfinition.
-
-En raison de la manière dont les échelles de température étaient habituellement définies,
-il est resté d’usage courant d’exprimer la température thermodynamique, symbole stem:[T],
-en fonction de sa différence par rapport à la température de référence stem:[T_0 = 273.15 " K"]
-proche du point de congélation de l’eau. Cette différence de température est appelée
-température Celsius, symbole stem:[t]; elle est définie par l’équation aux grandeurs:
+As a result of the way temperature scales used to be defined, it remains common practice to express a thermodynamic temperature, symbol stem:[T], in terms of its difference from the reference temperature stem:[T_0 = 273.15 " K"], close to the ice point. This difference is called the Celsius temperature, symbol stem:[t], which is defined by the quantity equation
 
 [stem%unnumbered]
 ++++
-t = T - T_0
+t = T − T_0 .
 ++++
 
-L’unité de température Celsius est le degré Celsius, symbole stem:["°C"], qui par définition est égal
-en amplitude à l’unité «&nbsp;kelvin&nbsp;». Une différence ou un intervalle de température peut
-s’exprimer aussi bien en kelvins qu’en degrés Celsius, la valeur numérique de la différence
-de température étant la même dans les deux cas. La valeur numérique de la température
-Celsius exprimée en degrés Celsius est liée à la valeur numérique de la température
-thermodynamique exprimée en kelvins par la relation:
+The unit of Celsius temperature is the degree Celsius, symbol stem:["°C"], which is by definition equal in magnitude to the unit kelvin. A difference or interval of temperature may be expressed in kelvin or in degrees Celsius, the numerical value of the temperature difference being the same in either case. However, the numerical value of a Celsius temperature expressed in degrees Celsius is related to the numerical value of the thermodynamic temperature expressed in kelvin by the relation
 
 [stem%unnumbered]
 ++++
-t // "°C" = T // "K" - 273.15
+t "/°C" = T"/K" − 273.15
 ++++
 
-(voir <<scls541>> pour une explication de la notation utilisée ici).
+(see <<quantity_value>> for an explanation of the notation used here).
 
-Le kelvin et le degré Celsius sont aussi les unités de l’Échelle internationale de température
-de 1990 (EIT-90) adoptée par le CIPM en 1989 dans sa Recommandation 5 (CI-1989, PV,
-*57*, 26). Il est à noter que l’EIT-90 définit les deux grandeurs
-stem:[T_{90}] et stem:[t_{90}] qui sont de très
-bonnes approximations des températures thermodynamiques correspondantes stem:[T] et stem:[t].
+The kelvin and the degree Celsius are also units of the International Temperature Scale of 1990 (ITS-90) adopted by the CIPM in 1989 in Recommendation 5 (CI-1989, PV, *57*, 115). Note that the ITS-90 defines two quantities stem:[T_(90)] and stem:[t_(90)] which are close approximations to the corresponding thermodynamic temperatures stem:[T] and stem:[t].
 
-Il est également à noter que l’actuelle définition de l’unité de température
-thermodynamique permet d’établir, en principe, des réalisations primaires du kelvin à tout
-point de l’échelle de température.
+Note that with the present definition, primary realizations of the kelvin can, in principle, be established at any point of the temperature scale.
 
+*The mole*
 
-*La mole*
+*The mole, symbol stem:["mol"], is the SI unit of amount of substance. One mole contains exactly stem:[6.02214076 times 10^(23)] elementary entities. This number is the fixed numerical value of the Avogadro constant, stem:[N_"A"], when expressed in the unit stem:["mol"^(−1)] and is called the Avogadro number.*
 
-*La mole, symbole stem:["mol"], est l’unité de quantité de matière du SI. Une mole contient
-exactement stem:[6.02214076 xx 10^(23)] entités élémentaires. Ce nombre, appelé
-«&nbsp;nombre d’Avogadro&nbsp;», correspond à la valeur numérique fixée de la constante
-d’Avogadro, stem:[N_"A"], lorsqu’elle est exprimée en stem:["mol"^{-1}].*
+*The amount of substance, symbol stem:[n], of a system is a measure of the number of specified elementary entities. An elementary entity may be an atom, a molecule, an ion, an electron, any other particle or specified group of particles.*
 
-*La quantité de matière, symbole stem:[n], d’un système est une représentation du nombre
-d’entités élémentaires spécifiées. Une entité élémentaire peut être un atome,
-une molécule, un ion, un électron, ou toute autre particule ou groupement spécifié de
-particules.*
-
-Cette définition implique la relation exacte stem:[N_"A" = 6.02214076 xx 10^23] stem:["mol"^{-1}]. En inversant
-cette relation, on obtient l’expression exacte de la mole en fonction de la constante stem:[N_"A"]:
+This definition implies the exact relation stem:[N_"A" = 6.02214076 times 10^(23) " mol"^(−1)]. Inverting this relation gives an exact expression for the mole in terms of the defining constant stem:[N_"A"]:
 
 [stem%unnumbered]
 ++++
-1 " mol" = ( {6.02214076 xx 10^(23)} / N_"A" )
+1 " mol" = ((6.02214076 times 10^(23))/N_"A").
 ++++
 
+The effect of this definition is that the mole is the amount of substance of a system that contains stem:[6.02214076 times 10^(23)] specified elementary entities.
 
-Il résulte de cette définition que la mole est la quantité de matière d’un système qui contient
-stem:[6.02214076 xx 10^(23)] entités élémentaires spécifiées.
+The previous definition of the mole fixed the value of the molar mass of carbon 12, stem:[M](^12^C), to be exactly stem:[0.012 " kg/mol"]. According to the present definition stem:[M](^12^C) is no longer known exactly and must be determined experimentally. The value chosen for stem:[N_"A"] is such that at the time of adopting the present definition of the mole, stem:[M](^12^C) was equal to stem:[0.012 " kg/mol"] with a relative standard uncertainty of stem:[4.5 times 10^(−10)].
 
-La précédente définition de la mole fixait la valeur de la masse molaire du carbone 12,
-stem:[M(""^{12}"C")], comme étant exactement égale à stem:[0.012 " kg/mol"]. Selon l’actuelle définition de la
-mole, stem:[M(""^{12}"C")] n’est plus connue avec exactitude et doit être déterminée de façon
-expérimentale. La valeur choisie pour stem:[N_"A"] est telle qu’au moment de l’adoption de la
-présente définition de la mole, stem:[M(""^{12}"C")] était égale à stem:[0.012 " kg/mol"] avec une incertitude-type
-relative de stem:[4.5 xx 10^{-10}].
-
-La masse molaire d’un atome ou d’une molécule stem:["X"] peut toujours être obtenue à partir de sa
-masse atomique relative à l’aide de l’équation:
+The molar mass of any atom or molecule stem:["X"] may still be obtained from its relative atomic mass from the equation
 
 [stem%unnumbered]
 ++++
-M("X") = A_"r" ("X") [M(""^{12}"C")//12] = A_"r" ("X") M_"u"
+M("X") = A_"r"("X")["M"(text()^(12)C)//12] = A_"r"("X")M_"u"
 ++++
 
-et la masse molaire d’un atome ou d’une molécule stem:["X"] est également reliée à la masse d’une
-entité élémentaire stem:[m("X")] par la relation:
+and the molar mass of any atom or molecule stem:["X"] is also related to the mass of the elementary entity stem:[m("X")] by the relation
 
 [stem%unnumbered]
 ++++
-M("X") = N_"A" m("X") = N_"A" A_"r" ("X") m_"u"
+M("X") = N_"A" m("X") = N_"A" A_"r"("X") m_"u" .
 ++++
 
-Dans ces équations, stem:[M_"u"] est la constante de masse molaire,
-égale à stem:[M](^12^C)/12, et stem:[m_"u"] est la
-constante de masse atomique unifiée, égale à stem:[m](^12^C)/12.
-Elles sont liées à la constante d’Avogadro par la relation:
+In these equations stem:[M_"u"] is the molar mass constant, equal to stem:[M](^12^C)/12 and stem:[m_"u"] is the unified atomic mass constant, equal to stem:[m](^12^C)/12. They are related to the Avogadro constant through the relation
 
 [stem%unnumbered]
 ++++
-M_"u" = N_"A" m_"u"
+M_"u" = N_"A" m_"u" .
 ++++
 
-Dans le terme «&nbsp;quantité de matière&nbsp;», le mot «&nbsp;matière&nbsp;» sera généralement remplacé par
-d’autres mots précisant la matière en question pour chaque application particulière;
-on pourrait par exemple parler de «&nbsp;quantité de chlorure d’hydrogène&nbsp;» ou de «&nbsp;quantité de
-benzène&nbsp;». Il est important de définir précisément l’entité en question (comme le souligne la
-définition de la mole), de préférence en précisant la formule chimique moléculaire du
-matériau concerné. Bien que le mot «&nbsp;quantité&nbsp;» ait une définition plus générale dans le
-dictionnaire, cette abréviation du nom complet «&nbsp;quantité de matière&nbsp;» est parfois utilisée
-par souci de concision. Ceci s’applique aussi aux grandeurs dérivées telles que la
-concentration de quantité de matière, qui peut simplement être appelée «&nbsp;concentration de
-quantité&nbsp;». Dans le domaine de la chimie clinique, le nom «&nbsp;concentration de quantité de
-matière&nbsp;» est généralement abrégé en «&nbsp;concentration de matière&nbsp;».
+In the name "amount of substance", the word "substance" will typically be replaced by words to specify the substance concerned in any particular application, for example "amount of hydrogen chloride", or "amount of benzene". It is important to give a precise definition of the entity involved (as emphasized in the definition of the mole); this should preferably be done by specifying the molecular chemical formula of the material involved. Although the word "amount" has a more general dictionary definition, the abbreviation of the full name "amount of substance" to "amount" may be used for brevity. This also applies to derived quantities such as "amount-of-substance concentration", which may simply be called "amount concentration". In the field of clinical chemistry, the name "amount-of-substance concentration" is generally abbreviated to "substance concentration".
 
+*The candela*
 
-*La candela*
+*The candela, symbol stem:["cd"], is the SI unit of luminous intensity in a given direction. It is defined by taking the fixed numerical value of the luminous efficacy of monochromatic radiation of frequency stem:[540 times 10^(12) " Hz"], stem:[K_("cd")], to be 683 when expressed in the unit stem:["lm W"^(−1)], which is equal to stem:["cd sr W"^(−1)], or stem:["cd sr kg"^(−1) " m"^(−2) " s"^3], where the kilogram, metre and second are defined in terms of stem:[h], stem:[c] and stem:[Delta nu_("Cs")].*
 
-*La candela, symbole stem:["cd"], est l’unité du SI d’intensité lumineuse dans une direction
-donnée. Elle est définie en prenant la valeur numérique fixée de l’efficacité lumineuse
-d’un rayonnement monochromatique de fréquence stem:[540 xx 10^(12) " Hz"], stem:[K_{"cd"}], égale à
-683 lorsqu’elle est exprimée en stem:["lm W"^{-1}], unité égale à stem:["cd sr W"^{-1}], ou stem:["cd sr kg"^{-1} " m"^{-2} " s"^3],
-le kilogramme, le mètre et la seconde étant définis en fonction de stem:[h], stem:[c] et stem:[Delta nu_{"Cs"}].*
-
-Cette définition implique la relation exacte stem:[K_{"cd"} = 683 " cd sr kg"^{-1} " m"^{-2} " s"^3] pour le rayonnement
-monochromatique de fréquence stem:[nu = 540 xx 10^(12) " Hz"]. En inversant cette relation, la candela
-est exprimée en fonction des constantes stem:[K_{"cd"}], stem:[h] et stem:[Delta nu_{"Cs"}]:
+This definition implies the exact relation stem:[K_("cd") = 683 " cd sr kg"^(−1) " m"^(−2) " s"^3] for monochromatic radiation of frequency stem:[nu = 540 times 10^(12) " Hz"]. Inverting this relation gives an exact expression for the candela in terms of the defining constants stem:[K_("cd")], stem:[h] and stem:[Delta nu_("Cs")]:
 
 [stem%unnumbered]
 ++++
-1 " cd" = ( K_{"cd"} / 683 ) " kg m"^2 " s"^{-3} " sr"^{-1}
+1 " cd" = (K_("cd")/683) " kg m"^2 " s"^(-3) " sr"^(-1)
 ++++
 
-relation identique à
+which is equal to
 
 [stem%unnumbered]
 ++++
-1 " cd" = 1/((6.62607015 xx 10^(-34))(9192631770)^{2} 683)(Delta nu_("Cs"))^2 h " " K_("cd")
+1 " cd" = 1/((6.62607015 xx 10^(-34))(9192631770)^{2} 683)(Delta nu_("Cs"))^2 h K_("cd")
 ++++
 
 [stem%unnumbered]
 ++++
-~~ 2.6148305 xx 10^(10)(Delta nu_("Cs"))^2 h " " K_("cd")
+~~ 2.6148305 xx 10^(10)(Delta nu_("Cs"))^2 h K_("cd")
 ++++
 
+The effect of this definition is that one candela is the luminous intensity, in a  given direction, of a source that emits monochromatic radiation of frequency stem:[540 times 10^(12) " Hz"] and has a radiant intensity in that direction of stem:[(1//683) " W sr"^(−1)]. The definition of the steradian is given below <<table4>>.
 
-Il résulte de cette définition que la candela est l’intensité lumineuse, dans une direction
-donnée, d’une source qui émet un rayonnement monochromatique de fréquence
-stem:[540 xx 10^(12) " Hz"] et dont l’intensité énergétique dans cette direction est stem:[(1//683) " W sr"^{-1}].
-La définition du stéradian est donnée au bas du <<table-4>>.
+==== Practical realization of SI units
 
+The highest-level experimental methods used for the realization of units using the equations of physics are known as primary methods. The essential characteristic of a primary method is that it allows a quantity to be measured in a particular unit by using only measurements of quantities that do not involve that unit. In the present formulation of the SI, the basis of the definitions is different from that used previously, so that new methods may be used for the practical realization of SI units.
 
-==== Réalisation pratique des unités du SI
+Instead of each definition specifying a particular condition or physical state, which sets a fundamental limit to the accuracy of realization, a user is now free to choose any convenient equation of physics that links the defining constants to the quantity intended to be measured. This is a much more general way of defining the basic units of measurement. It is not limited by today's science or technology; future developments may lead to different ways of realizing units to a higher accuracy. When defined this way, there is, in principle, no limit to the accuracy with which a unit might be realized. The exception remains the definition of the second, in which the original microwave transition of caesium must remain, for the time being, the basis of the definition. For a more comprehensive explanation of the realization of SI units see <<appendix2>>.
 
-Les méthodes expérimentales de haut niveau utilisées pour réaliser les unités à l’aide
-d’équations de la physique sont appelées «&nbsp;méthodes primaires&nbsp;». Une méthode primaire a
-pour caractéristique essentielle de permettre de mesurer une grandeur dans une unité
-particulière en utilisant seulement des mesures de grandeurs qui n’impliquent pas l’unité en
-question. Dans la présente formulation du SI, le fondement des définitions est différent de
-celui utilisé précédemment, c’est pourquoi de nouvelles méthodes peuvent être utilisées
-pour la réalisation pratique des unités du SI.
+[[dimensions_of_quantities]]
+==== Dimensions of quantities
 
-Chaque définition qui indique une condition ou un état physique spécifique impose une
-limite fondamentale à l’exactitude de la réalisation. Un utilisateur est désormais libre de
-choisir toute équation de la physique appropriée qui relie les constantes définissant le SI à
-la grandeur à mesurer. Cette approche pour définir les unités de mesure les plus courantes
-est beaucoup plus générale car elle n’est pas limitée par l’état actuel de la science ou des
-technologies: en fonction des progrès à venir, d’autres manières de réaliser les unités à un
-niveau d’exactitude plus élevé pourront être développées. Avec un tel système d’unités,
-il n’existe en principe aucune limite concernant l’exactitude avec laquelle une unité peut
-être réalisée. L’exception reste la seconde pour laquelle la transition micro-onde du césium
-doit être conservée, pour le moment, comme base de la définition.
+Physical quantities can be organized in a system of dimensions, where the system used is decided by convention. Each of the seven base quantities used in the SI is regarded as having its own dimension. The symbols used for the base quantities and the symbols used to denote their dimension are shown in <<table3>>.
 
-Une description plus détaillée de la réalisation des unités du SI figure à l’<<appendix2>>.
-
-
-[[dim_des_grandeurs]]
-==== Dimension des grandeurs
-
-Les grandeurs physiques peuvent être organisées selon un système de dimensions qui a été
-décidé par convention. Chacune des sept grandeurs de base du SI est considérée avoir sa
-propre dimension. Les symboles utilisés pour les grandeurs de base et ceux utilisés pour
-indiquer leur dimension sont présentés dans le <<table-3>>.
-
-
-[[table-3]]
-.Grandeurs de base et dimensions utilisées avec le SI
-[cols="1,^,^"]
+[[table3]]
+.Base quantities and dimensions used in the SI
+[cols="<,<,<"]
 |===
-| Grandeur de base | Symbole caractéristique de la grandeur | Symbole de la dimension
+| Base quantity | Typical symbol for quantity | Symbol for dimension
 
-| temps | stem:[t] | stem:[sf "T"]
-| longueur | stem:[l, x, r,"etc."] | stem:[sf "L"]
-| masse | stem:[m] | stem:[sf "M"]
-| courant électrique | stem:[I, i] | stem:[sf "I"]
-| température thermodynamique | stem:[T] | stem:[Theta]
-| quantité de matière | stem:[n] | stem:[sf "N"]
-| intensité lumineuse | stem:[I_"v"] | stem:[sf "J"]
+| time | stem:[t] | stem:[sf "T"]
+| length | stem:[l, x, r], etc. | stem:[sf "L"]
+| mass | stem:[m] | stem:[sf "M"]
+| electric current | stem:[I, i] | stem:[sf "I"]
+| thermodynamic temperature | stem:[T] | stem:[Theta]
+| amount of substance | stem:[n] | stem:[sf "N"]
+| luminous intensity | stem:[I_("v")] | stem:[sf "J"]
 |===
 
-
-Toutes les autres grandeurs, à l’exception de celles dont la valeur est déterminée par
-comptage, sont des grandeurs dérivées qui peuvent être exprimées en fonction des grandeurs
-de base à l’aide des équations de la physique. Les dimensions des grandeurs dérivées sont
-écrites sous la forme de produits de puissances des dimensions des grandeurs de base au
-moyen des équations qui relient les grandeurs dérivées aux grandeurs de base. En général,
-la dimension d’une grandeur stem:[Q] s’écrit sous la forme d’un produit dimensionnel,
+All other quantities, with the exception of counts, are derived quantities, which may be written in terms of base quantities according to the equations of physics. The dimensions of the derived quantities are written as products of powers of the dimensions of the base quantities using the equations that relate the derived quantities to the base quantities. In general the dimension of any quantity stem:[Q] is written in the form of a dimensional product,
 
 [stem%unnumbered]
 ++++
-"dim " Q = sf "T"^{alpha} sf "L"^{beta} sf "M"^{gamma} sf "I"^{delta} Theta^{epsilon} sf "N"^{zeta} sf "J"^{eta}
+"dim "Q = sf "T"^(alpha) sf "L"^(beta) sf "M"^(gamma) sf "I"^(delta) Theta^(epsilon) sf "N"^(zeta) sf "J"^(eta)
 ++++
 
-où les exposants stem:[alpha], stem:[beta], stem:[gamma], stem:[delta],
-stem:[epsilon], stem:[zeta] et stem:[eta], qui sont en général de petits nombres entiers positifs,
-négatifs ou nuls, sont appelés exposants dimensionnels.
+where the exponents stem:[alpha, beta, gamma, delta, epsilon, zeta] and stem:[eta], which are generally small integers, which can be positive, negative, or zero, are called the dimensional exponents.
 
-Certaines grandeurs stem:[Q] sont définies par une équation aux grandeurs telle que tous les
-exposants dimensionnels de l’équation de la dimension de stem:[Q] sont égaux à zéro. C’est vrai,
-en particulier, pour une grandeur définie comme le rapport entre deux grandeurs de même
-espèce. Par exemple, l’indice de réfraction d’un milieu est le rapport de deux vitesses et la
-permittivité relative est le rapport entre la permittivité d’un milieu diélectrique et celle du
-vide. De telles grandeurs sont simplement des nombres. L’unité associée est l’unité «&nbsp;un&nbsp;»,
-symbole 1, bien que l’unité «&nbsp;un&nbsp;» soit rarement explicitement écrite (voir <<scls547>>).
+There are quantities stem:[Q] for which the defining equation is such that all of the dimensional exponents in the equation for the dimension of stem:[Q] are zero. This is true in particular for any quantity that is defined as the ratio of two quantities of the same kind. For example, the refractive index is the ratio of two speeds and the relative permittivity is the ratio of the permittivity of a dielectric medium to that of free space. Such quantities are simply numbers. The associated unit is the unit one, symbol stem:[1], although this is rarely explicitly written (see <<stating_quantity>>).
 
-Il existe également des grandeurs qui ne peuvent pas être décrites au moyen des
-sept grandeurs de base du SI mais dont la valeur est déterminée par comptage.
-C’est, par exemple, un nombre de molécules, d’entités cellulaires ou biomoléculaires (telles
-que des copies d’une séquence d’acide nucléique particulière) ou la dégénérescence en
-mécanique quantique. Ces grandeurs de comptage ont également pour unité le nombre un.
+There are also some quantities that cannot be described in terms of the seven base quantities of the SI, but have the nature of a count. Examples are a number of molecules, a number of cellular or biomolecular entities (for example copies of a particular nucleic acid sequence), or degeneracy in quantum mechanics. Counting quantities are also quantities with the associated unit one.
 
-L’unité «&nbsp;un&nbsp;» est nécessairement l’élément neutre de tout système d’unités: elle est
-automatiquement présente. Il n’y a pas lieu d’introduire l’unité «&nbsp;un&nbsp;» dans le SI par une
-décision spécifique. Ainsi, il est possible d’établir la traçabilité formelle au SI par des
-procédures adéquates et validées.
+The unit one is the neutral element of any system of units – necessary and present automatically. There is no requirement to introduce it formally by decision. Therefore, a formal traceability to the SI can be established through appropriate, validated measurement procedures.
 
-Les angles plans et solides, lorsqu’ils sont exprimés respectivement en radians et stéradians,
-sont également traités dans le SI comme des grandeurs d’unité «&nbsp;un&nbsp;» (voir <<scls548>>).
-Au besoin, les symboles rad et sr sont écrits explicitement de façon à souligner que la
-grandeur considérée, pour les radians ou stéradians, est – ou implique – respectivement
-l’angle plan ou l’angle solide. L’usage des stéradians souligne par exemple la distinction
-entre les unités de flux et d’intensité en radiométrie et photométrie. Toutefois, c’est une
-pratique établie de longue date en mathématiques et dans tous les domaines de la science
-d’utiliser stem:["rad" = 1] et stem:["sr" = 1]. Pour des raisons historiques, le radian et le stéradian sont traités
-comme des unités dérivées, tel que décrit dans la <<scls234>>.
+Plane and solid angles, when expressed in radians and steradians respectively, are in effect also treated within the SI as quantities with the unit one (see <<plane_angles>>). The symbols rad and sr are written explicitly where appropriate, in order to emphasize that, for radians or steradians, the quantity being considered is, or involves the plane angle or solid angle respectively. For steradians it emphasizes the distinction between units of flux and intensity in radiometry and photometry for example. However, it is a long-established practice in mathematics and across all areas of science to make use of stem:[text(rad) = 1] and stem:["sr" = 1]. For historical reasons the radian and steradian are treated as derived units, as described in <<derived_units>>.
 
-Il est particulièrement important de disposer d’une description claire de toute grandeur
-d’unité «&nbsp;un&nbsp;» (voir <<scls547>>), qui peut s’exprimer comme un rapport de grandeurs de
-même nature (rapports de longueur, fractions molaires, etc.) ou comme un comptage
-(nombre de photons, désintégrations, etc.).
+It is especially important to have a clear description of any quantity with unit one (see <<stating_quantity>>) that is expressed as a ratio of quantities of the same kind (for example length ratios or amount fractions) or as a count (for example number of photons or decays).
 
+[[derived_units]]
+==== Derived units
 
-[[scls234]]
-==== Unités dérivées
+Derived units are defined as products of powers of the base units. When the numerical factor of this product is one, the derived units are called _coherent derived units_. The base and coherent derived units of the SI form a coherent set, designated the _set of coherent SI units_. The word "coherent" here means that equations between the numerical values of quantities take exactly the same form as the equations between the quantities themselves.
 
-Les unités dérivées sont définies comme des produits de puissances des unités de base.
-Lorsque le facteur numérique de ce produit est un, les unités dérivées sont appelées _unités
-dérivées cohérentes_. Les unités de base et les unités dérivées cohérentes du SI forment un
-ensemble cohérent désigné sous le nom d’__ensemble cohérent des unités SI__. Le terme
-«&nbsp;cohérent&nbsp;» signifie que les équations reliant les valeurs numériques des grandeurs prennent
-exactement la même forme que les équations reliant les grandeurs proprement dites.
+Some of the coherent derived units in the SI are given special names. <<table4>> lists 22 SI units with special names. Together with the seven base units (<<table2>>) they form the core of the set of SI units. All other SI units are combinations of some of these 29 units.
 
-Certaines unités dérivées cohérentes du SI ont reçu un nom spécial. Le <<table-4>> établit la
-liste des 22 unités ayant un nom spécial. Les sept unités de base (voir <<table-2>>) et les
-unités dérivées cohérentes constituent la partie centrale de l’ensemble des unités du SI:
-toutes les autres unités du SI sont des combinaisons de certaines de ces 29 unités.
+It is important to note that any of the seven base units and 22 SI units with special names can be constructed directly from the seven defining constants. In fact, the units of the seven defining constants include both base and derived units.
 
-Il est important de noter que n’importe laquelle des 7 unités de base et des 22 unités ayant
-un nom spécial peut être formée directement à partir des sept constantes définissant le SI.
-En effet, les unités de ces sept constantes incluent à la fois des unités de base et des unités
-dérivées.
+The CGPM has adopted a series of prefixes for use in forming the decimal multiples and sub-multiples of the coherent SI units (see <<multiples>>). They are convenient for expressing the values of quantities that are much larger than or much smaller than the coherent unit. However, when prefixes are used with SI units, the resulting units are no longer coherent, because the prefix introduces a numerical factor other than one. Prefixes may be used with any of the 29 SI units with special names with the exception of the base unit kilogram, which is further explained in <<multiples>>.
 
-La CGPM a adopté une série de préfixes servant à former des multiples et sous-multiples
-décimaux des unités SI cohérentes (voir <<chapter3>>). Ces préfixes sont pratiques pour
-exprimer les valeurs de grandeurs beaucoup plus grandes ou beaucoup plus petites que
-l’unité cohérente. Cependant, quand un préfixe est utilisé avec une unité du SI, l’unité
-dérivée obtenue n’est plus cohérente car le préfixe introduit un facteur numérique différent
-de un. Des préfixes peuvent être utilisés avec l’ensemble des 7 unités de base et des
-22 unités ayant un nom spécial, à l’exception de l’unité de base «&nbsp;kilogramme&nbsp;», comme
-expliqué en détail au <<chapter3>>.
-
-[[table-4]]
-.Les 22 unités SI ayant un nom spécial et un symbole particulier
-[cols="4",options="header"]
+[[table4]]
+.The 22 SI units with special names and symbols
+[cols="<,<,<,<"]
 |===
-| Grandeur dérivée
-| Nom spécial de l’unité
-| Expression de l’unité en unités de base footnote:[L'ordre des symboles des unités de base dans le <<table-4>> est différent de celui utilisé dans la 8^e^ édition de la Brochure sur le SI par suite à la décision prise par le CCU à sa 21^e^ réunion (2013) de
-revenir à l’ordre originel défini dans la Résolution 12 adoptée par la CGPM à sa 11^e^ réunion (1960),
-selon laquelle le newton est noté: stem:["kg m s"^{-2}], le joule: stem:["kg m"^2 " s"^{-2}] et stem:["J s"]: stem:["kg m"^{-2^} " s"^{-1}]. L’objectif est de refléter les principes physiques sous-jacents aux équations correspondantes des grandeurs bien que,
-pour certaines unités dérivées plus complexes, cela puisse s’avérer impossible.]
-| Expression de l’unité en d’autres unités SI
+| Derived quantity | Special name of unit | Unit expressed in terms of base units footnote:[The order of symbols for base units in this Table is different from that in the 8th edition following a decision by the CCU at its 21st meeting (2013) to return to the original order in Resolution 12 of the 11th CGPM (1960) in which newton was written stem:["kg m s"^(−2)], the joule as stem:["kg m"^2 " s"^(−2)] and stem:["J s"] as stem:["kg m"^(−2) " s"^(−1)]. The intention was to reflect the underlying physics of the corresponding quantity equations although for some more complex derived units this may not be possible.] | Unit expressed in terms of other SI units
 
-| angle plan | radian footnote:[Le radian est l’unité cohérente d’angle plan. Un radian est un angle compris entre deux rayons d’un
-cercle qui, sur la circonférence du cercle, interceptent un arc de longueur égale à celle du rayon.
-Le radian est aussi l’unité d’angle de phase. Pour les phénomènes périodiques, l’angle de phase
-augmente de stem:[2 pi " rad"] à chaque période. Le radian était auparavant une unité SI supplémentaire mais
-cette catégorie a été supprimée en 1995.] | stem:["rad" = "m/m"] | 
-| angle solide | stéradian footnote:[Le stéradian est l’unité cohérente d’angle solide. Un stéradian est un angle solide d’un cône qui,
-ayant son sommet au centre d’une sphère, découpe sur la surface de cette sphère une aire égale à
-celle d’un carré ayant pour côté une longueur égale au rayon de la sphère. Comme le radian,
-le stéradian était auparavant une unité SI supplémentaire.] | stem:["sr" = "m"^2 // "m"^2] |
-| fréquence | hertz footnote:[Le hertz ne doit être utilisé que pour les phénomènes périodiques et le becquerel que pour les
-processus aléatoires liés à la mesure de l’activité d’un radionucléide.] | stem:["Hz" = "s"^{-1}] | 
-| force | newton | stem:["N" = "kg m s"^{-2}] | 
-| pression, contrainte | pascal | stem:["Pa" = "kg m"^{-1} " s"^{-2}] | 
-| énergie, travail, quantité de chaleur | joule | stem:["J" = "kg m"^2 " s"^{-2}] | stem:["N m"]
-| puissance, flux énergétique | watt | stem:["W" = "kg m"^2 " s"^{-3}] | stem:["J/s"]
-| charge électrique | coulomb | stem:["C" = "A s"] | 
-| différence de potentiel électrique footnote:[La différence de potentiel électrique est
-également appelée «&nbsp;tension&nbsp;» ou «&nbsp;tension électrique&nbsp;»
-dans certains pays.] | volt | stem:["V" = "kg m"^2 " s"^{-3} " A"^{-1}] | stem:["W/A"]
-| capacité électrique | farad | stem:["F" = "kg"^{-1} " m"^{-2} " s"^4 " A"^2] | stem:["C/V"]
-| résistance électrique | ohm | stem:[Omega = "kg m"^2 " s"^{-3} " A"^{-2}] | stem:["V/A"]
-| conductance électrique | siemens | stem:["S" = "kg"^{-1} " m"^{-2} " s"^3 " A"^2] | stem:["A/V"]
-| flux d’induction magnétique | weber | stem:["Wb" = "kg m"^2 " s"^{-2} " A"^{-1}] | stem:["V s"]
-| induction magnétique | tesla | stem:["T" = "kg s"^{-2} " A"^{-1}] | stem:["Wb/m"^2]
-| inductance | henry | stem:["H" = "kg m"^2 " s"^{-2} " A"^{-2}] | stem:["Wb/A"]
-| température Celsius | degré Celsius footnote:[Le degré Celsius est utilisé pour exprimer des températures Celsius. La valeur numérique d’une
-différence de température ou d’un intervalle de température est identique quand elle est exprimée en
-degrés Celsius ou en kelvins.] | stem:["°C" = "K"] |
-| flux lumineux | lumen | stem:["lm" = "cd sr"] footnote:[En photométrie, on maintient généralement le nom et le symbole du stéradian, sr, dans l’expression des unités.] | stem:["cd sr"]
-| éclairement lumineux | lux | stem:["lx" = "cd sr m"^{-2}] | stem:["lm"//"m"^2]
-| activité d’un radionucléide footnote:[Le hertz ne doit être utilisé que pour les phénomènes périodiques et le becquerel que pour les
-processus aléatoires liés à la mesure de l’activité d’un radionucléide.] footnote:[L’activité d’un radionucléide est parfois appelée de manière incorrecte radioactivité.] | becquerel | stem:["Bq" = "s"^{-1}] |
-| dose absorbée, kerma | gray | stem:["Gy" = "m"^2 " s"^{-2}] | stem:["J/kg"]
-| équivalent de dose | sievert footnote:[Voir la Recommandation 2 du CIPM sur l’utilisation du sievert (PV, 2002, *70*, 102).] | stem:["Sv" = "m"^2 " s"^{-2}] | stem:["J/kg"]
-| activité catalytique | katal | stem:["kat" = "mol s"^{-1}] |
+| plane angle | radian footnote:[The radian is the coherent unit for plane angle. One radian is the https://en.wikipedia.org/wiki/Angle[angle] https://en.wikipedia.org/wiki/Subtended[subtended] at the centre of a https://en.wikipedia.org/wiki/Circle[circle] by an https://en.wikipedia.org/wiki/Arc_%28geometry%29[arc] that is equal in length to the https://en.wikipedia.org/wiki/Radius[radius]. It is also the unit for phase angle. For periodic phenomena, the phase angle increases by stem:[2pi " rad"] in one period. The radian was formerly an https://en.wikipedia.org/wiki/SI_supplementary_unit[SI supplementary unit], but this category was abolished in 1995.] | stem:["rad" = "m/m"] |
+| solid angle | steradian footnote:[The steradian is the coherent unit for solid angle. One steradian is the solid angle subtended at the centre of a sphere by an area of the surface that is equal to the squared radius. Like the radian, the steradian was formerly an SI supplementary unit.] | stem:["sr" = "m"^2"/m"^2] |
+| frequency | hertz footnote:d[The hertz shall only be used for periodic phenomena and the becquerel shall only be used for stochastic processes in activity referred to a radionuclide.] | stem:["Hz" = "s"^(−1)] |
+| force | newton | stem:["N" = "kg m s"^(−2)] |
+| pressure, stress | pascal | stem:["Pa" = "kg m"^(−1) " s"^(−2)] |
+| energy, work, amount of heat | joule | stem:["J" = "kg m"^2 " s"^(−2)] | stem:["N m"]
+| power, radiant flux | watt | stem:["W" = "kg m"^2 "s"^(−3)] | stem:["J/s"]
+| electric charge | coulomb | stem:["C" = "A s"] |
+| electric potential difference footnote:[Electric potential difference is also called "voltage" in many countries, as well as "electric tension" or simply "tension" in some countries.] | volt | stem:["V" = "kg m"^2 " s"^(−3) " A"^(−1)] | stem:["W/A"]
+| capacitance | farad | stem:["F" = "kg"^(−1) " m"^(−2) " s"^4 " A"^2] | stem:["C/V"]
+| electric resistance | ohm | stem:[Omega = "kg m"^2 " s"^(-3) " A"^(−2)] | stem:["V/A"]
+| electric conductance | siemens | stem:["S" = "kg"^(−1) " m"^(−2) " s"^3 " A"^2] | stem:["A/V"]
+| magnetic flux | weber | stem:["Wb" = "kg m"^2 " s"^(−2) " A"^(−1)] | stem:["V s"]
+| magnetic flux density | tesla | stem:["T" = "kg s"^(−2) " A"^(−1)] | stem:["Wb/m"^2]
+| inductance | henry | stem:["H" = "kg m"^2 " s"^(−2) " A"^(−2)] | stem:["Wb/A"]
+| Celsius temperature | degree Celsius footnote:[The degree Celsius is used to express Celsius temperatures. The numerical value of a temperature difference or temperature interval is the same when expressed in either degrees Celsius or in kelvin.] | stem:["°C" = "K"] |
+| luminous flux | lumen | stem:["lm" = "cd sr"] footnote:[In photometry the name steradian and the symbol sr are usually retained in expressions for units] | stem:["cd sr"]
+| illuminance | lux | stem:["lx" = "cd sr m"^(−2)] | stem:["lm/m"^2]
+| activity referred to a radionuclide footnote:d[] footnote:[Activity referred to a radionuclide is sometimes incorrectly called radioactivity.]| becquerel | stem:["Bq" = "s"^(−1)] |
+| absorbed dose, kerma | gray | stem:["Gy" = "m"^2 " s"^(−2)] | stem:["J/kg"]
+| dose equivalent | sievert footnote:[See CIPM Recommendation 2 on the use of the sievert (PV, 2002, *70*, 205).] | stem:["Sv" = "m"^2 " s"^(−2)] | stem:["J/kg"]
+| catalytic activity | katal | stem:["kat" = "mol s"^(−1)] |
 |===
 
+The seven base units and 22 units with special names and symbols may be used in combination to express the units of other derived quantities. Since the number of quantities is without limit, it is not possible to provide a complete list of derived quantities and derived units. <<table5>> lists some examples of derived quantities and the corresponding coherent derived units expressed in terms of base units. In addition, <<table6>> lists examples of coherent derived units whose names and symbols also include derived units. The complete set of SI units includes both the coherent set and the multiples and sub-multiples formed by using the SI prefixes.
 
-Les 7 unités de base et les 22 unités ayant un nom spécial et un symbole particulier peuvent
-être combinées pour exprimer des unités d’autres grandeurs dérivées. Étant donné le
-nombre illimité de grandeurs, il n’est pas possible de fournir une liste complète des
-grandeurs et unités dérivées. Le <<table-5>> présente un certain nombre d’exemples de
-grandeurs dérivées, avec les unités dérivées cohérentes correspondantes exprimées en
-unités de base. En outre, le <<table-6>> présente des exemples d’unités dérivées cohérentes
-dont les noms et symboles comprennent également des unités dérivées. L’ensemble des
-unités SI comprend l’ensemble des unités cohérentes et les multiples et sous-multiples
-formés à l’aide de préfixes SI.
-
-
-[[table-5]]
-.Exemples d’unités dérivées cohérentes du SI exprimées à partir des unités de base
-[cols="1,^,^",options="header"]
+[[table5]]
+.Examples of coherent derived units in the SI expressed in terms of base units
+[cols="<,<,<"]
 |===
-| Grandeur dérivée | Symbole caractéristique de la grandeur | Unité dérivée exprimée en unités de base
+| Derived quantity | Typical symbol of quantity | Derived unit expressed in terms of base units
 
-| superficie | stem:[A] | stem:["m"^2]
+| area | stem:[A] | stem:["m"^2]
 | volume | stem:[V] | stem:["m"^3]
-| vitesse | stem:[v] | stem:["m s"^{-1}]
-| accélération | stem:[a] | stem:["m s"^{-2}]
-| nombre d’ondes | stem:[sigma] | stem:["m"^{-1}]
-| masse volumique | stem:[rho] | stem:["kg m"^{-3}]
-| masse surfacique | stem:[rho_"A"] | stem:["kg m"^{-2}]
-| volume massique | stem:[v] | stem:["m"^3 "kg"^{-1}]
-| densité de courant | stem:[j] | stem:["A m"^{-2}]
-| champ magnétique | stem:[H] | stem:["A m"^{-1}]
-| concentration de quantité de matière | stem:[c] | stem:["mol m"^{-3}]
-| concentration massique | stem:[rho, gamma] | stem:["kg m"^{-3}]
-| luminance lumineuse | stem:[L_"v"] | stem:["cd m"^{-2}]
+| speed, velocity | stem:[v] | stem:["m s"^(−1)]
+| acceleration | stem:[a] | stem:["m s"^(−2)]
+| wavenumber | stem:[sigma] | stem:["m"^(−1)]
+| density, mass density | stem:[rho] | stem:["kg m"^(−3)]
+| surface density | stem:[rho_A] | stem:["kg m"^(−2)]
+| specific volume | stem:[v] | stem:["m"^3 " kg"^(−1)]
+| current density | stem:[j] | stem:["A m"^(−2)]
+| magnetic field strength | stem:[H] | stem:["A m"^(−1)]
+| amount of substance concentration | stem:[c] | stem:["mol m"^(-3)]
+| mass concentration | stem:[rho, gamma] | stem:["kg m"^(−3)]
+| luminance | stem:[L_"v"] | stem:["cd m"^(−2)]
 |===
 
-
-[[table-6]]
-.Exemples d’unités dérivées cohérentes du SI dont le nom et le symbole comprennent des unités dérivées cohérentes du SI ayant un nom spécial et un symbole particulier
-[cols="4",options="header"]
+[[table6]]
+.Examples of SI coherent derived units whose names and symbols include SI coherent derived units with special names and symbols
 |===
-| Grandeur dérivée | Nom de l’unité dérivée cohérente | Symbole | Unité dérivée exprimée en unités de base
+| Derived quantity | Name of coherent derived unit | Symbol | Derived unit expressedin terms of base units
 
-| viscosité dynamique | pascal seconde | stem:["Pa s"] | stem:["kg m"^{-1} " s"^{-1}]
-| moment d’une force | newton mètre | stem:["N m"] | stem:["kg m"^2 " s"^{-2}]
-| tension superficielle | newton par mètre | stem:["N m"^{-1}] | stem:["kg s"^{-2}]
-| vitesse angulaire, fréquence angulaire | radian par seconde | stem:["rad s"^{-1}] | stem:["s"^{-1}]
-| accélération angulaire | radian par seconde carrée | stem:["rad s"^{-2}] | stem:["s"^{-2}]
-| flux thermique surfacique, éclairement énergétique | watt par mètre carré | stem:["W m"^{-2}] | stem:["kg s"^{-3}]
-| capacité thermique, entropie | joule par kelvin | stem:["J K"^{-1}] | stem:["kg m"^2 " s"^{-2} " K"^{-1}]
-| capacité thermique massique, entropie massique | joule par kilogramme kelvin | stem:["J K"^{-1} " kg"^{-1}] | stem:["m"^2 " s"^{-2} " K"^{-1}]
-| énergie massique | joule par kilogramme | stem:["J kg"^{-1}] | stem:["m"^2 " s"^{-2}]
-| conductivité thermique | watt par mètre kelvin | stem:["W m"^{-1} " K"^{-1}] | stem:["kg m s"^{-3} " K"^{-1}]
-| énergie volumique | joule par mètre cube | stem:["J m"^{-3}] | stem:["kg m"^{-s-2}]
-| champ électrique | volt par mètre | stem:["V m"^{-1}] | stem:["kg m s"^{-3} " A"^{-1}]
-| charge électrique volumique | coulomb par mètre cube | stem:["C m"^{-3}] | stem:["A s m"^{-3}]
-| charge électrique surfacique | coulomb par mètre carré | stem:["C m"^{-2}] | stem:["A s m"^{-2}]
-| induction électrique, déplacement électrique | coulomb par mètre carré | stem:["C m"^{-2}] | stem:["A s m"^{-2}]
-| permittivité | farad par mètre | stem:["F m"^{-1}] | stem:["kg"^{-1} " m"^{-3} " s"^4 " A"^2]
-| perméabilité | henry par mètre | stem:["H m"^{-1}] | stem:["kg m s"^{-2} " A"^{-2}]
-| énergie molaire | joule par mole | stem:["J mol"^{-1}] | stem:["kg m"^2 " s"^{-2} " mol"^{-1}]
-| entropie molaire, capacité thermique molaire | joule par mole kelvin | stem:["J K"^{-1} " mol"^{-1}] | stem:["kg m"^2 " s"^{-2} " mol"^{-1} " K"^{-1}]
-| exposition (rayons x et stem:[gamma]) | coulomb par kilogramme | stem:["C kg"^{-1}] | stem:["A s kg"^{-1}]
-| débit de dose absorbée | gray par seconde | stem:["Gy s"^{-1}] | stem:["m"^2 " s"^{-3}]
-| intensité énergétique | watt par stéradian | stem:["W sr"^{-1}] | stem:["kg m"^2 " s"^{-3}]
-| luminance énergétique | watt par mètre carré stéradian | stem:["W sr"^{-1} " m"^{-2}] | stem:["kg s"^{-3}]
-| concentration de l’activité catalytique | katal par mètre cube | stem:["kat m"^{-3}] | stem:["mol s"^{-1} " m"^{-3}]
+| dynamic viscosity | pascal second | stem:["Pa s"] | stem:["kg m"^(−1) " s"^(−1)]
+| moment of force | newton metre | stem:["N m"] | stem:["kg m"^2 " s"^(−2)]
+| surface tension | newton per metre | stem:["N m"^(−1)] | stem:["kg s"^(−2)]
+| angular velocity, angular frequency | radian per second | stem:["rad s"^(−1)] | stem:["s"^(−1)]
+| angular acceleration | radian per second squared | stem:["rad s"^(−2)] | stem:["s"^(−2)]
+| heat flux density, irradiance | watt per square metre | stem:["W m"^(−2)] | stem:["kg s"^(−3)]
+| heat capacity, entropy | joule per kelvin | stem:["J K"^(−1)] | stem:["kg m"^2 " s"^(−2) " K"^(−1)]
+| specific heat capacity, specific entropy | joule per kilogram kelvin | stem:["J K"^(−1) " kg"^(−1)] | stem:["m"^2 " s"^(−2) " K"^(−1)]
+| specific energy | joule per kilogram | stem:["J kg"^(−1)] | stem:["m"^2 " s"^(−2)]
+| thermal conductivity | watt per metre kelvin | stem:["W m"^(−1) " K"^(−1)] | stem:["kg m s"^(−3) " K"^(−1)]
+| energy density | joule per cubic metre | stem:["J m"^(−3)] | stem:["kg m"^(−1) " s"^(−2)]
+| electric field strength | volt per metre | stem:["V m"^(−1)] | stem:["kg m s"^(−3) " A"^(−1)]
+| electric charge density | coulomb per cubic metre | stem:["C m"^(−3)] | stem:["A s m"^(−3)]
+| surface charge density | coulomb per square metre | stem:["C m"^(−2)] | stem:["A s m"^(−2)]
+| electric flux density, electric displacement | coulomb per square metre | stem:["C m"^(−2)] | stem:["A s m"^(−2)]
+| permittivity | farad per metre | stem:["F m"^(−1)] | stem:["kg"^(−1) " m"^(−3) " s"^4 " A"^2]
+| permeability | henry per metre | stem:["H m"^(−1)] | stem:["kg m s"^(−2) " A"^(−2)]
+| molar energy | joule per mole | stem:["J mol"^(−1)] | stem:["kg m"^2 " s"^(−2) " mol"^(−1)]
+| molar entropy, molar heat capacity | joule per mole kelvin | stem:["J K"^(−1) " mol"^(−1)] | stem:["kg m"^2 " s"^(−2) " mol"^(−1) " K"^(−1)]
+| exposure (stem:["x"]- and stem:[gamma]-rays) | coulomb per kilogram | stem:["C kg"^(−1)] | stem:["A s kg"^(−1)]
+| absorbed dose rate | gray per second | stem:["Gy s"^(−1)] | stem:["m"^2 " s"^(−3)]
+| radiant intensity | watt per steradian | stem:["W sr"^(−1)] | stem:["kg m"^2 " s"^(−3)]
+| radiance | watt per square metre steradian | stem:["W sr"^(−1) " m"^(−2)] | stem:["kg s"^(−3)]
+| catalytic activity concentration | katal per cubic metre | stem:["kat m"^(−3)] | stem:["mol s"^(−1) " m"^(−3)]
 |===
 
+It is important to emphasize that each physical quantity has only one coherent SI unit, even though this unit can be expressed in different forms by using some of the special names and symbols.
 
-Il est important de souligner que chaque grandeur physique n’a qu’une seule unité SI
-cohérente, même si cette unité peut être exprimée sous différentes formes au moyen de
-noms spéciaux ou de symboles particuliers.
+The converse, however, is not true, because in general several different quantities may share the same SI unit. For example, for the quantity heat capacity as well as for the quantity entropy the SI unit is joule per kelvin. Similarly, for the base quantity electric current as well as the derived quantity magnetomotive force the SI unit is the ampere. It is therefore important not to use the unit alone to specify the quantity. This applies not only to technical texts, but also, for example, to measuring instruments (i.e. the instrument read-out needs to indicate both the unit and the quantity measured).
 
-Toutefois, l’inverse n’est pas vrai car, de façon générale, la même unité SI peut être
-employée pour exprimer différentes grandeurs. Par exemple, le joule par kelvin est le nom
-de l’unité SI pour la grandeur «&nbsp;capacité thermique&nbsp;» et pour la grandeur «&nbsp;entropie&nbsp;».
-De même, l’ampère est le nom de l’unité SI pour la grandeur de base «&nbsp;courant électrique&nbsp;»
-et pour la grandeur dérivée «&nbsp;force magnétomotrice&nbsp;». Il est important de remarquer qu’il ne
-suffit pas d’indiquer le nom de l’unité pour spécifier la grandeur mesurée. Cette règle
-s’applique non seulement aux textes scientifiques et techniques mais aussi, par exemple,
-aux appareils de mesure (en effet, ces derniers doivent afficher non seulement l’unité mais
-aussi la grandeur mesurée).
+In practice, with certain quantities, preference is given to the use of certain special unit names to facilitate the distinction between different quantities having the same dimension. When using this freedom, one may recall the process by which this quantity is defined. For example, the quantity torque is the cross product of a position vector and a force vector. The SI unit is newton metre. Even though torque has the same dimension as energy (SI unit joule), the joule is never used for expressing torque.
 
-En pratique on exprime l’unité de certaines grandeurs en employant de préférence un nom
-spécial afin de réduire le risque de confusion entre des grandeurs différentes ayant la même
-dimension. Dans ce cas, on peut rappeler comment la grandeur est définie. Par exemple,
-la grandeur «&nbsp;couple&nbsp;» est le produit vectoriel d’un vecteur position et d’un vecteur force:
-son unité SI est le «&nbsp;newton mètre&nbsp;». Bien que le couple ait la même dimension que
-l’énergie (exprimée en unité SI «&nbsp;joule&nbsp;»), le joule n’est jamais utilisé pour exprimer un
-couple.
+NOTE: The International Electrotechnical Commission (IEC) has introduced the var (symbol: stem:["var"]) as a special name for the unit of reactive power. In terms of SI coherent units, the stem:["var"] is identical to the volt ampere.
 
-NOTE: La Commission électrotechnique internationale
-(IEC) a introduit le var (symbole: var) comme nom spécial
-pour l’unité de puissance réactive. Exprimé en unités SI
-cohérentes, le var est identique au volt ampère.
+The SI unit of frequency is hertz, the SI unit of angular velocity and angular frequency is radian per second, and the SI unit of activity is becquerel, implying counts per second. Although it is formally correct to write all three of these units as the reciprocal second, the use of the different names emphasizes the different nature of the quantities concerned. It is especially important to carefully distinguish frequencies from angular frequencies, because by definition their numerical values differ by a factor footnote:[see ISO 80000-3 for details] of stem:[2pi]. Ignoring this fact may cause an error of stem:[2pi]. Note that in some countries, frequency values are conventionally expressed using "cycle/s" or "cps" instead of the SI unit stem:["Hz"], although "cycle" and "cps" are not units in the SI. Note also that it is common, although not recommended, to use the term frequency for quantities expressed in rad/s. Because of this, it is recommended that quantities called "frequency", "angular frequency", and "angular velocity" always be given explicit units of stem:["Hz"] or stem:["rad/s"] and not stem:["s"^(−1)].
 
-L’unité SI de fréquence est le hertz, l’unité SI de vitesse angulaire et de fréquence angulaire
-est le radian par seconde, et l’unité SI d’activité est le becquerel: toutes impliquent un
-comptage par seconde. Même s’il est correct d’écrire ces trois unités «&nbsp;seconde à la
-puissance moins un&nbsp;», l’emploi de noms différents sert à souligner la différence de nature
-des grandeurs en question. Il est particulièrement important de distinguer les fréquences des
-fréquences angulaires car leurs valeurs numériques diffèrent par définition d’un facteur 
-footnote:[Voir la norme ISO 80000-3 pour de plus amples détails.] de
-stem:[2 pi]. Ignorer cela peut provoquer une erreur de stem:[2 pi]. On remarque que dans certains pays
-les valeurs de fréquence sont exprimées par convention à l’aide de «&nbsp;cycle/s&nbsp;» ou «&nbsp;cps&nbsp;» au
-lieu de l’unité SI «&nbsp;Hz&nbsp;», bien que «&nbsp;cycle&nbsp;» et «&nbsp;cps&nbsp;» ne soient pas des unités du SI.
-On remarque également qu’il est courant, bien que cela ne soit pas recommandé, d’utiliser
-le terme «&nbsp;fréquence&nbsp;» pour des grandeurs exprimées en rad/s. De ce fait, il est recommandé
-de toujours exprimer les grandeurs «&nbsp;fréquence&nbsp;», «&nbsp;fréquence angulaire&nbsp;» et «&nbsp;vitesse
-angulaire&nbsp;» de façon explicite en stem:["Hz"] ou stem:["rad/s"] mais pas en stem:["s"^{-1}].
+In the field of ionizing radiation, the SI unit becquerel rather than the reciprocal second is used. The SI units gray and sievert are used for absorbed dose and dose equivalent, respectively, rather than joule per kilogram. The special names becquerel, gray and sievert were specifically introduced because of the dangers to human health that might arise from mistakes involving the units reciprocal second and joule per kilogram, in case the latter units were incorrectly taken to identify the different quantities involved.
 
-Dans le domaine des rayonnements ionisants, l’unité SI utilisée est le becquerel plutôt que
-la seconde moins un, et les unités SI «&nbsp;gray&nbsp;» et «&nbsp;sievert&nbsp;» plutôt que le joule par
-kilogramme pour, respectivement, la dose absorbée et l’équivalent de dose. Les noms
-spéciaux «&nbsp;becquerel&nbsp;», «&nbsp;gray&nbsp;» et «&nbsp;sievert&nbsp;» ont été introduits en raison des dangers pour
-la santé humaine qui pourraient résulter d’erreurs dans le cas où les unités «&nbsp;seconde à la
-puissance moins un&nbsp;» et «&nbsp;joule par kilogramme&nbsp;» seraient utilisées à tort pour expliciter ces
-grandeurs.
+Special care must be taken when expressing temperatures or temperature differences, respectively. A temperature difference of stem:[1 " K"] equals that of stem:[1 " °C"], but for an absolute temperature the difference of stem:[273.15 " K"] must be taken into account. The unit degree Celsius is only coherent when expressing temperature differences.
 
-L’expression de températures ou de différences de température requiert une attention
-particulière. Une différence de température de stem:[1 " K"] équivaut à une différence de température
-de stem:[1 " °C"] mais il faut prendre en considération la différence de stem:[273.15 " K"] pour exprimer une
-température thermodynamique. L’unité degré Celsius n’est cohérente que lorsqu’elle est
-utilisée pour exprimer des différences de température.
+==== Units for quantities that describe biological and physiological effects
 
+Four of the SI units listed in <<table2>> and <<table4>> include physiological weighting factors: candela, lumen, lux and sievert.
 
-==== Unités des grandeurs décrivant des effets biologiques et physiologiques
+Lumen and lux are derived from the base unit candela. Like the candela, they carry information about human vision. The candela was established as a base unit in 1954, acknowledging the importance of light in daily life. Further information on the units and conventions used for defining photochemical and photobiological quantities is in <<appendix3>>.
 
-Quatre des unités du SI listées dans les <<table-2>> et <<table-4>> incluent des coefficients
-physiologiques de pondération: il s’agit de la candela, du lumen, du lux et du sievert.
+Ionizing radiation deposits energy in irradiated matter. The ratio of deposited energy to mass is termed absorbed dose stem:[D]. As decided by the CIPM in 2002, the quantity dose equivalent stem:[H = QD] is the product of the absorbed dose stem:[D] and a numerical quality factor stem:[Q] that takes into account the biological effectiveness of the radiation and is dependent on the energy and type of radiation.
 
-Le lumen et le lux sont dérivés de l’unité de base «&nbsp;candela&nbsp;». Comme la candela,
-ils donnent des informations sur la vision humaine. La candela a été adoptée comme unité
-de base en 1954 afin de reconnaître l’importance de la lumière dans la vie courante.
-De plus amples informations sur les unités et les conventions utilisées pour définir des
-grandeurs photochimiques et photobiologiques sont données dans l’<<appendix3>>.
+There are units for quantities that describe biological effects and involve weighting factors, which are not SI units. Two examples are given here:
 
-Les rayonnements ionisants déposent de l’énergie dans la matière irradiée. Le rapport entre
-l’énergie déposée et la masse est appelé «&nbsp;dose absorbée&nbsp;», stem:[D]. Conformément à la décision
-prise par le CIPM en 2002 la grandeur «&nbsp;équivalent de dose&nbsp;» stem:[H = Q D] est le produit de la
-dose absorbée stem:[D] et du facteur numérique de qualité stem:[Q], qui prend en compte l’efficacité
-biologique du rayonnement et qui dépend de l’énergie et du type de rayonnement.
+Sound causes pressure fluctuations in the air, superimposed on the normal atmospheric pressure, that are sensed by the human ear. The sensitivity of the ear depends on the frequency of the sound, but it is not a simple function of either the pressure changes or the frequency. Therefore, frequency-weighted quantities are used in acoustics to approximate the way in which sound is perceived. They are used, for example, for measurements concerning protection against hearing damage. The effect of ultrasonic acoustic waves poses similar concerns in medical diagnosis and therapy.
 
-Il existe des unités de grandeurs décrivant des effets biologiques et impliquant des facteurs
-de pondération qui ne sont pas des unités SI. On peut citer deux exemples.
+There is a class of units for quantifying the biological activity of certain substances used in medical diagnosis and therapy that cannot yet be defined in terms of the units of the SI. This lack of definition is because the mechanism of the specific biological effect of these substances is not yet sufficiently well understood for it to be quantifiable in terms of physico-chemical parameters. In view of their importance for human health and safety, the World Health Organization (WHO) has taken responsibility for defining WHO International Units (IU) for the biological activity of such substances.
 
-Le son cause des fluctuations de pression dans l’air qui s’ajoutent à la pression
-atmosphérique normale et qui sont perçues par l’oreille humaine. La sensibilité de l’oreille
-dépend de la fréquence sonore mais ne suit pas une relation simple, ni en fonction de
-l’amplitude des variations de pression, ni en fonction de la fréquence. Par conséquent,
-des grandeurs pondérées en fonction de la fréquence sont utilisées en acoustique pour
-donner une approximation de la manière dont le son est perçu. Elles sont par exemple
-utilisées pour des mesures concernant la protection contre les dommages auditifs. L’effet
-des ondes acoustiques ultrasonores est source de préoccupations similaires dans le
-diagnostic médical et dans le domaine thérapeutique.
+[[si_units_gtr]]
+==== SI units in the framework of the general theory of relativity
 
-Il existe une classe d’unités servant à quantifier l’activité biologique de certaines substances
-utilisées pour le diagnostic médical et la thérapie, qui ne peuvent pas encore être définies en
-fonction des unités du SI. Cette absence de définition est due au mécanisme de l’effet
-biologique spécifique à ces substances qui n’est pas encore suffisamment bien compris pour
-être quantifiable en fonction de paramètres physico-chimiques. Compte tenu de leur
-importance pour la santé humaine et la sécurité, l’Organisation mondiale de la santé (OMS)
-a pris la responsabilité de définir des unités internationales OMS pour l’activité biologique
-de ces substances.
+The practical realization of a unit and the process of comparison require a set of equations within a framework of a theoretical description. In some cases, these equations include relativistic effects.
 
-[[cls-236]]
-==== Les unités SI dans le cadre de la théorie de la relativité générale
+For frequency standards it is possible to establish comparisons at a distance by means of electromagnetic signals. To interpret the results, the general theory of relativity is required, since it predicts, among other things, a relative frequency shift between standards of about 1 part in stem:[10^(16)] per metre of altitude difference at the surface of the earth. Effects of this magnitude must be corrected for when comparing the best frequency standards.
 
-La réalisation pratique d’une unité et le processus de comparaison requièrent un ensemble
-d’équations dans le cadre d’une description théorique. Dans certains cas, ces équations
-comprennent des effets relativistes.
-
-Pour les étalons de fréquence, il est possible de conduire des comparaisons à distance au
-moyen de signaux électromagnétiques. Pour interpréter les résultats, il est nécessaire de
-faire appel à la théorie de la relativité générale puisque celle-ci prédit, entre autres,
-un décalage de fréquence entre les étalons d’environ stem:[1 xx 10^{-16}] en valeur relative par mètre
-d’altitude à la surface de la Terre. Des effets de cet ordre de grandeur doivent être corrigés
-lors de la comparaison des meilleurs étalons de fréquence.
-
-Lorsque des réalisations pratiques sont comparées au niveau local, c’est-à-dire dans une
-zone spécifique de l’espace-temps, les effets liés à la courbure de l’espace-temps décrits par
-la théorie de la relativité générale peuvent être négligés. Si des réalisations ont les mêmes
-coordonnées dans l’espace-temps (par exemple, même trajectoire et même accélération ou
-même champ gravitationnel), les effets relativistes peuvent être complètement ignorés.
+When practical realizations are compared locally, i.e. in a small space-time domain, effects due to the space-time curvature described by the general theory of relativity can be neglected. When realizations share the same space-time coordinates (for example the same motion and acceleration or gravitational field), relativistic effects may be neglected entirely.
