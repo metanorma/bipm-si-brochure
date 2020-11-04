@@ -45,7 +45,7 @@ Symbols for units are treated as mathematical entities. In expressing the value 
 [%unnumbered]
 [cols="<,<"]
 |===
-| stem:[p"/kPa"] | stem:[v^2text(/)("m/s")^2]
+| stem:[p"/kPa"] | stem:[v^2//("m/s")^2]
 | 48.73 | 94766
 | 72.87 | 94771
 | 135.42 | 94784
@@ -131,7 +131,7 @@ When multiplying or dividing quantity symbols any of the following methods may b
 
 [stem%unnumbered]
 ++++
-ab,text( ) a text( ) b,text( ) a * b,text( ) a times b,text( ) a text(/)b,text( ) a/b,text( ) a text( ) b^(−1).
+ab,text( ) a text( ) b,text( ) a * b,text( ) a times b,text( ) a //b,text( ) a/b,text( ) a text( ) b^(−1).
 ++++
 
 When multiplying the value of quantities either a multiplication sign stem:[times] or brackets should be used, not a half-high (centred) dot. When multiplying numbers only the multiplication sign stem:[times] should be used.
@@ -146,7 +146,7 @@ stem:[(53 " m/s") times 10.2 " s"] or stem:[(53 " m/s")(10.2 " s")]
 
 stem:[25 times 60.5] but not stem:[25 times 60.5]
 
-stem:[(20 " m")text(/)(5 " s") = 4 " m/s"]
+stem:[(20 " m")//(5 " s") = 4 " m/s"]
 
 stem:["(a/b)/c"], not stem:["a/b/c"]
 ====
@@ -171,13 +171,13 @@ NOTE: In English-speaking countries, a billion is now generally taken to be stem
 
 The coherent SI unit for the plane angle and the phase angle is radian, unit symbol stem:[text(rad)] and that for the solid angle is steradian, unit symbol stem:["sr"].
 
-The plane angle, expressed in radian, between two lines originating from a common point is the length of circular arc stem:[s],swept out between the lines by a radius vector of length stem:[r] from the common point divided by the length of the radius vector, stem:[theta = stext(/)r text( rad)]. The phase angle (often just referred to as the "phase") is the argument of any complex number. It is the angle between the positive real axis and the radius of the polar representation of the complex number in the complex plane.
+The plane angle, expressed in radian, between two lines originating from a common point is the length of circular arc stem:[s],swept out between the lines by a radius vector of length stem:[r] from the common point divided by the length of the radius vector, stem:[theta = s//r text( rad)]. The phase angle (often just referred to as the "phase") is the argument of any complex number. It is the angle between the positive real axis and the radius of the polar representation of the complex number in the complex plane.
 
-One radian corresponds to the angle for which stem:[s = r], thus stem:[1 " rad" = 1]. The measure of the right angle is exactly equal to the number stem:[pi text(/)2].
+One radian corresponds to the angle for which stem:[s = r], thus stem:[1 " rad" = 1]. The measure of the right angle is exactly equal to the number stem:[pi //2].
 
 A historical convention is the degree. The conversion between radians and degrees follows from the relation stem:[360° = 2pi text( rad)]. Note that the degree, with the symbol °, is not a unit of the SI.
 
-The solid angle, expressed in steradian, corresponds to the ratio between an area stem:[A] of the surface of a sphere of radius stem:[r] and the squared radius, stem:[Omega = Atext(/)r^2 " sr"]. One steradian corresponds to the solid angle for which stem:[A = r^2], thus stem:[1 " sr" = 1].
+The solid angle, expressed in steradian, corresponds to the ratio between an area stem:[A] of the surface of a sphere of radius stem:[r] and the squared radius, stem:[Omega = A//r^2 " sr"]. One steradian corresponds to the solid angle for which stem:[A = r^2], thus stem:[1 " sr" = 1].
 
 The units stem:[text(rad)] and stem:["sr"] correspond to ratios of two lengths and two squared lengths, respectively. However, it shall be emphasized that rad and sr must only be used to express angles and solid angles, but not to express ratios of lengths and squared lengths in general.
 
