@@ -44,10 +44,10 @@ As envisaged by the CCT [https://www.bipm.org/utils/common/pdf/CC/CCT/CCT23.pdf[
 The definition of the kelvin, SI base unit of temperature, is as follows <<bipm>>:
 
 ____
-The kelvin, symbol K, is the SI unit of thermodynamic temperature. It is defined by taking the fixed numerical value of the Boltzmann constant stem:[k] to be stem:[1.380 649 xx 10^{-23}] when expressed in the unit stem:["J K"^{-1}], which is equal to stem:["kg m"^2 "s"^{-2} "K"^{-1}], where the kilogram, metre and second are defined in terms of stem:[h], stem:[c] and stem:[Delta nu_{"Cs"}].
+The kelvin, symbol K, is the SI unit of thermodynamic temperature. It is defined by taking the fixed numerical value of the Boltzmann constant stem:[k] to be stem:[1.380649 xx 10^{-23}] when expressed in the unit stem:["J K"^{-1}], which is equal to stem:["kg m"^2 "s"^{-2} "K"^{-1}], where the kilogram, metre and second are defined in terms of stem:[h], stem:[c] and stem:[Delta nu_{"Cs"}].
 ____
 
-(stem:[h] is the Planck constant, stem:[c] is the speed of light in vacuum and stem:[Delta nu_{"Cs"}] is the caesium frequency corresponding to the transition between the two hyperfine levels of the unperturbed ground state of the ^133^Cs atom.) This definition implies the exact relation stem:[k = 1.380 649 xx 10^{-23} " J/K"]. Its effect is that one kelvin is equal to the change of thermodynamic temperature T that results in a change of thermal energy stem:[kT] by stem:[1.380 649 xx 10^{-23} " J"].
+(stem:[h] is the Planck constant, stem:[c] is the speed of light in vacuum and stem:[Delta nu_{"Cs"}] is the caesium frequency corresponding to the transition between the two hyperfine levels of the unperturbed ground state of the ^133^Cs atom.) This definition implies the exact relation stem:[k = 1.380649 xx 10^{-23} " J/K"]. Its effect is that one kelvin is equal to the change of thermodynamic temperature T that results in a change of thermal energy stem:[kT] by stem:[1.380649 xx 10^{-23} " J"].
 
 Prior to 2018 the kelvin was defined as the fraction 1/273.16 of the thermodynamic temperature stem:[T_{"TPW"}] of the triple point of water [13^th^ CGPM meeting in 1967, Resolutions 3 and 4]. The kelvin is now defined in terms of the SI derived unit of energy, the joule, by fixing the value of the Boltzmann constant stem:[k], which is the proportionality constant between thermodynamic temperature and the associated thermal energy stem:[kT]. The new definition has its origin in statistical mechanics, where thermodynamic temperature is a measure of the average thermal energy per degree of freedom in the system. In principle, the natural unit of thermodynamic temperature is the joule and a separate base unit for temperature is not required. However, for historical and in particular for practical reasons, the kelvin remains a base unit of the SI. The explicit-constant definition is sufficiently wide to encompass any form of thermometry, where the _MeP_-K provides guidance on the practical realization of the kelvin.
 
@@ -243,7 +243,7 @@ measuring gas. Refractive-index gas thermometry (RIGT) detects resonances of ele
 waves in a cavity resonator. DCGT and RIGT share several challenges. The polarizabilities must be
 known from ab initio calculations. With sub-ppm uncertainties, this is at present only fulfilled for
 helium, which has small polarizabilities of order stem:[A_{epsilon} ~~ 0.52 " cm"^3//"mol"]
-and stem:[A_{mu} ~~ - 0.000" "007" "9 " cm"^3//"mol"].
+and stem:[A_{mu} ~~ - 0.0000079 " cm"^3//"mol"].
 Both DCGT and RIGT share the need of accurately measuring the pressure traceably to the SI base
 units metre, kilogram and the second.
 
@@ -364,7 +364,7 @@ S_V (f,T) = 4 h f "Re"(Z(f)) [ 1/2 + 1/{exp(hf // kT)} ]
 
 where stem:[f] is frequency, stem:[T] is the thermodynamic temperature, stem:[h] is Planck's constant, stem:[k] is Boltzmann's
 constant, and stem:["Re"] means the real part. The impedance can be, but is not necessarily a resistor with
-resistance stem:["Re"(Z(f)) = R]. Neglecting for stem:[hf] « stem:[kT] the quantum corrections, this equation yields the
+resistance stem:["Re"(Z(f)) = R]. Neglecting for stem:[hf] «&nbsp;stem:[kT] the quantum corrections, this equation yields the
 Nyquist formula
 
 [stem]
