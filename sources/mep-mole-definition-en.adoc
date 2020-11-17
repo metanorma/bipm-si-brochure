@@ -52,14 +52,14 @@ quantity.
 The definition of the mole, SI base unit of amount of substance, is as follows <<bipm-9th>>:
 
 ____
-The mole, symbol mol, is the SI unit of amount of substance. One mole contains
+*The mole, symbol mol, is the SI unit of amount of substance. One mole contains
 exactly stem:[6.02214076 xx 10^{23}] elementary entities. This number is the fixed numerical
 value of the Avogadro constant, stem:[N_"A"], when expressed in the unit stem:["mol"^{-1}] and is called
-the Avogadro number.
+the Avogadro number.*
 
-The amount of substance, symbol stem:[n], of a system is a measure of the number of
+*The amount of substance, symbol stem:[n], of a system is a measure of the number of
 specified elementary entities. An elementary entity may be an atom, a molecule, an
-ion, an electron, any other particle or specified group of particles.
+ion, an electron, any other particle or specified group of particles.*
 ____
 
 As a consequence of the definition of the mole, the Avogadro constant and the Avogadro number
@@ -133,7 +133,7 @@ N = 8 V_"s" // a ("&#x200c;"^{28} "Si")^3
 ++++
 
 where stem:[V_"s"] is the crystal volume, 8 is the number of atoms per unit cell of crystalline silicon and
-a(^28^Si) is the lattice parameter of the cubic unit cell. Equation <<eq-3-1>> is strictly valid only for the
+stem:[a](^28^Si) is the lattice parameter of the cubic unit cell. <<eq-3-1>> is strictly valid only for the
 hypothetical case a perfect crystal of pure ^28^Si – hence, all elementary entities in the crystal were
 identified. This was achieved by determining and correcting for the amount of substance fraction
 of all impurities (elemental and isotope impurities, i.e. ^29^Si, ^30^Si) with sufficient accuracy
@@ -159,7 +159,7 @@ This primary realization of the mole with the smallest uncertainty differs from 
 
 In practice, chemical measurements require the realization, across all types of chemical entities, of derived units involving amount of substance that are relevant to practical chemical measurement, such as the amount of substance concentration (stem:["mol/m"^3]), the amount of substance content (stem:["mol/kg"]) or the amount of substance fraction (mol/mol). This may be done by a variety of primary methods of measurement <<quinn>>. The present definition of the mole allows the number of entities stem:[N] in a sample to be determined to the same accuracy as the amount of substance stem:[n] in the sample because, from <<eq-2-2>>, stem:[N = n N_"A"] and stem:[N_"A"] has an exact numerical value.
 
-Similarly, the atomic or molecular mass stem:[m_"a" ("X")] and the molar mass stem:[M("X")] of any entity stem:[X] are known to the same relative uncertainty because:
+Similarly, the atomic or molecular mass stem:[m_"a" ("X")] and the molar mass stem:[M("X")] of any entity stem:["X"] are known to the same relative uncertainty because:
 
 
 [[eq-4-1]]
@@ -169,20 +169,20 @@ m_"a" ("X") = {M("X")} / {N_"A"}
 ++++
 
 
-The atomic mass constant stem:[m_"u"] is 1/12 of the mass of a free ^12^C atom, at rest and in its ground state. Its present experimentally-determined value is approximately stem:[1.660539067(1) xx 10^{-27} "&#x200c;" " kg"] with a relative uncertainty less than 1 part in stem:[10^9] and is identical to that of stem:[M_"u"]. Note that stem:[N_"A" m_"u" = M_"u"] is a special case of <<eq-4-1>>. The advantages of these features of the present definition of the mole have been emphasized in the literature <<milton>>. The most up-to-date values and uncertainties of stem:[m_"u"] and stem:[M_"u"] are the most recent recommendations of the CODATA task group on fundamental constants.
+The atomic mass constant stem:[m_"u"] is 1/12 of the mass of a free ^12^C atom, at rest and in its ground state. Its present experimentally-determined value is approximately stem:[1.660539067(1) xx 10^{-27} " kg"] with a relative uncertainty less than 1 part in stem:[10^9] and is identical to that of stem:[M_"u"]. Note that stem:[N_"A" m_"u" = M_"u"] is a special case of <<eq-4-1>>. The advantages of these features of the present definition of the mole have been emphasized in the literature <<milton>>. The most up-to-date values and uncertainties of stem:[m_"u"] and stem:[M_"u"] are the most recent recommendations of the CODATA task group on fundamental constants.
 
 Three examples of methods to realize the mole (and the number of entities) follow:
 
 
 === Gravimetric preparation
 
-Based on <<eq-2-1>> and <<eq-2-2>>, the number of entities stem:[N] of a substance stem:["X"] or its amount of substance stem:[n] in a sample may be measured by determining the product of the mass fraction of stem:["X"] in the sample, stem:[w("X")], and the mass stem:[m] of the sample from the following equations footnote:[Equation <<eq-4-2>> assumes that stem:[N] entities of stem:["X"] contribute a mass stem:[N xx m_"a"("X")] to a sample whose total mass is stem:[m].]:
+Based on <<eq-2-1>> and <<eq-2-2>>, the number of entities stem:[N] of a substance stem:["X"] or its amount of substance stem:[n] in a sample may be measured by determining the product of the mass fraction of stem:["X"] in the sample, stem:[w("X")], and the mass stem:[m] of the sample from the following equations footnote:[<<eq-4-2>> assumes that stem:[N] entities of stem:["X"] contribute a mass stem:[N xx m_"a"("X")] to a sample whose total mass is stem:[m].]:
 
 
 [[eq-4-2]]
 [stem]
 ++++
-N = w("X") m / m_"a" ("X") = {w("X")m} / {A_"r" ("X") m_"u"}
+N = (w("X") m) / (m_"a" ("X")) = {w("X")m} / {A_"r" ("X") m_"u"}
 ++++
 
 
@@ -199,9 +199,9 @@ This method of realizing the mole is commonly used because measuring the mass of
 
 Realization of the mole for a pure organic or inorganic substance will usually be limited by the uncertainty of the mass fraction assignments to the substance rather than the uncertainty of mass determinations. As there are very few organic substances whose mass fraction ("`purity`") is assigned with relative standard uncertainty below stem:[1 xx 10^{-4}], achieving a relative standard uncertainty of stem:[1 xx 10^{-4}] for a realization of the mole based on a pure organic or inorganic substance is the limit in most cases.
 
-This method of realization is used for most chemical entities. However, there are other methods that can be used for certain restricted classes of substances. These are described in 4.2 and 4.3.
+This method of realization is used for most chemical entities. However, there are other methods that can be used for certain restricted classes of substances. These are described in <<sec-4-2>> and <<sec-4-3>>.
 
-
+[[sec-4-2]]
 === Equations of state for gases
 
 The amount of substance stem:[n] of a sample of a pure gas may be determined by solving the equation of state for the gas:
@@ -213,9 +213,9 @@ p V = n R T [ 1 + B (T) (n / V) + ldots ]
 ++++
 
 
-where stem:[p] is the pressure, stem:[V] is the volume, stem:[T] is the temperature, and stem:[R] is the molar gas constant. The value of stem:[R] is known exactly (stem:[R = N_"A" k], stem:[k] is the Boltzmann constant and its numerical value is fixed). The SI coherent unit of the molar gas constant is stem:["Pa m"^3 " mol"^{-1} " K"^{-1}] or stem:["J mol"^{-1} " K"^{-1}], i.e. stem:["kg m"^2 " s"^{-2} " mol"^{-1} " K"^{-1}] when expressed in base units. The terms involving the second virial coefficient stem:[B(T)] and possible higher-order terms are generally small corrections. Virial coefficients expressed in SI units are tabulated for a number of simple gases. The uncertainty in a measurement of stem:[n] made this way depends on the uncertainty in measuring stem:[p], stem:[V] and stem:[T], and in the tabulated values of stem:[B(T)]. This method of realizing the mole for a gas relies on the use of a pure sample of the gas. The number of molecules in the gas is stem:[n N_"A"], which has the same relative uncertainty as the determination of stem:[n].
+where stem:[p] is the pressure, stem:[V] is the volume, stem:[T] is the temperature, and stem:[R] is the molar gas constant. The value of stem:[R] is known exactly (stem:[R = N_"A" k], stem:[k] is the Boltzmann constant and its numerical value is fixed). The SI coherent unit of the molar gas constant is stem:["Pa m"^3 " mol"^{-1} " K"^{-1}] or stem:["J mol"^{-1} " K"^{-1}], _i.e._ stem:["kg m"^2 " s"^{-2} " mol"^{-1} " K"^{-1}] when expressed in base units. The terms involving the second virial coefficient stem:[B(T)] and possible higher-order terms are generally small corrections. Virial coefficients expressed in SI units are tabulated for a number of simple gases. The uncertainty in a measurement of stem:[n] made this way depends on the uncertainty in measuring stem:[p], stem:[V] and stem:[T], and in the tabulated values of stem:[B(T)]. This method of realizing the mole for a gas relies on the use of a pure sample of the gas. The number of molecules in the gas is stem:[n N_"A"], which has the same relative uncertainty as the determination of stem:[n].
 
-
+[[sec-4-3]]
 === Electrolysis
 
 In a chemical electrolysis experiment, the number stem:[N] of entities that have reacted at an electrode equals the charge stem:[Q] passed through the system divided by stem:[ze], where stem:[z] is the charge number of the ions reacted and stem:[e] is the elementary electrical charge. Thus:
@@ -258,7 +258,7 @@ M_"u" = m_"u" N_"A"
 
 stem:[M_"u"] and stem:[m_"u"] now have the same relative uncertainty.
 
-In <<eq-6-1>> stem:[m_"u"] is the atomic mass constant. The atomic mass unit stem:[u] (also known as the dalton, a non-SI unit whose symbol is stem:["Da"]) and the atomic mass constant stem:[m_"u"] are defined in terms of the mass of the ^12^C isotope. The unit stem:[u] is related to the constant stem:[m_"u"] by
+In <<eq-6-1>> stem:[m_"u"] is the atomic mass constant. The atomic mass unit stem:["u"] (also known as the dalton, a non-SI unit whose symbol is stem:["Da"]) and the atomic mass constant stem:[m_"u"] are defined in terms of the mass of the ^12^C isotope. The unit stem:["u"] is related to the constant stem:[m_"u"] by
 
 
 [stem]
@@ -277,41 +277,40 @@ M_"u" = N_"A" m_"u" = {2 N_"A" h} / c {R_{oo}} / {alpha^2 A_"r" ("e")}
 ++++
 
 
-where the Rydberg constant (stem:[R_{oo}]), the fine structure constant (stem:[alpha]) and the relative atomic mass of the electron (Ar(e)) are determined experimentally. The speed of light (stem:[c]), the Planck constant (stem:[h]) and the Avogadro constant have fixed numerical values <<bipm-9th>>.
+where the Rydberg constant (stem:[R_{oo}]), the fine structure constant (stem:[alpha]) and the relative atomic mass of the electron (stem:[A_("r")("e")]) are determined experimentally. The speed of light (stem:[c]), the Planck constant (stem:[h]) and the Avogadro constant have fixed numerical values <<bipm-9th>>.
 
-Continuity conditions imposed on redefinitions of SI base units have ensured that stem:[M_"u"], now determined experimentally, is still stem:[1 xx 10^{-3} "&#x200c;" " kg/mol"] within a relative standard uncertainty of stem:[4.5 xx 10^{-10}] based on <<eq-6-3>> and additional independent experimental methods <<mohr>>. The present uncertainty is more than sufficient for the needs of chemical measurements, being an order of magnitude smaller than the relative uncertainty achievable in the most accurate realization of the mole <<fujii>>-<<kuramoto>>, and several orders of magnitude smaller than the uncertainties in examples of more common realizations of the mole described above.
+Continuity conditions imposed on redefinitions of SI base units have ensured that stem:[M_"u"], now determined experimentally, is still stem:[1 xx 10^{-3} " kg/mol"] within a relative standard uncertainty of stem:[4.5 xx 10^{-10}] based on <<eq-6-3>> and additional independent experimental methods <<mohr>>. The present uncertainty is more than sufficient for the needs of chemical measurements, being an order of magnitude smaller than the relative uncertainty achievable in the most accurate realization of the mole <<fujii>>-<<kuramoto>>, and several orders of magnitude smaller than the uncertainties in examples of more common realizations of the mole described above.
 
 
 [bibliography]
 == References
 
-* [[[bipm-9th,BIPM si-brochure]]] BIPM, The International System of Units (SI Brochure) [9th edition, 2019], https://www.bipm.org/en/publications/si-brochure/.
+* [[[bipm-9th,(15)BIPM si-brochure]]] BIPM, The International System of Units (SI Brochure) [9th edition, 2019], https://www.bipm.org/en/publications/si-brochure/.
 
-* [[[iupac-rec,1]]] IUPAC Recommendation, Pure Appl. Chem. 90, (2018) 175-180
+* [[[iupac-rec,9]]] _IUPAC Recommendation, Pure Appl. Chem._ *90*, (2018) 175-180
 
-* [[[iupac-quantities,1]]] IUPAC Quantities, Units and Symbols in Physical Chemistry, third ed. (2007) RSC Publishing, Cambridge UK https://www.iupac.org/fileadmin/user_upload/publications/e- resources/ONLINE-IUPAC-GB3-2ndPrinting-Online-Sep2012.pdf
+* [[[iupac-quantities,8]]] _IUPAC Quantities, Units and Symbols in Physical Chemistry_, third ed. (2007) RSC Publishing, Cambridge UK https://www.iupac.org/fileadmin/user_upload/publications/e- resources/ONLINE-IUPAC-GB3-2ndPrinting-Online-Sep2012.pdf
 
-* [[[fujii,1]]] Fujii K, Bettin H, Becker P, Massa E, Rienitz O, Pramann A, Nicolaus A, Kuramoto N, Busch I and Borys M, Metrologia 53 (2016) A19-A45.
+* [[[fujii,6]]] Fujii K, Bettin H, Becker P, Massa E, Rienitz O, Pramann A, Nicolaus A, Kuramoto N, Busch I and Borys M, _Metrologia_ *53* (2016) A19-A45.
 
-* [[[bartlg,1]]] BartlG, Becker P, Beckhoff B, Bettin H, Beyer E, BorysM, Busch I, Cibik L, D'Agostino G, Darlatt E, Metrologia 54 (2017) 693-715.
+* [[[bartlg,2]]] Bartl G, Becker P, Beckhoff B, Bettin H, Beyer E, Borys M, Busch I, Cibik L, D'Agostino G, Darlatt E, _Metrologia_ *54* (2017) 693-715.
 
-* [[[kuramoto,1]]] Kuramoto N, Mizushima S, Zhang L, Fujita K, Azuma Y, Kurokawa A, Okubo S, Inaba H, Fujii K, Metrologia 54 (2017) 716-729.
+* [[[kuramoto,10]]] Kuramoto N, Mizushima S, Zhang L, Fujita K, Azuma Y, Kurokawa A, Okubo S, Inaba H, Fujii K, _Metrologia_ *54* (2017) 716-729.
 
-* [[[newell,1]]] Newell D B, Cabiati F, Fischer J, Fujii K, Karshenboim S G, Margolis H S, de Mirandés E, Mohr P J, Nez F, Pachucki K, Quinn T J, Taylor B N, Wang M, Wood B M and Zhang Z, Metrologia 55 (2018) L13-L16.
+* [[[newell,14]]] Newell D B, Cabiati F, Fischer J, Fujii K, Karshenboim S G, Margolis H S, de Mirandés E, Mohr P J, Nez F, Pachucki K, Quinn T J, Taylor B N, Wang M, Wood B M and Zhang Z, _Metrologia_ *55* (2018) L13-L16.
 
-* [[[clade,1]]] Cladé P, Biraben F, Julien L, Nez F and Guellati-Khelifa S, Metrologia 53 (2016) A75-A82.
+* [[[clade,4]]] Cladé P, Biraben F, Julien L, Nez F and Guellati-Khelifa S, _Metrologia_ *53* (2016) A75-A82.
 
-* [[[massa,1]]] Fujii K, Massa E, Bettin H, Kuramoto N and Mana G Metrologia 55 (2018) L1-L4.
+* [[[massa,7]]] Fujii K, Massa E, Bettin H, Kuramoto N and Mana G _Metrologia_ *55* (2018) L1-L4.
 
 * [[[mep-kg,1]]] https://www.bipm.org/utils/en/pdf/si-mep/MeP-kg-2018.pdf
 
-* [[[quinn,1]]] Milton M and Quinn T, Metrologia 38, (2001) 289-296.
+* [[[quinn,11]]] Milton M and Quinn T, _Metrologia_ *38*, (2001) 289-296.
 
-* [[[milton,1]]] Milton M, and Mills I, Metrologia 46 (2009) 332-338.
+* [[[milton,12]]] Milton M, and Mills I, _Metrologia_ *46* (2009) 332-338.
 
-* [[[atomic-weights,1]]] Commission of Isotopic Abundances and Atomic Weights, http://ciaaw.org/atomic-weights.htm
+* [[[atomic-weights,5]]] Commission of Isotopic Abundances and Atomic Weights, http://ciaaw.org/atomic-weights.htm
 
-* [[[brown,1]]] Brown R J C, Metrologia 55 (2018) L25–L33.
+* [[[brown,3]]] Brown R J C, _Metrologia_ *55* (2018) L25–L33.
 
-* [[[mohr,1]]] Mohr P J, Newell D B, Taylor B N and Tiesinga E, Metrologia 55 (2018) 125-146.
-
+* [[[mohr,13]]] Mohr P J, Newell D B, Taylor B N and Tiesinga E, _Metrologia_ *55* (2018) 125-146.
