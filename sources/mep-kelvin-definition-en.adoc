@@ -3,7 +3,7 @@
 :partnumber: 1
 :edition: 9
 :copyright-year: 2019
-:revdate: 2020-05-20
+:revdate: 2019-05-20
 :language: en
 :title-appendix-en: Mise en pratique for the definition of the kelvin in the SI
 :title-appendix-fr: Mise en pratique de la définition du kelvin
@@ -47,11 +47,11 @@ ____
 The kelvin, symbol K, is the SI unit of thermodynamic temperature. It is defined by taking the fixed numerical value of the Boltzmann constant stem:[k] to be stem:[1.380649 xx 10^{-23}] when expressed in the unit stem:["J K"^{-1}], which is equal to stem:["kg m"^2 "s"^{-2} "K"^{-1}], where the kilogram, metre and second are defined in terms of stem:[h], stem:[c] and stem:[Delta nu_{"Cs"}].
 ____
 
-(stem:[h] is the Planck constant, stem:[c] is the speed of light in vacuum and stem:[Delta nu_{"Cs"}] is the caesium frequency corresponding to the transition between the two hyperfine levels of the unperturbed ground state of the ^133^Cs atom.) This definition implies the exact relation stem:[k = 1.380649 xx 10^{-23} " J/K"]. Its effect is that one kelvin is equal to the change of thermodynamic temperature T that results in a change of thermal energy stem:[kT] by stem:[1.380649 xx 10^{-23} " J"].
+(stem:[h] is the Planck constant, stem:[c] is the speed of light in vacuum and stem:[Delta nu_{"Cs"}] is the caesium frequency corresponding to the transition between the two hyperfine levels of the unperturbed ground state of the ^133^Cs atom.) This definition implies the exact relation stem:[k = 1.380649 xx 10^{-23} " J/K"]. Its effect is that one kelvin is equal to the change of thermodynamic temperature stem:[T] that results in a change of thermal energy stem:[kT] by stem:[1.380649 xx 10^{-23} " J"].
 
 Prior to 2018 the kelvin was defined as the fraction 1/273.16 of the thermodynamic temperature stem:[T_{"TPW"}] of the triple point of water [13^th^ CGPM meeting in 1967, Resolutions 3 and 4]. The kelvin is now defined in terms of the SI derived unit of energy, the joule, by fixing the value of the Boltzmann constant stem:[k], which is the proportionality constant between thermodynamic temperature and the associated thermal energy stem:[kT]. The new definition has its origin in statistical mechanics, where thermodynamic temperature is a measure of the average thermal energy per degree of freedom in the system. In principle, the natural unit of thermodynamic temperature is the joule and a separate base unit for temperature is not required. However, for historical and in particular for practical reasons, the kelvin remains a base unit of the SI. The explicit-constant definition is sufficiently wide to encompass any form of thermometry, where the _MeP_-K provides guidance on the practical realization of the kelvin.
 
-It remains common practice to call the difference stem:[T " - " 273.15 " K"] Celsius temperature, symbol stem:[t]. The unit of Celsius temperature is the degree Celsius, symbol stem:[°"C"], which is by definition equal in magnitude to the kelvin.
+It remains common practice to call the difference stem:[T - 273.15 " K"] Celsius temperature, symbol stem:[t]. The unit of Celsius temperature is the degree Celsius, symbol stem:[°"C"], which is by definition equal in magnitude to the kelvin.
 
 The value of stem:[k] adopted for the new definition is the https://doi.org/10.1088/1681-7575/aa950a[2017 CODATA value] <<newell>>. This ensures that the best estimate of the value of stem:[T_{"TPW"}] remains stem:[273.16 " K"]. One consequence of the 2018 definition is that the former relative uncertainty in the determination of stem:[k], stem:[3.7 xx 10^{-7}], is transferred to the temperature of the triple point of water, stem:[T_{"TPW"}]. The standard uncertainty of stem:[T_{"TPW"}] is hence now stem:[u(T_{"TPW"}) = 0.1 " mK"].
 
@@ -69,7 +69,7 @@ The purpose of this section is to clarify the terms that will be used in the fol
 --
 _Absolute primary thermometry_ allows to measure thermodynamic temperature directly in terms of the definition of the base unit kelvin, i.e. the defined numerical value of the Boltzmann constant. No reference is made to any temperature fixed point (stem:[n = 0], stem:[n = " number of points"]) and all other parameters specified in the equation of state are measured or otherwise determined.
 
-_Relative primary thermometry_ allows to measure thermodynamic temperature indirectly using a specified equation of state, with one or more key-parameter values determined from temperature fixed points (stem:[n > 0]), for which values for the thermodynamic temperature stem:[T] and their uncertainties are known a priori from previous absolute or relative primary thermometry. Tables containing data for stem:[T] of fixed points are given in the _MeP_-K annexes "link:https://www.bipm.org/utils/en/pdf/si-mep/MeP-K-2018_Relative_Primary_Radiometry.pdf[Relative primary radiometric thermometry]", see <<sec-4-2-3>>, and "link:https://www.bipm.org/utils/common/pdf/ITS-90/Estimates_Differences_T-T90_2010.pdf[Estimates of the differences stem:[T-T_{90}]]", see <<sec-5-1>>.
+_Relative primary thermometry_ allows to measure thermodynamic temperature indirectly using a specified equation of state, with one or more key-parameter values determined from temperature fixed points (stem:[n > 0]), for which values for the thermodynamic temperature stem:[T] and their uncertainties are known a priori from previous absolute or relative primary thermometry. Tables containing data for stem:[T] of fixed points are given in the _MeP_-K annexes "`link:https://www.bipm.org/utils/en/pdf/si-mep/MeP-K-2018_Relative_Primary_Radiometry.pdf[Relative primary radiometric thermometry]`", see <<sec-4-2-3>>, and "`link:https://www.bipm.org/utils/common/pdf/ITS-90/Estimates_Differences_T-T90_2010.pdf[Estimates of the differences stem:[T-T_{90}]]`", see <<sec-5-1>>.
 --
 
 . [[item-2]]_Defined temperature_ scales allow to assign temperature values, determined by primary thermometry, to a series of naturally occurring and highly reproducible states (e.g., the freezing and triple points of pure substances). They also cover a specification of the interpolating or extrapolating instruments for a particular sub-range of temperature and define any necessary interpolating or extrapolating equations. The defined scales are highly prescriptive and define new temperature quantities stem:[T_{"XX"}] (scale temperatures) that provide close approximations to the thermodynamic temperature stem:[T] and have the same unit as stem:[T], i.e. the kelvin. Temperature values assigned to the fixed points of each scale are considered exact and are not altered while the scale is in force, even if subsequent research reveals a bias of the values relative to true thermodynamic temperature. Presently, the only such defined temperature scales recommended by the CCT and approved by the CIPM are the https://doi.org/10.1088/0026-1394/27/1/002[International Temperature Scale of 1990 (ITS-90)] <<preston>> from 0.65 K and higher and the https://www.bipm.org/utils/en/pdf/PLTS-2000.pdf[Provisional Low Temperature Scale] <<proces>> covering the temperature range from stem:[0.9 " mK"] to stem:[1 " K"] (PLTS-2000). The temperatures defined by ITS-90 and PLTS-2000 are denoted by T90 and T2000. Non-prescriptive recommendations for the realization of the ITS-90 and the PLTS-2000 are given in the "`Guide to the Realization of the ITS-90`" and the "`Guide to the Realization of the PLTS-2000`",
@@ -78,7 +78,7 @@ respectively.
 There exist also _approximations of defined scales_ where fixed points, interpolating or extrapolating
 instruments, and interpolating or extrapolating equations are different from those specified in the
 defined scales, but any differences from a scale are sufficiently well understood. Such methods are
-described in the "link:https://www.bipm.org/en/committees/cc/cct/publications-cc.html[Guide on secondary thermometry]".
+described in the "`link:https://www.bipm.org/en/committees/cc/cct/publications-cc.html[Guide on secondary thermometry]`".
 
 
 == Practical realization of the kelvin by primary thermometry
@@ -157,7 +157,7 @@ ratios are usually expressible in terms of measured ratios of lengths and freque
 has been conducted over a wide temperature range from a few kelvins to above stem:[550 " K"]. Independent
 realizations of relative AGT typically agree within stem:[3 xx 10^{-6} " " T] in the sub-range stem:[234 " K"] to stem:[380 " K"]. A
 table containing data for the thermodynamic temperature stem:[T] of fixed points is given in the annex
-"link:https://www.bipm.org/utils/common/pdf/ITS-90/Estimates_Differences_T-T90_2010.pdf[Estimates of the differences stem:[T-T_{90}]]", see <<sec-5-1>>.
+"`link:https://www.bipm.org/utils/common/pdf/ITS-90/Estimates_Differences_T-T90_2010.pdf[Estimates of the differences stem:[T-T_{90}]]`", see <<sec-5-1>>.
 
 
 === Spectral-band radiometric thermometry (1235 K and above)
@@ -182,7 +182,7 @@ unit wavelength and is often expressed with the units stem:["W m"^{-2} " sr"^{-1
 
 Absolute primary radiometric thermometry requires an accurate determination of the optical power, emitted over a known spectral band and known solid angle, by an isothermal cavity of known emissivity. Measurement of the power requires a radiometer, comprising a detector and spectral filter, with known absolute spectral responsivity. The optical system typically includes two co-aligned circular apertures separated by a known distance to define the solid angle, and may additionally include lenses or mirrors. The refractive index of the medium in which the measurement is made must also be known. All measurements of the quantities involved must be traceable to the corresponding units of the SI, in particular, the watt and the metre.
 
-Uncertainties of around stem:[0.1 " K"] (stem:[k = 1]) at stem:[2800 " K"] are possible with primary radiometric thermometry. Practical guidelines for the realization, including typical uncertainty estimates, are found in the annex "link:https://www.bipm.org/utils/en/pdf/si-mep/MeP-K-2018_Absolute_Primary_Radiometry.pdf[Absolute primary radiometric thermometry]" and references therein. Methods used for determining the uncertainty associated with thermodynamic temperature as measured using absolute primary radiometric thermometry are described in the annex "link:https://www.bipm.org/utils/en/pdf/si-mep/MeP-K-2018_Absolute_Primary_Radiometry_Uncertainty.pdf[Uncertainty estimation in primary radiometric temperature measurement]" and references therein.
+Uncertainties of around stem:[0.1 " K"] (stem:[k = 1]) at stem:[2800 " K"] are possible with primary radiometric thermometry. Practical guidelines for the realization, including typical uncertainty estimates, are found in the annex "`link:https://www.bipm.org/utils/en/pdf/si-mep/MeP-K-2018_Absolute_Primary_Radiometry.pdf[Absolute primary radiometric thermometry]`" and references therein. Methods used for determining the uncertainty associated with thermodynamic temperature as measured using absolute primary radiometric thermometry are described in the annex "`link:https://www.bipm.org/utils/en/pdf/si-mep/MeP-K-2018_Absolute_Primary_Radiometry_Uncertainty.pdf[Uncertainty estimation in primary radiometric temperature measurement]`" and references therein.
 
 
 [[sec-4-2-3]]
@@ -196,7 +196,7 @@ For relative primary radiometric thermometry, the absolute spectral responsivity
 
 The interpolation and extrapolation is greatly simplified with the use of a well-understood parametric approximation of the integral expression of the optical power (e.g., by the Planck form of the Sakuma–Hattori equation), which eliminates the need to iteratively solve the integral equation describing the measured optical power.
 
-Relative primary radiometric thermometry gives uncertainties that are only slightly higher than absolute primary radiometric thermometry. Guidelines for the realization, including typical uncertainty estimates, are found in the annex "https://www.bipm.org/utils/en/pdf/si-mep/MeP-K-2018_Relative_Primary_Radiometry.pdf[Relative primary radiometric thermometry]" and references therein.
+Relative primary radiometric thermometry gives uncertainties that are only slightly higher than absolute primary radiometric thermometry. Guidelines for the realization, including typical uncertainty estimates, are found in the annex "`link:https://www.bipm.org/utils/en/pdf/si-mep/MeP-K-2018_Relative_Primary_Radiometry.pdf[Relative primary radiometric thermometry]`" and references therein.
 
 
 === Thermodynamic temperature measurement by polarizing gas thermometry
@@ -224,7 +224,7 @@ gas densities up to stem:[0.1 " mol/cm"^3] by the rigorous relationship between 
 
 [stem]
 ++++
-{n^2 - 1} / {n^2 + 2} = (A_{epsilon} + A_{mu}) / {RT}
+{n^2 - 1} / {n^2 + 2} = {(A_{epsilon} + A_{mu}) p} / {RT}
 ++++
 
 
@@ -260,12 +260,12 @@ experimental equation for the determination of stem:[epsilon_"r"]
 
 [stem]
 ++++
-epsilon_"r" = C(p) / {C(0)(1 + kappa_{"eff"}p)}
+epsilon_"r" = {C(p)} / {C(0)(1 + kappa_{"eff"}p)}
 ++++
 
 where stem:[kappa_{"eff"}] is the negative isothermal effective compressibility and stem:[C(0)] is the capacitance of the
 evacuated capacitor footnote:[The term “effective” indicates the fact that each capacitor is a composite because small pieces of insulator
-materials are necessary to isolate the electrodes electrically.]. Because of the small A value of helium, the capacitance changes have to be
+materials are necessary to isolate the electrodes electrically.]. Because of the small stem:[A_{epsilon}] value of helium, the capacitance changes have to be
 measured using a high-precision ratio-transformer bridge, the quality of which is comparable with
 those applied for the realization and dissemination of the capacitance unit.
 
@@ -298,11 +298,11 @@ capacitor, simple ratio measurements are not sufficient.
 ==== Refractive-index gas thermometry
 
 In the context of absolute primary microwave RIGT, the refractive index is determined from
-measurements of microwave resonance frequencies fm(p) of a gas-filled isothermal cavity. (The
-subscript "`m`" specifies a particular microwave mode.) Quasi-spherical or cylindrical cavity shapes
+measurements of microwave resonance frequencies stem:[f_m (p)] of a gas-filled isothermal cavity. (The
+subscript "`_m_`" specifies a particular microwave mode.) Quasi-spherical or cylindrical cavity shapes
 are typically employed, with the cavity dimensions at the working gas pressure calculated by
 combining the positive isothermal effective compressibility stem:[kappa_{"eff"}] of the resonator shell with cavity
-resonance measurements performed in vacuum fm(0) (the sign of stem:[kappa_{"eff"}] depends on the design of the
+resonance measurements performed in vacuum stem:[f_m(0)] (the sign of stem:[kappa_{"eff"}] depends on the design of the
 cavity resonator):
 
 
@@ -389,7 +389,7 @@ device (SQUID). In the evaluated frequency band, the electronic transfer functio
 circuit including the noise source and the SQUID sensor must be precisely determined. Relative
 combined standard uncertainties of order stem:[1 xx 10^{-3}] have been achieved for thermodynamic
 temperatures determined by absolute primary low-temperature JNT. Details are found in the annex
-"link:https://www.bipm.org/utils/en/pdf/si-mep/MeP-K-2019-LT_Johnson_Noise_Thermometry.pdf[Low-temperature Johnson noise thermometry]" and the references therein. See also Qu et al. <<jifeng>> and Flowers-Jacobs et al. <<flowers>>.
+"`link:https://www.bipm.org/utils/en/pdf/si-mep/MeP-K-2019-LT_Johnson_Noise_Thermometry.pdf[Low-temperature Johnson noise thermometry]`" and the references therein. See also Qu et al. <<jifeng>> and Flowers-Jacobs et al. <<flowers>>.
 
 
 
@@ -400,7 +400,7 @@ measured noise power spectral density to the noise power spectral density measur
 temperature for which the thermodynamic value is known. The uncertainty of relative primary JNT
 may be of the same level or lower as for absolute primary JNT provided the uncertainty for the
 thermodynamic reference temperature is sufficiently low. Details are found in the annex
-"link:https://www.bipm.org/utils/en/pdf/si-mep/MeP-K-2019-LT_Johnson_Noise_Thermometry.pdf[Low-temperature Johnson noise thermometry]"
+"`link:https://www.bipm.org/utils/en/pdf/si-mep/MeP-K-2019-LT_Johnson_Noise_Thermometry.pdf[Low-temperature Johnson noise thermometry]`"
 and the references therein.
 
 
@@ -433,7 +433,7 @@ The ITS-90 [Recommendation 5, CI-1989] is the most recent descendant of the orig
 
 Besides the text of the ITS-90 footnote:[The first sentence of Section 1 _Units of Temperature_ of this text has been superseded by the explicit-constant definition of the SI unit of thermodynamic temperature given in Section 2.], the https://www.bipm.org/utils/en/pdf/MeP_K_Technical_Annex.pdf[Technical Annex] of the _MeP_-K is mandatory for the realization of the ITS-90. This annex specifies the isotopic composition of the three fixed-point substances water, hydrogen and neon. Such a specification is not included in the scale definition itself. For the former definition of the base unit kelvin via the temperature of the triple point of water, the same isotopic composition as that given in the annex was specified by the CIPM at its 94th meeting in 2005. Furthermore, the Technical Annex contains equations, which facilitate corrections for the results obtained with fixed-point samples having other isotopic compositions.
 
-Recommended differences between thermodynamic temperature T and temperature T90 on the ITS-90, stem:[T-T_{90}], together with their uncertainties are given in the annex "`https://www.bipm.org/utils/common/pdf/ITS-90/Estimates_Differences_T-T90_2010.pdf[Estimates of the differences stem:[T-T_{90}]]`" of the _MeP_-K. They constitute a support to high-accuracy measurements of T. The user can easily convert measurements obtained in terms of stem:[T_{90}] to stem:[T] and vice versa. Since the fixed-point temperatures assigned in the ITS-90 have no uncertainty, the differences stem:[T-T_{90}] allow directly deducing stem:[T] values for the fixed points and their uncertainties.
+Recommended differences between thermodynamic temperature stem:[T] and temperature T90 on the ITS-90, stem:[T-T_{90}], together with their uncertainties are given in the annex "`link:https://www.bipm.org/utils/common/pdf/ITS-90/Estimates_Differences_T-T90_2010.pdf[Estimates of the differences stem:[T-T_{90}]]`" of the _MeP_-K. They constitute a support to high-accuracy measurements of stem:[T]. The user can easily convert measurements obtained in terms of stem:[T_{90}] to stem:[T] and vice versa. Since the fixed-point temperatures assigned in the ITS-90 have no uncertainty, the differences stem:[T-T_{90}] allow directly deducing stem:[T] values for the fixed points and their uncertainties.
 
 
 === Provisional Low Temperature Scale from 0.9 mK to 1 K (PLTS-2000)
@@ -448,7 +448,7 @@ In contrast to the ITS-90, for which the Technical Annex of the _MeP_-K contains
 
 * [[[bipm,1]]] BIPM, The International System of Units (SI Brochure) [9th edition, 2019], https://www.bipm.org/en/publications/si-brochure/
 
-* [[[newell,2]]] Newell D B, Cabiati F, Fischer J, Fujii K, Karshenboim S G, Margolis H S, de Mirandés E, Mohr P J, Nez F, Pachucki K, Quinn T J, Taylor B N, Wang M, Wood B M and Zhang Z 2018 The CODATA 2017 Values of h, e, k, and NA for the revision of the SI Metrologia 55, L13-L16 https://doi.org/10.1088/1681-7575/aa950a
+* [[[newell,2]]] Newell D B, Cabiati F, Fischer J, Fujii K, Karshenboim S G, Margolis H S, de Mirandés E, Mohr P J, Nez F, Pachucki K, Quinn T J, Taylor B N, Wang M, Wood B M and Zhang Z 2018 The CODATA 2017 Values of stem:[h], stem:[e], stem:[k], and stem:[N_{"A"}] for the revision of the SI Metrologia 55, L13-L16 https://doi.org/10.1088/1681-7575/aa950a
 
 * [[[preston,3]]] Preston-Thomas H 1990 The International Temperature Scale of 1990 (ITS-90) Metrologia 27, 3-10 (8 pp.) https://doi.org/10.1088/0026-1394/27/1/002 and 109 (1 p. - erratum)
 
