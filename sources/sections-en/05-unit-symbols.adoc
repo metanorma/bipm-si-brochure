@@ -62,7 +62,7 @@ Unit symbols must not be used to provide specific information about the quantity
 
 [NOTE]
 ====
-For example: The maximum electric potential difference is stem:[U_("max") = 1000 " V"]  but not stem:[U = 1000 " V"_("max")]. The mass fraction of copper in the sample of silicon is stem:[w("Cu") = 1.3 times 10^(-6)] but not stem:[1.3 times 10^(-6) " w/w"].
+For example: The maximum electric potential difference is stem:[U_("max") = 1000 " V"]  but not stem:[U = 1000 " V"_("max")]. The mass fraction of copper in the sample of silicon is stem:[w("Cu") = 1.3 xx 10^(-6)] but not stem:[1.3 xx 10^(-6) " w/w"].
 ====
 
 ==== Formatting the value of a quantity
@@ -120,10 +120,10 @@ The uncertainty associated with an estimated value of a quantity should be evalu
 
 [stem%unnumbered]
 ++++
-m_"n" = 1.674927471 (21) times 10^(−27) " kg",
+m_"n" = 1.674927471 (21) xx 10^(−27) " kg",
 ++++
 
-where stem:[m_"n"] is the symbol for the quantity (in this case the mass of a neutron) and the number in parentheses is the numerical value of the standard uncertainty of the estimated value of stem:[m_"n"] referred to the last digits of the quoted value; in this case stem:[u(m_"n") = 0.000000021 times 10^(−27) " kg"]. If an expanded uncertainty stem:[U(x)] is used in place of the standard uncertainty stem:[u(x)], then the coverage probability stem:[p] and the coverage factor stem:[k] must be stated.
+where stem:[m_"n"] is the symbol for the quantity (in this case the mass of a neutron) and the number in parentheses is the numerical value of the standard uncertainty of the estimated value of stem:[m_"n"] referred to the last digits of the quoted value; in this case stem:[u(m_"n") = 0.000000021 xx 10^(−27) " kg"]. If an expanded uncertainty stem:[U(x)] is used in place of the standard uncertainty stem:[u(x)], then the coverage probability stem:[p] and the coverage factor stem:[k] must be stated.
 
 ==== Multiplying or dividing quantity symbols, the values of quantities, or numbers
 
@@ -131,10 +131,10 @@ When multiplying or dividing quantity symbols any of the following methods may b
 
 [stem%unnumbered]
 ++++
-ab,text( ) a text( ) b,text( ) a * b,text( ) a times b,text( ) a //b,text( ) a/b,text( ) a text( ) b^(−1).
+ab," " a " " b," " a * b," " a xx b," " a //b," " a/b," " a " " b^(−1).
 ++++
 
-When multiplying the value of quantities either a multiplication sign stem:[times] or brackets should be used, not a half-high (centred) dot. When multiplying numbers only the multiplication sign stem:[times] should be used.
+When multiplying the value of quantities either a multiplication sign stem:[xx] or brackets should be used, not a half-high (centred) dot. When multiplying numbers only the multiplication sign stem:[xx] should be used.
 
 When dividing the values of quantities using a solidus, brackets are used to avoid ambiguity.
 
@@ -142,9 +142,9 @@ When dividing the values of quantities using a solidus, brackets are used to avo
 ====
 stem:[F = ma] for force equals mass times acceleration
 
-stem:[(53 " m/s") times 10.2 " s"] or stem:[(53 " m/s")(10.2 " s")]
+stem:[(53 " m/s") xx 10.2 " s"] or stem:[(53 " m/s")(10.2 " s")]
 
-stem:[25 times 60.5] but not stem:[25 times 60.5]
+stem:[25 xx 60.5] but not stem:[25 xx 60.5]
 
 stem:[(20 " m")//(5 " s") = 4 " m/s"]
 
@@ -156,7 +156,7 @@ stem:["(a/b)/c"], not stem:["a/b/c"]
 
 As discussed in <<dimensions_of_quantities>>, values of quantities with unit one, are expressed simply as numbers. The unit symbol 1 or unit name "one" are not explicitly shown. SI prefix symbols can neither be attached to the symbol 1 nor to the name "one", therefore powers of 10 are used to express particularly large or small values.
 
-NOTE: stem:[n = 1.51], but not stem:[n = 1.51 times 1], where stem:[n] is the quantity symbol for refractive index.
+NOTE: stem:[n = 1.51], but not stem:[n = 1.51 xx 1], where stem:[n] is the quantity symbol for refractive index.
 
 Quantities that are ratios of quantities of the same kind (for example length ratios and amount fractions) have the option of being expressed with units (stem:["m/m"], stem:["mol/mol"]) to aid the understanding of the quantity being expressed and also allow the use of SI prefixes, if this is desirable (stem:[mu "m/m"], stem:["nmol/mol"]). Quantities relating to counting do not have this option, they are just numbers.
 
