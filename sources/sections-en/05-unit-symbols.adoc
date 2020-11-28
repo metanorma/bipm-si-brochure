@@ -17,16 +17,16 @@ Unit symbols are mathematical entities and not abbreviations. Therefore, they ar
 
 In forming products and quotients of unit symbols the normal rules of algebraic multiplication or division apply. Multiplication must be indicated by a space or a half-high (centred) dot (stem:[*]), since otherwise some prefixes could be misinterpreted as a unit symbol. Division is indicated by a horizontal line, by a solidus (oblique stroke, /) or by negative exponents. When several unit symbols are combined, care should be taken to avoid ambiguities, for example by using brackets or negative exponents. A solidus must not be used more than once in a given expression without brackets to remove ambiguities.
 
-It is not permissible to use abbreviations for unit symbols or unit names, such as sec (for either stem:["s"] or second), sq. mm (for either stem:["mm"^2] or square millimetre), cc (for either stem:["cm"^3] or cubic centimetre), or mps (for either stem:["m/s"] or metre per second). The use of the correct symbols for SI units, and for units in general, as listed in earlier chapters of this brochure, is mandatory. In this way ambiguities and misunderstandings in the values of quantities are avoided.
+It is not permissible to use abbreviations for unit symbols or unit names, such as sec (for either stem:[rm(s)] or second), sq. mm (for either stem:[rm(mm)^2] or square millimetre), cc (for either stem:[rm(cm)^3] or cubic centimetre), or mps (for either stem:[rm(m)//rm(s)] or metre per second). The use of the correct symbols for SI units, and for units in general, as listed in earlier chapters of this brochure, is mandatory. In this way ambiguities and misunderstandings in the values of quantities are avoided.
 
 [[unit_names]]
 === Unit names
 
-Unit names are normally printed in upright type and they are treated like ordinary nouns. In English, the names of units start with a lower-case letter (even when the symbol for the unit begins with a capital letter), except at the beginning of a sentence or in capitalized material such as a title. In keeping with this rule, the correct spelling of the name of the unit with the symbol stem:["°C"] is "degree Celsius" (the unit degree begins with a lower-case d and the modifier Celsius begins with an upper-case C because it is a proper name).
+Unit names are normally printed in upright type and they are treated like ordinary nouns. In English, the names of units start with a lower-case letter (even when the symbol for the unit begins with a capital letter), except at the beginning of a sentence or in capitalized material such as a title. In keeping with this rule, the correct spelling of the name of the unit with the symbol stem:["°"rm(C)] is "degree Celsius" (the unit degree begins with a lower-case d and the modifier Celsius begins with an upper-case C because it is a proper name).
 
 Although the values of quantities are normally expressed using symbols for numbers and symbols for units, if for some reason the unit name is more appropriate than the unit symbol, the unit name should be spelled out in full.
 
-When the name of a unit is combined with the name of a multiple or sub-multiple prefix, no space or hyphen is used between the prefix name and the unit name. The combination of prefix name and unit name is a single word (see <<multiples>>).
+When the name of a unit is combined with the name of a multiple or sub-multiple prefix, no space or hyphen is used between the prefix name and the unit name. The combination of prefix name and unit name is a single word (see <<multiples,%nosee>>).
 
 When the name of a derived unit is formed from the names of individual units by juxtaposition, either a space or a hyphen is used to separate the names of the individual units.
 
@@ -40,12 +40,12 @@ Symbols for quantities are generally single letters set in an italic font, altho
 
 Recommended names and symbols for quantities are listed in many standard references, such as the ISO/IEC 80000 series _Quantities and units_, the IUPAP SUNAMCO Red Book _Symbols, Units and Nomenclature in Physics_ and the IUPAC Green Book _Quantities, Units and Symbols in Physical Chemistry_. However, symbols for quantities are recommendations (in contrast to symbols for units, for which the use of the correct form is mandatory). In certain circumstances authors may wish to use a symbol of their own choice for a quantity, for example to avoid a conflict arising from the use of the same symbol for two different quantities. In such cases, the meaning of the symbol must be clearly stated. However, neither the name of a quantity, nor the symbol used to denote it, should imply any particular choice of unit.
 
-Symbols for units are treated as mathematical entities. In expressing the value of a quantity as the product of a numerical value and a unit, both the numerical value and the unit may be treated by the ordinary rules of algebra. This procedure is described as the use of quantity calculus, or the algebra of quantities. For example, the equation stem:[p = 48 " kPa"] may equally be written as stem:[p"/kPa" = 48]. It is common practice to write the quotient of a quantity and a unit in this way for a column heading in a table, so that the entries in the table are simply numbers. For example, a table of the velocity squared versus pressure may be formatted as shown below.
+Symbols for units are treated as mathematical entities. In expressing the value of a quantity as the product of a numerical value and a unit, both the numerical value and the unit may be treated by the ordinary rules of algebra. This procedure is described as the use of quantity calculus, or the algebra of quantities. For example, the equation stem:[p = 48 " "rm(kPa)] may equally be written as stem:[p//rm(kPa) = 48]. It is common practice to write the quotient of a quantity and a unit in this way for a column heading in a table, so that the entries in the table are simply numbers. For example, a table of the velocity squared versus pressure may be formatted as shown below.
 
 [%unnumbered]
 [cols="<,<"]
 |===
-| stem:[p"/kPa"] | stem:[v^2//("m/s")^2]
+| stem:[p//rm(kPa)] | stem:[v^2//(rm(m)//rm(s))^2]
 | 48.73 | 94766
 | 72.87 | 94771
 | 135.42 | 94784
@@ -62,7 +62,7 @@ Unit symbols must not be used to provide specific information about the quantity
 
 [NOTE]
 ====
-For example: The maximum electric potential difference is stem:[U_("max") = 1000 " V"]  but not stem:[U = 1000 " V"_("max")]. The mass fraction of copper in the sample of silicon is stem:[w("Cu") = 1.3 xx 10^(-6)] but not stem:[1.3 xx 10^(-6) " w/w"].
+For example: The maximum electric potential difference is stem:[U_("max") = 1000 " "rm(V)]  but not stem:[U = 1000 " "rm(V_(max))]. The mass fraction of copper in the sample of silicon is stem:[w("Cu") = 1.3 xx 10^(-6)] but not stem:[1.3 xx 10^(-6) " "rm(w)//rm(w)].
 ====
 
 ==== Formatting the value of a quantity
@@ -71,14 +71,14 @@ The numerical value always precedes the unit and a space is always used to separ
 
 [NOTE]
 ====
-stem:["m" = 12.3 " g"] where stem:["m"] is used as a symbol for the quantity mass, but stem:[phi = 30° 22text(') 8text(")], where stem:[phi] is used as a symbol for the quantity plane angle.
+stem:["m" = 12.3 " "rm(g)] where stem:[rm(m)] is used as a symbol for the quantity mass, but stem:[phi = 30° 22text(') 8text(")], where stem:[phi] is used as a symbol for the quantity plane angle.
 ====
 
-This rule means that the symbol stem:["°C"] for the degree Celsius is preceded by a space when one expresses values of Celsius temperature stem:[t].
+This rule means that the symbol stem:["°"rm(C)] for the degree Celsius is preceded by a space when one expresses values of Celsius temperature stem:[t].
 
 [NOTE]
 ====
-stem:[t = 30.2 " °C"] but not stem:[t = 30.2 " °C"] nor stem:[t = 30.2 " °C"]
+stem:[t = 30.2 " °"rm(C)] but not stem:[t = 30.2 " °"rm(C)] nor stem:[t = 30.2 " °"rm(C)]
 ====
 
 Even when the value of a quantity is used as an adjective, a space is left between the numerical value and the unit symbol. Only when the name of the unit is spelled out would the ordinary rules of grammar apply, so that in English a hyphen would be used to separate the number from the unit.
@@ -86,7 +86,7 @@ Even when the value of a quantity is used as an adjective, a space is left betwe
 [NOTE]
 ====
 [align=left]
-a stem:[10 " k" Omega] resistor +
+a stem:[10 " "rm(k) Omega] resistor +
 a 35-millimetre film
 ====
 
@@ -94,7 +94,7 @@ In any expression, only one unit is used. An exception to this rule is in expres
 
 [NOTE]
 ====
-stem:[l = 10.234 " m"] but not stem:[l = 10 " m " 23.4 " cm"]
+stem:[l = 10.234 " "rm(m)] but not stem:[l = 10 " "rm(m)" " 23.4 " "rm(cm)]
 ====
 
 ==== Formatting numbers, and the decimal marker
@@ -120,10 +120,10 @@ The uncertainty associated with an estimated value of a quantity should be evalu
 
 [stem%unnumbered]
 ++++
-m_"n" = 1.674927471 (21) xx 10^(−27) " kg",
+m_"n" = 1.674927471 (21) xx 10^(−27) " "rm(kg),
 ++++
 
-where stem:[m_"n"] is the symbol for the quantity (in this case the mass of a neutron) and the number in parentheses is the numerical value of the standard uncertainty of the estimated value of stem:[m_"n"] referred to the last digits of the quoted value; in this case stem:[u(m_"n") = 0.000000021 xx 10^(−27) " kg"]. If an expanded uncertainty stem:[U(x)] is used in place of the standard uncertainty stem:[u(x)], then the coverage probability stem:[p] and the coverage factor stem:[k] must be stated.
+where stem:[m_"n"] is the symbol for the quantity (in this case the mass of a neutron) and the number in parentheses is the numerical value of the standard uncertainty of the estimated value of stem:[m_"n"] referred to the last digits of the quoted value; in this case stem:[u(m_"n") = 0.000000021 xx 10^(−27) " "rm(kg)]. If an expanded uncertainty stem:[U(x)] is used in place of the standard uncertainty stem:[u(x)], then the coverage probability stem:[p] and the coverage factor stem:[k] must be stated.
 
 ==== Multiplying or dividing quantity symbols, the values of quantities, or numbers
 
@@ -142,11 +142,11 @@ When dividing the values of quantities using a solidus, brackets are used to avo
 ====
 stem:[F = ma] for force equals mass times acceleration
 
-stem:[(53 " m/s") xx 10.2 " s"] or stem:[(53 " m/s")(10.2 " s")]
+stem:[(53 " "rm(m)//rm(s)) xx 10.2 " "rm(s)] or stem:[(53 " "rm(m)//rm(s))(10.2 " "rm(s))]
 
 stem:[25 xx 60.5] but not stem:[25 xx 60.5]
 
-stem:[(20 " m")//(5 " s") = 4 " m/s"]
+stem:[(20 " "rm(m))//(5 " "rm(s)) = 4 " "rm(m)//rm(s)]
 
 stem:["(a/b)/c"], not stem:["a/b/c"]
 ====
@@ -158,7 +158,7 @@ As discussed in <<dimensions_of_quantities>>, values of quantities with unit one
 
 NOTE: stem:[n = 1.51], but not stem:[n = 1.51 xx 1], where stem:[n] is the quantity symbol for refractive index.
 
-Quantities that are ratios of quantities of the same kind (for example length ratios and amount fractions) have the option of being expressed with units (stem:["m/m"], stem:["mol/mol"]) to aid the understanding of the quantity being expressed and also allow the use of SI prefixes, if this is desirable (stem:[mu "m/m"], stem:["nmol/mol"]). Quantities relating to counting do not have this option, they are just numbers.
+Quantities that are ratios of quantities of the same kind (for example length ratios and amount fractions) have the option of being expressed with units (stem:[rm(m)//rm(m)], stem:[rm(mol)//rm(mol)]) to aid the understanding of the quantity being expressed and also allow the use of SI prefixes, if this is desirable (stem:[mu rm(m)//rm(m)], stem:[rm(nmol)//rm(mol)]). Quantities relating to counting do not have this option, they are just numbers.
 
 The internationally recognized symbol % (percent) may be used with the SI. When it is used, a space separates the number and the symbol %. The symbol % should be used rather than the name "percent". In written text, however, the symbol % generally takes the meaning of "parts per hundred". Phrases such as "percentage by mass", "percentage by volume", or "percentage by amount of substance" shall not be used; the extra information on the quantity should instead be conveyed in the description and symbol for the quantity.
 
@@ -169,17 +169,17 @@ NOTE: In English-speaking countries, a billion is now generally taken to be stem
 [[plane_angles]]
 ==== Plane angles, solid angles and phase angles
 
-The coherent SI unit for the plane angle and the phase angle is radian, unit symbol stem:[text(rad)] and that for the solid angle is steradian, unit symbol stem:["sr"].
+The coherent SI unit for the plane angle and the phase angle is radian, unit symbol stem:[rm(rad)] and that for the solid angle is steradian, unit symbol stem:[rm(sr)].
 
-The plane angle, expressed in radian, between two lines originating from a common point is the length of circular arc stem:[s],swept out between the lines by a radius vector of length stem:[r] from the common point divided by the length of the radius vector, stem:[theta = s//r text( rad)]. The phase angle (often just referred to as the "phase") is the argument of any complex number. It is the angle between the positive real axis and the radius of the polar representation of the complex number in the complex plane.
+The plane angle, expressed in radian, between two lines originating from a common point is the length of circular arc stem:[s],swept out between the lines by a radius vector of length stem:[r] from the common point divided by the length of the radius vector, stem:[theta = s//r " "rm(rad)]. The phase angle (often just referred to as the "phase") is the argument of any complex number. It is the angle between the positive real axis and the radius of the polar representation of the complex number in the complex plane.
 
-One radian corresponds to the angle for which stem:[s = r], thus stem:[1 " rad" = 1]. The measure of the right angle is exactly equal to the number stem:[pi //2].
+One radian corresponds to the angle for which stem:[s = r], thus stem:[1 " "rm(rad) = 1]. The measure of the right angle is exactly equal to the number stem:[pi //2].
 
-A historical convention is the degree. The conversion between radians and degrees follows from the relation stem:[360° = 2pi text( rad)]. Note that the degree, with the symbol °, is not a unit of the SI.
+A historical convention is the degree. The conversion between radians and degrees follows from the relation stem:[360° = 2pi " "rm(rad)]. Note that the degree, with the symbol °, is not a unit of the SI.
 
-The solid angle, expressed in steradian, corresponds to the ratio between an area stem:[A] of the surface of a sphere of radius stem:[r] and the squared radius, stem:[Omega = A//r^2 " sr"]. One steradian corresponds to the solid angle for which stem:[A = r^2], thus stem:[1 " sr" = 1].
+The solid angle, expressed in steradian, corresponds to the ratio between an area stem:[A] of the surface of a sphere of radius stem:[r] and the squared radius, stem:[Omega = A//r^2 " "rm(sr)]. One steradian corresponds to the solid angle for which stem:[A = r^2], thus stem:[1 " "rm(sr) = 1].
 
-The units stem:[text(rad)] and stem:["sr"] correspond to ratios of two lengths and two squared lengths, respectively. However, it shall be emphasized that rad and sr must only be used to express angles and solid angles, but not to express ratios of lengths and squared lengths in general.
+The units stem:[rm(rad)] and stem:[rm(sr)] correspond to ratios of two lengths and two squared lengths, respectively. However, it shall be emphasized that rad and sr must only be used to express angles and solid angles, but not to express ratios of lengths and squared lengths in general.
 
 [NOTE]
 ====
