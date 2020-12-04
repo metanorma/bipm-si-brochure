@@ -106,11 +106,11 @@ where stem:[K_m] is maximum luminous efficacy, stem:[Phi_{e,lambda}] is spectral
 
 [NOTE]
 ====
-The distribution of the luminous intensities as a function of the direction of emission, e.g. given by the polar angles stem:[(vartheta,varphi)], is used to determine the luminous flux, stem:[Phi_v], within a certain solid angle, stem:[Omega], of a source:
+The distribution of the luminous intensities as a function of the direction of emission, e.g. given by the polar angles stem:[(vartheta,varphi)], is used to determine the luminous flux, stem:[Phi_v], within a certain solid angle, stem:[ii Omega], of a source:
 
 [stem%unnumbered]
 ++++
-Phi_v = int int_{Omega} I_v (vartheta,varphi) sin vartheta "d" varphi "d" vartheta
+Phi_v = int int_{ii Omega} I_v (vartheta,varphi) sin vartheta "d" varphi "d" vartheta
 ++++
 
 ====
@@ -132,20 +132,20 @@ density of luminous flux with respect to solid angle in a specified direction
 
 [stem%unnumbered]
 ++++
-I_v = {"d" Phi_v} / {"d" Omega}
+I_v = {"d" Phi_v} / {"d" ii Omega}
 ++++
 
-where stem:["d" Phi_v] is the luminous flux emitted in the given direction, and stem:[Omega] is the solid angle containing that direction.
+where stem:["d" Phi_v] is the luminous flux emitted in the given direction, and stem:[ii Omega] is the solid angle containing that direction.
 
 NOTE: For practical realization of the quantity the source is approximated by a point source.
 
 [NOTE]
 ====
-The distribution of the luminous intensities as a function of the direction of emission, e.g. given by the polar angles stem:[(theta, varphi)] is used to determine the luminous flux, stem:[Phi_v], within a certain solid angle, stem:[Omega], of a source:
+The distribution of the luminous intensities as a function of the direction of emission, e.g. given by the polar angles stem:[(theta, varphi)] is used to determine the luminous flux, stem:[Phi_v], within a certain solid angle, stem:[ii Omega], of a source:
 
 [stem%unnumbered]
 ++++
-Phi_v = int int_{Omega} I_v (vartheta, varphi) sin vartheta "d" varphi "d" vartheta
+Phi_v = int int_{ii Omega} I_v (vartheta, varphi) sin vartheta "d" varphi "d" vartheta
 ++++
 
 ====
@@ -198,7 +198,7 @@ Hence, luminance is often considered as a quotient of averaged quantities; the a
 
 [NOTE]
 ====
-For a surface being irradiated, an equivalent formula in terms of illuminance, stem:[E_v], and solid angle, stem:[Omega], is stem:[L_v = {"d" E_v}/{"d" Omega} 1 / {cos theta}] where stem:[theta] is the angle between the normal to the surface being irradiated and the direction of irradiation. This form is useful when the source has no surface (e.g. the sky, the plasma of a discharge).
+For a surface being irradiated, an equivalent formula in terms of illuminance, stem:[E_v], and solid angle, stem:[ii Omega], is stem:[L_v = {"d" E_v}/{"d" ii Omega} 1 / {cos theta}] where stem:[theta] is the angle between the normal to the surface being irradiated and the direction of irradiation. This form is useful when the source has no surface (e.g. the sky, the plasma of a discharge).
 ====
 
 [NOTE]
@@ -208,11 +208,11 @@ An equivalent formula is stem:[L_v = {"d" Phi_v}/{"d" G}] where stem:[Phi_v] is 
 
 [NOTE]
 ====
-Luminous flux may be obtained by integrating luminance over projected area, stem:[A cdot cos alpha], and solid angle, stem:[Omega]:
+Luminous flux may be obtained by integrating luminance over projected area, stem:[A cdot cos alpha], and solid angle, stem:[ii Omega]:
 
 [stem%unnumbered]
 ++++
-Phi_v = int int L_v cos alpha "d" A "d" Omega
+Phi_v = int int L_v cos alpha "d" A "d" ii Omega
 ++++
 ====
 
@@ -223,11 +223,11 @@ Since the optical extent, expressed by stem:[G cdot n^2], where stem:[G] is geom
 
 [NOTE]
 ====
-The equation in the definition can also be described as a function of luminous flux, stem:[Phi_v]. In this case, it is mathematically interpreted as a second partial derivative of the luminous flux at a specified point stem:[(x, y)] in space in a specified direction stem:[(vartheta, varphi)] with respect to projected area, stem:[A cdot cos alpha], and solid angle, stem:[Omega],
+The equation in the definition can also be described as a function of luminous flux, stem:[Phi_v]. In this case, it is mathematically interpreted as a second partial derivative of the luminous flux at a specified point stem:[(x, y)] in space in a specified direction stem:[(vartheta, varphi)] with respect to projected area, stem:[A cdot cos alpha], and solid angle, stem:[ii Omega],
 
 [stem%unnumbered]
 ++++
-L_v (x,y,vartheta,varphi) = {partial Phi_v (x,y,vartheta,varphi)} / {partial A(x,y) cdot cos alpha cdot partial Omega (vartheta,varphi)}
+L_v (x,y,vartheta,varphi) = {partial Phi_v (x,y,vartheta,varphi)} / {partial A(x,y) cdot cos alpha cdot partial ii Omega (vartheta,varphi)}
 ++++
 
 where stem:[alpha] is the angle between the normal to that area at the specified point and the specified direction.
