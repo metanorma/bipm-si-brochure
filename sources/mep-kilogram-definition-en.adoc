@@ -310,43 +310,43 @@ The fact that adoption of Resolution 1 by the 26^th^ CGPM (2018) redefined both 
 
 The equations of physics have not changed. Some of the principal relations used in atomic physics are recalled in this subsection.
 
-The unified atomic mass constant stem:[m_u] is defined in terms of the mass of the ^12^C isotope
+The unified atomic mass constant stem:[ii(M)_u] is defined in terms of the mass of the ^12^C isotope
 
 [stem]
 ++++
-m_"u" = m ("&#x200c;"^12 C)//12
+m_{rm(u)} = m ("&#x200c;"^12 C)//12
 ++++
 
 
-The unified atomic mass unit, stem:["u"], also known as the dalton (symbol: stem:["Da"]), is not an SI unit. Formally, the conversion between stem:["u"] and stem:["kg"] is stem:[u = {m_u}] stem:["kg"] where the curly brackets around stem:[m_"u"] mean "`the numerical value of stem:[m_"u"] when it is expressed in the unit kg`".
+The unified atomic mass unit, stem:["u"], also known as the dalton (symbol: stem:["Da"]), is not an SI unit. Formally, the conversion between stem:["u"] and stem:["kg"] is stem:[u = {m_u}] stem:["kg"] where the curly brackets around stem:[m_{rm(u)}] mean "`the numerical value of stem:[m_{rm(u)}] when it is expressed in the unit kg`".
 
 The relative atomic mass of an elementary entity stem:["X"] is a pure number defined by
 
 [[eq-a1-2]]
 [stem]
 ++++
-A_"r"("X") = m ("X") // m_"u" = 12 m("X") // m("&#x200c;"^12 "C")
+A_"r"("X") = m ("X") // m_{rm(u)} = 12 m("X") // m("&#x200c;"^12 "C")
 ++++
 
 where stem:[A_"r"("X")] is the relative atomic mass of stem:["X"], and stem:[m("X")] is the atomic mass of stem:["X"]. (Relative atomic mass is usually called "`atomic weight`" in the field of chemistry.) The elementary entity stem:["X"] must be specified in each case. If stem:["X"] represents an atomic species, or nuclide, then the notation ^A^X is used for a neutral atom where stem:["A"] is the number of nucleons; for example: ^12^C.
 
 
-In the SI, stem:[m_"u"] is determined experimentally in terms of the definition of the kilogram. See the next section for additional information.
+In the SI, stem:[m_{rm(u)}] is determined experimentally in terms of the definition of the kilogram. See the next section for additional information.
 
 The molar mass of stem:["X"], stem:[ii(M)("X")], is defined as the atomic mass of the entity stem:["X"] multiplied by the Avogadro constant, stem:[N_"A"]. The SI coherent unit of stem:[ii(M)("X")] is stem:["kg mol"^{-1}]. For any elementary entity stem:["X"], stem:[ii(M)("X")] is related to stem:[m("X")] through stem:[N_"A"]:
 
 [[eq-a1-3]]
 [stem]
 ++++
-ii(M)("X") = m("X") N_"A" = A_"r" ("X") m_"u" N_"A"
+ii(M)("X") = m("X") N_"A" = A_"r" ("X") m_{rm(u)} N_"A"
 ++++
 
-The molar mass constant stem:[M_u] is defined as
+The molar mass constant stem:[ii(M)_u] is defined as
 
 [[eq-a1-4]]
 [stem]
 ++++
-M_"u" = ii(M)("&#x200c;"^12 "C") // 12
+ii(M)_{rm(u)} = ii(M)("&#x200c;"^12 "C") // 12
 ++++
 
 
@@ -380,13 +380,13 @@ Second, from <<eq-a1-3>>, <<eq-a1-4>> and <<eq-a1-6>>,
 [[eq-a1-7]]
 [stem]
 ++++
-{N_"A" h}/{M_"u"} = 1/2 A_"r"("e") {alpha^2 c}/{R_{oo}}
+{N_"A" h}/{ii(M)_{rm(u)}} = 1/2 A_"r"("e") {alpha^2 c}/{R_{oo}}
 ++++
 
 
-The right-hand side of <<eq-a1-7>>, which is traceable to the SI units of time and length, has a relative standard uncertainty of stem:[4.5 xx 10^{-10}] <<mohr>> at the time of the revision of the SI. This relation is key to understanding how the uncertainties of stem:[M_"u"] and stem:[m_"u"] were affected by Resolution 1 of the 26^th^ CGPM (2018).
+The right-hand side of <<eq-a1-7>>, which is traceable to the SI units of time and length, has a relative standard uncertainty of stem:[4.5 xx 10^{-10}] <<mohr>> at the time of the revision of the SI. This relation is key to understanding how the uncertainties of stem:[ii(M)_{rm(u)}] and stem:[m_{rm(u)}] were affected by Resolution 1 of the 26^th^ CGPM (2018).
 
-Of the constants appearing in the seven relations shown above, stem:[M_u] (and by extension stem:[ii(M)(""^{12}"C")]), had a fixed numerical value before the SI was revised by the 26^th^ meeting of the CGPM, but no longer. The constants stem:[N_"A"] and stem:[h] did not have fixed numerical values prior to the 26^th^ CGPM. (The value of the speed of light in vacuum has been fixed since 1983).
+Of the constants appearing in the seven relations shown above, stem:[ii(M)_u] (and by extension stem:[ii(M)(""^{12}"C")]), had a fixed numerical value before the SI was revised by the 26^th^ meeting of the CGPM, but no longer. The constants stem:[N_"A"] and stem:[h] did not have fixed numerical values prior to the 26^th^ CGPM. (The value of the speed of light in vacuum has been fixed since 1983).
 
 Thus Resolution 1 of the 26^th^ CGPM has had the following consequences to the quantities and measurements discussed above:
 
@@ -394,17 +394,16 @@ Thus Resolution 1 of the 26^th^ CGPM has had the following consequences to the q
 
 . Determinations of the fine-structure constant have been unaffected.
 
-. Neither the value nor the uncertainty of stem:[N_"A"h//M_"u"] were affected by Resolution 1. The value of this combination of constants is still determined from the recommended values for the parameters on the right-hand side of <<eq-a1-7>>, and these are either traceable to SI units of time and length or are pure numbers.
-+
---
-In some scientific papers published prior to the adoption of Resolution 1, the quantity stem:[N_"A"h//M_"u"] has been written as stem:[N_"A"h(10^3)], where the factor stem:[10^3] was used as a kind of short-hand to indicate the exact numerical value of stem:[M_"u"^{-1}] whose SI coherent unit is stem:["mol kg"^{-1}]. This short-hand arose because the mole was defined through the definition of the kilogram combined with an exact numerical value of stem:[M_u] equal to stem:[10^{-3}] stem:["kg mol"^{-1}]; but the mole is now defined through a fixed numerical value of stem:[N_"A"], whose SI coherent unit is stem:["mol"^{-1}]. Nevertheless, stem:[M_"u"] may still be taken to be stem:[0.001] stem:["kg mol"^{-1}] as long as the relative standard uncertainty of stem:[M_"u"], which is currently stem:[4.5 xx 10^{-10}] <<mohr>>, can be neglected in the uncertainty budget of a measurement under discussion.
---
+3.a Neither the value nor the uncertainty of stem:[N_"A"h//ii(M)_{rm(u)}] were affected by Resolution 1. The value of this combination of constants is still determined from the recommended values for the parameters on the right-hand side of <<eq-a1-7>>, and these are either traceable to SI units of time and length or are pure numbers.
 
-. For no other reason than to bring clarity to the discussion in this subsection, the changes to the value of stem:[M_"u"] and its uncertainty may be parameterized in terms of a small, dimensionless quantity stem:[kappa]. The molar mass constant stem:[M_"u"], instead of being defined as exactly stem:[0.001 " kg mol"^{-1}], as it was prior to the adoption of Resolution 1, can be accurately derived from the last term of the following relation
+In some scientific papers published prior to the adoption of Resolution 1, the quantity stem:[N_"A"h//ii(M)_{rm(u)}] has been written as stem:[N_"A"h(10^3)], where the factor stem:[10^3] was used as a kind of short-hand to indicate the exact numerical value of stem:[ii(M)_{rm(u)}^{-1}] whose SI coherent unit is stem:["mol kg"^{-1}]. This short-hand arose because the mole was defined through the definition of the kilogram combined with an exact numerical value of stem:[ii(M)_u] equal to stem:[10^{-3}] stem:["kg mol"^{-1}]; but the mole is now defined through a fixed numerical value of stem:[N_"A"], whose SI coherent unit is stem:["mol"^{-1}]. Nevertheless, stem:[ii(M)_{rm(u)}] may still be taken to be stem:[0.001] stem:["kg mol"^{-1}] as long as the relative standard uncertainty of stem:[ii(M)_{rm(u)}], which is currently stem:[4.5 xx 10^{-10}] <<mohr>>, can be neglected in the uncertainty budget of a measurement under discussion.
+
+
+3.b For no other reason than to bring clarity to the discussion in this subsection, the changes to the value of stem:[ii(M)_{rm(u)}] and its uncertainty may be parameterized in terms of a small, dimensionless quantity stem:[kappa]. The molar mass constant stem:[ii(M)_{rm(u)}], instead of being defined as exactly stem:[0.001 " kg mol"^{-1}], as it was prior to the adoption of Resolution 1, can be accurately derived from the last term of the following relation
 
 [stem]
 ++++
-M_"u" = (0.001 " kg mol"^{-1})(1+kappa) = {R_{oo}}/{A_"r" ("e") alpha^2} ({2 N_"A" h}/c)
+ii(M)_{rm(u)} = (0.001 " kg mol"^{-1})(1+kappa) = {R_{oo}}/{A_"r" ("e") alpha^2} ({2 N_"A" h}/c)
 ++++
 
 
@@ -412,15 +411,15 @@ where, in the last term, the constants in the final parentheses have exactly def
 
 Due to the principle of continuity when changes are made to the SI, the value of stem:[kappa] is consistent with zero to a standard uncertainty of stem:[u(kappa) = u_"r"(R_{oo} // (A_"r"("e") alpha^2))], which at present is 4.5 parts in stem:[10^(10)]. This uncertainty would be further reduced by improved measurements of the constants involved, stem:[alpha] in particular. The accepted values and relative uncertainties of stem:[A_"r"("e")], stem:[R_{oo}] and α are the CODATA 2017 recommended values <<mohr>>.
 
-The molar mass constant and the unified atomic mass constant are related by stem:[M_"u" = m_"u" N_"A"]. It follows that, since stem:[u_"r"(N_"A") = 0], the relative uncertainties of stem:[m_"u"] and stem:[M_"u"] are identical:
+The molar mass constant and the unified atomic mass constant are related by stem:[ii(M)_{rm(u)} = m_{rm(u)} N_"A"]. It follows that, since stem:[u_"r"(N_"A") = 0], the relative uncertainties of stem:[m_{rm(u)}] and stem:[ii(M)_{rm(u)}] are identical:
 
 [stem]
 ++++
-u_"r" (m_"u") = u_"r" (M_"u") = u (kappa)
+u_"r" (m_{rm(u)}) = u_"r" (ii(M)_{rm(u)}) = u (kappa)
 ++++
 
 
-For the case of stem:[m_"u"], whose value has been (and remains) determined by experiment, the adoption of Resolution 1 nevertheless resulted in a reduction of stem:[u_"r"(m_"u")] by more than a factor of 20 simply by defining stem:[h] to have a fixed numerical value, although this improved uncertainty does not seem to have any immediate practical benefits.
+For the case of stem:[m_{rm(u)}], whose value has been (and remains) determined by experiment, the adoption of Resolution 1 nevertheless resulted in a reduction of stem:[u_"r"(m_{rm(u)})] by more than a factor of 20 simply by defining stem:[h] to have a fixed numerical value, although this improved uncertainty does not seem to have any immediate practical benefits.
 
 Finally, in atomic physics it is sometimes necessary to convert between the non-SI units electronvolt (symbol: eV) and the unified atomic mass unit (symbol: u). The correspondence is at present
 
@@ -429,7 +428,7 @@ Finally, in atomic physics it is sometimes necessary to convert between the non-
 1 " u" harr	931.49410274 (42) times 10^6 " eV"
 ++++
 
-where the numerical value of the energy expressed in electronvolts equals the numerical value of stem:[m_"u"c^2//e] expressed in joules per coulomb. The quantities stem:[c] and e have fixed numerical values.
+where the numerical value of the energy expressed in electronvolts equals the numerical value of stem:[m_{rm(u)}c^2//e] expressed in joules per coulomb. The quantities stem:[c] and e have fixed numerical values.
 
 
 [[annex-2]]
