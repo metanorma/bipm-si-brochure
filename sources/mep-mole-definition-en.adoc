@@ -81,14 +81,14 @@ stem:[m]:: the mass of the stem:[N] elementary entities;
 
 stem:[A_"r"("X")]:: the relative atomic or molecular mass footnote:[For historical reasons, the equivalent terms "atomic weight" and "molecular weight" are still in use <<iupac-quantities>>.] of stem:["X"] (depending whether stem:["X"] is an element or a compound, respectively)
 
-stem:[M_"u"]:: the molar mass constant
+stem:[ii(M)_{rm(u)}]:: the molar mass constant
 
 Two widely used equations relate these quantities:
 
 [[eq-2-1]]
 [stem]
 ++++
-n = m // (A_"r" ("X") M_"u")
+n = m // (A_"r" ("X") ii(M)_{rm(u)})
 ++++
 
 and
@@ -169,7 +169,7 @@ m_"a" ("X") = {ii(M)("X")} / {N_"A"}
 ++++
 
 
-The atomic mass constant stem:[m_"u"] is 1/12 of the mass of a free ^12^C atom, at rest and in its ground state. Its present experimentally-determined value is approximately stem:[1.660539067(1) xx 10^{-27} " kg"] with a relative uncertainty less than 1 part in stem:[10^9] and is identical to that of stem:[M_"u"]. Note that stem:[N_"A" m_"u" = M_"u"] is a special case of <<eq-4-1>>. The advantages of these features of the present definition of the mole have been emphasized in the literature <<milton>>. The most up-to-date values and uncertainties of stem:[m_"u"] and stem:[M_"u"] are the most recent recommendations of the CODATA task group on fundamental constants.
+The atomic mass constant stem:[m_{rm(u)}] is 1/12 of the mass of a free ^12^C atom, at rest and in its ground state. Its present experimentally-determined value is approximately stem:[1.660539067(1) xx 10^{-27} " kg"] with a relative uncertainty less than 1 part in stem:[10^9] and is identical to that of stem:[ii(M)_{rm(u)}]. Note that stem:[N_"A" m_{rm(u)} = ii(M)_{rm(u)}] is a special case of <<eq-4-1>>. The advantages of these features of the present definition of the mole have been emphasized in the literature <<milton>>. The most up-to-date values and uncertainties of stem:[m_{rm(u)}] and stem:[ii(M)_{rm(u)}] are the most recent recommendations of the CODATA task group on fundamental constants.
 
 Three examples of methods to realize the mole (and the number of entities) follow:
 
@@ -182,14 +182,14 @@ Based on <<eq-2-1>> and <<eq-2-2>>, the number of entities stem:[N] of a substan
 [[eq-4-2]]
 [stem]
 ++++
-N = (w("X") m) / (m_"a" ("X")) = {w("X")m} / {A_"r" ("X") m_"u"}
+N = (w("X") m) / (m_"a" ("X")) = {w("X")m} / {A_"r" ("X") m_{rm(u)}}
 ++++
 
 
 [[eq-4-3]]
 [stem]
 ++++
-n = N / N_"A" = {w("X") m} / {A_"r" ("X") N_"A" m_"u"} = {w("X")m} / {A_"r" ("X") M_"u"}
+n = N / N_"A" = {w("X") m} / {A_"r" ("X") N_"A" m_{rm(u)}} = {w("X")m} / {A_"r" ("X") ii(M)_{rm(u)}}
 ++++
 
 
@@ -246,40 +246,40 @@ In cases where the number of entities being considered is small, quantities are 
 [[sec-6]]
 == Continuity with previous definition
 
-Note that the 1971 definition of the mole made a direct link between the mole and the mass of a particular nuclide. This allowed traceability to the mole to be established via mass measurements and established a simple relation between macroscopic measurements and microscopic entity numbers such as atoms or molecules via the molar mass constant. The mass of one mole of ^12^C was fixed at exactly stem:[12 " g"]. This meant that stem:[ii(M)(""^{12}"C")] was exactly stem:[12 " g/mol"] and stem:[M_"u"] was exactly stem:[1 " g/mol"].
+Note that the 1971 definition of the mole made a direct link between the mole and the mass of a particular nuclide. This allowed traceability to the mole to be established via mass measurements and established a simple relation between macroscopic measurements and microscopic entity numbers such as atoms or molecules via the molar mass constant. The mass of one mole of ^12^C was fixed at exactly stem:[12 " g"]. This meant that stem:[ii(M)(""^{12}"C")] was exactly stem:[12 " g/mol"] and stem:[ii(M)_{rm(u)}] was exactly stem:[1 " g/mol"].
 
 However, the present definition of the mole fixes the numerical value of stem:[N_"A"]. Therefore from:
 
 [[eq-6-1]]
 [stem]
 ++++
-M_"u" = m_"u" N_"A"
+ii(M)_{rm(u)} = m_{rm(u)} N_"A"
 ++++
 
-stem:[M_"u"] and stem:[m_"u"] now have the same relative uncertainty.
+stem:[ii(M)_{rm(u)}] and stem:[m_{rm(u)}] now have the same relative uncertainty.
 
-In <<eq-6-1>> stem:[m_"u"] is the atomic mass constant. The atomic mass unit stem:["u"] (also known as the dalton, a non-SI unit whose symbol is stem:["Da"]) and the atomic mass constant stem:[m_"u"] are defined in terms of the mass of the ^12^C isotope. The unit stem:["u"] is related to the constant stem:[m_"u"] by
+In <<eq-6-1>> stem:[m_{rm(u)}] is the atomic mass constant. The atomic mass unit stem:[rm(u)] (also known as the dalton, a non-SI unit whose symbol is stem:["Da"]) and the atomic mass constant stem:[m_{rm(u)}] are defined in terms of the mass of the ^12^C isotope. The unit stem:["u"] is related to the constant stem:[m_{rm(u)}] by
 
 
 [stem]
 ++++
-1 "&#x200c;" " u" = m_"u" = m("&#x200c;"^{12} "C") // 12
+1 "&#x200c;" " u" = m_{rm(u)} = m("&#x200c;"^{12} "C") // 12
 ++++
 
 
-The molar mass constant stem:[M_"u"] and the atomic mass constant stem:[m_"u"] are determined to the same relative uncertainty for example from the equation:
+The molar mass constant stem:[ii(M)_{rm(u)}] and the atomic mass constant stem:[m_{rm(u)}] are determined to the same relative uncertainty for example from the equation:
 
 
 [[eq-6-3]]
 [stem]
 ++++
-M_"u" = N_"A" m_"u" = {2 N_"A" h} / c {R_{oo}} / {alpha^2 A_"r" ("e")}
+ii(M)_{rm(u)} = N_"A" m_{rm(u)} = {2 N_"A" h} / c {R_{oo}} / {alpha^2 A_"r" ("e")}
 ++++
 
 
 where the Rydberg constant (stem:[R_{oo}]), the fine structure constant (stem:[alpha]) and the relative atomic mass of the electron (stem:[A_("r")("e")]) are determined experimentally. The speed of light (stem:[c]), the Planck constant (stem:[h]) and the Avogadro constant have fixed numerical values <<bipm-9th>>.
 
-Continuity conditions imposed on redefinitions of SI base units have ensured that stem:[M_"u"], now determined experimentally, is still stem:[1 xx 10^{-3} " kg/mol"] within a relative standard uncertainty of stem:[4.5 xx 10^{-10}] based on <<eq-6-3>> and additional independent experimental methods <<mohr>>. The present uncertainty is more than sufficient for the needs of chemical measurements, being an order of magnitude smaller than the relative uncertainty achievable in the most accurate realization of the mole <<fujii>>-<<kuramoto>>, and several orders of magnitude smaller than the uncertainties in examples of more common realizations of the mole described above.
+Continuity conditions imposed on redefinitions of SI base units have ensured that stem:[ii(M)_{rm(u)}], now determined experimentally, is still stem:[1 xx 10^{-3} " kg/mol"] within a relative standard uncertainty of stem:[4.5 xx 10^{-10}] based on <<eq-6-3>> and additional independent experimental methods <<mohr>>. The present uncertainty is more than sufficient for the needs of chemical measurements, being an order of magnitude smaller than the relative uncertainty achievable in the most accurate realization of the mole <<fujii>>-<<kuramoto>>, and several orders of magnitude smaller than the uncertainties in examples of more common realizations of the mole described above.
 
 
 [bibliography]
