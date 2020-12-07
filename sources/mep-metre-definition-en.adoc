@@ -115,15 +115,15 @@ electric field of which is propagating along the measurement pathway (defined as
 
 [stem]
 ++++
-E(z,t) = A" "cos[varphi] = A" "cos[omega * t - k * z + delta]
+ii(E)(z,t) = ii(A)" "cos[varphi] = ii(A)" "cos[omega * t - k * z + delta]
 ++++
 
-in which stem:[A] is the amplitude, stem:[varphi] the phase, stem:[omega] the angular frequency, stem:[k] the wave number, and stem:[delta] the initial
+in which stem:[ii(A)] is the amplitude, stem:[varphi] the phase, stem:[omega] the angular frequency, stem:[k] the wave number, and stem:[delta] the initial
 phase. The relationship between the parameters stem:[omega] and stem:[k] with wavelength stem:[lambda] and frequency stem:[f] is given by
 stem:[k = 2 pi // lambda] and stem:[omega = 2 pi * f].
 
 
-Wavefronts travel the distance of a single wavelength during a single oscillation period stem:[T (T = 1//f)].
+Wavefronts travel the distance of a single wavelength during a single oscillation period stem:[ii(T) (ii(T) = 1//f)].
 Consequently, the speed of a monochromatic light wave, stem:[c], is equal to stem:[c = f * lambda], the phase velocity.
 
 While the average intensity of a single monochromatic light wave is just related to the square of its
@@ -132,7 +132,7 @@ amplitude, interference of two light waves of the same frequency results in a de
 [[equation-5]]
 [stem]
 ++++
-I = I_0 (1 + gamma * cos[varphi_1 - varphi_2])
+ii(I) = ii(I)_0 (1 + gamma * cos[varphi_1 - varphi_2])
 ++++
 
 which is related to the phase difference between the waves (see <<annex-1>> for details). In practice,
@@ -156,7 +156,7 @@ Delta varphi = k cdot 2 Delta z = {2 pi Delta z}/{lambda//2}
 
 Consequently, the detector signal varies periodically as shown in <<fig-2>>, right. The amount of
 variation, _i.e._ the interference contrast stem:[gamma] of the detected intensity, is related to the ratio of the
-individual intensities stem:[a = I_1 // I_2], stem:[gamma = 2 sqrt{a} // (a + 1)]. As can be seen in <<fig-2>> for the case of stem:[a = 0.001],
+individual intensities stem:[a = ii(I)_1 // ii(I)_2], stem:[gamma = 2 sqrt{a} // (a + 1)]. As can be seen in <<fig-2>> for the case of stem:[a = 0.001],
 even extreme intensity ratios result in easily detectable interference signals.
 
 In the simplest case a length along the measurement pathway can be measured by continuously shifting
@@ -203,7 +203,7 @@ At standard conditions (stem:[101.325 " Pa"], 20 °C, 50 % RH and 400 ppm stem:[
 |===
 ^| Influence parameter ^| Value at standard conditions ^| Refractive index sensitivity coefficient
 
-<| Temperature | 20 °C | stem:[-9.2 xx 10^(-7) K^(-1)]
+<| Temperature | 20 °C | stem:[-9.2 xx 10^(-7) " K"^(-1)]
 <| Pressure | stem:[101.325" Pa"] | stem:[+ 2.7 xx 10^(-9)" Pa"^(-1)]
 <a| stem:["CO"_2] content | stem:[400" ppm"] | stem:[+ 1.4 xx 10^(-10)" (ppm)"^(-1)]
 <| Humidity: | |
@@ -369,20 +369,20 @@ The situation is different for the interference of two light waves:
 
 [stem]
 ++++
-{:(E_1, =, A_1 cos[varphi_1]),(E_2, =, A_2 cos[varphi_2]):}}  rarr I = langle (E_1 + E_2)^2 rangle_t = {A_1^2}/2 + {A_2^2}/2 + A_1 A_2 cos[varphi_1 - varphi_2]
+{:(ii(E)_1, =, ii(A)_1 cos[varphi_1]),(ii(E)_2, =, ii(A)_2 cos[varphi_2]):}}  rarr I = langle (ii(E)_1 + ii(E)_2)^2 rangle_t = {ii(A)_1^2}/2 + {ii(A)_2^2}/2 + ii(A)_1 ii(A)_2 cos[varphi_1 - varphi_2]
 ++++
 
 [stem%unnumbered]
 ++++
-= I_1 + I_2 + 2 sqrt{I_1 I_2} cos[varphi_1 - varphi_2]
+= ii(I)_1 + ii(I)_2 + 2 sqrt{ii(I)_1 ii(I)_2} cos[varphi_1 - varphi_2]
 ++++
 
 [stem%unnumbered]
 ++++
-= I_0 (1 + gamma cos[varphi_1 - varphi_2])
+= ii(I)_0 (1 + gamma cos[varphi_1 - varphi_2])
 ++++
 
-_i.e._ the measurable intensity is related to the cosine of phase difference stem:[varphi_1 - varphi_2] between both waves. stem:[gamma] denotes the interference contrast stem:[gamma = 2 sqrt{I_1 I_2} // (I_1 + I_2) = (I_{"max"} - I_{"min"}) // (I_{"max"} + I_{"min"})] and stem:[I_0 = I_1 + I_2] the maximum intensity.
+_i.e._ the measurable intensity is related to the cosine of phase difference stem:[varphi_1 - varphi_2] between both waves. stem:[gamma] denotes the interference contrast stem:[gamma = 2 sqrt{ii(I)_1 ii(I)_2} // (ii(I)_1 + ii(I)_2) = (ii(I)_{"max"} - ii(I)_{"min"}) // (ii(I)_{"max"} + ii(I)_{"min"})] and stem:[ii(I)_0 = ii(I)_1 + ii(I)_2] the maximum intensity.
 
 
 [[annex-2]]
@@ -674,7 +674,7 @@ The useful range of calibration of surface measuring instruments by using multip
 
 The instrument to be calibrated should be used in a clean environment to reduce possible particle contamination of the sample.
 
-Firstly, the CCL WG-N recommends using large step-free terraces on the silicon sample to determine the cross-talk of the stem:[x]-stem:[y] scanning unit in the stem:[z]-direction and the noise (determination of stem:[R_("q")] or stem:[S_("q")]). The step height calibration should be done at the same scanner position and the same stem:[x]-stem:[y] scan range. This allows for systematic correction of the cross-talk.
+Firstly, the CCL WG-N recommends using large step-free terraces on the silicon sample to determine the cross-talk of the stem:[x]-stem:[y] scanning unit in the stem:[z]-direction and the noise (determination of stem:[ii(R)_("q")] or stem:[ii(S)_("q")]). The step height calibration should be done at the same scanner position and the same stem:[x]-stem:[y] scan range. This allows for systematic correction of the cross-talk.
 
 Secondly, areas with steps should be scanned for the stem:[z]-axis calibration. There are two types of step arrangements on carefully prepared silicon surfaces: the first is a so-called amphitheatre (pairs of opposing terraces on the same height level) and the second is a staircase-like structure. On the amphitheatre-arranged steps, the algorithm defined in <<iso5436-1>> can be applied for the determination of the step height, which allows a well-defined alignment and is less dependent on stem:[x]-stem:[y] scanner deviations (cross-talk to stem:[z], …). In the case of staircase-like structures, large step-free terraces on both sides of a monoatomic step should be used for the levelling. In both cases it is recommended to use step free terraces larger than stem:[1] stem:[mu "m"] in size for the levelling area on the lower and upper planes. Furthermore, the calibration should be done in the range of the axis which is later used in experiments and the maximum height range should be less than stem:[20 " nm"].
 
