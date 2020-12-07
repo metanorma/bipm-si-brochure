@@ -273,7 +273,7 @@ where stem:[h] is the step height, stem:[n] is an integer that accounts for the 
 R^2 = sum_{i=1}^N (y_i - hat y_i)^2
 ++++
 
-where stem:[N] is the total number of data points used in the fit. Note that model points stem:[hat y_i] from different plateaus will have different values of stem:[n]. The edges between steps shall not be included in the fit, as they would increase the highest order (stem:[p]) of the polynomial significantly. The least squares procedure minimizes the sum of the residuals by solving the following equations:
+where stem:[ii(N)] is the total number of data points used in the fit. Note that model points stem:[hat y_i] from different plateaus will have different values of stem:[n]. The edges between steps shall not be included in the fit, as they would increase the highest order (stem:[p]) of the polynomial significantly. The least squares procedure minimizes the sum of the residuals by solving the following equations:
 
 [stem%unnumbered]
 ++++
