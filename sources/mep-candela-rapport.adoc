@@ -126,7 +126,7 @@ NOTE: The luminous flux is expressed in lumen (lm).
 
 === luminous intensity
 
-stem:[I_v]; stem:[I]
+stem:[I_v]; stem:[ii(I)]
 
 density of luminous flux with respect to solid angle in a specified direction
 
@@ -171,7 +171,7 @@ NOTE: The luminous intensity is expressed in candela (stem:["cd" = "lm" cdot "sr
 
 === luminance
 
-stem:[L_v]; stem:[L]
+stem:[L_v]; stem:[ii(L)]
 
 density of luminous intensity with respect to projected area in a specified direction at a specified point on a real or imaginary surface
 
@@ -180,7 +180,7 @@ density of luminous intensity with respect to projected area in a specified dire
 L_v = {"d" I_v} / {"d" A} 1 / {cos alpha}
 ++++
 
-where stem:[I_v] is luminous intensity, stem:[A] is area and stem:[alpha] is the angle between the normal to the surface at the specified point and the given direction
+where stem:[I_v] is luminous intensity, stem:[ii(A)] is area and stem:[alpha] is the angle between the normal to the surface at the specified point and the given direction
 
 [NOTE]
 ====
@@ -193,7 +193,7 @@ The equation in the definition can mathematically be interpreted as a derivative
 L_v = lim_{A -> 0} {bar I_v} / A  1 / {cos alpha}
 ++++
 
-Hence, luminance is often considered as a quotient of averaged quantities; the area, stem:[A], should be small enough that uncertainties due to variations in luminous intensity within that area are negligible, otherwise, the quotient stem:[bar L_v = {bar I_v}/{A} 1/{cos alpha}] gives the average luminance and the specific measurement conditions must be reported with the result.
+Hence, luminance is often considered as a quotient of averaged quantities; the area, stem:[ii(A)], should be small enough that uncertainties due to variations in luminous intensity within that area are negligible, otherwise, the quotient stem:[bar L_v = {bar I_v}/{A} 1/{cos alpha}] gives the average luminance and the specific measurement conditions must be reported with the result.
 ====
 
 [NOTE]
@@ -203,7 +203,7 @@ For a surface being irradiated, an equivalent formula in terms of illuminance, s
 
 [NOTE]
 ====
-An equivalent formula is stem:[L_v = {"d" Phi_v}/{"d" G}] where stem:[Phi_v] is luminous flux and stem:[G] is geometric extent.
+An equivalent formula is stem:[L_v = {"d" Phi_v}/{"d" G}] where stem:[Phi_v] is luminous flux and stem:[ii(G)] is geometric extent.
 ====
 
 [NOTE]
@@ -218,7 +218,7 @@ Phi_v = int int L_v cos alpha "d" A "d" ii Omega
 
 [NOTE]
 ====
-Since the optical extent, expressed by stem:[G cdot n^2], where stem:[G] is geometric extent and stem:[n] is refractive index, is invariant, the quantity expressed by stem:[L_v cdot n^{-2}] is also invariant along the path of the beam if the losses by absorption, reflection and diffusion are taken as 0. That quantity is called "`basic luminance`".
+Since the optical extent, expressed by stem:[G cdot n^2], where stem:[ii(G)] is geometric extent and stem:[n] is refractive index, is invariant, the quantity expressed by stem:[L_v cdot n^{-2}] is also invariant along the path of the beam if the losses by absorption, reflection and diffusion are taken as 0. That quantity is called "`basic luminance`".
 ====
 
 [NOTE]
@@ -244,7 +244,7 @@ NOTE: The luminance is expressed in candela per square metre (stem:["cd" cdot "m
 [[cls-2-4]]
 === illuminance
 
-stem:[E_v]; stem:[E]
+stem:[E_v]; stem:[ii(E)]
 
 density of incident luminous flux with respect to area at a point on a real or imaginary surface
 
@@ -253,7 +253,7 @@ density of incident luminous flux with respect to area at a point on a real or i
 E_v = {"d" Phi_v} / {"d" A}
 ++++
 
-where stem:[Phi_v] is luminous flux and stem:[A] is the area on which the luminous flux is incident
+where stem:[Phi_v] is luminous flux and stem:[ii(A)] is the area on which the luminous flux is incident
 
 [NOTE]
 ====
@@ -636,7 +636,7 @@ NOTE: The stem:[bar y (lambda)] function is identical to the stem:[V(lambda)] fu
 
 === Tristimulus values and chromaticity coordinates
 
-Tristimulus values stem:[X], stem:[Y] and stem:[Z] are given by:
+Tristimulus values stem:[ii(X)], stem:[ii(Y)] and stem:[ii(Z)] are given by:
 
 [stem]
 ++++
@@ -650,7 +650,7 @@ stem:[Phi_{e,lambda} (lambda) = {"d" Phi_e} / {"d" (lambda)}]:: is spectral radi
 
 stem:[bar x (lambda), bar y (lambda), bar z (lambda)]:: are the CIE 1931 colour-matching functions;
 
-stem:[k]:: is a normalizing factor rendering the stem:[X], stem:[Y], stem:[Z] tristimulus values dimensionless.
+stem:[k]:: is a normalizing factor rendering the stem:[ii(X)], stem:[ii(Y)], stem:[ii(Z)] tristimulus values dimensionless.
 
 For light sources, stem:[k = 683 "&#xA0;" "lm" cdot "W"^{-1}] is often used, so that Y is the value of a photometric quantity.
 
@@ -665,7 +665,7 @@ The chromaticity coordinates define the chromaticity of a visual stimulus given 
 {:(x = {X} / {X + Y + Z}),(y = {Y} / {X + Y + Z}):}
 ++++
 
-Where stem:[X], stem:[Y], stem:[Z] are the tristimulus values.
+Where stem:[ii(X)], stem:[ii(Y)], stem:[ii(Z)] are the tristimulus values.
 
 NOTE: In the special case of stem:[X = bar x (lambda)], stem:[Y = bar y (lambda)], stem:[Z = bar z (lambda)] the chromaticity coordinates are denoted by stem:[x (lambda)], stem:[y (lambda)]. They define the chromaticity of monochromatic visual stimuli of wavelength stem:[lambda] (see <<table-6>>).
 

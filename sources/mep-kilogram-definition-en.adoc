@@ -80,20 +80,20 @@ There are currently two independent primary methods that are capable of realizin
 
 Accurate instruments that function in a way that electrical and mechanical power can be equated had been known as watt balances, and, more recently, as Kibble balances footnote:[We refer to watt balances as "`Kibble balances`" to recognize Dr. Bryan Kibble, who originally conceived the idea of this experiment.]. Kibble balances can be designed with different geometries and operated with different experimental protocols. The following schematic description serves to demonstrate that any of these Kibble-balance configurations has the potential to be a primary method to realize the definition of the kilogram.
 
-The determination of the unknown mass stem:[m_x] of an artefact x is carried out in two modes: the weighing mode and the moving mode. They may occur successively or simultaneously. In the weighing mode, the weight footnote:[In legal metrology "`weight`" can refer to a material object or to a gravitational force. The terms "`weight force`" and "`weight piece`" are used in legal metrology if the meaning of "`weight`" is not clear from the context <<oiml>>.] stem:[m_"x" g] of the artefact is balanced by the electromagnetic force produced, for example, on a circular coil of wire-length stem:[l] immersed in a radial magnetic field of flux density stem:[B] when a current stem:[I_1] flows through the coil. The magnet and coil geometries are designed to produce a force that is parallel to the local gravitational acceleration. The acceleration of gravity stem:[g] acting on the mass, and the current stem:[I_1] flowing in the coil are measured simultaneously so that
+The determination of the unknown mass stem:[m_x] of an artefact x is carried out in two modes: the weighing mode and the moving mode. They may occur successively or simultaneously. In the weighing mode, the weight footnote:[In legal metrology "`weight`" can refer to a material object or to a gravitational force. The terms "`weight force`" and "`weight piece`" are used in legal metrology if the meaning of "`weight`" is not clear from the context <<oiml>>.] stem:[m_"x" g] of the artefact is balanced by the electromagnetic force produced, for example, on a circular coil of wire-length stem:[l] immersed in a radial magnetic field of flux density stem:[ii(B)] when a current stem:[ii(I)_1] flows through the coil. The magnet and coil geometries are designed to produce a force that is parallel to the local gravitational acceleration. The acceleration of gravity stem:[g] acting on the mass, and the current stem:[ii(I)_1] flowing in the coil are measured simultaneously so that
 
 
 [stem]
 ++++
-m_"x" = I_1 B l
+m_"x" = ii(I)_1 B l
 ++++
 
-In the moving mode, the voltage stem:[U_2] which is induced across the terminals of the same coil moving vertically at a velocity stem:[vee] through the same magnetic flux density, is measured so that
+In the moving mode, the voltage stem:[U_2] which is induced across the terminals of the same coil moving vertically at a velocity stem:[ii(vee)] through the same magnetic flux density, is measured so that
 
 
 [stem]
 ++++
-U_2 = vee B l
+U_2 = ii(vee) B l
 ++++
 
 The equations describing the two modes are combined by eliminating stem:[Bl]:
@@ -101,19 +101,19 @@ The equations describing the two modes are combined by eliminating stem:[Bl]:
 [[eq-3-3]]
 [stem]
 ++++
-m_x g vee = I_1 U_2
+m_x g ii(vee) = ii(I)_1 ii(U)_2
 ++++
 
 
 Thus power of a mechanical nature is equated to power of an electromagnetic nature. The powers are manifestly "`virtual`" in this method of operation because power does not figure in either mode of this two-mode experiment.
 
 
-The current stem:[I_1] can, for example, be determined using Ohm's law by measuring the voltage drop stem:[U_1] across the terminals of a stable resistor of value stem:[R]. Both voltages, stem:[U_1] and stem:[U_2], are measured in terms of the Josephson constant stem:[K_"J"], which is taken to be stem:[K_"J" = 2e//h]; stem:[e] is the elementary charge. Similarly, stem:[R] is measured in terms of the von Klitzing constant stem:[R_"K"], which is taken to be stem:[R_"K" = h//e^2]. The quantities stem:[vee] and stem:[g] are measured in their respective SI units, stem:["m s"^{-1}] and stem:["m s"^{-2}]. Note that stem:[K_"J"^2 R_"K" = 4//h] allowing <<eq-3-3>> to be rewritten schematically as
+The current stem:[ii(I)_1] can, for example, be determined using Ohm's law by measuring the voltage drop stem:[ii(U)_1] across the terminals of a stable resistor of value stem:[ii(R)]. Both voltages, stem:[ii(U)_1] and stem:[ii(U)_2], are measured in terms of the Josephson constant stem:[ii(K)_"J"], which is taken to be stem:[ii(K)_"J" = 2e//h]; stem:[e] is the elementary charge. Similarly, stem:[ii(R)] is measured in terms of the von Klitzing constant stem:[ii(R)_"K"], which is taken to be stem:[ii(R)_"K" = h//e^2]. The quantities stem:[ii(vee)] and stem:[g] are measured in their respective SI units, stem:["m s"^{-1}] and stem:["m s"^{-2}]. Note that stem:[ii(K)_"J"^2 ii(R)_"K" = 4//h] allowing <<eq-3-3>> to be rewritten schematically as
 
 [[eq-3-4]]
 [stem]
 ++++
-m_"x" = h ({b f^2}/4) 1 / {g vee}
+m_"x" = h ({b f^2}/4) 1 / {g ii(vee)}
 ++++
 
 
@@ -126,18 +126,18 @@ Other electromagnetic and electrostatic realizations have been proposed, such as
 
 === Realization by the X-ray-crystal-density method
 
-The concept of the X-ray-crystal-density (XRCD) method comes from a classical idea where the mass of a pure substance can be expressed in terms of the number of elementary entities in the substance footnote:[The measurements described here were first used to determine the value of the Avogadro constant stem:[N_"A"], which is defined as the number of elementary entities per mole of substance. An accurate measurement of  stem:[N_"A"] was an essential contribution on the road to redefining the kilogram in 2018. Today, however, the numerical value of  stem:[N_"A"] is exactly defined when expressed in the SI unit mol^-1^ thus making the definition of the mole independent of the kilogram.]. Such a number can be measured by the XRCD method in which the volumes of the unit cell and of a nearly perfect crystal are determined, e.g. by measuring the lattice parameter stem:[a] and the mean diameter of a spherical sample. Single crystals of silicon are most often used in this method because large crystals can be obtained having high chemical purity and no dislocations. This is achieved using the crystal growth technologies developed for the semiconductor industry. The macroscopic volume stem:[V_"s"] of a crystal is equal to the mean microscopic volume per atom in the unit cell multiplied by the number of atoms in the crystal. For the following, assume that the crystal contains only the isotope ^28^Si. The number stem:[N] of atoms in the macroscopic crystal is therefore given by
+The concept of the X-ray-crystal-density (XRCD) method comes from a classical idea where the mass of a pure substance can be expressed in terms of the number of elementary entities in the substance footnote:[The measurements described here were first used to determine the value of the Avogadro constant stem:[ii(N)_"A"], which is defined as the number of elementary entities per mole of substance. An accurate measurement of  stem:[ii(N)_"A"] was an essential contribution on the road to redefining the kilogram in 2018. Today, however, the numerical value of  stem:[ii(N)_"A"] is exactly defined when expressed in the SI unit mol^-1^ thus making the definition of the mole independent of the kilogram.]. Such a number can be measured by the XRCD method in which the volumes of the unit cell and of a nearly perfect crystal are determined, e.g. by measuring the lattice parameter stem:[a] and the mean diameter of a spherical sample. Single crystals of silicon are most often used in this method because large crystals can be obtained having high chemical purity and no dislocations. This is achieved using the crystal growth technologies developed for the semiconductor industry. The macroscopic volume stem:[ii(V)_"s"] of a crystal is equal to the mean microscopic volume per atom in the unit cell multiplied by the number of atoms in the crystal. For the following, assume that the crystal contains only the isotope ^28^Si. The number stem:[ii(N)] of atoms in the macroscopic crystal is therefore given by
 
 
 [stem]
 ++++
-N = 8 V_"s" // a ("&#x200c;"^28 "Si")^3
+N = 8 ii(V)_"s" // a ("&#x200c;"^28 "Si")^3
 ++++
 
 
-where 8 is the number of atoms per unit cell of crystalline silicon and stem:[a ("&#x200c;"^28 "Si")^3] is the volume of the unit cell, which is a cube; i.e., stem:[V_s//a("&#x200c;"^28 "Si")^3] is the number of unit cells in the crystal and each unit cell contains eight silicon 28 atoms. Since the volume of any solid is a function of temperature and, to a lesser extent, hydrostatic pressure, stem:[V_"s"] and stem:[a ("&#x200c;"^28 "Si")^3] are referred to the same reference conditions. For practical reasons, the crystal is fashioned into a sphere having a mass of approximately stem:[1 " kg"].
+where 8 is the number of atoms per unit cell of crystalline silicon and stem:[a ("&#x200c;"^28 "Si")^3] is the volume of the unit cell, which is a cube; i.e., stem:[ii(V)_s//a("&#x200c;"^28 "Si")^3] is the number of unit cells in the crystal and each unit cell contains eight silicon 28 atoms. Since the volume of any solid is a function of temperature and, to a lesser extent, hydrostatic pressure, stem:[ii(V)_"s"] and stem:[a ("&#x200c;"^28 "Si")^3] are referred to the same reference conditions. For practical reasons, the crystal is fashioned into a sphere having a mass of approximately stem:[1 " kg"].
 
-To realize the definition of the kilogram, the mass stem:[m_"s"] of the sphere is first expressed in terms of the mass of a single atom, using the XRCD method footnote:[It is well known that <<eq-3-6>> is not exact because the right-hand side is reduced by the mass equivalent, stem:[E//c^2], of the total binding energy stem:[E] of the atoms in the crystal, where stem:[c] is the speed of light in vacuum. The correction, about 2 parts in stem:[10^(10)] <<david>>, is insignificant compared with present experimental uncertainties and has therefore been ignored. Additional energy terms (e.g. thermal energy) are even smaller than the binding energy and thus negligible.]:
+To realize the definition of the kilogram, the mass stem:[m_"s"] of the sphere is first expressed in terms of the mass of a single atom, using the XRCD method footnote:[It is well known that <<eq-3-6>> is not exact because the right-hand side is reduced by the mass equivalent, stem:[E//c^2], of the total binding energy stem:[ii(E)] of the atoms in the crystal, where stem:[c] is the speed of light in vacuum. The correction, about 2 parts in stem:[10^(10)] <<david>>, is insignificant compared with present experimental uncertainties and has therefore been ignored. Additional energy terms (e.g. thermal energy) are even smaller than the binding energy and thus negligible.]:
 
 [[eq-3-6]]
 [stem]
@@ -156,7 +156,7 @@ m_"s" = h N ({m("&#x200c;"^28 "Si")}/ h)
 ++++
 
 
-The XRCD experiment determines stem:[N]; stem:[m("&#x200c;"^28 "Si") // h] is a constant of nature whose value is known to high accuracy and, of course, the numerical value of stem:[h] is now fixed.
+The XRCD experiment determines stem:[ii(N)]; stem:[m("&#x200c;"^28 "Si") // h] is a constant of nature whose value is known to high accuracy and, of course, the numerical value of stem:[h] is now fixed.
 
 The sphere is a primary mass standard and the unit of mass, the kilogram, is disseminated from this standard. Spheres currently used in this work are enriched in the isotope ^28^Si but the presence of trace amounts of two additional silicon isotopes leads to obvious modifications of the simple equations presented in this section. See <<fujii>> for a more complete analysis of this experiment. +
 All relevant influences on the mass of the sphere, stem:[m_s], as derived from <<eq-3-7>> must be considered for the realization, maintenance and dissemination of the unit of mass (see also <<annex-2>>).
@@ -325,20 +325,20 @@ The relative atomic mass of an elementary entity stem:["X"] is a pure number def
 [[eq-a1-2]]
 [stem]
 ++++
-A_"r"("X") = m ("X") // m_{rm(u)} = 12 m("X") // m("&#x200c;"^12 "C")
+ii(A)_"r"("X") = m ("X") // m_{rm(u)} = 12 m("X") // m("&#x200c;"^12 "C")
 ++++
 
-where stem:[A_"r"("X")] is the relative atomic mass of stem:["X"], and stem:[m("X")] is the atomic mass of stem:["X"]. (Relative atomic mass is usually called "`atomic weight`" in the field of chemistry.) The elementary entity stem:["X"] must be specified in each case. If stem:["X"] represents an atomic species, or nuclide, then the notation ^A^X is used for a neutral atom where stem:["A"] is the number of nucleons; for example: ^12^C.
+where stem:[ii(A)_"r"("X")] is the relative atomic mass of stem:["X"], and stem:[m("X")] is the atomic mass of stem:["X"]. (Relative atomic mass is usually called "`atomic weight`" in the field of chemistry.) The elementary entity stem:["X"] must be specified in each case. If stem:["X"] represents an atomic species, or nuclide, then the notation ^A^X is used for a neutral atom where stem:["A"] is the number of nucleons; for example: ^12^C.
 
 
 In the SI, stem:[m_{rm(u)}] is determined experimentally in terms of the definition of the kilogram. See the next section for additional information.
 
-The molar mass of stem:["X"], stem:[ii(M)("X")], is defined as the atomic mass of the entity stem:["X"] multiplied by the Avogadro constant, stem:[N_"A"]. The SI coherent unit of stem:[ii(M)("X")] is stem:["kg mol"^{-1}]. For any elementary entity stem:["X"], stem:[ii(M)("X")] is related to stem:[m("X")] through stem:[N_"A"]:
+The molar mass of stem:["X"], stem:[ii(M)("X")], is defined as the atomic mass of the entity stem:["X"] multiplied by the Avogadro constant, stem:[ii(N)_"A"]. The SI coherent unit of stem:[ii(M)("X")] is stem:["kg mol"^{-1}]. For any elementary entity stem:["X"], stem:[ii(M)("X")] is related to stem:[m("X")] through stem:[ii(N)_"A"]:
 
 [[eq-a1-3]]
 [stem]
 ++++
-ii(M)("X") = m("X") N_"A" = A_"r" ("X") m_{rm(u)} N_"A"
+ii(M)("X") = m("X") ii(N)_"A" = ii(A)_"r" ("X") m_{rm(u)} ii(N)_"A"
 ++++
 
 The molar mass constant stem:[ii(M)_u] is defined as
@@ -360,18 +360,18 @@ To discuss the implications of Resolution 1 <<cgpm-1-26>>, we begin with two add
 [[eq-a1-5]]
 [stem]
 ++++
-h R_{oo} = 1/2 m_e alpha^2 c
+h ii(R)_{oo} = 1/2 m_e alpha^2 c
 ++++
 
 
-where stem:[R_{oo}] is the Rydberg constant, stem:[m_e -= m(e)] is the electron rest mass, stem:[alpha] is the fine-structure constant and stem:[c] is the speed of light in vacuum.
+where stem:[ii(R)_{oo}] is the Rydberg constant, stem:[m_e -= m(e)] is the electron rest mass, stem:[alpha] is the fine-structure constant and stem:[c] is the speed of light in vacuum.
 
 First, it follows from <<eq-a1-2>> and <<eq-a1-5>> that for any entity stem:["X"],
 
 [[eq-a1-6]]
 [stem]
 ++++
-h/{m("X")} = 1/2 {A_"r"("e")}/{A_"r" ("X")} {alpha^2 c}/{R_{oo}}
+h/{m("X")} = 1/2 {ii(A)_"r"("e")}/{ii(A)_"r" ("X")} {alpha^2 c}/{ii(R)_{oo}}
 ++++
 
 
@@ -380,13 +380,13 @@ Second, from <<eq-a1-3>>, <<eq-a1-4>> and <<eq-a1-6>>,
 [[eq-a1-7]]
 [stem]
 ++++
-{N_"A" h}/{ii(M)_{rm(u)}} = 1/2 A_"r"("e") {alpha^2 c}/{R_{oo}}
+{ii(N)_"A" h}/{ii(M)_{rm(u)}} = 1/2 ii(A)_"r"("e") {alpha^2 c}/{ii(R)_{oo}}
 ++++
 
 
 The right-hand side of <<eq-a1-7>>, which is traceable to the SI units of time and length, has a relative standard uncertainty of stem:[4.5 xx 10^{-10}] <<mohr>> at the time of the revision of the SI. This relation is key to understanding how the uncertainties of stem:[ii(M)_{rm(u)}] and stem:[m_{rm(u)}] were affected by Resolution 1 of the 26^th^ CGPM (2018).
 
-Of the constants appearing in the seven relations shown above, stem:[ii(M)_u] (and by extension stem:[ii(M)(""^{12}"C")]), had a fixed numerical value before the SI was revised by the 26^th^ meeting of the CGPM, but no longer. The constants stem:[N_"A"] and stem:[h] did not have fixed numerical values prior to the 26^th^ CGPM. (The value of the speed of light in vacuum has been fixed since 1983).
+Of the constants appearing in the seven relations shown above, stem:[ii(M)_u] (and by extension stem:[ii(M)(""^{12}"C")]), had a fixed numerical value before the SI was revised by the 26^th^ meeting of the CGPM, but no longer. The constants stem:[ii(N)_"A"] and stem:[h] did not have fixed numerical values prior to the 26^th^ CGPM. (The value of the speed of light in vacuum has been fixed since 1983).
 
 Thus Resolution 1 of the 26^th^ CGPM has had the following consequences to the quantities and measurements discussed above:
 
@@ -394,24 +394,24 @@ Thus Resolution 1 of the 26^th^ CGPM has had the following consequences to the q
 
 . Determinations of the fine-structure constant have been unaffected.
 
-3.a Neither the value nor the uncertainty of stem:[N_"A"h//ii(M)_{rm(u)}] were affected by Resolution 1. The value of this combination of constants is still determined from the recommended values for the parameters on the right-hand side of <<eq-a1-7>>, and these are either traceable to SI units of time and length or are pure numbers.
+3.a Neither the value nor the uncertainty of stem:[ii(N)_"A"h//ii(M)_{rm(u)}] were affected by Resolution 1. The value of this combination of constants is still determined from the recommended values for the parameters on the right-hand side of <<eq-a1-7>>, and these are either traceable to SI units of time and length or are pure numbers.
 
-In some scientific papers published prior to the adoption of Resolution 1, the quantity stem:[N_"A"h//ii(M)_{rm(u)}] has been written as stem:[N_"A"h(10^3)], where the factor stem:[10^3] was used as a kind of short-hand to indicate the exact numerical value of stem:[ii(M)_{rm(u)}^{-1}] whose SI coherent unit is stem:["mol kg"^{-1}]. This short-hand arose because the mole was defined through the definition of the kilogram combined with an exact numerical value of stem:[ii(M)_u] equal to stem:[10^{-3}] stem:["kg mol"^{-1}]; but the mole is now defined through a fixed numerical value of stem:[N_"A"], whose SI coherent unit is stem:["mol"^{-1}]. Nevertheless, stem:[ii(M)_{rm(u)}] may still be taken to be stem:[0.001] stem:["kg mol"^{-1}] as long as the relative standard uncertainty of stem:[ii(M)_{rm(u)}], which is currently stem:[4.5 xx 10^{-10}] <<mohr>>, can be neglected in the uncertainty budget of a measurement under discussion.
+In some scientific papers published prior to the adoption of Resolution 1, the quantity stem:[ii(N)_"A"h//ii(M)_{rm(u)}] has been written as stem:[ii(N)_"A"h(10^3)], where the factor stem:[10^3] was used as a kind of short-hand to indicate the exact numerical value of stem:[ii(M)_{rm(u)}^{-1}] whose SI coherent unit is stem:["mol kg"^{-1}]. This short-hand arose because the mole was defined through the definition of the kilogram combined with an exact numerical value of stem:[ii(M)_u] equal to stem:[10^{-3}] stem:["kg mol"^{-1}]; but the mole is now defined through a fixed numerical value of stem:[ii(N)_"A"], whose SI coherent unit is stem:["mol"^{-1}]. Nevertheless, stem:[ii(M)_{rm(u)}] may still be taken to be stem:[0.001] stem:["kg mol"^{-1}] as long as the relative standard uncertainty of stem:[ii(M)_{rm(u)}], which is currently stem:[4.5 xx 10^{-10}] <<mohr>>, can be neglected in the uncertainty budget of a measurement under discussion.
 
 
 3.b For no other reason than to bring clarity to the discussion in this subsection, the changes to the value of stem:[ii(M)_{rm(u)}] and its uncertainty may be parameterized in terms of a small, dimensionless quantity stem:[kappa]. The molar mass constant stem:[ii(M)_{rm(u)}], instead of being defined as exactly stem:[0.001 " kg mol"^{-1}], as it was prior to the adoption of Resolution 1, can be accurately derived from the last term of the following relation
 
 [stem]
 ++++
-ii(M)_{rm(u)} = (0.001 " kg mol"^{-1})(1+kappa) = {R_{oo}}/{A_"r" ("e") alpha^2} ({2 N_"A" h}/c)
+ii(M)_{rm(u)} = (0.001 " kg mol"^{-1})(1+kappa) = {ii(R)_{oo}}/{ii(A)_"r" ("e") alpha^2} ({2 ii(N)_"A" h}/c)
 ++++
 
 
 where, in the last term, the constants in the final parentheses have exactly defined values.
 
-Due to the principle of continuity when changes are made to the SI, the value of stem:[kappa] is consistent with zero to a standard uncertainty of stem:[u(kappa) = u_"r"(R_{oo} // (A_"r"("e") alpha^2))], which at present is 4.5 parts in stem:[10^(10)]. This uncertainty would be further reduced by improved measurements of the constants involved, stem:[alpha] in particular. The accepted values and relative uncertainties of stem:[A_"r"("e")], stem:[R_{oo}] and α are the CODATA 2017 recommended values <<mohr>>.
+Due to the principle of continuity when changes are made to the SI, the value of stem:[kappa] is consistent with zero to a standard uncertainty of stem:[u(kappa) = u_"r"(ii(R)_{oo} // (ii(A)_"r"("e") alpha^2))], which at present is 4.5 parts in stem:[10^(10)]. This uncertainty would be further reduced by improved measurements of the constants involved, stem:[alpha] in particular. The accepted values and relative uncertainties of stem:[ii(A)_"r"("e")], stem:[ii(R)_{oo}] and α are the CODATA 2017 recommended values <<mohr>>.
 
-The molar mass constant and the unified atomic mass constant are related by stem:[ii(M)_{rm(u)} = m_{rm(u)} N_"A"]. It follows that, since stem:[u_"r"(N_"A") = 0], the relative uncertainties of stem:[m_{rm(u)}] and stem:[ii(M)_{rm(u)}] are identical:
+The molar mass constant and the unified atomic mass constant are related by stem:[ii(M)_{rm(u)} = m_{rm(u)} ii(N)_"A"]. It follows that, since stem:[u_"r"(ii(N)_"A") = 0], the relative uncertainties of stem:[m_{rm(u)}] and stem:[ii(M)_{rm(u)}] are identical:
 
 [stem]
 ++++

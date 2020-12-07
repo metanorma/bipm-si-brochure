@@ -63,7 +63,7 @@ ces constantes.
 * *la constante de Planck, stem:[h], est égale à stem:[6.62607015 xx 10^{-34} " "rm(J)" "rm(s)],*
 * *la charge élémentaire, stem:[e], est égale à stem:[1.602176634 xx 10^{-19} " "rm(C)],*
 * *la constante de Boltzmann, stem:[k], est égale à stem:[1.380649 xx 10^{-23} " "rm(J)//rm(K)],*
-* *la constante d’Avogadro, stem:[N_"A"], est égale à stem:[6.02214076 xx 10^23 " "rm(mol)^{-1}],*
+* *la constante d’Avogadro, stem:[ii(N)_"A"], est égale à stem:[6.02214076 xx 10^23 " "rm(mol)^{-1}],*
 * *l’efficacité lumineuse d’un rayonnement monochromatique de fréquence stem:[540 xx 10^12 " "rm(Hz)], stem:[K_{"cd"}], est égale à stem:[683 " "rm(lm)//rm(W)],*
 
 où les unités hertz, joule, coulomb, lumen et watt, qui ont respectivement pour symbole stem:[rm(Hz), " "rm(J), " "rm(C), " "rm(lm)] et stem:[rm(W)], sont reliées aux unités seconde, mètre, kilogramme, ampère, kelvin, mole et
@@ -84,8 +84,8 @@ La valeur numérique de chacune des sept constantes définissant le SI n’a pas
 | constante de Planck | stem:[h] | stem:[6.62607015 xx 10^{-34}] | stem:[rm(J)" "rm(s)]
 | charge élémentaire | stem:[e] | stem:[1.602176634 xx 10^{-19}] | stem:[rm(C)]
 | constante de Boltzmann | stem:[k] | stem:[1.380649 xx 10^{-23}] | stem:[rm(J)" "rm(K)^{-1}]
-| constante d’Avogadro | stem:[N_"A"] | stem:[6.02214076 xx 10^{23}] | stem:[rm(mol)^{-1}]
-| efficacité lumineuse | stem:[K_{"cd"}] | stem:[683] | stem:[rm(lm)" "rm(W)^{-1}]
+| constante d’Avogadro | stem:[ii(N)_"A"] | stem:[6.02214076 xx 10^{23}] | stem:[rm(mol)^{-1}]
+| efficacité lumineuse | stem:[ii(K)_{"cd"}] | stem:[683] | stem:[rm(lm)" "rm(W)^{-1}]
 
 |===
 
@@ -105,7 +105,7 @@ ce qui ouvre la voie au développement de réalisations pratiques totalement dif
 améliorées en fonction des progrès technologiques, sans qu’il soit nécessaire de modifier la
 définition de l’unité.
 
-Une constante technique telle que stem:[K_{"cd"}], efficacité lumineuse d’un rayonnement
+Une constante technique telle que stem:[ii(K)_{"cd"}], efficacité lumineuse d’un rayonnement
 monochromatique de fréquence stem:[540 xx 10^(12) " "rm(Hz)], fait référence à une application spécifique.
 En principe, cette constante technique peut être choisie librement, notamment pour inclure
 des facteurs physiologiques conventionnels ou d’autres facteurs de pondération.
@@ -137,7 +137,7 @@ La constante de Boltzmann, stem:[k], est une constante de proportionnalité entr
 valeur numérique est obtenue à partir de spécificités historiques concernant l’échelle de
 température. La température d’un système varie avec son énergie thermique mais cela n’est
 pas forcément le cas concernant l’énergie interne du système. En physique statistique,
-la constante de Boltzmann relie l’entropie, stem:[S], au nombre stem:[ii Omega] d’états quantiques accessibles,
+la constante de Boltzmann relie l’entropie, stem:[ii(S)], au nombre stem:[ii Omega] d’états quantiques accessibles,
 stem:[S = k " ln " ii Omega].
 
 La fréquence du césium, stem:[Delta nu_{"Cs"}], fréquence de la
@@ -149,13 +149,13 @@ vue pratique, un bon choix de transition de référence. Le choix d’un paramè
 comme stem:[Delta nu_{"Cs"}] ne dissocie pas la définition de la réalisation comme dans le cas de stem:[h], stem:[c], stem:[e] ou stem:[k],
 mais précise la référence retenue.
 
-La constante d’Avogadro, stem:[N_"A"], est une constante de proportionnalité entre la grandeur
+La constante d’Avogadro, stem:[ii(N)_"A"], est une constante de proportionnalité entre la grandeur
 «&nbsp;quantité de matière&nbsp;» (dont l’unité est la mole) et une grandeur dont la valeur est déterminée
 par comptage d’entités (dont l’unité est le nombre «&nbsp;un&nbsp;», symbole 1). Elle a ainsi le caractère
 d’une constante de proportionnalité similaire à la constante de Boltzmann, stem:[k].
 
 L’efficacité lumineuse d’un rayonnement monochromatique de fréquence stem:[540 xx 10^(12) " "rm(Hz)],
-stem:[K_{"cd"}], est une constante technique qui établit une relation numérique exacte entre les
+stem:[ii(K)_{"cd"}], est une constante technique qui établit une relation numérique exacte entre les
 caractéristiques purement physiques du flux énergétique stimulant l’oeil humain à une
 fréquence de stem:[540 xx 10^(12) " "rm(hertz)" "(rm(W))] et la réponse photobiologique provoquée par le flux
 lumineux reçu par un observateur moyen (stem:[rm(lm)]).
@@ -190,9 +190,9 @@ h| Nom h| Symbole caractéristique h| Nom h| Symbole
 | longueur | stem:[l, x, r], etc. | mètre | stem:[rm(m)]
 | masse | stem:[m] | kilogramme | stem:[rm(kg)]
 | courant électrique | stem:[I, i] | ampère | stem:[rm(A)]
-| température thermodynamique | stem:[T] | kelvin | stem:[rm(K)]
+| température thermodynamique | stem:[ii(T)] | kelvin | stem:[rm(K)]
 | quantité de matière | stem:[n] | mole | stem:[rm(mol)]
-| intensité lumineuse | stem:[I_"v"] | candela | stem:[rm(cd)]
+| intensité lumineuse | stem:[ii(I)_"v"] | candela | stem:[rm(cd)]
 
 |===
 
@@ -344,12 +344,12 @@ Par conséquent, stem:[mu_0] doit désormais être déterminée de façon expér
 
 Ainsi, comme la permittivité diélectrique du vide
 stem:[epsilon_0] (également connue sous le nom de constante électrique),
-l’impédance du vide caractéristique stem:[Z_0] et l’admittance du vide stem:[Y_0] sont
+l’impédance du vide caractéristique stem:[ii(Z)_0] et l’admittance du vide stem:[ii(Y)_0] sont
 égales à stem:[1//mu_0 c_2], stem:[mu_0 c] et stem:[1//mu_0 c] respectivement,
-les valeurs de stem:[epsilon_0], stem:[Z_0], et stem:[Y_0] doivent désormais
+les valeurs de stem:[epsilon_0], stem:[ii(Z)_0], et stem:[ii(Y)_0] doivent désormais
 être déterminées de façon expérimentale et ont la même incertitude-type relative que stem:[mu_0]
 puisque la valeur de stem:[c] est connue avec exactitude. Le produit stem:[epsilon_0 mu_0 = 1//c^2] et le quotient
-stem:[Z_0// mu_0 = c] restent exacts. Au moment de l’adoption de l’actuelle définition de l’ampère,
+stem:[ii(Z)_0// mu_0 = c] restent exacts. Au moment de l’adoption de l’actuelle définition de l’ampère,
 stem:[mu_0] était égale à stem:[4 pi xx 10^{-7} " "rm(H)//rm(m)] avec une incertitude-type relative de stem:[2.3 xx 10^{-10}].
 
 
@@ -382,22 +382,22 @@ Il résulte de cette définition qu’un kelvin est égal au changement de la te
 thermodynamique résultant d’un changement de l’énergie thermique stem:[kT] de
 stem:[1.380649 xx 10^{-23}" "rm(J)].
 
-La précédente définition du kelvin établissait la température du point triple de l’eau stem:[T_("TPW")]
+La précédente définition du kelvin établissait la température du point triple de l’eau stem:[ii(T)_("TPW")]
 comme étant exactement égale à stem:[273.16 " "rm(K)]. Étant donné que l’actuelle définition du kelvin
-fixe la valeur numérique de stem:[k] et non plus celle de stem:[T_{"TPW"}], cette dernière doit désormais être
+fixe la valeur numérique de stem:[k] et non plus celle de stem:[ii(T)_{"TPW"}], cette dernière doit désormais être
 déterminée de façon expérimentale. Au moment de l’adoption de l’actuelle définition du
-kelvin, stem:[T_{"TPW"}] était égale à stem:[273.16 " "rm(K)] avec une incertitude-type relative de stem:[3.7 xx 10^{-7}]
+kelvin, stem:[ii(T)_{"TPW"}] était égale à stem:[273.16 " "rm(K)] avec une incertitude-type relative de stem:[3.7 xx 10^{-7}]
 déterminée à partir des mesures de stem:[k] réalisées avant la redéfinition.
 
 En raison de la manière dont les échelles de température étaient habituellement définies,
-il est resté d’usage courant d’exprimer la température thermodynamique, symbole stem:[T],
-en fonction de sa différence par rapport à la température de référence stem:[T_0 = 273.15 " "rm(K)]
+il est resté d’usage courant d’exprimer la température thermodynamique, symbole stem:[ii(T)],
+en fonction de sa différence par rapport à la température de référence stem:[ii(T)_0 = 273.15 " "rm(K)]
 proche du point de congélation de l’eau. Cette différence de température est appelée
 température Celsius, symbole stem:[t]; elle est définie par l’équation aux grandeurs:
 
 [stem%unnumbered]
 ++++
-t = T - T_0
+t = T - ii(T)_0
 ++++
 
 L’unité de température Celsius est le degré Celsius, symbole stem:["°"rm(C)], qui par définition est égal
@@ -417,8 +417,8 @@ t // "°"rm(C) = T // rm(K) - 273.15
 Le kelvin et le degré Celsius sont aussi les unités de l’Échelle internationale de température
 de 1990 (EIT-90) adoptée par le CIPM en 1989 dans sa Recommandation 5 (CI-1989, PV,
 *57*, 26). Il est à noter que l’EIT-90 définit les deux grandeurs
-stem:[T_{90}] et stem:[t_{90}] qui sont de très
-bonnes approximations des températures thermodynamiques correspondantes stem:[T] et stem:[t].
+stem:[ii(T)_{90}] et stem:[t_{90}] qui sont de très
+bonnes approximations des températures thermodynamiques correspondantes stem:[ii(T)] et stem:[t].
 
 Il est également à noter que l’actuelle définition de l’unité de température
 thermodynamique permet d’établir, en principe, des réalisations primaires du kelvin à tout
@@ -430,19 +430,19 @@ point de l’échelle de température.
 *La mole, symbole stem:[rm(mol)], est l’unité de quantité de matière du SI. Une mole contient
 exactement stem:[6.02214076 xx 10^(23)] entités élémentaires. Ce nombre, appelé
 «&nbsp;nombre d’Avogadro&nbsp;», correspond à la valeur numérique fixée de la constante
-d’Avogadro, stem:[N_"A"], lorsqu’elle est exprimée en stem:[rm(mol)^{-1}].*
+d’Avogadro, stem:[ii(N)_"A"], lorsqu’elle est exprimée en stem:[rm(mol)^{-1}].*
 
 *La quantité de matière, symbole stem:[n], d’un système est une représentation du nombre
 d’entités élémentaires spécifiées. Une entité élémentaire peut être un atome,
 une molécule, un ion, un électron, ou toute autre particule ou groupement spécifié de
 particules.*
 
-Cette définition implique la relation exacte stem:[N_"A" = 6.02214076 xx 10^23 " "rm(mol)^{-1}]. En inversant
-cette relation, on obtient l’expression exacte de la mole en fonction de la constante stem:[N_"A"]:
+Cette définition implique la relation exacte stem:[ii(N)_"A" = 6.02214076 xx 10^23 " "rm(mol)^{-1}]. En inversant
+cette relation, on obtient l’expression exacte de la mole en fonction de la constante stem:[ii(N)_"A"]:
 
 [stem%unnumbered]
 ++++
-1 " "rm(mol) = ( {6.02214076 xx 10^(23)} / N_"A" )
+1 " "rm(mol) = ( {6.02214076 xx 10^(23)} / ii(N)_"A" )
 ++++
 
 
@@ -452,7 +452,7 @@ stem:[6.02214076 xx 10^(23)] entités élémentaires spécifiées.
 La précédente définition de la mole fixait la valeur de la masse molaire du carbone 12,
 stem:[ii(M)(""^{12}"C")], comme étant exactement égale à stem:[0.012 " "rm(kg)//rm(mol)]. Selon l’actuelle définition de la
 mole, stem:[ii(M)(""^{12}"C")] n’est plus connue avec exactitude et doit être déterminée de façon
-expérimentale. La valeur choisie pour stem:[N_"A"] est telle qu’au moment de l’adoption de la
+expérimentale. La valeur choisie pour stem:[ii(N)_"A"] est telle qu’au moment de l’adoption de la
 présente définition de la mole, stem:[ii(M)(""^{12}"C")] était égale à stem:[0.012 " "rm(kg)//rm(mol)] avec une incertitude-type
 relative de stem:[4.5 xx 10^{-10}].
 
@@ -461,7 +461,7 @@ masse atomique relative à l’aide de l’équation:
 
 [stem%unnumbered]
 ++++
-ii(M)("X") = A_"r" ("X") [ii(M)(""^{12}"C")//12] = A_"r" ("X") ii(M)_{rm(u)}
+ii(M)("X") = ii(A)_"r" ("X") [ii(M)(""^{12}"C")//12] = ii(A)_"r" ("X") ii(M)_{rm(u)}
 ++++
 
 et la masse molaire d’un atome ou d’une molécule stem:["X"] est également reliée à la masse d’une
@@ -469,17 +469,17 @@ entité élémentaire stem:[m("X")] par la relation:
 
 [stem%unnumbered]
 ++++
-ii(M)("X") = N_"A" m("X") = N_"A" A_"r" ("X") m_{rm(u)}
+ii(M)("X") = ii(N)_"A" m("X") = ii(N)_"A" ii(A)_"r" ("X") m_{rm(u)}
 ++++
 
 Dans ces équations, stem:[ii(M)_{rm(u)}] est la constante de masse molaire,
-égale à stem:[M](^12^C)/12, et stem:[m_{rm(u)}] est la
+égale à stem:[ii(M)](^12^C)/12, et stem:[m_{rm(u)}] est la
 constante de masse atomique unifiée, égale à stem:[m](^12^C)/12.
 Elles sont liées à la constante d’Avogadro par la relation:
 
 [stem%unnumbered]
 ++++
-ii(M)_{rm(u)} = N_"A" m_{rm(u)}
+ii(M)_{rm(u)} = ii(N)_"A" m_{rm(u)}
 ++++
 
 Dans le terme «&nbsp;quantité de matière&nbsp;», le mot «&nbsp;matière&nbsp;» sera généralement remplacé par
@@ -499,29 +499,29 @@ matière&nbsp;» est généralement abrégé en «&nbsp;concentration de matièr
 
 *La candela, symbole stem:[rm(cd)], est l’unité du SI d’intensité lumineuse dans une direction
 donnée. Elle est définie en prenant la valeur numérique fixée de l’efficacité lumineuse
-d’un rayonnement monochromatique de fréquence stem:[540 xx 10^(12) " "rm(Hz)], stem:[K_{"cd"}], égale à
+d’un rayonnement monochromatique de fréquence stem:[540 xx 10^(12) " "rm(Hz)], stem:[ii(K)_{"cd"}], égale à
 683 lorsqu’elle est exprimée en stem:[rm(lm)" "rm(W)^{-1}], unité égale à stem:[rm(cd)" "rm(sr)" "rm(W)^{-1}], ou stem:[rm(cd)" "rm(sr)" "rm(kg)^{-1} " "rm(m)^{-2} " "rm(s)^3],
 le kilogramme, le mètre et la seconde étant définis en fonction de stem:[h], stem:[c] et stem:[Delta nu_{"Cs"}].*
 
-Cette définition implique la relation exacte stem:[K_{"cd"} = 683 " "rm(cd)" "rm(sr)" "rm(kg)^{-1} " "rm(m)^{-2} " "rm(s)^3] pour le rayonnement
+Cette définition implique la relation exacte stem:[ii(K)_{"cd"} = 683 " "rm(cd)" "rm(sr)" "rm(kg)^{-1} " "rm(m)^{-2} " "rm(s)^3] pour le rayonnement
 monochromatique de fréquence stem:[nu = 540 xx 10^(12) " "rm(Hz)]. En inversant cette relation, la candela
-est exprimée en fonction des constantes stem:[K_{"cd"}], stem:[h] et stem:[Delta nu_{"Cs"}]:
+est exprimée en fonction des constantes stem:[ii(K)_{"cd"}], stem:[h] et stem:[Delta nu_{"Cs"}]:
 
 [stem%unnumbered]
 ++++
-1 " "rm(cd) = ( K_{"cd"} / 683 ) " "rm(kg)" "rm(m)^2 " "rm(s)^{-3} " "rm(sr)^{-1}
+1 " "rm(cd) = ( ii(K)_{"cd"} / 683 ) " "rm(kg)" "rm(m)^2 " "rm(s)^{-3} " "rm(sr)^{-1}
 ++++
 
 relation identique à
 
 [stem%unnumbered]
 ++++
-1 " "rm(cd) = 1/((6.62607015 xx 10^(-34))(9192631770)^{2} 683)(Delta nu_("Cs"))^2 h " " K_("cd")
+1 " "rm(cd) = 1/((6.62607015 xx 10^(-34))(9192631770)^{2} 683)(Delta nu_("Cs"))^2 h " " ii(K)_("cd")
 ++++
 
 [stem%unnumbered]
 ++++
-~~ 2.6148305 xx 10^(10)(Delta nu_("Cs"))^2 h " " K_("cd")
+~~ 2.6148305 xx 10^(10)(Delta nu_("Cs"))^2 h " " ii(K)_("cd")
 ++++
 
 
@@ -574,9 +574,9 @@ indiquer leur dimension sont présentés dans le <<table-3>>.
 | longueur | stem:[l, x, r,"etc."] | stem:[sf "L"]
 | masse | stem:[m] | stem:[sf "M"]
 | courant électrique | stem:[I, i] | stem:[sf "I"]
-| température thermodynamique | stem:[T] | stem:[Theta]
+| température thermodynamique | stem:[ii(T)] | stem:[Theta]
 | quantité de matière | stem:[n] | stem:[sf "N"]
-| intensité lumineuse | stem:[I_"v"] | stem:[sf "J"]
+| intensité lumineuse | stem:[ii(I)_"v"] | stem:[sf "J"]
 |===
 
 
@@ -585,7 +585,7 @@ comptage, sont des grandeurs dérivées qui peuvent être exprimées en fonction
 de base à l’aide des équations de la physique. Les dimensions des grandeurs dérivées sont
 écrites sous la forme de produits de puissances des dimensions des grandeurs de base au
 moyen des équations qui relient les grandeurs dérivées aux grandeurs de base. En général,
-la dimension d’une grandeur stem:[Q] s’écrit sous la forme d’un produit dimensionnel,
+la dimension d’une grandeur stem:[ii(Q)] s’écrit sous la forme d’un produit dimensionnel,
 
 [stem%unnumbered]
 ++++
@@ -596,8 +596,8 @@ où les exposants stem:[alpha], stem:[beta], stem:[gamma], stem:[delta],
 stem:[epsilon], stem:[zeta] et stem:[eta], qui sont en général de petits nombres entiers positifs,
 négatifs ou nuls, sont appelés exposants dimensionnels.
 
-Certaines grandeurs stem:[Q] sont définies par une équation aux grandeurs telle que tous les
-exposants dimensionnels de l’équation de la dimension de stem:[Q] sont égaux à zéro. C’est vrai,
+Certaines grandeurs stem:[ii(Q)] sont définies par une équation aux grandeurs telle que tous les
+exposants dimensionnels de l’équation de la dimension de stem:[ii(Q)] sont égaux à zéro. C’est vrai,
 en particulier, pour une grandeur définie comme le rapport entre deux grandeurs de même
 espèce. Par exemple, l’indice de réfraction d’un milieu est le rapport de deux vitesses et la
 permittivité relative est le rapport entre la permittivité d’un milieu diélectrique et celle du
@@ -727,8 +727,8 @@ formés à l’aide de préfixes SI.
 |===
 | Grandeur dérivée | Symbole caractéristique de la grandeur | Unité dérivée exprimée en unités de base
 
-| superficie | stem:[A] | stem:[rm(m)^2]
-| volume | stem:[V] | stem:[rm(m)^3]
+| superficie | stem:[ii(A)] | stem:[rm(m)^2]
+| volume | stem:[ii(V)] | stem:[rm(m)^3]
 | vitesse | stem:[v] | stem:[rm(m)" "rm(s)^{-1}]
 | accélération | stem:[a] | stem:[rm(m)" "rm(s)^{-2}]
 | nombre d’ondes | stem:[sigma] | stem:[rm(m)^{-1}]
@@ -736,7 +736,7 @@ formés à l’aide de préfixes SI.
 | masse surfacique | stem:[rho_"A"] | stem:[rm(kg)" "rm(m)^{-2}]
 | volume massique | stem:[v] | stem:[rm(m)^3" "rm(kg)^{-1}]
 | densité de courant | stem:[j] | stem:[rm(A)" "rm(m)^{-2}]
-| champ magnétique | stem:[H] | stem:[rm(A)" "rm(m)^{-1}]
+| champ magnétique | stem:[ii(H)] | stem:[rm(A)" "rm(m)^{-1}]
 | concentration de quantité de matière | stem:[c] | stem:[rm(mol)" "rm(m)^{-3}]
 | concentration massique | stem:[rho, gamma] | stem:[rm(kg)" "rm(m)^{-3}]
 | luminance lumineuse | stem:[L_"v"] | stem:[rm(cd)" "rm(m)^{-2}]
@@ -845,9 +845,9 @@ De plus amples informations sur les unités et les conventions utilisées pour d
 grandeurs photochimiques et photobiologiques sont données dans l’<<appendix3>>.
 
 Les rayonnements ionisants déposent de l’énergie dans la matière irradiée. Le rapport entre
-l’énergie déposée et la masse est appelé «&nbsp;dose absorbée&nbsp;», stem:[D]. Conformément à la décision
+l’énergie déposée et la masse est appelé «&nbsp;dose absorbée&nbsp;», stem:[ii(D)]. Conformément à la décision
 prise par le CIPM en 2002 la grandeur «&nbsp;équivalent de dose&nbsp;» stem:[H = Q D] est le produit de la
-dose absorbée stem:[D] et du facteur numérique de qualité stem:[Q], qui prend en compte l’efficacité
+dose absorbée stem:[ii(D)] et du facteur numérique de qualité stem:[ii(Q)], qui prend en compte l’efficacité
 biologique du rayonnement et qui dépend de l’énergie et du type de rayonnement.
 
 Il existe des unités de grandeurs décrivant des effets biologiques et impliquant des facteurs
