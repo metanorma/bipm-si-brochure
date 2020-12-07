@@ -55,7 +55,7 @@ The purpose of this document is to describe and explain the usage of the photome
 
 If electromagnetic radiation is of sufficient power and of wavelengths within the range 360 nm to 830 nm (approximately), it stimulates the visual organ, i.e. the eye. The retinal receptor elements involved may be principally the cones (photopic vision, eye adapted to higher levels of luminance), the rods (scotopic vision, eye adapted to lower levels of luminance), or a combination of the cones and rods (mesopic vision, intermediate between photopic and scotopic vision).
 
-This 2^nd^ edition has been updated to include, in the definitions of photometric quantities and units, the spectral luminous efficiency functions for mesopic vision based on CIE 191:2010 (CIE, 2010), as well as the 10° spectral luminous efficiency functions based on CIE 165:2005 (CIE, 2005), and to introduce the defining constant for photometry, denoted stem:[K_{"cd"}], adopted in the International System of Units (SI) 2019 (BIPM, 2019).
+This 2^nd^ edition has been updated to include, in the definitions of photometric quantities and units, the spectral luminous efficiency functions for mesopic vision based on CIE 191:2010 (CIE, 2010), as well as the 10° spectral luminous efficiency functions based on CIE 165:2005 (CIE, 2005), and to introduce the defining constant for photometry, denoted stem:[ii(K)_{"cd"}], adopted in the International System of Units (SI) 2019 (BIPM, 2019).
 
 
 [[cls-2]]
@@ -84,10 +84,10 @@ change of luminous energy with time
 
 [stem%unnumbered]
 ++++
-Phi_v = {"d"Q_v} / {"d"t}
+Phi_v = {"d"ii(Q)_v} / {"d"t}
 ++++
 
-where stem:[Q_v] is the luminous energy emitted, transferred or received and t is time
+where stem:[ii(Q)_v] is the luminous energy emitted, transferred or received and t is time
 
 
 [NOTE]
@@ -96,11 +96,11 @@ Luminous flux is a quantity derived from the radiant flux stem:[Phi_e], by evalu
 
 [stem%unnumbered]
 ++++
-Phi_v = K_m int_0^{oo} Phi_{e,lambda} (lambda) V(lambda) "d" lambda
+Phi_v = ii(K)_m int_0^{oo} Phi_{e,lambda} (lambda) V(lambda) "d" lambda
 ++++
 
 
-where stem:[K_m] is maximum luminous efficacy, stem:[Phi_{e,lambda}] is spectral radiant flux, stem:[V(lambda)] is spectral luminous efficiency and stem:[lambda] is wavelength.
+where stem:[ii(K)_m] is maximum luminous efficacy, stem:[Phi_{e,lambda}] is spectral radiant flux, stem:[V(lambda)] is spectral luminous efficiency and stem:[lambda] is wavelength.
 ====
 
 
@@ -110,7 +110,7 @@ The distribution of the luminous intensities as a function of the direction of e
 
 [stem%unnumbered]
 ++++
-Phi_v = int int_{ii Omega} I_v (vartheta,varphi) sin vartheta "d" varphi "d" vartheta
+Phi_v = int int_{ii Omega} ii(I)_v (vartheta,varphi) sin vartheta "d" varphi "d" vartheta
 ++++
 
 ====
@@ -126,13 +126,13 @@ NOTE: The luminous flux is expressed in lumen (lm).
 
 === luminous intensity
 
-stem:[I_v]; stem:[ii(I)]
+stem:[ii(I)_v]; stem:[ii(I)]
 
 density of luminous flux with respect to solid angle in a specified direction
 
 [stem%unnumbered]
 ++++
-I_v = {"d" Phi_v} / {"d" ii Omega}
+ii(I)_v = {"d" Phi_v} / {"d" ii Omega}
 ++++
 
 where stem:["d" Phi_v] is the luminous flux emitted in the given direction, and stem:[ii Omega] is the solid angle containing that direction.
@@ -145,7 +145,7 @@ The distribution of the luminous intensities as a function of the direction of e
 
 [stem%unnumbered]
 ++++
-Phi_v = int int_{ii Omega} I_v (vartheta, varphi) sin vartheta "d" varphi "d" vartheta
+Phi_v = int int_{ii Omega} ii(I)_v (vartheta, varphi) sin vartheta "d" varphi "d" vartheta
 ++++
 
 ====
@@ -156,10 +156,10 @@ Luminous intensity can be derived from the spectral radiant intensity distributi
 
 [stem%unnumbered]
 ++++
-I_v = K_m int_0^{oo} I_{e,lambda} (lambda) V(lambda) "d" lambda
+ii(I)_v = ii(K)_m int_0^{oo} ii(I)_{e,lambda} (lambda) V(lambda) "d" lambda
 ++++
 
-where stem:[K_m] is maximum luminous efficacy, stem:[I_{e,lambda}] is the spectral radiant intensity at wavelength stem:[lambda], and stem:[V(lambda)] is spectral luminous efficiency.
+where stem:[ii(K)_m] is maximum luminous efficacy, stem:[ii(I)_{e,lambda}] is the spectral radiant intensity at wavelength stem:[lambda], and stem:[V(lambda)] is spectral luminous efficiency.
 ====
 
 NOTE: The corresponding radiometric quantity is "`radiant intensity`". The corresponding quantity for photons is "`photon intensity`".
@@ -171,39 +171,39 @@ NOTE: The luminous intensity is expressed in candela (stem:["cd" = "lm" cdot "sr
 
 === luminance
 
-stem:[L_v]; stem:[ii(L)]
+stem:[ii(L)_v]; stem:[ii(L)]
 
 density of luminous intensity with respect to projected area in a specified direction at a specified point on a real or imaginary surface
 
 [stem%unnumbered]
 ++++
-L_v = {"d" I_v} / {"d" A} 1 / {cos alpha}
+ii(L)_v = {"d" ii(I)_v} / {"d" A} 1 / {cos alpha}
 ++++
 
-where stem:[I_v] is luminous intensity, stem:[ii(A)] is area and stem:[alpha] is the angle between the normal to the surface at the specified point and the given direction
+where stem:[ii(I)_v] is luminous intensity, stem:[ii(A)] is area and stem:[alpha] is the angle between the normal to the surface at the specified point and the given direction
 
 [NOTE]
 ====
-In a practical sense, the definition of luminance can be thought of as dividing a real or imaginary surface into an infinite number of infinitesimally small surfaces, which can be considered as point sources, each of which has a specific luminous intensity, stem:[I_v], in the specified direction. The luminance of the surface is then the integral of these luminance elements over the whole surface.
+In a practical sense, the definition of luminance can be thought of as dividing a real or imaginary surface into an infinite number of infinitesimally small surfaces, which can be considered as point sources, each of which has a specific luminous intensity, stem:[ii(I)_v], in the specified direction. The luminance of the surface is then the integral of these luminance elements over the whole surface.
 
-The equation in the definition can mathematically be interpreted as a derivative (i.e. a rate of change of luminous intensity with projected area) and could alternatively be rewritten in terms of the average luminous intensity stem:[bar I_v] as
+The equation in the definition can mathematically be interpreted as a derivative (i.e. a rate of change of luminous intensity with projected area) and could alternatively be rewritten in terms of the average luminous intensity stem:[bar ii(I)_v] as
 
 [stem%unnumbered]
 ++++
-L_v = lim_{A -> 0} {bar I_v} / A  1 / {cos alpha}
+ii(L)_v = lim_{A -> 0} {bar ii(I)_v} / A  1 / {cos alpha}
 ++++
 
-Hence, luminance is often considered as a quotient of averaged quantities; the area, stem:[ii(A)], should be small enough that uncertainties due to variations in luminous intensity within that area are negligible, otherwise, the quotient stem:[bar L_v = {bar I_v}/{A} 1/{cos alpha}] gives the average luminance and the specific measurement conditions must be reported with the result.
+Hence, luminance is often considered as a quotient of averaged quantities; the area, stem:[ii(A)], should be small enough that uncertainties due to variations in luminous intensity within that area are negligible, otherwise, the quotient stem:[bar ii(L)_v = {bar ii(I)_v}/{A} 1/{cos alpha}] gives the average luminance and the specific measurement conditions must be reported with the result.
 ====
 
 [NOTE]
 ====
-For a surface being irradiated, an equivalent formula in terms of illuminance, stem:[E_v], and solid angle, stem:[ii Omega], is stem:[L_v = {"d" E_v}/{"d" ii Omega} 1 / {cos theta}] where stem:[theta] is the angle between the normal to the surface being irradiated and the direction of irradiation. This form is useful when the source has no surface (e.g. the sky, the plasma of a discharge).
+For a surface being irradiated, an equivalent formula in terms of illuminance, stem:[ii(E)_v], and solid angle, stem:[ii Omega], is stem:[ii(L)_v = {"d" ii(E)_v}/{"d" ii Omega} 1 / {cos theta}] where stem:[theta] is the angle between the normal to the surface being irradiated and the direction of irradiation. This form is useful when the source has no surface (e.g. the sky, the plasma of a discharge).
 ====
 
 [NOTE]
 ====
-An equivalent formula is stem:[L_v = {"d" Phi_v}/{"d" G}] where stem:[Phi_v] is luminous flux and stem:[ii(G)] is geometric extent.
+An equivalent formula is stem:[ii(L)_v = {"d" Phi_v}/{"d" G}] where stem:[Phi_v] is luminous flux and stem:[ii(G)] is geometric extent.
 ====
 
 [NOTE]
@@ -212,13 +212,13 @@ Luminous flux may be obtained by integrating luminance over projected area, stem
 
 [stem%unnumbered]
 ++++
-Phi_v = int int L_v cos alpha "d" A "d" ii Omega
+Phi_v = int int ii(L)_v cos alpha "d" A "d" ii Omega
 ++++
 ====
 
 [NOTE]
 ====
-Since the optical extent, expressed by stem:[G cdot n^2], where stem:[ii(G)] is geometric extent and stem:[n] is refractive index, is invariant, the quantity expressed by stem:[L_v cdot n^{-2}] is also invariant along the path of the beam if the losses by absorption, reflection and diffusion are taken as 0. That quantity is called "`basic luminance`".
+Since the optical extent, expressed by stem:[G cdot n^2], where stem:[ii(G)] is geometric extent and stem:[n] is refractive index, is invariant, the quantity expressed by stem:[ii(L)_v cdot n^{-2}] is also invariant along the path of the beam if the losses by absorption, reflection and diffusion are taken as 0. That quantity is called "`basic luminance`".
 ====
 
 [NOTE]
@@ -227,7 +227,7 @@ The equation in the definition can also be described as a function of luminous f
 
 [stem%unnumbered]
 ++++
-L_v (x,y,vartheta,varphi) = {partial Phi_v (x,y,vartheta,varphi)} / {partial A(x,y) cdot cos alpha cdot partial ii Omega (vartheta,varphi)}
+ii(L)_v (x,y,vartheta,varphi) = {partial Phi_v (x,y,vartheta,varphi)} / {partial A(x,y) cdot cos alpha cdot partial ii Omega (vartheta,varphi)}
 ++++
 
 where stem:[alpha] is the angle between the normal to that area at the specified point and the specified direction.
@@ -244,13 +244,13 @@ NOTE: The luminance is expressed in candela per square metre (stem:["cd" cdot "m
 [[cls-2-4]]
 === illuminance
 
-stem:[E_v]; stem:[ii(E)]
+stem:[ii(E)_v]; stem:[ii(E)]
 
 density of incident luminous flux with respect to area at a point on a real or imaginary surface
 
 [stem%unnumbered]
 ++++
-E_v = {"d" Phi_v} / {"d" A}
+ii(E)_v = {"d" Phi_v} / {"d" A}
 ++++
 
 where stem:[Phi_v] is luminous flux and stem:[ii(A)] is the area on which the luminous flux is incident
@@ -261,10 +261,10 @@ Illuminance can be derived from the spectral irradiance distribution by
 
 [stem%unnumbered]
 ++++
-E_v = K_m int_0^{oo} E_{e,lambda} (lambda) V(lambda) "d" lambda
+ii(E)_v = ii(K)_m int_0^{oo} ii(E)_{e,lambda} (lambda) V(lambda) "d" lambda
 ++++
 
-where stem:[K_m] is maximum luminous efficacy, stem:[E_{e,lambda}(lambda)] is the spectral irradiance at wavelength stem:[lambda], and stem:[V(lambda)] is spectral luminous efficiency.
+where stem:[ii(K)_m] is maximum luminous efficacy, stem:[ii(E)_{e,lambda}(lambda)] is the spectral irradiance at wavelength stem:[lambda], and stem:[V(lambda)] is spectral luminous efficiency.
 ====
 
 NOTE: The corresponding radiometric quantity is "`irradiance`". The corresponding quantity for photons is "`photon irradiance`".
@@ -277,13 +277,13 @@ NOTE: The illuminance is expressed in lux (stem:["lx" = "lm" cdot "m"^{-2}])
 
 == Photometric units
 
-Historically the SI units have been presented in terms of a set of seven base units. All other units ("`derived units`") are then constructed as products of powers of the base units. In the field of photometry, the definition of the unit of luminous intensity (based on a blackbody at the freezing point temperature of platinum), was adopted at the 9^th^ meeting of the General Conference on Weights and Measures (CGPM) in 1948 (CGPM, 1948). The name "`candela`" was assigned to this unit by the CIPM in 1949. The candela was endorsed as one of the international base units at the 10^th^ meeting of the CGPM in 1954 (CGPM, 1955). The "`Système International d’unités`", abbreviation "`SI`", was established at the 11^th^ meeting of the CGPM in 1960. In 1979, the candela was linked to radiometric quantities for monochromatic radiation of frequency stem:[540 xx 10^12 "&#xA0;" "Hz"] (CGPM, 1979). In 2018 the CGPM adopted a new approach for the SI based on seven defining constants (CGPM, 2018). In the International System of Units (SI) 2019 (BIPM, 2019) the definition of the candela is reformulated by introducing the constant stem:[K_{"cd"} = 683 "&#xA0;" "lm" cdot "W"^{-1}], which is the luminous efficacy of monochromatic radiation of frequency stem:[540 xx 10^12 "&#xA0;" "Hz"].
+Historically the SI units have been presented in terms of a set of seven base units. All other units ("`derived units`") are then constructed as products of powers of the base units. In the field of photometry, the definition of the unit of luminous intensity (based on a blackbody at the freezing point temperature of platinum), was adopted at the 9^th^ meeting of the General Conference on Weights and Measures (CGPM) in 1948 (CGPM, 1948). The name "`candela`" was assigned to this unit by the CIPM in 1949. The candela was endorsed as one of the international base units at the 10^th^ meeting of the CGPM in 1954 (CGPM, 1955). The "`Système International d’unités`", abbreviation "`SI`", was established at the 11^th^ meeting of the CGPM in 1960. In 1979, the candela was linked to radiometric quantities for monochromatic radiation of frequency stem:[540 xx 10^12 "&#xA0;" "Hz"] (CGPM, 1979). In 2018 the CGPM adopted a new approach for the SI based on seven defining constants (CGPM, 2018). In the International System of Units (SI) 2019 (BIPM, 2019) the definition of the candela is reformulated by introducing the constant stem:[ii(K)_{"cd"} = 683 "&#xA0;" "lm" cdot "W"^{-1}], which is the luminous efficacy of monochromatic radiation of frequency stem:[540 xx 10^12 "&#xA0;" "Hz"].
 
 The frequency in the candela definition of stem:[540 xx 10^12 "&#xA0;" "Hz"], denoted as stem:[ν_{"cd"}], corresponds to a wavelength in standard air footnote:[The value of stem:[lambda_{"cd"}] is for standard air (dry air at 15 °C and stem:[101325 " Pa"], containing 0.045 % of carbon dioxide by volume), see Ciddor (1996). This value changes slightly if laboratory air conditions are different but such changes are negligible in practice.] (Ciddor, 1996) that is usually rounded to stem:[555.017 nm], and denoted stem:[lambda_{"cd"}]. All wavelength values given in this document are in standard air. For photometric measurements in air under real environmental conditions, the influence of the variation of the refractive index of air on stem:[lambda_{"cd"}] with respect to standard air is typically in the range of a few picometres and can be neglected.
 
 The above definition of the candela applies to photopic, scotopic and mesopic vision.
 
-The definition of stem:[K_{"cd"}] relates the unit of luminous flux (lumen, lm) to the unit of radiant flux (watt, W) at wavelength stem:[lambda_{"cd"}]. For wavelengths other than stem:[lambda_{"cd"}], the luminous efficacy is proportional to one of the spectral luminous efficiency functions described in <<cls-4>>.
+The definition of stem:[ii(K)_{"cd"}] relates the unit of luminous flux (lumen, lm) to the unit of radiant flux (watt, W) at wavelength stem:[lambda_{"cd"}]. For wavelengths other than stem:[lambda_{"cd"}], the luminous efficacy is proportional to one of the spectral luminous efficiency functions described in <<cls-4>>.
 
 The SI units of the three other photometric quantities, luminous intensity, luminance, and illuminance, defined in <<cls-2>> of this document, are derived directly from the unit of luminous flux, the lumen, and the units of the geometric quantities, area and solid angle.
 
@@ -319,33 +319,33 @@ The spectral luminous efficiency function for scotopic vision is denoted by stem
 [[cls-4-3]]
 === Mesopic vision
 
-The spectral luminous efficiency function for mesopic vision is denoted by stem:[V_{"mes";m} (lambda)], and is defined as
+The spectral luminous efficiency function for mesopic vision is denoted by stem:[ii(V)_{"mes";m} (lambda)], and is defined as
 
 [[eq-1]]
 [stem]
 ++++
-V_{"mes";m} (lambda) = 1 / {ii(M)(m)} {m V (lambda) + (1 - m) V'(lambda)} "&#xA0;" "for" "&#xA0;" 0 <= m <= 1
+ii(V)_{"mes";m} (lambda) = 1 / {ii(M)(m)} {m V (lambda) + (1 - m) V'(lambda)} "&#xA0;" "for" "&#xA0;" 0 <= m <= 1
 ++++
 
 where
 
 stem:[m]:: is the adaptation coefficient, the value of which depends on the visual adaptation conditions (see <<cls-6-4>>);
 
-stem:[ii(M)(m)]:: is a normalizing function such that stem:[V_{"mes";m} (lambda)] attains a maximum value of 1.
+stem:[ii(M)(m)]:: is a normalizing function such that stem:[ii(V)_{"mes";m} (lambda)] attains a maximum value of 1.
 
 
-<<fig-1>> shows the curves of the mesopic spectral luminous efficiency function stem:[V_{"mes";m} (lambda)] at stem:[m = 0.2, 0.4, 0.6, 0.8] as examples, plotted with stem:[V(lambda)] and stem:[V'(lambda)]. <<table-3>> shows the values of stem:[V_{"mes";m} (lambda)] at stem:[m = 0.8] as an example, which corresponds to the visual adaptation condition for a typical road lighting luminance level (stem:[~~ 1 "&#xA0;" "cd m"^{-2}]).
+<<fig-1>> shows the curves of the mesopic spectral luminous efficiency function stem:[ii(V)_{"mes";m} (lambda)] at stem:[m = 0.2, 0.4, 0.6, 0.8] as examples, plotted with stem:[V(lambda)] and stem:[V'(lambda)]. <<table-3>> shows the values of stem:[ii(V)_{"mes";m} (lambda)] at stem:[m = 0.8] as an example, which corresponds to the visual adaptation condition for a typical road lighting luminance level (stem:[~~ 1 "&#xA0;" "cd m"^{-2}]).
 
 
 [[fig-1]]
-.The spectral luminous efficiency functions for mesopic vision, stem:[V_{"mes";m} (lambda)], at stem:[m = 0.2; 0.4; 0.6; 0.8] as examples, plotted with stem:[V(lambda)] and stem:[V'(lambda)]
+.The spectral luminous efficiency functions for mesopic vision, stem:[ii(V)_{"mes";m} (lambda)], at stem:[m = 0.2; 0.4; 0.6; 0.8] as examples, plotted with stem:[V(lambda)] and stem:[V'(lambda)]
 image::candela/fig-1.png[]
 
 
 [[cls-4-4]]
 === 10° photopic vision
 
-The spectral luminous efficiency function for 10° photopic vision is denoted by stem:[V_{10} (lambda)]; its values are given in <<table-5>>, adopted from (ISO/CIE, 2005).
+The spectral luminous efficiency function for 10° photopic vision is denoted by stem:[ii(V)_{10} (lambda)]; its values are given in <<table-5>>, adopted from (ISO/CIE, 2005).
 
 
 === Use of these spectral luminous efficiency functions
@@ -356,7 +356,7 @@ It is important to note that the stem:[V(lambda)] function applies at all lumina
 
 * Mesopic photometric quantities are applicable to the condition where the eye is adapted to average luminance levels between stem:[0.005 "&#xA0;" "cd" cdot "m"^{-2}] and stem:[5 "&#xA0;" "cd" cdot "m"^{-2}].
 
-* Above stem:[5 "&#xA0;" "cd" cdot "m"^{-2}], photopic photometric quantities should be used. The stem:[V(lambda)] function was determined on the basis of experimental studies for photopic vision with a narrow field of view (about 4° or less). For situations where the visual target has an angular subtense larger than 4° or is seen off-axis, the stem:[V_{10} (lambda)] function, based on experimental studies for photopic vision with a 10° field of view (CIE, 2005), can be used.
+* Above stem:[5 "&#xA0;" "cd" cdot "m"^{-2}], photopic photometric quantities should be used. The stem:[V(lambda)] function was determined on the basis of experimental studies for photopic vision with a narrow field of view (about 4° or less). For situations where the visual target has an angular subtense larger than 4° or is seen off-axis, the stem:[ii(V)_{10} (lambda)] function, based on experimental studies for photopic vision with a 10° field of view (CIE, 2005), can be used.
 
 For the purpose of practical photometry, and to avoid confusion, the relevant spectral luminous efficiency function used for the photometric quantities must be specified, either through use of an appropriate descriptor linked with the quantity (e.g. photopic, scotopic, mesopic) or by use of the appropriate symbol (see <<cls-5>>). If the luminous efficiency function used is not specified, it is assumed to be the stem:[V(lambda)] function.
 
@@ -372,11 +372,11 @@ The following quantity names and symbols apply for photopic vision (using the st
 
 * (photopic) luminous flux, stem:[Phi_v]
 
-* (photopic) luminous intensity, stem:[I_v]
+* (photopic) luminous intensity, stem:[ii(I)_v]
 
-* (photopic) illuminance, stem:[E_v]
+* (photopic) illuminance, stem:[ii(E)_v]
 
-* (photopic) luminance, stem:[L_v]
+* (photopic) luminance, stem:[ii(L)_v]
 
 NOTE: The descriptor "`photopic`" is used only when quantities other than photopic are reported or discussed in the same document and there is a possibility of confusion.
 
@@ -387,24 +387,24 @@ The following quantity names and symbols apply for scotopic vision (using the st
 
 * scotopic luminous flux, stem:[Phi_v']
 
-* scotopic luminous intensity, stem:[I_v']
+* scotopic luminous intensity, stem:[ii(I)_v']
 
-* scotopic illuminance, stem:[E_v']
+* scotopic illuminance, stem:[ii(E)_v']
 
-* scotopic luminance, stem:[L_v']
+* scotopic luminance, stem:[ii(L)_v']
 
 
 === Photometric quantities for mesopic vision
 
-The following quantity names and symbols apply for mesopic vision (CIE, 2016b) (using the stem:[V_{"mes";m} (lambda)] function):
+The following quantity names and symbols apply for mesopic vision (CIE, 2016b) (using the stem:[ii(V)_{"mes";m} (lambda)] function):
 
 * mesopic luminous flux, stem:[Phi_{"mes";m}]
 
-* mesopic luminous intensity, stem:[I_{"mes";m}]
+* mesopic luminous intensity, stem:[ii(I)_{"mes";m}]
 
-* mesopic illuminance, stem:[E_{"mes";m}]
+* mesopic illuminance, stem:[ii(E)_{"mes";m}]
 
-* mesopic luminance, stem:[L_{"mes";m}]
+* mesopic luminance, stem:[ii(L)_{"mes";m}]
 
 where m is a coefficient stem:[0 <= m <= 1] determined by the visual adaptation level. The value of stem:[m] should be specified in the quantity name as well as in the symbol, e.g. mesopic luminous flux (stem:[m = 0.5]), stem:[Phi_{"mes";m}]. Further guidance is available in (CIE, 2016b).
 
@@ -413,15 +413,15 @@ Note that mesopic photometric quantities follow the law of additivity only withi
 
 === Photometric quantities for 10° photopic vision
 
-The following quantity names and symbols apply for photopic vision using the stem:[V_{10} (lambda)] function.
+The following quantity names and symbols apply for photopic vision using the stem:[ii(V)_{10} (lambda)] function.
 
 * 10° luminous flux, stem:[Phi_10]
 
-* 10° luminous intensity, stem:[I_10]
+* 10° luminous intensity, stem:[ii(I)_10]
 
-* 10° illuminance, stem:[E_10]
+* 10° illuminance, stem:[ii(E)_10]
 
-* 10° luminance, stem:[L_10]
+* 10° luminance, stem:[ii(L)_10]
 
 
 === Photometric quantities for other observers
@@ -434,21 +434,21 @@ For research purposes, photometric quantities for observers other than those int
 
 === General equation
 
-For a chosen spectral luminous efficiency function stem:[V_X (lambda)], the relationship between a photometric quantity, such as luminous flux, stem:[Phi_{v,X}], and the corresponding radiometric quantity spectral radiant flux, stem:[Phi_{e,lambda} (lambda)], is given by:
+For a chosen spectral luminous efficiency function stem:[ii(V)_X (lambda)], the relationship between a photometric quantity, such as luminous flux, stem:[Phi_{v,X}], and the corresponding radiometric quantity spectral radiant flux, stem:[Phi_{e,lambda} (lambda)], is given by:
 
 [[eq-2]]
 [stem]
 ++++
-Phi_{v,X} = {K_{"cd"}} / {V_X (lambda_{"cd"})} int_{lambda} Phi_{e,lambda} (lambda) V_X (lambda) "d" lambda
+Phi_{v,X} = {ii(K)_{"cd"}} / {ii(V)_X (lambda_{"cd"})} int_{lambda} Phi_{e,lambda} (lambda) ii(V)_X (lambda) "d" lambda
 ++++
 
 where
 
-stem:[K_{"cd"}]:: is the luminous efficacy of monochromatic radiation of frequency stem:[540 xx 10^12 "&#xA0;" "Hz"] (stem:[683 "&#xA0;" "lm" cdot "W"^{-1}]);
+stem:[ii(K)_{"cd"}]:: is the luminous efficacy of monochromatic radiation of frequency stem:[540 xx 10^12 "&#xA0;" "Hz"] (stem:[683 "&#xA0;" "lm" cdot "W"^{-1}]);
 
-stem:[V_X (lambda)]:: represents one of the spectral luminous efficiency functions;
+stem:[ii(V)_X (lambda)]:: represents one of the spectral luminous efficiency functions;
 
-stem:[Phi_{v,X}]:: is the luminous flux evaluated using a defined spectral luminous efficiency function stem:[V_X (lambda)];
+stem:[Phi_{v,X}]:: is the luminous flux evaluated using a defined spectral luminous efficiency function stem:[ii(V)_X (lambda)];
 
 stem:[Phi_{e,lambda} (lambda) = {"d" Phi_e} / {"d" lambda}]:: is spectral radiant flux, i.e. the spectral distribution of radiant flux stem:[Phi_e];
 
@@ -464,7 +464,7 @@ For photopic vision, evaluated using the spectral luminous efficiency function f
 [[eq-3]]
 [stem]
 ++++
-Phi_v = K_m int_{lambda} Phi_{e,lambda} V (lambda) "d" lambda
+Phi_v = ii(K)_m int_{lambda} Phi_{e,lambda} V (lambda) "d" lambda
 ++++
 
 where
@@ -473,12 +473,12 @@ stem:[Phi_v]:: is the luminous flux;
 
 stem:[Phi_{e,lambda} (lambda) = {"d" Phi_e}/{"d" lambda}]:: is spectral radiant flux, i.e. the spectral distribution of radiant flux stem:[Phi_e];
 
-stem:[K_m]:: is the maximum luminous efficacy for photopic vision, i.e. the luminous efficacy at the peak of the stem:[V(lambda)] function, which is at a wavelength of stem:[lambda_m = 555 "&#xA0;" "nm"] (exactly), and is given by:
+stem:[ii(K)_m]:: is the maximum luminous efficacy for photopic vision, i.e. the luminous efficacy at the peak of the stem:[V(lambda)] function, which is at a wavelength of stem:[lambda_m = 555 "&#xA0;" "nm"] (exactly), and is given by:
 +
 --
 [stem]
 ++++
-K_m = K_{"cd"} cdot [V(lambda_m) // V(lambda_{"cd"})]
+ii(K)_m = ii(K)_{"cd"} cdot [V(lambda_m) // V(lambda_{"cd"})]
 ++++
 
 (stem:[= 683.002 "&#xA0;" "lm" cdot "W"^{-1} ~~ 683 "&#xA0;" "lm" cdot "W"^{-1}] in standard air).
@@ -494,7 +494,7 @@ The scotopic luminous flux, stem:[Phi'], is related to spectral radiant flux by:
 [[eq-5]]
 [stem]
 ++++
-Phi' = K_m' int_{lambda} Phi_{e,lambda} (lambda) V'_{lambda} "d" lambda
+Phi' = ii(K)_m' int_{lambda} Phi_{e,lambda} (lambda) V'_{lambda} "d" lambda
 ++++
 
 where
@@ -509,7 +509,7 @@ is the maximum luminous efficacy for scotopic vision, i.e. the luminous efficacy
 --
 [stem]
 ++++
-K'_m = K_{"cd"} cdot [V'(lambda'_m) // V'(lambda_{"cd"})]
+K'_m = ii(K)_{"cd"} cdot [V'(lambda'_m) // V'(lambda_{"cd"})]
 ++++
 
 (stem:[= 1700.13 "&#xA0;" "lm" cdot "W"^{-1} ~~ 1700 "lm" cdot  W^{-1}] in standard air).
@@ -525,51 +525,51 @@ The mesopic luminous flux, stem:[Phi_{"mes";m}], is related to spectral radiant 
 [[eq-7]]
 [stem]
 ++++
-Phi_{"mes";m} = {K_{"cd"}} / {V_{"mes";m} (lambda_{"cd"})} int_{lambda} Phi_{e,lambda} (lambda) V_{"mes";m} (lambda) "d" lambda
+Phi_{"mes";m} = {ii(K)_{"cd"}} / {ii(V)_{"mes";m} (lambda_{"cd"})} int_{lambda} Phi_{e,lambda} (lambda) ii(V)_{"mes";m} (lambda) "d" lambda
 ++++
 
 where
 
-stem:[K_{"cd"}]:: is the luminous efficacy of monochromatic radiation of frequency stem:[540 xx 10^12 "&#xA0;" "Hz"] (stem:[683 "&#xA0;" "lm" cdot "W"^{-1}]);
+stem:[ii(K)_{"cd"}]:: is the luminous efficacy of monochromatic radiation of frequency stem:[540 xx 10^12 "&#xA0;" "Hz"] (stem:[683 "&#xA0;" "lm" cdot "W"^{-1}]);
 
-stem:[V_{"mes";m} (lambda)]:: is the spectral luminous efficiency function for mesopic vision (see <<cls-4-3>>)
+stem:[ii(V)_{"mes";m} (lambda)]:: is the spectral luminous efficiency function for mesopic vision (see <<cls-4-3>>)
 
 stem:[Phi_{e,lambda} (lambda) = {"d" Phi_e}/{"d" lambda}]:: is spectral radiant flux, i.e. the spectral distribution of radiant flux, stem:[Phi_e];
 
 stem:[lambda_{"cd"}]:: is the wavelength at stem:[540 xx 10^12 "&#xA0;" "Hz"] according to the definition of the unit candela (555.017 nm in standard air).
 
-The maximum luminous efficacy for mesopic vision, stem:[K_{"m,mes";m}], varies as a function of stem:[m], and is given by
+The maximum luminous efficacy for mesopic vision, stem:[ii(K)_{"m,mes";m}], varies as a function of stem:[m], and is given by
 
 [[eq-8]]
 [stem]
 ++++
-K_{"m,mes";m} = {K_{"cd"}} / {V_{"mes";m} (lambda_{"cd"})}
+ii(K)_{"m,mes";m} = {ii(K)_{"cd"}} / {ii(V)_{"mes";m} (lambda_{"cd"})}
 ++++
 
-The value of stem:[m], stem:[K_{"m,mes";m}] varies from stem:[683 "&#xA0;" "lm" cdot "W"^{-1}] at stem:[m = 1] (photopic) to stem:[1700 "&#xA0;" "lm" cdot "W"^{-1}] at stem:[m = 0] (scotopic)
-footnote:[The subscript stem:[m], in Roman font, in stem:[K_{"m","mes";m}] refers to "`maximum`", whereas the subscript stem:[m], in Italic font, represents a variable, referring to the adaptation coefficient.].
+The value of stem:[m], stem:[ii(K)_{"m,mes";m}] varies from stem:[683 "&#xA0;" "lm" cdot "W"^{-1}] at stem:[m = 1] (photopic) to stem:[1700 "&#xA0;" "lm" cdot "W"^{-1}] at stem:[m = 0] (scotopic)
+footnote:[The subscript stem:[m], in Roman font, in stem:[ii(K)_{"m","mes";m}] refers to "`maximum`", whereas the subscript stem:[m], in Italic font, represents a variable, referring to the adaptation coefficient.].
 
 Hence <<eq-7>> can be rewritten in similar form as <<eq-3>> and <<eq-5>>:
 
 [stem]
 ++++
-Phi_{"mes";m} = K_{"m,mes";m} int_{lambda} Phi_{e,lambda} (lambda) V_{"mes";m} (lambda) "d" lambda
+Phi_{"mes";m} = ii(K)_{"m,mes";m} int_{lambda} Phi_{e,lambda} (lambda) ii(V)_{"mes";m} (lambda) "d" lambda
 ++++
 
-The values of stem:[m], stem:[K_{"m,mes";m}] are given in <<table-4>> for representative values of stem:[m].
+The values of stem:[m], stem:[ii(K)_{"m,mes";m}] are given in <<table-4>> for representative values of stem:[m].
 
-The value of stem:[m] is determined from the photopic luminance, stem:[L_{v,"adapt"}], and scotopic luminance, stem:[L'_{v,"adapt"}], of the visual adaptation field footnote:[Determination of adaptation luminance in various application conditions is still in research. An interim recommendation is available in (CIE, 2017).], and it is obtained as the solution for the simultaneous equations (CIE, 2010):
+The value of stem:[m] is determined from the photopic luminance, stem:[ii(L)_{v,"adapt"}], and scotopic luminance, stem:[L'_{v,"adapt"}], of the visual adaptation field footnote:[Determination of adaptation luminance in various application conditions is still in research. An interim recommendation is available in (CIE, 2017).], and it is obtained as the solution for the simultaneous equations (CIE, 2010):
 
 [stem]
 ++++
-L_{"mes",n} = { m_{(n - 1)} L_{v,"adapt"} + (1 - m_{(n-1)}) L'_{v,"adapt"} V'(lambda_m) } / {m_{(n-1)} + (1 - m_{(n-1)}) V'(lambda_m)}
+ii(L)_{"mes",n} = { m_{(n - 1)} ii(L)_{v,"adapt"} + (1 - m_{(n-1)}) L'_{v,"adapt"} V'(lambda_m) } / {m_{(n-1)} + (1 - m_{(n-1)}) V'(lambda_m)}
 ++++
 
 and
 
 [stem]
 ++++
-m_n = a + b "&#xA0;" log_10 (L_{"mes",n}) "&#xA0; for &#xA0;"  0 <= m_n <= 1
+m_n = a + b "&#xA0;" log_10 (ii(L)_{"mes",n}) "&#xA0; for &#xA0;"  0 <= m_n <= 1
 ++++
 
 
@@ -577,7 +577,7 @@ where stem:[a] and stem:[b] are parameters which have the values stem:[a = 0.767
 
 Other mesopic photometric quantities (e.g. mesopic luminance, mesopic illuminance, mesopic luminous intensity) are calculated similarly.
 
-Mesopic photometric quantities should always be given with the value of stem:[m], e.g. stem:[L_{"mes";0.4} = 0.12 "&#xA0;" "cd m"^{-2}].
+Mesopic photometric quantities should always be given with the value of stem:[m], e.g. stem:[ii(L)_{"mes";0.4} = 0.12 "&#xA0;" "cd m"^{-2}].
 
 
 === Luminous flux for 10° photopic vision
@@ -586,26 +586,26 @@ The 10° luminous flux, stem:[Phi_10], is related to spectral radiant flux by:
 
 [stem]
 ++++
-Phi_10 = K_{"m",10} int_{lambda} Phi_{e,lambda} (lambda) V_10 (lambda) "d" lambda
+Phi_10 = ii(K)_{"m",10} int_{lambda} Phi_{e,lambda} (lambda) ii(V)_10 (lambda) "d" lambda
 ++++
 
 where
 
-stem:[K_{m,10}]::
+stem:[ii(K)_{m,10}]::
 +
 --
 
-is the maximum luminous efficacy for 10° photopic vision, i.e. the luminous efficacy at the peak of the stem:[V_{10} (lambda)] function, which is at a wavelength of stem:[m], stem:[lambda_10 = 557 "&#xA0;" "nm"] (exactly):
+is the maximum luminous efficacy for 10° photopic vision, i.e. the luminous efficacy at the peak of the stem:[ii(V)_{10} (lambda)] function, which is at a wavelength of stem:[m], stem:[lambda_10 = 557 "&#xA0;" "nm"] (exactly):
 
 [stem]
 ++++
-K_{m,10} = K_{"cd"} cdot [V_10 (lambda_{m,10}) // V_10 (lambda_{"cd"})]
+ii(K)_{m,10} = ii(K)_{"cd"} cdot [ii(V)_10 (lambda_{m,10}) // ii(V)_10 (lambda_{"cd"})]
 ++++
 
 (stem:[= 683.601 "&#xA0;" "lm" cdot "W"^{-1} ~~ 684 "&#xA0;" "lm" cdot "W"^{-1}] in standard air).
 --
 
-stem:[V_{10} (lambda)]:: is the spectral luminous efficiency function for 10° photopic vision (see <<cls-4-4>>)
+stem:[ii(V)_{10} (lambda)]:: is the spectral luminous efficiency function for 10° photopic vision (see <<cls-4-4>>)
 
 stem:[Phi_{e,lambda} (lambda) = {"d" Phi_e} / {"d" lambda}]:: is spectral radiant flux, i.e. the spectral distribution of radiant flux, stem:[Phi_e];
 
@@ -631,7 +631,7 @@ The CIE has published basic colorimetric recommendations (CIE, 2018b) that descr
 
 The CIE 1931 colour-matching functions define the colour-matching properties of an average observer (the CIE 1931 standard colorimetric observer) with normal colour vision viewing fields of angular subtense between 1° and 4° (stem:[0.017 " rad"] and stem:[0.07 " rad"]). The colour-matching functions are the tristimulus values of monochromatic stimuli of equal radiant power and of wavelengths within the visible spectrum (360 nm to 830 nm). They are denoted by stem:[bar x (lambda)], stem:[bar y (lambda)], stem:[bar z (lambda)] and their values are given in <<table-6>> (adopted from ISO/CIE, 2007). For a larger field of view, the colour-matching functions for the CIE 10° observer (the CIE 1964 standard colorimetric observer), stem:[bar x_10 (lambda)], stem:[bar y_10 (lambda)], stem:[bar z_10 (lambda)], are available (ISO/CIE, 2007).
 
-NOTE: The stem:[bar y (lambda)] function is identical to the stem:[V(lambda)] function given in <<table-1>>, and stem:[bar y_10 (lambda)] is identical to the stem:[V_{10} (lambda)] function given in <<table-5>> (CIE, 2005).
+NOTE: The stem:[bar y (lambda)] function is identical to the stem:[V(lambda)] function given in <<table-1>>, and stem:[bar y_10 (lambda)] is identical to the stem:[ii(V)_{10} (lambda)] function given in <<table-5>> (CIE, 2005).
 
 
 === Tristimulus values and chromaticity coordinates
@@ -654,7 +654,7 @@ stem:[k]:: is a normalizing factor rendering the stem:[ii(X)], stem:[ii(Y)], ste
 
 For light sources, stem:[k = 683 "&#xA0;" "lm" cdot "W"^{-1}] is often used, so that Y is the value of a photometric quantity.
 
-The tristimulus values stem:[X_10], stem:[Y_10], stem:[Z_10] for a 10° field of view are calculated similarly using stem:[bar x_10 (lambda)], stem:[bar y_10 (lambda)], stem:[bar z_10 (lambda)].
+The tristimulus values stem:[ii(X)_10], stem:[ii(Y)_10], stem:[ii(Z)_10] for a 10° field of view are calculated similarly using stem:[bar x_10 (lambda)], stem:[bar y_10 (lambda)], stem:[bar z_10 (lambda)].
 
 The above equations for calculation of CIE tristimulus values have been shown using spectral radiant flux of a self-luminous object, but they are generally applicable for any spectral radiometric quantity (e.g. spectral radiance, spectral irradiance). The equations for object-colour stimuli, reflecting or transmitting objects, are outside the scope of this document; for details consult CIE Publication 15:2018 (CIE, 2018b).
 
@@ -669,7 +669,7 @@ Where stem:[ii(X)], stem:[ii(Y)], stem:[ii(Z)] are the tristimulus values.
 
 NOTE: In the special case of stem:[X = bar x (lambda)], stem:[Y = bar y (lambda)], stem:[Z = bar z (lambda)] the chromaticity coordinates are denoted by stem:[x (lambda)], stem:[y (lambda)]. They define the chromaticity of monochromatic visual stimuli of wavelength stem:[lambda] (see <<table-6>>).
 
-The chromaticity coordinates stem:[x_10, y_10] for a 10° field of view are calculated similarly as stem:[X_10], stem:[Y_10], stem:[Z_10].
+The chromaticity coordinates stem:[x_10, y_10] for a 10° field of view are calculated similarly as stem:[ii(X)_10], stem:[ii(Y)_10], stem:[ii(Z)_10].
 
 
 
@@ -681,7 +681,7 @@ Luminance is intended to correlate with the perception of brightness. However, i
 
 At present there is no agreed photometric quantity that is more satisfactory than luminance or luminous intensity for quantifying the absolute brightness of luminous sources. However, the CIE has developed a supplementary system of photometry that provides a more perceptually-relevant approach for comparative brightness evaluation of lights at any level, including mesopic levels (CIE, 2011). This system introduces the concept of equivalent luminance and develops a photometric model to calculate brightness-related equivalent luminance using existing photometric and colorimetric quantities, by introducing a chromatic contribution to brightness that depends upon the adaptation level. The CIE supplementary system for comparative brightness evaluation is used for research purposes, to provide a measure of luminance that corresponds more closely to the visual effect when comparing two lights of different colour. The equivalent luminance values calculated using this system are expressed in units of stem:["cd" cdot "m"^{-2}] and must always be accompanied by full details of the parameters used in the calculation (i.e. the photopic and scotopic luminances and the x and y chromaticity coordinates).
 
-It is also known that the spectral luminous efficiency function for photopic vision, stem:[V(lambda)], underestimates the visual response in the blue region, and an improved function, known as the CIE 1988 modified 2° spectral luminous efficiency function for photopic vision, stem:[V_M (lambda)], was recommended by the CIE as a supplement to, and not a replacement of, stem:[V(lambda)] (CIE, 1990). The physiologically-based function, known as the cone-fundamental-based spectral luminous efficiency function, stem:[V_F (lambda)], is based on the latest research (CIE, 2015) and is considered to provide further improvements. The stem:[V_F (lambda)] or stem:[V_M (lambda)] functions are not recognized by the CIPM and are used only for research purposes to measure perceived brightness more accurately. Benefits and impacts of the new luminous efficiency functions will be evaluated in the near future.
+It is also known that the spectral luminous efficiency function for photopic vision, stem:[V(lambda)], underestimates the visual response in the blue region, and an improved function, known as the CIE 1988 modified 2° spectral luminous efficiency function for photopic vision, stem:[ii(V)_M (lambda)], was recommended by the CIE as a supplement to, and not a replacement of, stem:[V(lambda)] (CIE, 1990). The physiologically-based function, known as the cone-fundamental-based spectral luminous efficiency function, stem:[ii(V)_F (lambda)], is based on the latest research (CIE, 2015) and is considered to provide further improvements. The stem:[ii(V)_F (lambda)] or stem:[ii(V)_M (lambda)] functions are not recognized by the CIPM and are used only for research purposes to measure perceived brightness more accurately. Benefits and impacts of the new luminous efficiency functions will be evaluated in the near future.
 
 
 
@@ -1002,10 +1002,10 @@ It is also known that the spectral luminous efficiency function for photopic vis
 
 
 [[table-3]]
-.Values of spectral luminous efficiency for mesopic vision, stem:[V_{"mes";m} (lambda)], at stem:[m = 0.8] (i.e. stem:[V_{"mes";0.8} (lambda)]) as an example (for other stem:[m] values, use <<eq-1>>)
+.Values of spectral luminous efficiency for mesopic vision, stem:[ii(V)_{"mes";m} (lambda)], at stem:[m = 0.8] (i.e. stem:[ii(V)_{"mes";0.8} (lambda)]) as an example (for other stem:[m] values, use <<eq-1>>)
 [cols="^,^,^,^,^,^",options="header"]
 |===
-| stem:[lambda//"nm"] | stem:[V_{"mes";m} (lambda)] | stem:[lambda//"nm"] | stem:[V_{"mes";m} (lambda)] | stem:[lambda//"nm"] | stem:[V_{"mes";m} (lambda)]
+| stem:[lambda//"nm"] | stem:[ii(V)_{"mes";m} (lambda)] | stem:[lambda//"nm"] | stem:[ii(V)_{"mes";m} (lambda)] | stem:[lambda//"nm"] | stem:[ii(V)_{"mes";m} (lambda)]
 
 | 360 | stem:[0.0000034933] | 517 | stem:[0.7942181397] | 674 | stem:[0.0220597967]
 | 361 | stem:[0.0000039183] | 518 | stem:[0.8107778471] | 675 | stem:[0.0207131455]
@@ -1169,10 +1169,10 @@ It is also known that the spectral luminous efficiency function for photopic vis
 
 
 [[table-4]]
-.Values of maximum luminous efficacy for mesopic vision, stem:[K_{"m,mes";m}], at varied stem:[m] values (for other stem:[m] values use <<eq-8>>)
+.Values of maximum luminous efficacy for mesopic vision, stem:[ii(K)_{"m,mes";m}], at varied stem:[m] values (for other stem:[m] values use <<eq-8>>)
 [cols="^,^",options="header"]
 |===
-| stem:[m] | stem:[K_{"m,mes;"m}]
+| stem:[m] | stem:[ii(K)_{"m,mes;"m}]
 
 | 0 | 1700.13
 | 0.1 | 1402.22
@@ -1189,10 +1189,10 @@ It is also known that the spectral luminous efficiency function for photopic vis
 
 
 [[table-5]]
-.Values of spectral luminous efficiency for 10° photopic vision, stem:[V_10 (lambda)] (stem:[lambda] in standard air)
+.Values of spectral luminous efficiency for 10° photopic vision, stem:[ii(V)_10 (lambda)] (stem:[lambda] in standard air)
 [cols="^,^,^,^,^,^",options="header"]
 |===
-| stem:[lambda//"nm"] | stem:[V_10 (lambda)] | stem:[lambda//"nm"] | stem:[V_10 (lambda)] | stem:[lambda//"nm"] | stem:[V_10 (lambda)]
+| stem:[lambda//"nm"] | stem:[ii(V)_10 (lambda)] | stem:[lambda//"nm"] | stem:[ii(V)_10 (lambda)] | stem:[lambda//"nm"] | stem:[ii(V)_10 (lambda)]
 
 | 360 | stem:[0.000000013398] | 517 | stem:[0.717230000000] | 674 | stem:[0.024226300000]
 | 361 | stem:[0.000000020294] | 518 | stem:[0.732570000000] | 675 | stem:[0.022601700000]
