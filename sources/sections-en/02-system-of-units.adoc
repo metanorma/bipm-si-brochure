@@ -225,7 +225,7 @@ The unit of Celsius temperature is the degree Celsius, symbol stem:["°"rm(C)], 
 
 [stem%unnumbered]
 ++++
-t "/°"rm(C) = T//rm(K) − 273.15
+t "/°"rm(C) = ii(T)//rm(K) − 273.15
 ++++
 
 (see <<quantity_value>> for an explanation of the notation used here).
@@ -329,10 +329,10 @@ All other quantities, with the exception of counts, are derived quantities, whic
 
 [stem%unnumbered]
 ++++
-"dim "Q = sf "T"^(alpha) sf "L"^(beta) sf "M"^(gamma) sf "I"^(delta) Theta^(epsilon) sf "N"^(zeta) sf "J"^(eta)
+"dim "ii(Q) = sf "T"^(ii(alpha)) sf "L"^(ii(beta)) sf "M"^(ii(gamma)) sf "I"^(ii(delta)) Theta^(ii(epsilon)) sf "N"^(ii(zeta)) sf "J"^(ii(eta))
 ++++
 
-where the exponents stem:[ii(alpha), ii(beta), ii(gamma), ii(delta), ii(epsilon), ii(zeta)] and stem:[ii(eta)], which are generally small integers, which can be positive, negative, or zero, are called the dimensional exponents.
+where the exponents stem:[ii(alpha)], stem:[ii(beta)], stem:[ii(gamma)], stem:[ii(delta)], stem:[ii(epsilon)], stem:[ii(zeta)] and stem:[ii(eta)], which are generally small integers, which can be positive, negative, or zero, are called the dimensional exponents.
 
 There are quantities stem:[ii(Q)] for which the defining equation is such that all of the dimensional exponents in the equation for the dimension of stem:[ii(Q)] are zero. This is true in particular for any quantity that is defined as the ratio of two quantities of the same kind. For example, the refractive index is the ratio of two speeds and the relative permittivity is the ratio of the permittivity of a dielectric medium to that of free space. Such quantities are simply numbers. The associated unit is the unit one, symbol stem:[1], although this is rarely explicitly written (see <<stating_quantity,nosee%>>).
 
