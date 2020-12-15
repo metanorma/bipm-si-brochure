@@ -55,7 +55,7 @@ derived units the volt stem:[rm(V)] and the ohm stem:[Omega], based on the Josep
 respectively, as discussed in <<sec-4>> and <<sec-5>> below; or
 
 . by using a single electron transport (SET) or similar device, the unit relation stem:[rm(A) = rm(C)//rm(s)], the
-value of e given in the definition of the ampere and a practical realization of the SI base unit
+value of stem:[e] given in the definition of the ampere and a practical realization of the SI base unit
 the second s; or
 
 . by using the relation stem:[ii(I) = ii(C) * "d"ii(U)//"d"t], the unit relation stem:[rm(A) = rm(F) * rm(V) // rm(s)], and practical realizations of the
@@ -71,15 +71,13 @@ been improving in recent years, and they promise to improve further in the futur
 [[sec-4]]
 == Practical realization of the volt, V, SI derived unit of electric potential difference (voltage) and electromotive force
 
-The volt stem:[rm(V)] can be realized using the Josephson effect and the following value of the Josephson constant stem:[ii(K)_"J"]:
+The volt stem:[rm(V)] can be realized using the Josephson effect and the following value of the Josephson constant stem:[ii(K)_"J"] footnote:[This value has been calculated to 15 significant digits.]:
 
 [[eq-1]]
 [stem]
 ++++
 ii(K)_"J" = 483597.848416984 " GHz V"^{-1}
 ++++
-
-NOTE: This value has been calculated to 15 significant digits.
 
 This value follows from the assumption of the accuracy of the equation stem:[ii(K)_"J" = 2e//h], which is strongly
 supported by a large body of experimental and theoretical works, and the values of stem:[h] and stem:[e] given in
@@ -104,16 +102,14 @@ measured today in terms of the present SI volt realized using the value of stem:
 
 The ohm stem:[Omega] can be realized as follows:
 
-. by using the quantum Hall effect in a manner consistent with the CCEM Guidelines <<delahaye>> and the following value of the von Klitzing constant stem:[ii(R)_"K"]:
-
+. by using the quantum Hall effect in a manner consistent with the CCEM Guidelines <<delahaye>> and the following value of the von Klitzing constant stem:[ii(R)_"K"] footnote:[This value has been calculated to 15 significant digits.]:
++
+--
 [[eq-2]]
 [stem]
 ++++
 ii(R)_"K" = 25812.8074593045 text( ) Omega
 ++++
-
-NOTE: This value has been calculated to 15 significant digits.
-
 
 This value follows from the assumption of the accuracy of the equation stem:[ii(R)_"K" = h//e^2], which is
 strongly supported by a large body of experimental and theoretical works, and the values of stem:[h]
@@ -123,11 +119,12 @@ intended to be negligible in the vast majority of applications. In those rare ca
 error may not be negligible, additional digits should be employed. The advantage of
 recommending a particular value of stem:[ii(R)_"K"] for practical use is that it ensures that virtually all
 realizations of the ohm based on the quantum Hall effect employ exactly the same value; or
+--
 
 . by comparing an unknown resistance to the impedance of a known capacitance using, for
 example, a quadrature bridge, where, for example, the capacitance has been determined by
 means of a calculable capacitor and the value of the electric constant given by <<eq-3>> in
-section 13 below.
+<<magnetic_constant>> below.
 
 
 Note that the value of stem:[ii(R)_"K"] in <<eq-2>> is larger than the value stem:[ii(R)_{"K-90"} = 25812.807 text( ) Omega], which was adopted
@@ -142,7 +139,7 @@ measured today in terms of the present SI ohm realized using the value of stem:[
 
 == Practical realization of the siemens, S, SI derived unit of electric conductance
 
-The siemens stem:[rm(S)] can be realized from a realization of the ohm (see <<sec-5>>) since stem:[rm(S)] is related to stem:[Omega] by the
+The siemens stem:[rm(S)] can be realized from a realization of the ohm (see <<sec-5,nosee%>>) since stem:[rm(S)] is related to stem:[Omega] by the
 unit relation stem:[rm(S) = Omega^{-1}].
 
 
@@ -153,7 +150,7 @@ The coulomb stem:[rm(C)] can be realized as follows:
 . by measuring the duration in terms of the SI unit of time, the second s, of the flow of an
 electric current known in terms of the ampere realized as indicated in <<sec-3>>; or
 
-. by determining the amount of charge placed on a capacitance known in terms of the farad stem:[rm(F)] realized by method <<item-8a>> or <<item-8b>>, using the unit relation stem:[rm(C) = rm(F) * rm(V)] and by measuring the voltage across the capacitance in terms of the volt stem:[rm(V)] as realized by the Josephson effect and the value of the Josephson constant given in <<eq-1>> (see <<sec-4>>); or
+. by determining the amount of charge placed on a capacitance known in terms of the farad stem:[rm(F)] realized by method <<item-8a>> or <<item-8b>>, using the unit relation stem:[rm(C) = rm(F) * rm(V)] and by measuring the voltage across the capacitance in terms of the volt stem:[rm(V)] as realized by the Josephson effect and the value of the Josephson constant given in <<eq-1>> (see <<sec-4,nosee%>>); or
 
 . by using a SET or similar device to transfer a known amount of charge based on the value of stem:[e], given in the definition of the ampere, onto a suitable circuit element.
 
@@ -174,12 +171,12 @@ The henry stem:[rm(H)] can be realized as follows:
 
 . by comparing the impedance of an unknown inductance to the impedance of a known capacitance with the aid of known resistances using, for example, a Maxwell-Wien bridge, where the known capacitance and resistances have been determined, for example, from the quantum Hall effect and the value of stem:[ii(R)_"K"] given in <<eq-2>> (see <<sec-5>> and <<sec-8>>); or
 
-. by using a calculable inductor of, for example, the Campbell type of mutual inductor and the value of the magnetic constant stem:[mu_0] given by <<eq-6>>.
+. by using a calculable inductor of, for example, the Campbell type of mutual inductor and the value of the magnetic constant stem:[ii(mu)_0] given by <<eq-6>>.
 
 
 == Practical realization of the watt, W, SI derived unit of power
 
-The watt W can be realized using electrical units by using the fact that electric power is equal to current times voltage, the unit relation based on Ohm's law, stem:[rm(W) = rm(V)^2//Omega], and realizations of the volt and ohm using the Josephson and quantum Hall effects and the values of the Josephson and von Klitzing constants given in <<eq-1>> and <<eq-2>> (see <<sec-4>> and <<sec-5>>).
+The watt W can be realized using electrical units by using the fact that electric power is equal to current times voltage, the unit relation based on Ohm's law, stem:[rm(W) = rm(V)^2//Omega], and realizations of the volt and ohm using the Josephson and quantum Hall effects and the values of the Josephson and von Klitzing constants given in <<eq-1>> and <<eq-2>> (see <<sec-4,nosee%>> and <<sec-5,nosee%>>).
 
 
 
@@ -197,10 +194,10 @@ discussed in <<sec-3>>, and the value of the magnetic constant stem:[ii(mu)_0] g
 
 The weber stem:[rm(Wb)] can be realized from the tesla based on the unit relation stem:[rm(Wb) = rm(T)" "rm(m)^2] or from the volt based on the unit relation stem:[rm(Wb) = rm(V)" "rm(s)]. Use can also be made of the fact that the magnetic flux quantum stem:[ii(phi)_0], which characterizes the magnetic properties of superconductors, is related to stem:[h] and stem:[e] as given in <<bipm>> by the exact relation stem:[ii(phi)_0 = h//2e].
 
-
+[[magnetic_constant]]
 == Magnetic constant stem:[ii(mu)_0] and related quantities
 
-The new definitions of the kilogram, ampere, kelvin, and mole do not alter the relationships among the magnetic constant (permeability of vacuum) stem:[ii(mu)_0], electric constant (permittivity of vacuum) stem:[epsilon_0], characteristic impedance of vacuum stem:[ii(Z)_0], admittance of vacuum stem:[ii(Y)_0], and speed of light in vacuum stem:[c]. Moreover, they do not change the exact value of stem:[c], which is explicit in the definition of the SI base unit of length, the metre, m. The relationships among these constants are
+The new definitions of the kilogram, ampere, kelvin, and mole do not alter the relationships among the magnetic constant (permeability of vacuum) stem:[ii(mu)_0], electric constant (permittivity of vacuum) stem:[ii(epsilon)_0], characteristic impedance of vacuum stem:[ii(Z)_0], admittance of vacuum stem:[ii(Y)_0], and speed of light in vacuum stem:[c]. Moreover, they do not change the exact value of stem:[c], which is explicit in the definition of the SI base unit of length, the metre, m. The relationships among these constants are
 
 [[eq-3]]
 [stem]
@@ -233,7 +230,7 @@ Since stem:[h], stem:[c], and stem:[e] have fixed numerical values, it follows f
 
 [stem]
 ++++
-u_"r" (ii(Y)_0) = u_"r" (ii(Z)_0) = u_"r" (ii(epsilon)_0) = u_"r" (u_0) = u_"r" (ii(alpha))
+u_"r" (ii(Y)_0) = u_"r" (ii(Z)_0) = u_"r" (ii(epsilon)_0) = u_"r" (ii(mu)_0) = u_"r" (ii(alpha))
 ++++
 
 The recommended values of stem:[h], stem:[e], stem:[k], and stem:[ii(N)_"A"] resulting from the 2017 CODATA special least-squares adjustment of the values of the fundamental constants <<newell>> were the basis of the exact values used for these four constants in the new definitions of the kilogram, ampere, kelvin, and mole adopted by the 26^th^ CGPM <<bipm>>. The 2017 special adjustment but with stem:[h], stem:[e], stem:[k], and stem:[ii(N)_"A"] taken to have the exact values used in the new definitions, yields the following currently recommended value of the magnetic constant:
@@ -256,8 +253,8 @@ It should be recognized that the recommended values for stem:[ii(mu)_0], stem:[i
 
 * [[[bipm,1]]] BIPM, The International System of Units (SI Brochure) [9th edition, 2019], https://www.bipm.org/en/publications/si-brochure/.
 
-* [[[delahaye,2]]] F. Delahaye and B. Jeckelmann, ‘Revised technical guidelines for reliable dc measurements of the quantized Hall resistance’, Metrologia, 40(5), 217-223 (2003).
+* [[[delahaye,2]]] F. Delahaye and B. Jeckelmann, ‘Revised technical guidelines for reliable dc measurements of the quantized Hall resistance’, _Metrologia_, *40(5)*, 217-223 (2003).
 
-* [[[newell,3]]] D. Newell, F. Cabiati, J. Fischer, K. Fujii, S. G. Karshenboim, H. S. Margolis, E. de Mirandes, P.J. Mohr, F. Nez, K. Pachucki, T. J. Quinn, B. N. Taylor, M. Wang, B. Wood and Z. Zhang, ‘The CODATA 2017 Values of stem:[h], stem:[e], stem:[k], and stem:[ii(N)_"A"] for the Revision of the SI’, Metrologia, 55(1) L13-L16 (2018).
+* [[[newell,3]]] D. Newell, F. Cabiati, J. Fischer, K. Fujii, S. G. Karshenboim, H. S. Margolis, E. de Mirandes, P.J. Mohr, F. Nez, K. Pachucki, T. J. Quinn, B. N. Taylor, M. Wang, B. Wood and Z. Zhang, ‘The CODATA 2017 Values of stem:[h], stem:[e], stem:[k], and stem:[ii(N)_"A"] for the Revision of the SI’, _Metrologia_, *55(1)* L13-L16 (2018).
 
 * [[[codata,4]]] '`CODATA recommended values of the fundamental physical constants: 2018`', https://physics.nist.gov/cuu/Constants/index.html.
