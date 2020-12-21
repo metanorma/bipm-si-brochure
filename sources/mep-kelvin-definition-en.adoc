@@ -49,7 +49,7 @@ ____
 
 (stem:[h] is the Planck constant, stem:[c] is the speed of light in vacuum and stem:[Delta ii(nu)_{"Cs"}] is the caesium frequency corresponding to the transition between the two hyperfine levels of the unperturbed ground state of the ^133^Cs atom.) This definition implies the exact relation stem:[k = 1.380649 xx 10^{-23} " "rm(J)//rm(K)]. Its effect is that one kelvin is equal to the change of thermodynamic temperature stem:[ii(T)] that results in a change of thermal energy stem:[k ii(T)] by stem:[1.380649 xx 10^{-23} " "rm(J)].
 
-Prior to 2018 the kelvin was defined as the fraction 1/273.16 of the thermodynamic temperature stem:[ii(T)_{"TPW"}] of the triple point of water [13^th^ CGPM meeting in 1967, Resolutions 3 and 4]. The kelvin is now defined in terms of the SI derived unit of energy, the joule, by fixing the value of the Boltzmann constant stem:[k], which is the proportionality constant between thermodynamic temperature and the associated thermal energy stem:[k ii(T)]. The new definition has its origin in statistical mechanics, where thermodynamic temperature is a measure of the average thermal energy per degree of freedom in the system. In principle, the natural unit of thermodynamic temperature is the joule and a separate base unit for temperature is not required. However, for historical and in particular for practical reasons, the kelvin remains a base unit of the SI. The explicit-constant definition is sufficiently wide to encompass any form of thermometry, where the _MeP_-K provides guidance on the practical realization of the kelvin.
+Prior to 2018 the kelvin was defined as the fraction 1/273.16 of the thermodynamic temperature stem:[ii(T)_{"TPW"}] of the triple point of water [13th CGPM meeting in 1967, Resolutions 3 and 4]. The kelvin is now defined in terms of the SI derived unit of energy, the joule, by fixing the value of the Boltzmann constant stem:[k], which is the proportionality constant between thermodynamic temperature and the associated thermal energy stem:[k ii(T)]. The new definition has its origin in statistical mechanics, where thermodynamic temperature is a measure of the average thermal energy per degree of freedom in the system. In principle, the natural unit of thermodynamic temperature is the joule and a separate base unit for temperature is not required. However, for historical and in particular for practical reasons, the kelvin remains a base unit of the SI. The explicit-constant definition is sufficiently wide to encompass any form of thermometry, where the _MeP_-K provides guidance on the practical realization of the kelvin.
 
 It remains common practice to call the difference stem:[ii(T) - 273.15 " "rm(K)] Celsius temperature, symbol stem:[t]. The unit of Celsius temperature is the degree Celsius, symbol stem:[°"C"], which is by definition equal in magnitude to the kelvin.
 
@@ -74,12 +74,13 @@ _Relative primary thermometry_ allows to measure thermodynamic temperature indir
 
 . [[item-2]]_Defined temperature_ scales allow to assign temperature values, determined by primary thermometry, to a series of naturally occurring and highly reproducible states (e.g., the freezing and triple points of pure substances). They also cover a specification of the interpolating or extrapolating instruments for a particular sub-range of temperature and define any necessary interpolating or extrapolating equations. The defined scales are highly prescriptive and define new temperature quantities stem:[ii(T)_{"XX"}] (scale temperatures) that provide close approximations to the thermodynamic temperature stem:[ii(T)] and have the same unit as stem:[ii(T)], i.e. the kelvin. Temperature values assigned to the fixed points of each scale are considered exact and are not altered while the scale is in force, even if subsequent research reveals a bias of the values relative to true thermodynamic temperature. Presently, the only such defined temperature scales recommended by the CCT and approved by the CIPM are the https://doi.org/10.1088/0026-1394/27/1/002[International Temperature Scale of 1990 (ITS-90)] <<preston>> from 0.65 K and higher and the https://www.bipm.org/utils/en/pdf/PLTS-2000.pdf[Provisional Low Temperature Scale] <<proces>> covering the temperature range from stem:[0.9 " "rm(mK)] to stem:[1 " "rm(K)] (PLTS-2000). The temperatures defined by ITS-90 and PLTS-2000 are denoted by stem:[ii(T)_{90}] and stem:[ii(T)_{2000}]. Non-prescriptive recommendations for the realization of the ITS-90 and the PLTS-2000 are given in the "`Guide to the Realization of the ITS-90`" and the "`Guide to the Realization of the PLTS-2000`",
 respectively.
-
++
+--
 There exist also _approximations of defined scales_ where fixed points, interpolating or extrapolating
 instruments, and interpolating or extrapolating equations are different from those specified in the
 defined scales, but any differences from a scale are sufficiently well understood. Such methods are
 described in the "`link:https://www.bipm.org/en/committees/cc/cct/publications-cc.html[Guide on secondary thermometry]`".
-
+--
 
 == Practical realization of the kelvin by primary thermometry
 
@@ -122,7 +123,7 @@ an ideal gas in the limit of zero frequency and the thermodynamic temperature, s
 
 [stem]
 ++++
-u^2 = {gamma k ii(T)} / m
+u^2 = {gamma k ii(T)} / m,
 ++++
 
 where stem:[k] is the Boltzmann constant, stem:[m] is the average molecular mass of the gas, and stem:[gamma] is the ratio of
@@ -145,7 +146,7 @@ mass of the gas must be traceable to the metre, the kilogram and the second. Pri
 conducted at the temperature of the triple point of water with relative uncertainties of the order of
 stem:[10^{-6}]. However, the low uncertainties claimed for AGT have not yet been confirmed by independent
 measurements. Details are found in the review paper "`Acoustic gas thermometry`"
-by https://iopscience.iop.org/article/10.1088/0026-1394/51/1/R1[Moldover et al.] <<moldover>> and references therein.
+by https://iopscience.iop.org/article/10.1088/0026-1394/51/1/R1[Moldover _et al._] <<moldover>> and references therein.
 
 
 ==== Relative primary acoustic gas thermometry
@@ -169,7 +170,7 @@ radiance footnote:[The subscript stem:[ii(lambda)] on stem:[ii(L)_{"b",ii(lambda
 
 [stem]
 ++++
-ii(L)_{"b",ii(lambda)} (ii(lambda),ii(T)) = ({2hc^2}/{ii(lambda)^5}) 1 / {exp (hc // ii(lambda) k ii(T)) - 1}
+ii(L)_{"b",ii(lambda)} (ii(lambda),ii(T)) = ({2hc^2}/{ii(lambda)^5}) 1 / {exp (hc // ii(lambda) k ii(T)) - 1},
 ++++
 
 where stem:[k] is the Boltzmann constant, stem:[h] is the Planck constant, stem:[c] is the speed of light _in vacuo_, and stem:[ii(lambda)] is
@@ -255,15 +256,14 @@ The dielectric constant is determined via the change of the capacitance stem:[ii
 measured with and without the measuring gas. This works ideally only for a pressure-independent
 configuration of the capacitor. In practice, changes of the electrode geometry with pressure are
 unavoidable and have to be taken into account. This leads for a highly-stable capacitor to a linear
-experimental equation for the determination of stem:[ii(epsilon)_"r"]
-,
+experimental equation for the determination of stem:[ii(epsilon)_"r"],
 
 [stem]
 ++++
-ii(epsilon)_"r" = {ii(C)(p)} / {ii(C)(0)(1 + kappa_{"eff"}p)}
+ii(epsilon)_"r" = {ii(C)(p)} / {ii(C)(0)(1 + ii(kappa)_{"eff"}p)}
 ++++
 
-where stem:[kappa_{"eff"}] is the negative isothermal effective compressibility and stem:[ii(C)(0)] is the capacitance of the
+where stem:[ii(kappa)_{"eff"}] is the negative isothermal effective compressibility and stem:[ii(C)(0)] is the capacitance of the
 evacuated capacitor footnote:[The term “effective” indicates the fact that each capacitor is a composite because small pieces of insulator
 materials are necessary to isolate the electrodes electrically.]. Because of the small stem:[ii(A)_{ii(epsilon)}] value of helium, the capacitance changes have to be
 measured using a high-precision ratio-transformer bridge, the quality of which is comparable with
@@ -285,12 +285,12 @@ Primary DCGT has been conducted at the triple point of water with relative uncer
 from about 40 ppm at 2.5 K to about 10 ppm around 100 K. All results are confirmed by independent
 thermodynamic measurements within the uncertainty estimates. Details are found in the review paper
 "`Dielectric-constant gas thermometry`"
-by https://iopscience.iop.org/article/10.1088/0026-1394/52/5/S217[Gaiser et al.] <<gaiser>> and the references therein.
+by https://iopscience.iop.org/article/10.1088/0026-1394/52/5/S217[Gaiser _et al._] <<gaiser>> and the references therein.
 
 The requirement for SI-traceable, low-uncertainty pressure measurements can be relaxed by
 conducting relative primary DCGT. For instance, measurements on isobars require only that stem:[p] is
 stabilized by the aid of an uncalibrated pressure balance. But due to the complicated temperature
-dependence of the elastic constants of the construction materials, and thus of stem:[kappa_{"eff"}] of the measuring
+dependence of the elastic constants of the construction materials, and thus of stem:[ii(kappa)_{"eff"}] of the measuring
 capacitor, simple ratio measurements are not sufficient.
 
 
@@ -301,19 +301,19 @@ In the context of absolute primary microwave RIGT, the refractive index is deter
 measurements of microwave resonance frequencies stem:[f_m (p)] of a gas-filled isothermal cavity. (The
 subscript "`_m_`" specifies a particular microwave mode.) Quasi-spherical or cylindrical cavity shapes
 are typically employed, with the cavity dimensions at the working gas pressure calculated by
-combining the positive isothermal effective compressibility stem:[kappa_{"eff"}] of the resonator shell with cavity
-resonance measurements performed in vacuum stem:[f_m(0)] (the sign of stem:[kappa_{"eff"}] depends on the design of the
+combining the positive isothermal effective compressibility stem:[ii(kappa)_{"eff"}] of the resonator shell with cavity
+resonance measurements performed in vacuum stem:[f_m(0)] (the sign of stem:[ii(kappa)_{"eff"}] depends on the design of the
 cavity resonator):
 
 
 [stem]
 ++++
-n^2 = {f_m^2(0)} / {f_m^2(p)(1 - kappa_{"eff"} p)^2} ~~ {f_m^2 (0)} / {f_m^2 (p)} (1 + 2 kappa_{"eff"} p)
+n^2 = {f_m^2(0)} / {f_m^2(p)(1 - ii(kappa)_{"eff"} p)^2} ~~ {f_m^2 (0)} / {f_m^2 (p)} (1 + 2 ii(kappa)_{"eff"} p).
 ++++
 
 
 This experimental equation for the determination of stem:[n^2] is similar to that of DCGT for stem:[ii(epsilon)_"r"]
-, except that the influence of the negative effective compressibility stem:[kappa_{"eff"}] is twice as large. The equation contains
+, except that the influence of the negative effective compressibility stem:[ii(kappa)_{"eff"}] is twice as large. The equation contains
 ratios of microwave resonance frequencies stem:[f_m(0)//f_m(p)]. These ratios can be measured accurately using
 a clock that is stable for the interval required for thermally-equilibrated measurements of stem:[f_m(0)] and
 stem:[f_m(p)] to be completed (usually days to weeks for an isotherm).
@@ -334,13 +334,13 @@ temperature of the triple point of water with relative uncertainty of the order 
 temperatures of the triple points of neon, oxygen, and argon with relative uncertainties of the order
 stem:[20 " ppm"]. All results are confirmed by independent thermodynamic measurements within the
 uncertainty estimates. Details are found in the review paper "`Refractive-index gas thermometry`" by
-https://doi.org/10.1088/1681-7575/ab0dbe[Rourke et al.] <<rourke>> and the references therein.
+https://doi.org/10.1088/1681-7575/ab0dbe[Rourke _et al._] <<rourke>> and the references therein.
 
 The requirement for SI-traceable, low-uncertainty pressure measurements can be relaxed by
 conducting relative primary RIGT. For instance, measurements on isobars require only that stem:[p] is
 stabilized by the aid of a pressure balance with weaker calibration constraints than required for
 absolute primary RIGT. However, the complicated temperature dependence of the elastic constants
-of the construction materials, and thus of stem:[kappa_{"eff"}] of the measuring resonator, must be taken into account
+of the construction materials, and thus of stem:[ii(kappa)_{"eff"}] of the measuring resonator, must be taken into account
 and simple ratio measurements may not be sufficient.
 
 
@@ -358,7 +358,7 @@ impedance stem:[ii(Z)(f)] is given by
 
 [stem]
 ++++
-ii(S)_ii(V) (f,ii(T)) = 4 h f "Re"(ii(Z)(f)) [ 1/2 + 1/{exp(hf // k ii(T))} ]
+ii(S)_ii(V) (f,ii(T)) = 4 h f "Re"(ii(Z)(f)) [ 1/2 + 1/{exp(hf // k ii(T))} ],
 ++++
 
 
@@ -369,7 +369,7 @@ Nyquist formula
 
 [stem]
 ++++
-<< ii(V)^2 >> = 4 k ii(T) ii(R) Delta f
+<< ii(V)^2 >> = 4 k ii(T) ii(R) Delta f,
 ++++
 
 where stem:[Delta f] is the bandwidth over which the noise voltage is measured. To the lowest order, the
@@ -389,7 +389,7 @@ device (SQUID). In the evaluated frequency band, the electronic transfer functio
 circuit including the noise source and the SQUID sensor must be precisely determined. Relative
 combined standard uncertainties of order stem:[1 xx 10^{-3}] have been achieved for thermodynamic
 temperatures determined by absolute primary low-temperature JNT. Details are found in the annex
-"`link:https://www.bipm.org/utils/en/pdf/si-mep/MeP-K-2019-LT_Johnson_Noise_Thermometry.pdf[Low-temperature Johnson noise thermometry]`" and the references therein. See also Qu et al. <<jifeng>> and Flowers-Jacobs et al. <<flowers>>.
+"`link:https://www.bipm.org/utils/en/pdf/si-mep/MeP-K-2019-LT_Johnson_Noise_Thermometry.pdf[Low-temperature Johnson noise thermometry]`" and the references therein. See also Qu _et al._ <<jifeng>> and Flowers-Jacobs _et al._ <<flowers>>.
 
 
 
@@ -448,21 +448,21 @@ In contrast to the ITS-90, for which the Technical Annex of the _MeP_-K contains
 
 * [[[bipm,1]]] BIPM, The International System of Units (SI Brochure) [9th edition, 2019], https://www.bipm.org/en/publications/si-brochure/
 
-* [[[newell,2]]] Newell D B, Cabiati F, Fischer J, Fujii K, Karshenboim S G, Margolis H S, de Mirandés E, Mohr P J, Nez F, Pachucki K, Quinn T J, Taylor B N, Wang M, Wood B M and Zhang Z 2018 The CODATA 2017 Values of stem:[h], stem:[e], stem:[k], and stem:[ii(N)_{"A"}] for the revision of the SI Metrologia 55, L13-L16 https://doi.org/10.1088/1681-7575/aa950a
+* [[[newell,2]]] Newell D B, Cabiati F, Fischer J, Fujii K, Karshenboim S G, Margolis H S, de Mirandés E, Mohr P J, Nez F, Pachucki K, Quinn T J, Taylor B N, Wang M, Wood B M and Zhang Z 2018 The CODATA 2017 Values of stem:[h], stem:[e], stem:[k], and stem:[ii(N)_{"A"}] for the revision of the SI _Metrologia_ *55*, L13-L16 https://doi.org/10.1088/1681-7575/aa950a
 
-* [[[preston,3]]] Preston-Thomas H 1990 The International Temperature Scale of 1990 (ITS-90) Metrologia 27, 3-10 (8 pp.) https://doi.org/10.1088/0026-1394/27/1/002 and 109 (1 p. - erratum)
+* [[[preston,3]]] Preston-Thomas H 1990 The International Temperature Scale of 1990 (ITS-90) _Metrologia_ *27*, 3-10 (8 pp.) https://doi.org/10.1088/0026-1394/27/1/002 and 109 (1 p. - erratum)
 
 * [[[proces,4]]] Procès-Verbaux du Comité International des Poids et Mesures, 89th meeting (2000), https://www.bipm.org/utils/en/pdf/PLTS-2000.pdf
 
-* [[[moldover,5]]] Moldover M, Gavioso R M, Mehl J B, Pitre L, de Podesta M and Zhang J T 2014 Acoustic gas thermometry Metrologia 51, R1-R19 https://doi.org/10.1088/0026-1394/51/1/R1
+* [[[moldover,5]]] Moldover M, Gavioso R M, Mehl J B, Pitre L, de Podesta M and Zhang J T 2014 Acoustic gas thermometry _Metrologia_ *51*, R1-R19 https://doi.org/10.1088/0026-1394/51/1/R1
 
-* [[[gaiser,6]]] Gaiser C, Zandt T and Fellmuth B 2015 Dielectric-constant gas thermometry Metrologia 52, S217-S226 https://doi.org/10.1088/0026-1394/52/5/S217
+* [[[gaiser,6]]] Gaiser C, Zandt T and Fellmuth B 2015 Dielectric-constant gas thermometry _Metrologia_ *52*, S217-S226 https://doi.org/10.1088/0026-1394/52/5/S217
 
-* [[[rourke,7]]] Rourke P M C, Gaiser C, Gao Bo, Ripa D M, Moldover M R, Pitre L and Underwood R J 2019 Refractive-index gas thermometry Metrologia 56, 032001 (13 pp) https://doi.org/10.1088/1681-7575/ab0dbe
+* [[[rourke,7]]] Rourke P M C, Gaiser C, Gao Bo, Ripa D M, Moldover M R, Pitre L and Underwood R J 2019 Refractive-index gas thermometry _Metrologia_ *56*, 032001 (13 pp) https://doi.org/10.1088/1681-7575/ab0dbe
 
-* [[[jifeng,8]]] Qu Jifeng, Benz S P, Coakley K, Rogalla H, Tew W L, White R, Zhou K and Zhou Z 2017 An improved electronic determination of the Boltzmann constant by Johnson noise thermometry Metrologia 54, 549-558 (10 pp) https://doi.org/10.1088/1681-7575/aa781e
+* [[[jifeng,8]]] Qu Jifeng, Benz S P, Coakley K, Rogalla H, Tew W L, White R, Zhou K and Zhou Z 2017 An improved electronic determination of the Boltzmann constant by Johnson noise thermometry _Metrologia_ *54*, 549-558 (10 pp) https://doi.org/10.1088/1681-7575/aa781e
 
-* [[[flowers,9]]] Flowers-Jacobs N-E, Pollarolo A, Coakley J J, Fox A E, Rogalla H, Tew W L and Benz S P 2017 A Boltzmann constant determination based on Johnson noise thermometry Metrologia 54, 730-737 (8 pp) https://doi.org/10.1088/1681-7575/aa7b3f
+* [[[flowers,9]]] Flowers-Jacobs N-E, Pollarolo A, Coakley J J, Fox A E, Rogalla H, Tew W L and Benz S P 2017 A Boltzmann constant determination based on Johnson noise thermometry _Metrologia_ *54*, 730-737 (8 pp) https://doi.org/10.1088/1681-7575/aa7b3f
 
 
 
