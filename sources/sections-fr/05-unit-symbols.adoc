@@ -108,12 +108,15 @@ quotient d’une grandeur et d’une unité en tête de colonne d’un tableau, 
 du tableau soient simplement des nombres. Par exemple, un tableau exprimant la vitesse au
 carré en fonction d’une pression peut prendre la forme suivante:
 
-[cols="^,^",options="unnumbered"]
+[%unnumbered]
+[cols="^,^"]
 |===
 | stem:[p//rm(kPa)] | stem:[v^2//(rm(m)//rm(s))^2]
+
 | stem:[48.73] | stem:[94766]
 | stem:[72.87] | stem:[94771]
 | stem:[135.42] | stem:[94784]
+
 |===
 
 Les axes d’un graphique peuvent aussi être identifiés de cette manière, afin que les
@@ -153,7 +156,7 @@ l’espace entre le nombre et l’unité est considérée comme un signe de mult
 d’unité pour le degré, la minute et la seconde d’angle plan (respectivement °, ′ e t ″)
 pour lesquels il n’y a pas d’espace entre la valeur numérique et le symbole de l’unité.
 
-NOTE: stem:[m = 12.3 " "rm(g)] où m est 
+NOTE: stem:[m = 12.3 " "rm(g)] où m est
 utilisé comme symbole de la
 grandeur «&nbsp;masse&nbsp;» mais stem:[phi = 30° 22&#x2032; 8&#x2033;]
 où stem:[phi] est utilisé comme symbole

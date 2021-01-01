@@ -43,12 +43,14 @@ Recommended names and symbols for quantities are listed in many standard referen
 Symbols for units are treated as mathematical entities. In expressing the value of a quantity as the product of a numerical value and a unit, both the numerical value and the unit may be treated by the ordinary rules of algebra. This procedure is described as the use of quantity calculus, or the algebra of quantities. For example, the equation stem:[p = 48 " "rm(kPa)] may equally be written as stem:[p//rm(kPa) = 48]. It is common practice to write the quotient of a quantity and a unit in this way for a column heading in a table, so that the entries in the table are simply numbers. For example, a table of the velocity squared versus pressure may be formatted as shown below.
 
 [%unnumbered]
-[cols="<,<"]
+[cols="^,^"]
 |===
 | stem:[p//rm(kPa)] | stem:[v^2//(rm(m)//rm(s))^2]
-| 48.73 | 94766
-| 72.87 | 94771
-| 135.42 | 94784
+
+| stem:[48.73] | stem:[94766]
+| stem:[72.87] | stem:[94771]
+| stem:[135.42] | stem:[94784]
+
 |===
 
 The axes of a graph may also be labelled in this way, so that the tick marks are labelled only with numbers, as in the graph below.
