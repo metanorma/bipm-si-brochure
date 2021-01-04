@@ -1,16 +1,15 @@
-= Recommended Values of Standard Frequencies for Applications Including the Practical Realization of the Metre and Secondary Representations of the Definition of the Second
+= Recommended Values of Standard Frequencies: Strontium 87 Atom (stem:[f ~~ 429" "rm(THz)])
 :appendix: 2
 :partnumber: 1
 :edition: 9
 :copyright-year: 2019
 :language: en
-:docnumber: SI MEP M REC 429THz 88Sr
-:title-appendix-en: Recommended Values of Standard Frequencies for Applications Including the Practical Realization of the Metre and Secondary Representations of the Definition of the Second: Strontium 88 Atom (stem:[f ~~ 429" "rm(THz)])
+:docnumber: SI MEP M REC 429THz 87Sr
+:title-appendix-en: Recommended Values of Standard Frequencies for Applications Including the Practical Realization of the Metre and Secondary Representations of the Definition of the Second: Strontium 87 Atom (stem:[f ~~ 429" "rm(THz)])
 :title-appendix-fr:
 :title-en: The International System of Units
 :title-fr: Le système international d’unités
 :doctype: mise-en-pratique
-:parent-document: si-brochure.adoc
 :committee-acronym: CCL-CCTF-WGFS
 :committee-en: CCL-CCTF Frequency Standards Working Group
 :si-aspect: m_c_deltanu
@@ -24,25 +23,27 @@
 :local-cache-only:
 :data-uri-image:
 
-== Strontium 88 Atom (stem:[f ~~ 429" "rm(THz)])
+== Strontium 87 Atom (stem:[f ~~ 429" "rm(THz)])
 
-*^88^Sr neutral atom, 5s^2^ ^1^S~0~ – 5s5p ^3^P~0~ unperturbed optical transition*
+*^87^Sr neutral atom, 5s^2^ ^1^S~0~ – 5s5p ^3^P~0~ unperturbed optical transition*
 
 === Recommended value <<cctf21>> of the frequency in the CIPM List of Frequencies
 
-stem:[f](^88^Sr) stem:[= 429228066418007.0 " "rm(Hz)]
+stem:[f](^87^Sr) stem:[= 429228004229873.0 " "rm(Hz)]
 
 equivalent to
 
-stem:[ii(lambda)](^88^Sr) stem:[= 698445608.419382 " "rm(fm)],
+stem:[ii(lambda)](^87^Sr) stem:[= 698445709.6127544 " "rm(fm)],
 
-with a relative standard uncertainty of stem:[6 xx 10^(−16)].
+with a relative standard uncertainty of stem:[4 xx 10^(−16)].
+
+This radiation was endorsed by the CIPM as a secondary representation of the definition of the second <<ci2006>>.
 
 === Source data
 
-The adopted value of stem:[f](^88^Sr) stem:[= 429228066418007.0 " "rm(Hz)] with a relative standard uncertainty of stem:[6 xx 10^(−16)]
+The adopted value of _f_(^87^Sr) stem:[= 429228004229873.0 " "rm(Hz)] with a relative standard uncertainty of stem:[4 xx 10^(−16)]
 
-has been calculated by the methods presented in <<margolis>>, <<robertsson>>, <<oates>>, <<riehle>>, with the data from the table of frequencies (2017) attached below. A value of the isotope shift between ^88^Sr and ^87^Sr <<akatsuka>> that has been used in the previous recommendation has been withdrawn. Given that the calculated uncertainty is dominated by the uncertainty of the frequency ratio of ref. <<nemitz>>, the CCTF enlarged the recommended uncertainty to stem:[6 xx 10^(−16)], which is the fractional uncertainty of the best realisation of the 88Sr standard today (ref. <<nemitz>>).
+has been calculated by the methods presented in <<margolis>>, <<robertsson>>, <<oates>>, <<riehle>>, with the data from the table of frequencies (2017) attached below. The recommended uncertainty is the same as that of the most accurate comparison between the Cs Primary Frequency Standards at LNE-SYRTE and PTB via an optical fibre link [7] i.e. stem:[4 xx 10^(−16)].
 
 .Table of evaluated frequencies (2017)
 |===
@@ -99,7 +100,7 @@ h| Frequency ratios h| Fractional uncertainty h| Reference
 | stem:[1.20750703934333776] | stem:[2.4 xx 10^(−16)] | <<takamoto>>
 | stem:[1.207507039343337749] | stem:[4.6 xx 10^(−17)] | <<nemitz>>
 3+h| ^88^Sr /^87^Sr
-| stem:[1.000000144883682777] | stem:[7 xx 10^(−17)] footnote:[The fractional uncertainty of stem:[2.3 xx 10^{-17}] in ref. <<takano>> has been increased by a factor of three since this uncertainty is an order of magnitude smaller than the other input data for this transition.] | <<takano>>
+| stem:[1.000000144883682777] | stem:[7 xx 10^(−17)] footnote:[The fractional uncertainty of stem:[2.3 xx 10^{−17}] in ref. <<takano>> has been increased by a factor of three since this uncertainty is an order of magnitude smaller than the other input data for this transition.] | <<takano>>
 3+h| ^87^Sr/^40^Ca^+^
 | stem:[1.0442433345296416] | stem:[2.3 xx 10^(−15)] | <<matsubara>>
 3+h| ^87^Sr/^87^Rb
@@ -112,15 +113,15 @@ h| Frequency ratios h| Fractional uncertainty h| Reference
 
 * [[[cctf21,1]]], Consultative Committee for Time and Frequency (CCTF): Report of the 21st meeting (8-9 June 2017) to the International Committee for Weights and Measures; https://www.bipm.org/utils/common/pdf/CC/CCTF/CCTF21.pdf
 
-* [[[margolis,2]]], H. S. Margolis, P. Gill: Least-squares analysis of clock frequency comparison data to deduce optimized frequency and frequency ratio values; _Metrologia_ *52*, 628 (2015)
+* [[[ci2006,2]]], Recommendation 1 (CI-2006) https://www.bipm.org/utils/en/pdf/CIPM/CIPM2006-EN.pdf
 
-* [[[robertsson,3]]], L. Robertsson: On the evaluation of ultra-high-precision frequency ratio measurements: examining closed loops in a graph theory framework; _Metrologia_ *53*, 1272 (2016)
+* [[[margolis,3]]], H. S. Margolis, P. Gill: Least-squares analysis of clock frequency comparison data to deduce optimized frequency and frequency ratio values; _Metrologia_ *52*, 628 (2015)
 
-* [[[oates,4]]], Chris Oates: private communication. An independent program was developed in Mathematica at NIST (2017)
+* [[[robertsson,4]]], L. Robertsson: On the evaluation of ultra-high-precision frequency ratio measurements: examining closed loops in a graph theory framework; _Metrologia_ *53*, 1272 (2016)
 
-* [[[riehle,5]]], F. Riehle, P. Gill, F. Arias, L. Robertsson: The CIPM List of Recommended Frequency Standard Values: Guidelines and Procedures; _Metrologia_ *55*, 188-200 (2018)
+* [[[oates,5]]], Chris Oates: private communication. An independent program was developed in Mathematica at NIST (2017)
 
-* [[[akatsuka,6]]], T. Akatsuka, M. Takamoto, H. Katori: Optical lattice clocks with non-interacting bosons and fermions; _Nature Physics_ *4*, 954 – 959 (2008)
+* [[[riehle,6]]], F. Riehle, P. Gill, F. Arias, L. Robertsson: The CIPM List of Recommended Frequency Standard Values: Guidelines and Procedures; _Metrologia_ *55*, 188-200 (2018)
 
 * [[[mcferran,7]]], J. J. McFerran, L. Yi, S. Mejri, S. Di Manno, W. Zhang, J. Guéna, Y. Le Coq, S. Bize: Erratum: Neutral Atom Frequency Reference in the Deep Ultraviolet with stem:["Fractional Uncertainty" = 5.7 xx 10^(−15)] [_Phys. Rev. Lett._ *108*, 183004 (2012)]; _Phys. Rev. Lett._ *115*, 219901 (2015)
 
