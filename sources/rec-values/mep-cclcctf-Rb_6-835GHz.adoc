@@ -1,22 +1,21 @@
-= Recommended Values of Standard Frequencies for Applications Including the Practical Realization of the Metre and Secondary Representations of the Definition of the Second
+= Recommended Values of Standard Frequencies: Rubidium 87 Atom (stem:[f ~~ 6.835" "rm(GHz)])
 :appendix: 2
 :partnumber: 1
 :edition: 9
 :copyright-year: 2019
 :language: en
-:docnumber: SI MEP M REC 429THz 87Sr
-:title-appendix-en: Recommended Values of Standard Frequencies for Applications Including the Practical Realization of the Metre and Secondary Representations of the Definition of the Second: Strontium 87 Atom (stem:[f ~~ 429" "rm(THz)])
+:docnumber: SI MEP M REC 6.835GHz
+:title-appendix-en: Recommended Values of Standard Frequencies for Applications Including the Practical Realization of the Metre and Secondary Representations of the Definition of the Second: Rubidium 87 Atom (stem:[f ~~ 6.835" "rm(GHz)])
 :title-appendix-fr:
 :title-en: The International System of Units
 :title-fr: Le système international d’unités
 :doctype: mise-en-pratique
-:parent-document: si-brochure.adoc
 :committee-acronym: CCL-CCTF-WGFS
 :committee-en: CCL-CCTF Frequency Standards Working Group
 :si-aspect: m_c_deltanu
 :docstage: in-force
-:confirmed-date: 2017-06
-:revdate: 2018-08
+:confirmed-date: 2015-10
+:revdate: 2016-05
 :docsubstage: 60
 :imagesdir: images
 :mn-document-class: bipm
@@ -24,27 +23,21 @@
 :local-cache-only:
 :data-uri-image:
 
-== Strontium 87 Atom (stem:[f ~~ 429" "rm(THz)])
+== Rubidium 87 Atom (stem:[f ~~ 6.835" "rm(GHz)])
 
-*^87^Sr neutral atom, 5s^2^ ^1^S~0~ – 5s5p ^3^P~0~ unperturbed optical transition*
+*^87^Rb, unperturbed ground-state hyperfine transition*
 
-=== Recommended value <<cctf21>> of the frequency in the CIPM List of Frequencies
+=== Recommended value <<cctf21>> of the frequency:
 
-stem:[f](^87^Sr) stem:[= 429228004229873.0 " "rm(Hz)]
-
-equivalent to
-
-stem:[ii(lambda)](^87^Sr) stem:[= 698445709.6127544 " "rm(fm)],
-
-with a relative standard uncertainty of stem:[4 xx 10^(−16)].
+[align=left]
+stem:[f](^87^Rb) stem:[= 6834682.6109043126 " "rm(Hz)] +
+with a relative standard uncertainty of stem:[6 xx 10^(−16)].
 
 This radiation was endorsed by the CIPM as a secondary representation of the definition of the second <<ci2006>>.
 
 === Source data
 
-The adopted value of _f_(^87^Sr) stem:[= 429228004229873.0 " "rm(Hz)] with a relative standard uncertainty of stem:[4 xx 10^(−16)]
-
-has been calculated by the methods presented in <<margolis>>, <<robertsson>>, <<oates>>, <<riehle>>, with the data from the table of frequencies (2017) attached below. The recommended uncertainty is the same as that of the most accurate comparison between the Cs Primary Frequency Standards at LNE-SYRTE and PTB via an optical fibre link [7] i.e. stem:[4 xx 10^(−16)].
+The adopted value of stem:[f](^87^Rb) stem:[= 6834682.6109043126 " "rm(Hz)] with a relative standard uncertainty of stem:[6 xx 10^(−16)] has been calculated by the methods presented in <<margolis>>, <<robertsson>>, <<oates>>, <<riehle>>, with the data from the table of frequencies (2017) attached below. Given that there are only two contributors and the result is heavily influenced by the LNE-SYRTE Rb standard by both direct frequency and frequency ratio measurements, which have a total uncertainty of stem:[3.1 xx 10^(−16)], the CCTF multiplied the total uncertainty by a factor of 2 to give stem:[6.2 xx 10^(−16)] and rounded it to stem:[6 xx 10^(−16)] following the procedures outlined in ref. <<riehle>>.
 
 .Table of evaluated frequencies (2017)
 |===
@@ -72,7 +65,7 @@ h| Frequency / Hz h| Uncertainty / Hz h| Reference
 | stem:[429228004229872.9] | stem:[0.5] | <<falke2011>>
 | stem:[429228004229873.9] | stem:[1.4] | <<yamaguchi>>
 | stem:[429228004229872.0] | stem:[1.6] | <<akamatsu>>
-| stem:[429228004229873.56] | stem:[0.49] | <<tanabe>>
+| stem:[4stem:[29228004229873.5]6] | stem:[0.49] | <<tanabe>>
 | stem:[429228004229873.7] | stem:[1.4] | <<lin>>
 | stem:[429228004229873.13] | stem:[0.17] | <<falke2014>>
 | stem:[429228004229873.10] | stem:[0.13] | <<targat>>
@@ -101,13 +94,12 @@ h| Frequency ratios h| Fractional uncertainty h| Reference
 | stem:[1.20750703934333776] | stem:[2.4 xx 10^(−16)] | <<takamoto>>
 | stem:[1.207507039343337749] | stem:[4.6 xx 10^(−17)] | <<nemitz>>
 3+h| ^88^Sr /^87^Sr
-| stem:[1.000000144883682777] | stem:[7 xx 10^(−17)] footnote:[The fractional uncertainty of stem:[2.3 xx 10^{−17}] in ref. <<takano>> has been increased by a factor of three since this uncertainty is an order of magnitude smaller than the other input data for this transition.] | <<takano>>
+| stem:[1.000000144883682777] | stem:[7 xx 10^(−17)] footnote:[The fractional uncertainty of stem:[2.3 xx 10^{-17}] in ref. <<takano>> has been increased by a factor of three since this uncertainty is an order of magnitude smaller than the other input data for this transition.] | <<takano>>
 3+h| ^87^Sr/^40^Ca^+^
 | stem:[1.0442433345296416] | stem:[2.3 xx 10^(−15)] | <<matsubara>>
 3+h| ^87^Sr/^87^Rb
 | stem:[62801.453800512435] | stem:[3.3 xx 10^(−16)] | <<lodewyck>>
 |===
-
 
 [bibliography]
 === References
