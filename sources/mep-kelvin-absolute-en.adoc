@@ -95,13 +95,14 @@ In order to simplify the uncertainty analysis, incorporating the finite radiomet
 [[table1]]
 .Standard uncertainty components for absolute primary radiometry for the case of laser-based radiance responsivity. The parameter stem:[r] is the relative bandwidth (stem:[r = sigma // lambda_0]), and the in-use stem:[S] components are those associated with measuring the radiometer signal at the unknown temperature.
 |===
-h| Uncertainty Component h| Value (Laser-based system)
+| Uncertainty Component | Value (Laser-based system)
 
 a| stem:[lambda_0]:: (650 nm) |
 | Wavelength | 0.0003 nm
 | Drift | 0.0003 nm
 | *Total* stem:[lambda_0] | *0.00042 nm*
 a| *Total* stem:[sigma]:: (stem:[r = 0.01]) | *0.0000042 nm*
+
 h| stem:[H] |
 | Trap detector | 0.015%
 | Aperture area | 0.004%
@@ -111,6 +112,7 @@ h| stem:[H] |
 | Temperature coefficient of trap | 0.002%
 | Temporal stability of trap | 0.013%
 | *Total* stem:[H] | *0.034%*
+
 h| In-use stem:[S] |
 | SSE (size of source effect) | 0.01%
 | Non-linearity | 0.005%
@@ -119,6 +121,7 @@ h| In-use stem:[S] |
 | Drift | 0.01%
 | Repeatability | 0.003%
 | *Total in-use* stem:[S] | *0.018%*
+
 |===
 
 [[fig1]]
