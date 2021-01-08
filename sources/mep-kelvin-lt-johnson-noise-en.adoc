@@ -42,10 +42,10 @@ The determination of thermodynamic temperatures by low-temperature Johnson noise
 [[eq1]]
 [stem]
 ++++
-<< V(f,T)^2 >> = 4kTR Delta f,
+<< ii(V)(f,ii(T))^2 >> = 4k ii(T)ii(R) Delta f,
 ++++
 
-stating that the mean square of the noise voltage stem:[V(f,T)] across an unbiased resistor in a frequency band stem:[Deltaf] is proportional to temperature stem:[T] and independent of any material properties except the resistance of the conductor. stem:[R] is the resistance and stem:[k] is the Boltzmann constant. The Nyquist formula is the limiting case of the fluctuation-dissipation theorem <<callen,Callen 1951>>, when quantum corrections are neglected, which is applicable in nearly all practical situations for temperatures from 1 K down to 1 mK and for frequencies up to a few hundred MHz or a few hundred kHz, respectively. The general approach and basic principles of JNT and its application are described in <<white,White 1996>>. JNT can be implemented in absolute primary or relative primary form, whereas the second requires the reference to a temperature of known thermodynamic value.
+stating that the mean square of the noise voltage stem:[ii(V)(f,ii(T))] across an unbiased resistor in a frequency band stem:[Delta f] is proportional to temperature stem:[ii(T)] and independent of any material properties except the resistance of the conductor. stem:[ii(R)] is the resistance and stem:[k] is the Boltzmann constant. The Nyquist formula is the limiting case of the fluctuation-dissipation theorem <<callen,Callen 1951>>, when quantum corrections are neglected, which is applicable in nearly all practical situations for temperatures from stem:[1" "rm(K)] down to stem:[1" "rm(mK)] and for frequencies up to a few hundred MHz or a few hundred kHz, respectively. The general approach and basic principles of JNT and its application are described in <<white,White 1996>>. JNT can be implemented in absolute primary or relative primary form, whereas the second requires the reference to a temperature of known thermodynamic value.
 
 == Traceability to SI units
 
@@ -53,18 +53,18 @@ The implementation of primary Johnson noise thermometry requires that the quanti
 
 == Absolute primary low-temperature JNT
 
-For JNT very small noise voltages must be measured (stem:[1.3 xx 10^(-9)" V/"sqrt("Hz")] for a stem:[100" "Omega] resistor at 293 K and stem:[3.3 xx 10^(-13)" V/"sqrt("Hz")] for a stem:[2" m"Omega] resistor at 1 K), and the gain as well as the bandwidth of the measurement must be stable and known with high accuracy. Contributions to the measurement signal from non-thermal noise sources must be negligible. For low-temperature JNT, superconducting quantum interference devices (SQUIDs) are the method of choice for the measurement of the tiny noise voltages. A review on current SQUID-based low-temperature thermometers is given in <<beyer,Beyer 2016>>.
+For JNT very small noise voltages must be measured (stem:[1.3 xx 10^(-9)" "rm(V)//sqrt(rm(Hz))] for a stem:[100" "rm(Omega)] resistor at stem:[293" "rm(K)] and stem:[3.3 xx 10^(-13)" "rm(V)//sqrt(rm(Hz))] for a stem:[2" "rm(m) rm(Omega)] resistor at 1 K), and the gain as well as the bandwidth of the measurement must be stable and known with high accuracy. Contributions to the measurement signal from non-thermal noise sources must be negligible. For low-temperature JNT, superconducting quantum interference devices (SQUIDs) are the method of choice for the measurement of the tiny noise voltages. A review on current SQUID-based low-temperature thermometers is given in <<beyer,Beyer 2016>>.
 
 Three main variants of SQUID-based low-temperature Johnson noise thermometers are mainly implemented. The first one is historically called the resistive SQUID (RSQUID) setup and uses as the main component a superconducting loop containing a Josephson tunnel junction and a resistive shunt closing the loop. The second one is the so-called current sensing noise thermometer (CSNT), where the current through the noise resistor is read out by a SQUID current sensor. The third one is the magnetic field fluctuation thermometer (MFFT), in which the fluctuating magnetic field caused by the noise resistor is read out by a SQUID magnetometer or gradiometer.
 
 === JNT with the RSQUID setup
 
-In the RSQUID setup, a direct bias current develops a voltage stem:[V] across a resistor stem:[R] connected in parallel to the Josephson junction of the RSQUID. This voltage is converted by the junction into ac oscillations at the frequency stem:[nu] given by the Josephson equation
+In the RSQUID setup, a direct bias current develops a voltage stem:[ii(V)] across a resistor stem:[ii(R)] connected in parallel to the Josephson junction of the RSQUID. This voltage is converted by the junction into ac oscillations at the frequency stem:[ii(nu)] given by the Josephson equation
 
 [[eq2]]
 [stem]
 ++++
-nu = (2eV)/h,
+ii(nu) = (2e ii(V))/h,
 ++++
 
 where stem:[e] is the elementary charge and stem:[h] is the Planck constant. The voltage fluctuations due to thermal noise in the resistor cause frequency fluctuations with the variance
@@ -72,48 +72,48 @@ where stem:[e] is the elementary charge and stem:[h] is the Planck constant. The
 [[eq3]]
 [stem]
 ++++
-sigma_v = (2kRT)/(phi_0tau),
+ii(sigma)_v = (2k ii(R) ii(T))/(ii(phi)_0 ii(tau)),
 ++++
 
-where stem:[k] is the Boltzmann constant, stem:[phi_0 = h//(2e)] is the magnetic flux quantum and stem:[tau] is the gate time of the frequency measurement. The frequency fluctuations are measured by coupling a tank circuit to the RSQUID excited at the resonance frequency. From the filtered sideband of the resonance, the variance of the Josephson oscillations is determined. The value of the resistor stem:[R] can be measured independently as well as the gate time stem:[tau]. Then, using <<eq3>> the thermodynamic temperature stem:[T] is directly calculated from the variance stem:[sigma_nu] of the Josephson frequency fluctuations.
+where stem:[k] is the Boltzmann constant, stem:[ii(phi)_0 = h//(2e)] is the magnetic flux quantum and stem:[ii(tau)] is the gate time of the frequency measurement. The frequency fluctuations are measured by coupling a tank circuit to the RSQUID excited at the resonance frequency. From the filtered sideband of the resonance, the variance of the Josephson oscillations is determined. The value of the resistor stem:[ii(R)] can be measured independently as well as the gate time stem:[ii(tau)]. Then, using <<eq3>> the thermodynamic temperature stem:[ii(T)] is directly calculated from the variance stem:[ii(sigma)_ii(nu)] of the Josephson frequency fluctuations.
 
 An overview of the details of thermodynamic temperature measurements with rf RSQUIDs is given in <<soulen,Soulen 1994>>. JNT realizations based on RSQUIDs have been used, for example, for the establishment of the PLTS-2000 <<rusby,Rusby 2002>>. In <<menkel,Menkel 2000>>, the theory of temperature measurement with rf RSQUIDs was extended to the application of modern thin-film dc RSQUIDs.
 
 === Current sensing noise thermometer, CSNT
 
-Current sensing noise thermometers utilizing rf or dc SQUIDs resolve the thermal noise signal in time domain <<giffard,Giffard 1972>>, <<webb,Webb 1973>>, <<lusher, Lusher 2001>>, <<shibahara,Shibahara 2016>>. The thermal voltage noise across the resistor causes fluctuating currents in the input coil that are detected as thermal magnetic flux noise by the SQUID, which is operated in flux-locked loop (FLL) mode and read out by the SQUID electronics. In the FLL mode, the SQUID is used as a null detector with negative feedback to maintain linear operation. The noise current stem:[I_("N")] through the noise resistor is converted to a noise voltage stem:[V_("N") = I_("N") (M_("in") R_("f"))//M_("f")] at the output of the SQUID electronics, where stem:[M_("in")] is the mutual inductance between the SQUID loop and the input coil, stem:[M_("f")] is the mutual inductance between the SQUID loop and the feedback coil applied for the FLL mode, and stem:[R_("f")] is the resistance of the feedback resistor. Then, the noise voltage stem:[V_("N")] is digitized, filtered in the time domain for glitches, Fourier transformed and averaged to obtain the power spectral density (PSD) of the noise spectrum. Before analysis, the PSD is subjected to a peak removal algorithm to remove non-thermal noise pickup. Finally, the noise temperature stem:[T_("CSNT")] is computed from the PSD using the equation:
+Current sensing noise thermometers utilizing rf or dc SQUIDs resolve the thermal noise signal in time domain <<giffard,Giffard 1972>>, <<webb,Webb 1973>>, <<lusher, Lusher 2001>>, <<shibahara,Shibahara 2016>>. The thermal voltage noise across the resistor causes fluctuating currents in the input coil that are detected as thermal magnetic flux noise by the SQUID, which is operated in flux-locked loop (FLL) mode and read out by the SQUID electronics. In the FLL mode, the SQUID is used as a null detector with negative feedback to maintain linear operation. The noise current stem:[ii(I)_("N")] through the noise resistor is converted to a noise voltage stem:[ii(V)_("N") = ii(I)_("N") (ii(M)_("in") ii(R)_("f"))//ii(M)_("f")] at the output of the SQUID electronics, where stem:[ii(M)_("in")] is the mutual inductance between the SQUID loop and the input coil, stem:[ii(M)_("f")] is the mutual inductance between the SQUID loop and the feedback coil applied for the FLL mode, and stem:[ii(R)_("f")] is the resistance of the feedback resistor. Then, the noise voltage stem:[ii(V)_("N")] is digitized, filtered in the time domain for glitches, Fourier transformed and averaged to obtain the power spectral density (PSD) of the noise spectrum. Before analysis, the PSD is subjected to a peak removal algorithm to remove non-thermal noise pickup. Finally, the noise temperature stem:[ii(T)_("CSNT")] is computed from the PSD using the equation:
 
 [[eq4]]
 [stem]
 ++++
-T_("CSNT") = R/(4k) (<<S_("V,N")>> - <<S_("V,SQUID")>>) (M_("f")/(M_("in")R_("f")))^2,
+ii(T)_("CSNT") = ii(R)/(4k) (<< ii(S)_("V,N")>> - <<ii(S)_("V,SQUID")>>) (ii(M)_("f")/(ii(M)_("in") ii(R)_("f")))^2,
 ++++
 
-where stem:[<<S_("V,N")>>] is the averaged PSD of the measured noise voltage in the limit of zero frequency obtained from a fit to the PSD and stem:[<<S_("V,SQUID")>>] is the averaged PSD of the noise contribution from the SQUID and the SQUID electronics. stem:[<<S_(V,SQUID)>>] is a system parameter, which does not depend on the temperature to be measured, provided the SQUID is operated at constant temperature. Typically, stem:[<<S_("V,N")>> > > <<S_("V,SQUID")>>]. The uncertainty of the measured noise temperature stem:[T_("CSNT")] (see <<table2>>.) is determined by system parameters, which must be measured independently <<shibahara,Shibahara 2016>>: the value of the noise resistor stem:[R], the value of the feedback resistor stem:[R_("f")], the mutual inductances between the SQUID and the input coil stem:[M_("in")] as well as the feedback coil stem:[M_("f")], and the non-thermal noise components from the SQUID and the SQUID electronics.
+where stem:[<< ii(S)_("V,N")>>] is the averaged PSD of the measured noise voltage in the limit of zero frequency obtained from a fit to the PSD and stem:[<< ii(S)_("V,SQUID")>>] is the averaged PSD of the noise contribution from the SQUID and the SQUID electronics. stem:[<< ii(S)_("V,SQUID")>>] is a system parameter, which does not depend on the temperature to be measured, provided the SQUID is operated at constant temperature. Typically, stem:[<< ii(S)_("V,N")>> > > << ii(S)_("V,SQUID")>>]. The uncertainty of the measured noise temperature stem:[ii(T)_("CSNT")] (see <<table2>>.) is determined by system parameters, which must be measured independently <<shibahara,Shibahara 2016>>: the value of the noise resistor stem:[ii(R)], the value of the feedback resistor stem:[ii(R)_("f")], the mutual inductances between the SQUID and the input coil stem:[ii(M)_("in")] as well as the feedback coil stem:[ii(M)_("f")], and the non-thermal noise components from the SQUID and the SQUID electronics.
 
 === Primary magnetic field fluctuation thermometer, pMFFT
 
-The primary magnetic field fluctuation thermometer (pMFFT) <<kirste2016,Kirste 2016>> utilizes the fact that thermally activated noise currents in the noise resistor cause fluctuating magnetic fields, which are accessible above the surface of the resistor. These magnetic field fluctuations are measured as thermal magnetic flux noise using a SQUID-based gradiometer. The pMFFT employs two SQUID channels (labeled 1 and 2) and a cross-correlation technique for the thermal magnetic flux noise measurement to minimize uncorrelated non-thermal noise contributions. Each channel is connected to an independent, planar thin-film detection coil. The layout of the detection coils enables analytical electromagnetic modelling and an easy determination of the geometric dimensions of the gradiometers and their distances to the noise resistor necessary for the calibration of the SQUID channels. The pMFFT has a separate calibration coil, which is used to determine the transfer functions (flux-to-voltage calibration coefficients) of the two SQUID gradiometer channels and the electrical conductivity stem:[sigma_("el")] of the noise resistor. The final equation for calculating the noise temperature stem:[T_("pMFFT")] is:
+The primary magnetic field fluctuation thermometer (pMFFT) <<kirste2016,Kirste 2016>> utilizes the fact that thermally activated noise currents in the noise resistor cause fluctuating magnetic fields, which are accessible above the surface of the resistor. These magnetic field fluctuations are measured as thermal magnetic flux noise using a SQUID-based gradiometer. The pMFFT employs two SQUID channels (labeled 1 and 2) and a cross-correlation technique for the thermal magnetic flux noise measurement to minimize uncorrelated non-thermal noise contributions. Each channel is connected to an independent, planar thin-film detection coil. The layout of the detection coils enables analytical electromagnetic modelling and an easy determination of the geometric dimensions of the gradiometers and their distances to the noise resistor necessary for the calibration of the SQUID channels. The pMFFT has a separate calibration coil, which is used to determine the transfer functions (flux-to-voltage calibration coefficients) of the two SQUID gradiometer channels and the electrical conductivity stem:[ii(sigma)_("el")] of the noise resistor. The final equation for calculating the noise temperature stem:[ii(T)_("pMFFT")] is:
 
 [[eq5]]
 [stem]
 ++++
-T_("pMFFT") = (hat V_(R"cal",1) * hat V_(R"cal"_2) * M_1 * M_2)/(hat V_("cal",1) * hat V_("cal",2) * R_("cal")^2) * 1/(N_f) sum_(k=1)^(N_f) ("Re"[S_(V,12)(f_("k"),V_1,V_2)])/("Re"[S_(phi,12)(f_("k"),sigma_("el"),T_("Ref"),...)]//T_("Ref")),
+ii(T)_("pMFFT") = (hat ii(V)_(ii(R)"cal",1) * hat ii(V)_(ii(R)"cal"_2) * ii(M)_1 * ii(M)_2)/(hat ii(V)_("cal",1) * hat ii(V)_("cal",2) * ii(R)_("cal")^2) * 1/(ii(N)_f) sum_(k=1)^(ii(N)_f) ("Re"[ii(S)_(ii(V),12)(f_("k"),ii(V)_1,ii(V)_2)])/ ("Re"[ii(S)_(ii(phi),12)(f_("k"),ii(sigma)_("el"),ii(T)_("Ref"),...)]//ii(T)_("Ref")),
 ++++
 
-where stem:["Re"] is the real part of the complex cross-power spectral densities (CPSDs), stem:[N_f] denotes the number of frequency bins considered in the CPSD of the noise stem:[S_(V,12)]. The first part of <<eq5>> is related to the calibration of the SQUID channels 1 and 2. stem:[R_("cal")] is the value of the resistor used to measure the current through the calibration coil, stem:[M_1] and stem:[M_2] are calculated values (based on the given geometry of the pMFFT setup) of the mutual induction between calibration coil and the respective detection coil. The four voltage amplitudes are determined during calibration using quasi-dc currents: stem:[hat V_("cal",i)] is the voltage of the signal channel stem:[i] (1, 2), while stem:[hat V_(R"cal",i)] is the corresponding voltage drop at the calibration resistor. The second part of <<eq5>> provides the actual temperature information as obtained from the measured CPSD stem:[S_(V,12)], normalized by the CPSD of the thermal magnetic flux noise stem:[S_(phi,12)] calculated for the given geometrical setup and averaged over suitable frequency bins stem:[f_k] <<varpula,Varpula 1984>>, <<kirste2008,Kirste 2008>>. stem:[S_(phi,12)] originates from a forward calculation and is proportional to the arbitrary reference temperature stem:[T_("Ref")] chosen for this calculation. Since stem:[S_(phi,12) prop T_("Ref")], stem:[T_("Ref")] effectively cancels out in the ratio of both quantities. Hence stem:[T_("Ref")] is only formally introduced in <<eq5>> so that TpMFFT can be represented as a ratio of common physical quantities <<kirste2016,Kirste 2016>>. The pMFFT setup allows to check in situ the electrical conductivity of the noise resistor, which turns out to be independent of temperature. Hence, the pMFFT can be also operated in relative primary mode as a MFFT.
+where stem:["Re"] is the real part of the complex cross-power spectral densities (CPSDs), stem:[ii(N)_f] denotes the number of frequency bins considered in the CPSD of the noise stem:[ii(S)_(ii(V),12)]. The first part of <<eq5>> is related to the calibration of the SQUID channels 1 and 2. stem:[ii(R)_("cal")] is the value of the resistor used to measure the current through the calibration coil, stem:[ii(M)_1] and stem:[ii(M)_2] are calculated values (based on the given geometry of the pMFFT setup) of the mutual induction between calibration coil and the respective detection coil. The four voltage amplitudes are determined during calibration using quasi-dc currents: stem:[hat ii(V)_("cal",i)] is the voltage of the signal channel stem:[i] (1, 2), while stem:[hat ii(V)_(ii(R)"cal",i)] is the corresponding voltage drop at the calibration resistor. The second part of <<eq5>> provides the actual temperature information as obtained from the measured CPSD stem:[ii(S)_(ii(V),12)], normalized by the CPSD of the thermal magnetic flux noise stem:[ii(S)_(ii(phi),12)] calculated for the given geometrical setup and averaged over suitable frequency bins stem:[f_k] <<varpula,Varpula 1984>>, <<kirste2008,Kirste 2008>>. stem:[ii(S)_(ii(phi),12)] originates from a forward calculation and is proportional to the arbitrary reference temperature stem:[ii(T)_("Ref")] chosen for this calculation. Since stem:[ii(S)_(ii(phi),12) prop ii(T)_("Ref")], stem:[ii(T)_("Ref")] effectively cancels out in the ratio of both quantities. Hence stem:[ii(T)_("Ref")] is only formally introduced in <<eq5>> so that TpMFFT can be represented as a ratio of common physical quantities <<kirste2016,Kirste 2016>>. The pMFFT setup allows to check in situ the electrical conductivity of the noise resistor, which turns out to be independent of temperature. Hence, the pMFFT can be also operated in relative primary mode as a MFFT.
 
 == Relative primary low-temperature JNT
 
-In relative primary low-temperature JNT, ratios of temperatures are determined from the ratio of the measured noise PSD stem:[S(f, T)] to the noise PSD stem:[S(f, T_("Ref"))] measured at a reference temperature stem:[T_("Ref")] for which the thermodynamic value is known. An essential requirement for this operational mode of low-temperature JNT is the independence of the value of the noise resistor of temperature in the regime of residual resistance. Therefore, the noise resistor usually is made of a high-purity metal containing negligible amount of magnetic impurities to ensure a constant electrical conductivity over the temperature range of operation. Then, the thermodynamic noise temperature stem:[T_("JNT")] is calculated according:
+In relative primary low-temperature JNT, ratios of temperatures are determined from the ratio of the measured noise PSD stem:[ii(S)(f, ii(T))] to the noise PSD stem:[ii(S)(f, ii(T)_("Ref"))] measured at a reference temperature stem:[ii(T)_("Ref")] for which the thermodynamic value is known. An essential requirement for this operational mode of low-temperature JNT is the independence of the value of the noise resistor of temperature in the regime of residual resistance. Therefore, the noise resistor usually is made of a high-purity metal containing negligible amount of magnetic impurities to ensure a constant electrical conductivity over the temperature range of operation. Then, the thermodynamic noise temperature stem:[ii(T)_("JNT")] is calculated according:
 
 [[eq6]]
 [stem]
 ++++
-T_("JNT") = T_("Ref") << (S(f,T))/(S(f,T_("Ref"))) >>.
+ii(T)_("JNT") = ii(T)_("Ref") << (ii(S)(f,ii(T)))/(ii(S)(f,ii(T)_("Ref"))) >>.
 ++++
 
-The brackets stem:[<<*>>] stand for averaging over a suitable frequency range. Even though relative primary low-temperature JNT avoids the elaborate determination and calibration of the system parameters of the noise thermometer setups, for reaching a desired uncertainty level, it may be necessary to subtract from the corresponding PSDs the contributions of non-thermal noise sources. In case of the pMFFT, the PSDs in <<eq6>> correspond to the real part of the CPSD stem:["Re"[S_(V,12)\]] measured for the considered frequency bins at stem:[T] and stem:[T_("Ref")], respectively.
+The brackets stem:[<<*>>] stand for averaging over a suitable frequency range. Even though relative primary low-temperature JNT avoids the elaborate determination and calibration of the system parameters of the noise thermometer setups, for reaching a desired uncertainty level, it may be necessary to subtract from the corresponding PSDs the contributions of non-thermal noise sources. In case of the pMFFT, the PSDs in <<eq6>> correspond to the real part of the CPSD stem:["Re"[ii(S)_(ii(V),12)\]] measured for the considered frequency bins at stem:[ii(T)] and stem:[ii(T)_("Ref")], respectively.
 
 == Attainable uncertainties with low-temperature JNT
 
@@ -129,61 +129,61 @@ For the CSNT operated in absolute primary mode, relative combined standard uncer
 .Relative standard uncertainty estimates stem:[u_("rel")] for the PTB noise thermometer (coverage factor stem:[k = 1]) <<fellmuth,Fellmuth 2003>>.
 |===
 | Uncertainty component | stem:[u_("rel")] %
-| Measurement of stem:[R] | 0.020
-| Gate time stem:[tau] | 0.003
+| Measurement of stem:[ii(R)] | 0.020
+| Gate time stem:[ii(tau)] | 0.003
 | Filter correction | 0.010
 | Interference by external magnetic fields with the mains frequency | 0.020
-| Statistics (5 measurements over 11 hours with stem:[tau = 20 s]) | 0.060
+| Statistics (5 measurements over 11 hours with stem:[ii(tau) = 20" "rm(s)]) | 0.060
 | Relative combined standard uncertainty | 0.067
 |===
 
 [[table2]]
 [cols="<,^,^,^,^,^"]
-.Uncertainty budget for a temperature measurement at 20 mK using a CSNT in absolute primary mode (noise resistor of approximately stem:[2" m"Omega], stem:[u_("rel")] – relative standard uncertainty, stem:[u] – standard uncertainty, last column is the relative contribution to the combined standard uncertainty, coverage factor stem:[k = 1]) <<shibahara,Shibahara 2016>>.
+.Uncertainty budget for a temperature measurement at 20 mK using a CSNT in absolute primary mode (noise resistor of approximately stem:[2" "rm(m) rm(Omega)], stem:[u_("rel")] – relative standard uncertainty, stem:[u] – standard uncertainty, last column is the relative contribution to the combined standard uncertainty, coverage factor stem:[k = 1]) <<shibahara,Shibahara 2016>>.
 |===
-| Uncertainty component | unit | value | stem:[u_("rel")] % | stem:[u] mK a| rel. contribution %
-| Noise resistor stem:[R] | stem:["m"Omega] | 1.86 | 0.68 | 0.137 | 20.92
-| PSD of thermal noise, stem:[<<S_(V,"N")>>] | stem:[mu"V Hz"^(-1//2)] | 35.06 | 0.10 | 0.040 | 1.79
-| PSD of SQUID noise, stem:[<<S_(V,"SQ")>>] | stem:["nV Hz"^(-1//2)] | 388.0 | 0.30 | 0.004 | 0.02
-| Mutual inductance of input coil stem:[M_("in")] | stem:["nA"//Phi_0] | 306.2 | 0.30 | 0.118 | 15.55
-| Mutual inductance of feedback coil stem:[M_f] | stem:[mu"A/"Phi_0] | 43.59 | 0.58 | 0.234 | 61.14
-| Feedback resistor stem:[R_f] | stem:["k"Omega] | 10 | 0.06 | 0.023 | 0.60
-| Temperature gradients | stem:[mu"K"] | 16.34 | 11.55 | 0.003 | 0.01
-^| stem:[T_("CSNT") // "mK"] 3+^a| combined standard uncertainty / mK 2+^a| relative combined standard uncertainty / %
+| Uncertainty component | unit | value | stem:[u_("rel")] % | stem:[u" "rm(mK)] a| rel. contribution %
+| Noise resistor stem:[ii(R)] | stem:[rm(m) rm(Omega)] | 1.86 | 0.68 | 0.137 | 20.92
+| PSD of thermal noise, stem:[<< ii(S)_(ii(V),"N")>>] | stem:[rm(mu) rm(V) rm(Hz)^(-1//2)] | 35.06 | 0.10 | 0.040 | 1.79
+| PSD of SQUID noise, stem:[<< ii(S)_(ii(V),"SQ")>>] | stem:[rm(nV)" "rm(Hz)^(-1//2)] | 388.0 | 0.30 | 0.004 | 0.02
+| Mutual inductance of input coil stem:[ii(M)_("in")] | stem:[rm(nA)//rm(Phi)_0] | 306.2 | 0.30 | 0.118 | 15.55
+| Mutual inductance of feedback coil stem:[ii(M)_f] | stem:[rm(mu) rm(A)//rm(Phi)_0] | 43.59 | 0.58 | 0.234 | 61.14
+| Feedback resistor stem:[ii(R)_f] | stem:[rm(k) rm(Omega)] | 10 | 0.06 | 0.023 | 0.60
+| Temperature gradients | stem:[rm(mu) rm(K)] | 16.34 | 11.55 | 0.003 | 0.01
+^| stem:[ii(T)_("CSNT") // rm(mK)] 3+^a| combined standard uncertainty / mK 2+^a| relative combined standard uncertainty / %
 ^| 20.000 3+^| 0.299 2+^| 1.53
 |===
 
 === Primary magnetic field fluctuation thermometer, pMFFT
 
-For the pMFFT, the relative combined standard uncertainty of temperature measurements is currently 0.6% and is expected to be reduced further with the improvement of the geometric setup <<kirste2016,Kirste 2016>>. For the operation in absolute primary mode, the uncertainty budget for the pMFFT is shown in <<table3>>. Here, the first 5 uncertainty components are related to the determination of the relevant geometric parameters of the pMFFT necessary for the analytical modelling and the calculation of stem:[T_("pMFFT")]. The following uncertainty contributions result from the determination of the electrical conductivity of the noise sensor, from the measurement equipment, from estimates of influence of noise sources other than the noise senor as well as from estimates of deviations of the analytical model from the practical implementation of the pMFFT. For more details and further explanation see <<kirste2016,Kirste 2016>>. The uncertainty budget for the operation in relative primary mode can be found in <<engert,Engert 2016>>. As for the CSNT, comparison measurements within the European EURAMET Project ‘Implementing the new kelvin’ have shown that thermodynamic temperature values and their uncertainties determined with the pMFFT agree with other determinations of thermodynamic temperature as well as with copies of the PLTS-2000 better than 1% <<engert,Engert 2016>>. The relative combined standard uncertainty of stem:[T] determined by relative primary low-temperature JNT is about 0.14% for the pMFFT <<kirste2014,Kirste 2014>>.
+For the pMFFT, the relative combined standard uncertainty of temperature measurements is currently 0.6% and is expected to be reduced further with the improvement of the geometric setup <<kirste2016,Kirste 2016>>. For the operation in absolute primary mode, the uncertainty budget for the pMFFT is shown in <<table3>>. Here, the first 5 uncertainty components are related to the determination of the relevant geometric parameters of the pMFFT necessary for the analytical modelling and the calculation of stem:[ii(T)_("pMFFT")]. The following uncertainty contributions result from the determination of the electrical conductivity of the noise sensor, from the measurement equipment, from estimates of influence of noise sources other than the noise senor as well as from estimates of deviations of the analytical model from the practical implementation of the pMFFT. For more details and further explanation see <<kirste2016,Kirste 2016>>. The uncertainty budget for the operation in relative primary mode can be found in <<engert,Engert 2016>>. As for the CSNT, comparison measurements within the European EURAMET Project ‘Implementing the new kelvin’ have shown that thermodynamic temperature values and their uncertainties determined with the pMFFT agree with other determinations of thermodynamic temperature as well as with copies of the PLTS-2000 better than 1% <<engert,Engert 2016>>. The relative combined standard uncertainty of stem:[ii(T)] determined by relative primary low-temperature JNT is about 0.14% for the pMFFT <<kirste2014,Kirste 2014>>.
 
 [[table3]]
 [cols="<,^,^,^,^,^"]
 .Uncertainty budget for a temperature measurement at 16 mK using a pMFFT in absolute primary mode (stem:[u] – standard uncertainty, stem:[c_i] - sensitivity coefficients, last column is the relative contribution to the combined standard uncertainty, coverage factor stem:[k = 1]) <<kirste2016,Kirste 2016>>.
 |===
-a| Uncertainty component stem:[x_i] | unit | value | stem:[u(x_i)] a| stem:[c_i*u(x_i)] K a| rel. +
+a| Uncertainty component stem:[x_i] | unit | value | stem:[u(x_i)] a| stem:[c_i*u(x_i)" "rm(K)] a| rel. +
 contribution %
 6+<| type B
 | stem:[z] | m | stem:[1.038*10^(-4)] | stem:[2.74*10^(-7)] | stem:[2.92*10^(-5)] | 9.30
 | stem:[d_(31)] | m | stem:[2.016*10^(-3)] | stem:[1.45*10^(-6)] | stem:[-8.75*10^(-5)] | 83.68
 | stem:[t] | m | stem:[1.857*10^(-3)] | stem:[1.57*10^(-6)] | stem:[-4.30*10^(-12)] | 0.00
 | stem:[r_(1,1)... r_(9,1), r_(1,2)... r_(9,2)] | m | stem:[6.485*10^(-4)] | stem:[1.15*10^(-7)] | stem:[-3.53*10^(-6)] | 0.14
-| stem:[r_(1,3)... r_(93) | m | stem:[6.425*10^(-4)] | stem:[1.15*10^(-7)] | stem:[1.14*10^(-5)] | 1.43
-| stem:[sigma] | stem:[(Omega*"m")^(-1)] | stem:[5.915*10^9] | stem:[3.59*10^7] | stem:[1.43*10^(-5)] | 2.23
-| stem:[mu_("r")] | | 1.00 | stem:[2.80*10^(-6)] | stem:[-9.06*10^(-8)] | 0.00
-a| Flatness of ICL transfer function depending on bandwidth stem:[f_(3" dB,k"] | Hz | stem:[oo] | stem:[6.20*10^5] | stem:[-4.18*10^(-7)] | 0.00
-a| Stability of feedback resistor stem:[R_(f,k)] of the SQUID electronics | stem:[Omega] | stem:[3.00*10^4] | stem:[8.66*10^(-1)] | stem:[9.34*10^(-7)] | 0.01
+| stem:[r_(1,3)... r_(93)] | m | stem:[6.425*10^(-4)] | stem:[1.15*10^(-7)] | stem:[1.14*10^(-5)] | 1.43
+| stem:[ii(sigma)] | stem:[(rm(Omega)*rm(m))^(-1)] | stem:[5.915*10^9] | stem:[3.59*10^7] | stem:[1.43*10^(-5)] | 2.23
+| stem:[ii(mu)_("r")] | | 1.00 | stem:[2.80*10^(-6)] | stem:[-9.06*10^(-8)] | 0.00
+a| Flatness of ICL transfer function depending on bandwidth stem:[f_(3" "rm(dB),k)] | Hz | stem:[oo] | stem:[6.20*10^5] | stem:[-4.18*10^(-7)] | 0.00
+a| Stability of feedback resistor stem:[ii(R)_(f,k)] of the SQUID electronics | stem:[rm(Omega)] | stem:[3.00*10^4] | stem:[8.66*10^(-1)] | stem:[9.34*10^(-7)] | 0.01
 a| AC voltage meas. (ADC gain, flatness) | | 1.00 | stem:[1.73*10^(-4)] | stem:[1.68*10^(-5)] | 3.09
 a| Timing accuracy of the ADC (relative) | | 1.00 | stem:[1.16*10^(-5)] | stem:[1.87*10^(-7)] | 0.00
-a| Correlation limit stem:[S_(phi,12,"min")] | stem:[phi^2//"Hz"] | (0) | stem:[1.07*10^(-15)] | stem:[2.63*10^(-6)] | 0.08
-a| Edge effect stem:[M_k//M_k](unshielded) | | 1.00 | stem:[6.06*10^(-6)] | stem:[-1.96*10^(-7)] | 0.00
-a| Edge effect stem:[S_phi//S_phi(oo)] | | 1.00 | stem:[3.18*10^(-7)] | stem:[5.14*10^(-9)] | 0.00
-a| Edge effect stem:[S_phi//S_phi](unshielded) | | 1.00 | stem:[3.18*10^(-7)] | stem:[5.14*10^(-9)] | 0.00
-a| Parasitic coil areas, stem:[S_phi//S_phi](model) | | 1.00 | stem:[4.45*10^(-5)] | stem:[-7.19*10^(-7)] | 0.01
-| stem:[R_("cal")] | stem:[Omega] | stem:[9.988*10^2] | stem:[2.01*10^(-2)] | stem:[-6.51*10^(-7)] | 0.00
+a| Correlation limit stem:[ii(S)_(ii(phi),12,"min")] | stem:[ii(phi)^2//rm(Hz)] | (0) | stem:[1.07*10^(-15)] | stem:[2.63*10^(-6)] | 0.08
+a| Edge effect stem:[ii(M)_k//ii(M)_k](unshielded) | | 1.00 | stem:[6.06*10^(-6)] | stem:[-1.96*10^(-7)] | 0.00
+a| Edge effect stem:[ii(S)_ii(phi)//ii(S)_ii(phi)(oo)] | | 1.00 | stem:[3.18*10^(-7)] | stem:[5.14*10^(-9)] | 0.00
+a| Edge effect stem:[ii(S)_ii(phi)//ii(S)_ii(phi)](unshielded) | | 1.00 | stem:[3.18*10^(-7)] | stem:[5.14*10^(-9)] | 0.00
+a| Parasitic coil areas, stem:[ii(S)_ii(phi)//ii(S)_ii(phi)](model) | | 1.00 | stem:[4.45*10^(-5)] | stem:[-7.19*10^(-7)] | 0.01
+| stem:[ii(R)_("cal")] | stem:[rm(Omega)] | stem:[9.988*10^2] | stem:[2.01*10^(-2)] | stem:[-6.51*10^(-7)] | 0.00
 6+<| type A
-a| Effect of signal-to-noise ratio, stem:[N_f] and stem:[N_("avg")] on CPSD in stem:[T_(12)(f)] | | stem:[1.617*10^(−2)] | stem:[1.62*10^(-6)] | stem:[1.62*10^(-6)] | 0.03
-^| stem:[T_("pMFFT") // "mK"] 3+^a| combined standard uncertainty / mK 2+^a| relative combined standard uncertainty / %
+a| Effect of signal-to-noise ratio, stem:[ii(N)_f] and stem:[ii(N)_("avg")] on CPSD in stem:[ii(T)_(12)(f)] | | stem:[1.617*10^(−2)] | stem:[1.62*10^(-6)] | stem:[1.62*10^(-6)] | 0.03
+^| stem:[ii(T)_("pMFFT") // rm(mK)] 3+^a| combined standard uncertainty / mK 2+^a| relative combined standard uncertainty / %
 ^| 16.175 3+^| 0.096 2+^| 0.59
 |===
 

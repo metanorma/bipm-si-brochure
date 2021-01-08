@@ -62,15 +62,15 @@ The determination of thermodynamic temperatures through absolute primary (spectr
 
 == Blackbody sources
 
-Primary (spectral) radiometric thermometry is based directly on Planck’s equation <<eq1>>. The spectral radiance of an ideal blackbody, stem:[L_("b",lambda)] footnote:[The subscript stem:[lambda] in this case indicates that the value is per unit wavelength, not a wavelength dependency.], that is the power emitted per unit area per solid angle per unit wavelength interval, is given by Planck’s law:
+Primary (spectral) radiometric thermometry is based directly on Planck’s equation <<eq1>>. The spectral radiance of an ideal blackbody, stem:[ii(L)_("b",ii(lambda))] footnote:[The subscript stem:[ii(lambda)] in this case indicates that the value is per unit wavelength, not a wavelength dependency.], that is the power emitted per unit area per solid angle per unit wavelength interval, is given by Planck’s law:
 
 [[eq1]]
 [stem]
 ++++
-L_("b",lambda)(lambda,T) = ((2hc^2)/(lambda^5)) 1/("exp" (hc//lambda k T)-1),
+ii(L)_("b",ii(lambda))(ii(lambda),ii(T)) = ((2hc^2)/(ii(lambda)^5)) 1/("exp" (hc//ii(lambda) k ii(T))-1),
 ++++
 
-where stem:[T] is the thermodynamic temperature, stem:[k] is the Boltzmann constant, stem:[h] is the Planck constant, stem:[c] the speed of light _in vacuo_, and stem:[lambda] is the wavelength _in vacuo_. The unit of the spectral radiance is stem:["W m"^(–2)"sr"^(–1)" nm"^(–1)].
+where stem:[ii(T)] is the thermodynamic temperature, stem:[k] is the Boltzmann constant, stem:[h] is the Planck constant, stem:[c] the speed of light _in vacuo_, and stem:[ii(lambda)] is the wavelength _in vacuo_. The unit of the spectral radiance is stem:[rm(W)" "rm(m)^(–2)rm(sr)^(–1)" "rm(nm)^(–1)].
 
 == Traceability to SI units
 
@@ -90,20 +90,19 @@ There are numerous examples of practical implementations of absolute primary rad
 
 == Attainable uncertainties with absolute primary radiometry
 
-In order to simplify the uncertainty analysis, incorporating the finite radiometer bandwidth while retaining the thermodynamic basis, the Planck form of the Sakuma–Hattori equation is used to model the signal measured by the radiometer – see document <<machin3,CCT/10-12>> and <<saunders,Saunders (2011)>> for details. This model is written as a function of the mean wavelength, stem:[lambda_0], and standard deviation, stem:[sigma], (proportional to the width) of the relative spectral responsivity, and a parameter stem:[H], which is proportional to the area under the absolute spectral responsivity curve. <<table1>> and <<fig1>> give the current best uncertainty components for the laser-based calibration method.
+In order to simplify the uncertainty analysis, incorporating the finite radiometer bandwidth while retaining the thermodynamic basis, the Planck form of the Sakuma–Hattori equation is used to model the signal measured by the radiometer – see document <<machin3,CCT/10-12>> and <<saunders,Saunders (2011)>> for details. This model is written as a function of the mean wavelength, stem:[ii(lambda)_0], and standard deviation, stem:[ii(sigma)], (proportional to the width) of the relative spectral responsivity, and a parameter stem:[ii(H)], which is proportional to the area under the absolute spectral responsivity curve. <<table1>> and <<fig1>> give the current best uncertainty components for the laser-based calibration method.
 
 [[table1]]
-.Standard uncertainty components for absolute primary radiometry for the case of laser-based radiance responsivity. The parameter stem:[r] is the relative bandwidth (stem:[r = sigma // lambda_0]), and the in-use stem:[S] components are those associated with measuring the radiometer signal at the unknown temperature.
+.Standard uncertainty components for absolute primary radiometry for the case of laser-based radiance responsivity. The parameter stem:[r] is the relative bandwidth (stem:[r = ii(sigma) // ii(lambda)_0]), and the in-use stem:[ii(S)] components are those associated with measuring the radiometer signal at the unknown temperature.
 |===
-| Uncertainty Component | Value (Laser-based system)
+h| Uncertainty Component h| Value (Laser-based system)
 
-a| stem:[lambda_0]:: (650 nm) |
+a| stem:[ii(lambda)_0]:: (650 nm) |
 | Wavelength | 0.0003 nm
 | Drift | 0.0003 nm
-| *Total* stem:[lambda_0] | *0.00042 nm*
-a| *Total* stem:[sigma]:: (stem:[r = 0.01]) | *0.0000042 nm*
-
-h| stem:[H] |
+| *Total* stem:[ii(lambda)_0] | *0.00042 nm*
+a| *Total* stem:[ii(sigma)]:: (stem:[r = 0.01]) | *0.0000042 nm*
+h| stem:[ii(H)] |
 | Trap detector | 0.015%
 | Aperture area | 0.004%
 | Distance | 0.01%
@@ -111,17 +110,15 @@ h| stem:[H] |
 | Amplifier gain | 0.005%
 | Temperature coefficient of trap | 0.002%
 | Temporal stability of trap | 0.013%
-| *Total* stem:[H] | *0.034%*
-
-h| In-use stem:[S] |
+| *Total* stem:[ii(H)] | *0.034%*
+h| In-use stem:[ii(S)] |
 | SSE (size of source effect) | 0.01%
 | Non-linearity | 0.005%
 | Gain ratios | 0.01%
 | Ambient conditions | 0.002%
 | Drift | 0.01%
 | Repeatability | 0.003%
-| *Total in-use* stem:[S] | *0.018%*
-
+| *Total in-use* stem:[ii(S)] | *0.018%*
 |===
 
 [[fig1]]
