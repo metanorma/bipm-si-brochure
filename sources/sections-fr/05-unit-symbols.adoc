@@ -78,13 +78,13 @@ individuelles, il convient d’utiliser une espace ou un tiret pour séparer cha
 === Règles et conventions stylistiques servant à exprimer les valeurs des grandeurs
 
 [[scls541]]
-==== Valeur et valeur numérique d’une grandeur; utilisation du calcul formel
+==== Valeur et valeur numérique d’une grandeur; utilisation du ((calcul formel))
 
 Les symboles des grandeurs sont en général formés d’une seule lettre en italique mais des
 informations complémentaires sur la grandeur peuvent être précisées par un indice ou un
 exposant ajouté au symbole ou au moyen de parenthèses. Par exemple, stem:[ii(C)] est le symbole
-recommandé pour la capacité thermique, stem:[c_"m"] pour la capacité thermique molaire, stem:[c_("m",p)] pour
-la capacité thermique molaire à pression constante et stem:[c_("m",V)] pour la capacité thermique
+recommandé pour la ((capacité thermique)), stem:[c_"m"] pour la ((capacité thermique)) molaire, stem:[c_("m",p)] pour
+la ((capacité thermique)) molaire à pression constante et stem:[c_("m",V)] pour la ((capacité thermique))
 molaire à volume constant.
 
 Les noms et symboles recommandés pour les grandeurs figurent dans de nombreux
@@ -102,7 +102,7 @@ n’oblige en aucun cas à choisir une unité en particulier.
 Les symboles des unités sont traités comme des entités mathématiques. Lorsque l’on
 exprime la valeur d’une grandeur comme le produit d’une valeur numérique par une unité,
 la valeur numérique et l’unité peuvent être traitées selon les règles ordinaires de l’algèbre.
-Une telle démarche applique les principes du calcul formel ou de l’algèbre des grandeurs.
+Une telle démarche applique les principes du ((calcul formel)) ou de l’algèbre des grandeurs.
 Par exemple l’équation stem:[p = 48 " "rm(kPa)] peut aussi s’écrire stem:[p//rm(kPa) = 48]. Il est courant d’écrire le
 quotient d’une grandeur et d’une unité en tête de colonne d’un tableau, afin que les entrées
 du tableau soient simplement des nombres. Par exemple, un tableau exprimant la vitesse au
@@ -153,14 +153,14 @@ La valeur numérique précède toujours l’unité et il y a toujours une espace
 et l’unité. Ainsi, la valeur d’une grandeur étant le produit d’un nombre par une unité,
 l’espace entre le nombre et l’unité est considérée comme un signe de multiplication
 (tout comme l’espace entre les unités). Les seules exceptions à la règle sont les symboles
-d’unité pour le degré, la minute et la seconde d’angle plan (respectivement °, ′ e t ″)
+d’unité pour le degré, la minute et la seconde d’angle(((angle))) plan (respectivement °, ′ e t ″)
 pour lesquels il n’y a pas d’espace entre la valeur numérique et le symbole de l’unité.
 
 NOTE: stem:[m = 12.3 " "rm(g)] où m est
 utilisé comme symbole de la
 grandeur «&nbsp;masse&nbsp;» mais stem:[phi = 30° 22&#x2032; 8&#x2033;]
 où stem:[phi] est utilisé comme symbole
-de la grandeur «&nbsp;angle plan&nbsp;».
+de la grandeur «&nbsp;angle plan&nbsp;»(((angle))).
 
 Cette règle signifie que le symbole stem:[°rm(C)] pour le degré Celsius est précédé d’une espace pour
 exprimer la valeur de la température Celsius, stem:[t].
@@ -178,8 +178,8 @@ lorsque l’on écrit le nom de l’unité en toutes lettres que l’on applique
 grammaticales ordinaires (voir un exemple en anglais page <<english-doc,anchor=english_example>>).
 
 Dans une expression donnée, une seule unité doit être utilisée. Les valeurs des grandeurs
-«&nbsp;temps&nbsp;» et «&nbsp;angle plan&nbsp;» exprimées au moyen d’unités en dehors du SI font exception à
-cette règle. Toutefois, en ce qui concerne l’angle plan, il est généralement préférable de
+«&nbsp;temps&nbsp;» et «&nbsp;angle plan&nbsp;»(((angle))) exprimées au moyen d’unités en dehors du SI font exception à
+cette règle. Toutefois, en ce qui concerne l’angle(((angle))) plan, il est généralement préférable de
 diviser le degré de manière décimale. Ainsi, il est préférable d’écrire 22.20° plutôt que
 22° 12′, sauf dans les domaines tels que la navigation, la cartographie, l’astronomie et la
 mesure d’angles très petits.
@@ -208,7 +208,7 @@ stem:[−0.234] mais pas stem:[−,234]
 
 Conformément à la décision de la CGPM à sa 9^e^ réunion (1948, Résolution 7) et à sa
 22^e^ réunion (2003, Résolution 10), les nombres comportant un grand nombre de chiffres
-peuvent être partagés en tranches de trois chiffres, séparées par une espace, afin de faciliter la
+peuvent être partagés en tranches de trois chiffres(((chiffres groupés par tranches de 3 chiffres))), séparées par une espace, afin de faciliter la
 lecture. Ces tranches ne sont jamais séparées par des points, ni par des virgules. Cependant,
 lorsqu’il n’y a que quatre chiffres avant ou après le séparateur décimal, il est d’usage de ne
 pas isoler un chiffre par une espace. L’habitude de grouper ainsi les chiffres est question de
@@ -318,24 +318,24 @@ source de confusion supplémentaire.
 [[scls548]]
 ==== Angles plans, angles solides et angles de phase
 
-L’unité cohérente du SI pour l’angle plan et l’angle de phase est le radian, symbole stem:[rm(rad)],
-et celle de l’angle solide est le stéradian, symbole stem:[rm(sr)].
+L’unité cohérente du SI pour l’angle(((angle))) plan et l’angle(((angle))) de phase est le radian, symbole stem:[rm(rad)],
+et celle de l’angle(((angle))) solide est le stéradian, symbole stem:[rm(sr)].
 
-Lorsqu’il est exprimé en radian, l’angle plan entre deux lignes partant d’un point commun
+Lorsqu’il est exprimé en radian, l’angle(((angle))) plan entre deux lignes partant d’un point commun
 est la longueur de l’arc circulaire stem:[s] balayée entre ces lignes par un vecteur rayon de
 longueur stem:[r] depuis le point commun, divisée par la longueur du vecteur rayon, stem:[ii(theta) = s//r] stem:[rm(rad)].
-L’angle de phase (communément appelé «&nbsp;phase&nbsp;») est l’argument de tout nombre
-complexe. C’est l’angle entre l’axe réél positif et le rayon de la représentation polaire du
+L’angle(((angle))) de phase (communément appelé «&nbsp;phase&nbsp;») est l’argument de tout nombre
+complexe. C’est l’angle(((angle))) entre l’axe réél positif et le rayon de la représentation polaire du
 nombre complexe dans le plan complexe.
 
-Un radian correspond à l’angle pour lequel stem:[s = r], ainsi stem:[1 " "rm(rad) = 1]. La mesure de l’angle droit
+Un radian correspond à l’angle(((angle))) pour lequel stem:[s = r], ainsi stem:[1 " "rm(rad) = 1]. La mesure de l’angle(((angle))) droit
 est exactement égale au nombre stem:[pi//2].
 
 Le degré est une convention historique. La conversion entre radians et degrés découle de la
 relation stem:[360° = 2 pi " "rm(rad)]. On remarque que le degré, symbole °, n’est pas une unité du SI.
 
-L’angle solide, exprimé en stéradian, correspond au rapport entre l’aire stem:[ii(A)] de la surface
-d’une sphère de rayon stem:[r] et le rayon au carré, stem:[ii Omega = ii(A)//r^2] stem:[rm(sr)]. Un stéradian correspond à l’angle
+L’angle(((angle))) solide, exprimé en stéradian, correspond au rapport entre l’aire stem:[ii(A)] de la surface
+d’une sphère de rayon stem:[r] et le rayon au carré, stem:[ii Omega = ii(A)//r^2] stem:[rm(sr)]. Un stéradian correspond à l’angle(((angle)))
 solide pour lequel stem:[ii(A) = r^2], ainsi stem:[1 " "rm(sr) = 1].
 
 Les unités stem:[rm(rad)] et stem:[rm(sr)] correspondent respectivement aux rapports de deux longueurs et de

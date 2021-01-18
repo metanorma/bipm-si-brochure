@@ -24,11 +24,11 @@ unités de temps en dehors du SI.
 | heure | stem:[rm(h)] | stem:[1 " "rm(h) = 60 " "rm(min) = 3600 " "rm(s)]
 | jour | stem:[rm(d)] | stem:[1 " "rm(d) = 24 " "rm(h) = 86400 " "rm(s)]
 | longueur | unité astronomique footnote:[Décision de la XXVIII^e^ Assemblée générale de l’Union astronomique internationale (Résolution B2, 2012).] | stem:[rm(au)] | stem:[1 " "rm(au) = 149597870700 " "rm(m)]
-.3+| angle plan et de phase | degré | stem:["°"] | stem:[1° = (pi //180) " "rm(rad)]
+.3+| angle(((angle))) plan et de phase | degré | stem:["°"] | stem:[1° = (pi //180) " "rm(rad)]
 |  minute | stem:["&#x2032;"] | stem:[1&#x2032; = (1//60)° = (pi //10800) " "rm(rad)]
-| seconde footnote:[En astronomie, les petits angles sont mesurés en secondes d’arc (c’est-à-dire en secondes d’angle plan),
+| seconde footnote:[En astronomie, les petits angles sont mesurés en secondes d’arc (c’est-à-dire en secondes d’angle(((angle))) plan),
 symbole as ou ″, et en milliarcsecondes, microarcsecondes et picoarcsecondes, de symboles respectifs
-mas, stem:[mu " "rm(as)] et pas, l’arcseconde étant un autre nom pour la seconde d’angle plan.] | stem:["&#x2033;"] | stem:[1&#x2033; = (1//60)&#x2032; = (pi //648000) " "rm(rad)]
+mas, stem:[mu " "rm(as)] et pas, l’arcseconde étant un autre nom pour la seconde d’angle(((angle))) plan.] | stem:["&#x2033;"] | stem:[1&#x2033; = (1//60)&#x2032; = (pi //648000) " "rm(rad)]
 | superficie | hectare footnote:[L’unité hectare et son symbole ha ont été adoptés par le CIPM en 1879 (PV, 1879, 41). L’hectare est
 utilisé pour exprimer des superficies agraires.] | stem:[rm(ha)] | stem:[1] stem:[rm(ha) = 1] stem:[rm(hm)^2 = 10^4] stem:[rm(m)^2]
 | volume | litre footnote:[Le litre et son symbole l (en minuscule) ont été adoptés par le CIPM en 1879 (PV, 1879, 41).
@@ -39,14 +39,14 @@ le chiffre un, 1.] | stem:[rm(l)," "rm(L)] | stem:[1] stem:[rm(l) = 1] stem:[rm(
 langue anglaise, cette unité est généralement désignée sous le nom «&nbsp;tonne métrique&nbsp;».] | stem:[rm(t)] | stem:[1 " "rm(t) = 10^3] stem:[rm(kg)]
 | dalton footnote:[Le dalton (Da) et l’unité de masse atomique unifiée (u) sont d’autres noms (et symboles) pour la même
 unité, égale à 1/12 de la masse de l’atome de ^12^C libre, au repos et dans son état fondamental. Cette valeur
-du dalton est la valeur recommandée dans l’ajustement de 2018 de CODATA.] | stem:["Da"] | stem:[1] stem:[rm(Da)] stem:[= 1.66053906660(50) xx 10^{-27}] stem:[rm(kg)]
+du dalton est la valeur recommandée dans l’ajustement de 2018 de ((CODATA)).] | stem:["Da"] | stem:[1] stem:[rm(Da)] stem:[= 1.66053906660(50) xx 10^{-27}] stem:[rm(kg)]
 | énergie | électronvolt footnote:[L’électronvolt est l’énergie cinétique acquise par un électron après traversée d’une différence de
 potentiel de 1 V dans le vide. L’électronvolt est souvent combiné aux préfixes du SI.] | stem:[rm(eV)] | stem:[1] stem:[rm(eV)] stem:[= 1.602176634 xx 10^{-19}] stem:[rm(J)]
 .3+| logarithme d’un rapport | neper
 footnote:note-h[Lorsque l’on utilise ces unités, il est important de
 préciser quelle est la nature de la grandeur en
 question et la valeur de référence utilisée.] | stem:[rm(Np)] | voir notes de bas de page
-| bel footnote:note-h[] | stem:[rm(B)] |
+| bel(((bel (B)))) footnote:note-h[] | stem:[rm(B)] |
 | decibel footnote:note-h[] | stem:[rm(dB)] |
 |===
 
@@ -54,21 +54,21 @@ question et la valeur de référence utilisée.] | stem:[rm(Np)] | voir notes de
 ====
 Le gal, symbole stem:[rm(Gal)], est une unité en dehors
 du SI utilisée en géodésie et géophysique pour
-exprimer l’accélération due à la pesanteur.
+exprimer l’accélération due à la pesanteur ((("accélération due à la pesanteur "(stem:[g_{"n"}])))).
 
 stem:[1 " "rm(Gal) = 1 " "rm(cm)" "rm(s)^(−2)] +
 stem:[= 10^(−2) " "rm(m)" "rm(s)^(−2)]
 ====
 
-Le <<table-8>> mentionne aussi les unités des grandeurs logarithmiques, le néper, le bel et le
+Le <<table-8>> mentionne aussi les unités des grandeurs logarithmiques, le néper, le bel(((bel (B)))) et le
 décibel. Elles sont utilisées pour véhiculer des informations sur la nature du logarithme
 d’un rapport de grandeurs. Le néper, stem:[rm(Np)], est utilisé pour exprimer la valeur de grandeurs
 dont la valeur numérique est un logarithme néperien (ou naturel) d’un rapport de grandeurs,
-stem:["ln" = "log"_"e"]. Le bel et le décibel, stem:[rm(B)] et stem:[rm(dB)], stem:[1 " "rm(dB) = (1//10) " "rm(B)],
+stem:["ln" = "log"_"e"]. Le bel(((bel (B)))) et le décibel, stem:[rm(B)] et stem:[rm(dB)], stem:[1 " "rm(dB) = (1//10) " "rm(B)],
 sont utilisés pour exprimer la valeur
 de grandeurs dont la valeur numérique est un logarithme de base 10 d’un rapport de
 grandeurs, stem:["lg" = "log"_(10)]. L’égalité stem:[ii(L)_X = m " "rm(dB) = (m//10) " "rm(B)] (où stem:[m] est un nombre) est comprise
-comme signifiant que stem:[m = 10 "lg"(ii(X)//ii(X)_0)]. L’usage des unités néper, bel et décibel avec le SI a
+comme signifiant que stem:[m = 10 "lg"(ii(X)//ii(X)_0)]. L’usage des unités néper, bel(((bel (B)))) et décibel avec le SI a
 été accepté par le CIPM mais ces unités ne sont pas des unités du SI.
 
 Il existe de nombreuses autres unités en dehors du SI qui
