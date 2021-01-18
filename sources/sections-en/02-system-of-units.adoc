@@ -1,11 +1,8 @@
 == The International System of Units
 
 === Defining the unit of a quantity
-index-range:si_3[(((International System of Units (SI))))]
-(((value of a quantity)))
-(((quantity)))
-(((second (s))))
 
+index-range:si_3[(((International System of Units (SI))))](((value of a quantity)))(((quantity)))(((second (s))))
 The value of a quantity is generally expressed as the product of a number and a unit. The unit is simply a particular example of the quantity concerned which is used as a reference, and the number is the ratio of the value of the quantity to the unit.
 
 NOTE: For example, the ((speed of light in vacuum)) is a constant of nature, denoted by stem:[c], whose value in SI units is given by the relation stem:[c = 299792458 " "rm(m)//rm(s)] where the numerical value is stem:[299792458] and the unit is stem:[rm(m)//rm(s)].
@@ -32,8 +29,8 @@ stem:[rm(mol)//rm(mol) = rm(mol)" "rm(mol)^{-1}]
 ====
 
 The definitions below specify the exact numerical value of each constant when its value is expressed in the corresponding SI unit. By fixing the exact numerical value, the unit becomes defined, since the product of the *_numerical value_* and the *_unit_* has to equal the *_value_* of the constant, which is postulated to be invariant.
-
 (((fundamental constants (of physics))))
+
 The seven constants are chosen in such a way that any unit of the SI can be written either through a defining constant itself or through products or quotients of ((defining constants)).
 
 *The International System of Units, the SI, is the system of units in which:*
@@ -49,13 +46,15 @@ The seven constants are chosen in such a way that any unit of the SI can be writ
 
 
 (((hertz (Hz))))(((coulomb (C))))(((lumen (lm))))(((mole (mol))))
-
 where the hertz, joule, coulomb, lumen, and watt, with unit symbols stem:[rm(Hz)], stem:[rm(J)], stem:[rm(C)], stem:[rm(lm)], and stem:[rm(W)], respectively, are related to the units second, metre, kilogram, ampere(((ampere (A)))), kelvin, mole, and candela(((candela (cd)))), with unit symbols stem:[rm(s)], stem:[rm(m)], stem:[rm(kg)], stem:[rm(A)], stem:[rm(K)], stem:[rm(mol)], and stem:[rm(cd)], respectively, according to stem:[rm(Hz) = rm(s)^(–1)], stem:[rm(J) = rm(kg)" "rm(m)^2 " "rm(s)^(–2)], stem:[rm(C) = rm(A)" "rm(s)], stem:[rm(lm) = rm(cd)" "rm(m)^2 " "rm(m)^(–2) = rm(cd)" "rm(sr)], and stem:[rm(W) = rm(kg)" "rm(m)^2 " "rm(s)^(–3)].
 
 The numerical values of the seven ((defining constants)) have no ((uncertainty)).
+(((fundamental constants (of physics))))
+(((defining constants)))
+(((fine structure constant)))
 
-.The seven defining constants of the SI and the seven corresponding units they define (((fundamental constants (of physics))))
-[cols="<,<,<,<"] (((defining constants))) (((fine structure constant)))
+.The seven defining constants of the SI and the seven corresponding units they define
+[cols="<,<,<,<"]
 |===
 | Defining constant | Symbol | Numerical value | Unit
 
@@ -94,13 +93,13 @@ The ((Avogadro constant)) stem:[ii(N)_"A"] is a proportionality constant between
 The ((luminous efficacy)) of monochromatic radiation of frequency stem:[540 xx 10^(12) " " rm(Hz)], stem:[ii(K)_("cd")], is a technical constant that gives an exact numerical relationship between the purely physical characteristics of the radiant power stimulating the human eye (stem:[rm(W)]) and its photobiological response defined by the luminous flux due to the spectral responsivity of a standard observer (stem:[rm(lm)]) at a frequency of stem:[540 xx 10^(12) text( hertz)]. [[si_3]] [[realization_unit-2]]
 
 === Definitions of the SI units
-index-range:unit_si[(((unit (SI))))]
-((("quantity, derived")))
-(((base unit(s))))
 
+index-range:unit_si[(((unit (SI))))] ((("quantity, derived"))) (((base unit(s))))
 Prior to the definitions adopted in 2018, the SI was defined through seven _base units_ from which the _derived units_ were constructed as products of powers of the _base units._ Defining the SI by fixing the numerical values of seven ((defining constants)) has the effect that this distinction is, in principle, not needed, since all units, _base_ as well as _derived units_, may be constructed directly from the ((defining constants)). Nevertheless, the concept of base and derived units is maintained because it is useful and historically well established, noting also that the ((ISO/IEC 80000 series)) of Standards specify base and derived quantities which necessarily correspond to the SI base and derived units defined here.
 
 ==== Base units
+
+The base units of the SI are listed in <<table2>>.
 index:see["unit, base",base unit(s)]
 index-range:base_units[(((base unit(s))))]
 index-range:def_base-units[(((definitions of base units)))]
@@ -109,8 +108,6 @@ index-range:def_base-units[(((definitions of base units)))]
 (((recommended symbols for quantities)))
 (((second (s))))
 (((time (duration))))
-
-The base units of the SI are listed in <<table2>>.
 
 [[table2]]
 .SI base units
@@ -213,11 +210,11 @@ which is equal to
 ++++
 
 The effect of this definition is that one ampere(((ampere (A)))) is the ((electric current)) corresponding to the flow of stem:[1//(1.602176634 xx 10^(−19))] elementary charges per second.
-
 (((henry (H))))
 (((ampere (A))))
 ((("magnetic constant, permeability of vacuum")))
 ((("quantity, derived")))
+
 The previous definition of the ampere was based on the force between two current carrying conductors and had the effect of fixing the value of the vacuum magnetic permeability stem:[ii(mu)_0] (also known as the magnetic constant) to be exactly stem:[4pi xx 10^(−7) " "rm(H)" "rm(m)^(−1) = 4pi xx 10^(−7) " "rm(N)" "rm(A)^(−2)], where stem:[rm(H)] and stem:[rm(N)] denote the ((coherent derived units)) henry and newton, respectively. The new definition of the ampere fixes the value of stem:[e] instead of stem:[ii(mu)_0]. As a result, stem:[ii(mu)_0] must be determined experimentally.
 
 It also follows that since the vacuum electric permittivity stem:[epsilon_0] (also known as the electric constant), the characteristic impedance of vacuum stem:[ii(Z)_0], and the admittance of vacuum stem:[ii(Y)_0] are equal to stem:[1//ii(mu)_0 c^2], stem:[ii(mu)_0 c], and stem:[1//ii(mu)_0c], respectively, the values of stem:[ii(epsilon)_0], stem:[ii(Z)_0], and stem:[ii(Y)_0] must now also be determined experimentally, and are affected by the same relative standard uncertainty as stem:[ii(mu)_0] since stem:[c] is exactly known. The product stem:[ii(epsilon)_0 ii(mu)_0 = 1//c^2] and quotient stem:[ii(Z)_0//ii(mu)_0 = c] remain exact. At the time of adopting the present definition of the ampere(((ampere (A)))), stem:[ii(mu)_0] was equal to stem:[4pi xx 10^(−7) " "rm(H)//rm(m)] with a relative standard uncertainty of stem:[2.3 xx 10^(−10)].
@@ -260,11 +257,11 @@ t "/°"rm(C) = ii(T)//rm(K) − 273.15
 ++++
 
 (see <<quantity_value>> for an explanation of the notation used here).
-
 (((degree Celsius (°C))))
 (((International Temperature Scale of 1990 (ITS-90))))
 (((kelvin (K))))
 (((thermodynamic temperature)))
+
 The kelvin and the degree Celsius are also units of the ((International Temperature Scale of 1990 (ITS-90))) adopted by the CIPM in 1989 in Recommendation 5 (CI-1989, PV, *57*, 115). Note that the ITS-90 defines two quantities stem:[ii(T)_(90)] and stem:[t_(90)] which are close approximations to the corresponding thermodynamic temperatures stem:[ii(T)] and stem:[t].
 
 Note that with the present definition, primary realizations of the kelvin can, in principle, be established at any point of the temperature scale.
@@ -339,14 +336,10 @@ which is equal to
 The effect of this definition is that one candela(((candela (cd)))) is the luminous intensity, in a  given direction, of a source that emits monochromatic radiation of frequency stem:[540 xx 10^(12) " "rm(Hz)] and has a radiant intensity in that direction of stem:[(1//683) " "rm(W)" "rm(sr)^(−1)]. The definition of the steradian(((steradian (sr)))) is given below <<table4>>. [[base_units]] [[def_base-units]]
 
 ==== Practical realization of SI units
-(((realization of a unit)))
 
-The highest-level experimental methods used for the realization of units using the equations of physics are known as primary methods. The essential characteristic of a primary method is that it allows a quantity to be measured in a particular unit by using only measurements of quantities that do not involve that unit. In the present formulation of the SI, the basis of the definitions is different from that used previously, so that new methods may be used for the practical realization of SI units.
+(((realization of a unit)))The highest-level experimental methods used for the realization of units using the equations of physics are known as primary methods. The essential characteristic of a primary method is that it allows a quantity to be measured in a particular unit by using only measurements of quantities that do not involve that unit. In the present formulation of the SI, the basis of the definitions is different from that used previously, so that new methods may be used for the practical realization of SI units.
 
 Instead of each definition specifying a particular condition or physical state, which sets a fundamental limit to the accuracy of realization, a user is now free to choose any convenient equation of physics that links the ((defining constants)) to the quantity intended to be measured. This is a much more general way of defining the basic units of measurement. It is not limited by today's science or technology; future developments may lead to different ways of realizing units to a higher accuracy. When defined this way, there is, in principle, no limit to the accuracy with which a unit might be realized. The exception remains the definition of the second, in which the original microwave transition of caesium must remain, for the time being, the basis of the definition. For a more comprehensive explanation of the realization of SI units see <<appendix2>>.
-
-[[dimensions_of_quantities]]
-==== Dimensions of quantities
 index-range:dimension_quantity[(((dimension (of a quantity))))]
 index-range:quantity_symbols[(((quantity symbols)))]
 index-range:quantity_derived[((("quantity, derived")))]
@@ -354,6 +347,9 @@ index-range:quantity_derived[((("quantity, derived")))]
 (((base quantity)))
 (((recommended symbols for quantities)))
 (((time (duration))))
+
+[[dimensions_of_quantities]]
+==== Dimensions of quantities
 
 Physical quantities can be organized in a system of dimensions, where the system used is decided by convention. Each of the seven base quantities used in the SI is regarded as having its own dimension. The symbols used for the base quantities and the symbols used to denote their dimension are shown in <<table3>>.
 
@@ -386,23 +382,24 @@ There are quantities stem:[ii(Q)] for which the defining equation is such that a
 There are also some quantities that cannot be described in terms of the seven base quantities(((base quantity))) of the SI, but have the nature of a count. Examples are a number of molecules, a number of cellular or biomolecular entities (for example copies of a particular nucleic acid sequence), or degeneracy in quantum mechanics. Counting quantities(((counting quantities))) are also quantities with the associated unit one.
 
 The unit one is the neutral element of any system of units – necessary and present automatically. There is no requirement to introduce it formally by decision. Therefore, a formal traceability to the SI can be established through appropriate, validated measurement procedures.
+(((steradian (sr))))
+(((angle)))
 
-(((steradian (sr))))(((angle)))
 Plane and solid angles, when expressed in radians and steradians respectively, are in effect also treated within the SI as quantities with the unit one (see <<plane_angles,nosee%>>). The symbols rad and sr are written explicitly where appropriate, in order to emphasize that, for radians or steradians, the quantity being considered is, or involves the plane angle or solid angle respectively. For steradians it emphasizes the distinction between units of flux and intensity in radiometry and photometry for example. However, it is a long-established practice in mathematics and across all areas of science to make use of stem:[rm(rad) = 1] and stem:[rm(sr) = 1]. For historical reasons the radian and steradian are treated as derived units, as described in <<derived_units>>.
 
 It is especially important to have a clear description of any quantity with unit one (see <<stating_quantity,nosee%>>) that is expressed as a ratio of quantities of the same kind (for example length ratios or amount fractions) or as a count (for example number of photons or decays). [[dimension_quantity]] [[quantity_symbols]]
+index-range:derived_units_rng[(((derived unit(s))))]
 
 [[derived_units]]
 ==== Derived units
-index-range:derived_units_rng[(((derived unit(s))))]
 
 Derived units are defined as products of powers of the base units. When the numerical factor of this product is one, the derived units are called _((coherent derived units))_. The base and ((coherent derived units)) of the SI form a coherent set, designated the _set of coherent SI units_. The word "coherent" here means that equations between the numerical values of quantities take exactly the same form as the equations between the quantities themselves.
 
 Some of the ((coherent derived units)) in the SI are given special names. <<table4,nosee%>> lists 22 SI units with special names. Together with the seven base units(((base unit(s)))) (<<table2,nosee%>>) they form the core of the set of SI units. All other SI units are combinations of some of these 29 units.
 
 It is important to note that any of the seven base units(((base unit(s)))) and 22 SI units with special names can be constructed directly from the seven ((defining constants)). In fact, the units of the seven ((defining constants)) include both base and derived units.
-
 (((prefixes)))
+
 The CGPM has adopted a series of prefixes for use in forming the decimal multiples and sub-multiples of the coherent SI units (see <<multiples,nosee%>>). They are convenient for expressing the values of quantities that are much larger than or much smaller than the coherent unit. However, when prefixes are used with SI units, the resulting units are no longer coherent, because the prefix introduces a numerical factor other than one. Prefixes may be used with any of the 29 SI units with special names with the exception of the base unit(((base unit(s)))) kilogram, which is further explained in <<multiples>>.
 index-range:joule_j-2[(((joule (J))))]
 index-range:multiples_prefixes-1[((("multiples, prefixes for")))]
@@ -497,32 +494,33 @@ The seven base units(((base unit(s)))) and 22 units with special names and symbo
 | catalytic activity concentration | katal per cubic metre | stem:[rm(kat)" "rm(m)^(−3)] | stem:[rm(mol)" "rm(s)^(−1) " "rm(m)^(−3)] (((katal (kat))))
 |===
 
-[[quantity_derived]]
-[[special_names]]
+
+
 It is important to emphasize that each physical quantity has only one coherent SI unit, even though this unit can be expressed in different forms by using some of the special names and symbols.
-
+[[special_names]] [[quantity_derived]]
 (((heat capacity)))(((kelvin (K))))((("quantity, base")))
-The converse, however, is not true, because in general several different quantities may share the same SI unit. For example, for the quantity heat capacity as well as for the quantity entropy the SI unit is joule per kelvin. Similarly, for the ((base quantity)) ((electric current)) as well as the derived quantity magnetomotive force the SI unit is the ampere(((ampere (A)))). It is therefore important not to use the unit alone to specify the quantity. This applies not only to technical texts, but also, for example, to measuring instruments (i.e. the instrument read-out needs to indicate both the unit and the quantity measured). [[derived_quantity]]
 
+The converse, however, is not true, because in general several different quantities may share the same SI unit. For example, for the quantity heat capacity as well as for the quantity entropy the SI unit is joule per kelvin. Similarly, for the ((base quantity)) ((electric current)) as well as the derived quantity magnetomotive force the SI unit is the ampere(((ampere (A)))). It is therefore important not to use the unit alone to specify the quantity. This applies not only to technical texts, but also, for example, to measuring instruments (i.e. the instrument read-out needs to indicate both the unit and the quantity measured). [[derived_quantity]]
 (((newton (Np))))
+
 In practice, with certain quantities, preference is given to the use of certain special unit names to facilitate the distinction between different quantities having the same dimension. When using this freedom, one may recall the process by which this quantity is defined. For example, the quantity torque is the cross product of a position vector and a force vector. The SI unit is newton metre. Even though torque has the same dimension as energy (SI unit joule), the joule is never used for expressing torque.
 
 NOTE: The International Electrotechnical Commission (IEC) has introduced the var (symbol: stem:[rm(var)]) as a special name for the unit of reactive power. In terms of SI coherent units, the stem:[rm(var)] is identical to the volt ampere(((ampere (A)))).
-
 (((hertz (Hz))))(((radian (rad))))
-The SI unit of frequency is hertz, the SI unit of angular velocity and angular frequency is radian per second, and the SI unit of activity is becquerel(((becquerel (Bq)))), implying counts per second. Although it is formally correct to write all three of these units as the reciprocal second, the use of the different names emphasizes the different nature of the quantities concerned. It is especially important to carefully distinguish frequencies from angular frequencies, because by definition their numerical values differ by a factor footnote:[see ISO 80000-3 for details] of stem:[2pi]. Ignoring this fact may cause an error of stem:[2pi]. Note that in some countries, frequency values are conventionally expressed using "cycle/s" or "cps" instead of the SI unit stem:[rm(Hz)], although "cycle" and "cps" are not units in the SI. Note also that it is common, although not recommended, to use the term frequency for quantities expressed in rad/s. Because of this, it is recommended that quantities called "frequency", "angular frequency", and "angular velocity" always be given explicit units of stem:[rm(Hz)] or stem:[rm(rad)//rm(s)] and not stem:[rm(s)^(−1)].
 
+The SI unit of frequency is hertz, the SI unit of angular velocity and angular frequency is radian per second, and the SI unit of activity is becquerel(((becquerel (Bq)))), implying counts per second. Although it is formally correct to write all three of these units as the reciprocal second, the use of the different names emphasizes the different nature of the quantities concerned. It is especially important to carefully distinguish frequencies from angular frequencies, because by definition their numerical values differ by a factor footnote:[see ISO 80000-3 for details] of stem:[2pi]. Ignoring this fact may cause an error of stem:[2pi]. Note that in some countries, frequency values are conventionally expressed using "cycle/s" or "cps" instead of the SI unit stem:[rm(Hz)], although "cycle" and "cps" are not units in the SI. Note also that it is common, although not recommended, to use the term frequency for quantities expressed in rad/s. Because of this, it is recommended that quantities called "frequency", "angular frequency", and "angular velocity" always be given explicit units of stem:[rm(Hz)] or stem:[rm(rad)//rm(s)] and not stem:[rm(s)^(−1)].
 (((gray (Gy))))(((becquerel (Bq))))(((ionizing radiation)))(((sievert (Sv))))
+
 In the field of ionizing radiation, the SI unit becquerel rather than the reciprocal second is used. The SI units gray and sievert are used for ((absorbed dose)) and dose equivalent, respectively, rather than joule per kilogram. The special names becquerel, gray and sievert were specifically introduced because of the dangers to human health that might arise from mistakes involving the units reciprocal second and joule per kilogram, in case the latter units were incorrectly taken to identify the different quantities involved.
 
 Special care must be taken when expressing temperatures or temperature differences, respectively. A temperature difference of stem:[1 " "rm(K)] equals that of stem:[1 " °"rm(C)], but for an absolute temperature the difference of stem:[273.15 " "rm(K)] must be taken into account. The unit degree Celsius(((degree Celsius (°C)))) is only coherent when expressing temperature differences. [[derived_units_rng]]
-
-==== Units for quantities that describe biological and physiological effects
 (((candela (cd))))
 (((lumen (lm))))
 (((lux (lx))))
 (((realization of a unit)))
 (((sievert (Sv))))
+
+==== Units for quantities that describe biological and physiological effects
 
 Four of the SI units listed in <<table2>> and <<table4>> include physiological weighting factors: candela, lumen, lux and sievert.
 
