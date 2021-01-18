@@ -90,7 +90,7 @@ The ((Avogadro constant)) stem:[ii(N)_"A"] is a proportionality constant between
 The ((luminous efficacy)) of monochromatic radiation of frequency stem:[540 xx 10^(12) " " rm(Hz)], stem:[ii(K)_("cd")], is a technical constant that gives an exact numerical relationship between the purely physical characteristics of the radiant power stimulating the human eye (stem:[rm(W)]) and its photobiological response defined by the luminous flux due to the spectral responsivity of a standard observer (stem:[rm(lm)]) at a frequency of stem:[540 xx 10^(12) text( hertz)]. [[si_3]] [[realization_unit-2]]
 
 === Definitions of the SI units
-(((quantity - derived)))
+((("quantity, derived")))
 
 Prior to the definitions adopted in 2018, the SI was defined through seven _base units_(((base unit(s)))) from which the _derived units_ were constructed as products of powers of the _base units._ Defining the SI by fixing the numerical values of seven ((defining constants)) has the effect that this distinction is, in principle, not needed, since all units, _base_ as well as _derived units_, may be constructed directly from the ((defining constants)). Nevertheless, the concept of base and derived units is maintained because it is useful and historically well established, noting also that the ((ISO/IEC 80000 series)) of Standards specify base and derived quantities which necessarily correspond to the SI base and derived units defined here.
 
@@ -98,7 +98,7 @@ Prior to the definitions adopted in 2018, the SI was defined through seven _base
 index-range:base_units[(((base unit(s))))]
 index-range:def_base-units[(((definitions of base units)))]
 (((mandatory symbols for units)))
-(((quantity - base)))
+((("quantity, base")))
 (((recommended symbols for quantities)))
 
 The base units of the SI are listed in <<table2>>.
@@ -207,8 +207,8 @@ The effect of this definition is that one ampere(((ampere (A)))) is the ((electr
 
 (((henry (H))))
 (((ampere (A))))
-(((magnetic constant - permeability of vacuum)))
-(((quantity - derived)))
+((("magnetic constant, permeability of vacuum")))
+((("quantity, derived")))
 The previous definition of the ampere was based on the force between two current carrying conductors and had the effect of fixing the value of the vacuum magnetic permeability stem:[ii(mu)_0] (also known as the magnetic constant) to be exactly stem:[4pi xx 10^(−7) " "rm(H)" "rm(m)^(−1) = 4pi xx 10^(−7) " "rm(N)" "rm(A)^(−2)], where stem:[rm(H)] and stem:[rm(N)] denote the ((coherent derived units)) henry and newton, respectively. The new definition of the ampere fixes the value of stem:[e] instead of stem:[ii(mu)_0]. As a result, stem:[ii(mu)_0] must be determined experimentally.
 
 It also follows that since the vacuum electric permittivity stem:[epsilon_0] (also known as the electric constant), the characteristic impedance of vacuum stem:[ii(Z)_0], and the admittance of vacuum stem:[ii(Y)_0] are equal to stem:[1//ii(mu)_0 c^2], stem:[ii(mu)_0 c], and stem:[1//ii(mu)_0c], respectively, the values of stem:[ii(epsilon)_0], stem:[ii(Z)_0], and stem:[ii(Y)_0] must now also be determined experimentally, and are affected by the same relative standard uncertainty as stem:[ii(mu)_0] since stem:[c] is exactly known. The product stem:[ii(epsilon)_0 ii(mu)_0 = 1//c^2] and quotient stem:[ii(Z)_0//ii(mu)_0 = c] remain exact. At the time of adopting the present definition of the ampere(((ampere (A)))), stem:[ii(mu)_0] was equal to stem:[4pi xx 10^(−7) " "rm(H)//rm(m)] with a relative standard uncertainty of stem:[2.3 xx 10^(−10)].
@@ -338,8 +338,8 @@ Instead of each definition specifying a particular condition or physical state, 
 ==== Dimensions of quantities
 index-range:dimension_quantity[(((dimension (of a quantity))))]
 index-range:quantity_symbols[(((quantity symbols)))]
-index-range:quantity_derived[(((quantity - derived)))]
-(((quantity - base)))
+index-range:quantity_derived[((("quantity, derived")))]
+((("quantity, base")))
 (((base quantity)))
 (((recommended symbols for quantities)))
 
@@ -393,7 +393,7 @@ It is important to note that any of the seven base units(((base unit(s)))) and 2
 The CGPM has adopted a series of prefixes for use in forming the decimal multiples and sub-multiples of the coherent SI units (see <<multiples,nosee%>>). They are convenient for expressing the values of quantities that are much larger than or much smaller than the coherent unit. However, when prefixes are used with SI units, the resulting units are no longer coherent, because the prefix introduces a numerical factor other than one. Prefixes may be used with any of the 29 SI units with special names with the exception of the base unit(((base unit(s)))) kilogram, which is further explained in <<multiples>>.
 
 index-range:joule_j-2[(((joule (J))))]
-index-range:multiples_prefixes-1[(((multiples - prefixes for)))]
+index-range:multiples_prefixes-1[((("multiples, prefixes for")))]
 index-range:radian_ra[(((radian (rad))))]
 
 [[table4]]
@@ -404,7 +404,7 @@ index-range:radian_ra[(((radian (rad))))]
 
 | plane angle | radian footnote:[The radian is the coherent unit for plane angle. One radian is the https://en.wikipedia.org/wiki/Angle[angle] https://en.wikipedia.org/wiki/Subtended[subtended] at the centre of a https://en.wikipedia.org/wiki/Circle[circle] by an https://en.wikipedia.org/wiki/Arc_%28geometry%29[arc] that is equal in length to the https://en.wikipedia.org/wiki/Radius[radius]. It is also the unit for phase angle. For periodic phenomena, the phase angle increases by stem:[2pi " "rm(rad)] in one period. The radian was formerly an https://en.wikipedia.org/wiki/SI_supplementary_unit[SI supplementary unit], but this category was abolished in 1995.] | stem:[rm(rad) = rm(m)//rm(m)] |
 | solid angle | steradian footnote:[The steradian is the coherent unit for solid angle. One steradian is the solid angle subtended at the centre of a sphere by an area of the surface that is equal to the squared radius. Like the radian, the steradian was formerly an SI supplementary unit.] | stem:[rm(sr) = rm(m)^2//rm(m)^2] |
-| frequency | hertz footnote:d[The hertz[[hertz_hz]] shall only be used for periodic phenomena and the becquerel shall only be used for stochastic processes in ((activity referred to a radionuclide)).] | stem:[rm(Hz) = rm(s)^(−1)] |
+| frequency | hertz footnote:d[The hertz shall only be used for periodic phenomena and the becquerel shall only be used for stochastic processes in ((activity referred to a radionuclide)).] | stem:[rm(Hz) = rm(s)^(−1)] |
 | force | newton | stem:[rm(N) = rm(kg)" "rm(m)" "rm(s)^(−2)] | (((newton (Np))))
 | pressure, stress | pascal | stem:[rm(Pa) = rm(kg)" "rm(m)^(−1) " "rm(s)^(−2)] | (((pascal (Pa))))
 | energy, work, amount of heat | joule | stem:[rm(J) = rm(kg)" "rm(m)^2 " "rm(s)^(−2)] | stem:[rm(N)" "rm(m)]
@@ -426,10 +426,7 @@ index-range:radian_ra[(((radian (rad))))]
 | catalytic activity | katal | stem:[rm(kat) = rm(mol)" "rm(s)^(−1)] | (((katal (kat))))
 |===
 
-[[joule_j-2]]
-[[multiples_prefixes-1]]
-[[radian_ra]]
-(((prefixes)))
+(((prefixes))) [[hertz_hz]] [[joule_j-2]] [[multiples_prefixes-1]] [[radian_ra]]
 
 The seven base units(((base unit(s)))) and 22 units with special names and symbols may be used in combination to express the units of other derived quantities. Since the number of quantities is without limit, it is not possible to provide a complete list of derived quantities and derived units. <<table5>> lists some examples of derived quantities and the corresponding ((coherent derived units)) expressed in terms of base units(((base unit(s)))). In addition, <<table6>> lists examples of ((coherent derived units)) whose names and symbols also include derived units. The complete set of SI units includes both the coherent set and the multiples and sub-multiples formed by using the SI prefixes.
 
@@ -489,7 +486,7 @@ The seven base units(((base unit(s)))) and 22 units with special names and symbo
 
 It is important to emphasize that each physical quantity has only one coherent SI unit, even though this unit can be expressed in different forms by using some of the special names and symbols.
 
-(((heat capacity)))(((kelvin (K))))(((quantity - base)))
+(((heat capacity)))(((kelvin (K))))((("quantity, base")))
 The converse, however, is not true, because in general several different quantities may share the same SI unit. For example, for the quantity heat capacity as well as for the quantity entropy the SI unit is joule per kelvin. Similarly, for the ((base quantity)) ((electric current)) as well as the derived quantity magnetomotive force the SI unit is the ampere(((ampere (A)))). It is therefore important not to use the unit alone to specify the quantity. This applies not only to technical texts, but also, for example, to measuring instruments (i.e. the instrument read-out needs to indicate both the unit and the quantity measured). [[derived_quantity]]
 
 (((newton (Np))))
