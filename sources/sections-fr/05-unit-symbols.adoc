@@ -1,8 +1,6 @@
 
 [[chapter5]]
-== Règles d’écriture des noms et symboles d’unités et expression des valeurs des grandeurs
-index-range:regles_ecriture[(((grandeurs,règles d’écriture)))]
-index-range:prefixes_si-3[(((préfixes SI)))]
+== Règles d’écriture des noms et symboles d’unités et expression des valeurs des grandeurs index-range:regles_ecriture[(((grandeurs,règles d’écriture)))] index-range:prefixes_si-3[(((préfixes SI)))] index-range:symboles_ecriture[(((symboles,écriture et emploi des)))] (((symboles,unités)))
 
 === Utilisation des symboles et noms des unités (((ISO)))
 
@@ -48,7 +46,7 @@ d’une barre oblique dans une expression donnée s’il n’y a pas de parenth�
 toute ambiguïté.
 
 Il n’est pas autorisé d’utiliser des abréviations pour les symboles et noms d’unités, comme
-sec (pour s ou seconde), mm car. (pour stem:[rm(mm)^2] ou millimètre carré), cc (pour stem:[rm(cm)^3] ou
+sec (pour s ou seconde)(((seconde))), mm car. (pour stem:[rm(mm)^2] ou millimètre carré), cc (pour stem:[rm(cm)^3] ou
 centimètre cube), ou mps (pour m/s ou mètre(((mètre (m)))) par seconde). L’utilisation correcte des
 symboles des unités du SI et des unités en général, dont il a été fait mention dans les
 chapitres précédents de cette brochure, est obligatoire. C’est ainsi que l’on évite les
@@ -77,8 +75,7 @@ Lorsque le nom d’une unité dérivée est constitué par juxtaposition de noms
 individuelles, il convient d’utiliser une espace ou un tiret pour séparer chaque nom d’unité.  [[prefixes_si-3]]
 
 
-=== Règles et conventions stylistiques servant à exprimer les valeurs des grandeurs index-range:symboles_recommandes[(((grandeurs,symboles (recommandés))))]
-index-range:valeur_numerique[(((grandeurs,valeur numérique)))]
+=== Règles et conventions stylistiques servant à exprimer les valeurs des grandeurs index-range:symboles_recommandes[(((grandeurs,symboles (recommandés))))] index-range:valeur_numerique[(((grandeurs,valeur numérique)))] (((symboles,unités (obligatoires))))
 
 [[scls541]]
 ==== Valeur et valeur numérique d’une grandeur; utilisation du ((calcul formel))
@@ -157,8 +154,9 @@ La valeur numérique précède toujours l’unité et il y a toujours une espace
 et l’unité. Ainsi, la valeur d’une grandeur étant le produit d’un nombre par une unité,
 l’espace entre le nombre et l’unité est considérée comme un signe de multiplication
 (tout comme l’espace entre les unités). Les seules exceptions à la règle sont les symboles
-d’unité pour le degré, la (((minute (min)))) et la seconde d’angle(((angle))) plan (respectivement °, ′ e t ″)
+d’unité pour le degré, la (((minute (min)))) et la ((seconde)) d’angle(((angle))) plan (respectivement °, ′ e t ″)
 pour lesquels il n’y a pas d’espace entre la valeur numérique et le symbole de l’unité.
+(((température,Celsius)))
 
 NOTE: stem:[m = 12.3 " "rm(g)] où m est
 utilisé comme symbole de la
@@ -180,6 +178,7 @@ En anglais, même lorsque la valeur d’une grandeur est utilisée comme adjecti
 de laisser une espace entre la valeur numérique et le symbole de l’unité. Ce n’est que
 lorsque l’on écrit le nom de l’unité en toutes lettres que l’on applique les règles
 grammaticales ordinaires (voir un exemple en anglais page <<english-doc,anchor=english_example>>).
+(((temps,durée)))
 
 Dans une expression donnée, une seule unité doit être utilisée. Les valeurs des grandeurs
 «&nbsp;temps&nbsp;» et «&nbsp;angle plan&nbsp;»(((angle))) exprimées au moyen d’unités en dehors du SI font exception à
@@ -195,7 +194,7 @@ mais pas +
 stem:[l = 10 " "rm(m)" " 23.4 " "rm(cm)]
 ====
 
-==== Écriture des nombres et séparateur décimal
+==== Écriture des nombres et séparateur décimal (((séparateur décimal)))
 
 Le symbole utilisé pour séparer le nombre entier de sa partie décimale est appelé
 «&nbsp;séparateur décimal&nbsp;». Conformément à la décision de la CGPM à sa 22^e^ réunion
@@ -203,7 +202,7 @@ Le symbole utilisé pour séparer le nombre entier de sa partie décimale est ap
 ou la virgule sur la ligne&nbsp;». Le séparateur décimal choisi sera celui qui est d’usage courant
 selon la langue concernée et le contexte.
 
-Si le nombre se situe entre +1 et −1, le séparateur décimal est toujours précédé d’un zéro.
+Si le nombre se situe entre +1 et −1, le ((séparateur décimal)) est toujours précédé d’un zéro.
 
 [NOTE]
 ====
@@ -214,7 +213,7 @@ Conformément à la décision de la CGPM à sa 9^e^ réunion (1948, Résolution 
 22^e^ réunion (2003, Résolution 10), les nombres comportant un grand nombre de chiffres
 peuvent être partagés en tranches de trois chiffres(((chiffres groupés par tranches de 3 chiffres))), séparées par une espace, afin de faciliter la
 lecture. Ces tranches ne sont jamais séparées par des points, ni par des virgules. Cependant,
-lorsqu’il n’y a que quatre chiffres avant ou après le séparateur décimal, il est d’usage de ne
+lorsqu’il n’y a que quatre chiffres avant ou après le ((séparateur décimal)), il est d’usage de ne
 pas isoler un chiffre par une espace. L’habitude de grouper ainsi les chiffres est question de
 choix personnel; elle n’est pas toujours suivie dans certains domaines spécialisés tels que le
 dessin industriel, les documents financiers et les scripts qui doivent être lus par ordinateur.
@@ -320,10 +319,10 @@ source de confusion supplémentaire.
 
 
 [[scls548]]
-==== Angles plans, angles solides et angles de phase
+==== Angles plans, angles solides et angles de phase (((radian (rad))))
 
 L’unité cohérente du SI pour l’angle(((angle))) plan et l’angle(((angle))) de phase est le radian, symbole stem:[rm(rad)],
-et celle de l’angle(((angle))) solide est le stéradian, symbole stem:[rm(sr)].
+et celle de l’angle(((angle))) solide est le stéradian(((stéradian (sr)))), symbole stem:[rm(sr)].
 
 Lorsqu’il est exprimé en radian, l’angle(((angle))) plan entre deux lignes partant d’un point commun
 est la ((longueur)) de l’arc circulaire stem:[s] balayée entre ces lignes par un vecteur rayon de
@@ -338,14 +337,14 @@ est exactement égale au nombre stem:[pi//2].
 Le degré est une convention historique. La conversion entre radians et degrés découle de la
 relation stem:[360° = 2 pi " "rm(rad)]. On remarque que le degré, symbole °, n’est pas une unité du SI.
 
-L’angle(((angle))) solide, exprimé en stéradian, correspond au rapport entre l’aire stem:[ii(A)] de la surface
+L’angle(((angle))) solide, exprimé en stéradian(((stéradian (sr)))), correspond au rapport entre l’aire stem:[ii(A)] de la surface
 d’une sphère de rayon stem:[r] et le rayon au carré, stem:[ii Omega = ii(A)//r^2] stem:[rm(sr)]. Un stéradian correspond à l’angle(((angle)))
 solide pour lequel stem:[ii(A) = r^2], ainsi stem:[1 " "rm(sr) = 1].
 
 Les unités stem:[rm(rad)] et stem:[rm(sr)] correspondent respectivement aux rapports de deux longueurs et de
 deux longueurs au carré. Toutefois, les unités rad et sr ne doivent être utilisées que pour
 exprimer des angles et des angles solides, et non des rapports de longueurs ou de longueurs
-au carré en général. [[regles_ecriture]] [[symboles_recommandes]]
+au carré en général. [[regles_ecriture]] [[symboles_recommandes]] [[symboles_ecriture]] (((radian (rad)))) (((stéradian (sr))))
 
 [NOTE]
 ====
