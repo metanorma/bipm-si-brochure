@@ -410,7 +410,7 @@ température Celsius, symbole stem:[t]; elle est définie par l’équation aux 
 t = ii(T) - ii(T)_0
 ++++
 
-L’unité de température Celsius est le degré Celsius, symbole stem:["°"rm(C)], qui par définition est égal
+L’unité de température Celsius est le degré Celsius(((degré Celsius (°C)))), symbole stem:["°"rm(C)], qui par définition est égal
 en amplitude à l’unité «&nbsp;kelvin&nbsp;»(((kelvin (K)))). Une différence ou un intervalle de température peut
 s’exprimer aussi bien en kelvins qu’en degrés Celsius, la valeur numérique de la différence
 de température étant la même dans les deux cas. La valeur numérique de la température
@@ -425,7 +425,7 @@ t // "°"rm(C) = ii(T) // rm(K) - 273.15
 (voir <<scls541>> pour une explication de la notation utilisée ici).
 (((échelle,internationale de température de 1990 (EIT-90))))
 
-Le kelvin(((kelvin (K)))) et le degré Celsius sont aussi les unités de l’Échelle internationale de température
+Le kelvin(((kelvin (K)))) et le degré Celsius(((degré Celsius (°C)))) sont aussi les unités de l’Échelle internationale de température
 de 1990 (EIT-90) adoptée par le CIPM en 1989 dans sa Recommandation 5 (CI-1989, PV,
 *57*, 26). Il est à noter que l’EIT-90 définit les deux grandeurs
 stem:[ii(T)_{90}] et stem:[t_{90}] qui sont de très
@@ -572,7 +572,7 @@ Une description plus détaillée de la réalisation des unités du SI figure à 
 
 
 [[dim_des_grandeurs]]
-==== Dimension des grandeurs (((grandeurs,de base))) (((symboles,des grandeurs)))
+==== Dimension des grandeurs (((grandeurs,de base))) (((symboles,des grandeurs))) (((dimension (d’une grandeur))))
 
 Les grandeurs physiques peuvent être organisées selon un système de dimensions qui a été
 décidé par convention. Chacune des sept grandeurs de base du SI est considérée avoir sa
@@ -581,7 +581,7 @@ indiquer leur dimension sont présentés dans le <<table-3>>.
 (((grandeurs,symboles (recommandés))))
 
 [[table-3]]
-.Grandeurs de base et dimensions utilisées avec le SI
+.Grandeurs de base et dimensions utilisées avec le SI (((dimension (d’une grandeur))))
 [cols="1,<,<"]
 |===
 | Grandeur de base | Symbole caractéristique de la grandeur | Symbole de la dimension
@@ -598,10 +598,10 @@ indiquer leur dimension sont présentés dans le <<table-3>>.
 
 Toutes les autres grandeurs, à l’exception de celles dont la valeur est déterminée par
 comptage, sont des grandeurs dérivées(((grandeurs,dérivées))) qui peuvent être exprimées en fonction des grandeurs
-de base à l’aide des équations de la physique. Les dimensions des grandeurs dérivées sont
-écrites sous la forme de produits de puissances des dimensions des grandeurs de base au
+de base à l’aide des équations de la physique. Les dimensions des grandeurs(((dimension (d’une grandeur)))) dérivées sont
+écrites sous la forme de produits de puissances des dimensions des grandeurs(((dimension (d’une grandeur)))) de base au
 moyen des équations qui relient les grandeurs dérivées aux grandeurs de base. En général,
-la dimension d’une grandeur stem:[ii(Q)] s’écrit sous la forme d’un produit dimensionnel,
+la dimension d’une grandeur(((dimension (d’une grandeur)))) stem:[ii(Q)] s’écrit sous la forme d’un produit dimensionnel,
 
 [stem%unnumbered]
 ++++
@@ -715,14 +715,14 @@ dans certains pays.] | volt | stem:[rm(V) = rm(kg)" "rm(m)^2 " "rm(s)^{-3} " "rm
 | flux d’induction magnétique | weber | stem:[rm(Wb) = rm(kg)" "rm(m)^2 " "rm(s)^{-2} " "rm(A)^{-1}] | stem:[rm(V)" "rm(s)]
 | induction magnétique | tesla(((tesla (T)))) | stem:[rm(T) = rm(kg)" "rm(s)^{-2} " "rm(A)^{-1}] | stem:[rm(Wb)//rm(m)^2]
 | inductance | henry(((henry (H)))) | stem:[rm(H) = rm(kg)" "rm(m)^2 " "rm(s)^{-2} " "rm(A)^{-2}] | stem:[rm(Wb)//rm(A)]
-| température Celsius | degré Celsius footnote:[Le degré Celsius est utilisé pour exprimer des températures Celsius. La valeur numérique d’une
+| température Celsius | degré Celsius(((degré Celsius (°C)))) footnote:[Le degré Celsius(((degré Celsius (°C)))) est utilisé pour exprimer des températures Celsius. La valeur numérique d’une
 différence de température ou d’un intervalle de température est identique quand elle est exprimée en
 degrés Celsius ou en kelvins.] | stem:["°"rm(C) = rm(K)] |
 | flux lumineux | lumen(((lumen (lm)))) | stem:[rm(lm) = rm(cd)" "rm(sr)] footnote:[En photométrie, on maintient généralement le nom et le symbole du stéradian, sr, dans l’expression des unités.] | stem:[rm(cd)" "rm(sr)]
 | éclairement lumineux | lux(((lux (lx)))) | stem:[rm(lx) = rm(cd)" "rm(sr)" "rm(m)^{-2}] | stem:[rm(lm)//rm(m)^2]
 | ((activité d’un radionucléide)) footnote:[Le hertz ne doit être utilisé que pour les phénomènes périodiques et le becquerel que pour les
 processus aléatoires liés à la mesure de l’activité d’un radionucléide.] footnote:[L’activité d’un radionucléide est parfois appelée de manière incorrecte radioactivité.] | becquerel(((becquerel (Bq)))) | stem:[rm(Bq) = rm(s)^{-1}] |
-| dose absorbée, kerma | gray(((gray (Gy)))) | stem:[rm(Gy) = rm(m)^2 " "rm(s)^{-2}] | stem:[rm(J)//rm(kg)]
+| ((dose absorbée)), kerma | gray(((gray (Gy)))) | stem:[rm(Gy) = rm(m)^2 " "rm(s)^{-2}] | stem:[rm(J)//rm(kg)]
 | équivalent de dose | sievert footnote:[Voir la Recommandation 2 du CIPM sur l’utilisation du sievert (PV, 2002, *70*, 102).] | stem:[rm(Sv) = rm(m)^2 " "rm(s)^{-2}] | stem:[rm(J)//rm(kg)]
 | activité catalytique | katal(((katal (kat)))) | stem:[rm(kat) = rm(mol)" "rm(s)^{-1}] |
 |===
@@ -787,7 +787,7 @@ formés à l’aide de préfixes SI(((préfixes SI))). [[sievert_sv-1]] [[temper
 | énergie molaire | joule par mole | stem:[rm(J)" "rm(mol)^{-1}] | stem:[rm(kg)" "rm(m)^2 " "rm(s)^{-2} " "rm(mol)^{-1}]
 | entropie molaire, capacité thermique molaire | joule par mole kelvin | stem:[rm(J)" "rm(K)^{-1} " "rm(mol)^{-1}] | stem:[rm(kg)" "rm(m)^2 " "rm(s)^{-2} " "rm(mol)^{-1} " "rm(K)^{-1}]
 | exposition (rayons x et stem:[gamma]) | coulomb par kilogramme | stem:[rm(C)" "rm(kg)^{-1}] | stem:[rm(A)" "rm(s)" "rm(kg)^{-1}]
-| débit de dose absorbée | gray(((gray (Gy)))) par seconde | stem:[rm(Gy)" "rm(s)^{-1}] | stem:[rm(m)^2 " "rm(s)^{-3}]
+| débit de ((dose absorbée)) | gray(((gray (Gy)))) par seconde | stem:[rm(Gy)" "rm(s)^{-1}] | stem:[rm(m)^2 " "rm(s)^{-3}]
 | intensité énergétique | watt par stéradian | stem:[rm(W)" "rm(sr)^{-1}] | stem:[rm(kg)" "rm(m)^2 " "rm(s)^{-3}]
 | luminance énergétique | watt par mètre carré stéradian | stem:[rm(W)" "rm(sr)^{-1} " "rm(m)^{-2}] | stem:[rm(kg)" "rm(s)^{-3}]
 | concentration de l’activité catalytique | katal par mètre cube | stem:[rm(kat)" "rm(m)^{-3}] | stem:[rm(mol)" "rm(s)^{-1} " "rm(m)^{-3}]
@@ -839,7 +839,7 @@ angulaire&nbsp;» de façon explicite en stem:[rm(Hz)] ou stem:[rm(rad)//rm(s)] 
 
 Dans le domaine des ((rayonnements ionisants)), l’unité SI utilisée est le becquerel(((becquerel (Bq)))) plutôt que
 la seconde moins un, et les unités SI «&nbsp;gray&nbsp;» et «&nbsp;sievert&nbsp;»(((sievert (Sv)))) plutôt que le joule(((joule (J)))) par
-kilogramme pour, respectivement, la dose absorbée et l’équivalent de dose. Les noms
+kilogramme pour, respectivement, la ((dose absorbée)) et l’équivalent de dose. Les noms
 spéciaux «&nbsp;becquerel&nbsp;»(((becquerel (Bq)))), «&nbsp;gray&nbsp;» et «&nbsp;sievert&nbsp;» ont été introduits en raison des dangers pour
 la santé humaine qui pourraient résulter d’erreurs dans le cas où les unités «&nbsp;((seconde)) à la
 puissance moins un&nbsp;» et «&nbsp;joule par kilogramme&nbsp;» seraient utilisées à tort pour expliciter ces
@@ -848,7 +848,7 @@ grandeurs.
 L’expression de températures ou de différences de température requiert une attention
 particulière. Une différence de température de stem:[1 " "rm(K)] équivaut à une différence de température
 de stem:[1 " °"rm(C)] mais il faut prendre en considération la différence de stem:[273.15 " "rm(K)] pour exprimer une
-température thermodynamique. L’unité degré Celsius n’est cohérente que lorsqu’elle est
+température thermodynamique. L’unité degré Celsius(((degré Celsius (°C)))) n’est cohérente que lorsqu’elle est
 utilisée pour exprimer des différences de température. [[radian_rad-1]] [[symboles_derivees]]
 
 
@@ -864,9 +864,9 @@ De plus amples informations sur les unités et les conventions utilisées pour d
 grandeurs photochimiques(((grandeurs,photochimiques))) et photobiologiques(((grandeurs,photobiologiques))) sont données dans l’<<appendix3>>.
 
 Les ((rayonnements ionisants)) déposent de l’énergie dans la matière irradiée. Le rapport entre
-l’énergie déposée et la masse est appelé «&nbsp;dose absorbée&nbsp;», stem:[ii(D)]. Conformément à la décision
+l’énergie déposée et la masse est appelé «&nbsp;((dose absorbée))&nbsp;», stem:[ii(D)]. Conformément à la décision
 prise par le CIPM en 2002 la grandeur «&nbsp;équivalent de dose&nbsp;» stem:[ii(H) = ii(Q) ii(D)] est le produit de la
-dose absorbée stem:[ii(D)] et du facteur numérique de qualité stem:[ii(Q)], qui prend en compte l’efficacité
+((dose absorbée)) stem:[ii(D)] et du facteur numérique de qualité stem:[ii(Q)], qui prend en compte l’efficacité
 biologique du rayonnement et qui dépend de l’énergie et du type de rayonnement.
 
 Il existe des unités de grandeurs décrivant des effets biologiques et impliquant des facteurs
