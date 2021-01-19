@@ -14,6 +14,7 @@ bien comprendre que l’on perd certains avantages du SI. Les préfixes du SI pe
 utilisés avec plusieurs de ces unités mais cela n’est pas possible, par exemple, avec les
 unités de temps en dehors du SI.
 (((gal (Gal))))
+index-range:bel_b[(((bel (B))))]
 index-range:neper_np[(((néper (Np))))]
 index-range:prefixes_si-2[(((préfixes SI)))]
 (((seconde d’arc)))
@@ -21,6 +22,8 @@ index-range:prefixes_si-2[(((préfixes SI)))]
 index-range:tonne[(((tonne)))]
 (((unité(s),astronomique)))
 index-range:unite_dehors_du[(((unité(s),en dehors du)))]
+index-range:dalton_a[(((dalton (Da))))]
+index-range:decibel_db[(((décibel (dB))))]
 
 [[table-8]]
 .Unités en dehors du SI dont l’usage est accepté avec le SI
@@ -45,16 +48,16 @@ et _Metrologia_ , 1980, *16*, 56-57), comme alternative pour éviter le risque d
 le chiffre un, 1.] | stem:[rm(l)," "rm(L)] | stem:[1] stem:[rm(l) = 1] stem:[rm(L) = 1] stem:[rm(dm)^3 = 10^3] stem:[rm(cm)^3 = 10^{-3}] stem:[rm(m)^3]
 .2+| ((masse)) | tonne(((tonne,métrique))) footnote:[La tonne et son symbole t ont été adoptés par le CIPM en 1879 (PV, 1879, 41). Dans les pays de
 langue anglaise, cette unité est généralement désignée sous le nom «&nbsp;tonne métrique&nbsp;».] | stem:[rm(t)] | stem:[1 " "rm(t) = 10^3] stem:[rm(kg)]
-| dalton(((dalton (Da)))) footnote:[Le dalton (Da) et l’unité de masse atomique unifiée (u) sont d’autres noms (et symboles) pour la même
+| dalton footnote:[Le dalton (Da) et l’unité de masse atomique unifiée (u) sont d’autres noms (et symboles) pour la même
 unité, égale à 1/12 de la masse de l’atome de ^12^C libre, au repos et dans son état fondamental. Cette valeur
-du dalton(((dalton (Da)))) est la valeur recommandée dans l’ajustement de 2018 de ((CODATA)).] | stem:["Da"] | stem:[1] stem:[rm(Da)] stem:[= 1.66053906660(50) xx 10^{-27}] stem:[rm(kg)]
+du dalton est la valeur recommandée dans l’ajustement de 2018 de ((CODATA)).] | stem:["Da"] | stem:[1] stem:[rm(Da)] stem:[= 1.66053906660(50) xx 10^{-27}] stem:[rm(kg)]
 | énergie | électronvolt(((électronvolt (eV)))) footnote:[L’électronvolt est l’énergie cinétique acquise par un électron après traversée d’une différence de
 potentiel de 1 V dans le vide. L’électronvolt est souvent combiné aux préfixes du SI.] | stem:[rm(eV)] | stem:[1] stem:[rm(eV)] stem:[= 1.602176634 xx 10^{-19}] stem:[rm(J)]
 .3+| logarithme d’un rapport | neper
 footnote:note-h[Lorsque l’on utilise ces unités, il est important de
 préciser quelle est la nature de la grandeur en
 question et la valeur de référence utilisée.] | stem:[rm(Np)] | voir notes de bas de page
-| bel(((bel (B)))) footnote:note-h[] | stem:[rm(B)] |
+| bel footnote:note-h[] | stem:[rm(B)] |
 | decibel footnote:note-h[] | stem:[rm(dB)] |
 |===
 
@@ -68,9 +71,9 @@ stem:[1 " "rm(Gal) = 1 " "rm(cm)" "rm(s)^(−2)] +
 stem:[= 10^(−2) " "rm(m)" "rm(s)^(−2)]
 ====
 
-&nbsp;(((électronvolt (eV))))(((grandeurs,de base)))(((grandeurs,logarithmiques))) [[neper_np]] [[prefixes_si-2]] [[tonne]] [[unite_dehors_du]]
+&nbsp;(((électronvolt (eV))))(((grandeurs,de base)))(((grandeurs,logarithmiques))) [[neper_np]] [[prefixes_si-2]] [[tonne]] [[unite_dehors_du]] [[bel_b]] [[dalton_a]] [[decibel_db]]
 
-Le <<table-8>> mentionne aussi les unités des grandeurs logarithmiques, le néper, le bel(((bel (B)))) et le
+Le <<table-8>> mentionne aussi les unités des grandeurs logarithmiques, le néper, le bel et le
 décibel(((décibel (dB)))). Elles sont utilisées pour véhiculer des informations sur la nature du logarithme
 d’un rapport de grandeurs. Le néper, stem:[rm(Np)], est utilisé pour exprimer la valeur de grandeurs
 dont la valeur numérique est un logarithme néperien (ou naturel) d’un rapport de grandeurs,
