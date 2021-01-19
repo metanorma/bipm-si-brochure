@@ -13,6 +13,7 @@ avec le SI: elles sont répertoriées dans le <<table-8>>. Lorsque ces unités s
 bien comprendre que l’on perd certains avantages du SI. Les préfixes du SI peuvent être
 utilisés avec plusieurs de ces unités mais cela n’est pas possible, par exemple, avec les
 unités de temps en dehors du SI.
+(((gal (Gal))))
 
 [[table-8]]
 .Unités en dehors du SI dont l’usage est accepté avec le SI
@@ -21,15 +22,15 @@ unités de temps en dehors du SI.
 | Grandeur | Nom de l’unité | Symbole de l’unité | Valeur en unités SI
 
 .3+| temps | minute | stem:[rm(min)] | stem:[1 " "rm(min) = 60 " "rm(s)]
-| heure | stem:[rm(h)] | stem:[1 " "rm(h) = 60 " "rm(min) = 3600 " "rm(s)]
-| jour | stem:[rm(d)] | stem:[1 " "rm(d) = 24 " "rm(h) = 86400 " "rm(s)]
+| heure(((heure (h)))) | stem:[rm(h)] | stem:[1 " "rm(h) = 60 " "rm(min) = 3600 " "rm(s)]
+| jour(((jour (d)))) | stem:[rm(d)] | stem:[1 " "rm(d) = 24 " "rm(h) = 86400 " "rm(s)]
 | longueur | unité astronomique footnote:[Décision de la XXVIII^e^ Assemblée générale de l’Union astronomique internationale (Résolution B2, 2012).] | stem:[rm(au)] | stem:[1 " "rm(au) = 149597870700 " "rm(m)]
 .3+| angle(((angle))) plan et de phase | degré | stem:["°"] | stem:[1° = (pi //180) " "rm(rad)]
 |  minute | stem:["&#x2032;"] | stem:[1&#x2032; = (1//60)° = (pi //10800) " "rm(rad)]
 | seconde footnote:[En astronomie, les petits angles sont mesurés en secondes d’arc (c’est-à-dire en secondes d’angle(((angle))) plan),
 symbole as ou ″, et en milliarcsecondes, microarcsecondes et picoarcsecondes, de symboles respectifs
 mas, stem:[mu " "rm(as)] et pas, l’arcseconde étant un autre nom pour la seconde d’angle(((angle))) plan.] | stem:["&#x2033;"] | stem:[1&#x2033; = (1//60)&#x2032; = (pi //648000) " "rm(rad)]
-| superficie | hectare footnote:[L’unité hectare et son symbole ha ont été adoptés par le CIPM en 1879 (PV, 1879, 41). L’hectare est
+| superficie | hectare(((hectare (ha)))) footnote:[L’unité hectare et son symbole ha ont été adoptés par le CIPM en 1879 (PV, 1879, 41). L’hectare est
 utilisé pour exprimer des superficies agraires.] | stem:[rm(ha)] | stem:[1] stem:[rm(ha) = 1] stem:[rm(hm)^2 = 10^4] stem:[rm(m)^2]
 | volume | litre footnote:[Le litre et son symbole l (en minuscule) ont été adoptés par le CIPM en 1879 (PV, 1879, 41).
 Le symbole L (en majuscule) a été adopté par la CGPM à sa 16^e^ réunion (1979, Résolution 6; CR, 101
@@ -40,7 +41,7 @@ langue anglaise, cette unité est généralement désignée sous le nom «&nbsp;
 | dalton footnote:[Le dalton (Da) et l’unité de masse atomique unifiée (u) sont d’autres noms (et symboles) pour la même
 unité, égale à 1/12 de la masse de l’atome de ^12^C libre, au repos et dans son état fondamental. Cette valeur
 du dalton est la valeur recommandée dans l’ajustement de 2018 de ((CODATA)).] | stem:["Da"] | stem:[1] stem:[rm(Da)] stem:[= 1.66053906660(50) xx 10^{-27}] stem:[rm(kg)]
-| énergie | électronvolt footnote:[L’électronvolt est l’énergie cinétique acquise par un électron après traversée d’une différence de
+| énergie | électronvolt(((électronvolt (eV)))) footnote:[L’électronvolt est l’énergie cinétique acquise par un électron après traversée d’une différence de
 potentiel de 1 V dans le vide. L’électronvolt est souvent combiné aux préfixes du SI.] | stem:[rm(eV)] | stem:[1] stem:[rm(eV)] stem:[= 1.602176634 xx 10^{-19}] stem:[rm(J)]
 .3+| logarithme d’un rapport | neper
 footnote:note-h[Lorsque l’on utilise ces unités, il est important de
@@ -59,6 +60,8 @@ exprimer l’accélération due à la pesanteur ((("accélération due à la pes
 stem:[1 " "rm(Gal) = 1 " "rm(cm)" "rm(s)^(−2)] +
 stem:[= 10^(−2) " "rm(m)" "rm(s)^(−2)]
 ====
+
+&nbsp;(((électronvolt (eV))))(((grandeurs,de base)))(((grandeurs,logarithmiques)))
 
 Le <<table-8>> mentionne aussi les unités des grandeurs logarithmiques, le néper, le bel(((bel (B)))) et le
 décibel. Elles sont utilisées pour véhiculer des informations sur la nature du logarithme
