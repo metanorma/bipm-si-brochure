@@ -14,6 +14,8 @@ bien comprendre que l’on perd certains avantages du SI. Les préfixes du SI pe
 utilisés avec plusieurs de ces unités mais cela n’est pas possible, par exemple, avec les
 unités de temps en dehors du SI.
 (((gal (Gal))))
+index-range:neper_np[(((néper (Np))))]
+index-range:prefixes_si-2[(((préfixes SI)))]
 
 [[table-8]]
 .Unités en dehors du SI dont l’usage est accepté avec le SI
@@ -21,22 +23,22 @@ unités de temps en dehors du SI.
 |===
 | Grandeur | Nom de l’unité | Symbole de l’unité | Valeur en unités SI
 
-.3+| temps | minute | stem:[rm(min)] | stem:[1 " "rm(min) = 60 " "rm(s)]
+.3+| temps | minute(((minute (min)))) | stem:[rm(min)] | stem:[1 " "rm(min) = 60 " "rm(s)]
 | heure(((heure (h)))) | stem:[rm(h)] | stem:[1 " "rm(h) = 60 " "rm(min) = 3600 " "rm(s)]
 | jour(((jour (d)))) | stem:[rm(d)] | stem:[1 " "rm(d) = 24 " "rm(h) = 86400 " "rm(s)]
-| longueur | unité astronomique footnote:[Décision de la XXVIII^e^ Assemblée générale de l’Union astronomique internationale (Résolution B2, 2012).] | stem:[rm(au)] | stem:[1 " "rm(au) = 149597870700 " "rm(m)]
+| ((longueur)) | unité astronomique footnote:[Décision de la XXVIII^e^ Assemblée générale de l’Union astronomique internationale (Résolution B2, 2012).] | stem:[rm(au)] | stem:[1 " "rm(au) = 149597870700 " "rm(m)]
 .3+| angle(((angle))) plan et de phase | degré | stem:["°"] | stem:[1° = (pi //180) " "rm(rad)]
-|  minute | stem:["&#x2032;"] | stem:[1&#x2032; = (1//60)° = (pi //10800) " "rm(rad)]
+|  minute(((minute (min)))) | stem:["&#x2032;"] | stem:[1&#x2032; = (1//60)° = (pi //10800) " "rm(rad)]
 | seconde footnote:[En astronomie, les petits angles sont mesurés en secondes d’arc (c’est-à-dire en secondes d’angle(((angle))) plan),
 symbole as ou ″, et en milliarcsecondes, microarcsecondes et picoarcsecondes, de symboles respectifs
 mas, stem:[mu " "rm(as)] et pas, l’arcseconde étant un autre nom pour la seconde d’angle(((angle))) plan.] | stem:["&#x2033;"] | stem:[1&#x2033; = (1//60)&#x2032; = (pi //648000) " "rm(rad)]
 | superficie | hectare(((hectare (ha)))) footnote:[L’unité hectare et son symbole ha ont été adoptés par le CIPM en 1879 (PV, 1879, 41). L’hectare est
 utilisé pour exprimer des superficies agraires.] | stem:[rm(ha)] | stem:[1] stem:[rm(ha) = 1] stem:[rm(hm)^2 = 10^4] stem:[rm(m)^2]
-| volume | litre footnote:[Le litre et son symbole l (en minuscule) ont été adoptés par le CIPM en 1879 (PV, 1879, 41).
+| volume | litre(((litre (L ou l)))) footnote:[Le litre et son symbole l (en minuscule) ont été adoptés par le CIPM en 1879 (PV, 1879, 41).
 Le symbole L (en majuscule) a été adopté par la CGPM à sa 16^e^ réunion (1979, Résolution 6; CR, 101
 et _Metrologia_ , 1980, *16*, 56-57), comme alternative pour éviter le risque de confusion entre la lettre l et
 le chiffre un, 1.] | stem:[rm(l)," "rm(L)] | stem:[1] stem:[rm(l) = 1] stem:[rm(L) = 1] stem:[rm(dm)^3 = 10^3] stem:[rm(cm)^3 = 10^{-3}] stem:[rm(m)^3]
-.2+| masse | tonne footnote:[La tonne et son symbole t ont été adoptés par le CIPM en 1879 (PV, 1879, 41). Dans les pays de
+.2+| ((masse)) | tonne footnote:[La tonne et son symbole t ont été adoptés par le CIPM en 1879 (PV, 1879, 41). Dans les pays de
 langue anglaise, cette unité est généralement désignée sous le nom «&nbsp;tonne métrique&nbsp;».] | stem:[rm(t)] | stem:[1 " "rm(t) = 10^3] stem:[rm(kg)]
 | dalton footnote:[Le dalton (Da) et l’unité de masse atomique unifiée (u) sont d’autres noms (et symboles) pour la même
 unité, égale à 1/12 de la masse de l’atome de ^12^C libre, au repos et dans son état fondamental. Cette valeur
@@ -61,7 +63,7 @@ stem:[1 " "rm(Gal) = 1 " "rm(cm)" "rm(s)^(−2)] +
 stem:[= 10^(−2) " "rm(m)" "rm(s)^(−2)]
 ====
 
-&nbsp;(((électronvolt (eV))))(((grandeurs,de base)))(((grandeurs,logarithmiques)))
+&nbsp;(((électronvolt (eV))))(((grandeurs,de base)))(((grandeurs,logarithmiques))) [[neper_np]] [[prefixes_si-2]]
 
 Le <<table-8>> mentionne aussi les unités des grandeurs logarithmiques, le néper, le bel(((bel (B)))) et le
 décibel. Elles sont utilisées pour véhiculer des informations sur la nature du logarithme
@@ -73,6 +75,7 @@ de grandeurs dont la valeur numérique est un logarithme de base 10 d’un rappo
 grandeurs, stem:["lg" = "log"_(10)]. L’égalité stem:[ii(L)_X = m " "rm(dB) = (m//10) " "rm(B)] (où stem:[m] est un nombre) est comprise
 comme signifiant que stem:[m = 10 "lg"(ii(X)//ii(X)_0)]. L’usage des unités néper, bel(((bel (B)))) et décibel avec le SI a
 été accepté par le CIPM mais ces unités ne sont pas des unités du SI.
+(((pied)))(((pouce)))
 
 Il existe de nombreuses autres unités en dehors du SI qui
 présentent un intérêt historique ou qui sont encore utilisées
