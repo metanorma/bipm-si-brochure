@@ -1,7 +1,7 @@
 
 == Le Système international d’unités
 
-=== Définition de l’unité d’une grandeur
+=== Définition de l’unité d’une grandeur (((grandeurs)))
 
 La valeur d’une grandeur est généralement exprimée sous la forme du produit d’un nombre par
 une unité. L’unité n’est qu’un exemple particulier de la grandeur concernée, utilisée comme
@@ -26,6 +26,7 @@ décrite de façon appropriée. Cela peut être simple, comme dans le cas de la 
 tige en acier particulière, mais peut devenir plus compliqué lorsque qu’un plus haut niveau
 d’exactitude est requis et lorsque des paramètres supplémentaires, tels que la température,
 doivent être indiqués.
+(((incertitude)))
 
 Pour exprimer le résultat de mesure d’une grandeur spécifique, la *_valeur estimée_* du
 mesurande (la grandeur à mesurer) et l’**_incertitude_** associée à la valeur de cette grandeur
@@ -65,12 +66,13 @@ ces constantes.
 * *la constante de Boltzmann(((constante, de Boltzmann))), stem:[k], est égale à stem:[1.380649 xx 10^{-23} " "rm(J)//rm(K)],*
 * *la constante d’Avogadro(((constante, d'Avogadro))), stem:[ii(N)_"A"], est égale à stem:[6.02214076 xx 10^23 " "rm(mol)^{-1}],*
 * *l’efficacité lumineuse d’un rayonnement monochromatique de fréquence stem:[540 xx 10^12 " "rm(Hz)], stem:[ii(K)_{"cd"}], est égale à stem:[683 " "rm(lm)//rm(W)],*
+(((hertz (Hz))))(((joule (J))))(((kelvin (K))))
 
 où les unités hertz, joule, coulomb(((coulomb (C)))), lumen et watt, qui ont respectivement pour symbole stem:[rm(Hz), " "rm(J), " "rm(C), " "rm(lm)] et stem:[rm(W)], sont reliées aux unités seconde, mètre, kilogramme, ampère(((ampère (A)))), kelvin, mole et
 candela(((candela (cd)))), qui ont respectivement pour symbole stem:[rm(s), " "rm(m), " "rm(kg), " "rm(A), " "rm(K), " "rm(mol)] et stem:[rm(cd)], selon les relations
 stem:[rm(Hz) = rm(s)^{-1}], stem:[rm(J) = rm(kg)" "rm(m)^2 " "rm(s)^{-2}], stem:[rm(C) = rm(A)" "rm(s)], stem:[rm(lm) = rm(cd)" "rm(m)^2 " "rm(m)^{-2} = rm(cd)" "rm(sr)], et stem:[rm(W) = rm(kg)" "rm(m)^2 " "rm(s)^{-3}].
 
-La valeur numérique de chacune des sept constantes définissant le SI (((constante, définissant le SI))) n’a pas d’incertitude.
+La valeur numérique de chacune des sept constantes définissant le SI (((constante, définissant le SI))) n’a pas d’incertitude. (((incertitude)))
 
 
 .Les sept constantes définissant le SI (((constante, définissant le SI))) et les sept unités qu’elles définissent
@@ -140,7 +142,7 @@ pas forcément le cas concernant l’énergie interne du système. En physique s
 la constante de Boltzmann(((constante, de Boltzmann))) relie l’entropie, stem:[ii(S)], au nombre stem:[ii Omega] d’états quantiques accessibles,
 stem:[ii(S) = k " ln " ii Omega].
 
-La fréquence du césium, stem:[Delta ii(nu)_{"Cs"}], fréquence de la
+La ((fréquence du césium)), stem:[Delta ii(nu)_{"Cs"}], fréquence de la
 transition hyperfine de l’état fondamental de l’atome de césium(((atome de césium, niveaux hyperfins)))
 133 non perturbé, a le caractère d’un paramètre atomique qui peut être
 affecté par l’environnement -- par des champs électromagnétiques par exemple. Toutefois,
@@ -169,7 +171,7 @@ cette distinction n’est en principe pas nécessaire car les définitions de to
 qu’elles soient de base ou dérivées, peuvent être directement établies à partir des
 sept constantes. Toutefois, les concepts d’unités de base et d’unités dérivées sont conservés
 car ils sont pratiques et historiquement bien établis; par ailleurs, la série de normes
-ISO/IEC 80000 précise les grandeurs de base et les grandeurs dérivées qui doivent
+ISO/IEC 80000(((ISO,série ISO/IEC 80000))) précise les grandeurs de base(((grandeurs,de base))) et les grandeurs dérivées(((grandeurs,dérivées))) qui doivent
 nécessairement correspondre aux unités de base du SI et aux unités dérivées, définies dans
 la présente brochure.
 
@@ -188,11 +190,11 @@ h| Nom h| Symbole caractéristique h| Nom h| Symbole
 
 | temps | stem:[t] | seconde | stem:[rm(s)]
 | longueur | stem:[l, x, r], etc. | mètre | stem:[rm(m)]
-| masse | stem:[m] | kilogramme | stem:[rm(kg)]
+| masse | stem:[m] | ((kilogramme)) | stem:[rm(kg)]
 | ((courant électrique)) | stem:[ii(I), i] | ampère(((ampère (A)))) | stem:[rm(A)]
-| température thermodynamique | stem:[ii(T)] | kelvin | stem:[rm(K)]
+| température thermodynamique | stem:[ii(T)] | kelvin(((kelvin (K)))) | stem:[rm(K)]
 | quantité de matière | stem:[n] | mole | stem:[rm(mol)]
-| intensité lumineuse | stem:[ii(I)_"v"] | candela(((candela (cd)))) | stem:[rm(cd)]
+| ((intensité lumineuse)) | stem:[ii(I)_"v"] | candela(((candela (cd)))) | stem:[rm(cd)]
 
 |===
 
@@ -214,7 +216,7 @@ ci-après.
 *La seconde*
 
 *La seconde, symbole stem:[rm(s)], est l’unité de temps du SI. Elle est définie en prenant la valeur
-numérique fixée de la fréquence du césium, stem:[Delta ii(nu)_{"Cs"}], la fréquence de la transition
+numérique fixée de la ((fréquence du césium)), stem:[Delta ii(nu)_{"Cs"}], la fréquence de la transition
 hyperfine de l’état fondamental de l’atome de césium(((atome de césium, niveaux hyperfins))) 133 non perturbé, égale à
 stem:[9192631770] lorsqu’elle est exprimée en stem:[rm(Hz)], unité égale à stem:[rm(s)^{-1}].*
 
@@ -239,6 +241,7 @@ La seconde ainsi définie est l’unité de temps propre, au sens de la théorie
 relativité. Pour établir une échelle de temps coordonné, les signaux de différentes horloges
 primaires dans le monde sont combinés, puis des corrections sont appliquées pour tenir
 compte du décalage relativiste de fréquence entre les étalons à césium (voir <<cls-236,nosee%>>).
+index-range:incertitude[(((incertitude)))]
 
 Le CIPM a adopté différentes représentations secondaires de la seconde fondées sur un
 nombre choisi de raies spectrales d’atomes, ions ou molécules. Les fréquences non
@@ -265,7 +268,7 @@ Il résulte de cette définition que le mètre est la longueur du trajet parcour
 la lumière pendant une durée de stem:[1//299792458] de seconde.
 
 
-*Le kilogramme*
+*Le ((kilogramme))*
 
 *Le kilogramme, symbole stem:[rm(kg)], est l’unité de masse du SI. Il est défini en prenant la
 valeur numérique fixée de la constante de Planck(((constante, de Planck))), stem:[h], égale à stem:[6.62607015 xx 10^{−34}]
@@ -332,8 +335,8 @@ relation identique à
 ++++
 
 
-Il résulte de cette définition qu’un ampère(((ampère (A)))) est le ((courant électrique)) correspondant au flux de
-stem:[1//(1.602176634 xx 10^{-19})] charges élémentaires par seconde.
+Il résulte de cette définition qu’un ampère(((ampère (A)))) est le ((courant électrique)) correspondant au flux de stem:[1//(1.602176634 xx 10^{-19})] charges élémentaires par seconde.
+(((henry (H))))
 
 La précédente définition de l’ampère(((ampère (A)))), fondée sur la force produite entre deux conducteurs
 traversés par du courant, fixait la valeur de la perméabilité magnétique du vide(((constante, magnétique&#44; perméabilité du vide))) stem:[ii(mu)_0] (également
@@ -355,6 +358,7 @@ stem:[ii(mu)_0] était égale à stem:[4 pi xx 10^{-7} " "rm(H)//rm(m)] avec une
 
 
 *Le kelvin*
+(((kelvin (K))))
 
 *Le kelvin, symbole stem:[rm(K)], est l’unité de température thermodynamique du SI. Il est défini
 en prenant la valeur numérique fixée de la constante de Boltzmann(((constante, de Boltzmann))), stem:[k], égale à
@@ -362,7 +366,7 @@ stem:[1.380649 xx 10^{-23}] lorsqu’elle est exprimée en stem:[rm(J)" "rm(K)^{
 le kilogramme, le mètre et la seconde étant définis en fonction de stem:[h], stem:[c] et stem:[Delta ii(nu)_{"Cs"}].*
 
 Cette définition implique la relation exacte stem:[k = 1.380649 xx 10^{-23}] stem:[rm(kg)" "rm(m)^2 " "rm(s)^{-2} " "rm(K)^{-1}].
-En inversant cette relation, le kelvin est exprimé en fonction des constantes stem:[k], stem:[h] et stem:[Delta ii(nu)_{"Cs"}]:
+En inversant cette relation, le kelvin(((kelvin (K)))) est exprimé en fonction des constantes stem:[k], stem:[h] et stem:[Delta ii(nu)_{"Cs"}]:
 
 
 [stem%unnumbered]
@@ -378,15 +382,15 @@ relation identique à
 ++++
 
 
-Il résulte de cette définition qu’un kelvin est égal au changement de la température
+Il résulte de cette définition qu’un kelvin(((kelvin (K)))) est égal au changement de la température
 thermodynamique résultant d’un changement de l’énergie thermique stem:[k ii(T)] de
 stem:[1.380649 xx 10^{-23}" "rm(J)].
 
-La précédente définition du kelvin établissait la température du point triple de l’eau stem:[ii(T)_("TPW")]
+La précédente définition du kelvin(((kelvin (K)))) établissait la température du point triple de l’eau stem:[ii(T)_("TPW")]
 comme étant exactement égale à stem:[273.16 " "rm(K)]. Étant donné que l’actuelle définition du kelvin
 fixe la valeur numérique de stem:[k] et non plus celle de stem:[ii(T)_{"TPW"}], cette dernière doit désormais être
 déterminée de façon expérimentale. Au moment de l’adoption de l’actuelle définition du
-kelvin, stem:[ii(T)_{"TPW"}] était égale à stem:[273.16 " "rm(K)] avec une incertitude-type relative de stem:[3.7 xx 10^{-7}]
+kelvin(((kelvin (K)))), stem:[ii(T)_{"TPW"}] était égale à stem:[273.16 " "rm(K)] avec une incertitude-type relative de stem:[3.7 xx 10^{-7}]
 déterminée à partir des mesures de stem:[k] réalisées avant la redéfinition.
 
 En raison de la manière dont les échelles de température étaient habituellement définies,
@@ -401,7 +405,7 @@ t = ii(T) - ii(T)_0
 ++++
 
 L’unité de température Celsius est le degré Celsius, symbole stem:["°"rm(C)], qui par définition est égal
-en amplitude à l’unité «&nbsp;kelvin&nbsp;». Une différence ou un intervalle de température peut
+en amplitude à l’unité «&nbsp;kelvin&nbsp;»(((kelvin (K)))). Une différence ou un intervalle de température peut
 s’exprimer aussi bien en kelvins qu’en degrés Celsius, la valeur numérique de la différence
 de température étant la même dans les deux cas. La valeur numérique de la température
 Celsius exprimée en degrés Celsius est liée à la valeur numérique de la température
@@ -413,15 +417,16 @@ t // "°"rm(C) = ii(T) // rm(K) - 273.15
 ++++
 
 (voir <<scls541>> pour une explication de la notation utilisée ici).
+(((échelle,internationale de température de 1990 (EIT-90))))
 
-Le kelvin et le degré Celsius sont aussi les unités de l’Échelle internationale de température
+Le kelvin(((kelvin (K)))) et le degré Celsius sont aussi les unités de l’Échelle internationale de température
 de 1990 (EIT-90) adoptée par le CIPM en 1989 dans sa Recommandation 5 (CI-1989, PV,
 *57*, 26). Il est à noter que l’EIT-90 définit les deux grandeurs
 stem:[ii(T)_{90}] et stem:[t_{90}] qui sont de très
 bonnes approximations des températures thermodynamiques correspondantes stem:[ii(T)] et stem:[t].
 
 Il est également à noter que l’actuelle définition de l’unité de température
-thermodynamique permet d’établir, en principe, des réalisations primaires du kelvin à tout
+thermodynamique permet d’établir, en principe, des réalisations primaires du kelvin(((kelvin (K)))) à tout
 point de l’échelle de température.
 
 
@@ -449,6 +454,7 @@ cette relation, on obtient l’expression exacte de la mole en fonction de la co
 Il résulte de cette définition que la mole est la quantité de matière d’un système qui contient
 stem:[6.02214076 xx 10^(23)] entités élémentaires spécifiées.
 
+[[incertitude]]
 La précédente définition de la mole fixait la valeur de la masse molaire du ((carbone)) 12,
 stem:[ii(M)(""^{12}"C")], comme étant exactement égale à stem:[0.012 " "rm(kg)//rm(mol)]. Selon l’actuelle définition de la
 mole, stem:[ii(M)(""^{12}"C")] n’est plus connue avec exactitude et doit être déterminée de façon
@@ -489,7 +495,7 @@ benzène&nbsp;». Il est important de définir précisément l’entité en ques
 définition de la mole), de préférence en précisant la formule chimique moléculaire du
 matériau concerné. Bien que le mot «&nbsp;quantité&nbsp;» ait une définition plus générale dans le
 dictionnaire, cette abréviation du nom complet «&nbsp;quantité de matière&nbsp;» est parfois utilisée
-par souci de concision. Ceci s’applique aussi aux grandeurs dérivées telles que la
+par souci de concision. Ceci s’applique aussi aux grandeurs dérivées(((grandeurs,dérivées))) telles que la
 concentration de quantité de matière, qui peut simplement être appelée «&nbsp;concentration de
 quantité&nbsp;». Dans le domaine de la ((chimie clinique)), le nom «&nbsp;concentration de quantité de
 matière&nbsp;» est généralement abrégé en «&nbsp;concentration de matière&nbsp;».
@@ -556,13 +562,13 @@ Une description plus détaillée de la réalisation des unités du SI figure à 
 
 
 [[dim_des_grandeurs]]
-==== Dimension des grandeurs
+==== Dimension des grandeurs(((grandeurs,de base)))
 
 Les grandeurs physiques peuvent être organisées selon un système de dimensions qui a été
 décidé par convention. Chacune des sept grandeurs de base du SI est considérée avoir sa
 propre dimension. Les symboles utilisés pour les grandeurs de base et ceux utilisés pour
 indiquer leur dimension sont présentés dans le <<table-3>>.
-
+(((grandeurs,symboles (recommandés))))
 
 [[table-3]]
 .Grandeurs de base et dimensions utilisées avec le SI
@@ -576,12 +582,12 @@ indiquer leur dimension sont présentés dans le <<table-3>>.
 | ((courant électrique)) | stem:[ii(I), i] | stem:[sf "I"]
 | température thermodynamique | stem:[ii(T)] | stem:[Theta]
 | quantité de matière | stem:[n] | stem:[sf "N"]
-| intensité lumineuse | stem:[ii(I)_"v"] | stem:[sf "J"]
+| ((intensité lumineuse)) | stem:[ii(I)_"v"] | stem:[sf "J"]
 |===
 
 
 Toutes les autres grandeurs, à l’exception de celles dont la valeur est déterminée par
-comptage, sont des grandeurs dérivées qui peuvent être exprimées en fonction des grandeurs
+comptage, sont des grandeurs dérivées(((grandeurs,dérivées))) qui peuvent être exprimées en fonction des grandeurs
 de base à l’aide des équations de la physique. Les dimensions des grandeurs dérivées sont
 écrites sous la forme de produits de puissances des dimensions des grandeurs de base au
 moyen des équations qui relient les grandeurs dérivées aux grandeurs de base. En général,
@@ -603,6 +609,7 @@ espèce. Par exemple, l’indice de réfraction d’un milieu est le rapport de 
 permittivité relative est le rapport entre la permittivité d’un milieu diélectrique et celle du
 vide. De telles grandeurs sont simplement des nombres. L’unité associée est l’unité «&nbsp;un&nbsp;»,
 symbole 1, bien que l’unité «&nbsp;un&nbsp;» soit rarement explicitement écrite (voir <<scls547,nosee%>>).
+(((grandeurs,de base)))(((grandeurs,de comptage)))
 
 Il existe également des grandeurs qui ne peuvent pas être décrites au moyen des
 sept grandeurs de base du SI mais dont la valeur est déterminée par comptage.
@@ -681,22 +688,22 @@ cette catégorie a été supprimée en 1995.] | stem:[rm(rad) = rm(m)//rm(m)] |
 ayant son sommet au centre d’une sphère, découpe sur la surface de cette sphère une aire égale à
 celle d’un carré ayant pour côté une longueur égale au rayon de la sphère. Comme le radian,
 le stéradian était auparavant une unité SI supplémentaire.] | stem:[rm(sr) = rm(m)^2 // rm(m)^2] |
-| fréquence | hertz footnote:[Le hertz ne doit être utilisé que pour les phénomènes périodiques et le becquerel(((becquerel (Bq)))) que pour les
+| fréquence | hertz(((hertz (Hz)))) footnote:[Le hertz ne doit être utilisé que pour les phénomènes périodiques et le becquerel(((becquerel (Bq)))) que pour les
 processus aléatoires liés à la mesure de l’((activité d’un radionucléide)).] | stem:[rm(Hz) = rm(s)^{-1}] | 
 | force | newton | stem:[rm(N) = rm(kg)" "rm(m)" "rm(s)^{-2}] | 
 | pression, contrainte | pascal | stem:[rm(Pa) = rm(kg)" "rm(m)^{-1} " "rm(s)^{-2}] | 
-| énergie, travail, quantité de chaleur | joule | stem:[rm(J) = rm(kg)" "rm(m)^2 " "rm(s)^{-2}] | stem:[rm(N)" "rm(m)]
+| énergie, travail, quantité de chaleur | joule(((joule (J)))) | stem:[rm(J) = rm(kg)" "rm(m)^2 " "rm(s)^{-2}] | stem:[rm(N)" "rm(m)]
 | puissance, flux énergétique | watt | stem:[rm(W) = rm(kg)" "rm(m)^2 " "rm(s)^{-3}] | stem:[rm(J)//rm(s)]
 | ((charge électrique)) | coulomb(((coulomb (C)))) | stem:[rm(C) = rm(A)" "rm(s)] | 
 | différence de potentiel électrique footnote:[La différence de potentiel électrique est
 également appelée «&nbsp;tension&nbsp;» ou «&nbsp;tension électrique&nbsp;»
 dans certains pays.] | volt | stem:[rm(V) = rm(kg)" "rm(m)^2 " "rm(s)^{-3} " "rm(A)^{-1}] | stem:[rm(W)//rm(A)]
-| capacité électrique | farad | stem:[rm(F) = rm(kg)^{-1} " "rm(m)^{-2} " "rm(s)^4 " "rm(A)^2] | stem:[rm(C)//rm(V)]
+| capacité électrique | farad(((farad (F)))) | stem:[rm(F) = rm(kg)^{-1} " "rm(m)^{-2} " "rm(s)^4 " "rm(A)^2] | stem:[rm(C)//rm(V)]
 | résistance électrique | ohm | stem:[Omega = rm(kg)" "rm(m)^2 " "rm(s)^{-3} " "rm(A)^{-2}] | stem:[rm(V)//rm(A)]
 | conductance électrique | siemens | stem:[rm(S) = rm(kg)^{-1} " "rm(m)^{-2} " "rm(s)^3 " "rm(A)^2] | stem:[rm(A)//rm(V)]
 | flux d’induction magnétique | weber | stem:[rm(Wb) = rm(kg)" "rm(m)^2 " "rm(s)^{-2} " "rm(A)^{-1}] | stem:[rm(V)" "rm(s)]
 | induction magnétique | tesla | stem:[rm(T) = rm(kg)" "rm(s)^{-2} " "rm(A)^{-1}] | stem:[rm(Wb)//rm(m)^2]
-| inductance | henry | stem:[rm(H) = rm(kg)" "rm(m)^2 " "rm(s)^{-2} " "rm(A)^{-2}] | stem:[rm(Wb)//rm(A)]
+| inductance | henry(((henry (H)))) | stem:[rm(H) = rm(kg)" "rm(m)^2 " "rm(s)^{-2} " "rm(A)^{-2}] | stem:[rm(Wb)//rm(A)]
 | température Celsius | degré Celsius footnote:[Le degré Celsius est utilisé pour exprimer des températures Celsius. La valeur numérique d’une
 différence de température ou d’un intervalle de température est identique quand elle est exprimée en
 degrés Celsius ou en kelvins.] | stem:["°"rm(C) = rm(K)] |
@@ -704,14 +711,14 @@ degrés Celsius ou en kelvins.] | stem:["°"rm(C) = rm(K)] |
 | éclairement lumineux | lux | stem:[rm(lx) = rm(cd)" "rm(sr)" "rm(m)^{-2}] | stem:[rm(lm)//rm(m)^2]
 | ((activité d’un radionucléide)) footnote:[Le hertz ne doit être utilisé que pour les phénomènes périodiques et le becquerel(((becquerel (Bq)))) que pour les
 processus aléatoires liés à la mesure de l’((activité d’un radionucléide)).] footnote:[L’((activité d’un radionucléide)) est parfois appelée de manière incorrecte radioactivité.] | becquerel(((becquerel (Bq)))) | stem:[rm(Bq) = rm(s)^{-1}] |
-| dose absorbée, kerma | gray | stem:[rm(Gy) = rm(m)^2 " "rm(s)^{-2}] | stem:[rm(J)//rm(kg)]
+| dose absorbée, kerma | gray(((gray (Gy)))) | stem:[rm(Gy) = rm(m)^2 " "rm(s)^{-2}] | stem:[rm(J)//rm(kg)]
 | équivalent de dose | sievert footnote:[Voir la Recommandation 2 du CIPM sur l’utilisation du sievert (PV, 2002, *70*, 102).] | stem:[rm(Sv) = rm(m)^2 " "rm(s)^{-2}] | stem:[rm(J)//rm(kg)]
-| activité catalytique | katal | stem:[rm(kat) = rm(mol)" "rm(s)^{-1}] |
+| activité catalytique | katal(((katal (kat)))) | stem:[rm(kat) = rm(mol)" "rm(s)^{-1}] |
 |===
 
 
 Les 7 unités de base et les 22 unités ayant un nom spécial et un symbole particulier peuvent
-être combinées pour exprimer des unités d’autres grandeurs dérivées. Étant donné le
+être combinées pour exprimer des unités d’autres grandeurs dérivées(((grandeurs,dérivées))). Étant donné le
 nombre illimité de grandeurs, il n’est pas possible de fournir une liste complète des
 grandeurs et unités dérivées. Le <<table-5>> présente un certain nombre d’exemples de
 grandeurs dérivées, avec les unités dérivées cohérentes correspondantes exprimées en
@@ -744,7 +751,7 @@ formés à l’aide de préfixes SI.
 
 
 [[table-6]]
-.Exemples d’unités dérivées cohérentes du SI dont le nom et le symbole comprennent des unités dérivées cohérentes du SI ayant un nom spécial et un symbole particulier
+.Exemples d’unités dérivées cohérentes du SI dont le nom et le symbole comprennent des unités dérivées cohérentes du SI ayant un nom spécial et un symbole particulier (((grandeurs,dérivées)))(((joule (J))))
 [cols="4",options="header"]
 |===
 | Grandeur dérivée | Nom de l’unité dérivée cohérente | Symbole | Unité dérivée exprimée en unités de base
@@ -755,8 +762,8 @@ formés à l’aide de préfixes SI.
 | vitesse angulaire, fréquence angulaire | radian par seconde | stem:[rm(rad)" "rm(s)^{-1}] | stem:[rm(s)^{-1}]
 | accélération angulaire | radian par seconde carrée | stem:[rm(rad)" "rm(s)^{-2}] | stem:[rm(s)^{-2}]
 | flux thermique surfacique, éclairement énergétique | watt par mètre carré | stem:[rm(W)" "rm(m)^{-2}] | stem:[rm(kg)" "rm(s)^{-3}]
-| ((capacité thermique)), entropie | joule par kelvin | stem:[rm(J)" "rm(K)^{-1}] | stem:[rm(kg)" "rm(m)^2 " "rm(s)^{-2} " "rm(K)^{-1}]
-| capacité thermique massique, entropie massique | joule par kilogramme kelvin | stem:[rm(J)" "rm(K)^{-1} " "rm(kg)^{-1}] | stem:[rm(m)^2 " "rm(s)^{-2} " "rm(K)^{-1}]
+| ((capacité thermique)), entropie | joule par kelvin(((kelvin (K)))) | stem:[rm(J)" "rm(K)^{-1}] | stem:[rm(kg)" "rm(m)^2 " "rm(s)^{-2} " "rm(K)^{-1}]
+| capacité thermique massique, entropie massique | joule par ((kilogramme)) kelvin | stem:[rm(J)" "rm(K)^{-1} " "rm(kg)^{-1}] | stem:[rm(m)^2 " "rm(s)^{-2} " "rm(K)^{-1}]
 | énergie massique | joule par kilogramme | stem:[rm(J)" "rm(kg)^{-1}] | stem:[rm(m)^2 " "rm(s)^{-2}]
 | conductivité thermique | watt par mètre kelvin | stem:[rm(W)" "rm(m)^{-1} " "rm(K)^{-1}] | stem:[rm(kg)" "rm(m)" "rm(s)^{-3} " "rm(K)^{-1}]
 | énergie volumique | joule par mètre cube | stem:[rm(J)" "rm(m)^{-3}] | stem:[rm(kg)" "rm(m)^{-1}" "rm(s)^{-2}]
@@ -765,11 +772,11 @@ formés à l’aide de préfixes SI.
 | ((charge électrique)) surfacique | coulomb par mètre carré | stem:[rm(C)" "rm(m)^{-2}] | stem:[rm(A)" "rm(s)" "rm(m)^{-2}]
 | induction électrique, déplacement électrique | coulomb par mètre carré | stem:[rm(C)" "rm(m)^{-2}] | stem:[rm(A)" "rm(s)" "rm(m)^{-2}]
 | permittivité | farad par mètre | stem:[rm(F)" "rm(m)^{-1}] | stem:[rm(kg)^{-1} " "rm(m)^{-3} " "rm(s)^4 " "rm(A)^2]
-| perméabilité | henry par mètre | stem:[rm(H)" "rm(m)^{-1}] | stem:[rm(kg)" "rm(m)" "rm(s)^{-2} " "rm(A)^{-2}]
+| perméabilité | henry(((henry (H)))) par mètre | stem:[rm(H)" "rm(m)^{-1}] | stem:[rm(kg)" "rm(m)" "rm(s)^{-2} " "rm(A)^{-2}]
 | énergie molaire | joule par mole | stem:[rm(J)" "rm(mol)^{-1}] | stem:[rm(kg)" "rm(m)^2 " "rm(s)^{-2} " "rm(mol)^{-1}]
 | entropie molaire, capacité thermique molaire | joule par mole kelvin | stem:[rm(J)" "rm(K)^{-1} " "rm(mol)^{-1}] | stem:[rm(kg)" "rm(m)^2 " "rm(s)^{-2} " "rm(mol)^{-1} " "rm(K)^{-1}]
 | exposition (rayons x et stem:[gamma]) | coulomb par kilogramme | stem:[rm(C)" "rm(kg)^{-1}] | stem:[rm(A)" "rm(s)" "rm(kg)^{-1}]
-| débit de dose absorbée | gray par seconde | stem:[rm(Gy)" "rm(s)^{-1}] | stem:[rm(m)^2 " "rm(s)^{-3}]
+| débit de dose absorbée | gray(((gray (Gy)))) par seconde | stem:[rm(Gy)" "rm(s)^{-1}] | stem:[rm(m)^2 " "rm(s)^{-3}]
 | intensité énergétique | watt par stéradian | stem:[rm(W)" "rm(sr)^{-1}] | stem:[rm(kg)" "rm(m)^2 " "rm(s)^{-3}]
 | luminance énergétique | watt par mètre carré stéradian | stem:[rm(W)" "rm(sr)^{-1} " "rm(m)^{-2}] | stem:[rm(kg)" "rm(s)^{-3}]
 | concentration de l’activité catalytique | katal par mètre cube | stem:[rm(kat)" "rm(m)^{-3}] | stem:[rm(mol)" "rm(s)^{-1} " "rm(m)^{-3}]
@@ -781,7 +788,7 @@ cohérente, même si cette unité peut être exprimée sous différentes formes 
 noms spéciaux ou de symboles particuliers.
 
 Toutefois, l’inverse n’est pas vrai car, de façon générale, la même unité SI peut être
-employée pour exprimer différentes grandeurs. Par exemple, le joule par kelvin est le nom
+employée pour exprimer différentes grandeurs. Par exemple, le joule par kelvin(((kelvin (K)))) est le nom
 de l’unité SI pour la grandeur «&nbsp;((capacité thermique))&nbsp;» et pour la grandeur «&nbsp;entropie&nbsp;».
 De même, l’ampère(((ampère (A)))) est le nom de l’unité SI pour la grandeur de base «&nbsp;((courant électrique))&nbsp;»
 et pour la grandeur dérivée «&nbsp;force magnétomotrice&nbsp;». Il est important de remarquer qu’il ne
@@ -795,7 +802,7 @@ spécial afin de réduire le risque de confusion entre des grandeurs différente
 dimension. Dans ce cas, on peut rappeler comment la grandeur est définie. Par exemple,
 la grandeur «&nbsp;couple&nbsp;» est le produit vectoriel d’un vecteur position et d’un vecteur force:
 son unité SI est le «&nbsp;newton mètre&nbsp;». Bien que le couple ait la même dimension que
-l’énergie (exprimée en unité SI «&nbsp;joule&nbsp;»), le joule n’est jamais utilisé pour exprimer un
+l’énergie (exprimée en unité SI «&nbsp;joule&nbsp;»), le joule(((joule (J)))) n’est jamais utilisé pour exprimer un
 couple.
 
 NOTE: La Commission électrotechnique internationale
@@ -803,7 +810,7 @@ NOTE: La Commission électrotechnique internationale
 pour l’unité de puissance réactive. Exprimé en unités SI
 cohérentes, le var est identique au volt ampère.
 
-L’unité SI de fréquence est le hertz, l’unité SI de vitesse angulaire et de fréquence angulaire
+L’unité SI de fréquence est le hertz(((hertz (Hz)))), l’unité SI de vitesse angulaire et de fréquence angulaire
 est le radian par seconde, et l’unité SI d’activité est le becquerel(((becquerel (Bq)))): toutes impliquent un
 comptage par seconde. Même s’il est correct d’écrire ces trois unités «&nbsp;seconde à la
 puissance moins un&nbsp;», l’emploi de noms différents sert à souligner la différence de nature
@@ -817,9 +824,10 @@ On remarque également qu’il est courant, bien que cela ne soit pas recommand�
 le terme «&nbsp;fréquence&nbsp;» pour des grandeurs exprimées en rad/s. De ce fait, il est recommandé
 de toujours exprimer les grandeurs «&nbsp;fréquence&nbsp;», «&nbsp;fréquence angulaire&nbsp;» et «&nbsp;vitesse
 angulaire&nbsp;» de façon explicite en stem:[rm(Hz)] ou stem:[rm(rad)//rm(s)] mais pas en stem:[rm(s)^{-1}].
+(((gray (Gy))))
 
 Dans le domaine des rayonnements ionisants, l’unité SI utilisée est le becquerel(((becquerel (Bq)))) plutôt que
-la seconde moins un, et les unités SI «&nbsp;gray&nbsp;» et «&nbsp;sievert&nbsp;» plutôt que le joule par
+la seconde moins un, et les unités SI «&nbsp;gray&nbsp;» et «&nbsp;sievert&nbsp;» plutôt que le joule(((joule (J)))) par
 kilogramme pour, respectivement, la dose absorbée et l’équivalent de dose. Les noms
 spéciaux «&nbsp;becquerel&nbsp;»(((becquerel (Bq)))), «&nbsp;gray&nbsp;» et «&nbsp;sievert&nbsp;» ont été introduits en raison des dangers pour
 la santé humaine qui pourraient résulter d’erreurs dans le cas où les unités «&nbsp;seconde à la
@@ -842,7 +850,7 @@ Le lumen et le lux sont dérivés de l’unité de base «&nbsp;candela&nbsp;»(
 ils donnent des informations sur la vision humaine. La candela(((candela (cd)))) a été adoptée comme unité
 de base en 1954 afin de reconnaître l’importance de la lumière dans la vie courante.
 De plus amples informations sur les unités et les conventions utilisées pour définir des
-grandeurs photochimiques et photobiologiques sont données dans l’<<appendix3>>.
+grandeurs photochimiques(((grandeurs,photochimiques))) et photobiologiques(((grandeurs,photobiologiques))) sont données dans l’<<appendix3>>.
 
 Les rayonnements ionisants déposent de l’énergie dans la matière irradiée. Le rapport entre
 l’énergie déposée et la masse est appelé «&nbsp;dose absorbée&nbsp;», stem:[ii(D)]. Conformément à la décision

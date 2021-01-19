@@ -1,8 +1,9 @@
 
 [[chapter5]]
 == Règles d’écriture des noms et symboles d’unités et expression des valeurs des grandeurs
+index-range:regles_ecriture[(((grandeurs,règles d’écriture)))]
 
-=== Utilisation des symboles et noms des unités
+=== Utilisation des symboles et noms des unités (((ISO)))
 
 Les principes généraux concernant l’écriture des symboles des unités et des nombres furent
 d’abord proposés par la CGPM à sa 9^e^ réunion (1948, Résolution 7). Ils furent ensuite
@@ -75,7 +76,8 @@ Lorsque le nom d’une unité dérivée est constitué par juxtaposition de noms
 individuelles, il convient d’utiliser une espace ou un tiret pour séparer chaque nom d’unité.
 
 
-=== Règles et conventions stylistiques servant à exprimer les valeurs des grandeurs
+=== Règles et conventions stylistiques servant à exprimer les valeurs des grandeurs index-range:symboles_recommandes[(((grandeurs,symboles (recommandés))))]
+index-range:valeur_numerique[(((grandeurs,valeur numérique)))]
 
 [[scls541]]
 ==== Valeur et valeur numérique d’une grandeur; utilisation du ((calcul formel))
@@ -86,11 +88,12 @@ exposant ajouté au symbole ou au moyen de parenthèses. Par exemple, stem:[ii(C
 recommandé pour la ((capacité thermique)), stem:[c_"m"] pour la ((capacité thermique)) molaire, stem:[c_("m",p)] pour
 la ((capacité thermique)) molaire à pression constante et stem:[c_("m",V)] pour la ((capacité thermique))
 molaire à volume constant.
+(((IUPAC,livre vert)))((("IUPAP SUNAMCO, livre rouge")))
 
 Les noms et symboles recommandés pour les grandeurs figurent dans de nombreux
-ouvrages de référence, tels que la série de normes ISO/IEC 80000 «&nbsp;__Grandeurs et unités__&nbsp;»,
+ouvrages de référence, tels que la série de normes ISO/IEC 80000(((ISO,série ISO/IEC 80000))) «&nbsp;__Grandeurs et unités__&nbsp;»,
 le «&nbsp;livre rouge&nbsp;» de l’IUPAP SUNAMCO intitulé «&nbsp;__Symbols, Units and Nomenclature in
-Physics__&nbsp;» et le «&nbsp;livre vert&nbsp;» de l’IUPAC intitulé «&nbsp;__Quantities, Units and Symbols in
+Physics__&nbsp;» et le «&nbsp;livre vert&nbsp;» de l’IUPAC(((IUPAC))) intitulé «&nbsp;__Quantities, Units and Symbols in
 Physical Chemistry__&nbsp;». Toutefois, les symboles des grandeurs ne sont que recommandés
 (alors qu’il est obligatoire d’utiliser les symboles corrects des unités). Dans certaines
 circonstances, les auteurs peuvent préférer utiliser le symbole de leur choix pour une
@@ -223,7 +226,7 @@ Le format utilisé pour écrire les nombres dans un tableau doit rester cohéren
 même colonne.
 
 
-==== Expression de l’incertitude de mesure associée à la valeur d’une grandeur
+==== Expression de l’incertitude de mesure associée à la valeur d’une grandeur index-range:incertitude-2[(((incertitude)))]
 
 L’incertitude associée à la valeur estimée d’une grandeur doit être évaluée et exprimée en
 accord avec le Guide JCGM 100:2008 (GUM 1995 avec des corrections mineures),
@@ -240,7 +243,7 @@ où stem:[m_"n"] est le symbole de la grandeur (ici la masse du neutron) et le n
 la valeur numérique de l’incertitude-type sur les deux derniers chiffres de la valeur estimée
 de stem:[m_"n"], dans le cas présent : stem:[u(m_"n") = 0.000000021 xx 10^{-27} " " rm(kg)]. Si une incertitude élargie
 stem:[ii(U)(x)] est utilisée au lieu de l’incertitude-type stem:[u(x)], alors la probabilité d’élargissement stem:[p] et le
-facteur d’élargissement stem:[k] doivent être précisés.
+facteur d’élargissement stem:[k] doivent être précisés. [[valeur_numerique]] [[incertitude-2]]
 
 
 ==== Multiplication ou division des symboles des grandeurs, des valeurs des grandeurs et des nombres
@@ -286,7 +289,7 @@ Les grandeurs qui sont des rapports de grandeurs de même nature (rapports de lo
 fractions molaires, etc.) peuvent être exprimées avec des unités (stem:[rm(m)//rm(m), " "rm(mol)//rm(mol)]) afin de
 faciliter la compréhension de la grandeur exprimée et afin de permettre l’utilisation de
 préfixes du SI, si cela est préférable (stem:[mu rm(m)//rm(m)], stem:[rm(nmol)//rm(mol)]). Cela n’est pas possible avec les
-grandeurs de comptage qui sont simplement des nombres.
+grandeurs de comptage(((grandeurs,de comptage))) qui sont simplement des nombres.
 
 Le symbole % (pour cent), qui est internationalement reconnu, peut être utilisé avec le SI.
 Quand il est utilisé, il convient de mettre une espace entre le nombre et le symbole %. Il est
@@ -341,7 +344,7 @@ solide pour lequel stem:[ii(A) = r^2], ainsi stem:[1 " "rm(sr) = 1].
 Les unités stem:[rm(rad)] et stem:[rm(sr)] correspondent respectivement aux rapports de deux longueurs et de
 deux longueurs au carré. Toutefois, les unités rad et sr ne doivent être utilisées que pour
 exprimer des angles et des angles solides, et non des rapports de longueurs ou de longueurs
-au carré en général.
+au carré en général. [[regles_ecriture]] [[symboles_recommandes]]
 
 [NOTE]
 ====
