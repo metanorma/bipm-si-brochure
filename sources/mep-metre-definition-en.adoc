@@ -204,13 +204,13 @@ At standard conditions (stem:[101.325 " "rm(Pa)], 20 °C, 50 % RH and 400 ppm st
 |===
 | Influence parameter | Value at standard conditions | Refractive index sensitivity coefficient
 
-<| Temperature | 20 °C | stem:[-9.2 xx 10^(-7) " "rm(K)^(-1)]
-<| Pressure | stem:[101.325" "rm(Pa)] | stem:[+ 2.7 xx 10^(-9)" Pa"^(-1)]
-<a| stem:["CO"_2] content | stem:[400" "rm(ppm)] | stem:[+ 1.4 xx 10^(-10)" (ppm)"^(-1)]
+<| Temperature | stem:[20" "rm(°C)] | stem:[-9.2 xx 10^(-7) " "rm(K)^(-1)]
+<| Pressure | stem:[101.325" "rm(Pa)] | stem:[+ 2.7 xx 10^(-9)" "rm(Pa)^(-1)]
+<a| stem:["CO"_2] content | stem:[400" "rm(pp)rm(m)] | stem:[+ 1.4 xx 10^(-10)" ("rm(pp)rm(m)")"^(-1)]
 <| Humidity: | |
->| Relative humidity | 50 % RH | stem:[-8.7 xx 10^(-9)" (% RH)"^(-1)]
->| Dew point | 9.27 °C | stem:[-1.5 xx 10^(-8)" K"^(-1)]
->| Water vapour pressure | 1168 Pa | stem:[-1.8 xx 10^(-10)" "rm(Pa)^(-1)]
+>| Relative humidity | stem:[50" % RH"] | stem:[-8.7 xx 10^(-9)" (% RH)"^(-1)]
+>| Dew point | stem:[9.27" "rm(°C)] | stem:[-1.5 xx 10^(-8)" "rm(K)^(-1)]
+>| Water vapour pressure | stem:[1168" "rm(Pa)] | stem:[-1.8 xx 10^(-10)" "rm(Pa)^(-1)]
 |===
 
 
@@ -538,7 +538,7 @@ Further detailed information concerning the use of X-ray interferometry as a sec
 [bibliography]
 === References
 
-* [[[bonse,(A3.1)]]] Bonse U and Hart M, "`An x-ray interferometer`", _Appl. Phys._ Lett. 6 (1965) 155–156. https://aip.scitation.org/doi/10.1063/1.1754212[DOI: 10.1063/1.1754212]
+* [[[bonse,(A3.1)]]] Bonse U and Hart M, "`An x-ray interferometer`", _Appl. Phys. Lett._ *6* (1965) 155–156. https://aip.scitation.org/doi/10.1063/1.1754212[DOI: 10.1063/1.1754212]
 
 * [[[hart,(A3.2)]]] Hart M, "`An Angstrom Ruler`", _J. Phys. D_ *11* (1968) 1405. https://doi.org/10.1088/0022-3727/1/11/303[DOI: 10.1088/0022-3727/1/11/303]
 
@@ -642,7 +642,7 @@ The clean surfaces in UHV undergo a surface reconstruction, such as stem:[7 xx 7
 
 === Recommendations
 
-The CCL/WG-N recommends the use of the silicon lattice parameter for the calibration of the normal scan axes of high resolution instruments in surface metrology. Depending on their crystallographic orientation, the following values (see <<table-5,nosee%>>) should be used for the distance between adjacent monoatomic steps.
+The CCL/WG-N recommends the use of the silicon lattice parameter for the calibration of the normal scan axes of high resolution instruments in surface metrology. Depending on their crystallographic orientation, the following values (see <<table-5,nopage%>>) should be used for the distance between adjacent monoatomic steps.
 
 
 [[table-5]]
@@ -679,12 +679,12 @@ Firstly, the CCL WG-N recommends using large step-free terraces on the silicon s
 
 Secondly, areas with steps should be scanned for the stem:[z]-axis calibration. There are two types of step arrangements on carefully prepared silicon surfaces: the first is a so-called amphitheatre (pairs of opposing terraces on the same height level) and the second is a staircase-like structure. On the amphitheatre-arranged steps, the algorithm defined in <<iso5436-1>> can be applied for the determination of the step height, which allows a well-defined alignment and is less dependent on stem:[x]-stem:[y] scanner deviations (cross-talk to stem:[z], …). In the case of staircase-like structures, large step-free terraces on both sides of a monoatomic step should be used for the levelling. In both cases it is recommended to use step free terraces larger than stem:[1] stem:[mu rm(m)] in size for the levelling area on the lower and upper planes. Furthermore, the calibration should be done in the range of the axis which is later used in experiments and the maximum height range should be less than stem:[20 " "rm(nm)].
 
-Further detailed information concerning the use of monoatomic steps as a secondary realisation of the metre in nanometrology may be found in the CCL WG-Nano document CCL-GD-MeP-3: Realization of SI metre using height of monoatomic steps of crystalline silicon surfaces which is available from the CCL website.
+Further detailed information concerning the use of monoatomic steps as a secondary realisation of the metre in nanometrology may be found in the CCL WG-Nano document CCL-GD-MeP-3: _Realization of SI metre using height of monoatomic steps of crystalline silicon surfaces_ which is available from the CCL website.
 
 
 [bibliography]
 === References
 
-* [[[newell,(A5.1)]]] Mohr P J, Newell D B, Taylor B N and Tiesinga E, "`Data and analysis for the CODATA 2017 special fundamental constants adjustment`", _Metrologia_ *55* (1) (2018) 125. DOI: 10.1088/1681-7575/aa99bc
+* [[[newell,(A5.1)]]] Mohr P J, Newell D B, Taylor B N and Tiesinga E, "`Data and analysis for the CODATA 2017 special fundamental constants adjustment`", _Metrologia_ *55* (1) (2018) 125. https://iopscience.iop.org/article/10.1088/1681-7575/aa99bc[DOI: 10.1088/1681-7575/aa99bc]
 
 * [[[iso5436-1,ISO 5436-1(A5.2)]]], "`Geometrical Product Specifications (GPS) - Surface texture: Profile method; Measurement standards - Part 1: Material measures`", International Organization for Standardization, Geneva, Switzerland (2000). https://www.iso.org/standard/21978.html
