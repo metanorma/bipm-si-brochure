@@ -43,13 +43,16 @@ with a relative standard uncertainty of stem:[8.6 xx 10^(−12)] apply to the ra
 
 Adopted value:: stem:[f = 582490603442 (5) " "rm(kHz)] +
 stem:[u_c//y = 8.6 xx 10^(−12)]
++
+for which +
+stem:[ii(lambda) = 514673466.368 (4) " "rm(fm)] +
+stem:[u_c//y = 8.6 xx 10^(−12)]
 
-for which stem:[ii(lambda) = 514673466.368 (4) " "rm(fm)] +
-stem:[u_c//y = 8.6 xx 10^(−12)] calculated from:
+calculated from
 
 [%unnumbered]
 |===
-| stem:[f // rm(kHz)] | stem:[u_c//y] | source data
+h| stem:[f // rm(kHz)] h| stem:[u_c//y] h| source data
 
 | stem:[582490603378.8] | stem:[2.6 xx 10^(−12)] | <<jones>>
 | stem:[582490603447.3] | stem:[1.3 xx 10^(−12)] | <<goncharov>>
@@ -59,7 +62,7 @@ When corrected for pressure shifts, there is good agreement to 0.4 kHz between N
 
 [%unnumbered]
 |===
-| stem:[f // rm(kHz)] | stem:[u_c//y] | source data
+h| stem:[f // rm(kHz)] h| stem:[u_c//y] h| source data
 
 | stem:[582490603441.8] | stem:[2.6 xx 10^(−12)] | <<jones>>
 | stem:[582490603442.6] | stem:[1.3 xx 10^(−12)] | <<goncharov>>
@@ -85,39 +88,41 @@ In the tables, stem:[u_c] represents the estimated combined standard uncertainty
 
 All transitions in molecular iodine refer to the B-X system.
 
-.stem:[ii(lambda) ~~ 515 " "rm(nm)] ^127^I~2~ P(13) 43-0
+[cols="6*<"]
 |===
-| stem:[a_n] | stem:[[f(a_n) – f(a_3) \] // rm(kHz)] | stem:[u_c // rm(kHz)] | stem:[a_n] | stem:[[f(a_n) – f(a_3) \] // rm(kHz)] | stem:[u_c // rm(kHz)]
+6+^.^h| stem:[ii(lambda) ~~ 515 " "rm(nm)] ^127^I~2~ P(13) 43-0
+h| stem:[a_n] h| stem:[[f(a_n) – f(a_3) \] // rm(kHz)] h| stem:[u_c // rm(kHz)] h| stem:[a_n] h| stem:[[f(a_n) – f(a_3) \] // rm(kHz)] h| stem:[u_c // rm(kHz)]
 
-| stem:[a_1] | –131770 | stem:[1] | stem:[a_(12)] | stem:[435599] | 3
-| stem:[a_2] | –59905 | stem:[1] | stem:[a_(13)] | stem:[499712] | 5
-| stem:[a_3] | stem:[0] | — | stem:[a_(14)] | stem:[518000] | 1000
+| stem:[a_1] | stem:[-131770] | stem:[1] | stem:[a_(12)] | stem:[435599] | 3
+| stem:[a_2] | stem:[-59905] | stem:[1] | stem:[a_(13)] | stem:[499712] | 5
+| stem:[a_3] | stem:[0] | -- | stem:[a_(14)] | stem:[518000] | 1000
 | stem:[a_4] | stem:[76049] | 1 | stem:[a_(15)] | stem:[587396] | 2
 | stem:[a_5] | stem:[203229] | 5 | stem:[a_(16)] | stem:[616756] | 5
 | stem:[a_6] | stem:[240774] | 5 | stem:[a_(17)] | stem:[660932] | 5
-| stem:[a_7] | stem:[255005] | 1 | stem:[a_(18)] | stem:[740000] | 1000
-| stem:[a_8] | stem:[338699] | 5 | stem:[a_(19)] | stem:[742000] | 1000
+| stem:[a_7] | stem:[255005] | 1 | stem:[a_(18)] | stem:[740000] | stem:[1000]
+| stem:[a_8] | stem:[338699] | 5 | stem:[a_(19)] | stem:[742000] | stem:[1000]
 | stem:[a_9] | stem:[349717] | 5 | stem:[a_(20)] | stem:[757631] | 10
-| stem:[a_(10)] | stem:[369000] | 1000 | stem:[a_(21)] | stem:[817337] | 5
+| stem:[a_(10)] | stem:[369000] | stem:[1000] | stem:[a_(21)] | stem:[817337] | 5
 | stem:[a_(11)] | stem:[393962] | 2 | | |
-6+| Frequency referenced to a~3~, P(13) 43-0, ^127^I~2~: f = 582490603442 kHz <<ci2003>>
+6+| Frequency referenced to stem:[a_3], P(13) 43-0, ^127^I~2~: stem:[f = 582490603442" "rm(kHz)] <<ci2003>>
 |===
 Ref. <<hackel>>, <<camy>>, <<borde>>, <<spieweck>>
 
 
-.stem:[ii(lambda) ~~ 515 " "rm(nm)] ^127^I~2~ (R15) 43-0
+[cols="6*<"]
 |===
-| stem:[b_n] | stem:[[f(b_n) – f(b_1) \] // rm(kHz)] | stem:[u_c // rm(kHz)] | stem:[b_n] | stem:[[f(b_n) – f(b_1) \] // rm(kHz)] | stem:[u_c // rm(kHz)]
+6+^.^h| stem:[ii(lambda) ~~ 515 " "rm(nm)] ^127^I~2~ (R15) 43-0
+h| stem:[b_n] h| stem:[[f(b_n) – f(b_1) \] // rm(kHz)] h| stem:[u_c // rm(kHz)] h| stem:[b_n] h| stem:[[f(b_n) – f(b_1) \] // rm(kHz)] h| stem:[u_c // rm(kHz)]
 
-| stem:[b_1] | stem:[0] | — | stem:[b_(12)] | stem:[566287] | 5
+| stem:[b_1] | stem:[0] | -- | stem:[b_(12)] | stem:[566287] | 5
 | stem:[b_2] | stem:[69739] | 5 | stem:[b_(13)] | stem:[630782] | 5
 | stem:[b_3]  | stem:[129155] | 5 | stem:[b_(14)] | stem:[658178] | 5
-| stem:[b_4]  | stem:[217000] | 1000 | stem:[b_(15)] | stem:[725166] | 5
+| stem:[b_4]  | stem:[217000] | stem:[1000] | stem:[b_(15)] | stem:[725166] | 5
 | stem:[b_5]  | stem:[335828] | 5 | stem:[b_(16)] | stem:[739394] | 5
-| stem:[b_6]  | stem:[368000] | 1000 | stem:[b_(17)] | stem:[791673] | 5
+| stem:[b_6]  | stem:[368000] | stem:[1000] | stem:[b_(17)] | stem:[791673] | 5
 | stem:[b_7]  | stem:[396442] | 5 | stem:[b_(18)] | stem:[865523] | 5
-| stem:[b_8]  | stem:[471000] | 1000 | stem:[b_(19)] | stem:[874840] | 5
-| stem:[b_9]  | stem:[472000] | 1000 | stem:[b_(20)] | stem:[892895] | 10
+| stem:[b_8]  | stem:[471000] | stem:[1000] | stem:[b_(19)] | stem:[874840] | 5
+| stem:[b_9]  | stem:[472000] | stem:[1000] | stem:[b_(20)] | stem:[892895] | 10
 | stem:[b_(10)]  | stem:[500627] | 5 | stem:[b_(21)] | stem:[947278] | 10
 | stem:[b_(11) | stem:[525207] | 5 | | |
 6+a| Frequency referenced to:: stem:[a_n, P(13) 43-0, ^127^I~2~: stem:[f = 582490603442" "rm(kHz)] <<ci2003>> +
@@ -126,16 +131,18 @@ stem:[f (b_1", R(15) 43-0)" – f(a_1", P(13) 43-0") = 283835(5000)" "rm(kHz)] <
 |===
 Ref. <<camy>>, <<borde>>
 
-.stem:[ii(lambda) ~~ 515 " "rm(nm)] ^127^I~2~ R(98) 58-1
-|===
-| stem:[d_n] | stem:[[f (d_n) – f (d_6)\]//rm(kHz)] | stem:[u_c //rm(kHz)] | stem:[d_n] | stem:[[f(d_n) – f(d_6)]\/rm(kHz)] | stem:[u_c //rm(kHz)]
 
-| stem:[d_1] | –413488 | stem:[5] | stem:[d_9] | stem:[225980] | 5
-| stem:[d_2] | –359553 | stem:[5] | stem:[d_(10)] | stem:[253000] | 1000
-| stem:[d_3] | –194521 | stem:[5] | stem:[d_(11)] | stem:[254000] | 1000
-| stem:[d_4] | –159158 | stem:[5] | stem:[d_(12)] | stem:[314131] | 5
-| stem:[d_5] | –105769 | stem:[5] | stem:[d_(13)] | stem:[426691] | 5
-| stem:[d_6] | stem:[0] | — | stem:[d_(14)] | stem:[481574] | 5
+[cols="6*<"]
+|===
+6+^.^h| stem:[ii(lambda) ~~ 515 " "rm(nm)] ^127^I~2~ R(98) 58-1
+h| stem:[d_n] h| stem:[[f(d_n) – f(d_6) \] // rm(kHz)] h| stem:[u_c //rm(kHz)] h| stem:[d_n] h| stem:[[f(d_n) – f(d_6)] // rm(kHz)] h| stem:[u_c //rm(kHz)]
+
+| stem:[d_1] | stem:[-413488] | stem:[5] | stem:[d_9] | stem:[225980] | 5
+| stem:[d_2] | stem:[-359553] | stem:[5] | stem:[d_(10)] | stem:[253000] | stem:[1000]
+| stem:[d_3] | stem:[-194521] | stem:[5] | stem:[d_(11)] | stem:[254000] | stem:[1000]
+| stem:[d_4] | stem:[-159158] | stem:[5] | stem:[d_(12)] | stem:[314131] | 5
+| stem:[d_5] | stem:[-105769] | stem:[5] | stem:[d_(13)] | stem:[426691] | 5
+| stem:[d_6] | stem:[0] | -- | stem:[d_(14)] | stem:[481574] | 5
 | stem:[d_7] | stem:[172200] | 5 | stem:[d_(15)] | stem:[510246] | 5
 | stem:[d_8] | stem:[200478] | 5 | | |
 6+a| Frequency referenced to:: stem:[a_3", P(13) 43-0"], ^127^I~2~: stem:[f = 582490603442" "rm(kHz)] <<ci2003>> +
