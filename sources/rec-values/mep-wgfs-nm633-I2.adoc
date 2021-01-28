@@ -27,7 +27,7 @@
 
 == Iodine (stem:[ii(lambda) ~~ 633" "rm(nm)])
 
-*Absorbing molecule ^127^I~2~, stem:[a_{16}] or f component, R(127) 11-5 transition* footnote:[All transitions in I~2~ refer to the stem:["B"^3Pi" "0_u^+ - "X"^1" "Sigma_g^+] system.]
+*Absorbing molecule ^127^I~2~, stem:[rm(a)_{16}] or f component, R(127) 11-5 transition* footnote:[All transitions in I~2~ refer to the stem:["B"^3Pi" "0_u^+ - "X"^1" "Sigma_g^+] system.]
 
 == CIPM recommended values
 
@@ -66,7 +66,7 @@ h| stem:[f // rm(kHz)] h| stem:[u_c//y] h| source data
 | Unweighted mean: 2+| stem:[(f_(BIPM4) - f_(CIPM97) ) = 7.0" "rm(kHz)]
 |===
 
-The source data are all given with respect to the BIPM4 laser standard frequency. The relative standard uncertainty includes the uncertainty in the absolute frequency measurement and the uncertainty obtained by comparing the different frequency standards with the BIPM4 standard. The CCL proposed that the recommended radiation for the R(127) 11-5 transition, using 633 nm He-Ne lasers, no longer correspond to the stem:[a_{13}] or i component, but is replaced by the stem:[a_{16}] or f component, which was decided by the CIPM 2001.
+The source data are all given with respect to the BIPM4 laser standard frequency. The relative standard uncertainty includes the uncertainty in the absolute frequency measurement and the uncertainty obtained by comparing the different frequency standards with the BIPM4 standard. The CCL proposed that the recommended radiation for the R(127) 11-5 transition, using 633 nm He-Ne lasers, no longer correspond to the stem:[rm(a)_{13}] or i component, but is replaced by the stem:[rm(a)_{16}] or f component, which was decided by the CIPM 2001.
 
 The CCL adopted a correction of the previous recommended frequency by +7 kHz, giving the frequency of the f component to be stem:[473612353604 " "rm(kHz)]. The CCL also revised the coefficient of the tolerated one-way intracavity beam power influencing the average uncertainty of beat-frequency measurements between two stabilized lasers. This results in a combined uncertainty of stem:[u_c = 10" "rm(kHz)], corresponding to a relative uncertainty of stem:[u_c//y = 2.1 xx 10^(−11)], see <<sec-uncertainties>>. The grouped laser comparisons from national laboratories undertaken by the BIPM (1993-2000) confirm that the choice of a relative standard uncertainty of stem:[2.1 xx 10^(−11)] is valid <<chartier2001>>, <<chartier1997>>, <<stahlberg>>, <<navratil>>, <<darnedde>>, <<brown>>, <<abramova>>, <<viliesid>>, <<shen>>. This series of comparisons is a key comparison BIPM.L-K10 and is reported on the BIPM website http://www.bipm.org/kcdb.
 
@@ -100,17 +100,18 @@ stem:[(f_(BIPM4) - f_(CIPM97) ) = 4.2" kHz, "u_c = 6.6" "rm(kHz)].
 The uncertainties resulting from variations in operational parameters are listed below.
 
 [%unnumbered]
+[cols="5*"]
 |===
 h| Parameter h| Recommended value h| Tolerance h| Coefficient h| stem:[u // rm(kHz)]
 
-5+| Iodine cell
+h| Iodine cell 4+|
 | cell-wall temperature | 25 °C | 5 °C | 0.5 kHz/°C | 2.5
 | cold-finger temperature | 15 °C | 0.2 °C | –15 kHz/°C | 3.0
 | iodine purity | | | | 5.0
-| Frequency modulation width peak-to-peak | 6 MHz | 0.3 MHz | –10 kHz / MHz | 3.0
-| One-way intracavity beam power | 10 mW | 5 mW | ≤ 1.0 kHz / mW | 5.0
-| Beat-frequency measurements between two lasers | | | | 5.0
-5+>| Combined standard uncertainty stem:[u_c = 10.0" "rm(kHz)]
+h| Frequency modulation width peak-to-peak | 6 MHz | 0.3 MHz | –10 kHz / MHz | 3.0
+h| One-way intracavity beam power | 10 mW | 5 mW | ≤ 1.0 kHz / mW | 5.0
+h| Beat-frequency measurements between two lasers | | | | 5.0
+5+>h| Combined standard uncertainty stem:[u_c = 10.0" "rm(kHz)]
 |===
 
 
@@ -146,7 +147,7 @@ h| stem:[rm(a)_n] h| stem:[x] h| stem:[[f (rm(a)_n) - f (rm(a)_{16})\]//rm(MHz)]
 | stem:[rm(a)_9] | m | stem:[-292.693] | stem:[0.005] | stem:[rm(a)_{19}] | c | stem:[144.114] | 0.005
 | stem:[rm(a)_{10}] | l | stem:[-276.886] | stem:[0.005] | stem:[rm(a)_{20}] | b | stem:[152.208] | 0.005
 | stem:[rm(a)_{11}] | k | stem:[-268.842] | stem:[0.005] | stem:[rm(a)_{21}] | a | stem:[161.039] | 0.005
-8+| Frequency referenced to stem:[rm(a)_{16}" (f), R(127) 11-5"], ^127^I~2~: stem:[f = 473612353604" "rm(kHz)] <<ci2002>>
+8+<a| Frequency referenced to:: stem:[rm(a)_{16}" (f), R(127) 11-5"], ^127^I~2~: stem:[f = 473612353604" "rm(kHz)] <<ci2002>>
 |===
 Ref. <<rowley>>, <<hanes>>, <<cerez>>, <<bayer>>, <<bertinetto>>, <<tanaka>>, <<blabla24>>, <<morinaga>>, <<blabla26>>, <<chartier1983>>, <<chartier1991>>, <<petru>>
 
@@ -167,7 +168,7 @@ h| stem:[rm(b)_n] h| stem:[x] h| stem:[[f (rm(b)_n) - f (rm(b)_{21})\]//rm(MHz)]
 | stem:[rm(b)_9] | m | stem:[-461.30] | stem:[0.03] | stem:[rm(b)_{20}] | b | stem:[-21.980] | 0.007
 | stem:[rm(b)_{10}] | l | stem:[-453.21] | stem:[0.03] | stem:[rm(b)_{21}] | a | stem:[0] | --
 | stem:[rm(b)_{11}] | k | stem:[-439.01] | stem:[0.01] | | | |
-8+| Frequency referenced to stem:[rm(a)_{16}" (f), R(127) 11-5"], ^127^I~2~: stem:[f = 473612353604" "rm(kHz)] <<ci2002>> +
+8+<a| Frequency referenced to:: stem:[rm(a)_{16}" (f), R(127) 11-5"], ^127^I~2~: stem:[f = 473612353604" "rm(kHz)] <<ci2002>> +
 stem:[f (rm(b)_{21}," P(33) 6-3") - f (rm(a)_{16}," R(127) 11-5") = -532.42(2)" "rm(MHz)] <<razet>>
 |===
 Ref. <<morinaga>>, <<razet>>, <<hanes1971>>, <<bergquist>>, <<simonsen>>, <<edwards>>
@@ -192,7 +193,7 @@ h| stem:[rm(a)_n] h| stem:[x] h| stem:[[f (rm(a)_n) - f (rm(a)_{28})\]//rm(MHz)]
 | stem:[rm(a)_{13}] | o' | stem:[-289.7] | stem:[1] | stem:[rm(a)_{27}] | m~1~ | stem:[-41.24] | 0.05
 | stem:[rm(a)_{14}] | n' | stem:[-282.7] | stem:[1] | stem:[rm(a)_{28}] | k | 0  | --
 | stem:[rm(a)_{15}] | j' | stem:[-206.1] | stem:[0.02] | | | |
-8+| Frequency referenced to stem:[rm(a)_{16}" (f), R(127) 11-5"], ^127^I~2~: stem:[f = 473612353604" "rm(kHz)] <<ci2002>> +
+8+<a| Frequency referenced to:: stem:[rm(a)_{16}" (f), R(127) 11-5"], ^127^I~2~: stem:[f = 473612353604" "rm(kHz)] <<ci2002>> +
 stem:[f (rm(a)_{28}," P(54) 8-4") - f (rm(a)_{16}," R(127) 11-5"{^(127)ii(I)_2}) = -42.99(4)" "rm(MHz)] <<ccdm82-2>>, <<chartier1984>>
 |===
 Ref. <<ccdm82-2>>, <<chartier1984>>, <<chartier1982>>, <<gerlach>>, <<knox>>, <<tesic>>, <<magyar>>, <<chartier1978>>, <<chartier1993>>
@@ -220,7 +221,7 @@ h| stem:[rm(b)_n] h| stem:[x] h| stem:[[f (rm(b)_n) - f (rm(a)_{28})\]//rm(MHz)]
 | stem:[rm(b)_{15}] | a′′ | stem:[407] | 4 | stem:[rm(b)_{35}] | b′ | stem:[697.96] | 0.10
 | stem:[rm(b)_{16}] | z′ | stem:[412.37] | 0.05 | stem:[rm(b)_{36}] | a′ | stem:[705.43] | 0.10
 | stem:[rm(b)_{17}] | y′ | stem:[417] | 4 | | | |
-8+| Frequency referenced to stem:[rm(a)_{16}" (f), R(127) 11-5"], ^127^I~2~: stem:[f = 473612353604" "rm(kHz)] <<ci2002>> +
+8+<a| Frequency referenced to:: stem:[rm(a)_{16}" (f), R(127) 11-5"], ^127^I~2~: stem:[f = 473612353604" "rm(kHz)] <<ci2002>> +
 stem:[f (rm(a)_{28}", P(54) 8-4") - f (rm(a)_{16}," R(127) 11-5"] {^127^I~2~}) = –42.99 (4) MHz <<ccdm82-2>>, <<chartier1984>>
 |===
 Ref. <<gerlach>>, <<magyar>>, <<chartier1978>>, <<chartier1993>>
@@ -234,7 +235,7 @@ h| stem:[rm(d)_n] h| stem:[x] h| stem:[[f (rm(d)_n) - f (rm(a)_{28})\]//rm(MHz)]
 | stem:[rm(d)_{23}] | A′ | stem:[-555] | stem:[5] | stem:[rm(d)_{26}] | M | stem:[-499] | 2
 | stem:[rm(d)_{24}] | N | stem:[-511] | stem:[2] | stem:[rm(d)_{27}] | M | stem:[-499] | 2
 | stem:[rm(d)_{25}] | N | stem:[-511] | stem:[2] | stem:[rm(d)_{28}] | K | stem:[-456] | 2
-8+| Frequency referenced to stem:[rm(a)_{16}" (f), R(127) 11-5"], ^127^I~2~: stem:[f = 473612353604" "rm(kHz)] <<ci2002>> +
+8+<a| Frequency referenced to:: stem:[rm(a)_{16}" (f), R(127) 11-5"], ^127^I~2~: stem:[f = 473612353604" "rm(kHz)] <<ci2002>> +
 stem:[f (rm(a)_{28}", P(54) 8-4") - f (rm(a)_{16}," R(127) 11-5"] {^127^I~2~}) = –42.99 (4) MHz <<ccdm82-2>>, <<chartier1984>>
 |===
 Ref. <<gerlach>>
@@ -254,7 +255,7 @@ h| stem:[rm(e)_n] h| stem:[x] h| stem:[[f (rm(e)_n) - f (rm(e)_2)\]//rm(MHz)] h|
 | stem:[rm(e)_7] | G | stem:[191] | 2 | stem:[rm(e)_{16}] | P | stem:[295] | 5
 | stem:[rm(e)_8] | H | stem:[208] | 2 | stem:[rm(e)_{17}] | Q | stem:[306] | 6
 | stem:[rm(e)_9] | I | stem:[239] | 2 | | | |
-8+| Frequency referenced to stem:[rm(a)_{16}" (f), R(127) 11-5"], ^127^I~2~: stem:[f = 473612353604" "rm(kHz)] <<ci2002>> +
+8+<a| Frequency referenced to:: stem:[rm(a)_{16}" (f), R(127) 11-5"], ^127^I~2~: stem:[f = 473612353604" "rm(kHz)] <<ci2002>> +
 stem:[f (rm(e)_2", P(33) 6-3") - f (rm(a)_{16}," R(127) 11-5"] {^127^I~2~}) = 849.4 (2) MHz <<schweitzer>>, <<chartier1985>>
 |===
 Ref. <<gerlach>>, <<chartier1993>>, <<schweitzer>>, <<helmcke>>
@@ -272,7 +273,7 @@ h| stem:[rm(m)_n] h| stem:[x] h| stem:[[f (rm(m)_n) - f (rm(a)_{28})\]//rm(MHz)]
 | stem:[rm(m)_5] | b' | stem:[-117.79] | stem:[0.10] | stem:[rm(m)_{30}] | o'' | stem:[299.22] | 0.05
 | stem:[rm(m)_6] | p | stem:[-87.83] | stem:[0.15] | stem:[rm(m)_{31}] | n'' | stem:[312.43] | 0.05
 | stem:[rm(m)_7] | o | stem:[-78.2] | stem:[0.5] | stem:[rm(m)_{32}] | m'' | stem:[324.52] | 0.03
-| stem:[rm(m)_8] | n | stem:[-56], see stem:[a_{24}] and stem:[a_{25}] <<table3>> | stem:[1] | stem:[rm(m)_{33}] | l'' | stem:[333.14] | 0.03
+| stem:[rm(m)_8] | n | stem:[-56], see stem:[rm(a)_{24}] and stem:[rm(a)_{25}] <<table3>> | stem:[1] | stem:[rm(m)_{33}] | l'' | stem:[333.14] | 0.03
 | stem:[rm(m)_9] | l | −17.55 | stem:[0.05] | stem:[rm(m)_{34}] | k~2~'' | stem:[337.7] | 0.5
 | stem:[rm(m)_{10}] | j | stem:[12.04] | 0.03 | stem:[rm(m)_{35}] | k~1~'' | stem:[337.7] | 0.5
 | stem:[rm(m)_{11}] | i | stem:[15.60] | 0.03 | stem:[rm(m)_{36}] | j'' | stem:[345.05] | 0.05
@@ -290,7 +291,7 @@ h| stem:[rm(m)_n] h| stem:[x] h| stem:[[f (rm(m)_n) - f (rm(a)_{28})\]//rm(MHz)]
 | stem:[rm(m)_{23}] | w'' | stem:[205.06] | 0.05 | stem:[rm(m)_{48}] | p' | stem:[515.11] | 0.05
 | stem:[rm(m)_{24}] | v~2~'' | stem:[207.9] | 0.5 | | | |
 | stem:[rm(m)_{25}] | v~1~'' | stem:[207.9] | 0.5 | | | |
-8+a| Frequency referenced to stem:[rm(a)_{16}" (f), R(127) 11-5"], ^127^I~2~: stem:[f = 473612353604" "rm(kHz)] <<ci2002>> +
+8+<a| Frequency referenced to:: stem:[rm(a)_{16}" (f), R(127) 11-5"], ^127^I~2~: stem:[f = 473612353604" "rm(kHz)] <<ci2002>> +
 stem:[f (rm(a)_{28}", P(54) 8-4") - f (rm(a)_{16}," R(127) 11-5"] {^127^I~2~}) = –42.99 (4) MHz <<ccdm82-2>>, <<chartier1984>>
 |===
 Ref. <<gerlach>>, <<ccdm82-19a>>, <<magyar>>, <<chartier1978>>, <<chartier1993>>
@@ -367,11 +368,11 @@ Ref. <<gerlach>>, <<ccdm82-19a>>, <<magyar>>, <<chartier1978>>, <<chartier1993>>
 
 * [[[edwards,34]]], Edwards C. S., Barwood G. P., Gill P., Rowley W. R. C., A 633 nm iodine-stabilized diode laser frequency standard, _Metrologia_, 1999, *36*, 41-45.
 
-* [[[ccdm82-2,35]]], CCDM/82-2, NPL, Rowley W. R. C., Beat frequency measurements, ^129^I~2~(k) − ^127^I~2~(i).
+* [[[ccdm82-2,35]]], CCDM/82-2, NPL, Rowley W. R. C., Beat frequency measurements, stem:[rm(""^129 I_2(k) - ""^127 I_2(i))].
 
 * [[[chartier1984,36]]], Chartier J.-M., Lasers à He-Ne asservis sur l'absorption saturée de l'iode en cuve interne (stem:[ii(lambda) = 633" "rm(nm)]), _BIPM, Proc.-Verb. Com. Int. Poids et Mesures_, 1984, *52*, 44.
 
-* [[[chartier1982,37]]], Chartier J.-M., Détermination et reproductibilité de l'intervalle de fréquence (^129^I~2~, k) - (^127^I~2~, i), _Rapport BIPM_, 1982, *82/10*.
+* [[[chartier1982,37]]], Chartier J.-M., Détermination et reproductibilité de l'intervalle de fréquence stem:[rm((""^129 I_2," "k) - (""^127 I_2," "i))], _Rapport BIPM_, 1982, *82/10*.
 
 * [[[gerlach,38]]], Gerlach R. W., _Thesis_, University Cleveland, 1975.
 
