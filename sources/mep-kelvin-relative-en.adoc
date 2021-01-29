@@ -3,8 +3,8 @@
 :appendix-id: 2
 :partnumber: 1
 :edition: 1
-:copyright-year: 2019
-:revdate: 2019-01-01
+:copyright-year: 2017
+:revdate: 2017-08-31
 :language: en
 :title-annex-en: MEP-K Relative Primary Radiometric Thermometry
 :title-annex-fr:
@@ -102,12 +102,12 @@ Because of the integral over the spectral responsivity to account for the finite
 [[eq2]]
 [stem]
 ++++
-ii(S)(ii(T)) = c/("exp"((c_2')/(ii(AT)+ii(B))-1))
+ii(S)(ii(T)) = C/("exp"((c_2')/(ii(AT)+ii(B))-1))
 ++++
 
 where stem:[c_2' = c_2//n = hc//kn], where stem:[k] is the Boltzmann constant, stem:[h] is the Planck constant, stem:[c] the speed of light in a vacuum, stem:[n] is the refractive index of the gas in the optical path, stem:[ii(A)], stem:[ii(B)] and stem:[ii(C)] are related to the radiometer’s spectral responsivity, stem:[s(ii(lambda))]. Measured (stem:[ii(T), ii(S)]) pairs form the raw data for the extrapolation, interpolation or least-squares fitting. One important condition is that the bandwidth of the radiometer must be narrow compared to the centre wavelength, stem:[Delta ii(lambda) // ii(lambda) < < 1].
 
-More details of these approaches can be found in <<machin4, Machin _et al._ 2010 {1]>>, <<machin5, Machin _et al._ 2010 {2}>>, particularly Annex 2 of {1}, and in <<saunders10, Saunders 2011>>, <<bloembergen1, Bloembergen and Yamada 2011>>.
+More details of these approaches can be found in <<machin4, Machin _et al._ 2010 {1}>>, <<machin5, Machin _et al._ 2010 {2}>>, particularly Annex 2 of {1}, and in <<saunders10, Saunders 2011>>, <<bloembergen1, Bloembergen and Yamada 2011>>.
 
 === Extrapolation using one fixed point
 
