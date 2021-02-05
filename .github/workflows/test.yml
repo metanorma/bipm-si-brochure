@@ -66,6 +66,6 @@ jobs:
 
       - name: Metanorma compile
         run: |
-          metanorma site generate sources -c sources/collection.yml
-          metanorma collection sources/si-brochure-bilingual.yml -x xml,html,presentation,pdf \
+          metanorma site generate .
+          metanorma collection si-brochure-bilingual.yml -x xml,html,presentation,pdf \
             -w bilingual-brochure -c sources/collection_cover.html
