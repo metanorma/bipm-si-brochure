@@ -35,12 +35,14 @@ jobs:
           metanorma site generate --agree-to-terms .
           metanorma collection si-brochure-bilingual.yml -x xml,html,presentation,pdf \
             -w bilingual-brochure -c sources/collection_cover.html
-          mv bilingual-brochure/collection.{pdf,presentation.xml,xml} site/documents/
-
         env:
           LC_ALL: C.UTF-8
           LANG: C.UTF-8
           LANGUAGE: C.UTF-8
+
+      - name: Move bilingual-brochure/* into site
+        run: |
+          mv bilingual-brochure/collection* site/documents/
 
       - uses: actions/upload-artifact@master
         with:
