@@ -1,12 +1,43 @@
 = BIPM SI Brochure
 
-This work item belongs to the BIPM.
-
 image:https://github.com/metanorma/bipm-si-brochure/badges/master/pipeline.svg["Build Status (master)", link="https://github.com/metanorma/bipm-si-brochure/pipelines"]
 
 This document is available in its rendered forms here:
 
 * https://metanorma.github.io/bipm-si-brochure/[BIPM SI Brochure]
+
+
+== LICENSE
+
+This work item belongs to the https://www.bipm.org[BIPM].
+
+
+== Purpose
+
+This repository holds the Metanorma source markup for the semantic
+version of the SI Brochure (edition 9) and its components.
+
+These components include:
+
+* SI Brochure (bilingual)
+** content body (fr, en)
+** Appendix 1 (fr, en)
+** Appendix 2: individual mise en pratique documents (en)
+** Appendix 3 (fr, en)
+** Appendix 4 (fr, en)
+
+Rendering formats supported include:
+
+* Metanorma semantic XML
+* Metanorma presentation XML
+* HTML
+* PDF
+
+Each of these components can be individually published.
+
+The composite bilingual SI Brochure is compiled as a Metanorma
+collection which includes all its components as individual
+documents.
 
 
 == Fetching the document
@@ -17,7 +48,7 @@ git clone https://github.com/metanorma/bipm-si-brochure/
 ----
 
 
-== Installing Build Tools
+== Installing build tools
 
 See https://www.metanorma.com/author/topics/install/
 
@@ -39,26 +70,20 @@ The `Makefile` will automatically choose the proper command to
 execute.
 
 
-== Building The Document
+== Building the documents
+
+Run the following commands to build the full collection of the documents.
 
 [source,sh]
 ----
-make clean all
+metanorma site generate .
+metanorma collection si-brochure-bilingual.yml -x xml,html,presentation,pdf \
+  -w bilingual-brochure -c sources/collection_cover.html
 ----
 
 The following outputs will be built:
 
-* Document index at `documents.html`
-* Output document at `documents/bipm-si-brochure.html`
-* HTML (`[filename].html`)
-* PDF (`[filename].pdf`)
-* Word DOC (`[filename].doc`)
+Component index:: `site/index.html`
+Component outputs:: under `site/documents/` (HTML, PDF, MN S/P XML)
+Bilingual brochure:: `bilingual-brochure/collection.{pdf,xml,presentation.xml}`
 
-
-== Iterating the document
-
-[source,sh]
-----
-make
-open documents/bipm-si-brochure.html
-----
