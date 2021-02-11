@@ -1682,60 +1682,60 @@ This method is applied by calculating the sensitivity coefficients in <<eq89>> t
 [cols="3*"]
 |===
 h| Effect h| Notes h| Calculation
-a| &nbsp; +tem:[s_("trap")] a| If spectral in stem:[s(ii(lambda))], possibly affects all of stem:[u(ii(lambda)_("ran",i))], stem:[u(ii(lambda)_("sys"))], stem:[u_("rel")(s_("ran",i))], and stem:[u_("rel")(s_("sys"))]. Otherwise in stem:[ii(K)]. a| <<eq89>> to <<eq92>> +
+a| {nbsp} +tem:[s_("trap")] a| If spectral in stem:[s(ii(lambda))], possibly affects all of stem:[u(ii(lambda)_("ran",i))], stem:[u(ii(lambda)_("sys"))], stem:[u_("rel")(s_("ran",i))], and stem:[u_("rel")(s_("sys"))]. Otherwise in stem:[ii(K)]. a| <<eq89>> to <<eq92>> +
 or +
-&nbsp; +
+{nbsp} +
 stem:[(del ii(T))/(del s_("trap")) = (del ii(K))/(del s_("trap")) (del ii(T))/(del ii(K))] +
-&nbsp; +
+{nbsp} +
 stem:[(del ii(K))/(del ii(tau)_("trap")) = ii(K)/(ii(tau)_("trap"))] +
-&nbsp; +
+{nbsp} +
 stem:[(del ii(T))/(del ii(K))] from <<eq93>>. +
-&nbsp;
+{nbsp}
 
 | Geometric factor, stem:[g] a| Uncertainty associated with geometric factor given by <<eq24>> and <<eq28>>. Then in stem:[ii(K)].
 a| stem:[(del ii(K))/(del g) = ii(K)/g] +
-&nbsp; +
+{nbsp} +
 stem:[(del ii(T))/(del ii(K))] from <<eq93>>.
-&nbsp;
+{nbsp}
 
 | Amplifier gain, stem:[ii(G)] | In stem:[ii(K)].
 a| stem:[(del ii(K))/(del ii(G)) = ii(K)/ii(G)] +
-&nbsp; +
+{nbsp} +
 stem:[(del ii(T))/(del ii(K))] from <<eq93>>. +
-&nbsp;
+{nbsp}
 | Wavelength scale accuracy a| This produces uncertainty components stem:[u(ii(lambda)_("ran",i))] and stem:[u(ii(lambda)_("sys"))]. However, if the accuracy can be considered a spectral offset, it can be considered a simple uncertainty component stem:[u(ii(lambda)_("sys"))] only. | <<eq89>> and <<eq90>>.
 | Filter stability a| This will affect the shape of stem:[s(ii(lambda))] and hence possibly all of stem:[u(ii(lambda)_("ran",i))], stem:[u(ii(lambda)_("sys"))], stem:[u_("rel")(s_("ran",i))], and stem:[u_("rel")(s_("sys"))]. | <<eq89>> to <<eq92>>.
 | Instrument stability and noise | This affects the measured signal, S. | <<eq94>>.
 | Size-of source effect, stem:[ii(K)_("SSE")] | In stem:[ii(K)].
 a| stem:[(del ii(K))/(del ii(K)_("SSE")) = ii(K)/(ii(K)_("SSE"))] +
-&nbsp; +
+{nbsp} +
 stem:[(del ii(T))/(del ii(K))] from <<eq93>>. +
-&nbsp;
+{nbsp}
 | Linearity, stem:[ii(K)_("lin")] | In stem:[ii(K)].
 a| stem:[(del ii(K))/(del ii(K)_("lin")) = (K)/(ii(K)_("lin"))] +
-&nbsp; +
+{nbsp} +
 stem:[(del ii(T))/(del ii(K))] from <<eq93>>. +
-&nbsp;
+{nbsp}
 
 | Blackbody emissivity, stem:[ii(varepsilon)] a| In stem:[ii(S)] when measuring a blackbody at an unknown temperature.
 a| stem:[(del ii(T))/(del ii(varepsilon)) = (del ii(S))/(del ii(varepsilon)) (del ii(T))/(del ii(S))] +
-&nbsp; +
+{nbsp} +
 stem:[(del ii(S))/(del ii(varepsilon)) = ii(S)/ii(varepsilon)] +
-&nbsp; +
+{nbsp} +
 stem:[(del ii(T))/(del ii(S))] from <<eq94>>.
-&nbsp;
+{nbsp}
 
 a| Blackbody stability, ability to define melt and similar | As above. |
 a| Hybrid method: lens transmittance
 a| If spectral in stem:[s(ii(lambda))], possibly affects all of stem:[u(ii(lambda)_("ran",i))], stem:[u(ii(lambda)_("sys"))], stem:[u_("rel")(s_("ran",i))], and stem:[u_("rel")(s_("sys"))]. But normally stem:[ii(K)]. a| <<eq87>> to <<eq92>> +
 or +
-&nbsp; +
+{nbsp} +
 stem:[(del ii(T))/(del ii(tau)_("abs")) = (del ii(K))/(del ii(tau)_("abs")) (del ii(T))/(del ii(K))] +
-&nbsp; +
+{nbsp} +
 stem:[(del ii(K))/(del ii(tau)_("abs")) = ii(K)/(ii(tau)_("abs"))] +
-&nbsp; +
+{nbsp} +
 stem:[(del ii(T))/(del ii(K))] from <<eq93>>. +
-&nbsp;
+{nbsp}
 a| Power method: uniformity of detector .3+| These can all be considered as a relative uncertainty within stem:[ii(K)]. .3+| stem:[(del ii(T))/(del ii(K))] from <<eq93>>.
 a| Radiance method: angular uniformity of the calibration source
 a| Irradiance/hybrid method: spatial uniformity of the calibration irradiance field
@@ -2053,43 +2053,43 @@ This method is applied by calculating the integral quantities of <<eq101>> to <<
 h| Effect h| Notes h| Calculation
 | Spectral responsivity of trap detector, stem:[s_("trap")] a| If spectral in stem:[s(ii(lambda))], which affects the central wavelength and bandwidth. a| Contributes to stem:[ii(H)] as a component in stem:[ii(K)]. +
 stem:[(del ii(T))/(del ii(H))] from <<eq104>>. +
-&nbsp;
+{nbsp}
 | Geometric factor, stem:[g] a| Uncertainty associated with geometric factor given by <<eq24>> and <<eq28>>. Then in stem:[ii(H)] through stem:[ii(K)]. a| stem:[(del ii(H))/(del g) = ii(H)/g] +
-&nbsp; +
+{nbsp} +
 stem:[(del ii(T))/(del ii(H))] from <<eq104>>. +
-&nbsp;
+{nbsp}
 | Amplifier gain, stem:[ii(G)] | In stem:[ii(H)] through stem:[ii(K)]. a| stem:[(del ii(H))/(del ii(G)) = ii(H)/ii(G)] +
-&nbsp; +
+{nbsp} +
 stem:[(del ii(T))/(del ii(H))] from <<eq104>>. +
-&nbsp;
+{nbsp}
 | Wavelength scale accuracy a| This produces an uncertainty assoc. with both stem:[ii(lambda)_0] and stem:[sigma]. However, if the accuracy can be considered a spectral offset, it can be considered a simple uncertainty associated with stem:[ii(lambda)_0] only. | <<eq105>> and <<eq106>>.
 | Filter stability a| This will affect the shape of stem:[s(ii(lambda))] and hence both stem:[ii(lambda)_0] and stem:[ii(sigma)]. It is best modelled to estimate an uncertainty associated with those. | <<eq105>> and <<eq106>>.
 | Instrument stability and noise | This affects the measured signal, stem:[ii(S)]. | <<eq110>>.
 | Size-of source effect, stem:[ii(K)_("SSE")] | In stem:[ii(H)] through stem:[ii(K)]. a| stem:[(del ii(T))/(del ii(K)_("SSE")) = (del ii(H))/(del ii(K)_("SSE")) (del ii(T))/(del ii(H))] +
-&nbsp; +
+{nbsp} +
 stem:[(del ii(H))/(del ii(K)_("SSE")) = ii(H)/(ii(K)_("SSE"))] +
-&nbsp; +
+{nbsp} +
 stem:[(del ii(T))/(del ii(H))] from <<eq104>>. +
-&nbsp;
+{nbsp}
 | Linearity, stem:[ii(K)_("lin")] | In stem:[ii(H)] through stem:[ii(K)]. a| stem:[(del ii(T))/(del ii(K)_("lin")) = (del ii(H))/(del ii(K)_("lin")) (del ii(T))/(del ii(H))] +
-&nbsp; +
+{nbsp} +
 stem:[(del ii(H))/(del ii(K)_("lin")) = ii(H)/(ii(K)_("lin"))] +
-&nbsp; +
+{nbsp} +
 stem:[(del ii(T))/(del ii(H))] from <<eq104>>. +
-&nbsp;
+{nbsp}
 | Blackbody emissivity, stem:[ii(varepsilon)] a| In stem:[ii(S)] when measuring a blackbody at an unknown temperature. a| stem:[(del ii(T))/(del ii(varepsilon)) = (del ii(S))/(del varepsilon) (del ii(T))/(del ii(S))] +
-&nbsp; +
+{nbsp} +
 stem:[(del ii(S))/(del ii(varepsilon)) = ii(S)/ii(varepsilon)] +
-&nbsp; +
+{nbsp} +
 stem:[(del ii(T))/(del ii(S))] from <<eq110>>. +
-&nbsp;
+{nbsp}
 a| Blackbody stability, ability to define melt and similar | As above. |
 a| Hybrid method: lens transmittance a| If spectral in stem:[s(ii(lambda))], which affects the central wavelength and bandwidth. But normally in stem:[ii(H)] through stem:[ii(K)]. a| stem:[(del ii(T))/(del ii(tau)_("abs")) = (del ii(H))/(del ii(tau)_("abs")) (del ii(T))/(del ii(H))] +
-&nbsp; +
+{nbsp} +
 stem:[(del ii(H))/(del ii(tau)_("abs")) = ii(H)/(ii(tau)_("abs"))] +
-&nbsp; +
+{nbsp} +
 stem:[(del ii(T))/(del ii(H))] from <<eq104>>. +
-&nbsp;
+{nbsp}
 a| Power method: uniformity of detector .3+| These can all be considered as a relative uncertainty in stem:[ii(H)] through stem:[ii(K)]. .3+| stem:[(del ii(T))/(del ii(H))] from <<eq104>>.
 a| Radiance method: angular uniformity of the calibration source
 a| Irradiance/hybrid method: spatial uniformity of the calibration irradiance field
