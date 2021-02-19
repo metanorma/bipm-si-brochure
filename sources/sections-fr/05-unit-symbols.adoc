@@ -46,7 +46,7 @@ d’une barre oblique dans une expression donnée s’il n’y a pas de parenth�
 toute ambiguïté.
 
 Il n’est pas autorisé d’utiliser des abréviations pour les symboles et noms d’unités, comme
-sec (pour s ou seconde)(((seconde))), mm car. (pour stem:[rm(mm)^2] ou millimètre carré), cc (pour stem:[rm(cm)^3] ou
+sec (pour s ou seconde)(((seconde))), mm car. (pour stem:["unitsml(mm^2)"] ou millimètre carré), cc (pour stem:["unitsml(cm^3)"] ou
 centimètre cube), ou mps (pour m/s ou mètre(((mètre (m)))) par seconde). L’utilisation correcte des
 symboles des unités du SI et des unités en général, dont il a été fait mention dans les
 chapitres précédents de cette brochure, est obligatoire. C’est ainsi que l’on évite les
@@ -104,7 +104,7 @@ Les symboles des unités sont traités comme des entités mathématiques. Lorsqu
 exprime la valeur d’une grandeur comme le produit d’une valeur numérique par une unité,
 la valeur numérique et l’unité peuvent être traitées selon les règles ordinaires de l’algèbre.
 Une telle démarche applique les principes du calcul formel ou de l’algèbre des grandeurs.
-Par exemple l’équation stem:[p = 48 " "rm(kPa)] peut aussi s’écrire stem:[p//rm(kPa) = 48]. Il est courant d’écrire le
+Par exemple l’équation stem:[p = 48 " ""unitsml(kPa)"] peut aussi s’écrire stem:[p//"unitsml(kPa)" = 48]. Il est courant d’écrire le
 quotient d’une grandeur et d’une unité en tête de colonne d’un tableau, afin que les entrées
 du tableau soient simplement des nombres. Par exemple, un tableau exprimant la vitesse au
 carré en fonction d’une pression peut prendre la forme suivante:
@@ -112,7 +112,7 @@ carré en fonction d’une pression peut prendre la forme suivante:
 [%unnumbered]
 [cols="^,^"]
 |===
-| stem:[p//rm(kPa)] | stem:[v^2//(rm(m)//rm(s))^2]
+| stem:[p//"unitsml(kPa)"] | stem:[v^2//("unitsml(m//s)")^2]
 
 | stem:[48.73] | stem:[94766]
 | stem:[72.87] | stem:[94771]
@@ -139,13 +139,13 @@ grandeur et non à celui de l’unité.
 [NOTE]
 ====
 Par exemple, la différence de potentiel électrique maximale s’exprime sous la forme: +
-stem:[ii(U)_{"max"} = 1000 " " V] +
+stem:[ii(U)_{"max"} = 1000 " " "unitsml(V)"] +
 mais pas +
 stem:[ii(U) = 1000 " " ii(V)_{"max"}]. +
 La fraction massique du cuivre de l’échantillon de silicium s’exprime sous la forme +
 stem:[w("Cu") = 1.3 xx 10^{-6}] +
 mais pas +
-stem:[1.3 xx 10^{-6}] stem:[rm(w)//rm(w)].
+stem:[1.3 xx 10^{-6}] stem:["unitsml(w//w)"].
 ====
 
 ==== Écriture de la valeur d’une grandeur
@@ -158,20 +158,20 @@ d’unité pour le degré, la (((minute (min)))) et la ((seconde)) d’angle(((a
 pour lesquels il n’y a pas d’espace entre la valeur numérique et le symbole de l’unité.
 (((température,Celsius)))
 
-NOTE: stem:[m = 12.3 " "rm(g)] où m est
+NOTE: stem:[m = 12.3 " ""unitsml(g)"] où m est
 utilisé comme symbole de la
 grandeur «&nbsp;masse&nbsp;» mais stem:[phi = 30° 22&#x2032; 8&#x2033;]
 où stem:[phi] est utilisé comme symbole
 de la grandeur «&nbsp;angle plan&nbsp;»(((angle))).
 
-Cette règle signifie que le symbole stem:[°rm(C)] pour le degré Celsius(((degré Celsius (°C)))) est précédé d’une espace pour
+Cette règle signifie que le symbole stem:["unitsml(°C)"] pour le degré Celsius(((degré Celsius (°C)))) est précédé d’une espace pour
 exprimer la valeur de la température Celsius, stem:[t].
 
 [NOTE]
 ====
-stem:[t = 30.2 " °"rm(C)] +
-mais pas stem:[t = 30.2 " °"rm(C)] +
-ni stem:[t = 30.2 " °"rm(C)]
+stem:[t = 30.2 " ""unitsml(°C)"] +
+mais pas stem:[t = 30.2 " ""unitsml(°C)"] +
+ni stem:[t = 30.2 " ""unitsml(°C)"]
 ====
 
 En anglais, même lorsque la valeur d’une grandeur est utilisée comme adjectif, il convient
@@ -189,9 +189,9 @@ mesure d’angles très petits.
 
 [NOTE]
 ====
-stem:[ l = 10.234 " "rm(m)] +
+stem:[ l = 10.234 " ""unitsml(m)"] +
 mais pas +
-stem:[l = 10 " "rm(m)" " 23.4 " "rm(cm)]
+stem:[l = 10 " ""unitsml(m)"" " 23.4 " ""unitsml(cm)"]
 ====
 
 ==== Écriture des nombres et séparateur décimal (((séparateur décimal)))
@@ -241,7 +241,7 @@ m_"n" = 1.674927471(21) xx 10^{-27} " kg"
 
 où stem:[m_"n"] est le symbole de la grandeur (ici la ((masse)) du neutron) et le nombre entre parenthèses
 la valeur numérique de l’incertitude-type sur les deux derniers chiffres de la valeur estimée
-de stem:[m_"n"], dans le cas présent : stem:[u(m_"n") = 0.000000021 xx 10^{-27} " " rm(kg)]. Si une incertitude élargie
+de stem:[m_"n"], dans le cas présent : stem:[u(m_"n") = 0.000000021 xx 10^{-27} " " "unitsml(kg)"]. Si une incertitude élargie
 stem:[ii(U)(x)] est utilisée au lieu de l’incertitude-type stem:[u(x)], alors la probabilité d’élargissement stem:[p] et le
 facteur d’élargissement stem:[k] doivent être précisés. [[valeur_numerique]] [[incertitude-2]]
 
@@ -264,11 +264,11 @@ parenthèses pour lever toute ambiguïté.
 stem:[ii(F) = ma] pour une force égale
 à la ((masse)) multipliée par l’accélération
 
-stem:[(53 " "rm(m)//rm(s)) xx 10.2 " "rm(s)] ou stem:[(53 " "rm(m)//rm(s))(10.2 " "rm(s))]
+stem:[(53 " ""unitsml(m//s)") xx 10.2 " ""unitsml(s)"] ou stem:[(53 " ""unitsml(m//s)")(10.2 " ""unitsml(s)")]
 
 stem:[25 xx 60.5] mais pas stem:[25 * 60.5]
 
-stem:[(20 " "rm(m))"/"(5" "rm(s)) = 4 " "rm(m)//rm(s)]
+stem:[(20 " ""unitsml(m)")"/"(5" ""unitsml(s)") = 4 " ""unitsml(m//s)"]
 
 stem:["(a/b)/c"], mais pas stem:["a/b/c"]
 ====
@@ -286,9 +286,9 @@ exprimer les valeurs particulièrement grandes ou particulièrement petites.
 NOTE: stem:[n = 1.51] mais pas stem:[n = 1.51 xx 1] où stem:[n] est le symbole de la grandeur «&nbsp;indice de réfraction&nbsp;»
 
 Les grandeurs qui sont des rapports de grandeurs de même nature (rapports de longueur,
-fractions molaires, etc.) peuvent être exprimées avec des unités (stem:[rm(m)//rm(m), " "rm(mol)//rm(mol)]) afin de
+fractions molaires, etc.) peuvent être exprimées avec des unités (stem:["unitsml(m//m)", " ""unitsml(mol//mol)"]) afin de
 faciliter la compréhension de la grandeur exprimée et afin de permettre l’utilisation de
-préfixes du SI, si cela est préférable (stem:[mu rm(m)//rm(m)], stem:[rm(nmol)//rm(mol)]). Cela n’est pas possible avec les
+préfixes du SI, si cela est préférable (stem:[mu "unitsml(m//m)"], stem:["unitsml(nmol//mol)"]). Cela n’est pas possible avec les
 grandeurs de comptage(((grandeurs,de comptage))) qui sont simplement des nombres.
 
 Le symbole % (pour cent), qui est internationalement reconnu, peut être utilisé avec le SI.
@@ -321,27 +321,27 @@ source de confusion supplémentaire.
 [[scls548]]
 ==== Angles plans, angles solides et angles de phase (((radian (rad))))(((unité(s),dérivées)))(((unité(s),supplémentaires)))
 
-L’unité cohérente du SI pour l’angle(((angle))) plan et l’angle(((angle))) de phase est le radian, symbole stem:[rm(rad)],
-et celle de l’angle(((angle))) solide est le stéradian(((stéradian (sr)))), symbole stem:[rm(sr)].
+L’unité cohérente du SI pour l’angle(((angle))) plan et l’angle(((angle))) de phase est le radian, symbole stem:["unitsml(rad)"],
+et celle de l’angle(((angle))) solide est le stéradian(((stéradian (sr)))), symbole stem:["unitsml(sr)"].
 
 Lorsqu’il est exprimé en radian, l’angle(((angle))) plan entre deux lignes partant d’un point commun
 est la ((longueur)) de l’arc circulaire stem:[s] balayée entre ces lignes par un vecteur rayon de
-longueur stem:[r] depuis le point commun, divisée par la longueur du vecteur rayon, stem:[ii(theta) = s//r] stem:[rm(rad)].
+longueur stem:[r] depuis le point commun, divisée par la longueur du vecteur rayon, stem:[ii(theta) = s//r] stem:["unitsml(rad)"].
 L’angle(((angle))) de phase (communément appelé «&nbsp;phase&nbsp;») est l’argument de tout nombre
 complexe. C’est l’angle(((angle))) entre l’axe réél positif et le rayon de la représentation polaire du
 nombre complexe dans le plan complexe.
 
-Un radian correspond à l’angle(((angle))) pour lequel stem:[s = r], ainsi stem:[1 " "rm(rad) = 1]. La mesure de l’angle(((angle))) droit
+Un radian correspond à l’angle(((angle))) pour lequel stem:[s = r], ainsi stem:[1 " ""unitsml(rad)" = 1]. La mesure de l’angle(((angle))) droit
 est exactement égale au nombre stem:[pi//2].
 
 Le degré est une convention historique. La conversion entre radians et degrés découle de la
-relation stem:[360° = 2 pi " "rm(rad)]. On remarque que le degré, symbole °, n’est pas une unité du SI.
+relation stem:[360° = 2 pi " ""unitsml(rad)"]. On remarque que le degré, symbole °, n’est pas une unité du SI.
 
 L’angle(((angle))) solide, exprimé en stéradian(((stéradian (sr)))), correspond au rapport entre l’aire stem:[ii(A)] de la surface
-d’une sphère de rayon stem:[r] et le rayon au carré, stem:[ii Omega = ii(A)//r^2] stem:[rm(sr)]. Un stéradian correspond à l’angle(((angle)))
-solide pour lequel stem:[ii(A) = r^2], ainsi stem:[1 " "rm(sr) = 1].
+d’une sphère de rayon stem:[r] et le rayon au carré, stem:[ii Omega = ii(A)//r^2] stem:["unitsml(sr)"]. Un stéradian correspond à l’angle(((angle)))
+solide pour lequel stem:[ii(A) = r^2], ainsi stem:[1 " ""unitsml(sr)" = 1].
 
-Les unités stem:[rm(rad)] et stem:[rm(sr)] correspondent respectivement aux rapports de deux longueurs et de
+Les unités stem:["unitsml(rad)"] et stem:["unitsml(sr)"] correspondent respectivement aux rapports de deux longueurs et de
 deux longueurs au carré. Toutefois, les unités rad et sr ne doivent être utilisées que pour
 exprimer des angles et des angles solides, et non des rapports de longueurs ou de longueurs
 au carré en général. [[regles_ecriture]] [[symboles_recommandes]] [[symboles_ecriture]] (((radian (rad)))) (((stéradian (sr))))
