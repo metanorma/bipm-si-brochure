@@ -31,7 +31,7 @@
 The purpose of this _mise en pratique_, prepared by the Consultative Committee for Amount of
 Substance – Metrology in Chemistry and Biology (CCQM) of the International Committee for
 Weights and Measures (CIPM), is to indicate how the definition of the SI base unit, the mole,
-symbol stem:[rm(mol)], may be realized in practice.
+symbol stem:["unitsml(mol)"], may be realized in practice.
 
 In general, the term "`to realize a unit`" is interpreted to mean the establishment of the value and
 associated uncertainty of a quantity of the same kind as the unit that is consistent with the
@@ -53,9 +53,9 @@ quantity.
 The definition of the mole, SI base unit of amount of substance, is as follows <<bipm-9th>>:
 
 ____
-*The mole, symbol mol, is the SI unit of amount of substance. One mole contains
+*The mole, symbol stem:["unitsml(mol)"], is the SI unit of amount of substance. One mole contains
 exactly stem:[6.02214076 xx 10^{23}] elementary entities. This number is the fixed numerical
-value of the Avogadro constant, stem:[ii(N)_"A"], when expressed in the unit stem:[rm(mol)^{-1}] and is called
+value of the Avogadro constant, stem:[ii(N)_"A"], when expressed in the unit stem:["unitsml(mol)"^{-1}] and is called
 the Avogadro number.*
 
 *The amount of substance, symbol stem:[n], of a system is a measure of the number of
@@ -82,14 +82,14 @@ stem:[m]:: the mass of the stem:[ii(N)] elementary entities;
 
 stem:[ii(A)_"r"("X")]:: the relative atomic or molecular mass footnote:[For historical reasons, the equivalent terms "atomic weight" and "molecular weight" are still in use <<iupac-quantities>>.] of stem:["X"] (depending whether stem:["X"] is an element or a compound, respectively)
 
-stem:[ii(M)_{rm(u)}]:: the molar mass constant
+stem:[ii(M)_"u"]:: the molar mass constant
 
 Two widely used equations relate these quantities:
 
 [[eq-2-1]]
 [stem]
 ++++
-n = m // (ii(A)_"r" ("X") ii(M)_{rm(u)})
+n = m // (ii(A)_"r" ("X") ii(M)_"u")
 ++++
 
 and
@@ -158,7 +158,7 @@ This primary realization of the mole with the smallest uncertainty differs from 
 [[sec-4]]
 == Common and practical realizations of the definition of the mole and derived units and dissemination of the mole
 
-In practice, chemical measurements require the realization, across all types of chemical entities, of derived units involving amount of substance that are relevant to practical chemical measurement, such as the amount of substance concentration (stem:[rm(mol)//rm(m)^3]), the amount of substance content (stem:[rm(mol)//rm(kg)]) or the amount of substance fraction (mol/mol). This may be done by a variety of primary methods of measurement <<quinn>>. The present definition of the mole allows the number of entities stem:[ii(N)] in a sample to be determined to the same accuracy as the amount of substance stem:[n] in the sample because, from <<eq-2-2>>, stem:[ii(N) = n ii(N)_"A"] and stem:[ii(N)_"A"] has an exact numerical value.
+In practice, chemical measurements require the realization, across all types of chemical entities, of derived units involving amount of substance that are relevant to practical chemical measurement, such as the amount of substance concentration (stem:["unitsml(mol//m^3)"]), the amount of substance content (stem:["unitsml(mol//kg)"]) or the amount of substance fraction (mol/mol). This may be done by a variety of primary methods of measurement <<quinn>>. The present definition of the mole allows the number of entities stem:[ii(N)] in a sample to be determined to the same accuracy as the amount of substance stem:[n] in the sample because, from <<eq-2-2>>, stem:[ii(N) = n ii(N)_"A"] and stem:[ii(N)_"A"] has an exact numerical value.
 
 Similarly, the atomic or molecular mass stem:[m_"a" ("X")] and the molar mass stem:[ii(M)("X")] of any entity stem:["X"] are known to the same relative uncertainty because:
 
@@ -170,7 +170,7 @@ m_"a" ("X") = {ii(M)("X")} / {ii(N)_"A"}
 ++++
 
 
-The atomic mass constant stem:[m_{rm(u)}] is 1/12 of the mass of a free ^12^C atom, at rest and in its ground state. Its present experimentally-determined value is approximately stem:[1.660539067(1) xx 10^{-27} " kg"] with a relative uncertainty less than 1 part in stem:[10^9] and is identical to that of stem:[ii(M)_{rm(u)}]. Note that stem:[ii(N)_"A" m_{rm(u)} = ii(M)_{rm(u)}] is a special case of <<eq-4-1>>. The advantages of these features of the present definition of the mole have been emphasized in the literature <<milton>>. The most up-to-date values and uncertainties of stem:[m_{rm(u)}] and stem:[ii(M)_{rm(u)}] are the most recent recommendations of the CODATA task group on fundamental constants.
+The atomic mass constant stem:[m_{"u"}] is 1/12 of the mass of a free ^12^C atom, at rest and in its ground state. Its present experimentally-determined value is approximately stem:[1.660539067(1) xx 10^{-27} " ""unitsml(kg)"] with a relative uncertainty less than 1 part in stem:[10^9] and is identical to that of stem:[ii(M)_{"u"}]. Note that stem:[ii(N)_"A" m_{"u"} = ii(M)_"u"] is a special case of <<eq-4-1>>. The advantages of these features of the present definition of the mole have been emphasized in the literature <<milton>>. The most up-to-date values and uncertainties of stem:[m_{"u"}] and stem:[ii(M)_{"u"}] are the most recent recommendations of the CODATA task group on fundamental constants.
 
 Three examples of methods to realize the mole (and the number of entities) follow:
 
@@ -183,14 +183,14 @@ Based on <<eq-2-1>> and <<eq-2-2>>, the number of entities stem:[ii(N)] of a sub
 [[eq-4-2]]
 [stem]
 ++++
-ii(N) = (w("X") m) / (m_"a" ("X")) = {w("X")m} / {ii(A)_"r" ("X") m_{rm(u)}}
+ii(N) = (w("X") m) / (m_"a" ("X")) = {w("X")m} / {ii(A)_"r" ("X") m_{"u"}}
 ++++
 
 
 [[eq-4-3]]
 [stem]
 ++++
-n = ii(N) / ii(N)_"A" = {w("X") m} / {ii(A)_"r" ("X") ii(N)_"A" m_{rm(u)}} = {w("X")m} / {ii(A)_"r" ("X") ii(M)_{rm(u)}}
+n = ii(N) / ii(N)_"A" = {w("X") m} / {ii(A)_"r" ("X") ii(N)_"A" m_{"u"}} = {w("X")m} / {ii(A)_"r" ("X") ii(M)_{"u"}}
 ++++
 
 
@@ -214,7 +214,7 @@ p ii(V) = n ii(R) ii(T) [ 1 + ii(B) (ii(T)) (n / ii(V)) + ldots ]
 ++++
 
 
-where stem:[p] is the pressure, stem:[ii(V)] is the volume, stem:[ii(T)] is the temperature, and stem:[ii(R)] is the molar gas constant. The value of stem:[ii(R)] is known exactly (stem:[R = ii(N)_"A" k], stem:[k] is the Boltzmann constant and its numerical value is fixed). The SI coherent unit of the molar gas constant is stem:[rm(Pa)" "rm(m)^3 " "rm(mol)^{-1} " "rm(K)^{-1}] or stem:[rm(J)" "rm(mol)^{-1} " "rm(K)^{-1}], _i.e._ stem:[rm(kg)" "rm(m)^2 " "rm(s)^{-2} " "rm(mol)^{-1} " "rm(K)^{-1}] when expressed in base units. The terms involving the second virial coefficient stem:[B(T)] and possible higher-order terms are generally small corrections. Virial coefficients expressed in SI units are tabulated for a number of simple gases. The uncertainty in a measurement of stem:[n] made this way depends on the uncertainty in measuring stem:[p], stem:[ii(V)] and stem:[ii(T)], and in the tabulated values of stem:[ii(B)(ii(T))]. This method of realizing the mole for a gas relies on the use of a pure sample of the gas. The number of molecules in the gas is stem:[n ii(N)_"A"], which has the same relative uncertainty as the determination of stem:[n].
+where stem:[p] is the pressure, stem:[ii(V)] is the volume, stem:[ii(T)] is the temperature, and stem:[ii(R)] is the molar gas constant. The value of stem:[ii(R)] is known exactly (stem:[ii(R) = ii(N)_"A" k], stem:[k] is the Boltzmann constant and its numerical value is fixed). The SI coherent unit of the molar gas constant is stem:["unitsml(Pa m^3 mol^{-1} K^{-1})"] or stem:["unitsml(J mol^{-1} K^{-1})"], _i.e._ stem:["unitsml(kg m^2 s^{-2} mol^{-1} K^{-1})"] when expressed in base units. The terms involving the second virial coefficient stem:[ii(B)(ii(T))] and possible higher-order terms are generally small corrections. Virial coefficients expressed in SI units are tabulated for a number of simple gases. The uncertainty in a measurement of stem:[n] made this way depends on the uncertainty in measuring stem:[p], stem:[ii(V)] and stem:[ii(T)], and in the tabulated values of stem:[ii(B)(ii(T))]. This method of realizing the mole for a gas relies on the use of a pure sample of the gas. The number of molecules in the gas is stem:[n ii(N)_"A"], which has the same relative uncertainty as the determination of stem:[n].
 
 [[sec-4-3]]
 === Electrolysis
@@ -235,52 +235,52 @@ n = ii(Q) / {z ii(N)_"A" e} = ii(Q) / {z ii(F)}
 ++++
 
 
-The Faraday constant stem:[ii(F)] has the unit stem:[rm(C)//rm(mol)] and is known exactly (stem:[ii(F) = ii(N)_"A" e]). The uncertainty of this method of realizing the mole depends on the reaction efficiency of the ion of interest and no interfering ions present.
+The Faraday constant stem:[ii(F)] has the unit stem:["unitsml(C//mol)"] and is known exactly (stem:[ii(F) = ii(N)_"A" e]). The uncertainty of this method of realizing the mole depends on the reaction efficiency of the ion of interest and no interfering ions present.
 
 
 [[sec-5]]
 == Small numbers of entities
 
-In cases where the number of entities being considered is small, quantities are commonly expressed as numbers of entities instead of amount of substance <<brown>>. The Avogadro constant is the constant of proportionality that links amount of substance to the number of entities. However, the number of entities and amount of substance may only be equated in this way if the entities considered in both quantities are elementary entities of the same type. The unit for the number of entities is one, symbol 1, although this unit is rarely stated explicitly. An example of its use is: the number concentration of ozone molecules in air has the unit stem:["1/m"^3].
+In cases where the number of entities being considered is small, quantities are commonly expressed as numbers of entities instead of amount of substance <<brown>>. The Avogadro constant is the constant of proportionality that links amount of substance to the number of entities. However, the number of entities and amount of substance may only be equated in this way if the entities considered in both quantities are elementary entities of the same type. The unit for the number of entities is one, symbol 1, although this unit is rarely stated explicitly. An example of its use is: the number concentration of ozone molecules in air has the unit stem:["unitsml(1/m)^3"].
 
 
 [[sec-6]]
 == Continuity with previous definition
 
-Note that the 1971 definition of the mole made a direct link between the mole and the mass of a particular nuclide. This allowed traceability to the mole to be established via mass measurements and established a simple relation between macroscopic measurements and microscopic entity numbers such as atoms or molecules via the molar mass constant. The mass of one mole of ^12^C was fixed at exactly stem:[12 " "rm(g)]. This meant that stem:[ii(M)(""^{12}"C")] was exactly stem:[12 " "rm(g)//rm(mol)] and stem:[ii(M)_{rm(u)}] was exactly stem:[1 " "rm(g)//rm(mol)].
+Note that the 1971 definition of the mole made a direct link between the mole and the mass of a particular nuclide. This allowed traceability to the mole to be established via mass measurements and established a simple relation between macroscopic measurements and microscopic entity numbers such as atoms or molecules via the molar mass constant. The mass of one mole of ^12^C was fixed at exactly stem:[12 " ""unitsml(g)"]. This meant that stem:[ii(M)(""^{12}"C")] was exactly stem:[12 " ""unitsml(g//mol)"] and stem:[ii(M)_{"u"}] was exactly stem:[1 " ""unitsml(g//mol)"].
 
 However, the present definition of the mole fixes the numerical value of stem:[ii(N)_"A"]. Therefore from:
 
 [[eq-6-1]]
 [stem]
 ++++
-ii(M)_{rm(u)} = m_{rm(u)} ii(N)_"A"
+ii(M)_{"u"} = m_{"u"} ii(N)_"A"
 ++++
 
-stem:[ii(M)_{rm(u)}] and stem:[m_{rm(u)}] now have the same relative uncertainty.
+stem:[ii(M)_"u"] and stem:[m_"u"] now have the same relative uncertainty.
 
-In <<eq-6-1>> stem:[m_{rm(u)}] is the atomic mass constant. The atomic mass unit stem:[rm(u)] (also known as the dalton, a non-SI unit whose symbol is stem:["Da"]) and the atomic mass constant stem:[m_{rm(u)}] are defined in terms of the mass of the ^12^C isotope. The unit stem:["u"] is related to the constant stem:[m_{rm(u)}] by
+In <<eq-6-1>> stem:[m_"u"] is the atomic mass constant. The atomic mass unit stem:["unitsml(u)"] (also known as the dalton, a non-SI unit whose symbol is stem:["Da"]) and the atomic mass constant stem:[m_"u"] are defined in terms of the mass of the ^12^C isotope. The unit stem:["u"] is related to the constant stem:[m_"u"] by
 
 
 [stem]
 ++++
-1 "&#x200c;" " u" = m_{rm(u)} = m("&#x200c;"^{12} "C") // 12
+1 "&#x200c;" " u" = m_"u" = m("&#x200c;"^{12} "C") // 12
 ++++
 
 
-The molar mass constant stem:[ii(M)_{rm(u)}] and the atomic mass constant stem:[m_{rm(u)}] are determined to the same relative uncertainty for example from the equation:
+The molar mass constant stem:[ii(M)_"u"] and the atomic mass constant stem:[m_"u"] are determined to the same relative uncertainty for example from the equation:
 
 
 [[eq-6-3]]
 [stem]
 ++++
-ii(M)_{rm(u)} = ii(N)_"A" m_{rm(u)} = {2 ii(N)_"A" h} / c {ii(R)_{oo}} / {ii(alpha)^2 ii(A)_"r" ("e")}
+ii(M)_"u" = ii(N)_"A" m_"u" = {2 ii(N)_"A" h} / c {ii(R)_{oo}} / {ii(alpha)^2 ii(A)_"r" ("e")}
 ++++
 
 
 where the Rydberg constant (stem:[ii(R)_{oo}]), the fine structure constant (stem:[ii(alpha)]) and the relative atomic mass of the electron (stem:[ii(A)_("r")("e")]) are determined experimentally. The speed of light (stem:[c]), the Planck constant (stem:[h]) and the Avogadro constant have fixed numerical values <<bipm-9th>>.
 
-Continuity conditions imposed on redefinitions of SI base units have ensured that stem:[ii(M)_{rm(u)}], now determined experimentally, is still stem:[1 xx 10^{-3} " "rm(kg)//rm(mol)] within a relative standard uncertainty of stem:[4.5 xx 10^{-10}] based on <<eq-6-3>> and additional independent experimental methods <<mohr>>. The present uncertainty is more than sufficient for the needs of chemical measurements, being an order of magnitude smaller than the relative uncertainty achievable in the most accurate realization of the mole <<fujii>>-<<kuramoto>>, and several orders of magnitude smaller than the uncertainties in examples of more common realizations of the mole described above.
+Continuity conditions imposed on redefinitions of SI base units have ensured that stem:[ii(M)_"u"], now determined experimentally, is still stem:[1 xx 10^{-3} " ""unitsml(kg//mol)"] within a relative standard uncertainty of stem:[4.5 xx 10^{-10}] based on <<eq-6-3>> and additional independent experimental methods <<mohr>>. The present uncertainty is more than sufficient for the needs of chemical measurements, being an order of magnitude smaller than the relative uncertainty achievable in the most accurate realization of the mole <<fujii>>-<<kuramoto>>, and several orders of magnitude smaller than the uncertainties in examples of more common realizations of the mole described above.
 
 
 [bibliography]
