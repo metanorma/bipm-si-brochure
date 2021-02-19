@@ -30,7 +30,7 @@
 [[sec-1]]
 == Introduction
 
-The purpose of this _Mise en pratique_, prepared by the Consultative Committee for Electricity and Magnetism (CCEM) of the International Committee for Weights and Measures (CIPM), is to indicate how the SI base unit, the ampere, symbol stem:[unitsml(A)], and the derived electric SI units with names and symbols, the volt stem:[unitsml(V)], ohm stem:[unitsml(Ohm)], siemens stem:[unitsml(S)], coulomb stem:[unitsml(C)], farad stem:[unitsml(F)], henry stem:[unitsml(H)], watt stem:[unitsml(W)], tesla stem:[unitsml(T)], and weber stem:[unitsml(Wb)], may be realized in practice.
+The purpose of this _Mise en pratique_, prepared by the Consultative Committee for Electricity and Magnetism (CCEM) of the International Committee for Weights and Measures (CIPM), is to indicate how the SI base unit, the ampere, symbol stem:["unitsml(A)"], and the derived electric SI units with names and symbols, the volt stem:["unitsml(V)"], ohm stem:["unitsml(Ohm)"], siemens stem:["unitsml(S)"], coulomb stem:["unitsml(C)"], farad stem:["unitsml(F)"], henry stem:["unitsml(H)"], watt stem:["unitsml(W)"], tesla stem:["unitsml(T)"], and weber stem:["unitsml(Wb)"], may be realized in practice.
 
 In general, the term "`to realize a unit`" is interpreted to mean the establishment of the value and associated uncertainty of a quantity of the same kind as the unit that is consistent with the definition of the unit. The definition of the ampere does not imply any particular experiment for its practical realization. Any method capable of deriving an electric current value traceable to the set of seven reference constants could, in principle, be used. Thus, the list of methods given is not meant to be an exhaustive list of all possibilities, but rather a list of those primary methods that are easiest to implement and/or that provide the smallest uncertainties.
 
@@ -42,25 +42,25 @@ A primary method is a method having the highest metrological properties; whose o
 The definition of the ampere, SI base unit of electric current, is as follows <<bipm>>:
 
 ____
-*The ampere, symbol stem:[unitsml(A)], is the SI unit of electric current. It is defined by taking the fixed numerical value of the elementary charge stem:[e] to be stem:[1.602176634 xx 10^{-19}] when expressed in the unit stem:[unitsml(C)], which is equal to stem:[unitsml(A*s)], where the second is defined in terms of stem:[Delta ii(nu)_{"Cs"}].*
+*The ampere, symbol stem:["unitsml(A)"], is the SI unit of electric current. It is defined by taking the fixed numerical value of the elementary charge stem:[e] to be stem:[1.602176634 xx 10^{-19}] when expressed in the unit stem:["unitsml(C)"], which is equal to stem:["unitsml(A s)"], where the second is defined in terms of stem:[Delta ii(nu)_{"Cs"}].*
 ____
 
 
 [[sec-3]]
 == Practical realization of the ampere
 
-As already noted in <<sec-1>>, to realize a unit generally means to establish the value and associated uncertainty of a quantity of the same kind as the unit that is consistent with the definition of the unit. In practice, the ampere stem:[unitsml(A)] can be realized:
+As already noted in <<sec-1>>, to realize a unit generally means to establish the value and associated uncertainty of a quantity of the same kind as the unit that is consistent with the definition of the unit. In practice, the ampere stem:["unitsml(A)"] can be realized:
 
-. by using Ohm's law, the unit relation stem:[unitsml(A) = unitsml(V)//unitsml(Ohm)], and using practical realizations of the SI
-derived units the volt stem:[unitsml(V)] and the ohm stem:[unitsml(Ohm)], based on the Josephson and quantum Hall effects,
+. by using Ohm's law, the unit relation stem:["unitsml(A)" = "unitsml(V//Ohm)"], and using practical realizations of the SI
+derived units the volt stem:["unitsml(V)"] and the ohm stem:["unitsml(Ohm)"], based on the Josephson and quantum Hall effects,
 respectively, as discussed in <<sec-4>> and <<sec-5>> below; or
 
-. by using a single electron transport (SET) or similar device, the unit relation stem:[unitsml(A) = unitsml(C)//unitsml(s)], the
+. by using a single electron transport (SET) or similar device, the unit relation stem:["unitsml(A)" = "unitsml(C//s)"], the
 value of stem:[e] given in the definition of the ampere and a practical realization of the SI base unit
 the second s; or
 
-. by using the relation stem:[ii(I) = ii(C) * "d"ii(U)//"d"t], the unit relation stem:[unitsml(A) = unitsml(F) * unitsml(V) // unitsml(s)], and practical realizations of the
-SI derived units the volt stem:[unitsml(V)] and the farad stem:[unitsml(F)] and of the SI base unit second stem:[unitsml(s)].
+. by using the relation stem:[ii(I) = ii(C) * "d"ii(U)//"d"t], the unit relation stem:["unitsml(A)" = "unitsml(F V)" // "unitsml(s)"], and practical realizations of the
+SI derived units the volt stem:["unitsml(V)"] and the farad stem:["unitsml(F)"] and of the SI base unit second stem:["unitsml(s)"].
 
 At the time of the preparation of this _Mise en pratique_, single electron transport (SET)
 implementations still have technical limitations and often larger relative uncertainties than some
@@ -70,14 +70,14 @@ been improving in recent years, and they promise to improve further in the futur
 
 
 [[sec-4]]
-== Practical realization of the volt, V, SI derived unit of electric potential difference (voltage) and electromotive force
+== Practical realization of the volt, stem:["unitsml(V)"], SI derived unit of electric potential difference (voltage) and electromotive force
 
-The volt stem:[unitsml(V)] can be realized using the Josephson effect and the following value of the Josephson constant stem:[ii(K)_"J"] footnote:[This value has been calculated to 15 significant digits.]:
+The volt stem:["unitsml(V)"] can be realized using the Josephson effect and the following value of the Josephson constant stem:[ii(K)_"J"] footnote:[This value has been calculated to 15 significant digits.]:
 
 [[eq-1]]
 [stem]
 ++++
-ii(K)_"J" = 483597.848416984 " GHz V"^{-1}
+ii(K)_"J" = 483597.848416984" ""unitsml(GHz V)"^{-1}
 ++++
 
 This value follows from the assumption of the accuracy of the equation stem:[ii(K)_"J" = 2e//h], which is strongly
@@ -89,7 +89,7 @@ digits should be employed. The advantage of recommending a particular value of s
 is that it ensures that virtually all realizations of the volt based on the Josephson effect employ
 exactly the same value.
 
-Note that the value of stem:[ii(K)_"J"] in <<eq-1>> is smaller than the value stem:[ii(K)_{"J-90"} = 483597.9 " GHz V"^{-1}], which was
+Note that the value of stem:[ii(K)_"J"] in <<eq-1>> is smaller than the value stem:[ii(K)_{"J-90"} = 483597.9" ""unitsml(GHz V)"^{-1}], which was
 adopted by the CIPM starting 1 January 1990 for the international realization of the volt using the
 Josephson effect, by the fractional amount stem:[106.665 xx 10^{-9}]. This implies that the unit of voltage
 realized using stem:[ii(K)_{"J-90"}] was larger than the present SI unit as realized using the value in <<eq-1>> by the
@@ -99,9 +99,9 @@ measured today in terms of the present SI volt realized using the value of stem:
 
 
 [[sec-5]]
-== Practical realization of the ohm, stem:[unitsml(Ohm)], SI derived unit of electric resistance and impedance
+== Practical realization of the ohm, stem:["unitsml(Ohm)"], SI derived unit of electric resistance and impedance
 
-The ohm stem:[unitsml(Ohm)] can be realized as follows:
+The ohm stem:["unitsml(Ohm)"] can be realized as follows:
 
 . by using the quantum Hall effect in a manner consistent with the CCEM Guidelines <<delahaye>> and the following value of the von Klitzing constant stem:[ii(R)_"K"] footnote:[This value has been calculated to 15 significant digits.]:
 +
@@ -109,7 +109,7 @@ The ohm stem:[unitsml(Ohm)] can be realized as follows:
 [[eq-2]]
 [stem]
 ++++
-ii(R)_"K" = 25812.8074593045 text( ) unitsml(Ohm)
+ii(R)_"K" = 25812.8074593045 text( ) "unitsml(Ohm)"
 ++++
 
 This value follows from the assumption of the accuracy of the equation stem:[ii(R)_"K" = h//e^2], which is
@@ -128,7 +128,7 @@ means of a calculable capacitor and the value of the electric constant given by 
 <<magnetic_constant>> below.
 
 
-Note that the value of stem:[ii(R)_"K"] in <<eq-2>> is larger than the value stem:[ii(R)_{"K-90"} = 25812.807 " " unitsml(Ohm)], which was adopted
+Note that the value of stem:[ii(R)_"K"] in <<eq-2>> is larger than the value stem:[ii(R)_{"K-90"} = 25812.807 " " "unitsml(Ohm)"], which was adopted
 by the CIPM starting 1 January 1990 for the international realization of the ohm using the quantum
 Hall effect, by the fractional amount stem:[17.793 xx 10^{-9}]. This implies that the unit of resistance realized
 using stem:[ii(R)_{"K-90"}] was larger than the present SI unit as realized using the value in <<eq-2>> by the same
@@ -138,62 +138,62 @@ measured today in terms of the present SI ohm realized using the value of stem:[
 
 
 
-== Practical realization of the siemens, stem:[unitsml(S)], SI derived unit of electric conductance
+== Practical realization of the siemens, stem:["unitsml(S)"], SI derived unit of electric conductance
 
-The siemens stem:[unitsml(S)] can be realized from a realization of the ohm (see <<sec-5,nosee%>>) since stem:[unitsml(S)] is related to stem:[unitsml(Ohm)] by the
-unit relation stem:[unitsml(S) = unitsml(Ohm^-1)].
+The siemens stem:["unitsml(S)"] can be realized from a realization of the ohm (see <<sec-5,nosee%>>) since stem:["unitsml(S)"] is related to stem:["unitsml(Ohm)"] by the
+unit relation stem:["unitsml(S)" = "unitsml(Ohm^(-1))"].
 
 
-== Practical realization of the coulomb, C, SI derived unit of electric charge
+== Practical realization of the coulomb, stem:["unitsml(C)"], SI derived unit of electric charge
 
-The coulomb stem:[unitsml(C)] can be realized as follows:
+The coulomb stem:["unitsml(C)"] can be realized as follows:
 
 . by measuring the duration in terms of the SI unit of time, the second s, of the flow of an
 electric current known in terms of the ampere realized as indicated in <<sec-3>>; or
 
-. by determining the amount of charge placed on a capacitance known in terms of the farad stem:[unitsml(F)] realized by method <<item-8a>> or <<item-8b>>, using the unit relation stem:[unitsml(C) = unitsml(F*V)] and by measuring the voltage across the capacitance in terms of the volt stem:[unitsml(V)] as realized by the Josephson effect and the value of the Josephson constant given in <<eq-1>> (see <<sec-4,nosee%>>); or
+. by determining the amount of charge placed on a capacitance known in terms of the farad stem:["unitsml(F)"] realized by method <<item-8a>> or <<item-8b>>, using the unit relation stem:["unitsml(C)" = "unitsml(F V)"] and by measuring the voltage across the capacitance in terms of the volt stem:["unitsml(V)"] as realized by the Josephson effect and the value of the Josephson constant given in <<eq-1>> (see <<sec-4,nosee%>>); or
 
 . by using a SET or similar device to transfer a known amount of charge based on the value of stem:[e], given in the definition of the ampere, onto a suitable circuit element.
 
 
 [[sec-8]]
-== Practical realization of the farad, F, SI derived unit of capacitance
+== Practical realization of the farad, stem:["unitsml(F)"], SI derived unit of capacitance
 
-The farad stem:[unitsml(F)] can be realized as follows:
+The farad stem:["unitsml(F)"] can be realized as follows:
 
 . [[item-8a]]by comparing the impedance of a known resistance obtained using the quantum Hall effect and the value of the von Klitzing constant given in <<eq-2>> (see <<sec-5>>), including a quantized Hall resistance itself, to the impedance of an unknown capacitance using, for example, a quadrature bridge; or
 
 . [[item-8b]]by using a calculable capacitor and the value of the electric constant given by <<eq-3>>.
 
 
-== Practical realization of the henry, H, SI derived unit of inductance
+== Practical realization of the henry, stem:["unitsml(H)"], SI derived unit of inductance
 
-The henry stem:[unitsml(H)] can be realized as follows:
+The henry stem:["unitsml(H)"] can be realized as follows:
 
 . by comparing the impedance of an unknown inductance to the impedance of a known capacitance with the aid of known resistances using, for example, a Maxwell-Wien bridge, where the known capacitance and resistances have been determined, for example, from the quantum Hall effect and the value of stem:[ii(R)_"K"] given in <<eq-2>> (see <<sec-5>> and <<sec-8>>); or
 
 . by using a calculable inductor of, for example, the Campbell type of mutual inductor and the value of the magnetic constant stem:[ii(mu)_0] given by <<eq-6>>.
 
 
-== Practical realization of the watt, W, SI derived unit of power
+== Practical realization of the watt, stem:["unitsml(W)"], SI derived unit of power
 
-The watt W can be realized using electrical units by using the fact that electric power is equal to current times voltage, the unit relation based on Ohm's law, stem:[unitsml(W) = unitsml(V^2)//unitsml(Ohm)], and realizations of the volt and ohm using the Josephson and quantum Hall effects and the values of the Josephson and von Klitzing constants given in <<eq-1>> and <<eq-2>> (see <<sec-4,nosee%>> and <<sec-5,nosee%>>).
+The watt stem:["unitsml(W)"] can be realized using electrical units by using the fact that electric power is equal to current times voltage, the unit relation based on Ohm's law, stem:["unitsml(W)" = "unitsml(V^2//Ohm)"], and realizations of the volt and ohm using the Josephson and quantum Hall effects and the values of the Josephson and von Klitzing constants given in <<eq-1>> and <<eq-2>> (see <<sec-4,nosee%>> and <<sec-5,nosee%>>).
 
 
 
-== Practical realization of the tesla, T, SI derived unit of magnetic flux density
+== Practical realization of the tesla, stem:["unitsml(T)"], SI derived unit of magnetic flux density
 
-The tesla stem:[unitsml(T)] can be realized as follows:
+The tesla stem:["unitsml(T)"] can be realized as follows:
 
 . by using a solenoid, Helmholtz coil or other configuration of conductors of known dimensions carrying an electric current determined in terms of the ampere realized as
 discussed in <<sec-3>>, and the value of the magnetic constant stem:[ii(mu)_0] given in <<eq-6>> in the calculation of the magnetic flux density generated by the current carrying conductors; or
 
-. by using nuclear magnetic resonance (NMR) with a sample of known gyromagnetic ratio, for example, a spherical sample of pure stem:["H"_2 "O"] at 25 °C and the most recent recommended value of the shielded gyromagnetic ratio of the proton stem:[gamma_{"p'"}] given by CODATA.
+. by using nuclear magnetic resonance (NMR) with a sample of known gyromagnetic ratio, for example, a spherical sample of pure stem:["H"_2 "O"] at stem:[25 " " "unitsml(°C)"] and the most recent recommended value of the shielded gyromagnetic ratio of the proton stem:[gamma_{"p'"}] given by CODATA.
 
 
-== Practical realization of the weber, stem:[unitsml(Wb)], SI derived unit of magnetic flux
+== Practical realization of the weber, stem:["unitsml(Wb)"], SI derived unit of magnetic flux
 
-The weber stem:[unitsml(Wb)] can be realized from the tesla based on the unit relation stem:[unitsml(Wb) = unitsml(T*m^2)] or from the volt based on the unit relation stem:[unitsml(Wb) = unitsml(V*s)]. Use can also be made of the fact that the magnetic flux quantum stem:[ii(phi)_0], which characterizes the magnetic properties of superconductors, is related to stem:[h] and stem:[e] as given in <<bipm>> by the exact relation stem:[ii(phi)_0 = h//2e].
+The weber stem:["unitsml(Wb)"] can be realized from the tesla based on the unit relation stem:["unitsml(Wb)" = "unitsml(T*m^2)"] or from the volt based on the unit relation stem:["unitsml(Wb)" = "unitsml(V s)"]. Use can also be made of the fact that the magnetic flux quantum stem:[ii(phi)_0], which characterizes the magnetic properties of superconductors, is related to stem:[h] and stem:[e] as given in <<bipm>> by the exact relation stem:[ii(phi)_0 = h//2e].
 
 [[magnetic_constant]]
 == Magnetic constant stem:[ii(mu)_0] and related quantities
@@ -217,7 +217,7 @@ ii(Y)_0 = 1 // ii(mu)_0 c = (ii(epsilon)_0 // ii(mu)_0)^{1//2} = 1 // ii(Z)_0
 ++++
 
 
-However, the new definitions do affect the value of stem:[ii(mu)_0], and hence the values of stem:[ii(epsilon)_0], stem:[ii(Z)_0], and stem:[ii(Y)_0]. In particular, stem:[ii(mu)_0] no longer has the exact value stem:[4 pi xx 10^{-7} " "unitsml(N*A^-2)] and must be determined experimentally. The value of stem:[ii(mu)_0] can be obtained with a relative standard uncertainty, stem:[u_"r"], identical to that of the fine structure constant stem:[ii(alpha)] from the exact relation
+However, the new definitions do affect the value of stem:[ii(mu)_0], and hence the values of stem:[ii(epsilon)_0], stem:[ii(Z)_0], and stem:[ii(Y)_0]. In particular, stem:[ii(mu)_0] no longer has the exact value stem:[4 pi xx 10^{-7} " ""unitsml(N*A^(-2))"] and must be determined experimentally. The value of stem:[ii(mu)_0] can be obtained with a relative standard uncertainty, stem:[u_"r"], identical to that of the fine structure constant stem:[ii(alpha)] from the exact relation
 
 [[eq-6]]
 [stem]
@@ -239,8 +239,8 @@ The recommended values of stem:[h], stem:[e], stem:[k], and stem:[ii(N)_"A"] res
 
 [stem]
 ++++
-ii(mu)_0 = 4 pi [1 + 2.0(2.3) xx 10^{-10}] xx 10^{-7} " "unitsml(N*A^-2)
-= 12.5663706169(29) xx 10^{-7} " "unitsml(N*A^-2)
+ii(mu)_0 = 4 pi [1 + 2.0(2.3) xx 10^{-10}] xx 10^{-7} " ""unitsml(N A^(-2))"
+= 12.5663706169(29) xx 10^{-7} " ""unitsml(N A^(-2))"
 ++++
 
 
