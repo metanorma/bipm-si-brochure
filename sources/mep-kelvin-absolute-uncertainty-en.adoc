@@ -81,9 +81,9 @@ The blackbody spectral radiance is given by Planck's law, which, for measurement
 ii(L)_("b")(ii(lambda),ii(T)) = ((2hc^2)/(n^2 ii(lambda)^5)) 1/("exp"[hc//(n ii(lambda) k ii(T))]-1),
 ++++
 
-where stem:[ii(T)] is the thermodynamic temperature, stem:[k] is the Boltzmann constant, stem:[h] is the Planck constant, stem:[c] is the speed of light in a vacuum, stem:[n] is the refractive index of the air <<boivin2010>>, <<gaertner>> at the detector, and stem:[ii(lambda)] is the wavelength in air. The constants in <<eq1>> are usually written in terms of the first and second radiation constants, stem:[c_1 = 2hc^2 = 1.191042972 xx 10^(-16)" ""unitsml(Wm^2)"] and stem:[c_2 = hc//k = 0.014387768" ""unitsml(m K)"].
+where stem:[ii(T)] is the thermodynamic temperature, stem:[k] is the Boltzmann constant, stem:[h] is the Planck constant, stem:[c] is the speed of light in a vacuum, stem:[n] is the refractive index of the air <<boivin2010>>, <<gaertner>> at the detector, and stem:[ii(lambda)] is the wavelength in air. The constants in <<eq1>> are usually written in terms of the first and second radiation constants, stem:[c_1 = 2hc^2 = 1.191042972 xx 10^(-16)"unitsml(W*m^2)"] and stem:[c_2 = hc//k = 0.014387768"unitsml(m*K)"].
 
-The temperature of the blackbody is determined by measuring the spectral radiance within a defined spectral band. The units of spectral radiance are stem:["unitsml(W m^(–2) sr^(–1) nm^(–1))"] and, therefore, a primary radiometric determination of thermodynamic temperature requires the power measurement to be traceable to the definition of the watt, and wavelength, area, and distance measurements to the definition of the metre.
+The temperature of the blackbody is determined by measuring the spectral radiance within a defined spectral band. The units of spectral radiance are stem:["unitsml(W*m^(–2)*sr^(–1)*nm^(–1))"] and, therefore, a primary radiometric determination of thermodynamic temperature requires the power measurement to be traceable to the definition of the watt, and wavelength, area, and distance measurements to the definition of the metre.
 
 Generally, this is achieved as follows:
 
@@ -159,9 +159,9 @@ Whichever scheme is used, the measurement equation takes the form
 i = int_0^(oo) s_ii(L) (ii(lambda)) ii(L)_("b")(ii(lambda),ii(T)) "d" ii(lambda),
 ++++
 
-where stem:[i] is the measured photocurrent, stem:[s_ii(L)(ii(lambda))] is the spectral radiance responsivity [units: stem:["unitsml(A W^(–1) m^2 sr)"] of the combined instrument, stem:[ii(L)_("b")(ii(lambda),ii(T))] is the spectral radiance of the blackbody, as given by <<eq1>>, stem:[ii(lambda)] is the wavelength in air, and stem:[ii(T)] is the thermodynamic temperature. This expression will be modified somewhat for the different schemes.
+where stem:[i] is the measured photocurrent, stem:[s_ii(L)(ii(lambda))] is the spectral radiance responsivity [units: stem:["unitsml(A*W^(–1)*m^2*sr)"] of the combined instrument, stem:[ii(L)_("b")(ii(lambda),ii(T))] is the spectral radiance of the blackbody, as given by <<eq1>>, stem:[ii(lambda)] is the wavelength in air, and stem:[ii(T)] is the thermodynamic temperature. This expression will be modified somewhat for the different schemes.
 
-For the _spectral power method_, the radiometer is calibrated for flux responsivity [units: stem:["unitsml(A W^(–1))"] ] and two apertures are added for the blackbody measurement (see <<fig1>>). <<eq7>> is implemented using
+For the _spectral power method_, the radiometer is calibrated for flux responsivity [units: stem:["unitsml(A*W^(–1))"] ] and two apertures are added for the blackbody measurement (see <<fig1>>). <<eq7>> is implemented using
 
 [[eq8]]
 [stem]
@@ -183,7 +183,7 @@ image::img01.png[]
 image::img02.png[]
 ====
 
-For the _irradiance method_, the radiometer is calibrated for irradiance responsivity [units: stem:["unitsml(A W^(–1) m^2)"] ] with an overfilled aperture. It is then used with a second aperture added for the blackbody measurement (see <<fig2>>). <<eq7>> is implemented using
+For the _irradiance method_, the radiometer is calibrated for irradiance responsivity [units: stem:["unitsml(A*W^(–1)*m^2)"] ] with an overfilled aperture. It is then used with a second aperture added for the blackbody measurement (see <<fig2>>). <<eq7>> is implemented using
 
 [[eq9]]
 [stem]
@@ -244,7 +244,7 @@ Generally, <<eq7>> has additional multiplying constants to account for various c
 ii(V)_("signal") = i xx ii(G)_("amp"),
 ++++
 
-where stem:[ii(G)_("amp")] is the gain of a transimpedance amplifier [units: stem:["unitsml(V A^(–1))"] ].
+where stem:[ii(G)_("amp")] is the gain of a transimpedance amplifier [units: stem:["unitsml(V*A^(–1))"] ].
 
 There will be further corrections for other effects. The hybrid and radiance methods will have a size-of-source effect (SSE) correction due to lens scatter (see <<sos_characteristic>> and <<sos_effect>>). The irradiance and power methods will have a similar diffraction correction for diffraction at the first aperture (see <<diffraction>>). These provide an additional correction factor, here generically given by the symbol stem:[ii(K)_("SSE")]. The power, irradiance, and hybrid methods will also have a correction for stray light, stem:[ii(K)_("stray")] (see <<stray_light>>).
 
@@ -276,7 +276,7 @@ Generally, <<eq13>>, with the appropriate corrections (e.g., in the form of <<eq
 ii(T)_(i+1) = ii(T)_i + (ii(S)-ii(K) int_0^(oo) s(ii(lambda))ii(L)_("b")(ii(lambda),ii(T)_i) "d" ii(lambda))/(c_2/(ii(T)_i^2) ii(K) int_0^(oo) s(ii(lambda)) (ii(L)_("b")(ii(lambda),ii(T)_i))/(n ii(lambda)[1-"exp"(-c_2//(n ii(lambda)ii(T)_i))]) "d" ii(lambda)).
 ++++
 
-Convergence to better than stem:[0.1" ""unitsml(mK)"] is usually achieved in fewer than 5–10 iterations, depending on how close the initial guess, stem:[ii(T)_0], is to the true temperature <<saunders2003>>.
+Convergence to better than stem:[0.1"unitsml(mK)"] is usually achieved in fewer than 5–10 iterations, depending on how close the initial guess, stem:[ii(T)_0], is to the true temperature <<saunders2003>>.
 
 [[uncertainty_analysis]]
 == Uncertainty Analysis
@@ -355,7 +355,7 @@ The spectral power responsivity, stem:[s_(rm(Phi),"trap")(ii(lambda))], of a pho
 s_(rm(Phi),"trap")(ii(lambda)) = ii(I)//ii(P).
 ++++
 
-The photocurrent measurement is usually performed by a current-to-voltage converter (<<amplification>>) and a digital voltmeter. The radiant power is measured using a cryogenic radiometer, which is an electrical substitution radiometer operated at low temperatures, slightly above the boiling point of liquid helium. The radiation sources can be subdivided into three main types: (i) a monochromator in conjunction with a broadband radiation source (e.g., an argon arc plasma, a xenon arc, or a tungstenhalogen lamp); (ii) a widely and continuously wavelength-tuneable laser system; and (iii) a laser system delivering radiation at widely separated laser lines (e.g., a krypton ion laser). The first two systems allow, in principle, the determination of the spectral responsivity at any wavelength of interest. In practice, the measurements are performed at wavelengths separated by intervals ranging from about 2 nm to 20 nm. The last system (iii) is restricted to measurements at the available laser lines, which are usually widely separated. In all cases, the measured spectral responsivity must be interpolated over the entire wavelength range of interest using empirical or physical models. When the trap detector is applied to measure the radiant power in order to calibrate a filter radiometer, its spectral responsivity has to be corrected for the experimental conditions (e.g., radiant power, temperature, spot size, polarisation state, etc.) during the calibration of the filter radiometer, which usually strongly differ from those during the calibration of the trap detector.
+The photocurrent measurement is usually performed by a current-to-voltage converter (<<amplification>>) and a digital voltmeter. The radiant power is measured using a cryogenic radiometer, which is an electrical substitution radiometer operated at low temperatures, slightly above the boiling point of liquid helium. The radiation sources can be subdivided into three main types: (i) a monochromator in conjunction with a broadband radiation source (e.g., an argon arc plasma, a xenon arc, or a tungstenhalogen lamp); (ii) a widely and continuously wavelength-tuneable laser system; and (iii) a laser system delivering radiation at widely separated laser lines (e.g., a krypton ion laser). The first two systems allow, in principle, the determination of the spectral responsivity at any wavelength of interest. In practice, the measurements are performed at wavelengths separated by intervals ranging from about stem:[2 "unitsml(nm)"] to stem:[20 "unitsml(nm)"]. The last system (iii) is restricted to measurements at the available laser lines, which are usually widely separated. In all cases, the measured spectral responsivity must be interpolated over the entire wavelength range of interest using empirical or physical models. When the trap detector is applied to measure the radiant power in order to calibrate a filter radiometer, its spectral responsivity has to be corrected for the experimental conditions (e.g., radiant power, temperature, spot size, polarisation state, etc.) during the calibration of the filter radiometer, which usually strongly differ from those during the calibration of the trap detector.
 
 The uncertainty contributions can be grouped as follows:
 
@@ -418,7 +418,7 @@ The uncertainties of the measurements include the uncertainties in the determina
 .Example uncertainty budget for the amplifier gain.
 |===
 h| Uncertainty components +
-stem:[1 xx 10^(10)" ""unitsml(V//A)"] h| Type h| Relative uncertainty (ppm)
+stem:[1 xx 10^(10)"unitsml(V//A)"] h| Type h| Relative uncertainty (ppm)
 | Current measurement | B | 20
 | Short-term instability of input current | A | 6
 | Voltage measurement (HP DVM, 3458A) | B | 2
@@ -433,9 +433,9 @@ The geometric factor is defined by two apertures of known area, a known distance
 
 ===== Quality of the apertures and their area determination
 
-To minimise the uncertainty associated with the two apertures, two things should be considered: the quality of the apertures and how the aperture areas are determined. Optically, a knife-edge aperture is ideal since it reduces scattering, but an aperture with a land (physical edge size) of 0.1 mm can be measured using a contact method. Diamond-turned aluminium, copper, or aluminium-bronze apertures have been found to have ideal properties for highly-accurate filter radiometry <<hartmann2009>>. High-quality apertures can also be made from nickel over brass bi-metal substrate using electrochemical etching <<townetech>>.
+To minimise the uncertainty associated with the two apertures, two things should be considered: the quality of the apertures and how the aperture areas are determined. Optically, a knife-edge aperture is ideal since it reduces scattering, but an aperture with a land (physical edge size) of stem:[0.1 "unitsml(mm)"] can be measured using a contact method. Diamond-turned aluminium, copper, or aluminium-bronze apertures have been found to have ideal properties for highly-accurate filter radiometry <<hartmann2009>>. High-quality apertures can also be made from nickel over brass bi-metal substrate using electrochemical etching <<townetech>>.
 
-The aperture area can be determined using contact or non-contact methods. Typical stated uncertainties for contact methods (in the determination of diameter) are stem:[~0.1" ""unitsml(mu m)"]. However, there are two reasons not to 'believe' these uncertainties for operational use. The first is the results of the CCPR-S2 aperture comparison. As shown in <<fig6>>, the results did not agree within the uncertainties. This comparison compared optical and contact methods for measuring aperture area, and there is a noticeable discrepancy. This suggests that uncertainties should be increased by at least a factor of 3.
+The aperture area can be determined using contact or non-contact methods. Typical stated uncertainties for contact methods (in the determination of diameter) are stem:[~0.1"unitsml(um)"]. However, there are two reasons not to 'believe' these uncertainties for operational use. The first is the results of the CCPR-S2 aperture comparison. As shown in <<fig6>>, the results did not agree within the uncertainties. This comparison compared optical and contact methods for measuring aperture area, and there is a noticeable discrepancy. This suggests that uncertainties should be increased by at least a factor of 3.
 
 [[fig6]]
 .Comparison result for aperture area (from CCPR-S2 report).
@@ -447,7 +447,7 @@ The geometric factor as used here is based on the radii of the two apertures. Th
 
 ===== Alignment of the apertures
 
-The calculation of the geometric factor assumes that the apertures are co-aligned. It is not unreasonable to assume that they may be slightly misaligned relative to each other, say by stem:[~2" ""unitsml(mm)"] at stem:[300" ""unitsml(mm)"] separation. Consider <<fig7>>. The distance between the two apertures is the hypotenuse stem:[d//cos ii(theta)] . As irradiance drops according to the inverse square law, this means the irradiance of the second aperture is reduced compared to the on-axis irradiance by stem:[cos^2 ii(theta)]. The second aperture has an effective area in this direction of stem:[ii(A)_2 cos ii(theta)] and the first aperture has an effective area of stem:[ii(A)_1 cos ii(theta)]. Combining all of this, the effective irradiance drops as stem:[cos^4 ii(theta)] . For stem:[d = 300" ""unitsml(mm)"] and stem:[x = 2" ""unitsml(mm)"], stem:[cos^4 ii(theta) = 0.999911]. Therefore, the uncertainty associated with the measured radiance due to possible misalignment is stem:[< 0.009 %].
+The calculation of the geometric factor assumes that the apertures are co-aligned. It is not unreasonable to assume that they may be slightly misaligned relative to each other, say by stem:[~2"unitsml(mm)"] at stem:[300"unitsml(mm)"] separation. Consider <<fig7>>. The distance between the two apertures is the hypotenuse stem:[d//cos ii(theta)] . As irradiance drops according to the inverse square law, this means the irradiance of the second aperture is reduced compared to the on-axis irradiance by stem:[cos^2 ii(theta)]. The second aperture has an effective area in this direction of stem:[ii(A)_2 cos ii(theta)] and the first aperture has an effective area of stem:[ii(A)_1 cos ii(theta)]. Combining all of this, the effective irradiance drops as stem:[cos^4 ii(theta)] . For stem:[d = 300"unitsml(mm)"] and stem:[x = 2"unitsml(mm)"], stem:[cos^4 ii(theta) = 0.999911]. Therefore, the uncertainty associated with the measured radiance due to possible misalignment is stem:[< 0.009 %].
 
 The apertures are aligned to be parallel with each other and perpendicular to the optical axis either by back-reflecting a laser beam or by aligning the apertures to the faces of a gauge bar. If the laser method is used, the angular uncertainty is approximately 0.0005 radians, which has a negligible effect on the effective area. If a gauge bar is used, an angular uncertainty of 0.01 radians is reasonable, which leads to an uncertainty in the effective area of approximately 0.01 %.
 
@@ -508,7 +508,7 @@ and
 (del g)/(del d) = (-4pi r_1^2r_2^2d)/(ii(alpha) ii(beta)).
 ++++
 
-Thus, the uncertainty in stem:[g] (in stem:["unitsml(m^2 sr)"]), given the uncertainties in the radii and distances (in stem:["unitsml(m)"]), is:
+Thus, the uncertainty in stem:[g] (in stem:["unitsml(m^2*sr)"]), given the uncertainties in the radii and distances (in stem:["unitsml(m)"]), is:
 
 [[eq24]]
 [stem]
@@ -588,19 +588,19 @@ radiance ^h| Comments
 | | Normal | Best | | Normal | Best |
 
 a| Aperture +
-radius a| stem:[1" ""unitsml(mu m)"] +
-(radius) a| stem:[0.5" ""unitsml(mu m)"] +
-(radius) a| <<eq20>> and <<eq21>> | 0.02 % | 0.01 % a| Relative uncertainty in radiance based here on stem:[3" ""unitsml(mm)"] and stem:[5" ""unitsml(mm)"] apertures, stem:[500" ""unitsml(mm)"] apart.
+radius a| stem:[1"unitsml(um)"] +
+(radius) a| stem:[0.5"unitsml(um)"] +
+(radius) a| <<eq20>> and <<eq21>> | 0.02 % | 0.01 % a| Relative uncertainty in radiance based here on stem:[3"unitsml(mm)"] and stem:[5"unitsml(mm)"] apertures, stem:[500"unitsml(mm)"] apart.
 
-| Distance | stem:[0.25" ""unitsml(mm)"] | stem:[10" ""unitsml(mu m)"] | <<eq22>> | 0.1 % | 0.004 % a| Relative uncertainty depends on absolute distance and aperture areas.
+| Distance | stem:[0.25"unitsml(mm)"] | stem:[10"unitsml(um)"] | <<eq22>> | 0.1 % | 0.004 % a| Relative uncertainty depends on absolute distance and aperture areas.
 
 a| Aperture co-alignment | 0.01 % | 0.0001 % | 1 | 0.01 % | 0.0001 % |
 
 a| Aperture angular alignment | 0.01 % | Negligible | 1 | 0.01 % | 0 |
 
-a| Aperture non-roundness | stem:[0.06" ""unitsml(mu m)"] +
-(radius) a| stem:[0.02" ""unitsml(mu m)"] +
-(radius) | <<eq20>> and <<eq21>> | 0.004 % | 0.001 % a| Relative uncertainty in radiance based here on stem:[3" ""unitsml(mm)"] and stem:[5" ""unitsml(mm)"] apertures, stem:[500" ""unitsml(mm)"] apart.
+a| Aperture non-roundness | stem:[0.06"unitsml(um)"] +
+(radius) a| stem:[0.02"unitsml(um)"] +
+(radius) | <<eq20>> and <<eq21>> | 0.004 % | 0.001 % a| Relative uncertainty in radiance based here on stem:[3"unitsml(mm)"] and stem:[5"unitsml(mm)"] apertures, stem:[500"unitsml(mm)"] apart.
 
 a| Aperture changes since calibration a| 0.02 % +
 (area) | Negligible | 1 | 0.02 % | 0 a| From potential damage and thermal expansion.
@@ -653,7 +653,7 @@ ii(K)_("OOB") = 1+ (int_0^(ii(lambda)_1) s(ii(lambda)) ii(L)_("b")(ii(lambda),ii
 
 where stem:[ii(lambda)_1] and stem:[ii(lambda)_2] are the practical wavelength limits over which the integral in <<eq13>> is evaluated.
 
-To avoid OOB corrections, the requirements for OOB suppression depend on the centre wavelength of the spectral responsivity function and the spectral bandpass. The OOB analysis given here is for a filter radiometer with a spectral filter centred at 650 nm and a spectral bandwidth of 10 nm used with a Si detector, which is a common configuration used in national metrology institutes (NMIs). Note that the OOB analysis can be carried out using relative spectral responsivities.
+To avoid OOB corrections, the requirements for OOB suppression depend on the centre wavelength of the spectral responsivity function and the spectral bandpass. The OOB analysis given here is for a filter radiometer with a spectral filter centred at stem:[650 "unitsml(nm)"] and a spectral bandwidth of stem:[10 "unitsml(nm)"] used with a Si detector, which is a common configuration used in national metrology institutes (NMIs). Note that the OOB analysis can be carried out using relative spectral responsivities.
 
 A spectral filter should be measured separately prior to its incorporation into a radiometer, to determine whether its OOB suppression is sufficient. Depending on the filter radiometer design, possible radiation leakage around the filter could be perceived as OOB radiation even though the light path does not go directly through the filter. A comparison of the expected component-wise responsivity and the actual spectral responsivity of the filter radiometer as a whole is helpful in assessing any possible light leakage in the filter radiometer.
 
@@ -667,7 +667,7 @@ The temperature error, stem:[Delta ii(T)], resulting from uncorrected OOB radiat
 Delta ii(T) ~~ (ii(K)_("OOB")-1) (n ii(lambda)_0 ii(T)^2)/(c_2),
 ++++
 
-where stem:[ii(lambda)_0] is the mean wavelength of the filter radiometer's spectral responsivity, and the monochromatic and Wien's approximations have been used. Assuming a filter radiometer consisting of a stem:[10" ""unitsml(nm)"] bandwidth rectangular spectral filter centred at stem:[650" ""unitsml(nm)"], with a Si photodiode that is sensitive to radiation within its entire spectral range from stem:[200" ""unitsml(nm)"] to stem:[1100" ""unitsml(nm)"], <<eq29>> can be used to calculate the value of stem:[ii(K)_("OOB")]. The worst case is when the OOB radiation is flat across the entire spectral range, in which case the value of stem:[ii(K)_("OOB")-1] at stem:[1300" ""unitsml(K)"] is given by stem:[1136 xx 10^(-"OD")] and at stem:[3000" ""unitsml(K)"] is given by stem:[76.51 xx 10^(-"OD")], where OD is the optical density value of the filter. This gives rise to temperature errors, given by <<eq30>>, of stem:[86700 xx 10^(-"OD")" ""unitsml(K)"] at stem:[1300" ""unitsml(K)"] and stem:[31106 xx 10^(-"OD")] at stem:[3000" ""unitsml(K)"] (e.g., temperature errors of stem:[0.87" ""unitsml(K)"] and stem:[0.31" ""unitsml(K)"], respectively, for a filter with OOB suppression of OD5). Thus, OOB suppression beyond OD7 will result in errors less than about stem:[9" ""unitsml(mK)"] at stem:[1300" ""unitsml(K)"] and about stem:[3" ""unitsml(mK)"] at stem:[3000" ""unitsml(K)"].
+where stem:[ii(lambda)_0] is the mean wavelength of the filter radiometer's spectral responsivity, and the monochromatic and Wien's approximations have been used. Assuming a filter radiometer consisting of a stem:[10"unitsml(nm)"] bandwidth rectangular spectral filter centred at stem:[650"unitsml(nm)"], with a Si photodiode that is sensitive to radiation within its entire spectral range from stem:[200"unitsml(nm)"] to stem:[1100"unitsml(nm)"], <<eq29>> can be used to calculate the value of stem:[ii(K)_("OOB")]. The worst case is when the OOB radiation is flat across the entire spectral range, in which case the value of stem:[ii(K)_("OOB")-1] at stem:[1300"unitsml(K)"] is given by stem:[1136 xx 10^(-"OD")] and at stem:[3000"unitsml(K)"] is given by stem:[76.51 xx 10^(-"OD")], where OD is the optical density value of the filter. This gives rise to temperature errors, given by <<eq30>>, of stem:[86700 xx 10^(-"OD")"unitsml(K)"] at stem:[1300"unitsml(K)"] and stem:[31106 xx 10^(-"OD")] at stem:[3000"unitsml(K)"] (e.g., temperature errors of stem:[0.87"unitsml(K)"] and stem:[0.31"unitsml(K)"], respectively, for a filter with OOB suppression of OD5). Thus, OOB suppression beyond OD7 will result in errors less than about stem:[9"unitsml(mK)"] at stem:[1300"unitsml(K)"] and about stem:[3"unitsml(mK)"] at stem:[3000"unitsml(K)"].
 
 An alternative method to determine the OOB correction is to use a notch filter to cut out the in-band signal of the filter radiometer. The value of stem:[ii(K)_("OOB")] can then be determined by measuring the filter radiometer signal, stem:[ii(S)], with and without the notch filter in place:
 
@@ -787,7 +787,7 @@ Hence, the following two cases can be treated separately:
 
 Invoking the reciprocity theorem of Kirchhoff, the deviation due to diffraction does not change if the source and detector are exchanged. Therefore, the two cases can be treated as equivalent. References <<steele>>, <<shirley>> give both exact solutions and approximations for this diffraction problem.
 
-For a blackbody source, the diffraction correction must be calculated for all wavelengths measured. The radiometers typically used only have a small bandpass of stem:[10" ""unitsml(nm)"] to stem:[20" ""unitsml(nm)"]. The diffraction correction stem:[delta] is inversely proportional to the wavelength and varies little across the bandpass. For simplification, often only the centre wavelength of the interference filter is used in the calculation of the correction. While a furnace aperture diameter of stem:[20" ""unitsml(nm)"] is typically used for the standard measurement of a high-temperature blackbody's temperature using a filter radiometer, a large eutectic fixed-point cell with stem:[8" ""unitsml(nm)"] cavity diameter requires a furnace aperture of stem:[3" ""unitsml(mm)"] in diameter, which results in a considerably larger diffraction effect because of the smaller furnace aperture.
+For a blackbody source, the diffraction correction must be calculated for all wavelengths measured. The radiometers typically used only have a small bandpass of stem:[10"unitsml(nm)"] to stem:[20"unitsml(nm)"]. The diffraction correction stem:[delta] is inversely proportional to the wavelength and varies little across the bandpass. For simplification, often only the centre wavelength of the interference filter is used in the calculation of the correction. While a furnace aperture diameter of stem:[20"unitsml(nm)"] is typically used for the standard measurement of a high-temperature blackbody's temperature using a filter radiometer, a large eutectic fixed-point cell with stem:[8"unitsml(nm)"] cavity diameter requires a furnace aperture of stem:[3"unitsml(mm)"] in diameter, which results in a considerably larger diffraction effect because of the smaller furnace aperture.
 
 By changing the distance between the two apertures, the chosen approximation for the diffraction correction can be experimentally tested and an uncertainty of the correction can be deduced. This has been found to be of the order of stem:[2 xx 10^(–4)].
 
@@ -948,7 +948,7 @@ Typically <<boivin2010>>, with increasing temperature, the mean wavelength of an
 [cols="^,^,^"]
 .Change in integrated transmittance, stem:[ii(I)_s], and mean wavelength, stem:[ii(lambda)_0], per temperature change for a range of interference filters.
 |===
-h| Interference Filter h| stem:[(Delta ii(I)_s//ii(I)_s)//Delta ii(T)] stem:[("unitsml(K^(-1))")] h| stem:[Delta ii(lambda)_0 // Delta ii(T)] stem:[("unitsml(pm)"*"unitsml(K^(-1))")]
+h| Interference Filter h| stem:[(Delta ii(I)_s//ii(I)_s)//Delta ii(T)] stem:[("unitsml(K^(-1))")] h| stem:[Delta ii(lambda)_0 // Delta ii(T)] stem:[("unitsml(pm*K^(-1))")]
 | IF450 | stem:[–3.4 xx 10^(–4)] | 15
 | IF500 | stem:[–3.1 xx 10^(–4)] | 17
 | IF650 | stem:[–4.3 xx 10^(–4)] | 20
@@ -960,7 +960,7 @@ h| Interference Filter h| stem:[(Delta ii(I)_s//ii(I)_s)//Delta ii(T)] stem:[("u
 [cols="^,^,^"]
 .As for <<table5>>, but including the temperature coefficient of a silicon photodiode (i.e., for a complete filter radiometer).
 |===
-h| Filter Radiometer h| stem:[(Delta ii(I)_s//ii(I)_s)//Delta ii(T)] stem:[("unitsml(K^(-1))")] h| stem:[Delta ii(lambda)_0 // Delta ii(T)] stem:[("unitsml(pm)"*"unitsml(K^(-1))")]
+h| Filter Radiometer h| stem:[(Delta ii(I)_s//ii(I)_s)//Delta ii(T)] stem:[("unitsml(K^(-1))")] h| stem:[Delta ii(lambda)_0 // Delta ii(T)] stem:[("unitsml(pm*K^(-1))")]
 | FR800 | stem:[ –2.8 xx 10^(–4)] | 33
 | FR900 | stem:[0.2 xx 10^(–4)] | 30
 | FR1000 | stem:[13.5 xx 10^(–4)] | 35
@@ -974,7 +974,7 @@ Under the assumption that Wien's approximation to Planck's law can be applied (V
 Delta ii(T) ~~ ii(T)/(ii(lambda)_0) (5 (n ii(lambda)_0 ii(T))/(c_2)-1) Delta ii(lambda)_0.
 ++++
 
-The associated uncertainty can then be calculated by assuming that the interference filter/detector temperature can be controlled within stem:[\+- 200" ""unitsml(mK)"] (normal) or stem:[+- 50" ""unitsml(mK)"] (best). Extensive details on how uncertainties in the properties of the filter radiometer's spectral responsivity propagate to the measured temperature are given in <<appendixA>> and <<appendixB>>.
+The associated uncertainty can then be calculated by assuming that the interference filter/detector temperature can be controlled within stem:[\+- 200"unitsml(mK)"] (normal) or stem:[+- 50"unitsml(mK)"] (best). Extensive details on how uncertainties in the properties of the filter radiometer's spectral responsivity propagate to the measured temperature are given in <<appendixA>> and <<appendixB>>.
 
 ===== Sensitivity to angle of incidence
 
@@ -996,11 +996,11 @@ The stability of interference filters with respect to observed ageing effects, i
 * absorption of water (moisture) by the dielectric thin film layers <<furman>>;
 * contamination of the interference filter's outer surfaces.
 
-The first effect can be ascribed to crystal growth in the (initially amorphous) deposited thin film dielectric layers. This time-dependent _irreversible_ process causes a change of the refractive index and, hence, a shift of the centre wavelength towards longer wavelengths. The magnitude of the wavelength shift, which can be up to 1 % of the centre wavelength, depends on the thermal history (i.e., the substrate temperature during the manufacturing process of the interference filter). By choosing an adequate substrate temperature (> stem:[130" ""unitsml(°C)"]) during the thin film deposition process, and/or if the interference filter undergoes a subsequent heat treatment (~stem:[90" ""unitsml(°C)"]), the wavelength shift can be minimised <<meaburn>>. Considering that interference filter technology has evolved, especially in terms of process control, and that the timescale of the described effect is of the order of tens of hours, the wavelength shift due to a crystallization process within the dielectric thin film layers can be neglected when assessing the mid- and long-term stability.
+The first effect can be ascribed to crystal growth in the (initially amorphous) deposited thin film dielectric layers. This time-dependent _irreversible_ process causes a change of the refractive index and, hence, a shift of the centre wavelength towards longer wavelengths. The magnitude of the wavelength shift, which can be up to 1 % of the centre wavelength, depends on the thermal history (i.e., the substrate temperature during the manufacturing process of the interference filter). By choosing an adequate substrate temperature (stem:[> 130 "unitsml(degC)"]) during the thin film deposition process, and/or if the interference filter undergoes a subsequent heat treatment (stem:[~90 "unitsml(degC)"]), the wavelength shift can be minimised <<meaburn>>. Considering that interference filter technology has evolved, especially in terms of process control, and that the timescale of the described effect is of the order of tens of hours, the wavelength shift due to a crystallization process within the dielectric thin film layers can be neglected when assessing the mid- and long-term stability.
 
-Due to the "sponge-like" fractal structure of the deposited thin film dielectric layers, the layers have a 10 % to 20 % (depending on the layer material) void space porosity, which makes them susceptible to the absorption of water. By absorbing moisture, the refractive index increases and consequently the centre wavelength is shifted towards _longer_ wavelengths. Under the assumption that this process is _reversible_, it has been shown <<furman>> that if interference filters previously exposed to environmental humidity undergo a thermal treatment (heating up to stem:[70" ""unitsml(°C)"]), the water can be removed from the pores of the layers. This leads to a decrease of the refractive index and, consequently, the centre wavelength will shift back towards _shorter_ wavelengths. Depending on the layer materials, the magnitude of the observed wavelength shift varies from 0.1 % to 0.5 % of the centre wavelength. If the interference filter is sealed against environmental humidity, the observed wavelength shift is considerably lower (< 0.01 % of the centre wavelength).
+Due to the "sponge-like" fractal structure of the deposited thin film dielectric layers, the layers have a 10 % to 20 % (depending on the layer material) void space porosity, which makes them susceptible to the absorption of water. By absorbing moisture, the refractive index increases and consequently the centre wavelength is shifted towards _longer_ wavelengths. Under the assumption that this process is _reversible_, it has been shown <<furman>> that if interference filters previously exposed to environmental humidity undergo a thermal treatment (heating up to stem:[70"unitsml(degC)"]), the water can be removed from the pores of the layers. This leads to a decrease of the refractive index and, consequently, the centre wavelength will shift back towards _shorter_ wavelengths. Depending on the layer materials, the magnitude of the observed wavelength shift varies from 0.1 % to 0.5 % of the centre wavelength. If the interference filter is sealed against environmental humidity, the observed wavelength shift is considerably lower (< 0.01 % of the centre wavelength).
 
-A different way to assess the stability of interference filters was followed in <<taubert41>>, and comprised an analysis of the calibration history of four different filter radiometers (FR) equipped with sealed, narrowband interference filters (centre wavelengths at stem:[677" ""unitsml(nm)"], stem:[802" ""unitsml(nm)"], stem:[903" ""unitsml(nm)"], and stem:[1003" ""unitsml(nm)"], FWHM: stem:[14" ""unitsml(nm)"] to stem:[24" ""unitsml(nm)"]) in terms of the temporal change of the centre wavelength and the integrated spectral responsivity over a period of approximately 8 years. Over this period, the FRs were routinely used to measure the thermodynamic temperature of blackbodies in the temperature range from stem:[1000" ""unitsml(°C)"] to stem:[3000" ""unitsml(°C)"]. When not being used, the FRs were kept under cleanroom conditions but not under humidity-controlled conditions; i.e., they were exposed to the seasonal humidity variation of the laboratory. For the period investigated, all the FRs displayed a linear shift of the centre wavelength towards longer wavelengths, ranging from stem:[0.038" ""unitsml(nm)"] per year to stem:[0.067" ""unitsml(nm)"] per year, corresponding to a maximum relative wavelength change of 0.01 % per year. Except for one FR, the integrated spectral responsivity over the bandpass of all the FRs did not change significantly; the relative changes observed in the assessed time interval were within the uncertainty of the calibration. For the FR with the centre wavelength at stem:[677" ""unitsml(nm)"], a sudden relative drop of stem:[2 xx 10^(–3)] in the integrated spectral responsivity was observed. After cleaning of the interference filter, the integrated responsivity returned to the previous value, revealing contamination as the origin of the observed effect.
+A different way to assess the stability of interference filters was followed in <<taubert41>>, and comprised an analysis of the calibration history of four different filter radiometers (FR) equipped with sealed, narrowband interference filters (centre wavelengths at stem:[677"unitsml(nm)"], stem:[802"unitsml(nm)"], stem:[903"unitsml(nm)"], and stem:[1003"unitsml(nm)"], FWHM: stem:[14"unitsml(nm)"] to stem:[24"unitsml(nm)"]) in terms of the temporal change of the centre wavelength and the integrated spectral responsivity over a period of approximately 8 years. Over this period, the FRs were routinely used to measure the thermodynamic temperature of blackbodies in the temperature range from stem:[1000"unitsml(degC)"] to stem:[3000"unitsml(degC)"]. When not being used, the FRs were kept under cleanroom conditions but not under humidity-controlled conditions; i.e., they were exposed to the seasonal humidity variation of the laboratory. For the period investigated, all the FRs displayed a linear shift of the centre wavelength towards longer wavelengths, ranging from stem:[0.038"unitsml(nm)"] per year to stem:[0.067"unitsml(nm)"] per year, corresponding to a maximum relative wavelength change of 0.01 % per year. Except for one FR, the integrated spectral responsivity over the bandpass of all the FRs did not change significantly; the relative changes observed in the assessed time interval were within the uncertainty of the calibration. For the FR with the centre wavelength at stem:[677"unitsml(nm)"], a sudden relative drop of stem:[2 xx 10^(–3)] in the integrated spectral responsivity was observed. After cleaning of the interference filter, the integrated responsivity returned to the previous value, revealing contamination as the origin of the observed effect.
 
 ===== Fluorescence
 
@@ -1060,7 +1060,7 @@ From the definition of the slit scattering function, one can express the optical
 ii(R)_("opt") (ii(lambda)_("laser")) = (ii(I)_0 (ii(lambda)_("laser")))/(ii(L)_0 (ii(lambda)_("laser"))).
 ++++
 
-The optical responsivity of the spectroradiometer (see <<fig9>>) is then extrapolated to another wavelength stem:[ii(lambda)] using an ITS-90 fixed-point blackbody of known temperature (e.g., copper, at stem:[ii(T)_(90) = 1357.77" ""unitsml(K)"]):
+The optical responsivity of the spectroradiometer (see <<fig9>>) is then extrapolated to another wavelength stem:[ii(lambda)] using an ITS-90 fixed-point blackbody of known temperature (e.g., copper, at stem:[ii(T)_(90) = 1357.77"unitsml(K)"]):
 
 [[eq52]]
 [stem]
@@ -1127,20 +1127,20 @@ ii(K)_("OOB") (ii(lambda)_("eff"),ii(T)) = 1 + (ii(U)_("OOB")(ii(lambda)_("eff")
 [cols="^,^,^,^,^"]
 .Temperature correction (expressed in kelvin) caused by out-of-band stray light with effective detection wavelength stem:[ii(lambda)] and blackbody temperature stem:[ii(T)].
 |===
-h| stem:[ii(lambda) \\ ii(T)] h| 1358 K h| 1500 K h| 2000 K h| 2750 K
-| *730 nm* | –0.127 | –0.128 | –0.164 | –0.263
-| *830 nm* | –0.084 | –0.098 | –0.159 | –0.289
-| *910 nm* | –0.071 | –0.086 | –0.150 | –0.285
+h| stem:[ii(lambda) \\ ii(T)] h| stem:[1358 "unitsml(K)"] h| stem:[1500 "unitsml(K)"] h| stem:[2000 "unitsml(K)"] h| stem:[2750 "unitsml(K)"]
+| *stem:[730 "unitsml(nm)"]* | –0.127 | –0.128 | –0.164 | –0.263
+| *stem:[830 "unitsml(nm)"]* | –0.084 | –0.098 | –0.159 | –0.289
+| *stem:[910 "unitsml(nm)"]* | –0.071 | –0.086 | –0.150 | –0.285
 |===
 
 [[table8]]
 [cols="^,^,^,^,^,^,^"]
 .Typical corrections and uncertainties related to the use of a monochromator-based spectroradiometer.
 |===
-h| Component h| Component value h| Uncertainty value h| Uncertainty unit h| Sensitivity value h| Sensitivity unit h| Temperature uncertainty at the copper point (K)
-| stem:[ii(lambda)_("eff")] | stem:[8.000043 xx 10^(–7)] | stem:[1.0 xx 10^(–11)] | m | stem:[1.7 xx 10^9] | stem:["unitsml(K)"*"unitsml(m^(–1))"] | 0.017
-| Int(stem:[ii(lambda)_("eff")]) | stem:[2.9215 xx 10^(–8)] | stem:[5.3 xx 10^(–12)] | stem:["unitsml(V)"*"unitsml(W^(–1))"*"unitsml(m^3)"*"unitsml(sr^1)"] | stem:[3.5 xx 10^9] | stem:["unitsml(K)"*"unitsml(V^(–1))"*"unitsml(W)"*"unitsml(m^(–3))"*"unitsml(sr^(–1))"] | 0.018
-| stem:[ii(K)_("OOB")] | 1.0007 | stem:[2.0 xx 10^(–4)] | no unit | 105 | K | 0.021
+h| Component h| Component value h| Uncertainty value h| Uncertainty unit h| Sensitivity value h| Sensitivity unit h| Temperature uncertainty at the copper point (stem:["unitsml(K)"])
+| stem:[ii(lambda)_("eff")] | stem:[8.000043 xx 10^(–7)] | stem:[1.0 xx 10^(–11)] | m | stem:[1.7 xx 10^9] | stem:["unitsml(K*m^(–1))"] | 0.017
+| Int(stem:[ii(lambda)_("eff")]) | stem:[2.9215 xx 10^(–8)] | stem:[5.3 xx 10^(–12)] | stem:["unitsml(V*W^(–1)*m^3*sr^1)"] | stem:[3.5 xx 10^9] | stem:["unitsml(K*V^(–1)*W*m^(–3)*sr^(–1))"] | 0.018
+| stem:[ii(K)_("OOB")] | 1.0007 | stem:[2.0 xx 10^(–4)] | no unit | 105 | stem:["unitsml(K)"] | 0.021
 |===
 
 == Measurement of Sources
@@ -1265,16 +1265,16 @@ where stem:[ii(phi)_j] is the flux level for the stem:[j]th measurement. The ste
 
 ==== Instrument temperature sensitivity (room temperature and heating from furnace)
 
-As discussed in <<sensitivity_to_temperature>>, filter radiometers are sensitive to their operating temperature and this sensitivity depends on the type of filter and the detector, as interference filters will react differently than glass filters to changes in temperature. FRs generally have some means of temperature stabilisation, but there will be some residual sensitivity. In <<boivin2010>>, Boivin _et al._ determined the sensitivity of the spectral responsivity to changes in operating temperature for glass-filter-based FRs. By measuring the responsivity of the FR with the operating temperature of the integrated thermoelectric cooler set to stem:[20" ""unitsml(°C)"] and then stem:[40" ""unitsml(°C)"], the temperature sensitivity was determined. The responsivity and change in responsivity with operating temperature is shown in <<fig10>>.
+As discussed in <<sensitivity_to_temperature>>, filter radiometers are sensitive to their operating temperature and this sensitivity depends on the type of filter and the detector, as interference filters will react differently than glass filters to changes in temperature. FRs generally have some means of temperature stabilisation, but there will be some residual sensitivity. In <<boivin2010>>, Boivin _et al._ determined the sensitivity of the spectral responsivity to changes in operating temperature for glass-filter-based FRs. By measuring the responsivity of the FR with the operating temperature of the integrated thermoelectric cooler set to stem:[20"unitsml(degC)"] and then stem:[40"unitsml(degC)"], the temperature sensitivity was determined. The responsivity and change in responsivity with operating temperature is shown in <<fig10>>.
 
-If the FR is used to determine the temperature of a blackbody, the change in responsivity of the FR with operating temperature will lead to a change in the measured blackbody temperature. <<fig11>> shows the change in measured blackbody temperature for a stem:[1" ""unitsml(K)"] change in FR operating temperature. With the thermoelectric system described in <<boivin2010>>, temperature stability of stem:[0.05" ""unitsml(K)"] is achievable.
+If the FR is used to determine the temperature of a blackbody, the change in responsivity of the FR with operating temperature will lead to a change in the measured blackbody temperature. <<fig11>> shows the change in measured blackbody temperature for a stem:[1"unitsml(K)"] change in FR operating temperature. With the thermoelectric system described in <<boivin2010>>, temperature stability of stem:[0.05"unitsml(K)"] is achievable.
 
 [[fig10]]
-.Responsivity (blue) and the change in responsivity with temperature (red) for a glass filter, Si detector filter radiometer with a central wavelength near stem:[650" ""unitsml(nm)"].
+.Responsivity (blue) and the change in responsivity with temperature (red) for a glass filter, Si detector filter radiometer with a central wavelength near stem:[650"unitsml(nm)"].
 image::img14.png[]
 
 [[fig11]]
-.Change in the measured temperature (of a blackbody, for example) indicated by stem:[650" ""unitsml(nm)"], glass filter-based FR per degree of FR operating temperature change.
+.Change in the measured temperature (of a blackbody, for example) indicated by stem:[650"unitsml(nm)"], glass filter-based FR per degree of FR operating temperature change.
 image::img15.png[]
 
 === Sources of Uncertainty Due to the Source
@@ -1361,7 +1361,7 @@ The stability and uniformity of a large-area variable-temperature blackbody (VTB
 
 To minimise the effect of the VTBB instability, the FR and RT should measure the blackbody immediately after each other; i.e., the duration between the measurements with the FR and the RT should be as short as possible. Typically, a cycle of two measurements takes several minutes.
 
-Two methods of VTBB stabilisation can be used: active, with optical feedback; and passive, with a constant blackbody electric current. <<fig12>> shows typical stabilisation curves of the actively stabilised VNIIOFI-made blackbody BB3500MP. Stabilisation behaviour can change depending on the history of the blackbody (for instance, whether it was heated up or cooled down just before stabilisation). The usual instability characteristic is a monotonic drift. One can see that in the worst case, the drift has a rate of about 0.02 % (in terms of radiance at stem:[650" ""unitsml(nm)"]) per 5 minutes, and the noise instability is less than 0.004 % (calculated as the standard deviation of 10 consecutive measurements). The passive stabilisation method features smaller noise but can suffer from unpredictable random change of the drift direction. To avoid this indeterminacy, it is recommended that a slight current ramp is applied, leading to a monotonic temperature drift. The best stability result <<sperfeld1995>> achieved with this technique is stem:[0.2" ""unitsml(K//h)"] at a temperature of about stem:[3000" ""unitsml(K)"] <<sperfeld1998>>; i.e., 0.05 % in terms of spectral radiance at stem:[650" ""unitsml(nm)"], which is comparable with the best results for the active method.
+Two methods of VTBB stabilisation can be used: active, with optical feedback; and passive, with a constant blackbody electric current. <<fig12>> shows typical stabilisation curves of the actively stabilised VNIIOFI-made blackbody BB3500MP. Stabilisation behaviour can change depending on the history of the blackbody (for instance, whether it was heated up or cooled down just before stabilisation). The usual instability characteristic is a monotonic drift. One can see that in the worst case, the drift has a rate of about 0.02 % (in terms of radiance at stem:[650"unitsml(nm)"]) per 5 minutes, and the noise instability is less than 0.004 % (calculated as the standard deviation of 10 consecutive measurements). The passive stabilisation method features smaller noise but can suffer from unpredictable random change of the drift direction. To avoid this indeterminacy, it is recommended that a slight current ramp is applied, leading to a monotonic temperature drift. The best stability result <<sperfeld1995>> achieved with this technique is stem:[0.2"unitsml(K//h)"] at a temperature of about stem:[3000"unitsml(K)"] <<sperfeld1998>>; i.e., 0.05 % in terms of spectral radiance at stem:[650"unitsml(nm)"], which is comparable with the best results for the active method.
 
 Assuming linear drift of the blackbody, the following measurement sequence is recommended: RT – FR – RT (or FR – RT – FR). In this case, the mean value of two RT measurements (before and after) corresponds to the FR measurement without any corrections for the blackbody stability. The difference stem:[Delta ii(T)_("RT") = ii(T)_("RT,after")-ii(T)_("RT,before")] between the blackbody temperature measured by the RT before and after the FR can be used for evaluating the upper limit of the uncertainty component associated with VTBB stability:
 
@@ -1371,7 +1371,7 @@ Assuming linear drift of the blackbody, the following measurement sequence is re
 u_("VTBB,stab") = (Delta ii(T)_("RT"))/(sqrt(12)).
 ++++
 
-During the WP5 (InK WP1) for HTFP temperature measurements at VNIIOFI, stem:[Delta ii(T)_("RT")] varied from stem:[0.01" ""unitsml(K)"] to stem:[0.05" ""unitsml(K)"]. Therefore, the corresponding uncertainty component was typically within 0.01 K (0.009 % in terms of radiance at stem:[650" ""unitsml(nm)"] at the temperature level corresponding to the Co-C point).
+During the WP5 (InK WP1) for HTFP temperature measurements at VNIIOFI, stem:[Delta ii(T)_("RT")] varied from stem:[0.01"unitsml(K)"] to stem:[0.05"unitsml(K)"]. Therefore, the corresponding uncertainty component was typically within 0.01 K (0.009 % in terms of radiance at stem:[650"unitsml(nm)"] at the temperature level corresponding to the Co-C point).
 
 [[fig12]]
 .Typical stability of the actively stabilised VTBB of the BB3500 type.
@@ -1381,7 +1381,7 @@ image::img16.png[]
 
 A VTBB is generally not perfectly uniform. The FR and RT may view different areas of the VTBB's cavity bottom. Therefore, the uncertainty component stem:[u_("VTBB,uniform")] (and maybe a correction factor) associated with the VTBB uniformity must be estimated. To minimise the correction and associated uncertainty, the blackbody must be as uniform as possible and the geometry of the measurements (diameters of apertures, RT optics, and measurement distances) must be chosen in such a way that both detectors (RT and FR) see as close as possible the same area of the cavity bottom. The uniformity should be measured and then used for an estimation of the uncertainty.
 
-As an example, <<fig13>> shows the uniformity, plotted as a radiance distribution along the cavity bottom in the horizontal direction, of the blackbody BB3500M used at VNIIOFI as the VTBB for WP5 (WP1 of InK). The FR had an aperture of stem:[5" ""unitsml(mm)"] and was positioned at a distance of stem:[720" ""unitsml(mm)"] from the blackbody aperture (BB aperture), whose diameter was stem:[8" ""unitsml(mm)"]; the distance from the BB aperture to the blackbody bottom was stem:[350" ""unitsml(mm)"]. The RT had an effective lens aperture of stem:[34" ""unitsml(mm)"] and was focused at the BB aperture; the distance from the RT lens to the BB aperture was stem:[750" ""unitsml(mm)"]. So, the FR and RT detectors saw at the BB bottom circular areas with diameters of about stem:[14" ""unitsml(mm)"] and stem:[16" ""unitsml(mm)"], respectively; i.e., the RT saw a larger area. To check the influence of this difference, the RT was moved towards the BB aperture by about stem:[40" ""unitsml(mm)"] without re-focusing, so it saw in this position an area of about stem:[14" ""unitsml(mm)"] (similar to that of the FR). The difference between the RT temperature readings, stem:[Delta ii(T)_("RT,un")], taken in the two RT positions was stem:[0.04 ""unitsml(K)"], stem:[0.03" ""unitsml(K)"], and less than stem:[0.01" ""unitsml(K)"] for temperatures corresponding to the Co-C, Pt-C, and Re-C eutectic points, respectively. These values were applied as corrections, and the uncertainty component associated with the blackbody uniformity was estimated as stem:[0.02" ""unitsml(K)"] for Co-C and Pt-C, and stem:[0.01" ""unitsml(K)"] for Re-C, using an approximate relation:
+As an example, <<fig13>> shows the uniformity, plotted as a radiance distribution along the cavity bottom in the horizontal direction, of the blackbody BB3500M used at VNIIOFI as the VTBB for WP5 (WP1 of InK). The FR had an aperture of stem:[5"unitsml(mm)"] and was positioned at a distance of stem:[720"unitsml(mm)"] from the blackbody aperture (BB aperture), whose diameter was stem:[8"unitsml(mm)"]; the distance from the BB aperture to the blackbody bottom was stem:[350"unitsml(mm)"]. The RT had an effective lens aperture of stem:[34"unitsml(mm)"] and was focused at the BB aperture; the distance from the RT lens to the BB aperture was stem:[750"unitsml(mm)"]. So, the FR and RT detectors saw at the BB bottom circular areas with diameters of about stem:[14"unitsml(mm)"] and stem:[16"unitsml(mm)"], respectively; i.e., the RT saw a larger area. To check the influence of this difference, the RT was moved towards the BB aperture by about stem:[40"unitsml(mm)"] without re-focusing, so it saw in this position an area of about stem:[14"unitsml(mm)"] (similar to that of the FR). The difference between the RT temperature readings, stem:[Delta ii(T)_("RT,un")], taken in the two RT positions was stem:[0.04 ""unitsml(K)"], stem:[0.03"unitsml(K)"], and less than stem:[0.01"unitsml(K)"] for temperatures corresponding to the Co-C, Pt-C, and Re-C eutectic points, respectively. These values were applied as corrections, and the uncertainty component associated with the blackbody uniformity was estimated as stem:[0.02"unitsml(K)"] for Co-C and Pt-C, and stem:[0.01"unitsml(K)"] for Re-C, using an approximate relation:
 
 [[eq76]]
 [stem]
@@ -1394,7 +1394,7 @@ The experiment described above and <<fig13>> show that the uniformity of 0.2 % w
 The VTBB uniformity results presented in <<fig13>> are comparable with that published elsewhere <<sperfeld-metzdorf1998>>. Therefore, based on the above example we can conclude that the normal uncertainty associated with VTBB uniformity is within 0.02 %, and for the best case is less than 0.01 %, in terms of radiance in the visible.
 
 [[fig13]]
-.Cavity bottom uniformity of the blackbody BB3500M measured at VNIIOFI for Co-C, Pt-C, Re-C, and Cu points. The measurements were carried out at a wavelength of 900 nm for the Cu point, and 650 nm for the other three points.
+.Cavity bottom uniformity of the blackbody BB3500M measured at VNIIOFI for Co-C, Pt-C, Re-C, and Cu points. The measurements were carried out at a wavelength of stem:[900 "unitsml(nm)"] for the Cu point, and stem:[650 "unitsml(nm)"] for the other three points.
 image::img17.png[]
 
 ==== For fixed-points
@@ -1491,7 +1491,7 @@ h| Uncertainty Component h| Normal Uncertainty h| Best Uncertainty ^h| Notes
 | Fixed-point transition definition | See <<fischer>>, <<todd>> | See <<fischer>>, <<todd>> |
 |===
 
-<<fig14>> and <<fig15>> show plots of the propagated uncertainties for measurements of a variable-temperature blackbody over the range 1000 °C to 3000 °C for each of the four calibration schemes, for the normal and best uncertainties, respectively, based on the values given in <<table10>> and <<table11>>. These curves have been calculated assuming there are no correlations between any of the uncertainty components. There is little difference between each of the schemes.
+<<fig14>> and <<fig15>> show plots of the propagated uncertainties for measurements of a variable-temperature blackbody over the range stem:[1000 "unitsml(degC)"] to stem:[3000 "unitsml(degC)"] for each of the four calibration schemes, for the normal and best uncertainties, respectively, based on the values given in <<table10>> and <<table11>>. These curves have been calculated assuming there are no correlations between any of the uncertainty components. There is little difference between each of the schemes.
 
 [[fig14]]
 .Uncertainties for each calibration scheme, propagated from the normal values given in <<table10>> and <<table11>>.
@@ -1757,7 +1757,7 @@ For the purpose of calculating temperature and its uncertainty, the measurement 
 ii(S)(ii(T)) = ii(C)/("exp"((c_2)/(ii(AT) + ii(B)))-1),
 ++++
 
-where stem:[ii(A)], stem:[ii(B)], and stem:[ii(C)] are parameters related to the optical properties of the filter radiometer. This approximation is valid for small footnote:[The approximation, when the relative bandwidth is less than 0.01, e.g., for a 650 nm filter radiometer with bandwidth (full-width at half maximum) less than about 20 nm, typically creates an error smaller than 3 mK over the temperature range 600 °C to 3000 °C.] values of the relative bandwidth, stem:[r = ii(sigma)//ii(lambda)_0], of the spectral responsivity <<saunders2004>>. In this case <<saunders2003-physical>>
+where stem:[ii(A)], stem:[ii(B)], and stem:[ii(C)] are parameters related to the optical properties of the filter radiometer. This approximation is valid for small footnote:[The approximation, when the relative bandwidth is less than 0.01, e.g., for a stem:[650 "unitsml(nm)"] filter radiometer with bandwidth (full-width at half maximum) less than about stem:[20 "unitsml(nm)"], typically creates an error smaller than stem:[3 "unitsml(mK)"] over the temperature range stem:[600 "unitsml(degC)"] to stem:[3000 "unitsml(degC)"].] values of the relative bandwidth, stem:[r = ii(sigma)//ii(lambda)_0], of the spectral responsivity <<saunders2004>>. In this case <<saunders2003-physical>>
 
 [[eq97]]
 [stem]
@@ -1872,7 +1872,7 @@ u^2(ii(T)) = ((del ii(T))/(del ii(lambda)_0) u(ii(lambda)_0))^2 +((del ii(T))/(d
 + ((del ii(T))/(del n)u(n))^2 + ((del ii(T))/(del c_2)u(c_2))^2 + ((del ii(T))/(del ii(S))u(ii(S)))^2
 ++++
 
-with the addition of any correlated components. The narrowband and Wien approximations indicated above introduce insignificant error (typically less than 3 mK) into the calculated value of the total standard uncertainty for realistic values of the parameters. Because the uncertainties stem:[u(n)] and stem:[u(c_2)] are small, the fourth and fifth terms in <<eq111>> are negligible and can be removed from the equation. In fact, after the redefinition of the SI in 2019, stem:[u(c_2)] will be identically zero, since stem:[c_2=hc//k] and stem:[h], stem:[c], and stem:[k] will all have defined values. Similarly, the component of uncertainty in stem:[ii(H)] due to stem:[c_1] is also negligible, and will be identically zero after the redefinition since stem:[c_1 = 2hc^2].
+with the addition of any correlated components. The narrowband and Wien approximations indicated above introduce insignificant error (typically less than stem:[3 "unitsml(mK)"]) into the calculated value of the total standard uncertainty for realistic values of the parameters. Because the uncertainties stem:[u(n)] and stem:[u(c_2)] are small, the fourth and fifth terms in <<eq111>> are negligible and can be removed from the equation. In fact, after the redefinition of the SI in 2019, stem:[u(c_2)] will be identically zero, since stem:[c_2=hc//k] and stem:[h], stem:[c], and stem:[k] will all have defined values. Similarly, the component of uncertainty in stem:[ii(H)] due to stem:[c_1] is also negligible, and will be identically zero after the redefinition since stem:[c_1 = 2hc^2].
 
 The uncertainties stem:[u(ii(H))], stem:[u(ii(lambda)_0)], and stem:[u(ii(sigma))] can be derived from the uncertainties stem:[u(ii(lambda)_("ran",i))], stem:[u(ii(lambda)_("sys"))], stem:[u_("rel")(s_("ran",i))], stem:[u_("rel")(s_("sys"))], and stem:[u(ii(K))] in a similar fashion to the method in <<appendixA>>. That is, each of the integrals in <<eq101>> to <<eq103>> can be expressed as numerical summations (given by the trapezium rule) in terms of the measured stem:[(ii(lambda)_i,s_i)] pairs, and the appropriate sensitivity coefficients calculated.
 
@@ -2133,7 +2133,7 @@ where the term stem:[u(ii(G))//ii(G)] is the relative uncertainty in the gain.
 
 * [[[taubert6,1]]], D R Taubert, R Friedrich, J Hartmann, P Sperfeld, J Hollandt, "Long-term stability of the spectral responsivity of filter radiometers at the PTB" in _Proceedings of TEMPMEKO 2004, 9th International Symposium on Temperature and Thermal Measurements in Industry and Science_, edited by D Zvizdic, LPM/FSB, Zagreb, pp. 977–982, 2005.
 
-* [[[reader,1]]], J Reader, "Metrological implications of recent interferometric wavelength measurements for singly ionized silicon in the vacuum ultraviolet (152 nm and 180 nm)", _Metrologia_, *39*, 391–394, 2002.
+* [[[reader,1]]], J Reader, "Metrological implications of recent interferometric wavelength measurements for singly ionized silicon in the vacuum ultraviolet (stem:[152 "unitsml(nm)"] and stem:[180 "unitsml(nm)"])", _Metrologia_, *39*, 391–394, 2002.
 
 * [[[saunders2003,1]]], P Saunders, "Uncertainty arising from the use of the mean effective wavelength in realizing ITS-90", in _Temperature: Its Measurement and Control in Science and Industry_, Vol. 7, edited by D C Ripple _et al._, AIP Conference Proceedings, Melville, New York, 639–644, 2003.
 
@@ -2169,9 +2169,9 @@ where the term stem:[u(ii(G))//ii(G)] is the relative uncertainty in the gain.
 
 * [[[hollandt,1]]], J Hollandt, R Friedrich, B Gutschwager, D Taubert, J. Hartmann, "High-accuracy radiation thermometry at the National Metrology Institute of Germany, the PTB", _High Temperatures–High Pressures_, *35/36*, 379–415, 2005.
 
-* [[[noulkow,1]]], N Noulkow, R D Taubert, P Meindl, J Hollandt, "Infrared filter radiometers for thermodynamic temperature determination below 660 °C", _International Journal of Thermophysics_, *30*, 131–143, 2009.
+* [[[noulkow,1]]], N Noulkow, R D Taubert, P Meindl, J Hollandt, "Infrared filter radiometers for thermodynamic temperature determination below stem:[660 "unitsml(degC)"]", _International Journal of Thermophysics_, *30*, 131–143, 2009.
 
-* [[[taubert26,1]]], D R Taubert, J Hartmann, J Hollandt, J Fischer, "Investigation of the accuracy of the ITS-90 with reference to thermodynamic temperature in the range from 400 °C up to 600 °C", in _Temperature: Its Measurement and Control in Science and Industry_, Vol. 7, edited by D C Ripple _et al._, AIP Conference Proceedings, Melville, New York, pp. 7–12, 2003.
+* [[[taubert26,1]]], D R Taubert, J Hartmann, J Hollandt, J Fischer, "Investigation of the accuracy of the ITS-90 with reference to thermodynamic temperature in the range from stem:[400 "unitsml(degC)"] up to stem:[600 "unitsml(degC)"]", in _Temperature: Its Measurement and Control in Science and Industry_, Vol. 7, edited by D C Ripple _et al._, AIP Conference Proceedings, Melville, New York, pp. 7–12, 2003.
 
 * [[[anhalt2008,1]]], K Anhalt, "Radiometric measurement of thermodynamic temperatures during the phase transformation of metal-carbon eutectic alloys for a new high temperature scale above 1000 ºC", University of Berlin, 2008.
 
@@ -2263,7 +2263,7 @@ where the term stem:[u(ii(G))//ii(G)] is the relative uncertainty in the gain.
 
 * [[[woolliams2003,1]]], E R Woolliams, "Development and evaluation of a high temperature blackbody source for the realisation of NPL's primary spectral irradiance scale" in _Physics_, University of Manchester, 2003.
 
-* [[[woolliams2006,1]]], E R Woolliams, N P Fox, M G Cox, P M Harris, N J Harrison, "Final report on CCPR K1-a: spectral irradiance from 250 nm to 2500 nm", _Metrologia_, *43*, 02003, 2006.
+* [[[woolliams2006,1]]], E R Woolliams, N P Fox, M G Cox, P M Harris, N J Harrison, "Final report on CCPR K1-a: spectral irradiance from stem:[250 "unitsml(nm)"] to stem:[2500 "unitsml(nm)"]", _Metrologia_, *43*, 02003, 2006.
 
 * [[[hall,1]]], B D Hall, "Object-oriented software for evaluating measurement uncertainty", _Measurement Science and Technology_, *24*, 055004, 2013.
 
