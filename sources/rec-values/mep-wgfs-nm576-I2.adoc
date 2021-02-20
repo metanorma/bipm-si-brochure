@@ -1,4 +1,4 @@
-= Recommended Values of Standard Frequencies: Iodine (stem:[ii(lambda) ~~ 576" "rm(nm)])
+= Recommended Values of Standard Frequencies: Iodine (stem:[ii(lambda) ~~ 576"unitsml(nm)"])
 :appendix-id: 2
 :partnumber: 2.11
 :edition: 9
@@ -7,8 +7,8 @@
 :docnumber: SI MEP M REC 576nm
 :title-appendix-en: Recommended values of standard frequencies for applications including the practical realization of the metre and secondary representations of the second
 :title-appendix-fr: Valeurs recommandées des fréquences étalons destinées à la mise en pratique de la définition du mètre et aux représentations secondaires de la seconde
-:title-part-en: Iodine (stem:[ii(lambda) ~~ 576" "rm(nm)])
-:title-part-fr: Iodine (stem:[ii(lambda) ~~ 576" "rm(nm)])
+:title-part-en: Iodine (stem:[ii(lambda) ~~ 576"unitsml(nm)"])
+:title-part-fr: Iodine (stem:[ii(lambda) ~~ 576"unitsml(nm)"])
 :title-en: The International System of Units
 :title-fr: Le système international d’unités
 :doctype: mise-en-pratique
@@ -25,35 +25,35 @@
 :local-cache-only:
 :data-uri-image:
 
-== Iodine (stem:[ii(lambda) ~~ 576" "rm(nm)])
+== Iodine (stem:[ii(lambda) ~~ 576"unitsml(nm)"])
 
-*Absorbing molecule ^127^I~2~, stem:[rm(a)_1] component, P(62) 17-1 transition* footnote:[All transitions in I~2~ refer to the stem:["B"^3Pi" "0_u^+ - "X"^1" "Sigma_g^+] system.]
+*Absorbing molecule ^127^I~2~, stem:["a"_1] component, P(62) 17-1 transition* footnote:[All transitions in I~2~ refer to the stem:["B"^3Pi" "0_u^+ - "X"^1" "Sigma_g^+] system.]
 
 == CIPM recommended values
 
-The values:: stem:[f = 520206808.4" "rm(MHz)] +
-stem:[ii(lambda) = 576294760.4" "rm(fm)]
+The values:: stem:[f = 520206808.4"unitsml(MHz)"] +
+stem:[ii(lambda) = 576294760.4"unitsml(fm)"]
 
-with a relative standard uncertainty of stem:[4 xx 10^(−10)] apply to the radiation of a dye laser (or frequency-doubled He-Ne laser) stabilized with an iodine cell, within or external to the laser, having a cold-finger temperature of stem:[(6 +- 2)" °C"] footnote:[For the specification of operating conditions, such as temperature, modulation width and laser power, the symbols ± refer to a tolerance, not an uncertainty.].
+with a relative standard uncertainty of stem:[4 xx 10^(−10)] apply to the radiation of a dye laser (or frequency-doubled He-Ne laser) stabilized with an iodine cell, within or external to the laser, having a cold-finger temperature of stem:[(6 +- 2)"unitsml(degC)"] footnote:[For the specification of operating conditions, such as temperature, modulation width and laser power, the symbols ± refer to a tolerance, not an uncertainty.].
 
 == Source data
 
-Adopted value:: stem:[f = 520206808.4" "(2)" "rm(MHz)] +
+Adopted value:: stem:[f = 520206808.4" "(2)"unitsml(MHz)"] +
 stem:[u_c//y = 4 xx 10^(-10)]
 +
 for which: +
-stem:[ii(lambda) = 576294760.4" "(2)" "rm(fm)] +
+stem:[ii(lambda) = 576294760.4" "(2)"unitsml(fm)"] +
 stem:[u_c//y = 4 xx 10^(-10)]
 
 calculated from
 
 [%unnumbered]
 |===
-h| stem:[f // rm(kHz)] h| stem:[u_c//y] h| source data
+h| stem:[f // "unitsml(kHz)"] h| stem:[u_c//y] h| source data
 
 | stem:[520206808491] | stem:[1.5 xx 10^(−10)] | <<sec2-1>>
 | stem:[520206808280] | stem:[1 xx 10^(−10)] | <<sec2-2>>
-| Unweighted mean: 2+| stem:[f = 520206808388" "rm(kHz)]
+| Unweighted mean: 2+| stem:[f = 520206808388"unitsml(kHz)"]
 |===
 
 With this mean based on only two determinations, the CCL considered it prudent to assume an estimated relative standard uncertainty of stem:[4 xx 10^(-10)], closely equivalent to the difference between the two values.
@@ -63,13 +63,13 @@ Source data
 [[sec2-1]]
 === {blank}
 
-Reference <<ccdm82-30>> gives:: stem:[f_(a1) = 520206808547" "rm(kHz)] +
+Reference <<ccdm82-30>> gives:: stem:[f_(a1) = 520206808547"unitsml(kHz)"] +
 stem:[u_c // y = 1.5 xx 10^(−10)],
 
-reduced by 12 kHz at the request of the NBS delegate at the CCDM meeting in 1982 <<doc-metre>>, <<bipm-metre>>. This value has been multiplied by the ratio (stem:[88376181600.5//88376181608]) to account for the 1992 reference value of the methane frequency (see methane at stem:[ii(lambda) ~~ 3.39" "mu"m"], unresolved hyperfine structure) giving:
+reduced by stem:[12 "unitsml(kHz)"] at the request of the NBS delegate at the CCDM meeting in 1982 <<doc-metre>>, <<bipm-metre>>. This value has been multiplied by the ratio (stem:[88376181600.5//88376181608]) to account for the 1992 reference value of the methane frequency (see methane at stem:[ii(lambda) ~~ 3.39"unitsml(um)"], unresolved hyperfine structure) giving:
 
 [align=left]
-stem:[f_(a1) = 520206808491" "rm(kHz)] +
+stem:[f_(a1) = 520206808491"unitsml(kHz)"] +
 stem:[u_c//y = 1.5 xx 10^(−10)].
 
 [[sec2-2]]
@@ -78,16 +78,16 @@ stem:[u_c//y = 1.5 xx 10^(−10)].
 Barwood et al. <<barwood>> give:: stem:[f_(a1) // f_i = 1.09838131729] +
 stem:[u_c//y = 1 xx 10^(−10)].
 
-Using the recommended value of the absorbing molecule ^127^I~2~, stem:[rm(a)_{16}] or f component, R(127) 11-5 transition (see iodine at stem:[ii(lambda) ~~ 633" "rm(nm)] and frequency differences listed in corresponding <<table1>>) one obtains
+Using the recommended value of the absorbing molecule ^127^I~2~, stem:["a"_{16}] or f component, R(127) 11-5 transition (see iodine at stem:[ii(lambda) ~~ 633"unitsml(nm)"] and frequency differences listed in corresponding <<table1>>) one obtains
 
 [align=left]
-stem:[f_i = 473612214712" "rm(kHz)] +
+stem:[f_i = 473612214712"unitsml(kHz)"] +
 stem:[u_c//y = 2.2 xx 10^(−11)],
 
 one calculates
 
 [align=left]
-stem:[f_(a1) = 520206808280" "rm(kHz)] +
+stem:[f_(a1) = 520206808280"unitsml(kHz)"] +
 stem:[u_c//y = 1 xx 10^(−10)].
 
 == Absolute frequency of the other transitions related to those adopted as recommended and frequency intervals between transitions and hyperfine components
@@ -109,16 +109,16 @@ All transitions in molecular iodine refer to the B-X system.
 
 [[table1]]
 |===
-8+^.^h| stem:[ii(lambda) ~~ 576" "rm(nm)] ^127^I~2~ P(62) 17-1
-h| stem:[rm(a)_n] h| stem:[x] h| stem:[[f (rm(a)_n) - f (rm(a)_1)\]//rm(MHz)] h| stem:[u_c//rm(MHz)] h| stem:[rm(a)_n] h| stem:[x] h| stem:[[f (rm(a)_n) - f (rm(a)_1))\]//rm(MHz)] h| stem:[u_c//rm(MHz)]
+8+^.^h| stem:[ii(lambda) ~~ 576"unitsml(nm)"] ^127^I~2~ P(62) 17-1
+h| stem:["a"_n] h| stem:[x] h| stem:[[f ("a"_n) - f ("a"_1)\]//"unitsml(MHz)"] h| stem:[u_c//"unitsml(MHz)"] h| stem:["a"_n] h| stem:[x] h| stem:[[f ("a"_n) - f ("a"_1))\]//"unitsml(MHz)"] h| stem:[u_c//"unitsml(MHz)"]
 
-| stem:[rm(a)_1] | o | stem:[0] | -- | stem:[rm(a)_7] | I | stem:[428.51] | 0.02
-| stem:[rm(a)_2] | n | stem:[275.03] | 0.02 | stem:[rm(a)_8] | H | stem:[440.17] | 0.02
-| stem:[rm(a)_3] | m | stem:[287.05] | 0.02 | stem:[rm(a)_9] | G | stem:[452.30] | 0.02
-| stem:[rm(a)_4] | l | stem:[292.57] | 0.02 | stem:[rm(a)_{10}] | F | stem:[579.43] | 0.03
-| stem:[rm(a)_5] | k | stem:[304.26] | 0.02 | stem:[rm(a)_{15}] | A | stem:[869.53] | 0.03
-| stem:[rm(a)_6] | j | stem:[416.67] | 0.02 | | | |
-8+<a| Frequency referenced to:: stem:[rm(a)_1], P(62) 17-1, ^127^I~2~: stem:[f = 520206808.4" "rm(MHz)] <<ci2002>>
+| stem:["a"_1] | o | stem:[0] | -- | stem:["a"_7] | I | stem:[428.51] | 0.02
+| stem:["a"_2] | n | stem:[275.03] | 0.02 | stem:["a"_8] | H | stem:[440.17] | 0.02
+| stem:["a"_3] | m | stem:[287.05] | 0.02 | stem:["a"_9] | G | stem:[452.30] | 0.02
+| stem:["a"_4] | l | stem:[292.57] | 0.02 | stem:["a"_{10}] | F | stem:[579.43] | 0.03
+| stem:["a"_5] | k | stem:[304.26] | 0.02 | stem:["a"_{15}] | A | stem:[869.53] | 0.03
+| stem:["a"_6] | j | stem:[416.67] | 0.02 | | | |
+8+<a| Frequency referenced to:: stem:["a"_1], P(62) 17-1, ^127^I~2~: stem:[f = 520206808.4"unitsml(MHz)"] <<ci2002>>
 |===
 Ref. <<barwood>>, <<baird>>
 
@@ -132,7 +132,7 @@ Ref. <<barwood>>, <<baird>>
 
 * [[[bipm-metre,3]]], _BIPM Com. Cons. Déf. Mètre_, 1982, *7*, M 130–131.
 
-* [[[barwood,4]]], Barwood G.P., Rowley W.R.C., Characteristics of a ^127^I~2~-Stabilized Dye Laser at 576 nm, _Metrologia_, 1984, *20*, 19-23.
+* [[[barwood,4]]], Barwood G.P., Rowley W.R.C., Characteristics of a ^127^I~2~-Stabilized Dye Laser at stem:[576 "unitsml(nm)"], _Metrologia_, 1984, *20*, 19-23.
 
 * [[[ci2002,5]]], Recommendation CCL3 (_BIPM Com. Cons. Long._, 10th Meeting, 2001) adopted by the Comité International des Poids et Mesures at its 91th Meeting as Recommendation 1 (CI-2002).
 
