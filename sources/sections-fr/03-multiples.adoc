@@ -44,15 +44,15 @@ recommandés pour les préfixes correspondant
 |===
 | Facteur | Nom | Symbole | Facteur | Nom | Symbole
 
-| stem:[10^1] | déca | stem:["unitsml(da)"] | stem:[10^{-1}] | déci | stem:["unitsml(d)"]
-| stem:[10^2] | hecto | stem:["unitsml(h)"] | stem:[10^{-2}] | centi | stem:["unitsml(c)"]
-| stem:[10^3] | kilo | stem:["unitsml(k)"] | stem:[10^{-3}] | milli | stem:["unitsml(m)"]
-| stem:[10^6] | méga | stem:["unitsml(M)"] | stem:[10^{-6}] | micro | stem:[mu]
-| stem:[10^9] | giga | stem:["unitsml(G)"] | stem:[10^{-9}] | nano | stem:["unitsml(n)"]
-| stem:[10^12] | téra | stem:["unitsml(T)"] | stem:[10^{-12}] | pico | stem:["unitsml(p)"]
-| stem:[10^15] | péta | stem:["unitsml(P)"] | stem:[10^{-15}] | femto | stem:["unitsml(f)"]
-| stem:[10^18] | exa | stem:["unitsml(E)"] | stem:[10^{-18}] | atto | stem:["unitsml(a)"]
-| stem:[10^21] | zetta | stem:["unitsml(Z)"] | stem:[10^{-21}] | zepto | stem:["unitsml(z)"]
+| stem:[10^1] | déca | stem:["unitsml(da)"] | stem:[10^(-1)] | déci | stem:["unitsml(d)"]
+| stem:[10^2] | hecto | stem:["unitsml(h)"] | stem:[10^(-2)] | centi | stem:["unitsml(c)"]
+| stem:[10^3] | kilo | stem:["unitsml(k)"] | stem:[10^(-3)] | milli | stem:["unitsml(m)"]
+| stem:[10^6] | méga | stem:["unitsml(M)"] | stem:[10^(-6)] | micro | stem:[mu]
+| stem:[10^9] | giga | stem:["unitsml(G)"] | stem:[10^(-9)] | nano | stem:["unitsml(n)"]
+| stem:[10^12] | téra | stem:["unitsml(T)"] | stem:[10^(-12)] | pico | stem:["unitsml(p)"]
+| stem:[10^15] | péta | stem:["unitsml(P)"] | stem:[10^(-15)] | femto | stem:["unitsml(f)"]
+| stem:[10^18] | exa | stem:["unitsml(E)"] | stem:[10^(-18)] | atto | stem:["unitsml(a)"]
+| stem:[10^21] | zetta | stem:["unitsml(Z)"] | stem:[10^(-21)] | zepto | stem:["unitsml(z)"]
 | stem:[10^24] | yotta | stem:["unitsml(Y)"] | stem:[10^{-24}] | yocto | stem:["unitsml(y)"]
 |===
 
@@ -65,16 +65,16 @@ d’autres symboles d’unités pour former des symboles d’unités composés.
 
 
 ====
-stem:["unitsml(p)""unitsml(m)"] (picomètre), stem:["unitsml(mmol)"] (millimole), stem:["unitsml(G Omega)"] (gigaohm), stem:["unitsml(THz)"] (terahertz)
+stem:["unitsml(p)""unitsml(m)"] (picomètre), stem:["unitsml(mmol)"] (millimole), stem:["unitsml(GOhm)"] (gigaohm), stem:["unitsml(THz)"] (terahertz)
 
 [stem%unnumbered]
 ++++
-2.3 " ""unitsml(cm^3)" = 2.3 ("unitsml(cm)")^3 = 2.3 (10^{-2} " ""unitsml(m)")^3 = 2.3 xx 10^{-6} " ""unitsml(m^3)"
+2.3 "unitsml(cm^3)" = 2.3 ("unitsml(cm^3)") = 2.3 (10^(-2) "unitsml(m^3)") = 2.3 xx 10^(-6) "unitsml(m^3)"
 ++++
 
 [stem%unnumbered]
 ++++
-1 " ""unitsml(cm^{-1})" = 1 ("unitsml(cm)")^{-1} = 1 (10^{-2} " ""unitsml(m)")^{-1} = 10^2 " ""unitsml(m^{-1})" = 100 " ""unitsml(m^{-1})"
+1 "unitsml(cm^(-1))" = 1 ("unitsml(cm^(-1))") = 1 (10^(-2) "unitsml(m^(-1))") = 10^2 "unitsml(m^(-1))" = 100 "unitsml(m^(-1))"
 ++++
 ====
 
@@ -96,5 +96,5 @@ Le ((kilogramme)) est la seule unité SI cohérente dont le nom et le symbole, p
 historiques, contiennent un préfixe. Les noms et les symboles des multiples et
 sous-multiples décimaux de l’unité de masse sont formés par l’adjonction de noms de
 préfixes au mot «&nbsp;gramme&nbsp;» et de symboles de ces préfixes au symbole de l’unité «&nbsp;g&nbsp;».
-Ainsi, stem:[10^{-6} " ""unitsml(kg)"] s’écrit milligramme, stem:["unitsml(mg)"], et non microkilogramme, stem:[mu "unitsml(kg)"]. [[sous_multiples_prefixes]] [[prefixes_si-1]] [[unite_multiples]]
+Ainsi, stem:[10^(-6) "unitsml(kg)"] s’écrit milligramme, stem:["unitsml(mg)"], et non microkilogramme, stem:["unitsml(ukg)"]. [[sous_multiples_prefixes]] [[prefixes_si-1]] [[unite_multiples]]
 
