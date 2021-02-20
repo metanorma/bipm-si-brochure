@@ -141,7 +141,7 @@ tracés sur la barre de platine iridié déposée au Bureau international des po
 déclarée Prototype du mètre par la Première Conférence générale des poids et mesures, cette
 règle étant soumise à la pression atmosphérique normale et supportée par deux rouleaux d’au
 moins un centimètre de diamètre, situés symétriquement dans un même plan horizontal et à la
-distance de 571 mm l’un de l’autre.
+distance de stem:[571 "unitsml(mm)"] l’un de l’autre.
 
 
 === CIPM, 1946
@@ -151,7 +151,7 @@ distance de 571 mm l’un de l’autre.
 NOTE: Les deux définitions contenues dans cette
 Résolution furent ratifiées par la CGPM à sa
 9^e^ réunion en 1948, qui a en outre approuvé le nom de
-candela(((candela (cd)))) donné à la «&nbsp;bougie nouvelle&nbsp;» (CR, 54). Pour le
+candela(((candela (stem:["unitsml(cd)"])))) donné à la «&nbsp;bougie nouvelle&nbsp;» (CR, 54). Pour le
 lumen, le qualificatif «&nbsp;nouveau&nbsp;» a été
 abandonné par la suite.
 
@@ -174,7 +174,7 @@ lumineuse de 1 bougie nouvelle.
 5. . . .
 
 
-NOTE: La définition de la candela(((candela (cd)))) a été modifiée par la 13^e^ CGPM en 1967 (Résolution 5, _voir_ p. 59).
+NOTE: La définition de la candela(((candela (stem:["unitsml(cd)"])))) a été modifiée par la 13^e^ CGPM en 1967 (Résolution 5, _voir_ p. 59).
 
 
 ==== Définitions des unités électriques (PV, 20, 132-133)
@@ -204,27 +204,27 @@ dans la direction de la force.
 suivantes définissant la grandeur théorique des unités électriques:
 +
 --
-*Ampère*(((ampère (A)))) (unité d’intensité de courant électrique) -- L’ampère(((ampère (A)))) est l’intensité d’un courant
+*Ampère*(((ampère (stem:["unitsml(A)"])))) (unité d’intensité de courant électrique) -- L’ampère(((ampère (stem:["unitsml(A)"])))) est l’intensité d’un courant
 constant qui, maintenu dans deux conducteurs parallèles, rectilignes, de longueur infinie, de
 section circulaire négligeable et placés à une distance de 1 mètre l’un de l’autre dans le vide,
-produirait entre ces conducteurs une force égale à stem:[2 xx 10^{-7}] unité MKS de force [newton] par
+produirait entre ces conducteurs une force égale à stem:[2 xx 10^(-7)] unité MKS de force [newton] par
 mètre de longueur.
 
-NOTE: Définition de l’ampère(((ampère (A)))) abrogée en 2018 par la
+NOTE: Définition de l’ampère(((ampère (stem:["unitsml(A)"])))) abrogée en 2018 par la
 CGPM à sa 26^e^ réunion (Résolution 1, _voir_ p.92).
-(((volt (V))))
+(((volt (stem:["unitsml(V)"]))))
 
 *Volt* (unité de différence de potentiel et de force électromotrice) -- Le volt est la différence de
 potentiel électrique qui existe entre deux points d’un fil conducteur transportant un courant
-constant de 1 ampère(((ampère (A)))), lorsque la puissance dissipée entre ces points est égale à 1 watt.
+constant de 1 ampère(((ampère (stem:["unitsml(A)"])))), lorsque la puissance dissipée entre ces points est égale à 1 watt.
 
 *Ohm* (unité de résistance électrique) -- L’ohm est la résistance électrique qui existe entre deux
 points d’un conducteur lorsqu’une différence de potentiel constante de 1 volt, appliquée
-entre ces deux points, produit, dans ce conducteur, un courant de 1 ampère(((ampère (A)))), ce conducteur
+entre ces deux points, produit, dans ce conducteur, un courant de 1 ampère(((ampère (stem:["unitsml(A)"])))), ce conducteur
 n’étant le siège d’aucune force électromotrice.
 
 *Coulomb* (unité de quantité d’électricité) -- Le coulomb est la quantité d’électricité transportée
-en 1 seconde par un courant de 1 ampère(((ampère (A)))).
+en 1 seconde par un courant de 1 ampère(((ampère (stem:["unitsml(A)"])))).
 
 *Farad* (unité de capacité électrique) -- Le farad est la capacité d’un condensateur électrique
 entre les armatures duquel apparaît une différence de potentiel électrique de 1 volt, lorsqu’il
@@ -233,7 +233,7 @@ est chargé d’une quantité d’électricité égale à 1 coulomb.
 *Henry* (unité d’inductance électrique) -- Le henry est l’inductance électrique d’un circuit fermé
 dans lequel une force électromotrice de 1 volt est produite lorsque le courant électrique qui
 parcourt le circuit varie uniformément à raison de 1 ampère par seconde.
-(((weber (Wb))))
+(((weber (stem:["unitsml(Wb)"]))))
 
 *Weber* (unité de flux magnétique) -- Le weber est le flux magnétique qui, traversant un circuit
 d’une seule spire, y produirait une force électromotrice de 1 volt, si on l’amenait à zéro en
@@ -356,18 +356,18 @@ ces tranches ne sont jamais séparées par des points, ni par des virgules.
 |===
 | Unités | Symboles | Unités | Symboles
 
-a| &#x2022; mètre | stem:["unitsml(m)"] | ampère(((ampère (A)))) | stem:["unitsml(A)"]
-a| &#x2022; mètre carré | stem:["unitsml(m^2)"] | volt(((volt (V)))) | stem:["unitsml(V)"]
+a| &#x2022; mètre | stem:["unitsml(m)"] | ampère(((ampère (stem:["unitsml(A)"])))) | stem:["unitsml(A)"]
+a| &#x2022; mètre carré | stem:["unitsml(m^2)"] | volt(((volt (stem:["unitsml(V)"])))) | stem:["unitsml(V)"]
 a| &#x2022; mètre cube | stem:["unitsml(m^3)"] | watt | stem:["unitsml(W)"]
-a| &#x2022; micron | stem:[mu] | ohm | stem:[Omega]
+a| &#x2022; micron | stem:[mu] | ohm | stem:["unitsml(Ohm)"]
 a| &#x2022; litre | stem:["unitsml(l)"] | coulomb | stem:["unitsml(C)"]
 a| &#x2022; gramme | stem:["unitsml(g)"] | farad | stem:["unitsml(F)"]
 a| &#x2022; tonne | stem:["unitsml(t)"] | henry | stem:["unitsml(H)"]
 | seconde | stem:["unitsml(s)"] | hertz | stem:["unitsml(Hz)"]
 | erg | stem:["unitsml(erg)"] | poise | stem:["unitsml(P)"]
 | dyne | stem:["unitsml(dyn)"] | newton | stem:["unitsml(N)"]
-| degré Celsius | stem:["unitsml(°C)"] a| &#x2022; candela(((candela (cd)))) (bougie nouvelle) | stem:["unitsml(cd)"]
-a| &#x2022; degré absolu | stem:["unitsml(°K)"] | lux | stem:["unitsml(lx)"]
+| degré Celsius | stem:["unitsml(degC)"] a| &#x2022; candela(((candela (stem:["unitsml(cd)"])))) (bougie nouvelle) | stem:["unitsml(cd)"]
+a| &#x2022; degré absolu | stem:["unitsml(degK)"] | lux | stem:["unitsml(lx)"]
 | calorie | stem:["unitsml(cal)"] | lumen | stem:["unitsml(lm)"]
 | bar | stem:["unitsml(bar)"] | stilb | stem:["unitsml(sb)"]
 | heure | stem:["unitsml(h)"] | |
@@ -379,7 +379,7 @@ a| &#x2022; degré absolu | stem:["unitsml(°K)"] | lux | stem:["unitsml(lx)"]
 . Les symboles dont les unités sont précédées d’un point sont ceux qui avaient déjà été
 antérieurement adoptés par une décision du Comité international.
 
-. L’unité de volume stère, employée dans le mesurage des bois, aura pour symbole «&nbsp;st&nbsp;» et
+. L’unité de volume stère, employée dans le mesurage des bois, aura pour symbole «&nbsp;stem:["unitsml(st)"]&nbsp;» et
 non plus «&nbsp;s&nbsp;», qui lui avait été précédemment affecté par le Comité international.
 
 . S’il s’agit, non d’une température, mais d’un intervalle ou d’une différence de température,
@@ -446,9 +446,9 @@ pratique d’unités de mesure pour les relations internationales,
 | longueur | mètre
 | masse | kilogramme
 | temps | seconde
-| intensité de courant électrique | ampère(((ampère (A))))
+| intensité de courant électrique | ampère(((ampère (stem:["unitsml(A)"]))))
 | température thermodynamique | degré Kelvin
-| intensité lumineuse | candela(((candela (cd))))
+| intensité lumineuse | candela(((candela (stem:["unitsml(cd)"]))))
 |===
 
 
@@ -474,7 +474,7 @@ a émis un avis favorable au rattachement de la seconde à l’année tropique,
 internationale (Rome, 1952), la seconde de temps des éphémérides (T.E.) est la fraction
 +
 --
-stem:[12960276813//408986496 xx 10^{-9}] de l’année tropique pour 1900 janvier 0 à 12 h T.E.,
+stem:[12960276813//408986496 xx 10^(-9)] de l’année tropique pour 1900 janvier 0 à 12 h T.E.,
 décide
 
 «&nbsp;La seconde est la fraction stem:[1//31556925.9747] de l’année tropique pour 1900 janvier 0 à
@@ -581,12 +581,12 @@ pour les relations internationales:
 --
 [cols="3",options="unnumbered"]
 |===
-| longueur | mètre | m
-| masse | kilogramme | kg
-| temps | seconde | s
-| intensité de courant électrique | ampère(((ampère (A)))) | A
-| température thermodynamique | degré Kelvin | °K
-| intensité lumineuse | candela(((candela (cd)))) | cd
+| longueur | mètre | stem:["unitsml(m)"]
+| masse | kilogramme | stem:["unitsml(kg)"]
+| temps | seconde | stem:["unitsml(s)"]
+| intensité de courant électrique | ampère(((ampère (stem:["unitsml(A)"])))) | stem:["unitsml(A)"]
+| température thermodynamique | degré Kelvin | stem:["unitsml(degK)"]
+| intensité lumineuse | candela(((candela (stem:["unitsml(cd)"])))) | stem:["unitsml(cd)"]
 |===
 
 NOTE: Le nom et symbole de l’unité de température
@@ -618,12 +618,12 @@ suivants:
 |===
 | Facteur par lequel l’unité est multipliée | Préfixe | Symbole | Facteur par lequel l’unité est multipliée | Préfixe | Symbole
 
-| stem:[1000000000000 = 10^12] | téra | T | stem:[0.1 = 10^{-1}] | déci | d
-| stem:[1000000000 = 10^9] | giga | G | stem:[0.01 = 10^{-2}] | centi | c
-| stem:[1000000 = 10^6] | méga | M | stem:[0.001 = 10^{-3}] | milli | m
-| stem:[1000 = 10^3] | kilo | k | stem:[0.000001 = 10^{-6}] | micro | stem:[mu]
-| stem:[100 = 10^2] | hecto | h | stem:[0.000000001 = 10^{-9}] | nano | n
-| stem:[10 = 10^1] | déca | da | stem:[0.000000000001 = 10^{-12}] | pico | p
+| stem:[1000000000000 = 10^12] | téra | T | stem:[0.1 = 10^(-1)] | déci | d
+| stem:[1000000000 = 10^9] | giga | G | stem:[0.01 = 10^(-2)] | centi | c
+| stem:[1000000 = 10^6] | méga | M | stem:[0.001 = 10^(-3)] | milli | m
+| stem:[1000 = 10^3] | kilo | k | stem:[0.000001 = 10^(-6)] | micro | stem:[mu]
+| stem:[100 = 10^2] | hecto | h | stem:[0.000000001 = 10^(-9)] | nano | n
+| stem:[10 = 10^1] | déca | da | stem:[0.000000000001 = 10^(-12)] | pico | p
 |===
 
 NOTE: D’autres préfixes furent
@@ -641,8 +641,8 @@ pourrait ajouter à l’avenir
 |===
 3+h| _Unités supplémentaires_
 
-| angle | radian | rad
-| angle solide | stéradian | sr
+| angle | radian | stem:["unitsml(rad)"]
+| angle solide | stéradian | stem:["unitsml(sr)"]
 |===
 
 NOTE: La 20^e^ CGPM a abrogé en
@@ -660,30 +660,30 @@ unités dérivées.
 | superficie | mètre carré | stem:["unitsml(m^2)"] |
 | volume mètre | cube | stem:["unitsml(m^3)"] |
 | fréquence | hertz | stem:["unitsml(Hz)"] | stem:[1//"unitsml(s)"]
-| masse volumique (densité) | kilogramme par mètre cube | stem:["unitsml(kg//m^3)"] |
-| vitesse | mètre par seconde | stem:["unitsml(m//s)"] |
-| vitesse angulaire | radian par seconde | stem:["unitsml(rad//s)"] |
-| accélération | mètre par seconde carrée | stem:["unitsml(m//s^2)"] |
-| accélération angulaire | radian par seconde carrée | stem:["unitsml(rad//s^2)"] |
-| force | newton | stem:["unitsml(N)"] | stem:["unitsml(kg)" * "unitsml(m//s^2)"]
-| pression (tension mécanique) | newton par mètre carré | stem:["unitsml(N//m^2)"] |
-| viscosité cinématique (((viscosité,cinématique (stokes)))) | mètre carré par seconde | stem:["unitsml(m^2//s)"] |
-| viscosité dynamique (((viscosité,dynamique (poise)))) | newton-seconde par mètre carré | stem:["unitsml(N)" * "unitsml(s//m^2)"] |
-| travail, énergie, quantité de chaleur | joule | stem:["unitsml(J)"] | stem:["unitsml(N)" * "unitsml(m)"]
-| puissance | watt | stem:["unitsml(W)"] | stem:["unitsml(J//s)"]
-| quantité d’électricité | coulomb | stem:["unitsml(C)"] | stem:["unitsml(A)" * "unitsml(s)"]
-| tension électrique, différence de potentiel, force électromotrice | volt(((volt (V)))) | stem:["unitsml(V)"] | stem:["unitsml(W//A)"]
-| intensité de champ électrique | volt(((volt (V)))) par mètre | stem:["unitsml(V//m)"] |
-| résistance électrique | ohm | stem:[Omega] | stem:["unitsml(V//A)"]
-| capacité électrique | farad | stem:["unitsml(F)"] | stem:["unitsml(A)" * "unitsml(s//V)"]
-| flux d’induction magnétique | weber | stem:["unitsml(Wb)"] | stem:["unitsml(V)" * "unitsml(s)"]
-| inductance | henry | stem:["unitsml(H)"] | stem:["unitsml(V)" * "unitsml(s//A)"]
-| induction magnétique | tesla | stem:["unitsml(T)"] | stem:["unitsml(Wb//m^2)"]
-| intensité de champ magnétique | ampère par mètre | stem:["unitsml(A//m)"] |
-| force magnétomotrice | ampère(((ampère (A)))) | stem:["unitsml(A)"] |
-| flux lumineux | lumen | stem:["unitsml(lm)"] | stem:["unitsml(cd)" * "unitsml(sr)"]
-| luminance | candela par mètre carré | stem:["unitsml(cd//m^2)"] |
-| éclairement | lux | stem:["unitsml(lx)"] | stem:["unitsml(lm//m^2)"]
+| masse volumique (densité) | kilogramme par mètre cube | stem:["unitsml(kg/m^3)"] |
+| vitesse | mètre par seconde | stem:["unitsml(m/s)"] |
+| vitesse angulaire | radian par seconde | stem:["unitsml(rad/s)"] |
+| accélération | mètre par seconde carrée | stem:["unitsml(m/s^2)"] |
+| accélération angulaire | radian par seconde carrée | stem:["unitsml(rad/s^2)"] |
+| force | newton | stem:["unitsml(N)"] | stem:["unitsml(kg)" * "unitsml(m/s^2)"]
+| pression (tension mécanique) | newton par mètre carré | stem:["unitsml(N/m^2)"] |
+| viscosité cinématique (((viscosité,cinématique (stokes)))) | mètre carré par seconde | stem:["unitsml(m^2/s)"] |
+| viscosité dynamique (((viscosité,dynamique (poise)))) | newton-seconde par mètre carré | stem:["unitsml(N*s//m^2)"] |
+| travail, énergie, quantité de chaleur | joule | stem:["unitsml(J)"] | stem:["unitsml(N*m)"]
+| puissance | watt | stem:["unitsml(W)"] | stem:["unitsml(J/s)"]
+| quantité d’électricité | coulomb | stem:["unitsml(C)"] | stem:["unitsml(A*s)"]
+| tension électrique, différence de potentiel, force électromotrice | volt(((volt (stem:["unitsml(V)"])))) | stem:["unitsml(V)"] | stem:["unitsml(W/A)"]
+| intensité de champ électrique | volt(((volt (stem:["unitsml(V)"])))) par mètre | stem:["unitsml(V/m)"] |
+| résistance électrique | ohm | stem:["unitsml(Ohm)"] | stem:["unitsml(V/A)"]
+| capacité électrique | farad | stem:["unitsml(F)"] | stem:["unitsml(A*s//V)"]
+| flux d’induction magnétique | weber | stem:["unitsml(Wb)"] | stem:["unitsml(V*s)"]
+| inductance | henry | stem:["unitsml(H)"] | stem:["unitsml(V*s/A)"]
+| induction magnétique | tesla | stem:["unitsml(T)"] | stem:["unitsml(Wb/m^2)"]
+| intensité de champ magnétique | ampère par mètre | stem:["unitsml(A/m)"] |
+| force magnétomotrice | ampère(((ampère (stem:["unitsml(A)"])))) | stem:["unitsml(A)"] |
+| flux lumineux | lumen | stem:["unitsml(lm)"] | stem:["unitsml(cd*sr)"]
+| luminance | candela par mètre carré | stem:["unitsml(cd/m^2)"] |
+| éclairement | lux | stem:["unitsml(lx)"] | stem:["unitsml(lm/m^2)"]
 |===
 
 NOTE: La 13^e^ CGPM en 1967 (Résolution 6, _voir_ p. 59)
@@ -788,10 +788,10 @@ de volume de haute précision.
 
 ==== Curie (CR, 94)
 
-NOTE: Le nom «&nbsp;becquerel&nbsp;»(((becquerel (Bq)))) (Bq) a été adopté par la
+NOTE: Le nom «&nbsp;becquerel&nbsp;»(((becquerel (stem:["unitsml(Bq)"])))) (Bq) a été adopté par la
 15^e^ CGPM en 1975 (Résolution 8, _voir_ p. 63)
 pour l’unité SI d’activité:
-1 stem:[ii(C)_i = 3.7 xx 10^10 " ""unitsml(Bq)"].
+1 stem:[ii(C)_i = 3.7 xx 10^10 "unitsml(Bq)"].
 
 [align=center]
 *Résolution 7*
@@ -802,10 +802,10 @@ La Douzième Conférence générale des poids et mesures,
 pour l’activité des radionucléides,
 
 *reconnaissant* que dans le Système international d’unités (SI), l’unité de cette activité est la
-seconde à la puissance moins un (stem:["unitsml(s^{-1})"]),
+seconde à la puissance moins un (stem:["unitsml(s^(-1))"]),
 
 *admet* que le curie soit encore retenu comme unité en dehors du SI pour l’activité, avec la
-valeur stem:[3.7 xx 10^10] stem:["unitsml(s^{-1})"]. Le symbole de cette unité est stem:[ii(C)_i].
+valeur stem:[3.7 xx 10^10] stem:["unitsml(s^(-1))"]. Le symbole de cette unité est stem:[ii(C)_i].
 
 
 ==== Préfixes SI femto et atto (CR, 94)
@@ -827,8 +827,8 @@ paragraphe 3, les deux nouveaux préfixes suivants:
 |===
 | Facteur par lequel l’unité est multipliée | Préfixe | Symbole
 
-| stem:[10^{-15}] | femto | f
-| stem:[10^{-18}] | atto | a
+| stem:[10^(-15)] | femto | f
+| stem:[10^(-18)] | atto | a
 |===
 
 
@@ -888,7 +888,7 @@ césium 133&nbsp;».
 
 NOTE: Lors de sa session de 1997, le Comité international a
 confirmé que cette définition se réfère à un
-atome de césium au repos, à une température de 0 K.
+atome de césium au repos, à une température de stem:[0 "unitsml(K)"].
 --
 . La Résolution 1 adoptée par le Comité international des poids et mesures à sa session de
 1956 et la Résolution 9 de la Onzième Conférence générale des poids et mesures sont
@@ -905,7 +905,7 @@ NOTE: La formulation de la définition de la seconde a
 
 NOTE: À sa session de 1980, le Comité international a
 approuvé le rapport de la 7^e^ session du CCU
-demandant que l’emploi des symboles «&nbsp;°K&nbsp;» et
+demandant que l’emploi des symboles «&nbsp;stem:["unitsml(degK)"]&nbsp;» et
 «&nbsp;deg&nbsp;» ne soit plus admis.
 
 [align=center]
@@ -915,7 +915,7 @@ La Treizième Conférence générale des poids et mesures,
 
 *considérant*
 
-* les noms «&nbsp;degré Kelvin&nbsp;» et «&nbsp;degré&nbsp;», les symboles «&nbsp;°K&nbsp;» et «&nbsp;deg&nbsp;» et leurs règles d’emploi
+* les noms «&nbsp;degré Kelvin&nbsp;» et «&nbsp;degré&nbsp;», les symboles «&nbsp;stem:["unitsml(degK)"]&nbsp;» et «&nbsp;deg&nbsp;» et leurs règles d’emploi
 contenus dans la Résolution 7 de la Neuvième Conférence générale (1948), dans la Résolution
 12 de la Onzième Conférence générale (1960) et la décision prise par le Comité international
 des poids et mesures en 1962 (PV, *30*, 27),
@@ -926,7 +926,7 @@ même unité qui devrait être désignée par un nom unique et par un symbole un
 *décide*
 
 . l’unité de température thermodynamique est désignée sous le nom «&nbsp;kelvin&nbsp;» et son symbole
-est «&nbsp;K&nbsp;»;
+est «&nbsp;stem:["unitsml(K)"]&nbsp;»;
 +
 --
 NOTE: Voir la Recommandation 2
@@ -970,7 +970,7 @@ générale (1954),
 thermodynamique du point triple de l’eau.&nbsp;»
 
 
-==== Unité SI d’intensité lumineuse (candela(((candela (cd))))) (CR, 104 et _Metrologia_, 1968, 4, 43-44)
+==== Unité SI d’intensité lumineuse (candela(((candela (stem:["unitsml(cd)"]))))) (CR, 104 et _Metrologia_, 1968, 4, 43-44)
 
 NOTE: Définition abrogée en 1979 par la 16^e^ CGPM
 (Résolution 3, _voir_ p. 63).
@@ -989,9 +989,9 @@ photométriques&nbsp;» adoptée par le Comité international des poids et mesur
 * que cette définition fixe bien la grandeur de l’unité d’intensité lumineuse mais prête à des
 critiques d’ordre rédactionnel,
 
-*décide* d’exprimer la définition de la candela(((candela (cd)))) de la façon suivante:
+*décide* d’exprimer la définition de la candela(((candela (stem:["unitsml(cd)"])))) de la façon suivante:
 
-«&nbsp;La candela(((candela (cd)))) est l’intensité lumineuse, dans la direction perpendiculaire, d’une surface de
+«&nbsp;La candela(((candela (stem:["unitsml(cd)"])))) est l’intensité lumineuse, dans la direction perpendiculaire, d’une surface de
 stem:[1//600000] mètre carré d’un corps noir à la température de congélation du platine sous la
 pression de stem:[101325] newtons par mètre carré.&nbsp;»
 
@@ -1014,12 +1014,12 @@ Résolution 12 de la Onzième Conférence générale (1960),
 
 [cols="3",options="unnumbered"]
 |===
-| nombre d’ondes | 1 par mètre | stem:["unitsml(m^{-1})"]
-| entropie | joule par kelvin | stem:["unitsml(J//K)"]
-| chaleur massique | joule par kilogramme kelvin | stem:["unitsml(J)"//("unitsml(kg)" * "unitsml(K)")]
-| conductivité thermique | watt par mètre kelvin | stem:["unitsml(W)"//("unitsml(m)" * "unitsml(K)")]
-| intensité énergétique | watt par stéradian | stem:["unitsml(W//sr)"]
-| activité (d’une source radioactive) | 1 par seconde | stem:["unitsml(s^{-1})"]
+| nombre d’ondes | 1 par mètre | stem:["unitsml(m^(-1))"]
+| entropie | joule par kelvin | stem:["unitsml(J/K)"]
+| chaleur massique | joule par kilogramme kelvin | stem:["unitsml(J)"//("unitsml(kg*K)")]
+| conductivité thermique | watt par mètre kelvin | stem:["unitsml(W)"//("unitsml(m*K)")]
+| intensité énergétique | watt par stéradian | stem:["unitsml(W/sr)"]
+| activité (d’une source radioactive) | 1 par seconde | stem:["unitsml(s^(-1))"]
 |===
 
 
@@ -1111,7 +1111,7 @@ cette définition dans sa Résolution A4 de 1991:
 
 «&nbsp;Le TAI est une échelle de temps réalisée dont la
 forme idéale, si l’on néglige un décalage
-constant de stem:[32.184 " ""unitsml(s)"], est le Temps terrestre (TT),
+constant de stem:[32.184 "unitsml(s)"], est le Temps terrestre (TT),
 lui-même relié à la coordonnée temps du
 référentiel géocentrique, le Temps-coordonnée
 géocentrique (TCG), par une marche
@@ -1127,8 +1127,8 @@ vol. XXIB, Kluwer.)
 
 ==== Pascal et siemens (CR, 78)
 
-La 14^e^ Conférence générale a adopté les noms spéciaux «&nbsp;pascal&nbsp;» (symbole Pa) pour l’unité SI
-newton par mètre carré et «&nbsp;siemens&nbsp;» (symbole S) pour l’unité SI de conductance électrique
+La 14^e^ Conférence générale a adopté les noms spéciaux «&nbsp;pascal&nbsp;» (symbole stem:["unitsml(Pa)"]) pour l’unité SI
+newton par mètre carré et «&nbsp;siemens&nbsp;» (symbole stem:["unitsml(S)"]) pour l’unité SI de conductance électrique
 (ohm à la puissance moins un).
 
 
@@ -1196,7 +1196,7 @@ concernant le besoin de définir une unité de quantité de matière,
 *décide*
 
 . La mole est la quantité de matière d’un système contenant autant d’entités élémentaires qu’il
-y a d’atomes dans stem:[0.012] kilogramme de carbone 12; son symbole est «&nbsp;mol&nbsp;».
+y a d’atomes dans stem:[0.012] kilogramme de carbone 12; son symbole est «&nbsp;stem:["unitsml(mol)"]&nbsp;».
 +
 --
 NOTE: La mole a été redéfinie
@@ -1221,7 +1221,7 @@ La Quinzième Conférence générale des poids et mesures,
 
 *considérant* l’excellent accord entre les résultats des mesures de longueur d’onde portant sur
 des radiations de lasers asservis sur une raie d’absorption moléculaire dans la région visible ou
-infrarouge, avec une incertitude estimée à stem:[+- 4 xx 10^{-9}] qui correspond à l’indétermination de la
+infrarouge, avec une incertitude estimée à stem:[+- 4 xx 10^(-9)] qui correspond à l’indétermination de la
 réalisation du mètre,
 
 *considérant* aussi les mesures concordantes de la fréquence de plusieurs de ces radiations,
@@ -1253,7 +1253,7 @@ dans la plupart des pays,
 *estime* que cet emploi est parfaitement recommandable.
 
 
-==== Unités SI pour les rayonnements ionisants (becquerel(((becquerel (Bq)))) et gray) (CR, 105 et _Metrologia_, 1975, 11, 180)
+==== Unités SI pour les rayonnements ionisants (becquerel(((becquerel (stem:["unitsml(Bq)"])))) et gray) (CR, 105 et _Metrologia_, 1975, 11, 180)
 
 NOTE: À sa session de 1976, le Comité international a
 approuvé le rapport de la 5^e^ session du CCU (1976)
@@ -1275,11 +1275,11 @@ tenant compte aussi de la gravité des risques d’erreurs dans la thérapeutiqu
 
 *adopte* le nom spécial suivant d’unité SI pour l’activité:
 
-le *becquerel*(((becquerel (Bq)))), symbole Bq, égal à la seconde à la puissance moins un (Résolution 8),
+le *becquerel*(((becquerel (stem:["unitsml(Bq)"])))), symbole stem:["unitsml(Bq)"], égal à la seconde à la puissance moins un (Résolution 8),
 
 *adopte* le nom spécial suivant d’unité SI pour les rayonnements ionisants:
 
-le *gray*, symbole Gy, égal au joule par kilogramme (Résolution 9).
+le *gray*, symbole stem:["unitsml(Gy)"], égal au joule par kilogramme (Résolution 9).
 
 NOTE: Le gray est l’unité SI de dose absorbée. Dans le domaine des rayonnements ionisants, le
 gray peut encore être employé avec d’autres grandeurs physiques qui s’expriment aussi en
@@ -1313,9 +1313,9 @@ courant de mettre un accent à péta.
 
 === 16^e^ CGPM, 1979
 
-==== Unité SI d’intensité lumineuse (candela(((candela (cd))))) (CR, 100 et _Metrologia_, 1980, 16, 56)
+==== Unité SI d’intensité lumineuse (candela(((candela (stem:["unitsml(cd)"]))))) (CR, 100 et _Metrologia_, 1980, 16, 56)
 
-NOTE: La formulation de la définition de la candela(((candela (cd)))) a
+NOTE: La formulation de la définition de la candela(((candela (stem:["unitsml(cd)"])))) a
 été modifiée par la CGPM à sa 26^e^ réunion en 2018
 (Résolution 1, _voir_ p.92).
 
@@ -1327,11 +1327,11 @@ La Seizième Conférence générale des poids et mesures,
 *considérant*
 
 * que, malgré les efforts méritoires de quelques laboratoires, il subsiste des divergences
-excessives entre les résultats de la réalisation de la candela(((candela (cd)))) à l’aide du corps noir étalon
+excessives entre les résultats de la réalisation de la candela(((candela (stem:["unitsml(cd)"])))) à l’aide du corps noir étalon
 primaire actuel,
 * que les techniques radiométriques se développent rapidement, autorisant des précisions qui
 sont déjà analogues à celles de la photométrie et que ces techniques sont déjà en usage dans
-des laboratoires nationaux pour réaliser la candela(((candela (cd)))) sans avoir à construire un corps noir,
+des laboratoires nationaux pour réaliser la candela(((candela (stem:["unitsml(cd)"])))) sans avoir à construire un corps noir,
 * que la relation entre les grandeurs lumineuses de la photométrie et les grandeurs énergétiques,
 à savoir la valeur 683 lumens par watt pour l’efficacité lumineuse spectrale de la radiation
 monochromatique de fréquence stem:[540 xx 10^12] hertz, a été adoptée par le Comité international des
@@ -1340,14 +1340,14 @@ poids et mesures en 1977,
 --
 NOTE: La vision photopique est détectée sur la rétine de
 l’oeil par les cônes, sensibles aux luminances
-élevées (stem:["unitsml(L)" >] environ stem:[10] stem:["unitsml(cd m^{-2})"]), qui
+élevées (stem:["unitsml(L)" >] environ stem:[10] stem:["unitsml(cd*m^(-2))"]), qui
 correspondent à la vision diurne.
 --
 * que cette valeur a été reconnue suffisamment exacte pour le système des grandeurs
 lumineuses photopiques, qu’elle n’entraîne qu’un changement d’environ 3 % pour le système
 des grandeurs lumineuses scotopiques et que par conséquent elle assure une continuité
 satisfaisante,
-* que le moment est venu de donner à la candela(((candela (cd)))) une définition susceptible d’améliorer la facilité
+* que le moment est venu de donner à la candela(((candela (stem:["unitsml(cd)"])))) une définition susceptible d’améliorer la facilité
 d’établissement des étalons photométriques et leur précision, et qui s’applique aux grandeurs
 photopiques et scotopiques de la photométrie et aux grandeurs à définir dans le domaine
 mésopique,
@@ -1355,17 +1355,17 @@ mésopique,
 --
 NOTE: La vision scotopique est détectée sur la rétine de
 l’oeil par les bâtonnets, sensibles aux faibles
-luminances (L < environ 10^−3^ cd m^−2^), qui correspondent à la
+luminances (L < environ stem:[10^(−3) "unitsml(cd*m^(−2))"]), qui correspondent à la
 vision nocturne.
 --
 
 *décide*
 
-. La candela(((candela (cd)))) est l’intensité lumineuse, dans une direction donnée, d’une source qui émet un
+. La candela(((candela (stem:["unitsml(cd)"])))) est l’intensité lumineuse, dans une direction donnée, d’une source qui émet un
 rayonnement monochromatique de fréquence stem:[540 xx 10^12] stem:["hertz"] et dont l’intensité énergétique
 dans cette direction est 1/683 watt par stéradian.
 
-. La définition de la candela(((candela (cd)))) (à l’époque appelée bougie nouvelle) décidée par le Comité
+. La définition de la candela(((candela (stem:["unitsml(cd)"])))) (à l’époque appelée bougie nouvelle) décidée par le Comité
 international des poids et mesures en 1946 en vertu des pouvoirs conférés par la
 8^e^ Conférence générale des poids et mesures (CGPM) en 1933, ratifiée par la 9^e^ CGPM en
 1948, puis amendée par la 13^e^ CGPM en 1967, est abrogée.
@@ -1396,7 +1396,7 @@ risques qui pourraient résulter de la confusion entre dose absorbée et équiva
 d’unités et doit être évitée dans toute la mesure du possible, mais que cette règle peut être
 transgressée lorsqu’il s’agit de sauvegarder la santé humaine,
 
-*adopte* le nom spécial *sievert*, symbole Sv, pour l’unité SI d’équivalent de dose dans le
+*adopte* le nom spécial *sievert*, symbole stem:["unitsml(Sv)"], pour l’unité SI d’équivalent de dose dans le
 domaine de la radioprotection. Le sievert est égal au joule par kilogramme.
 
 
@@ -1410,16 +1410,16 @@ La Seizième Conférence générale des poids et mesures,
 *reconnaissant* les principes généraux adoptés pour l’écriture des symboles des unités dans la
 Résolution 7 de la 9^e^ Conférence générale des poids et mesures (1948),
 
-*considérant* que le symbole l pour l’unité litre a été adopté par le Comité international des poids
+*considérant* que le symbole stem:["unitsml(l)"] pour l’unité litre a été adopté par le Comité international des poids
 et mesures en 1879 et confirmé dans cette même Résolution de 1948,
 
 *considérant* aussi que, afin d’éviter un risque de confusion entre la lettre l et le chiffre 1,
-plusieurs pays ont adopté le symbole L au lieu de l pour l’unité litre,
+plusieurs pays ont adopté le symbole stem:["unitsml(L)"] au lieu de l pour l’unité litre,
 
 *considérant* que le nom litre, bien qu’il ne soit pas inclus dans le Système international d’unités,
 doit être admis pour l’usage général avec ce Système,
 
-*décide*, à titre exceptionnel, d’adopter les deux symboles l et L comme symboles utilisables
+*décide*, à titre exceptionnel, d’adopter les deux symboles stem:["unitsml(l)"] et stem:["unitsml(L)"] comme symboles utilisables
 pour l’unité litre,
 
 NOTE: Le Comité international a estimé encore prématuré,
@@ -1504,11 +1504,11 @@ valeur donnée de la vitesse de la lumière ont une précision supérieure à ce
 obtenue par comparaison avec la longueur d’onde de la radiation étalon du krypton 86,
 * qu’il y a avantage, notamment pour l’astronomie et la géodésie, à maintenir inchangée la valeur
 de la vitesse de la lumière recommandée en 1975 par la 15^e^ Conférence générale des poids et
-mesures, dans sa Résolution 2 (stem:[c = 299792458 " ""unitsml(m//s)"]),
+mesures, dans sa Résolution 2 (stem:[c = 299792458 "unitsml(m/s)"]),
 * qu’une nouvelle définition du mètre a été envisagée sous diverses formes qui ont toutes pour
 effet de donner à la vitesse de la lumière une valeur exacte, égale à la valeur recommandée, et
 que cela n’introduit aucune discontinuité appréciable de l’unité de longueur, compte tenu de
-l’incertitude relative de stem:[+- 4 xx 10^{-9}] des meilleures réalisations du mètre dans sa définition
+l’incertitude relative de stem:[+- 4 xx 10^(-9)] des meilleures réalisations du mètre dans sa définition
 actuelle.
 +
 --
@@ -1579,7 +1579,7 @@ Protection:
 
 [stem%unnumbered]
 ++++
-H = Q cdot N cdot D
+ii(H) = ii(Q) * ii(N) * ii(D)
 ++++
 
 Ainsi, pour une radiation donnée, la valeur numérique de stem:[ii(H)] en joules par kilogramme peut être
@@ -1626,7 +1626,7 @@ pratique simultanément dans tous les pays; cette valeur devrait être annoncée
 à l’avance et pourrait être adoptée au 1^er^ janvier 1990.
 
 
-=== CIPM, 1988 (((volt (V))))
+=== CIPM, 1988 (((volt (stem:["unitsml(V)"]))))
 
 ==== Représentation du volt au moyen de l’effet Josephson (PV, 56, 19 et _Metrologia_, 1989, 26, 69)
 
@@ -1636,7 +1636,7 @@ conventionnelle de stem:[ii(K)_J].
 
 [align=center]
 *Recommandation 1*
-(((volt (V))))
+(((volt (stem:["unitsml(V)"]))))
 
 Le Comité international des poids et mesures
 
@@ -1647,16 +1647,16 @@ l’ohm,
 *considérant*
 
 * qu’une étude approfondie des résultats des déterminations les plus récentes conduit à une
-valeur de stem:[483597.9 " ""unitsml(GHz//V)"] pour la constante de Josephson(((constante, de Josephson (stem:[ii(K)_"J"," "ii(K)_"J-90"])))), stem:[ii(K)_J], c’est-à-dire pour le quotient de
+valeur de stem:[483597.9 "unitsml(GHz/V)"] pour la constante de Josephson(((constante, de Josephson (stem:[ii(K)_"J"," "ii(K)_"J-90"])))), stem:[ii(K)_J], c’est-à-dire pour le quotient de
 la fréquence par la tension correspondant au palier de rang stem:[n = 1] dans l’effet Josephson,
 * que l’effet Josephson, avec cette valeur de stem:[ii(K)_J], peut être utilisé pour établir un étalon de
 référence de force électromotrice dont l’incertitude (écart-type), par rapport au volt, est estimée
-à stem:[4 xx 10^{-7}] en valeur relative et dont la reproductibilité est nettement meilleure,
+à stem:[4 xx 10^(-7)] en valeur relative et dont la reproductibilité est nettement meilleure,
 
 *recommande*
 
 * que l’on adopte, par convention, pour la constante de Josephson(((constante, de Josephson (stem:[ii(K)_"J"," "ii(K)_"J-90"])))), stem:[ii(K)_J], la valeur
-stem:[ii(K)_{J-90} = 483597.9] stem:["unitsml(GHz//V)"] exactement,
+stem:[ii(K)_{J-90} = 483597.9] stem:["unitsml(GHz/V)"] exactement,
 * que cette nouvelle valeur soit utilisée à partir du 1^er^ janvier 1990, et non auparavant,
 pour remplacer les valeurs actuellement en usage,
 * que cette nouvelle valeur soit utilisée à partir de cette même date par tous les laboratoires qui
@@ -1667,8 +1667,8 @@ référence pour la mettre en accord avec cette nouvelle valeur,
 *estime* qu’aucun changement de cette valeur recommandée de la constante de Josephson(((constante, de Josephson (stem:[ii(K)_"J"," "ii(K)_"J-90"])))) ne
 sera nécessaire dans un avenir prévisible,
 
-*attire* l’attention des laboratoires sur le fait que la nouvelle valeur est supérieure de stem:[3.9 " ""unitsml(GHz//V)"],
-soit approximativement stem:[8 xx 10^{-6}] en valeur relative, à la valeur donnée en 1972 par le Comité
+*attire* l’attention des laboratoires sur le fait que la nouvelle valeur est supérieure de stem:[3.9 "unitsml(GHz/V)"],
+soit approximativement stem:[8 xx 10^(-6)] en valeur relative, à la valeur donnée en 1972 par le Comité
 consultatif d’électricité dans sa Déclaration E-72.
 
 
@@ -1680,7 +1680,7 @@ concernant la valeur de la constante de von Klitzing(((constante, de von Klitzin
 
 [align=center]
 *Recommandation 2*
-(((volt (V))))
+(((volt (stem:["unitsml(V)"]))))
 
 Le Comité international des poids et mesures,
 
@@ -1695,17 +1695,17 @@ temps des variations significatives,
 * qu’un étalon de référence de résistance électrique fondé sur l’effet Hall quantique serait stable
 et reproductible,
 * qu’une étude approfondie des résultats des déterminations les plus récentes conduit à une
-valeur de stem:[25812.807" ""unitsml(Omega)"] pour la constante de von Klitzing(((constante, de von Klitzing (stem:[ii(R)_"K"], stem:[ii(R)_"K-90"])))), stem:[ii(R)_K], c’est-à-dire pour le quotient de la
+valeur de stem:[25812.807"unitsml(Ohm)"] pour la constante de von Klitzing(((constante, de von Klitzing (stem:[ii(R)_"K"], stem:[ii(R)_"K-90"])))), stem:[ii(R)_K], c’est-à-dire pour le quotient de la
 tension de Hall par le courant correspondant au plateau de rang stem:[i = 1] dans l’effet Hall
 quantique,
 * que l’effet Hall quantique, avec cette valeur de stem:[ii(R)_K], peut être utilisé pour établir un étalon de
-référence de résistance dont l’incertitude (écart-type), par rapport à l’ohm, est estimée stem:[2 xx 10^{-7}]
+référence de résistance dont l’incertitude (écart-type), par rapport à l’ohm, est estimée stem:[2 xx 10^(-7)]
 en valeur relative et dont la reproductibilité est nettement meilleure,
 
 *recommande*
 
 * que l’on adopte par convention, pour la constante de von Klitzing(((constante, de von Klitzing (stem:[ii(R)_"K"], stem:[ii(R)_"K-90"])))), stem:[ii(R)_"K"], la valeur
-stem:[ii(R)_{K-90} = 25812.807 Omega] exactement,
+stem:[ii(R)_{K-90} = 25812.807 "unitsml(Ohm)"] exactement,
 * que cette valeur soit utilisée à partir du 1^er^ janvier 1990, et non auparavant, par tous les
 laboratoires qui fondent sur l’effet Hall quantique leurs mesures de résistance électrique,
 * qu’à partir de cette même date tous les autres laboratoires ajustent la valeur de leurs étalons de
@@ -1738,7 +1738,7 @@ internationale pratique de température de 1968 (EIPT-68).
 
 Le CIPM *souligne* que, par rapport à l’EIPT-68, l’EIT-90
 
-* s’étend vers des températures plus basses, jusqu’à stem:[0.65 " ""unitsml(K)"], et remplace, de ce fait, aussi
+* s’étend vers des températures plus basses, jusqu’à stem:[0.65 "unitsml(K)"], et remplace, de ce fait, aussi
 l’Échelle provisoire de température de 1976 (EPT-76),
 * est en bien meilleur accord avec les températures thermodynamiques correspondantes,
 * a une continuité, une précision et une reproductibilité nettement améliorées sur toute son
@@ -1785,7 +1785,7 @@ la 12^e^ CGPM, Résolution 8 et la 15^e^ CGPM, Résolution 10, les préfixes sui
 | Facteur par lequel l’unité est multipliée | Préfixe | Symbole
 
 | stem:[10^21] | zetta | Z
-| stem:[10^{-21}] | zepto | z
+| stem:[10^(-21)] | zepto | z
 | stem:[10^24] | yotta | Y
 | stem:[10^{-24}] | yocto | y
 |===
@@ -1840,7 +1840,7 @@ La 21^e^ Conférence générale des poids et mesures,
 * l'incertitude intrinsèque relative à la stabilité à long terme du prototype qui sert à définir l'unité
 de masse, l'une des unités de base du SI,
 * que cette incertitude se répercute sur la stabilité à long terme des trois autres unités de base du
-SI, nommément l'ampère(((ampère (A)))), la mole et la candela(((candela (cd)))), dont la définition dépend de celle du
+SI, nommément l'ampère(((ampère (stem:["unitsml(A)"])))), la mole et la candela(((candela (stem:["unitsml(cd)"])))), dont la définition dépend de celle du
 kilogramme,
 * les progrès déjà obtenus dans différentes expériences destinées à relier l'unité de masse à des
 constantes fondamentales ou atomiques,
@@ -1863,7 +1863,7 @@ La 21^e^ Conférence générale des poids et mesures,
 * l'importance pour la santé humaine et la sécurité de faciliter l'emploi des unités du Système
 international d’unités (SI) dans les domaines de la médecine et de la biochimie,
 * qu'une unité en dehors du SI appelée «&nbsp;unité&nbsp;» représentée par le symbole U, qui est égale à
-stem:[1] stem:[mu "unitsml(mol)" * "unitsml(min^{-1})"], et qui n'est pas cohérente avec le SI, a été largement répandue en médecine et
+stem:[1] stem:["unitsml(umol*min^(-1))"], et qui n'est pas cohérente avec le SI, a été largement répandue en médecine et
 en biochimie depuis 1964 pour exprimer l'activité catalytique,
 * que l'absence d'un nom spécial pour désigner l'unité dérivée et cohérente du SI qu'est la mole
 par seconde a conduit à ce que des résultats de mesures cliniques soient donnés en
@@ -1871,17 +1871,17 @@ différentes unités locales,
 * que l'emploi des unités SI en médecine et en chimie clinique est vivement recommandé par les
 unions internationales de ces domaines,
 * que la Fédération internationale de chimie clinique et médecine de laboratoire a demandé au
-Comité consultatif des unités de recommander le nom spécial katal, symbole kat, pour l'unité SI
+Comité consultatif des unités de recommander le nom spécial katal, symbole stem:["unitsml(kat)"], pour l'unité SI
 mole par seconde,
 * que tandis que la prolifération de noms spéciaux représente un danger pour le SI,
 il existe des exceptions pour certains sujets liés à la santé humaine et à la sécurité
 (15^e^ Conférence générale, 1975, Résolutions 8 et 9, 16^e^ Conférence générale, 1979,
 Résolution 5),
 
-*notant* que le nom katal, symbole kat, est utilisé pour l'unité SI mole par seconde depuis plus de
+*notant* que le nom katal, symbole stem:["unitsml(kat)"], est utilisé pour l'unité SI mole par seconde depuis plus de
 trente ans, pour exprimer l'activité catalytique,
 
-*décide* d'adopter le nom spécial katal, symbole kat, pour l'unité SI mole par seconde pour
+*décide* d'adopter le nom spécial katal, symbole stem:["unitsml(kat)"], pour l'unité SI mole par seconde pour
 exprimer l'activité catalytique, particulièrement dans les domaines de la médecine et de la
 biochimie,
 
@@ -1935,11 +1935,11 @@ pratique de la définition du mètre) avec pour effet
 . au moyen de la longueur stem:[l] du trajet parcouru dans le vide par une onde électromagnétique
 plane pendant la durée t; cette longueur est obtenue à partir de la mesure de la durée stem:[t], en
 utilisant la relation stem:[l = c_0 * t] et la valeur de la ((vitesse de la lumière dans le vide))
-stem:[c_0 = 299792458" ""unitsml(m//s)"],
+stem:[c_0 = 299792458"unitsml(m/s)"],
 . au moyen de la longueur d’onde dans le vide stem:[lambda] d’une onde électromagnétique plane de
 fréquence f; cette longueur d’onde est obtenue à partir de la mesure de la fréquence f, en
 utilisant la relation stem:[lambda = c_0 // f] et la valeur de la ((vitesse de la lumière dans le vide))
-stem:[c_0 = 299792458" ""unitsml(m//s)"],
+stem:[c_0 = 299792458"unitsml(m/s)"],
 . au moyen de l’une des radiations de la liste ci-dessous, radiations pour lesquelles on peut
 utiliser la valeur donnée de la longueur d’onde dans le vide ou de la fréquence, avec
 l’incertitude indiquée, pourvu que l’on observe les conditions spécifiées et le mode opératoire
@@ -1951,7 +1951,7 @@ des conditions réelles telles que diffraction, gravitation ou imperfection du v
 ** que dans le contexte de la relativité générale, le mètre est considéré comme une unité de
 longueur propre. Sa définition s’applique donc seulement dans un domaine spatial
 suffisamment petit, pour lequel les effets de la non-uniformité du champ gravitationnel
-peuvent être ignorés (notons, qu’à la surface de la Terre, cet effet est d’environ stem:[1 xx 10^{-16}]
+peuvent être ignorés (notons, qu’à la surface de la Terre, cet effet est d’environ stem:[1 xx 10^(-16)]
 par mètre d’altitude en valeur relative). Dans ce cas, les seuls effets à prendre en compte
 sont ceux de la relativité restreinte. Les méthodes locales, préconisées en b) et c) pour
 réaliser le mètre, fournissent le mètre propre, mais la méthode préconisée en a) ne le
@@ -2023,7 +2023,7 @@ de stem:["Hg"^+], de l’ion piégé d’In^+^, et de l’ion piégé d’Yb^+^,
 ** des valeurs mises à jour de la fréquence de lasers asservis sur le rubidium, de lasers à
 grenat d’yttrium-aluminium dopé au néodyme (Nd:YAG) et de lasers à hélium-néon
 (He-Ne) asservis sur l’iode, de lasers à hélium-néon asservis sur le méthane, et de lasers
-à dioxyde de carbone asservis sur le tétroxyde d’osmium à stem:[10] stem:[mu "unitsml(m)"],
+à dioxyde de carbone asservis sur le tétroxyde d’osmium à stem:[10] stem:["unitsml(um)"],
 ** des valeurs de la fréquence d’étalons pour les télécommunications optiques, y compris
 les lasers asservis sur le rubidium et l’acétylène.
 
@@ -2102,8 +2102,8 @@ une réduction considérable de l’incertitude;
 
 * les valeurs mises à jour des fréquences de la transition quadripolaire de l’ion piégé de ^88^Sr^\+^ et
 de la transition octupolaire de l’ion piégé de ^171^Yb^+^;
-* la valeur mise à jour de la fréquence de l’étalon asservi sur l’acétylène à stem:[1.54] stem:[mu "unitsml(m)"];
-* des valeurs mises à jour de la fréquence d’étalons asservis sur l’iode à 543 nm et à 515 nm.
+* la valeur mise à jour de la fréquence de l’étalon asservi sur l’acétylène à stem:[1.54 "unitsml(um)"];
+* des valeurs mises à jour de la fréquence d’étalons asservis sur l’iode à stem:[543 "unitsml(nm)"] et à stem:[515 "unitsml(nm)"].
 
 
 === 22^e^ CGPM, 2003
@@ -2224,12 +2224,12 @@ télécommunications optiques, à l’aide de peignes à impulsions femtoseconde
 * les valeurs mises à jour des fréquences des transitions quadripolaires de l’ion piégé de ^88^Sr^\+^,
 de l’ion piégé de ^199^Hg^+^ et de l’ion piégé de ^171^Yb^+^;
 * la valeur mise à jour de la fréquence de la transition de l’atome de calcium;
-* la valeur mise à jour de la fréquence de l’étalon asservi sur l’acétylène à stem:[1.54" "mu "unitsml(m)"];
-* la valeur mise à jour de la fréquence de l’étalon asservi sur l’iode à stem:[515" ""unitsml(nm)"];
-* la fréquence de la transition de l’atome de ^87^Sr à stem:[698" ""unitsml(nm)"];
-* les fréquences des transitions de l’atome de ^87^Rb autour de stem:[760" ""unitsml(nm)"];
+* la valeur mise à jour de la fréquence de l’étalon asservi sur l’acétylène à stem:[1.54"unitsml(um)"];
+* la valeur mise à jour de la fréquence de l’étalon asservi sur l’iode à stem:[515"unitsml(nm)"];
+* la fréquence de la transition de l’atome de ^87^Sr à stem:[698"unitsml(nm)"];
+* les fréquences des transitions de l’atome de ^87^Rb autour de stem:[760"unitsml(nm)"];
 * les fréquences des transitions de la bande (stem:[ii(nu)_1 + ii(nu)_3]) de ^12^C~2~H~2~, et des bandes (stem:[ii(nu)_1 + ii(nu)_3]) et
-(stem:[ii(nu)_1 + ii(nu)_3 + ii(nu)_4 + ii(nu)_5]) de ^13^C~2~H~2~, autour de stem:[1.54] stem:[mu "unitsml(m)"].
+(stem:[ii(nu)_1 + ii(nu)_3 + ii(nu)_4 + ii(nu)_5]) de ^13^C~2~H~2~, autour de stem:[1.54 "unitsml(um)"].
 
 
 === CIPM, 2006
@@ -2264,20 +2264,20 @@ recommandées des fréquences étalons destinées à la mise en pratique de la d
 et aux représentations secondaires de la seconde&nbsp;»
 
 * la transition quantique hyperfine non perturbée de l’état fondamental de l’atome de ^87^Rb, à la
-fréquence de f^87^~Rb~ stem:[= 6834682610.904324 " ""unitsml(Hz)"], avec une incertitude-type relative estimée de
-stem:[3 xx 10^{-15}],
+fréquence de f^87^~Rb~ stem:[= 6834682610.904324 "unitsml(Hz)"], avec une incertitude-type relative estimée de
+stem:[3 xx 10^(-15)],
 * la transition optique non perturbée 5s ^2^S~1/2~ – 4d ^2^D~5/2~ de l’ion de ^88^Sr^\+^, à la fréquence de
-f^88^Sr^+^ stem:[= 444779044095484 " ""unitsml(Hz)"], avec une incertitude-type relative estimée de stem:[7 xx 10^{-15}],
+f^88^Sr^+^ stem:[= 444779044095484 "unitsml(Hz)"], avec une incertitude-type relative estimée de stem:[7 xx 10^(-15)],
 * la transition optique non perturbée
 5d^10^ 6s ^2^S~1/2~ (stem:[F = 0]) – 5d^9^ 6s^2^ ^2^D~5/2~ (stem:[F = 2]) de l’ion de
-^199^Hg^\+^, à la fréquence de f^199^Hg^+^ stem:[= 1064721609899145 " ""unitsml(Hz)"], avec une incertitude-type
-relative estimée de stem:[3 xx 10^{-15}],
+^199^Hg^\+^, à la fréquence de f^199^Hg^+^ stem:[= 1064721609899145 "unitsml(Hz)"], avec une incertitude-type
+relative estimée de stem:[3 xx 10^(-15)],
 * la transition optique non perturbée 6s ^2^S~1/2~ (F = 0) – 5d ^2^D~3/2~ (F = 2) de l’ion de ^171^Yb^\+^, à la
-fréquence de f^171^Yb^+^ stem:[= 688358979309308 " ""unitsml(Hz)"], avec une incertitude-type relative estimée
-de stem:[9 xx 10^{-15}],
+fréquence de f^171^Yb^+^ stem:[= 688358979309308 "unitsml(Hz)"], avec une incertitude-type relative estimée
+de stem:[9 xx 10^(-15)],
 * la transition optique non perturbée 5s^2^ ^1^S0 – 5s 5p ^3^P0 de l’atome neutre de ^87^Sr, à la
-fréquence de f^87^~Sr~ stem:[= 429228004229877 " ""unitsml(Hz)"], avec une incertitude-type relative estimée de
-stem:[1.5 xx 10^{-14}]
+fréquence de f^87^~Sr~ stem:[= 429228004229877 "unitsml(Hz)"], avec une incertitude-type relative estimée de
+stem:[1.5 xx 10^(-14)]
 
 
 
@@ -2299,16 +2299,16 @@ télécommunications optiques, valeurs déjà publiées dans la liste des fréqu
 télécommunications optiques, à l’aide de peignes à impulsions femtosecondes;
 * l’on a déterminé, pour la première fois, les fréquences de certaines transitions dans l’iode,
 en cellule, transitions proches de la radiation émise par l’étalon de fréquence optique à
-532 nm, à l’aide de peignes à impulsions femtosecondes;
+stem:[532 "unitsml(nm)"], à l’aide de peignes à impulsions femtosecondes;
 
 *propose* que la liste des fréquences étalons soit révisée pour y inclure:
 
-* les valeurs mises à jour des fréquences de la bande (stem:[ii(nu)_1 + ii(nu)_3]) de ^12^C~2~H~2~, autour de stem:[1.54" "mu "unitsml(m)"];
+* les valeurs mises à jour des fréquences de la bande (stem:[ii(nu)_1 + ii(nu)_3]) de ^12^C~2~H~2~, autour de stem:[1.54"unitsml(um)"];
 
-* les valeurs des fréquences de la bande (stem:[2_{ii(nu)_1}]) de ^12^C~2~HD, autour de stem:[1.54" "mu "unitsml(m)"];
+* les valeurs des fréquences de la bande (stem:[2_{ii(nu)_1}]) de ^12^C~2~HD, autour de stem:[1.54"unitsml(um)"];
 
 * les valeurs des fréquences des composantes hyperfines des transitions P(142) 37-0,
-R(121) 35-0 et R(85) 33-0 dans l’iode à 532 nm.
+R(121) 35-0 et R(85) 33-0 dans l’iode à stem:[532 "unitsml(nm)"].
 
 
 === 23^e^ CGPM, 2007
@@ -2418,7 +2418,7 @@ les constantes physiques fondamentales,
 
 * que parmi les sept unités de base du SI, seul le kilogramme est encore défini à partir d’un
 objet matériel (artefact), à savoir le prototype international du kilogramme (2^e^ CGPM, 1889 et
-3^e^ CGPM, 1901), et que les définitions de l’ampère(((ampère (A)))), de la mole et de la candela(((candela (cd)))) dépendent du
+3^e^ CGPM, 1901), et que les définitions de l’ampère(((ampère (stem:["unitsml(A)"])))), de la mole et de la candela(((candela (stem:["unitsml(cd)"])))) dépendent du
 kilogramme,
 
 * la 21^e^ Conférence générale a adopté en 1999 la Résolution 7, laquelle recommandait que
@@ -2433,7 +2433,7 @@ international à la constante de Planck(((constante, de Planck))), stem:[h], ou 
 fondamentales, y compris celle de la constante de Boltzmann stem:[k_B],
 
 * que des implications significatives et des avantages potentiels découlent de nouvelles
-définitions du kilogramme, de l’ampère(((ampère (A)))), du kelvin et de la mole, suite aux progrès récents
+définitions du kilogramme, de l’ampère(((ampère (stem:["unitsml(A)"])))), du kelvin et de la mole, suite aux progrès récents
 accomplis,
 
 * la Recommandation 1 (CI-2005) du Comité international adoptée lors de sa session d’octobre
@@ -2454,13 +2454,13 @@ plusieurs unités de base du SI,
 scientifiques et des utilisateurs,
 
 * la décision du Comité international en 2005 d’approuver, en principe, la préparation de
-nouvelles définitions du kilogramme, de l’ampère(((ampère (A)))), du kelvin et la possibilité de redéfinir la
+nouvelles définitions du kilogramme, de l’ampère(((ampère (stem:["unitsml(A)"])))), du kelvin et la possibilité de redéfinir la
 mole,
 
 *recommande* que les laboratoires nationaux de métrologie et le BIPM
 
 * poursuivent les expériences appropriées afin que le Comité international puisse juger s’il est
-possible ou non de redéfinir le kilogramme, l’ampère(((ampère (A)))), le kelvin et la mole en utilisant des
+possible ou non de redéfinir le kilogramme, l’ampère(((ampère (stem:["unitsml(A)"])))), le kelvin et la mole en utilisant des
 valeurs fixées pour certaines constantes fondamentales lors de la 24^e^ Conférence générale
 en 2011,
 
@@ -2503,23 +2503,23 @@ que les fréquences de transition suivantes soient incluses ou mises à jour dan
 fréquences étalons recommandées:
 
 * la transition optique non perturbée 5s^2^ ^1^S~0~ – 5s 5p ^3^P~0~ de l’atome neutre de ^87^Sr,
-à la fréquence de stem:[f = 429228004229873.7" ""unitsml(Hz)"], avec une incertitude-type relative de
-stem:[1 xx 10^{-15}] (cette radiation a déjà été approuvée par le CIPM comme représentation secondaire
+à la fréquence de stem:[f = 429228004229873.7"unitsml(Hz)"], avec une incertitude-type relative de
+stem:[1 xx 10^(-15)] (cette radiation a déjà été approuvée par le CIPM comme représentation secondaire
 de la seconde);
 
 * la transition optique non perturbée 5s^2^ ^1^S~0~ – 5s 5p ^3^P~0~ de l’atome neutre de ^88^Sr,
-à la fréquence de stem:[f = 429228066418012" ""unitsml(Hz)"], avec une incertitude-type relative de
-stem:[1 xx 10^{-14}];
+à la fréquence de stem:[f = 429228066418012"unitsml(Hz)"], avec une incertitude-type relative de
+stem:[1 xx 10^(-14)];
 
 * la transition optique non perturbée 4s ^2^S~1/2~ – 3d ^2^D~5/2~ de l’ion de ^40^Ca^+^, à la fréquence de
-stem:[f = 411042129776393" ""unitsml(Hz)"], avec une incertitude-type relative de stem:[4 xx 10^{-14}];
+stem:[f = 411042129776393"unitsml(Hz)"], avec une incertitude-type relative de stem:[4 xx 10^(-14)];
 
 * la transition optique non perturbée ^2^S~1/2~ (F = 0) – ^2^F~7/2~ (F = 3, ~mF~ = 0) de l’ion de ^171^Yb^+^, à la
-fréquence de stem:[f = 642121496772657" ""unitsml(Hz)"], avec une incertitude-type relative de stem:[6 xx 10^{-14}];
+fréquence de stem:[f = 642121496772657"unitsml(Hz)"], avec une incertitude-type relative de stem:[6 xx 10^(-14)];
 
 * la transition optique non perturbée 6s^2^ ^1^S~0~ (F = 1/2) – 6s 6p ^3^P~0~ (F = 1/2) de l’atome neutre de
-^171^Yb à la fréquence de stem:[f = 518295836590864" ""unitsml(Hz)"], avec une incertitude-type relative de
-stem:[1.6 xx 10^{-13}].
+^171^Yb à la fréquence de stem:[f = 518295836590864"unitsml(Hz)"], avec une incertitude-type relative de
+stem:[1.6 xx 10^(-13)].
 
 
 === 24^e^ CGPM, 2011
@@ -2553,8 +2553,8 @@ seconde,
 
 * que parmi les sept unités de base du SI, seul le kilogramme est encore défini à partir d’un
 objet matériel (artefact), à savoir le prototype international du kilogramme (1^re^ réunion de la
-CGPM, 1889; 3^e^ réunion de la CGPM, 1901), et que les définitions de l’ampère(((ampère (A)))), de la mole et
-de la candela(((candela (cd)))) dépendent du kilogramme,
+CGPM, 1889; 3^e^ réunion de la CGPM, 1901), et que les définitions de l’ampère(((ampère (stem:["unitsml(A)"])))), de la mole et
+de la candela(((candela (stem:["unitsml(cd)"])))) dépendent du kilogramme,
 
 * que, bien que le prototype international ait rendu des services à la science et la technologie
 depuis qu’il a été sanctionné par la CGPM lors de sa 1re réunion en 1889, son utilisation
@@ -2575,7 +2575,7 @@ expériences de la balance du watt ou les mesures de la masse d’un atome de si
 indirectement, au moyen de l’effet Josephson et de l’effet Hall quantique et à partir des valeurs
 dans le SI des constantes de Josephson(((constante, de Josephson (stem:[ii(K)_"J"," "ii(K)_"J-90"])))) et de von Klitzing(((constante, de von Klitzing (stem:[ii(R)_"K"], stem:[ii(R)_"K-90"])))), stem:[ii(K)_J] et stem:[ii(R)_K], pourraient être réduites de
 manière significative si le kilogramme était redéfini de façon à ce qu’il soit relié à une valeur
-numérique exacte de stem:[h], et si l’ampère(((ampère (A)))) était redéfini de façon à ce qu’il soit relié à une valeur
+numérique exacte de stem:[h], et si l’ampère(((ampère (stem:["unitsml(A)"])))) était redéfini de façon à ce qu’il soit relié à une valeur
 numérique exacte de la charge élémentaire e,
 
 * que la définition actuelle du kelvin se fonde sur une propriété intrinsèque de l’eau qui, bien
@@ -2598,7 +2598,7 @@ k et NA avaient des valeurs numériques exactes lorsqu’elles sont exprimées e
 * que la CGPM, lors de sa 23^e^ réunion en 2007, a adopté la Résolution 12 qui expose le travail
 à accomplir par les laboratoires nationaux de métrologie, le BIPM et le Comité international
 des poids et mesures (CIPM), ainsi que ses Comités consultatifs, afin que les nouvelles
-définitions du kilogramme, de l’ampère(((ampère (A)))), du kelvin et de la mole fondées sur des constantes
+définitions du kilogramme, de l’ampère(((ampère (stem:["unitsml(A)"])))), du kelvin et de la mole fondées sur des constantes
 fondamentales puissent être adoptées,
 
 * que, bien que des progrès notables aient été réalisés, tous les objectifs fixés par la
@@ -2624,7 +2624,7 @@ l’expression des constantes indique que
 le chiffre correspondant n’était pas connu au
 moment de l’adoption de la Résolution.
 
-* la charge élémentaire e est égale à exactement stem:[1.60217X xx 10^{-19}] stem:["coulomb"],
+* la charge élémentaire e est égale à exactement stem:[1.60217X xx 10^(-19)] stem:["coulomb"],
 * la constante de Boltzmann stem:[k] est égale à exactement stem:[1.3806X xx 10^{-23}] joule par kelvin,
 * la constante d’Avogadro stem:[ii(N)_"A"] est égale à exactement stem:[6.02214X xx 10^23] par mole,
 * l’efficacité lumineuse stem:[ii(K)_{cd}] d’un rayonnement monochromatique de fréquence
@@ -2632,12 +2632,12 @@ stem:[540 xx 10^12] stem:["unitsml(Hz)"] est égale à exactement 683 lumens par
 --
 
 où
-(((watt (W))))
+(((watt (stem:["unitsml(W)"]))))
 
-. les unités hertz, joule, coulomb, lumen et watt, qui ont respectivement pour symbole Hz, J, C,
-lm, et W, sont reliées aux unités seconde, mètre, kilogramme, ampère(((ampère (A)))), kelvin, mole et candela(((candela (cd)))),
-qui ont respectivement pour symbole s, m, kg, A, K, mol, et cd, selon les relations stem:["unitsml(Hz)" = "unitsml(s^{-1})"],
-stem:["unitsml(J)" = "unitsml(m^2 kg s^{-2})"], stem:["unitsml(C)" = "unitsml(s A)"], stem:["unitsml(lm)" = "unitsml(cd m^2 m^{-2})" = "unitsml(cd sr)"], et stem:["unitsml(W)" = "unitsml(m^2 kg s^{-3})"],
+. les unités hertz, joule, coulomb, lumen et watt, qui ont respectivement pour symbole stem:["unitsml(Hz)"], stem:["unitsml(J)"], stem:["unitsml(C)"],
+stem:["unitsml(lm)"], et stem:["unitsml(W)"], sont reliées aux unités seconde, mètre, kilogramme, ampère(((ampère (stem:["unitsml(A)"])))), kelvin, mole et candela(((candela (stem:["unitsml(cd)"])))),
+qui ont respectivement pour symbole stem:["unitsml(s)"], stem:["unitsml(m)"], stem:["unitsml(kg)"], stem:["unitsml(A)"], stem:["unitsml(K)"], stem:["unitsml(mol)"], et stem:["unitsml(cd)"], selon les relations stem:["unitsml(Hz)" = "unitsml(s^(-1))"],
+stem:["unitsml(J)" = "unitsml(m^2*kg*s^(-2))"], stem:["unitsml(C)" = "unitsml(s*A)"], stem:["unitsml(lm)" = "unitsml(cd*m^2*m^(-2))" = "unitsml(cd*sr)"], et stem:["unitsml(W)" = "unitsml(m^2*kg*s^(-3))"],
 
 . le symbole X dans le présent projet de résolution correspond à un ou plusieurs chiffres qui
 devront être ajoutés aux valeurs numériques de stem:[h], stem:[e], stem:[k], et stem:[ii(N)_"A"] selon les valeurs résultant de
@@ -2648,29 +2648,29 @@ notamment
 
 * le kilogramme restera l’unité de masse mais son amplitude sera déterminée en
 fixant la valeur numérique de la constante de Planck(((constante, de Planck))) à exactement
-stem:[6.62606X xx 10^{-34}] lorsqu’elle sera exprimée en stem:["unitsml(m^2 kg s^{-1})"], unité du SI égale au joule
-seconde, stem:["unitsml(J s)"],
+stem:[6.62606X xx 10^{-34}] lorsqu’elle sera exprimée en stem:["unitsml(m^2*kg*s^(-1))"], unité du SI égale au joule
+seconde, stem:["unitsml(J*s)"],
 
-* l’ampère(((ampère (A)))) restera l’unité de courant électrique mais son amplitude sera déterminée
+* l’ampère(((ampère (stem:["unitsml(A)"])))) restera l’unité de courant électrique mais son amplitude sera déterminée
 en fixant la valeur numérique de la charge élémentaire à exactement
-stem:[1.60217X xx 10^{-19}] lorsqu’elle sera exprimée en stem:["unitsml(s A)"], unité du SI égale au coulomb, stem:["unitsml(C)"],
+stem:[1.60217X xx 10^(-19)] lorsqu’elle sera exprimée en stem:["unitsml(s*A)"], unité du SI égale au coulomb, stem:["unitsml(C)"],
 
 * le kelvin restera l’unité de température thermodynamique mais son amplitude sera
 déterminée en fixant la valeur numérique de la constante de Boltzmann à
-exactement stem:[1.3806X xx 10^{-23}] lorsqu’elle sera exprimée en stem:["unitsml(m^2 kg s^{-2} K^{-1})"], unité du SI
-égale au joule par kelvin stem:["unitsml(J K^{-1})"],
+exactement stem:[1.3806X xx 10^{-23}] lorsqu’elle sera exprimée en stem:["unitsml(m^2*kg*s^(-2)*K^(-1))"], unité du SI
+égale au joule par kelvin stem:["unitsml(J*K^(-1))"],
 
 * la mole restera l’unité de quantité de matière d’une entité élémentaire spécifique,
 c’est-à-dire un atome, une molécule, un ion, un électron, ou toute autre particule ou
 groupe particulier de telles particules, mais son amplitude sera déterminée en fixant
 la valeur numérique de la constante d’Avogadro à exactement stem:[6.02214X xx 10^23]
-lorsqu’elle sera exprimée en unité du SI stem:["unitsml(mol^{-1})"].
+lorsqu’elle sera exprimée en unité du SI stem:["unitsml(mol^(-1))"].
 
 La Conférence générale des poids et mesures,
 
 *note également*
 
-* que les nouvelles définitions du kilogramme, de l’ampère(((ampère (A)))), du kelvin et de la mole seront
+* que les nouvelles définitions du kilogramme, de l’ampère(((ampère (stem:["unitsml(A)"])))), du kelvin et de la mole seront
 rédigées en utilisant une formulation dite «&nbsp;à constante explicite&nbsp;», c’est-à-dire une définition
 dans laquelle l’unité est définie indirectement en donnant explicitement une valeur exacte à
 une constante fondamentale reconnue,
@@ -2682,7 +2682,7 @@ dans le vide, qui est également une constante fondamentale reconnue,
 propriété bien définie de l’atome de césium, qui constitue également une constante de la
 nature,
 
-* que la définition existante de la candela(((candela (cd)))) n’est pas liée à une constante fondamentale mais
+* que la définition existante de la candela(((candela (stem:["unitsml(cd)"])))) n’est pas liée à une constante fondamentale mais
 qu’elle peut être considérée comme étant reliée à une valeur exacte d’une constante de la
 nature,
 
@@ -2691,23 +2691,23 @@ base étaient définies en utilisant la même formulation,
 
 c’est pourquoi le Comité international des poids et mesures proposera également
 
-de reformuler les définitions actuelles de la seconde, du mètre et de la candela(((candela (cd)))) selon une forme
+de reformuler les définitions actuelles de la seconde, du mètre et de la candela(((candela (stem:["unitsml(cd)"])))) selon une forme
 complètement équivalente qui pourrait être la suivante:
 
-* la seconde, symbole s, est l’unité de temps; son amplitude est déterminée en fixant la valeur
+* la seconde, symbole stem:["unitsml(s)"], est l’unité de temps; son amplitude est déterminée en fixant la valeur
 numérique de la fréquence de la transition hyperfine de l’état fondamental de l’atome de
-césium 133 au repos, à une température de 0 K, à exactement 9192631770 lorsqu’elle est
-exprimée en stem:["unitsml(s^{-1})"], unité du SI égale au hertz, Hz,
+césium 133 au repos, à une température de stem:[0 "unitsml(K)"], à exactement 9192631770 lorsqu’elle est
+exprimée en stem:["unitsml(s^(-1))"], unité du SI égale au hertz, stem:["unitsml(Hz)"],
 
-* le mètre, symbole m, est l’unité de longueur; son amplitude est déterminée en fixant la valeur
+* le mètre, symbole stem:["unitsml(m)"], est l’unité de longueur; son amplitude est déterminée en fixant la valeur
 numérique de la ((vitesse de la lumière dans le vide)) à exactement 299792458 lorsqu’elle est
-exprimée en unité du SI stem:["unitsml(m s^{-1})"],
+exprimée en unité du SI stem:["unitsml(m*s^(-1))"],
 
-* la candela(((candela (cd)))), symbole cd, est l’unité d’intensité lumineuse dans une direction donnée; son
+* la candela(((candela (stem:["unitsml(cd)"])))), symbole stem:["unitsml(cd)"], est l’unité d’intensité lumineuse dans une direction donnée; son
 amplitude est déterminée en fixant la valeur numérique de l’efficacité lumineuse d’un
-rayonnement monochromatique d’une fréquence de stem:[540 xx 10^12" ""unitsml(Hz)"] à exactement 683
-lorsqu’elle est exprimée en stem:["unitsml(m^{-2} kg^{-1} s^3 cd sr)"] ou en stem:["unitsml(cd sr W^{-1})"], unité du SI égale au lumen par
-watt, stem:["unitsml(lm W^{-1})"].
+rayonnement monochromatique d’une fréquence de stem:[540 xx 10^12"unitsml(Hz)"] à exactement 683
+lorsqu’elle est exprimée en stem:["unitsml(m^(-2)*kg^(-1)*s^3*cd*sr)"] ou en stem:["unitsml(cd*sr*W^(-1))"], unité du SI égale au lumen par
+watt, stem:["unitsml(lm*W^(-1))"].
 
 Il sera ainsi manifeste que les définitions des sept unités de base du SI découlent naturellement
 des sept constantes précédemment indiquées.
@@ -2718,10 +2718,10 @@ En conséquence, à la date choisie pour mettre en oeuvre la révision du SI
 international du kilogramme (1^re^ réunion de la CGPM, 1889; 3^e^ réunion de la CGPM, 1901),
 sera abrogée,
 
-* la définition de l’ampère(((ampère (A)))) en vigueur depuis 1948 (9^e^ réunion de la CGPM, 1948), établie à
+* la définition de l’ampère(((ampère (stem:["unitsml(A)"])))) en vigueur depuis 1948 (9^e^ réunion de la CGPM, 1948), établie à
 partir de la définition proposée par le Comité international des poids et mesures (CIPM, 1946,
 Résolution 2), sera abrogée,
-(((volt (V))))
+(((volt (stem:["unitsml(V)"]))))
 
 * les valeurs conventionnelles de la constante de Josephson(((constante, de Josephson (stem:[ii(K)_"J"," "ii(K)_"J-90"])))) stem:[ii(K)_{J–90}] et de la constante de von
 Klitzing stem:[ii(R)_{K–90}] adoptées par le Comité international des poids et mesures
@@ -2734,10 +2734,10 @@ effets Josephson et Hall quantique, respectivement, seront abrogées,
 3), sera abrogée,
 
 * la définition de la mole en vigueur depuis 1971 (14^e^ réunion de la CGPM, 1971, Résolution
-3), selon laquelle la masse molaire du carbone 12 a la valeur exacte de stem:[0.012] stem:["unitsml(kg mol^{-1})"], sera
+3), selon laquelle la masse molaire du carbone 12 a la valeur exacte de stem:[0.012 "unitsml(kg*mol^(-1))"], sera
 abrogée,
 
-* les définitions existantes du mètre, de la seconde et de la candela(((candela (cd)))), en vigueur depuis leur
+* les définitions existantes du mètre, de la seconde et de la candela(((candela (stem:["unitsml(cd)"])))), en vigueur depuis leur
 adoption par la CGPM lors de ses 17^e^ (1983, Résolution 1), 13^e^ (1967/68, Résolution 1) et
 16^e^ (1979, Résolution 3) réunions respectivement, seront abrogées.
 
@@ -2745,19 +2745,19 @@ La Conférence générale des poids et mesures,
 
 *prend en considération* qu’à la même date
 
-* la masse du prototype international du kilogramme stem:[m(K)] sera égale à stem:[1" ""unitsml(kg)"], avec cependant
+* la masse du prototype international du kilogramme stem:[m(K)] sera égale à stem:[1"unitsml(kg)"], avec cependant
 une incertitude relative égale à celle de la valeur recommandée de h juste avant la
 redéfinition, puis sa valeur sera déterminée de façon expérimentale,
 
-* la constante magnétique (la perméabilité du vide) stem:[mu_0] sera égale à stem:[4 pi xx 10^{-7}] stem:["unitsml(H m^{-1})"], avec
+* la constante magnétique (la perméabilité du vide) stem:[mu_0] sera égale à stem:[4 pi xx 10^(-7)] stem:["unitsml(H*m^(-1))"], avec
 cependant une incertitude relative égale à celle de la valeur recommandée de la constante
 de structure fine(((constante, de structure fine))) stem:[alpha], puis sa valeur sera déterminée de façon expérimentale,
 
-* la température thermodynamique du point triple de l’eau stem:[ii(T)_("TPW")] sera égale à stem:[273.16 " ""unitsml(K)"], avec
+* la température thermodynamique du point triple de l’eau stem:[ii(T)_("TPW")] sera égale à stem:[273.16 "unitsml(K)"], avec
 cependant une incertitude relative égale à celle de la valeur recommandée de k juste avant la
 redéfinition, puis sa valeur sera déterminée de façon expérimentale,
 
-* la masse molaire du carbone 12 stem:[ii(M)(""^{12}"C")] sera égale à stem:[0.012] stem:["unitsml(kg mol^{-1})"], avec cependant une
+* la masse molaire du carbone 12 stem:[ii(M)(""^{12}"C")] sera égale à stem:[0.012] stem:["unitsml(kg*mol^(-1))"], avec cependant une
 incertitude relative égale à celle de la valeur recommandée de stem:[ii(N)_"A" h] juste avant la redéfinition,
 puis sa valeur sera déterminée de façon expérimentale.
 
@@ -2786,7 +2786,7 @@ du SI,
 
 * le CIPM à lui proposer de réviser le SI dès que les recommandations de la Résolution 12
 adoptée par la CGPM à sa 23^e^ réunion seront satisfaites, en particulier la préparation des
-mises en pratique des nouvelles définitions du kilogramme, de l’ampère(((ampère (A)))), du kelvin et de la
+mises en pratique des nouvelles définitions du kilogramme, de l’ampère(((ampère (stem:["unitsml(A)"])))), du kelvin et de la
 mole,
 
 * le CIPM à poursuivre son travail afin d’obtenir une meilleure formulation des définitions des
@@ -2868,17 +2868,17 @@ et aux représentations secondaires de la seconde&nbsp;»:
 * inclure la fréquence de la transition suivante dans la liste des fréquences étalons
 recommandées:
 ** la transition optique non perturbée 6s^2^ ^1^S~0~ – 6s 6p ^3^P~0~ de l’atome neutre de ^199^Hg,
-à la fréquence de stem:[1128575290808162 " ""unitsml(Hz)"] avec une incertitude-type relative estimée
-de stem:[1.7 xx 10^{-14}];
+à la fréquence de stem:[1128575290808162 "unitsml(Hz)"] avec une incertitude-type relative estimée
+de stem:[1.7 xx 10^(-14)];
 
 * mettre à jour les fréquences des transitions suivantes dans la liste des fréquences étalons
 recommandées:
 ** la transition optique non perturbée 4s ^2^S~1/2~ – 3d ^2^D~5/2~ de l’ion de ^40^Ca^+^,
-à la fréquence de stem:[411042129776395 " ""unitsml(Hz)"] avec une incertitude-type relative estimée
-de stem:[1.5 xx 10^{-14}];
+à la fréquence de stem:[411042129776395 "unitsml(Hz)"] avec une incertitude-type relative estimée
+de stem:[1.5 xx 10^(-14)];
 ** la transition optique non perturbée 1S – 2S de l’atome neutre de ^1^H, à la fréquence
-de stem:[1233030706593518 " ""unitsml(Hz)"] avec une incertitude-type relative estimée de
-stem:[1.2 xx 10^{-14}];
+de stem:[1233030706593518 "unitsml(Hz)"] avec une incertitude-type relative estimée de
+stem:[1.2 xx 10^(-14)];
 
 Remarque: cette fréquence correspond à la moitié de l’écart en énergie entre les états 1S et
 2S;
@@ -2886,38 +2886,38 @@ Remarque: cette fréquence correspond à la moitié de l’écart en énergie en
 * mettre à jour les fréquences des transitions suivantes dans la liste des fréquences étalons
 recommandées et les approuver comme représentations secondaires de la seconde:
 ** la transition optique non perturbée 6s ^2^S~1/2~ – 4f ^13^6s^2^ ^2^F~7/2~ de l’ion de ^171^Yb^+^ (octupôle),
-à la fréquence de stem:[642121496772645.6 " ""unitsml(Hz)"] avec une incertitude-type relative
-estimée de stem:[1.3 xx 10^{-15}];
+à la fréquence de stem:[642121496772645.6 "unitsml(Hz)"] avec une incertitude-type relative
+estimée de stem:[1.3 xx 10^(-15)];
 ** la transition optique non perturbée 6s^2^ ^1^S~0~ – 6s 6p ^3^P~0~ de l’atome neutre de ^171^Yb,
-à la fréquence de stem:[518295836590865.0 " ""unitsml(Hz)"] avec une incertitude-type relative
-estimée de stem:[2.7 xx 10^{-15}];
+à la fréquence de stem:[518295836590865.0 "unitsml(Hz)"] avec une incertitude-type relative
+estimée de stem:[2.7 xx 10^(-15)];
 
 * inclure la fréquence de la transition suivante dans la liste des fréquences étalons
 recommandées et l’approuver comme représentation secondaire de la seconde:
 ** la transition optique non perturbée 3s^2^ ^1^S~0~ – 3s 3p ^3^P~0~ de l’ion de ^27^Al^+^, à la fréquence
-de stem:[1121015393207857.3 " ""unitsml(Hz)"] avec une incertitude-type relative estimée de
-stem:[1.9 xx 10^{-15}];
+de stem:[1121015393207857.3 "unitsml(Hz)"] avec une incertitude-type relative estimée de
+stem:[1.9 xx 10^(-15)];
 
 * mettre à jour les fréquences des transitions suivantes dans la liste des fréquences étalons
 recommandées et les approuver comme représentations secondaires de la seconde:
 ** la transition optique non perturbée 5d ^10^6s ^2^S~1/2~ – 5d ^9^6s^2^ ^2^D~5/2~ de l’ion de ^199^Hg^+^,
-à la fréquence de stem:[1064721609899145.3 " ""unitsml(Hz)"] avec une incertitude-type relative
-estimée de stem:[1.9 xx 10^{-15}];
+à la fréquence de stem:[1064721609899145.3 "unitsml(Hz)"] avec une incertitude-type relative
+estimée de stem:[1.9 xx 10^(-15)];
 ** la transition optique non perturbée 6s ^2^S~1/2~ (stem:[F = 0], stem:[m_"F" = 0]) – 5d ^2^D~3/2~ (F = 2, m_"F" = 0) de
-l’ion de ^171^Yb^+^ (quadrupôle), à la fréquence de stem:[688358979309307.1 " ""unitsml(Hz)"] avec une
-incertitude-type relative estimée de stem:[3 xx 10^{-15}];
+l’ion de ^171^Yb^+^ (quadrupôle), à la fréquence de stem:[688358979309307.1 "unitsml(Hz)"] avec une
+incertitude-type relative estimée de stem:[3 xx 10^(-15)];
 ** la transition optique non perturbée 5s ^2^S~1/2~ – 4d ^2^D~5/2~ de l’ion de ^88^Sr^+^, à la fréquence
-de stem:[444779044095485.3 " ""unitsml(Hz)"] avec une incertitude-type relative estimée de
-stem:[4.0 xx 10^{-15}];
+de stem:[444779044095485.3 "unitsml(Hz)"] avec une incertitude-type relative estimée de
+stem:[4.0 xx 10^(-15)];
 ** la transition optique non perturbée 5s^2^ ^1^S~0~ – 5s5p ^3^P~0~ de l’atome neutre de ^87^Sr, à la
-fréquence de stem:[429228004229873.4 " ""unitsml(Hz)"] avec une incertitude-type relative estimée de
-stem:[1 xx 10^{-15}];
+fréquence de stem:[429228004229873.4 "unitsml(Hz)"] avec une incertitude-type relative estimée de
+stem:[1 xx 10^(-15)];
 
 * mettre à jour la fréquence de la transition suivante dans la liste des fréquences étalons
 recommandées et l’approuver comme représentation secondaire de la seconde:
 ** la transition quantique hyperfine non perturbée de l’état fondamental de l’atome de
-^87^Rb, à la fréquence de stem:[6834682610.904312 " ""unitsml(Hz)"] avec une incertitude-type
-relative estimée de stem:[1.3 xx 10^{-15}].
+^87^Rb, à la fréquence de stem:[6834682610.904312 "unitsml(Hz)"] avec une incertitude-type
+relative estimée de stem:[1.3 xx 10^(-15)].
 
 Remarque: La valeur de l’incertitude-type est supposée correspondre à un niveau de confiance
 de 68 %. Toutefois, étant donné le nombre très limité de résultats disponibles, il se peut que,
@@ -2940,7 +2940,7 @@ La Conférence générale des poids et mesures (CGPM), à sa 25^e^ réunion,
 
 * la Résolution 1 adoptée par la CGPM à sa 24^e^ réunion (2011) qui prend acte de l’intention du
 Comité international des poids et mesures (CIPM) de proposer une révision du SI consistant à
-relier les définitions du kilogramme, de l’ampère(((ampère (A)))), du kelvin et de la mole à des valeurs numériques
+relier les définitions du kilogramme, de l’ampère(((ampère (stem:["unitsml(A)"])))), du kelvin et de la mole à des valeurs numériques
 exactes de la constante de Planck(((constante, de Planck))) stem:[h], de la charge élémentaire stem:[e], de la constante de Boltzmann stem:[k],
 et de la constante d’Avogadro stem:[ii(N)_"A"], respectivement, et à modifier la façon de définir le SI, ainsi que
 la formulation des définitions des unités du SI pour les grandeurs temps, longueur, masse, courant
@@ -2971,7 +2971,7 @@ fondamentales de stem:[h], stem:[e], stem:[k], et stem:[ii(N)_"A"],
 * la mise au point par le BIPM d’un ensemble d’étalons de masse de référence qui permettra
 de faciliter la dissémination de l’unité de masse une fois le SI révisé,
 
-* la préparation des mises en pratique des nouvelles définitions du kilogramme, de l’ampère(((ampère (A)))),
+* la préparation des mises en pratique des nouvelles définitions du kilogramme, de l’ampère(((ampère (stem:["unitsml(A)"])))),
 du kelvin et de la mole,
 
 *notant que* le Comité consultatif des unités (CCU), le CIPM, le BIPM, les laboratoires nationaux
@@ -3034,45 +3034,45 @@ que les fréquences des transitions suivantes soient mises à jour dans la liste
 étalons recommandées:
 
 * la transition optique non perturbée 6s^2^ ^1^S~0~ – 6s6p ^3^P~0~ de l’atome neutre de ^199^Hg,
-à la fréquence de f^199^Hg = stem:[1128575290808154.8 " ""unitsml(Hz)"] avec une incertitude-type relative
-estimée de stem:[6 xx 10^{-16}];
+à la fréquence de f^199^Hg = stem:[1128575290808154.8 "unitsml(Hz)"] avec une incertitude-type relative
+estimée de stem:[6 xx 10^(-16)];
 
 * la transition optique non perturbée 6s ^2^S~1/2~ – 4f^13^ 6s2 ^2^F~7/2~ de l’ion de ^17^1Yb^+^, à la fréquence
-de stem:[f_{171Yb+}] (octupôle) = stem:[642121496772645.0 " ""unitsml(Hz)"] avec une incertitude-type relative estimée
-de stem:[6 xx 10^{-16}] (cette radiation a déjà été approuvée par le CIPM comme représentation
+de stem:[f_{171Yb+}] (octupôle) = stem:[642121496772645.0 "unitsml(Hz)"] avec une incertitude-type relative estimée
+de stem:[6 xx 10^(-16)] (cette radiation a déjà été approuvée par le CIPM comme représentation
 secondaire de la seconde);
 
 * la transition optique non perturbée 6s ^2^S~1/2~ (stem:[F = 0], stem:[m_"F" = 0]) – 5d ^2^D~3/2~ (stem:[F = 2], stem:[m_"F" = 0]) de l’ion
-de ^171^Yb^+^, à la fréquence de f~171Yb+~ (quadripôle) stem:[= 688358979309308.3 " ""unitsml(Hz)"] avec une
-incertitude-type relative estimée de stem:[6 xx 10^{-16}] (cette radiation a déjà été approuvée par le
+de ^171^Yb^+^, à la fréquence de f~171Yb+~ (quadripôle) stem:[= 688358979309308.3 "unitsml(Hz)"] avec une
+incertitude-type relative estimée de stem:[6 xx 10^(-16)] (cette radiation a déjà été approuvée par le
 CIPM comme représentation secondaire de la seconde);
 
 * la transition optique non perturbée 5s ^2^S~1/2~ – 4d ^2^D~5/2~ de l’ion de ^88^Sr^+^, à la fréquence de
-f~88Sr+~ = stem:[444779044095486.6 " ""unitsml(Hz)"] avec une incertitude-type relative estimée de stem:[1.6 xx 10^{-15}]
+f~88Sr+~ = stem:[444779044095486.6 "unitsml(Hz)"] avec une incertitude-type relative estimée de stem:[1.6 xx 10^(-15)]
 (cette radiation a déjà été approuvée par le CIPM comme représentation secondaire de la
 seconde);
 
 * la transition optique non perturbée 4s ^2^S~1/2~ – 3d ^2^D~5/2~ de l’ion de ^40^Ca^+^, à la fréquence de
-stem:[f_{40Ca+} = 411042129776398.4" ""unitsml(Hz)"] avec une incertitude-type relative estimée de stem:[1.2 xx 10^{-14}];
+stem:[f_{40Ca+} = 411042129776398.4"unitsml(Hz)"] avec une incertitude-type relative estimée de stem:[1.2 xx 10^(-14)];
 * la transition optique non perturbée 1S – 2S de l’atome neutre de ^1^H, à la fréquence de f~1H~ = 1
-stem:[233030706593514 " ""unitsml(Hz)"] avec une incertitude-type relative estimée de stem:[9 xx 10^{-15}];
+stem:[233030706593514 "unitsml(Hz)"] avec une incertitude-type relative estimée de stem:[9 xx 10^(-15)];
 
 Remarque: cette fréquence correspond à la moitié de l’écart en énergie entre les états 1S et
 2S;
 
 * la transition optique non perturbée 5s^2^ ^1^S~0~ – 5s5p ^3^P~0~ de l’atome neutre de ^87^Sr,
-à la fréquence de stem:[f_{87Sr} = 429228004229873.2 " ""unitsml(Hz)"] avec une incertitude-type relative estimée
-de stem:[5 xx 10^{-16}] (cette radiation a déjà été approuvée par le CIPM comme représentation
+à la fréquence de stem:[f_{87Sr} = 429228004229873.2 "unitsml(Hz)"] avec une incertitude-type relative estimée
+de stem:[5 xx 10^(-16)] (cette radiation a déjà été approuvée par le CIPM comme représentation
 secondaire de la seconde);
 
 * la transition optique non perturbée 6s^2^ ^1^S~0~ – 6s6p ^3^P~0~ de l’atome neutre de ^171^Yb,
-à la fréquence de stem:[f_{171"Yb"} = 518295836590864.0" ""unitsml(Hz)"] avec une incertitude-type relative
-estimée de stem:[2 xx 10^{-15}] (cette radiation a déjà été approuvée par le CIPM comme représentation
+à la fréquence de stem:[f_{171"Yb"} = 518295836590864.0"unitsml(Hz)"] avec une incertitude-type relative
+estimée de stem:[2 xx 10^(-15)] (cette radiation a déjà été approuvée par le CIPM comme représentation
 secondaire de la seconde);
 
 * la transition hyperfine non perturbée de l’état fondamental de l’atome de 87Rb,
-à la fréquence de stem:[f_{87Rb} = 6834682610.904310 " ""unitsml(Hz)"] avec une incertitude-type relative estimée
-de stem:[7 xx 10^{-16}] (cette radiation a déjà été approuvée par le CIPM comme représentation
+à la fréquence de stem:[f_{87Rb} = 6834682610.904310 "unitsml(Hz)"] avec une incertitude-type relative estimée
+de stem:[7 xx 10^(-16)] (cette radiation a déjà été approuvée par le CIPM comme représentation
 secondaire de la seconde);
 
 *recommande* par ailleurs
@@ -3084,23 +3084,23 @@ recommandées:
 transition R(36) 32-0.
 +
 --
-Les valeurs:: stem:[f_{a1} = 564074632.42] stem:["unitsml(MHz)"] +
-stem:[lambda_{a1} = 531476582.65] stem:["unitsml(fm)"]
+Les valeurs:: stem:[f_{a1} = 564074632.42 "unitsml(MHz)"] +
+stem:[lambda_{a1} = 531476582.65 "unitsml(fm)"]
 --
 
-avec une incertitude-type relative estimée de stem:[1 xx 10^{-10}] s’appliquent à la radiation d’un laser à
+avec une incertitude-type relative estimée de stem:[1 xx 10^(-10)] s’appliquent à la radiation d’un laser à
 diode à rétroaction répartie doublé en fréquence, asservi à l’aide d’une cellule d’iode située à
 l’extérieur du laser.
 
 * Atome absorbant de ^87^Rb, transition 5S~1/2~ - 5P~3/2~, croisement de niveaux entre les
-composantes hyperfines d et f de l’absorption saturée à 780 nm (transition D2).
+composantes hyperfines d et f de l’absorption saturée à stem:[780 "unitsml(nm)"] (transition D2).
 +
 --
-Les valeurs:: stem:[f_{"croisement d/f"} = 384227981.9 " ""unitsml(MHz)"] +
-stem:[lambda_{"croisement d/f"} = 780246291.6] stem:["unitsml(fm)"]
+Les valeurs:: stem:[f_{"croisement d/f"} = 384227981.9 "unitsml(MHz)"] +
+stem:[lambda_{"croisement d/f"} = 780246291.6 "unitsml(fm)"]
 --
 
-avec une incertitude-type relative estimée de stem:[5 xx 10^{-10}] s’appliquent à la radiation d’un laser
+avec une incertitude-type relative estimée de stem:[5 xx 10^(-10)] s’appliquent à la radiation d’un laser
 accordable à diode et à cavité externe, asservi sur la résonance de croisement de niveaux d/f
 dans une cellule de rubidium située à l’extérieur du laser.
 
@@ -3122,7 +3122,7 @@ par ses Comités consultatifs.
 Le CIPM note que les conditions fixées pour procéder à la révision du SI sont désormais
 remplies et décide de soumettre le Projet de résolution A à la Conférence générale des poids et
 mesures (CGPM) à sa 26^e^ réunion et de prendre toutes les autres dispositions nécessaires en
-vue de procéder, tel que cela a été planifié, à la redéfinition du kilogramme, de l’ampère(((ampère (A)))),
+vue de procéder, tel que cela a été planifié, à la redéfinition du kilogramme, de l’ampère(((ampère (stem:["unitsml(A)"])))),
 du kelvin et de la mole.
 
 
@@ -3162,19 +3162,19 @@ qu’à compter du 20 mai 2019, le Système international d’unités, le SI, es
 selon lequel:
 
 * la fréquence de la transition hyperfine de l’état fondamental de l’atome de césium
-133 non perturbé, stem:[Delta nu_{Cs}], est égale à stem:[9192631770 " ""unitsml(Hz)"],
-* la ((vitesse de la lumière dans le vide)), stem:[c], est égale à 299792458 m/s,
-* la constante de Planck(((constante, de Planck))), stem:[h], est égale à stem:[6.62607015 xx 10^{-34}] stem:["unitsml(J s)"],
-* la charge élémentaire, stem:[e], est égale à stem:[1.602176634 xx 10^{-19}] stem:["unitsml(C)"],
-* la constante de Boltzmann, stem:[k], est égale à stem:[1.380649 xx 10^{-23}] stem:["unitsml(J//K)"],
-* la constante d’Avogadro, stem:[ii(N)_"A"], est égale à stem:[6.02214076 xx 10^23^] stem:["unitsml(mol^{-1})"],
+133 non perturbé, stem:[Delta ii(nu)_{"Cs"}], est égale à stem:[9192631770 "unitsml(Hz)"],
+* la ((vitesse de la lumière dans le vide)), stem:[c], est égale à stem:[299792458 "unitsml(m/s)"],
+* la constante de Planck(((constante, de Planck))), stem:[h], est égale à stem:[6.62607015 xx 10^{-34} "unitsml(J*s)"],
+* la charge élémentaire, stem:[e], est égale à stem:[1.602176634 xx 10^(-19) "unitsml(C)"],
+* la constante de Boltzmann, stem:[k], est égale à stem:[1.380649 xx 10^{-23} "unitsml(J/K)"],
+* la constante d’Avogadro, stem:[ii(N)_"A"], est égale à stem:[6.02214076 xx 10^(23) "unitsml(mol^(-1))"],
 * l’efficacité lumineuse d’un rayonnement monochromatique de fréquence
-stem:[540 xx 10^12] Hz, stem:[ii(K)_{cd}], est égale à 683 lm/W,
+stem:[540 xx 10^12 "unitsml(Hz)"], stem:[ii(K)_{cd}], est égale à stem:[683 "unitsml(lm/W)"],
 
-où les unités hertz, joule, coulomb, lumen et watt, qui ont respectivement pour symbole Hz, J, C,
-lm et W, sont reliées aux unités seconde, mètre, kilogramme, ampère(((ampère (A)))), kelvin, mole et candela(((candela (cd)))),
-qui ont respectivement pour symbole s, m, kg, A, K, mol et cd, selon les relations, stem:["unitsml(J)" = "unitsml(kg m^2 s^{-2})"],
-stem:["unitsml(C)" = "unitsml(A s)"], stem:["unitsml(lm)" = "unitsml(cd m^2 m^{-2})" = "unitsml(cd sr)"], et stem:["unitsml(W)" = "unitsml(kg m^2 s^{-3})"],
+où les unités hertz, joule, coulomb, lumen et watt, qui ont respectivement pour symbole stem:["unitsml(Hz)"], stem:["unitsml(J)"], stem:["unitsml(C)"],
+stem:["unitsml(lm)"] et stem:["unitsml(W)"], sont reliées aux unités seconde, mètre, kilogramme, ampère(((ampère (stem:["unitsml(A)"])))), kelvin, mole et candela(((candela (stem:["unitsml(cd)"])))),
+qui ont respectivement pour symbole stem:["unitsml(s)"], stem:["unitsml(m)"], stem:["unitsml(kg)"], stem:["unitsml(A)"], stem:["unitsml(K)"], stem:["unitsml(mol)"] et stem:["unitsml(cd)"], selon les relations, stem:["unitsml(J)" = "unitsml(kg*m^2*s^(-2))"],
+stem:["unitsml(C)" = "unitsml(A*s)"], stem:["unitsml(lm)" = "unitsml(cd*m^2*m^(-2))" = "unitsml(cd*sr)"], et stem:["unitsml(W)" = "unitsml(kg*m^2*s^(-3))"],
 
 *prend acte* des conséquences de la révision du SI concernant les unités de base du SI,
 énoncées dans la Résolution 1 adoptée par la CGPM à sa 24^e^ réunion (2011), et les confirme
@@ -3196,13 +3196,13 @@ est abrogée,
 * la définition du kilogramme en vigueur depuis 1889 (1^ère^ réunion de la CGPM, 1889,
 3^e^ réunion de la CGPM, 1901), établie à partir de la masse du prototype international du
 kilogramme, est abrogée,
-* la définition de l’ampère(((ampère (A)))) en vigueur depuis 1948 (9^e^ réunion de la CGPM), établie à partir de
+* la définition de l’ampère(((ampère (stem:["unitsml(A)"])))) en vigueur depuis 1948 (9^e^ réunion de la CGPM), établie à partir de
 la définition proposée par le CIPM (1946, Résolution 2), est abrogée,
 * la définition du kelvin en vigueur depuis 1967/68 (13^e^ réunion de la CGPM, Résolution 4)
 est abrogée,
 * la définition de la mole en vigueur depuis 1971 (14^e^ réunion de la CGPM, Résolution 3)
 est abrogée,
-* la définition de la candela(((candela (cd)))) en vigueur depuis 1979 (16^e^ réunion de la CGPM, Résolution 3)
+* la définition de la candela(((candela (stem:["unitsml(cd)"])))) en vigueur depuis 1979 (16^e^ réunion de la CGPM, Résolution 3)
 est abrogée,
 * la décision d’adopter les valeurs conventionnelles de la constante de Josephson(((constante, de Josephson (stem:[ii(K)_"J"," "ii(K)_"J-90"])))) stem:[ii(K)_{J–90}] et de
 la constante de von Klitzing(((constante, de von Klitzing (stem:[ii(R)_"K"], stem:[ii(R)_"K-90"])))) stem:[ii(R)_{K–90}], prise par le CIPM (1988, Recommandations 1 et 2)
@@ -3218,21 +3218,21 @@ l’ajustement spécial de 2017 du Committee on Data for Science and Technology 
 sur lesquelles se fondent les valeurs des constantes choisies pour définir le SI, qu’à compter du
 20 mai 2019:
 
-* la masse du prototype international du kilogramme, stem:[m(K)], est égale à 1 kg avec une
+* la masse du prototype international du kilogramme, stem:[m(K)], est égale à stem:[1 "unitsml(kg)"] avec une
 incertitude-type relative égale à celle de la valeur recommandée de h au moment de
-l’adoption de la présente résolution, à savoir stem:[1.0 xx 10^{-8}]; dans le futur, sa valeur sera
+l’adoption de la présente résolution, à savoir stem:[1.0 xx 10^(-8)]; dans le futur, sa valeur sera
 déterminée de façon expérimentale,
-* la perméabilité magnétique du vide, stem:[mu_0], est égale à stem:[4 pi xx 10^{-7}] stem:["unitsml(H m^{-1})"] avec une incertitude-type
+* la perméabilité magnétique du vide, stem:[mu_0], est égale à stem:[4 pi xx 10^(-7) "unitsml(H*m^(-1))"] avec une incertitude-type
 relative égale à celle de la valeur recommandée de la constante de structure fine(((constante, de structure fine))) stem:[alpha]
-au moment de l’adoption de la présente résolution, à savoir stem:[2.3 xx 10^{-10}]; dans le futur,
+au moment de l’adoption de la présente résolution, à savoir stem:[2.3 xx 10^(-10)]; dans le futur,
 sa valeur sera déterminée de façon expérimentale,
-* la température thermodynamique du point triple de l’eau, stem:[ii(T)_("TPW")], est égale à stem:[273.16 " ""unitsml(K)"] avec
+* la température thermodynamique du point triple de l’eau, stem:[ii(T)_("TPW")], est égale à stem:[273.16 "unitsml(K)"] avec
 une incertitude-type relative presque égale à celle de la valeur recommandée de stem:[k]
-au moment de l’adoption de la présente résolution, à savoir stem:[3.7 xx 10^{-7}]; dans le futur, sa
+au moment de l’adoption de la présente résolution, à savoir stem:[3.7 xx 10^(-7)]; dans le futur, sa
 valeur sera déterminée de façon expérimentale,
-* la masse molaire du carbone 12, stem:[ii(M)(""^{12}"C")], est égale à stem:[0.012] stem:["unitsml(kg mol^{-1})"] avec une incertitude-type
+* la masse molaire du carbone 12, stem:[ii(M)(""^{12}"C")], est égale à stem:[0.012 "unitsml(kg*mol^(-1))"] avec une incertitude-type
 relative égale à celle de la valeur recommandée de stem:[ii(N)_"A"h] au moment de l’adoption de la
-présente résolution, à savoir stem:[4.5 xx 10^{-10}]; dans le futur, sa valeur sera déterminée de façon
+présente résolution, à savoir stem:[4.5 xx 10^(-10)]; dans le futur, sa valeur sera déterminée de façon
 expérimentale.
 
 
@@ -3244,41 +3244,41 @@ l’aide d’une ou plusieurs de ces constantes, selon les cas. Les définitions
 qui prendront effet à compter du 20 mai 2019, sont les suivantes:
 
 * La seconde, symbole stem:["unitsml(s)"], est l’unité de temps du SI. Elle est définie en prenant la valeur
-numérique fixée de la fréquence du césium, stem:[Delta nu_{Cs}], la fréquence de la transition hyperfine de
+numérique fixée de la fréquence du césium, stem:[Delta ii(nu)_{"Cs"}], la fréquence de la transition hyperfine de
 l’état fondamental de l’atome de césium 133 non perturbé, égale à 9192631770 lorsqu’elle
-est exprimée en stem:["unitsml(Hz)"], unité égale à stem:["unitsml(s^{-1})"].
+est exprimée en stem:["unitsml(Hz)"], unité égale à stem:["unitsml(s^(-1))"].
 
 * Le mètre, symbole stem:["unitsml(m)"], est l’unité de longueur du SI. Il est défini en prenant la valeur
 numérique fixée de la ((vitesse de la lumière dans le vide)), stem:[c], égale à stem:[299792458] lorsqu’elle
-est exprimée en stem:["unitsml(m//s)"], la seconde étant définie en fonction de stem:[Delta nu_{Cs}].
+est exprimée en stem:["unitsml(m/s)"], la seconde étant définie en fonction de stem:[Delta ii(nu)_{"Cs"}].
 
 * Le kilogramme, symbole stem:["unitsml(kg)"], est l’unité de masse du SI. Il est défini en prenant la valeur
 numérique fixée de la constante de Planck(((constante, de Planck))), stem:[h], égale à stem:[6.6267015 xx 10^{-34}] lorsqu’elle est
-exprimée en stem:["unitsml(J s)"], unité égale à stem:["unitsml(kg m^2 s^{-1})"], le mètre et la seconde étant définis en fonction de stem:[c]
-et stem:[Delta nu_{Cs}].
+exprimée en stem:["unitsml(J*s)"], unité égale à stem:["unitsml(kg*m^2*s^(-1))"], le mètre et la seconde étant définis en fonction de stem:[c]
+et stem:[Delta ii(nu)_{"Cs"}].
 
-* L’ampère(((ampère (A)))), symbole stem:["unitsml(A)"], est l’unité de courant électrique du SI. Il est défini en prenant la valeur
-numérique fixée de la charge élémentaire, stem:[e], égale à stem:[1.602176634 xx 10^{-19}] lorsqu’elle est
-exprimée en stem:["unitsml(C)"], unité égale à stem:["unitsml(A s)"], la seconde étant définie en fonction de stem:[Delta nu_{Cs}].
+* L’ampère(((ampère (stem:["unitsml(A)"])))), symbole stem:["unitsml(A)"], est l’unité de courant électrique du SI. Il est défini en prenant la valeur
+numérique fixée de la charge élémentaire, stem:[e], égale à stem:[1.602176634 xx 10^(-19)] lorsqu’elle est
+exprimée en stem:["unitsml(C)"], unité égale à stem:["unitsml(A*s)"], la seconde étant définie en fonction de stem:[Delta ii(nu)_{"Cs"}].
 
 * Le kelvin, symbole stem:["unitsml(K)"], est l’unité de température thermodynamique du SI. Il est défini en
 prenant la valeur numérique fixée de la constante de Boltzmann, stem:[k], égale à stem:[1.380649 xx 10^{-23}]
-lorsqu’elle est exprimée en stem:["unitsml(J K^{-1})"], unité égale à stem:["unitsml(kg m^2 s^{-2} K^{-1})"], le kilogramme, le mètre et la
-seconde étant définis en fonction de stem:[h], stem:[c] et stem:[Delta nu_{Cs}].
+lorsqu’elle est exprimée en stem:["unitsml(J*K^(-1))"], unité égale à stem:["unitsml(kg*m^2*s^(-2)*K^(-1))"], le kilogramme, le mètre et la
+seconde étant définis en fonction de stem:[h], stem:[c] et stem:[Delta ii(nu)_{"Cs"}].
 
 * La mole, symbole stem:["unitsml(mol)"], est l’unité de quantité de matière du SI. Une mole contient exactement
 stem:[6.02214076 xx 10^23] entités élémentaires. Ce nombre, appelé «&nbsp;nombre d’Avogadro&nbsp;»,
 correspond à la valeur numérique fixée de la constante d’Avogadro, stem:[ii(N)_"A"], lorsqu’elle est
-exprimée en stem:["unitsml(mol^{-1})"].
+exprimée en stem:["unitsml(mol^(-1))"].
 +
 --
 La quantité de matière, symbole stem:[n], d’un système est une représentation du nombre d’entités
 élémentaires spécifiées. Une entité élémentaire peut être un atome, une molécule, un ion,
 un électron, ou toute autre particule ou groupement spécifié de particules.
 --
-* La candela(((candela (cd)))), symbole cd, est l’unité du SI d’intensité lumineuse dans une direction donnée.
+* La candela(((candela (stem:["unitsml(cd)"])))), symbole stem:["unitsml(cd)"], est l’unité du SI d’intensité lumineuse dans une direction donnée.
 Elle est définie en prenant la valeur numérique fixée de l’efficacité lumineuse d’un
-rayonnement monochromatique de fréquence stem:[540 xx 10^12" ""unitsml(Hz)"], Kcd, égale à 683 lorsqu’elle est
-exprimée en stem:["unitsml(lm W^{-1})"], unité égale à stem:["unitsml(cd sr W^{-1})"], ou stem:["unitsml(cd sr kg^{-1} m^{-2} s^3)"], le kilogramme, le mètre et
-la seconde étant définis en fonction de stem:[h], stem:[c] et stem:[Delta nu_{Cs}].
+rayonnement monochromatique de fréquence stem:[540 xx 10^12"unitsml(Hz)"], stem:[ii(K)_"cd"], égale à 683 lorsqu’elle est
+exprimée en stem:["unitsml(lm*W^(-1))"], unité égale à stem:["unitsml(cd*sr*W^(-1))"], ou stem:["unitsml(cd*sr*kg^(-1)*m^(-2)*s^3)"], le kilogramme, le mètre et
+la seconde étant définis en fonction de stem:[h], stem:[c] et stem:[Delta ii(nu)_{"Cs"}].
 
