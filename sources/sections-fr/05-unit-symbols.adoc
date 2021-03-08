@@ -59,8 +59,8 @@ Les noms des unités sont imprimés en caractères droits et sont considérés c
 ordinaires. En français et en anglais, les noms d’unités commencent par une minuscule
 (même si le symbole de l’unité commence par une majuscule) sauf s’ils se trouvent placés
 au début d’une phrase ou dans un titre en majuscules. Selon cette règle, l’écriture correcte
-du nom de l’unité dont le symbole est stem:["unitsml(degC)"] est «&nbsp;degré Celsius&nbsp;»(((degré Celsius (stem:["unitsml(degC)"])))) (l’unité degré commence par
-la lettre d en minuscule et le qualificatif «&nbsp;Celsius&nbsp;» commence par la lettre C en majuscule,
+du nom de l’unité dont le symbole est stem:["unitsml(degC)"] est «{nbsp}degré Celsius{nbsp}»(((degré Celsius (stem:["unitsml(degC)"])))) (l’unité degré commence par
+la lettre d en minuscule et le qualificatif «{nbsp}Celsius{nbsp}» commence par la lettre C en majuscule,
 parce que c’est un nom propre).
 
 Bien que les valeurs des grandeurs soient généralement exprimées au moyen de nombres et
@@ -78,7 +78,7 @@ individuelles, il convient d’utiliser une espace ou un tiret pour séparer cha
 === Règles et conventions stylistiques servant à exprimer les valeurs des grandeurs index-range:symboles_recommandes[(((grandeurs,symboles (recommandés))))] index-range:valeur_numerique[(((grandeurs,valeur numérique)))] (((symboles,unités (obligatoires))))
 
 [[scls541]]
-==== Valeur et valeur numérique d’une grandeur; utilisation du calcul formel index-range:calcul_formel[(((calcul formel)))]
+==== Valeur et valeur numérique d’une grandeur{nbsp}; utilisation du calcul formel index-range:calcul_formel[(((calcul formel)))]
 
 Les symboles des grandeurs sont en général formés d’une seule lettre en italique mais des
 informations complémentaires sur la grandeur peuvent être précisées par un indice ou un
@@ -89,10 +89,10 @@ molaire à volume constant.
 (((IUPAC,livre vert)))((("IUPAP SUNAMCO, livre rouge")))
 
 Les noms et symboles recommandés pour les grandeurs figurent dans de nombreux
-ouvrages de référence, tels que la série de normes ISO/IEC 80000(((ISO,série ISO/IEC 80000))) «&nbsp;__Grandeurs et unités__&nbsp;»,
-le «&nbsp;livre rouge&nbsp;» de l’IUPAP SUNAMCO intitulé «&nbsp;__Symbols, Units and Nomenclature in
-Physics__&nbsp;» et le «&nbsp;livre vert&nbsp;» de l’IUPAC(((IUPAC))) intitulé «&nbsp;__Quantities, Units and Symbols in
-Physical Chemistry__&nbsp;». Toutefois, les symboles des grandeurs ne sont que recommandés
+ouvrages de référence, tels que la série de normes ISO/IEC 80000(((ISO,série ISO/IEC 80000))) «{nbsp}__Grandeurs et unités__{nbsp}»,
+le «{nbsp}livre rouge{nbsp}» de l’IUPAP SUNAMCO intitulé «{nbsp}__Symbols, Units and Nomenclature in
+Physics__{nbsp}» et le «{nbsp}livre vert{nbsp}» de l’IUPAC(((IUPAC))) intitulé «{nbsp}__Quantities, Units and Symbols in
+Physical Chemistry__{nbsp}». Toutefois, les symboles des grandeurs ne sont que recommandés
 (alors qu’il est obligatoire d’utiliser les symboles corrects des unités). Dans certaines
 circonstances, les auteurs peuvent préférer utiliser le symbole de leur choix pour une
 grandeur donnée, par exemple pour éviter un conflit résultant de l’utilisation du même
@@ -107,7 +107,7 @@ Une telle démarche applique les principes du calcul formel ou de l’algèbre d
 Par exemple l’équation stem:[p = 48 "unitsml(kPa)"] peut aussi s’écrire stem:[p//"unitsml(kPa)" = 48]. Il est courant d’écrire le
 quotient d’une grandeur et d’une unité en tête de colonne d’un tableau, afin que les entrées
 du tableau soient simplement des nombres. Par exemple, un tableau exprimant la vitesse au
-carré en fonction d’une pression peut prendre la forme suivante:
+carré en fonction d’une pression peut prendre la forme suivante{nbsp}:
 
 [%unnumbered]
 [cols="^,^"]
@@ -133,12 +133,12 @@ image:si-brochure/img01.png[]
 Le symbole de l’unité ne doit pas être utilisé pour fournir des informations spécifiques sur
 la grandeur en question et il ne doit jamais être la seule source d’information sur la
 grandeur. Les unités ne doivent jamais servir à fournir des informations complémentaires
-sur la nature de la grandeur; ce type d’information doit être attaché au symbole de la
+sur la nature de la grandeur{nbsp}; ce type d’information doit être attaché au symbole de la
 grandeur et non à celui de l’unité.
 
 [NOTE]
 ====
-Par exemple, la différence de potentiel électrique maximale s’exprime sous la forme: +
+Par exemple, la différence de potentiel électrique maximale s’exprime sous la forme{nbsp}: +
 stem:[ii(U)_{"max"} = 1000 "unitsml(V)"] +
 mais pas +
 stem:[ii(U) = 1000 " " ii(V)_{"max"}]. +
@@ -160,9 +160,9 @@ pour lesquels il n’y a pas d’espace entre la valeur numérique et le symbole
 
 NOTE: stem:[m = 12.3 "unitsml(g)"] où m est
 utilisé comme symbole de la
-grandeur «&nbsp;masse&nbsp;» mais stem:[phi = 30° 22&#x2032; 8&#x2033;]
+grandeur «{nbsp}masse{nbsp}» mais stem:[phi = 30° 22&#x2032; 8&#x2033;]
 où stem:[phi] est utilisé comme symbole
-de la grandeur «&nbsp;angle plan&nbsp;»(((angle))).
+de la grandeur «{nbsp}angle plan{nbsp}»(((angle))).
 
 Cette règle signifie que le symbole stem:["unitsml(degC)"] pour le degré Celsius(((degré Celsius (stem:["unitsml(degC)"])))) est précédé d’une espace pour
 exprimer la valeur de la température Celsius, stem:[t].
@@ -181,7 +181,7 @@ grammaticales ordinaires (voir un exemple en anglais page <<english-doc,anchor=e
 (((temps,durée)))
 
 Dans une expression donnée, une seule unité doit être utilisée. Les valeurs des grandeurs
-«&nbsp;temps&nbsp;» et «&nbsp;angle plan&nbsp;»(((angle))) exprimées au moyen d’unités en dehors du SI font exception à
+«{nbsp}temps{nbsp}» et «{nbsp}angle plan{nbsp}»(((angle))) exprimées au moyen d’unités en dehors du SI font exception à
 cette règle. Toutefois, en ce qui concerne l’angle(((angle))) plan, il est généralement préférable de
 diviser le degré de manière décimale. Ainsi, il est préférable d’écrire 22.20° plutôt que
 22° 12′, sauf dans les domaines tels que la navigation, la cartographie, l’astronomie et la
@@ -197,9 +197,9 @@ stem:[l = 10 "unitsml(m)"" " 23.4 "unitsml(cm)"]
 ==== Écriture des nombres et séparateur décimal (((séparateur décimal)))
 
 Le symbole utilisé pour séparer le nombre entier de sa partie décimale est appelé
-«&nbsp;séparateur décimal&nbsp;». Conformément à la décision de la CGPM à sa 22^e^ réunion
-(2003, Résolution 10), «&nbsp;le symbole du séparateur décimal pourra être le point sur la ligne
-ou la virgule sur la ligne&nbsp;». Le séparateur décimal choisi sera celui qui est d’usage courant
+«{nbsp}séparateur décimal{nbsp}». Conformément à la décision de la CGPM à sa 22^e^ réunion
+(2003, Résolution 10), «{nbsp}le symbole du séparateur décimal pourra être le point sur la ligne
+ou la virgule sur la ligne{nbsp}». Le séparateur décimal choisi sera celui qui est d’usage courant
 selon la langue concernée et le contexte.
 
 Si le nombre se situe entre +1 et −1, le ((séparateur décimal)) est toujours précédé d’un zéro.
@@ -215,7 +215,7 @@ peuvent être partagés en tranches de trois chiffres(((chiffres groupés par tr
 lecture. Ces tranches ne sont jamais séparées par des points, ni par des virgules. Cependant,
 lorsqu’il n’y a que quatre chiffres avant ou après le ((séparateur décimal)), il est d’usage de ne
 pas isoler un chiffre par une espace. L’habitude de grouper ainsi les chiffres est question de
-choix personnel; elle n’est pas toujours suivie dans certains domaines spécialisés tels que le
+choix personnel{nbsp}; elle n’est pas toujours suivie dans certains domaines spécialisés tels que le
 dessin industriel, les documents financiers et les scripts qui doivent être lus par ordinateur.
 
 NOTE: stem:[43279.16829] mais pas stem:[43.279.168.29]
@@ -232,7 +232,7 @@ L’incertitude associée à la valeur estimée d’une grandeur doit être éva
 accord avec le Guide JCGM 100:2008 (GUM 1995 avec des corrections mineures),
 _Évaluation des données de mesure - Guide pour l’expression de l’incertitude de mesure_.
 L’incertitude-type associée à une grandeur stem:[x] est désignée par stem:[u(x)]. Un moyen commode de
-représenter l’incertitude-type est donné dans l’exemple suivant:
+représenter l’incertitude-type est donné dans l’exemple suivant{nbsp}:
 
 [stem%unnumbered]
 ++++
@@ -241,7 +241,7 @@ m_"n" = 1.674927471(21) xx 10^{-27} "unitsml(kg)"
 
 où stem:[m_"n"] est le symbole de la grandeur (ici la ((masse)) du neutron) et le nombre entre parenthèses
 la valeur numérique de l’incertitude-type sur les deux derniers chiffres de la valeur estimée
-de stem:[m_"n"], dans le cas présent : stem:[u(m_"n") = 0.000000021 xx 10^{-27} "unitsml(kg)"]. Si une incertitude élargie
+de stem:[m_"n"], dans le cas présent{nbsp}: stem:[u(m_"n") = 0.000000021 xx 10^{-27} "unitsml(kg)"]. Si une incertitude élargie
 stem:[ii(U)(x)] est utilisée au lieu de l’incertitude-type stem:[u(x)], alors la probabilité d’élargissement stem:[p] et le
 facteur d’élargissement stem:[k] doivent être précisés. [[valeur_numerique]] [[incertitude-2]]
 
@@ -249,7 +249,7 @@ facteur d’élargissement stem:[k] doivent être précisés. [[valeur_numerique
 ==== Multiplication ou division des symboles des grandeurs, des valeurs des grandeurs et des nombres
 
 Pour multiplier ou diviser les symboles des grandeurs, il est possible d’utiliser n’importe
-laquelle des écritures suivantes: stem:[ab], stem:[a] stem:[b], stem:[a * b], stem:[a xx b], stem:[a//b],
+laquelle des écritures suivantes{nbsp}: stem:[ab], stem:[a] stem:[b], stem:[a * b], stem:[a xx b], stem:[a//b],
 stem:[a/b], stem:[a b^(-1)].
 
 Lorsque l’on multiplie la valeur des grandeurs, il convient d’utiliser un signe de
@@ -277,13 +277,13 @@ stem:["(a/b)/c"], mais pas stem:["a/b/c"]
 [[scls547]]
 ==== Écriture des valeurs des grandeurs exprimées par des nombres
 
-Comme mentionné dans la <<dim_des_grandeurs>>, les valeurs des grandeurs d’unité «&nbsp;un&nbsp;» sont
-simplement exprimées par des nombres. Le symbole d’unité, 1, ou le nom d’unité «&nbsp;un&nbsp;»
+Comme mentionné dans la <<dim_des_grandeurs>>, les valeurs des grandeurs d’unité «{nbsp}un{nbsp}» sont
+simplement exprimées par des nombres. Le symbole d’unité, 1, ou le nom d’unité «{nbsp}un{nbsp}»
 ne sont pas écrits explicitement. Comme les symboles de préfixes du SI ne peuvent pas être
-attachés au symbole 1 ni au nom d’unité «&nbsp;un&nbsp;», les puissances de 10 sont utilisées pour
+attachés au symbole 1 ni au nom d’unité «{nbsp}un{nbsp}», les puissances de 10 sont utilisées pour
 exprimer les valeurs particulièrement grandes ou particulièrement petites.
 
-NOTE: stem:[n = 1.51] mais pas stem:[n = 1.51 xx 1] où stem:[n] est le symbole de la grandeur «&nbsp;indice de réfraction&nbsp;»
+NOTE: stem:[n = 1.51] mais pas stem:[n = 1.51 xx 1] où stem:[n] est le symbole de la grandeur «{nbsp}indice de réfraction{nbsp}»
 
 Les grandeurs qui sont des rapports de grandeurs de même nature (rapports de longueur,
 fractions molaires, etc.) peuvent être exprimées avec des unités (stem:["unitsml(m/m)", "unitsml(mol/mol)"]) afin de
@@ -293,25 +293,25 @@ grandeurs de comptage(((grandeurs,de comptage))) qui sont simplement des nombres
 
 Le symbole % (pour cent), qui est internationalement reconnu, peut être utilisé avec le SI.
 Quand il est utilisé, il convient de mettre une espace entre le nombre et le symbole %. Il est
-préférable d’utiliser le symbole % plutôt que le nom «&nbsp;pour cent&nbsp;». Dans un texte écrit,
-le symbole % signifie en général «&nbsp;parties par centaine&nbsp;». Les expressions telles que
-«&nbsp;pourcentage de masse&nbsp;», «&nbsp;pourcentage de volume&nbsp;», «&nbsp;pourcentage de quantité de
-matière&nbsp;», ne doivent pas être utilisées; les informations sur la grandeur en question doivent
+préférable d’utiliser le symbole % plutôt que le nom «{nbsp}pour cent{nbsp}». Dans un texte écrit,
+le symbole % signifie en général «{nbsp}parties par centaine{nbsp}». Les expressions telles que
+«{nbsp}pourcentage de masse{nbsp}», «{nbsp}pourcentage de volume{nbsp}», «{nbsp}pourcentage de quantité de
+matière{nbsp}», ne doivent pas être utilisées{nbsp}; les informations sur la grandeur en question doivent
 être données par le nom et le symbole de la grandeur.
 
-Le terme «&nbsp;ppm&nbsp;»(((ppm))), qui signifie stem:[10^(-6)] en valeur relative ou stem:[1 xx 10^(-6)] ou «&nbsp;parties par million&nbsp;»,
-est également utilisé. L’expression est analogue à «&nbsp;pour cent&nbsp;» dans le sens de parties par
-centaine. Les termes «&nbsp;partie par milliard&nbsp;» et «&nbsp;partie par millier de milliards&nbsp;» [billion
-(États-Unis)/trillion (Royaume-Uni)] et leur abréviation respective «&nbsp;ppb&nbsp;»(((ppb))) et «&nbsp;ppt&nbsp;» sont
+Le terme «{nbsp}ppm{nbsp}»(((ppm))), qui signifie stem:[10^{-6}] en valeur relative ou stem:[1 xx 10^{-6}] ou «{nbsp}parties par million{nbsp}»,
+est également utilisé. L’expression est analogue à «{nbsp}pour cent{nbsp}» dans le sens de parties par
+centaine. Les termes «{nbsp}partie par milliard{nbsp}» et «{nbsp}partie par millier de milliards{nbsp}» [billion
+(États-Unis)/trillion (Royaume-Uni)] et leur abréviation respective «{nbsp}ppb{nbsp}»(((ppb))) et «{nbsp}ppt{nbsp}» sont
 également utilisés mais comme leur signification varie selon la langue, il est préférable
 d’éviter de les employer.
 
 [NOTE]
 ====
 Bien que dans les pays de langue anglaise le
-terme «&nbsp;billion&nbsp;» corresponde à stem:[10^9],
-et le terme «&nbsp;trillion&nbsp;» à stem:[10^(12)], le terme «&nbsp;billion&nbsp;»
-peut parfois correspondre à stem:[10^(12)] et «&nbsp;trillion&nbsp;» à stem:[10^(18)].
+terme «{nbsp}billion{nbsp}» corresponde à stem:[10^9],
+et le terme «{nbsp}trillion{nbsp}» à stem:[10^(12)], le terme «{nbsp}billion{nbsp}»
+peut parfois correspondre à stem:[10^(12)] et «{nbsp}trillion{nbsp}» à stem:[10^(18)].
 L’abréviation ((ppt)) est aussi parfois comprise comme
 une partie par millier (ou millième), ce qui est
 source de confusion supplémentaire.
@@ -327,7 +327,7 @@ et celle de l’angle(((angle))) solide est le stéradian(((stéradian (sr)))), 
 Lorsqu’il est exprimé en radian, l’angle(((angle))) plan entre deux lignes partant d’un point commun
 est la ((longueur)) de l’arc circulaire stem:[s] balayée entre ces lignes par un vecteur rayon de
 longueur stem:[r] depuis le point commun, divisée par la longueur du vecteur rayon, stem:[ii(theta) = s//r] stem:["unitsml(rad)"].
-L’angle(((angle))) de phase (communément appelé «&nbsp;phase&nbsp;») est l’argument de tout nombre
+L’angle(((angle))) de phase (communément appelé «{nbsp}phase{nbsp}») est l’argument de tout nombre
 complexe. C’est l’angle(((angle))) entre l’axe réél positif et le rayon de la représentation polaire du
 nombre complexe dans le plan complexe.
 
@@ -350,18 +350,18 @@ au carré en général. [[regles_ecriture]] [[symboles_recommandes]] [[symboles_
 ====
 Lorsque le SI a été adopté par la CGPM
 à sa 11^e^ réunion en 1960, la classe des
-«&nbsp;unités supplémentaires&nbsp;»
+«{nbsp}unités supplémentaires{nbsp}»
 a été créée afin d’inclure le radian
 et le stéradian. Des décennies plus tard,
-la CGPM a décidé:
+la CGPM a décidé{nbsp}:
 
-. «&nbsp;d’interpréter les unités supplémentaires,
+. «{nbsp}d’interpréter les unités supplémentaires,
 dans le SI, c’est-à-dire le radian et
 le stéradian, comme des unités dérivées sans
 dimension dont les noms et les symboles
 peuvent être utilisés, mais pas nécessairement,
 dans les expressions d’autres unités dérivées
-SI, suivant les besoins&nbsp;» et
+SI, suivant les besoins{nbsp}» et
 
 . de supprimer la classe des unités
 supplémentaires en tant que classe séparée dans
