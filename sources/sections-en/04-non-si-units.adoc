@@ -40,8 +40,8 @@ index-range:non_si_units[(((non-SI units)))]
 | energy | electronvolt (((electronvolt (eV)))) footnote:[The electronvolt is the kinetic energy acquired by an electron in passing through a potential difference of one volt in vacuum. The electronvolt is often combined with the ((SI prefixes)).] | stem:["unitsml(eV)"] | stem:[1 "unitsml(eV)" = 1.602176634 xx 10^(−19) "unitsml(J)"]
 
 .3+| logarithmic ratio quantities | neper footnote:h[In using these units it is important that the nature of the quantity be specified and that any reference value used be specified.] | stem:["unitsml(Np)"] | see text
-| bel(((bel (B)))) footnote:h[] | stem:["unitsml(B)"] |
-| decibel footnote:h[] | stem:["unitsml(dB)"] | (((decibel (dB))))
+| bel(((bel (B)))) footnote:h[] | stem:["unitsml(bel_B)"] |
+| decibel footnote:h[] | stem:["unitsml(dbel_B)"] | (((decibel (dB))))
 |===
 
 {nbsp}[[logarithmic_ratio]] [[neper_np]] [[non_si_units]]
@@ -51,11 +51,11 @@ index-range:non_si_units[(((non-SI units)))]
 ====
 The gal (symbol: stem:["unitsml(Gal)"]) is a non SI unit of acceleration employed in geodesy and geophysics to express acceleration due to gravity ((("acceleration due to gravity, standard value of " (stem:[g_{"n"}])))) (((gal (Gal))))
 
-stem:[1 "unitsml(Gal)" = 1 "unitsml(cm*s^(−2))"] +
-stem:[= 10^(−2) "unitsml(m*s^(−2))"]
+stem:[1 "unitsml(Gal)" = 1 "unitsml(cm*s^(-2))"] +
+stem:[= 10^(−2) "unitsml(m*s^(-2))"]
 ====
 
-<<table8>> also includes the units of logarithmic ratio quantities, the neper, bel(((bel (B)))) and decibel(((decibel (dB)))). They are used to convey information on the nature of the logarithmic ratio quantity concerned. The neper, stem:["unitsml(Np)"], is used to express the values of quantities whose numerical values are based on the use of the neperian (or natural) logarithm, stem:["ln" = "log"_"e"]. The bel(((bel (B)))) and the decibel(((decibel (dB)))), stem:["unitsml(B)"] and stem:["unitsml(dB)"], where stem:[1 "unitsml(dB)" = (1//10) "unitsml(B)"], are used to express the values of logarithmic ratio quantities whose numerical values are based on the decadic logarithm, stem:["lg" = "log"_(10)]. The statement stem:[ii(L)_X = m "unitsml(dB)" = (m //10) "unitsml(B)"] (where stem:[m] is a number) is interpreted to mean that stem:[m = 10 " lg"(ii(X)//ii(X)_0)]. The units neper, bel(((bel (B)))) and decibel(((decibel (dB)))) have been accepted by the CIPM for use with the International System, but are not SI units.
+<<table8>> also includes the units of logarithmic ratio quantities, the neper, bel(((bel (B)))) and decibel(((decibel (dB)))). They are used to convey information on the nature of the logarithmic ratio quantity concerned. The neper, stem:["unitsml(Np)"], is used to express the values of quantities whose numerical values are based on the use of the neperian (or natural) logarithm, stem:["ln" = "log"_"e"]. The bel(((bel (B)))) and the decibel(((decibel (dB)))), stem:["unitsml(bel_B)"] and stem:["unitsml(dbel_B)"], where stem:[1 "unitsml(dbel_B)" = (1//10) "unitsml(bel_B)"], are used to express the values of logarithmic ratio quantities whose numerical values are based on the decadic logarithm, stem:["lg" = "log"_(10)]. The statement stem:[ii(L)_X = m "unitsml(dbel_B)" = (m //10) "unitsml(bel_B)"] (where stem:[m] is a number) is interpreted to mean that stem:[m = 10 " lg"(ii(X)//ii(X)_0)]. The units neper, bel(((bel (B)))) and decibel(((decibel (dB)))) have been accepted by the CIPM for use with the International System, but are not SI units.
 (((foot)))(((inch)))(((yard)))
 
 There are many more non-SI units, which are either of historical interest, or are still used in specific fields (for example, the barrel of oil) or in particular countries (the inch, foot and yard). The CIPM can see no case for continuing to use these units in modern scientific and technical work. However, it is clearly a matter of importance to be able to recall the relation of these units to the corresponding SI units and this will continue to be true for many years.

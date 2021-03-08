@@ -57,8 +57,8 @@ potentiel de stem:[1 "unitsml(V)"] dans le vide. L’électronvolt est souvent c
 footnote:note-h[Lorsque l’on utilise ces unités, il est important de
 préciser quelle est la nature de la grandeur en
 question et la valeur de référence utilisée.] | stem:["unitsml(Np)"] | voir notes de bas de page
-| bel footnote:note-h[] | stem:["unitsml(B)"] |
-| decibel footnote:note-h[] | stem:["unitsml(dB)"] |
+| bel footnote:note-h[] | stem:["unitsml(bel_B)"] |
+| decibel footnote:note-h[] | stem:["unitsml(dbel_B)"] |
 |===
 
 [NOTE]
@@ -67,8 +67,8 @@ Le gal, symbole stem:["unitsml(Gal)"], est une unité en dehors
 du SI utilisée en géodésie et géophysique pour
 exprimer l’accélération due à la pesanteur ((("accélération due à la pesanteur "(stem:[g_{"n"}])))).
 
-stem:[1 "unitsml(Gal)" = 1 "unitsml(cm*s^(−2))"] +
-stem:[= 10^(−2) "unitsml(m*s^(−2))"]
+stem:[1 "unitsml(Gal)" = 1 "unitsml(cm*s^(-2))"] +
+stem:[= 10^(−2) "unitsml(m*s^(-2))"]
 ====
 
 {nbsp}(((électronvolt (eV))))(((grandeurs,de base)))(((grandeurs,logarithmiques))) [[neper_np]] [[prefixes_si-2]] [[tonne]] [[unite_dehors_du]] [[bel_b]] [[dalton_a]] [[decibel_db]]
@@ -77,10 +77,10 @@ Le <<table-8>> mentionne aussi les unités des grandeurs logarithmiques, le nép
 décibel(((décibel (dB)))). Elles sont utilisées pour véhiculer des informations sur la nature du logarithme
 d’un rapport de grandeurs. Le néper, stem:["unitsml(Np)"], est utilisé pour exprimer la valeur de grandeurs
 dont la valeur numérique est un logarithme néperien (ou naturel) d’un rapport de grandeurs,
-stem:["ln" = "log"_"e"]. Le bel(((bel (B)))) et le décibel(((décibel (dB)))), stem:["unitsml(B)"] et stem:["unitsml(dB)"], stem:[1 "unitsml(dB)" = (1//10) "unitsml(B)"],
+stem:["ln" = "log"_"e"]. Le bel(((bel (B)))) et le décibel(((décibel (dB)))), stem:["unitsml(bel_B)"] et stem:["unitsml(dbel_B)"], stem:[1 "unitsml(dbel_B)" = (1//10) "unitsml(bel_B)"],
 sont utilisés pour exprimer la valeur
 de grandeurs dont la valeur numérique est un logarithme de base 10 d’un rapport de
-grandeurs, stem:["lg" = "log"_(10)]. L’égalité stem:[ii(L)_X = m "unitsml(dB)" = (m//10) "unitsml(B)"] (où stem:[m] est un nombre) est comprise
+grandeurs, stem:["lg" = "log"_(10)]. L’égalité stem:[ii(L)_X = m "unitsml(dbel_B)" = (m//10) "unitsml(bel_B)"] (où stem:[m] est un nombre) est comprise
 comme signifiant que stem:[m = 10 "lg"(ii(X)//ii(X)_0)]. L’usage des unités néper, bel(((bel (B)))) et décibel(((décibel (dB)))) avec le SI a
 été accepté par le CIPM mais ces unités ne sont pas des unités du SI.
 (((pied)))(((pouce)))(((yard)))

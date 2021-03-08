@@ -83,7 +83,7 @@ ii(L)_("b")(ii(lambda),ii(T)) = ((2hc^2)/(n^2 ii(lambda)^5)) 1/("exp"[hc//(n ii(
 
 where stem:[ii(T)] is the thermodynamic temperature, stem:[k] is the Boltzmann constant, stem:[h] is the Planck constant, stem:[c] is the speed of light in a vacuum, stem:[n] is the refractive index of the air <<boivin2010>>, <<gaertner>> at the detector, and stem:[ii(lambda)] is the wavelength in air. The constants in <<eq1>> are usually written in terms of the first and second radiation constants, stem:[c_1 = 2hc^2 = 1.191042972 xx 10^(-16)"unitsml(W*m^2)"] and stem:[c_2 = hc//k = 0.014387768"unitsml(m*K)"].
 
-The temperature of the blackbody is determined by measuring the spectral radiance within a defined spectral band. The units of spectral radiance are stem:["unitsml(W*m^(–2)*sr^(–1)*nm^(–1))"] and, therefore, a primary radiometric determination of thermodynamic temperature requires the power measurement to be traceable to the definition of the watt, and wavelength, area, and distance measurements to the definition of the metre.
+The temperature of the blackbody is determined by measuring the spectral radiance within a defined spectral band. The units of spectral radiance are stem:["unitsml(W*m^(-2)*sr^(-1)*nm^(-1))"] and, therefore, a primary radiometric determination of thermodynamic temperature requires the power measurement to be traceable to the definition of the watt, and wavelength, area, and distance measurements to the definition of the metre.
 
 Generally, this is achieved as follows:
 
@@ -159,9 +159,9 @@ Whichever scheme is used, the measurement equation takes the form
 i = int_0^(oo) s_ii(L) (ii(lambda)) ii(L)_("b")(ii(lambda),ii(T)) "d" ii(lambda),
 ++++
 
-where stem:[i] is the measured photocurrent, stem:[s_ii(L)(ii(lambda))] is the spectral radiance responsivity [units: stem:["unitsml(A*W^(–1)*m^2*sr)"] of the combined instrument, stem:[ii(L)_("b")(ii(lambda),ii(T))] is the spectral radiance of the blackbody, as given by <<eq1>>, stem:[ii(lambda)] is the wavelength in air, and stem:[ii(T)] is the thermodynamic temperature. This expression will be modified somewhat for the different schemes.
+where stem:[i] is the measured photocurrent, stem:[s_ii(L)(ii(lambda))] is the spectral radiance responsivity [units: stem:["unitsml(A*W^(-1)*m^2*sr)"] of the combined instrument, stem:[ii(L)_("b")(ii(lambda),ii(T))] is the spectral radiance of the blackbody, as given by <<eq1>>, stem:[ii(lambda)] is the wavelength in air, and stem:[ii(T)] is the thermodynamic temperature. This expression will be modified somewhat for the different schemes.
 
-For the _spectral power method_, the radiometer is calibrated for flux responsivity [units: stem:["unitsml(A*W^(–1))"] ] and two apertures are added for the blackbody measurement (see <<fig1>>). <<eq7>> is implemented using
+For the _spectral power method_, the radiometer is calibrated for flux responsivity [units: stem:["unitsml(A*W^(-1))"] ] and two apertures are added for the blackbody measurement (see <<fig1>>). <<eq7>> is implemented using
 
 [[eq8]]
 [stem]
@@ -183,7 +183,7 @@ image::img01.png[]
 image::img02.png[]
 ====
 
-For the _irradiance method_, the radiometer is calibrated for irradiance responsivity [units: stem:["unitsml(A*W^(–1)*m^2)"] ] with an overfilled aperture. It is then used with a second aperture added for the blackbody measurement (see <<fig2>>). <<eq7>> is implemented using
+For the _irradiance method_, the radiometer is calibrated for irradiance responsivity [units: stem:["unitsml(A*W^(-1)*m^2)"] ] with an overfilled aperture. It is then used with a second aperture added for the blackbody measurement (see <<fig2>>). <<eq7>> is implemented using
 
 [[eq9]]
 [stem]
@@ -244,7 +244,7 @@ Generally, <<eq7>> has additional multiplying constants to account for various c
 ii(V)_("signal") = i xx ii(G)_("amp"),
 ++++
 
-where stem:[ii(G)_("amp")] is the gain of a transimpedance amplifier [units: stem:["unitsml(V*A^(–1))"] ].
+where stem:[ii(G)_("amp")] is the gain of a transimpedance amplifier [units: stem:["unitsml(V*A^(-1))"] ].
 
 There will be further corrections for other effects. The hybrid and radiance methods will have a size-of-source effect (SSE) correction due to lens scatter (see <<sos_characteristic>> and <<sos_effect>>). The irradiance and power methods will have a similar diffraction correction for diffraction at the first aperture (see <<diffraction>>). These provide an additional correction factor, here generically given by the symbol stem:[ii(K)_("SSE")]. The power, irradiance, and hybrid methods will also have a correction for stray light, stem:[ii(K)_("stray")] (see <<stray_light>>).
 
@@ -1138,8 +1138,8 @@ h| stem:[ii(lambda) \\ ii(T)] h| stem:[1358 "unitsml(K)"] h| stem:[1500 "unitsml
 .Typical corrections and uncertainties related to the use of a monochromator-based spectroradiometer.
 |===
 h| Component h| Component value h| Uncertainty value h| Uncertainty unit h| Sensitivity value h| Sensitivity unit h| Temperature uncertainty at the copper point (stem:["unitsml(K)"])
-| stem:[ii(lambda)_("eff")] | stem:[8.000043 xx 10^(–7)] | stem:[1.0 xx 10^(–11)] | m | stem:[1.7 xx 10^9] | stem:["unitsml(K*m^(–1))"] | 0.017
-| Int(stem:[ii(lambda)_("eff")]) | stem:[2.9215 xx 10^(–8)] | stem:[5.3 xx 10^(–12)] | stem:["unitsml(V*W^(–1)*m^3*sr^1)"] | stem:[3.5 xx 10^9] | stem:["unitsml(K*V^(–1)*W*m^(–3)*sr^(–1))"] | 0.018
+| stem:[ii(lambda)_("eff")] | stem:[8.000043 xx 10^(–7)] | stem:[1.0 xx 10^(–11)] | m | stem:[1.7 xx 10^9] | stem:["unitsml(K*m^(-1))"] | 0.017
+| Int(stem:[ii(lambda)_("eff")]) | stem:[2.9215 xx 10^(–8)] | stem:[5.3 xx 10^(–12)] | stem:["unitsml(V*W^(-1)*m^3*sr^1)"] | stem:[3.5 xx 10^9] | stem:["unitsml(K*V^(-1)*W*m^(-3)*sr^(-1))"] | 0.018
 | stem:[ii(K)_("OOB")] | 1.0007 | stem:[2.0 xx 10^(–4)] | no unit | 105 | stem:["unitsml(K)"] | 0.021
 |===
 
@@ -1381,7 +1381,7 @@ image::img16.png[]
 
 A VTBB is generally not perfectly uniform. The FR and RT may view different areas of the VTBB's cavity bottom. Therefore, the uncertainty component stem:[u_("VTBB,uniform")] (and maybe a correction factor) associated with the VTBB uniformity must be estimated. To minimise the correction and associated uncertainty, the blackbody must be as uniform as possible and the geometry of the measurements (diameters of apertures, RT optics, and measurement distances) must be chosen in such a way that both detectors (RT and FR) see as close as possible the same area of the cavity bottom. The uniformity should be measured and then used for an estimation of the uncertainty.
 
-As an example, <<fig13>> shows the uniformity, plotted as a radiance distribution along the cavity bottom in the horizontal direction, of the blackbody BB3500M used at VNIIOFI as the VTBB for WP5 (WP1 of InK). The FR had an aperture of stem:[5"unitsml(mm)"] and was positioned at a distance of stem:[720"unitsml(mm)"] from the blackbody aperture (BB aperture), whose diameter was stem:[8"unitsml(mm)"]; the distance from the BB aperture to the blackbody bottom was stem:[350"unitsml(mm)"]. The RT had an effective lens aperture of stem:[34"unitsml(mm)"] and was focused at the BB aperture; the distance from the RT lens to the BB aperture was stem:[750"unitsml(mm)"]. So, the FR and RT detectors saw at the BB bottom circular areas with diameters of about stem:[14"unitsml(mm)"] and stem:[16"unitsml(mm)"], respectively; i.e., the RT saw a larger area. To check the influence of this difference, the RT was moved towards the BB aperture by about stem:[40"unitsml(mm)"] without re-focusing, so it saw in this position an area of about stem:[14"unitsml(mm)"] (similar to that of the FR). The difference between the RT temperature readings, stem:[Delta ii(T)_("RT,un")], taken in the two RT positions was stem:[0.04 ""unitsml(K)"], stem:[0.03"unitsml(K)"], and less than stem:[0.01"unitsml(K)"] for temperatures corresponding to the Co-C, Pt-C, and Re-C eutectic points, respectively. These values were applied as corrections, and the uncertainty component associated with the blackbody uniformity was estimated as stem:[0.02"unitsml(K)"] for Co-C and Pt-C, and stem:[0.01"unitsml(K)"] for Re-C, using an approximate relation:
+As an example, <<fig13>> shows the uniformity, plotted as a radiance distribution along the cavity bottom in the horizontal direction, of the blackbody BB3500M used at VNIIOFI as the VTBB for WP5 (WP1 of InK). The FR had an aperture of stem:[5"unitsml(mm)"] and was positioned at a distance of stem:[720"unitsml(mm)"] from the blackbody aperture (BB aperture), whose diameter was stem:[8"unitsml(mm)"]; the distance from the BB aperture to the blackbody bottom was stem:[350"unitsml(mm)"]. The RT had an effective lens aperture of stem:[34"unitsml(mm)"] and was focused at the BB aperture; the distance from the RT lens to the BB aperture was stem:[750"unitsml(mm)"]. So, the FR and RT detectors saw at the BB bottom circular areas with diameters of about stem:[14"unitsml(mm)"] and stem:[16"unitsml(mm)"], respectively; i.e., the RT saw a larger area. To check the influence of this difference, the RT was moved towards the BB aperture by about stem:[40"unitsml(mm)"] without re-focusing, so it saw in this position an area of about stem:[14"unitsml(mm)"] (similar to that of the FR). The difference between the RT temperature readings, stem:[Delta ii(T)_("RT,un")], taken in the two RT positions was stem:[0.04 "unitsml(K)"], stem:[0.03"unitsml(K)"], and less than stem:[0.01"unitsml(K)"] for temperatures corresponding to the Co-C, Pt-C, and Re-C eutectic points, respectively. These values were applied as corrections, and the uncertainty component associated with the blackbody uniformity was estimated as stem:[0.02"unitsml(K)"] for Co-C and Pt-C, and stem:[0.01"unitsml(K)"] for Re-C, using an approximate relation:
 
 [[eq76]]
 [stem]

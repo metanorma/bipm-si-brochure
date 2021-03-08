@@ -266,11 +266,11 @@ Note that with the present definition, primary realizations of the kelvin can, i
 *The mole*
 (((mole (stem:["unitsml(mol)"]))))
 
-*The mole, symbol stem:["unitsml(mol)"], is the SI unit of ((amount of substance)). One mole contains exactly stem:[6.02214076 xx 10^(23)] elementary entities. This number is the fixed numerical value of the ((Avogadro constant)), stem:[ii(N)_"A"], when expressed in the unit stem:["unitsml(mol^(−1))"] and is called the ((Avogadro number)).*
+*The mole, symbol stem:["unitsml(mol)"], is the SI unit of ((amount of substance)). One mole contains exactly stem:[6.02214076 xx 10^(23)] elementary entities. This number is the fixed numerical value of the ((Avogadro constant)), stem:[ii(N)_"A"], when expressed in the unit stem:["unitsml(mol^(-1))"] and is called the ((Avogadro number)).*
 
 *The ((amount of substance)), symbol stem:[n], of a system is a measure of the number of specified elementary entities. An elementary entity may be an atom, a molecule, an ion, an electron, any other particle or specified group of particles.*
 
-This definition implies the exact relation stem:[ii(N)_"A" = 6.02214076 xx 10^(23) "unitsml(mol^(−1))"]. Inverting this relation gives an exact expression for the mole in terms of the defining constant stem:[ii(N)_"A"]:
+This definition implies the exact relation stem:[ii(N)_"A" = 6.02214076 xx 10^(23) "unitsml(mol^(-1))"]. Inverting this relation gives an exact expression for the mole in terms of the defining constant stem:[ii(N)_"A"]:
 
 [stem%unnumbered]
 ++++
@@ -309,13 +309,13 @@ In the name "amount of substance", the word "substance" will typically be replac
 (((luminous intensity)))
 (((second (stem:["unitsml(s)"]))))
 
-*The candela, symbol stem:["unitsml(cd)"], is the SI unit of luminous intensity in a given direction. It is defined by taking the fixed numerical value of the ((luminous efficacy)) of monochromatic radiation of frequency stem:[540 xx 10^(12) "unitsml(Hz)"], stem:[ii(K)_("cd")], to be 683 when expressed in the unit stem:["unitsml(lm*W^(−1))"], which is equal to stem:["unitsml(cd*sr*W^(−1))"], or stem:["unitsml(cd*sr*kg^(−1)*m^(−2)*s^3)"], where the ((kilogram)), metre and second are defined in terms of stem:[h], stem:[c] and stem:[Delta ii(nu)_("Cs")].*
+*The candela, symbol stem:["unitsml(cd)"], is the SI unit of luminous intensity in a given direction. It is defined by taking the fixed numerical value of the ((luminous efficacy)) of monochromatic radiation of frequency stem:[540 xx 10^(12) "unitsml(Hz)"], stem:[ii(K)_("cd")], to be 683 when expressed in the unit stem:["unitsml(lm*W^(-1))"], which is equal to stem:["unitsml(cd*sr*W^(-1))"], or stem:["unitsml(cd*sr*kg^(-1)*m^(-2)*s^3)"], where the ((kilogram)), metre and second are defined in terms of stem:[h], stem:[c] and stem:[Delta ii(nu)_("Cs")].*
 
-This definition implies the exact relation stem:[ii(K)_("cd") = 683 "unitsml(cd*sr*kg^(−1)*m^(−2)*s^3)"] for monochromatic radiation of frequency stem:[ii(nu) = 540 xx 10^(12) "unitsml(Hz)"]. Inverting this relation gives an exact expression for the candela(((candela (stem:["unitsml(cd)"])))) in terms of the ((defining constants)) stem:[ii(K)_("cd")], stem:[h] and stem:[Delta ii(nu)_("Cs")]:
+This definition implies the exact relation stem:[ii(K)_("cd") = 683 "unitsml(cd*sr*kg^(-1)*m^(-2)*s^3)"] for monochromatic radiation of frequency stem:[ii(nu) = 540 xx 10^(12) "unitsml(Hz)"]. Inverting this relation gives an exact expression for the candela(((candela (stem:["unitsml(cd)"])))) in terms of the ((defining constants)) stem:[ii(K)_("cd")], stem:[h] and stem:[Delta ii(nu)_("Cs")]:
 
 [stem%unnumbered]
 ++++
-1 "unitsml(cd)" = (ii(K)_("cd")/683) "unitsml(kg*m^2*s^(-3)*sr^(−1))"
+1 "unitsml(cd)" = (ii(K)_("cd")/683) "unitsml(kg*m^2*s^(-3)*sr^(-1))"
 ++++
 
 which is equal to
@@ -330,7 +330,7 @@ which is equal to
 ~~ 2.6148305 xx 10^(10)(Delta ii(nu)_("Cs"))^2 h ii(K)_("cd") .
 ++++
 
-The effect of this definition is that one candela(((candela (stem:["unitsml(cd)"])))) is the luminous intensity, in a  given direction, of a source that emits monochromatic radiation of frequency stem:[540 xx 10^(12) "unitsml(Hz)"] and has a radiant intensity in that direction of stem:[(1//683) "unitsml(W*sr^(−1))"]. The definition of the steradian(((steradian (stem:["unitsml(sr)"])))) is given below <<table4>>. [[base_units]] [[def_base-units]]
+The effect of this definition is that one candela(((candela (stem:["unitsml(cd)"])))) is the luminous intensity, in a  given direction, of a source that emits monochromatic radiation of frequency stem:[540 xx 10^(12) "unitsml(Hz)"] and has a radiant intensity in that direction of stem:[(1//683) "unitsml(W*sr^(-1))"]. The definition of the steradian(((steradian (stem:["unitsml(sr)"])))) is given below <<table4>>. [[base_units]] [[def_base-units]]
 
 ==== Practical realization of SI units
 
@@ -409,30 +409,30 @@ index-range:steradian_sr[(((steradian (stem:["unitsml(sr)"]))))]
 .The 22 SI units with special names and symbols index-range:hertz_hz[(((hertz (stem:["unitsml(Hz)"]))))]
 [cols="<,<,<,<"]
 |===
-| Derived quantity index-range:derived_quantity[(((derived quantity)))] | Special name of unit | Unit expressed in terms of base units(((base unit(s)))) footnote:[The order of symbols for base units in this Table is different from that in the 8th edition following a decision by the CCU at its 21st meeting (2013) to return to the original order in Resolution 12 of the 11th CGPM (1960) in which newton was written stem:["unitsml(kg*m*s^(−2))"], the joule as stem:["unitsml(kg*m^2*s^(−2))"] and stem:["unitsml(J*s)"] as stem:["unitsml(kg*m^(−2)*s^(−1))"]. The intention was to reflect the underlying physics of the corresponding quantity equations although for some more complex derived units this may not be possible.] | Unit expressed in terms of other SI units
+| Derived quantity index-range:derived_quantity[(((derived quantity)))] | Special name of unit | Unit expressed in terms of base units(((base unit(s)))) footnote:[The order of symbols for base units in this Table is different from that in the 8th edition following a decision by the CCU at its 21st meeting (2013) to return to the original order in Resolution 12 of the 11th CGPM (1960) in which newton was written stem:["unitsml(kg*m*s^(-2))"], the joule as stem:["unitsml(kg*m^2*s^(-2))"] and stem:["unitsml(J*s)"] as stem:["unitsml(kg*m^(-2)*s^(-1))"]. The intention was to reflect the underlying physics of the corresponding quantity equations although for some more complex derived units this may not be possible.] | Unit expressed in terms of other SI units
 
 | plane angle | radian footnote:[The radian is the coherent unit for plane angle. One radian is the https://en.wikipedia.org/wiki/Angle[angle] https://en.wikipedia.org/wiki/Subtended[subtended] at the centre of a https://en.wikipedia.org/wiki/Circle[circle] by an https://en.wikipedia.org/wiki/Arc_%28geometry%29[arc] that is equal in length to the https://en.wikipedia.org/wiki/Radius[radius]. It is also the unit for phase angle. For periodic phenomena, the phase angle increases by stem:[2pi "unitsml(rad)"] in one period. The radian was formerly an https://en.wikipedia.org/wiki/SI_supplementary_unit[SI supplementary unit], but this category was abolished in 1995.] | stem:["unitsml(rad)" = "unitsml(m/m)"] |
 | solid angle | steradian(((steradian (stem:["unitsml(sr)"])))) footnote:[The steradian is the coherent unit for solid angle. One steradian is the solid angle subtended at the centre of a sphere by an area of the surface that is equal to the squared radius. Like the radian, the steradian was formerly an SI supplementary unit.] | stem:["unitsml(sr)" = "unitsml(m^2/m^2)"] |
-| frequency | hertz(((activity referred to a radionuclide))) footnote:d[The hertz shall only be used for periodic phenomena and the becquerel shall only be used for stochastic processes in activity referred to a radionuclide.] | stem:["unitsml(Hz)" = "unitsml(s^(−1))"] |
-| force | newton | stem:["unitsml(N)" = "unitsml(kg*m*s^(−2))"] | (((newton (stem:["unitsml(N)"]))))
-| pressure, stress | pascal | stem:["unitsml(Pa)" = "unitsml(kg*m^(-1)*s^(−2))"] | (((pascal (stem:["unitsml(Pa)"]))))
-| energy, work, amount of heat | joule | stem:["unitsml(J)" = "unitsml(kg*m^2*s^(−2))"] | stem:["unitsml(N*m)"]
-| power, radiant flux | watt(((watt (stem:["unitsml(W)"])))) | stem:["unitsml(W)" = "unitsml(kg*m^2*s^(−3))"] | stem:["unitsml(J/s)"]
+| frequency | hertz(((activity referred to a radionuclide))) footnote:d[The hertz shall only be used for periodic phenomena and the becquerel shall only be used for stochastic processes in activity referred to a radionuclide.] | stem:["unitsml(Hz)" = "unitsml(s^(-1))"] |
+| force | newton | stem:["unitsml(N)" = "unitsml(kg*m*s^(-2))"] | (((newton (stem:["unitsml(N)"]))))
+| pressure, stress | pascal | stem:["unitsml(Pa)" = "unitsml(kg*m^(-1)*s^(-2))"] | (((pascal (stem:["unitsml(Pa)"]))))
+| energy, work, amount of heat | joule | stem:["unitsml(J)" = "unitsml(kg*m^2*s^(-2))"] | stem:["unitsml(N*m)"]
+| power, radiant flux | watt(((watt (stem:["unitsml(W)"])))) | stem:["unitsml(W)" = "unitsml(kg*m^2*s^(-3))"] | stem:["unitsml(J/s)"]
 | electric charge | coulomb(((coulomb (stem:["unitsml(C)"])))) | stem:["unitsml(C)" = "unitsml(A*s)"] |
-| electric potential difference footnote:[Electric potential difference is also called "voltage" in many countries, as well as "electric tension" or simply "tension" in some countries.] | volt(((volt (stem:["unitsml(V)"])))) | stem:["unitsml(V)" = "unitsml(kg*m^2*s^(−3)*A^(−1))"] | stem:["unitsml(W/A)"]
-| capacitance | farad | stem:["unitsml(F)" = "unitsml(kg^(−1)*m^(−2)*s^4*A^2)"] | stem:["unitsml(C/V)"] (((farad (stem:["unitsml(F)"]))))
-| electric resistance | ohm | stem:["unitsml(Ohm)" = "unitsml(kg*m^2*s^(-3)*A^(−2))"] | stem:["unitsml(V/A)"] (((ohm (stem:["unitsml(Ohm)"]))))
-| electric conductance | siemens(((siemens (stem:["unitsml(S)"])))) | stem:["unitsml(S)" = "unitsml(kg^(−1)*m^(−2)*s^3*A^2)"] | stem:["unitsml(A/V)"]
-| magnetic flux | weber (((weber (stem:["unitsml(Wb)"])))) | stem:["unitsml(Wb)" = "unitsml(kg*m^2*s^(−2)*A^(−1))"] | stem:["unitsml(V*s)"]
-| magnetic flux density | tesla(((tesla (stem:["unitsml(T)"])))) | stem:["unitsml(T)" = "unitsml(kg*s^(−2)*A^(−1))"] | stem:["unitsml(Wb/m^2)"]
-| inductance | henry | stem:["unitsml(H)" = "unitsml(kg*m^2*s^(−2)*A^(−2))"] | stem:["unitsml(Wb/A)"] (((henry (stem:["unitsml(H)"]))))
+| electric potential difference footnote:[Electric potential difference is also called "voltage" in many countries, as well as "electric tension" or simply "tension" in some countries.] | volt(((volt (stem:["unitsml(V)"])))) | stem:["unitsml(V)" = "unitsml(kg*m^2*s^(-3)*A^(-1))"] | stem:["unitsml(W/A)"]
+| capacitance | farad | stem:["unitsml(F)" = "unitsml(kg^(-1)*m^(-2)*s^4*A^2)"] | stem:["unitsml(C/V)"] (((farad (stem:["unitsml(F)"]))))
+| electric resistance | ohm | stem:["unitsml(Ohm)" = "unitsml(kg*m^2*s^(-3)*A^(-2))"] | stem:["unitsml(V/A)"] (((ohm (stem:["unitsml(Ohm)"]))))
+| electric conductance | siemens(((siemens (stem:["unitsml(S)"])))) | stem:["unitsml(S)" = "unitsml(kg^(-1)*m^(-2)*s^3*A^2)"] | stem:["unitsml(A/V)"]
+| magnetic flux | weber (((weber (stem:["unitsml(Wb)"])))) | stem:["unitsml(Wb)" = "unitsml(kg*m^2*s^(-2)*A^(-1))"] | stem:["unitsml(V*s)"]
+| magnetic flux density | tesla(((tesla (stem:["unitsml(T)"])))) | stem:["unitsml(T)" = "unitsml(kg*s^(-2)*A^(-1))"] | stem:["unitsml(Wb/m^2)"]
+| inductance | henry | stem:["unitsml(H)" = "unitsml(kg*m^2*s^(-2)*A^(-2))"] | stem:["unitsml(Wb/A)"] (((henry (stem:["unitsml(H)"]))))
 | ((Celsius temperature)) | degree Celsius(((degree Celsius (stem:["unitsml(degC)"])))) footnote:[The degree Celsius(((degree Celsius (stem:["unitsml(degC)"])))) is used to express Celsius temperatures. The numerical value of a temperature difference or temperature interval is the same when expressed in either degrees Celsius or in kelvin.] | stem:["unitsml(degC)" = "unitsml(K)"] |
 | luminous flux | lumen(((lumen (stem:["unitsml(lm)"])))) | stem:["unitsml(lm)" = "unitsml(cd*sr)"] footnote:[In photometry the name steradian and the symbol stem:["unitsml(sr)"] are usually retained in expressions for units] | stem:["unitsml(cd*sr)"]
-| illuminance | lux (((lux (stem:["unitsml(lx)"])))) | stem:["unitsml(lx)" = "unitsml(cd*sr*m^(−2))"] | stem:["unitsml(lm/m^2)"]
-| ((activity referred to a radionuclide)) footnote:d[] footnote:[Activity referred to a radionuclide is sometimes incorrectly called radioactivity.]| becquerel(((becquerel (stem:["unitsml(Bq)"])))) | stem:["unitsml(Bq)" = "unitsml(s^(−1))"] |
-| ((absorbed dose)), kerma | gray (((gray (stem:["unitsml(Gy)"])))) | stem:["unitsml(Gy)" = "unitsml(m^2*s^(−2))"] | stem:["unitsml(J/kg)"] 
-| dose equivalent | sievert(((sievert (stem:["unitsml(Sv)"])))) footnote:[See CIPM Recommendation 2 on the use of the sievert (PV, 2002, *70*, 205).] | stem:["unitsml(Sv)" = "unitsml(m^2*s^(−2))"] | stem:["unitsml(J/kg)"]
-| catalytic activity | katal | stem:["unitsml(kat)" = "unitsml(mol*s^(−1))"] | (((katal (stem:["unitsml(kat)"]))))
+| illuminance | lux (((lux (stem:["unitsml(lx)"])))) | stem:["unitsml(lx)" = "unitsml(cd*sr*m^(-2))"] | stem:["unitsml(lm/m^2)"]
+| ((activity referred to a radionuclide)) footnote:d[] footnote:[Activity referred to a radionuclide is sometimes incorrectly called radioactivity.]| becquerel(((becquerel (stem:["unitsml(Bq)"])))) | stem:["unitsml(Bq)" = "unitsml(s^(-1))"] |
+| ((absorbed dose)), kerma | gray (((gray (stem:["unitsml(Gy)"])))) | stem:["unitsml(Gy)" = "unitsml(m^2*s^(-2))"] | stem:["unitsml(J/kg)"] 
+| dose equivalent | sievert(((sievert (stem:["unitsml(Sv)"])))) footnote:[See CIPM Recommendation 2 on the use of the sievert (PV, 2002, *70*, 205).] | stem:["unitsml(Sv)" = "unitsml(m^2*s^(-2))"] | stem:["unitsml(J/kg)"]
+| catalytic activity | katal | stem:["unitsml(kat)" = "unitsml(mol*s^(-1))"] | (((katal (stem:["unitsml(kat)"]))))
 |===
 
 (((prefixes))) [[hertz_hz]] [[joule_j-2]] [[multiples_prefixes-1]] [[radian_ra]] [[steradian_sr]]
@@ -447,17 +447,17 @@ The seven base units(((base unit(s)))) and 22 units with special names and symbo
 
 | area | stem:[ii(A)] | stem:["unitsml(m^2)"]
 | volume | stem:[ii(V)] | stem:["unitsml(m^3)"]
-| speed, velocity | stem:[v] | stem:["unitsml(m*s^(−1))"]
-| acceleration | stem:[a] | stem:["unitsml(m*s^(−2))"]
-| wavenumber | stem:[ii(sigma)] | stem:["unitsml(m^(−1))"]
-| density, ((mass)) density | stem:[ii(rho)] | stem:["unitsml(kg*m^(−3))"]
-| surface density | stem:[ii(rho)_A] | stem:["unitsml(kg*m^(−2))"]
-| specific volume | stem:[v] | stem:["unitsml(m^3*kg^(−1))"]
-| current density | stem:[j] | stem:["unitsml(A*m^(−2))"]
-| magnetic field strength | stem:[ii(H)] | stem:["unitsml(A*m^(−1))"]
-| amount of substance concentration | stem:[c] | stem:["unitsml(mol*m^(−3))"]
-| mass concentration | stem:[ii(rho), ii(gamma)] | stem:["unitsml(kg*m^(−3))"]
-| luminance | stem:[ii(L)_"v"] | stem:["unitsml(cd*m^(−2))"]
+| speed, velocity | stem:[v] | stem:["unitsml(m*s^(-1))"]
+| acceleration | stem:[a] | stem:["unitsml(m*s^(-2))"]
+| wavenumber | stem:[ii(sigma)] | stem:["unitsml(m^(-1))"]
+| density, ((mass)) density | stem:[ii(rho)] | stem:["unitsml(kg*m^(-3))"]
+| surface density | stem:[ii(rho)_A] | stem:["unitsml(kg*m^(-2))"]
+| specific volume | stem:[v] | stem:["unitsml(m^3*kg^(-1))"]
+| current density | stem:[j] | stem:["unitsml(A*m^(-2))"]
+| magnetic field strength | stem:[ii(H)] | stem:["unitsml(A*m^(-1))"]
+| amount of substance concentration | stem:[c] | stem:["unitsml(mol*m^(-3))"]
+| mass concentration | stem:[ii(rho), ii(gamma)] | stem:["unitsml(kg*m^(-3))"]
+| luminance | stem:[ii(L)_"v"] | stem:["unitsml(cd*m^(-2))"]
 |===
 
 [[table6]]
@@ -465,30 +465,30 @@ The seven base units(((base unit(s)))) and 22 units with special names and symbo
 |===
 | Derived quantity | Name of coherent derived unit | Symbol | Derived unit expressed in terms of base units(((base unit(s))))
 
-| dynamic viscosity (((dynamic viscosity (poise)))) | pascal second | stem:["unitsml(Pa*s)"] | stem:["unitsml(kg*m^(−1)*s^(−1))"] (((pascal (stem:["unitsml(Pa)"]))))
-| moment of force | newton(((newton (stem:["unitsml(N)"])))) metre(((metre (stem:["unitsml(m)"])))) | stem:["unitsml(N*m)"] | stem:["unitsml(kg*m^2*s^(−2))"]
-| surface tension | newton per metre | stem:["unitsml(N*m^(−1))"] | stem:["unitsml(kg*s^(−2))"]
-| angular velocity, angular frequency | radian per second | stem:["unitsml(rad*s^(−1))"] | stem:["unitsml(s^(−1))"]
-| angular acceleration | radian per second squared | stem:["unitsml(rad*s^(−2))"] | stem:["unitsml(s^(−2))"]
-| heat flux density, irradiance | watt per square metre | stem:["unitsml(W*m^(−2))"] | stem:["unitsml(kg*s^(−3))"]
-| heat capacity, entropy | joule per kelvin | stem:["unitsml(J*K^(−1))"] | stem:["unitsml(kg*m^2*s^(−2)*K^(−1))"]
-| specific heat capacity, specific entropy | joule per kilogram kelvin | stem:["unitsml(J*K^(−1)*kg^(−1))"] | stem:["unitsml(m^2*s^(−2)*K^(−1))"] (((heat capacity)))
-| specific energy | joule per kilogram | stem:["unitsml(J*kg^(−1))"] | stem:["unitsml(m^2*s^(−2))"]
-| thermal conductivity | watt per metre kelvin | stem:["unitsml(W*m^(−1)*K^(−1))"] | stem:["unitsml(kg*m*s^(−3)*K^(−1))"]
-| energy density | joule per cubic metre | stem:["unitsml(J*m^(−3))"] | stem:["unitsml(kg*m^(−1)*s^(−2))"]
-| electric field strength | volt per metre | stem:["unitsml(V*m^(−1))"] | stem:["unitsml(kg*m*s^(−3)*A^(−1))"]
-| electric charge density | coulomb(((coulomb (stem:["unitsml(C)"])))) per cubic metre | stem:["unitsml(C*m^(−3))"] | stem:["unitsml(A*s*m^(−3))"]
-| surface charge density | coulomb(((coulomb (stem:["unitsml(C)"])))) per square metre | stem:["unitsml(C*m^(−2))"] | stem:["unitsml(A*s*m^(−2))"]
-| electric flux density, electric displacement | coulomb(((coulomb (stem:["unitsml(C)"])))) per square metre | stem:["unitsml(C*m^(−2))"] | stem:["unitsml(A*s*m^(−2))"]
-| permittivity | farad per metre | stem:["unitsml(F*m^(−1))"] | stem:["unitsml(kg^(−1)*m^(−3)*s^4*A^2)"] (((farad (stem:["unitsml(F)"]))))
-| permeability | henry per metre | stem:["unitsml(H*m^(−1))"] | stem:["unitsml(kg*m*s^(−2)*A^(−2))"] (((henry (stem:["unitsml(H)"]))))
-| molar energy | joule per mole | stem:["unitsml(J*mol^(−1))"] | stem:["unitsml(kg*m^2*s^(−2)*mol^(−1))"] (((mole (stem:["unitsml(mol)"]))))
-| molar entropy, molar heat capacity | joule per mole kelvin | stem:["unitsml(J*K^(−1)*mol^(−1))"] | stem:["unitsml(kg*m^2*s^(−2)*mol^(−1)*K^(−1))"] (((heat capacity)))
-| exposure (stem:["x"]- and stem:[gamma]-rays) | coulomb(((coulomb (stem:["unitsml(C)"])))) per kilogram | stem:["unitsml(C*kg^(−1))"] | stem:["unitsml(A*s*kg^(−1))"]
-| ((absorbed dose)) rate | gray per second | stem:["unitsml(Gy*s^(−1))"] | stem:["unitsml(m^2*s^(−3))"]
-| radiant intensity | watt per steradian(((steradian (stem:["unitsml(sr)"])))) | stem:["unitsml(W*sr^(−1))"] | stem:["unitsml(kg*m^2*s^(−3))"]
-| radiance | watt per square metre steradian | stem:["unitsml(W*sr^(−1)*m^(−2))"] | stem:["unitsml(kg*s^(−3))"]
-| catalytic activity concentration | katal per cubic metre | stem:["unitsml(kat*m^(−3))"] | stem:["unitsml(mol*s^(−1)*m^(−3))"] (((katal (stem:["unitsml(kat)"]))))
+| dynamic viscosity (((dynamic viscosity (poise)))) | pascal second | stem:["unitsml(Pa*s)"] | stem:["unitsml(kg*m^(-1)*s^(-1))"] (((pascal (stem:["unitsml(Pa)"]))))
+| moment of force | newton(((newton (stem:["unitsml(N)"])))) metre(((metre (stem:["unitsml(m)"])))) | stem:["unitsml(N*m)"] | stem:["unitsml(kg*m^2*s^(-2))"]
+| surface tension | newton per metre | stem:["unitsml(N*m^(-1))"] | stem:["unitsml(kg*s^(-2))"]
+| angular velocity, angular frequency | radian per second | stem:["unitsml(rad*s^(-1))"] | stem:["unitsml(s^(-1))"]
+| angular acceleration | radian per second squared | stem:["unitsml(rad*s^(-2))"] | stem:["unitsml(s^(-2))"]
+| heat flux density, irradiance | watt per square metre | stem:["unitsml(W*m^(-2))"] | stem:["unitsml(kg*s^(-3))"]
+| heat capacity, entropy | joule per kelvin | stem:["unitsml(J*K^(-1))"] | stem:["unitsml(kg*m^2*s^(-2)*K^(-1))"]
+| specific heat capacity, specific entropy | joule per kilogram kelvin | stem:["unitsml(J*K^(-1)*kg^(-1))"] | stem:["unitsml(m^2*s^(-2)*K^(-1))"] (((heat capacity)))
+| specific energy | joule per kilogram | stem:["unitsml(J*kg^(-1))"] | stem:["unitsml(m^2*s^(-2))"]
+| thermal conductivity | watt per metre kelvin | stem:["unitsml(W*m^(-1)*K^(-1))"] | stem:["unitsml(kg*m*s^(-3)*K^(-1))"]
+| energy density | joule per cubic metre | stem:["unitsml(J*m^(-3))"] | stem:["unitsml(kg*m^(-1)*s^(-2))"]
+| electric field strength | volt per metre | stem:["unitsml(V*m^(-1))"] | stem:["unitsml(kg*m*s^(-3)*A^(-1))"]
+| electric charge density | coulomb(((coulomb (stem:["unitsml(C)"])))) per cubic metre | stem:["unitsml(C*m^(-3))"] | stem:["unitsml(A*s*m^(-3))"]
+| surface charge density | coulomb(((coulomb (stem:["unitsml(C)"])))) per square metre | stem:["unitsml(C*m^(-2))"] | stem:["unitsml(A*s*m^(-2))"]
+| electric flux density, electric displacement | coulomb(((coulomb (stem:["unitsml(C)"])))) per square metre | stem:["unitsml(C*m^(-2))"] | stem:["unitsml(A*s*m^(-2))"]
+| permittivity | farad per metre | stem:["unitsml(F*m^(-1))"] | stem:["unitsml(kg^(-1)*m^(-3)*s^4*A^2)"] (((farad (stem:["unitsml(F)"]))))
+| permeability | henry per metre | stem:["unitsml(H*m^(-1))"] | stem:["unitsml(kg*m*s^(-2)*A^(-2))"] (((henry (stem:["unitsml(H)"]))))
+| molar energy | joule per mole | stem:["unitsml(J*mol^(-1))"] | stem:["unitsml(kg*m^2*s^(-2)*mol^(-1))"] (((mole (stem:["unitsml(mol)"]))))
+| molar entropy, molar heat capacity | joule per mole kelvin | stem:["unitsml(J*K^(-1)*mol^(-1))"] | stem:["unitsml(kg*m^2*s^(-2)*mol^(-1)*K^(-1))"] (((heat capacity)))
+| exposure (stem:["x"]- and stem:[gamma]-rays) | coulomb(((coulomb (stem:["unitsml(C)"])))) per kilogram | stem:["unitsml(C*kg^(-1))"] | stem:["unitsml(A*s*kg^(-1))"]
+| ((absorbed dose)) rate | gray per second | stem:["unitsml(Gy*s^(-1))"] | stem:["unitsml(m^2*s^(-3))"]
+| radiant intensity | watt per steradian(((steradian (stem:["unitsml(sr)"])))) | stem:["unitsml(W*sr^(-1))"] | stem:["unitsml(kg*m^2*s^(-3))"]
+| radiance | watt per square metre steradian | stem:["unitsml(W*sr^(-1)*m^(-2))"] | stem:["unitsml(kg*s^(-3))"]
+| catalytic activity concentration | katal per cubic metre | stem:["unitsml(kat*m^(-3))"] | stem:["unitsml(mol*s^(-1)*m^(-3))"] (((katal (stem:["unitsml(kat)"]))))
 |===
 
 
@@ -502,10 +502,10 @@ The converse, however, is not true, because in general several different quantit
 
 In practice, with certain quantities, preference is given to the use of certain special unit names to facilitate the distinction between different quantities having the same dimension. When using this freedom, one may recall the process by which this quantity is defined. For example, the quantity torque is the cross product of a position vector and a force vector. The SI unit is newton metre. Even though torque has the same dimension as energy (SI unit joule), the joule is never used for expressing torque.
 
-NOTE: The International Electrotechnical Commission (IEC) has introduced the var (symbol: stem:["unitsml(var)"]) as a special name for the unit of reactive power. In terms of SI coherent units, the stem:["unitsml(var)"] is identical to the volt ampere(((ampere (stem:["unitsml(A)"])))).
+NOTE: The International Electrotechnical Commission (IEC) has introduced the var (symbol: stem:["unitsml(var)"]) as a special name for the unit of reactive power. In terms of SI coherent units, the stem:["unitsml(var)"] is identical to the volt ampere(((volt ampere (stem:["unitsml(V*A)"])))).
 (((hertz (stem:["unitsml(Hz)"]))))(((radian (stem:["unitsml(rad)"]))))
 
-The SI unit of frequency is hertz, the SI unit of angular velocity and angular frequency is radian per second, and the SI unit of activity is becquerel(((becquerel (stem:["unitsml(Bq)"])))), implying counts per second. Although it is formally correct to write all three of these units as the reciprocal second, the use of the different names emphasizes the different nature of the quantities concerned. It is especially important to carefully distinguish frequencies from angular frequencies, because by definition their numerical values differ by a factor footnote:[see ISO 80000-3 for details] of stem:[2pi]. Ignoring this fact may cause an error of stem:[2pi]. Note that in some countries, frequency values are conventionally expressed using "cycle/s" or "cps" instead of the SI unit stem:["unitsml(Hz)"], although "cycle" and "cps" are not units in the SI. Note also that it is common, although not recommended, to use the term frequency for quantities expressed in rad/s. Because of this, it is recommended that quantities called "frequency", "angular frequency", and "angular velocity" always be given explicit units of stem:["unitsml(Hz)"] or stem:["unitsml(rad/s)"] and not stem:["unitsml(s^(−1))"].
+The SI unit of frequency is hertz, the SI unit of angular velocity and angular frequency is radian per second, and the SI unit of activity is becquerel(((becquerel (stem:["unitsml(Bq)"])))), implying counts per second. Although it is formally correct to write all three of these units as the reciprocal second, the use of the different names emphasizes the different nature of the quantities concerned. It is especially important to carefully distinguish frequencies from angular frequencies, because by definition their numerical values differ by a factor footnote:[see ISO 80000-3 for details] of stem:[2pi]. Ignoring this fact may cause an error of stem:[2pi]. Note that in some countries, frequency values are conventionally expressed using "cycle/s" or "cps" instead of the SI unit stem:["unitsml(Hz)"], although "cycle" and "cps" are not units in the SI. Note also that it is common, although not recommended, to use the term frequency for quantities expressed in rad/s. Because of this, it is recommended that quantities called "frequency", "angular frequency", and "angular velocity" always be given explicit units of stem:["unitsml(Hz)"] or stem:["unitsml(rad/s)"] and not stem:["unitsml(s^(-1))"].
 (((gray (stem:["unitsml(Gy)"]))))(((becquerel (stem:["unitsml(Bq)"]))))(((ionizing radiation)))(((sievert (stem:["unitsml(Sv)"]))))
 
 In the field of ionizing radiation, the SI unit becquerel rather than the reciprocal second is used. The SI units gray and sievert are used for ((absorbed dose)) and dose equivalent, respectively, rather than joule per kilogram. The special names becquerel, gray and sievert were specifically introduced because of the dangers to human health that might arise from mistakes involving the units reciprocal second and joule per kilogram, in case the latter units were incorrectly taken to identify the different quantities involved.
