@@ -45,7 +45,7 @@ The determination of thermodynamic temperatures by low-temperature Johnson noise
 << ii(V)(f,ii(T))^2 >> = 4k ii(T)ii(R) Delta f,
 ++++
 
-stating that the mean square of the noise voltage stem:[ii(V)(f,ii(T))] across an unbiased resistor in a frequency band stem:[Delta f] is proportional to temperature stem:[ii(T)] and independent of any material properties except the resistance of the conductor. stem:[ii(R)] is the resistance and stem:[k] is the Boltzmann constant. The Nyquist formula is the limiting case of the fluctuation-dissipation theorem <<callen,Callen 1951>>, when quantum corrections are neglected, which is applicable in nearly all practical situations for temperatures from stem:[1"unitsml(K)"] down to stem:[1"unitsml(mK)"] and for frequencies up to a few hundred stem:["unitsml(MHz)"] or a few hundred stem:["unitsml(kHz)"], respectively. The general approach and basic principles of JNT and its application are described in <<white,White 1996>>. JNT can be implemented in absolute primary or relative primary form, whereas the second requires the reference to a temperature of known thermodynamic value.
+stating that the mean square of the noise voltage stem:[ii(V)(f,ii(T))] across an unbiased resistor in a frequency band stem:[Delta f] is proportional to temperature stem:[ii(T)] and independent of any material properties except the resistance of the conductor. stem:[ii(R)] is the resistance and stem:[k] is the Boltzmann constant. The Nyquist formula is the limiting case of the fluctuation-dissipation theorem <<callen,Callen 1951>>, when quantum corrections are neglected, which is applicable in nearly all practical situations for temperatures from stem:[1 "unitsml(K)"] down to stem:[1 "unitsml(mK)"] and for frequencies up to a few hundred stem:["unitsml(MHz)"] or a few hundred stem:["unitsml(kHz)"], respectively. The general approach and basic principles of JNT and its application are described in <<white,White 1996>>. JNT can be implemented in absolute primary or relative primary form, whereas the second requires the reference to a temperature of known thermodynamic value.
 
 == Traceability to SI units
 
@@ -53,7 +53,7 @@ The implementation of primary Johnson noise thermometry requires that the quanti
 
 == Absolute primary low-temperature JNT
 
-For JNT very small noise voltages must be measured (stem:[1.3 xx 10^(-9)"unitsml(V//sqrt(Hz))"] for a stem:[100"unitsml(Ohm)"] resistor at stem:[293"unitsml(K)"] and stem:[3.3 xx 10^(-13)"unitsml(V//sqrt(Hz))")] for a stem:[2"unitsml(mOhm)"] resistor at stem:[1"unitsml(K)"]), and the gain as well as the bandwidth of the measurement must be stable and known with high accuracy. Contributions to the measurement signal from non-thermal noise sources must be negligible. For low-temperature JNT, superconducting quantum interference devices (SQUIDs) are the method of choice for the measurement of the tiny noise voltages. A review on current SQUID-based low-temperature thermometers is given in <<beyer,Beyer 2016>>.
+For JNT very small noise voltages must be measured (stem:[1.3 xx 10^(-9) "unitsml(V//sqrt(Hz))"] for a stem:[100 "unitsml(Ohm)"] resistor at stem:[293 "unitsml(K)"] and stem:[3.3 xx 10^(-13) "unitsml(V//sqrt(Hz))")] for a stem:[2 "unitsml(mOhm)"] resistor at stem:[1 "unitsml(K)"]), and the gain as well as the bandwidth of the measurement must be stable and known with high accuracy. Contributions to the measurement signal from non-thermal noise sources must be negligible. For low-temperature JNT, superconducting quantum interference devices (SQUIDs) are the method of choice for the measurement of the tiny noise voltages. A review on current SQUID-based low-temperature thermometers is given in <<beyer,Beyer 2016>>.
 
 Three main variants of SQUID-based low-temperature Johnson noise thermometers are mainly implemented. The first one is historically called the resistive SQUID (RSQUID) setup and uses as the main component a superconducting loop containing a Josephson tunnel junction and a resistive shunt closing the loop. The second one is the so-called current sensing noise thermometer (CSNT), where the current through the noise resistor is read out by a SQUID current sensor. The third one is the magnetic field fluctuation thermometer (MFFT), in which the fluctuating magnetic field caused by the noise resistor is read out by a SQUID magnetometer or gradiometer.
 
@@ -133,13 +133,13 @@ For the CSNT operated in absolute primary mode, relative combined standard uncer
 | Gate time stem:[ii(tau)] | 0.003
 | Filter correction | 0.010
 | Interference by external magnetic fields with the mains frequency | 0.020
-| Statistics (5 measurements over 11 hours with stem:[ii(tau) = 20"unitsml(s)"]) | 0.060
+| Statistics (5 measurements over 11 hours with stem:[ii(tau) = 20 "unitsml(s)"]) | 0.060
 | Relative combined standard uncertainty | 0.067
 |===
 
 [[table2]]
 [cols="<,^,^,^,^,^"]
-.Uncertainty budget for a temperature measurement at stem:[20"unitsml(mK)"] using a CSNT in absolute primary mode (noise resistor of approximately stem:[2"unitsml(mOhm)"], stem:[u_("rel")] – relative standard uncertainty, stem:[u] – standard uncertainty, last column is the relative contribution to the combined standard uncertainty, coverage factor stem:[k = 1]) <<shibahara,Shibahara 2016>>.
+.Uncertainty budget for a temperature measurement at stem:[20 "unitsml(mK)"] using a CSNT in absolute primary mode (noise resistor of approximately stem:[2 "unitsml(mOhm)"], stem:[u_("rel")] – relative standard uncertainty, stem:[u] – standard uncertainty, last column is the relative contribution to the combined standard uncertainty, coverage factor stem:[k = 1]) <<shibahara,Shibahara 2016>>.
 |===
 | Uncertainty component | unit | value | stem:[u_("rel")] % | stem:[u"unitsml(mK)"] a| rel. contribution %
 | Noise resistor stem:[ii(R)] | stem:["unitsml(mOhm)"] | 1.86 | 0.68 | 0.137 | 20.92
@@ -161,7 +161,7 @@ For the pMFFT, the relative combined standard uncertainty of temperature measure
 [cols="<,^,^,^,^,^"]
 .Uncertainty budget for a temperature measurement at stem:[16 "unitsml(mK)"] using a pMFFT in absolute primary mode (stem:[u] – standard uncertainty, stem:[c_i] - sensitivity coefficients, last column is the relative contribution to the combined standard uncertainty, coverage factor stem:[k = 1]) <<kirste2016,Kirste 2016>>.
 |===
-a| Uncertainty component stem:[x_i] | unit | value | stem:[u(x_i)] a| stem:[c_i*u(x_i)"unitsml(K)"] a| rel. +
+a| Uncertainty component stem:[x_i] | unit | value | stem:[u(x_i)] a| stem:[c_i*u(x_i) "unitsml(K)"] a| rel. +
 contribution %
 6+<| type B
 | stem:[z] | m | stem:[1.038*10^(-4)] | stem:[2.74*10^(-7)] | stem:[2.92*10^(-5)] | 9.30
@@ -171,7 +171,7 @@ contribution %
 | stem:[r_(1,3)... r_(93)] | m | stem:[6.425*10^(-4)] | stem:[1.15*10^(-7)] | stem:[1.14*10^(-5)] | 1.43
 | stem:[ii(sigma)] | stem:[("unitsml(Ohm*m^(-1))")] | stem:[5.915*10^9] | stem:[3.59*10^7] | stem:[1.43*10^(-5)] | 2.23
 | stem:[ii(mu)_("r")] | | 1.00 | stem:[2.80*10^(-6)] | stem:[-9.06*10^(-8)] | 0.00
-a| Flatness of ICL transfer function depending on bandwidth stem:[f_(3"unitsml(dbel_B)",k)] | stem:["unitsml(Hz)"] | stem:[oo] | stem:[6.20*10^5] | stem:[-4.18*10^(-7)] | 0.00
+a| Flatness of ICL transfer function depending on bandwidth stem:[f_(3 "unitsml(dbel_B)",k)] | stem:["unitsml(Hz)"] | stem:[oo] | stem:[6.20*10^5] | stem:[-4.18*10^(-7)] | 0.00
 a| Stability of feedback resistor stem:[ii(R)_(f,k)] of the SQUID electronics | stem:["unitsml(Ohm)"] | stem:[3.00*10^4] | stem:[8.66*10^(-1)] | stem:[9.34*10^(-7)] | 0.01
 a| AC voltage meas. (ADC gain, flatness) | | 1.00 | stem:[1.73*10^(-4)] | stem:[1.68*10^(-5)] | 3.09
 a| Timing accuracy of the ADC (relative) | | 1.00 | stem:[1.16*10^(-5)] | stem:[1.87*10^(-7)] | 0.00

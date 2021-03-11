@@ -30,7 +30,7 @@ The purpose of this document is to bring together the definitions and the tables
 
 The original document, BIPM Monographie: Principles Governing Photometry (1983) was approved at the 10th meeting (28-30 September 1982) of the Comité Consultatif de Photométrie et Radiométrie (CCPR), the body established to advise the CIPM on these questions.
 
-The purpose of this 2nd edition is to update the document by adding the spectral luminous efficiency functions recently published by the CIE, i.e., the spectral luminous efficiency functions for mesopic vision and the spectral luminous efficiency function for photopic vision for a 10° field of view. The definitions of photometric units and quantities have also been updated with the reformulated definition of the candela in the International System of Units (SI) 2019 and the latest definitions of the photometric quantities by the CIE.
+The purpose of this 2nd edition is to update the document by adding the spectral luminous efficiency functions recently published by the CIE, i.e., the spectral luminous efficiency functions for mesopic vision and the spectral luminous efficiency function for photopic vision for a stem:[10 "unitsml(deg)"] field of view. The definitions of photometric units and quantities have also been updated with the reformulated definition of the candela in the International System of Units (SI) 2019 and the latest definitions of the photometric quantities by the CIE.
 
 The 2nd edition was prepared by the joint technical committee JTC 2 (CIE-CCPR) consisting of the following members:
 
@@ -53,7 +53,7 @@ The purpose of this document is to describe and explain the usage of the photome
 
 If electromagnetic radiation is of sufficient power and of wavelengths within the range stem:[360 "unitsml(nm)"] to stem:[830 "unitsml(nm)"] (approximately), it stimulates the visual organ, i.e. the eye. The retinal receptor elements involved may be principally the cones (photopic vision, eye adapted to higher levels of luminance), the rods (scotopic vision, eye adapted to lower levels of luminance), or a combination of the cones and rods (mesopic vision, intermediate between photopic and scotopic vision).
 
-This 2nd edition has been updated to include, in the definitions of photometric quantities and units, the spectral luminous efficiency functions for mesopic vision based on CIE 191:2010 <<cie-2010>>, as well as the 10° spectral luminous efficiency functions based on CIE 165:2005 <<cie-2005>>, and to introduce the defining constant for photometry, denoted stem:[ii(K)_{"cd"}], adopted in the International System of Units (SI) 2019 <<bipm>>.
+This 2nd edition has been updated to include, in the definitions of photometric quantities and units, the spectral luminous efficiency functions for mesopic vision based on CIE 191:2010 <<cie-2010>>, as well as the stem:[10 "unitsml(deg)"] spectral luminous efficiency functions based on CIE 165:2005 <<cie-2005>>, and to introduce the defining constant for photometry, denoted stem:[ii(K)_{"cd"}], adopted in the International System of Units (SI) 2019 <<bipm>>.
 
 
 [[cls-2]]
@@ -72,7 +72,7 @@ The photometric quantities generally used are:
 
 These quantities are defined by the International Commission on Illumination <<cie-2016a>> and their definitions adopted by the Consultative Committee for Photometry and Radiometry of the International Committee for Weights and Measures (CIPM), are shown in this section.
 
-To avoid confusion, photometric and radiometric quantities are distinguished symbolically from each other by the subscript "`v`" or "`e`", respectively. The same subscripts are applicable to photometric quantities other than those listed above (e.g. luminous exposure). For photometric quantities using spectral luminous efficiency functions other than that for 2° photopic vision, stem:[ii(V)(ii(lambda))], the notations described in <<cls-5>> are used.
+To avoid confusion, photometric and radiometric quantities are distinguished symbolically from each other by the subscript "`v`" or "`e`", respectively. The same subscripts are applicable to photometric quantities other than those listed above (e.g. luminous exposure). For photometric quantities using spectral luminous efficiency functions other than that for stem:[2 "unitsml(deg)"] photopic vision, stem:[ii(V)(ii(lambda))], the notations described in <<cls-5>> are used.
 
 Luminous flux is the most fundamental quantity in photometry because it has the simplest relationship with radiant power. The other three quantities are defined as follows in terms of luminous flux and appropriate geometric factors. The defining relationships for scotopic and mesopic photometric quantities are formed from the formulae in definitions <<cls-2-1>> to <<cls-2-4>> below by replacing the quantity symbols by those defined in <<cls-5>>.
 
@@ -278,9 +278,9 @@ NOTE: The illuminance is expressed in lux (stem:["unitsml(lx)" = "unitsml(lm*m^(
 
 == Photometric units
 
-Historically the SI units have been presented in terms of a set of seven base units. All other units ("`derived units`") are then constructed as products of powers of the base units. In the field of photometry, the definition of the unit of luminous intensity (based on a blackbody at the freezing point temperature of platinum), was adopted at the 9th meeting of the General Conference on Weights and Measures (CGPM) in 1948 <<cgpm-1948>>. The name "`candela`" was assigned to this unit by the CIPM in 1949. The candela was endorsed as one of the international base units at the 10th meeting of the CGPM in 1954 <<cgpm-1955>>. The "`Système International d’unités`", abbreviation "`SI`", was established at the 11th meeting of the CGPM in 1960. In 1979, the candela was linked to radiometric quantities for monochromatic radiation of frequency stem:[540 xx 10^12 "&#xA0;" "unitsml(Hz)"] <<cgpm-1979>>. In 2018 the CGPM adopted a new approach for the SI based on seven defining constants <<cgpm-2018>>. In the International System of Units (SI) 2019 <<bipm>> the definition of the candela is reformulated by introducing the constant stem:[ii(K)_"cd" = 683 "&#xA0;" "unitsml(lm*W^(-1))"], which is the luminous efficacy of monochromatic radiation of frequency stem:[540 xx 10^12 "&#xA0;" "unitsml(Hz)"].
+Historically the SI units have been presented in terms of a set of seven base units. All other units ("`derived units`") are then constructed as products of powers of the base units. In the field of photometry, the definition of the unit of luminous intensity (based on a blackbody at the freezing point temperature of platinum), was adopted at the 9th meeting of the General Conference on Weights and Measures (CGPM) in 1948 <<cgpm-1948>>. The name "`candela`" was assigned to this unit by the CIPM in 1949. The candela was endorsed as one of the international base units at the 10th meeting of the CGPM in 1954 <<cgpm-1955>>. The "`Système International d’unités`", abbreviation "`SI`", was established at the 11th meeting of the CGPM in 1960. In 1979, the candela was linked to radiometric quantities for monochromatic radiation of frequency stem:[540 xx 10^12 "&#xA0;" "unitsml(Hz)"] <<cgpm-1979>>. In 2018 the CGPM adopted a new approach for the SI based on seven defining constants <<cgpm-2018>>. In the International System of Units (SI) 2019 <<bipm>> the definition of the candela is reformulated by introducing the constant stem:[ii(K)_"cd" = 683 "&#xA0;" "unitsml(lm)"*"unitsml(W^(-1))"], which is the luminous efficacy of monochromatic radiation of frequency stem:[540 xx 10^12 "&#xA0;" "unitsml(Hz)"].
 
-The frequency in the candela definition of stem:[540 xx 10^12 "&#xA0;" "unitsml(Hz)"], denoted as stem:[ii(nu)_"cd"], corresponds to a wavelength in standard air footnote:[The value of stem:[ii(lambda)_"cd"] is for standard air (dry air at stem:[15"unitsml(degC)"] and stem:[101325 "unitsml(Pa)"], containing 0.045 % of carbon dioxide by volume), see Ciddor (1996). This value changes slightly if laboratory air conditions are different but such changes are negligible in practice.] <<ciddor>> that is usually rounded to stem:[555.017"unitsml(nm)"], and denoted stem:[ii(lambda)_"cd"]. All wavelength values given in this document are in standard air. For photometric measurements in air under real environmental conditions, the influence of the variation of the refractive index of air on stem:[ii(lambda)_"cd"] with respect to standard air is typically in the range of a few picometres and can be neglected.
+The frequency in the candela definition of stem:[540 xx 10^12 "&#xA0;" "unitsml(Hz)"], denoted as stem:[ii(nu)_"cd"], corresponds to a wavelength in standard air footnote:[The value of stem:[ii(lambda)_"cd"] is for standard air (dry air at stem:[15 "unitsml(degC)"] and stem:[101325 "unitsml(Pa)"], containing 0.045 % of carbon dioxide by volume), see Ciddor (1996). This value changes slightly if laboratory air conditions are different but such changes are negligible in practice.] <<ciddor>> that is usually rounded to stem:[555.017 "unitsml(nm)"], and denoted stem:[ii(lambda)_"cd"]. All wavelength values given in this document are in standard air. For photometric measurements in air under real environmental conditions, the influence of the variation of the refractive index of air on stem:[ii(lambda)_"cd"] with respect to standard air is typically in the range of a few picometres and can be neglected.
 
 The above definition of the candela applies to photopic, scotopic and mesopic vision.
 
@@ -344,9 +344,9 @@ image::candela/fig-1.png[]
 
 
 [[cls-4-4]]
-=== 10° photopic vision
+=== stem:[10 "unitsml(deg)"] photopic vision
 
-The spectral luminous efficiency function for 10° photopic vision is denoted by stem:[ii(V)_{10} (ii(lambda))]; its values are given in <<table-5>>, adopted from <<iso23539>>.
+The spectral luminous efficiency function for stem:[10 "unitsml(deg)"] photopic vision is denoted by stem:[ii(V)_{10} (ii(lambda))]; its values are given in <<table-5>>, adopted from <<iso23539>>.
 
 
 === Use of these spectral luminous efficiency functions
@@ -355,9 +355,9 @@ It is important to note that the stem:[ii(V)(ii(lambda))] function applies at al
 
 * Scotopic photometric quantities are applicable to the condition where the eye is adapted to an average luminance of stem:[< 0.005 "&#xA0;" "unitsml(cd*m^(-2))"].
 
-* Mesopic photometric quantities are applicable to the condition where the eye is adapted to average luminance levels between stem:[0.005 "&#xA0;" "unitsml(cd*m^(-2))"] and stem:[5 "&#xA0;" "unitsml(cd*m^(-2))"].
+* Mesopic photometric quantities are applicable to the condition where the eye is adapted to average luminance levels between stem:[0.005 "&#xA0;" "unitsml(cd*m^(-2))"] and stem:[5 "&#xA0;" "unitsml(cd)"*"unitsml(m^(-2))"].
 
-* Above stem:[5 "&#xA0;" "unitsml(cd*m^(-2))"], photopic photometric quantities should be used. The stem:[ii(V)(ii(lambda))] function was determined on the basis of experimental studies for photopic vision with a narrow field of view (about 4° or less). For situations where the visual target has an angular subtense larger than 4° or is seen off-axis, the stem:[ii(V)_{10} (ii(lambda))] function, based on experimental studies for photopic vision with a 10° field of view <<cie-2005>>, can be used.
+* Above stem:[5 "&#xA0;" "unitsml(cd)"*"unitsml(m^(-2))"], photopic photometric quantities should be used. The stem:[ii(V)(ii(lambda))] function was determined on the basis of experimental studies for photopic vision with a narrow field of view (about stem:[4 "unitsml(deg)"] or less). For situations where the visual target has an angular subtense larger than stem:[4 "unitsml(deg)"] or is seen off-axis, the stem:[ii(V)_{10} (ii(lambda))] function, based on experimental studies for photopic vision with a stem:[10 "unitsml(deg)"] field of view <<cie-2005>>, can be used.
 
 For the purpose of practical photometry, and to avoid confusion, the relevant spectral luminous efficiency function used for the photometric quantities must be specified, either through use of an appropriate descriptor linked with the quantity (e.g. photopic, scotopic, mesopic) or by use of the appropriate symbol (see <<cls-5>>). If the luminous efficiency function used is not specified, it is assumed to be the stem:[ii(V)(ii(lambda))] function.
 
@@ -412,22 +412,22 @@ where stem:[m] is a coefficient stem:[0 <= m <= 1] determined by the visual adap
 Note that mesopic photometric quantities follow the law of additivity only within a scene at a certain adaptation luminance level. For stem:[m = 1] and stem:[m = 0], the mesopic photometric quantities are identical to the photopic and scotopic quantities, respectively (see <<cls-6-4,nosee%>>).
 
 
-=== Photometric quantities for 10° photopic vision
+=== Photometric quantities for stem:[10 "unitsml(deg)"] photopic vision
 
 The following quantity names and symbols apply for photopic vision using the stem:[ii(V)_{10} (ii(lambda))] function.
 
-* 10° luminous flux, stem:[ii(Phi)_10]
+* stem:[10 "unitsml(deg)"] luminous flux, stem:[ii(Phi)_10]
 
-* 10° luminous intensity, stem:[ii(I)_10]
+* stem:[10 "unitsml(deg)"] luminous intensity, stem:[ii(I)_10]
 
-* 10° illuminance, stem:[ii(E)_10]
+* stem:[10 "unitsml(deg)"] illuminance, stem:[ii(E)_10]
 
-* 10° luminance, stem:[ii(L)_10]
+* stem:[10 "unitsml(deg)"] luminance, stem:[ii(L)_10]
 
 
 === Photometric quantities for other observers
 
-For research purposes, photometric quantities for observers other than those introduced in the above subclauses may be used, e.g. the CIE 2015 physiologically-based spectral luminous efficiency function <<cie-2015>>, and the CIE 1988 modified 2° observer <<cie-1990>>. When one of these alternative CIE-defined observers is used, an appropriate quantity name (e.g. CIE 2015 luminous flux, or CIE 1988 luminous flux), and an appropriate symbol for the quantities (e.g. stem:[ii(Phi)_"F"] or stem:[ii(Phi)_"M"]) should be used to avoid any confusion with other CIE-defined photometric quantities. In any case, the same SI units – stem:["unitsml(cd)"], stem:["unitsml(lm)"], stem:["unitsml(lx)"], stem:["unitsml(cd*m^(-2))"] – are used and these must not be modified. Also, when a photometric quantity is expressed with photometric units, additivity must hold (at least within the stated visual adaptation conditions). Photometric units are not used for non-visual effects <<cie-2018a>>. For non-visual effects radiometric units are used.
+For research purposes, photometric quantities for observers other than those introduced in the above subclauses may be used, e.g. the CIE 2015 physiologically-based spectral luminous efficiency function <<cie-2015>>, and the CIE 1988 modified stem:[2 "unitsml(deg)"] observer <<cie-1990>>. When one of these alternative CIE-defined observers is used, an appropriate quantity name (e.g. CIE 2015 luminous flux, or CIE 1988 luminous flux), and an appropriate symbol for the quantities (e.g. stem:[ii(Phi)_"F"] or stem:[ii(Phi)_"M"]) should be used to avoid any confusion with other CIE-defined photometric quantities. In any case, the same SI units – stem:["unitsml(cd)"], stem:["unitsml(lm)"], stem:["unitsml(lx)"], stem:["unitsml(cd*m^(-2))"] – are used and these must not be modified. Also, when a photometric quantity is expressed with photometric units, additivity must hold (at least within the stated visual adaptation conditions). Photometric units are not used for non-visual effects <<cie-2018a>>. For non-visual effects radiometric units are used.
 
 
 [[cls-6]]
@@ -482,7 +482,7 @@ stem:[ii(K)_"m"]:: is the maximum luminous efficacy for photopic vision, i.e. th
 ii(K)_"m" = ii(K)_"cd" * [ii(V)(ii(lambda)_"m") // ii(V)(ii(lambda)_"cd")]
 ++++
 
-(stem:[= 683.002 "&#xA0;" "unitsml(lm*W^(-1))" ~~ 683 "&#xA0;" "unitsml(lm*W^(-1))"] in standard air).
+(stem:[= 683.002 "&#xA0;" "unitsml(lm)"*"unitsml(W^(-1))" ~~ 683 "&#xA0;" "unitsml(lm)"*"unitsml(W^(-1))"] in standard air).
 --
 
 Other photopic photometric quantities (e.g. luminance, illuminance, luminous intensity) are calculated similarly.
@@ -513,7 +513,7 @@ is the maximum luminous efficacy for scotopic vision, i.e. the luminous efficacy
 ii(K)'_"m" = ii(K)_"cd" * [ii(V)'(ii(lambda)'_"m") // ii(V)'(ii(lambda)_"cd")]
 ++++
 
-(stem:[= 1700.13 "&#xA0;" "unitsml(lm*W^(-1))" ~~ 1700"unitsml(lm*W^(-1))"] in standard air).
+(stem:[= 1700.13 "&#xA0;" "unitsml(lm)"*"unitsml(W^(-1))" ~~ 1700 "unitsml(lm)"*"unitsml(W^(-1))"] in standard air).
 --
 
 Other scotopic photometric quantities (e.g. scotopic luminance, scotopic illuminance, scotopic luminous intensity) are calculated similarly.
@@ -531,7 +531,7 @@ ii(Phi)_{"mes";m} = {ii(K)_"cd"} / {ii(V)_{"mes";m} (ii(lambda)_"cd")} int_{ii(l
 
 where
 
-stem:[ii(K)_"cd"]:: is the luminous efficacy of monochromatic radiation of frequency stem:[540 xx 10^12 "&#xA0;" "unitsml(Hz)"] (stem:[683 "&#xA0;" "unitsml(lm*W^(-1))"]);
+stem:[ii(K)_"cd"]:: is the luminous efficacy of monochromatic radiation of frequency stem:[540 xx 10^12 "&#xA0;" "unitsml(Hz)"] (stem:[683 "&#xA0;" "unitsml(lm)"*"unitsml(W^(-1))"]);
 
 stem:[ii(V)_{"mes";m} (ii(lambda))]:: is the spectral luminous efficiency function for mesopic vision (see <<cls-4-3,nosee%>>)
 
@@ -547,7 +547,7 @@ The maximum luminous efficacy for mesopic vision, stem:[ii(K)_{"m,mes";m}], vari
 ii(K)_{"m,mes";m} = {ii(K)_"cd"} / {ii(V)_{"mes";m} (ii(lambda)_"cd")}
 ++++
 
-The value of stem:[ii(K)_{"m,mes";m}] varies from stem:[683 "&#xA0;" "unitsml(lm*W^(-1))"] at stem:[m = 1] (photopic) to stem:[1700 "&#xA0;" "unitsml(lm*W^(-1))"] at stem:[m = 0] (scotopic)
+The value of stem:[ii(K)_{"m,mes";m}] varies from stem:[683 "&#xA0;" "unitsml(lm)"*"unitsml(W^(-1))"] at stem:[m = 1] (photopic) to stem:[1700 "&#xA0;" "unitsml(lm)"*"unitsml(W^(-1))"] at stem:[m = 0] (scotopic)
 footnote:[The subscript stem:["m"], in Roman font, in stem:[ii(K)_{"m","mes";m}] refers to "`maximum`", whereas the subscript stem:[m], in Italic font, represents a variable, referring to the adaptation coefficient.].
 
 Hence <<eq-7>> can be rewritten in similar form as <<eq-3>> and <<eq-5>>:
@@ -581,9 +581,9 @@ Other mesopic photometric quantities (e.g. mesopic luminance, mesopic illuminanc
 Mesopic photometric quantities should always be given with the value of stem:[m], e.g. stem:[ii(L)_{"mes";0.4} = 0.12 "&#xA0;" "unitsml(cd*m^(-2))"].
 
 
-=== Luminous flux for 10° photopic vision
+=== Luminous flux for stem:[10 "unitsml(deg)"] photopic vision
 
-The 10° luminous flux, stem:[ii(Phi)_10], is related to spectral radiant flux by:
+The stem:[10 "unitsml(deg)"] luminous flux, stem:[ii(Phi)_10], is related to spectral radiant flux by:
 
 [stem]
 ++++
@@ -596,23 +596,23 @@ stem:[ii(K)_{"m",10}]::
 +
 --
 
-is the maximum luminous efficacy for 10° photopic vision, i.e. the luminous efficacy at the peak of the stem:[ii(V)_{10} (ii(lambda))] function, which is at a wavelength of stem:[ii(lambda)_("m",10) = 557 "&#xA0;" "unitsml(nm)"] (exactly):
+is the maximum luminous efficacy for stem:[10 "unitsml(deg)"] photopic vision, i.e. the luminous efficacy at the peak of the stem:[ii(V)_{10} (ii(lambda))] function, which is at a wavelength of stem:[ii(lambda)_("m",10) = 557 "&#xA0;" "unitsml(nm)"] (exactly):
 
 [stem]
 ++++
 ii(K)_{"m",10} = ii(K)_"cd" * [ii(V)_10 (ii(lambda)_{"m",10}) // ii(V)_10 (ii(lambda)_"cd")]
 ++++
 
-(stem:[= 683.601 "&#xA0;" "unitsml(lm*W)"^(-1) ~~ 684 "&#xA0;" "unitsml(lm*W^(-1))"] in standard air).
+(stem:[= 683.601 "&#xA0;" "unitsml(lm)"*"unitsml(W)"^(-1) ~~ 684 "&#xA0;" "unitsml(lm)"*"unitsml(W^(-1))"] in standard air).
 --
 
-stem:[ii(V)_{10} (ii(lambda))]:: is the spectral luminous efficiency function for 10° photopic vision (see <<cls-4-4,nosee%>>)
+stem:[ii(V)_{10} (ii(lambda))]:: is the spectral luminous efficiency function for stem:[10 "unitsml(deg)"] photopic vision (see <<cls-4-4,nosee%>>)
 
 stem:[ii(Phi)_{"e",ii(lambda)} (ii(lambda)) = {"d" ii(Phi)_"e"} / {"d" ii(lambda)}]:: is spectral radiant flux, i.e. the spectral distribution of radiant flux, stem:[ii(Phi)_"e"];
 
 stem:[ii(lambda)_"cd"]:: is the wavelength at stem:[540 xx 10^12 "&#xA0;" "unitsml(Hz)"] according to the definition of the unit candela (stem:[555.017 "unitsml(nm)"] in standard air).
 
-Other photometric quantities for 10° photopic vision (e.g. 10° luminance, 10° illuminance, 10° luminous intensity) are calculated similarly.
+Other photometric quantities for stem:[10 "unitsml(deg)"] photopic vision (e.g. stem:[10 "unitsml(deg)"] luminance, stem:[10 "unitsml(deg)"] illuminance, stem:[10 "unitsml(deg)"] luminous intensity) are calculated similarly.
 
 
 ==  Relating photochemical and photobiological quantities to photometric quantities
@@ -630,7 +630,7 @@ The CIE has published basic colorimetric recommendations <<cie-2018b>> that desc
 
 === CIE 1931 colour-matching functions
 
-The CIE 1931 colour-matching functions define the colour-matching properties of an average observer (the CIE 1931 standard colorimetric observer) with normal colour vision viewing fields of angular subtense between 1° and 4° (stem:[0.017 "unitsml(rad)"] and stem:[0.07 "unitsml(rad)"]). The colour-matching functions are the tristimulus values of monochromatic stimuli of equal radiant power and of wavelengths within the visible spectrum (stem:[360 "unitsml(nm)"] to stem:[830 "unitsml(nm)"]). They are denoted by stem:[bar x (ii(lambda))], stem:[bar y (ii(lambda))], stem:[bar z (ii(lambda))] and their values are given in <<table-6>> (adopted from ISO/CIE, 2007). For a larger field of view, the colour-matching functions for the CIE 10° observer (the CIE 1964 standard colorimetric observer), stem:[bar x_10 (ii(lambda))], stem:[bar y_10 (ii(lambda))], stem:[bar z_10 (ii(lambda))], are available <<iso11664>>.
+The CIE 1931 colour-matching functions define the colour-matching properties of an average observer (the CIE 1931 standard colorimetric observer) with normal colour vision viewing fields of angular subtense between stem:[1 "unitsml(deg)"] and stem:[4 "unitsml(deg)"] (stem:[0.017 "unitsml(rad)"] and stem:[0.07 "unitsml(rad)"]). The colour-matching functions are the tristimulus values of monochromatic stimuli of equal radiant power and of wavelengths within the visible spectrum (stem:[360 "unitsml(nm)"] to stem:[830 "unitsml(nm)"]). They are denoted by stem:[bar x (ii(lambda))], stem:[bar y (ii(lambda))], stem:[bar z (ii(lambda))] and their values are given in <<table-6>> (adopted from ISO/CIE, 2007). For a larger field of view, the colour-matching functions for the CIE stem:[10 "unitsml(deg)"] observer (the CIE 1964 standard colorimetric observer), stem:[bar x_10 (ii(lambda))], stem:[bar y_10 (ii(lambda))], stem:[bar z_10 (ii(lambda))], are available <<iso11664>>.
 
 NOTE: The stem:[bar y (ii(lambda))] function is identical to the stem:[ii(V)(ii(lambda))] function given in <<table-1>>, and stem:[bar y_10 (ii(lambda))] is identical to the stem:[ii(V)_{10} (ii(lambda))] function given in <<table-5>> <<cie-2005>>.
 
@@ -653,9 +653,9 @@ stem:[bar x (ii(lambda)), bar y (ii(lambda)), bar z (ii(lambda))]:: are the CIE 
 
 stem:[k]:: is a normalizing factor rendering the stem:[ii(X)], stem:[ii(Y)], stem:[ii(Z)] tristimulus values dimensionless.
 
-For light sources, stem:[k = 683 "&#xA0;" "unitsml(lm*W^(-1))"] is often used, so that stem:[ii(Y)] is the value of a photometric quantity.
+For light sources, stem:[k = 683 "&#xA0;" "unitsml(lm)"*"unitsml(W^(-1))"] is often used, so that stem:[ii(Y)] is the value of a photometric quantity.
 
-The tristimulus values stem:[ii(X)_10], stem:[ii(Y)_10], stem:[ii(Z)_10] for a 10° field of view are calculated similarly using stem:[bar x_10 (ii(lambda))], stem:[bar y_10 (ii(lambda))], stem:[bar z_10 (ii(lambda))].
+The tristimulus values stem:[ii(X)_10], stem:[ii(Y)_10], stem:[ii(Z)_10] for a stem:[10 "unitsml(deg)"] field of view are calculated similarly using stem:[bar x_10 (ii(lambda))], stem:[bar y_10 (ii(lambda))], stem:[bar z_10 (ii(lambda))].
 
 The above equations for calculation of CIE tristimulus values have been shown using spectral radiant flux of a self-luminous object, but they are generally applicable for any spectral radiometric quantity (e.g. spectral radiance, spectral irradiance). The equations for object-colour stimuli, reflecting or transmitting objects, are outside the scope of this document; for details consult CIE Publication 15:2018 <<cie-2018b>>.
 
@@ -670,7 +670,7 @@ Where stem:[ii(X)], stem:[ii(Y)], stem:[ii(Z)] are the tristimulus values.
 
 NOTE: In the special case of stem:[ii(X) = bar x (ii(lambda))], stem:[ii(Y) = bar y (ii(lambda))], stem:[ii(Z) = bar z (ii(lambda))] the chromaticity coordinates are denoted by stem:[x (ii(lambda))], stem:[y (ii(lambda))]. They define the chromaticity of monochromatic visual stimuli of wavelength stem:[ii(lambda)] (see <<table-6,nosee%>>).
 
-The chromaticity coordinates stem:[x_10, y_10] for a 10° field of view are calculated similarly as stem:[ii(X)_10], stem:[ii(Y)_10], stem:[ii(Z)_10].
+The chromaticity coordinates stem:[x_10, y_10] for a stem:[10 "unitsml(deg)"] field of view are calculated similarly as stem:[ii(X)_10], stem:[ii(Y)_10], stem:[ii(Z)_10].
 
 
 
@@ -682,7 +682,7 @@ Luminance is intended to correlate with the perception of brightness. However, i
 
 At present there is no agreed photometric quantity that is more satisfactory than luminance or luminous intensity for quantifying the absolute brightness of luminous sources. However, the CIE has developed a supplementary system of photometry that provides a more perceptually-relevant approach for comparative brightness evaluation of lights at any level, including mesopic levels <<cie-2011>>. This system introduces the concept of equivalent luminance and develops a photometric model to calculate brightness-related equivalent luminance using existing photometric and colorimetric quantities, by introducing a chromatic contribution to brightness that depends upon the adaptation level. The CIE supplementary system for comparative brightness evaluation is used for research purposes, to provide a measure of luminance that corresponds more closely to the visual effect when comparing two lights of different colour. The equivalent luminance values calculated using this system are expressed in units of stem:["unitsml(cd*m^(-2))"] and must always be accompanied by full details of the parameters used in the calculation (i.e. the photopic and scotopic luminances and the stem:[x] and stem:[y] chromaticity coordinates).
 
-It is also known that the spectral luminous efficiency function for photopic vision, stem:[ii(V)(ii(lambda))], underestimates the visual response in the blue region, and an improved function, known as the CIE 1988 modified 2° spectral luminous efficiency function for photopic vision, stem:[ii(V)_"M" (ii(lambda))], was recommended by the CIE as a supplement to, and not a replacement of, stem:[ii(V)(ii(lambda))] <<cie-1990>>. The physiologically-based function, known as the cone-fundamental-based spectral luminous efficiency function, stem:[ii(V)_"F" (ii(lambda))], is based on the latest research <<cie-2015>> and is considered to provide further improvements. The stem:[ii(V)_"F" (ii(lambda))] or stem:[ii(V)_"M" (ii(lambda))] functions are not recognized by the CIPM and are used only for research purposes to measure perceived brightness more accurately. Benefits and impacts of the new luminous efficiency functions will be evaluated in the near future.
+It is also known that the spectral luminous efficiency function for photopic vision, stem:[ii(V)(ii(lambda))], underestimates the visual response in the blue region, and an improved function, known as the CIE 1988 modified stem:[2 "unitsml(deg)"] spectral luminous efficiency function for photopic vision, stem:[ii(V)_"M" (ii(lambda))], was recommended by the CIE as a supplement to, and not a replacement of, stem:[ii(V)(ii(lambda))] <<cie-1990>>. The physiologically-based function, known as the cone-fundamental-based spectral luminous efficiency function, stem:[ii(V)_"F" (ii(lambda))], is based on the latest research <<cie-2015>> and is considered to provide further improvements. The stem:[ii(V)_"F" (ii(lambda))] or stem:[ii(V)_"M" (ii(lambda))] functions are not recognized by the CIPM and are used only for research purposes to measure perceived brightness more accurately. Benefits and impacts of the new luminous efficiency functions will be evaluated in the near future.
 
 
 
@@ -1190,7 +1190,7 @@ It is also known that the spectral luminous efficiency function for photopic vis
 
 
 [[table-5]]
-.Values of spectral luminous efficiency for 10° photopic vision, stem:[ii(V)_10 (ii(lambda))] (stem:[ii(lambda)] in standard air)
+.Values of spectral luminous efficiency for stem:[10 "unitsml(deg)"] photopic vision, stem:[ii(V)_10 (ii(lambda))] (stem:[ii(lambda)] in standard air)
 [cols="^,^,^,^,^,^",options="header"]
 |===
 | stem:[ii(lambda)//"unitsml(nm)"] | stem:[ii(V)_10 (ii(lambda))] | stem:[ii(lambda)//"unitsml(nm)"] | stem:[ii(V)_10 (ii(lambda))] | stem:[ii(lambda)//"unitsml(nm)"] | stem:[ii(V)_10 (ii(lambda))]
@@ -1851,7 +1851,7 @@ It is also known that the spectral luminous efficiency function for photopic vis
 
 * [[[ciddor,1]]] CIDDOR, P.E. 1996. Refractive index of air: new equations for the visible and near infrared. _Appl. Optics_ *35*: 1566-1573.
 
-* [[[cie-1990,1]]] CIE, 1990. CIE 86-1990 _CIE 1988 2° Spectral Luminous Efficiency Function for Photopic vision_. Vienna: CIE.
+* [[[cie-1990,1]]] CIE, 1990. CIE 86-1990 _CIE 1988 stem:[2 "unitsml(deg)"] Spectral Luminous Efficiency Function for Photopic vision_. Vienna: CIE.
 
 * [[[cie-2004,1]]] CIE, 2004. CIE 15:2004 _Colorimetry, 3rd Ed_. Vienna: CIE.
 
