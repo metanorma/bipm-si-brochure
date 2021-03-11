@@ -53,7 +53,7 @@ The implementation of primary Johnson noise thermometry requires that the quanti
 
 == Absolute primary low-temperature JNT
 
-For JNT very small noise voltages must be measured (stem:[1.3 xx 10^(-9)"unitsml(V//sqrt(Hz))"] for a stem:[100"unitsml(Ohm)"] resistor at stem:[293"unitsml(K)"] and stem:[3.3 xx 10^(-13)"unitsml(V)"//sqrt("unitsml(Hz)")] for a stem:[2"unitsml(mOhm)"] resistor at stem:[1"unitsml(K)"]), and the gain as well as the bandwidth of the measurement must be stable and known with high accuracy. Contributions to the measurement signal from non-thermal noise sources must be negligible. For low-temperature JNT, superconducting quantum interference devices (SQUIDs) are the method of choice for the measurement of the tiny noise voltages. A review on current SQUID-based low-temperature thermometers is given in <<beyer,Beyer 2016>>.
+For JNT very small noise voltages must be measured (stem:[1.3 xx 10^(-9)"unitsml(V//sqrt(Hz))"] for a stem:[100"unitsml(Ohm)"] resistor at stem:[293"unitsml(K)"] and stem:[3.3 xx 10^(-13)"unitsml(V//sqrt(Hz))")] for a stem:[2"unitsml(mOhm)"] resistor at stem:[1"unitsml(K)"]), and the gain as well as the bandwidth of the measurement must be stable and known with high accuracy. Contributions to the measurement signal from non-thermal noise sources must be negligible. For low-temperature JNT, superconducting quantum interference devices (SQUIDs) are the method of choice for the measurement of the tiny noise voltages. A review on current SQUID-based low-temperature thermometers is given in <<beyer,Beyer 2016>>.
 
 Three main variants of SQUID-based low-temperature Johnson noise thermometers are mainly implemented. The first one is historically called the resistive SQUID (RSQUID) setup and uses as the main component a superconducting loop containing a Josephson tunnel junction and a resistive shunt closing the loop. The second one is the so-called current sensing noise thermometer (CSNT), where the current through the noise resistor is read out by a SQUID current sensor. The third one is the magnetic field fluctuation thermometer (MFFT), in which the fluctuating magnetic field caused by the noise resistor is read out by a SQUID magnetometer or gradiometer.
 
@@ -143,8 +143,8 @@ For the CSNT operated in absolute primary mode, relative combined standard uncer
 |===
 | Uncertainty component | unit | value | stem:[u_("rel")] % | stem:[u"unitsml(mK)"] a| rel. contribution %
 | Noise resistor stem:[ii(R)] | stem:["unitsml(mOhm)"] | 1.86 | 0.68 | 0.137 | 20.92
-| PSD of thermal noise, stem:[<< ii(S)_(ii(V),"N")>>] | stem:["unitsml(uV*Hz^(-1//2))"] | 35.06 | 0.10 | 0.040 | 1.79
-| PSD of SQUID noise, stem:[<< ii(S)_(ii(V),"SQ")>>] | stem:["unitsml(nV*Hz^(-1//2))"] | 388.0 | 0.30 | 0.004 | 0.02
+| PSD of thermal noise, stem:[<< ii(S)_(ii(V),"N")>>] | stem:["unitsml(uV*sqrt(Hz))"] | 35.06 | 0.10 | 0.040 | 1.79
+| PSD of SQUID noise, stem:[<< ii(S)_(ii(V),"SQ")>>] | stem:["unitsml(nV*sqrt(Hz))"] | 388.0 | 0.30 | 0.004 | 0.02
 | Mutual inductance of input coil stem:[ii(M)_("in")] | stem:["unitsml(nA)"//rm(Phi_0)] | 306.2 | 0.30 | 0.118 | 15.55
 | Mutual inductance of feedback coil stem:[ii(M)_f] | stem:["unitsml(uA)"//rm(Phi_0)] | 43.59 | 0.58 | 0.234 | 61.14
 | Feedback resistor stem:[ii(R)_f] | stem:["unitsml(kOhm)"] | 10 | 0.06 | 0.023 | 0.60
@@ -171,7 +171,7 @@ contribution %
 | stem:[r_(1,3)... r_(93)] | m | stem:[6.425*10^(-4)] | stem:[1.15*10^(-7)] | stem:[1.14*10^(-5)] | 1.43
 | stem:[ii(sigma)] | stem:[("unitsml(Ohm*m^(-1))")] | stem:[5.915*10^9] | stem:[3.59*10^7] | stem:[1.43*10^(-5)] | 2.23
 | stem:[ii(mu)_("r")] | | 1.00 | stem:[2.80*10^(-6)] | stem:[-9.06*10^(-8)] | 0.00
-a| Flatness of ICL transfer function depending on bandwidth stem:[f_(3"unitsml(dB)",k)] | stem:["unitsml(Hz)"] | stem:[oo] | stem:[6.20*10^5] | stem:[-4.18*10^(-7)] | 0.00
+a| Flatness of ICL transfer function depending on bandwidth stem:[f_(3"unitsml(dbel_B)",k)] | stem:["unitsml(Hz)"] | stem:[oo] | stem:[6.20*10^5] | stem:[-4.18*10^(-7)] | 0.00
 a| Stability of feedback resistor stem:[ii(R)_(f,k)] of the SQUID electronics | stem:["unitsml(Ohm)"] | stem:[3.00*10^4] | stem:[8.66*10^(-1)] | stem:[9.34*10^(-7)] | 0.01
 a| AC voltage meas. (ADC gain, flatness) | | 1.00 | stem:[1.73*10^(-4)] | stem:[1.68*10^(-5)] | 3.09
 a| Timing accuracy of the ADC (relative) | | 1.00 | stem:[1.16*10^(-5)] | stem:[1.87*10^(-7)] | 0.00
