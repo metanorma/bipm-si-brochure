@@ -86,7 +86,7 @@ The numerical value always precedes the unit and a space is always used to separ
 
 [NOTE]
 ====
-stem:["m" = 12.3 "unitsml(g)"] where stem:["unitsml(m)"] is used as a symbol for the quantity mass, but stem:[ii(phi) = 30° 22&#x2032; 8&#x2033;], where stem:[ii(phi)] is used as a symbol for the quantity plane angle.
+stem:["m" = 12.3 "unitsml(g)"] where stem:["unitsml(m)"] is used as a symbol for the quantity mass, but stem:[ii(phi) = 30 "unitsml(deg)" 22 "unitsml(prime)" 8 "unitsml(dprime)"], where stem:[ii(phi)] is used as a symbol for the quantity plane angle.
 ====
 
 This rule means that the symbol stem:["unitsml(degC)"] for the degree Celsius(((degree Celsius (stem:["unitsml(degC)"])))) is preceded by a space when one expresses values of ((Celsius temperature)) stem:[t].
@@ -108,7 +108,7 @@ a stem:[10 "unitsml(kOhm)"] resistor +
 a 35-millimetre film
 ====
 
-In any expression, only one unit is used. An exception to this rule is in expressing the values of time and of plane angles using non-SI units. However, for plane angles it is generally preferable to divide the degree decimally. It is therefore preferable to write stem:[22.20°] rather than stem:[22° 12&#x2032;], except in fields such as navigation, cartography, astronomy, and in the measurement of very small angles.
+In any expression, only one unit is used. An exception to this rule is in expressing the values of time and of plane angles using non-SI units. However, for plane angles it is generally preferable to divide the degree decimally. It is therefore preferable to write stem:[22.20 "unitsml(deg)"] rather than stem:[22 "unitsml(deg)" 12 "unitsml(prime)"], except in fields such as navigation, cartography, astronomy, and in the measurement of very small angles.
 
 [NOTE]
 ====
@@ -197,7 +197,7 @@ The plane angle, expressed in radian, between two lines originating from a commo
 
 One radian corresponds to the angle for which stem:[s = r], thus stem:[1 "unitsml(rad)" = 1]. The measure of the right angle is exactly equal to the number stem:[pi //2].
 
-A historical convention is the degree. The conversion between radians and degrees follows from the relation stem:[360° = 2pi "unitsml(rad)"]. Note that the degree, with the symbol °, is not a unit of the SI.
+A historical convention is the degree. The conversion between radians and degrees follows from the relation stem:[360 "unitsml(deg)" = 2pi "unitsml(rad)"]. Note that the degree, with the symbol stem:["unitsml(deg)"], is not a unit of the SI.
 (((steradian (stem:["unitsml(sr)"]))))
 
 The solid angle, expressed in steradian, corresponds to the ratio between an area stem:[ii(A)] of the surface of a sphere of radius stem:[r] and the squared radius, stem:[ii Omega = ii(A)//r^2 "unitsml(sr)"]. One steradian corresponds to the solid angle for which stem:[ii(A) = r^2], thus stem:[1 "unitsml(sr)" = 1].
