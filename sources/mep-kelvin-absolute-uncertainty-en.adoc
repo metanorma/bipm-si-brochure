@@ -1419,7 +1419,7 @@ Following the format of <<fig5>>, <<table9>> lists all the uncertainty component
 2+| Responsivity of trap detector | ✓ | ✓ | ✓ | ✓
 2+| Out-of-band effects | ✓ | ✓ | ✓ | ✓
 2+| Amplification of photocurrent | ✓ | ✓ | ✓ | ✓
-.7+.^| Geometric factor | Distance | ✓ | ✓ | ✓ | ✓
+.7+.^| Geometric factor <| Distance | ✓ | ✓ | ✓ | ✓
 | FR aperture area | ✓ | | |
 | Source aperture area | ✓ | | | ✓
 | Transfer/trap aperture area | | ✓ | ✓ | ✓
@@ -1682,7 +1682,7 @@ This method is applied by calculating the sensitivity coefficients in <<eq89>> t
 [cols="3*"]
 |===
 h| Effect h| Notes h| Calculation
-a| {nbsp} +tem:[s_("trap")] a| If spectral in stem:[s(ii(lambda))], possibly affects all of stem:[u(ii(lambda)_("ran",i))], stem:[u(ii(lambda)_("sys"))], stem:[u_("rel")(s_("ran",i))], and stem:[u_("rel")(s_("sys"))]. Otherwise in stem:[ii(K)]. a| <<eq89>> to <<eq92>> +
+a| Spectral responsivity of trap detector, stem:[s_("trap")] a| If spectral in stem:[s(ii(lambda))], possibly affects all of stem:[u(ii(lambda)_("ran",i))], stem:[u(ii(lambda)_("sys"))], stem:[u_("rel")(s_("ran",i))], and stem:[u_("rel")(s_("sys"))]. Otherwise in stem:[ii(K)]. a| <<eq89>> to <<eq92>> +
 or +
 {nbsp} +
 stem:[(del ii(T))/(del s_("trap")) = (del ii(K))/(del s_("trap")) (del ii(T))/(del ii(K))] +
