@@ -75,7 +75,7 @@ h| Dissemination of mass from NMIs with realization experiments
 | 0
 | Until 20 May 19 footnote:[20 May 2019 = implementation date of revised SI.]
 | Traceability to the IPK
-a| stem:[m_{"IPK"} -= 1] stem:[rm(kg)] +
+a| stem:[m_{"IPK"} -= 1] stem:["unitsml(kg)"] +
 stem:[u_{m_{"IPK"}} -= 0]
 | stem:[u_{"stab"}(t)]
 | Measurement of stem:[h]
@@ -84,11 +84,11 @@ stem:[u_{m_{"IPK"}} -= 0]
 | 1
 | 20 May 19 - date 1 footnote:[date 1 = CCM approval of the consensus value resulting from the first KC of realization experiments after the implementation of the revised SI, expected Q1 2020.]
 | Traceability to the Planck constant via the IPK, with additional uncertainty from the (new) definition
-a| stem:[m_{"IPK"} = 1] stem:[rm(kg)] +
-stem:[u_{m_{"IPK"}} = 10 " " mu rm(g)]
+a| stem:[m_{"IPK"} = 1] stem:["unitsml(kg)"] +
+stem:[u_{m_{"IPK"}} = 10 "unitsml(ug)"]
 | stem:[~~ sqrt{u_{m_{"IPK"}^2} + u_{"stab"}^2(t)}]
 | Contribute to Key Comparison (KC), improve and resolve discrepancies
-| Dissemination from national prototype traceable to IPK, with stem:[10 " " mu rm(g)] added uncertainty
+| Dissemination from national prototype traceable to IPK, with stem:[10 "unitsml(ug)"] added uncertainty
 
 | 2
 | date 1 –- date 2 footnote:[date 2 = CCM decision that dissemination from consensus value no longer necessary, because dispersion of calibration results from validated primary realization experiments is compatible with their individual uncertainties.]
@@ -118,11 +118,11 @@ KCRV (Key Comparison Reference Value): Output of a statistical analysis of all t
 
 stem:[m_{"IPK"}] : The mass of the International Prototype of the Kilogram (IPK)
 
-stem:[u_{m_{"IPK"}}]: The uncertainty assigned to the mass of the IPK directly after the redefinition. The uncertainty of the adjusted value of the Planck constant stem:[h], prior to the redefinition, will be attributed to the mass of the IPK right after the redefinition. As per Newell et al <<newell>> the relative standard uncertainty in stem:[h] is 1 part in stem:[10^8]. Thus, after redefinition, stem:[u_{m_{"IPK"}} = 10 " " mu rm(g)].
+stem:[u_{m_{"IPK"}}]: The uncertainty assigned to the mass of the IPK directly after the redefinition. The uncertainty of the adjusted value of the Planck constant stem:[h], prior to the redefinition, will be attributed to the mass of the IPK right after the redefinition. As per Newell et al <<newell>> the relative standard uncertainty in stem:[h] is 1 part in stem:[10^8]. Thus, after redefinition, stem:[u_{m_{"IPK"}} = 10 "unitsml(ug)"].
 
 stem:[u_{"stab"} (t)] : The uncertainty contribution from the stability of BIPM working standards at time stem:[t].
 
-Initially, at the point of the kilogram redefinition (May 2019, stem:[t=0]), the value of stem:[u_{"stab"} (t)] will be approximately stem:[4 " " mu rm(g)]. Each year after the redefinition the value of stem:[u_{"stab"} (t)] will increase by approximately stem:[1 " " mu rm(g)] <<mirandes>>.
+Initially, at the point of the kilogram redefinition (May 2019, stem:[t=0]), the value of stem:[u_{"stab"} (t)] will be approximately stem:[4 "unitsml(ug)"]. Each year after the redefinition the value of stem:[u_{"stab"} (t)] will increase by approximately stem:[1 "unitsml(ug)"] <<mirandes>>.
 
 stem:[u_{"stab.NMI"}(t)] : The uncertainty contribution from the stability of the NMI mass standards used to disseminate the consensus value. This will need to be estimated by the individual NMIs. Validation of the estimate will be via CCM and RMO Key Comparisons (KC) as at present.
 
@@ -132,16 +132,16 @@ stem:[u_{"stab.NMI"}(t)] : The uncertainty contribution from the stability of th
 
 === Phase 1: Traceability to the IPK, with additional uncertainty component
 
-On 20 May 2019, the reference quantity for the mass unit changes from the mass of the IPK to the fixed numerical value of the Planck constant. At that time, the uncertainty of the adjusted value of the Planck constant prior to the redefinition (1 part in 10^8^) will be re-assigned to the mass of the IPK, which will then have an uncertainty of stem:[10 " " mu rm(g)].
+On 20 May 2019, the reference quantity for the mass unit changes from the mass of the IPK to the fixed numerical value of the Planck constant. At that time, the uncertainty of the adjusted value of the Planck constant prior to the redefinition (1 part in 10^8^) will be re-assigned to the mass of the IPK, which will then have an uncertainty of stem:[10 "unitsml(ug)"].
 
-On the same date NMIs of Member States will have calibration certificates from the BIPM for past calibrations, traceable to the IPK. The standard uncertainties of these calibrations are in the range stem:[3.5 " " mu rm(g)] to stem:[7 " " mu rm(g)] for Pt-Ir standards and stem:[10 " " mu rm(g)] to stem:[15 " " mu rm(g)] for 1 kg stainless steel standards. On the implementation day stem:[10 " " mu rm(g)] needs to 3be added in quadrature to the uncertainty stated on past BIPM calibration certificates to allow for the increase in the uncertainty in the IPK. Note that the calibration values issued by the BIPM will not change, since efforts have been made to ensure that the kilogram has the same magnitude, within the uncertainty, before and after the redefinition. The BIPM will issue a note on this matter to all NMIs which have received calibrations in the past. Previous calibration certificates will not be reissued
+On the same date NMIs of Member States will have calibration certificates from the BIPM for past calibrations, traceable to the IPK. The standard uncertainties of these calibrations are in the range stem:[3.5 "unitsml(ug)"] to stem:[7 "unitsml(ug)"] for Pt-Ir standards and stem:[10 "unitsml(ug)"] to stem:[15 "unitsml(ug)"] for stem:[1 "unitsml(kg)"] stainless steel standards. On the implementation day stem:[10 "unitsml(ug)"] needs to 3be added in quadrature to the uncertainty stated on past BIPM calibration certificates to allow for the increase in the uncertainty in the IPK. Note that the calibration values issued by the BIPM will not change, since efforts have been made to ensure that the kilogram has the same magnitude, within the uncertainty, before and after the redefinition. The BIPM will issue a note on this matter to all NMIs which have received calibrations in the past. Previous calibration certificates will not be reissued
 
-Calibration and Measurement Capabilities (CMCs) published by NMIs in the KCDB (where expanded uncertainties, stem:[ii(U)], are listed) will need to be revised to reflect the increase in the uncertainty in the IPK (stem:[u_{m_{"IPK"}} = 10 " " mu rm(g)]). It is the responsibility of individual NMIs to revise their CMCs to this effect. The revised expanded uncertainty, stem:[ii(U)_{20-05-2019}], can be calculated from <<eq-1>>.
+Calibration and Measurement Capabilities (CMCs) published by NMIs in the KCDB (where expanded uncertainties, stem:[ii(U)], are listed) will need to be revised to reflect the increase in the uncertainty in the IPK (stem:[u_{m_{"IPK"}} = 10 "unitsml(ug)"]). It is the responsibility of individual NMIs to revise their CMCs to this effect. The revised expanded uncertainty, stem:[ii(U)_{20-05-2019}], can be calculated from <<eq-1>>.
 
 [[eq-1]]
 [stem]
 ++++
-ii(U)_{20-05-2019} = 2 sqrt{(ii(U)/2)^2 + (ii(M)/{1 " "rm(kg)} u_{m_{"IPK"}})^2}
+ii(U)_{20-05-2019} = 2 sqrt{(ii(U)/2)^2 + (ii(M)/{1 "unitsml(kg)"} u_{m_{"IPK"}})^2}
 ++++
 
 
@@ -149,7 +149,7 @@ Where stem:[ii(M)] is the nominal mass value of the CMC. After rounding to two s
 
 Calibrations at the BIPM carried out during phase 1 (i.e. between 20 May 2019 and the agreement of the consensus value resulting from the first Key Comparison of kilogram realizations) will continue to be based on the values of the BIPM working standards, traceable to the IPK, but taking into account the additional uncertainty in the mass of the IPK and the uncertainty contribution from the stability of BIPM working standards. This fact will be clearly indicated on the certificates issued by the BIPM.
 
-After 20 May 2019, NMIs must also include the additional uncertainty component of stem:[10 " " mu rm(g)] in the calculation of uncertainties quoted on calibration certificates for their own customers. In deciding whether it is necessary to inform recipients of past NMI calibrations about the additional uncertainty component, the uncertainty of these calibrations should be taken into account (in most cases the changes in the quoted uncertainties will be negligible).
+After 20 May 2019, NMIs must also include the additional uncertainty component of stem:[10 "unitsml(ug)"] in the calculation of uncertainties quoted on calibration certificates for their own customers. In deciding whether it is necessary to inform recipients of past NMI calibrations about the additional uncertainty component, the uncertainty of these calibrations should be taken into account (in most cases the changes in the quoted uncertainties will be negligible).
 
 
 === Phase 2: Dissemination from a consensus value of the kilogram
@@ -182,12 +182,12 @@ On completion of subsequent Key Comparisons, expected to be organized every two 
 
 ==== Details of the Key Comparisons of realization experiments
 
-Participation in the Key Comparison of realization experiments will be restricted to NMIs having published results (for the Planck constant or for the realization of the kilogram after 20 May 2019) in peer reviewed journals with a relative standard uncertainty lower than or equal to stem:[2.0 xx 10^{-7}]. The published paper(s) should include a detailed uncertainty budget and evidence of the long term (preferably > 1 year) stability of the experiment. It is envisaged that the minimum number of participants in the initial Key Comparison should be not less than the number which participated in the Pilot Study <<stock>>, i.e. five. If five realization experiments of suitable uncertainty are not available at the scheduled time of the KC the comparison should be delayed until such time as enough experiments are available. (The timetable for subsequent KCs will also be deferred to maintain a 2 year periodicity).
+Participation in the Key Comparison of realization experiments will be restricted to NMIs having published results (for the Planck constant or for the realization of the kilogram after 20 May 2019) in peer reviewed journals with a relative standard uncertainty lower than or equal to stem:[2.0 xx 10^(-7)]. The published paper(s) should include a detailed uncertainty budget and evidence of the long term (preferably > 1 year) stability of the experiment. It is envisaged that the minimum number of participants in the initial Key Comparison should be not less than the number which participated in the Pilot Study <<stock>>, i.e. five. If five realization experiments of suitable uncertainty are not available at the scheduled time of the KC the comparison should be delayed until such time as enough experiments are available. (The timetable for subsequent KCs will also be deferred to maintain a 2 year periodicity).
 
 
 ==== The uncertainty of the consensus value
 
-It is proposed that the standard uncertainty in the consensus value is stem:[20 " " mu rm(g)] throughout Phase 2 (unless a statistical analysis following a Key Comparison shows that this value should be increased). This value is recommended by the CCM Task group on the Phases for the Dissemination of the kilogram following redefinition (CCM TGPfD-kg) and was arrived at based on:
+It is proposed that the standard uncertainty in the consensus value is stem:[20 "unitsml(ug)"] throughout Phase 2 (unless a statistical analysis following a Key Comparison shows that this value should be increased). This value is recommended by the CCM Task group on the Phases for the Dissemination of the kilogram following redefinition (CCM TGPfD-kg) and was arrived at based on:
 
 * Typical uncertainty of "`mature`" realization experiments such as those at NIST, NMIJ, NRC and PTB
 
@@ -195,7 +195,7 @@ It is proposed that the standard uncertainty in the consensus value is stem:[20 
 
 * Setting the expectations on future uncertainties from individual realization experiments (Phase 3) at the beginning of Phase 2.
 
-* stem:[20 " " mu rm(g)] was the target uncertainty that the CCM established to proceed with the redefinition of the kilogram <<recommendation-g>>
+* stem:[20 "unitsml(ug)"] was the target uncertainty that the CCM established to proceed with the redefinition of the kilogram <<recommendation-g>>
 
 In considering the uncertainty assigned to the consensus value, readers are reminded that use of a consensus value during the process of transition from the IPK to individual realizations was driven by the need to address the inconsistency in the results of the realization experiments and not a desire to (statistically) reduce the uncertainty in the realization.
 

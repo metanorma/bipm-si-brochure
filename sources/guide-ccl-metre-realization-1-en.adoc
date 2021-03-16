@@ -63,7 +63,7 @@ The first method is used mainly for long ranges (due to the precision
 required on the timing). The second and third methods are generally used
 for macro-scale applications where the distance or length is measured
 using either static or displacement interferometry, with the optical
-wavelength being of the order of 0.5 μm to 1 μm. A classic example of
+wavelength being of the order of stem:[0.5 "unitsml(um)"] to stem:[1 "unitsml(um)"]. A classic example of
 method <<route-2>> being the use of frequency comb systems to calibrate laser
 wavelength standards. Method <<route-3>> is used in many NMIs where a He-Ne
 laser, stabilised to saturated absorption in iodine, offers a (vacuum)
@@ -73,13 +73,13 @@ based on recommendations from the CIPM.
 Currently traceability for length metrology at the nanoscale is realized
 by sub-division of optical fringes, from an interferometer usually
 illuminated with a helium neon stabilized laser. In recent years other
-wavelengths _e.g._ from neodymium YAG lasers (stem:[532.24503 " "rm(nm)]) have been used
+wavelengths _e.g._ from neodymium YAG lasers (stem:[532.24503 "unitsml(nm)"]) have been used
 and there is increasing interest in the use of laser diodes. Whichever
 light source is used, simple fringe counting using optical wavelengths in
 the visible or near-IR spectrum can resolve distances to one--half or
 one-quarter wavelength and careful fringe sub-division can increase the
 resolution further to a few hundredths of a fringe, _i.e._ of the order of
-1 nm. More elaborate schemes claim resolutions of tenths of a nanometre.
+stem:[1 "unitsml(nm)"]. More elaborate schemes claim resolutions of tenths of a nanometre.
 Fringe division in optical interferometers is subject to non-linearity
 caused by a combination of stray reflections and polarisation leakage
 within the interferometer and mismatch of the optical signals and errors
@@ -89,14 +89,14 @@ are normally those associated with air refractive index correction,
 thermal expansion of the object being measured and diffraction effects
 causing wavefront aberration in the beams of light passing through the
 optical interferometer; the latter, without careful control can cause
-relative uncertainties of stem:[10^{-7}]. These uncertainty contributions are
-typically at the stem:[10^{-8}] level or worse and the uncertainty of the
+relative uncertainties of stem:[10^(-7)]. These uncertainty contributions are
+typically at the stem:[10^(-8)] level or worse and the uncertainty of the
 wavelength or the fringe sub-division is less of a concern. For
 dimensional nanometrology, where the length scale to be measured is of
-the order of 1 nm to tens or hundreds of micrometres, the refractive
+the order of stem:[1 "unitsml(nm)"] to tens or hundreds of micrometres, the refractive
 index, thermal effects and wavelength uncertainty can be dwarfed by the
 inaccuracy of the fringe sub-division. In most cases this is at the level
-of 0.1 nm although some elaborate interferometers claim picometre levels
+of stem:[0.1 "unitsml(nm)"] although some elaborate interferometers claim picometre levels
 of non-linearity. However, experience shows the
 non-linearity realised is often dependant on optimal alignment of the
 interferometer in the individual set up and delivery and management of
@@ -130,8 +130,8 @@ below a few nanometres and are also subject to non-linearity <<yacoot>>.
 
 
 At present, the shortest wavelength listed in the SI Recommended values
-of standard frequencies <<bipm>> is the 237 nm wavelength of the ^115^In^+^, 5s^2^ ^1^S~0~ – 5s5p ^3^P~0~ transition in the indium ion. This is only a factor of 2-3
-below the common He-Ne 633 nm wavelength used in most optical
+of standard frequencies <<bipm>> is the stem:[237 "unitsml(nm)"] wavelength of the ^115^In^+^, 5s^2^ ^1^S~0~ – 5s5p ^3^P~0~ transition in the indium ion. This is only a factor of 2-3
+below the common He-Ne stem:[633 "unitsml(nm)"] wavelength used in most optical
 interferometers, so does not produce the orders of magnitude improvement
 in fringe sub-division required for sub-nm metrology (should a suitable
 stabilized light source be available). To achieve sub-nm accuracy will
@@ -142,7 +142,7 @@ Fortunately, the technique of x-ray interferometry combined with
 knowledge of the silicon lattice spacing, does provide a metrological
 standard with a periodicity that is small enough. The lattice parameter
 of silicon has been determined on bulk silicon crystals with relative
-uncertainties down to stem:[10^{-8}] using optical and x-ray interferometry <<mohr>>.
+uncertainties down to stem:[10^(-8)] using optical and x-ray interferometry <<mohr>>.
 
 In keeping with the optical equivalent of a grating interferometer, an
 x-ray interferometer is achromatic; the interferometer fringe spacing is
@@ -150,7 +150,7 @@ based purely on the lattice parameter of the crystal from which x-rays
 are diffracted and is independent of the wavelength of x-rays used. When
 using x-ray interferometry there is no significant non-linearity as the
 technique is based on counting atoms within a crystal. The lattice
-parameter of silicon sets the effective periodicity at 0.192 nm when
+parameter of silicon sets the effective periodicity at stem:[0.192 "unitsml(nm)"] when
 x-rays are diffracted from the stem:[d_{220}] planes. Low integer-order
 sub-division of the lattice spacing is possible with appropriate x-ray
 interferometer configurations thereby taking the resolution down to a few
@@ -166,7 +166,7 @@ Until the 1990s, most x-ray interferometry work undertaken by metrology institut
 
 === Dimensional Metrology Experience
 
-By the early 1990s NPL, PTB and IMGC (now INRIM) recognized that Si stem:[d_{220}] lattice spacing was sufficiently well known for it to be used as a reference standard for dimensional metrology using x-ray interferometry. They built a combined optical and x-ray interferometry (COXI) <<basile>> facility at NPL for the calibration of displacement measuring transducers. This established traceability to the metre via both the laser frequency of a He-Ne laser and the lattice parameter of silicon which had previously been measured using x-ray interferometry. Long range measurements (up to ±1 mm) were realised using the optical interferometer and short range, high accuracy measurements were realised using the x-ray interferometer working on a similar principle to a Vernier scale. This obviated the need for optical fringe
+By the early 1990s NPL, PTB and IMGC (now INRIM) recognized that Si stem:[d_{220}] lattice spacing was sufficiently well known for it to be used as a reference standard for dimensional metrology using x-ray interferometry. They built a combined optical and x-ray interferometry (COXI) <<basile>> facility at NPL for the calibration of displacement measuring transducers. This established traceability to the metre via both the laser frequency of a He-Ne laser and the lattice parameter of silicon which had previously been measured using x-ray interferometry. Long range measurements (up to stem:[pm 1 "unitsml(mm)"]) were realised using the optical interferometer and short range, high accuracy measurements were realised using the x-ray interferometer working on a similar principle to a Vernier scale. This obviated the need for optical fringe
 division. Subsequent collaborative work by NPL and PTB has led to the evaluation of several displacement measuring transducers and the use of the x-ray interferometer as a positioning stage for scanning probe microscopy <<kuetgens>>. In 2011 the NANOTRACE project <<pisani>> was completed in which the performance of several high accuracy state of the art optical interferometers developed by NMIs was evaluated. Sub x-ray fringe positioning capability has also been demonstrated <<yacoot-kuetgens>>.
 
 Since then other applications have taken the lattice spacing as a constant and used it for dimensional metrology: specifically: the development of crystalline atomic steps for step height standards that can be used to calibrate atomic force microscopes <<koenders>> and for transmission electron microscopy and CD metrology <<dai>> <<zhu>>. The traceability for the use of the Si lattice parameter in these practical applications is based on the XRI measurements of the bulk lattice parameter of silicon lamellae a few hundred micrometres thick.
@@ -186,7 +186,7 @@ image::metre/mep-1/fig2.png[]
 
 
 Material is machined away from the top of the original block of silicon to leave three equally spaced thin lamellae typically a few hundred micrometres thick, which are usually referred to as the beam-splitter
-(B), mirror (M) and analyser (A) lamella, respectively. The faces of the lamellae are orientated perpendicular to the crystallographic planes from which x-rays can be diffracted, usually (220). Around the third lamella (A, analyser) a flexure stage has been machined so that application of a force parallel to the lamellae faces results in displacement of the third lamella. In use the interferometer is aligned so that collimated x-rays are incident on the Beam-splitter lamella (B) at the Bragg angle for the diffracting planes and diffracted from the first lamella (B). Two diffracted beams are produced which are incident on the second lamella (M), from which two more pairs of diffracted beams emerge. The inward pointing beams from each pair recombine at the third lamella (A). The combination of these two beams results in an interference pattern whose periodicity is given by the lattice parameter of the planes from which the x-rays have been diffracted, _i.e._ the fringe pattern is independent of the wavelength of the x-rays that have been used. The lattice parameter of the (220) planes is of the order of 0.192 nm. A third lamella (A) is used to produce a moiré fringe pattern between the x-ray beams and the atomic planes in the crystal. Consequently, when the third lamella is displaced through a distance equal to the lattice spacing of the diffracting planes, the intensity of the x-ray beams transmitted through the third lamella cycles through maximum and minimum. By measuring the intensity of the x-ray signal as the third lamella is displaced, one is able to measure the displacement of the flexure stage in terms of the lattice spacing of silicon. The range of the interferometer's flexure is a few micrometres. The stage is translated using a piezo actuator, any significant pitching of the stage will cause a reduction of the fringe contrast. The tolerances on design of the flexure stage and location of the piezo are such that allowed angular errors are of the order of stem:[10^{-8}] radians.
+(B), mirror (M) and analyser (A) lamella, respectively. The faces of the lamellae are orientated perpendicular to the crystallographic planes from which x-rays can be diffracted, usually (220). Around the third lamella (A, analyser) a flexure stage has been machined so that application of a force parallel to the lamellae faces results in displacement of the third lamella. In use the interferometer is aligned so that collimated x-rays are incident on the Beam-splitter lamella (B) at the Bragg angle for the diffracting planes and diffracted from the first lamella (B). Two diffracted beams are produced which are incident on the second lamella (M), from which two more pairs of diffracted beams emerge. The inward pointing beams from each pair recombine at the third lamella (A). The combination of these two beams results in an interference pattern whose periodicity is given by the lattice parameter of the planes from which the x-rays have been diffracted, _i.e._ the fringe pattern is independent of the wavelength of the x-rays that have been used. The lattice parameter of the (220) planes is of the order of stem:[0.192 "unitsml(nm)"]. A third lamella (A) is used to produce a moiré fringe pattern between the x-ray beams and the atomic planes in the crystal. Consequently, when the third lamella is displaced through a distance equal to the lattice spacing of the diffracting planes, the intensity of the x-ray beams transmitted through the third lamella cycles through maximum and minimum. By measuring the intensity of the x-ray signal as the third lamella is displaced, one is able to measure the displacement of the flexure stage in terms of the lattice spacing of silicon. The range of the interferometer's flexure is a few micrometres. The stage is translated using a piezo actuator, any significant pitching of the stage will cause a reduction of the fringe contrast. The tolerances on design of the flexure stage and location of the piezo are such that allowed angular errors are of the order of stem:[10^(-8)] radians.
 
 
 ==== Interfacing to the x-ray interferometer
@@ -196,19 +196,19 @@ For the XRI to be useful, the displacement must be '`interfaced`' to the externa
 
 ==== X-ray source
 
-The source of x-rays for use with an XRI is usually a copper Kα source (wavelength 0.154 nm) with collimating optics capable of producing a beam with a divergence of typically a few minutes of arc or better, that is incident on the first lamella. The shape of the beam is typically up to 1 mm wide and several millimeters high.
+The source of x-rays for use with an XRI is usually a copper stem:["K"alpha] source (wavelength stem:[0.154 "unitsml(nm)"]) with collimating optics capable of producing a beam with a divergence of typically a few minutes of arc or better, that is incident on the first lamella. The shape of the beam is typically up to stem:[1 "unitsml(mm)"] wide and several millimeters high.
 
 
 ==== Operating Environment
 
-Both temperature stability and a knowledge of the absolute temperature are extremely important. The thermal expansion coefficient of silicon around 20 °C is stem:[2.57 xx 10^{-6}] stem:[rm(K)^{-1}] <<watanabe>>. Any temperature gradient across the lamella of an x-ray interferometer will result in a variation of the lattice parameter and hence a reduction of fringe contrast leading to a reduction in the useable signal. The temperature uniformity across the lamellae should be better than 10 mK.
+Both temperature stability and a knowledge of the absolute temperature are extremely important. The thermal expansion coefficient of silicon around stem:[20 "unitsml(degC)"] is stem:[2.57 xx 10^(-6)] stem:["unitsml(K^(-1))"] <<watanabe>>. Any temperature gradient across the lamella of an x-ray interferometer will result in a variation of the lattice parameter and hence a reduction of fringe contrast leading to a reduction in the useable signal. The temperature uniformity across the lamellae should be better than stem:[10 "unitsml(mK)"].
 
 Needless to say, isolation from mechanical and acoustic vibration is essential for operation of the XRI.
 
 
 ==== Silicon Crystal purity
 
-The silicon single crystal used for manufacture of the XRI should be ultra-pure, undoped and dislocation free grown by the float zone method with a carbon and oxygen content of less than stem:[5 xx 10^{15}] stem:[rm(cm)^{-3}]. Double crystal x-ray topography can be used to examine lattice homogeneity at a few parts in stem:[10^{-8}] and the crystal used can be compared with one whose lattice parameter is known.
+The silicon single crystal used for manufacture of the XRI should be ultra-pure, undoped and dislocation free grown by the float zone method with a carbon and oxygen content of less than stem:[5 xx 10^{15}"unitsml(cm^(-3))"]. Double crystal x-ray topography can be used to examine lattice homogeneity at a few parts in stem:[10^(-8)] and the crystal used can be compared with one whose lattice parameter is known.
 
 === Position Statement of CCL/WG-N
 
@@ -241,7 +241,7 @@ ____
 
 and *taking into account*
 
-* recent work, preparing for the forthcoming revision of the SI, has resulted in an agreed CODATA value for the Si {220} lattice spacing, stem:[d_{220} = 192.0155714 xx 10^{-12}] stem:[rm(m)], which is available with a standard uncertainty of stem:[0.0000032 xx 10^{-12}] stem:[rm(m)],
+* recent work, preparing for the forthcoming revision of the SI, has resulted in an agreed CODATA value for the Si {220} lattice spacing, stem:[d_{220} = 192.0155714 xx 10^(-12) "unitsml(m)"], which is available with a standard uncertainty of stem:[0.0000032 xx 10^(-12) "unitsml(m)"],
 
 
 *the CCL Working Group on Dimensional Nanometrology (CCL/WG-N),*

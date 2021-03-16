@@ -1,4 +1,4 @@
-= Recommended Values of Standard Frequencies: Iodine (stem:[ii(lambda) ~~ 640" "rm(nm)])
+= Recommended Values of Standard Frequencies: Iodine (stem:[ii(lambda) ~~ 640 "unitsml(nm)"])
 :appendix-id: 2
 :partnumber: 2.17
 :edition: 9
@@ -7,8 +7,8 @@
 :docnumber: SI MEP M REC 640nm
 :title-appendix-en: Recommended values of standard frequencies for applications including the practical realization of the metre and secondary representations of the second
 :title-appendix-fr: Valeurs recommandées des fréquences étalons destinées à la mise en pratique de la définition du mètre et aux représentations secondaires de la seconde
-:title-part-en: Iodine (stem:[ii(lambda) ~~ 640" "rm(nm)])
-:title-part-fr: Iodine (stem:[ii(lambda) ~~ 640" "rm(nm)])
+:title-part-en: Iodine (stem:[ii(lambda) ~~ 640 "unitsml(nm)"])
+:title-part-fr: Iodine (stem:[ii(lambda) ~~ 640 "unitsml(nm)"])
 :title-en: The International System of Units
 :title-fr: Le système international d’unités
 :doctype: mise-en-pratique
@@ -25,37 +25,38 @@
 :local-cache-only:
 :data-uri-image:
 
-== Iodine (stem:[ii(lambda) ~~ 640" "rm(nm)])
+[%unnumbered]
+== {blank}
 
-*Absorbing molecule ^127^I~2~, stem:[rm(a)_9] component, P(10) 8-5 transition* footnote:[All transitions in I~2~ refer to the stem:["B"^3Pi" "0_u^+ - "X"^1" "Sigma_g^+] system.]
+*Absorbing molecule ^127^I~2~, stem:["a"_9] component, P(10) 8-5 transition* footnote:[All transitions in I~2~ refer to the stem:["B"^3Pi" "0_u^+ - "X"^1" "Sigma_g^+] system.]
 
 == CIPM recommended values
 
-The values:: stem:[f = 468218332.4" "rm(MHz)] +
-stem:[ii(lambda) = 640283468.7" "rm(fm)]
+The values:: stem:[f = 468218332.4 "unitsml(MHz)"] +
+stem:[ii(lambda) = 640283468.7 "unitsml(fm)"]
 
-with a relative standard uncertainty of stem:[4.5 xx 10^(−10)] apply to the radiation of a He-Ne laser stabilized with an internal iodine cell having a cold-finger temperature of stem:[(16 +- 1)" °C"] footnote:[For the specification of operating conditions, such as temperature, modulation width and laser power, the symbols ± refer to a tolerance, not an uncertainty.] and a frequency modulation width, peak-to-peak, of stem:[(6 +- 1)" "rm(MHz)].
+with a relative standard uncertainty of stem:[4.5 xx 10^(−10)] apply to the radiation of a He-Ne laser stabilized with an internal iodine cell having a cold-finger temperature of stem:[(16 +- 1) "unitsml(degC)"] footnote:[For the specification of operating conditions, such as temperature, modulation width and laser power, the symbols ± refer to a tolerance, not an uncertainty.] and a frequency modulation width, peak-to-peak, of stem:[(6 +- 1) "unitsml(MHz)"].
 
 
 == Source data
 
-Adopted value:: stem:[f = 468218332.4(2)" "rm(MHz)] +
+Adopted value:: stem:[f = 468218332.4(2) "unitsml(MHz)"] +
 stem:[u_c//y = 4.5 xx 10^(-10)]
 +
 for which: +
-stem:[ii(lambda) = 640283468.7(3)" "rm(fm)] +
+stem:[ii(lambda) = 640283468.7(3) "unitsml(fm)"] +
 stem:[u_c//y = 4.5 xx 10^(-10)]
 
 calculated from
 
 [%unnumbered]
 |===
-h| stem:[f // rm(kHz)] h| stem:[u_c//y] h| source data
+h| stem:[f // "unitsml(kHz)"] h| stem:[u_c//y] h| source data
 
 | stem:[468218332419] | stem:[1.0 xx 10^(−10)] | <<sec2-1>>
 | stem:[468218332310] | stem:[1.2 xx 10^(−10)] | <<sec2-2>>
 | stem:[468218332069] | stem:[4.6 xx 10^(−10)] | <<sec2-3>>
-3+a| Weighted mean:: stem:[f = 468218332366" "rm(kHz)]
+3+a| Weighted mean:: stem:[f = 468218332366 "unitsml(kHz)"]
 |===
 
 Given the small number of determinations, the CCL considered it prudent to assume a relative standard uncertainty of stem:[4.5 xx 10^(−10)].
@@ -65,7 +66,7 @@ Source data
 [[sec2-1]]
 === {blank}
 
-Bennet and Mills-Baker <<bennett1984>> give:: stem:[ii(lambda)_(a9) = 640.2834686" "rm(nm)].
+Bennet and Mills-Baker <<bennett1984>> give:: stem:[ii(lambda)_(a9) = 640.2834686 "unitsml(nm)"].
 
 From this paper the ratio stem:[f_(a9) // f_i] is calculated as
 
@@ -73,74 +74,74 @@ From this paper the ratio stem:[f_(a9) // f_i] is calculated as
 stem:[f_(a9) // f_i = 0.988611184191] +
 stem:[u_c//y = 1 xx 10^(−10)].
 
-Using the recommended value of the absorbing molecule ^127^I~2~, stem:[rm(a)_{16}] or f component, R(127) 11-5 transition (see iodine at stem:[ii(lambda) ~~ 633" "rm(nm)] and frequency differences listed in corresponding <<table1>>) one obtains
+Using the recommended value of the absorbing molecule ^127^I~2~, stem:["a"_{16}] or f component, R(127) 11-5 transition (see iodine at stem:[ii(lambda) ~~ 633 "unitsml(nm)"] and frequency differences listed in corresponding <<table1>>) one obtains
 
 [align=left]
-stem:[f_i = 473612214712" "rm(kHz)] +
+stem:[f_i = 473612214712 "unitsml(kHz)"] +
 stem:[u_c//y = 2.2 xx 10^(−11)],
 
 one calculates
 
 [align=left]
-stem:[f_(a9) = 468218332434" "rm(kHz)] +
+stem:[f_(a9) = 468218332434 "unitsml(kHz)"] +
 stem:[u_c//y = 1.0 xx 10^(−10)]
 
-at a cold-finger temperature of 14.3 °C (iodine pressure = 16 Pa) and a modulation width of 7 MHz. For a reference temperature of 16 °C (iodine pressure = 18.9 Pa) and a modulation width of 6 MHz, corrections of –23 kHz and +8 kHz has to be applied to this value assuming a pressure dependence of –7.8 kHz/Pa and a modulation dependence of –7.6 kHz/MHz, similar to that reported in <<zhao2>>, giving
+at a cold-finger temperature of stem:[14.3 "unitsml(degC)"] (iodine pressure = stem:[16 "unitsml(Pa)"]) and a modulation width of stem:[7 "unitsml(MHz)"]. For a reference temperature of stem:[16 "unitsml(degC)"] (iodine pressure = stem:[18.9 "unitsml(Pa)"]) and a modulation width of stem:[6 "unitsml(MHz)"], corrections of stem:[–23 "unitsml(kHz)"] and stem:[+8 "unitsml(kHz)"] has to be applied to this value assuming a pressure dependence of stem:[–7.8 "unitsml(kHz/Pa)"] and a modulation dependence of stem:[–7.6 "unitsml(kHz/MHz)"], similar to that reported in <<zhao2>>, giving
 
 [align=left]
-stem:[f_(a9) = 468218332419" "rm(kHz)] +
+stem:[f_(a9) = 468218332419 "unitsml(kHz)"] +
 stem:[u_c//y = 1.0 xx 10^(−10)].
 
 [[sec2-2]]
 === {blank}
 
-Zhao et al. <<zhao2>>, <<ccdm92-10a>> give:: stem:[ii(lambda)_(a9) = 640.2834688" "rm(nm)] +
-stem:[3 xx (u_c8//y ) = 1.1 xx 10^(−9)].
+Zhao et al. <<zhao2>>, <<ccdm92-10a>> give:: stem:[ii(lambda)_(a9) = 640.2834688 "unitsml(nm)"] +
+stem:[3 xx (u_c//y ) = 1.1 xx 10^(−9)].
 
 Bönsch <<bonsch>> gives:: stem:[ii(lambda)_i//lambda_(a9) = 0.9886111838] +
 stem:[u_c//y = 12 xx 10^(−11)].
 
-Using the recommended value of the absorbing molecule ^127^I~2~, stem:[rm(a)_{16}] or f component, R(127) 11-5 transition (see iodine at stem:[ii(lambda) ~~ 633" "rm(nm)] and frequency differences listed in corresponding <<table1>>) one obtains
+Using the recommended value of the absorbing molecule ^127^I~2~, stem:["a"_{16}] or f component, R(127) 11-5 transition (see iodine at stem:[ii(lambda) ~~ 633 "unitsml(nm)"] and frequency differences listed in corresponding <<table1>>) one obtains
 
 [align=left]
-stem:[f_i = 473612214712" "rm(kHz)] +
+stem:[f_i = 473612214712 "unitsml(kHz)"] +
 stem:[u_c//y = 2.2 xx 10^(−11)],
 
 one calculates
 
 [align=left]
-stem:[f_(a9) = 468218332277" "rm(kHz)] +
+stem:[f_(a9) = 468218332277 "unitsml(kHz)"] +
 stem:[u_c//y = 1.2 xx 10^(−10)]
 
-at a cold-finger temperature of 18 °C (iodine pressure = 22.6 Pa) and a modulation width of 6.5 MHz. For a reference temperature of 16 °C (iodine pressure = 18.9 Pa) and a modulation width of 6 MHz, corrections of +29 kHz and +4 kHz have to be applied to this value knowing a pressure dependence of –7.8 kHz/Pa and a modulation dependence of –7.6 kHz/MHz, giving
+at a cold-finger temperature of stem:[18 "unitsml(degC)"] (iodine pressure = stem:[22.6 "unitsml(Pa)"]) and a modulation width of stem:[6.5 "unitsml(MHz)"]. For a reference temperature of stem:[16 "unitsml(degC)"] (iodine pressure = stem:[18.9 "unitsml(Pa)"]) and a modulation width of stem:[6 "unitsml(MHz)"], corrections of stem:[+29 "unitsml(kHz)"] and stem:[+4 "unitsml(kHz)"] have to be applied to this value knowing a pressure dependence of stem:[–7.8 "unitsml(kHz/Pa)"] and a modulation dependence of stem:[–7.6 "unitsml(kHz/MHz)"], giving
 
 [align=left]
-stem:[f_(a9) = 468218332310" "rm(kHz)] +
+stem:[f_(a9) = 468218332310 "unitsml(kHz)"] +
 stem:[u_c//y = 1.2 xx 10^(−10)].
 
 [[sec2-3]]
 === {blank}
 
 [align=left]
-Reference <<ccdm92-20a>>, <<ccgm92-6a>> give:: stem:[ii(lambda)_(a9)(17 °C) // lambda_e (20 °C) = 1.01152034104] +
+Reference <<ccdm92-20a>>, <<ccgm92-6a>> give:: stem:[ii(lambda)_(a9)(17 "unitsml(degC)") // lambda_e (20 "unitsml(degC)") = 1.01152034104] +
 stem:[u_c//y = 4.6 xx 10^(−10)].
 
-Using the recommended value of the absorbing molecule ^127^I~2~, stem:[rm(a)_{16}] or f component, R(127) 11-5 transition (see iodine at stem:[ii(lambda) ~~ 633" "rm(nm)] and frequency differences listed in corresponding <<table1>>) one obtains
+Using the recommended value of the absorbing molecule ^127^I~2~, stem:["a"_{16}] or f component, R(127) 11-5 transition (see iodine at stem:[ii(lambda) ~~ 633 "unitsml(nm)"] and frequency differences listed in corresponding <<table1>>) one obtains
 
 [align=left]
-stem:[f_e = 473612366967" "rm(kHz)] +
+stem:[f_e = 473612366967 "unitsml(kHz)"] +
 stem:[u_c//y = 2.2 xx 10^(−11)],
 
 one calculates
 
 [align=left]
-stem:[f_(a9) = 468218332055" "rm(kHz)] +
+stem:[f_(a9) = 468218332055 "unitsml(kHz)"] +
 stem:[u_c//y = 4.6 xx 10^(−10)]
 
-at a cold-finger temperature of 17 °C (iodine pressure = 20.7 Pa). For a reference temperature of 16 °C (iodine pressure = 18.9 Pa), a correction of +14 kHz has to be applied to this value, assuming a pressure dependence of –7.8 kHz/Pa similar to that reported in <<zhao2>>, giving
+at a cold-finger temperature of stem:[17 "unitsml(degC)"] (iodine pressure = stem:[20.7 "unitsml(Pa)"]). For a reference temperature of stem:[16 "unitsml(degC)"] (iodine pressure = stem:[18.9 "unitsml(Pa)"]), a correction of stem:[+14 "unitsml(kHz)"] has to be applied to this value, assuming a pressure dependence of stem:[–7.8 "unitsml(kHz/Pa)"] similar to that reported in <<zhao2>>, giving
 
 [align=left]
-stem:[f_(a9) = 468218332069" "rm(kHz)] +
+stem:[f_(a9) = 468218332069 "unitsml(kHz)"] +
 stem:[u_c//y = 4.6 xx 10^(−10)].
 
 == Absolute frequency of the other transitions related to those adopted as recommended and frequency intervals between transitions and hyperfine components
@@ -163,32 +164,32 @@ All transitions in molecular iodine refer to the B-X system.
 
 [[table1]]
 |===
-6+^.^h| stem:[ii(lambda) ~~ 640" "rm(nm)] ^127^I~2~ P(10) 8-5
-h| stem:[rm(a)_n] h| stem:[[f (rm(a)_n) - f (rm(a)_9)\]//rm(MHz)] h| stem:[u_c//rm(MHz)] h| stem:[rm(a)_n] h| stem:[[f (rm(a)_n) - f (rm(a)_9)\]//rm(MHz)] h| stem:[u_c//rm(MHz)]
+6+^.^h| stem:[ii(lambda) ~~ 640 "unitsml(nm)"] ^127^I~2~ P(10) 8-5
+h| stem:["a"_n] h| [stem:[f ("a"_n) - f ("a"_9)]]/stem:["unitsml(MHz)"] h| stem:[u_c//"unitsml(MHz)"] h| stem:["a"_n] h| [stem:[f ("a"_n) - f ("a"_9)]]/stem:["unitsml(MHz)"] h| stem:[u_c//"unitsml(MHz)"]
 
-| stem:[rm(a)_1] |stem:[-495.4] | stem:[0.4] | stem:[rm(a)_9] | stem:[0] | --
-| stem:[rm(a)_2] |stem:[-241.5] | stem:[0.7] | stem:[rm(a)_{10}] | stem:[77.84] | 0.03
-| stem:[rm(a)_3] |stem:[-233.0] | stem:[0.4] | stem:[rm(a)_{11}] | stem:[186.22] | 0.07
-| stem:[rm(a)_4] |stem:[-177.8] | stem:[1.3] | stem:[rm(a)_{12}] | stem:[199.51] | 0.07
-| stem:[rm(a)_5] |stem:[-175.2] | stem:[0.6] | stem:[rm(a)_{13}] | stem:[256.6] | 0.2
-| stem:[rm(a)_6] |stem:[-130.8] | stem:[0.1] | stem:[rm(a)_{14}] | stem:[272.75] | 0.07
-| stem:[rm(a)_7] |stem:[-82.45] | stem:[0.03] | stem:[rm(a)_{15}] | stem:[374.0] | 0.2
-| stem:[rm(a)_8] |stem:[-61.85] | stem:[0.14] | | |
+| stem:["a"_1] |stem:[-495.4] | stem:[0.4] | stem:["a"_9] | stem:[0] | --
+| stem:["a"_2] |stem:[-241.5] | stem:[0.7] | stem:["a"_{10}] | stem:[77.84] | 0.03
+| stem:["a"_3] |stem:[-233.0] | stem:[0.4] | stem:["a"_{11}] | stem:[186.22] | 0.07
+| stem:["a"_4] |stem:[-177.8] | stem:[1.3] | stem:["a"_{12}] | stem:[199.51] | 0.07
+| stem:["a"_5] |stem:[-175.2] | stem:[0.6] | stem:["a"_{13}] | stem:[256.6] | 0.2
+| stem:["a"_6] |stem:[-130.8] | stem:[0.1] | stem:["a"_{14}] | stem:[272.75] | 0.07
+| stem:["a"_7] |stem:[-82.45] | stem:[0.03] | stem:["a"_{15}] | stem:[374.0] | 0.2
+| stem:["a"_8] |stem:[-61.85] | stem:[0.14] | | |
 6+a| Frequency referenced to::
-stem:[rm(a)_9], P(10) 8-5, ^127^I~2~: stem:[f = 468218332.4" "rm(MHz)] <<ci2002>>
+stem:["a"_9], P(10) 8-5, ^127^I~2~: stem:[f = 468218332.4 "unitsml(MHz)"] <<ci2002>>
 |===
 Ref. <<glaser1987>>, <<bertinetto>>, <<bennett1978>>, <<kegung>>, <<zhao1983>>, <<zhao1985>>, <<glaser1985>>, <<zhao1987>>
 
 
 [[table2]]
 |===
-3+^.^h| stem:[ii(lambda) ~~ 640" "rm(nm)] ^127^I~2~ R(16) 8-5
-h| stem:[rm(b)_n] h| stem:[[f (rm(b)_n) - f (rm(a)_9)\]//rm(MHz)] h| stem:[u_c//rm(MHz)]
+3+^.^h| stem:[ii(lambda) ~~ 640 "unitsml(nm)"] ^127^I~2~ R(16) 8-5
+h| stem:["b"_n] h| [stem:[f ("b"_n) - f ("a"_9)]]/stem:["unitsml(MHz)"] h| stem:[u_c//"unitsml(MHz)"]
 
-| stem:[rm(b)_1] | stem:[62.834] | 0.01
-| stem:[rm(b)_2] | stem:[329.8] | 0.2
-| stem:[rm(b)_3] | stem:[335.99] | 0.02
-3+a| Frequency referenced to:: stem:[rm(a)_9], P(10) 8-5, ^127^I~2~: stem:[f = 468218332.4" "rm(MHz)] <<ci2002>>
+| stem:["b"_1] | stem:[62.834] | 0.01
+| stem:["b"_2] | stem:[329.8] | 0.2
+| stem:["b"_3] | stem:[335.99] | 0.02
+3+a| Frequency referenced to:: stem:["a"_9], P(10) 8-5, ^127^I~2~: stem:[f = 468218332.4 "unitsml(MHz)"] <<ci2002>>
 |===
 Ref. <<glaser1987>>, <<bertinetto>>, <<bennett1978>>, <<kegung>>, <<zhao1983>>, <<zhao1985>>, <<glaser1985>>, <<zhao1987>>
 
@@ -196,13 +197,13 @@ Ref. <<glaser1987>>, <<bertinetto>>, <<bennett1978>>, <<kegung>>, <<zhao1983>>, 
 [bibliography]
 == References
 
-* [[[bennett1984,1]]], Bennett S. J., Mills-Baker P., Iodine Stabilized 640 nm Helium-Neon laser, _Opt. Commun._,1984, *51*, 322-324.
+* [[[bennett1984,1]]], Bennett S. J., Mills-Baker P., Iodine Stabilized stem:[640 "unitsml(nm)"] Helium-Neon laser, _Opt. Commun._,1984, *51*, 322-324.
 
-* [[[zhao2,2]]], Zhao K. G., Blabla J., Helmcke J., ^127^I~2~-Stabilized ^3^He-^22^Ne Laser at 640 nm Wavelength, _IEEE Trans. Instrum. Meas._, 1985, *IM-34*, 252-256.
+* [[[zhao2,2]]], Zhao K. G., Blabla J., Helmcke J., ^127^I~2~-Stabilized ^3^He-^22^Ne Laser at stem:[640 "unitsml(nm)"] Wavelength, _IEEE Trans. Instrum. Meas._, 1985, *IM-34*, 252-256.
 
 * [[[ccdm92-10a,3]]], CCDM/92-10a, NIM, Research findings in realizing the definition of the metre measurement/intercomparison of frequency (wavelength) and geometrical standard of length.
 
-* [[[bonsch,4]]], Bönsch G., Simultaneous Wavelength Comparison of Iodine-Stabilized Lasers at 515 nm, 633 nm, and 640 nm, _IEEE Trans. Instrum. Meas._, 1985, *IM-34*, 248-251.
+* [[[bonsch,4]]], Bönsch G., Simultaneous Wavelength Comparison of Iodine-Stabilized Lasers at stem:[515 "unitsml(nm)"], stem:[633 "unitsml(nm)"], and stem:[640 "unitsml(nm)"], _IEEE Trans. Instrum. Meas._, 1985, *IM-34*, 248-251.
 
 * [[[ccdm92-20a,5]]], CCDM/92-20a, BIPM, Reply to the Questionnaire for the CCDM.
 
@@ -216,12 +217,12 @@ Ref. <<glaser1987>>, <<bertinetto>>, <<bennett1978>>, <<kegung>>, <<zhao1983>>, 
 
 * [[[bennett1978,10]]], Bennett S. J., Cérez P., Hyperfine Structure in Iodine at the 612-nm and 640-nm Helium-Neon Laser Wavelengths, _Opt. Commun._, 1978, *25*, 343-347.
 
-* [[[kegung,11]]], Kegung D., Xu J., Li C.-Y., Liu H.-T., Hyperfine Structure in Iodine Observed at the 612 nm and 640 nm ^3^He-^22^Ne Laser Wavelengths, _Acta Metrologica Sinica_, 1982, *3*, 322-323.
+* [[[kegung,11]]], Kegung D., Xu J., Li C.-Y., Liu H.-T., Hyperfine Structure in Iodine Observed at the stem:[612 "unitsml(nm)"] and stem:[640 "unitsml(nm)"] ^3^He-^22^Ne Laser Wavelengths, _Acta Metrologica Sinica_, 1982, *3*, 322-323.
 
-* [[[zhao1983,12]]], Zhao K., Li H., Hyperfine structure of iodine at 640 nm ^3^He-^22^Ne laser wavelength and identification, _Acta Metrologica Sinica_, 1983, *3*, 673-677.
+* [[[zhao1983,12]]], Zhao K., Li H., Hyperfine structure of iodine at stem:[640 "unitsml(nm)"] ^3^He-^22^Ne laser wavelength and identification, _Acta Metrologica Sinica_, 1983, *3*, 673-677.
 
 * [[[zhao1985,13]]], Zhao K.-G., Li H., Analysis and Calculation of Hyperfine Lines of Iodine Molecule, _Acta Metrologica Sinica_, 1985, *6*, 83-88.0-2c.
 
-* [[[glaser1985,14]]], Gläser M., Identification of Hyperfine Structure Components of the Iodine Molecule at 640 nm Wavelength, _Opt. Commun._, 1985, *54*, 335-342.
+* [[[glaser1985,14]]], Gläser M., Identification of Hyperfine Structure Components of the Iodine Molecule at stem:[640 "unitsml(nm)"] Wavelength, _Opt. Commun._, 1985, *54*, 335-342.
 
-* [[[zhao1987,15]]], Zhao K.-G., Li C.-Y., Li H., Xu J., Way H., Investigations of ^127^I~2~-Stabilized stem:[rm(He) - rm(Ne)] Laser at 640 nm, _Acta Metrologica Sinica_, 1987, *8*, 88-95.
+* [[[zhao1987,15]]], Zhao K.-G., Li C.-Y., Li H., Xu J., Way H., Investigations of ^127^I~2~-Stabilized stem:["He" - "Ne"] Laser at stem:[640 "unitsml(nm)"], _Acta Metrologica Sinica_, 1987, *8*, 88-95.

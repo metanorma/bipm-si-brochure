@@ -10,13 +10,13 @@ référence. Le nombre est le rapport entre la valeur de la grandeur en question
 NOTE: Par exemple, la vitesse de la lumière dans
 le vide est une constante de la nature, notée stem:[c],
 dont la valeur en unités SI est donnée par la relation
-stem:[c = 299792458 " "rm(m)//rm(s)] où la valeur numérique
-est stem:[299792458] et l’unité stem:[rm(m)//rm(s)].
+stem:[c = 299792458 "unitsml(m/s)"] où la valeur numérique
+est stem:[299792458] et l’unité stem:["unitsml(m/s)"].
 
 Pour une grandeur particulière, différentes unités
 peuvent être utilisées. Par exemple, la valeur
 de la vitesse stem:[ii(nu)] d’une particule peut être exprimée sous
-la forme stem:[ii(nu) = 25 " "rm(m)//rm(s)] ou stem:[ii(nu) = 90 " "rm(km)//rm(h)],
+la forme stem:[ii(nu) = 25 "unitsml(m/s)"] ou stem:[ii(nu) = 90 "unitsml(km/h)"],
 les unités «{nbsp}mètre par ((seconde)){nbsp}» et «{nbsp}kilomètre
 par heure{nbsp}» étant des unités alternatives pour
 exprimer la même valeur de la grandeur «{nbsp}vitesse{nbsp}».
@@ -44,8 +44,8 @@ Les quotients des unités SI peuvent être exprimés par une barre oblique (/) o
 
 [align=left]
 Par exemple, +
-stem:[rm(m)//rm(s) = rm(m)" "rm(s)^{-1}] +
-stem:[rm(mol)//rm(mol) = rm(mol)" "rm(mol)^{-1}]
+stem:["unitsml(m//s)" = "unitsml(m*s^(-1))"] +
+stem:["unitsml(mol//mol)" = "unitsml(mol*mol^(-1))"]
 ====
 
 Les définitions présentées ci-dessous précisent la valeur numérique exacte de chaque
@@ -59,18 +59,18 @@ ces constantes.
 
 *Le Système international d’unités, le SI, est le système d’unités selon lequel{nbsp}:*
 
-* *la fréquence de la transition hyperfine de l’état fondamental de l’atome de césium((("atome de césium, niveaux hyperfins"))) 133 non perturbé, stem:[Delta ii(nu)_{"Cs"}], est égale à stem:[9192631770 " "rm(Hz)],*
-* *la vitesse de la lumière dans le vide, stem:[c], est égale à stem:[299792458 " "rm(m)//rm(s)],*
-* *la constante de Planck(((constante, de Planck))), stem:[h], est égale à stem:[6.62607015 xx 10^{-34} " "rm(J)" "rm(s)],*
-* *la charge élémentaire, stem:[e], est égale à stem:[1.602176634 xx 10^{-19} " "rm(C)],*
-* *la constante de Boltzmann(((constante, de Boltzmann))), stem:[k], est égale à stem:[1.380649 xx 10^{-23} " "rm(J)//rm(K)],*
-* *la constante d’Avogadro(((constante, d'Avogadro))), stem:[ii(N)_"A"], est égale à stem:[6.02214076 xx 10^23 " "rm(mol)^{-1}],*
-* *l’efficacité lumineuse d’un ((rayonnement monochromatique)) de fréquence stem:[540 xx 10^12 " "rm(Hz)], stem:[ii(K)_{"cd"}], est égale à stem:[683 " "rm(lm)//rm(W)],*
-(((hertz (Hz))))(((joule (J))))(((kelvin (K))))(((lumen (lm))))(((mètre (m))))(((mole (mol))))(((seconde)))(((watt (W))))
+* *la fréquence de la transition hyperfine de l’état fondamental de l’atome de césium((("atome de césium, niveaux hyperfins"))) 133 non perturbé, stem:[Delta ii(nu)_{"Cs"}], est égale à stem:[9192631770 "unitsml(Hz)"],*
+* *la vitesse de la lumière dans le vide, stem:[c], est égale à stem:[299792458 "unitsml(m/s)"],*
+* *la constante de Planck(((constante, de Planck))), stem:[h], est égale à stem:[6.62607015 xx 10^{-34} "unitsml(J*s)"],*
+* *la charge élémentaire, stem:[e], est égale à stem:[1.602176634 xx 10^(-19) "unitsml(C)"],*
+* *la constante de Boltzmann(((constante, de Boltzmann))), stem:[k], est égale à stem:[1.380649 xx 10^{-23} "unitsml(J*K)"],*
+* *la constante d’Avogadro(((constante, d'Avogadro))), stem:[ii(N)_"A"], est égale à stem:[6.02214076 xx 10^23 "unitsml(mol^(-1))"],*
+* *l’efficacité lumineuse d’un ((rayonnement monochromatique)) de fréquence stem:[540 xx 10^12 "unitsml(Hz)"], stem:[ii(K)_{"cd"}], est égale à stem:[683 "unitsml(lm*W)"],*
+(((hertz (stem:["unitsml(Hz)"]))))(((joule (stem:["unitsml(J)"]))))(((kelvin (stem:["unitsml(K)"]))))(((lumen (stem:["unitsml(lm)"]))))(((mètre (stem:["unitsml(m)"]))))(((mole (stem:["unitsml(mol)"]))))(((seconde)))(((watt (W))))
 
-où les unités hertz, joule, coulomb(((coulomb \(C)))), lumen et watt, qui ont respectivement pour symbole stem:[rm(Hz), " "rm(J), " "rm(C), " "rm(lm)] et stem:[rm(W)], sont reliées aux unités seconde, mètre, kilogramme, ampère(((ampère (A)))), kelvin, mole et
-candela(((candela (cd)))), qui ont respectivement pour symbole stem:[rm(s), " "rm(m), " "rm(kg), " "rm(A), " "rm(K), " "rm(mol)] et stem:[rm(cd)], selon les relations
-stem:[rm(Hz) = rm(s)^{-1}], stem:[rm(J) = rm(kg)" "rm(m)^2 " "rm(s)^{-2}], stem:[rm(C) = rm(A)" "rm(s)], stem:[rm(lm) = rm(cd)" "rm(m)^2 " "rm(m)^{-2} = rm(cd)" "rm(sr)], et stem:[rm(W) = rm(kg)" "rm(m)^2 " "rm(s)^{-3}].
+où les unités hertz, joule, coulomb(((coulomb (stem:["unitsml(C)"])))), lumen et watt, qui ont respectivement pour symbole stem:["unitsml(Hz)", "unitsml(J)", "unitsml(C)", "unitsml(lm)"] et stem:["unitsml(W)"], sont reliées aux unités seconde, mètre, kilogramme, ampère(((ampère (stem:["unitsml(A)"])))), kelvin, mole et
+candela(((candela (stem:["unitsml(cd)"])))), qui ont respectivement pour symbole stem:["unitsml(s)"], stem:["unitsml(m)"], stem:["unitsml(kg)"], stem:["unitsml(A)"], stem:["unitsml(K)"], stem:["unitsml(mol)"] et stem:["unitsml(cd)"], selon les relations
+stem:["unitsml(Hz)" = "unitsml(s^(-1))"], stem:["unitsml(J)" = "unitsml(kg*m^2*s^(-2))"], stem:["unitsml(C)" = "unitsml(A*s)"], stem:["unitsml(lm)" = "unitsml(cd*m^2*m^(-2))" = "unitsml(cd*sr)"], et stem:["unitsml(W)" = "unitsml(kg*m^2*s^(-3))"].
 
 La valeur numérique de chacune des sept constantes définissant le SI (((constante, définissant le SI))) n’a pas d’incertitude. (((incertitude)))
 
@@ -81,13 +81,13 @@ La valeur numérique de chacune des sept constantes définissant le SI (((consta
 
 | Constante | Symbole | Valeur numérique | Unité
 
-| fréquence de la transition hyperfine du césium | stem:[Delta ii(nu)_{"Cs"}]  | stem:[9192631770] | stem:[rm(Hz)]
-| ((vitesse de la lumière dans le vide)) | stem:[c] | stem:[299792458] | stem:[rm(m)" "rm(s)^{-1}]
-| constante de Planck(((constante, de Planck))) | stem:[h] | stem:[6.62607015 xx 10^{-34}] | stem:[rm(J)" "rm(s)]
-| charge élémentaire | stem:[e] | stem:[1.602176634 xx 10^{-19}] | stem:[rm(C)]
-| constante de Boltzmann(((constante, de Boltzmann))) | stem:[k] | stem:[1.380649 xx 10^{-23}] | stem:[rm(J)" "rm(K)^{-1}]
-| constante d’Avogadro(((constante, d'Avogadro))) | stem:[ii(N)_"A"] | stem:[6.02214076 xx 10^{23}] | stem:[rm(mol)^{-1}]
-| efficacité lumineuse | stem:[ii(K)_{"cd"}] | stem:[683] | stem:[rm(lm)" "rm(W)^{-1}]
+| fréquence de la transition hyperfine du césium | stem:[Delta ii(nu)_{"Cs"}]  | stem:[9192631770] | stem:["unitsml(Hz)"]
+| ((vitesse de la lumière dans le vide)) | stem:[c] | stem:[299792458] | stem:["unitsml(m*s^(-1))"]
+| constante de Planck(((constante, de Planck))) | stem:[h] | stem:[6.62607015 xx 10^{-34}] | stem:["unitsml(J*s)"]
+| charge élémentaire | stem:[e] | stem:[1.602176634 xx 10^(-19)] | stem:["unitsml(C)"]
+| constante de Boltzmann(((constante, de Boltzmann))) | stem:[k] | stem:[1.380649 xx 10^{-23}] | stem:["unitsml(J*K^(-1))"]
+| constante d’Avogadro(((constante, d'Avogadro))) | stem:[ii(N)_"A"] | stem:[6.02214076 xx 10^{23}] | stem:["unitsml(mol^(-1))"]
+| efficacité lumineuse | stem:[ii(K)_{"cd"}] | stem:[683] | stem:["unitsml(lm*W^(-1))"]
 
 |===
 
@@ -109,7 +109,7 @@ améliorées en fonction des progrès technologiques, sans qu’il soit nécessa
 définition de l’unité.
 
 Une constante technique telle que stem:[ii(K)_{"cd"}], efficacité lumineuse d’un rayonnement
-monochromatique de fréquence stem:[540 xx 10^(12) " "rm(Hz)], fait référence à une application spécifique.
+monochromatique de fréquence stem:[540 xx 10^(12) "unitsml(Hz)"], fait référence à une application spécifique.
 En principe, cette constante technique peut être choisie librement, notamment pour inclure
 des facteurs physiologiques conventionnels ou d’autres facteurs de pondération.
 En revanche, cela n’est pas possible en général lorsqu’on utilise une constante
@@ -158,11 +158,11 @@ La constante d’Avogadro(((constante, d'Avogadro))), stem:[ii(N)_"A"], est une 
 par comptage d’entités (dont l’unité est le nombre «{nbsp}un{nbsp}», symbole 1). Elle a ainsi le caractère
 d’une constante de proportionnalité similaire à la constante de Boltzmann(((constante, de Boltzmann))), stem:[k].
 
-L’efficacité lumineuse d’un ((rayonnement monochromatique)) de fréquence stem:[540 xx 10^(12) " "rm(Hz)],
+L’efficacité lumineuse d’un ((rayonnement monochromatique)) de fréquence stem:[540 xx 10^(12) "unitsml(Hz)"],
 stem:[ii(K)_{"cd"}], est une constante technique qui établit une relation numérique exacte entre les
 caractéristiques purement physiques du flux énergétique stimulant l’oeil humain à une
-fréquence de stem:[540 xx 10^(12) " "rm(hertz)" "(rm(W))] et la réponse photobiologique provoquée par le flux
-lumineux reçu par un observateur moyen (stem:[rm(lm)]). [[si_systeme-3]]
+fréquence de stem:[540 xx 10^(12) "unitsml(Hz)"] (stem:["unitsml(W)"]) et la réponse photobiologique provoquée par le flux
+lumineux reçu par un observateur moyen (stem:["unitsml(lm)"]). [[si_systeme-3]]
 
 
 === Définitions des unités du SI (((unité(s),de base))) index-range:unites_definions[(((unité(s),de base,définitions)))] (((unité(s),dérivées))) index-range:unite_si[(((unité(s),SI)))]
@@ -191,13 +191,13 @@ Les unités de base du SI sont rassemblées dans le <<table-2>>.
 
 h| Nom h| Symbole caractéristique h| Nom h| Symbole
 
-| temps | stem:[t] | ((seconde)) | stem:[rm(s)]
-| ((longueur)) | stem:[l, x, r], etc. | mètre(((mètre (m)))) | stem:[rm(m)]
-| masse | stem:[m] | ((kilogramme)) | stem:[rm(kg)]
-| ((courant électrique)) | stem:[ii(I), i] | ampère(((ampère (A)))) | stem:[rm(A)]
-| température thermodynamique | stem:[ii(T)] | kelvin(((kelvin (K)))) | stem:[rm(K)]
-| quantité de matière(((quantité de matière))) | stem:[n] | mole | stem:[rm(mol)]
-| ((intensité lumineuse)) | stem:[ii(I)_"v"] | candela(((candela (cd)))) | stem:[rm(cd)]
+| temps | stem:[t] | ((seconde)) | stem:["unitsml(s)"]
+| ((longueur)) | stem:[l, x, r], etc. | mètre(((mètre (stem:["unitsml(m)"])))) | stem:["unitsml(m)"]
+| masse | stem:[m] | ((kilogramme)) | stem:["unitsml(kg)"]
+| ((courant électrique)) | stem:[ii(I), i] | ampère(((ampère (stem:["unitsml(A)"])))) | stem:["unitsml(A)"]
+| température thermodynamique | stem:[ii(T)] | kelvin(((kelvin (stem:["unitsml(K)"])))) | stem:["unitsml(K)"]
+| quantité de matière(((quantité de matière))) | stem:[n] | mole | stem:["unitsml(mol)"]
+| ((intensité lumineuse)) | stem:[ii(I)_"v"] | candela(((candela (stem:["unitsml(cd)"])))) | stem:["unitsml(cd)"]
 
 |===
 
@@ -219,18 +219,18 @@ ci-après.
 *La seconde*
 index-range:seconde-1[(((seconde)))]
 
-*La seconde, symbole stem:[rm(s)], est l’unité de temps du SI. Elle est définie en prenant la valeur
+*La seconde, symbole stem:["unitsml(s)"], est l’unité de temps du SI. Elle est définie en prenant la valeur
 numérique fixée de la ((fréquence du césium)), stem:[Delta ii(nu)_{"Cs"}], la fréquence de la transition
 hyperfine de l’état fondamental de l’atome de césium((("atome de césium, niveaux hyperfins"))) 133 non perturbé, égale à
-stem:[9192631770] lorsqu’elle est exprimée en stem:[rm(Hz)], unité égale à stem:[rm(s)^{-1}].*
+stem:[9192631770] lorsqu’elle est exprimée en stem:["unitsml(Hz)"], unité égale à stem:["unitsml(s^(-1))"].*
 
-Cette définition implique la relation exacte stem:[Delta ii(nu)_{"Cs"} = 9192631770 " "rm(Hz)]. En inversant cette
+Cette définition implique la relation exacte stem:[Delta ii(nu)_{"Cs"} = 9192631770 "unitsml(Hz)"]. En inversant cette
 relation, la seconde est exprimée en fonction de la constante stem:[Delta ii(nu)_{"Cs"}]{nbsp}:
 
 
 [stem%unnumbered]
 ++++
-1 " "rm(Hz) = {Delta ii(nu)_{"Cs"}} / {9192631770}  " ou " 1 " "rm(s) ={ 9192631770} / {Delta ii(nu)_{"Cs"}}
+1 "unitsml(Hz)" = {Delta ii(nu)_{"Cs"}} / {9192631770}  " ou " 1 "unitsml(s)" ={ 9192631770} / {Delta ii(nu)_{"Cs"}}
 ++++ 
 
 Il résulte de cette définition que la seconde est égale à la durée de stem:[9192631770] périodes
@@ -255,49 +255,49 @@ l’atome de ^133^Cs mais certaines peuvent être reproduites avec une meilleure
 
 
 *Le mètre*
-(((mètre (m))))
+(((mètre (stem:["unitsml(m)"]))))
 
-*Le mètre, symbole stem:[rm(m)], est l’unité de ((longueur)) du SI. Il est défini en prenant la valeur
+*Le mètre, symbole stem:["unitsml(m)"], est l’unité de ((longueur)) du SI. Il est défini en prenant la valeur
 numérique fixée de la ((vitesse de la lumière dans le vide)), stem:[c], égale à stem:[299792458]
-lorsqu’elle est exprimée en stem:[rm(m)" "rm(s)^{-1}], la ((seconde)) étant définie en fonction de stem:[Delta ii(nu)_{"Cs"}].*
+lorsqu’elle est exprimée en stem:["unitsml(m*s^(-1))"], la ((seconde)) étant définie en fonction de stem:[Delta ii(nu)_{"Cs"}].*
 
-Cette définition implique la relation exacte stem:[c = 299792458] stem:[rm(m)" "rm(s)^{-1}]. En inversant cette
+Cette définition implique la relation exacte stem:[c = 299792458] stem:["unitsml(m*s^(-1))"]. En inversant cette
 relation, le mètre est exprimé en fonction des constantes stem:[c] et stem:[Delta ii(nu)_{"Cs"}]{nbsp}:
 
 [stem%unnumbered]
 ++++
-1 " "rm(m) = ( c / (299792458) )" "rm(s) = (9192631770) / (299792458) c / {Delta ii(nu)_{"Cs"}} ~~ 30.663319 c / {Delta ii(nu)_{"Cs"}}
+1 "unitsml(m)" = ( c / (299792458) ) "unitsml(s)" = (9192631770) / (299792458) c / {Delta ii(nu)_{"Cs"}} ~~ 30.663319 c / {Delta ii(nu)_{"Cs"}}
 ++++
 
-Il résulte de cette définition que le mètre(((mètre (m)))) est la ((longueur)) du trajet parcouru dans le vide par
+Il résulte de cette définition que le mètre(((mètre (stem:["unitsml(m)"])))) est la ((longueur)) du trajet parcouru dans le vide par
 la lumière pendant une durée de stem:[1//299792458] de seconde.
 
 
 *Le ((kilogramme))*
 
-*Le kilogramme, symbole stem:[rm(kg)], est l’unité de masse du SI. Il est défini en prenant la
+*Le kilogramme, symbole stem:["unitsml(kg)"], est l’unité de masse du SI. Il est défini en prenant la
 valeur numérique fixée de la constante de Planck(((constante, de Planck))), stem:[h], égale à stem:[6.62607015 xx 10^{−34}]
-lorsqu’elle est exprimée en stem:[rm(J)" "rm(s)], unité égale à stem:[rm(kg)" "rm(m)^2 rm(s)^{-1}], le mètre et la ((seconde)) étant
+lorsqu’elle est exprimée en stem:["unitsml(J*s)"], unité égale à stem:["unitsml(kg*m^2*s^(-1))"], le mètre et la ((seconde)) étant
 définis en fonction de stem:[c] et stem:[Delta ii(nu)_{"Cs"}].*
 
-Cette définition implique la relation exacte stem:[h = 6.62607015 xx 10^{−34} " "rm(kg)" "rm(m)^2 rm(s)^{-1}]. En inversant
+Cette définition implique la relation exacte stem:[h = 6.62607015 xx 10^{−34} "unitsml(kg*m^2*s^(-1))"]. En inversant
 cette relation, le kilogramme est exprimé en fonction des trois
 constantes stem:[h], stem:[Delta ii(nu)_{"Cs"}] et stem:[c]{nbsp}:
 
 
 [stem%unnumbered]
 ++++
-1 " "rm(kg) = ( h / {6.62607015 xx 10^{-34}}) " "rm(m)^{-2} rm(s)
+1 "unitsml(kg)" = ( h / {6.62607015 xx 10^{-34}}) "unitsml(m^(-2)*s)"
 ++++
 
 relation identique à
 
 [stem%unnumbered]
 ++++
-1 " "rm(kg) = (299792458)^2 / {(6.62607015 xx 10^{-34})(9192631770)} {h Delta ii(nu)_{"Cs"}} / c^2 ~~ 1.4755214 xx 10^40 {h Delta ii(nu)_{"Cs"}} / c^2
+1 "unitsml(kg)" = (299792458)^2 / {(6.62607015 xx 10^{-34})(9192631770)} {h Delta ii(nu)_{"Cs"}} / c^2 ~~ 1.4755214 xx 10^40 {h Delta ii(nu)_{"Cs"}} / c^2
 ++++
 
-Cette définition permet de définir l’unité stem:[rm(kg)" "rm(m)^2 " "rm(s)^{-1}] (l’unité des grandeurs physiques
+Cette définition permet de définir l’unité stem:["unitsml(kg*m^2*s^(-1))"] (l’unité des grandeurs physiques
 «{nbsp}action{nbsp}» et «{nbsp}moment cinétique{nbsp}»). Ainsi associée aux définitions de la ((seconde)) et du
 mètre, l’unité de masse est exprimée en fonction de la constante de Planck(((constante, de Planck))) stem:[h].
 
@@ -309,7 +309,7 @@ prototype doit désormais être déterminée de façon expérimentale.
 
 Le nombre choisi pour fixer la valeur numérique de la constante de Planck(((constante, de Planck))) est tel qu’au
 moment de l’adoption de cette définition de l’unité de masse, le kilogramme était égal à la
-masse du prototype international stem:[m(cc "K") = 1] stem:[rm(kg)] avec une incertitude-type relative égale à
+masse du prototype international stem:[m(cc "K") = 1] stem:["unitsml(kg)"] avec une incertitude-type relative égale à
 stem:[1 xx 10^{−8}], soit l’incertitude-type de la combinaison des meilleures estimations de la valeur de
 la constante de Planck(((constante, de Planck))) à ce moment-là.
 
@@ -317,37 +317,37 @@ Il est à noter que cette définition de l’unité de masse permet d’établir
 des réalisations primaires à tout point de l’échelle de masse.
 
 
-*L’ampère*(((ampère (A))))
+*L’ampère*(((ampère (stem:["unitsml(A)"]))))
 
-*L’ampère(((ampère (A)))), symbole stem:[rm(A)], est l’unité de ((courant électrique)) du SI. Il est défini en prenant
-la valeur numérique fixée de la charge élémentaire, stem:[e], égale à stem:[1.602176634 xx 10^{-19}]
-lorsqu’elle est exprimée en stem:[rm(C)], unité égale à stem:[rm(A)" "rm(s)], la seconde étant définie en fonction de
+*L’ampère(((ampère (stem:["unitsml(A)"])))), symbole stem:["unitsml(A)"], est l’unité de ((courant électrique)) du SI. Il est défini en prenant
+la valeur numérique fixée de la charge élémentaire, stem:[e], égale à stem:[1.602176634 xx 10^(-19)]
+lorsqu’elle est exprimée en stem:["unitsml(C)"], unité égale à stem:["unitsml(A*s)"], la seconde étant définie en fonction de
 stem:[Delta ii(nu)_{"Cs"}].*
 
-Cette définition implique la relation exacte stem:[e = 1.602176634 xx 10^{-19} " "rm(A)" "rm(s)]. En inversant
-cette relation, l’ampère(((ampère (A)))) est exprimé en fonction des constantes stem:[e] et stem:[Delta ii(nu)_{"Cs"}]{nbsp}:
+Cette définition implique la relation exacte stem:[e = 1.602176634 xx 10^(-19) "unitsml(A*s)"]. En inversant
+cette relation, l’ampère(((ampère (stem:["unitsml(A)"])))) est exprimé en fonction des constantes stem:[e] et stem:[Delta ii(nu)_{"Cs"}]{nbsp}:
 
 [stem%unnumbered]
 ++++
-1 " "rm(A) = (e/{1.602176634 xx 10^{-19}}) " "rm(s)^{-1}
+1 "unitsml(A)" = (e/{1.602176634 xx 10^(-19)}) "unitsml(s^(-1))"
 ++++
 
 relation identique à
 
 [stem%unnumbered]
 ++++
-1 " "rm(A) = 1/((9192631770)(1.602176634 times 10^(-19)))Delta ii(nu)_("Cs") e ~~ 6.7896868 times 10^8 Delta ii(nu)_("Cs") e.
+1 "unitsml(A)" = 1/((9192631770)(1.602176634 times 10^(-19)))Delta ii(nu)_("Cs") e ~~ 6.7896868 times 10^8 Delta ii(nu)_("Cs") e.
 ++++
 
 
-Il résulte de cette définition qu’un ampère(((ampère (A)))) est le ((courant électrique)) correspondant au flux de stem:[1//(1.602176634 xx 10^{-19})] charges élémentaires par ((seconde)).
-(((henry (H))))(((unité(s),dérivées cohérentes)))
+Il résulte de cette définition qu’un ampère(((ampère (stem:["unitsml(A)"])))) est le ((courant électrique)) correspondant au flux de stem:[1//(1.602176634 xx 10^(-19))] charges élémentaires par ((seconde)).
+(((henry (stem:["unitsml(H)"]))))(((unité(s),dérivées cohérentes)))
 
-La précédente définition de l’ampère(((ampère (A)))), fondée sur la force produite entre deux conducteurs
+La précédente définition de l’ampère(((ampère (stem:["unitsml(A)"])))), fondée sur la force produite entre deux conducteurs
 traversés par du courant, fixait la valeur de la perméabilité magnétique du vide(((constante, magnétique&#44; perméabilité du vide))) stem:[ii(mu)_0] (également
-connue sous le nom de constante magnétique(((constante, magnétique&#44; perméabilité du vide))) à exactement stem:[4 pi xx 10^{-7} " "rm(H)" "rm(m)^{-1} = 4 pi xx 10^{-7} " "rm(N)" "rm(A)^{-2}],
-stem:[rm(H)] et stem:[rm(N)] représentant les unités dérivées cohérentes «{nbsp}henry{nbsp}» et «{nbsp}newton{nbsp}», respectivement.
-La nouvelle définition de l’ampère(((ampère (A)))) fixe la valeur numérique de stem:[e] et non plus celle de stem:[ii(mu)_0].
+connue sous le nom de constante magnétique(((constante, magnétique&#44; perméabilité du vide))) à exactement stem:[4 pi xx 10^(-7) "unitsml(H*m^(-1))" = 4 pi xx 10^(-7) "unitsml(N*A^(-2))"],
+stem:["unitsml(H)"] et stem:["unitsml(N)"] représentant les unités dérivées cohérentes «{nbsp}henry{nbsp}» et «{nbsp}newton{nbsp}», respectivement.
+La nouvelle définition de l’ampère(((ampère (stem:["unitsml(A)"])))) fixe la valeur numérique de stem:[e] et non plus celle de stem:[ii(mu)_0].
 Par conséquent, stem:[ii(mu)_0] doit désormais être déterminée de façon expérimentale.
 
 Ainsi, comme la permittivité diélectrique du vide
@@ -357,52 +357,52 @@ l’impédance du vide caractéristique stem:[ii(Z)_0] et l’admittance du vide
 les valeurs de stem:[ii(epsilon)_0], stem:[ii(Z)_0], et stem:[ii(Y)_0] doivent désormais
 être déterminées de façon expérimentale et ont la même incertitude-type relative que stem:[ii(mu)_0]
 puisque la valeur de stem:[c] est connue avec exactitude. Le produit stem:[ii(epsilon)_0 ii(mu)_0 = 1//c^2] et le quotient
-stem:[ii(Z)_0// ii(mu)_0 = c] restent exacts. Au moment de l’adoption de l’actuelle définition de l’ampère(((ampère (A)))),
-stem:[ii(mu)_0] était égale à stem:[4 pi xx 10^{-7} " "rm(H)//rm(m)] avec une incertitude-type relative de stem:[2.3 xx 10^{-10}].
+stem:[ii(Z)_0// ii(mu)_0 = c] restent exacts. Au moment de l’adoption de l’actuelle définition de l’ampère(((ampère (stem:["unitsml(A)"])))),
+stem:[ii(mu)_0] était égale à stem:[4 pi xx 10^(-7) "unitsml(H/m)"] avec une incertitude-type relative de stem:[2.3 xx 10^(-10)].
 
 
 
 *Le kelvin*
-(((kelvin (K))))
+(((kelvin (stem:["unitsml(K)"]))))
 index-range:temp_thermodynamique[(((température,thermodynamique)))]
 
-*Le kelvin, symbole stem:[rm(K)], est l’unité de température thermodynamique du SI. Il est défini
+*Le kelvin, symbole stem:["unitsml(K)"], est l’unité de température thermodynamique du SI. Il est défini
 en prenant la valeur numérique fixée de la constante de Boltzmann(((constante, de Boltzmann))), stem:[k], égale à
-stem:[1.380649 xx 10^{-23}] lorsqu’elle est exprimée en stem:[rm(J)" "rm(K)^{-1}], unité égale à stem:[rm(kg)" "rm(m)^2 " "rm(s)^{-2} " "rm(K)^{-1}],
+stem:[1.380649 xx 10^{-23}] lorsqu’elle est exprimée en stem:["unitsml(J*K^(-1))"], unité égale à stem:["unitsml(kg*m^2*s^(-2)*K^(-1))"],
 le kilogramme, le mètre et la seconde étant définis en fonction de stem:[h], stem:[c] et stem:[Delta ii(nu)_{"Cs"}].*
 
-Cette définition implique la relation exacte stem:[k = 1.380649 xx 10^{-23}] stem:[rm(kg)" "rm(m)^2 " "rm(s)^{-2} " "rm(K)^{-1}].
-En inversant cette relation, le kelvin(((kelvin (K)))) est exprimé en fonction des constantes stem:[k], stem:[h] et stem:[Delta ii(nu)_{"Cs"}]{nbsp}:
+Cette définition implique la relation exacte stem:[k = 1.380649 xx 10^{-23}] stem:["unitsml(kg*m^2*s^(-2)*K^(-1))"].
+En inversant cette relation, le kelvin(((kelvin (stem:["unitsml(K)"])))) est exprimé en fonction des constantes stem:[k], stem:[h] et stem:[Delta ii(nu)_{"Cs"}]{nbsp}:
 
 
 [stem%unnumbered]
 ++++
-1 " "rm(K) = ( {1.380649 xx 10^{-23}} / k ) " "rm(kg)" "rm(m)^2 " "rm(s)^{-2}
+1 "unitsml(K)" = ( {1.380649 xx 10^{-23}} / k ) "unitsml(kg*m^2*s^(-2))"
 ++++
 
 relation identique à
 
 [stem%unnumbered]
 ++++
-1 " "rm(K) = {1.380649 xx 10^{-23}} / {(6.62607015 xx 10^{-34})(9192631770)} {Delta ii(nu)_{"Cs"} h} / k ~~ 2.2666653 {Delta ii(nu)_{"Cs"} h} / k
+1 "unitsml(K)" = {1.380649 xx 10^{-23}} / {(6.62607015 xx 10^{-34})(9192631770)} {Delta ii(nu)_{"Cs"} h} / k ~~ 2.2666653 {Delta ii(nu)_{"Cs"} h} / k
 ++++
 
 
-Il résulte de cette définition qu’un kelvin(((kelvin (K)))) est égal au changement de la température
+Il résulte de cette définition qu’un kelvin(((kelvin (stem:["unitsml(K)"])))) est égal au changement de la température
 thermodynamique résultant d’un changement de l’énergie thermique stem:[k ii(T)] de
-stem:[1.380649 xx 10^{-23}" "rm(J)].
+stem:[1.380649 xx 10^{-23}"unitsml(J)"].
 
-La précédente définition du kelvin(((kelvin (K)))) établissait la température du ((point triple de l’eau)) stem:[ii(T)_("TPW")]
-comme étant exactement égale à stem:[273.16 " "rm(K)]. Étant donné que l’actuelle définition du kelvin
+La précédente définition du kelvin(((kelvin (stem:["unitsml(K)"])))) établissait la température du ((point triple de l’eau)) stem:[ii(T)_("TPW")]
+comme étant exactement égale à stem:[273.16 "unitsml(K)"]. Étant donné que l’actuelle définition du kelvin
 fixe la valeur numérique de stem:[k] et non plus celle de stem:[ii(T)_{"TPW"}], cette dernière doit désormais être
 déterminée de façon expérimentale. Au moment de l’adoption de l’actuelle définition du
-kelvin(((kelvin (K)))), stem:[ii(T)_{"TPW"}] était égale à stem:[273.16 " "rm(K)] avec une incertitude-type relative de stem:[3.7 xx 10^{-7}]
+kelvin(((kelvin (stem:["unitsml(K)"])))), stem:[ii(T)_{"TPW"}] était égale à stem:[273.16 "unitsml(K)"] avec une incertitude-type relative de stem:[3.7 xx 10^(-7)]
 déterminée à partir des mesures de stem:[k] réalisées avant la redéfinition.
 (((température,Celsius)))(((échelle,de température thermodynamique)))
 
 En raison de la manière dont les échelles de température étaient habituellement définies,
 il est resté d’usage courant d’exprimer la température thermodynamique, symbole stem:[ii(T)],
-en fonction de sa différence par rapport à la température de référence stem:[ii(T)_0 = 273.15 " "rm(K)]
+en fonction de sa différence par rapport à la température de référence stem:[ii(T)_0 = 273.15 "unitsml(K)"]
 proche du point de congélation de l’eau. Cette différence de température est appelée
 température Celsius, symbole stem:[t]{nbsp}; elle est définie par l’équation aux grandeurs{nbsp}:
 
@@ -411,8 +411,8 @@ température Celsius, symbole stem:[t]{nbsp}; elle est définie par l’équatio
 t = ii(T) - ii(T)_0
 ++++
 
-L’unité de température Celsius est le degré Celsius(((degré Celsius (°C)))), symbole stem:["°"rm(C)], qui par définition est égal
-en amplitude à l’unité «{nbsp}kelvin{nbsp}»(((kelvin (K)))). Une différence ou un intervalle de température peut
+L’unité de température Celsius est le degré Celsius(((degré Celsius (stem:["unitsml(degC)"])))), symbole stem:["unitsml(degC)"], qui par définition est égal
+en amplitude à l’unité «{nbsp}kelvin{nbsp}»(((kelvin (stem:["unitsml(K)"])))). Une différence ou un intervalle de température peut
 s’exprimer aussi bien en kelvins qu’en degrés Celsius, la valeur numérique de la différence
 de température étant la même dans les deux cas. La valeur numérique de la température
 Celsius exprimée en degrés Celsius est liée à la valeur numérique de la température
@@ -420,43 +420,43 @@ thermodynamique exprimée en kelvins par la relation{nbsp}:
 
 [stem%unnumbered]
 ++++
-t // "°"rm(C) = ii(T) // rm(K) - 273.15
+t // "unitsml(degC)" = ii(T) // "unitsml(K)" - 273.15
 ++++
 
 (voir <<scls541>> pour une explication de la notation utilisée ici).
 (((échelle,internationale de température de 1990 (EIT-90))))
 
-Le kelvin(((kelvin (K)))) et le degré Celsius(((degré Celsius (°C)))) sont aussi les unités de l’Échelle internationale de température
+Le kelvin(((kelvin (stem:["unitsml(K)"])))) et le degré Celsius(((degré Celsius (stem:["unitsml(degC)"])))) sont aussi les unités de l’Échelle internationale de température
 de 1990 (EIT-90) adoptée par le CIPM en 1989 dans sa Recommandation 5 (CI-1989, PV,
 *57*, 26). Il est à noter que l’EIT-90 définit les deux grandeurs
 stem:[ii(T)_{90}] et stem:[t_{90}] qui sont de très
 bonnes approximations des températures thermodynamiques correspondantes stem:[ii(T)] et stem:[t].
 
 Il est également à noter que l’actuelle définition de l’unité de température
-thermodynamique permet d’établir, en principe, des réalisations primaires du kelvin(((kelvin (K)))) à tout
+thermodynamique permet d’établir, en principe, des réalisations primaires du kelvin(((kelvin (stem:["unitsml(K)"])))) à tout
 point de l’échelle de température. [[temp_thermodynamique]]
 
 
 *La mole*
-index-range:mole_mol[(((mole (mol))))](((nombre d’Avogadro)))
+index-range:mole_mol[(((mole (stem:["unitsml(mol)"]))))](((nombre d’Avogadro)))
 index-range:quantite_matiere-1[(((quantité de matière)))]
 
-*La mole, symbole stem:[rm(mol)], est l’unité de quantité de matière du SI. Une mole contient
+*La mole, symbole stem:["unitsml(mol)"], est l’unité de quantité de matière du SI. Une mole contient
 exactement stem:[6.02214076 xx 10^(23)] entités élémentaires. Ce nombre, appelé
 «{nbsp}nombre d’Avogadro{nbsp}», correspond à la valeur numérique fixée de la constante
-d’Avogadro, stem:[ii(N)_"A"], lorsqu’elle est exprimée en stem:[rm(mol)^{-1}].*
+d’Avogadro, stem:[ii(N)_"A"], lorsqu’elle est exprimée en stem:["unitsml(mol^(-1))"].*
 
 *La quantité de matière, symbole stem:[n], d’un système est une représentation du nombre
 d’entités élémentaires spécifiées. Une entité élémentaire peut être un atome,
 une molécule, un ion, un électron, ou toute autre particule ou groupement spécifié de
 particules.*
 
-Cette définition implique la relation exacte stem:[ii(N)_"A" = 6.02214076 xx 10^23 " "rm(mol)^{-1}]. En inversant
+Cette définition implique la relation exacte stem:[ii(N)_"A" = 6.02214076 xx 10^23 "unitsml(mol^(-1))"]. En inversant
 cette relation, on obtient l’expression exacte de la mole en fonction de la constante stem:[ii(N)_"A"]{nbsp}:
 
 [stem%unnumbered]
 ++++
-1 " "rm(mol) = ( {6.02214076 xx 10^(23)} / ii(N)_"A" )
+1 "unitsml(mol)" = ( {6.02214076 xx 10^(23)} / ii(N)_"A" )
 ++++
 
 
@@ -465,18 +465,18 @@ stem:[6.02214076 xx 10^(23)] entités élémentaires spécifiées.
 
 [[incertitude]]
 La précédente définition de la mole fixait la valeur de la ((masse molaire)) du ((carbone)) 12,
-stem:[ii(M)(""^{12}"C")], comme étant exactement égale à stem:[0.012 " "rm(kg)//rm(mol)]. Selon l’actuelle définition de la
+stem:[ii(M)(""^{12}"C")], comme étant exactement égale à stem:[0.012 "unitsml(kg/mol)"]. Selon l’actuelle définition de la
 mole, stem:[ii(M)(""^{12}"C")] n’est plus connue avec exactitude et doit être déterminée de façon
 expérimentale. La valeur choisie pour stem:[ii(N)_"A"] est telle qu’au moment de l’adoption de la
-présente définition de la mole, stem:[ii(M)(""^{12}"C")] était égale à stem:[0.012 " "rm(kg)//rm(mol)] avec une incertitude-type
-relative de stem:[4.5 xx 10^{-10}]. [[mole_mol]]
+présente définition de la mole, stem:[ii(M)(""^{12}"C")] était égale à stem:[0.012 "unitsml(kg/mol)"] avec une incertitude-type
+relative de stem:[4.5 xx 10^(-10)]. [[mole_mol]]
 
 La ((masse molaire)) d’un atome ou d’une molécule stem:["X"] peut toujours être obtenue à partir de sa
 masse atomique relative à l’aide de l’équation{nbsp}:
 
 [stem%unnumbered]
 ++++
-ii(M)("X") = ii(A)_"r" ("X") [ii(M)(""^{12}"C")//12] = ii(A)_"r" ("X") ii(M)_{rm(u)}
+ii(M)("X") = ii(A)_"r" ("X") [ii(M)(""^{12}"C")//12] = ii(A)_"r" ("X") ii(M)_{"unitsml(u)"}
 ++++
 
 et la ((masse molaire)) d’un atome ou d’une molécule stem:["X"] est également reliée à la masse d’une
@@ -484,24 +484,24 @@ entité élémentaire stem:[m("X")] par la relation{nbsp}:
 
 [stem%unnumbered]
 ++++
-ii(M)("X") = ii(N)_"A" m("X") = ii(N)_"A" ii(A)_"r" ("X") m_{rm(u)}
+ii(M)("X") = ii(N)_"A" m("X") = ii(N)_"A" ii(A)_"r" ("X") m_{"unitsml(u)"}
 ++++
 
-Dans ces équations, stem:[ii(M)_{rm(u)}] est la constante de ((masse molaire)),
-égale à stem:[ii(M)](^12^C)/12, et stem:[m_{rm(u)}] est la
+Dans ces équations, stem:[ii(M)_{"unitsml(u)"}] est la constante de ((masse molaire)),
+égale à stem:[ii(M)](^12^C)/12, et stem:[m_{"unitsml(u)"}] est la
 constante de masse atomique unifiée, égale à stem:[m](^12^C)/12.
 Elles sont liées à la constante d’Avogadro(((constante, d'Avogadro))) par la relation{nbsp}:
 
 [stem%unnumbered]
 ++++
-ii(M)_{rm(u)} = ii(N)_"A" m_{rm(u)}
+ii(M)_{"unitsml(u)"} = ii(N)_"A" m_{"unitsml(u)"}
 ++++
 
 Dans le terme «{nbsp}quantité de matière{nbsp}»(((quantité de matière))), le mot «{nbsp}matière{nbsp}» sera généralement remplacé par
 d’autres mots précisant la matière en question pour chaque application particulière{nbsp};
 on pourrait par exemple parler de «{nbsp}quantité de chlorure d’hydrogène{nbsp}» ou de «{nbsp}quantité de
 benzène{nbsp}». Il est important de définir précisément l’entité en question (comme le souligne la
-définition de la mole(((mole (mol)))), de préférence en précisant la formule chimique moléculaire du
+définition de la mole(((mole (stem:["unitsml(mol)"])))), de préférence en précisant la formule chimique moléculaire du
 matériau concerné. Bien que le mot «{nbsp}quantité{nbsp}» ait une définition plus générale dans le
 dictionnaire, cette abréviation du nom complet «{nbsp}quantité de matière{nbsp}» est parfois utilisée
 par souci de concision. Ceci s’applique aussi aux grandeurs dérivées(((grandeurs,dérivées))) telles que la
@@ -511,29 +511,29 @@ matière{nbsp}» est généralement abrégé en «{nbsp}concentration de matièr
 
 
 *La candela*
-(((candela (cd))))
+(((candela (stem:["unitsml(cd)"]))))
 index-range:monochromatique[(((rayonnement monochromatique)))]
 
-*La candela(((candela (cd)))), symbole stem:[rm(cd)], est l’unité du SI d’intensité lumineuse dans une direction
+*La candela(((candela (stem:["unitsml(cd)"])))), symbole stem:["unitsml(cd)"], est l’unité du SI d’intensité lumineuse dans une direction
 donnée. Elle est définie en prenant la valeur numérique fixée de l’efficacité lumineuse
-d’un ((rayonnement monochromatique)) de fréquence stem:[540 xx 10^(12) " "rm(Hz)], stem:[ii(K)_{"cd"}], égale à
-683 lorsqu’elle est exprimée en stem:[rm(lm)" "rm(W)^{-1}], unité égale à stem:[rm(cd)" "rm(sr)" "rm(W)^{-1}], ou stem:[rm(cd)" "rm(sr)" "rm(kg)^{-1} " "rm(m)^{-2} " "rm(s)^3],
+d’un ((rayonnement monochromatique)) de fréquence stem:[540 xx 10^(12) "unitsml(Hz)"], stem:[ii(K)_{"cd"}], égale à
+683 lorsqu’elle est exprimée en stem:["unitsml(lm*W^(-1))"], unité égale à stem:["unitsml(cd*sr*W^(-1))"], ou stem:["unitsml(cd*sr*kg^(-1)*m^(-2)*s^3)"],
 le kilogramme, le mètre et la ((seconde)) étant définis en fonction de stem:[h], stem:[c] et stem:[Delta ii(nu)_{"Cs"}].*
 
-Cette définition implique la relation exacte stem:[ii(K)_{"cd"} = 683 " "rm(cd)" "rm(sr)" "rm(kg)^{-1} " "rm(m)^{-2} " "rm(s)^3] pour le rayonnement
-monochromatique de fréquence stem:[ii(nu) = 540 xx 10^(12) " "rm(Hz)]. En inversant cette relation, la candela(((candela (cd))))
+Cette définition implique la relation exacte stem:[ii(K)_{"cd"} = 683 "unitsml(cd*sr*kg^(-1)*m^(-2)*s^3)"] pour le rayonnement
+monochromatique de fréquence stem:[ii(nu) = 540 xx 10^(12) "unitsml(Hz)"]. En inversant cette relation, la candela(((candela (stem:["unitsml(cd)"]))))
 est exprimée en fonction des constantes stem:[ii(K)_{"cd"}], stem:[h] et stem:[Delta ii(nu)_{"Cs"}]{nbsp}:
 
 [stem%unnumbered]
 ++++
-1 " "rm(cd) = ( ii(K)_{"cd"} / 683 ) " "rm(kg)" "rm(m)^2 " "rm(s)^{-3} " "rm(sr)^{-1}
+1 "unitsml(cd)" = ( ii(K)_{"cd"} / 683 ) "unitsml(kg*m^2*s^(-3)*sr^(-1))"
 ++++
 
 relation identique à
 
 [stem%unnumbered]
 ++++
-1 " "rm(cd) = 1/((6.62607015 xx 10^(-34))(9192631770)^{2} 683)(Delta ii(nu)_("Cs"))^2 h " " ii(K)_("cd")
+1 "unitsml(cd)" = 1/((6.62607015 xx 10^(-34))(9192631770)^{2} 683)(Delta ii(nu)_("Cs"))^2 h " " ii(K)_("cd")
 ++++
 
 [stem%unnumbered]
@@ -542,9 +542,9 @@ relation identique à
 ++++
 
 
-Il résulte de cette définition que la candela(((candela (cd)))) est l’intensité lumineuse, dans une direction
+Il résulte de cette définition que la candela(((candela (stem:["unitsml(cd)"])))) est l’intensité lumineuse, dans une direction
 donnée, d’une source qui émet un ((rayonnement monochromatique)) de fréquence
-stem:[540 xx 10^(12) " "rm(Hz)] et dont l’intensité énergétique dans cette direction est stem:[(1//683) " "rm(W)" "rm(sr)^{-1}].
+stem:[540 xx 10^(12) "unitsml(Hz)"] et dont l’intensité énergétique dans cette direction est stem:[(1//683) "unitsml(W*sr^(-1))"].
 La définition du stéradian(((stéradian (sr)))) est donnée au bas du <<table-4>>. [[monochromatique]] [[unites_de_base]]
 
 
@@ -633,14 +633,14 @@ automatiquement présente. Il n’y a pas lieu d’introduire l’unité «{nbsp
 décision spécifique. Ainsi, il est possible d’établir la traçabilité formelle au SI par des
 procédures adéquates et validées.
 
-Les angles(((angle))) plans et solides, lorsqu’ils sont exprimés respectivement en radians(((radian (rad)))) et stéradians(((stéradian (sr)))),
+Les angles(((angle))) plans et solides, lorsqu’ils sont exprimés respectivement en radians(((radian (stem:["unitsml(rad)"])))) et stéradians(((stéradian (sr)))),
 sont également traités dans le SI comme des grandeurs d’unité «{nbsp}un{nbsp}» (voir <<scls548,nosee%>>).
-Au besoin, les symboles rad et sr sont écrits explicitement de façon à souligner que la
+Au besoin, les symboles stem:["unitsml(rad)"] et stem:["unitsml(sr)"] sont écrits explicitement de façon à souligner que la
 grandeur considérée, pour les radians ou stéradians, est – ou implique – respectivement
 l’angle(((angle))) plan ou l’angle(((angle))) solide. L’usage des stéradians souligne par exemple la distinction
 entre les unités de flux et d’intensité en radiométrie et photométrie. Toutefois, c’est une
 pratique établie de longue date en mathématiques et dans tous les domaines de la science
-d’utiliser stem:[rm(rad) = 1] et stem:[rm(sr) = 1]. Pour des raisons historiques, le radian et le stéradian sont traités
+d’utiliser stem:["unitsml(rad)" = 1] et stem:["unitsml(sr)" = 1]. Pour des raisons historiques, le radian et le stéradian sont traités
 comme des unités dérivées, tel que décrit dans la <<scls234>>.
 
 Il est particulièrement important de disposer d’une description claire de toute grandeur
@@ -680,52 +680,52 @@ de un. Des préfixes peuvent être utilisés avec l’ensemble des 7 unités de 
 expliqué en détail au <<chapter3>>.
 
 [[table-4]]
-.Les 22 unités SI ayant un nom spécial et un symbole particulier index-range:sievert_sv-1[(((sievert (Sv))))] index-range:symboles_derivees[(((symboles,unités dérivées ayant des noms spéciaux)))] index-range:temperature_celsius[(((température,Celsius)))] (((tesla (T))))
+.Les 22 unités SI ayant un nom spécial et un symbole particulier index-range:sievert_sv-1[(((sievert (stem:["unitsml(Sv)"]))))] index-range:symboles_derivees[(((symboles,unités dérivées ayant des noms spéciaux)))] index-range:temperature_celsius[(((température,Celsius)))] (((tesla (stem:["unitsml(T)"]))))
 [cols="4",options="header"]
 |===
 | Grandeur dérivée
 | Nom spécial de l’unité
 | Expression de l’unité en unités de base footnote:[L'ordre des symboles des unités de base dans le <<table-4>> est différent de celui utilisé dans la 8^e^ édition de la Brochure sur le SI par suite à la décision prise par le CCU à sa 21^e^ réunion (2013) de
 revenir à l’ordre originel défini dans la Résolution 12 adoptée par la CGPM à sa 11^e^ réunion (1960),
-selon laquelle le newton est noté{nbsp}: stem:[rm(kg)" "rm(m)" "rm(s)^{-2}], le joule{nbsp}: stem:[rm(kg)" "rm(m)^2 " "rm(s)^{-2}] et stem:[rm(J)" "rm(s)]{nbsp}: stem:[rm(kg)" "rm(m)^{-2^} " "rm(s)^{-1}]. L’objectif est de refléter les principes physiques sous-jacents aux équations correspondantes des grandeurs bien que,
+selon laquelle le newton est noté{nbsp}: stem:["unitsml(kg*m*s^(-2))"], le joule:{nbsp} stem:["unitsml(kg*m^2*s^(-2))"] et stem:["unitsml(J*s)"]{nbsp}: stem:["unitsml(kg*m^(-2)*s^(-1))"]. L’objectif est de refléter les principes physiques sous-jacents aux équations correspondantes des grandeurs bien que,
 pour certaines unités dérivées plus complexes, cela puisse s’avérer impossible.]
 | Expression de l’unité en d’autres unités SI
 
-| angle(((angle))) plan | radian(((radian (rad)))) footnote:[Le radian est l’unité cohérente d’angle(((angle))) plan. Un radian est un angle(((angle))) compris entre deux rayons d’un
+| angle(((angle))) plan | radian(((radian (stem:["unitsml(rad)"])))) footnote:[Le radian est l’unité cohérente d’angle(((angle))) plan. Un radian est un angle(((angle))) compris entre deux rayons d’un
 cercle qui, sur la circonférence du cercle, interceptent un arc de longueur égale à celle du rayon.
 Le radian est aussi l’unité d’angle(((angle))) de phase. Pour les phénomènes périodiques, l’angle(((angle))) de phase
-augmente de stem:[2 pi " "rm(rad)] à chaque période. Le radian était auparavant une unité SI supplémentaire mais
-cette catégorie a été supprimée en 1995.] | stem:[rm(rad) = rm(m)//rm(m)] | 
+augmente de stem:[2 pi "unitsml(rad)"] à chaque période. Le radian était auparavant une unité SI supplémentaire mais
+cette catégorie a été supprimée en 1995.] | stem:["unitsml(rad)" = "unitsml(m/m)"] | 
 | angle(((angle))) solide | stéradian(((stéradian (sr)))) footnote:[Le stéradian est l’unité cohérente d’angle(((angle))) solide. Un stéradian est un angle(((angle))) solide d’un cône qui,
 ayant son sommet au centre d’une sphère, découpe sur la surface de cette sphère une aire égale à
 celle d’un carré ayant pour côté une longueur égale au rayon de la sphère. Comme le radian,
-le stéradian était auparavant une unité SI supplémentaire.] | stem:[rm(sr) = rm(m)^2 // rm(m)^2] |
-| fréquence | hertz(((hertz (Hz)))) footnote:[Le hertz ne doit être utilisé que pour les phénomènes périodiques et le becquerel que pour les
-processus aléatoires liés à la mesure de l’activité d’un radionucléide.] | stem:[rm(Hz) = rm(s)^{-1}] | 
-| force | newton(((newton (N)))) | stem:[rm(N) = rm(kg)" "rm(m)" "rm(s)^{-2}] | 
-| pression, contrainte | pascal(((pascal (Pa)))) | stem:[rm(Pa) = rm(kg)" "rm(m)^{-1} " "rm(s)^{-2}] | 
-| énergie, travail, quantité de chaleur | joule(((joule (J)))) | stem:[rm(J) = rm(kg)" "rm(m)^2 " "rm(s)^{-2}] | stem:[rm(N)" "rm(m)]
-| puissance, flux énergétique | watt(((watt (W)))) | stem:[rm(W) = rm(kg)" "rm(m)^2 " "rm(s)^{-3}] | stem:[rm(J)//rm(s)]
-| ((charge électrique)) | coulomb(((coulomb \(C)))) | stem:[rm(C) = rm(A)" "rm(s)] | 
+le stéradian était auparavant une unité SI supplémentaire.] | stem:["unitsml(sr)" = "unitsml(m^2/m^2)"] |
+| fréquence | hertz(((hertz (stem:["unitsml(Hz)"])))) footnote:[Le hertz ne doit être utilisé que pour les phénomènes périodiques et le becquerel que pour les
+processus aléatoires liés à la mesure de l’activité d’un radionucléide.] | stem:["unitsml(Hz)" = "unitsml(s^(-1))"] | 
+| force | newton(((newton (stem:["unitsml(N)"])))) | stem:["unitsml(N)" = "unitsml(kg*m*s^(-2))"] | 
+| pression, contrainte | pascal(((pascal (stem:["unitsml(Pa)"])))) | stem:["unitsml(Pa)" = "unitsml(kg*m^(-1)*s^(-2))"] | 
+| énergie, travail, quantité de chaleur | joule(((joule (stem:["unitsml(J)"])))) | stem:["unitsml(J)" = "unitsml(kg*m^2*s^(-2))"] | stem:["unitsml(N*m)"]
+| puissance, flux énergétique | watt(((watt (stem:["unitsml(W)"])))) | stem:["unitsml(W)" = "unitsml(kg*m^2*s^(-3))"] | stem:["unitsml(J/s)"]
+| ((charge électrique)) | coulomb(((coulomb (stem:["unitsml(C)"])))) | stem:["unitsml(C)" = "unitsml(A*s)"] |
 | différence de potentiel électrique footnote:[La différence de potentiel électrique est
 également appelée «{nbsp}tension{nbsp}» ou «{nbsp}tension électrique{nbsp}»
-dans certains pays.] | volt(((volt (V)))) | stem:[rm(V) = rm(kg)" "rm(m)^2 " "rm(s)^{-3} " "rm(A)^{-1}] | stem:[rm(W)//rm(A)]
-| capacité électrique | farad(((farad (F)))) | stem:[rm(F) = rm(kg)^{-1} " "rm(m)^{-2} " "rm(s)^4 " "rm(A)^2] | stem:[rm(C)//rm(V)]
-| résistance électrique | ohm(((ohm (stem:[Omega])))) | stem:[Omega = rm(kg)" "rm(m)^2 " "rm(s)^{-3} " "rm(A)^{-2}] | stem:[rm(V)//rm(A)]
-| conductance électrique | siemens(((siemens (S)))) | stem:[rm(S) = rm(kg)^{-1} " "rm(m)^{-2} " "rm(s)^3 " "rm(A)^2] | stem:[rm(A)//rm(V)]
-| flux d’induction magnétique | weber(((weber (Wb)))) | stem:[rm(Wb) = rm(kg)" "rm(m)^2 " "rm(s)^{-2} " "rm(A)^{-1}] | stem:[rm(V)" "rm(s)]
-| induction magnétique | tesla(((tesla (T)))) | stem:[rm(T) = rm(kg)" "rm(s)^{-2} " "rm(A)^{-1}] | stem:[rm(Wb)//rm(m)^2]
-| inductance | henry(((henry (H)))) | stem:[rm(H) = rm(kg)" "rm(m)^2 " "rm(s)^{-2} " "rm(A)^{-2}] | stem:[rm(Wb)//rm(A)]
-| température Celsius | degré Celsius(((degré Celsius (°C)))) footnote:[Le degré Celsius est utilisé pour exprimer des températures Celsius. La valeur numérique d’une
+dans certains pays.] | volt(((volt (stem:["unitsml(V)"])))) | stem:["unitsml(V)" = "unitsml(kg*m^2*s^(-3)*A^(-1))"] | stem:["unitsml(W/A)"]
+| capacité électrique | farad(((farad (stem:["unitsml(F)"])))) | stem:["unitsml(F)" = "unitsml(kg^(-1)*m^(-2)*s^4*A^2)"] | stem:["unitsml(C/V)"]
+| résistance électrique | ohm(((ohm (stem:["unitsml(Ohm)"])))) | stem:[Ohm = "unitsml(kg*m^2*s^(-3)*A^(-2))"] | stem:["unitsml(V/A)"]
+| conductance électrique | siemens(((siemens (stem:["unitsml(S)"])))) | stem:["unitsml(S)" = "unitsml(kg^(-1)*m^(-2)*s^3*A^2)"] | stem:["unitsml(A/V)"]
+| flux d’induction magnétique | weber(((weber (stem:["unitsml(Wb)"])))) | stem:["unitsml(Wb)" = "unitsml(kg*m^2*s^(-2)*A^(-1))"] | stem:["unitsml(V*s)"]
+| induction magnétique | tesla(((tesla (stem:["unitsml(T)"])))) | stem:["unitsml(T)" = "unitsml(kg*s^(-2)*A^(-1))"] | stem:["unitsml(Wb//m^2)"]
+| inductance | henry(((henry (stem:["unitsml(H)"])))) | stem:["unitsml(H)" = "unitsml(kg*m^2*s^(-2)*A^(-2))"] | stem:["unitsml(Wb/A)"]
+| température Celsius | degré Celsius(((degré Celsius (stem:["unitsml(degC)"])))) footnote:[Le degré Celsius est utilisé pour exprimer des températures Celsius. La valeur numérique d’une
 différence de température ou d’un intervalle de température est identique quand elle est exprimée en
-degrés Celsius ou en kelvins.] | stem:["°"rm(C) = rm(K)] |
-| flux lumineux | lumen(((lumen (lm)))) | stem:[rm(lm) = rm(cd)" "rm(sr)] footnote:[En photométrie, on maintient généralement le nom et le symbole du stéradian, sr, dans l’expression des unités.] | stem:[rm(cd)" "rm(sr)]
-| éclairement lumineux | lux(((lux (lx)))) | stem:[rm(lx) = rm(cd)" "rm(sr)" "rm(m)^{-2}] | stem:[rm(lm)//rm(m)^2]
+degrés Celsius ou en kelvins.] | stem:["unitsml(degC)" = "unitsml(K)"] |
+| flux lumineux | lumen(((lumen (stem:["unitsml(lm)"])))) | stem:["unitsml(lm)" = "unitsml(cd*sr)"] footnote:[En photométrie, on maintient généralement le nom et le symbole du stéradian, sr, dans l’expression des unités.] | stem:["unitsml(cd*sr)"]
+| éclairement lumineux | lux(((lux (stem:["unitsml(lx)"])))) | stem:["unitsml(lx)" = "unitsml(cd*sr*m^(-2))"] | stem:["unitsml(lm/m^2)"]
 | ((activité d’un radionucléide)) footnote:[Le hertz ne doit être utilisé que pour les phénomènes périodiques et le becquerel que pour les
-processus aléatoires liés à la mesure de l’activité d’un radionucléide.] footnote:[L’activité d’un radionucléide est parfois appelée de manière incorrecte radioactivité.] | becquerel(((becquerel (Bq)))) | stem:[rm(Bq) = rm(s)^{-1}] |
-| ((dose absorbée)), kerma | gray(((gray (Gy)))) | stem:[rm(Gy) = rm(m)^2 " "rm(s)^{-2}] | stem:[rm(J)//rm(kg)]
-| équivalent de dose | sievert footnote:[Voir la Recommandation 2 du CIPM sur l’utilisation du sievert (PV, 2002, *70*, 102).] | stem:[rm(Sv) = rm(m)^2 " "rm(s)^{-2}] | stem:[rm(J)//rm(kg)]
-| activité catalytique | katal(((katal (kat)))) | stem:[rm(kat) = rm(mol)" "rm(s)^{-1}] |
+processus aléatoires liés à la mesure de l’activité d’un radionucléide.] footnote:[L’activité d’un radionucléide est parfois appelée de manière incorrecte radioactivité.] | becquerel(((becquerel (stem:["unitsml(Bq)"])))) | stem:["unitsml(Bq)" = "unitsml(s^(-1))"] |
+| ((dose absorbée)), kerma | gray(((gray (stem:["unitsml(Gy)"])))) | stem:["unitsml(Gy)" = "unitsml(m^2*s^(-2))"] | stem:["unitsml(J/kg)"]
+| équivalent de dose | sievert footnote:[Voir la Recommandation 2 du CIPM sur l’utilisation du sievert (PV, 2002, *70*, 102).] | stem:["unitsml(Sv)" = "unitsml(m^2*s^(-2))"] | stem:["unitsml(J/kg)"]
+| activité catalytique | katal(((katal (stem:["unitsml(kat)"])))) | stem:["unitsml(kat)" = "unitsml(mol*s^(-1))"] |
 |===
 
 
@@ -747,52 +747,52 @@ formés à l’aide de préfixes SI(((préfixes SI))). [[sievert_sv-1]] [[temper
 |===
 | Grandeur dérivée | Symbole caractéristique de la grandeur | Unité dérivée exprimée en unités de base
 
-| superficie | stem:[ii(A)] | stem:[rm(m)^2]
-| volume | stem:[ii(V)] | stem:[rm(m)^3]
-| vitesse | stem:[v] | stem:[rm(m)" "rm(s)^{-1}]
-| accélération | stem:[a] | stem:[rm(m)" "rm(s)^{-2}]
-| nombre d’ondes | stem:[ii(sigma)] | stem:[rm(m)^{-1}]
-| masse volumique | stem:[ii(rho)] | stem:[rm(kg)" "rm(m)^{-3}]
-| masse surfacique | stem:[ii(rho)_"A"] | stem:[rm(kg)" "rm(m)^{-2}]
-| volume massique | stem:[ii(nu)] | stem:[rm(m)^3" "rm(kg)^{-1}]
-| densité de courant | stem:[j] | stem:[rm(A)" "rm(m)^{-2}]
-| champ magnétique | stem:[ii(H)] | stem:[rm(A)" "rm(m)^{-1}]
-| concentration de quantité de matière(((quantité de matière))) | stem:[c] | stem:[rm(mol)" "rm(m)^{-3}]
-| concentration massique | stem:[ii(rho), ii(gamma)] | stem:[rm(kg)" "rm(m)^{-3}]
-| luminance lumineuse | stem:[ii(L)_"v"] | stem:[rm(cd)" "rm(m)^{-2}]
+| superficie | stem:[ii(A)] | stem:["unitsml(m^2)"]
+| volume | stem:[ii(V)] | stem:["unitsml(m^3)"]
+| vitesse | stem:[v] | stem:["unitsml(m*s^(-1))"]
+| accélération | stem:[a] | stem:["unitsml(m*s^(-2))"]
+| nombre d’ondes | stem:[ii(sigma)] | stem:["unitsml(m^(-1))"]
+| masse volumique | stem:[ii(rho)] | stem:["unitsml(kg*m^(-3))"]
+| masse surfacique | stem:[ii(rho)_"A"] | stem:["unitsml(kg*m^(-2))"]
+| volume massique | stem:[ii(nu)] | stem:["unitsml(m^3*kg^(-1))"]
+| densité de courant | stem:[j] | stem:["unitsml(A*m^(-2))"]
+| champ magnétique | stem:[ii(H)] | stem:["unitsml(A*m^(-1))"]
+| concentration de quantité de matière(((quantité de matière))) | stem:[c] | stem:["unitsml(mol*m^(-3))"]
+| concentration massique | stem:[ii(rho), ii(gamma)] | stem:["unitsml(kg*m^(-3))"]
+| luminance lumineuse | stem:[ii(L)_"v"] | stem:["unitsml(cd*m^(-2))"]
 |===
 
 
 [[table-6]]
-.Exemples d’unités dérivées cohérentes du SI dont le nom et le symbole comprennent des unités dérivées cohérentes du SI ayant un nom spécial et un symbole particulier (((grandeurs,dérivées)))(((joule (J)))) index-range:radian_rad-1[(((radian (rad))))] (((unité(s),ayant des noms spéciaux et des symboles particuliers))) index-range:biologiques[(((unité(s),des grandeurs biologiques)))]
+.Exemples d’unités dérivées cohérentes du SI dont le nom et le symbole comprennent des unités dérivées cohérentes du SI ayant un nom spécial et un symbole particulier (((grandeurs,dérivées)))(((joule (stem:["unitsml(J)"])))) index-range:radian_rad-1[(((radian (stem:["unitsml(rad)"]))))] (((unité(s),ayant des noms spéciaux et des symboles particuliers))) index-range:biologiques[(((unité(s),des grandeurs biologiques)))]
 [cols="4",options="header"]
 |===
 | Grandeur dérivée | Nom de l’unité dérivée cohérente | Symbole | Unité dérivée exprimée en unités de base
 
-| viscosité dynamique(((viscosité,dynamique (poise)))) | pascal ((seconde)) | stem:[rm(Pa)" "rm(s)] | stem:[rm(kg)" "rm(m)^{-1} " "rm(s)^{-1}]
-| moment d’une force | newton(((newton (N)))) mètre(((mètre (m)))) | stem:[rm(N)" "rm(m)] | stem:[rm(kg)" "rm(m)^2 " "rm(s)^{-2}]
-| tension superficielle | newton par mètre | stem:[rm(N)" "rm(m)^{-1}] | stem:[rm(kg)" "rm(s)^{-2}]
-| vitesse angulaire, fréquence angulaire | radian par seconde | stem:[rm(rad)" "rm(s)^{-1}] | stem:[rm(s)^{-1}]
-| accélération angulaire | radian par seconde carrée | stem:[rm(rad)" "rm(s)^{-2}] | stem:[rm(s)^{-2}]
-| flux thermique surfacique, éclairement énergétique | watt par mètre carré | stem:[rm(W)" "rm(m)^{-2}] | stem:[rm(kg)" "rm(s)^{-3}]
-| ((capacité thermique)), entropie | joule par kelvin(((kelvin (K)))) | stem:[rm(J)" "rm(K)^{-1}] | stem:[rm(kg)" "rm(m)^2 " "rm(s)^{-2} " "rm(K)^{-1}]
-| capacité thermique massique, entropie massique | joule par ((kilogramme)) kelvin | stem:[rm(J)" "rm(K)^{-1} " "rm(kg)^{-1}] | stem:[rm(m)^2 " "rm(s)^{-2} " "rm(K)^{-1}]
-| énergie massique | joule par kilogramme | stem:[rm(J)" "rm(kg)^{-1}] | stem:[rm(m)^2 " "rm(s)^{-2}]
-| conductivité thermique | watt par mètre kelvin | stem:[rm(W)" "rm(m)^{-1} " "rm(K)^{-1}] | stem:[rm(kg)" "rm(m)" "rm(s)^{-3} " "rm(K)^{-1}]
-| énergie volumique | joule par mètre cube | stem:[rm(J)" "rm(m)^{-3}] | stem:[rm(kg)" "rm(m)^{-1}" "rm(s)^{-2}]
-| champ électrique | volt par mètre | stem:[rm(V)" "rm(m)^{-1}] | stem:[rm(kg)" "rm(m)" "rm(s)^{-3} " "rm(A)^{-1}]
-| ((charge électrique)) volumique | coulomb par mètre cube | stem:[rm(C)" "rm(m)^{-3}] | stem:[rm(A)" "rm(s)" "rm(m)^{-3}]
-| ((charge électrique)) surfacique | coulomb par mètre carré | stem:[rm(C)" "rm(m)^{-2}] | stem:[rm(A)" "rm(s)" "rm(m)^{-2}]
-| induction électrique, déplacement électrique | coulomb par mètre carré | stem:[rm(C)" "rm(m)^{-2}] | stem:[rm(A)" "rm(s)" "rm(m)^{-2}]
-| permittivité | farad par mètre | stem:[rm(F)" "rm(m)^{-1}] | stem:[rm(kg)^{-1} " "rm(m)^{-3} " "rm(s)^4 " "rm(A)^2]
-| perméabilité | henry(((henry (H)))) par mètre | stem:[rm(H)" "rm(m)^{-1}] | stem:[rm(kg)" "rm(m)" "rm(s)^{-2} " "rm(A)^{-2}]
-| énergie molaire | joule par mole | stem:[rm(J)" "rm(mol)^{-1}] | stem:[rm(kg)" "rm(m)^2 " "rm(s)^{-2} " "rm(mol)^{-1}]
-| entropie molaire, capacité thermique molaire | joule par mole kelvin | stem:[rm(J)" "rm(K)^{-1} " "rm(mol)^{-1}] | stem:[rm(kg)" "rm(m)^2 " "rm(s)^{-2} " "rm(mol)^{-1} " "rm(K)^{-1}]
-| exposition (rayons x et stem:[gamma]) | coulomb par kilogramme | stem:[rm(C)" "rm(kg)^{-1}] | stem:[rm(A)" "rm(s)" "rm(kg)^{-1}]
-| débit de ((dose absorbée)) | gray(((gray (Gy)))) par seconde | stem:[rm(Gy)" "rm(s)^{-1}] | stem:[rm(m)^2 " "rm(s)^{-3}]
-| intensité énergétique | watt par stéradian | stem:[rm(W)" "rm(sr)^{-1}] | stem:[rm(kg)" "rm(m)^2 " "rm(s)^{-3}]
-| luminance énergétique | watt par mètre carré stéradian | stem:[rm(W)" "rm(sr)^{-1} " "rm(m)^{-2}] | stem:[rm(kg)" "rm(s)^{-3}]
-| concentration de l’activité catalytique | katal par mètre cube | stem:[rm(kat)" "rm(m)^{-3}] | stem:[rm(mol)" "rm(s)^{-1} " "rm(m)^{-3}]
+| viscosité dynamique(((viscosité,dynamique (poise)))) | pascal ((seconde)) | stem:["unitsml(Pa*s)"] | stem:["unitsml(kg*m^(-1)*s^(-1))"]
+| moment d’une force | newton(((newton (stem:["unitsml(N)"])))) mètre(((mètre (stem:["unitsml(m)"])))) | stem:["unitsml(N*m)"] | stem:["unitsml(kg*m^2*s^(-2))"]
+| tension superficielle | newton par mètre | stem:["unitsml(N*m^(-1))"] | stem:["unitsml(kg*s^(-2))"]
+| vitesse angulaire, fréquence angulaire | radian par seconde | stem:["unitsml(rad*s^(-1))"] | stem:["unitsml(s^(-1))"]
+| accélération angulaire | radian par seconde carrée | stem:["unitsml(rad*s^(-2))"] | stem:["unitsml(s^(-2))"]
+| flux thermique surfacique, éclairement énergétique | watt par mètre carré | stem:["unitsml(W*m^(-2))"] | stem:["unitsml(kg*s^(-3))"]
+| ((capacité thermique)), entropie | joule par kelvin(((kelvin (stem:["unitsml(K)"])))) | stem:["unitsml(J*K^(-1))"] | stem:["unitsml(kg*m^2*s^(-2)*K^(-1))"]
+| capacité thermique massique, entropie massique | joule par ((kilogramme)) kelvin | stem:["unitsml(J*K^(-1)*kg^(-1))"] | stem:["unitsml(m^2*s^(-2)*K^(-1))"]
+| énergie massique | joule par kilogramme | stem:["unitsml(J*kg^(-1))"] | stem:["unitsml(m^2*s^(-2))"]
+| conductivité thermique | watt par mètre kelvin | stem:["unitsml(W*m^(-1)*K^(-1))"] | stem:["unitsml(kg*m*s^(-3)*K^(-1))"]
+| énergie volumique | joule par mètre cube | stem:["unitsml(J*m^(-3))"] | stem:["unitsml(kg*m^(-1)*s^(-2))"]
+| champ électrique | volt par mètre | stem:["unitsml(V*m^(-1))"] | stem:["unitsml(kg*m*s^(-3)*A^(-1))"]
+| ((charge électrique)) volumique | coulomb par mètre cube | stem:["unitsml(C*m^(-3))"] | stem:["unitsml(A*s*m^(-3))"]
+| ((charge électrique)) surfacique | coulomb par mètre carré | stem:["unitsml(C*m^(-2))"] | stem:["unitsml(A*s*m^(-2))"]
+| induction électrique, déplacement électrique | coulomb par mètre carré | stem:["unitsml(C*m^(-2))"] | stem:["unitsml(A*s*m^(-2))"]
+| permittivité | farad par mètre | stem:["unitsml(F*m^(-1))"] | stem:["unitsml(kg^(-1)*m^(-3)*s^4*A^2)"]
+| perméabilité | henry(((henry (stem:["unitsml(H)"])))) par mètre | stem:["unitsml(H*m^(-1))"] | stem:["unitsml(kg*m*s^(-2)*A^(-2))"]
+| énergie molaire | joule par mole | stem:["unitsml(J*mol^(-1))"] | stem:["unitsml(kg*m^2*s^(-2)*mol^(-1))"]
+| entropie molaire, capacité thermique molaire | joule par mole kelvin | stem:["unitsml(J*K^(-1)*mol^(-1))"] | stem:["unitsml(kg*m^2*s^(-2)*mol^(-1)*K^(-1))"]
+| exposition (rayons x et stem:[gamma]) | coulomb par kilogramme | stem:["unitsml(C*kg^(-1))"] | stem:["unitsml(A*s*kg^(-1))"]
+| débit de ((dose absorbée)) | gray(((gray (stem:["unitsml(Gy)"])))) par seconde | stem:["unitsml(Gy*s^(-1))"] | stem:["unitsml(m^2*s^(-3))"]
+| intensité énergétique | watt par stéradian | stem:["unitsml(W*sr^(-1))"] | stem:["unitsml(kg*m^2*s^(-3))"]
+| luminance énergétique | watt par mètre carré stéradian | stem:["unitsml(W*sr^(-1)*m^(-2))"] | stem:["unitsml(kg*s^(-3))"]
+| concentration de l’activité catalytique | katal par mètre cube | stem:["unitsml(kat*m^(-3))"] | stem:["unitsml(mol*s^(-1)*m^(-3))"]
 |===
 
 
@@ -801,9 +801,9 @@ cohérente, même si cette unité peut être exprimée sous différentes formes 
 noms spéciaux ou de symboles particuliers.
 
 Toutefois, l’inverse n’est pas vrai car, de façon générale, la même unité SI peut être
-employée pour exprimer différentes grandeurs. Par exemple, le joule par kelvin(((kelvin (K)))) est le nom
+employée pour exprimer différentes grandeurs. Par exemple, le joule par kelvin(((kelvin (stem:["unitsml(K)"])))) est le nom
 de l’unité SI pour la grandeur «{nbsp}((capacité thermique)){nbsp}» et pour la grandeur «{nbsp}entropie{nbsp}».
-De même, l’ampère(((ampère (A)))) est le nom de l’unité SI pour la grandeur de base «{nbsp}((courant électrique)){nbsp}»
+De même, l’ampère(((ampère (stem:["unitsml(A)"])))) est le nom de l’unité SI pour la grandeur de base «{nbsp}((courant électrique)){nbsp}»
 et pour la grandeur dérivée «{nbsp}force magnétomotrice{nbsp}». Il est important de remarquer qu’il ne
 suffit pas d’indiquer le nom de l’unité pour spécifier la grandeur mesurée. Cette règle
 s’applique non seulement aux textes scientifiques et techniques mais aussi, par exemple,
@@ -815,8 +815,8 @@ En pratique on exprime l’unité de certaines grandeurs en employant de préfé
 spécial afin de réduire le risque de confusion entre des grandeurs différentes ayant la même
 dimension. Dans ce cas, on peut rappeler comment la grandeur est définie. Par exemple,
 la grandeur «{nbsp}couple{nbsp}» est le produit vectoriel d’un vecteur position et d’un vecteur force{nbsp}:
-son unité SI est le «{nbsp}newton mètre{nbsp}»(((newton (N)))). Bien que le couple ait la même dimension que
-l’énergie (exprimée en unité SI «{nbsp}joule{nbsp}»), le joule(((joule (J)))) n’est jamais utilisé pour exprimer un
+son unité SI est le «{nbsp}newton mètre{nbsp}»(((newton (stem:["unitsml(N)"])))). Bien que le couple ait la même dimension que
+l’énergie (exprimée en unité SI «{nbsp}joule{nbsp}»), le joule(((joule (stem:["unitsml(J)"])))) n’est jamais utilisé pour exprimer un
 couple.
 
 NOTE: La Commission électrotechnique internationale
@@ -824,8 +824,8 @@ NOTE: La Commission électrotechnique internationale
 pour l’unité de puissance réactive. Exprimé en unités SI
 cohérentes, le var est identique au volt ampère.
 
-L’unité SI de fréquence est le hertz(((hertz (Hz)))), l’unité SI de vitesse angulaire et de fréquence angulaire
-est le radian(((radian (rad)))) par ((seconde)), et l’unité SI d’activité est le becquerel(((becquerel (Bq)))){nbsp}: toutes impliquent un
+L’unité SI de fréquence est le hertz(((hertz (stem:["unitsml(Hz)"])))), l’unité SI de vitesse angulaire et de fréquence angulaire
+est le radian(((radian (stem:["unitsml(rad)"])))) par ((seconde)), et l’unité SI d’activité est le becquerel(((becquerel (stem:["unitsml(Bq)"])))){nbsp}: toutes impliquent un
 comptage par seconde. Même s’il est correct d’écrire ces trois unités «{nbsp}seconde à la
 puissance moins un{nbsp}», l’emploi de noms différents sert à souligner la différence de nature
 des grandeurs en question. Il est particulièrement important de distinguer les fréquences des
@@ -835,33 +835,33 @@ stem:[2 pi]. Ignorer cela peut provoquer une erreur de stem:[2 pi]. On remarque 
 les valeurs de fréquence sont exprimées par convention à l’aide de «{nbsp}cycle/s{nbsp}» ou «{nbsp}cps{nbsp}» au
 lieu de l’unité SI «{nbsp}Hz{nbsp}», bien que «{nbsp}cycle{nbsp}» et «{nbsp}cps{nbsp}» ne soient pas des unités du SI.
 On remarque également qu’il est courant, bien que cela ne soit pas recommandé, d’utiliser
-le terme «{nbsp}fréquence{nbsp}» pour des grandeurs exprimées en rad/s. De ce fait, il est recommandé
+le terme «{nbsp}fréquence{nbsp}» pour des grandeurs exprimées en stem:["unitsml(rad/s)"]. De ce fait, il est recommandé
 de toujours exprimer les grandeurs «{nbsp}fréquence{nbsp}», «{nbsp}fréquence angulaire{nbsp}» et «{nbsp}vitesse
-angulaire{nbsp}» de façon explicite en stem:[rm(Hz)] ou stem:[rm(rad)//rm(s)] mais pas en stem:[rm(s)^{-1}].
-(((gray (Gy))))(((sievert (Sv))))
+angulaire{nbsp}» de façon explicite en stem:["unitsml(Hz)"] ou stem:["unitsml(rad/s)"] mais pas en stem:["unitsml(s^(-1))"].
+(((gray (stem:["unitsml(Gy)"]))))(((sievert (stem:["unitsml(Sv)"]))))
 
-Dans le domaine des ((rayonnements ionisants)), l’unité SI utilisée est le becquerel(((becquerel (Bq)))) plutôt que
-la seconde moins un, et les unités SI «{nbsp}gray{nbsp}» et «{nbsp}sievert{nbsp}»(((sievert (Sv)))) plutôt que le joule(((joule (J)))) par
+Dans le domaine des ((rayonnements ionisants)), l’unité SI utilisée est le becquerel(((becquerel (stem:["unitsml(Bq)"])))) plutôt que
+la seconde moins un, et les unités SI «{nbsp}gray{nbsp}» et «{nbsp}sievert{nbsp}»(((sievert (stem:["unitsml(Sv)"])))) plutôt que le joule(((joule (stem:["unitsml(J)"])))) par
 kilogramme pour, respectivement, la ((dose absorbée)) et l’équivalent de dose. Les noms
-spéciaux «{nbsp}becquerel{nbsp}»(((becquerel (Bq)))), «{nbsp}gray{nbsp}» et «{nbsp}sievert{nbsp}» ont été introduits en raison des dangers pour
+spéciaux «{nbsp}becquerel{nbsp}»(((becquerel (stem:["unitsml(Bq)"])))), «{nbsp}gray{nbsp}» et «{nbsp}sievert{nbsp}» ont été introduits en raison des dangers pour
 la santé humaine qui pourraient résulter d’erreurs dans le cas où les unités «{nbsp}((seconde)) à la
 puissance moins un{nbsp}» et «{nbsp}joule par kilogramme{nbsp}» seraient utilisées à tort pour expliciter ces
 grandeurs.
 
 L’expression de températures ou de différences de température requiert une attention
-particulière. Une différence de température de stem:[1 " "rm(K)] équivaut à une différence de température
-de stem:[1 " °"rm(C)] mais il faut prendre en considération la différence de stem:[273.15 " "rm(K)] pour exprimer une
-température thermodynamique. L’unité degré Celsius(((degré Celsius (°C)))) n’est cohérente que lorsqu’elle est
+particulière. Une différence de température de stem:[1 "unitsml(K)"] équivaut à une différence de température
+de stem:[1 "unitsml(degC)"] mais il faut prendre en considération la différence de stem:[273.15 "unitsml(K)"] pour exprimer une
+température thermodynamique. L’unité degré Celsius(((degré Celsius (stem:["unitsml(degC)"])))) n’est cohérente que lorsqu’elle est
 utilisée pour exprimer des différences de température. [[radian_rad-1]] [[symboles_derivees]] [[unites_derivees]] [[derivees_coherentes]]
 
 
-==== Unités des grandeurs décrivant des effets biologiques et physiologiques (((sievert (Sv))))
+==== Unités des grandeurs décrivant des effets biologiques et physiologiques (((sievert (stem:["unitsml(Sv)"]))))
 
 Quatre des unités du SI listées dans les <<table-2>> et <<table-4>> incluent des coefficients
-physiologiques de pondération{nbsp}: il s’agit de la candela(((candela (cd)))), du lumen(((lumen (lm)))), du lux(((lux (lx)))) et du sievert.
+physiologiques de pondération: il s’agit de la candela(((candela (stem:["unitsml(cd)"])))), du lumen(((lumen (stem:["unitsml(lm)"])))), du lux(((lux (stem:["unitsml(lx)"])))) et du sievert.
 
-Le lumen(((lumen (lm)))) et le lux sont dérivés de l’unité de base «{nbsp}candela{nbsp}»(((candela (cd)))). Comme la candela(((candela (cd)))),
-ils donnent des informations sur la vision humaine. La candela(((candela (cd)))) a été adoptée comme unité
+Le lumen(((lumen (stem:["unitsml(lm)"])))) et le lux sont dérivés de l’unité de base «{nbsp}candela{nbsp}»(((candela (stem:["unitsml(cd)"])))). Comme la candela(((candela (stem:["unitsml(cd)"])))),
+ils donnent des informations sur la vision humaine. La candela(((candela (stem:["unitsml(cd)"])))) a été adoptée comme unité
 de base en 1954 afin de reconnaître l’importance de la lumière dans la vie courante.
 De plus amples informations sur les unités et les conventions utilisées pour définir des
 grandeurs photochimiques(((grandeurs,photochimiques))) et photobiologiques(((grandeurs,photobiologiques))) sont données dans l’<<appendix3>>.
@@ -905,7 +905,7 @@ comprennent des effets relativistes.
 Pour les étalons de fréquence, il est possible de conduire des comparaisons à distance au
 moyen de signaux électromagnétiques. Pour interpréter les résultats, il est nécessaire de
 faire appel à la théorie de la relativité générale puisque celle-ci prédit, entre autres,
-un décalage de fréquence entre les étalons d’environ stem:[1 xx 10^{-16}] en valeur relative par mètre
+un décalage de fréquence entre les étalons d’environ stem:[1 xx 10^(-16)] en valeur relative par mètre
 d’altitude à la surface de la Terre. Des effets de cet ordre de grandeur doivent être corrigés
 lors de la comparaison des meilleurs étalons de fréquence.
 

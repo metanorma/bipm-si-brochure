@@ -9,11 +9,11 @@
 Les deux définitions contenues dans cette
 Résolution furent ratifiées par la CGPM à sa
 9^e^ réunion en 1948, qui a en outre approuvé le nom de
-candela(((candela (cd)))) donné à la «{nbsp}bougie nouvelle{nbsp}»(((bougie nouvelle))) (CR, 54). Pour le
-lumen(((lumen (lm)))), le qualificatif «{nbsp}nouveau{nbsp}» a été
+candela(((candela (stem:["unitsml(cd)"])))) donné à la «{nbsp}bougie nouvelle{nbsp}»(((bougie nouvelle))) (CR, 54). Pour le
+lumen(((lumen (stem:["unitsml(lm)"])))), le qualificatif «{nbsp}nouveau{nbsp}» a été
 abandonné par la suite.
 
-La définition de la candela(((candela (cd)))) a été modifiée par la 13^e^ CGPM en 1967 (<<cgpm13e1968r5r5,Résolution 5>>).
+La définition de la candela(((candela (stem:["unitsml(cd)"])))) a été modifiée par la 13^e^ CGPM en 1967 (<<cgpm13e1968r5r5,Résolution 5>>).
 ====
 
 ==== Résolution (((unité(s),photométriques)))
@@ -28,7 +28,7 @@ ____
 *_Bougie nouvelle_*(((bougie nouvelle))) (unité d’intensité lumineuse).:: La grandeur de la bougie nouvelle(((bougie nouvelle))) est telle
 que la brillance du radiateur intégral à la température de solidification du platine soit de
 60 bougies nouvelles par centimètre carré.
-(((lumen (lm))))(((lumen (lm),nouveau)))
+(((lumen (stem:["unitsml(lm)"]))))(((lumen (lm),nouveau)))
 
 *_Lumen nouveau_* (unité de flux lumineux).:: Le lumen nouveau est le flux lumineux émis dans
 l’angle(((angle))) solide unité (stéradian)(((stéradian (sr)))) par une source ponctuelle uniforme ayant une intensité
@@ -44,9 +44,9 @@ ____
 
 [NOTE]
 ====
-Les définitions contenues dans cette Résolution ont été approuvées par la 9^e^ CGPM en 1948 (CR, 49), qui a en outre adopté le nom newton(((newton (N)))) (Résolution 7) pour l’unité ((MKS)) de force.
+Les définitions contenues dans cette Résolution ont été approuvées par la 9^e^ CGPM en 1948 (CR, 49), qui a en outre adopté le nom newton(((newton (stem:["unitsml(N)"])))) (Résolution 7) pour l’unité ((MKS)) de force.
 
-En 1954, la CGPM à sa 10^e^ réunion (<<cgpm10e1954r6r6,Résolution 6>>) établit un système pratique d’unités de mesure pour les relations internationales. L’ampère(((ampère (A)))) fut l’une des unités de base de ce système.
+En 1954, la CGPM à sa 10^e^ réunion (<<cgpm10e1954r6r6,Résolution 6>>) établit un système pratique d’unités de mesure pour les relations internationales. L’ampère(((ampère (stem:["unitsml(A)"])))) fut l’une des unités de base de ce système.
 ====
 
 [[cipm1946r2r2]]
@@ -62,14 +62,14 @@ ____
 .. Définitions des unités mécaniques utilisées dans les définitions des unités électriques{nbsp}: (((seconde)))
 +
 --
-*_Unité de force._*:: L’unité de force [dans le système ((MKS)) (mètre(((mètre (m)))), ((kilogramme)), seconde)] est la
+*_Unité de force._*:: L’unité de force [dans le système ((MKS)) (mètre(((mètre (stem:["unitsml(m)"])))), ((kilogramme)), seconde)] est la
 force qui communique à une ((masse)) de 1 kilogramme l’accélération de 1 mètre par seconde,
 par seconde.
 
-*_Joule_* (unité d’énergie ou de travail):: Le joule(((joule (J)))) est le travail effectué lorsque le point
+*_Joule_* (unité d’énergie ou de travail):: Le joule(((joule (stem:["unitsml(J)"])))) est le travail effectué lorsque le point
 d’application de 1 unité ((MKS)) de force [newton] se déplace d’une distance égale à 1 mètre
 dans la direction de la force.
-(((watt (W))))
+(((watt (stem:["unitsml(W)"]))))
 
 *_Watt_* (unité de puissance):: Le watt est la puissance qui donne lieu à une production d’énergie
 égale à 1 joule par ((seconde)).
@@ -79,35 +79,35 @@ dans la direction de la force.
 suivantes définissant la grandeur théorique des unités électriques{nbsp}:
 +
 --
-*_Ampère_*(((ampère (A)))) (unité d’intensité de ((courant électrique))):: L’ampère(((ampère (A)))) est l’intensité d’un courant
+*_Ampère_*(((ampère (stem:["unitsml(A)"])))) (unité d’intensité de ((courant électrique))):: L’ampère(((ampère (stem:["unitsml(A)"])))) est l’intensité d’un courant
 constant qui, maintenu dans deux conducteurs parallèles, rectilignes, de ((longueur)) infinie, de
 section circulaire négligeable et placés à une distance de 1 mètre l’un de l’autre dans le vide,
-produirait entre ces conducteurs une force égale à stem:[2 xx 10^{-7}] unité ((MKS)) de force [newton] par
-mètre de longueur. footnote:[NOTE: Définition de l’ampère(((ampère (A)))) abrogée en 2018 par la CGPM à sa 26^e^ réunion (<<cgpm26th2018r1r1,Résolution 1>>).]
-(((volt (V))))
+produirait entre ces conducteurs une force égale à stem:[2 xx 10^(-7)] unité ((MKS)) de force [newton] par
+mètre de longueur. footnote:[NOTE: Définition de l’ampère(((ampère (stem:["unitsml(A)"])))) abrogée en 2018 par la CGPM à sa 26^e^ réunion (<<cgpm26th2018r1r1,Résolution 1>>).]
+(((volt (stem:["unitsml(V)"]))))
 
 *_Volt_* (unité de différence de potentiel et de force électromotrice):: Le volt est la différence de
 potentiel électrique qui existe entre deux points d’un fil conducteur transportant un courant
-constant de 1 ampère(((ampère (A)))), lorsque la puissance dissipée entre ces points est égale à 1 watt.
-(((ohm (stem:[Omega]))))
+constant de 1 ampère(((ampère (stem:["unitsml(A)"])))), lorsque la puissance dissipée entre ces points est égale à 1 watt.
+(((ohm (stem:["unitsml(Ohm)"]))))
 
 *_Ohm_* (unité de résistance électrique):: L’ohm est la résistance électrique qui existe entre deux
 points d’un conducteur lorsqu’une différence de potentiel constante de 1 volt, appliquée
-entre ces deux points, produit, dans ce conducteur, un courant de 1 ampère(((ampère (A)))), ce conducteur
+entre ces deux points, produit, dans ce conducteur, un courant de 1 ampère(((ampère (stem:["unitsml(A)"])))), ce conducteur
 n’étant le siège d’aucune force électromotrice.
 
-*_Coulomb_*(((coulomb \(C)))) (unité de quantité d’électricité):: Le coulomb(((coulomb \(C)))) est la quantité d’électricité transportée
-en 1 seconde par un courant de 1 ampère(((ampère (A)))).
+*_Coulomb_*(((coulomb (stem:["unitsml(C)"])))) (unité de quantité d’électricité):: Le coulomb(((coulomb (stem:["unitsml(C)"])))) est la quantité d’électricité transportée
+en 1 seconde par un courant de 1 ampère(((ampère (stem:["unitsml(A)"])))).
 
-*_Farad_* (unité de capacité électrique):: Le farad(((farad (F)))) est la capacité d’un condensateur électrique
+*_Farad_* (unité de capacité électrique):: Le farad(((farad (stem:["unitsml(F)"])))) est la capacité d’un condensateur électrique
 entre les armatures duquel apparaît une différence de potentiel électrique de 1 volt, lorsqu’il
-est chargé d’une quantité d’électricité égale à 1 coulomb(((coulomb \(C)))).
-(((henry (H))))
+est chargé d’une quantité d’électricité égale à 1 coulomb(((coulomb (stem:["unitsml(C)"])))).
+(((henry (stem:["unitsml(H)"]))))
 
 *_Henry_* (unité d’inductance électrique):: Le henry est l’inductance électrique d’un circuit fermé
 dans lequel une force électromotrice de 1 volt est produite lorsque le ((courant électrique)) qui
 parcourt le circuit varie uniformément à raison de 1 ampère par seconde.
-(((weber (Wb))))
+(((weber (stem:["unitsml(Wb)"]))))
 
 *_Weber_* (unité de flux magnétique):: Le weber est le flux magnétique qui, traversant un circuit
 d’une seule spire, y produirait une force électromotrice de 1 volt, si on l’amenait à zéro en

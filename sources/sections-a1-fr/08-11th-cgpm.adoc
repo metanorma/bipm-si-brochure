@@ -19,7 +19,7 @@ besoins actuels de la métrologie,
 * qu’il est d’autre part désirable d’adopter un étalon naturel et indestructible,
 
 *décide*
-(((mètre (m),prototype international)))
+(((mètre (stem:["unitsml(m)"],prototype international)))
 
 . Le mètre est la ((longueur)) égale à stem:[1650763.73] longueurs d’onde dans le vide de la radiation
 correspondant à la transition entre les niveaux 2p~10~ et 5d~5~ de l’atome de krypton 86.
@@ -83,12 +83,12 @@ pour les relations internationales{nbsp}:
 --
 [cols="3",options="unnumbered"]
 |===
-| longueur | mètre | m
-| ((masse)) | ((kilogramme)) | kg
-| temps | ((seconde)) | s
-| intensité de ((courant électrique)) | ampère(((ampère (A)))) | A
-| température thermodynamique footnote:[Le nom et symbole de l’unité de température thermodynamique ont été modifiés par la 13^e^ CGPM en 1967 (<<cgpm13e1968r3r3,Résolution 3>>).] | degré Kelvin(((kelvin (K))))(((degré kelvin))) | °K
-| ((intensité lumineuse)) | candela(((candela (cd)))) | cd
+| longueur | mètre | stem:["unitsml(m)"]
+| ((masse)) | ((kilogramme)) | stem:["unitsml(kg)"]
+| temps | ((seconde)) | stem:["unitsml(s)"]
+| intensité de ((courant électrique)) | ampère(((ampère (stem:["unitsml(A)"])))) | stem:["unitsml(A)"]
+| température thermodynamique footnote:[Le nom et symbole de l’unité de température thermodynamique ont été modifiés par la 13^e^ CGPM en 1967 (<<cgpm13e1968r3r3,Résolution 3>>).] | degré Kelvin(((kelvin (stem:["unitsml(K)"]))))(((degré kelvin))) | stem:["unitsml(degK)"]
+| ((intensité lumineuse)) | candela(((candela (stem:["unitsml(cd)"])))) | stem:["unitsml(cd)"]
 |===
 --
 
@@ -113,12 +113,12 @@ suivants{nbsp}:
 |===
 ^| Facteur par lequel l’unité est multipliée | Préfixe footnote:[D’autres préfixes furent adoptés par la 12^e^ CGPM en 1964 (<<cgpm12e1964r8r8,Résolution 8>>), par la 15^e^ CGPM en 1975 (<<cgpm15e1975r10r10,Résolution 10>>) et par la 19^e^ CGPM en 1991 (<<cgpm19e1991r4r4,Résolution 4>>). ] | Symbole ^| Facteur par lequel l’unité est multipliée | Préfixe | Symbole
 
-| stem:[1000000000000 = 10^(12)] | téra | stem:[rm(T)] | stem:[0.1 = 10^{-1}] | déci | stem:[rm(d)]
-| stem:[1000000000 = 10^9] | giga | stem:[rm(G)] | stem:[0.01 = 10^{-2}] | centi | stem:[rm(c)]
-| stem:[1000000 = 10^6] | méga | stem:[rm(M)] | stem:[0.001 = 10^{-3}] | milli | stem:[rm(m)]
-| stem:[1000 = 10^3] | kilo | stem:[rm(k)] | stem:[0.000001 = 10^{-6}] | micro | stem:[mu]
-| stem:[100 = 10^2] | hecto | stem:[rm(h)] | stem:[0.000000001 = 10^{-9}] | nano | stem:[rm(n)]
-| stem:[10 = 10^1] | déca | stem:[rm(da)] | stem:[0.000000000001 = 10^{-12}] | pico | stem:[rm(p)]
+| stem:[1000000000000 = 10^(12)] | téra | stem:["unitsml(T-)"] | stem:[0.1 = 10^(-1)] | déci | stem:["unitsml(d-)"]
+| stem:[1000000000 = 10^9] | giga | stem:["unitsml(G-)"] | stem:[0.01 = 10^(-2)] | centi | stem:["unitsml(c-)"]
+| stem:[1000000 = 10^6] | méga | stem:["unitsml(M-)"] | stem:[0.001 = 10^(-3)] | milli | stem:["unitsml(m-)"]
+| stem:[1000 = 10^3] | kilo | stem:["unitsml(k-)"] | stem:[0.000001 = 10^(-6)] | micro | stem:["unitsml(u-)"]
+| stem:[100 = 10^2] | hecto | stem:["unitsml(h-)"] | stem:[0.000000001 = 10^(-9)] | nano | stem:["unitsml(n-)"]
+| stem:[10 = 10^1] | déca | stem:["unitsml(da-)"] | stem:[0.000000000001 = 10^(-12)] | pico | stem:["unitsml(p-)"]
 |===
 
 --
@@ -130,8 +130,8 @@ pourrait ajouter à l’avenir
 |===
 3+h| _Unités supplémentaires_ (((unité(s),supplémentaires))) footnote:[La 20^e^ CGPM a abrogé en 1995 la classe des unités supplémentaires dans le SI (<<cgpm20e1995r8r8,Résolution 8>>). Ces unités sont maintenant considérées comme des unités dérivées.]
 
-| angle(((angle))) | radian(((radian (rad)))) | stem:[rm(rad)]
-| angle solide | stéradian(((stéradian (sr)))) | stem:[rm(sr)]
+| angle(((angle))) | radian(((radian (stem:["unitsml(rad)"])))) | stem:["unitsml(rad)"]
+| angle solide | stéradian(((stéradian (sr)))) | stem:["unitsml(sr)"]
 |===
 
 [cols="4",options="unnumbered"]
@@ -139,33 +139,33 @@ pourrait ajouter à l’avenir
 4+h| _Unités dérivées_ footnote:[La 13^e^ CGPM en 1967 (<<cgpm13e1967r6r6,Résolution 6>>) a ajouté d’autres unités à cette liste d’unités
 dérivées, qui, en principe, n’est pas limitative.]
 
-| superficie | mètre carré | stem:[rm(m)^2] |
-| volume | mètre cube | stem:[rm(m)^3] |
-| fréquence | hertz(((hertz (Hz)))) | stem:[rm(Hz)] | stem:[1//rm(s)]
-| ((masse)) volumique (densité) | ((kilogramme)) par mètre cube | stem:[rm(kg)//rm(m)^3] |
-| vitesse | mètre par ((seconde)) | stem:[rm(m)//rm(s)] |
-| vitesse angulaire | radian(((radian (rad)))) par seconde | stem:[rm(rad)//rm(s)] |
-| accélération | mètre par seconde carrée | stem:[rm(m)//rm(s)^2] |
-| accélération angulaire | radian(((radian (rad)))) par seconde carrée | stem:[rm(rad)//rm(s)^2] |
-| force | newton(((newton (N)))) | stem:[rm(N)] | stem:[rm(kg) * rm(m)//rm(s)^2]
-| pression (tension mécanique) | newton par mètre carré | stem:[rm(N)//rm(m)^2] |
-| viscosité cinématique (((viscosité,cinématique (stokes)))) | mètre carré par seconde | stem:[rm(m)^2//rm(s)] |
-| viscosité dynamique (((viscosité,dynamique (poise)))) | newton-seconde par mètre carré | stem:[rm(N) * rm(s)//rm(m)^2] |
-| travail, énergie, quantité de chaleur | joule(((joule (J)))) | stem:[rm(J)] | stem:[rm(N) * rm(m)]
-| puissance | watt (((watt (W)))) | stem:[rm(W)] | stem:[rm(J)//rm(s)]
-| quantité d’électricité | coulomb(((coulomb \(C)))) | stem:[rm(C)] | stem:[rm(A) * rm(s)]
-| tension électrique, différence de potentiel, force électromotrice | volt(((volt (V)))) | stem:[rm(V)] | stem:[rm(W)//rm(A)]
-| intensité de champ électrique | volt par mètre | stem:[rm(V)//rm(m)] |
-| résistance électrique | ohm(((ohm (stem:[Omega])))) | stem:[Omega] | stem:[rm(V)//rm(A)]
-| capacité électrique | farad(((farad (F)))) | stem:[rm(F)] | stem:[rm(A) * rm(s)//rm(V)]
-| flux d’induction magnétique | weber(((weber (Wb)))) | stem:[rm(Wb)] | stem:[rm(V) * rm(s)]
-| inductance | henry(((henry (H)))) | stem:[rm(H)] | stem:[rm(V) * rm(s)//rm(A)]
-| induction magnétique | tesla(((tesla (T)))) | stem:[rm(T)] | stem:[rm(Wb)//rm(m)^2]
-| intensité de champ magnétique | ampère par mètre | stem:[rm(A)//rm(m)] |
-| force magnétomotrice | ampère(((ampère (A)))) | stem:[rm(A)] |
-| flux lumineux | lumen(((lumen (lm)))) | stem:[rm(lm)] | stem:[rm(cd) * rm(sr)]
-| luminance | candela par mètre carré | stem:[rm(cd)//rm(m)^2] |
-| éclairement | lux(((lux (lx)))) | stem:[rm(lx)] | stem:[rm(lm)//rm(m)^2]
+| superficie | mètre carré | stem:["unitsml(m^2)"] |
+| volume | mètre cube | stem:["unitsml(m^3)"] |
+| fréquence | hertz(((hertz (stem:["unitsml(Hz)"])))) | stem:["unitsml(Hz)"] | stem:[1//"unitsml(s)"]
+| ((masse)) volumique (densité) | ((kilogramme)) par mètre cube | stem:["unitsml(kg/m^3)"] |
+| vitesse | mètre par ((seconde)) | stem:["unitsml(m/s)"] |
+| vitesse angulaire | radian(((radian (stem:["unitsml(rad)"])))) par seconde | stem:["unitsml(rad//s)"] |
+| accélération | mètre par seconde carrée | stem:["unitsml(m/s^2)"] |
+| accélération angulaire | radian(((radian (stem:["unitsml(rad)"])))) par seconde carrée | stem:["unitsml(rad/s^2)"] |
+| force | newton(((newton (stem:["unitsml(N)"])))) | stem:["unitsml(N)"] | stem:["unitsml(kg)" * "unitsml(m/s^2)"]
+| pression (tension mécanique) | newton par mètre carré | stem:["unitsml(N/m^2)"] |
+| viscosité cinématique (((viscosité,cinématique (stokes)))) | mètre carré par seconde | stem:["unitsml(m^2/s)"] |
+| viscosité dynamique (((viscosité,dynamique (poise)))) | newton-seconde par mètre carré | stem:["unitsml(N)" * "unitsml(s//m^2)"] |
+| travail, énergie, quantité de chaleur | joule(((joule (stem:["unitsml(J)"])))) | stem:["unitsml(J)"] | stem:["unitsml(N*m)"]
+| puissance | watt (((watt (stem:["unitsml(W)"])))) | stem:["unitsml(W)"] | stem:["unitsml(J/s)"]
+| quantité d’électricité | coulomb(((coulomb (stem:["unitsml(C)"])))) | stem:["unitsml(C)"] | stem:["unitsml(A*s)"]
+| tension électrique, différence de potentiel, force électromotrice | volt(((volt (stem:["unitsml(V)"])))) | stem:["unitsml(V)"] | stem:["unitsml(W/A)"]
+| intensité de champ électrique | volt par mètre | stem:["unitsml(V/m)"] |
+| résistance électrique | ohm(((ohm (stem:["unitsml(Ohm)"])))) | stem:["unitsml(Ohm)"] | stem:["unitsml(V/A)"]
+| capacité électrique | farad(((farad (stem:["unitsml(F)"])))) | stem:["unitsml(F)"] | stem:["unitsml(A)" * "unitsml(s//V)"]
+| flux d’induction magnétique | weber(((weber (stem:["unitsml(Wb)"])))) | stem:["unitsml(Wb)"] | stem:["unitsml(V*s)"]
+| inductance | henry(((henry (stem:["unitsml(H)"])))) | stem:["unitsml(H)"] | stem:["unitsml(V)" * "unitsml(s/A)"]
+| induction magnétique | tesla(((tesla (stem:["unitsml(T)"])))) | stem:["unitsml(T)"] | stem:["unitsml(Wb/m^2)"]
+| intensité de champ magnétique | ampère par mètre | stem:["unitsml(A/m)"] |
+| force magnétomotrice | ampère(((ampère (stem:["unitsml(A)"])))) | stem:["unitsml(A)"] |
+| flux lumineux | lumen(((lumen (stem:["unitsml(lm)"])))) | stem:["unitsml(lm)"] | stem:["unitsml(cd*sr)"]
+| luminance | candela par mètre carré | stem:["unitsml(cd//m^2)"] |
+| éclairement | lux(((lux (stem:["unitsml(lx)"])))) | stem:["unitsml(lx)"] | stem:["unitsml(lm//m^2)"]
 |===
 ____
 
@@ -175,7 +175,7 @@ ____
 === Décimètre cube et litre (CR, 88)
 
 [[cgpm11e1960r13r13]]
-==== Résolution 13 (((litre (L ou l))))
+==== Résolution 13 (((litre (stem:["unitsml(L)"] ou stem:["unitsml(l)"]))))
 ____
 
 La Onzième Conférence générale des poids et mesures,

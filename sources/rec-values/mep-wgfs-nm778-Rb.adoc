@@ -1,4 +1,4 @@
-= Recommended Values of Standard Frequencies: Rubidium (stem:[ii(lambda) ~~ 778" "rm(nm)])
+= Recommended Values of Standard Frequencies: Rubidium (stem:[ii(lambda) ~~ 778 "unitsml(nm)"])
 :appendix-id: 2
 :partnumber: 2.23
 :edition: 9
@@ -7,8 +7,8 @@
 :docnumber: SI MEP M REC 778nm
 :title-appendix-en: Recommended values of standard frequencies for applications including the practical realization of the metre and secondary representations of the second
 :title-appendix-fr: Valeurs recommandées des fréquences étalons destinées à la mise en pratique de la définition du mètre et aux représentations secondaires de la seconde
-:title-part-en: Rubidium (stem:[ii(lambda) ~~ 778" "rm(nm)])
-:title-part-fr: Rubidium (stem:[ii(lambda) ~~ 778" "rm(nm)])
+:title-part-en: Rubidium (stem:[ii(lambda) ~~ 778 "unitsml(nm)"])
+:title-part-fr: Rubidium (stem:[ii(lambda) ~~ 778 "unitsml(nm)"])
 :title-en: The International System of Units
 :title-fr: Le système international d’unités
 :doctype: mise-en-pratique
@@ -25,39 +25,40 @@
 :local-cache-only:
 :data-uri-image:
 
-== Rubidium (stem:[ii(lambda) ~~ 778" "rm(nm)])
+[%unnumbered]
+== {blank}
 
 *Absorbing atom ^85^Rb, stem:[rm(5S_{1//2} (F_g = 3) - 5D_{5//2} (F_e = 5))] two-photon transition*
 
 == CIPM recommended values
 
-The values:: stem:[f = 385285142375" "rm(kHz)] +
-stem:[ii(lambda) = 778105421.23" "rm(fm)]
+The values:: stem:[f = 385285142375 "unitsml(kHz)"] +
+stem:[ii(lambda) = 778105421.23 "unitsml(fm)"]
 
-with a relative standard uncertainty of stem:[1.3 xx 10^(−11)] apply to the radiation of a laser stabilized to the centre of the twophoton transition. The values apply to a rubidium cell at a temperature below 100 °C and are corrected to zero laser power.
+with a relative standard uncertainty of stem:[1.3 xx 10^(−11)] apply to the radiation of a laser stabilized to the centre of the twophoton transition. The values apply to a rubidium cell at a temperature below stem:[100 "unitsml(degC)"] and are corrected to zero laser power.
 
 == Source data
 
-Adopted value:: stem:[f = 385285142375(5)" "rm(kHz)] +
+Adopted value:: stem:[f = 385285142375(5) "unitsml(kHz)"] +
 stem:[u_c//y = 1.3 xx 10^(-11)]
 +
 for which: +
-stem:[ii(lambda) = 778105421.23(1)" "rm(fm)] +
+stem:[ii(lambda) = 778105421.23(1) "unitsml(fm)"] +
 stem:[u_c//y = 1.3 xx 10^(-11)]
 
 calculated from
 
 [%unnumbered]
 |===
-h| stem:[f // rm(kHz)] h| stem:[u_c//y] h| source data
+h| stem:[f // "unitsml(kHz)"] h| stem:[u_c//y] h| source data
 
 | stem:[385285142378.3] | stem:[5.2 xx 10^(−12)] | <<touhari>>
 | stem:[385285142373.8] | stem:[3.4 xx 10^(−12)] | <<jones>>
 | stem:[385285142372.3] | stem:[1.4 xx 10^(−11)] | <<sec-bernard>>
-3+<| Weighted mean:: stem:[f = 385285142375.0" "rm(kHz)]
+3+<a| Weighted mean:: stem:[f = 385285142375.0 "unitsml(kHz)"]
 |===
 
-applies to the single-photon laser frequency of the two-photon transition. The CCL decided to attribute a standard uncertainty of 5 kHz, corresponding to a relative standard uncertainty of stem:[1.3 xx 10^(−11)]. footnote:[A recent measurement made after the CCL 2001 has confirmed one of the data <<rovera>>.]
+applies to the single-photon laser frequency of the two-photon transition. The CCL decided to attribute a standard uncertainty of stem:[5 "unitsml(kHz)"], corresponding to a relative standard uncertainty of stem:[1.3 xx 10^(−11)]. footnote:[A recent measurement made after the CCL 2001 has confirmed one of the data <<rovera>>.]
 
 [[sec-bernard]]
 === {blank}
@@ -65,19 +66,19 @@ applies to the single-photon laser frequency of the two-photon transition. The C
 Bernard et al. <<bernard>> gives
 
 [align=left]
-stem:[f {rm(""^{87} Rb," "5S_{1//2} (F_g = 2) - 5D_{5//2} (Fe = 4))}//2 = 385284566370.4 " "rm(kHz)] +
+stem:[f {rm(""^{87} "Rb, 5S"_{1//2} (F_g = 2) - 5"D"_{5//2} (F_e = 4))}//2 = 385284566370.4 "unitsml(kHz)"] +
 stem:[u_c//y = 5.2 xx 10^(−12)].
 
 From <<felder>> cited in <<table4>>,
 
 [align=left]
-stem:[f {rm(""^{87} Rb," "5S_{1//2} (F_g = 2) - 5D_{5//2} (F_e = 4))}//2 - f {rm(""^{85} Rb," "5S_{1//2} (F_g = 3) - 5D_{5//2} (F_e = 5))}//2 = -576002 " "rm(kHz)] +
+stem:[f {rm(""^{87} "Rb, 5S"_{1//2} (F_g = 2) - 5"D"_{5//2} (F_e = 4))}//2 - f {rm(""^{85} "Rb, 5S"_{1//2} (F_g = 3) - 5"D"_{5//2} (F_e = 5))}//2 = -576002 "unitsml(kHz)"] +
 stem:[u_c//y = 1.3 xx 10^(−11)],
 
 one obtains
 
 [align=left]
-stem:[f {rm(""^{85} Rb," "5S_{1//2} (F_g = 3) - 5D_{5//2} (F_e = 5))}//2 = 385285142371.40] +
+stem:[f {rm(""^{85} "Rb, 5S"_{1//2} (F_g = 3) - 5"D"_{5//2} (F_e = 5))}//2 = 385285142371.40] +
 stem:[u_c//y = 1.4 xx 10^(−11)].
 
 
@@ -101,8 +102,8 @@ When a two-photon transition is listed, the listed frequency indicates the one-p
 [[table1]]
 [cols="3*^"]
 |===
-3+^.^h| stem:[ii(lambda) ~~ 778" "rm(nm)] ^85^Rb stem:[rm(5S_{1//2} - 5D_{3//2})] two-photon transition
-h| stem:["F"_"g" - "F"_"e"] h| stem:[[f rm((5S_{1//2} (F_g) - 5D_{5//2} (F_e)))//2 - f_{rm(ref)}//rm(kHz)]] h| stem:[u_c//rm(kHz)]
+3+^.^h| stem:[ii(lambda) ~~ 778 "unitsml(nm)"] ^85^Rb stem:[rm(5S_{1//2} - 5D_{3//2})] two-photon transition
+h| stem:["F"_"g" - "F"_"e"] h| stem:[[f rm((5S_{1//2} (F_g) - 5D_{5//2} (F_e)))//2 - f_"ref"//"unitsml(kHz)"]] h| stem:[u_c//"unitsml(kHz)"]
 | 3−1 | stem:[−44462655] | 7
 | 3−2 | stem:[−44459151] | 7
 | 3−3 | stem:[−44453175] | 7
@@ -111,7 +112,7 @@ h| stem:["F"_"g" - "F"_"e"] h| stem:[[f rm((5S_{1//2} (F_g) - 5D_{5//2} (F_e)))/
 | 2−2 | stem:[−42941283] | 7
 | 2−3 | stem:[−42935308] | 7
 | 2−4 | stem:[−42926004] | 7
-3+<a| Frequency referenced to:: stem:[rm((5S_{1//2} (F_g = 3) - 5D_{5//2} (F_e = 5))//2 {""^{85} Rb})]: stem:[f_(rm(ref)) = 385285142375" "rm(kHz)] <<ci2002>>
+3+<a| Frequency referenced to:: stem:[rm((5S_{1//2} (F_g = 3) - 5D_{5//2} (F_e = 5))//2 {""^{85} Rb})]: stem:[f_"ref" = 385285142375 "unitsml(kHz)"] <<ci2002>>
 |===
 Ref. <<nez>>
 
@@ -119,8 +120,8 @@ Ref. <<nez>>
 [[table2]]
 [cols="3*^"]
 |===
-3+^.^h| stem:[ii(lambda) ~~ 778" "rm(nm)] ^85^Rb stem:[rm(5S_{1//2} - 5D_{5//2})] two-photon transition
-h| stem:["F"_"g" - "F"_"e"] h| stem:[[f rm((5S_{1//2} (F_g) - 5D_{5//2} (F_e)))//2 - f_{rm(ref)}//rm(kHz)]] h| stem:[u_c//rm(kHz)]
+3+^.^h| stem:[ii(lambda) ~~ 778 "unitsml(nm)"] ^85^Rb stem:[rm(5S_{1//2} - 5D_{5//2})] two-photon transition
+h| stem:["F"_"g" - "F"_"e"] h| stem:[[f rm((5S_{1//2} (F_g) - 5D_{5//2} (F_e)))//2 - f_"ref"//"unitsml(kHz)"]] h| stem:[u_c//"unitsml(kHz)"]
 | 3−5 | stem:[0] | —
 | 3−4 | stem:[4718] | 9
 | 3−3 | stem:[9228] | 9
@@ -131,7 +132,7 @@ h| stem:["F"_"g" - "F"_"e"] h| stem:[[f rm((5S_{1//2} (F_g) - 5D_{5//2} (F_e)))/
 | 2−2 | stem:[1530887] | 9
 | 2−1 | stem:[1533631] | 11
 | 2−0 | stem:[1535084] | 26
-3+<a| Frequency referenced to:: stem:[rm((5S_{1//2} (F_g = 3) - 5D_{5//2} (F_e = 5))//2 {""^{85} Rb})]: stem:[f(rm(ref)) = 385285142375" "rm(kHz)] <<ci2002>>
+3+<a| Frequency referenced to:: stem:[rm((5S_{1//2} (F_g = 3) - 5D_{5//2} (F_e = 5))//2 {""^{85} Rb})]: stem:[f(rm(ref)) = 385285142375 "unitsml(kHz)"] <<ci2002>>
 |===
 Ref. <<felder>> footnote:fref[Improved interval measurements are available for certain components and can be used provided appropriate consideration to uncertainties is made.], <<nez>>
 
@@ -139,8 +140,8 @@ Ref. <<felder>> footnote:fref[Improved interval measurements are available for c
 [[table3]]
 [cols="3*^"]
 |===
-3+^.^h| stem:[ii(lambda) ~~ 778" "rm(nm)] ^85^Rb stem:[rm(5S_{1//2} - 5D_{3//2})] two-photon transition
-h| stem:["F"_"g" - "F"_"e"] h| stem:[[f rm((5S_{1//2} (F_g) - 5D_{5//2} (F_e)))//2 - f_{rm(ref)}//rm(kHz)]] h| stem:[u_c//rm(kHz)]
+3+^.^h| stem:[ii(lambda) ~~ 778 "unitsml(nm)"] ^85^Rb stem:[rm(5S_{1//2} - 5D_{3//2})] two-photon transition
+h| stem:["F"_"g" - "F"_"e"] h| stem:[[f rm((5S_{1//2} (F_g) - 5D_{5//2} (F_e)))//2 - f_"ref"//"unitsml(kHz)"]] h| stem:[u_c//"unitsml(kHz)"]
 | 2−0 | stem:[−45047389] | 7
 | 2−1 | stem:[−45040639] | 7
 | 2−2 | stem:[−45026674] | 7
@@ -148,7 +149,7 @@ h| stem:["F"_"g" - "F"_"e"] h| stem:[[f rm((5S_{1//2} (F_g) - 5D_{5//2} (F_e)))/
 | 1−1 | stem:[−41623297] | 7
 | 1−2 | stem:[−41609335] | 7
 | 1−3 | stem:[−41587223] | 7
-3+<a| Frequency referenced to:: stem:[rm((5S_{1//2} (F_g = 3) - 5D_{5//2} (F_e = 5))//2 {""^{85} Rb})]: stem:[f(rm(ref)) = 385285142375" "rm(kHz)] <<ci2002>>
+3+<a| Frequency referenced to:: stem:[rm((5S_{1//2} (F_g = 3) - 5D_{5//2} (F_e = 5))//2 {""^{85} Rb})]: stem:[f("ref") = 385285142375 "unitsml(kHz)"] <<ci2002>>
 |===
 Ref. <<nez>>
 
@@ -156,8 +157,8 @@ Ref. <<nez>>
 [[table4]]
 [cols="3*^"]
 |===
-3+^.^h| stem:[ii(lambda) ~~ 778" "rm(nm)] ^85^Rb stem:[5S_{1//2} - 5D_{5//2}] two-photon transition
-h| stem:["F"_"g" - "F"_"e"] h| stem:[[f rm((5S_{1//2} (F_g) - 5D_{5//2} (F_e)))//2 - f_{rm(ref)}//rm(kHz)]] h| stem:[u_c//rm(kHz)]
+3+^.^h| stem:[ii(lambda) ~~ 778 "unitsml(nm)"] ^85^Rb stem:[5S_{1//2} - 5D_{5//2}] two-photon transition
+h| stem:["F"_"g" - "F"_"e"] h| stem:[[f rm((5S_{1//2} (F_g) - 5D_{5//2} (F_e)))//2 - f_"ref"//"unitsml(kHz)"]] h| stem:[u_c//"unitsml(kHz)"]
 | 2−4 | stem:[−576001] | 9
 | 2−3 | stem:[−561589] | 9
 | 2−2 | stem:[−550112] | 9
@@ -165,7 +166,7 @@ h| stem:["F"_"g" - "F"_"e"] h| stem:[[f rm((5S_{1//2} (F_g) - 5D_{5//2} (F_e)))/
 | 1−3 | stem:[2855755] | 9
 | 1−2 | stem:[2867233] | 9
 | 1−1 | stem:[2875200] | 9
-3+<a| Frequency referenced to:: stem:[rm((5S_{1//2} (F_g = 3) - 5D_{5//2} (F_e = 5))//2 {""^{85} Rb})]: stem:[f(rm(ref)) = 385285142375" "rm(kHz)] <<ci2002>>
+3+<a| Frequency referenced to:: stem:[rm((5S_{1//2} (F_g = 3) - 5D_{5//2} (F_e = 5))//2 {""^{85} Rb})]: stem:[f("ref") = 385285142375 "unitsml(kHz)"] <<ci2002>>
 |===
 Ref. <<felder>> footnote:fref[], <<nez>>
 
@@ -174,32 +175,32 @@ Ref. <<felder>> footnote:fref[], <<nez>>
 
 === Absorbing atom ^87^Rb, stem:[rm(5S_{1//2} (F_g = 2) - 7S_{1//2} (F_e = 2))] two-photon transition
 
-The values:: stem:[f = 394397384460" "rm(kHz)] +
-stem:[ii(lambda) = 760127906.05" "rm(fm)]
+The values:: stem:[f = 394397384460 "unitsml(kHz)"] +
+stem:[ii(lambda) = 760127906.05 "unitsml(fm)"]
 
 with a relative standard uncertainty of stem:[1.7 xx 10^(−10)] apply to the single-photon laser frequency of the two-photon transition.
 
-Adopted value:: stem:[f = 394397384460(67)" "rm(kHz)] +
+Adopted value:: stem:[f = 394397384460(67) "unitsml(kHz)"] +
 stem:[u_c//y = 1.7 xx 10^(−10)]
 +
 for which: +
-stem:[ii(lambda) = 760127906.05(.13)" "rm(fm)] +
+stem:[ii(lambda) = 760127906.05(.13) "unitsml(fm)"] +
 stem:[u_c//y = 1.7 xx 10^(−10)]
 
 After [Refs <<marian2004>>, <<marian2005>>]
 
 === Absorbing atom ^87^Rb, stem:[rm(5S_{1//2} (F_g = 1) - 7S_{1//2} (F_e = 1))] two-photon transition
 
-The values:: stem:[f = 394400482100" "rm(kHz)] +
-stem:[ii(lambda) = 760121936.0" "rm(fm)]
+The values:: stem:[f = 394400482100 "unitsml(kHz)"] +
+stem:[ii(lambda) = 760121936.0 "unitsml(fm)"]
 
 with a relative standard uncertainty of stem:[4.5 xx 10^(−10)] apply to the single-photon laser frequency of the two-photon transition.
 
-Adopted value:: stem:[f = 394400482100(180)" "rm(kHz)] +
+Adopted value:: stem:[f = 394400482100(180) "unitsml(kHz)"] +
 stem:[u_c//y = 4.5 xx 10^(−10)]
 +
 for which: +
-stem:[ii(lambda) = 760121936.0(.34)" "rm(fm)] +
+stem:[ii(lambda) = 760121936.0(.34) "unitsml(fm)"] +
 stem:[u_c//y = 4.5 xx 10^(−10)]
 
 After [Refs <<marian2004>>, <<marian2005>>]
@@ -213,9 +214,9 @@ After [Refs <<marian2004>>, <<marian2005>>]
 
 * [[[rovera,3]]], Rovera G. D., Zondy J.-J., Acef O., Ducos F., Wallerand J.-P., Knight J. C., Russel P. St. J., New Results in Optical Frequency Measurement Using a Femtosecond Laser, Proc. _CPEM’02_ ISBN 0-7803-7243-5, catalog number 02CH 37279, 422-423.
 
-* [[[bernard,4]]], Bernard J. E., Madej A. A., Siemsen K. J., Marmet L., Latrasse C., Touahri D., Poulin M., Allard M., Têtu M., Absolute frequency measurement of a laser at 1556 nm locked to the 5S~1/2~-5D~5/2~ two-photon transition in ^87^Rb, _Opt. Commun._, 2000, *173*, 357-364.
+* [[[bernard,4]]], Bernard J. E., Madej A. A., Siemsen K. J., Marmet L., Latrasse C., Touahri D., Poulin M., Allard M., Têtu M., Absolute frequency measurement of a laser at stem:[1556 "unitsml(nm)"] locked to the 5S~1/2~-5D~5/2~ two-photon transition in ^87^Rb, _Opt. Commun._, 2000, *173*, 357-364.
 
-* [[[felder,5]]], Felder R., Touhari D., Acef O., Hilico L., Zondy J.-J., Clairon A., de Beauvoir B., Biraben F., Julien L., Nez F., Millerioux Y., Performance of a GaAlAs laser diode stabilized on a hyperfine component of two-photon transitions in rubidium at 778 nm, _SPIE_, 1995, *2378*, 52-57.
+* [[[felder,5]]], Felder R., Touhari D., Acef O., Hilico L., Zondy J.-J., Clairon A., de Beauvoir B., Biraben F., Julien L., Nez F., Millerioux Y., Performance of a GaAlAs laser diode stabilized on a hyperfine component of two-photon transitions in rubidium at stem:[778 "unitsml(nm)"], _SPIE_, 1995, *2378*, 52-57.
 
 * [[[ci2002,6]]], Recommendation M1 (_BIPM Com. Cons. Déf. Mètre_, 10th meeting, 2001) adopted by the Comité International des Poids et Mesures at its 91th Meeting as Recommendation 1 (CI-2002).
 

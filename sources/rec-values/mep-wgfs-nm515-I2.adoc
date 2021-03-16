@@ -1,4 +1,4 @@
-= Recommended Values of Standard Frequencies: Iodine (stem:[ii(lambda) ~~ 515" "rm(nm)])
+= Recommended Values of Standard Frequencies: Iodine (stem:[ii(lambda) ~~ 515 "unitsml(nm)"])
 :appendix-id: 2
 :partnumber: 2.8
 :edition: 9
@@ -7,8 +7,8 @@
 :docnumber: SI MEP M REC 515nm
 :title-appendix-en: Recommended values of standard frequencies for applications including the practical realization of the metre and secondary representations of the second
 :title-appendix-fr: Valeurs recommandées des fréquences étalons destinées à la mise en pratique de la définition du mètre et aux représentations secondaires de la seconde
-:title-part-en: Iodine (stem:[ii(lambda) ~~ 515" "rm(nm)])
-:title-part-fr: Iodine (stem:[ii(lambda) ~~ 515" "rm(nm)])
+:title-part-en: Iodine (stem:[ii(lambda) ~~ 515 "unitsml(nm)"])
+:title-part-fr: Iodine (stem:[ii(lambda) ~~ 515 "unitsml(nm)"])
 :title-en: The International System of Units
 :title-fr: Le système international d’unités
 :doctype: mise-en-pratique
@@ -25,51 +25,52 @@
 :local-cache-only:
 :data-uri-image:
 
-== Iodine (stem:[ii(lambda) ~~ 515" "rm(nm)])
+[%unnumbered]
+== {blank}
 
-*Absorbing molecule ^127^I~2~, stem:[rm(a)_3] component, P(13) 43-0 transition* footnote:[All transitions in I~2~ refer to the stem:["B"^3Pi 0_"u"^+ - "X"^1 Sigma_g^+] system.]
+*Absorbing molecule ^127^I~2~, stem:["a"_3] component, P(13) 43-0 transition* footnote:[All transitions in I~2~ refer to the stem:["B"^3Pi 0_"u"^+ - "X"^1 Sigma_g^+] system.]
 
 == CIPM recommended values
 
-The values:: stem:[f = 582490603442" "rm(kHz)] +
-stem:[ii(lambda) = 514673466.368" "rm(fm)]
+The values:: stem:[f = 582490603442 "unitsml(kHz)"] +
+stem:[ii(lambda) = 514673466.368 "unitsml(fm)"]
 
 with a relative standard uncertainty of stem:[8.6 xx 10^(−12)] apply to the radiation of a laser stabilized with an iodine cell external to the laser, and subject to the conditions:
 
-* cold point temperature stem:[(–5 +- 2)" °C"], corresponding to a I~2~ pressure of stem:[(2.4 +- 0.5)" Pa"] footnote:[For the specification of operating conditions, such as temperature, modulation width and laser power, the symbols ± refer to a tolerance, not an uncertainty.];
-* saturating beam intensity stem:[<40" "rm(mW)" "rm(cm)^(-2)].
+* cold point temperature stem:[(–5 +- 20) "unitsml(degC)"], corresponding to a I~2~ pressure of stem:[(2.4 +- 0.5) "unitsml(Pa)"] footnote:[For the specification of operating conditions, such as temperature, modulation width and laser power, the symbols ± refer to a tolerance, not an uncertainty.];
+* saturating beam intensity stem:[< 40 "unitsml(mW*cm^(-2))"].
 
 == Source data
 
-Adopted value:: stem:[f = 582490603442 (5) " "rm(kHz)] +
+Adopted value:: stem:[f = 582490603442 (5) "unitsml(kHz)"] +
 stem:[u_c//y = 8.6 xx 10^(−12)]
 +
 for which +
-stem:[ii(lambda) = 514673466.368 (4) " "rm(fm)] +
+stem:[ii(lambda) = 514673466.368 (4) "unitsml(fm)"] +
 stem:[u_c//y = 8.6 xx 10^(−12)]
 
 calculated from
 
 [%unnumbered]
 |===
-h| stem:[f // rm(kHz)] h| stem:[u_c//y] h| source data
+h| stem:[f // "unitsml(kHz)"] h| stem:[u_c//y] h| source data
 
 | stem:[582490603378.8] | stem:[2.6 xx 10^(−12)] | <<jones>>
 | stem:[582490603447.3] | stem:[1.3 xx 10^(−12)] | <<goncharov>>
 |===
 
-When corrected for pressure shifts, there is good agreement to 0.4 kHz between NIST-JILA and LPL values, bearing in mind that the iodine cell arrangement is significantly different for each case:
+When corrected for pressure shifts, there is good agreement to stem:[0.4 "unitsml(kHz)"] between NIST-JILA and LPL values, bearing in mind that the iodine cell arrangement is significantly different for each case:
 
 [%unnumbered]
 |===
-h| stem:[f // rm(kHz)] h| stem:[u_c//y] h| source data
+h| stem:[f // "unitsml(kHz)"] h| stem:[u_c//y] h| source data
 
 | stem:[582490603441.8] | stem:[2.6 xx 10^(−12)] | <<jones>>
 | stem:[582490603442.6] | stem:[1.3 xx 10^(−12)] | <<goncharov>>
-| Unweighted mean:    2+|stem:[582490603442.2]
+| Unweighted mean: 2+|stem:[582490603442.2]
 |===
 
-The CCL recommended value was chosen as the mean of the two values, rounded to 582490603442 kHz, with an uncertainty reduced from the 10 kHz 2003 value to 5 kHz.
+The CCL recommended value was chosen as the mean of the two values, rounded to stem:[582490603442 "unitsml(kHz)"], with an uncertainty reduced from the stem:[10 "unitsml(kHz)"] 2003 value to stem:[5 "unitsml(kHz)"].
 
 == Absolute frequency of the other transitions related to those adopted as recommended and frequency intervals between transitions and hyperfine components
 
@@ -90,63 +91,63 @@ All transitions in molecular iodine refer to the B-X system.
 
 [cols="6*^"]
 |===
-6+^.^h| stem:[ii(lambda) ~~ 515 " "rm(nm)] ^127^I~2~ P(13) 43-0
-h| stem:[rm(a)_n] h| stem:[[f(rm(a)_n) - f(rm(a)_3) \] // rm(kHz)] h| stem:[u_c // rm(kHz)] h| stem:[rm(a)_n] h| stem:[[f(rm(a)_n) - f(rm(a)_3) \] // rm(kHz)] h| stem:[u_c // rm(kHz)]
+6+^.^h| stem:[ii(lambda) ~~ 515 "unitsml(nm)"] ^127^I~2~ P(13) 43-0
+h| stem:["a"_n] h| [stem:[f("a"_n) - f("a"_3)]]/stem:["unitsml(kHz)"] h| stem:[u_c // "unitsml(kHz)"] h| stem:["a"_n] h| [stem:[f("a"_n) - f("a"_3)]]/stem:["unitsml(kHz)"] h| stem:[u_c // "unitsml(kHz)"]
 
-| stem:[rm(a)_1] | stem:[-131770] | stem:[1] | stem:[rm(a)_{12}] | stem:[435599] | 3
-| stem:[rm(a)_2] | stem:[-59905] | stem:[1] | stem:[rm(a)_{13}] | stem:[499712] | 5
-| stem:[rm(a)_3] | stem:[0] | -- | stem:[rm(a)_{14}] | stem:[518000] | 1000
-| stem:[rm(a)_4] | stem:[76049] | 1 | stem:[rm(a)_{15}] | stem:[587396] | 2
-| stem:[rm(a)_5] | stem:[203229] | 5 | stem:[rm(a)_{16}] | stem:[616756] | 5
-| stem:[rm(a)_6] | stem:[240774] | 5 | stem:[rm(a)_{17}] | stem:[660932] | 5
-| stem:[rm(a)_7] | stem:[255005] | 1 | stem:[rm(a)_{18}] | stem:[740000] | stem:[1000]
-| stem:[rm(a)_8] | stem:[338699] | 5 | stem:[rm(a)_{19}] | stem:[742000] | stem:[1000]
-| stem:[rm(a)_9] | stem:[349717] | 5 | stem:[rm(a)_{20}] | stem:[757631] | 10
-| stem:[rm(a)_{10}] | stem:[369000] | stem:[1000] | stem:[rm(a)_{21}] | stem:[817337] | 5
-| stem:[rm(a)_{11}] | stem:[393962] | 2 | | |
-6+<a| Frequency referenced to:: stem:[rm(a)_3], P(13) 43-0, ^127^I~2~: stem:[f = 582490603442" "rm(kHz)] <<ci2003>>
+| stem:["a"_1] | stem:[-131770] | stem:[1] | stem:["a"_{12}] | stem:[435599] | 3
+| stem:["a"_2] | stem:[-59905] | stem:[1] | stem:["a"_{13}] | stem:[499712] | 5
+| stem:["a"_3] | stem:[0] | -- | stem:["a"_{14}] | stem:[518000] | 1000
+| stem:["a"_4] | stem:[76049] | 1 | stem:["a"_{15}] | stem:[587396] | 2
+| stem:["a"_5] | stem:[203229] | 5 | stem:["a"_{16}] | stem:[616756] | 5
+| stem:["a"_6] | stem:[240774] | 5 | stem:["a"_{17}] | stem:[660932] | 5
+| stem:["a"_7] | stem:[255005] | 1 | stem:["a"_{18}] | stem:[740000] | stem:[1000]
+| stem:["a"_8] | stem:[338699] | 5 | stem:["a"_{19}] | stem:[742000] | stem:[1000]
+| stem:["a"_9] | stem:[349717] | 5 | stem:["a"_{20}] | stem:[757631] | 10
+| stem:["a"_{10}] | stem:[369000] | stem:[1000] | stem:["a"_{21}] | stem:[817337] | 5
+| stem:["a"_{11}] | stem:[393962] | 2 | | |
+6+<a| Frequency referenced to:: stem:["a"_3], P(13) 43-0, ^127^I~2~: stem:[f = 582490603442 "unitsml(kHz)"] <<ci2003>>
 |===
 Ref. <<hackel>>, <<camy>>, <<borde>>, <<spieweck>>
 
 
 [cols="6*^"]
 |===
-6+^.^h| stem:[ii(lambda) ~~ 515 " "rm(nm)] ^127^I~2~ (R15) 43-0
-h| stem:[rm(b)_n] h| stem:[[f(rm(b)_n) - f(rm(b)_1) \] // rm(kHz)] h| stem:[u_c // rm(kHz)] h| stem:[rm(b)_n] h| stem:[[f(rm(b)_n) - f(rm(b)_1) \] // rm(kHz)] h| stem:[u_c // rm(kHz)]
+6+^.^h| stem:[ii(lambda) ~~ 515 "unitsml(nm)"] ^127^I~2~ (R15) 43-0
+h| stem:["b"_n] h| [stem:[f("b"_n) - f("b"_1)]]/stem:["unitsml(kHz)"] h| stem:[u_c // "unitsml(kHz)"] h| stem:["b"_n] h| [stem:[f("b"_n) - f("b"_1)]]/stem:["unitsml(kHz)"] h| stem:[u_c // "unitsml(kHz)"]
 
-| stem:[rm(b)_1] | stem:[0] | -- | stem:[rm(b)_{12}] | stem:[566287] | 5
-| stem:[rm(b)_2] | stem:[69739] | 5 | stem:[rm(b)_{13}] | stem:[630782] | 5
-| stem:[rm(b)_3]  | stem:[129155] | 5 | stem:[rm(b)_{14}] | stem:[658178] | 5
-| stem:[rm(b)_4]  | stem:[217000] | stem:[1000] | stem:[rm(b)_{15}] | stem:[725166] | 5
-| stem:[rm(b)_5]  | stem:[335828] | 5 | stem:[rm(b)_{16}] | stem:[739394] | 5
-| stem:[rm(b)_6]  | stem:[368000] | stem:[1000] | stem:[rm(b)_{17}] | stem:[791673] | 5
-| stem:[rm(b)_7]  | stem:[396442] | 5 | stem:[rm(b)_{18}] | stem:[865523] | 5
-| stem:[rm(b)_8]  | stem:[471000] | stem:[1000] | stem:[rm(b)_{19}] | stem:[874840] | 5
-| stem:[rm(b)_9]  | stem:[472000] | stem:[1000] | stem:[rm(b)_{20}] | stem:[892895] | 10
-| stem:[rm(b)_{10}]  | stem:[500627] | 5 | stem:[rm(b)_{21}] | stem:[947278] | 10
-| stem:[rm(b)_{11}] | stem:[525207] | 5 | | |
-6+<a| Frequency referenced to:: stem:[rm(a)_n, P(13) 43-0], ^127^I~2~: stem:[f = 582490603442" "rm(kHz)] <<ci2003>> +
-stem:[f (rm(a)_1", P(13) 43-0)" - f(rm(a)_3", P(13) 43-0") = -131770(1000)" "rm(kHz)] +
-stem:[f (rm(b)_1", R(15) 43-0)" - f(rm(a)_1", P(13) 43-0") = 283835(5000)" "rm(kHz)] <<camy>>
+| stem:["b"_1] | stem:[0] | -- | stem:["b"_{12}] | stem:[566287] | 5
+| stem:["b"_2] | stem:[69739] | 5 | stem:["b"_{13}] | stem:[630782] | 5
+| stem:["b"_3]  | stem:[129155] | 5 | stem:["b"_{14}] | stem:[658178] | 5
+| stem:["b"_4]  | stem:[217000] | stem:[1000] | stem:["b"_{15}] | stem:[725166] | 5
+| stem:["b"_5]  | stem:[335828] | 5 | stem:["b"_{16}] | stem:[739394] | 5
+| stem:["b"_6]  | stem:[368000] | stem:[1000] | stem:["b"_{17}] | stem:[791673] | 5
+| stem:["b"_7]  | stem:[396442] | 5 | stem:["b"_{18}] | stem:[865523] | 5
+| stem:["b"_8]  | stem:[471000] | stem:[1000] | stem:["b"_{19}] | stem:[874840] | 5
+| stem:["b"_9]  | stem:[472000] | stem:[1000] | stem:["b"_{20}] | stem:[892895] | 10
+| stem:["b"_{10}]  | stem:[500627] | 5 | stem:["b"_{21}] | stem:[947278] | 10
+| stem:["b"_{11}] | stem:[525207] | 5 | | |
+6+<a| Frequency referenced to:: stem:["a"_n, P(13) 43-0], ^127^I~2~: stem:[f = 582490603442 "unitsml(kHz)"] <<ci2003>> +
+stem:[f ("a"_1", P(13) 43-0)" - f("a"_3", P(13) 43-0") = -131770(1000) "unitsml(kHz)"] +
+stem:[f ("b"_1", R(15) 43-0)" - f("a"_1", P(13) 43-0") = 283835(5000) "unitsml(kHz)"] <<camy>>
 |===
 Ref. <<camy>>, <<borde>>
 
 
 [cols="6*^"]
 |===
-6+^.^h| stem:[ii(lambda) ~~ 515 " "rm(nm)] ^127^I~2~ R(98) 58-1
-h| stem:[rm(d)_n] h| stem:[[f(rm(d)_n) - f(rm(d)_6) \] // rm(kHz)] h| stem:[u_c //rm(kHz)] h| stem:[rm(d)_n] h| stem:[[f(rm(d)_n) - f(rm(d)_6)] // rm(kHz)] h| stem:[u_c //rm(kHz)]
+6+^.^h| stem:[ii(lambda) ~~ 515 "unitsml(nm)"] ^127^I~2~ R(98) 58-1
+h| stem:["d"_n] h| [stem:[f("d"_n) - f("d"_6)]]/stem:["unitsml(kHz)"] h| stem:[u_c //"unitsml(kHz)"] h| stem:["d"_n] h| [stem:[f("d"_n) - f("d"_6)]]/stem:["unitsml(kHz)"] h| stem:[u_c //"unitsml(kHz)"]
 
-| stem:[rm(d)_1] | stem:[-413488] | stem:[5] | stem:[rm(d)_9] | stem:[225980] | 5
-| stem:[rm(d)_2] | stem:[-359553] | stem:[5] | stem:[rm(d)_{10}] | stem:[253000] | stem:[1000]
-| stem:[rm(d)_3] | stem:[-194521] | stem:[5] | stem:[rm(d)_{11}] | stem:[254000] | stem:[1000]
-| stem:[rm(d)_4] | stem:[-159158] | stem:[5] | stem:[rm(d)_{12}] | stem:[314131] | 5
-| stem:[rm(d)_5] | stem:[-105769] | stem:[5] | stem:[rm(d)_{13}] | stem:[426691] | 5
-| stem:[rm(d)_6] | stem:[0] | -- | stem:[rm(d)_{14}] | stem:[481574] | 5
-| stem:[rm(d)_7] | stem:[172200] | 5 | stem:[rm(d)_{15}] | stem:[510246] | 5
-| stem:[rm(d)_8] | stem:[200478] | 5 | | |
-6+<a| Frequency referenced to:: stem:[rm(a)_3", P(13) 43-0"], ^127^I~2~: stem:[f = 582490603442" "rm(kHz)] <<ci2003>> +
-stem:[f (rm(d)_6", R(98) "58-1) - f (rm(a)_3", P(13) 43-0") = -2100000(1000)" "rm(kHz)] <<forth>>
+| stem:["d"_1] | stem:[-413488] | stem:[5] | stem:["d"_9] | stem:[225980] | 5
+| stem:["d"_2] | stem:[-359553] | stem:[5] | stem:["d"_{10}] | stem:[253000] | stem:[1000]
+| stem:["d"_3] | stem:[-194521] | stem:[5] | stem:["d"_{11}] | stem:[254000] | stem:[1000]
+| stem:["d"_4] | stem:[-159158] | stem:[5] | stem:["d"_{12}] | stem:[314131] | 5
+| stem:["d"_5] | stem:[-105769] | stem:[5] | stem:["d"_{13}] | stem:[426691] | 5
+| stem:["d"_6] | stem:[0] | -- | stem:["d"_{14}] | stem:[481574] | 5
+| stem:["d"_7] | stem:[172200] | 5 | stem:["d"_{15}] | stem:[510246] | 5
+| stem:["d"_8] | stem:[200478] | 5 | | |
+6+<a| Frequency referenced to:: stem:["a"_3", P(13) 43-0"], ^127^I~2~: stem:[f = 582490603442 "unitsml(kHz)"] <<ci2003>> +
+stem:[f ("d"_6", R(98) "58-1) - f ("a"_3", P(13) 43-0") = -2100000 (1000) "unitsml(kHz)"] <<forth>>
 |===
 
 Ref. <<borde>>, <<forth>>
@@ -154,7 +155,7 @@ Ref. <<borde>>, <<forth>>
 [bibliography]
 == References
 
-* [[[jones,1]]], Jones R. J., Cheng W.-Y., Holman K. W., Chen L., Hall J. L., Ye J., Absolute-frequency measurement of the iodine-based length standard at 514.67 nm, _Appl. Phys_, 2002, *B 74* 597-601.
+* [[[jones,1]]], Jones R. J., Cheng W.-Y., Holman K. W., Chen L., Hall J. L., Ye J., Absolute-frequency measurement of the iodine-based length standard at stem:[514.67 "unitsml(nm)"], _Appl. Phys_, 2002, *B 74* 597-601.
 
 * [[[ci2003,2]]], Recommendation CCL 2c (_BIPM Com. Cons. Long._, 11th Meeting, 2003) adopted by the Comité International des Poids et Mesures at its 92nd Meeting as Recommendation 1 (CI-2003).
 
@@ -164,8 +165,8 @@ Ref. <<borde>>, <<forth>>
 
 * [[[borde,5]]], Bordé C. J., Camy G., Decomps B., Descoubes J.-P., High precision saturation spectroscopy of ^127^I~2~ with argon lasers at 5145 Å and 5017 Å : I - Main Resonances, _J. Phys._, 1981, *42*, 1393-1411.
 
-* [[[spieweck,6]]], Spieweck F., Gläser M., Foth H.-J., Hyperfine Structure of the P(13), 43-0 Line of ^127^I~2~ at 514.5 nm, European Conference on Atomic Physics, Apr. 6-10, 1981, Heidelberg, _Europhysics Conference Abstracts_, *5A*, Part *I*, 325-326.
+* [[[spieweck,6]]], Spieweck F., Gläser M., Foth H.-J., Hyperfine Structure of the P(13), 43-0 Line of ^127^I~2~ at stem:[514.5 "unitsml(nm)"], European Conference on Atomic Physics, Apr. 6-10, 1981, Heidelberg, _Europhysics Conference Abstracts_, *5A*, Part *I*, 325-326.
 
-* [[[forth,7]]], Foth H. J., Spieweck F., Hyperfine Structure of the R(98), 58-1 Line of ^127^I~2~ at 514.5 nm, _Chem. Phys. Lett._, 1979, *65*, 347-352.
+* [[[forth,7]]], Foth H. J., Spieweck F., Hyperfine Structure of the R(98), 58-1 Line of ^127^I~2~ at stem:[514.5 "unitsml(nm)"], _Chem. Phys. Lett._, 1979, *65*, 347-352.
 
-* [[[goncharov,8]]], Goncharov A., Amy-Klein A., Lopez O., Du Burck F., Chardonnet C., Absolute frequency measurement of the iodine-stabilized Ar^+^ laser at 514.6 nm using a femtosecond optical frequency comb, _Appl. Phys,_ *B 78*, 725-31, 2004.
+* [[[goncharov,8]]], Goncharov A., Amy-Klein A., Lopez O., Du Burck F., Chardonnet C., Absolute frequency measurement of the iodine-stabilized Ar^+^ laser at stem:[514.6 "unitsml(nm)"] using a femtosecond optical frequency comb, _Appl. Phys,_ *B 78*, 725-31, 2004.
