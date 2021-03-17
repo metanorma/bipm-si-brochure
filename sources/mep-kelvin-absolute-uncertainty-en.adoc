@@ -123,7 +123,7 @@ It is sometimes helpful to introduce a geometric factor, stem:[g], defined as
 [[eq5]]
 [stem]
 ++++
-g = ii(A)_1 ii(F)_(ii(A)_1-ii(A)_2) (2pi r_1^2r_2^2)/((r_1^2+r_2^2+d^2) + sqrt((r_1^2+r_2^2+d^2)^2-4r_1^2r_2^2),
+g = ii(A)_1 ii(F)_(ii(A)_1-ii(A)_2) = (2pi r_1^2r_2^2)/((r_1^2+r_2^2+d^2) + sqrt((r_1^2+r_2^2+d^2)^2-4r_1^2r_2^2),
 ++++
 
 so that the flux is calculated from
@@ -1455,10 +1455,10 @@ Following the format of <<fig5>>, <<table9>> lists all the uncertainty component
 2+<h| Uncertainty Component h| Normal Uncertainty h| Best Uncertainty ^h| Notes
 5+^h| Filter Radiometer Calibration
 
-2+| Wavelength scale | 100 pm | 0.1 pm a| Normal uncertainty for monochromator and best for laser system.
-2+| Stray light in calibration | 0.01 % | 0.0003 % a| Based on the stray light values reported in <<woolliams2016>>.
-2+| Responsivity of trap detector | 0.07 % | 0.013 % a| Absolute calibration traceable to a cryogenic radiometer.
-2+| Out-of-band effects | 0.025 % | 0.01 % a| Based on the OOB values reported in <<woolliams2016>>.
+2+| Wavelength scale | 100 pm | 0.1 pm <a| Normal uncertainty for monochromator and best for laser system.
+2+| Stray light in calibration | 0.01 % | 0.0003 % <a| Based on the stray light values reported in <<woolliams2016>>.
+2+| Responsivity of trap detector | 0.07 % | 0.013 % <a| Absolute calibration traceable to a cryogenic radiometer.
+2+| Out-of-band effects | 0.025 % | 0.01 % <a| Based on the OOB values reported in <<woolliams2016>>.
 2+| Amplification of photocurrent | 0.0026 % | 0.001 % |
 .7+.^| Geometric factor <| Distance | 0.1 % | 0.004 % .7+.^| All expressed as uncertainties in radiance, as per <<table3>>.
 | FR aperture radius | 0.02 % | 0.01 %
@@ -1468,13 +1468,13 @@ Following the format of <<fig5>>, <<table9>> lists all the uncertainty component
 | Aperture non-roundness | 0.004 % | 0.001 %
 | Aperture change | 0.02 % | 0
 2+| Noise | 0.05% | 0.01% |
-2+| FR spatial uniformity | 0.02 % | 0.02 % a| Only for the power method since the FR is calibrated under-filled and used overfilled.
-2+| Ageing and repeatability of trap detector | 0.03 % | 0.01 % a| 0.01 % per year has been measured <<taubert41>>.
-2+| Temperature of trap detector | 0.01 % | 0.003 % a| Based on the sensitivities reported in <<woolliams2016>>.
-2+| Diffraction | 0.07 % | 0.001 % a| Diffraction at source/trap/FR depending on the method.
+2+| FR spatial uniformity | 0.02 % | 0.02 % <a| Only for the power method since the FR is calibrated under-filled and used overfilled.
+2+| Ageing and repeatability of trap detector | 0.03 % | 0.01 % <a| 0.01 % per year has been measured <<taubert41>>.
+2+| Temperature of trap detector | 0.01 % | 0.003 % <a| Based on the sensitivities reported in <<woolliams2016>>.
+2+| Diffraction | 0.07 % | 0.001 % <a| Diffraction at source/trap/FR depending on the method.
 2+| Lens transmittance | 0.02 % | 0.02 % |
 2+| Uniformity of irradiance field | 0.03 % | 0.013 % |
-2+| SSE | 0.01 % | 0.002 % a| Based on the SSEs reported in <<woolliams2016>>.
+2+| SSE | 0.01 % | 0.002 % <a| Based on the SSEs reported in <<woolliams2016>>.
 |===
 
 [[table11]]
