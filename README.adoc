@@ -54,30 +54,13 @@ git clone https://github.com/metanorma/bipm-si-brochure/
 See https://www.metanorma.com/author/topics/install/
 
 
-== Running via Docker or locally
-
-If you have installed the build tools locally, and wish to run the
-locally-installed compilation tools, there is nothing further to set.
-
-If you don't want to deal with local dependencies, use the docker
-version by:
-
-[source,sh]
-----
-export METANORMA_DOCKER=metanorma/mn
-----
-
-The `Makefile` will automatically choose the proper command to
-execute.
-
-
 == Building the documents
 
 Run the following commands to build the full collection of the documents.
 
 [source,sh]
 ----
-metanorma site generate .
+metanorma site generate
 metanorma collection si-brochure-bilingual.yml -x xml,html,presentation,pdf \
   -w bilingual-brochure -c sources/collection_cover.html
 ----
