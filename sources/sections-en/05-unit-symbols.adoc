@@ -136,7 +136,7 @@ For numbers in a table, the format used should not vary within one column.
 [[uncertainty]]
 ==== Expressing the measurement uncertainty in the value of a quantity (((uncertainty)))
 
-The uncertainty associated with an estimated value of a quantity should be evaluated and expressed in accordance with the document JCGM 100:2008 (GUM 1995 with minor corrections), _Evaluation of measurement data - Guide to the expression of uncertainty in measurement_. The standard uncertainty associated with a quantity stem:[x] is denoted by stem:[u(x)]. One convenient way to represent the standard uncertainty is given in the following example:
+The uncertainty associated with an estimated value of a quantity should be evaluated and expressed in accordance with the document JCGM 100:2008 (GUM 1995 with minor corrections), _Evaluation of measurement data -- Guide to the expression of uncertainty in measurement_. The standard uncertainty associated with a quantity stem:[x] is denoted by stem:[u(x)]. One convenient way to represent the standard uncertainty is given in the following example:
 
 [stem%unnumbered]
 ++++
@@ -154,22 +154,27 @@ When multiplying or dividing quantity symbols any of the following methods may b
 ab," " a " " b," " a * b," " a xx b," " a //b," " a/b," " a " " b^(−1).
 ++++
 
-When multiplying the value of quantities either a multiplication sign stem:[xx] or brackets should be used, not a half-high (centred) dot. When multiplying numbers only the multiplication sign stem:[xx] should be used.
-
-When dividing the values of quantities using a solidus, brackets are used to avoid ambiguity. [[value_quantity]]
-
-[EXAMPLE]
+[NOTE]
 ====
+Examples:
+
 stem:[ii(F) = ma] for force equals mass times acceleration
 
-stem:[(53 "unitsml(m/s)") xx 10.2 "unitsml(s)"] or stem:[(53 "unitsml(m/s)")(10.2 "unitsml(s)")]
+stem:[(53 "unitsml(m/s)") xx 10.2 "unitsml(s)"] +
+or stem:[(53 "unitsml(m/s)")(10.2 "unitsml(s)")]
 
-stem:[25 xx 60.5] but not stem:[25 * 60.5]
+stem:[25 xx 60.5] +
+but not stem:[25 * 60.5]
 
 stem:[(20 "unitsml(m)")//(5 "unitsml(s)") = 4 "unitsml(m/s)"]
 
 stem:["(a/b)/c"], not stem:["a/b/c"]
 ====
+
+When multiplying the value of quantities either a multiplication sign stem:[xx] or brackets should be used, not a half-high (centred) dot. When multiplying numbers only the multiplication sign stem:[xx] should be used.
+
+When dividing the values of quantities using a solidus, brackets are used to avoid ambiguity. [[value_quantity]]
+
 
 [[stating_quantity]]
 ==== Stating quantity values being pure numbers
@@ -183,7 +188,7 @@ Quantities that are ratios of quantities of the same kind (for example length ra
 
 The internationally recognized symbol % (percent) may be used with the SI. When it is used, a space separates the number and the symbol %. The symbol % should be used rather than the name "percent". In written text, however, the symbol % generally takes the meaning of "parts per hundred". Phrases such as "percentage by mass", "percentage by volume", or "percentage by ((amount of substance))" shall not be used; the extra information on the quantity should instead be conveyed in the description and symbol for the quantity.
 
-The term "((ppm))", meaning stem:[10^(−6)] relative value, or 1 part in stem:[10^6], or parts per million, is also used. This is analogous to the meaning of percent as parts per hundred. The terms "parts per billion" and "parts per trillion" and their respective abbreviations "((ppb))" and "((ppt))", are also used, but their meanings are language dependent. For this reason the abbreviations ppb and ppt should be avoided.
+The term "((ppm))", meaning stem:[10^(−6)] relative value, or 1 part in stem:[10^6], or parts per million, is also used. This is analogous to the meaning of percent as parts per hundred. The terms "parts per billion" and "parts per trillion" and their respective abbreviations "((ppb))" and "((ppt))"&#x200c;, are also used, but their meanings are language dependent. For this reason the abbreviations ppb and ppt should be avoided.
 
 NOTE: In English-speaking countries, a billion is now generally taken to be stem:[10^9] and a trillion to be stem:[10^(12)]; however, a billion may still sometimes be interpreted as stem:[10^(12)] and a trillion as stem:[10^(18)]. The abbreviation ppt is also sometimes read as parts per thousand, adding further confusion.
 
