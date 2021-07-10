@@ -1,0 +1,1057 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<bipm-standard xmlns="https://www.metanorma.org/ns/bipm" type="semantic" version="1.1.4">
+<bibdata type="standard">
+<title language="en" format="text/plain" type="main">The International System of Units</title>
+<title language="en" format="text/plain" type="appendix">Mise en pratique</title>
+<title language="en" format="text/plain" type="annex">MeP-K Low-temperature Johnson Noise Thermometry</title>
+<title language="en" format="text/plain" type="part">Mise en pratique for the definition of the kelvin in the SI</title>
+<title language="fr" format="text/plain" type="main">Le syst&#232;me international d&#8217;unit&#233;s</title>
+<title language="fr" format="text/plain" type="appendix">Mise en pratique</title>
+
+<title language="fr" format="text/plain" type="part">Mise en pratique de la d&#233;finition du kelvin</title>
+<uri>https://www.bipm.org/utils/en/pdf/si-mep/MeP-K-2019-LT_Johnson_Noise_Thermometry.pdf</uri>
+<docidentifier type="BIPM">BIPM SI MEP KLJNT</docidentifier>
+<docnumber>SI MEP KLJNT</docnumber>
+<contributor>
+<role type="author"/>
+<organization>
+<name>Bureau International des Poids et Mesures</name>
+<abbreviation>BIPM</abbreviation>
+</organization>
+</contributor>
+<contributor>
+<role type="author"/>
+<person>
+<name>
+<completename>Jost Engert</completename>
+</name>
+<affiliation>
+<organization>
+<name>PTB</name>
+<address>
+<formattedAddress>Berlin, Germany</formattedAddress>
+</address>
+</organization>
+</affiliation>
+</person>
+</contributor>
+<contributor>
+<role type="author"/>
+<person>
+<name>
+<completename>Alexander Kirste</completename>
+</name>
+<affiliation>
+<organization>
+<name>PTB</name>
+<address>
+<formattedAddress>Berlin, Germany</formattedAddress>
+</address>
+</organization>
+</affiliation>
+</person>
+</contributor>
+<contributor>
+<role type="publisher"/>
+<organization>
+<name>Bureau International des Poids et Mesures</name>
+<abbreviation>BIPM</abbreviation>
+</organization>
+</contributor>
+<edition>1</edition>
+<version>
+<revision-date>2019-01-01</revision-date>
+</version>
+<language>en</language>
+<script>Latn</script>
+<status>
+<stage>in-force</stage>
+</status>
+<copyright>
+<from>2019</from>
+<owner>
+<organization>
+<name>Bureau International des Poids et Mesures</name>
+<abbreviation>BIPM</abbreviation>
+</organization>
+</owner>
+</copyright>
+<ext>
+<doctype>mise-en-pratique</doctype>
+<editorialgroup>
+<committee acronym="CCT">
+<variant language="en" script="Latn">Consultative Committee for Thermometry</variant>
+<variant language="fr" script="Latn">Comit&#233; consultatif de thermom&#233;trie</variant>
+</committee>
+
+</editorialgroup>
+
+<si-aspect>K_k</si-aspect>
+<structuredidentifier>
+<docnumber>SI MEP KLJNT</docnumber>
+<part>1</part>
+<appendix>2</appendix>
+<annexid>4</annexid>
+</structuredidentifier>
+</ext>
+</bibdata><misc-container><UnitsML xmlns="https://schema.unitsml.org/unitsml/1.0"><UnitSet><Unit xml:id="U_NISTu5" dimensionURL="#NISTd5">
+<UnitSystem name="SI" type="SI_derived" xml:lang="en-US"/>
+<UnitName xml:lang="en">kelvin</UnitName>
+<UnitSymbol type="HTML">K</UnitSymbol>
+<UnitSymbol type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi mathvariant="normal">K</mi></mrow></math>
+</UnitSymbol>
+
+
+</Unit></UnitSet><QuantitySet><Quantity xml:id="NISTq5" dimensionURL="#NISTd5" quantityType="base">
+<QuantityName xml:lang="en-US">thermodynamic temperature</QuantityName>
+</Quantity></QuantitySet><DimensionSet><Dimension xml:id="NISTd5">
+<ThermodynamicTemperature symbol="Theta" powerNumerator="1"/>
+</Dimension></DimensionSet><PrefixSet><Prefix prefixBase="10" prefixPower="-3" xml:id="NISTp10_-3">
+  <PrefixName xml:lang="en">milli</PrefixName>
+  <PrefixSymbol type="ASCII">m</PrefixSymbol>
+  <PrefixSymbol type="unicode">m</PrefixSymbol>
+  <PrefixSymbol type="LaTeX">m</PrefixSymbol>
+  <PrefixSymbol type="HTML">m</PrefixSymbol>
+</Prefix></PrefixSet></UnitsML></misc-container>
+<boilerplate>
+  <copyright-statement>
+    <clause>
+      <p align="center" id="_132c2ec3-cddb-4d23-9202-9fdb4b741b83"> &#169; Bureau International des Poids et Mesures 2019 all rights reserved</p>
+    </clause>
+  </copyright-statement>
+  <license-statement>
+    <clause>
+      <title>Copyright statement</title>
+      <p id="_421e9d82-175c-47a7-80fd-a54dc5ace1b0">This document is distributed under the terms of the Creative Commons Attribution 4.0 International License (<link target="http://creativecommons.org/licenses/by/4.0/"/>), which permits unrestricted use, distribution, and reproduction in any medium, provided you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made.</p>
+    </clause>
+  </license-statement>
+  <feedback-statement>
+    <p id="_8f6d7d86-3735-4be7-8fb2-96f229ade388">BIPM<br/>
+      Pavillon de Breteuil<br/>
+      F-92312 S&#232;vres Cedex<br/>
+      FRANCE</p>
+  </feedback-statement>
+</boilerplate>
+
+<sections><clause id="_introduction" obligation="normative"><title>Introduction</title><p id="_8ce8364a-d036-403c-987f-a742432f8bad">The determination of thermodynamic temperatures by low-temperature Johnson noise thermometry (JNT) is based on the Nyquist formula:</p>
+<formula id="eq1">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mfenced open="&#9001;" close="&#9002;"><mrow><mstyle mathvariant="italic"><mi>V</mi></mstyle><msup><mrow><mfenced open="(" close=")"><mrow><mi>f</mi><mi>,</mi><mstyle mathvariant="italic"><mi>T</mi></mstyle></mrow></mfenced></mrow><mrow><mn>2</mn></mrow></msup></mrow></mfenced><mo>=</mo><mn>4</mn><mi>k</mi><mstyle mathvariant="italic"><mi>T</mi></mstyle><mstyle mathvariant="italic"><mi>R</mi></mstyle><mo>&#916;</mo><mi>f</mi><mi>,</mi></math></stem>
+</formula>
+<p id="_15648250-51c6-49b7-b9f9-48f6b7b0c908">stating that the mean square of the noise voltage <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>V</mi></mstyle><mfenced open="(" close=")"><mrow><mi>f</mi><mi>,</mi><mstyle mathvariant="italic"><mi>T</mi></mstyle></mrow></mfenced></math></stem> across an unbiased resistor in a frequency band <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#916;</mo><mi>f</mi></math></stem> is proportional to temperature <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>T</mi></mstyle></math></stem> and independent of any material properties except the resistance of the conductor. <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>R</mi></mstyle></math></stem> is the resistance and <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math></stem> is the Boltzmann constant. The Nyquist formula is the limiting case of the fluctuation-dissipation theorem <eref type="inline" bibitemid="callen" citeas="[1]">Callen 1951</eref>, when quantum corrections are neglected, which is applicable in nearly all practical situations for temperatures from <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>1</mn><mo rspace="thickmathspace">&#8290;</mo><mrow xref="U_NISTu5"><mi mathvariant="normal">K</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem> down to <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>1</mn><mo rspace="thickmathspace">&#8290;</mo><mrow xref="U_mK"><mi mathvariant="normal">mK</mi></mrow>
+
+
+
+
+
+
+
+
+</math></stem> and for frequencies up to a few hundred <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_MHz"><mi mathvariant="normal">MHz</mi></mrow>
+
+
+
+
+
+
+
+
+</math></stem> or a few hundred <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_kHz"><mi mathvariant="normal">kHz</mi></mrow>
+
+
+
+
+
+
+
+
+</math></stem>, respectively. The general approach and basic principles of JNT and its application are described in <eref type="inline" bibitemid="white" citeas="[17]">White 1996</eref>. JNT can be implemented in absolute primary or relative primary form, whereas the second requires the reference to a temperature of known thermodynamic value.</p></clause>
+<clause id="_traceability_to_si_units" obligation="normative">
+<title>Traceability to SI units</title>
+<p id="_cfa1bdbc-bdd0-45c2-8481-ca80fce4dec6">The implementation of primary Johnson noise thermometry requires that the quantities involved are traceable to the units of the SI. Therefore, the measurement of the voltage and the resistance must be traceable to the definition of electrical units and the measurement of frequencies to the definition of the unit time.</p>
+</clause>
+<clause id="_absolute_primary_low_temperature_jnt" obligation="normative"><title>Absolute primary low-temperature JNT</title><p id="_cc5cc9e7-0e3d-4acd-af86-d1be26ca859c">For JNT very small noise voltages must be measured (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>1.3</mn><mo>&#215;</mo><msup><mrow><mn>10</mn></mrow><mrow><mrow><mo>&#8722;</mo><mn>9</mn></mrow></mrow></msup><mo rspace="thickmathspace">&#8290;</mo><mrow xref="U_V//sqrtHz"><mi mathvariant="normal">V</mi><mo>/</mo><msqrt><mi mathvariant="normal">Hz</mi></msqrt></mrow>
+
+
+
+
+
+
+
+</math></stem> for a <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>100</mn><mo rspace="thickmathspace">&#8290;</mo><mrow xref="U_NISTu18"><mi mathvariant="normal">&#8486;</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem> resistor at <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>293</mn><mo rspace="thickmathspace">&#8290;</mo><mrow xref="U_NISTu5"><mi mathvariant="normal">K</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem> and <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>3.3</mn><mo>&#215;</mo><msup><mrow><mn>10</mn></mrow><mrow><mrow><mo>&#8722;</mo><mn>13</mn></mrow></mrow></msup><mo rspace="thickmathspace">&#8290;</mo><mrow xref="U_V//sqrtHz"><mi mathvariant="normal">V</mi><mo>/</mo><msqrt><mi mathvariant="normal">Hz</mi></msqrt></mrow>
+
+
+
+
+
+
+
+<mo>)</mo></math></stem> for a <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>2</mn><mo rspace="thickmathspace">&#8290;</mo><mrow xref="U_mOhm"><mi mathvariant="normal">m&#8486;</mi></mrow>
+
+
+
+
+
+
+
+
+</math></stem> resistor at <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>1</mn><mo rspace="thickmathspace">&#8290;</mo><mrow xref="U_NISTu5"><mi mathvariant="normal">K</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>), and the gain as well as the bandwidth of the measurement must be stable and known with high accuracy. Contributions to the measurement signal from non-thermal noise sources must be negligible. For low-temperature JNT, superconducting quantum interference devices (SQUIDs) are the method of choice for the measurement of the tiny noise voltages. A review on current SQUID-based low-temperature thermometers is given in <eref type="inline" bibitemid="beyer" citeas="[2]">Beyer 2016</eref>.</p>
+<p id="_9b0f5030-3251-4f39-82da-96fcf4a91bb7">Three main variants of SQUID-based low-temperature Johnson noise thermometers are mainly implemented. The first one is historically called the resistive SQUID (RSQUID) setup and uses as the main component a superconducting loop containing a Josephson tunnel junction and a resistive shunt closing the loop. The second one is the so-called current sensing noise thermometer (CSNT), where the current through the noise resistor is read out by a SQUID current sensor. The third one is the magnetic field fluctuation thermometer (MFFT), in which the fluctuating magnetic field caused by the noise resistor is read out by a SQUID magnetometer or gradiometer.</p>
+<clause id="_jnt_with_the_rsquid_setup" obligation="normative"><title>JNT with the RSQUID setup</title><p id="_9d7056e7-dda3-4454-a82f-7649797211a5">In the RSQUID setup, a direct bias current develops a voltage <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>V</mi></mstyle></math></stem> across a resistor <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>R</mi></mstyle></math></stem> connected in parallel to the Josephson junction of the RSQUID. This voltage is converted by the junction into ac oscillations at the frequency <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>&#957;</mi></mstyle></math></stem> given by the Josephson equation</p>
+<formula id="eq2">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>&#957;</mi></mstyle><mo>=</mo><mfrac><mrow><mrow><mn>2</mn><mi>e</mi><mstyle mathvariant="italic"><mi>V</mi></mstyle></mrow></mrow><mrow><mi>h</mi></mrow></mfrac><mi>,</mi></math></stem>
+</formula>
+<p id="_8281124c-fefa-4ef7-9288-537ecbe135d4">where <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>e</mi></math></stem> is the elementary charge and <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>h</mi></math></stem> is the Planck constant. The voltage fluctuations due to thermal noise in the resistor cause frequency fluctuations with the variance</p>
+<formula id="eq3">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>&#963;</mi></mstyle></mrow><mrow><mi>v</mi></mrow></msub><mo>=</mo><mfrac><mrow><mrow><mn>2</mn><mi>k</mi><mstyle mathvariant="italic"><mi>R</mi></mstyle><mstyle mathvariant="italic"><mi>T</mi></mstyle></mrow></mrow><mrow><mrow><msub><mrow><mstyle mathvariant="italic"><mi>&#981;</mi></mstyle></mrow><mrow><mn>0</mn></mrow></msub><mstyle mathvariant="italic"><mi>&#964;</mi></mstyle></mrow></mrow></mfrac><mi>,</mi></math></stem>
+</formula>
+<p id="_76aa9b0d-5f98-4b5c-90c7-14f1efc5499b">where <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math></stem> is the Boltzmann constant, <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>&#981;</mi></mstyle></mrow><mrow><mn>0</mn></mrow></msub><mo>=</mo><mi>h</mi><mo>/</mo><mfenced open="(" close=")"><mrow><mn>2</mn><mi>e</mi></mrow></mfenced></math></stem> is the magnetic flux quantum and <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>&#964;</mi></mstyle></math></stem> is the gate time of the frequency measurement. The frequency fluctuations are measured by coupling a tank circuit to the RSQUID excited at the resonance frequency. From the filtered sideband of the resonance, the variance of the Josephson oscillations is determined. The value of the resistor <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>R</mi></mstyle></math></stem> can be measured independently as well as the gate time <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>&#964;</mi></mstyle></math></stem>. Then, using <xref target="eq3"/> the thermodynamic temperature <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>T</mi></mstyle></math></stem> is directly calculated from the variance <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>&#963;</mi></mstyle></mrow><mrow><mstyle mathvariant="italic"><mi>&#957;</mi></mstyle></mrow></msub></math></stem> of the Josephson frequency fluctuations.</p>
+<p id="_c9cd49cd-cf3d-46de-bdce-1cfd2e0abe97">An overview of the details of thermodynamic temperature measurements with rf RSQUIDs is given in <eref type="inline" bibitemid="soulen" citeas="[15]">Soulen 1994</eref>. JNT realizations based on RSQUIDs have been used, for example, for the establishment of the PLTS-2000 <eref type="inline" bibitemid="rusby" citeas="[13]">Rusby 2002</eref>. In <eref type="inline" bibitemid="menkel" citeas="[12]">Menkel 2000</eref>, the theory of temperature measurement with rf RSQUIDs was extended to the application of modern thin-film dc RSQUIDs.</p></clause>
+<clause id="_current_sensing_noise_thermometer_csnt" obligation="normative"><title>Current sensing noise thermometer, CSNT</title><p id="_c9b9b9e9-de4f-47b3-bbd7-8d893e16136d">Current sensing noise thermometers utilizing rf or dc SQUIDs resolve the thermal noise signal in time domain <eref type="inline" bibitemid="giffard" citeas="[6]">Giffard 1972</eref>, <eref type="inline" bibitemid="webb" citeas="[16]">Webb 1973</eref>, <eref type="inline" bibitemid="lusher" citeas="[11]">Lusher 2001</eref>, <eref type="inline" bibitemid="shibahara" citeas="[14]">Shibahara 2016</eref>. The thermal voltage noise across the resistor causes fluctuating currents in the input coil that are detected as thermal magnetic flux noise by the SQUID, which is operated in flux-locked loop (FLL) mode and read out by the SQUID electronics. In the FLL mode, the SQUID is used as a null detector with negative feedback to maintain linear operation. The noise current <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>I</mi></mstyle></mrow><mrow><mtext>N</mtext></mrow></msub></math></stem> through the noise resistor is converted to a noise voltage <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>V</mi></mstyle></mrow><mrow><mtext>N</mtext></mrow></msub><mo>=</mo><msub><mrow><mstyle mathvariant="italic"><mi>I</mi></mstyle></mrow><mrow><mtext>N</mtext></mrow></msub><mfenced open="(" close=")"><mrow><msub><mrow><mstyle mathvariant="italic"><mi>M</mi></mstyle></mrow><mrow><mtext>in</mtext></mrow></msub><msub><mrow><mstyle mathvariant="italic"><mi>R</mi></mstyle></mrow><mrow><mtext>f</mtext></mrow></msub></mrow></mfenced><mo>/</mo><msub><mrow><mstyle mathvariant="italic"><mi>M</mi></mstyle></mrow><mrow><mtext>f</mtext></mrow></msub></math></stem> at the output of the SQUID electronics, where <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>M</mi></mstyle></mrow><mrow><mtext>in</mtext></mrow></msub></math></stem> is the mutual inductance between the SQUID loop and the input coil, <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>M</mi></mstyle></mrow><mrow><mtext>f</mtext></mrow></msub></math></stem> is the mutual inductance between the SQUID loop and the feedback coil applied for the FLL mode, and <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>R</mi></mstyle></mrow><mrow><mtext>f</mtext></mrow></msub></math></stem> is the resistance of the feedback resistor. Then, the noise voltage <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>V</mi></mstyle></mrow><mrow><mtext>N</mtext></mrow></msub></math></stem> is digitized, filtered in the time domain for glitches, Fourier transformed and averaged to obtain the power spectral density (PSD) of the noise spectrum. Before analysis, the PSD is subjected to a peak removal algorithm to remove non-thermal noise pickup. Finally, the noise temperature <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>T</mi></mstyle></mrow><mrow><mtext>CSNT</mtext></mrow></msub></math></stem> is computed from the PSD using the equation:</p>
+<formula id="eq4">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>T</mi></mstyle></mrow><mrow><mtext>CSNT</mtext></mrow></msub><mo>=</mo><mfrac><mrow><mstyle mathvariant="italic"><mi>R</mi></mstyle></mrow><mrow><mrow><mn>4</mn><mi>k</mi></mrow></mrow></mfrac><mfenced open="(" close=")"><mrow><mfenced open="&#9001;" close="&#9002;"><mrow><msub><mrow><mstyle mathvariant="italic"><mi>S</mi></mstyle></mrow><mrow><mtext>V,N</mtext></mrow></msub></mrow></mfenced><mo>&#8722;</mo><mfenced open="&#9001;" close="&#9002;"><mrow><msub><mrow><mstyle mathvariant="italic"><mi>S</mi></mstyle></mrow><mrow><mtext>V,SQUID</mtext></mrow></msub></mrow></mfenced></mrow></mfenced><msup><mrow><mfenced open="(" close=")"><mrow><mfrac><mrow><msub><mrow><mstyle mathvariant="italic"><mi>M</mi></mstyle></mrow><mrow><mtext>f</mtext></mrow></msub></mrow><mrow><mrow><msub><mrow><mstyle mathvariant="italic"><mi>M</mi></mstyle></mrow><mrow><mtext>in</mtext></mrow></msub><msub><mrow><mstyle mathvariant="italic"><mi>R</mi></mstyle></mrow><mrow><mtext>f</mtext></mrow></msub></mrow></mrow></mfrac></mrow></mfenced></mrow><mrow><mn>2</mn></mrow></msup><mi>,</mi></math></stem>
+</formula>
+<p id="_81815ed6-457e-4a08-acc5-3fc7318e03f4">where <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mfenced open="&#9001;" close="&#9002;"><mrow><msub><mrow><mstyle mathvariant="italic"><mi>S</mi></mstyle></mrow><mrow><mtext>V,N</mtext></mrow></msub></mrow></mfenced></math></stem> is the averaged PSD of the measured noise voltage in the limit of zero frequency obtained from a fit to the PSD and <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mfenced open="&#9001;" close="&#9002;"><mrow><msub><mrow><mstyle mathvariant="italic"><mi>S</mi></mstyle></mrow><mrow><mtext>V,SQUID</mtext></mrow></msub></mrow></mfenced></math></stem> is the averaged PSD of the noise contribution from the SQUID and the SQUID electronics. <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mfenced open="&#9001;" close="&#9002;"><mrow><msub><mrow><mstyle mathvariant="italic"><mi>S</mi></mstyle></mrow><mrow><mtext>V,SQUID</mtext></mrow></msub></mrow></mfenced></math></stem> is a system parameter, which does not depend on the temperature to be measured, provided the SQUID is operated at constant temperature. Typically, <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mfenced open="&#9001;" close="&#9002;"><mrow><msub><mrow><mstyle mathvariant="italic"><mi>S</mi></mstyle></mrow><mrow><mtext>V,N</mtext></mrow></msub></mrow></mfenced><mo>&gt;</mo><mo>&gt;</mo><mfenced open="&#9001;" close="&#9002;"><mrow><msub><mrow><mstyle mathvariant="italic"><mi>S</mi></mstyle></mrow><mrow><mtext>V,SQUID</mtext></mrow></msub></mrow></mfenced></math></stem>. The uncertainty of the measured noise temperature <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>T</mi></mstyle></mrow><mrow><mtext>CSNT</mtext></mrow></msub></math></stem> (see <xref target="table2"/>.) is determined by system parameters, which must be measured independently <eref type="inline" bibitemid="shibahara" citeas="[14]">Shibahara 2016</eref>: the value of the noise resistor <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>R</mi></mstyle></math></stem>, the value of the feedback resistor <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>R</mi></mstyle></mrow><mrow><mtext>f</mtext></mrow></msub></math></stem>, the mutual inductances between the SQUID and the input coil <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>M</mi></mstyle></mrow><mrow><mtext>in</mtext></mrow></msub></math></stem> as well as the feedback coil <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>M</mi></mstyle></mrow><mrow><mtext>f</mtext></mrow></msub></math></stem>, and the non-thermal noise components from the SQUID and the SQUID electronics.</p></clause>
+<clause id="_primary_magnetic_field_fluctuation_thermometer_pmfft" obligation="normative"><title>Primary magnetic field fluctuation thermometer, pMFFT</title><p id="_2873e104-b56f-4cd1-91af-65c771fe26f6">The primary magnetic field fluctuation thermometer (pMFFT) <eref type="inline" bibitemid="kirste2016" citeas="[8]">Kirste 2016</eref> utilizes the fact that thermally activated noise currents in the noise resistor cause fluctuating magnetic fields, which are accessible above the surface of the resistor. These magnetic field fluctuations are measured as thermal magnetic flux noise using a SQUID-based gradiometer. The pMFFT employs two SQUID channels (labeled 1 and 2) and a cross-correlation technique for the thermal magnetic flux noise measurement to minimize uncorrelated non-thermal noise contributions. Each channel is connected to an independent, planar thin-film detection coil. The layout of the detection coils enables analytical electromagnetic modelling and an easy determination of the geometric dimensions of the gradiometers and their distances to the noise resistor necessary for the calibration of the SQUID channels. The pMFFT has a separate calibration coil, which is used to determine the transfer functions (flux-to-voltage calibration coefficients) of the two SQUID gradiometer channels and the electrical conductivity <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>&#963;</mi></mstyle></mrow><mrow><mtext>el</mtext></mrow></msub></math></stem> of the noise resistor. The final equation for calculating the noise temperature <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>T</mi></mstyle></mrow><mrow><mtext>pMFFT</mtext></mrow></msub></math></stem> is:</p>
+<formula id="eq5">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>T</mi></mstyle></mrow><mrow><mtext>pMFFT</mtext></mrow></msub><mo>=</mo><mfrac><mrow><mrow><msub><mrow><mover accent="true"><mrow><mstyle mathvariant="italic"><mi>V</mi></mstyle></mrow><mo>^</mo></mover></mrow><mrow><mrow><mstyle mathvariant="italic"><mi>R</mi></mstyle><mtext>cal</mtext><mi>,</mi><mn>1</mn></mrow></mrow></msub><mo>&#8901;</mo><msub><mrow><mover accent="true"><mrow><mstyle mathvariant="italic"><mi>V</mi></mstyle></mrow><mo>^</mo></mover></mrow><mrow><mrow><mstyle mathvariant="italic"><mi>R</mi></mstyle><msub><mrow><mtext>cal</mtext></mrow><mrow><mn>2</mn></mrow></msub></mrow></mrow></msub><mo>&#8901;</mo><msub><mrow><mstyle mathvariant="italic"><mi>M</mi></mstyle></mrow><mrow><mn>1</mn></mrow></msub><mo>&#8901;</mo><msub><mrow><mstyle mathvariant="italic"><mi>M</mi></mstyle></mrow><mrow><mn>2</mn></mrow></msub></mrow></mrow><mrow><mrow><msub><mrow><mover accent="true"><mrow><mstyle mathvariant="italic"><mi>V</mi></mstyle></mrow><mo>^</mo></mover></mrow><mrow><mrow><mtext>cal</mtext><mi>,</mi><mn>1</mn></mrow></mrow></msub><mo>&#8901;</mo><msub><mrow><mover accent="true"><mrow><mstyle mathvariant="italic"><mi>V</mi></mstyle></mrow><mo>^</mo></mover></mrow><mrow><mrow><mtext>cal</mtext><mi>,</mi><mn>2</mn></mrow></mrow></msub><mo>&#8901;</mo><msubsup><mrow><mstyle mathvariant="italic"><mi>R</mi></mstyle></mrow><mrow><mtext>cal</mtext></mrow><mrow><mn>2</mn></mrow></msubsup></mrow></mrow></mfrac><mo>&#8901;</mo><mfrac><mrow><mn>1</mn></mrow><mrow><msub><mrow><mstyle mathvariant="italic"><mi>N</mi></mstyle></mrow><mrow><mi>f</mi></mrow></msub></mrow></mfrac><munderover><mrow><mo>&#8721;</mo></mrow><mrow><mrow><mi>k</mi><mo>=</mo><mn>1</mn></mrow></mrow><mrow><msub><mrow><mstyle mathvariant="italic"><mi>N</mi></mstyle></mrow><mrow><mi>f</mi></mrow></msub></mrow></munderover><mfrac><mrow><mrow><mtext>Re</mtext><mfenced open="[" close="]"><mrow><msub><mrow><mstyle mathvariant="italic"><mi>S</mi></mstyle></mrow><mrow><mrow><mstyle mathvariant="italic"><mi>V</mi></mstyle><mi>,</mi><mn>12</mn></mrow></mrow></msub><mfenced open="(" close=")"><mrow><msub><mrow><mi>f</mi></mrow><mrow><mtext>k</mtext></mrow></msub><mi>,</mi><msub><mrow><mstyle mathvariant="italic"><mi>V</mi></mstyle></mrow><mrow><mn>1</mn></mrow></msub><mi>,</mi><msub><mrow><mstyle mathvariant="italic"><mi>V</mi></mstyle></mrow><mrow><mn>2</mn></mrow></msub></mrow></mfenced></mrow></mfenced></mrow></mrow><mrow><mrow><mtext>Re</mtext><mfenced open="[" close="]"><mrow><msub><mrow><mstyle mathvariant="italic"><mi>S</mi></mstyle></mrow><mrow><mrow><mstyle mathvariant="italic"><mi>&#981;</mi></mstyle><mi>,</mi><mn>12</mn></mrow></mrow></msub><mfenced open="(" close=")"><mrow><msub><mrow><mi>f</mi></mrow><mrow><mtext>k</mtext></mrow></msub><mi>,</mi><msub><mrow><mstyle mathvariant="italic"><mi>&#963;</mi></mstyle></mrow><mrow><mtext>el</mtext></mrow></msub><mi>,</mi><msub><mrow><mstyle mathvariant="italic"><mi>T</mi></mstyle></mrow><mrow><mtext>Ref</mtext></mrow></msub><mi>,</mi><mo>&#8230;</mo></mrow></mfenced></mrow></mfenced><mo>/</mo><msub><mrow><mstyle mathvariant="italic"><mi>T</mi></mstyle></mrow><mrow><mtext>Ref</mtext></mrow></msub></mrow></mrow></mfrac><mi>,</mi></math></stem>
+</formula>
+<p id="_836ce043-aee5-482d-bdf9-edb93a35b559">where <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext>Re</mtext></math></stem> is the real part of the complex cross-power spectral densities (CPSDs), <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>N</mi></mstyle></mrow><mrow><mi>f</mi></mrow></msub></math></stem> denotes the number of frequency bins considered in the CPSD of the noise <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>S</mi></mstyle></mrow><mrow><mrow><mstyle mathvariant="italic"><mi>V</mi></mstyle><mi>,</mi><mn>12</mn></mrow></mrow></msub></math></stem>. The first part of <xref target="eq5"/> is related to the calibration of the SQUID channels 1 and 2. <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>R</mi></mstyle></mrow><mrow><mtext>cal</mtext></mrow></msub></math></stem> is the value of the resistor used to measure the current through the calibration coil, <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>M</mi></mstyle></mrow><mrow><mn>1</mn></mrow></msub></math></stem> and <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>M</mi></mstyle></mrow><mrow><mn>2</mn></mrow></msub></math></stem> are calculated values (based on the given geometry of the pMFFT setup) of the mutual induction between calibration coil and the respective detection coil. The four voltage amplitudes are determined during calibration using quasi-dc currents: <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mover accent="true"><mrow><mstyle mathvariant="italic"><mi>V</mi></mstyle></mrow><mo>^</mo></mover></mrow><mrow><mrow><mtext>cal</mtext><mi>,</mi><mi>i</mi></mrow></mrow></msub></math></stem> is the voltage of the signal channel <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>i</mi></math></stem> (1, 2), while <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mover accent="true"><mrow><mstyle mathvariant="italic"><mi>V</mi></mstyle></mrow><mo>^</mo></mover></mrow><mrow><mrow><mstyle mathvariant="italic"><mi>R</mi></mstyle><mtext>cal</mtext><mi>,</mi><mi>i</mi></mrow></mrow></msub></math></stem> is the corresponding voltage drop at the calibration resistor. The second part of <xref target="eq5"/> provides the actual temperature information as obtained from the measured CPSD <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>S</mi></mstyle></mrow><mrow><mrow><mstyle mathvariant="italic"><mi>V</mi></mstyle><mi>,</mi><mn>12</mn></mrow></mrow></msub></math></stem>, normalized by the CPSD of the thermal magnetic flux noise <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>S</mi></mstyle></mrow><mrow><mrow><mstyle mathvariant="italic"><mi>&#981;</mi></mstyle><mi>,</mi><mn>12</mn></mrow></mrow></msub></math></stem> calculated for the given geometrical setup and averaged over suitable frequency bins <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mi>f</mi></mrow><mrow><mi>k</mi></mrow></msub></math></stem> <eref type="inline" bibitemid="varpula" citeas="[18]">Varpula 1984</eref>, <eref type="inline" bibitemid="kirste2008" citeas="[9]">Kirste 2008</eref>. <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>S</mi></mstyle></mrow><mrow><mrow><mstyle mathvariant="italic"><mi>&#981;</mi></mstyle><mi>,</mi><mn>12</mn></mrow></mrow></msub></math></stem> originates from a forward calculation and is proportional to the arbitrary reference temperature <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>T</mi></mstyle></mrow><mrow><mtext>Ref</mtext></mrow></msub></math></stem> chosen for this calculation. Since <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>S</mi></mstyle></mrow><mrow><mrow><mstyle mathvariant="italic"><mi>&#981;</mi></mstyle><mi>,</mi><mn>12</mn></mrow></mrow></msub><mo>&#8733;</mo><msub><mrow><mstyle mathvariant="italic"><mi>T</mi></mstyle></mrow><mrow><mtext>Ref</mtext></mrow></msub></math></stem>, <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>T</mi></mstyle></mrow><mrow><mtext>Ref</mtext></mrow></msub></math></stem> effectively cancels out in the ratio of both quantities. Hence <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>T</mi></mstyle></mrow><mrow><mtext>Ref</mtext></mrow></msub></math></stem> is only formally introduced in <xref target="eq5"/> so that <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>T</mi></mstyle></mrow><mrow><mtext>pMFFT</mtext></mrow></msub></math></stem> can be represented as a ratio of common physical quantities <eref type="inline" bibitemid="kirste2016" citeas="[8]">Kirste 2016</eref>. The pMFFT setup allows to check in situ the electrical conductivity of the noise resistor, which turns out to be independent of temperature. Hence, the pMFFT can be also operated in relative primary mode as a MFFT.</p></clause></clause>
+<clause id="_relative_primary_low_temperature_jnt" obligation="normative"><title>Relative primary low-temperature JNT</title><p id="_e4fd8924-02dc-4d89-9cdd-2b45d67b4efb">In relative primary low-temperature JNT, ratios of temperatures are determined from the ratio of the measured noise PSD <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>S</mi></mstyle><mfenced open="(" close=")"><mrow><mi>f</mi><mi>,</mi><mstyle mathvariant="italic"><mi>T</mi></mstyle></mrow></mfenced></math></stem> to the noise PSD <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>S</mi></mstyle><mfenced open="(" close=")"><mrow><mi>f</mi><mi>,</mi><msub><mrow><mstyle mathvariant="italic"><mi>T</mi></mstyle></mrow><mrow><mtext>Ref</mtext></mrow></msub></mrow></mfenced></math></stem> measured at a reference temperature <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>T</mi></mstyle></mrow><mrow><mtext>Ref</mtext></mrow></msub></math></stem> for which the thermodynamic value is known. An essential requirement for this operational mode of low-temperature JNT is the independence of the value of the noise resistor of temperature in the regime of residual resistance. Therefore, the noise resistor usually is made of a high-purity metal containing negligible amount of magnetic impurities to ensure a constant electrical conductivity over the temperature range of operation. Then, the thermodynamic noise temperature <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>T</mi></mstyle></mrow><mrow><mtext>JNT</mtext></mrow></msub></math></stem> is calculated according:</p>
+<formula id="eq6">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>T</mi></mstyle></mrow><mrow><mtext>JNT</mtext></mrow></msub><mo>=</mo><msub><mrow><mstyle mathvariant="italic"><mi>T</mi></mstyle></mrow><mrow><mtext>Ref</mtext></mrow></msub><mfenced open="&#9001;" close="&#9002;"><mrow><mfrac><mrow><mrow><mstyle mathvariant="italic"><mi>S</mi></mstyle><mfenced open="(" close=")"><mrow><mi>f</mi><mi>,</mi><mstyle mathvariant="italic"><mi>T</mi></mstyle></mrow></mfenced></mrow></mrow><mrow><mrow><mstyle mathvariant="italic"><mi>S</mi></mstyle><mfenced open="(" close=")"><mrow><mi>f</mi><mi>,</mi><msub><mrow><mstyle mathvariant="italic"><mi>T</mi></mstyle></mrow><mrow><mtext>Ref</mtext></mrow></msub></mrow></mfenced></mrow></mrow></mfrac></mrow></mfenced><mi>.</mi></math></stem>
+</formula>
+<p id="_215d4cd0-eebf-4993-bb83-01e6eb43d83a">The brackets <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mfenced open="&#9001;" close="&#9002;"><mrow><mo>&#8901;</mo></mrow></mfenced></math></stem> stand for averaging over a suitable frequency range. Even though relative primary low-temperature JNT avoids the elaborate determination and calibration of the system parameters of the noise thermometer setups, for reaching a desired uncertainty level, it may be necessary to subtract from the corresponding PSDs the contributions of non-thermal noise sources. In case of the pMFFT, the PSDs in <xref target="eq6"/> correspond to the real part of the CPSD <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext>Re</mtext><mfenced open="[" close="]"><mrow><msub><mrow><mstyle mathvariant="italic"><mi>S</mi></mstyle></mrow><mrow><mrow><mstyle mathvariant="italic"><mi>V</mi></mstyle><mi>,</mi><mn>12</mn></mrow></mrow></msub></mrow></mfenced></math></stem> measured for the considered frequency bins at <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>T</mi></mstyle></math></stem> and <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>T</mi></mstyle></mrow><mrow><mtext>Ref</mtext></mrow></msub></math></stem>, respectively.</p></clause>
+<clause id="_attainable_uncertainties_with_low_temperature_jnt" obligation="normative"><title>Attainable uncertainties with low-temperature JNT</title><clause id="_jnt_with_the_rsquid_setup_2" obligation="normative">
+<title>JNT with the RSQUID setup</title>
+<p id="_7b4e9a2f-e8dd-4c27-b8a7-aa31c78326c1">The relative combined standard uncertainties of the thermodynamic temperature values determined with rf RSQUIDs were estimated in <eref type="inline" bibitemid="soulen" citeas="[15]">Soulen 1994</eref> to range from 0.13% to 0.38% based on comparisons with reference temperatures according to the EPT-76 scale <eref type="inline" bibitemid="bipm" citeas="[3]">BIPM 1979</eref> and with <sup>60</sup>Co nuclear orientation thermometry, another variant of primary low-temperature thermometry <eref type="inline" bibitemid="hudson" citeas="[7]">Hudson 1975</eref>. The lowest relative standard uncertainty of about 0.07% was achieved by another rf RSQUID-based JNT realization <eref type="inline" bibitemid="fellmuth" citeas="[5]">Fellmuth 2003</eref>. As an example, the uncertainty budget for such noise measurements is given in <xref target="table1"/>.</p>
+</clause>
+<clause id="_current_sensing_noise_thermometer_csnt_2" obligation="normative"><title>Current sensing noise thermometer, CSNT</title><p id="_ce927657-39c5-479e-9d47-3f0407a4ce5a">For the CSNT operated in absolute primary mode, relative combined standard uncertainties of about 1.5% are reached, which are expected to be lowered to sub-percent level with an improved setup. The corresponding uncertainty budget is shown in <xref target="table2"/>. For further details see <eref type="inline" bibitemid="shibahara" citeas="[14]">Shibahara 2016</eref> and references therein. International comparison measurements within the European EURAMET Project &#8216;Implementing the new kelvin&#8217; have shown that thermodynamic temperature values and their uncertainties determined with the CSNT agree with other determinations of thermodynamic temperature as well as with copies of the PLTS-2000 better than 1% <eref type="inline" bibitemid="engert" citeas="[4]">Engert 2016</eref>.</p>
+<table id="table1">
+<name>Relative standard uncertainty estimates <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mi>u</mi></mrow><mrow><mtext>rel</mtext></mrow></msub></math></stem> for the PTB noise thermometer (coverage factor <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi><mo>=</mo><mn>1</mn></math></stem>) <eref type="inline" bibitemid="fellmuth" citeas="[5]">Fellmuth 2003</eref>.</name>
+<tbody>
+<tr>
+<td valign="top" align="left">Uncertainty component</td>
+<td valign="top" align="left"><stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mi>u</mi></mrow><mrow><mtext>rel</mtext></mrow></msub></math></stem> %</td>
+</tr>
+<tr>
+<td valign="top" align="left">Measurement of <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>R</mi></mstyle></math></stem></td>
+<td valign="top" align="left">0.020</td>
+</tr>
+<tr>
+<td valign="top" align="left">Gate time <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>&#964;</mi></mstyle></math></stem></td>
+<td valign="top" align="left">0.003</td>
+</tr>
+<tr>
+<td valign="top" align="left">Filter correction</td>
+<td valign="top" align="left">0.010</td>
+</tr>
+<tr>
+<td valign="top" align="left">Interference by external magnetic fields with the mains frequency</td>
+<td valign="top" align="left">0.020</td>
+</tr>
+<tr>
+<td valign="top" align="left">Statistics (5 measurements over 11 hours with <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>&#964;</mi></mstyle><mo>=</mo><mn>20</mn><mo rspace="thickmathspace">&#8290;</mo><mrow xref="U_NISTu3"><mi mathvariant="normal">s</mi></mrow>
+
+
+
+
+
+
+
+
+</math></stem>)</td>
+<td valign="top" align="left">0.060</td>
+</tr>
+<tr>
+<td valign="top" align="left">Relative combined standard uncertainty</td>
+<td valign="top" align="left">0.067</td>
+</tr>
+</tbody>
+</table>
+<table id="table2">
+<name>Uncertainty budget for a temperature measurement at <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>20</mn><mo rspace="thickmathspace">&#8290;</mo><mrow xref="U_mK"><mi mathvariant="normal">mK</mi></mrow>
+
+
+
+
+
+
+
+
+</math></stem> using a CSNT in absolute primary mode (noise resistor of approximately <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>2</mn><mo rspace="thickmathspace">&#8290;</mo><mrow xref="U_mOhm"><mi mathvariant="normal">m&#8486;</mi></mrow>
+
+
+
+
+
+
+
+
+</math></stem>, <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mi>u</mi></mrow><mrow><mtext>rel</mtext></mrow></msub></math></stem> &#8211; relative standard uncertainty, <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>u</mi></math></stem> &#8211; standard uncertainty, last column is the relative contribution to the combined standard uncertainty, coverage factor <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi><mo>=</mo><mn>1</mn></math></stem>) <eref type="inline" bibitemid="shibahara" citeas="[14]">Shibahara 2016</eref>.</name>
+<tbody>
+<tr>
+<td valign="top" align="left">Uncertainty component</td>
+<td valign="top" align="center">unit</td>
+<td valign="top" align="center">value</td>
+<td valign="top" align="center"><stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mi>u</mi></mrow><mrow><mtext>rel</mtext></mrow></msub></math></stem> %</td>
+<td valign="top" align="center">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>u</mi><mo rspace="thickmathspace">&#8290;</mo><mrow xref="U_mK"><mi mathvariant="normal">mK</mi></mrow>
+
+
+
+
+
+
+
+
+</math></stem>
+</td>
+<td valign="top" align="center">
+<p id="_59ba200f-01c0-4289-b458-554145461d6e">rel. contribution %</p>
+</td>
+</tr>
+<tr>
+<td valign="top" align="left">Noise resistor <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>R</mi></mstyle></math></stem></td>
+<td valign="top" align="center">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_mOhm"><mi mathvariant="normal">m&#8486;</mi></mrow>
+
+
+
+
+
+
+
+
+</math></stem>
+</td>
+<td valign="top" align="center">1.86</td>
+<td valign="top" align="center">0.68</td>
+<td valign="top" align="center">0.137</td>
+<td valign="top" align="center">20.92</td>
+</tr>
+<tr>
+<td valign="top" align="left">PSD of thermal noise, <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mfenced open="&#9001;" close="&#9002;"><mrow><msub><mrow><mstyle mathvariant="italic"><mi>S</mi></mstyle></mrow><mrow><mrow><mstyle mathvariant="italic"><mi>V</mi></mstyle><mi>,</mi><mtext>N</mtext></mrow></mrow></msub></mrow></mfenced></math></stem></td>
+<td valign="top" align="center">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_uV.sqrtHz"><mi mathvariant="normal">&#181;V</mi><mo rspace="thickmathspace">&#8290;</mo><msqrt><mi mathvariant="normal">Hz</mi></msqrt></mrow>
+
+
+
+
+
+
+
+
+</math></stem>
+</td>
+<td valign="top" align="center">35.06</td>
+<td valign="top" align="center">0.10</td>
+<td valign="top" align="center">0.040</td>
+<td valign="top" align="center">1.79</td>
+</tr>
+<tr>
+<td valign="top" align="left">PSD of SQUID noise, <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mfenced open="&#9001;" close="&#9002;"><mrow><msub><mrow><mstyle mathvariant="italic"><mi>S</mi></mstyle></mrow><mrow><mrow><mstyle mathvariant="italic"><mi>V</mi></mstyle><mi>,</mi><mtext>SQ</mtext></mrow></mrow></msub></mrow></mfenced></math></stem></td>
+<td valign="top" align="center">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_nV.sqrtHz"><mi mathvariant="normal">nV</mi><mo rspace="thickmathspace">&#8290;</mo><msqrt><mi mathvariant="normal">Hz</mi></msqrt></mrow>
+
+
+
+
+
+
+
+
+</math></stem>
+</td>
+<td valign="top" align="center">388.0</td>
+<td valign="top" align="center">0.30</td>
+<td valign="top" align="center">0.004</td>
+<td valign="top" align="center">0.02</td>
+</tr>
+<tr>
+<td valign="top" align="left">Mutual inductance of input coil <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>M</mi></mstyle></mrow><mrow><mtext>in</mtext></mrow></msub></math></stem></td>
+<td valign="top" align="center">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_nA"><mi mathvariant="normal">nA</mi></mrow>
+
+
+
+
+
+
+
+
+<mo>/</mo><mstyle mathvariant="normal"><msub><mrow><mi>&#934;</mi></mrow><mrow><mn>0</mn></mrow></msub></mstyle></math></stem>
+</td>
+<td valign="top" align="center">306.2</td>
+<td valign="top" align="center">0.30</td>
+<td valign="top" align="center">0.118</td>
+<td valign="top" align="center">15.55</td>
+</tr>
+<tr>
+<td valign="top" align="left">Mutual inductance of feedback coil <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>M</mi></mstyle></mrow><mrow><mi>f</mi></mrow></msub></math></stem></td>
+<td valign="top" align="center">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_uA"><mi mathvariant="normal">&#181;A</mi></mrow>
+
+
+
+
+
+
+
+
+<mo>/</mo><mstyle mathvariant="normal"><msub><mrow><mi>&#934;</mi></mrow><mrow><mn>0</mn></mrow></msub></mstyle></math></stem>
+</td>
+<td valign="top" align="center">43.59</td>
+<td valign="top" align="center">0.58</td>
+<td valign="top" align="center">0.234</td>
+<td valign="top" align="center">61.14</td>
+</tr>
+<tr>
+<td valign="top" align="left">Feedback resistor <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>R</mi></mstyle></mrow><mrow><mi>f</mi></mrow></msub></math></stem></td>
+<td valign="top" align="center">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_kOhm"><mi mathvariant="normal">k&#8486;</mi></mrow>
+
+
+
+
+
+
+
+
+</math></stem>
+</td>
+<td valign="top" align="center">10</td>
+<td valign="top" align="center">0.06</td>
+<td valign="top" align="center">0.023</td>
+<td valign="top" align="center">0.60</td>
+</tr>
+<tr>
+<td valign="top" align="left">Temperature gradients</td>
+<td valign="top" align="center">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_uK"><mi mathvariant="normal">&#181;K</mi></mrow>
+
+
+
+
+
+
+
+
+</math></stem>
+</td>
+<td valign="top" align="center">16.34</td>
+<td valign="top" align="center">11.55</td>
+<td valign="top" align="center">0.003</td>
+<td valign="top" align="center">0.01</td>
+</tr>
+<tr>
+<td valign="top" align="center">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>T</mi></mstyle></mrow><mrow><mtext>CSNT</mtext></mrow></msub><mo>/</mo><mrow xref="U_mK"><mi mathvariant="normal">mK</mi></mrow>
+
+
+
+
+
+
+
+
+</math></stem>
+</td>
+<td colspan="3" valign="top" align="center">
+<p id="_cb3d2b69-9080-46a1-bcb9-30216da3700c">combined standard uncertainty / <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_mK"><mi mathvariant="normal">mK</mi></mrow>
+
+
+
+
+
+
+
+
+</math></stem></p>
+</td>
+<td colspan="2" valign="top" align="center">
+<p id="_c24f6ff7-3688-442a-8c69-1d9b24821c0d">relative combined standard uncertainty / %</p>
+</td>
+</tr>
+<tr>
+<td valign="top" align="center">20.000</td>
+<td colspan="3" valign="top" align="center">0.299</td>
+<td colspan="2" valign="top" align="center">1.53</td>
+</tr>
+</tbody>
+</table></clause>
+<clause id="_primary_magnetic_field_fluctuation_thermometer_pmfft_2" obligation="normative"><title>Primary magnetic field fluctuation thermometer, pMFFT</title><p id="_851f385a-f5ed-41e9-9411-ed62c5ef202a">For the pMFFT, the relative combined standard uncertainty of temperature measurements is currently 0.6% and is expected to be reduced further with the improvement of the geometric setup <eref type="inline" bibitemid="kirste2016" citeas="[8]">Kirste 2016</eref>. For the operation in absolute primary mode, the uncertainty budget for the pMFFT is shown in <xref target="table3"/>. Here, the first 5 uncertainty components are related to the determination of the relevant geometric parameters of the pMFFT necessary for the analytical modelling and the calculation of <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>T</mi></mstyle></mrow><mrow><mtext>pMFFT</mtext></mrow></msub></math></stem>. The following uncertainty contributions result from the determination of the electrical conductivity of the noise sensor, from the measurement equipment, from estimates of influence of noise sources other than the noise senor as well as from estimates of deviations of the analytical model from the practical implementation of the pMFFT. For more details and further explanation see <eref type="inline" bibitemid="kirste2016" citeas="[8]">Kirste 2016</eref>. The uncertainty budget for the operation in relative primary mode can be found in <eref type="inline" bibitemid="engert" citeas="[4]">Engert 2016</eref>. As for the CSNT, comparison measurements within the European EURAMET Project &#8216;Implementing the new kelvin&#8217; have shown that thermodynamic temperature values and their uncertainties determined with the pMFFT agree with other determinations of thermodynamic temperature as well as with copies of the PLTS-2000 better than 1% <eref type="inline" bibitemid="engert" citeas="[4]">Engert 2016</eref>. The relative combined standard uncertainty of <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>T</mi></mstyle></math></stem> determined by relative primary low-temperature JNT is about 0.14% for the pMFFT <eref type="inline" bibitemid="kirste2014" citeas="[10]">Kirste 2014</eref>.</p>
+<table id="table3">
+<name>Uncertainty budget for a temperature measurement at <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>16</mn><mo rspace="thickmathspace">&#8290;</mo><mrow xref="U_mK"><mi mathvariant="normal">mK</mi></mrow>
+
+
+
+
+
+
+
+
+</math></stem> using a pMFFT in absolute primary mode (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>u</mi></math></stem> &#8211; standard uncertainty, <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mi>c</mi></mrow><mrow><mi>i</mi></mrow></msub></math></stem>&#8201;&#8212;&#8201;sensitivity coefficients, last column is the relative contribution to the combined standard uncertainty, coverage factor <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi><mo>=</mo><mn>1</mn></math></stem>) <eref type="inline" bibitemid="kirste2016" citeas="[8]">Kirste 2016</eref>.</name>
+<tbody>
+<tr>
+<td valign="top" align="left">
+<p id="_5164e459-81a2-45e5-a035-6e634b589274">Uncertainty component <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mi>x</mi></mrow><mrow><mi>i</mi></mrow></msub></math></stem></p>
+</td>
+<td valign="top" align="center">unit</td>
+<td valign="top" align="center">value</td>
+<td valign="top" align="center">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>u</mi><mfenced open="(" close=")"><mrow><msub><mrow><mi>x</mi></mrow><mrow><mi>i</mi></mrow></msub></mrow></mfenced></math></stem>
+</td>
+<td valign="top" align="center">
+<p id="_f4e297c2-c8c8-43c3-a248-8cd79db0ca49">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mi>c</mi></mrow><mrow><mi>i</mi></mrow></msub><mo>&#8901;</mo><mi>u</mi><mfenced open="(" close=")"><mrow><msub><mrow><mi>x</mi></mrow><mrow><mi>i</mi></mrow></msub></mrow></mfenced><mo rspace="thickmathspace">&#8290;</mo><mrow xref="U_NISTu5"><mi mathvariant="normal">K</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>
+</p>
+</td>
+<td valign="top" align="center">
+<p id="_551d0a68-d0fc-455f-ad2f-12a7d7dba353">rel.<br/>
+contribution %</p>
+</td>
+</tr>
+<tr>
+<td colspan="6" valign="top" align="left">type B</td>
+</tr>
+<tr>
+<td valign="top" align="left">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>z</mi></math></stem>
+</td>
+<td valign="top" align="center">m</td>
+<td valign="top" align="center">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>1.038</mn><mo>&#8901;</mo><msup><mrow><mn>10</mn></mrow><mrow><mrow><mo>&#8722;</mo><mn>4</mn></mrow></mrow></msup></math></stem>
+</td>
+<td valign="top" align="center">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>2.74</mn><mo>&#8901;</mo><msup><mrow><mn>10</mn></mrow><mrow><mrow><mo>&#8722;</mo><mn>7</mn></mrow></mrow></msup></math></stem>
+</td>
+<td valign="top" align="center">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>2.92</mn><mo>&#8901;</mo><msup><mrow><mn>10</mn></mrow><mrow><mrow><mo>&#8722;</mo><mn>5</mn></mrow></mrow></msup></math></stem>
+</td>
+<td valign="top" align="center">9.30</td>
+</tr>
+<tr>
+<td valign="top" align="left">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mi>d</mi></mrow><mrow><mn>31</mn></mrow></msub></math></stem>
+</td>
+<td valign="top" align="center">m</td>
+<td valign="top" align="center">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>2.016</mn><mo>&#8901;</mo><msup><mrow><mn>10</mn></mrow><mrow><mrow><mo>&#8722;</mo><mn>3</mn></mrow></mrow></msup></math></stem>
+</td>
+<td valign="top" align="center">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>1.45</mn><mo>&#8901;</mo><msup><mrow><mn>10</mn></mrow><mrow><mrow><mo>&#8722;</mo><mn>6</mn></mrow></mrow></msup></math></stem>
+</td>
+<td valign="top" align="center">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8722;</mo><mn>8.75</mn><mo>&#8901;</mo><msup><mrow><mn>10</mn></mrow><mrow><mrow><mo>&#8722;</mo><mn>5</mn></mrow></mrow></msup></math></stem>
+</td>
+<td valign="top" align="center">83.68</td>
+</tr>
+<tr>
+<td valign="top" align="left">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>t</mi></math></stem>
+</td>
+<td valign="top" align="center">m</td>
+<td valign="top" align="center">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>1.857</mn><mo>&#8901;</mo><msup><mrow><mn>10</mn></mrow><mrow><mrow><mo>&#8722;</mo><mn>3</mn></mrow></mrow></msup></math></stem>
+</td>
+<td valign="top" align="center">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>1.57</mn><mo>&#8901;</mo><msup><mrow><mn>10</mn></mrow><mrow><mrow><mo>&#8722;</mo><mn>6</mn></mrow></mrow></msup></math></stem>
+</td>
+<td valign="top" align="center">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8722;</mo><mn>4.30</mn><mo>&#8901;</mo><msup><mrow><mn>10</mn></mrow><mrow><mrow><mo>&#8722;</mo><mn>12</mn></mrow></mrow></msup></math></stem>
+</td>
+<td valign="top" align="center">0.00</td>
+</tr>
+<tr>
+<td valign="top" align="left">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mi>r</mi></mrow><mrow><mrow><mn>1</mn><mi>,</mi><mn>1</mn></mrow></mrow></msub><mo>&#8230;</mo><msub><mrow><mi>r</mi></mrow><mrow><mrow><mn>9</mn><mi>,</mi><mn>1</mn></mrow></mrow></msub><mi>,</mi><msub><mrow><mi>r</mi></mrow><mrow><mrow><mn>1</mn><mi>,</mi><mn>2</mn></mrow></mrow></msub><mo>&#8230;</mo><msub><mrow><mi>r</mi></mrow><mrow><mrow><mn>9</mn><mi>,</mi><mn>2</mn></mrow></mrow></msub></math></stem>
+</td>
+<td valign="top" align="center">m</td>
+<td valign="top" align="center">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>6.485</mn><mo>&#8901;</mo><msup><mrow><mn>10</mn></mrow><mrow><mrow><mo>&#8722;</mo><mn>4</mn></mrow></mrow></msup></math></stem>
+</td>
+<td valign="top" align="center">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>1.15</mn><mo>&#8901;</mo><msup><mrow><mn>10</mn></mrow><mrow><mrow><mo>&#8722;</mo><mn>7</mn></mrow></mrow></msup></math></stem>
+</td>
+<td valign="top" align="center">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8722;</mo><mn>3.53</mn><mo>&#8901;</mo><msup><mrow><mn>10</mn></mrow><mrow><mrow><mo>&#8722;</mo><mn>6</mn></mrow></mrow></msup></math></stem>
+</td>
+<td valign="top" align="center">0.14</td>
+</tr>
+<tr>
+<td valign="top" align="left">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mi>r</mi></mrow><mrow><mrow><mn>1</mn><mi>,</mi><mn>3</mn></mrow></mrow></msub><mo>&#8230;</mo><msub><mrow><mi>r</mi></mrow><mrow><mn>93</mn></mrow></msub></math></stem>
+</td>
+<td valign="top" align="center">m</td>
+<td valign="top" align="center">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>6.425</mn><mo>&#8901;</mo><msup><mrow><mn>10</mn></mrow><mrow><mrow><mo>&#8722;</mo><mn>4</mn></mrow></mrow></msup></math></stem>
+</td>
+<td valign="top" align="center">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>1.15</mn><mo>&#8901;</mo><msup><mrow><mn>10</mn></mrow><mrow><mrow><mo>&#8722;</mo><mn>7</mn></mrow></mrow></msup></math></stem>
+</td>
+<td valign="top" align="center">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>1.14</mn><mo>&#8901;</mo><msup><mrow><mn>10</mn></mrow><mrow><mrow><mo>&#8722;</mo><mn>5</mn></mrow></mrow></msup></math></stem>
+</td>
+<td valign="top" align="center">1.43</td>
+</tr>
+<tr>
+<td valign="top" align="left">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>&#963;</mi></mstyle></math></stem>
+</td>
+<td valign="top" align="center">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mfenced open="(" close=")"><mrow><mrow xref="U_Ohm.m-1"><mi mathvariant="normal">&#8486;</mi><mo rspace="thickmathspace">&#8290;</mo><msup><mrow><mi mathvariant="normal">m</mi></mrow><mrow><mo>&#8722;</mo><mn>1</mn></mrow></msup></mrow>
+
+
+
+
+
+
+
+</mrow></mfenced></math></stem>
+</td>
+<td valign="top" align="center">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>5.915</mn><mo>&#8901;</mo><msup><mrow><mn>10</mn></mrow><mrow><mn>9</mn></mrow></msup></math></stem>
+</td>
+<td valign="top" align="center">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>3.59</mn><mo>&#8901;</mo><msup><mrow><mn>10</mn></mrow><mrow><mn>7</mn></mrow></msup></math></stem>
+</td>
+<td valign="top" align="center">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>1.43</mn><mo>&#8901;</mo><msup><mrow><mn>10</mn></mrow><mrow><mrow><mo>&#8722;</mo><mn>5</mn></mrow></mrow></msup></math></stem>
+</td>
+<td valign="top" align="center">2.23</td>
+</tr>
+<tr>
+<td valign="top" align="left">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>&#956;</mi></mstyle></mrow><mrow><mtext>r</mtext></mrow></msub></math></stem>
+</td>
+<td valign="top" align="center"/>
+<td valign="top" align="center">1.00</td>
+<td valign="top" align="center">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>2.80</mn><mo>&#8901;</mo><msup><mrow><mn>10</mn></mrow><mrow><mrow><mo>&#8722;</mo><mn>6</mn></mrow></mrow></msup></math></stem>
+</td>
+<td valign="top" align="center">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8722;</mo><mn>9.06</mn><mo>&#8901;</mo><msup><mrow><mn>10</mn></mrow><mrow><mrow><mo>&#8722;</mo><mn>8</mn></mrow></mrow></msup></math></stem>
+</td>
+<td valign="top" align="center">0.00</td>
+</tr>
+<tr>
+<td valign="top" align="left">
+<p id="_ff2348e3-964c-44a0-8fc6-e81ab84ee288">Flatness of ICL transfer function depending on bandwidth <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mi>f</mi></mrow><mrow><mrow><mn>3</mn><mo rspace="thickmathspace">&#8290;</mo><mrow xref="U_dbel_B"><mi mathvariant="normal">dB</mi></mrow>
+
+
+
+
+
+
+
+<mi>,</mi><mi>k</mi></mrow></mrow></msub></math></stem></p>
+</td>
+<td valign="top" align="center">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu31"><mi mathvariant="normal">Hz</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>
+</td>
+<td valign="top" align="center">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8734;</mo></math></stem>
+</td>
+<td valign="top" align="center">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>6.20</mn><mo>&#8901;</mo><msup><mrow><mn>10</mn></mrow><mrow><mn>5</mn></mrow></msup></math></stem>
+</td>
+<td valign="top" align="center">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8722;</mo><mn>4.18</mn><mo>&#8901;</mo><msup><mrow><mn>10</mn></mrow><mrow><mrow><mo>&#8722;</mo><mn>7</mn></mrow></mrow></msup></math></stem>
+</td>
+<td valign="top" align="center">0.00</td>
+</tr>
+<tr>
+<td valign="top" align="left">
+<p id="_8cac2206-46a7-4b2f-82aa-63035ff8178f">Stability of feedback resistor <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>R</mi></mstyle></mrow><mrow><mrow><mi>f</mi><mi>,</mi><mi>k</mi></mrow></mrow></msub></math></stem> of the SQUID electronics</p>
+</td>
+<td valign="top" align="center">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu18"><mi mathvariant="normal">&#8486;</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>
+</td>
+<td valign="top" align="center">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>3.00</mn><mo>&#8901;</mo><msup><mrow><mn>10</mn></mrow><mrow><mn>4</mn></mrow></msup></math></stem>
+</td>
+<td valign="top" align="center">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>8.66</mn><mo>&#8901;</mo><msup><mrow><mn>10</mn></mrow><mrow><mrow><mo>&#8722;</mo><mn>1</mn></mrow></mrow></msup></math></stem>
+</td>
+<td valign="top" align="center">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>9.34</mn><mo>&#8901;</mo><msup><mrow><mn>10</mn></mrow><mrow><mrow><mo>&#8722;</mo><mn>7</mn></mrow></mrow></msup></math></stem>
+</td>
+<td valign="top" align="center">0.01</td>
+</tr>
+<tr>
+<td valign="top" align="left">
+<p id="_e784bb52-10df-4604-a4d7-253392c46a01">AC voltage meas. (ADC gain, flatness)</p>
+</td>
+<td valign="top" align="center"/>
+<td valign="top" align="center">1.00</td>
+<td valign="top" align="center">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>1.73</mn><mo>&#8901;</mo><msup><mrow><mn>10</mn></mrow><mrow><mrow><mo>&#8722;</mo><mn>4</mn></mrow></mrow></msup></math></stem>
+</td>
+<td valign="top" align="center">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>1.68</mn><mo>&#8901;</mo><msup><mrow><mn>10</mn></mrow><mrow><mrow><mo>&#8722;</mo><mn>5</mn></mrow></mrow></msup></math></stem>
+</td>
+<td valign="top" align="center">3.09</td>
+</tr>
+<tr>
+<td valign="top" align="left">
+<p id="_401cb447-fa68-4248-8df4-536239cba0eb">Timing accuracy of the ADC (relative)</p>
+</td>
+<td valign="top" align="center"/>
+<td valign="top" align="center">1.00</td>
+<td valign="top" align="center">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>1.16</mn><mo>&#8901;</mo><msup><mrow><mn>10</mn></mrow><mrow><mrow><mo>&#8722;</mo><mn>5</mn></mrow></mrow></msup></math></stem>
+</td>
+<td valign="top" align="center">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>1.87</mn><mo>&#8901;</mo><msup><mrow><mn>10</mn></mrow><mrow><mrow><mo>&#8722;</mo><mn>7</mn></mrow></mrow></msup></math></stem>
+</td>
+<td valign="top" align="center">0.00</td>
+</tr>
+<tr>
+<td valign="top" align="left">
+<p id="_ee77f553-764b-48ec-b167-97445cff4117">Correlation limit <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>S</mi></mstyle></mrow><mrow><mrow><mstyle mathvariant="italic"><mi>&#981;</mi></mstyle><mi>,</mi><mn>12</mn><mi>,</mi><mtext>min</mtext></mrow></mrow></msub></math></stem></p>
+</td>
+<td valign="top" align="center">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mrow><mstyle mathvariant="italic"><mi>&#981;</mi></mstyle></mrow><mrow><mn>2</mn></mrow></msup><mo>/</mo><mrow xref="U_NISTu31"><mi mathvariant="normal">Hz</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>
+</td>
+<td valign="top" align="center">(0)</td>
+<td valign="top" align="center">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>1.07</mn><mo>&#8901;</mo><msup><mrow><mn>10</mn></mrow><mrow><mrow><mo>&#8722;</mo><mn>15</mn></mrow></mrow></msup></math></stem>
+</td>
+<td valign="top" align="center">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>2.63</mn><mo>&#8901;</mo><msup><mrow><mn>10</mn></mrow><mrow><mrow><mo>&#8722;</mo><mn>6</mn></mrow></mrow></msup></math></stem>
+</td>
+<td valign="top" align="center">0.08</td>
+</tr>
+<tr>
+<td valign="top" align="left">
+<p id="_b31ae348-4e57-4715-a2b0-567d3bb8e94a">Edge effect <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>M</mi></mstyle></mrow><mrow><mi>k</mi></mrow></msub><mo>/</mo><msub><mrow><mstyle mathvariant="italic"><mi>M</mi></mstyle></mrow><mrow><mi>k</mi></mrow></msub></math></stem>(unshielded)</p>
+</td>
+<td valign="top" align="center"/>
+<td valign="top" align="center">1.00</td>
+<td valign="top" align="center">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>6.06</mn><mo>&#8901;</mo><msup><mrow><mn>10</mn></mrow><mrow><mrow><mo>&#8722;</mo><mn>6</mn></mrow></mrow></msup></math></stem>
+</td>
+<td valign="top" align="center">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8722;</mo><mn>1.96</mn><mo>&#8901;</mo><msup><mrow><mn>10</mn></mrow><mrow><mrow><mo>&#8722;</mo><mn>7</mn></mrow></mrow></msup></math></stem>
+</td>
+<td valign="top" align="center">0.00</td>
+</tr>
+<tr>
+<td valign="top" align="left">
+<p id="_93c77acc-bb39-43f4-9fec-875d46350420">Edge effect <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>S</mi></mstyle></mrow><mrow><mstyle mathvariant="italic"><mi>&#981;</mi></mstyle></mrow></msub><mo>/</mo><msub><mrow><mstyle mathvariant="italic"><mi>S</mi></mstyle></mrow><mrow><mstyle mathvariant="italic"><mi>&#981;</mi></mstyle></mrow></msub><mfenced open="(" close=")"><mrow><mo>&#8734;</mo></mrow></mfenced></math></stem></p>
+</td>
+<td valign="top" align="center"/>
+<td valign="top" align="center">1.00</td>
+<td valign="top" align="center">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>3.18</mn><mo>&#8901;</mo><msup><mrow><mn>10</mn></mrow><mrow><mrow><mo>&#8722;</mo><mn>7</mn></mrow></mrow></msup></math></stem>
+</td>
+<td valign="top" align="center">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>5.14</mn><mo>&#8901;</mo><msup><mrow><mn>10</mn></mrow><mrow><mrow><mo>&#8722;</mo><mn>9</mn></mrow></mrow></msup></math></stem>
+</td>
+<td valign="top" align="center">0.00</td>
+</tr>
+<tr>
+<td valign="top" align="left">
+<p id="_7e2453c9-042e-43fd-999c-0ac5eb2990a8">Edge effect <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>S</mi></mstyle></mrow><mrow><mstyle mathvariant="italic"><mi>&#981;</mi></mstyle></mrow></msub><mo>/</mo><msub><mrow><mstyle mathvariant="italic"><mi>S</mi></mstyle></mrow><mrow><mstyle mathvariant="italic"><mi>&#981;</mi></mstyle></mrow></msub></math></stem>(unshielded)</p>
+</td>
+<td valign="top" align="center"/>
+<td valign="top" align="center">1.00</td>
+<td valign="top" align="center">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>3.18</mn><mo>&#8901;</mo><msup><mrow><mn>10</mn></mrow><mrow><mrow><mo>&#8722;</mo><mn>7</mn></mrow></mrow></msup></math></stem>
+</td>
+<td valign="top" align="center">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>5.14</mn><mo>&#8901;</mo><msup><mrow><mn>10</mn></mrow><mrow><mrow><mo>&#8722;</mo><mn>9</mn></mrow></mrow></msup></math></stem>
+</td>
+<td valign="top" align="center">0.00</td>
+</tr>
+<tr>
+<td valign="top" align="left">
+<p id="_978c28fa-d12c-4875-be91-6d42d72d4f8d">Parasitic coil areas, <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>S</mi></mstyle></mrow><mrow><mstyle mathvariant="italic"><mi>&#981;</mi></mstyle></mrow></msub><mo>/</mo><msub><mrow><mstyle mathvariant="italic"><mi>S</mi></mstyle></mrow><mrow><mstyle mathvariant="italic"><mi>&#981;</mi></mstyle></mrow></msub></math></stem>(model)</p>
+</td>
+<td valign="top" align="center"/>
+<td valign="top" align="center">1.00</td>
+<td valign="top" align="center">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>4.45</mn><mo>&#8901;</mo><msup><mrow><mn>10</mn></mrow><mrow><mrow><mo>&#8722;</mo><mn>5</mn></mrow></mrow></msup></math></stem>
+</td>
+<td valign="top" align="center">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8722;</mo><mn>7.19</mn><mo>&#8901;</mo><msup><mrow><mn>10</mn></mrow><mrow><mrow><mo>&#8722;</mo><mn>7</mn></mrow></mrow></msup></math></stem>
+</td>
+<td valign="top" align="center">0.01</td>
+</tr>
+<tr>
+<td valign="top" align="left">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>R</mi></mstyle></mrow><mrow><mtext>cal</mtext></mrow></msub></math></stem>
+</td>
+<td valign="top" align="center">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu18"><mi mathvariant="normal">&#8486;</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>
+</td>
+<td valign="top" align="center">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>9.988</mn><mo>&#8901;</mo><msup><mrow><mn>10</mn></mrow><mrow><mn>2</mn></mrow></msup></math></stem>
+</td>
+<td valign="top" align="center">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>2.01</mn><mo>&#8901;</mo><msup><mrow><mn>10</mn></mrow><mrow><mrow><mo>&#8722;</mo><mn>2</mn></mrow></mrow></msup></math></stem>
+</td>
+<td valign="top" align="center">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#8722;</mo><mn>6.51</mn><mo>&#8901;</mo><msup><mrow><mn>10</mn></mrow><mrow><mrow><mo>&#8722;</mo><mn>7</mn></mrow></mrow></msup></math></stem>
+</td>
+<td valign="top" align="center">0.00</td>
+</tr>
+<tr>
+<td colspan="6" valign="top" align="left">type A</td>
+</tr>
+<tr>
+<td valign="top" align="left">
+<p id="_c8236308-7cbb-4536-bcf7-c7d017bf8499">Effect of signal-to-noise ratio, <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>N</mi></mstyle></mrow><mrow><mi>f</mi></mrow></msub></math></stem> and <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>N</mi></mstyle></mrow><mrow><mtext>avg</mtext></mrow></msub></math></stem> on CPSD in <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>T</mi></mstyle></mrow><mrow><mn>12</mn></mrow></msub><mfenced open="(" close=")"><mrow><mi>f</mi></mrow></mfenced></math></stem></p>
+</td>
+<td valign="top" align="center"/>
+<td valign="top" align="center">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>1.617</mn><mo>&#8901;</mo><msup><mrow><mn>10</mn></mrow><mrow><mrow><mi>&#8722;</mi><mn>2</mn></mrow></mrow></msup></math></stem>
+</td>
+<td valign="top" align="center">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>1.62</mn><mo>&#8901;</mo><msup><mrow><mn>10</mn></mrow><mrow><mrow><mo>&#8722;</mo><mn>6</mn></mrow></mrow></msup></math></stem>
+</td>
+<td valign="top" align="center">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>1.62</mn><mo>&#8901;</mo><msup><mrow><mn>10</mn></mrow><mrow><mrow><mo>&#8722;</mo><mn>6</mn></mrow></mrow></msup></math></stem>
+</td>
+<td valign="top" align="center">0.03</td>
+</tr>
+<tr>
+<td valign="top" align="center">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>T</mi></mstyle></mrow><mrow><mtext>pMFFT</mtext></mrow></msub><mo>/</mo><mrow xref="U_mK"><mi mathvariant="normal">mK</mi></mrow>
+
+
+
+
+
+
+
+
+</math></stem>
+</td>
+<td colspan="3" valign="top" align="center">
+<p id="_c79f8520-f9bc-4c14-9e2f-9dc865a2cdc1">combined standard uncertainty / <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_mK"><mi mathvariant="normal">mK</mi></mrow>
+
+
+
+
+
+
+
+
+</math></stem></p>
+</td>
+<td colspan="2" valign="top" align="center">
+<p id="_cf5fdbf7-3412-4fcd-8bde-4755f339c55f">relative combined standard uncertainty / %</p>
+</td>
+</tr>
+<tr>
+<td valign="top" align="center">16.175</td>
+<td colspan="3" valign="top" align="center">0.096</td>
+<td colspan="2" valign="top" align="center">0.59</td>
+</tr>
+</tbody>
+</table></clause></clause>
+</sections><bibliography><references id="_references" normative="false" obligation="informative">
+<title>References</title><bibitem id="callen">
+<formattedref format="application/x-isodoc+xml">Callen H. B. Callen, Welton T. A., 1951, &#8220;<em>Irreversibility and generalized noise</em>&#8220;, Physical Review <strong>83</strong> N&#176;1, 34, <link target="https://doi.org/10.1103/PhysRev.83.34"/></formattedref>
+<docidentifier type="metanorma">[1]</docidentifier>
+</bibitem><bibitem id="beyer">
+<formattedref format="application/x-isodoc+xml">Beyer J., Kirste A., Schurig T., 2016, &#8220;<em>SQUID-Based Thermometers</em>&#8220;, Encyclopedia of Applied Physics, p. 23, Wiley&#8208;VCH, <link target="https://onlinelibrary.wiley.com/doi/abs/10.1002/3527600434.eap766"/></formattedref>
+<docidentifier type="metanorma">[2]</docidentifier>
+</bibitem><bibitem id="bipm">
+<formattedref format="application/x-isodoc+xml">BIPM (Bureau International des Poids et Mesures), 1979, &#8220;<em>The 1976 provisional 0.5K to 30K temperature scale</em>&#8220;, Metrologia <strong>15</strong>, 65&#8211;68. (<link target="https://iopscience.iop.org/article/10.1088/0026-1394/15/2/002/meta">doi:10.1088/0026-1394/15/2/002</link>)</formattedref>
+<docidentifier type="metanorma">[3]</docidentifier>
+</bibitem><bibitem id="engert">
+<formattedref format="application/x-isodoc+xml">Engert J., Kirste A., Shibahara* A., Casey A., Levitin L. V., Saunders J., Hahtela O., Kemppinen A., Mykk&#228;nen E., Prunnila M., Gunnarsson D., Roschier L., Meschke M., Pekola J., 2016, &#8220;<em>New Evaluation of T &#8211; T2000 from 0.02 K to 1 K by Independent Thermodynamic Methods</em>&#8220;, Int. J. Thermophys. <strong>37</strong>, 125, <link target="https://link.springer.com/article/10.1007/s10765-016-2123-4">doi: 10.1007/s10765-016-2123-4</link></formattedref>
+<docidentifier type="metanorma">[4]</docidentifier>
+</bibitem><bibitem id="fellmuth">
+<formattedref format="application/x-isodoc+xml">Fellmuth B., Hechtfischer D., Hoffmann A., 2003, &#8220;<em>PTB-96: The Ultra-Low Temperature Scale of PTB</em>&#8220;, Temperature. Its Measurement and Control in Science and Industry, ed. Ripple D. C., AIP Conference Proceedings <strong>684</strong>, 71, <link target="http://dx.doi.org/10.1063/1.1627103"/></formattedref>
+<docidentifier type="metanorma">[5]</docidentifier>
+</bibitem><bibitem id="giffard">
+<formattedref format="application/x-isodoc+xml">Giffard R. P., Webb R. A., 1972, &#8220;<em>Principles and methods of low-frequency electric and magnetic measurements using an rf-biased point-contact superconducting device</em>&#8220;, Journal of Low Temperature Physics <strong>6</strong>, N&#176; 5/6, 533, <link target="http://dx.doi.org/10.1007/BF00644085"/></formattedref>
+<docidentifier type="metanorma">[6]</docidentifier>
+</bibitem><bibitem id="hudson">
+<formattedref format="application/x-isodoc+xml">Hudson R. P., Marshak H., Soulen R. J., Utton D. B., 1975, &#8220;<em>Review paper: recent advances in thermometry below <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>300</mn><mo rspace="thickmathspace">&#8290;</mo><mrow xref="U_mK"><mi mathvariant="normal">mK</mi></mrow>
+
+
+
+
+
+
+
+
+</math></stem></em>&#8220;, Journal of Low Temperature Physics <strong>20</strong> N&#176; 1/2, 1, <link target="https://link.springer.com/article/10.1007/BF00115257">doi:10.1007/BF00115257</link></formattedref>
+<docidentifier type="metanorma">[7]</docidentifier>
+</bibitem><bibitem id="kirste2016">
+<formattedref format="application/x-isodoc+xml">Kirste A., Engert J., 2016, <em>&#8220;A SQUID-based primary noise thermometer for low- temperature metrology</em>&#8220;, phil. Trans. R. Soc. <strong>A 374</strong>, 20150050, <link target="http://dx.doi.org/10.1098/rsta.2015.0050"/></formattedref>
+<docidentifier type="metanorma">[8]</docidentifier>
+</bibitem><bibitem id="kirste2008">
+<formattedref format="application/x-isodoc+xml">Kirste A., Drung D., Beyer J., Schurig T., 2008, &#8220;<em>Optimization of SQUID Magnetometers and Gradiometers for Magnetic-Field-Fluctuation Thermometers</em>&#8220;, Journal of Physics: Conference Series <strong>97</strong>, 012320, <link target="http://iopscience.iop.org/article/10.1088/1742-6596/97/1/012320/meta">doi: 10.1088/1742-6596/97/1/012320</link></formattedref>
+<docidentifier type="metanorma">[9]</docidentifier>
+</bibitem><bibitem id="kirste2014">
+<formattedref format="application/x-isodoc+xml">Kirste A., Regin M., Engert J., Drung D., Schurig T., 2014, &#8220;<em>A calculable and correlation-based magnetic field fluctuation thermometer</em>&#8220;, Journal of Physics: Conference Series <strong>568</strong>, 032012, <link target="https://iopscience.iop.org/article/10.1088/1742-6596/568/3/032012">doi: 10.1088/1742-6596/568/3/032012</link></formattedref>
+<docidentifier type="metanorma">[10]</docidentifier>
+</bibitem><bibitem id="lusher">
+<formattedref format="application/x-isodoc+xml">Lusher C. P., Junyun Li, Maidanov V. A., Digby M. E., Dyball H., Casey A., Ny&#233;ki J., Dmitriev V. V., Cowan B. P., Saunders J., 2001, &#8220;<em>Current sensing noise thermometry using a low Tc DC SQUID preamplifier</em>&#8220;, Meas. Sci. Technol. <strong>12</strong> N&#176;1, 1, <link target="https://doi.org/10.1088/0957-0233/12/1/301"/></formattedref>
+<docidentifier type="metanorma">[11]</docidentifier>
+</bibitem><bibitem id="menkel">
+<formattedref format="application/x-isodoc+xml">Menkel S., Drung D., Greenberg Ya. S., Schurig T., 2000, &#8220;<em>Integrated Thin-Film dc RSQUIDs for Noise Thermometry</em>&#8220;, Journal of Low Temperature Physics <strong>120</strong> N&#176; 5/6, 381, <link target="http://dx.doi.org/10.1023/A:1004640804558"/></formattedref>
+<docidentifier type="metanorma">[12]</docidentifier>
+</bibitem><bibitem id="rusby">
+<formattedref format="application/x-isodoc+xml">Rusby R. L., Durieux M., Reesink A. L., Hudson R. P., Schuster G., K&#252;hne M., Fogle W. E., Soulen R. J., Adams E. D., 2002, &#8220;<em>The Provisional Low Temperature Scale from <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>0.9</mn><mo rspace="thickmathspace">&#8290;</mo><mrow xref="U_mK"><mi mathvariant="normal">mK</mi></mrow>
+
+
+
+
+
+
+
+
+</math></stem> to <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>1</mn><mo rspace="thickmathspace">&#8290;</mo><mrow xref="U_NISTu5"><mi mathvariant="normal">K</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>, PLTS-2000</em>&#8220;, Journal of Low Temperature Physics <strong>126</strong> N&#176; 1/2, 633, <link target="http://dx.doi.org/10.1023/A:1013791823354"/></formattedref>
+<docidentifier type="metanorma">[13]</docidentifier>
+</bibitem><bibitem id="shibahara">
+<formattedref format="application/x-isodoc+xml">Shibahara A., Hahtela O., Engert J., van der Vliet H., Levitin L. V., Casey A., Lusher C.P., Saunders J., Drung D., Schurig T., 2016, &#8220;<em>Primary current-sensing noise thermometry in the millikelvin regime</em>&#8220;, phil. Trans. R. Soc. <strong>A 374</strong>, 20150054, <link target="http://dx.doi.org/10.1098/rsta.2015.0054"/></formattedref>
+<docidentifier type="metanorma">[14]</docidentifier>
+</bibitem><bibitem id="soulen">
+<formattedref format="application/x-isodoc+xml">Soulen, Jr. R. J., Fogle W. E., Colwell J. H., 1994, &#8220;<em>Measurements of Absolute Temperature Below <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>0.75</mn><mo rspace="thickmathspace">&#8290;</mo><mrow xref="U_NISTu5"><mi mathvariant="normal">K</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem> Using a Josephson-Junction Noise Thermometer</em>&#8220;, Journal of Low Temperature Physics <strong>94</strong> N&#176; 5/6, 385, <link target="http://dx.doi.org/10.1007/BF00753823"/></formattedref>
+<docidentifier type="metanorma">[15]</docidentifier>
+</bibitem><bibitem id="webb">
+<formattedref format="application/x-isodoc+xml">Webb R. A., Giffard R. P., Wheatley J. C., 1973, &#8220;<em>Noise thermometry at ultralow temperatures</em>&#8220;, Journal of Low Temperature Physics <strong>13</strong> N&#176; 3/4, 383, <link target="http://dx.doi.org/10.1007/BF00654076"/></formattedref>
+<docidentifier type="metanorma">[16]</docidentifier>
+</bibitem><bibitem id="white">
+<formattedref format="application/x-isodoc+xml">White D. R., Galleano R., Actis A., Brixy H., De Groot M., Dubbeldam J., Reesink A. L., Edler F., Sakurai H., Shepard R. L., Gallop J. C., 1996, &#8220;<em>The status of Johnson noise thermometry</em>&#8220;, Metrologia <strong>33</strong>, 325, <link target="http://iopscience.iop.org/0026-1394/33/4/6"/></formattedref>
+<docidentifier type="metanorma">[17]</docidentifier>
+</bibitem><bibitem id="varpula">
+<formattedref format="application/x-isodoc+xml">Varpula T., Poutanen T., 1984, &#8220;<em>Magnetic field fluctuations arising from thermal motion of electric charge in conductors</em>&#8220;, J. Appl. Phys. <strong>55</strong> N&#176; 11, 4015, <link target="http://dx.doi.org/10.1063/1.332990"/></formattedref>
+<docidentifier type="metanorma">[18]</docidentifier>
+</bibitem>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</references></bibliography>
+</bipm-standard>

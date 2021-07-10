@@ -1,0 +1,907 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<bipm-standard xmlns="https://www.metanorma.org/ns/bipm" type="presentation" version="1.1.4">
+<bibdata type="standard">
+<title language="en" format="text/plain" type="main">The International System of Units</title>
+<title language="en" format="text/plain" type="appendix">Mise en pratique</title>
+<title language="en" format="text/plain" type="part">Mise en pratique for the definition of the ampere and other electric units in the SI</title>
+<title language="fr" format="text/plain" type="main">Le syst&#232;me international d&#8217;unit&#233;s</title>
+<title language="fr" format="text/plain" type="appendix">Mise en pratique</title>
+<title language="fr" format="text/plain" type="part">Mise en pratique de la d&#233;finition de l&#8217;amp&#232;re et d&#8217;autres unit&#233;s &#233;lectriques</title>
+<docidentifier type="BIPM">BIPM SI MEP A1</docidentifier>
+<docnumber>SI MEP A1</docnumber>
+<contributor>
+<role type="author"/>
+<organization>
+<name>Bureau International des Poids et Mesures</name>
+<abbreviation>BIPM</abbreviation>
+</organization>
+</contributor>
+<contributor>
+<role type="publisher"/>
+<organization>
+<name>Bureau International des Poids et Mesures</name>
+<abbreviation>BIPM</abbreviation>
+</organization>
+</contributor>
+<edition>9</edition>
+<version>
+<revision-date>2019-05-20</revision-date>
+</version>
+<language current="true">en</language>
+<script current="true">Latn</script>
+<status>
+<stage language="">in-force</stage>
+</status>
+<copyright>
+<from>2019</from>
+<owner>
+<organization>
+<name>Bureau International des Poids et Mesures</name>
+<abbreviation>BIPM</abbreviation>
+</organization>
+</owner>
+</copyright>
+<ext>
+<doctype language="">mise-en-pratique</doctype>
+<editorialgroup>
+<committee acronym="CCEM">
+Consultative Committee for Electricity and Magnetism
+Comit&#233; consultatif d'&#233;lectricit&#233; et magn&#233;tisme
+</committee>
+
+</editorialgroup>
+
+<si-aspect>A_e</si-aspect>
+<structuredidentifier>
+<docnumber>SI MEP A1</docnumber>
+<part>4.1</part>
+<appendix>2</appendix>
+</structuredidentifier>
+</ext>
+</bibdata><localized-strings><localized-string key="scope" language="en">Scope</localized-string><localized-string key="symbolsabbrev" language="en">Symbols and abbreviated terms</localized-string><localized-string key="abbrev" language="en">Abbreviated terms</localized-string><localized-string key="symbols" language="en">Symbols</localized-string><localized-string key="table_of_contents" language="en">Contents</localized-string><localized-string key="introduction" language="en">Introduction</localized-string><localized-string key="foreword" language="en">Foreword</localized-string><localized-string key="abstract" language="en">Abstract</localized-string><localized-string key="acknowledgements" language="en">Acknowledgements</localized-string><localized-string key="termsdef" language="en">Terms and definitions</localized-string><localized-string key="termsdefsymbolsabbrev" language="en">Terms, definitions, symbols and abbreviated terms</localized-string><localized-string key="termsdefsymbols" language="en">Terms, definitions and symbols</localized-string><localized-string key="termsdefabbrev" language="en">Terms, definitions and abbreviated terms</localized-string><localized-string key="normref" language="en">Normative references</localized-string><localized-string key="bibliography" language="en">References</localized-string><localized-string key="preface" language="en">Preface</localized-string><localized-string key="clause" language="en">Chapter</localized-string><localized-string key="annex" language="en">Appendix</localized-string><localized-string key="appendix" language="en">Annex</localized-string><localized-string key="no_terms_boilerplate" language="en"><p>No terms and definitions are listed in this document.</p>
+</localized-string><localized-string key="internal_terms_boilerplate" language="en"><p>For the purposes of this document, 
+    the following terms and definitions apply.</p>
+</localized-string><localized-string key="norm_with_refs_pref" language="en">The following referenced documents are indispensable for the application of this document. For dated references, only the edition cited applies. For undated references, the latest edition of the referenced document (including any amendments) applies.</localized-string><localized-string key="norm_empty_pref" language="en">There are no normative references in this document.</localized-string><localized-string key="external_terms_boilerplate" language="en"><p>For the purposes of this document, 
+  the terms and definitions given in % apply.</p>
+</localized-string><localized-string key="internal_external_terms_boilerplate" language="en"><p>For the purposes of this document, the terms and definitions 
+  given in % and the following apply.</p>
+</localized-string><localized-string key="term_defined_in" language="en">[term defined in %]</localized-string><localized-string key="note" language="en">NOTE</localized-string><localized-string key="note_xref" language="en">Note</localized-string><localized-string key="termnote" language="en">Note % to entry</localized-string><localized-string key="list" language="en">List</localized-string><localized-string key="deflist" language="en">Definition List</localized-string><localized-string key="figure" language="en">Figure</localized-string><localized-string key="formula" language="en">Equation</localized-string><localized-string key="inequality" language="en">Inequality</localized-string><localized-string key="table" language="en">Table</localized-string><localized-string key="requirement" language="en">Requirement</localized-string><localized-string key="recommendation" language="en">Recommendation</localized-string><localized-string key="permission" language="en">Permission</localized-string><localized-string key="key" language="en">Key</localized-string><localized-string key="example" language="en">EXAMPLE</localized-string><localized-string key="example_xref" language="en">Example</localized-string><localized-string key="where" language="en">where</localized-string><localized-string key="wholeoftext" language="en">Whole of text</localized-string><localized-string key="draft_label" language="en">draft</localized-string><localized-string key="inform_annex" language="en">informative</localized-string><localized-string key="norm_annex" language="en">normative</localized-string><localized-string key="modified" language="en">modified</localized-string><localized-string key="deprecated" language="en">DEPRECATED</localized-string><localized-string key="source" language="en">Adapted from</localized-string><localized-string key="and" language="en">and</localized-string><localized-string key="all_parts" language="en">All Parts</localized-string><localized-string key="month_january" language="en">January</localized-string><localized-string key="month_february" language="en">February</localized-string><localized-string key="month_march" language="en">March</localized-string><localized-string key="month_april" language="en">April</localized-string><localized-string key="month_may" language="en">May</localized-string><localized-string key="month_june" language="en">June</localized-string><localized-string key="month_july" language="en">July</localized-string><localized-string key="month_august" language="en">August</localized-string><localized-string key="month_september" language="en">September</localized-string><localized-string key="month_october" language="en">October</localized-string><localized-string key="month_november" language="en">November</localized-string><localized-string key="month_december" language="en">December</localized-string><localized-string key="obligation" language="en">Obligation</localized-string><localized-string key="subject" language="en">Subject</localized-string><localized-string key="inherits" language="en">Inherits</localized-string><localized-string key="admonition.danger" language="en">Danger</localized-string><localized-string key="admonition.warning" language="en">Warning</localized-string><localized-string key="admonition.caution" language="en">Caution</localized-string><localized-string key="admonition.important" language="en">Important</localized-string><localized-string key="admonition.safety_precautions" language="en">Safety Precautions</localized-string><localized-string key="locality.section" language="en">Section</localized-string><localized-string key="locality.clause" language="en">Clause</localized-string><localized-string key="locality.part" language="en">Part</localized-string><localized-string key="locality.paragraph" language="en">Paragraph</localized-string><localized-string key="locality.chapter" language="en">Chapter</localized-string><localized-string key="locality.page" language="en">Page</localized-string><localized-string key="locality.table" language="en">Table</localized-string><localized-string key="locality.annex" language="en">Annex</localized-string><localized-string key="locality.figure" language="en">Figure</localized-string><localized-string key="locality.example" language="en">Example</localized-string><localized-string key="locality.note" language="en">Note</localized-string><localized-string key="locality.formula" language="en">Formula</localized-string><localized-string key="Clause.sg" language="en">Clause</localized-string><localized-string key="Clause.pl" language="en">Clauses</localized-string><localized-string key="Annex.sg" language="en">Annex</localized-string><localized-string key="Annex.pl" language="en">Annexes</localized-string><localized-string key="Appendix.sg" language="en">Appendix</localized-string><localized-string key="Appendix.pl" language="en">Appendixes</localized-string><localized-string key="Note.sg" language="en">Note</localized-string><localized-string key="Note.pl" language="en">Notes</localized-string><localized-string key="Note_%_to_entry.sg" language="en">Note % to entry</localized-string><localized-string key="Note_%_to_entry.pl" language="en">Notes % to entry</localized-string><localized-string key="List.sg" language="en">List</localized-string><localized-string key="List.pl" language="en">Lists</localized-string><localized-string key="Figure.sg" language="en">Figure</localized-string><localized-string key="Figure.pl" language="en">Figures</localized-string><localized-string key="Formula.sg" language="en">Formula</localized-string><localized-string key="Formula.pl" language="en">Formulas</localized-string><localized-string key="Table.sg" language="en">Table</localized-string><localized-string key="Table.pl" language="en">Tables</localized-string><localized-string key="Requirement.sg" language="en">Requirement</localized-string><localized-string key="Requirement.pl" language="en">Requirements</localized-string><localized-string key="Recommendation.sg" language="en">Recommendation</localized-string><localized-string key="Recommendation.pl" language="en">Recommendations</localized-string><localized-string key="Permission.sg" language="en">Permission</localized-string><localized-string key="Permission.pl" language="en">Permissions</localized-string><localized-string key="Example.sg" language="en">Example</localized-string><localized-string key="Example.pl" language="en">Examples</localized-string><localized-string key="Part.sg" language="en">Part</localized-string><localized-string key="Part.pl" language="en">Parts</localized-string><localized-string key="Section.sg" language="en">Section</localized-string><localized-string key="Section.pl" language="en">Sections</localized-string><localized-string key="Paragraph.sg" language="en">Paragraph</localized-string><localized-string key="Paragraph.pl" language="en">Paragraphs</localized-string><localized-string key="Chapter.sg" language="en">Chapter</localized-string><localized-string key="Chapter.pl" language="en">Chapters</localized-string><localized-string key="Page.sg" language="en">Page</localized-string><localized-string key="Page.pl" language="en">Pages</localized-string><localized-string key="iso_annex" language="en">Annex</localized-string><localized-string key="see" language="en">see</localized-string><localized-string key="see_also" language="en">see also</localized-string><localized-string key="subclause" language="en">Section</localized-string><localized-string key="clause_jcgm" language="en">Clause</localized-string><localized-string key="subclause_jcgm" language="en">Clause</localized-string><localized-string key="index" language="en">Index</localized-string><localized-string key="all_rights_reserved" language="en">All rights reserved</localized-string><localized-string key="language" language="en">en</localized-string><localized-string key="script" language="en">Latn</localized-string></localized-strings><misc-container><UnitsML xmlns="https://schema.unitsml.org/unitsml/1.0"><UnitSet><Unit xml:id="U_N.A-2" dimensionURL="#NISTd46">
+<UnitSystem name="SI" type="SI_derived" xml:lang="en-US"/>
+<UnitName xml:lang="en">N*A^-2</UnitName>
+<UnitSymbol type="HTML">N&#160;A<sup>&#8722;2</sup></UnitSymbol>
+<UnitSymbol type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi mathvariant="normal">N</mi><mo rspace="thickmathspace">&#8290;</mo><msup><mrow><mi mathvariant="normal">A</mi></mrow><mrow><mo>&#8722;</mo><mn>2</mn></mrow></msup></mrow></math>
+</UnitSymbol>
+
+<RootUnits><EnumeratedRootUnit unit="newton"/>
+<EnumeratedRootUnit unit="ampere" powerNumerator="-2"/></RootUnits>
+
+</Unit></UnitSet><QuantitySet><Quantity xml:id="NISTq30" dimensionURL="#NISTd22" quantityType="base">
+<QuantityName xml:lang="en-US">magnetic flux</QuantityName>
+</Quantity></QuantitySet><DimensionSet><Dimension xml:id="NISTd46">
+<Length symbol="L" powerNumerator="1"/>
+<Mass symbol="M" powerNumerator="1"/>
+<Time symbol="T" powerNumerator="-2"/>
+<ElectricCurrent symbol="I" powerNumerator="-2"/>
+</Dimension></DimensionSet><PrefixSet><Prefix prefixBase="10" prefixPower="9" xml:id="NISTp10_9">
+  <PrefixName xml:lang="en">giga</PrefixName>
+  <PrefixSymbol type="ASCII">G</PrefixSymbol>
+  <PrefixSymbol type="unicode">G</PrefixSymbol>
+  <PrefixSymbol type="LaTeX">G</PrefixSymbol>
+  <PrefixSymbol type="HTML">G</PrefixSymbol>
+</Prefix></PrefixSet></UnitsML></misc-container>
+<boilerplate>
+  <copyright-statement>
+    <clause>
+      <p align="center" id="_66713798-d6bf-457f-9c58-c55d5732d5e8"> &#169; Bureau International des Poids et Mesures 2019 all rights reserved</p>
+    </clause>
+  </copyright-statement>
+  <license-statement>
+    <clause>
+      <title depth="1">Copyright statement</title>
+      <p id="_8917f3b5-6295-4aa1-9e7f-d4f209e220a8">This document is distributed under the terms of the Creative Commons Attribution 4.0 International License (<link target="http://creativecommons.org/licenses/by/4.0/"/>), which permits unrestricted use, distribution, and reproduction in any medium, provided you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made.</p>
+    </clause>
+  </license-statement>
+  <feedback-statement>
+    <p id="_6522403b-cb07-4dc7-b23c-fe4f9055ffaa">BIPM<br/>
+      Pavillon de Breteuil<br/>
+      F-92312 S&#232;vres Cedex<br/>
+      FRANCE</p>
+  </feedback-statement>
+</boilerplate>
+
+<sections><clause id="sec-1" obligation="normative" displayorder="1"><title depth="1">1.<tab/>Introduction</title><p id="_4e642750-c79b-4368-9d94-9a0bd22d908d">The purpose of this <em>Mise en pratique</em>, prepared by the Consultative Committee for Electricity and Magnetism (CCEM) of the International Committee for Weights and Measures (CIPM), is to indicate how the SI base unit, the ampere, symbol <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu4"><mi mathvariant="normal">A</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>, and the derived electric SI units with names and symbols, the volt <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu16"><mi mathvariant="normal">V</mi></mrow>
+
+
+
+
+
+
+
+
+</math></stem>, ohm <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu18"><mi mathvariant="normal">&#8486;</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>, siemens <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu19"><mi mathvariant="normal">S</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>, coulomb <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu15"><mi mathvariant="normal">C</mi></mrow>
+
+
+
+
+
+
+
+
+</math></stem>, farad <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu17"><mi mathvariant="normal">F</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>, henry <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu22"><mi mathvariant="normal">H</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>, watt <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu14"><mi mathvariant="normal">W</mi></mrow>
+
+
+
+
+
+
+
+
+</math></stem>, tesla <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu21"><mi mathvariant="normal">T</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>, and weber <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu20"><mi mathvariant="normal">Wb</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>, may be realized in practice.</p>
+<p id="_a273a1e1-48a4-4348-85ae-960f51c44f68">In general, the term &#8220;to realize a unit&#8221; is interpreted to mean the establishment of the value and associated uncertainty of a quantity of the same kind as the unit that is consistent with the definition of the unit. The definition of the ampere does not imply any particular experiment for its practical realization. Any method capable of deriving an electric current value traceable to the set of seven reference constants could, in principle, be used. Thus, the list of methods given is not meant to be an exhaustive list of all possibilities, but rather a list of those primary methods that are easiest to implement and/or that provide the smallest uncertainties.</p>
+<p id="_bf88b1f8-18a8-4dae-a99b-8011a80b0059">A primary method is a method having the highest metrological properties; whose operation can be completely described and understood; for which a complete uncertainty statement can be written down in terms of SI units; and which does not require a reference standard of the same quantity.</p></clause>
+<clause id="_definition_of_the_ampere" obligation="normative" displayorder="2"><title depth="1">2.<tab/>Definition of the ampere</title><p id="_75edfd00-cc5f-4d52-97a0-51aef8d79f4a">The definition of the ampere, SI base unit of electric current, is as follows <eref type="inline" bibitemid="bipm" citeas="[1]">[1]</eref>:</p>
+<quote id="_c9ef8a47-0da9-4821-b126-350e51759f3a">
+<p id="_9d21de36-b99d-41e4-8881-f1f6cd53a866">
+<strong>The ampere, symbol <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu4"><mi mathvariant="normal">A</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>, is the SI unit of electric current. It is defined by taking the fixed numerical value of the elementary charge <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>e</mi></math></stem> to be <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>1.602&#8239;176&#8239;634</mn><mo>&#215;</mo><msup><mrow><mn>10</mn></mrow><mrow><mrow><mo>&#8722;</mo><mn>19</mn></mrow></mrow></msup></math></stem> when expressed in the unit <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu15"><mi mathvariant="normal">C</mi></mrow>
+
+
+
+
+
+
+
+
+</math></stem>, which is equal to <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_A.s"><mi mathvariant="normal">A</mi><mo rspace="thickmathspace">&#8290;</mo><mi mathvariant="normal">s</mi></mrow>
+
+
+
+
+
+
+
+</math></stem>, where the second is defined in terms of <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#916;</mo><msub><mrow><mstyle mathvariant="italic"><mi>&#957;</mi></mstyle></mrow><mrow><mtext>Cs</mtext></mrow></msub></math></stem>.</strong>
+</p>
+</quote></clause>
+<clause id="sec-3" obligation="normative" displayorder="3"><title depth="1">3.<tab/>Practical realization of the ampere</title><p id="_22069e5a-97b5-4944-9e70-666bb85dc357">As already noted in <xref target="sec-1">Chapter 1</xref>, to realize a unit generally means to establish the value and associated uncertainty of a quantity of the same kind as the unit that is consistent with the definition of the unit. In practice, the ampere <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu4"><mi mathvariant="normal">A</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem> can be realized:</p>
+<ol id="_c20c74fe-4900-49e9-84c7-c18c9eacea61" type="arabic">
+<li>
+<p id="_a533f950-a90e-48ee-80ff-177f190755a5">by using Ohm&#8217;s law, the unit relation <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu4"><mi mathvariant="normal">A</mi></mrow>
+
+
+
+
+
+
+
+
+
+<mo>=</mo><mrow xref="U_V//Ohm"><mi mathvariant="normal">V</mi><mo>/</mo><mi mathvariant="normal">&#8486;</mi></mrow>
+
+
+
+
+
+
+
+</math></stem>, and using practical realizations of the SI
+derived units the volt <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu16"><mi mathvariant="normal">V</mi></mrow>
+
+
+
+
+
+
+
+
+</math></stem> and the ohm <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu18"><mi mathvariant="normal">&#8486;</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>, based on the Josephson and quantum Hall effects,
+respectively, as discussed in <xref target="sec-4">Chapter 4</xref> and <xref target="sec-5">Chapter 5</xref> below; or</p>
+</li>
+<li>
+<p id="_761a8e5d-2048-4acb-b700-acdbbb57e01d">by using a single electron transport (SET) or similar device, the unit relation <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu4"><mi mathvariant="normal">A</mi></mrow>
+
+
+
+
+
+
+
+
+
+<mo>=</mo><mrow xref="U_C//s"><mi mathvariant="normal">C</mi><mo>/</mo><mi mathvariant="normal">s</mi></mrow>
+
+
+
+
+
+
+
+</math></stem>, the
+value of <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>e</mi></math></stem> given in the definition of the ampere and a practical realization of the SI base unit
+the second s; or</p>
+</li>
+<li>
+<p id="_ea323bad-ec34-4b0b-9d67-7a588b256609">by using the relation <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>I</mi></mstyle><mo>=</mo><mstyle mathvariant="italic"><mi>C</mi></mstyle><mo>&#8901;</mo><mtext>d</mtext><mstyle mathvariant="italic"><mi>U</mi></mstyle><mo>/</mo><mtext>d</mtext><mi>t</mi></math></stem>, the unit relation <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu4"><mi mathvariant="normal">A</mi></mrow>
+
+
+
+
+
+
+
+
+
+<mo>=</mo><mrow xref="U_F.V"><mi mathvariant="normal">F</mi><mo rspace="thickmathspace">&#8290;</mo><mi mathvariant="normal">V</mi></mrow>
+
+
+
+
+
+
+
+<mo>/</mo><mrow xref="U_NISTu3"><mi mathvariant="normal">s</mi></mrow>
+
+
+
+
+
+
+
+
+</math></stem>, and practical realizations of the
+SI derived units the volt <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu16"><mi mathvariant="normal">V</mi></mrow>
+
+
+
+
+
+
+
+
+</math></stem> and the farad <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu17"><mi mathvariant="normal">F</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem> and of the SI base unit second <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu3"><mi mathvariant="normal">s</mi></mrow>
+
+
+
+
+
+
+
+
+</math></stem>.</p>
+</li>
+</ol>
+<p id="_57ec2018-4b13-4686-8a19-8b3b108cca1b">At the time of the preparation of this <em>Mise en pratique</em>, single electron transport (SET)
+implementations still have technical limitations and often larger relative uncertainties than some
+other competitive techniques. However, SET implementations are included in this <em>Mise en pratique</em>
+because they offer unique and elegant approaches to realizing SI units, and their uncertainties have
+been improving in recent years, and they promise to improve further in the future.</p></clause>
+<clause id="sec-4" obligation="normative" displayorder="4"><title depth="1">4.<tab/>Practical realization of the volt, <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu16"><mi mathvariant="normal">V</mi></mrow>
+
+
+
+
+
+
+
+
+</math></stem>, SI derived unit of electric potential difference (voltage) and electromotive force</title><p id="_31023ca8-20d2-43f7-8591-29a95d3af4f7">The volt <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu16"><mi mathvariant="normal">V</mi></mrow>
+
+
+
+
+
+
+
+
+</math></stem> can be realized using the Josephson effect and the following value of the Josephson constant <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>K</mi></mstyle></mrow><mrow><mtext>J</mtext></mrow></msub></math></stem><fn reference="1"><p id="_7a38cfc1-92ca-4b77-9187-91fb5b2992a7">This value has been calculated to 15 significant digits.</p></fn>:</p>
+<formula id="eq-1"><name>1</name>
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>K</mi></mstyle></mrow><mrow><mtext>J</mtext></mrow></msub><mo>=</mo><mn>483&#8239;597.848&#8239;416&#8239;984</mn><mo rspace="thickmathspace">&#8290;</mo><mrow xref="U_GHz.V-1"><mi mathvariant="normal">GHz</mi><mo rspace="thickmathspace">&#8290;</mo><msup><mrow><mi mathvariant="normal">V</mi></mrow><mrow><mo>&#8722;</mo><mn>1</mn></mrow></msup></mrow>
+
+
+
+
+
+
+
+
+</math></stem>
+</formula>
+<p id="_44aa70c3-c184-408b-8930-6931d2f1498a">This value follows from the assumption of the accuracy of the equation <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>K</mi></mstyle></mrow><mrow><mtext>J</mtext></mrow></msub><mo>=</mo><mn>2</mn><mi>e</mi><mo>/</mo><mi>h</mi></math></stem>, which is strongly
+supported by a large body of experimental and theoretical works, and the values of <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>h</mi></math></stem> and <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>e</mi></math></stem> given in
+<eref type="inline" bibitemid="bipm" citeas="[1]">[1]</eref>. Although the quotient <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>2</mn><mi>e</mi><mo>/</mo><mi>h</mi></math></stem> can obviously be calculated with any number of digits, this truncated
+recommended value is in error by less than 1 part in <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mrow><mn>10</mn></mrow><mrow><mn>15</mn></mrow></msup></math></stem>, which is intended to be negligible in the
+vast majority of applications. In those rare cases where this error may not be negligible, additional
+digits should be employed. The advantage of recommending a particular value of <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>K</mi></mstyle></mrow><mrow><mtext>J</mtext></mrow></msub></math></stem> for practical use
+is that it ensures that virtually all realizations of the volt based on the Josephson effect employ
+exactly the same value.</p>
+<p id="_0f2f55d8-2274-42b1-933b-c838a4da9b5c">Note that the value of <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>K</mi></mstyle></mrow><mrow><mtext>J</mtext></mrow></msub></math></stem> in <xref target="eq-1">Equation (1)</xref> is smaller than the value <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>K</mi></mstyle></mrow><mrow><mtext>J-90</mtext></mrow></msub><mo>=</mo><mn>483&#8239;597.9</mn><mo rspace="thickmathspace">&#8290;</mo><mrow xref="U_GHz.V-1"><mi mathvariant="normal">GHz</mi><mo rspace="thickmathspace">&#8290;</mo><msup><mrow><mi mathvariant="normal">V</mi></mrow><mrow><mo>&#8722;</mo><mn>1</mn></mrow></msup></mrow>
+
+
+
+
+
+
+
+
+</math></stem>, which was
+adopted by the CIPM starting 1 January 1990 for the international realization of the volt using the
+Josephson effect, by the fractional amount <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>106.665</mn><mo>&#215;</mo><msup><mrow><mn>10</mn></mrow><mrow><mrow><mo>&#8722;</mo><mn>9</mn></mrow></mrow></msup></math></stem>. This implies that the unit of voltage
+realized using <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>K</mi></mstyle></mrow><mrow><mtext>J-90</mtext></mrow></msub></math></stem> was larger than the present SI unit as realized using the value in <xref target="eq-1">Equation (1)</xref> by the
+same fractional amount. Thus, the numerical value of a voltage measured in terms of <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>K</mi></mstyle></mrow><mrow><mtext>J-90</mtext></mrow></msub></math></stem> would
+have been smaller by the same fractional amount as the numerical value of the identical voltage
+measured today in terms of the present SI volt realized using the value of <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>K</mi></mstyle></mrow><mrow><mtext>J</mtext></mrow></msub></math></stem> given in <xref target="eq-1">Equation (1)</xref>.</p></clause>
+<clause id="sec-5" obligation="normative" displayorder="5"><title depth="1">5.<tab/>Practical realization of the ohm, <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu18"><mi mathvariant="normal">&#8486;</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>, SI derived unit of electric resistance and impedance</title><p id="_74f5198a-dd4f-48b1-8aa5-22b18a8785ed">The ohm <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu18"><mi mathvariant="normal">&#8486;</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem> can be realized as follows:</p>
+<ol id="_4365cd7f-ec69-4de0-bf7d-3472fc73db07" type="arabic">
+<li><p id="_d7bd2be3-c8e5-4bc0-a785-d6a77f3c8746">by using the quantum Hall effect in a manner consistent with the CCEM Guidelines <eref type="inline" bibitemid="delahaye" citeas="[2]">[2]</eref> and the following value of the von Klitzing constant <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>R</mi></mstyle></mrow><mrow><mtext>K</mtext></mrow></msub></math></stem><fn reference="1"><p id="_076eac03-faba-4d4d-8c66-990d4b687664">This value has been calculated to 15 significant digits.</p></fn>:</p><formula id="eq-2"><name>2</name>
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>R</mi></mstyle></mrow><mrow><mtext>K</mtext></mrow></msub><mo>=</mo><mn>25&#8239;812.807&#8239;459&#8239;304&#8239;5</mn><mo rspace="thickmathspace">&#8290;</mo><mrow xref="U_NISTu18"><mi mathvariant="normal">&#8486;</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>
+</formula>
+<p id="_e264ad5a-eab0-4c3c-b92a-595cc0bf8b71">This value follows from the assumption of the accuracy of the equation <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>R</mi></mstyle></mrow><mrow><mtext>K</mtext></mrow></msub><mo>=</mo><mi>h</mi><mo>/</mo><msup><mrow><mi>e</mi></mrow><mrow><mn>2</mn></mrow></msup></math></stem>, which is
+strongly supported by a large body of experimental and theoretical works, and the values of <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>h</mi></math></stem>
+and <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>e</mi></math></stem> given in <eref type="inline" bibitemid="bipm" citeas="[1]">[1]</eref>. Although the quotient <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>h</mi><mo>/</mo><msup><mrow><mi>e</mi></mrow><mrow><mn>2</mn></mrow></msup></math></stem> can obviously be calculated with any number
+of digits, this truncated recommended value is in error by less than 1 part in <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mrow><mn>10</mn></mrow><mrow><mn>15</mn></mrow></msup></math></stem>, which is
+intended to be negligible in the vast majority of applications. In those rare cases where this
+error may not be negligible, additional digits should be employed. The advantage of
+recommending a particular value of <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>R</mi></mstyle></mrow><mrow><mtext>K</mtext></mrow></msub></math></stem> for practical use is that it ensures that virtually all
+realizations of the ohm based on the quantum Hall effect employ exactly the same value; or</p></li>
+<li>
+<p id="_fe6668cd-8784-468b-937f-88d42eb03c02">by comparing an unknown resistance to the impedance of a known capacitance using, for
+example, a quadrature bridge, where, for example, the capacitance has been determined by
+means of a calculable capacitor and the value of the electric constant given by <xref target="eq-3">Equation (3)</xref> in
+<xref target="magnetic_constant">Chapter 13</xref> below.</p>
+</li>
+</ol>
+<p id="_663f7f8c-adba-42bd-b1b0-6e7d699b29d1">Note that the value of <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>R</mi></mstyle></mrow><mrow><mtext>K</mtext></mrow></msub></math></stem> in <xref target="eq-2">Equation (2)</xref> is larger than the value <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>R</mi></mstyle></mrow><mrow><mtext>K-90</mtext></mrow></msub><mo>=</mo><mn>25&#8239;812.807</mn><mo rspace="thickmathspace">&#8290;</mo><mrow xref="U_NISTu18"><mi mathvariant="normal">&#8486;</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>, which was adopted
+by the CIPM starting 1 January 1990 for the international realization of the ohm using the quantum
+Hall effect, by the fractional amount <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>17.793</mn><mo>&#215;</mo><msup><mrow><mn>10</mn></mrow><mrow><mrow><mo>&#8722;</mo><mn>9</mn></mrow></mrow></msup></math></stem>. This implies that the unit of resistance realized
+using <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>R</mi></mstyle></mrow><mrow><mtext>K-90</mtext></mrow></msub></math></stem> was larger than the present SI unit as realized using the value in <xref target="eq-2">Equation (2)</xref> by the same
+fractional amount. Thus, the numerical value of a resistance measured in terms of <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>R</mi></mstyle></mrow><mrow><mtext>K-90</mtext></mrow></msub></math></stem> would have
+been smaller by the same fractional amount as the numerical value of the identical resistance
+measured today in terms of the present SI ohm realized using the value of <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>R</mi></mstyle></mrow><mrow><mtext>K</mtext></mrow></msub></math></stem> given in <xref target="eq-2">Equation (2)</xref>.</p></clause>
+<clause id="_practical_realization_of_the_siemens_unitsmls_si_derived_unit_of_electric_conductance" obligation="normative" displayorder="6">
+<title depth="1">6.<tab/>Practical realization of the siemens, <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu19"><mi mathvariant="normal">S</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>, SI derived unit of electric conductance</title>
+<p id="_65172ddd-af71-4e57-9f1c-31f32eb411e5">The siemens <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu19"><mi mathvariant="normal">S</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem> can be realized from a realization of the ohm (see <xref target="sec-5" nosee="true">Chapter 5</xref>) since <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu19"><mi mathvariant="normal">S</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem> is related to <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu18"><mi mathvariant="normal">&#8486;</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem> by the
+unit relation <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu19"><mi mathvariant="normal">S</mi></mrow>
+
+
+
+
+
+
+
+
+
+<mo>=</mo><mrow xref="U_Ohm-1"><msup><mrow><mi mathvariant="normal">&#8486;</mi></mrow><mrow><mo>&#8722;</mo><mn>1</mn></mrow></msup></mrow>
+
+
+
+
+
+
+
+</math></stem>.</p>
+</clause>
+<clause id="_practical_realization_of_the_coulomb_unitsmlc_si_derived_unit_of_electric_charge" obligation="normative" displayorder="7"><title depth="1">7.<tab/>Practical realization of the coulomb, <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu15"><mi mathvariant="normal">C</mi></mrow>
+
+
+
+
+
+
+
+
+</math></stem>, SI derived unit of electric charge</title><p id="_c8fb0feb-cc62-40f5-8c33-bd56814cd0df">The coulomb <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu15"><mi mathvariant="normal">C</mi></mrow>
+
+
+
+
+
+
+
+
+</math></stem> can be realized as follows:</p>
+<ol id="_22492fd3-1000-4916-ac21-90f49a38dacd" type="arabic">
+<li>
+<p id="_c98148b9-640b-4ee7-af8d-8279a53c08f1">by measuring the duration in terms of the SI unit of time, the second s, of the flow of an
+electric current known in terms of the ampere realized as indicated in <xref target="sec-3">Chapter 3</xref>; or</p>
+</li>
+<li>
+<p id="_30d4f639-549e-4c45-800a-6876af156508">by determining the amount of charge placed on a capacitance known in terms of the farad <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu17"><mi mathvariant="normal">F</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem> realized by method <xref target="item-8a">Chapter 8, 1)</xref> or <xref target="item-8b">Chapter 8, 2)</xref>, using the unit relation <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu15"><mi mathvariant="normal">C</mi></mrow>
+
+
+
+
+
+
+
+
+<mo>=</mo><mrow xref="U_F.V"><math>
+  <mi mathvariant="normal">F</mi>
+  <mo>&#8901;</mo>
+  <mi mathvariant="normal">V</mi>
+</math></mrow>
+
+
+
+
+
+
+
+</math></stem> and by measuring the voltage across the capacitance in terms of the volt <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu16"><mi mathvariant="normal">V</mi></mrow>
+
+
+
+
+
+
+
+
+</math></stem> as realized by the Josephson effect and the value of the Josephson constant given in <xref target="eq-1">Equation (1)</xref> (see <xref target="sec-4" nosee="true">Chapter 4</xref>); or</p>
+</li>
+<li>
+<p id="_14f8739b-c2e5-4cbd-8f1e-d8006108ce23">by using a SET or similar device to transfer a known amount of charge based on the value of <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>e</mi></math></stem>, given in the definition of the ampere, onto a suitable circuit element.</p>
+</li>
+</ol></clause>
+<clause id="sec-8" obligation="normative" displayorder="8"><title depth="1">8.<tab/>Practical realization of the farad, <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu17"><mi mathvariant="normal">F</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>, SI derived unit of capacitance</title><p id="_d4067196-6ba9-4c49-b81b-6128492d96ee">The farad <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu17"><mi mathvariant="normal">F</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem> can be realized as follows:</p>
+<ol id="_ddca9a64-a388-47ee-b4f9-6f5b8dc24001" type="arabic">
+<li id="item-8a">
+<p id="_ebbada91-400d-40c7-8b52-3103880538db">by comparing the impedance of a known resistance obtained using the quantum Hall effect and the value of the von Klitzing constant given in <xref target="eq-2">Equation (2)</xref> (see <xref target="sec-5">Chapter 5</xref>), including a quantized Hall resistance itself, to the impedance of an unknown capacitance using, for example, a quadrature bridge; or</p>
+</li>
+<li id="item-8b">
+<p id="_50ff7faa-edf9-4eae-89a3-8aedb8c03fae">by using a calculable capacitor and the value of the electric constant given by <xref target="eq-3">Equation (3)</xref>.</p>
+</li>
+</ol></clause>
+<clause id="_practical_realization_of_the_henry_unitsmlh_si_derived_unit_of_inductance" obligation="normative" displayorder="9"><title depth="1">9.<tab/>Practical realization of the henry, <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu22"><mi mathvariant="normal">H</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>, SI derived unit of inductance</title><p id="_65479507-c9bd-476b-b5ae-52fb132d44c0">The henry <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu22"><mi mathvariant="normal">H</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem> can be realized as follows:</p>
+<ol id="_477b3c82-6374-4f3c-b9ad-67e6ba52a928" type="arabic">
+<li>
+<p id="_01464ba5-1a8c-4b84-9fb4-7cdb0807b49f">by comparing the impedance of an unknown inductance to the impedance of a known capacitance with the aid of known resistances using, for example, a Maxwell-Wien bridge, where the known capacitance and resistances have been determined, for example, from the quantum Hall effect and the value of <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>R</mi></mstyle></mrow><mrow><mtext>K</mtext></mrow></msub></math></stem> given in <xref target="eq-2">Equation (2)</xref> (see <xref target="sec-5">Chapter 5</xref> and <xref target="sec-8">Chapter 8</xref>); or</p>
+</li>
+<li>
+<p id="_fa894355-dcb4-48cd-b2db-3253e4bb325d">by using a calculable inductor of, for example, the Campbell type of mutual inductor and the value of the magnetic constant <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>&#956;</mi></mstyle></mrow><mrow><mn>0</mn></mrow></msub></math></stem> given by <xref target="eq-6">Equation (6)</xref>.</p>
+</li>
+</ol></clause>
+<clause id="_practical_realization_of_the_watt_unitsmlw_si_derived_unit_of_power" obligation="normative" displayorder="10">
+<title depth="1">10.<tab/>Practical realization of the watt, <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu14"><mi mathvariant="normal">W</mi></mrow>
+
+
+
+
+
+
+
+
+</math></stem>, SI derived unit of power</title>
+<p id="_4b9a3e30-c302-4709-9659-c72d831fdbf0">The watt <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu14"><mi mathvariant="normal">W</mi></mrow>
+
+
+
+
+
+
+
+
+</math></stem> can be realized using electrical units by using the fact that electric power is equal to current times voltage, the unit relation based on Ohm&#8217;s law, <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu14"><mi mathvariant="normal">W</mi></mrow>
+
+
+
+
+
+
+
+
+<mo>=</mo><mrow xref="U_V2//Ohm"><msup><mrow><mi mathvariant="normal">V</mi></mrow><mrow><mn>2</mn></mrow></msup><mo>/</mo><mi mathvariant="normal">&#8486;</mi></mrow>
+
+
+
+
+
+
+
+</math></stem>, and realizations of the volt and ohm using the Josephson and quantum Hall effects and the values of the Josephson and von Klitzing constants given in <xref target="eq-1">Equation (1)</xref> and <xref target="eq-2">Equation (2)</xref> (see <xref target="sec-4" nosee="true">Chapter 4</xref> and <xref target="sec-5" nosee="true">Chapter 5</xref>).</p>
+</clause>
+<clause id="_practical_realization_of_the_tesla_unitsmlt_si_derived_unit_of_magnetic_flux_density" obligation="normative" displayorder="11"><title depth="1">11.<tab/>Practical realization of the tesla, <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu21"><mi mathvariant="normal">T</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>, SI derived unit of magnetic flux density</title><p id="_e5486f34-2297-4e38-8c81-cf0acf3bef7a">The tesla <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu21"><mi mathvariant="normal">T</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem> can be realized as follows:</p>
+<ol id="_76515743-d923-403e-bc59-3a8dbc041c3c" type="arabic">
+<li>
+<p id="_69d8b4de-ba1c-4b7e-b0fd-50f252d37af6">by using a solenoid, Helmholtz coil or other configuration of conductors of known dimensions carrying an electric current determined in terms of the ampere realized as
+discussed in <xref target="sec-3">Chapter 3</xref>, and the value of the magnetic constant <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>&#956;</mi></mstyle></mrow><mrow><mn>0</mn></mrow></msub></math></stem> given in <xref target="eq-6">Equation (6)</xref> in the calculation of the magnetic flux density generated by the current carrying conductors; or</p>
+</li>
+<li>
+<p id="_c13182f6-a9c0-43cf-b261-44586d4baa71">by using nuclear magnetic resonance (NMR) with a sample of known gyromagnetic ratio, for example, a spherical sample of pure <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mtext>H</mtext></mrow><mrow><mn>2</mn></mrow></msub><mtext>O</mtext></math></stem> at <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>25</mn><mo rspace="thickmathspace">&#8290;</mo><mrow xref="U_NISTu23"><mi mathvariant="normal">&#176;C</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem> and the most recent recommended value of the shielded gyromagnetic ratio of the proton <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mi mathvariant="normal">&#947;</mi></mrow><mrow><mtext>p'</mtext></mrow></msub></math></stem> given by CODATA.</p>
+</li>
+</ol></clause>
+<clause id="_practical_realization_of_the_weber_unitsmlwb_si_derived_unit_of_magnetic_flux" obligation="normative" displayorder="12">
+<title depth="1">12.<tab/>Practical realization of the weber, <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu20"><mi mathvariant="normal">Wb</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>, SI derived unit of magnetic flux</title>
+<p id="_88f8554b-00b9-43d8-8c6d-506e0705a732">The weber <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu20"><mi mathvariant="normal">Wb</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem> can be realized from the tesla based on the unit relation <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu20"><mi mathvariant="normal">Wb</mi></mrow>
+
+
+
+
+
+
+
+
+
+<mo>=</mo><mrow xref="U_T.m2"><mi mathvariant="normal">T</mi><mo rspace="thickmathspace">&#8290;</mo><msup><mrow><mi mathvariant="normal">m</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow>
+
+
+
+
+
+
+
+</math></stem> or from the volt based on the unit relation <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu20"><mi mathvariant="normal">Wb</mi></mrow>
+
+
+
+
+
+
+
+
+
+<mo>=</mo><mrow xref="U_V.s"><mi mathvariant="normal">V</mi><mo rspace="thickmathspace">&#8290;</mo><mi mathvariant="normal">s</mi></mrow>
+
+
+
+
+
+
+
+</math></stem>. Use can also be made of the fact that the magnetic flux quantum <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>&#981;</mi></mstyle></mrow><mrow><mn>0</mn></mrow></msub></math></stem>, which characterizes the magnetic properties of superconductors, is related to <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>h</mi></math></stem> and <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>e</mi></math></stem> as given in <eref type="inline" bibitemid="bipm" citeas="[1]">[1]</eref> by the exact relation <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>&#981;</mi></mstyle></mrow><mrow><mn>0</mn></mrow></msub><mo>=</mo><mi>h</mi><mo>/</mo><mn>2</mn><mi>e</mi></math></stem>.</p>
+</clause>
+<clause id="magnetic_constant" obligation="normative" displayorder="13"><title depth="1">13.<tab/>Magnetic constant <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>&#956;</mi></mstyle></mrow><mrow><mn>0</mn></mrow></msub></math></stem> and related quantities</title><p id="_73b162a0-6cb5-43ca-acdb-c1da22ccb41f">The new definitions of the kilogram, ampere, kelvin, and mole do not alter the relationships among the magnetic constant (permeability of vacuum) <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>&#956;</mi></mstyle></mrow><mrow><mn>0</mn></mrow></msub></math></stem>, electric constant (permittivity of vacuum) <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>&#949;</mi></mstyle></mrow><mrow><mn>0</mn></mrow></msub></math></stem>, characteristic impedance of vacuum <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>Z</mi></mstyle></mrow><mrow><mn>0</mn></mrow></msub></math></stem>, admittance of vacuum <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>Y</mi></mstyle></mrow><mrow><mn>0</mn></mrow></msub></math></stem>, and speed of light in vacuum <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>c</mi></math></stem>. Moreover, they do not change the exact value of <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>c</mi></math></stem>, which is explicit in the definition of the SI base unit of length, the metre, m. The relationships among these constants are</p>
+<formula id="eq-3"><name>3</name>
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>&#949;</mi></mstyle></mrow><mrow><mn>0</mn></mrow></msub><mo>=</mo><mn>1</mn><mo>/</mo><msub><mrow><mstyle mathvariant="italic"><mi>&#956;</mi></mstyle></mrow><mrow><mn>0</mn></mrow></msub><msup><mrow><mi>c</mi></mrow><mrow><mn>2</mn></mrow></msup></math></stem>
+</formula>
+<formula id="_4f82039e-be4f-48ce-b025-d3eb8b59691f"><name>4</name>
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>Z</mi></mstyle></mrow><mrow><mn>0</mn></mrow></msub><mo>=</mo><msub><mrow><mstyle mathvariant="italic"><mi>&#956;</mi></mstyle></mrow><mrow><mn>0</mn></mrow></msub><mi>c</mi><mo>=</mo><msup><mrow><mfenced open="(" close=")"><mrow><msub><mrow><mstyle mathvariant="italic"><mi>&#956;</mi></mstyle></mrow><mrow><mn>0</mn></mrow></msub><mo>/</mo><msub><mrow><mstyle mathvariant="italic"><mi>&#949;</mi></mstyle></mrow><mrow><mn>0</mn></mrow></msub></mrow></mfenced></mrow><mrow><mrow><mn>1</mn><mo>/</mo><mn>2</mn></mrow></mrow></msup></math></stem>
+</formula>
+<formula id="_46dd8294-5360-4688-8b63-cad2cb54e0db"><name>5</name>
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>Y</mi></mstyle></mrow><mrow><mn>0</mn></mrow></msub><mo>=</mo><mn>1</mn><mo>/</mo><msub><mrow><mstyle mathvariant="italic"><mi>&#956;</mi></mstyle></mrow><mrow><mn>0</mn></mrow></msub><mi>c</mi><mo>=</mo><msup><mrow><mfenced open="(" close=")"><mrow><msub><mrow><mstyle mathvariant="italic"><mi>&#949;</mi></mstyle></mrow><mrow><mn>0</mn></mrow></msub><mo>/</mo><msub><mrow><mstyle mathvariant="italic"><mi>&#956;</mi></mstyle></mrow><mrow><mn>0</mn></mrow></msub></mrow></mfenced></mrow><mrow><mrow><mn>1</mn><mo>/</mo><mn>2</mn></mrow></mrow></msup><mo>=</mo><mn>1</mn><mo>/</mo><msub><mrow><mstyle mathvariant="italic"><mi>Z</mi></mstyle></mrow><mrow><mn>0</mn></mrow></msub></math></stem>
+</formula>
+<p id="_bc0c6ce9-b20b-454f-beee-06cd0f2aec48">However, the new definitions do affect the value of <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>&#956;</mi></mstyle></mrow><mrow><mn>0</mn></mrow></msub></math></stem>, and hence the values of <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>&#949;</mi></mstyle></mrow><mrow><mn>0</mn></mrow></msub></math></stem>, <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>Z</mi></mstyle></mrow><mrow><mn>0</mn></mrow></msub></math></stem>, and <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>Y</mi></mstyle></mrow><mrow><mn>0</mn></mrow></msub></math></stem>. In particular, <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>&#956;</mi></mstyle></mrow><mrow><mn>0</mn></mrow></msub></math></stem> no longer has the exact value <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>4</mn><mi mathvariant="normal">&#960;</mi><mo>&#215;</mo><msup><mrow><mn>10</mn></mrow><mrow><mrow><mo>&#8722;</mo><mn>7</mn></mrow></mrow></msup><mo rspace="thickmathspace">&#8290;</mo><mrow xref="U_N.A-2"><mi mathvariant="normal">N</mi><mo rspace="thickmathspace">&#8290;</mo><msup><mrow><mi mathvariant="normal">A</mi></mrow><mrow><mo>&#8722;</mo><mn>2</mn></mrow></msup></mrow>
+
+
+
+
+
+
+
+</math></stem> and must be determined experimentally. The value of <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>&#956;</mi></mstyle></mrow><mrow><mn>0</mn></mrow></msub></math></stem> can be obtained with a relative standard uncertainty, <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mi>u</mi></mrow><mrow><mtext>r</mtext></mrow></msub></math></stem>, identical to that of the fine structure constant <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>&#945;</mi></mstyle></math></stem> from the exact relation</p>
+<formula id="eq-6"><name>6</name>
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>&#956;</mi></mstyle></mrow><mrow><mn>0</mn></mrow></msub><mo>=</mo><mstyle mathvariant="italic"><mi>&#945;</mi></mstyle><mfrac><mrow><mrow><mn>2</mn><mi>h</mi></mrow></mrow><mrow><mrow><mi>c</mi><msup><mrow><mi>e</mi></mrow><mrow><mn>2</mn></mrow></msup></mrow></mrow></mfrac></math></stem>
+</formula>
+<p id="_55ae2639-f30d-4fdb-8f3d-8b28717a3428">Since <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>h</mi></math></stem>, <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>c</mi></math></stem>, and <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>e</mi></math></stem> have fixed numerical values, it follows from <xref target="eq-3">Equation (3)</xref>-<xref target="eq-6">Equation (6)</xref> that</p>
+<formula id="_579808e6-ab69-40f3-afc6-499cdca00848"><name>7</name>
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mi>u</mi></mrow><mrow><mtext>r</mtext></mrow></msub><mfenced open="(" close=")"><mrow><msub><mrow><mstyle mathvariant="italic"><mi>Y</mi></mstyle></mrow><mrow><mn>0</mn></mrow></msub></mrow></mfenced><mo>=</mo><msub><mrow><mi>u</mi></mrow><mrow><mtext>r</mtext></mrow></msub><mfenced open="(" close=")"><mrow><msub><mrow><mstyle mathvariant="italic"><mi>Z</mi></mstyle></mrow><mrow><mn>0</mn></mrow></msub></mrow></mfenced><mo>=</mo><msub><mrow><mi>u</mi></mrow><mrow><mtext>r</mtext></mrow></msub><mfenced open="(" close=")"><mrow><msub><mrow><mstyle mathvariant="italic"><mi>&#949;</mi></mstyle></mrow><mrow><mn>0</mn></mrow></msub></mrow></mfenced><mo>=</mo><msub><mrow><mi>u</mi></mrow><mrow><mtext>r</mtext></mrow></msub><mfenced open="(" close=")"><mrow><msub><mrow><mstyle mathvariant="italic"><mi>&#956;</mi></mstyle></mrow><mrow><mn>0</mn></mrow></msub></mrow></mfenced><mo>=</mo><msub><mrow><mi>u</mi></mrow><mrow><mtext>r</mtext></mrow></msub><mfenced open="(" close=")"><mrow><mstyle mathvariant="italic"><mi>&#945;</mi></mstyle></mrow></mfenced></math></stem>
+</formula>
+<p id="_6e34f279-9043-468a-ae16-0fa87a3b9f88">The recommended values of <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>h</mi></math></stem>, <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>e</mi></math></stem>, <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math></stem>, and <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>N</mi></mstyle></mrow><mrow><mtext>A</mtext></mrow></msub></math></stem> resulting from the 2017 CODATA special least-squares adjustment of the values of the fundamental constants <eref type="inline" bibitemid="newell" citeas="[3]">[3]</eref> were the basis of the exact values used for these four constants in the new definitions of the kilogram, ampere, kelvin, and mole adopted by the 26th CGPM <eref type="inline" bibitemid="bipm" citeas="[1]">[1]</eref>. The 2017 special adjustment but with <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>h</mi></math></stem>, <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>e</mi></math></stem>, <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math></stem>, and <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>N</mi></mstyle></mrow><mrow><mtext>A</mtext></mrow></msub></math></stem> taken to have the exact values used in the new definitions, yields the following currently recommended value of the magnetic constant:</p>
+<formula id="_44ec5329-b96b-4dd5-8bab-678c7cd71435"><name>8</name>
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>&#956;</mi></mstyle></mrow><mrow><mn>0</mn></mrow></msub><mo>=</mo><mn>4</mn><mi mathvariant="normal">&#960;</mi><mfenced open="[" close="]"><mrow><mn>1</mn><mo>+</mo><mn>2.0</mn><mfenced open="(" close=")"><mrow><mn>2.3</mn></mrow></mfenced><mo>&#215;</mo><msup><mrow><mn>10</mn></mrow><mrow><mrow><mo>&#8722;</mo><mn>10</mn></mrow></mrow></msup></mrow></mfenced><mo>&#215;</mo><msup><mrow><mn>10</mn></mrow><mrow><mrow><mo>&#8722;</mo><mn>7</mn></mrow></mrow></msup><mo rspace="thickmathspace">&#8290;</mo><mrow xref="U_N.A-2"><mi mathvariant="normal">N</mi><mo rspace="thickmathspace">&#8290;</mo><msup><mrow><mi mathvariant="normal">A</mi></mrow><mrow><mo>&#8722;</mo><mn>2</mn></mrow></msup></mrow>
+
+
+
+
+
+
+
+<mo>=</mo><mn>12.566&#8239;370&#8239;616&#8239;9</mn><mfenced open="(" close=")"><mrow><mn>29</mn></mrow></mfenced><mo>&#215;</mo><msup><mrow><mn>10</mn></mrow><mrow><mrow><mo>&#8722;</mo><mn>7</mn></mrow></mrow></msup><mo rspace="thickmathspace">&#8290;</mo><mrow xref="U_N.A-2"><mi mathvariant="normal">N</mi><mo rspace="thickmathspace">&#8290;</mo><msup><mrow><mi mathvariant="normal">A</mi></mrow><mrow><mo>&#8722;</mo><mn>2</mn></mrow></msup></mrow>
+
+
+
+
+
+
+
+</math></stem>
+</formula>
+<p id="_bbafd162-d8b9-4830-b24d-a602535593a8">However, users should always compute the value from the most recent CODATA adjustment <eref type="inline" bibitemid="codata" citeas="[4]">[4]</eref>. The values and uncertainties of the electric constant, characteristic impedance of vacuum and characteristic admittance of vacuum may always be obtained from the relationships of <xref target="eq-3">Equation (3)</xref>-<xref target="eq-6">Equation (6)</xref>.</p>
+<p id="_93d2da89-905b-4ea8-a4e5-b83c479ea6af">It should be recognized that the recommended values for <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>&#956;</mi></mstyle></mrow><mrow><mn>0</mn></mrow></msub></math></stem>, <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>&#949;</mi></mstyle></mrow><mrow><mn>0</mn></mrow></msub></math></stem>, <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>Z</mi></mstyle></mrow><mrow><mn>0</mn></mrow></msub></math></stem>, and <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>Y</mi></mstyle></mrow><mrow><mn>0</mn></mrow></msub></math></stem> are expected to change slightly from one future CODATA adjustment to the next, as new data that influence the value of <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>&#945;</mi></mstyle></math></stem> become available. Users of this document should, therefore, always employ the most up-to-date CODATA recommended values for these constants in their calculations. Of course, the values of <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>h</mi></math></stem>, <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>e</mi></math></stem>, <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math></stem>, and <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>N</mi></mstyle></mrow><mrow><mtext>A</mtext></mrow></msub></math></stem> fixed by the new definitions will be unchanged from one adjustment to the next.</p></clause>
+</sections><bibliography><references id="_references" normative="false" obligation="informative" displayorder="14">
+<title depth="1">References</title><bibitem id="bipm">
+<formattedref format="application/x-isodoc+xml">BIPM, The International System of Units (SI Brochure) [9th edition, 2019], <link target="https://www.bipm.org/en/publications/si-brochure/"/>.</formattedref>
+<docidentifier type="metanorma">[1]</docidentifier>
+</bibitem><bibitem id="delahaye">
+<formattedref format="application/x-isodoc+xml">F. Delahaye and B. Jeckelmann, &#8216;Revised technical guidelines for reliable dc measurements of the quantized Hall resistance&#8217;, <em>Metrologia</em>, <strong>40(5)</strong>, 217-223 (2003).</formattedref>
+<docidentifier type="metanorma">[2]</docidentifier>
+</bibitem><bibitem id="newell">
+<formattedref format="application/x-isodoc+xml">D. Newell, F. Cabiati, J. Fischer, K. Fujii, S. G. Karshenboim, H. S. Margolis, E. de Mirandes, P.J. Mohr, F. Nez, K. Pachucki, T. J. Quinn, B. N. Taylor, M. Wang, B. Wood and Z. Zhang, &#8216;The CODATA 2017 Values of <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>h</mi></math></stem>, <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>e</mi></math></stem>, <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math></stem>, and <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>N</mi></mstyle></mrow><mrow><mtext>A</mtext></mrow></msub></math></stem> for the Revision of the SI&#8217;, <em>Metrologia</em>, <strong>55(1)</strong> L13-L16 (2018).</formattedref>
+<docidentifier type="metanorma">[3]</docidentifier>
+</bibitem><bibitem id="codata">
+<formattedref format="application/x-isodoc+xml">&#8216;CODATA recommended values of the fundamental physical constants: 2018&#8217;, <link target="https://physics.nist.gov/cuu/Constants/index.html"/>.</formattedref>
+<docidentifier type="metanorma">[4]</docidentifier>
+</bibitem>
+
+
+
+
+</references></bibliography>
+</bipm-standard>

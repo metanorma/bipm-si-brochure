@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<bipm-standard xmlns="https://www.metanorma.org/ns/bipm" type="semantic" version="1.1.4">
+<bibdata type="standard">
+<title language="en" format="text/plain" type="main">The International System of Units</title>
+<title language="en" format="text/plain" type="appendix">Historical notes on the development of the International System of Units and its base units</title>
+<title language="fr" format="text/plain" type="main">Le syst&#232;me international d&#8217;unit&#233;s</title>
+<title language="fr" format="text/plain" type="appendix">Notes historiques sur l&#8217;&#233;volution du Syst&#232;me international d&#8217;unit&#233;s et ses unit&#233;s de base</title>
+<docidentifier type="BIPM">BIPM </docidentifier>
+
+<contributor>
+<role type="author"/>
+<organization>
+<name>Bureau International des Poids et Mesures</name>
+<abbreviation>BIPM</abbreviation>
+</organization>
+</contributor>
+<contributor>
+<role type="publisher"/>
+<organization>
+<name>Bureau International des Poids et Mesures</name>
+<abbreviation>BIPM</abbreviation>
+</organization>
+</contributor>
+<edition>9</edition>
+<version>
+<revision-date>2019-05-20</revision-date>
+</version>
+<language>en</language>
+<script>Latn</script>
+<status>
+<stage>in-force</stage>
+</status>
+<copyright>
+<from>2019</from>
+<owner>
+<organization>
+<name>Bureau International des Poids et Mesures</name>
+<abbreviation>BIPM</abbreviation>
+</organization>
+</owner>
+</copyright>
+<ext>
+<doctype>brochure</doctype>
+<editorialgroup>
+<committee acronym="BIPM">
+<variant language="en" script="Latn">International Bureau of Weights and Measures</variant>
+<variant language="fr" script="Latn">Bureau International des Poids et Mesures</variant>
+</committee>
+
+</editorialgroup>
+
+<structuredidentifier>
+<appendix>4</appendix>
+</structuredidentifier>
+</ext>
+</bibdata><misc-container><UnitsML xmlns="https://schema.unitsml.org/unitsml/1.0"><UnitSet><Unit xml:id="U_NISTu31" dimensionURL="#NISTd24">
+<UnitSystem name="SI" type="SI_derived" xml:lang="en-US"/>
+<UnitName xml:lang="en">hertz</UnitName>
+<UnitSymbol type="HTML">Hz</UnitSymbol>
+<UnitSymbol type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi mathvariant="normal">Hz</mi></mrow></math>
+</UnitSymbol>
+
+
+</Unit></UnitSet><QuantitySet><Quantity xml:id="NISTq45" dimensionURL="#NISTd24" quantityType="base">
+<QuantityName xml:lang="en-US">frequency</QuantityName>
+</Quantity></QuantitySet><DimensionSet><Dimension xml:id="NISTd24">
+<Time symbol="T" powerNumerator="-1"/>
+</Dimension></DimensionSet><PrefixSet><Prefix prefixBase="10" prefixPower="3" xml:id="NISTp10_3">
+  <PrefixName xml:lang="en">kilo</PrefixName>
+  <PrefixSymbol type="ASCII">k</PrefixSymbol>
+  <PrefixSymbol type="unicode">k</PrefixSymbol>
+  <PrefixSymbol type="LaTeX">k</PrefixSymbol>
+  <PrefixSymbol type="HTML">k</PrefixSymbol>
+</Prefix></PrefixSet></UnitsML></misc-container>
+<boilerplate>
+  <copyright-statement>
+    <clause>
+      <p align="center" id="_0f818697-7bd5-4fc7-bc60-853b9c42d344"> &#169; Bureau International des Poids et Mesures 2019 all rights reserved</p>
+    </clause>
+  </copyright-statement>
+  <license-statement>
+    <clause>
+      <title>Copyright statement</title>
+      <p id="_0ae5eeff-280e-4950-8d05-44e02431d9e5">This document is distributed under the terms of the Creative Commons Attribution 4.0 International License (<link target="http://creativecommons.org/licenses/by/4.0/"/>), which permits unrestricted use, distribution, and reproduction in any medium, provided you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made.</p>
+    </clause>
+  </license-statement>
+  <feedback-statement>
+    <p id="_f37a0af2-e285-4c38-b0f8-594c87b88c93">BIPM<br/>
+      Pavillon de Breteuil<br/>
+      F-92312 S&#232;vres Cedex<br/>
+      FRANCE</p>
+  </feedback-statement>
+</boilerplate>
+
+<sections><clause id="_part_1_the_historical_development_of_the_realization_of_si_units_realization_of_a_unit_syst&#232;me_international_dunit&#233;s_siinternational_system_of_units" obligation="normative"><title>Part 1. The historical development of the realization of SI units <index to="realization_unit-3"><primary>realization of a unit</primary></index> <index-xref also="false"><primary>Syst&#232;me International d&#8217;Unit&#233;s (SI)</primary><target>International System of Units</target></index-xref></title><p id="_dd56eafe-ba0c-4394-ba52-0dab8ce30faa">Experimental methods used for the realization of units and which use equations of physics are known as primary methods. The essential characteristic of a primary method is that it allows a quantity to be measured in a particular unit directly from its definition by using only quantities and constants that themselves do not contain that unit.
+<index><primary>length</primary></index><index><primary>second (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu3"><mi mathvariant="normal">s</mi></mrow>
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index></p>
+<p id="_9537fec0-39f2-4fde-9b68-a1d8eb168b15">Traditionally, a unit for a given quantity was taken to be a particular example of that quantity, which was chosen to provide numerical values of common measurements of a convenient size. Before the rise of modern science, units were necessarily defined in terms of material artefacts, notably the metre and kilogram<index><primary>kilogram</primary></index> for length and mass, or the property of a particular object, namely the rotation of the earth for the second. Even at the origin of the metric system<index><primary>metric system</primary></index> at the end of the 18th century it was recognized that a more desirable definition of a unit of length for example would be one based on a universal property of nature such as the length of a pendulum beating seconds. Such a definition would be independent of time and place and would in principle accessible all over the world. At the time, practical considerations resulted in the simpler, artefact definitions for the metre and the kilogram<index><primary>kilogram</primary></index> and the second remained linked to the rotation of the Earth. It was only in 1960 that the first non-material definition was adopted, namely the wavelength of a specified optical radiation for the metre.</p>
+<p id="_dae9baf5-4f0e-4a86-a46e-67f49947f9a7">Since then, definitions of the ampere<index><primary>ampere (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu4"><mi mathvariant="normal">A</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index>, kelvin, mole<index><primary>mole (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu6"><mi mathvariant="normal">mol</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index> and candela<index><primary>candela (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu7"><mi mathvariant="normal">cd</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index> have been adopted that do not refer to material artefacts. In the case of the ampere<index><primary>ampere (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu4"><mi mathvariant="normal">A</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index> it refers to a specified electric current<index><primary>electric current</primary></index> required to produce a given electromagnetic force and, in the case of the kelvin, to a particular thermodynamic state, namely the triple point of water<index><primary>triple point of water</primary></index>. Even the atomic definition of the second was in terms of a specified transition of the the caesium atom. The kilogram<index><primary>kilogram</primary></index> has always stood out as the one unit that had resisted the transformation from an artefact. The definition that opened the way to real universality was that of the metre in 1983. This definition implied, although it did not state, a fixed numerical value for the speed of light. The definition was worded, however, in the traditional form and stated essentially that the metre was the distance travelled by light in a specified time. In this way it reflected the other definitions of the base units<index><primary>base unit(s)</primary></index> of the SI each of which has the same form, for example &#8220;the ampere<index><primary>ampere (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu4"><mi mathvariant="normal">A</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index> is the current which&#8230;&#8203;&#8221; and &#8220;the kelvin is a fraction of a specified temperature&#8221;. Such definitions can be called explicit unit definitions. <index><primary>explicit unit definition</primary></index></p>
+<p id="_93e037d7-85ec-4a63-8187-b6265887878a">Although these definitions meet many of the requirements for universality and accessibility, and a variety of realizations are often possible, they nevertheless constrain practical realizations to experiments that are directly or indirectly linked to the particular conditions or states specified in each definition. In consequence, the accuracy of realization of such definitions can never be better than the accuracy of realization of the particular conditions or states specified in the definitions.</p>
+<p id="_de56e088-550c-42bb-9242-b8f7d13a69a8">This is a particular problem with the present definition of the second, which is based on a microwave transition of an atom of caesium. Frequencies of optical transitions of different atoms or ions are now demonstrably more reproducible, by some orders of magnitude, than the defined frequency of caesium.</p>
+<p id="_f7b099f5-4ca2-4765-be10-af0baeb99a91">In the present definition of the SI based on the set of defining constants<index><primary>defining constants</primary></index>, instead of each definition specifying a particular condition or state, which sets a fundamental limit to the accuracy of realization, any convenient equation of physics that links the particular constant or constants to the quantity we want to measure may be used. This is a much more general way of defining the basic units of measurement. It is one that is not limited by today&#8217;s science or technology as future developments may lead to as yet unknown equations that could result in different ways of realizing units with a much higher accuracy. When defined in this way, there is, in principle, no limit to the accuracy with which a unit can be realized. The exception remains the definition of the second in which the original microwave transition of caesium remains, for the time being, the basis of the definition.</p>
+<p id="_f3bbe4ae-e8f0-4d63-be53-f9609f644e92">The difference between an explicit unit and an explicit constant definition<index><primary>explicit constant definition</primary></index> can be clearly illustrated using the two previous definitions of the metre that depended upon a fixed numerical value of the speed of light and secondly the two definitions of the kelvin. The original 1983 definition of the metre states, in effect, that &#8220;the metre is the length of the path travelled by light in vacuum during a time interval of <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>1</mn><mo>/</mo><mn>299792458</mn></math></stem> of a second&#8221;. The new definition simply states that the metre is defined by taking the constant that defines the second, the specified caesium frequency<index><primary>caesium frequency</primary></index> and the fixed numerical value of the speed of light expressed in units <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu1.u3e-1/1"><mi mathvariant="normal">m</mi><mo rspace="thickmathspace">&#8290;</mo><msup><mrow><mi mathvariant="normal">s</mi></mrow><mrow><mo>&#8722;</mo><mn>1</mn></mrow></msup></mrow>
+
+
+
+
+
+
+
+
+</math></stem>. We can thus use any equation of physics including, of course, that indicated by the former definition, the time taken to travel the given distance which is used for astronomical distances, but also the simple equation relating frequency and wavelength to the speed of light. The former definition of the kelvin based on a fixed numerical value for the temperature of the triple point of water<index><primary>triple point of water</primary></index> requires ultimately a measurement at the triple point of water. The new definition, based on the fixed numerical value for the Boltzmann constant<index><primary>Boltzmann constant</primary></index>, is much more general in that any thermodynamic equation in which <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math></stem> appears can in principle be used to determine a thermodynamic temperature at any point on the temperature scale. For example, by determining the total radiant exitance of a black body at temperature <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>T</mi></mstyle></math></stem>, equal to <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mfenced open="(" close=")"><mrow><mn>2</mn><msup><mrow><mi mathvariant="normal">&#960;</mi></mrow><mrow><mn>5</mn></mrow></msup><msup><mrow><mi>k</mi></mrow><mrow><mn>4</mn></mrow></msup><mo>/</mo><mn>15</mn><msup><mrow><mi>c</mi></mrow><mrow><mn>2</mn></mrow></msup><msup><mrow><mi>h</mi></mrow><mrow><mn>3</mn></mrow></msup></mrow></mfenced><msup><mrow><mstyle mathvariant="italic"><mi>T</mi></mstyle></mrow><mrow><mn>4</mn></mrow></msup></math></stem>, in <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu14.u1e-2/1"><mi mathvariant="normal">W</mi><mo rspace="thickmathspace">&#8290;</mo><msup><mrow><mi mathvariant="normal">m</mi></mrow><mrow><mo>&#8722;</mo><mn>2</mn></mrow></msup></mrow>
+
+
+
+
+
+
+
+
+</math></stem> we can determine <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>T</mi></mstyle></math></stem> directly.
+<index-xref also="false"><primary>watt balance</primary><target>Kibble balance</target></index-xref>
+<index><primary>Josephson effect</primary></index></p>
+<p id="_d4a97ab8-1169-43a2-b409-24e374db3615">For the kilogram<index><primary>kilogram</primary></index>, the unit whose definition has undergone the most fundamental change, realization can be through any equation of physics that links mass, the Planck constant<index><primary>Planck constant</primary></index>, the velocity of light and the caesium frequency<index><primary>caesium frequency</primary></index>. One such equation is that which describes the operation of an electro-mechanical balance, previously known as a watt balance, more recently known as a Kibble<fn reference="1"><p id="_441c4bfa-83cd-478f-9f0d-871ca3391b07">To recognize Bryan Kibble&#8217;s invention of the watt balance</p></fn> balance<index><primary>Kibble balance</primary></index>. With this apparatus, a mechanical power, measured in terms of a mass, <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>m</mi></math></stem>, the local acceleration due to gravity, <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>g</mi></math></stem>, and a velocity, <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>v</mi></math></stem>, can be measured in terms of an electrical power measured in terms of an electric current<index><primary>electric current</primary></index> and voltage measured in terms of the quantum Hall and Josephson effects respectively. The resulting equation is <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>m</mi><mi>g</mi><mi>v</mi><mo>=</mo><mstyle mathvariant="italic"><mi>C</mi></mstyle><mi>h</mi></math></stem> where <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>C</mi></mstyle></math></stem> is a calibration constant that includes measured frequencies and <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>h</mi></math></stem> is Planck&#8217;s constant. <index><primary>acceleration due to gravity, standard value of  (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mi>g</mi></mrow><mrow><mtext>n</mtext></mrow></msub></math></stem>)</primary></index>
+<index><primary>silicon sphere</primary></index></p>
+<p id="_a95d14b5-24e2-40bd-aa8f-fdd6e1046aaf">Another method that can be used for a primary realization of the kilogram<index><primary>kilogram</primary></index> is through the determination of the number of atoms in a silicon sphere and using the equation:</p>
+<formula id="_9616c32f-1f5f-4550-8e71-a4445a61b8a6" unnumbered="true">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>m</mi><mo>=</mo><mfrac><mrow><mrow><mn>8</mn><mstyle mathvariant="italic"><mi>V</mi></mstyle></mrow></mrow><mrow><msubsup><mrow><mi>a</mi></mrow><mrow><mn>0</mn></mrow><mrow><mn>3</mn></mrow></msubsup></mrow></mfrac><mfrac><mrow><mrow><mn>2</mn><msub><mrow><mstyle mathvariant="italic"><mi>R</mi></mstyle></mrow><mrow><mo>&#8734;</mo></mrow></msub><mi>h</mi></mrow></mrow><mrow><mrow><mi>c</mi><msup><mrow><mstyle mathvariant="italic"><mi>&#945;</mi></mstyle></mrow><mrow><mn>2</mn></mrow></msup></mrow></mrow></mfrac><mfrac><mrow><msub><mrow><mi>m</mi></mrow><mrow><mtext>Si</mtext></mrow></msub></mrow><mrow><msub><mrow><mi>m</mi></mrow><mrow><mtext>e</mtext></mrow></msub></mrow></mfrac></math></stem>
+</formula>
+<p id="_9f8f140c-cfcf-4ff0-9fc5-e01a777b1c71">with the mass <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>m</mi></math></stem> and volume <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>V</mi></mstyle></math></stem> of the sphere (about <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>1</mn><mo rspace="thickmathspace">&#8290;</mo><mrow xref="U_NISTu2"><mi mathvariant="normal">kg</mi></mrow>
+
+
+
+
+
+
+
+
+
+
+</math></stem>), lattice parameter <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mi>a</mi></mrow><mrow><mn>0</mn></mrow></msub></math></stem>, Rydberg constant<index><primary>Rydberg constant</primary></index> <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>R</mi></mstyle></mrow><mrow><mo>&#8734;</mo></mrow></msub></math></stem>, fine structure constant<index><primary>fine structure constant</primary></index> <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>&#945;</mi></mstyle></math></stem>, and the masses of a silicon atom (averaged over the three isotopes used for the sphere) <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mi>m</mi></mrow><mrow><mtext>Si</mtext></mrow></msub></math></stem>, and the electron <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mi>m</mi></mrow><mrow><mtext>e</mtext></mrow></msub></math></stem>, respectively. The first fraction corresponds to the number of atoms in the sphere, the second to the electron mass and the third fraction is the ratio of the mass of the (isotopically averaged) silicon atom to the electron mass. <index><primary>electron mass</primary></index></p>
+<p id="_73b66344-5c37-45fd-a693-14370216e0e2">Another possibility for measuring mass through the new definition, but this time at the microscopic level, is through measurements of atomic recoil using the relation that includes <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>h</mi><mo>/</mo><mi>m</mi></math></stem>.</p>
+<p id="_350bfa55-10bf-48d2-90dd-9999a54e69ae">All these provide a striking illustration of the generality of the new way of defining units. Detailed information on the current realization of the base and other units is given on the BIPM website. <bookmark id="realization_unit-3"/></p></clause>
+<clause id="_part_2_the_historical_development_of_the_international_system_establishment_of_the_si_historical_notes_international_system_of_units_si_special_names_and_symbols_for_units" obligation="normative"><title>Part 2. The historical development of the International System <index to="establisment_si"><primary>establishment of the SI</primary></index> <index to="historical_notes"><primary>historical notes</primary></index> <index to="si_4"><primary>International System of Units (SI)</primary></index> <index><primary>special names and symbols for units</primary></index></title><p id="_1aaf9fd1-1632-483f-b6f9-5f0da6319d32">The 9th CGPM (1948, Resolution 6; CR 64) instructed the CIPM:</p>
+<ul id="_c223958b-2b81-48f6-b896-937088bc9be1">
+<li>
+<p id="_1bddc0c5-ac7f-4880-b100-4d3a9c016e14">to study the establishment of a complete set of rules for units of measurement;</p>
+</li>
+<li>
+<p id="_7bf352c7-9506-491d-b0a3-647da13fef0c">to find out for this purpose, by official enquiry, the opinion prevailing in scientific, technical and educational circles in all countries;</p>
+</li>
+<li>
+<p id="_c4742e7d-e4f1-48c5-8814-04c2b7202505">to make recommendations on the establishment of a <em>practical system of units of measurement</em> suitable for adoption by all signatories to the <em>Metre Convention<index><primary>Metre Convention</primary></index></em>.</p>
+</li>
+</ul>
+<p id="_196db7a9-e466-456e-a815-080009548c5d">The same CGPM also laid down, in Resolution 7 (CR 70), &#8216;general principles for the writing of unit symbols&#8217; and listed some coherent derived units<index><primary>coherent derived units</primary></index> that were assigned special names.
+<index><primary>quantity, base</primary></index>
+<index><primary>base quantity</primary></index>
+<index><primary>time (duration)</primary></index></p>
+<p id="_ad8caa11-36c0-4d43-b50d-b5009429383b">The 10th CGPM (1954, Resolution 6; CR 80) adopted as base quantities and units for this practical system the following six quantities: length, mass<index><primary>mass</primary></index>, time, electric current<index><primary>electric current</primary></index>, thermodynamic temperature<index><primary>thermodynamic temperature</primary></index> and luminous intensity, as well as the six corresponding base units<index><primary>base unit(s)</primary></index>: metre, kilogram<index><primary>kilogram</primary></index>, second, ampere<index><primary>ampere (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu4"><mi mathvariant="normal">A</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index>, kelvin and candela<index><primary>candela (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu7"><mi mathvariant="normal">cd</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index>. After a lengthy discussion between physicists and chemists, the 14th CGPM (1971, Resolution 3, CR 78 and <em>Metrologia</em> 1972, <strong>8</strong>, 36) added amount of substance, unit mole, as the seventh base quantity<index><primary>base quantity</primary></index> and unit.
+<index><primary>prefixes</primary></index></p>
+<p id="_6151ef6b-08b4-45be-99b8-86c99541344a">The 11th CGPM (1960, Resolution 12; CR 87) adopted the name <em>Syst&#232;me international d&#8217;unit&#233;s</em>, with the international abbreviation <em>SI</em>, for this practical system of units and laid down rules for prefixes, derived units and the former supplementary units<index><primary>supplementary units</primary></index>, as well as other matters; it thus established a comprehensive specification for units of measurement. Subsequent meetings of the CGPM and the CIPM have added to and modified the original structure of the SI to take account of advances in science and of the changing needs of users.</p>
+<p id="_e328f0e5-1493-478f-b856-039f8a3f6d72">The historical sequence that led to these important decisions may be summarized as follows. <index><primary>Gauss</primary></index></p>
+<ul id="_69dd8b86-0f42-4e5d-be6b-61bd1bb5508e">
+<li>
+<p id="_db940da1-10f2-41a3-af82-6673115ebf25">The creation of the decimal metric system<index><primary>decimal metric system</primary></index> at the time of the French Revolution and the subsequent deposition of two platinum standards representing the metre and the kilogram<index><primary>kilogram</primary></index>, on 22 June 1799, in the <em>Archives de la R&#233;publique</em> in Paris, which can be seen as the first step that led to the present International System of Units.</p>
+</li>
+<li>
+<p id="_a9da2907-16fc-4e6f-94fa-df03bf2cb93f">In 1832, Gauss strongly promoted the application of this metric system<index><primary>metric system</primary></index>, together with the second defined in astronomy, as a coherent system of units for the physical sciences. Gauss was the first to make absolute measurements of the earth&#8217;s magnetic field in terms of a decimal system based on the <em>three mechanical units</em> millimetre, gram<index><primary>gram</primary></index> and second for, respectively, the quantities length, mass and time. In later years Gauss and Weber<index><primary>Weber</primary></index> extended these measurements to include other electrical phenomena. <index><primary>British Association for the Advancement of Science (BAAS)</primary></index></p>
+</li>
+<li>
+<p id="_3711fb13-0e05-4679-b695-676f138a6d3a">These applications in the field of electricity and magnetism were further extended in the 1860s under the active leadership of Maxwell<index><primary>Maxwell</primary></index> and Thomson<index><primary>Thomson</primary></index> through the British Association for the Advancement of Science (BAAS). They formulated the requirement for a <em>coherent system of units</em> with <em>base units</em><index><primary>base unit(s)</primary></index> and <em>derived units</em>. In 1874 the BAAS introduced the <em>CGS system</em><index><primary>CGS</primary></index>, a three-dimensional coherent unit system based on the three mechanical units centimetre, gram<index><primary>gram</primary></index> and second, using prefixes<index><primary>prefixes</primary></index><index><primary>multiples, prefixes for</primary></index> ranging from micro to mega to express decimal sub-multiples and multiples. The subsequent development of physics as an experimental science was largely based on this system.</p>
+</li>
+<li>
+<p id="_ee51b0e3-a80d-4bc8-8e9b-fbc90e4c440e">The sizes of the coherent CGS<index><primary>CGS</primary></index> units in the fields of electricity and magnetism proved to be inconvenient, so in the 1880s the BAAS and the International Electrical Congress, predecessor of the International Electrotechnical Commission (IEC), approved a mutually coherent set of <em>practical units<index><primary>practical units</primary></index></em>. Among them were the ohm<index><primary>ohm (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu18"><mi mathvariant="normal">&#8486;</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index> for electrical resistance, the volt for electromotive force, and the ampere for electric current<index><primary>electric current</primary></index>. <index><primary>ampere (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu4"><mi mathvariant="normal">A</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index></p>
+</li>
+<li>
+<p id="_848aa66e-1522-4576-a808-8f090f3a4aa9">After the signing of the Metre Convention on 20 May 1875, which created the BIPM and established the CGPM and the CIPM, work began on establishing new international prototypes for the metre and the kilogram<index><primary>kilogram</primary></index>. In 1889 the 1st CGPM sanctioned the international prototypes for the metre and the kilogram<index><primary>kilogram</primary></index>. Together with the astronomical second as the unit of time<index><primary>time (duration)</primary></index>, these units constituted a three-dimensional mechanical unit system similar to the CGS<index><primary>CGS</primary></index> system, but with the base units<index><primary>base unit(s)</primary></index> metre, kilogram<index><primary>kilogram</primary></index> and second, known as the <em>MKS system<index><primary>MKS system</primary></index></em>.</p>
+</li>
+<li>
+<p id="_18ff194b-4972-4e69-9e63-8a7e0c3e9efe">In 1901 Giorgi showed that it is possible to combine the mechanical units of this MKS system<index><primary>MKS system</primary></index> with the practical electrical units<index><primary>electrical units</primary></index> to form a coherent four-dimensional system by adding to the three base units<index><primary>base unit(s)</primary></index> a fourth unit, of an electrical nature such as the ampere<index><primary>ampere (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu4"><mi mathvariant="normal">A</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index> or the ohm, and also rewriting the equations occurring in electromagnetism in the so-called rationalized form. Giorgi&#8217;s proposal opened the path to a number of new developments. <index><primary>Giorgi</primary></index></p>
+</li>
+<li>
+<p id="_fb927009-cbfb-42df-9c25-694265125905">After the revision of the Metre Convention by the 6th CGPM (1921), which extended the scope and responsibilities of the BIPM to other fields in physics and the subsequent creation of the Consultative Committee for Electricity (CCE) by the 7th CGPM (1927), the Giorgi proposal was thoroughly discussed by the IEC, the International Union of Pure and Applied Physics (IUPAP) and other international organizations. This led the CCE to propose in 1939 the adoption of a four-dimensional system based on the metre, kilogram<index><primary>kilogram</primary></index>, second and ampere<index><primary>ampere (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu4"><mi mathvariant="normal">A</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index>, the MKSA system<index><primary>MKSA system</primary></index>, a proposal approved by the CIPM in 1946.</p>
+</li>
+<li>
+<p id="_a10527b2-484e-46d8-aaaa-1aeab6f5ef42">Following an international enquiry by the BIPM, which began in 1948, the 10th CGPM (1954), approved the further introduction of the kelvin and the candela<index><primary>candela (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu7"><mi mathvariant="normal">cd</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index>, as base units<index><primary>base unit(s)</primary></index> for thermodynamic temperature<index><primary>thermodynamic temperature</primary></index> and luminous intensity<index><primary>luminous intensity</primary></index>, respectively. The name International System of Units, with the abbreviation SI, was given to the system by the 11th CGPM (1960). Rules for prefixes<index><primary>prefixes</primary></index>, derived units, the former supplementary units<index><primary>supplementary units</primary></index> as well as other matters, were established, thus providing a comprehensive specification for all units of measurement.</p>
+</li>
+<li>
+<p id="_dd90338a-5974-4965-8ab2-a9a8398458b8">At the 14th CGPM (1971) a new base unit<index><primary>base unit(s)</primary></index>, the mole, symbol <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu6"><mi mathvariant="normal">mol</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>, was adopted for the quantity amount of substance. This followed a proposal from the International Organization for Standardization originating in a proposal from the Commission on Symbols, Units and Nomenclature (SUN Commission) of IUPAP, which was supported by the International Union for Pure and Applied Chemistry (IUPAC). This brought the number of base units<index><primary>base unit(s)</primary></index> of the SI to seven. <index><primary>IUPAC</primary></index></p>
+</li>
+<li>
+<p id="_48a02864-4951-42e6-b70c-3e3d0f1c7b59">Since then, extraordinary advances have been made in relating SI units to truly invariant quantities such as the fundamental constants of physics and the properties of atoms. Recognizing the importance of linking SI units to such invariant quantities, the 24th CGPM (2011), adopted the principles of a new definition of the SI based on using a set of seven such constants as references for the definitions. At the time of the 24th CGPM, experiments to determine their values in terms of the then base units<index><primary>base unit(s)</primary></index> were not completely consistent but by the time of the 26th CGPM (2018) this had been achieved and the new definition of the SI was adopted in Resolution 1. This is the basis of the definition presented in this brochure and it is the simplest and most fundamental way of defining the SI. <index><primary>fundamental constants (of physics)</primary></index></p>
+</li>
+<li>
+<p id="_04c54fa6-265d-47f7-9a1f-46ae54b197b4">The SI was previously defined in terms of seven base units<index><primary>base unit(s)</primary></index> and derived units defined as products of powers of the base units<index><primary>base unit(s)</primary></index>. The seven base units<index><primary>base unit(s)</primary></index> were chosen for historical reasons, as the metric system, later the SI, evolved and developed over the last 130 years. Their choice was not unique, but it has become established and familiar over the years, not only by providing a framework for describing the SI, but also for defining the derived units. This role for the base units<index><primary>base unit(s)</primary></index> continues in the present SI even though the SI itself is now defined in terms of the seven defining constants<index><primary>defining constants</primary></index>. In this brochure therefore, definitions of the seven base units<index><primary>base unit(s)</primary></index> can still be found but are henceforth based on the seven defining constants<index><primary>defining constants</primary></index>: the caesium hyperfine frequency <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#916;</mo><msub><mrow><mstyle mathvariant="italic"><mi>&#957;</mi></mstyle></mrow><mrow><mtext>Cs</mtext></mrow></msub></math></stem>; the speed of light in vacuum<index><primary>speed of light in vacuum</primary></index> <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>c</mi></math></stem>; the Planck constant<index><primary>Planck constant</primary></index> <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>h</mi></math></stem>; elementary charge<index><primary>elementary charge</primary></index> <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>e</mi></math></stem>; Boltzmann constant<index><primary>Boltzmann constant</primary></index> <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math></stem>; Avogadro constant<index><primary>Avogadro constant</primary></index> <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>N</mi></mstyle></mrow><mrow><mtext>A</mtext></mrow></msub></math></stem>; and the luminous efficacy<index><primary>luminous efficacy</primary></index> of a defined visible radiation <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>K</mi></mstyle></mrow><mrow><mtext>cd</mtext></mrow></msub></math></stem>.</p>
+</li>
+</ul>
+<p id="_7621db3e-affc-4927-b4cb-952924db0666">The definitions of the seven base units<index><primary>base unit(s)</primary></index> can be related unambiguously to the numerical values of the seven defining constants<index><primary>defining constants</primary></index>. However, there is not a one-to-one relationship between the seven defining constants<index><primary>defining constants</primary></index> and the seven base units<index><primary>base unit(s)</primary></index> as many of the base units<index><primary>base unit(s)</primary></index> call upon more than one of the defining constants<index><primary>defining constants</primary></index>. <bookmark id="establisment_si"/></p></clause>
+<clause id="_part_3_historical_perspective_on_the_base_unitsbase_units" obligation="normative"><title>Part 3. Historical perspective on the base units<index><primary>base unit(s)</primary></index></title><clause id="_unit_of_time_second_second_unitsmls_time_duration" obligation="normative">
+<title>Unit of time, second <index to="second_s"><primary>second (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu3"><mi mathvariant="normal">s</mi></mrow>
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index> <index to="time_duration"><primary>time (duration)</primary></index></title>
+<p id="_472858bf-146d-4426-893f-bc9111d336ab">Before 1960, the unit of time the second, was defined as the fraction <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>1</mn><mo>/</mo><mn>86400</mn></math></stem> of the mean solar day. The exact definition of &#8220;mean solar day&#8221; was left to astronomers. However measurements showed that irregularities in the rotation of the Earth made this an unsatisfactory definition. In order to define the unit of time more precisely, the 11th CGPM (1960, Resolution 9, CR, 86) adopted a definition given by the International Astronomical Union based on the tropical year 1900. Experimental work, however, had already shown that an atomic standard of time, based on a transition between two energy levels of an atom or a molecule, could be realized and reproduced much more accurately. Considering that a very precise definition of the unit of time is indispensable for science and technology, the 13th CGPM (1967-1968, Resolution 1, CR, 103 and <em>Metrologia</em>, 1968, <strong>4</strong>, 43) chose a new definition of the second referenced to the frequency of the ground state hyperfine transition in the caesium 133 atom. A revised more precise wording of this same definition now in terms of a fixed numerical value of the unperturbed ground-state hyperfine transition frequency of the caesium 133 atom, <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#916;</mo><msub><mrow><mstyle mathvariant="italic"><mi>&#957;</mi></mstyle></mrow><mrow><mtext>Cs</mtext></mrow></msub></math></stem>, was adopted in Resolution 1 of the 26<sup>th</sup> CGPM (2018). <bookmark id="second_s"/> <bookmark id="time_duration"/></p>
+</clause>
+<clause id="_unit_of_length_metre_length_metre_unitsmlm" obligation="normative">
+<title>Unit of length, metre <index><primary>length</primary></index> <index><primary>metre (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu1"><mi mathvariant="normal">m</mi></mrow>
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index></title>
+<p id="_2a827160-23be-46d4-8afb-5e0ce782e10b">The 1889 definition of the metre, namely, the length of the international prototype of platinum-iridium, was replaced by the 11th CGPM (1960) using a definition based on the wavelength of the radiation corresponding to a particular transition in krypton 86. This change was adopted in order to improve the accuracy with which the definition of the metre could be realized, this being achieved using an interferometer with a travelling microscope to measure the optical path difference as the fringes were counted. In turn, this was replaced in 1983 by the 17th CGPM (Resolution 1, CR, 97, and <em>Metrologia</em>, 1984, <strong>20</strong>, 25) with a definition referenced to the distance that light travels in vacuum in a specified interval of time. The original international prototype of the metre<index><primary>international prototype of the metre</primary></index>, which was sanctioned by the 1st CGPM in 1889 (CR, 34-38), is still kept at the BIPM under conditions specified in 1889. In order to make clear its dependence on the fixed numerical value of the speed of light, <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>c</mi></math></stem>, the wording of the definition was changed in Resolution 1 of the 26<sup>th</sup> CGPM (2018).</p>
+</clause>
+<clause id="_unit_of_mass_kilogramverification_of_the_kilogram" obligation="normative"><title>Unit of mass, kilogram<index><primary>verification of the kilogram</primary></index></title><p id="_d26ede58-e3e4-414f-a933-665600a6288e">The 1889 definition of the kilogram<index><primary>kilogram</primary></index> was simply the mass of the international prototype of the kilogram<index><primary>international prototype of the kilogram</primary></index>, an artefact made of platinum-iridium. This was, and still is, kept at the BIPM under the conditions specified by the 1st CGPM (1889, CR, 34-38) when it sanctioned the prototype and declared that &#8220;this prototype shall henceforth be considered to be the unit of mass&#8221;. Forty similar prototypes were made at about the same time and these were all machined and polished to have closely the same mass as the international prototype. At the 1st CGPM (1889), after calibration against the international prototype, most of these &#8220;national prototypes&#8221; were individually assigned to Member States of the Metre Convention<index><primary>Metre Convention</primary></index>, and some also to the BIPM. The 3rd CGPM (1901, CR, 70), in a declaration intended to end the ambiguity in common usage concerning the use of the word &#8220;weight&#8221;, confirmed that &#8220;the kilogram<index><primary>kilogram</primary></index> is the unit of mass; it is equal to the mass of the international prototype of the kilogram<index><primary>kilogram</primary></index>&#8220;. The complete version of these declarations appears on p. 70 of the above-mentioned CGPM proceedings.
+<index><primary>fundamental constants (of physics)</primary></index></p>
+<p id="_34fbdfee-562f-405b-9f27-44992aa5e379">By the time of the second verification of national prototypes in 1946 it was found that on average the masses of these prototypes were diverging from that of the international prototype. This was confirmed by the third verification carried out from 1989 to 1991, the median difference being about 25 micrograms for the set of original prototypes sanctioned by the 1st CGPM (1889). In order to assure the long-term stability of the unit of mass, to take full advantage of quantum electrical standards and to be of more utility to modern science, a new definition for the kilogram<index><primary>kilogram</primary></index> based on the value of a fundamental constant, for which purpose the Planck constant<index><primary>Planck constant</primary></index> <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>h</mi></math></stem> was chosen, was adopted by Resolution 1 of the 26<sup>th</sup> CGPM (2018).</p></clause>
+<clause id="_unit_of_electric_current_ampere_ampere_unitsmla_electric_current_ohm_unitsmlohm" obligation="normative"><title>Unit of electric current, ampere <index><primary>ampere (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu4"><mi mathvariant="normal">A</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index> <index><primary>electric current</primary></index> <index><primary>ohm (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu18"><mi mathvariant="normal">&#8486;</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index></title><p id="_9ab2a05a-bfd5-4a12-9cd6-8a6e6dd42f16">Electric units, called &#8220;international units&#8221;, for current and resistance were introduced by the International Electrical Congress held in Chicago in 1893 and definitions of the &#8220;international ampere<index><primary>ampere (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu4"><mi mathvariant="normal">A</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index>&#8221; and &#8220;international ohm&#8221; were confirmed by the International Conference in London in 1908.
+<index><primary>magnetic constant, permeability of vacuum</primary></index></p>
+<p id="_2e32ec85-80a3-41ca-9483-bb0480aeab8c">By the time of the 8th CGPM (1933) there was a unanimous desire to replace the &#8220;international units&#8221; by so-called &#8220;absolute units<index><primary>absolute units</primary></index>&#8220;. However because some laboratories had not yet completed experiments needed to determine the ratios between the international and absolute units<index><primary>absolute units</primary></index>, the CGPM gave authority to the CIPM to decide at an appropriate time both these ratios and the date at which the new absolute units<index><primary>absolute units</primary></index> would come into effect. The CIPM did so in 1946 (1946, Resolution 2, PV, <strong>20</strong>, 129-137), when it decided that the new units would come into force on 1 January 1948. In October 1948 the 9th CGPM approved the decisions taken by the CIPM. The definition of the ampere<index><primary>ampere (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu4"><mi mathvariant="normal">A</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index>, chosen by the CIPM, was referenced to the force between parallel wires carrying an electric current<index><primary>electric current</primary></index> and it had the effect of fixing the numerical value of the vacuum magnetic permeability <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>&#956;</mi></mstyle></mrow><mrow><mn>0</mn></mrow></msub></math></stem> (also called the magnetic constant). The numerical value of the vacuum electric permittivity <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>&#949;</mi></mstyle></mrow><mrow><mn>0</mn></mrow></msub></math></stem> (also called the electric constant) then became fixed as a consequence of the new definition of the metre adopted in 1983.
+<index><primary>quantum standard</primary></index></p>
+<p id="_228fa575-7019-4cb4-abec-a8cc80fa9d74">However the 1948 definition of the ampere<index><primary>ampere (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu4"><mi mathvariant="normal">A</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index> proved difficult to realize and practical quantum standards (based on Josephson and quantum-Hall effects), which link both the volt and the ohm to particular combinations of the Planck constant<index><primary>Planck constant</primary></index> <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>h</mi></math></stem> and elementary charge<index><primary>elementary charge</primary></index> <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>e</mi></math></stem>, became almost universally used as a practical realization of the ampere<index><primary>ampere (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu4"><mi mathvariant="normal">A</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index> through Ohm&#8217;s law (18th CGPM (1987), Resolution 6, CR 100). As a consequence, it became natural not only to fix the numerical value of <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>h</mi></math></stem> to redefine the kilogram<index><primary>kilogram</primary></index>, but also to fix the numerical value of <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>e</mi></math></stem> to redefine the ampere<index><primary>ampere (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu4"><mi mathvariant="normal">A</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index> in order to bring the practical quantum electrical standards into exact agreement with the SI. The present definition based on a fixed numerical value for the elementary charge<index><primary>elementary charge</primary></index>, <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>e</mi></math></stem>, was adopted in Resolution 1 of the 26<sup>th</sup> CGPM (2018).</p></clause>
+<clause id="_unit_of_thermodynamic_temperature_kelvin_kelvin_unitsmlk_thermodynamic_temperature_triple_point_of_water" obligation="normative">
+<title>Unit of thermodynamic temperature, kelvin <index><primary>kelvin (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu5"><mi mathvariant="normal">K</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index> <index><primary>thermodynamic temperature</primary></index> <index><primary>triple point of water</primary></index></title>
+<p id="_36f7b271-7361-413f-9e9c-d9d86cad962c">The definition of the unit of thermodynamic temperature was given by the 10th CGPM (1954, Resolution 3; CR 79) which selected the triple point of water, <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>T</mi></mstyle></mrow><mrow><mtext>TPW</mtext></mrow></msub></math></stem>, as a fundamental fixed point and assigned to it the temperature 273.16 K, thereby defining the kelvin. The 13th CGPM (1967-1968, Resolution 3; CR, 104 and <em>Metrologia</em>, 1968, <strong>4</strong>, 43) adopted the name kelvin, symbol <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu5"><mi mathvariant="normal">K</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>, instead of &#8220;degree kelvin&#8221;, symbol <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu5"><mi mathvariant="normal">&#176;K</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>, for the unit defined in this way.<index><primary>water, isotopic composition</primary></index>
+However, the practical difficulties in realizing this definition, requiring a sample of pure water of well-defined isotopic composition and the development of new primary methods of thermometry, led to the adoption of a new definition of the kelvin based on a fixed numerical value of the Boltzmann constant<index><primary>Boltzmann constant</primary></index> <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math></stem>. The present definition, which removed both of these constraints, was adopted in Resolution 1 of the 26<sup>th</sup> CGPM (2018).</p>
+</clause>
+<clause id="_unit_of_amount_of_substanceamount_of_substance_mole_gram_mole_unitsmlmol_gram_atom_gram_moleculeiupac" obligation="normative"><title>Unit of amount of substance<index><primary>amount of substance</primary></index>, mole <index><primary>gram</primary></index> <index><primary>mole (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu6"><mi mathvariant="normal">mol</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index> <index><primary>gram-atom, gram-molecule</primary></index><index><primary>IUPAC</primary></index></title><p id="_9f1cd541-bded-4dec-bbcc-69879bd9e24c">Following the discovery of the fundamental laws of chemistry, units called, for example, &#8220;gram-atom&#8221; and &#8220;gram molecule&#8221;, were used to specify amounts of chemical elements or compounds. These units had a direct connection with &#8220;atomic weights&#8221; and &#8220;molecular weights&#8221;, which are in fact relative atomic and molecular masses. The first compilations of &#8220;Atomic weights&#8221; were originally linked to the atomic weight<index><primary>atomic weight</primary></index> of oxygen, which was, by general agreement, taken as being 16. Whereas physicists separated the isotopes in a mass spectrometer and attributed the value 16 to one of the isotopes of oxygen, chemists attributed the same value to the (slightly variable) mixture of isotopes 16, 17 and 18, which for them constituted the naturally occurring element oxygen. An agreement between the International Union of Pure and Applied Physics (IUPAP) and the International Union of Pure and Applied Chemistry (IUPAC) brought this duality to an end in 1959-1960. Physicists and chemists had agreed to assign the value 12, exactly, to the so-called atomic weight<index><primary>atomic weight</primary></index>, correctly referred to as the relative atomic mass <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>A</mi></mstyle></mrow><mrow><mtext>r</mtext></mrow></msub></math></stem>, of the isotope of carbon with mass number 12 (carbon 12, <sup>12</sup>C). The unified scale thus obtained gives the relative atomic and molecular masses, also known as the atomic and molecular weights<index><primary>molecular weight</primary></index>, respectively. This agreement is unaffected by the redefinition of the mole.</p>
+<p id="_71a58f91-a1e8-4139-a5ba-419c9869c8cf">The quantity used by chemists to specify the amount of chemical elements or compounds is called &#8220;amount of substance<index><primary>amount of substance</primary></index>&#8220;. Amount of substance<index><primary>Amount of substance</primary></index>, symbol <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>n</mi></math></stem>, is defined to be proportional to the number of specified elementary entities <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>N</mi></mstyle></math></stem> in a sample, the proportionality constant being a universal constant which is the same for all entities. The proportionality constant is the reciprocal of the Avogadro constant<index><primary>Avogadro constant</primary></index> <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>N</mi></mstyle></mrow><mrow><mtext>A</mtext></mrow></msub></math></stem>, so that <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>n</mi><mo>=</mo><mstyle mathvariant="italic"><mi>N</mi></mstyle><mo>/</mo><msub><mrow><mstyle mathvariant="italic"><mi>N</mi></mstyle></mrow><mrow><mtext>A</mtext></mrow></msub></math></stem>. The unit of amount of substance<index><primary>amount of substance</primary></index> is called the <em>mole</em>, symbol <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu6"><mi mathvariant="normal">mol</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>. Following proposals by the IUPAP, IUPAC and ISO, the CIPM developed a definition of the mole in 1967 and confirmed it in 1969, by specifying that the molar mass<index><primary>molar mass</primary></index> of carbon 12<index><primary>carbon 12</primary></index> should be exactly <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>0.012</mn><mo rspace="thickmathspace">&#8290;</mo><mrow xref="U_kg/mol"><mi mathvariant="normal">kg</mi><mo>/</mo><mi mathvariant="normal">mol</mi></mrow>
+
+
+
+
+
+
+
+
+</math></stem>. This allowed the amount of substance<index><primary>amount of substance</primary></index> <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mi>n</mi></mrow><mrow><mtext>S</mtext></mrow></msub><mfenced open="(" close=")"><mrow><mtext>X</mtext></mrow></mfenced></math></stem> of any pure sample <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext>S</mtext></math></stem> of entity <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext>X</mtext></math></stem> to be determined directly from the mass of the sample <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mi>m</mi></mrow><mrow><mtext>S</mtext></mrow></msub></math></stem> and the molar mass <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>M</mi></mstyle><mfenced open="(" close=")"><mrow><mtext>X</mtext></mrow></mfenced></math></stem> of entity <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext>X</mtext></math></stem>, the molar mass being determined from its relative atomic mass <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>A</mi></mstyle></mrow><mrow><mtext>r</mtext></mrow></msub></math></stem> (atomic or molecular weight) without the need for a precise knowledge of the Avogadro constant<index><primary>Avogadro constant</primary></index>, by using the relations</p>
+<formula id="_9697ecc6-a180-4aa5-a977-b2e5d599f4b5" unnumbered="true">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mi>n</mi></mrow><mrow><mtext>S</mtext></mrow></msub><mfenced open="(" close=")"><mrow><mtext>X</mtext></mrow></mfenced><mo>=</mo><msub><mrow><mi>m</mi></mrow><mrow><mtext>S</mtext></mrow></msub><mo>/</mo><mstyle mathvariant="italic"><mi>M</mi></mstyle><mfenced open="(" close=")"><mrow><mtext>X</mtext></mrow></mfenced><mi>,</mi><mtext>&#160;and&#160;</mtext><mstyle mathvariant="italic"><mi>M</mi></mstyle><mfenced open="(" close=")"><mrow><mtext>X</mtext></mrow></mfenced><mo>=</mo><msub><mrow><mstyle mathvariant="italic"><mi>A</mi></mstyle></mrow><mrow><mtext>r</mtext></mrow></msub><mfenced open="(" close=")"><mrow><mtext>X</mtext></mrow></mfenced><mrow xref="U_g/mol"><mi mathvariant="normal">g</mi><mo>/</mo><mi mathvariant="normal">mol</mi></mrow>
+
+
+
+
+
+
+
+</math></stem>
+</formula>
+<p id="_aaa8ccce-075d-4a2f-bae4-2368eef7e3c9">Thus, this definition of the mole<index><primary>mole (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu6"><mi mathvariant="normal">mol</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index> was dependent on the artefact definition of the kilogram<index><primary>kilogram</primary></index>.</p>
+<p id="_72f2cfe8-774c-4799-a026-26c59820f7cb">The numerical value of the Avogadro constant<index><primary>Avogadro constant</primary></index> defined in this way was equal to the number of atoms in 12 grams of carbon 12<index><primary>carbon 12</primary></index>. However, because of recent technological advances, this number is now known with such precision that a simpler and more universal definition of the mole has become possible, namely, by specifying exactly the number of entities in one mole of any substance, thus fixing the numerical value of the Avogadro constant<index><primary>Avogadro constant</primary></index>. This has the effect that the new definition of the mole and the value of the Avogadro constant<index><primary>Avogadro constant</primary></index> are no longer dependent on the definition of the kilogram<index><primary>kilogram</primary></index>. The distinction between the fundamentally different quantities &#8216;amount of substance<index><primary>amount of substance</primary></index>&#8216; and &#8216;mass&#8217; is thereby emphasized. The present definition of the mole based on a fixed numerical value for the Avogadro constant<index><primary>Avogadro constant</primary></index>, <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>N</mi></mstyle></mrow><mrow><mtext>A</mtext></mrow></msub></math></stem>, was adopted in Resolution 1 of the 26<sup>th</sup> CGPM (2018).</p></clause>
+<clause id="_unit_of_luminous_intensity_candela_candela_unitsmlcd_luminous_intensity" obligation="normative"><title>Unit of luminous intensity, candela <index><primary>candela (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu7"><mi mathvariant="normal">cd</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index> <index><primary>luminous intensity</primary></index></title><p id="_a573dd20-35b7-429b-84f6-f12beefa9b55">The units of luminous intensity, which were based on flame or incandescent filament standards in use in various countries before 1948, were replaced initially by the &#8220;new candle&#8221;<index><primary>candela (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu7"><mi mathvariant="normal">cd</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>)</primary><secondary>new candle</secondary></index> based on the luminance of a Planckian radiator (a black body) at the temperature of freezing platinum. This modification had been prepared by the International Commission on Illumination (CIE) and by the CIPM before 1937 and the decision was promulgated by the CIPM in 1946. It was then ratified in 1948 by the 9th CGPM, which adopted a new international name for this unit, the <em>candela</em>, symbol <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu7"><mi mathvariant="normal">cd</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>; in 1954 the 10th CGPM established the candela as a base unit<index><primary>base unit(s)</primary></index>; In 1967 the 13th CGPM (Resolution 5, CR, 104 and <em>Metrologia</em>, 1968, <strong>4</strong>, 43-44) amended this definition.</p>
+<p id="_43ef8793-0acc-401e-94e8-316dc1b3de4e">In 1979, because of the difficulties in realizing a Planck radiator at high temperatures, and the new possibilities offered by radiometry, i.e. the measurement of optical radiation power, the 16th CGPM (1979, Resolution 3, CR, 100 and <em>Metrologia</em>,1980, <strong>16</strong>, 56) adopted a new definition of the candela<index><primary>candela (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu7"><mi mathvariant="normal">cd</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index>.</p>
+<p id="_4bcfb664-8832-42aa-8942-9fcf3f1b0b2b">The present definition of the candela<index><primary>candela (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu7"><mi mathvariant="normal">cd</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index> uses a fixed numerical value for the luminous efficacy<index><primary>luminous efficacy</primary></index> of monochromatic radiation of frequency <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>540</mn><mo>&#215;</mo><msup><mrow><mn>10</mn></mrow><mrow><mn>12</mn></mrow></msup><mo rspace="thickmathspace">&#8290;</mo><mrow xref="U_NISTu31"><mi mathvariant="normal">Hz</mi></mrow>
+
+
+
+
+
+
+
+
+
+<mi>,</mi><mtext>&#160;</mtext><msub><mrow><mstyle mathvariant="italic"><mi>K</mi></mstyle></mrow><mrow><mtext>cd</mtext></mrow></msub></math></stem>, adopted in Resolution 1 of the 26<sup>th</sup> CGPM (2018). <bookmark id="historical_notes"/> <bookmark id="si_4"/></p></clause></clause></sections>
+</bipm-standard>

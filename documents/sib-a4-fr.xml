@@ -1,0 +1,1054 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<bipm-standard xmlns="https://www.metanorma.org/ns/bipm" type="semantic" version="1.1.4">
+<bibdata type="standard">
+<title language="en" format="text/plain" type="main">The International System of Units</title>
+<title language="en" format="text/plain" type="appendix">Historical notes on the development of the International System of Units and its base units</title>
+<title language="fr" format="text/plain" type="main">Le syst&#232;me international d&#8217;unit&#233;s</title>
+<title language="fr" format="text/plain" type="appendix">Notes historiques sur l&#8217;&#233;volution du Syst&#232;me international d&#8217;unit&#233;s et ses unit&#233;s de base</title>
+<docidentifier type="BIPM">BIPM </docidentifier>
+
+<contributor>
+<role type="author"/>
+<organization>
+<name>Bureau international des poids et mesures</name>
+<abbreviation>BIPM</abbreviation>
+</organization>
+</contributor>
+<contributor>
+<role type="publisher"/>
+<organization>
+<name>Bureau international des poids et mesures</name>
+<abbreviation>BIPM</abbreviation>
+</organization>
+</contributor>
+<edition>9</edition>
+<version>
+<revision-date>2019-05-20</revision-date>
+</version>
+<language>fr</language>
+<script>Latn</script>
+<status>
+<stage>in-force</stage>
+</status>
+<copyright>
+<from>2019</from>
+<owner>
+<organization>
+<name>Bureau international des poids et mesures</name>
+<abbreviation>BIPM</abbreviation>
+</organization>
+</owner>
+</copyright>
+<ext>
+<doctype>brochure</doctype>
+<editorialgroup>
+<committee acronym="BIPM">
+<variant language="en" script="Latn">International Bureau of Weights and Measures</variant>
+<variant language="fr" script="Latn">Bureau International des Poids et Mesures</variant>
+</committee>
+
+</editorialgroup>
+
+<structuredidentifier>
+<appendix>4</appendix>
+</structuredidentifier>
+</ext>
+</bibdata><misc-container><UnitsML xmlns="https://schema.unitsml.org/unitsml/1.0"><UnitSet><Unit xml:id="U_NISTu31" dimensionURL="#NISTd24">
+<UnitSystem name="SI" type="SI_derived" xml:lang="en-US"/>
+<UnitName xml:lang="en">hertz</UnitName>
+<UnitSymbol type="HTML">Hz</UnitSymbol>
+<UnitSymbol type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi mathvariant="normal">Hz</mi></mrow></math>
+</UnitSymbol>
+
+
+</Unit></UnitSet><QuantitySet><Quantity xml:id="NISTq45" dimensionURL="#NISTd24" quantityType="base">
+<QuantityName xml:lang="en-US">frequency</QuantityName>
+</Quantity></QuantitySet><DimensionSet><Dimension xml:id="NISTd24">
+<Time symbol="T" powerNumerator="-1"/>
+</Dimension></DimensionSet><PrefixSet><Prefix prefixBase="10" prefixPower="3" xml:id="NISTp10_3">
+  <PrefixName xml:lang="en">kilo</PrefixName>
+  <PrefixSymbol type="ASCII">k</PrefixSymbol>
+  <PrefixSymbol type="unicode">k</PrefixSymbol>
+  <PrefixSymbol type="LaTeX">k</PrefixSymbol>
+  <PrefixSymbol type="HTML">k</PrefixSymbol>
+</Prefix></PrefixSet></UnitsML></misc-container>
+<boilerplate>
+  <copyright-statement>
+    <clause>
+      <p align="center" id="_f8f9904c-f1b2-4950-a915-01faa2d35571"> &#169; Bureau international des poids et mesures 2019 tous droits r&#233;serv&#233;s</p>
+    </clause>
+  </copyright-statement>
+  <license-statement>
+    <clause>
+    <title>Note concernant les droits d&#8217;auteur</title>
+    <p id="_c14a6ae9-c231-4ad1-908a-26208b622b7c">Ce document est distribu&#233; selon les termes et conditions de la licence Creative Commons Attribution 4.0 International (<link target="http://creativecommons.org/licenses/by/4.0/"/>), qui permet l&#8217;utilisation sans restriction, la distribution et la reproduction sur quelque support que soit, sous r&#233;serve de mentionner d&#251;ment l&#8217;auteur ou les auteurs originaux ainsi que la source de l&#8217;&#339;uvre, d&#8217;int&#233;grer un lien vers la licence Creative Commons et d&#8217;indiquer si des modifications ont &#233;t&#233; effectu&#233;es.</p>
+  </clause>
+  </license-statement>
+  <feedback-statement>
+    <p id="_a81ff502-64cd-4e81-aaea-e0d2c8b14272">BIPM<br/>
+      Pavillon de Breteuil<br/>
+      F-92312 S&#232;vres Cedex<br/>
+      FRANCE</p>
+  </feedback-statement>
+</boilerplate>
+
+<sections><clause id="_partie_1_l&#233;volution_historique_de_la_r&#233;alisation_des_unit&#233;s_du_si_kilogrammeprototype_international_notes_historiques_systmeinternational_dunits_sicrationunitsde_base" obligation="normative"><title>Partie 1. L&#8217;&#233;volution historique de la r&#233;alisation des unit&#233;s du SI <index><primary>kilogramme</primary><secondary>prototype international</secondary></index> <index to="notes_historiques"><primary>notes historiques</primary></index> <index to="si_systeme_creation"><primary>syst&#232;me</primary><secondary>international d&#8217;unit&#233;s (SI)</secondary><tertiary>cr&#233;ation</tertiary></index><index><primary>unit&#233;(s)</primary><secondary>de base</secondary></index></title><p id="_1ce5de8f-77b2-4f65-a7f2-9d2ae5603e3c">Les m&#233;thodes exp&#233;rimentales utilis&#233;es pour r&#233;aliser les unit&#233;s &#224; l&#8217;aide d&#8217;&#233;quations de la
+physique sont appel&#233;es m&#233;thodes primaires. Une m&#233;thode primaire a pour caract&#233;ristique
+essentielle de permettre de mesurer directement une grandeur dans une unit&#233; particuli&#232;re &#224;
+partir de sa d&#233;finition en utilisant seulement des grandeurs et constantes qui n&#8217;impliquent
+pas elles-m&#234;mes l&#8217;unit&#233; en question.</p>
+<p id="_52ac987c-f994-4f84-a234-3102ef29f1eb">De fa&#231;on traditionnelle, une unit&#233; pour une grandeur donn&#233;e &#233;tait consid&#233;r&#233;e comme un
+exemple particulier de cette grandeur, choisie pour fournir des valeurs num&#233;riques de
+mesures courantes d&#8217;une taille convenable. Avant l&#8217;av&#232;nement de la science moderne,
+les unit&#233;s &#233;taient n&#233;cessairement d&#233;finies &#224; partir d&#8217;art&#233;facts mat&#233;riels, notamment le m&#232;tre<index><primary>m&#232;tre (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu1"><mi mathvariant="normal">m</mi></mrow>
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index>
+pour la longueur<index><primary>longueur</primary></index> et le kilogramme pour la masse<index><primary>masse</primary></index>, ou &#224; partir de la propri&#233;t&#233; d&#8217;un objet
+particulier, comme la rotation de la Terre pour la seconde<index><primary>seconde</primary></index>. Toutefois, m&#234;me &#224; l&#8217;origine du
+syst&#232;me m&#233;trique &#224; la fin du 18<sup>e</sup> si&#232;cle, il &#233;tait reconnu qu&#8217;une d&#233;finition plus souhaitable
+de l&#8217;unit&#233; de longueur, par exemple, serait une d&#233;finition fond&#233;e sur une propri&#233;t&#233;
+universelle de la nature telle que la longueur d&#8217;un pendule battant la seconde<index><primary>seconde</primary></index>. Une telle
+d&#233;finition serait ind&#233;pendante du moment et du lieu de r&#233;alisation de l&#8217;unit&#233; et serait en
+principe accessible dans le monde entier. &#192; cette &#233;poque, des consid&#233;rations pratiques ont
+conduit &#224; des d&#233;finitions plus simples, fond&#233;es sur des art&#233;facts, du m&#232;tre et du kilogramme
+et la seconde est rest&#233;e li&#233;e &#224; la rotation de la Terre. Ce n&#8217;est qu&#8217;en 1960 que la premi&#232;re
+d&#233;finition non mat&#233;rielle du m&#232;tre, &#224; savoir la longueur<index><primary>longueur</primary></index> d&#8217;onde d&#8217;un rayonnement optique
+sp&#233;cifique, a &#233;t&#233; adopt&#233;e.
+<index><primary>temp&#233;rature</primary><secondary>thermodynamique</secondary></index></p>
+<p id="_4b285a3c-e2f0-4fe5-8ade-db2fb3709e00">Les d&#233;finitions de l&#8217;amp&#232;re<index><primary>amp&#232;re (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu4"><mi mathvariant="normal">A</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index>, du kelvin<index><primary>kelvin (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu5"><mi mathvariant="normal">K</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index>, de la mole et de la candela<index><primary>candela (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu7"><mi mathvariant="normal">cd</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index> qui furent ensuite
+adopt&#233;es ne faisaient pas r&#233;f&#233;rence &#224; des art&#233;facts mat&#233;riels&#160;: la d&#233;finition de l&#8217;amp&#232;re<index><primary>amp&#232;re (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu4"><mi mathvariant="normal">A</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index> &#233;tait
+fond&#233;e sur un courant &#233;lectrique<index><primary>courant &#233;lectrique</primary></index> sp&#233;cifique requis pour produire une force
+&#233;lectromagn&#233;tique donn&#233;e et la d&#233;finition du kelvin sur un &#233;tat thermodynamique
+particulier du point triple de l&#8217;eau<index><primary>point triple de l&#8217;eau</primary></index>. La d&#233;finition atomique de la seconde reposait sur une
+transition sp&#233;cifique de l&#8217;atome de c&#233;sium<index><primary>atome de c&#233;sium, niveaux hyperfins</primary></index>. Le kilogramme a toujours fait exception puisque
+c&#8217;&#233;tait la seule unit&#233; restant fond&#233;e sur un art&#233;fact. La d&#233;finition qui a ouvert la voie &#224; une
+r&#233;elle universalit&#233; a &#233;t&#233; celle du m&#232;tre<index><primary>m&#232;tre (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu1"><mi mathvariant="normal">m</mi></mrow>
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index> adopt&#233;e en 1983. Bien qu&#8217;elle ne l&#8217;indique pas
+explicitement, cette d&#233;finition impliquait une valeur num&#233;rique fix&#233;e de la vitesse de la
+lumi&#232;re. La d&#233;finition &#233;tait formul&#233;e, cependant, de fa&#231;on traditionnelle et &#233;non&#231;ait pour
+l&#8217;essentiel que le m&#232;tre &#233;tait la distance parcourue par la lumi&#232;re en un temps donn&#233;.
+De cette fa&#231;on, la d&#233;finition du m&#232;tre avait la m&#234;me forme que les d&#233;finitions des autres
+unit&#233;s de base du SI (&#171;&#160;l&#8217;amp&#232;re<index><primary>amp&#232;re (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu4"><mi mathvariant="normal">A</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index> est le courant qui&#8230;&#8203;&#160;&#187;, &#171;&#160;le kelvin est une fraction d&#8217;une
+temp&#233;rature pr&#233;cise&#160;&#187;, etc.). De telles d&#233;finitions peuvent &#234;tre d&#233;sign&#233;es sous le terme de
+&#171;&#160;d&#233;finitions &#224; unit&#233; explicite&#160;&#187;<index><primary>d&#233;finition &#224; unit&#233; explicite</primary></index>.</p>
+<p id="_762f5563-5624-4eae-9477-968b3abb0417">Bien que ces d&#233;finitions r&#233;pondent &#224; plusieurs des exigences d&#8217;universalit&#233; et
+d&#8217;accessibilit&#233;, et qu&#8217;elles peuvent &#234;tre r&#233;alis&#233;es de diverses fa&#231;ons possibles, elles limitent
+toutefois les r&#233;alisations pratiques &#224; des exp&#233;riences directement ou indirectement li&#233;es aux
+conditions ou &#233;tats particuliers pr&#233;cis&#233;s dans les d&#233;finitions. Par cons&#233;quent, l&#8217;exactitude de
+la mise en pratique de telles d&#233;finitions ne peut jamais &#234;tre meilleure que l&#8217;exactitude de la
+r&#233;alisation des conditions ou &#233;tats particuliers pr&#233;cis&#233;s dans les d&#233;finitions.</p>
+<p id="_3df361d6-a869-4d72-b18a-9e112398a2f5">C&#8217;est un probl&#232;me particulier avec l&#8217;actuelle d&#233;finition de la seconde<index><primary>seconde</primary></index> fond&#233;e sur une
+transition microonde d&#8217;un atome de c&#233;sium<index><primary>atome de c&#233;sium, niveaux hyperfins</primary></index>. Il a &#233;t&#233; &#233;tabli que les fr&#233;quences des transitions
+optiques de diff&#233;rents atomes ou ions sont d&#233;sormais plus reproductibles, de quelques
+ordres de grandeur, que la fr&#233;quence d&#233;finie du c&#233;sium.
+<index><primary>unit&#233;(s)</primary><secondary>de base</secondary></index></p>
+<p id="_006604b4-658e-4e45-a813-4825f7f9ce8f">Dans la pr&#233;sente r&#233;vision du SI fond&#233;e sur un ensemble de constantes choisies, au lieu que
+chaque d&#233;finition indique une condition ou un &#233;tat sp&#233;cifique, ce qui impose une limite
+fondamentale &#224; l&#8217;exactitude de la r&#233;alisation, toute &#233;quation appropri&#233;e de la physique qui
+relie la ou les constantes particuli&#232;res &#224; la grandeur &#224; mesurer peut &#234;tre utilis&#233;e. Les unit&#233;s
+de base sont ainsi d&#233;finies de fa&#231;on beaucoup plus g&#233;n&#233;rale, sans limite impos&#233;e par la
+science ou les technologies actuelles car les progr&#232;s &#224; venir pourront conduire &#224; d&#233;couvrir
+des &#233;quations aujourd&#8217;hui inconnues qui permettront de r&#233;aliser les unit&#233;s de diff&#233;rentes
+mani&#232;res, &#224; un niveau d&#8217;exactitude beaucoup plus &#233;lev&#233;. Avec un syst&#232;me d&#8217;unit&#233;s ainsi
+d&#233;fini, il n&#8217;existe en principe aucune limite concernant l&#8217;incertitude &#224; laquelle une unit&#233;
+peut &#234;tre r&#233;alis&#233;e. L&#8217;exception reste la d&#233;finition de la seconde<index><primary>seconde</primary></index> pour laquelle la transition
+microonde du c&#233;sium est conserv&#233;e, pour le moment, comme base de la d&#233;finition.</p>
+<p id="_fe0c6ff6-2e86-480d-915a-2e32e08ceb8e">La diff&#233;rence entre une &#171;&#160;d&#233;finition &#224; unit&#233; explicite&#160;&#187;<index><primary>d&#233;finition &#224; unit&#233; explicite</primary></index> et une &#171;&#160;d&#233;finition &#224; constante explicite&#160;&#187;<index><primary>d&#233;finition &#224; constante explicite</primary></index> peut &#234;tre clairement illustr&#233;e &#224; l&#8217;aide des deux pr&#233;c&#233;dentes d&#233;finitions du m&#232;tre
+qui reposaient sur une valeur num&#233;rique fix&#233;e de la vitesse de la lumi&#232;re ou &#224; l&#8217;aide des
+deux d&#233;finitions du kelvin. La d&#233;finition originale du m&#232;tre de 1983 indique, en effet, que
+&#171;&#160;le m&#232;tre est la longueur<index><primary>longueur</primary></index> du trajet parcouru dans le vide par la lumi&#232;re pendant une dur&#233;e
+de <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>1</mn><mo>/</mo><mn>299792458</mn></math></stem> de seconde&#160;&#187;. La nouvelle d&#233;finition indique simplement que le m&#232;tre est
+d&#233;fini en fonction de la constante d&#233;finissant la seconde, la fr&#233;quence du c&#233;sium<index><primary>fr&#233;quence du c&#233;sium</primary></index> pr&#233;cis&#233;e,
+et de la valeur num&#233;rique de la vitesse de la lumi&#232;re exprim&#233;e en unit&#233; <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu1.u3e-1/1"><mi mathvariant="normal">m</mi><mo rspace="thickmathspace">&#8290;</mo><msup><mrow><mi mathvariant="normal">s</mi></mrow><mrow><mo>&#8722;</mo><mn>1</mn></mrow></msup></mrow>
+
+
+
+
+
+
+
+
+</math></stem>. Il est ainsi
+possible d&#8217;utiliser toute &#233;quation de la physique, y compris bien s&#251;r celle sp&#233;cifi&#233;e dans la
+pr&#233;c&#233;dente d&#233;finition, le temps n&#233;cessaire pour effectuer le trajet d&#8217;une distance donn&#233;e,
+utilis&#233;e pour les distances astronomiques, mais aussi la simple &#233;quation reliant la fr&#233;quence
+et la longueur<index><primary>longueur</primary></index> d&#8217;onde &#224; la vitesse de la lumi&#232;re. La pr&#233;c&#233;dente d&#233;finition du kelvin fond&#233;e
+sur une valeur num&#233;rique fix&#233;e de la temp&#233;rature du point triple de l&#8217;eau<index><primary>point triple de l&#8217;eau</primary></index> n&#233;cessite en fin de
+compte une mesure &#224; la temp&#233;rature du point triple de l&#8217;eau<index><primary>point triple de l&#8217;eau</primary></index>. La nouvelle d&#233;finition, fond&#233;e
+sur la valeur num&#233;rique fix&#233;e de la constante de Boltzmann<index><primary>constante</primary><secondary>de Boltzmann</secondary></index><index><primary>&#233;chelle</primary><secondary>de temp&#233;rature thermodynamique</secondary></index>, est beaucoup plus g&#233;n&#233;rale au
+sens o&#249; toute &#233;quation thermodynamique<index><primary>temp&#233;rature</primary><secondary>thermodynamique</secondary></index> contenant <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math></stem> peut en principe &#234;tre utilis&#233;e pour
+d&#233;terminer une temp&#233;rature thermodynamique &#224; tout point de l&#8217;&#233;chelle de temp&#233;rature.
+Par exemple, en d&#233;terminant l&#8217;exitance &#233;nerg&#233;tique totale d&#8217;un corps noir &#224; la temp&#233;rature <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>T</mi></mstyle></math></stem>, &#233;quivalente &#224; <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mfenced open="(" close=")"><mrow><mn>2</mn><msup><mrow><mi mathvariant="normal">&#960;</mi></mrow><mrow><mn>5</mn></mrow></msup><msup><mrow><mi>k</mi></mrow><mrow><mn>4</mn></mrow></msup><mo>/</mo><mn>15</mn><msup><mrow><mi>c</mi></mrow><mrow><mn>2</mn></mrow></msup><msup><mrow><mi>h</mi></mrow><mrow><mn>3</mn></mrow></msup></mrow></mfenced><msup><mrow><mstyle mathvariant="italic"><mi>T</mi></mstyle></mrow><mrow><mn>4</mn></mrow></msup></math></stem>, en <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu14.u1e-2/1"><mi mathvariant="normal">W</mi><mo rspace="thickmathspace">&#8290;</mo><msup><mrow><mi mathvariant="normal">m</mi></mrow><mrow><mo>&#8722;</mo><mn>2</mn></mrow></msup></mrow>
+
+
+
+
+
+
+
+
+</math></stem>, il est possible de d&#233;terminer directement <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>T</mi></mstyle></math></stem>.</p>
+<p id="_fd392e7d-340c-4c63-bc7d-de4f88d3a876">Concernant le kilogramme, l&#8217;unit&#233; dont la d&#233;finition a chang&#233; de la fa&#231;on la plus
+fondamentale dans la pr&#233;sente brochure, la r&#233;alisation peut &#234;tre effectu&#233;e &#224; partir de toute
+&#233;quation de la physique reliant la masse<index><primary>masse</primary></index>, la constante de Planck<index><primary>constante</primary><secondary>de Planck</secondary></index>, la vitesse de la lumi&#232;re et
+la fr&#233;quence du c&#233;sium<index><primary>fr&#233;quence du c&#233;sium</primary></index>. L&#8217;une de ces &#233;quations est celle d&#233;crivant le fonctionnement d&#8217;une
+balance &#233;lectrom&#233;canique, connue pr&#233;c&#233;demment sous le nom de balance du watt<index><primary>balance du watt/de Kibble</primary></index> et plus
+r&#233;cemment de balance de Kibble<index><primary>balance du watt/de Kibble</primary></index><fn reference="1"><p id="_8c90af23-64c0-4ec6-8f47-2f5523a73fa7">La balance du watt<index><primary>balance du watt/de Kibble</primary></index> a &#233;t&#233; renomm&#233;e balance de Kibble<index><primary>balance du watt/de Kibble</primary></index>, du nom de son inventeur Bryan Kibble.</p></fn>.
+Une balance de Kibble<index><primary>balance du watt/de Kibble</primary></index> permet de mesurer une puissance
+m&#233;canique, mesur&#233;e en fonction d&#8217;une masse<index><primary>masse</primary></index>, <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>m</mi></math></stem>, l&#8217;acc&#233;l&#233;ration due &#224; la gravit&#233;, <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>g</mi></math></stem>, et une
+vitesse, <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>v</mi></math></stem>, &#224; l&#8217;aide d&#8217;une puissance &#233;lectrique mesur&#233;e &#224; partir d&#8217;un courant &#233;lectrique<index><primary>courant &#233;lectrique</primary></index> et
+d&#8217;une tension mesur&#233;es &#224; l&#8217;aide des effets Hall<index><primary>effet</primary><secondary>Hall (y compris Hall quantique)</secondary></index> quantique et Josephson<index><primary>effet</primary><secondary>Josephson</secondary></index>, respectivement.
+L&#8217;&#233;quation qui en r&#233;sulte est la suivante <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>m</mi><mi>g</mi><mi>v</mi><mo>=</mo><mstyle mathvariant="italic"><mi>C</mi></mstyle><mi>h</mi></math></stem> o&#249; <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>C</mi></mstyle></math></stem> est une constante d&#8217;&#233;talonnage qui
+comprend des fr&#233;quences mesur&#233;es et <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>h</mi></math></stem> la constante de Planck<index><primary>constante</primary><secondary>de Planck</secondary></index>.
+<index to="kilogramme-4"><primary>kilogramme</primary></index></p>
+<p id="_03d1c191-2bac-4ec0-9dba-1c1d6e33b542">Une autre m&#233;thode pouvant &#234;tre utilis&#233;e comme r&#233;alisation primaire du kilogramme est la
+d&#233;termination du nombre d&#8217;atomes contenus dans une sph&#232;re de silicium &#224; l&#8217;aide de
+l&#8217;&#233;quation&#160;:</p>
+<formula id="_5f49c289-7f25-4a25-9cf6-aad5e8d0e462" unnumbered="true">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>m</mi><mo>=</mo><mfrac><mrow><mrow><mn>8</mn><mstyle mathvariant="italic"><mi>V</mi></mstyle></mrow></mrow><mrow><msubsup><mrow><mi>a</mi></mrow><mrow><mn>0</mn></mrow><mrow><mn>3</mn></mrow></msubsup></mrow></mfrac><mfrac><mrow><mrow><mn>2</mn><msub><mrow><mstyle mathvariant="italic"><mi>R</mi></mstyle></mrow><mrow><mo>&#8734;</mo></mrow></msub><mi>h</mi></mrow></mrow><mrow><mrow><mi>c</mi><msup><mrow><mstyle mathvariant="italic"><mi>&#945;</mi></mstyle></mrow><mrow><mn>2</mn></mrow></msup></mrow></mrow></mfrac><mfrac><mrow><msub><mrow><mi>m</mi></mrow><mrow><mtext>Si</mtext></mrow></msub></mrow><mrow><msub><mrow><mi>m</mi></mrow><mrow><mtext>e</mtext></mrow></msub></mrow></mfrac></math></stem>
+</formula>
+<p id="_15e6ace4-e842-465d-ab1c-6e238454b9c5">avec la masse<index><primary>masse</primary></index> <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>m</mi></math></stem> et le volume <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>V</mi></mstyle></math></stem> de la sph&#232;re (d&#8217;environ <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>1</mn><mo rspace="thickmathspace">&#8290;</mo><mrow xref="U_NISTu2"><mi mathvariant="normal">kg</mi></mrow>
+
+
+
+
+
+
+
+
+
+
+</math></stem>), le param&#232;tre de r&#233;seau <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mi>a</mi></mrow><mrow><mn>0</mn></mrow></msub></math></stem>,<index><primary>masse de l&#8217;&#233;lectron</primary></index>
+la constante de Rydberg <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>R</mi></mstyle></mrow><mrow><mo>&#8734;</mo></mrow></msub></math></stem>, la constante de structure fine<index><primary>constante</primary><secondary>de structure fine</secondary></index> <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>&#945;</mi></mstyle></math></stem>, la masse d&#8217;un atome de
+silicium (en &#233;tablissant une moyenne par rapport aux trois isotopes des sph&#232;res) <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mi>m</mi></mrow><mrow><mtext>Si</mtext></mrow></msub></math></stem>,
+et la masse<index><primary>masse</primary></index> d&#8217;un &#233;lectron <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mi>m</mi></mrow><mrow><mtext>e</mtext></mrow></msub></math></stem>. La premi&#232;re fraction correspond au nombre d&#8217;atomes contenus
+dans la sph&#232;re, la deuxi&#232;me &#224; la masse de l&#8217;&#233;lectron et la troisi&#232;me au rapport de la masse
+de l&#8217;atome de silicium (pond&#233;r&#233;e isotopiquement) et de la masse de l&#8217;&#233;lectron.</p>
+<p id="_3a43e1e7-2fa0-4707-94f0-4dddac00b853">Une autre possibilit&#233; pour mesurer la masse<index><primary>masse</primary></index> &#224; l&#8217;aide de la nouvelle d&#233;finition du
+kilogramme, mais cette fois au niveau microscopique, est de mesurer le recul atomique &#224;
+l&#8217;aide de la relation incluant <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>h</mi><mo>/</mo><mi>m</mi></math></stem>.</p>
+<p id="_8b0447f5-9593-4054-a862-0e68e0a14763">Toutes ces m&#233;thodes illustrent parfaitement le caract&#232;re g&#233;n&#233;ral de la nouvelle fa&#231;on de
+d&#233;finir les unit&#233;s. Le site internet du BIPM contient des informations d&#233;taill&#233;es sur les
+r&#233;alisations actuelles des unit&#233;s de base et des autres unit&#233;s.</p></clause>
+<clause id="_partie_2_l&#233;volution_historique_du_syst&#232;me_international_unitsde_base" obligation="normative"><title>Partie 2. L&#8217;&#233;volution historique du Syst&#232;me international <index to="unites_de_base-2"><primary>unit&#233;(s)</primary><secondary>de base</secondary></index></title><p id="_b0a4a8ca-f9c2-4ce1-9af9-3c8ca3493674">La CGPM &#224; sa 9<sup>e</sup> r&#233;union (1948, R&#233;solution 6&#160;; CR, 64), chargea le CIPM&#160;:</p>
+<ul id="_784a58e9-7764-444c-b059-823d70a98aa7">
+<li>
+<p id="_e2b7ef6d-0316-46ac-b9e5-bf0e0ef68d51">d&#8217;&#233;tudier l&#8217;&#233;tablissement d&#8217;une r&#233;glementation compl&#232;te des unit&#233;s de mesure&#160;;</p>
+</li>
+<li>
+<p id="_0d4a6178-f82c-49c2-8349-50c3edeeacd4">d&#8217;ouvrir &#224; cet effet une enqu&#234;te officielle sur l&#8217;opinion des milieux scientifiques,
+techniques et p&#233;dagogiques de tous les pays et</p>
+</li>
+<li>
+<p id="_a46fb650-aed2-4906-ab3d-4682fd22d193">d&#8217;&#233;mettre des recommandations concernant l&#8217;&#233;tablissement d&#8217;un [&#8230;&#8203;]
+<em>syst&#232;me pratique d&#8217;unit&#233;s de mesure</em>, susceptible d&#8217;&#234;tre adopt&#233; dans tous les pays
+signataires de la Convention du M&#232;tre<index><primary>Convention du M&#232;tre</primary></index>.</p>
+</li>
+</ul>
+<p id="_49949c2c-871b-47ec-8f01-a3ee300e6f8b">Cette m&#234;me CGPM adopta aussi la R&#233;solution 7 (CR, 70) qui fixe des principes g&#233;n&#233;raux
+pour l&#8217;&#233;criture des symboles d&#8217;unit&#233;s et donne une liste de quelques unit&#233;s coh&#233;rentes ayant
+un nom sp&#233;cial.
+<index><primary>temp&#233;rature</primary><secondary>thermodynamique</secondary></index>
+<index><primary>temps</primary><secondary>dur&#233;e</secondary></index></p>
+<p id="_d649e662-f6e9-4587-b3f6-6ec4e41dfee3">La CGPM &#224; sa 10<sup>e</sup> r&#233;union (1954, R&#233;solution 6&#160;; CR, 80) adopta comme grandeurs et unit&#233;s
+de base de ce syst&#232;me pratique d&#8217;unit&#233;s les six grandeurs suivantes&#160;: longueur<index><primary>longueur</primary></index>, masse<index><primary>masse</primary></index>,
+temps, courant &#233;lectrique<index><primary>courant &#233;lectrique</primary></index>, temp&#233;rature thermodynamique et intensit&#233; lumineuse<index><primary>intensit&#233; lumineuse</primary></index>, ainsi que
+les six unit&#233;s de base correspondantes&#160;: m&#232;tre<index><primary>m&#232;tre (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu1"><mi mathvariant="normal">m</mi></mrow>
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index>, kilogramme, seconde<index><primary>seconde</primary></index>, amp&#232;re<index><primary>amp&#232;re (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu4"><mi mathvariant="normal">A</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index>, kelvin et
+candela<index><primary>candela (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu7"><mi mathvariant="normal">cd</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index>. Apr&#232;s de longues discussions entre physiciens et chimistes, la CGPM &#224; sa
+14<sup>e</sup> r&#233;union (1971, R&#233;solution 3, CR 78 et <em>Metrologia</em> 1972, <strong>8</strong>, 36) ajouta la quantit&#233; de
+mati&#232;re comme septi&#232;me grandeur de base, avec pour unit&#233; de base la mole<index><primary>mole (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu6"><mi mathvariant="normal">mol</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index>.
+<index><primary>pr&#233;fixes SI</primary></index><index><primary>unit&#233;(s)</primary><secondary>suppl&#233;mentaires</secondary></index></p>
+<p id="_1a65d00f-253d-46df-85e0-ef022a6aaa30">La CGPM &#224; sa 11<sup>e</sup> r&#233;union (1960, R&#233;solution 12&#160;; CR, 87) adopta le nom
+<em>Syst&#232;me international d&#8217;unit&#233;s</em>, avec l&#8217;abr&#233;viation internationale <em>SI</em>, pour ce syst&#232;me pratique
+d&#8217;unit&#233;s et fixa des r&#232;gles pour les pr&#233;fixes, les unit&#233;s d&#233;riv&#233;es et les unit&#233;s suppl&#233;mentaires
+(disparues depuis) et d&#8217;autres indications, &#233;tablissant ainsi une r&#233;glementation d&#8217;ensemble
+pour les unit&#233;s de mesure. Au cours des r&#233;unions qui suivirent, la CGPM et le CIPM
+&#233;toff&#232;rent et modifi&#232;rent la structure originelle du SI pour tenir compte des progr&#232;s de la
+science et de l&#8217;&#233;volution des besoins des utilisateurs.
+<index><primary>syst&#232;me</primary><secondary>m&#233;trique d&#233;cimal</secondary></index></p>
+<p id="_60fb10c4-2de8-4d32-be3e-2d3ec6e46e59">Il est possible de r&#233;sumer comme suit les principales &#233;tapes historiques qui conduisirent &#224;
+ces d&#233;cisions importantes&#160;:
+<index><primary>m&#232;tre (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu1"><mi mathvariant="normal">m</mi></mrow>
+
+
+
+
+
+
+
+
+</math></stem>)</primary><secondary>prototype international</secondary></index></p>
+<ul id="_42c8e4c9-2aa4-4807-81c1-234d46d65c97">
+<li>
+<p id="_c67464c5-bb31-46d4-9cc0-cade213e9d3d">La cr&#233;ation du Syst&#232;me <index><primary>syst&#232;me</primary><secondary>m&#233;trique d&#233;cimal</secondary></index> au moment de la R&#233;volution fran&#231;aise et le
+d&#233;p&#244;t qui en a r&#233;sult&#233;, le 22 juin 1799, de deux &#233;talons en platine repr&#233;sentant le
+m&#232;tre et le kilogramme aux Archives de la R&#233;publique &#224; Paris peuvent &#234;tre
+consid&#233;r&#233;s comme la premi&#232;re &#233;tape ayant conduit au Syst&#232;me international d&#8217;unit&#233;s
+actuel.
+<index><primary>temps</primary><secondary>dur&#233;e</secondary></index><index><primary>unit&#233;(s)</primary><secondary>&#233;lectriques</secondary></index></p>
+</li>
+<li>
+<p id="_3a2b39bd-f664-41d5-af06-b48455a12ab3">En 1832, Gauss<index><primary>Gauss</primary></index> oeuvra activement en faveur de l&#8217;application du Syst&#232;me m&#233;trique,
+associ&#233; &#224; la seconde, d&#233;finie en astronomie, comme syst&#232;me coh&#233;rent d&#8217;unit&#233;s pour
+les sciences physiques. Gauss fut le premier &#224; faire des mesures absolues du champ
+magn&#233;tique terrestre en utilisant un syst&#232;me d&#233;cimal fond&#233; sur les <em>trois unit&#233;s m&#233;caniques</em> millim&#232;tre, gramme<index><primary>gramme</primary></index> et seconde pour, respectivement, les grandeurs
+longueur<index><primary>longueur</primary></index>, masse<index><primary>masse</primary></index> et temps. Par la suite, Gauss et Weber<index><primary>Weber</primary></index> ont &#233;tendu ces mesures pour
+y inclure d&#8217;autres ph&#233;nom&#232;nes &#233;lectriques.
+<index><primary>pr&#233;fixes SI</primary></index>
+<index><primary>British Association for the Advancement of Science (BAAS)</primary></index></p>
+</li>
+<li>
+<p id="_4e62e8a9-be05-46be-a2fe-cda28cacb8cd">Dans les ann&#233;es 1860, Maxwell<index><primary>Maxwell</primary></index> et Thomson<index><primary>Thomson</primary></index> mirent en oeuvre de mani&#232;re plus compl&#232;te
+ces mesures dans les domaines de l&#8217;&#233;lectricit&#233; et du magn&#233;tisme au sein de la British
+Association for the Advancement of Science (BAAS). Ils exprim&#232;rent les r&#232;gles de
+formation d&#8217;un <em>syst&#232;me coh&#233;rent d&#8217;unit&#233;s</em> compos&#233; d&#8217;unit&#233;s de <em>base</em> et d&#8217;unit&#233;s d&#233;riv&#233;es.
+En 1874, la BAAS introduisit le <em>syst&#232;me CGS<index><primary>CGS</primary></index></em>, un syst&#232;me d&#8217;unit&#233;s tri-dimensionnel
+coh&#233;rent fond&#233; sur les trois unit&#233;s m&#233;caniques centim&#232;tre, gramme<index><primary>gramme</primary></index> et seconde, et utilisant
+des pr&#233;fixes allant de micro &#224; m&#233;ga pour exprimer les sous-multiples et multiples
+d&#233;cimaux. C&#8217;est en grande partie sur l&#8217;utilisation de ce syst&#232;me que se fonda, par la suite,
+le d&#233;veloppement exp&#233;rimental des sciences physiques.
+<index><primary>volt (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu16"><mi mathvariant="normal">V</mi></mrow>
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index><index><primary>unit&#233;(s)</primary><secondary>pratiques</secondary></index></p>
+</li>
+<li>
+<p id="_877d5f0a-8b5a-4f66-99a6-9988bf0f5858">Le fait de compl&#233;ter de fa&#231;on coh&#233;rente le syst&#232;me CGS<index><primary>CGS</primary></index> pour les domaines de
+l&#8217;&#233;lectricit&#233; et du magn&#233;tisme conduisit &#224; choisir des unit&#233;s d&#8217;amplitude peu adapt&#233;e
+&#224; la pratique. Le BAAS et le Congr&#232;s international d&#8217;&#233;lectricit&#233;, qui pr&#233;c&#233;da la
+Commission &#233;lectrotechnique internationale (IEC), approuv&#232;rent, dans les ann&#233;es
+1880, un syst&#232;me mutuellement coh&#233;rent d&#8217;<em>unit&#233;s pratiques</em>. Parmi celles-ci
+figuraient l&#8217;ohm<index><primary>ohm (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu18"><mi mathvariant="normal">&#8486;</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index> pour la r&#233;sistance &#233;lectrique, le volt pour la force &#233;lectromotrice et
+l&#8217;amp&#232;re<index><primary>amp&#232;re (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu4"><mi mathvariant="normal">A</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index> pour le courant &#233;lectrique<index><primary>courant &#233;lectrique</primary></index>.</p>
+</li>
+<li>
+<p id="_27742c82-5515-4e23-ad99-2c39997db062">Apr&#232;s la signature, le 20 mai 1875, de la Convention du M&#232;tre<index><primary>Convention du M&#232;tre</primary></index>, qui cr&#233;a le BIPM et
+&#233;tablit la CGPM et le CIPM, on fabriqua de nouveaux prototypes internationaux du
+m&#232;tre et du kilogramme, approuv&#233;s en 1889 par la CGPM &#224; sa 1<sup>&#232;re</sup> r&#233;union.
+Avec la seconde<index><primary>seconde</primary></index> des astronomes comme unit&#233; de temps, ces unit&#233;s constituaient un
+syst&#232;me d&#8217;unit&#233;s m&#233;caniques tri-dimensionnel similaire au syst&#232;me CGS<index><primary>CGS</primary></index>, mais dont
+les unit&#233;s de base &#233;taient le m&#232;tre, le kilogramme et la seconde, connu sous le nom
+de syst&#232;me MKS<index><primary>MKS</primary></index>.</p>
+</li>
+<li>
+<p id="_34376b02-7a8e-4597-a447-36fa11d1e8a9">En 1901, Giorgi<index><primary>Giorgi</primary></index> montra qu&#8217;il &#233;tait possible de combiner les unit&#233;s m&#233;caniques du
+syst&#232;me MKS<index><primary>MKS</primary></index> au syst&#232;me pratique d&#8217;unit&#233;s &#233;lectriques pour former un seul syst&#232;me
+coh&#233;rent quadri-dimensionnel en ajoutant &#224; ces trois unit&#233;s de base une quatri&#232;me
+unit&#233;, de nature &#233;lectrique, telle que l&#8217;amp&#232;re<index><primary>amp&#232;re (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu4"><mi mathvariant="normal">A</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index> ou l&#8217;ohm<index><primary>ohm (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu18"><mi mathvariant="normal">&#8486;</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index>, et en rationalisant les
+&#233;quations utilis&#233;es en &#233;lectromagn&#233;tisme. La proposition de Giorgi ouvrit la voie &#224;
+d&#8217;autres extensions.</p>
+</li>
+<li>
+<p id="_b79b8e6f-f08f-432f-b27d-eaa5ffc6bcfa">Apr&#232;s la r&#233;vision de la Convention du M&#232;tre<index><primary>Convention du M&#232;tre</primary></index> par la CGPM &#224; sa 6<sup>e</sup> r&#233;union (1921),
+qui &#233;tendit les attributions et les responsabilit&#233;s du BIPM &#224; d&#8217;autres domaines de la
+physique, et la cr&#233;ation du Comit&#233; consultatif d&#8217;&#233;lectricit&#233; (CCE) par la CGPM &#224; sa
+7<sup>e</sup> r&#233;union qui en a r&#233;sult&#233; en 1927, la proposition de Giorgi<index><primary>Giorgi</primary></index> fut discut&#233;e en d&#233;tail
+par l&#8217;IEC, l&#8217;International Union of Pure and Applied Physics (IUPAP)<index><primary>IUPAP</primary></index> et d&#8217;autres
+organisations internationales. Ces discussions conduisirent le CCE &#224; proposer,
+en 1939, l&#8217;adoption d&#8217;un syst&#232;me quadri-dimensionnel fond&#233; sur le m&#232;tre,
+le kilogramme, la seconde et l&#8217;amp&#232;re<index><primary>amp&#232;re (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu4"><mi mathvariant="normal">A</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index> (syst&#232;me MKSA)<index><primary>MKSA</primary></index>, une proposition qui fut
+approuv&#233;e par le Comit&#233; international en 1946. <bookmark id="kilogramme-4"/>
+<index><primary>pr&#233;fixes SI</primary></index><index><primary>temp&#233;rature</primary><secondary>thermodynamique</secondary></index><index><primary>unit&#233;(s)</primary><secondary>suppl&#233;mentaires</secondary></index></p>
+</li>
+<li>
+<p id="_316ecbbd-0bda-4120-b619-b4c122940c63">&#192; la suite d&#8217;une enqu&#234;te internationale effectu&#233;e par le BIPM &#224; partir de 1948,
+la CGPM &#224; sa 10<sup>e</sup> r&#233;union (1954) approuva l&#8217;introduction du kelvin et de la candela<index><primary>candela (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu7"><mi mathvariant="normal">cd</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index>
+comme unit&#233;s de base de la temp&#233;rature thermodynamique et de l&#8217;intensit&#233;
+lumineuse, respectivement. La CGPM &#224; sa 11<sup>e</sup> r&#233;union (1960) donna le nom de
+Syst&#232;me international d&#8217;unit&#233;s (SI) &#224; ce syst&#232;me. Des r&#232;gles pour les pr&#233;fixes,
+les unit&#233;s d&#233;riv&#233;es et les unit&#233;s suppl&#233;mentaires (disparues depuis) et d&#8217;autres
+indications furent &#233;tablies, &#233;tablissant ainsi une r&#233;glementation d&#8217;ensemble pour les
+unit&#233;s de mesure.
+<index><primary>ISO</primary></index><index><primary>quantit&#233; de mati&#232;re</primary></index></p>
+</li>
+<li>
+<p id="_709d197b-ac8e-49ce-8c69-ed0470c01931">Lors de la 14<sup>e</sup> r&#233;union de la CGPM (1971), une nouvelle unit&#233; de base, la mole<index><primary>mole (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu6"><mi mathvariant="normal">mol</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index>,
+symbole <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu6"><mi mathvariant="normal">mol</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>, a &#233;t&#233; adopt&#233;e pour la quantit&#233; de mati&#232;re. Cela fit suite &#224; une
+proposition formul&#233;e par l&#8217;Organisation internationale de normalisation (ISO),
+&#233;manant en premier lieu de la Commission on Symbols, Units and Nomenclature de
+l&#8217;International Union of Pure and Applied Physics (IUPAP)<index><primary>IUPAP</primary></index> et soutenue par
+l&#8217;International Union of Pure and Applied Chemistry (IUPAC)<index><primary>IUPAC</primary></index>. Le SI passa ainsi &#224;
+sept unit&#233;s de base.</p>
+</li>
+<li>
+<p id="_b59a6be2-5171-42f8-9894-a8ffb85268cf">Depuis, des avanc&#233;es extraordinaires ont &#233;t&#233; r&#233;alis&#233;es pour relier les unit&#233;s du SI &#224;
+des grandeurs v&#233;ritablement invariantes telles que les constantes fondamentales<index><primary>constante</primary><secondary>fondamentale (de la physique)</secondary></index> de la
+physique et les propri&#233;t&#233;s des atomes. Reconnaissant l&#8217;importance de relier les unit&#233;s
+du SI &#224; de telles grandeurs invariantes, la CGPM &#224; sa 24<sup>e</sup> r&#233;union (2011) adopta les
+principes d&#8217;une nouvelle d&#233;finition du SI fond&#233;e sur l&#8217;utilisation d&#8217;un ensemble de
+sept constantes de ce type comme r&#233;f&#233;rences des d&#233;finitions des unit&#233;s. Au moment
+de la 24<sup>e</sup> r&#233;union de la CGPM, les exp&#233;riences visant &#224; d&#233;terminer les valeurs
+num&#233;riques de ces constantes ne permettaient pas d&#8217;obtenir des r&#233;sultats
+compl&#232;tement coh&#233;rents mais cela fut le cas lors de la 26<sup>e</sup> r&#233;union de la CGPM
+(2018) et la nouvelle d&#233;finition du SI fut adopt&#233;e dans la R&#233;solution 1. Telle est la
+base de la d&#233;finition du SI pr&#233;sent&#233;e dans la pr&#233;sente brochure&#160;: elle constitue la
+fa&#231;on la plus simple et la plus fondamentale de d&#233;finir le SI.</p>
+</li>
+<li>
+<p id="_84b23e96-edad-4f8e-9d66-80d487b76587">Le SI &#233;tait pr&#233;c&#233;demment d&#233;fini en fonction de sept unit&#233;s de base, et d&#8217;unit&#233;s
+d&#233;riv&#233;es d&#233;finies comme le produit de puissances des unit&#233;s de base. Les sept unit&#233;s
+de base avaient &#233;t&#233; choisies pour des raisons historiques, en fonction de l&#8217;&#233;volution
+du syst&#232;me m&#233;trique et du d&#233;veloppement du SI au cours des 130 derni&#232;res ann&#233;es.
+Le choix de ces unit&#233;s n&#8217;&#233;tait pas le seul possible mais au fil des ans, cela est devenu
+un fait &#233;tabli et ces unit&#233;s sont devenues famili&#232;res, fournissant non seulement un
+cadre pour d&#233;crire le SI mais aussi pour d&#233;finir les unit&#233;s d&#233;riv&#233;es. Le r&#244;le des unit&#233;s
+de base demeure le m&#234;me dans l&#8217;actuel SI, bien que le SI lui-m&#234;me soit d&#233;fini sur la
+base de sept constantes choisies. Ainsi, dans la pr&#233;sente brochure, les d&#233;finitions des
+sept unit&#233;s de base restent pr&#233;sentes mais elles se fondent sur les sept constantes
+d&#233;finissant le SI <index><primary>constante</primary><secondary>d&#233;finissant le SI</secondary></index>, &#224; savoir la fr&#233;quence <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#916;</mo><msub><mrow><mstyle mathvariant="italic"><mi>&#957;</mi></mstyle></mrow><mrow><mtext>Cs</mtext></mrow></msub></math></stem> de la transition hyperfine de l&#8217;&#233;tat
+fondamental de l&#8217;atome de c&#233;sium<index><primary>atome de c&#233;sium, niveaux hyperfins</primary></index>, la vitesse <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>c</mi></math></stem> de la lumi&#232;re dans le vide,
+la constante de Planck<index><primary>constante</primary><secondary>de Planck</secondary></index> <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>h</mi></math></stem>, la charge &#233;l&#233;mentaire <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>e</mi></math></stem>, la constante de Boltzmann<index><primary>constante</primary><secondary>de Boltzmann</secondary></index> <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math></stem>,
+la constante d&#8217;Avogadro<index><primary>constante</primary><secondary>d&#8217;Avogadro</secondary></index> <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>N</mi></mstyle></mrow><mrow><mtext>A</mtext></mrow></msub></math></stem> et l&#8217;efficacit&#233; lumineuse <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>K</mi></mstyle></mrow><mrow><mtext>cd</mtext></mrow></msub></math></stem> d&#8217;un rayonnement visible
+d&#233;fini.</p>
+</li>
+</ul>
+<p id="_db3ced60-e0e0-42c9-a749-3bb9f2ce061c">Les d&#233;finitions des sept unit&#233;s de base peuvent &#234;tre reli&#233;es sans ambigu&#239;t&#233; aux valeurs
+num&#233;riques des sept constantes d&#233;finissant le SI <index><primary>constante</primary><secondary>d&#233;finissant le SI</secondary></index> mais il n&#8217;existe pas de correspondance
+biunivoque entre les sept constantes et les sept unit&#233;s de base car plusieurs des unit&#233;s de
+base peuvent &#234;tre reli&#233;es &#224; plus d&#8217;une de ces sept constantes. <bookmark id="unites_de_base-2"/></p></clause>
+<clause id="_partie_3_perspective_historique_sur_les_unit&#233;s_de_base_du_si" obligation="normative"><title>Partie 3. Perspective historique sur les unit&#233;s de base du SI</title><clause id="_unit&#233;_de_temps_la_seconde_seconde_tempsdure" obligation="normative">
+<title>Unit&#233; de temps, la seconde <index><primary>seconde</primary></index> <index><primary>temps</primary><secondary>dur&#233;e</secondary></index></title>
+<p id="_06c280d2-27c0-420b-b95b-3be04cf46b22">Avant 1960, l&#8217;unit&#233; de temps, la seconde, &#233;tait d&#233;finie comme la fraction <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>1</mn><mo>/</mo><mn>86400</mn></math></stem> du jour
+solaire moyen. La d&#233;finition exacte du &#171;&#160;jour solaire moyen&#160;&#187; &#233;tait laiss&#233;e aux astronomes.
+Toutefois, les observations ont montr&#233; que cette d&#233;finition n&#8217;&#233;tait pas satisfaisante du fait
+des irr&#233;gularit&#233;s de la rotation de la Terre. Pour donner plus de pr&#233;cision &#224; la d&#233;finition de
+l&#8217;unit&#233; de temps, la CGPM &#224; sa 11<sup>e</sup> r&#233;union (1960, R&#233;solution 9&#160;; CR, 86) approuva une
+d&#233;finition, donn&#233;e par l&#8217;Union astronomique internationale, qui &#233;tait fond&#233;e sur l&#8217;ann&#233;e
+tropique 1900. Cependant, les recherches exp&#233;rimentales avaient d&#233;j&#224; montr&#233; qu&#8217;un &#233;talon
+atomique de temps, fond&#233; sur une transition entre deux niveaux d&#8217;&#233;nergie d&#8217;un atome ou
+d&#8217;une mol&#233;cule, pourrait &#234;tre r&#233;alis&#233; et reproduit avec une exactitude beaucoup plus &#233;lev&#233;e.
+Consid&#233;rant qu&#8217;une d&#233;finition de haute pr&#233;cision de l&#8217;unit&#233; de temps &#233;tait indispensable
+pour la science et la technologie, la CGPM &#224; sa 13<sup>e</sup> r&#233;union (1967-1968, R&#233;solution 1&#160;;
+CR, 103 et <em>Metrologia</em>, 1968, <strong>4</strong>, 43) choisit une nouvelle d&#233;finition de la seconde fond&#233;e sur
+la fr&#233;quence de la transition hyperfine de l&#8217;&#233;tat fondamental de l&#8217;atome de c&#233;sium<index><primary>atome de c&#233;sium, niveaux hyperfins</primary></index> 133.
+Une nouvelle formulation plus pr&#233;cise de cette m&#234;me d&#233;finition, fond&#233;e d&#233;sormais sur une
+valeur num&#233;rique fix&#233;e de la fr&#233;quence de la transition hyperfine de l&#8217;&#233;tat fondamental
+de l&#8217;atome de c&#233;sium<index><primary>atome de c&#233;sium, niveaux hyperfins</primary></index> 133 non perturb&#233;, <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#916;</mo><msub><mrow><mstyle mathvariant="italic"><mi>&#957;</mi></mstyle></mrow><mrow><mrow><mi mathvariant="normal">C</mi><mi>s</mi></mrow></mrow></msub></math></stem>, a &#233;t&#233; adopt&#233;e par la CGPM &#224; sa 26<sup>e</sup> r&#233;union
+(2018) dans sa R&#233;solution 1.</p>
+</clause>
+<clause id="_unit&#233;_de_longueur_le_m&#232;tre_longueurmtre_unitsmlmmtre_unitsmlmprototype_international" obligation="normative">
+<title>Unit&#233; de longueur, le m&#232;tre <index><primary>longueur</primary></index><index><primary>m&#232;tre (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu1"><mi mathvariant="normal">m</mi></mrow>
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index><index><primary>m&#232;tre (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu1"><mi mathvariant="normal">m</mi></mrow>
+
+
+
+
+
+
+
+
+</math></stem>)</primary><secondary>prototype international</secondary></index></title>
+<p id="_0c4f743b-004f-4881-a66b-1b9ce3a67f47">La d&#233;finition du m&#232;tre de 1889, &#224; savoir la longueur du prototype international en platine
+iridi&#233;, avait &#233;t&#233; remplac&#233;e par la CGPM &#224; sa 11<sup>e</sup> r&#233;union (1960) par une d&#233;finition fond&#233;e
+sur la longueur d&#8217;onde d&#8217;une radiation correspondant &#224; une transition particuli&#232;re du
+krypton 86, afin d&#8217;am&#233;liorer l&#8217;exactitude de la r&#233;alisation de la d&#233;finition du m&#232;tre.
+Cette r&#233;alisation &#233;tait effectu&#233;e au moyen d&#8217;un interf&#233;rom&#232;tre et d&#8217;un microscope mobile en
+translation utilis&#233;s pour mesurer la variation des trajets optiques par comptage de franges.
+Cette d&#233;finition fut remplac&#233;e en 1983 par la CGPM &#224; sa 17<sup>e</sup> r&#233;union (R&#233;solution 1&#160;;
+CR, 97 et <em>Metrologia</em>, 1984, <strong>20</strong>, 25) par une d&#233;finition fond&#233;e sur la longueur<index><primary>longueur</primary></index> du trajet
+parcouru dans le vide par la lumi&#232;re dans un intervalle de temps sp&#233;cifique. Le prototype
+international du m&#232;tre originel, qui fut approuv&#233; par la CGPM &#224; sa 1<sup>&#232;re</sup> r&#233;union en 1889
+(CR, 34-38), est toujours conserv&#233; au BIPM dans les conditions fix&#233;es en 1889. Afin de
+mettre en &#233;vidence la d&#233;pendance de la d&#233;finition du m&#232;tre<index><primary>m&#232;tre (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu1"><mi mathvariant="normal">m</mi></mrow>
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index> vis-&#224;-vis de la valeur num&#233;rique
+fix&#233;e de la vitesse de la lumi&#232;re, <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>c</mi></math></stem>, la formulation de la d&#233;finition du m&#232;tre a &#233;t&#233; modifi&#233;e
+par la CGPM &#224; sa 26<sup>e</sup> r&#233;union (2018) dans sa R&#233;solution 1.</p>
+</clause>
+<clause id="_unit&#233;_de_masse_le_kilogramme_kilogrammeprototype_internationalmasse" obligation="normative"><title>Unit&#233; de masse, le kilogramme <index><primary>kilogramme</primary><secondary>prototype international</secondary></index><index><primary>masse</primary></index></title><p id="_6ddeab10-95e6-4174-9c95-0b04a29230d7">Selon la d&#233;finition du kilogramme<index><primary>kilogramme</primary></index> de 1889, l&#8217;unit&#233; de masse &#233;tait simplement &#233;gale &#224; la
+masse du prototype international du kilogramme, un art&#233;fact fabriqu&#233; en platine iridi&#233;.
+Ce prototype &#233;tait conserv&#233; au BIPM, et l&#8217;est toujours, dans les conditions fix&#233;es par la
+CGPM &#224; sa 1<sup>&#232;re</sup> r&#233;union en 1889 (CR, 34-38) lorsque cette derni&#232;re sanctionna le prototype
+et d&#233;clara&#160;: &#171;&#160;Ce prototype sera consid&#233;r&#233; d&#233;sormais comme unit&#233; de masse&#160;&#187;.
+Quarante prototypes similaires ont &#233;t&#233; fabriqu&#233;s &#224; la m&#234;me &#233;poque&#160;; tous ont &#233;t&#233; usin&#233;s et
+polis afin d&#8217;avoir la m&#234;me masse<index><primary>masse</primary></index> que celle du prototype international. Lors de la premi&#232;re
+r&#233;union de la CGPM en 1889, la plupart de ces &#171;&#160;&#233;talons nationaux&#160;&#187;, une fois &#233;talonn&#233;s &#224;
+l&#8217;aide du prototype international du kilogramme, ont &#233;t&#233; assign&#233;s &#224; des &#201;tats Membres de la
+Convention du M&#232;tre<index><primary>Convention du M&#232;tre</primary></index> et certains au BIPM. La CGPM &#224; sa 3<sup>e</sup> r&#233;union en 1901 (CR, 70),
+dans une d&#233;claration visant &#224; faire cesser l&#8217;ambigu&#239;t&#233; qui existait dans l&#8217;usage courant sur la
+signification du terme &#171;&#160;poids&#160;&#187;, confirma que &#171;&#160;le kilogramme est l&#8217;unit&#233; de masse&#160;; il est
+&#233;gal &#224; la masse<index><primary>masse</primary></index> du prototype international du kilogramme&#160;&#187;&#160;; la version compl&#232;te de cette
+d&#233;claration figure page 70 des comptes rendus de la CGPM pr&#233;c&#233;demment mentionn&#233;s.
+<index><primary>v&#233;rification du kilogramme</primary></index>
+<index><primary>unit&#233;(s)</primary><secondary>&#233;lectriques</secondary></index></p>
+<p id="_28f814d8-5c62-49c5-8f70-1d42bcbee0d2">Lors de la seconde<index><primary>seconde</primary></index> v&#233;rification des prototypes nationaux en 1946, il fut toutefois constat&#233;
+qu&#8217;en moyenne, la masse<index><primary>masse</primary></index> de ces prototypes divergeait par rapport &#224; celle du prototype
+international. Cela fut confirm&#233; lors de la troisi&#232;me v&#233;rification, effectu&#233;e de 1989 &#224; 1991,
+la diff&#233;rence moyenne &#233;tant d&#8217;environ 25 microgrammes pour l&#8217;ensemble des prototypes
+originaux sanctionn&#233;s par la CGPM &#224; sa premi&#232;re r&#233;union (1889). Afin d&#8217;assurer la stabilit&#233;
+&#224; long terme de l&#8217;unit&#233; de masse<index><primary>masse</primary></index>, de tirer pleinement parti des &#233;talons &#233;lectriques
+quantiques et de r&#233;pondre au mieux &#224; la science moderne, une nouvelle d&#233;finition du
+kilogramme<index><primary>kilogramme</primary></index> fond&#233;e sur la valeur d&#8217;une constante fondamentale<index><primary>constante</primary><secondary>fondamentale (de la physique)</secondary></index>, la constante de Planck<index><primary>constante</primary><secondary>de Planck</secondary></index> <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>h</mi></math></stem>,
+a &#233;t&#233; adopt&#233;e par la CGPM &#224; sa 26<sup>e</sup> r&#233;union (2018) dans sa R&#233;solution 1.</p></clause>
+<clause id="_unit&#233;_de_courant_lectriquecourant_lectrique_lamp&#232;reampre_unitsmla_ohm_unitsmlohm" obligation="normative"><title>Unit&#233; de courant &#233;lectrique<index><primary>courant &#233;lectrique</primary></index>, l&#8217;amp&#232;re<index><primary>amp&#232;re (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu4"><mi mathvariant="normal">A</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index> <index to="ohm_omega-2"><primary>ohm (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu18"><mi mathvariant="normal">&#8486;</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index></title><p id="_a3f7c683-ad63-4472-a2a9-4cc47c1cecd0">Des unit&#233;s &#233;lectriques, dites &#171;&#160;internationales&#160;&#187;, pour le courant et la r&#233;sistance, avaient &#233;t&#233;
+introduites par le Congr&#232;s international d&#8217;&#233;lectricit&#233; tenu &#224; Chicago en 1893 et les
+d&#233;finitions de l&#8217;amp&#232;re<index><primary>amp&#232;re (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu4"><mi mathvariant="normal">A</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index> &#171;&#160;international&#160;&#187; et de l&#8217;ohm &#171;&#160;international&#160;&#187; furent confirm&#233;es par
+la Conf&#233;rence internationale de Londres en 1908.
+<index><primary>unit&#233;(s)</primary><secondary>absolues</secondary></index></p>
+<p id="_7777550e-4017-4e4e-9dc9-d180533dbda2">Le souhait unanime de remplacer ces unit&#233;s &#171;&#160;internationales&#160;&#187; par des unit&#233;s dites
+&#171;&#160;absolues&#160;&#187; fut d&#233;j&#224; exprim&#233; lors de la 8<sup>e</sup> r&#233;union de la CGPM (1933). Toutefois, &#233;tant
+donn&#233; que certains laboratoires n&#8217;avaient pas encore achev&#233; les exp&#233;riences n&#233;cessaires
+pour d&#233;terminer les rapports entre les unit&#233;s internationales et les unit&#233;s absolues, la CGPM
+chargea le CIPM de d&#233;cider, en temps opportun, des rapports et de la date d&#8217;adoption de ces
+nouvelles unit&#233;s absolues. Le CIPM d&#233;cida en 1946 (1946, R&#233;solution 2, PV, <strong>20</strong>, 129-137)
+que les nouvelles unit&#233;s entreraient en vigueur le 1<sup>er</sup> janvier 1948. En octobre 1948,
+la CGPM &#224; sa 9<sup>e</sup> r&#233;union approuva les d&#233;cisions prises par le CIPM. La d&#233;finition de
+l&#8217;amp&#232;re<index><primary>amp&#232;re (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu4"><mi mathvariant="normal">A</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index> choisie par le CIPM &#233;tait fond&#233;e sur la force produite entre deux conducteurs
+parall&#232;les parcourus par un courant &#233;lectrique<index><primary>courant &#233;lectrique</primary></index> et fixait par cons&#233;quent la valeur de la
+perm&#233;abilit&#233; magn&#233;tique du vide<index><primary>constante</primary><secondary>magn&#233;tique, perm&#233;abilit&#233; du vide</secondary></index> <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>&#956;</mi></mstyle></mrow><mrow><mn>0</mn></mrow></msub></math></stem> (ou constante magn&#233;tique). La valeur de la permittivit&#233;
+di&#233;lectrique du vide <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>&#949;</mi></mstyle></mrow><mrow><mn>0</mn></mrow></msub></math></stem> (ou constante &#233;lectrique) fut ensuite fix&#233;e du fait
+de l&#8217;adoption de la nouvelle d&#233;finition du m&#232;tre en 1983.
+<index><primary>effet</primary><secondary>Hall (y compris Hall quantique)</secondary></index><index><primary>effet</primary><secondary>Josephson</secondary></index><index><primary>volt (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu16"><mi mathvariant="normal">V</mi></mrow>
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index></p>
+<p id="_a0c312b2-2340-4635-be4e-a0fed73ff6f7">Toutefois, la d&#233;finition de l&#8217;amp&#232;re<index><primary>amp&#232;re (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu4"><mi mathvariant="normal">A</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index> de 1948 s&#8217;av&#233;ra difficile &#224; r&#233;aliser et les &#233;talons
+quantiques pratiques (&#224; effet Josephson et &#224; effet Hall quantique), qui relient le volt et
+l&#8217;ohm aux combinaisons particuli&#232;res de la constante de Planck<index><primary>constante</primary><secondary>de Planck</secondary></index> <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>h</mi></math></stem> et de la charge
+&#233;l&#233;mentaire <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>e</mi></math></stem>, furent utilis&#233;s de fa&#231;on presque universelle comme r&#233;alisation pratique de
+l&#8217;amp&#232;re<index><primary>amp&#232;re (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu4"><mi mathvariant="normal">A</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index> &#224; l&#8217;aide de la loi d&#8217;Ohm (CGPM, 1987, R&#233;solution 6&#160;; CR, 100). Par cons&#233;quent,
+il devint naturel non seulement de fixer la valeur num&#233;rique de <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>h</mi></math></stem> pour red&#233;finir le
+kilogramme mais aussi de fixer la valeur num&#233;rique de <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>e</mi></math></stem> pour red&#233;finir l&#8217;amp&#232;re<index><primary>amp&#232;re (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu4"><mi mathvariant="normal">A</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index> afin que
+les &#233;talons &#233;lectriques quantiques pratiques soient exactement en accord avec le SI.
+L&#8217;actuelle d&#233;finition de l&#8217;amp&#232;re<index><primary>amp&#232;re (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu4"><mi mathvariant="normal">A</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index> fond&#233;e sur une valeur num&#233;rique fix&#233;e de la charge
+&#233;l&#233;mentaire, <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>e</mi></math></stem>, a &#233;t&#233; adopt&#233;e par la CGPM &#224; sa 26<sup>e</sup> r&#233;union (2018) dans sa R&#233;solution 1. <bookmark id="ohm_omega-2"/></p></clause>
+<clause id="_unit&#233;_de_temp&#233;rature_thermodynamique_le_kelvin_kelvin_unitsmlk_tempraturethermodynamique_eau_composition_isotopique" obligation="normative">
+<title>Unit&#233; de temp&#233;rature thermodynamique, le kelvin <index><primary>kelvin (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu5"><mi mathvariant="normal">K</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index> <index><primary>temp&#233;rature</primary><secondary>thermodynamique</secondary></index> <index><primary>eau, composition isotopique</primary></index></title>
+<p id="_79eadfac-5d52-447d-8286-b8c7abf5679c">La d&#233;finition de l&#8217;unit&#233; de temp&#233;rature thermodynamique fut donn&#233;e par la CGPM &#224; sa
+10<sup>e</sup> r&#233;union (1954, R&#233;solution 3&#160;; CR, 79) qui choisit
+le point triple de l&#8217;eau<index><primary>point triple de l&#8217;eau</primary></index>, <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>T</mi></mstyle></mrow><mrow><mtext>TPW</mtext></mrow></msub></math></stem>, comme
+point fixe fondamental en lui attribuant la temp&#233;rature de <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>273.16</mn><mo rspace="thickmathspace">&#8290;</mo><mrow xref="U_NISTu5"><mi mathvariant="normal">K</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem> par d&#233;finition.
+La CGPM &#224; sa 13<sup>e</sup> r&#233;union (1967-1968, R&#233;solution 3&#160;; CR, 104 et <em>Metrologia</em>, 1968, <strong>4</strong>, 43)
+adopta le nom &#171;&#160;kelvin&#160;&#187;, symbole <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu5"><mi mathvariant="normal">K</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>, au lieu de &#171;&#160;degr&#233; kelvin&#160;&#187;<index><primary>degr&#233; kelvin</primary></index>, symbole <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu5"><mi mathvariant="normal">&#176;K</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>, pour l&#8217;unit&#233;
+d&#233;finie de cette fa&#231;on. Toutefois, les difficult&#233;s pratiques li&#233;es &#224; la r&#233;alisation de cette
+d&#233;finition, qui requiert un &#233;chantillon d&#8217;eau pure &#224; la composition isotopique bien d&#233;finie
+ainsi que le d&#233;veloppement de nouvelles m&#233;thodes primaires thermom&#233;triques, ont conduit
+&#224; l&#8217;adoption d&#8217;une nouvelle d&#233;finition du kelvin fond&#233;e sur une valeur num&#233;rique fix&#233;e de
+la constante de Boltzmann<index><primary>constante</primary><secondary>de Boltzmann</secondary></index>, <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math></stem>. L&#8217;actuelle d&#233;finition du kelvin, qui supprime ces contraintes,
+a &#233;t&#233; adopt&#233;e par la CGPM &#224; sa 26<sup>e</sup> r&#233;union (2018) dans sa R&#233;solution 1.</p>
+</clause>
+<clause id="_unit&#233;_de_quantit&#233;_de_mati&#232;re_la_mole_mole_unitsmlmolmolcule_grammepoids_atomiquepoids_molculairequantit_de_matire_quantit_de_matire_carbone" obligation="normative"><title>Unit&#233; de quantit&#233; de mati&#232;re, la mole <index to="mole_mol-2"><primary>mole (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu6"><mi mathvariant="normal">mol</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index><index><primary>mol&#233;cule gramme</primary></index><index><primary>poids atomique</primary></index><index><primary>poids mol&#233;culaire</primary></index><index><primary>quantit&#233; de mati&#232;re</primary></index> <index to="quantite_matiere-2"><primary>quantit&#233; de mati&#232;re</primary></index> <index to="carbone"><primary>carbone</primary></index></title><p id="_fb0a4f0e-f906-4413-a4c6-904dc5399f25">Apr&#232;s la d&#233;couverte des lois fondamentales de la chimie, on a utilis&#233;, pour sp&#233;cifier les
+quantit&#233;s des divers &#233;l&#233;ments et compos&#233;s chimiques, des unit&#233;s portant par exemple les
+noms de &#171;&#160;atome-gramme&#160;&#187;<index><primary>atome gramme</primary></index> et &#171;&#160;mol&#233;cule-gramme&#160;&#187;. Ces unit&#233;s &#233;taient li&#233;es directement
+aux &#171;&#160;poids atomiques&#160;&#187; et aux &#171;&#160;poids mol&#233;culaires&#160;&#187; qui &#233;taient en r&#233;alit&#233; des masses
+atomiques et mol&#233;culaires relatives. Les &#171;&#160;poids atomiques&#160;&#187; furent d&#8217;abord rapport&#233;s &#224;
+celui de l&#8217;&#233;l&#233;ment chimique oxyg&#232;ne, pris par convention &#233;gal &#224; 16. Tandis que les
+physiciens s&#233;paraient les isotopes au spectrom&#232;tre de masse<index><primary>masse</primary></index> et attribuaient la valeur 16 &#224;
+l&#8217;un des isotopes de l&#8217;oxyg&#232;ne, les chimistes attribuaient la m&#234;me valeur au m&#233;lange
+(de composition l&#233;g&#232;rement variable) des isotopes 16, 17 et 18 qui constitue l&#8217;&#233;l&#233;ment
+oxyg&#232;ne naturel. Un accord entre l&#8217;International Union of Pure and Applied Physics
+(IUPAP)<index><primary>IUPAP</primary></index> et l&#8217;International Union of Pure and Applied Chemistry (IUPAC)<index><primary>IUPAC</primary></index> mit fin &#224; cette
+dualit&#233; en 1959/60. Physiciens et chimistes convinrent d&#8217;attribuer la valeur 12, exactement,
+au &#171;&#160;poids atomique&#160;&#187; de l&#8217;isotope 12 du carbone (carbone 12, <sup>12</sup>C), ou selon une
+formulation plus correcte &#224; la masse<index><primary>masse</primary></index> atomique relative <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>A</mi></mstyle></mrow><mrow><mtext>r</mtext></mrow></msub></math></stem> de l&#8217;isotope 12 du carbone.
+L&#8217;&#233;chelle unifi&#233;e ainsi obtenue donne les valeurs des masses atomiques et mol&#233;culaires
+relatives, aussi connues sous le nom de poids atomiques et mol&#233;culaires, respectivement.
+Cet accord est rest&#233; en vigueur jusqu&#8217;&#224; la red&#233;finition du SI en 2018.</p>
+<p id="_9014b514-d211-4e43-bd09-c3a1f71b9c56">La grandeur utilis&#233;e par les chimistes pour sp&#233;cifier la quantit&#233; d&#8217;&#233;l&#233;ments ou de compos&#233;s
+chimiques est appel&#233;e &#171;&#160;quantit&#233; de mati&#232;re&#160;&#187;. La quantit&#233; de mati&#232;re, symbole <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>n</mi></math></stem>,
+est d&#233;finie comme &#233;tant proportionnelle au nombre d&#8217;entit&#233;s &#233;l&#233;mentaires <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>N</mi></mstyle></math></stem> d&#8217;un
+&#233;chantillon, la constante de proportionnalit&#233; &#233;tant une constante universelle identique pour
+toutes les entit&#233;s. La constante de proportionnalit&#233; est l&#8217;inverse de la constante d&#8217;Avogadro<index><primary>constante</primary><secondary>d&#8217;Avogadro</secondary></index>,
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>N</mi></mstyle></mrow><mrow><mtext>A</mtext></mrow></msub></math></stem>, de sorte que <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>n</mi><mo>=</mo><mstyle mathvariant="italic"><mi>N</mi></mstyle><mo>/</mo><msub><mrow><mstyle mathvariant="italic"><mi>N</mi></mstyle></mrow><mrow><mtext>A</mtext></mrow></msub></math></stem>. L&#8217;unit&#233; de quantit&#233; de mati&#232;re<index><primary>quantit&#233; de mati&#232;re</primary></index> est appel&#233;e la <em>mole</em>, symbole <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu6"><mi mathvariant="normal">mol</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>.
+Suivant les propositions de l&#8217;IUPAP, de l&#8217;IUPAC<index><primary>IUPAC</primary></index> et de l&#8217;ISO, le CIPM donna une
+d&#233;finition de la mole<index><primary>mole (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu6"><mi mathvariant="normal">mol</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index> en 1967 qu&#8217;il confirma en 1969&#160;: la masse<index><primary>masse</primary></index> molaire
+<index><primary>masse molaire</primary></index> du carbone<index><primary>carbone</primary></index> 12
+devait &#234;tre exactement <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>0.012</mn><mo rspace="thickmathspace">&#8290;</mo><mrow xref="U_kg/mol"><mi mathvariant="normal">kg</mi><mo>/</mo><mi mathvariant="normal">mol</mi></mrow>
+
+
+
+
+
+
+
+
+</math></stem>. Cela permettait de d&#233;terminer directement la quantit&#233;
+de mati&#232;re <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mi>n</mi></mrow><mrow><mtext>S</mtext></mrow></msub><mfenced open="(" close=")"><mrow><mtext>X</mtext></mrow></mfenced></math></stem> de tout &#233;chantillon pur <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext>S</mtext></math></stem> d&#8217;une entit&#233; <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext>X</mtext></math></stem> &#224; partir de la masse<index><primary>masse</primary></index> de
+l&#8217;&#233;chantillon <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mi>m</mi></mrow><mrow><mtext>S</mtext></mrow></msub></math></stem> et de la masse<index><primary>masse</primary></index> molaire <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>M</mi></mstyle><mfenced open="(" close=")"><mrow><mtext>X</mtext></mrow></mfenced></math></stem> de l&#8217;entit&#233; <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext>X</mtext></math></stem>, la masse molaire<index><primary>masse molaire</primary></index> &#233;tant
+elle-m&#234;me d&#233;termin&#233;e &#224; partir de sa masse<index><primary>masse</primary></index> atomique relative <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>A</mi></mstyle></mrow><mrow><mtext>r</mtext></mrow></msub></math></stem> (poids atomique<index><primary>poids atomique</primary></index> ou
+mol&#233;culaire<index><primary>poids mol&#233;culaire</primary></index> sans avoir besoin de conna&#238;tre de fa&#231;on pr&#233;cise la constante d&#8217;Avogadro<index><primary>constante</primary><secondary>d&#8217;Avogadro</secondary></index>,
+&#224; l&#8217;aide des relations</p>
+<formula id="_7e3beedf-473f-4abe-9d47-2d5bbcb8eb04" unnumbered="true">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mi>n</mi></mrow><mrow><mtext>S</mtext></mrow></msub><mfenced open="(" close=")"><mrow><mtext>X</mtext></mrow></mfenced><mo>=</mo><msub><mrow><mi>m</mi></mrow><mrow><mtext>S</mtext></mrow></msub><mo>/</mo><mstyle mathvariant="italic"><mi>M</mi></mstyle><mfenced open="(" close=")"><mrow><mtext>X</mtext></mrow></mfenced><mi>,</mi><mtext>&#160;and&#160;</mtext><mstyle mathvariant="italic"><mi>M</mi></mstyle><mfenced open="(" close=")"><mrow><mtext/><mi mathvariant="normal">X</mi><mtext/></mrow></mfenced><mo>=</mo><msub><mrow><mstyle mathvariant="italic"><mi>A</mi></mstyle></mrow><mrow><mtext>r</mtext></mrow></msub><mfenced open="(" close=")"><mrow><mtext>X</mtext></mrow></mfenced><mrow xref="U_g/mol"><mi mathvariant="normal">g</mi><mo>/</mo><mi mathvariant="normal">mol</mi></mrow>
+
+
+
+
+
+
+
+</math></stem>
+</formula>
+<p id="_1456b806-f063-44df-8618-a9769fc9166d">Ainsi, la d&#233;finition de la mole<index><primary>mole (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu6"><mi mathvariant="normal">mol</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index> d&#233;pendait de la d&#233;finition du kilogramme fond&#233;e sur un
+art&#233;fact.</p>
+<p id="_767b4513-f2ba-470a-876a-0852768efe8e">La valeur num&#233;rique de la constante d&#8217;Avogadro<index><primary>constante</primary><secondary>d&#8217;Avogadro</secondary></index> ainsi d&#233;finie &#233;tait &#233;gale au nombre
+d&#8217;atomes dans 12 grammes de carbone<index><primary>carbone</primary></index> 12. Toutefois, en raison des avanc&#233;es
+technologiques r&#233;centes, ce nombre est d&#233;sormais connu avec une pr&#233;cision telle qu&#8217;une
+d&#233;finition plus simple et plus universelle de la mole est devenue possible, &#224; savoir une
+d&#233;finition indiquant exactement le nombre d&#8217;entit&#233;s dans une mole d&#8217;une mati&#232;re quelle
+qu&#8217;elle soit, ce qui fixe la valeur num&#233;rique de la constante d&#8217;Avogadro<index><primary>constante</primary><secondary>d&#8217;Avogadro</secondary></index>. Par cons&#233;quent,
+cette nouvelle d&#233;finition de la mole et la valeur de la constante d&#8217;Avogadro<index><primary>constante</primary><secondary>d&#8217;Avogadro</secondary></index> ne sont plus
+d&#233;pendantes de la d&#233;finition du kilogramme. Par ailleurs, cela souligne la distinction entre
+les grandeurs fondamentalement diff&#233;rentes &#171;&#160;quantit&#233; de mati&#232;re&#160;&#187; et &#171;&#160;masse&#160;&#187;<index><primary>masse</primary></index>. L&#8217;actuelle
+d&#233;finition de la mole<index><primary>mole (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu6"><mi mathvariant="normal">mol</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index> fond&#233;e sur une valeur num&#233;rique fix&#233;e de la constante d&#8217;Avogadro<index><primary>constante</primary><secondary>d&#8217;Avogadro</secondary></index>,
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>N</mi></mstyle></mrow><mrow><mtext>A</mtext></mrow></msub></math></stem>, a &#233;t&#233; adopt&#233;e par la CGPM &#224; sa 26<sup>e</sup> r&#233;union (2018) dans sa R&#233;solution 1. <bookmark id="mole_mol-2"/> <bookmark id="notes_historiques"/> <bookmark id="si_systeme_creation"/> <bookmark id="carbone"/></p></clause>
+<clause id="_unit&#233;_dintensit&#233;_lumineuse_la_candelacandela_unitsmlcdintensit_lumineuse" obligation="normative"><title>Unit&#233; d&#8217;intensit&#233; lumineuse, la candela<index><primary>candela (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu7"><mi mathvariant="normal">cd</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index><index><primary>intensit&#233; lumineuse</primary></index></title><p id="_bbc61e3e-b66f-484b-b1d9-bd78da1f9657">Les unit&#233;s d&#8217;intensit&#233; lumineuse fond&#233;es sur des &#233;talons &#224; flamme ou &#224; filament
+incandescent, qui &#233;taient en usage dans diff&#233;rents pays avant 1948, furent d&#8217;abord
+remplac&#233;es par la &#171;&#160;bougie nouvelle&#160;&#187;<index><primary>bougie nouvelle</primary></index> fond&#233;e sur la luminance du radiateur de Planck
+(corps noir) &#224; la temp&#233;rature de cong&#233;lation du platine. Cette modification avait &#233;t&#233;
+pr&#233;par&#233;e d&#232;s avant 1937 par la Commission internationale de l&#8217;&#233;clairage (CIE) et par le
+CIPM&#160;; la d&#233;cision fut prise par le CIPM en 1946. Elle fut ratifi&#233;e en 1948 par la CGPM &#224;
+sa 9<sup>e</sup> r&#233;union qui adopta pour cette unit&#233; un nouveau nom international, la <em>candela</em>,
+symbole <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu7"><mi mathvariant="normal">cd</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>; en 1954, la CGPM &#224; sa 10<sup>e</sup> r&#233;union &#233;tablit la candela<index><primary>candela (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu7"><mi mathvariant="normal">cd</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index> comme unit&#233; de base&#160;;
+en 1967, la CGPM &#224; sa 13<sup>e</sup> r&#233;union (R&#233;solution 5&#160;; CR, 104 et <em>Metrologia</em>, 1968, <strong>4</strong>, 43-44)
+donna une forme modifi&#233;e &#224; la d&#233;finition de 1946.</p>
+<p id="_8bba9f4c-879f-47f6-b63d-f0edf7e858ed">En 1979, en raison des difficult&#233;s exp&#233;rimentales li&#233;es &#224; la r&#233;alisation du radiateur de
+Planck aux temp&#233;ratures &#233;lev&#233;es et des possibilit&#233;s nouvelles offertes par la radiom&#233;trie,
+c&#8217;est-&#224;-dire la mesure de la puissance des rayonnements optiques, la 16<sup>e</sup> CGPM (1979,
+R&#233;solution 3&#160;; CR, 100 et <em>Metrologia</em>, 1980, <strong>16</strong>, 56) adopta une nouvelle d&#233;finition de la
+candela<index><primary>candela (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu7"><mi mathvariant="normal">cd</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index>.</p>
+<p id="_ab34163f-0107-4c4b-a705-0bb835af2741">L&#8217;actuelle d&#233;finition de la candela<index><primary>candela (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu7"><mi mathvariant="normal">cd</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>)</primary></index>, fond&#233;e sur une valeur num&#233;rique fix&#233;e de l&#8217;efficacit&#233;
+lumineuse d&#8217;un rayonnement monochromatique<index><primary>rayonnement monochromatique</primary></index> de fr&#233;quence <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>540</mn><mo>&#215;</mo><msup><mrow><mn>10</mn></mrow><mrow><mn>12</mn></mrow></msup><mo rspace="thickmathspace">&#8290;</mo><mrow xref="U_NISTu31"><mi mathvariant="normal">Hz</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>, <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>K</mi></mstyle></mrow><mrow><mtext>cd</mtext></mrow></msub></math></stem>,
+a &#233;t&#233; adopt&#233;e par la CGPM &#224; sa 26<sup>e</sup> r&#233;union (2018) dans sa R&#233;solution 1. <bookmark id="quantite_matiere-2"/></p></clause></clause></sections>
+</bipm-standard>

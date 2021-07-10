@@ -1,0 +1,1875 @@
+
+<!DOCTYPE html>
+<html lang="en" xml:lang="en">
+  <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><style>
+  <!--
+@charset "UTF-8";
+/*
+  0 CSS RESET
+*/
+/* http://meyerweb.com/eric/tools/css/reset/
+  v2.0 | 20110126
+  License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0; }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  border: 0;
+  font-size: 100%; }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+b, u, i, center,
+dl, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  vertical-align: baseline; }
+
+html, body, div, span, applet, object, iframe,
+p, blockquote,
+a, abbr, acronym, address, big, cite,
+del, dfn, em, img, ins, q, s,
+small, strike, strong, sub, sup, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  font-family: Times New Roman; }
+
+code, pre, tt, kbd, samp {
+  font-family: "Space Mono",monospace;
+  font-variant-ligatures: none; }
+
+code *, pre *, tt *, kbd *, samp * {
+  font-family: "Space Mono",monospace !important;
+  font-variant-ligatures: none; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Times New Roman; }
+
+blockquote, q {
+  quotes: none; }
+  blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none; }
+
+.h2Annex {
+  font-family: Times New Roman; }
+
+dl {
+  display: grid;
+  grid-template-columns: max-content auto; }
+  dl dt p, dl dd p {
+    margin-top: 0; }
+  dl dt {
+    grid-column-start: 1; }
+  dl dd {
+    grid-column-start: 2; }
+
+b, strong {
+  font-weight: bold; }
+
+div.document-stage-band, div.document-type-band {
+  background-color: #333333; }
+
+a.FootnoteRef + a.FootnoteRef:before {
+  content: ", ";
+  vertical-align: super; }
+
+.addition {
+  color: blue; }
+
+.deletion {
+  color: red;
+  text-decoration: line-through; }
+
+#brochure-band {
+  background-color: #0AC442; }
+
+#brochure {
+  border-bottom: solid 3px #0AC442; }
+
+#mise-en-pratique-band {
+  background-color: #540D6E; }
+
+#mise-en-pratique {
+  border-bottom: solid 3px #540D6E; }
+
+#rapport-band {
+  background-color: #D183C9; }
+
+#rapport {
+  border-bottom: solid 3px #D183C9; }
+
+#monographie-band {
+  background-color: #65AFFF; }
+
+#monographie {
+  border-bottom: solid 3px #65AFFF; }
+
+#guide-band {
+  background-color: #3A405A; }
+
+#guide {
+  border-bottom: solid 3px #3A405A; }
+
+#meeting-report-band {
+  background-color: #F26430; }
+
+#meeting-report {
+  border-bottom: solid 3px #F26430; }
+
+#technical-report-band {
+  background-color: #C84630; }
+
+#technical-report {
+  border-bottom: solid 3px #C84630; }
+
+#working-part-note-band {
+  background-color: #BFAE48; }
+
+#working-part-note {
+  border-bottom: solid 3px #BFAE48; }
+
+#strategy-band {
+  background-color: #BD9391; }
+
+#strategy {
+  border-bottom: solid 3px #BD9391; }
+
+#cipm-mra-band {
+  background-color: #004E64; }
+
+#cipm-mra {
+  border-bottom: solid 3px #004E64; }
+
+#resolution-band {
+  background-color: #53C170; }
+
+#resolution {
+  border-bottom: solid 3px #53C170; }
+
+#draft-proposal-band {
+  background-color: #39A0ED; }
+
+#draft-proposal {
+  border-bottom: solid 3px #39A0ED; }
+
+#draft-development-band {
+  background-color: #2D7393; }
+
+#draft-development {
+  border-bottom: solid 3px #2D7393; }
+
+#in-force-band {
+  background-color: #53C170; }
+
+#in-force {
+  border-bottom: solid 3px #53C170; }
+
+#retired-band {
+  background-color: #2E382E; }
+
+#retired {
+  border-bottom: solid 3px #2E382E; }
+
+/*
+    1. HTML & Body
+*/
+body {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.4em;
+  color: #1d1d1d;
+  background-color: #ffffff;
+  font-weight: 400; }
+  body main {
+    margin: 0 3em 0 6em; }
+  body pre * {
+    font-family: Times New Roman !important; }
+
+main {
+  margin: 0 3em 0 6em; }
+
+/*
+    2. Responsive navigation layout
+*/
+#toc {
+  font-family: Times New Roman;
+  font-weight: 400; }
+  #toc ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    #toc ul li a {
+      padding: 5px 10px; }
+    #toc ul a {
+      color: #485094;
+      text-decoration: none;
+      display: block; }
+      #toc ul a:hover {
+        box-shadow: none;
+        color: #485094; }
+  #toc .h2 {
+    padding-left: 30px; }
+  #toc .h3 {
+    padding-left: 50px; }
+  #toc .toc-active, #toc li:hover {
+    background: #6C734A;
+    box-shadow: inset -5px 0px 10px -5px #6C734A !important; }
+    #toc .toc-active a, #toc li:hover a {
+      color: #485094; }
+  @media print {
+    #toc .toc-active, #toc li:hover {
+      background: white;
+      box-shadow: none !important; }
+    #toc .toc-active a {
+      color: #485094; }
+    #toc li:hover a {
+      color: black; } }
+  @media screen and (max-width: 768px) {
+    #toc {
+      padding: 0 1.5em;
+      overflow: visible; } }
+  #toc .toc-active a {
+    color: white; }
+  #toc .toc-active,
+  #toc li:hover {
+    box-shadow: none !important; }
+    #toc .toc-active a,
+    #toc li:hover a {
+      color: white;
+      background: none;
+      box-shadow: none; }
+  #toc li a {
+    text-transform: uppercase; }
+  #toc ul a:hover {
+    box-shadow: none;
+    color: white; }
+
+@media screen and (min-width: 768px) {
+  nav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 323px;
+    font-size: 0.9em;
+    overflow: auto;
+    padding: 0 0 0 45px;
+    background-color: #f7f7f7; } }
+
+@media print {
+  nav {
+    position: relative;
+    width: auto;
+    font-size: 0.9em;
+    overflow: auto;
+    padding: 0;
+    margin-right: 0;
+    background-color: white; } }
+
+@media screen and (min-width: 768px) {
+  #toggle {
+    position: fixed;
+    height: 100%;
+    width: 30px;
+    background-color: #6C734A;
+    color: white !important;
+    cursor: pointer;
+    z-index: 100; }
+    #toggle span {
+      text-align: center;
+      width: 100%;
+      position: absolute;
+      top: 50%;
+      transform: translate(0, -50%); } }
+
+@media screen and (max-width: 768px) {
+  #toggle {
+    display: none; } }
+
+@media print {
+  #toggle {
+    display: none; } }
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding-left: 360px; }
+  .rule.toc {
+    display: none; }
+  h1.toc-contents {
+    margin-top: 1em; }
+  ul#toc-list {
+    padding: 0;
+    margin: 0; } }
+
+div.figure {
+  line-height: 1.6em;
+  padding: 1.5em;
+  margin: 2em 0 1em 0;
+  overflow: auto; }
+  div.figure .FigureTitle, div.figure .figure-title {
+    font-weight: 700;
+    font-size: 1em;
+    text-align: center; }
+  div.figure > img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 100%;
+    height: auto; }
+
+/*
+    Document types + stages
+*/
+.document-type-band {
+  left: 0;
+  top: 180px;
+  height: 100%;
+  position: fixed;
+  display: block;
+  z-index: 102; }
+  .document-type-band > :first-child {
+    position: relative;
+    width: 25px;
+    font-weight: 400;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    margin: 0;
+    margin-left: 6px;
+    writing-mode: tb-rl;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    white-space: nowrap;
+    display: block;
+    bottom: 0; }
+  @media print {
+    .document-type-band {
+      display: none; } }
+  .document-type-band .document-type {
+    top: 20px; }
+
+.document-stage-band {
+  left: 0;
+  top: 0;
+  height: 100%;
+  position: fixed;
+  display: block;
+  z-index: 101;
+  box-shadow: -5px 0px 10px #1d1d1d; }
+  .document-stage-band > :first-child {
+    position: relative;
+    width: 25px;
+    font-weight: 400;
+    height: 150;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    margin: 0;
+    margin-left: 6px;
+    writing-mode: tb-rl;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    white-space: nowrap;
+    display: block;
+    bottom: 0; }
+  @media print {
+    .document-stage-band {
+      display: none; } }
+.document-stage-band > :first-child {
+  font-weight: 300; }
+
+p.document-stage {
+  position: relative;
+  width: 25px;
+  font-weight: 400;
+  height: 150;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  margin: 0;
+  margin-left: 6px;
+  writing-mode: tb-rl;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  white-space: nowrap;
+  display: block;
+  bottom: 0; }
+
+#governance-band p.document-type {
+  height: 230px !important; }
+
+p.document-stage {
+  font-weight: 300;
+  height: 160px; }
+
+.coverpage-maturity {
+  font-family: Times New Roman;
+  font-weight: 400;
+  font-size: 1em;
+  margin: 0 0 2em 0;
+  text-transform: uppercase; }
+
+/*
+    3. TYPOGRAPHY
+*/
+/*
+    3.1 Titles
+*/
+h1, h2, h3, h4, h5, h6 {
+  font-family: Times New Roman;
+  color: #6C734A;
+  font-weight: 300;
+  margin-top: 1.6em;
+  margin-bottom: 0.3em; }
+
+h1 {
+  font-size: 1.6em;
+  text-transform: uppercase;
+  margin-top: 2em; }
+
+h1#content {
+  margin-top: 2em; }
+
+h2 {
+  margin-top: 1.3em;
+  font-size: 1.3em;
+  font-weight: 400; }
+
+h3 {
+  margin-top: 1.1em;
+  font-size: 1.1em;
+  font-weight: 100; }
+
+.TermNum, .Terms, .AltTerms {
+  color: #6C734A;
+  font-weight: 100; }
+
+h2.TermNum {
+  margin-bottom: 0; }
+
+p.Terms {
+  font-size: 1.1em;
+  line-height: 1.5em;
+  margin: 0; }
+
+p.AltTerms {
+  /*
+    font-style: italic;
+     */
+  font-size: 1.1em;
+  margin: 0; }
+
+/*
+    3.2 Links
+*/
+a, a:visited {
+  text-decoration: none;
+  color: #485094; }
+
+a:hover {
+  color: white;
+  background: #6C734A;
+  box-shadow: 3px 0 0 #6C734A, -3px 0 0 #6C734A; }
+
+::selection,
+::-moz-selection {
+  background: #6C734A;
+  color: white; }
+
+/*
+    3.3 Lists
+*/
+ul, ol {
+  margin-left: 1.2em; }
+
+ul li {
+  list-style: none; }
+
+ul li:before {
+  content: "—";
+  display: inline-block;
+  width: 1em;
+  margin-left: -1.2em; }
+
+ul li p {
+  display: inline; }
+
+ul li:first-child {
+  margin-top: 1em; }
+
+#toc-list ul {
+  margin-bottom: 0.25em; }
+
+#toc-list li {
+  list-style-type: none; }
+
+#toc li:before {
+  content: " ";
+  display: none; }
+
+/* https://github.com/metanorma/metanorma-bipm/issues/47 */
+ol[class="alphabet"] {
+  counter-reset: alphabet; }
+
+ol[class="roman"] {
+  counter-reset: roman; }
+
+ol[class="alphabet"] ol[class="alphabet"] {
+  counter-reset: none; }
+
+ol[class="alphabet"] > li {
+  list-style: none;
+  position: relative; }
+
+ol[class="alphabet"] ol[class="alphabet"] > li {
+  list-style: inherit; }
+
+ol[class="alphabet"] > li:before {
+  counter-increment: alphabet;
+  content: counter(alphabet, lower-alpha) ") ";
+  position: absolute;
+  left: -1.4em; }
+
+ol[class="alphabet"] ol[class="alphabet"] > li:before {
+  counter-increment: none;
+  content: initial; }
+
+ol[class="roman"] ol[class="roman"] {
+  counter-reset: none; }
+
+ol[class="roman"] > li {
+  list-style: none;
+  position: relative; }
+
+ol[class="roman"] ol[class="roman"] > li {
+  list-style: inherit; }
+
+ol[class="roman"] > li:before {
+  counter-increment: roman;
+  content: "(" counter(roman, lower-roman) ") ";
+  position: absolute;
+  left: -2.0em; }
+
+ol[class="roman"] ol[class="roman"] > li:before {
+  counter-increment: none;
+  content: initial; }
+
+/*
+    3.4 Rules
+*/
+.rule {
+  width: 100%;
+  height: 1px;
+  background-color: #0e1a85;
+  margin: 2em 0; }
+
+/*
+    3.5 Bibliograhy
+*/
+p.Biblio, p.NormRef {
+  margin-top: 1em;
+  margin-left: 2em; }
+
+/*
+    3.6 Source Code + figures
+*/
+.figure,
+pre,
+.pseudocode {
+  background-color: #f7f7f7;
+  font-size: ;
+  line-height: 1.6em;
+  padding: 1.5em;
+  margin: 2em 0 1em 0;
+  overflow: auto; }
+  .figure .SourceTitle,
+  pre .SourceTitle,
+  .pseudocode .SourceTitle {
+    font-weight: 700;
+    font-size: 1em;
+    text-align: center; }
+
+pre {
+  font-family: "Space Mono",monospace;
+  font-variant-ligatures: none; }
+
+.AdmonitionTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center; }
+
+.RecommendationTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center; }
+
+.FigureTitle,
+.SourceTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center; }
+
+/*
+    3.7 Notes
+*/
+.Note {
+  background-color: #fff495;
+  color: #47430c;
+  padding: 1.2em;
+  margin: 1em 0 1em 0; }
+  .Note p {
+    margin: 0; }
+
+/*
+    3.8 Examples
+*/
+.example {
+  background-color: #e1eef1;
+  padding: 1.2em;
+  margin: 2em 0 1em 0;
+  text-align: left;
+  color: #424242;
+  padding-left: 2.7em; }
+  .example p {
+    margin: 0; }
+  .example .example-title {
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: -1.5em; }
+  .example .example-title {
+    margin-top: 0; }
+  .example pre,
+  .example .pseudocode {
+    background: none; }
+
+/*
+    3.9 Tables
+*/
+table {
+  width: 100%;
+  font-weight: 300;
+  margin: 1em 0 2em 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 2em; }
+  table, table th, table td {
+    border: 1px solid black;
+    font-size: 0.95em; }
+  table th, table td {
+    padding: 1em; }
+  table td.header {
+    font-weigth: 400; }
+
+p.TableTitle {
+  text-align: center;
+  margin-top: 2.5em;
+  font-weight: 400; }
+
+/*
+  3.10 Footnotes
+*/
+a.footnote-number {
+  vertical-align: super;
+  font-size: 0.8em; }
+
+.footnote {
+  font-size: 0.9em; }
+
+/*
+    3.11 Blockquotes
+*/
+.Quote {
+  background-color: #f2f2f2;
+  font-style: italic;
+  width: 80%;
+  padding: 1.5em;
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto; }
+
+/*
+    3.12 Formulas
+*/
+.formula {
+  background-color: #f7f7f7;
+  padding: 1.5em;
+  margin-top: 2em;
+  text-align: center; }
+
+/*
+    3.13 Contact Info
+*/
+.contact-info {
+  padding: 2em;
+  margin-top: 5em;
+  width: 250px;
+  text-align: left;
+  border: #6C734A solid 2px;
+  color: #6C734A !important;
+  border-radius: 25px; }
+
+.contact-info a,
+.contact-info a:hover {
+  color: #6C734A; }
+
+.contact-info p, .contact-info a {
+  font-family: "Space Mono",monospace;
+  font-weight: 400; }
+
+.contact-info .name {
+  font-weight: 700;
+  font-size: 1.2em;
+  margin-bottom: 0; }
+
+.contact-info .address {
+  font-size: 1em;
+  line-height: 1.3em;
+  margin-top: 0; }
+
+/*
+    Keywords
+*/
+span.keyword {
+  font-weight: 600; }
+
+/*
+    Paragraphs
+*/
+p {
+  margin-top: 1em;
+  margin-bottom: 1em; }
+
+h2 p {
+  display: inline; }
+
+/*
+    4.0 Page header
+*/
+/*
+    4.1 Top Logo
+*/
+.icon-svg {
+  width: 100%;
+  color: #5ecf86; }
+
+.wrapper-top {
+  background: linear-gradient(200deg, #007864, #6C734A);
+  color: #ffffff;
+  padding: 2em 0;
+  width: 100%; }
+
+.wrapper-top-bottom {
+  width: 0;
+  height: 0;
+  border-top: 100px solid #6C734A;
+  border-right: 100px solid transparent;
+  position: absolute; }
+
+.doc-number {
+  font-size: 0.5em;
+  font-family: Times New Roman; }
+
+.coverpage-title {
+  padding-bottom: 0.5em;
+  font-family: Times New Roman;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  font-weight: 100;
+  padding-left: 1em;
+  padding-right: 1em;
+  text-transform: uppercase; }
+
+.WordSection11 {
+  padding: 0 2em 0 3em; }
+
+.info-section {
+  padding: 0 2em 0 5em; }
+
+.prefatory-section {
+  padding: 0 3em 0 6em; }
+
+.zzSTDTitle1, .MsoCommentText {
+  display: none; }
+
+.coverpage {
+  text-align: center;
+  padding-left: 1.5em; }
+
+.coverpage-logo span, .coverpage-tc-name span {
+  font-family: Times New Roman;
+  text-transform: none;
+  font-weight: 300; }
+
+.coverpage-tc-name {
+  font-size: 1.2em;
+  line-height: 1.2em;
+  margin: 0.25em 0; }
+
+/*
+    4.2 Document Identity
+*/
+.coverpage-doc-identity {
+  font-size: 2em;
+  line-height: 2em; }
+
+.coverpage-title .title-second {
+  font-size: 0.8em; }
+
+.coverpage-title .title-third {
+  font-size: 0.6em; }
+
+.coverpage-stage-block {
+  font-family: Times New Roman;
+  font-weight: 600;
+  font-size: 1.25em;
+  margin: 2em 0em 2em 0em;
+  text-transform: uppercase; }
+
+/*
+    4.3 Draft Warning
+*/
+.coverpage-warning {
+  border: #f36f36 solid 2px;
+  color: #f36f36 !important;
+  margin: 1em 2em;
+  color: #485094;
+  padding: 2em 1em 1em 1em;
+  border-radius: 25px; }
+
+.coverpage-warning .title {
+  font-family: Times New Roman;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 1.2em; }
+
+/*
+    4.4 Copyright
+*/
+.copyright {
+  padding: 1em;
+  font-size: 0.9em;
+  text-align: left; }
+
+/*  .copyright .name, .copyright .address {color: #485094;} */
+/*
+    5.0 Other styles
+*/
+/*
+To top button
+*/
+#myBtn {
+  font-family: "Space Mono",monospace;
+  font-variant-ligatures: none;
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 12px;
+  border: none;
+  outline: none;
+  background-color: #1f8ca0;
+  opacity: 0.15;
+  color: white;
+  cursor: pointer;
+  padding: 10px 15px 10px 15px;
+  border-radius: 4px;
+  text-transform: uppercase; }
+  #myBtn:hover {
+    opacity: 1; }
+  @media print {
+    #myBtn {
+      display: none; } }
+  #myBtn a.anchorjs-link:hover {
+    background: none;
+    color: #485094;
+    box-shadow: none; }
+
+@page {
+  margin: 2cm 1cm; }
+
+@media print {
+  .document-info, nav, .copyright {
+    page-break-before: always; }
+  h1, h2, h3, h4 {
+    page-break-after: avoid;
+    margin-top: 1.2em; }
+  .note, .figure, pre, .pseudocode, table {
+    page-break-inside: avoid; }
+  .info-section {
+    display: none; }
+  .coverpage {
+    height: 23cm; }
+  .wrapper-top {
+    top: 0;
+    padding-top: 4cm;
+    padding-bottom: 4cm; }
+  .wrapper-top-bottom {
+    margin-top: -5px; }
+  #toggle, .document-stage-band,
+  .document-type-band, button#myBtn {
+    display: none; }
+  .container {
+    padding-left: 0; }
+  h1.content {
+    margin-top: 2em;
+    line-height: 2.5em; }
+  h1 {
+    font-size: 1.5em;
+    line-height: 1.5; }
+  h2 {
+    font-size: 1.2em; }
+  h3 {
+    font-size: 1em; }
+  .Note {
+    background-color: #fff495;
+    color: #47430c;
+    padding: 5px;
+    margin: 2em 0 1em 0; }
+  .Note p {
+    padding: 0 5px 0 5px; }
+  .wrapper-top-bottom {
+    display: none; } }
+
+-->
+</style><title>The International System of Units</title>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!--TOC script import-->
+<script type="text/javascript" src="https://cdn.rawgit.com/jgallen23/toc/0.3.2/dist/toc.min.js"></script>
+<script type="text/javascript">function toclevel() { return "h1:not(:empty):not(.TermNum):not(.noTOC),h2:not(:empty):not(.TermNum):not(.noTOC)";}
+</script>
+
+<!--Google fonts-->
+<link rel="preconnect" href="https://fonts.gstatic.com" /> 
+
+<!--Font awesome import for the link icon-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous" />
+<style class="anchorjs"></style>
+</head>
+  <body lang="EN-US" link="blue" vlink="#954F72" xml:lang="EN-US" class="container">
+    <div class="title-section"><div class="document-stage-band" id="in-force-band">
+    <p class="document-stage">In Force</p>
+</div>
+
+<div class="document-type-band" id="brochure-band">
+  <p class="document-type">BIPM Brochure</p>
+</div>
+
+
+
+  <div id="toggle"> <span>&#x2022;</span> </div>
+
+  <header>
+
+<!--<div class="WordSection1">-->
+  <div class="coverpage">
+    <div class="wrapper-top">
+
+  <div class="coverpage-doc-identity">
+    <div class="doc-number">
+      <span class="docnumber">BIPM </span>
+      <span class="docnumber-separator">:</span>
+      <span class="docyear">2019 </span>
+    </div>
+
+    <div class="coverpage-logo">
+      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAADICAIAAAAiOjnJAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAABmJLR0QA/wD/AP+gvaeTAAAAB3RJTUUH4gMBATo7/SRQ9gAATUtJREFUeF7tnXeYHMXx979V3TO7l4N0OuWcQQEhRFACRM7ZZDDYmOCfwWBMMg5gbDDYGAw2GAMCjMk5iiQhJARKoJyzdEqny2F3Z7rq/WP2DiWQMDqD/e4H8Tx7uzPTE75T3V1d1U2qigwZ9jS8qw0yZPh3yAgrQ4uQEVaGFiEjrAwtQkZYGVqEjLAytAgZYWVoETLCytAiZISVoUXICCtDi5ARVoYWISOsDC1CRlgZWoSMsDK0CBlhZWgRMsLK0CJkhJWhRcgIK0OLkBFWhhYhI6wMLUJGWBlahIywMrQIGWFlaBEywsrQImSElaFFyAgrQ4uQEVaGFiEjrAwtQkZYGVqEjLAytAgZYWVoETLCytAiZISVoUXICCtDi5ARVoYWISOsDC1CRlgZWoSMsDK0CBlhZWgRMsLK0CJkhJWhRcgIK0OLkBFWhhYhI6wMLUJGWBlahIywMrQIGWFlaBHsDt+IiggZBhEEUAWpgij9c9MHVk1/3fxThgzNbG+xAiFHTKoAFATw1tIhKBSqzVLSjKoy7JTtLZYlBUQldGAhA2JSEAAiqBARExGRqhIRMquzZvgSaPule1WcqmHzJdvDqULVMKuCKNo3Y7UybM/2FkslMMZfWla+obzaM6wQgWEoQQman5/Xt1NrEDsnhgmQTPM/w07ZXliibEC3PfLq2Fc/zSoqEKcQUQqIiMDFOTmDe5befMlpB/RpF0hgYYg0Y7Ey7MgOFitqUFkfwkEQhKECYkmUraiWlW8pW1v+8dxlEx64blC3tkEYetbb2WEz/P/ODhUZAUDc9wEBwAZkTJhwrk5VrYl58eKCqs3hnU+MAwhEbocjZsiAnfixVAE4cZGPQUL1DP/kB8dVVFW+NG5KVSrG0ggbLl27MREEMc+LnFmqqgDRNs6HqFvQ/J0qFBptI6LRZ95qD1FN74Jtf9jmmBBVQAnETDsrRRXYbu/ttsnwH2BHBykAiCjSniz2jPvZqcPbFhf2Li2+4Z7XbGFWgAYnJpEM454HVRDRzh7a1t8pQAQCARBVZmpqmaWbaM6JiZyy0beqAuJtDyqizDCU3ndnYt7h76Yv0VxShv8IOwiLCAAzRVYBGoLJkAdgfWUDjCrHELKNxwpzfZUQbKFhYyJIqs32jW9ZAFaFSnVSrEosHrMsBE0ElEgGhdmW2SzfULmlsrpj25LSohyWAGyN4Yqq6hWbaiTUVoU53du3IsBJaNhIpEoXsPEcMG/FhobGVOuCnJ4dWgGupiFQsnk+mFVgGpLOKeXG2DAJiIDQSX1KLFxunBWGKNON/U+wc4ulCmhkjJAMzP/d/a/ymob3P1vpZXmJIOFl0wWHDwCMc0nLdktN4oo/Pz957urfX3zUuUcNc86xMTOXrPv+nS/54h668azBPdoBuP6h115899NLTxldkBP7xcNvuVSyY5vi527/0V6dSuqTqdueeP+1D6cvWVuRDLVj65wDB/a6/ccndS8pTDjnk4iwNd7Ezxfd8o/XZq6uqKysys+KnXn06GvPOPCHtz1W0ah/ueb0UXt3X7hm85V3P7dkzaaHrjvz8KF9w2SjH4t9+PmSa/76WrZHz/z6/M5tS0TBGcPV8uxcWE2osnWwz7z1CWAorxguQKpmxLDBFx49GoAjtoCynbV03drpc8tPHQ6A1AGmPhXMnrMAoGRjLVAC2KWr1q1ZuPqWJz5IbqnyCrKChka/c7x320IAF93y8LOvzwRxux7ti3Mwb8nm55ZOnLds7Qd/vqK0dX4QkmfNu58vO/Xah2o31SLH9u7SrqGx7u8Pv/bWJ/PWbKhAY11VXRIAwtTMxWsrlqypaUgCEDIA1zc0zp61BH4sIRaIRqMyympxvlpYBHE+BSnPgnwNE8KGvdypC1Ye/OM7Hrj+3MHdO0IFoNwsDzlZZCwAgQHgG/JzPFITejnRg8yPGxRkJ+sqLzht5A3nHDZvTXmnVnme593/8kfPvjWdi/JvvuCwS04Y4fv+tLlLLv/js/PnrP7Fw68/dN15HqVqUuFldzxZu6W6S+8Of7zy5IP26pEIwhc/nHX9X54DxWK5WTlWARjDedl+RY7N8xRIWyaxcWTHcmPGwgEZt9t/iK9ucCjYBur17Nyub89ORVlwSVHOaWhMfvrZqrN+83hdQyOIFeqEoCTEiB4doEoOfiDGhEFUSggPSXTpWPrgz07r07n0lOF77de3swCvfjANoT33iH1//f1j2xfFsgwffeDAu686FUwfzVm2trwCxn/1w8+XrSr3svnBq08+dcSgdkW53doUXnP66BvPG4NEnbogUouAAyFQPKEeAFECQCoQTokRsumLytDyfInFan6pRbJ8fv6OH7UvyK2orr3+wbdeHv+JjWVRXs7ixavemr749FGDyDkmhSpp2LwrSwiXJHjNDRpLQLJhSK9OnvUSYWg08LystZsq12yqQnZs4meL9r34jmQoQrDGaKIOWfFlq6uWrt7YsXXxzHlL0ZgavF+vIw8c5MRBnSg8651/3Og7npmcTCUDGACG1MLBJaPxT4ICMBoAIYGh4bbXlqEF2bnFiu49EQMi0Gw/XlKY3adL+6vOPJi9eKieaiBqF69cDyCEMwLAi2yVsAIScBYJgTw0eQcIDsR52TEm9o0l9gAkGhPVSQPr1dTXrdm0Ze2Wmo1balZvqFpfk+rZqSgnPzspBKAq4RBIr3Z5ThyTEbbGKoD2Bdl52TEoMQRAEHUNGYYUgFBULoGZm04jw3+GHR2kQOQiYgIUAibDliDhxobwgRcnSuhsjGxYG5qsdGyDuBQcKPQ9A0BFYdgasoZDTWmYjA4sIs1uJoYKFEA8Kys3TqipvPOmi48buW91ZZ1nxZExbCBBVixekBsHUJybBU+XlW0hNqELWI2ozx6tq6mrb2yASvR+GAkJIdQLlACkYLIiSykQOFIHKEF31QDIsAfY+ZAOs4GoAMyaClJn3/yPgy7/675n3/z0uE9grUrgvFxIMKRvNwD5OVl+PA7WxWWVAIxRAMvLyhOJlCEU5uc3FWUQuV4BBZjZiXZuU9i+tBjQVz+c3SY33qtT667t2vRo26ohGfzg9qfHf7bEOQFwwICeyMr6dPGm8Z8v94ynDOs5AGPfmNZY02B9T8AACnOy8rOz4WTByvUAcikEMLesCkGQHfPz83IzXtL/GDt/d5kJRIaYmBWYOnvZlDnL11WmTFa+Z5gZQWX9YQf0O3xYHxeGWbH44B7tYPmfb0168r2pdY0ydfH6Pz/2MkLq0a1j1w5t0iFfzGBmTpdITSMt5x02GDH/lYnzf3TnM8sqE41BMGnOyjNufuj9cVPPuXXsyo3VAA4b1q9/jzaobbj8zn+Omz5PnFTW6L3Pf3jn4y/B80iE2QBo27qoa6cOIHrw5UmvfTK/Juk++HzRwy++h1Q4sn/74vzsUDKy+g+xY3QDAFTX1CEVpIIAoQBI111OnAtdICAceXDff9x0jgeEzIC7+nuHvzRh3uZVa8+75Ym8vPz6hpRrDCDhrRccGbOcSiV9P9aYCJAM6hsbmwsyhsW5i44b8cmcpQ89P/nvz37wwoSpedlZqzfVSFVDVofWY39xwV5d2iRCV5jl3XvVqUddff/ihZuOuvKhnh3zKhvdljUVxW2LKhOpoLExFUYNc9xw3mHjp89fvXzLKdfel19QUFVdI/WNyM3/+TlHGiAQhc3Ug/8JzK9//eut/yZ1xObzJSvKquu6dGhT2qqgbav8diX57VrltSsp7NW1/QkHdr/24pN+edEJxblxESE2GgQlhTkHDO63dHP5us1VyURImuzVqeiP15511pjBKmACMc9cuHxpbePhQ3ocMrQfEUVdNgKI+KiRg73s2MpNW8oqGqoagriRw4cPuO/684/bv69TZwyTS3Xv0HbEvv1Xr1u5tjpZXtXYmGz8/kkHPXDdeZ8uWNU63548Zr8uJYXOpTq1abVP3y4rytZtrKiuTYixvHffrvffeNGRQ3urS5L1MhbrP8P2ocmqoYBDZRVnoEQiMIQoTkuZyKbrMhFRZhMqiNRoCLKhYsnqTZsqKnNz87t3blsUY9VQYFgdkYqTAKxkLLMhkEq6YHXECvg1DY2LV26qb0x0bNema/siAziXAnsMEJwIsTEpxZKVZVuqatu0Lu7bqQRAIggNnGUiMkpGNWS2jaKLV22qrqrKz8vp0ak0L+aphCCTiXD4j7FDzDtERIgZYI0qrO1+Vog4Q0JkhJhUAAjYqRiI4ea6VUWUorQesKiCiKPwBkRZGASCijLUAaJijf3CfaYaqhIzqzAiT0GUlkbc1C504gIhzzJFyWjRkUnFOcNmq6y0MOXYGCZVhoC+NJw/wx5ke2E5VcCRKgFKDBBFwyBNj4lUmv4gBYVQABZKClUWQCFNMfJQYiJRJQURFBISMdioRj4vYhKoU/IAQETFwUTOJ6ao+0hQpMNpSENVETICZhBDgTDKFyJiEQgxVCwTVFU1VFIiMBsoqRKRShS4kaHF2V5YotIUK7dVIJ1qU2+KAIiATfOPBAUhBFQJBAaxAqJQIgGsNj1UiFMwQEQgVgVBoJH4FFHCIpQQtb9II7fXVlJWgOAIAvIkbcO0+RciJtUQECXLICgDUId0nAYrrOJ/NrRhp7GWu4Nq2gfztff8SnZeFTJbAAoHhZJp6ixi69LTH9QBLESRS5VElEDEosoaCoQ5pqJEUdwnp1NeQUxQFUo33hSgtOqiwkgJqhCoAQgQAhw4Ck4wAKnbZnsAqkSAhkoEcFRC9E5ETgYSMLdAWlH6rYvuRwscfxdEwU17pFxtfqrfnB2qwiBhvPitY98q21x5/7Vns6ZA/pftvA3RBaoIQICCWMUR8fZxoP9TKNLCEhCrEhzoqwNG9jQSBOxBwtnLNiVTqR4dSkoLc3ZTINETW7qptmz9+pLi4n6dipFuzu4Btpe5Iwtg/OzV46YtYYiQv4NJ2zlNG5ECKkIqAZj2sH39DqKONOVExAEE/c+qClAyHlDXEBx35V3DL/7dCx/OQnr0bNc4EQAPPD1u9Hl3/PSe51R0q6rpm7L9jYjq6DZ5fm2OgQp2I5A3aj43fzAgGAbUAwEB1P4Pq4sAC1hjAGiYdDb2n+5zEgPONxR6edDA2q+tbDIGsIgaPwrQnjFZOw5CE4CkIKVGyKaL2g1E1TDPWLDinpcnZ8ezLbmaRvej44YNH9BdVL8k6WZ7nIgqDP8bbdD/BAqIE6ApWgIAKCn00vgZ+XFzzPDBunuv4p5EAYKIixkCkp4kd7XD9ngskHqfQmKK2q17hB0yoZuagUTMEI069V9Js7kCsHj1hifGvoXi1iCHzRUH9e80fEB3FYH56jc5KoNM00hikxXcumxq3nQ3RKfplh4A7O4MEzseWYG0J64p49uY5jOEimNj/vDYy7+852XOzXn6t5ecfvAgJ9J8FTugAHS3DPjW5/Jlp99sXkxIJlQFGeGvbbEcLExuCA9NyXlffo+3P5OveBbbn0fU0iaQQgCirTwNX4Fq1GSHH8tGUb6fY0hjyaIg2zMAJPKKQVhUiUHE0XsGRA1I1ZDhki42Y+HK8pq6wT06dCktchIwIMQEIYBgFCwEQKIJcCjqaqavTQCAODoc1AkbVWEIkRFNi4xVo55ppJMmSxp11dE0LAoFGHAiwoYhRkIhS2yq6htnzF+tCIb261aYm5PSVAxZi9dVIyRpdMvWbAAGOREiIoUSKYFUmKJuqUJDjcQJVRWAwQykvSkMFQWpKkVeQHbKQmIRAEbJRldLcILI2SNQKJgIHpEgfTfx1YhqdFOjzQFAgRRIAGaoQ0iR35GYNP0eqAIsosIEwESPTgQSJYBG81ql3730a7PzQeim02t+6XcXVYUTEUfKcE6aTIZKaGCUlCmEchTlwupUFbABrE9eXV31D29/csHURX+89eKrv3ewOCKPHYhgLAAoVFiF1IGMEke3RQgiaRdq5F8AoGwVEDIKQxCSgBmqLMRGQxAJOJ2tI4K068wZdUosZEhVQIbJaCBkAo5RmLBsFqxYd9hP70MqMf6Baw4e0hfwAPf7S0/K9k1OYfEVp42CBp6xFMV8qYMGCqMwRCpKkR/YQlVBbKAOEiJqlSpAkexNqGCKdhMiChFjBTddmlMTAoaIhaWpPaRpV4vu8nkJkSqzCtJaRPompEVGpBYAQxWiJE2qYiiR2kjaqgYQhrKEgHzxOLayxTs03tECKAiaRAhYA6POGVYoAmE2ZEg9USKkhGOxODwvTglAAzJGyYcC4lRVlYmVjFOmaNgPCgirAiYUGFKDUITVeBBhdR6TKDklkBFREBgIlUWJmA2BEUYyFJCSdcIMZagTIiIQnDKJU2ZlA4BAuTlZdZaj+ZuUjAp1bF3w4M/PiV5Cp2BCKGCmUFkdw7ABUxgQgZkBUoUQCUjVQAhMNurHMRGgYWCNUbBAGcrRcdWpqLJRsEroGZLQhQCTIWakt/nqZ/AFTWWpOIE1FPXd05pQRDZf0+F4AlIVFmEySspQUlIiUU6JEDW9RdE8auqoacRsd6pk/Xf1lt7LkfEMxwBAFI6aei7MABRpzxcX52cZLwZIPKcQoGwrKoESq8CYL87TGAIgLknsORhADVNUNwRqvGhDYoDUBWz8qL0T+fQBpGf+0lCdKqmQx0QkAQPGpCc4YQPAORjPMAABJBQAUaggEQryCgB4SKkw2IuOHCoBKqqWIGHoWQtucgFaD4CIi56ggbKExF76bCTJNhadN5ihAgmVWdVAVFX4i8tXWCsi1tqoKSy7MlFb40QNg2362cdj0XVGQx4KQIGAyYha5i9cUWQAiAscWwf2xJEKu9B4Wc1HFpdk9qIErZ1XhWlUNSqMmrf8N0i/RXEKlq+v+Xz5hj7ti/t17fDCe1M/Wbje8/2D+rc7+qDB1lgVCRUTZiyqqdoCi9mryifPXdaxpLhLaZFzKWP85Ru2vDt1/rKyzU64b9e2xx7Qr31xgXMBDBu4teW1c5esbd2qeEivtk+9M33qorKOrfNOGT2wW/uSZeu3zF++tmf74h7dOr36wbSpC9aQ9Q/o1+HYgwb61qoKEYlzxlgHemPK3E/mrEgmUv16dD5rzACj9e/MXpOTFd+3d4ecuNeQDCbNWhwGwqAPP1+eTCV7dSoszitcX1U3c+m6GGN4/87xuB8IqzhrvcqGxDvT5s9ZvC7R2Ni+bcmoIb2G9uwIuEDJIyjZpevKFyxf3b1Tuz5d2738/tSPF66PWTOsf7tjD9onZqxqSMTinLF2S0Pw+qRZ85evdaJDe3c687ChlTV1E+es7NA6f59enbDr/hUARL2KyrrE65NnzV5eZokO3KvrCSMHx30LSrfaCWSdM8bUJYNxH382c+n6xmTYoXXuIUN6DendxXMpZatsNHTsZb09fdG70xcbyImjBgzv3x0u9cWLBFhVJTglS1AAIg7GssdZcQ9EgQsta1TdKzvA/DtuDvb//tqnd/zxXz2HDmzfpnji2x/A5oFTMLj4rGMeuPZ7lrmssv74nz8QOs8vanXP0xPu+fM///jbS68+42Bj/Iff/PQXD7yyYflqqAUY7Lr37XzftWcdPaxfEDjj2RcnzL7yd0926Np68N793njhHcCHNhTkXv6D9m0efevT2/7wZPdBPdt27PrxW+OhFpbg4cIzDvv79WdZYhUxxqyvbrzktrGvT5qLihoYH6E8Mmbg4cP63XLfi0WlrSbc938Du7V/e9rCH936uMnKVtKr/vg0UvXjHrzuiKFFE6cvPPOGh73c2MInb+zevg27RutlvT19yc/ve27OvJWoTcBYSCK/c7uLTxjxpytO8sgFjjzDj7zx6e1/fKLPvv1LS9tMfOtDmCwYD17i+9878h8/PxvglEjM2unLN33/1sfnzl6I+gCeQTL15sUnFudl33PvsweMHvTBvT/OivlfUQ8GgIWoE2Psp4s2XPS7x+bPWYxECBBEz7vopMKYg7VOLaChE2vszFUVl9360NRZy1AfwoQIJdah7U3nHnrzhceQhIHAs/5vn5pw858eR4MC4V+emXDn1af/+PiD1AXMXiQQGwIe0n3plJOYF0sJVq7ZsmrlhkWryvt0ad3oQp+ZFRR1W76+rgCQtcjPXbp63eq16y8+//j2JXlvTpk/Y2n5w0+9feKBfY4fMdhnDO5SPHt1VcpJ+5J826pTUY4B8PbUuT+87V/akOy6V+9TD95XVF6ZOGv5ghXf+9XjMx/5ec92xQDinkVubtnGLevWfjjmsKHGM6lE/elHHAAgywPy8leWVaxZX3HuOYd3L817Z8q8TxdvGvvcByeM2PvkEQNIXaD8g9vGvvnWFCouPOaYIYP691yxsebpNydPmbsC2bF4zHjGAijI8np1K122oZqJOndunWVaRX1eYwxinrU+Gw+A9bLem7742GsfksotOa3zDxw9JCfLW7iibNGi9Xc/Mq6yvvHRn59NcAAMMwoKF62pWLa++vwLju/SOnfcpwunLtzw6LPvnTai3zEH7RMj3VBdd94N9y9cvCavVd6xx/Tv0a39vEWrn3j+bY5noyiHLdgY4EsfikYdYQnZ+Osqar93w59XrazKLco9/tD9upQWf7Zg+RPPveHn5sI3KqGIWmM31zZ+/zcPz/5kQX6nNsedtE/PDoUTP1s2YdqSX/7pufatCy8+7iAPmLms7JaHXvay4xeeMWruig1Txk+bPGv5JUcP84y6pjgr6yGEQsmIC33jJZ0e87MHZny+ANYe+bP73/nTZb07tZEw5Yxv9Ev9M7skGtO2hEd/cdbZhx8A4IqTDz30qrvnz66aPHf18SMGt8rPfvqPPzvthgc+nzTrhivPOOeY/SEC4K6np2h9w5hR/V+6/Ud52dkAbr5gzPHX3Dt5ypLfPvHe2J+fAQBEcEmF/+Ozhv/lp2eGIptrGnKtQeSkAUD095vOufDI/QFcfvoRY35yz7zPln80Z9XJI/Zi470wfuab4+ehsPCXFx396wuOjk74B0fvd/L199fUOYtowl8cum/ve6+74NQb/5FKNtx91fdG7tPbRxKAtVFHQiKfRX0yuPHBl6Wypnf/rn/92VljhvQCsLmy6ob7nnn4zc/Gvjj56GH9zjh4HwDMDBUm99D1Z1945DAAPz511CFX/W3+rNoP56w55qB9ADz48uSFizYWlRbdffXpFxx5QHRu97/26Y/vfBouCvL+qp47AUaDlMA3uP2x11atrIi3Lnr8F2edPGpwtMG9L0y48p7XoGIQiArDPDXuk9nT57fvVfrPW35wyKBeAHAhrr/v2Tsem/C7x98+bczQgix/ycp1wcaqPsMG3n/NGQJ9Y+LnRw8f4luEYpslwiF5IMPqiGnZptqTb/zbBx9NNXnZJid71eqyo6/9y+QFa9ha0oBUQ9qt6nwHiEmRcj27djpsWH9AqxPJ0la5fbqWwsnmimqoI0KrbMtsYeOe54qy/aLc+JwV6xYsXwaigw8csHhD9bvTFr41bf6aDRX7DdkHcAuWra6uawCgEDiJZef85OxjABC0XWEuxAHwECKpvTqXHrNfbyDVkEiUFmQP6N4eLqgo3xiCAbw2eQ4aa0YM7PbrC44GXHUQhEHy0CG9rznneNSliNMT1BDQLs9XFSXqWBhvFTcx02QoVEU1SkB6d8bSabMXIj9+5+UnjxnSKwhTqSAoKSq87+YfjdinBxrC59+fCQ0AEAmSYd/uXY47oD80qE4k2xQXDuzcCkFqfVU9gFQgr036DKonjh50wZEHhGEyDJIQd8Xx+586ai8kQph45EH88u6VBiDj+RW19RNnr0QQfP+EUSePGuyCxvpUChL85NSDjx7WGY2O2VoDBd6dOh9E/Xp1bV2Y//b0RW9PWzhp/uqhA3rFC3PXbdwyZ/EqAO1bF6Iob9Gipcdf85eps5eecvC+WR6lXGghzabHchS/qWD27n32/bdemRTr1NmlGjUMYvkFy+euuvufbw+/7YdAAGHh3Yy/bHJhfvG3Q+AK82I5sZhKGGcAyPZ9aKoxFSpAoDAIJUjBSZhKn15VdUNlRTUX+Dff8/LNjf+EF0eYAoBYFtjMX7VhVXntwNxsUYJSSa7XvsBXVSIXOo0CTZUNwqBVbjw7K9upZzwFAGZIKEoWSDpdUrYFnhkxqAeAIBXkeX4qJAuMGtgZMedUQzKAAJxwooATbghCoMkvCEI62BAAFq9ajzoaMqDzyH16OQ0dc4yQDFJxzz915IBJU5fNWr6+MSVZMRgiBEGrLMqLGyWT4xkAgRCgVgVAVX1i8epyZOnBQ/eO7iKslxLxgSP36/XC8x95cJYcYEn1S2Y7IVI2wIby6vLKenixE4d2BhCSzTEIwpTne6MH9njr/bmiALwwSC3bUI28gvc/mTvwvSngLCgDApOCGsDMXVk2YlCvkYO6/+KSk37716fGjZ8/bvqK0YO6/f7SYw/cu2cgYpsaS5aJBUagJMFdlxxdW5949On3bFEuqUlWVh5xxJAHfnYmoMK+IXgQ2nY0SdP3tNkgKyJPJsIohCaCicFsCZ71lQhIAmAYqC9MQsYARMwsYAmaBBkoGp2JxXNOOXyvtgWxlPMsBYH6PoXCmmtNq7xsRA4AYo4GzaMwURP5z0GIlMBKTETqUjCxwAHsi5cDgEgCECgei5wfbKHCJADYeDBxFVVI+urYsghAypFjwgDRsIBRaDq1LEjApbLinm8AZR+O0s4QGM8DBwmhFCgLgDgQBzY7JM8DORULJGHBJuqNiwuFPRjP9xkAkygcKwB4xkIhxFEPXzla8yE9fcbWEAQwAgIIxhgv8ggYIYDjANjPhgsZKoAoUk7hkofs12tI367JIIzBNVKcXCorK16XSO7VvQMACZO3nj9mZP8Odz057t2piz78aN5RS9e9evuPRg/uKi6M5oaxADHARArP8/GP685MhcknX58M9cccuNdTv/1RcXaWqHpEiP7b7rzTIoiGgBC1FwGrhiEaNnmGCAp1AImGTCZyjahhwFmkmq2gwEGlOfewIDenuDC/YnPVFScPH96/x9blLlq3oU+HttFnSwpNpkQizxhRNPjjGGCNHNxJKwGrFzmEPISAgwsA+Gx6lxTOSAazlq4DQHBOjIQpWH/u8rVoaGQvZlTSGgIRwWjKqgNAGgKeigLiI2QJAXTsWIos77PFa+at2DisX5dEKiSEvmcBfDh9Phpd73b52ZYBKDHIGJcgYoAsHGB8SsKlojq2KC+7a+vceRsrZsxfftbBgxPO+IiCZO3khWWwzC4QZUBVQqMB1EG3C5hRZQNI6/ys/IL8smVrpy/eeNi+/dU1BpTNkgLMZ/OXAXEyhjVgz+9YUrDs84UD+na/6/ITtz7Q0jXre3ZqB8CJMzYbwBFD+47ap8dz42fd9LeX1ywr+9Mz740Y/EPD6RP4QuBEEFWG++dNFwzdb0jnTu1f/v0PirOznJPdiU1oHl0AFOn3R61LRL8qWYChjlUQ2RgAEgIqnBOdiyPjOAsU3TsEIkO6terfuRWSwXX3vlhVV9dc1pX3vND3+Osv+cNz5ek2FgMeG5+abmtTzQAFgTyYyBWZnrZEiKHcHBl76L59EPfenrHwqfenejbmWY7Hc1duLL/76feQFYNLNdcwVgNV40yORD5D9gAwEYgD+FFcw5hBPbv36tSwufrn9z9fVl4d9/2Y7xPxHf965/VPl8GPHzdiUNTNdGCoWIRGUqxh9GaG8MFZDAVczPeO3L8/QvfUuzOnLVqV7XvWGM+LfTR32b/GfYKcLBFnKQCEIeA4aMcZrImAIJS2rQoHdm0DP+f+F8YvWFsWi+XEDHl+/I1Jn73+8VzEVUTUiUc4akhXGO/RN6aMm7YATdXQq5Pn9jrrjqEX/mbO0rWGzcrNlb978p3nJs6OG++8w4YeNLAP1NTX1YlD8zls4yBlokSgcQ89W2VTY3Vubk4oYs0X4tuRqCsUDYBER4BnDBGMCS032TNH6mDjWSwKAthqAjCGCZ5vNclwgCFJxcjB2pikAISheH7sitMPnvT50skzV5x0/YPnHTM87tFLE2a/MH4e1DQE9VE/0ZDCwKr7omNBiAwok4KdR80eagbgEWDTfT0Apxyx372vfjTn0/k/vee1OYs3DenbftXGur8++/byNRWcncvE3LSlIY6ZUMRZDZqKQdSQ8y1Zw1BX2qrgZ+cefvlvn/hw2pKRP/7LSaP3bl8Q++Cz1W9/Ol+qaoYNH3zxsQcohEBZRsAS2mxnYiBEPgiPHFgtQkAAc8kJwx978+OyNdVn3PT3S089pGf7ounLNt39r3HJRAoexMSTsBaGAMMKAx/bWSwYOGED4NpzxrwwYfralRtP+fkjF50wvFub/JnLN/7l6XfrGol8cuyF5HnAeceM/PtrU1csKfvB75+6/OQDenfuMHXBqvte+RS1ycpGyc/LAnDdPc8++9xHJf26VFdWbKpJjJuxHBIeNLCnZ1gkXeHsMFbIBCCVChsCUZBlao7j2ylf/KQAUN+YxObqZEEAMCpqa1LR8U1DYwJbyjfU9kiRF4NEb/ymmgS21FfWphAFE8CUVyexpa4qtAB8hguDMw/dd80VG2/6x9sfTpj/4SeLwBb19SiIXXLumAevOcshCcRqGgJU1pdlZ0XKIiI0hcrUJ1Koatxcm0qJyWk61c3VDSivrapPAeRCVxz3xl5/wbk3/2XBwrLf/+1ZZPmoQ1GPNmecsP+zL0zcbDUVpCcdr0lKZWUjUmFNCgBYQ8Akk0mpqKzJyW/QGMiELrj0hBGNDQ2/efiN5fOW/mnBCtg4Ukn45vBDBo395YW5Mb8xlCxLFXUBKuvrqyvVObFWlA2wpSaJyrryugDwks716dzmn788/5xbnli5eOP1dzyFrDjKq/vt36dbh5I3n3q3plcXEgWQRGzj5i2oqC9P7GAFiIg4EBnau9M/bjzvijufXjhv/c/nP4mYj8rEPqP3Ki3MffuVSVuq64zh0LkOrQseu/n8s299cu3itTf+8RVkeahvBAUHDNv7qVsu6lLaCsDPLzzm88WrFi/a8MNbnwUU9dVHHn3AT88+Gmg27jvEvKec8405/RcPL163cdajN0BJsVtOUSdqmBat2fzCR/PyfCLimqQef0D3Ad3bA/zJ3OXjZy7q3qHN6QcPhDFO2GP35ifzZizZNKxX6eEH9Hcwkqh/ceLcZRsqjjlo8JCebZyoKgwzEX+ycOUz7302e8maANq/c+mpIwccPmwvAKELrbFzl658Z/rirJz87x+9b9x6UOfIsAoRf7JwzbtT53ft2Obs4b3Zz3FQS/TqJwvnLFq5X9+OR+zfN1BD6izbtZW1T709efxnK6oTtFeH/KtOH9WqdeGjL08qLi46Y1Sf/PxChq7fvOWFifMa1TtjdN8uJUWhc9bYJeu2vDppdsw3Fxy+T15ubpQ/Z8ibuXTdcx/MnLlkTSrR2LG05Ihhe5992BDDCJwwJQ3HZ8xf+sb0Vb06tvneyB7k5Yg4w+aVj+fNWbx6v/5djxjWS9SSpNj4s1eUPfn2lM8XrazTrIP6drjxrNEbG/iZtz/q37X9qaP6sY0nguDRt6bX1zccOazfgB7tt7YFAlElAydKzGbu8rWPvfXpjCUbABzQr9N15x6+esOWlyfPG9St5PjhAxwsa8DGX7u56tl3p7w7a01tXUOnktwx++19xiGD87PjzjkiZbZrN1U88NL4SYs2Ww0PHtLrspNGtMrLicbfonJ3FFboG3vqzY8uXbN+1tgbAHylwdqGnds23d5br5Gst/k++kO/EPxWvzYfNgqbagqhAqBEuzCoW9Fc7Nbbp4tpNuAAdjr7rWKHG6GK7dd7aTppVdEvEhg1nQAMAE3BtNE9376Y7Y4W/dUcOaiA7kYs7g73O/01QCIumj1FmyKodrrrNndjq8+R7cBWp7T1vdr6MvFlYTNKURxF8y3YLShKpHcB2AAsosaa5lA60fSs/9S0dbRiAEVL1QEARQsLcLNTqOmwToSbvRqqURh0dLKUDvJQinzZ27J1uc1H23r5guhbZhZRQJm5Kd0VxCQi0WGjkhTpPAVu2rX5fLDtpTE1bckc3e7oEpo2ISC9YMLWp03AjksrGGYRQdOCftHnaEuiL65LRKK37kteMwLAbKI4xOjgUSgRAds9mm3uxlYnb3jrU1IQmo4jRETb3vzdCZv5OpBx0SkoDCvDRUUQkdnhgpmaw4CavmHa8T1GNKzWxI6H2unBv+KnnZay9ZfNT2e7IGPa4Rt8eenbqXzHHXe8fHzpufGOn43ZZrMdX6qdYrY5VJNQdnUaOzn5raz6Tovek8KKLKlvGJpSJZAV+q+ZNMhJ2nwa3v4uZ/g32APPPWqlRW38zdW1k+Yurw8tEZG6f3No8dvAMFnDJr1qcYZvyh4QVtTKieZ0fH/akpGX3Ll+Sw3IphPqvxpVqBNAVERCJ6FG3zX9E0DVQaPvdQfP8g7HQ9Sud5GnHyqqAgkdNBQFdrJaWXSK/3xv5g/+8MzYcTOI0utA7bjlv4HTqOEv0DCaSCI6dPrfri7nv5c9ICwAzY8hFSqSaf+hAjttMG0DEcDpLh6zYUMA0Rf/GAqCA7toupJdHrA5q0RBqqIaEgvICQiy1ehl0+ZpA6WvTvzs4b889ex7U4H0RKnYE+KKJipXkMC4KF8oGnuQLxk1/l9hT7axELXprNn9pE0BFMQaiktVJoWcU7LRAyVAFb4lL+bHrQeCumDr4NedEvU1o0wbVge2EGU2PgBR4R1n9IsisDknJxcFBdnZOTs56Dcgml9OyEQaZdJo2JSIVHfSeP+fYQ8LS1UhX+M9ZxURJWOXbKg95PK7kmEU/pY2TKrwrXZqnT9qYPfzjzloYI8OkNRXa0uV0pGuKsz2o7krfvu3p/cb3O+mi0/MIt0xUzlt3oDo+bs9bUKi1GISiVJAVCGwTC5dE+6mD+6/kD0sLABfrwKhpsFrl9xSXRskHQynu5eRyQJt2Fg57bOVf3l1xp+vOvWyY/eTr3QSChE7R0SWKeWCa+5+etqsde98tGS/fl1PHDFYQjHbXnHazQWQhpCAdQ8vGatEpGByIBbY6GKdGMMCFdrN8Lb/Qna3ztoVzR4g4Ou8hNoUQmSJjDHwDBkiSyBFGEIVNu55HC/wUw2Jn9z2wMcLyzhyEkaGRiU9tdpWh1Riw6oqxnjD990LaGzXrW3X9iVAdLnpRhVUoULEUYQZE4ENp2thibYjCHSrfzt5ZxRfnEEU0RR97YAoX1ejVL2GQH839s3TbrjvlfFTDSOdCf2/23j/xhZLEXmKm266AJIeAtZdt00JUfISKYyqRBP6qUjrovzu7VuXV9asWFcesOeClB+Pp2rMn58ad9Bvvu9UVIjYKJRUJW3iYCAMCdhaCQAyhDsvOWrMvt27lrbau2vbUOCRQI2oCJGCTNMHD7AaACbdlldRmFBhoVE6MKUngNv+krRpBzTV3woJQawwGiLqeahhQERenDjrs/Gf9+7W/eRDEAiYiEl2POb/Bt9YWF9YqEhYhKYpFb5OjYjmzQ1R2JA46fiRD117eioVPP3BzAvueI5ChTowLVy1obq2riAvO1TiMOnY53S0tAIaho4ihzR7BIiKNXzc/nsDcOKIDZRVJYAhFSMBW5/hgjBQEwtgQWQ0BKBEqmBV1Wj1FRcqUmr8qOm9lQ6UGCpGU0peoGRJGSkiH2RCYUF6pkwQxTQsystGTjzXN0B6iO1r2Pb/NvZUVbgN0Wv879w0BSEEWYl2Zpx/1LB+nQpdqE4tjKlpTG2pSwIsYUhGLZMT15hobGhMQMlaz5BYlyQNEc3GQUZUoI7YUNoJQTEWn5lYtzQma5KBZ+NEFISyVbeASVKGwYarkkFtY9KSiTHUBemmfvN2UUw4xUTUZ2LihsDWNybDIGmZfFZ1oWEWJS+eBY4jSGVlx6MSLIR2b4a0/0b2gMVqghC5G1SjIfSv09ZqgqBsgMAzCsC3XnlNXU1lFawfjXHGDMV8C8D3vNrQe/zV8c9/tHDx6k1k/H4dCk4bPeDc40fmGJIghAGRfX3KvHufmzC4e7sbLjy2VW7MOcAQQ594e8o/3py5fO06y+aQffve+qMTO7bOQ7KmacEfsZ7fKLjz0ZeefPfzhpQevm+P3192Umlxgahu+y6SEIVOfGMnzV7y0CuTPpq3LtlQV1KUf+jQPj898+BOJa2ciIj835+emb1sDYqKnnp32uRZi885dvipB/UPBP+r09J9c2GpKohIRGHg+T6A3JwsAKJidtuhlUaVQ8B6S1dveWXywnUby5+bOHddRQq+bzQRBmGroqJ2RbkA1lXWnXvz3yd8PB9hCjk5ILNu4eL3Js558cPPH/31xe0LslNBymcsXF72/kuTVh004NpzjgBiIGbQZXc9/eCT7wEG2Z5naexj4yZ8tqxLu1aIZQfwADAbgK6/7+l7Hx6HmA8v69F/TvxwzqppY28sjvO2YSmqYeBb/6kPpl1yy6N1FQFy48Y3ZZvqZs1c8sYn816/6/Je7VrXNTb89ZWPEFg/OzZj9pIZZeV9e7Q/9aD+ql+zvfDfwzcXlhMyEoS+Z9dX1d799HgofvG35/527fmGNRS1X29Ml0QJWeb9mQvfn7oA6qBkYp5KoNZHWDt6395R7Mcltz8+4aM5prj45IMHnTZqL9bw2fGzn/9w7jvjZ1+e86+Xf3tR1IHIiVnkePm5cd/3gNCwHfvutAeffA+5OUcc2P3K7x3ZqSD3g7mrf/3AKyvXrEe2FwXFG0OrNlY++NJkFBU8++sLU05+9fAbxw4fYshBsbUnLBB41lu0dtOP73q6rqZx0D59brvkhN5d2nw6f8XNf39p8ZwVV//52dfuuDQ7Fv/Npaf/7YUJG9ZUjDpg70G92o8Z3ANw8rXuzX8V31RYCqsinmcrqqtPu/7BKdMXxnPzHnh2Uorx8DXn2yaf1O5CcCQkzEwmLqqW2PddY0IkVRkOHtj9p6eNBPDiR3PenDAXuf5vvn/YTeenc5dPP3T/Xzzy2m3/ePOV96e+ftSw40YMRJSwIBARJwqYxtDd+8xkkI4c3H3cH64CAMiAnp326dH+6P+7s6EmJElFZ1HVWJ+CIWbP0OkHDzllZP8sPw44xTbRKgwF+NnxcypWV/cb2vO9e37SuiAbQK+Orft0azfqh7e//uniz1Zs2adbyS/PGTNx+rwN81adNHLvn55xCACnEkcI8L/XHP2O802FJVDLbtnm2jOuf2Dm3BW2IC/p2OQWPvL0FNdIf73u9Gwv/rW0ZchpwE7FpWqBXGhtCi5WmH/UYd3vvvrMNvnZgHz42VI0hPsP733DuUcCrjFUFcq27hfnHvf2x4tmfDxn/JzVkbCaptKLXFO0at3mectWwaefnDwcQCIVGGuNaxg1oNvBw/d/89UpRB4AcdKrS/v9+nSe+vHMU65/8PjR+1128gFH7tdPYbCt694wCzB94Ur46lLuN4+9XVnTaK1nXV0sHrNeHHUNM+av2KdbSV1jbSJUMFfWJQGkwpANBezvmFjzv8E3FZYCgA0b6ivqU7CWQmFSYh+KjbXVyYCyPeyWR6sZsk7dPnt1PXFkn4ZGyTJcWtpqYM8OB/XrTICIIzZlmzdDk/17dGXmVCqV5fkwLhVq3Kf+3drO+GTRyg0VKgGxF3nKiNIz1m2prEwRZWUX9encBlDPIyIS9RkY3KPNm6kajxVA0nG24X/dcum1f3jkpU+WvPr6p6+On3b2kcMe+vnJ2dkF270n4pLrK6rh2+VrNt235B1YCxcABgrKjkOlrLwGgHJMRQCJ4r0sC4kQCfh/U1rfVFiWkHLSp0v78fdecczV9y9YUublZAVVFacfO/TZW34Uxc/tMkwbACLTAmNgwmT1Af27/Or847b+WVzQvNKKH8+FSn1tNYCAyEjSkR/N3L+lth6SLMiORX1SVQW0ufhYVr4nlHCp8gYGCE6J0zMF11RWwsajAR3LcGGyR5vsF+/68Usfzbr7mQkffbboX89PzM7Leeia07frlBAoK8tHUr533PDrLjysfOPm3JiXdKTG71ScXV5bX1zYChDDANumBc8RwjOEL1ac+p/jm16XKnmEIAy6til+449X7Nu/XVCXuPCYwc/e8iOkY6V3cYAmT44IxYwkQA4IAhcCqA8CFeechE7AlplDBYChvTvB2nenLpy+cGWO5xnDHqlvzaQ5Sz6auRAe79WzU6QzRghAYUACoEuH1q3zY9rY8OrEaQCETVLhGapNJl+fMg/xnJQQAIIaGwtdKEHDySMHTbjvyktPOwQG0+cu2VybMszS1JsTdcb4e3cuRSpcVbZhQMfWh+zbf7+9e40Y1HPk3p0ffu2jDZW13UtzHNioRiFARhIASMVQqE1pav97fFNhAapkrOFUKtmttPiaC0+A4nfX/gBA4MSkK6Ov2j0KBlQCkwcbA1uwH0Vhx8gRkzFsDUdpAgwC8L1RfUs7t63c0vjD3z3y/ozFNQ1S1Ri+MXnWpbf/s7Yy7NKj3RmHDABCABYE8q2SVYJKSW7s5EMHIymPvT31n+OmeJyKG7OxJnHZ7Y+tLKsEJy0UgLV2/MzFR/z03hN/8VhFbT0D+TlZEBO3Ji/bB9A81YAIAThxeD/k+ZOmL7v0D09V1ycA1CaTNz308m///vrxV/z5+Q9nGUCcQAkmy3EMiOY0YNp1fNl/K9+0KiSIgiXdioUGIVgaE0nkW8uMHcJUtkfTc/CoIhUkNKXiGpAKk8kUAIHZMcwlFQad2pXedfVZ59103+dzNh5+9d8O6FMaqJ2+eD1qE8gxf7r67E7FealUwvdt0gHOJVwiRHoA5ednHvr25FnLl1Zf8Pvn/vH69OIcf8qitRvWlmcV5TVurEqkgxto1vKy8RNmI150VOWD+dn2/RkrYPn0Q4fEzRfJTwDYsFN3xH57X/69Q/76xHsPPjdh8rxVvToUrd5YPWPOGqh32nFDxwztDQ2EvZRzSCVSLjKKcGRYXaZX+KUQkUQdL4BcClCIA1hUd52YQBx1AIxKr9Z+Q8oh1mpLvC4W9wEIeLtXmggeU8qF5x4yMP+u/7vl8XdnLFgzZdJcKExJwYHDOt98ySlHDOnlXNRyR1ZWnEvibfNiAgYo6VyXtq2f+8NPr7lr7Mezlnz47meQZLxDyZ03XrC5rOxPT79blJ8LIAySV512sAbJ2594Z9qUuUgGpn3ryy445OqzDoU6w9vFugiAe396Zl6W98gbn879bMncjwNkZ3Xs2vqCYw+8/qLjci2FTgApzbW2XXFBLKr9opw82ROVxneR7RNWAxd6xp7yy7HL1qyf9egN2HUwmjgBEbsw5Xn+v96bfs4NDy57/a7upflhevLdXSBQBiVTqcWbqjxVACLSKi9eWpyvqiC7TeGqSlBVCQPrxWpSwbT5qxav3eJJqkfn0gP36hb3vCAM2VoDAXhzbePG8qrsrHiXkkImJUIosIZTLvhk7vIlqzZpPPfAfu336lRaUV29rqKuIC+nc+v8QGGhRGbJ6nXTF6yuS+pevToc1K8LEIqabfoiGkXwpPMcF6zdPGdp2eaqRHFRzrBeJT3al0KTIkRsAazbVF7VmCopKmpTkAMNI4vFZDIWa6eQieZ3YAYQKgMcBejRbkSERAHhAvU9GtCxzdY/OXVmxzg4IqgwVL1Yyrl8LxwzuOeYwT2jH0XFhQFZj9VBRYlL8uIleW0Ag6YIF2tIXGCNHTWoz6hBfaIdQ5HigoLignyABLBwquREe3Xu0Ktzh2gblaTjmN3ueohYRdmIKon061jSr2NJ849ORChGLFYd2OtY2qZj9L3CRDF+9L9ZD2KPCAsAoJFJZ1GADBwAxm7lC0Q2zZGlQLRpdUMi7ERViH5iAAYwxqhmbb2EGhNzlMhIBmQIUCVVBkXZ1ekDsmFVOEnPlEYgy6xRXjwpE4EMERhRXjIiPxxzbGc3i6KCiAiGRFTTbi4lkIlG48FRQ1HTP5IhIO3B/99UFfaEsLaFgKbIkl2aKyBqmYmCSUKmEOx9rWhdInz1ODfRzoMsiL5YbqnpGzI7bNiU77vL60izVQLxTgv9dwI+/kvZ08L6d1AQGEw2DuBrDi5m+I6y68Z1i0IAoAaork1def8LUxeuBlGz+zHDfy/ftrA0XXOWV9Xf+9fnZy5cDXyRL7qbRA2m6J842TG9WNG8gYpzO6atZtjjfNtVISmpAcAekFcU8z3sfosGAOA0NETbtvQ1bI5DUI1yPbaaL8UACCUEsxVF03RIGfYs37awvkDhXGRsdt9eqcKQWbW5atzk2Q5MjCAIR+zTf5/upZqe50GZpbI+fG3yvGRDrWObSqX6d207Zmh/1VDYcEZVLcN3R1j/DlGgwVvTl1922+Pwc2AZW8qPP+agV/9wuYgjhhNl2HEz5l1w3YPIMjAeGusPHNxl9EM3eyQpNR5llNUifMttrO3YfVsVEfk816xZAzZePG6ZUFwyeUHZvJXrjfGcIoqveumtjxDz4jHrW0ZW4dpqTQQhdn+GiQxfn+/Wvf26xiPyCy1aXY6QAIiEnqWKNRvenrYYgBOAzIK15a99sgixrEAoFEsUbKyoXrupGvCgjnaYvzrDHuFbFpYivZhAtOqxpM8n3bP76iSWaISuPhmsWr8ZVlSFyLrQIcf/11tTAxdYUoCeeGNyY4MaUqOBkiOmIJQV67cAAFiUVBUaimqoGjoJRJwLJFpTNb1qtTggBEQ0EAlEIEFTe9CFqqKBqEIcNIQGClVVJ9hqZi+RaBEnDUVCcSLOqUKjHqtCRUSClLhQJFANojujDnCqThVOkRJ1TlRCaDIEnOoO0wt8h/iWhUUqFDYC8BDAGPrCU5AeHf8KbUW/rCuvKatJwRjVEOKULRizl6z6aP4aa0xlfeKNTxaAABIHSmc4B+GKdZuAdMyOEIUC1sCSWsMeszEe2IoLHEiJFKQqHCaYxWP2mIVtKEoqUMekTB6IhBRkBCaIBngYREZgnAIEJmaCE2G2bJiNIUJ6kZIwQUzMns/GMnsk1iUCVYERgZIRdUaTPpMxTGydWKcwCJzKHp8eZ0/xLTfeHYwSWSDlCOKa1pb4Qu5fMQiiUIA2VtaWba6FH1N1huBErGfDmtRjb31y6IDub306f/a81TYn5lSZrbqA2XdhuHztRgBQMYRQyBorwGdL189ZulpAXUqLRuzVKebHnQvVqMJYF8DGZ6/cMHP+ktzc4qP3750T8yRMkvWr6pObN1XE4n6nNjkwVlUMtLyicnNtKjcvt2OrHIuwuqa+rLI+2/e6tCuZvXTVjAUr2pe2PWCvzgU5cREYL17T0DBxzuqNFbVxQwP7dBzQpa0PFRWwEXGWOUTs3U9mr91cM7hXx/36djVw4kj5uzvF67csLCZ1Jh4ChblZkDA/np6FHCCAEMXBfZm2FABWr12PmkpbVOBCBMqIZjC33qRZKytqG14ePwOqRgMHo6JqsogELlxStgUAE5wTa70VG7dceddTb01bFjaGCJOIx4b07nDPNWeN2LtLygWWAOv/4blJN9z/jNQnYfwDBnZ95KZze3dpC+DZDz677I7HOpWWzH7i14XZLgTFiG7914R7H3r9uKOGvvaHSwE79sNFV/3+0WF92h4yetSfH3sh2RCAvQdvOvuS4w5ixtPvTb35H28vXbMFiSTYxAuyzjl80F2Xn1iYlxOIekyVNQ3f+83j706eA5FYlrn0tENuvfSUXM+yCn9X4wS/ZcUTVJyzwJJ1m0GxJRsqgWi2GiIC8Vc5A6JAiLmrtwAKERDlxigrZgKnxueVa8v++OzECbOWw6dIcHmxpqrH2g1bGhqTKSYY622sbTjj+r+99vYMF6YOGdrlpKP2KyzImzl73fE/u2/einW+8ZjN5NmLrvvzsxBv+JBuha0KPpkw687HXo98sqqEwARBymgAqEcChC50CE0iCKIIChMmoDRj+eY77vlnUUFBmw4d2pfmH3NgfwAvfPj5WTc+uHTx+vatck47eujofTsnEqmHH3vv//74dAhj4AC+bewb746b0ald8ch9eyWT3j1j35g6ezGB5Ds8C9K3bLFCUd/azxcsO/3GhxD3fvXQ6x0KYhedcHB6bmzoTn0CCkTRMAAWrKuGtWworKgdc8xBrQvzH376LcrJE8Xtj74mxmfPk2Qwat/+I/bt+bv7nqGCQlhbXlmzoaKmW7tWAB54YeL06atKu7X/+7WnnTByHwCrN20551f/mDR53m1Pvv+vX5wH0MS5q1BRNeaYA9/542XvTJ83Y8Hqy04do+KIjSUHqLFWDQFGoAw2lqGNUao+AJ8Ba1yKjjtiv6d+c1FjY2Lt5uqOrQrrk8HPHngdGjvi4H5P3nx+66ICAGPf/OSyP7/8zzdnnn74nBOGD6hJJF+ftgQ5sVsvPvyC40b/+h8vD92715h9e6VUOb2AWcZibYsqLJtPFqw65sax6zbWWN+H0sW/f+qR1z9mIpVgZ0ksmp6GWAWE0LklK9fCeFCB2i4l+VedNhIeO5ByDMxEzhhGTe1Fxw07bJ/uCBRswbyxqmZTTQKgRCp87aNZMHr8yIFHDN9n8ZrNi9dU5OcWnnf0SOQWvDNl/sbqWgD58WxYN2Ph6t8/8e6IQX1uOO/owmw/5SKDwdBQQSwAKFqoMlADIm6e5p4Uztmc7N/+4PjcuF9SlLdP704Apnw2f/XqtV6OufSMI9iaxWvLl6+vPHHUkMOGdEVDw8QZSwDEPZsf9xCGf3996rvTF/76Bycdd8Be0CiiMp279h3kW7NYUb5heXXd6b94eP3ayvx8rnFsLDmKX/zLRzq0KT5yWF9xAbNiZxFaSkzAxqrGNWUb4FkRRcy0Lsrfu2tpr+6dl6zYwH6MICAbBJrdvu3ogd3KKmuRkx06Z61pqKxet6kSfTpuqksuWbcJBbmPvDn54Vc+ILDAMxrAGDjZUlG9bM2m0oL80w4d9NyEwR9+sOTGe1+859VPLzlm6NVnjCrMidZ3ZYDZmKYp/wiAJYGq4/TtDYWhWpjjde9UCkggIJeyXmzOqnJRVsS/d/39QShgizCAVTYWft7HC5a4MOVb//rzjzl9ydiPP118xLwHDh3Y7ifnHXviAXtbCQTfTWsFfIvCiiLHWxXk/uHS4y669dGapG+9FKtzjXLpOUeMGNjVKULY2M4T7zTS5cI1m+pTIYjVKazp1KYQwIXHDL/prie9uJdSY1SkIXX4iL27ti/ZUlWdV1RQW1PL8TgCt2xdOYD6hsbGwBlJ7dW9czw3n1zKsjpRQGNZ8cZEEPMMgNLCvKdv+/Ffn3zrb69N3bhi5a1/XDJ19uInf3tJq5x4GIZgI8pKBFDUpyBSEMSJqiMyZD04ybGwmgTiaFoDp9ExRAuyzd5dOwtZFXgkDaBCQ42B692tRNg36k4ZuffkB6783YPPvf7pkg+mrPjgs/v/eu0Zl518iIYB03c0fG2PC4u+1ktE0LMOH+b5sTN/9YhzEjY2XHHOMfdddRrgkhJNe7etqVfVqDcHtcDCVRslCjtVsKVu7YoAHHdg77vaFlfV1sPGFSFi9vvHHgCguKiwOC9WW1VFKvCylq8vB9C2MKs4L2fjhtRVpw3//rEjG5Ipjy2pWt+s2VQVKVUgUG2bl3XLpaecd+yIWx9/+8UP5457b/rYEftcc+pISAggCAIYo6KhC332Uo6hiBuNAqkhLt1xUAYMR8siASU5BrDZNnj1rh8Xxk2jWFYX82xNTYNCCvNznYYOZKAH9O306t1XvfjRvF88PG7BwuW/feydow7cu1vbEifyZesIfbtsX0NH9mHXK0p8KYqtUtp3iaoGYXja6EFP/eoCra+/+Myj77vqNFEJHVkEdsfxFgJIkV5wC8tWlyEVGCYnYXbM79ahFNCB3TuO2a+fJsQzxiXC3r26HjmsL4DCooLivGyEjqEwZvW6DUBYlJszrHcnNAQPvjazNhVkx3zPY+ubt6cvGH35H66674XqmlqGNoR4afyMNZsqenVq8/hN5w/r2x5q12+qBNC+tA08r7Kmbt6CJcTke56DTp81H/HsNsV50WvGEJAKWcc+oEajpZpx0MAeXrZXtqnxgRfHE3vZluKeJeCqv75w0I///PyEGUxqyKxYv+XJd6YCfMrIAQ9ecwrYVdaHqzfXAPjOTo+7vcVyYAAWhpmidJJd9TuapAgBYOBgbDT3MFQVu5i3gYiYGZAx+/aAl3X0vj0BOAfP8k6Nn4JZXQjjIQVgSVkFSK0xAZkOrfNLCuJRMtnZR+7//HtTDRNSwf8dt1/csynniuK2pLAIsASFDRdvrGlIIDuOC08c9dpHcz/9fOlZNz7w8wuOLsiOTZ+79OZH312/dMOLbtqvzj0iVDriijunzFx37CG9fn/ZyZ8tXrVwZRmY+nRvB+DAgd06tcpeU1Z72T2v3PZDV5CX/dgbk6Yv3QzfHH9Q3/RlWgKsYbEqgAGxIVLVvbp1OHX03k+/8PFtT0wIg/C4EYNTLnjk1SljX/4UdY0TBy867eB9x81YevINf29saNxcXX/Ufr2fePNjJNC2U27P9iUAaDcS7L4VtheWUQdwTdLVBVEOuO5OFjilmxdIOUHSJTRt/8nuTmaEAmZLbQqJxPrqFICmLNedlKuIPBDCxttYWTt72QYk0diQRHVVyaBevuexS4JpzLD+vTu2Xjx/fatubY4+sA8AcQpD+dkWdbUNXgFStHTF2vWbKnp0bnPK8P63/PDIX/79tTfe/fyNKYuzcrIaN9XBUI8B3Z7/3Q+LCvMAnDhy4JQ5q9549/N3pi0OQouqmtEjep55yBCVsDQvfuflx537q7Gfz1557JV/gechGSAMzjh5xImjhgRhyrN+bUOABi2vrItyiqJMTVEQ4d6fnLZ81bqps9b/8u5X7nji3ZRwsKUK2f4VF4z+89VnAzKoZ8n+fVpPmLTgp3c9c11+dqq8Dp7+38nDO7TKFxeQ+Y5OVrO9sJgYQId80oRHiOqdXQsLSLcgC7P90vbZcUMAiOmrbR0QjfcRAM+Ydu3zWuV6wFftwwCgogBxEAYH791hU5c2cd8k6muPGDmEoCGYhPM9+uWlp9/79HunH7Ffjw7tnAuMMQCOH96/sqYmNycrFLCESZcCIKo3X3R8v24d7n7x48WrNopLduzX5ugDB9x8wRGtC/KcCw2b6847unOHtnc8/uaa8jpmPuqYoX+4/KQ83zhxLMH3jjgonpP960ffKyuvdqEU5GWfffg+N5x7JEMDWAC9O5QefsSAtsV5xrfN18dMIlJSlP/e/df/buzrz02YtaVBsjTouXePS4478PtHDQXgwlTbgoKXbr/yhgdfe23SvMZkoqhv0VWnjfrxqaPFBbr1qoHfMbbPhBYFk9tYVZdKaaeSAqFdBi1tI57axlRZVW2PkjxrSJUc26/uHSigAKukQresvLZjQTwvO/ur5KgCqJARBUOJiKCRu4sBSCIFn4ktApBRcLT8iYJIHZMT8h3gQQE4kEho2ChIVS1RfaJx9YYtoSA/L6dLSRGAQJxlgjgRNdavrqtfubEybqhP1/aABqGSMYCokGeopqF+7cZK57SwoKBTST6QSollZqtOyZAmgRh2eNdCcZYNgDXlNZU1dZa0a7vi7HhWoDDqiNmpWgqA2OINlcm66tbFxe2K86Fh5CrbcW2g7wjbCwuAiGMmgCEq/PWEFeFEKG3DdieVTqEOREi35/BVuop6hRBRFiKLEAqJkoqRnp/dIFQYp8oEQFQgbD0KVVlUoWqIBURKzkQefFWQE+exA8WiclJOmdSyiqqQNepCJ55Nz9ctkhJYTssaFCZDWOsxIV31h2FgTNQFImUSJUZIGiVBbnNHVQMHOLUxji4CiiAIyRg2FGWWOwaFTvyml1RcACJhazSk72qG/k6EBUBUkV4ue5e12TaoqqoQG40CrAi7sbtG/6t8aX7pdltH8z5KusOlqtTc+iIA6kAMhUKisUahL1Z+ovTqOQRNO55UQQQBRUs7UdSxJUNEaPpRwQpANUogipZPjiaOV2KCqMARkzqKBjqbX0hVRMthQAmgJtu69QW5aGoUkeheO2JLIJX0go+qIFYn6cULmtJeKX1w7MYd/hbYubAyZPiG7Kqiy5Dh3yIjrAwtQkZYGVqEjLAytAgZYWVoETLCytAiZISVoUXICCtDi5ARVoYWISOsDC1CRlgZWoSMsDK0CBlhZWgRMsLK0CJkhJWhRcgIK0OLkBFWhhYhI6wMLUJGWBlahIywMrQIGWFlaBEywsrQImSElaFFyAgrQ4uQEVaGFiEjrAwtQkZYGVqEjLAytAgZYWVoETLCytAiZISVoUXICCtDi5ARVoYWISOsDC1CRlgZWoSMsDK0CBlhZWgRMsLK0CJkhJWhRcgIK0OLkBFWhhYhI6wMLUJGWBlahIywMrQIGWFlaBEywsrQImSElaFFyAgrQ4uQEVaGFuH/Abhw6CSRjmSqAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDE4LTAzLTAxVDAxOjU4OjU5KzAwOjAwrGoQcwAAACV0RVh0ZGF0ZTptb2RpZnkAMjAxOC0wMy0wMVQwMTo1ODo1OSswMDowMN03qM8AAAAASUVORK5CYII=" width="200" height="200" />
+    </div>
+
+    <div class="coverpage-title">
+      
+      <span class="title-third">The International System of Units</span>
+      <span class="title-third">Le syst&#xE8;me international d&#x2019;unit&#xE9;s</span><br />
+      
+             
+      
+      
+      
+      
+      <span class="title-first">Appendix 4: Historical notes on the development of the International System of Units and its base units</span><br /> 
+      <span class="title-second">Annexe 4: Notes historiques sur l&#x2019;&#xE9;volution du Syst&#xE8;me international d&#x2019;unit&#xE9;s et ses unit&#xE9;s de base</span>
+       
+      
+      
+    </div>
+  </div>
+
+  <div class="coverpage-logo">
+    <span>Bureau International de Poids et Mesures 2019</span>
+    
+  </div>
+
+  
+
+  <div class="coverpage-tc-name">
+    <span>BIPM</span>
+  </div>
+ 
+  
+  <div class="coverpage-tc-name">
+    .
+  </div>
+  
+
+
+  </div>
+
+    <div class="wrapper-top-bottom"></div>
+
+  <div class="WordSection11">
+  <div class="coverpage-stage-block">
+    <span class="coverpage-stage" id="brochure">BIPM Brochure</span>
+  </div>
+
+  <div class="coverpage-stage-block">
+    <p><span class="coverpage-maturity" id="in-force">In Force</span></p>
+</div>
+
+<div class="info-section">
+<div class="copyright">
+<div class="boilerplate-copyright">
+    <div>
+      <p id="_0f818697-7bd5-4fc7-bc60-853b9c42d344" style="text-align:center;"> &#xA9; Bureau International des Poids et Mesures 2019 all rights reserved</p>
+    </div>
+  </div>
+  <div class="boilerplate-license">
+    <div><h1 class="IntroTitle">Copyright statement</h1>
+
+      <p id="_0ae5eeff-280e-4950-8d05-44e02431d9e5">This document is distributed under the terms of the Creative Commons Attribution 4.0 International License (<a href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</a>), which permits unrestricted use, distribution, and reproduction in any medium, provided you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made.</p>
+    </div>
+  </div>
+  <div id="boilerplate-legal-destination"></div>
+<div class="boilerplate-feedback">
+    <p id="_f37a0af2-e285-4c38-b0f8-594c87b88c93">BIPM<br />
+      Pavillon de Breteuil<br />
+      F-92312 S&#xE8;vres Cedex<br />
+      FRANCE</p>
+  </div>
+</div>
+
+<div class="rule"></div>
+</div>
+  </div>
+
+
+
+</div></header>
+      
+    </div>
+    <br />
+    <div class="prefatory-section"><nav>
+  <h1 id="content">Contents</h1>
+  <div id="toc"><ul><li class="h1"><a href="#toc0">      1.&#xA0; Part 1. The historical development of the realization of SI units  </a></li><li class="h1"><a href="#toc1">      2.&#xA0; Part 2. The historical development of the International System    </a></li><li class="h1"><a href="#toc2">      3.&#xA0; Part 3. Historical perspective on the base units</a></li><li class="h2"><a href="#toc3">      3.1.&#xA0; Unit of time, second  </a></li><li class="h2"><a href="#toc4">      3.2.&#xA0; Unit of length, metre  </a></li><li class="h2"><a href="#toc5">      3.3.&#xA0; Unit of mass, kilogram</a></li><li class="h2"><a href="#toc6">      3.4.&#xA0; Unit of electric current, ampere   </a></li><li class="h2"><a href="#toc7">      3.5.&#xA0; Unit of thermodynamic temperature, kelvin   </a></li><li class="h2"><a href="#toc8">      3.6.&#xA0; Unit of amount of substance, mole   </a></li><li class="h2"><a href="#toc9">      3.7.&#xA0; Unit of luminous intensity, candela  </a></li></ul></div>
+
+</nav>
+
+
+<div class="rule toc"></div>
+
+      
+    </div>
+    <br />
+    <main class="main-section"><button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+      <div class="authority">
+  
+  
+  
+</div>
+      <p class="zzSTDTitle1">The International System of Units</p>
+      <div id="_part_1_the_historical_development_of_the_realization_of_si_units_realization_of_a_unit_syst&#xE8;me_international_dunit&#xE9;s_siinternational_system_of_units">
+        <h1 id="toc0">1.&#xA0; Part 1. The historical development of the realization of SI units <a id="_f27b2a00-83c8-4611-8543-2a2acfc26a2e"></a> </h1>
+        <p id="_dd56eafe-ba0c-4394-ba52-0dab8ce30faa">Experimental methods used for the realization of units and which use equations of physics are known as primary methods. The essential characteristic of a primary method is that it allows a quantity to be measured in a particular unit directly from its definition by using only quantities and constants that themselves do not contain that unit.
+<a id="_cf40db40-3252-42c9-9997-bba99111a603"></a><a id="_b19ea4c7-a362-40bd-ba89-67f3b56b7d77"></a></p>
+        <p id="_9537fec0-39f2-4fde-9b68-a1d8eb168b15">Traditionally, a unit for a given quantity was taken to be a particular example of that quantity, which was chosen to provide numerical values of common measurements of a convenient size. Before the rise of modern science, units were necessarily defined in terms of material artefacts, notably the metre and kilogram<a id="_2877bfb4-73e9-4d56-b3cb-305487609dab"></a> for length and mass, or the property of a particular object, namely the rotation of the earth for the second. Even at the origin of the metric system<a id="_3658f996-0c6e-4e24-b747-aaa1001c672d"></a> at the end of the 18th century it was recognized that a more desirable definition of a unit of length for example would be one based on a universal property of nature such as the length of a pendulum beating seconds. Such a definition would be independent of time and place and would in principle accessible all over the world. At the time, practical considerations resulted in the simpler, artefact definitions for the metre and the kilogram<a id="_ad9074b4-b0c0-44ad-95ad-9e5f45ac382e"></a> and the second remained linked to the rotation of the Earth. It was only in 1960 that the first non-material definition was adopted, namely the wavelength of a specified optical radiation for the metre.</p>
+        <p id="_dae9baf5-4f0e-4a86-a46e-67f49947f9a7">Since then, definitions of the ampere<a id="_12200e6b-15fe-4992-940b-b091a2a8a950"></a>, kelvin, mole<a id="_ea415cef-f66a-4073-a38a-7a5baf9aae16"></a> and candela<a id="_bd075393-74dd-469b-a2dc-36590c7acb60"></a> have been adopted that do not refer to material artefacts. In the case of the ampere<a id="_3be70369-7732-4146-8ab5-bd7020f23826"></a> it refers to a specified electric current<a id="_6d2aae73-5915-4697-8db1-425fd07ec632"></a> required to produce a given electromagnetic force and, in the case of the kelvin, to a particular thermodynamic state, namely the triple point of water<a id="_04f1a919-84e3-4d78-933e-a4adf1c4722f"></a>. Even the atomic definition of the second was in terms of a specified transition of the the caesium atom. The kilogram<a id="_5ca30d51-6fd0-437f-b670-30cc667f602c"></a> has always stood out as the one unit that had resisted the transformation from an artefact. The definition that opened the way to real universality was that of the metre in 1983. This definition implied, although it did not state, a fixed numerical value for the speed of light. The definition was worded, however, in the traditional form and stated essentially that the metre was the distance travelled by light in a specified time. In this way it reflected the other definitions of the base units<a id="_b3ed3e65-95bf-485d-914e-fea5fefa7bc6"></a> of the SI each of which has the same form, for example &#x201C;the ampere<a id="_181ab641-bb01-4086-aa0b-6ccf6f30f72e"></a> is the current which&#x2026;&#x200B;&#x201D; and &#x201C;the kelvin is a fraction of a specified temperature&#x201D;. Such definitions can be called explicit unit definitions. <a id="_34a7dcf4-e3fa-408a-a37f-f5db28ec9ca1"></a></p>
+        <p id="_93e037d7-85ec-4a63-8187-b6265887878a">Although these definitions meet many of the requirements for universality and accessibility, and a variety of realizations are often possible, they nevertheless constrain practical realizations to experiments that are directly or indirectly linked to the particular conditions or states specified in each definition. In consequence, the accuracy of realization of such definitions can never be better than the accuracy of realization of the particular conditions or states specified in the definitions.</p>
+        <p id="_de56e088-550c-42bb-9242-b8f7d13a69a8">This is a particular problem with the present definition of the second, which is based on a microwave transition of an atom of caesium. Frequencies of optical transitions of different atoms or ions are now demonstrably more reproducible, by some orders of magnitude, than the defined frequency of caesium.</p>
+        <p id="_f7b099f5-4ca2-4765-be10-af0baeb99a91">In the present definition of the SI based on the set of defining constants<a id="_ea187d48-1604-4e97-aa60-9a86a7655f71"></a>, instead of each definition specifying a particular condition or state, which sets a fundamental limit to the accuracy of realization, any convenient equation of physics that links the particular constant or constants to the quantity we want to measure may be used. This is a much more general way of defining the basic units of measurement. It is one that is not limited by today&#x2019;s science or technology as future developments may lead to as yet unknown equations that could result in different ways of realizing units with a much higher accuracy. When defined in this way, there is, in principle, no limit to the accuracy with which a unit can be realized. The exception remains the definition of the second in which the original microwave transition of caesium remains, for the time being, the basis of the definition.</p>
+        <p id="_f3bbe4ae-e8f0-4d63-be53-f9609f644e92">The difference between an explicit unit and an explicit constant definition<a id="_fa995006-4338-4ed5-90c4-69bc0ea1b595"></a> can be clearly illustrated using the two previous definitions of the metre that depended upon a fixed numerical value of the speed of light and secondly the two definitions of the kelvin. The original 1983 definition of the metre states, in effect, that &#x201C;the metre is the length of the path travelled by light in vacuum during a time interval of <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mn>1</mn>
+  <mo>/</mo>
+  <mn>299&#x202F;792&#x202F;458</mn>
+</math></span> of a second&#x201D;. The new definition simply states that the metre is defined by taking the constant that defines the second, the specified caesium frequency<a id="_451e91f3-ab42-4b06-8fc2-c325888768e9"></a> and the fixed numerical value of the speed of light expressed in units <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu1.u3e-1/1"><mi mathvariant="normal">m</mi><mo rspace="thickmathspace">&#x2062;</mo><msup><mrow><mi mathvariant="normal">s</mi></mrow><mrow><mo>&#x2212;</mo><mn>1</mn></mrow></msup></mrow>
+
+
+
+
+
+
+
+
+</math></span>. We can thus use any equation of physics including, of course, that indicated by the former definition, the time taken to travel the given distance which is used for astronomical distances, but also the simple equation relating frequency and wavelength to the speed of light. The former definition of the kelvin based on a fixed numerical value for the temperature of the triple point of water<a id="_f4f69dbf-fa02-4bc8-a880-cab4c8d70f7b"></a> requires ultimately a measurement at the triple point of water. The new definition, based on the fixed numerical value for the Boltzmann constant<a id="_40033b11-503e-427f-82bd-b6798251a826"></a>, is much more general in that any thermodynamic equation in which <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mi>k</mi>
+</math></span> appears can in principle be used to determine a thermodynamic temperature at any point on the temperature scale. For example, by determining the total radiant exitance of a black body at temperature <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle mathvariant="italic">
+    <mi>T</mi>
+  </mstyle>
+</math></span>, equal to <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mfenced open="(" close=")">
+    <mrow>
+      <mn>2</mn>
+      <msup>
+        <mrow>
+          <mi mathvariant="normal">&#x3C0;</mi>
+        </mrow>
+        <mrow>
+          <mn>5</mn>
+        </mrow>
+      </msup>
+      <msup>
+        <mrow>
+          <mi>k</mi>
+        </mrow>
+        <mrow>
+          <mn>4</mn>
+        </mrow>
+      </msup>
+      <mo>/</mo>
+      <mn>15</mn>
+      <msup>
+        <mrow>
+          <mi>c</mi>
+        </mrow>
+        <mrow>
+          <mn>2</mn>
+        </mrow>
+      </msup>
+      <msup>
+        <mrow>
+          <mi>h</mi>
+        </mrow>
+        <mrow>
+          <mn>3</mn>
+        </mrow>
+      </msup>
+    </mrow>
+  </mfenced>
+  <msup>
+    <mrow>
+      <mstyle mathvariant="italic">
+        <mi>T</mi>
+      </mstyle>
+    </mrow>
+    <mrow>
+      <mn>4</mn>
+    </mrow>
+  </msup>
+</math></span>, in <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu14.u1e-2/1"><mi mathvariant="normal">W</mi><mo rspace="thickmathspace">&#x2062;</mo><msup><mrow><mi mathvariant="normal">m</mi></mrow><mrow><mo>&#x2212;</mo><mn>2</mn></mrow></msup></mrow>
+
+
+
+
+
+
+
+
+</math></span> we can determine <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle mathvariant="italic">
+    <mi>T</mi>
+  </mstyle>
+</math></span> directly.
+
+<a id="_aeea89b9-4b33-4f96-81ae-37f9ec7f02b8"></a></p>
+        <p id="_d4a97ab8-1169-43a2-b409-24e374db3615">For the kilogram<a id="_0a3c351d-6421-4944-a55d-6194beb1219f"></a>, the unit whose definition has undergone the most fundamental change, realization can be through any equation of physics that links mass, the Planck constant<a id="_bfc8c5e0-a23e-4862-8f06-8307bfda0b12"></a>, the velocity of light and the caesium frequency<a id="_b118864e-6c72-4ea0-abf1-b5c96050c90c"></a>. One such equation is that which describes the operation of an electro-mechanical balance, previously known as a watt balance, more recently known as a Kibble<a class="FootnoteRef" href="#fn:1" id="fnref:1"><sup>1</sup></a> balance<a id="_0d20e663-eb81-440f-a9b8-2e5c57c9c491"></a>. With this apparatus, a mechanical power, measured in terms of a mass, <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mi>m</mi>
+</math></span>, the local acceleration due to gravity, <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mi>g</mi>
+</math></span>, and a velocity, <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mi>v</mi>
+</math></span>, can be measured in terms of an electrical power measured in terms of an electric current<a id="_3fad67dd-5f8e-4956-a5d1-364a813af679"></a> and voltage measured in terms of the quantum Hall and Josephson effects respectively. The resulting equation is <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mi>m</mi>
+  <mi>g</mi>
+  <mi>v</mi>
+  <mo>=</mo>
+  <mstyle mathvariant="italic">
+    <mi>C</mi>
+  </mstyle>
+  <mi>h</mi>
+</math></span> where <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle mathvariant="italic">
+    <mi>C</mi>
+  </mstyle>
+</math></span> is a calibration constant that includes measured frequencies and <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mi>h</mi>
+</math></span> is Planck&#x2019;s constant. <a id="_4cb38504-c60f-4406-8d3c-1a87ac88cdaf"></a>
+<a id="_ba390332-c270-4afa-90a5-2940ba91e863"></a></p>
+        <p id="_a95d14b5-24e2-40bd-aa8f-fdd6e1046aaf">Another method that can be used for a primary realization of the kilogram<a id="_0632ed34-814c-4597-b842-87e187e51f02"></a> is through the determination of the number of atoms in a silicon sphere and using the equation:</p>
+        <div id="_9616c32f-1f5f-4550-8e71-a4445a61b8a6"><div class="formula"><p><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mi>m</mi>
+  <mo>=</mo>
+  <mfrac>
+    <mrow>
+      <mrow>
+        <mn>8</mn>
+        <mstyle mathvariant="italic">
+          <mi>V</mi>
+        </mstyle>
+      </mrow>
+    </mrow>
+    <mrow>
+      <msubsup>
+        <mrow>
+          <mi>a</mi>
+        </mrow>
+        <mrow>
+          <mn>0</mn>
+        </mrow>
+        <mrow>
+          <mn>3</mn>
+        </mrow>
+      </msubsup>
+    </mrow>
+  </mfrac>
+  <mfrac>
+    <mrow>
+      <mrow>
+        <mn>2</mn>
+        <msub>
+          <mrow>
+            <mstyle mathvariant="italic">
+              <mi>R</mi>
+            </mstyle>
+          </mrow>
+          <mrow>
+            <mo>&#x221E;</mo>
+          </mrow>
+        </msub>
+        <mi>h</mi>
+      </mrow>
+    </mrow>
+    <mrow>
+      <mrow>
+        <mi>c</mi>
+        <msup>
+          <mrow>
+            <mstyle mathvariant="italic">
+              <mi>&#x3B1;</mi>
+            </mstyle>
+          </mrow>
+          <mrow>
+            <mn>2</mn>
+          </mrow>
+        </msup>
+      </mrow>
+    </mrow>
+  </mfrac>
+  <mfrac>
+    <mrow>
+      <msub>
+        <mrow>
+          <mi>m</mi>
+        </mrow>
+        <mrow>
+          <mtext>Si</mtext>
+        </mrow>
+      </msub>
+    </mrow>
+    <mrow>
+      <msub>
+        <mrow>
+          <mi>m</mi>
+        </mrow>
+        <mrow>
+          <mtext>e</mtext>
+        </mrow>
+      </msub>
+    </mrow>
+  </mfrac>
+</math></span></p></div>
+
+</div>
+        <p id="_9f8f140c-cfcf-4ff0-9fc5-e01a777b1c71">with the mass <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mi>m</mi>
+</math></span> and volume <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle mathvariant="italic">
+    <mi>V</mi>
+  </mstyle>
+</math></span> of the sphere (about <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>1</mn><mo rspace="thickmathspace">&#x2062;</mo><mrow xref="U_NISTu2"><mi mathvariant="normal">kg</mi></mrow>
+
+
+
+
+
+
+
+
+
+
+</math></span>), lattice parameter <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <msub>
+    <mrow>
+      <mi>a</mi>
+    </mrow>
+    <mrow>
+      <mn>0</mn>
+    </mrow>
+  </msub>
+</math></span>, Rydberg constant<a id="_cab1fd17-e97c-43e0-b14b-b53f4dc1a658"></a> <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <msub>
+    <mrow>
+      <mstyle mathvariant="italic">
+        <mi>R</mi>
+      </mstyle>
+    </mrow>
+    <mrow>
+      <mo>&#x221E;</mo>
+    </mrow>
+  </msub>
+</math></span>, fine structure constant<a id="_f15c84e5-56bf-44f6-a240-a682aa8ec372"></a> <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle mathvariant="italic">
+    <mi>&#x3B1;</mi>
+  </mstyle>
+</math></span>, and the masses of a silicon atom (averaged over the three isotopes used for the sphere) <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <msub>
+    <mrow>
+      <mi>m</mi>
+    </mrow>
+    <mrow>
+      <mtext>Si</mtext>
+    </mrow>
+  </msub>
+</math></span>, and the electron <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <msub>
+    <mrow>
+      <mi>m</mi>
+    </mrow>
+    <mrow>
+      <mtext>e</mtext>
+    </mrow>
+  </msub>
+</math></span>, respectively. The first fraction corresponds to the number of atoms in the sphere, the second to the electron mass and the third fraction is the ratio of the mass of the (isotopically averaged) silicon atom to the electron mass. <a id="_a35aa356-5e0d-4fd6-8362-cdc11c829a99"></a></p>
+        <p id="_73b66344-5c37-45fd-a693-14370216e0e2">Another possibility for measuring mass through the new definition, but this time at the microscopic level, is through measurements of atomic recoil using the relation that includes <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mi>h</mi>
+  <mo>/</mo>
+  <mi>m</mi>
+</math></span>.</p>
+        <p id="_350bfa55-10bf-48d2-90dd-9999a54e69ae">All these provide a striking illustration of the generality of the new way of defining units. Detailed information on the current realization of the base and other units is given on the BIPM website. <a id="realization_unit-3"></a></p>
+      </div>
+      <div id="_part_2_the_historical_development_of_the_international_system_establishment_of_the_si_historical_notes_international_system_of_units_si_special_names_and_symbols_for_units">
+        <h1 id="toc1">2.&#xA0; Part 2. The historical development of the International System <a id="_4b7d9c83-4e96-4995-879d-8b75eab7a1aa"></a> <a id="_20e8aa62-aa99-4d5a-ae94-2efb6178c4b1"></a> <a id="_0fca084c-8df3-44e8-968b-7da4226d48f3"></a> <a id="_7a9d07ba-f59e-4e0b-a3e9-6d726de5afde"></a></h1>
+        <p id="_1aaf9fd1-1632-483f-b6f9-5f0da6319d32">The 9th CGPM (1948, Resolution 6; CR 64) instructed the CIPM:</p>
+        <ul id="_c223958b-2b81-48f6-b896-937088bc9be1">
+<li>
+<p id="_1bddc0c5-ac7f-4880-b100-4d3a9c016e14">to study the establishment of a complete set of rules for units of measurement;</p>
+</li>
+<li>
+<p id="_7bf352c7-9506-491d-b0a3-647da13fef0c">to find out for this purpose, by official enquiry, the opinion prevailing in scientific, technical and educational circles in all countries;</p>
+</li>
+<li>
+<p id="_c4742e7d-e4f1-48c5-8814-04c2b7202505">to make recommendations on the establishment of a <i>practical system of units of measurement</i> suitable for adoption by all signatories to the <i>Metre Convention<a id="_3aee6a30-ce8a-4ce3-8ba3-78a6a0cb4573"></a></i>.</p>
+</li>
+</ul>
+        <p id="_196db7a9-e466-456e-a815-080009548c5d">The same CGPM also laid down, in Resolution 7 (CR 70), &#x2018;general principles for the writing of unit symbols&#x2019; and listed some coherent derived units<a id="_c18e4d47-63ba-4906-99e2-d6b525d01c99"></a> that were assigned special names.
+<a id="_c8e6da41-ffc1-421a-a012-28369323bc7d"></a>
+<a id="_89b95bef-b623-4866-9dde-8d08a618d54a"></a>
+<a id="_825ca12c-8e58-4f73-8cd3-a6fb617e97d5"></a></p>
+        <p id="_ad8caa11-36c0-4d43-b50d-b5009429383b">The 10th CGPM (1954, Resolution 6; CR 80) adopted as base quantities and units for this practical system the following six quantities: length, mass<a id="_3c84f52e-7ad1-45c4-9c18-35256933582a"></a>, time, electric current<a id="_c542190f-9d2d-46f3-9193-9fadbeee1a99"></a>, thermodynamic temperature<a id="_dbae8965-3ce2-47c3-ae72-34bd40258e39"></a> and luminous intensity, as well as the six corresponding base units<a id="_f8c96752-8573-4074-bb69-e3b695815f1a"></a>: metre, kilogram<a id="_15acf64b-9ecc-4047-bd7f-e7c1e75a9153"></a>, second, ampere<a id="_24683794-c2da-47e8-b413-96d3355f795f"></a>, kelvin and candela<a id="_3c2e0999-13ee-4dc1-9b35-6dc4f8ce713b"></a>. After a lengthy discussion between physicists and chemists, the 14th CGPM (1971, Resolution 3, CR 78 and <i>Metrologia</i> 1972, <b>8</b>, 36) added amount of substance, unit mole, as the seventh base quantity<a id="_39eb162f-be0d-4356-a6ef-786942fa44a8"></a> and unit.
+<a id="_e0c0b567-4783-45b8-a86d-8befd0ffac56"></a></p>
+        <p id="_6151ef6b-08b4-45be-99b8-86c99541344a">The 11th CGPM (1960, Resolution 12; CR 87) adopted the name <i>Syst&#xE8;me international d&#x2019;unit&#xE9;s</i>, with the international abbreviation <i>SI</i>, for this practical system of units and laid down rules for prefixes, derived units and the former supplementary units<a id="_4e9e35bb-f158-4011-ab80-e193ea12f951"></a>, as well as other matters; it thus established a comprehensive specification for units of measurement. Subsequent meetings of the CGPM and the CIPM have added to and modified the original structure of the SI to take account of advances in science and of the changing needs of users.</p>
+        <p id="_e328f0e5-1493-478f-b856-039f8a3f6d72">The historical sequence that led to these important decisions may be summarized as follows. <a id="_71d1b015-241e-4480-b963-a64f4adc545b"></a></p>
+        <ul id="_69dd8b86-0f42-4e5d-be6b-61bd1bb5508e">
+<li>
+<p id="_db940da1-10f2-41a3-af82-6673115ebf25">The creation of the decimal metric system<a id="_73a3e04c-0817-40e0-b846-534216cdd2ee"></a> at the time of the French Revolution and the subsequent deposition of two platinum standards representing the metre and the kilogram<a id="_16fcfee8-6aab-4258-87d6-43e7d8e1e5d7"></a>, on 22 June 1799, in the <i>Archives de la R&#xE9;publique</i> in Paris, which can be seen as the first step that led to the present International System of Units.</p>
+</li>
+<li>
+<p id="_a9da2907-16fc-4e6f-94fa-df03bf2cb93f">In 1832, Gauss strongly promoted the application of this metric system<a id="_7bf44c9c-9ae6-4b72-9481-fc2803acbec2"></a>, together with the second defined in astronomy, as a coherent system of units for the physical sciences. Gauss was the first to make absolute measurements of the earth&#x2019;s magnetic field in terms of a decimal system based on the <i>three mechanical units</i> millimetre, gram<a id="_dbce96f0-6b06-4118-b3f9-9f2412aa9342"></a> and second for, respectively, the quantities length, mass and time. In later years Gauss and Weber<a id="_c78d583a-4efa-49e2-8219-29732891f734"></a> extended these measurements to include other electrical phenomena. <a id="_73fd9815-40a8-42d2-b591-7d45c2338f43"></a></p>
+</li>
+<li>
+<p id="_3711fb13-0e05-4679-b695-676f138a6d3a">These applications in the field of electricity and magnetism were further extended in the 1860s under the active leadership of Maxwell<a id="_ee0c923e-4708-4c36-bd78-9334d74674ed"></a> and Thomson<a id="_e7003d14-757c-47df-b579-93805e4533c9"></a> through the British Association for the Advancement of Science (BAAS). They formulated the requirement for a <i>coherent system of units</i> with <i>base units</i><a id="_7b046e11-7fb0-4c4d-817f-72a6b4fa7ea5"></a> and <i>derived units</i>. In 1874 the BAAS introduced the <i>CGS system</i><a id="_4ec318ee-056b-4a4c-a822-879b174d1b23"></a>, a three-dimensional coherent unit system based on the three mechanical units centimetre, gram<a id="_4be80102-f4fd-4161-afdc-0f326115b926"></a> and second, using prefixes<a id="_50ba204a-be2c-4d48-a1e1-0eeefddd5a8a"></a><a id="_b426d127-8d0f-452c-a120-8f52a80b0b4a"></a> ranging from micro to mega to express decimal sub-multiples and multiples. The subsequent development of physics as an experimental science was largely based on this system.</p>
+</li>
+<li>
+<p id="_ee51b0e3-a80d-4bc8-8e9b-fbc90e4c440e">The sizes of the coherent CGS<a id="_a0065eb3-1da1-481b-99d0-b0664550d8b1"></a> units in the fields of electricity and magnetism proved to be inconvenient, so in the 1880s the BAAS and the International Electrical Congress, predecessor of the International Electrotechnical Commission (IEC), approved a mutually coherent set of <i>practical units<a id="_e5056297-3dc6-4078-aa82-6ad857f1361b"></a></i>. Among them were the ohm<a id="_b4e67c83-fc1c-44df-867f-1586cd70a898"></a> for electrical resistance, the volt for electromotive force, and the ampere for electric current<a id="_4f9d0648-cea2-4ed8-9392-ca2bb12a7812"></a>. <a id="_fb94d894-de30-44de-bafc-9ded8cf3f58a"></a></p>
+</li>
+<li>
+<p id="_848aa66e-1522-4576-a808-8f090f3a4aa9">After the signing of the Metre Convention on 20 May 1875, which created the BIPM and established the CGPM and the CIPM, work began on establishing new international prototypes for the metre and the kilogram<a id="_45facf77-157c-4384-be88-8b8b2e66cc07"></a>. In 1889 the 1st CGPM sanctioned the international prototypes for the metre and the kilogram<a id="_7d9fa873-efff-4a17-b522-47a78473f593"></a>. Together with the astronomical second as the unit of time<a id="_5be11d80-4c11-4eda-b817-817be958cb09"></a>, these units constituted a three-dimensional mechanical unit system similar to the CGS<a id="_4d879ae4-af9f-42c0-90ee-5834fd99db32"></a> system, but with the base units<a id="_e94ef718-3248-4692-9ad4-b6040e89eeb6"></a> metre, kilogram<a id="_9b552129-7841-4851-b8b0-dd75bc8fc834"></a> and second, known as the <i>MKS system<a id="_0730f316-2be2-480c-8cb0-e37834502036"></a></i>.</p>
+</li>
+<li>
+<p id="_18ff194b-4972-4e69-9e63-8a7e0c3e9efe">In 1901 Giorgi showed that it is possible to combine the mechanical units of this MKS system<a id="_391a883a-f4c3-4a35-b4d7-132350d6eb08"></a> with the practical electrical units<a id="_577a9a42-eefd-4fbc-aaff-edfe692c34f6"></a> to form a coherent four-dimensional system by adding to the three base units<a id="_df8e30bd-8752-47ff-a103-b0fc60aa1048"></a> a fourth unit, of an electrical nature such as the ampere<a id="_54845aad-0234-4df8-90d9-dc8abc038913"></a> or the ohm, and also rewriting the equations occurring in electromagnetism in the so-called rationalized form. Giorgi&#x2019;s proposal opened the path to a number of new developments. <a id="_bbd2a389-c149-4132-ab12-4d081f1c9f75"></a></p>
+</li>
+<li>
+<p id="_fb927009-cbfb-42df-9c25-694265125905">After the revision of the Metre Convention by the 6th CGPM (1921), which extended the scope and responsibilities of the BIPM to other fields in physics and the subsequent creation of the Consultative Committee for Electricity (CCE) by the 7th CGPM (1927), the Giorgi proposal was thoroughly discussed by the IEC, the International Union of Pure and Applied Physics (IUPAP) and other international organizations. This led the CCE to propose in 1939 the adoption of a four-dimensional system based on the metre, kilogram<a id="_6a1bb423-cb33-45b1-9a07-a1702374b15f"></a>, second and ampere<a id="_2dc475b9-db6d-4800-99ff-e073a3a11360"></a>, the MKSA system<a id="_3f81247b-e6be-4f39-b8eb-3422dc2f9128"></a>, a proposal approved by the CIPM in 1946.</p>
+</li>
+<li>
+<p id="_a10527b2-484e-46d8-aaaa-1aeab6f5ef42">Following an international enquiry by the BIPM, which began in 1948, the 10th CGPM (1954), approved the further introduction of the kelvin and the candela<a id="_ed0065cd-ebe1-49f7-8bf7-bbd1cf93032f"></a>, as base units<a id="_258db751-af63-419d-8071-4baf2004b302"></a> for thermodynamic temperature<a id="_bf53aa83-caa5-4369-ba32-2212614c9640"></a> and luminous intensity<a id="_4dcd2467-12ab-40d6-921b-1e21b6f017d0"></a>, respectively. The name International System of Units, with the abbreviation SI, was given to the system by the 11th CGPM (1960). Rules for prefixes<a id="_1be33c3e-ebbc-4c82-9492-ab1609cfe88f"></a>, derived units, the former supplementary units<a id="_44d4eb7d-9a77-4219-8160-49e29eb5fe5c"></a> as well as other matters, were established, thus providing a comprehensive specification for all units of measurement.</p>
+</li>
+<li>
+<p id="_dd90338a-5974-4965-8ab2-a9a8398458b8">At the 14th CGPM (1971) a new base unit<a id="_b1e131bd-aec5-4920-ac5e-2502340f6a53"></a>, the mole, symbol <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu6"><mi mathvariant="normal">mol</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></span>, was adopted for the quantity amount of substance. This followed a proposal from the International Organization for Standardization originating in a proposal from the Commission on Symbols, Units and Nomenclature (SUN Commission) of IUPAP, which was supported by the International Union for Pure and Applied Chemistry (IUPAC). This brought the number of base units<a id="_6e4d7e07-6b15-477f-8150-500ee970e561"></a> of the SI to seven. <a id="_d0ac7165-2120-4915-93f6-e79ade6a2784"></a></p>
+</li>
+<li>
+<p id="_48a02864-4951-42e6-b70c-3e3d0f1c7b59">Since then, extraordinary advances have been made in relating SI units to truly invariant quantities such as the fundamental constants of physics and the properties of atoms. Recognizing the importance of linking SI units to such invariant quantities, the 24th CGPM (2011), adopted the principles of a new definition of the SI based on using a set of seven such constants as references for the definitions. At the time of the 24th CGPM, experiments to determine their values in terms of the then base units<a id="_0f25a88f-1120-477f-bf4c-3d3be4e5df78"></a> were not completely consistent but by the time of the 26th CGPM (2018) this had been achieved and the new definition of the SI was adopted in Resolution 1. This is the basis of the definition presented in this brochure and it is the simplest and most fundamental way of defining the SI. <a id="_820141f1-39c1-418d-a8d7-b607424cbd9a"></a></p>
+</li>
+<li>
+<p id="_04c54fa6-265d-47f7-9a1f-46ae54b197b4">The SI was previously defined in terms of seven base units<a id="_09a826e5-50d2-4d5c-b86b-c596cd9275a2"></a> and derived units defined as products of powers of the base units<a id="_f9702c44-7832-41cf-8f3d-804a4d01fea9"></a>. The seven base units<a id="_c8e1f3d7-7ceb-4e21-9faf-4c96ace07d1b"></a> were chosen for historical reasons, as the metric system, later the SI, evolved and developed over the last 130 years. Their choice was not unique, but it has become established and familiar over the years, not only by providing a framework for describing the SI, but also for defining the derived units. This role for the base units<a id="_02805dde-61b0-43d7-87d9-07df1ecd3188"></a> continues in the present SI even though the SI itself is now defined in terms of the seven defining constants<a id="_9d150bfd-613f-4db9-9a40-21b27839846f"></a>. In this brochure therefore, definitions of the seven base units<a id="_ad01efc6-6beb-48b6-8662-b78d3a602e51"></a> can still be found but are henceforth based on the seven defining constants<a id="_8f22f5e4-41e7-4875-84c5-e72be9a6c962"></a>: the caesium hyperfine frequency <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mo>&#x394;</mo>
+  <msub>
+    <mrow>
+      <mstyle mathvariant="italic">
+        <mi>&#x3BD;</mi>
+      </mstyle>
+    </mrow>
+    <mrow>
+      <mtext>Cs</mtext>
+    </mrow>
+  </msub>
+</math></span>; the speed of light in vacuum<a id="_463752c1-eb1a-4af1-bcf9-72831cb075f9"></a> <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mi>c</mi>
+</math></span>; the Planck constant<a id="_ee7a8142-1d71-47c5-b7d9-ea3786f58a15"></a> <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mi>h</mi>
+</math></span>; elementary charge<a id="_1d103df1-8104-4002-ab85-7717f4a6a322"></a> <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mi>e</mi>
+</math></span>; Boltzmann constant<a id="_2b7cea26-437c-4a1c-9ebc-a7f1290d8864"></a> <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mi>k</mi>
+</math></span>; Avogadro constant<a id="_9dc8d4fd-195a-4707-b5ba-73532ddefd31"></a> <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <msub>
+    <mrow>
+      <mstyle mathvariant="italic">
+        <mi>N</mi>
+      </mstyle>
+    </mrow>
+    <mrow>
+      <mtext>A</mtext>
+    </mrow>
+  </msub>
+</math></span>; and the luminous efficacy<a id="_dd2f2d0b-c925-4bb8-919b-d17278d44bde"></a> of a defined visible radiation <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <msub>
+    <mrow>
+      <mstyle mathvariant="italic">
+        <mi>K</mi>
+      </mstyle>
+    </mrow>
+    <mrow>
+      <mtext>cd</mtext>
+    </mrow>
+  </msub>
+</math></span>.</p>
+</li>
+</ul>
+        <p id="_7621db3e-affc-4927-b4cb-952924db0666">The definitions of the seven base units<a id="_6b212d4b-575f-4a44-a3e6-06b14de21a0d"></a> can be related unambiguously to the numerical values of the seven defining constants<a id="_11feff34-d7bc-4c3d-a3b4-3e4a71addfaa"></a>. However, there is not a one-to-one relationship between the seven defining constants<a id="_982287d6-e64c-476e-ac56-0e6cd04f6f17"></a> and the seven base units<a id="_c0de1732-fec7-43c2-a43c-38e523e91f20"></a> as many of the base units<a id="_81a26786-ef35-494b-a07f-01717aa109ba"></a> call upon more than one of the defining constants<a id="_3c1c0716-3bba-4aea-b813-d417a4b98e5c"></a>. <a id="establisment_si"></a></p>
+      </div>
+      <div id="_part_3_historical_perspective_on_the_base_unitsbase_units">
+        <h1 id="toc2">3.&#xA0; Part 3. Historical perspective on the base units<a id="_ad00bf55-7b50-40de-a049-0da11d703779"></a></h1>
+        <div id="_unit_of_time_second_second_unitsmls_time_duration"><h2 id="toc3">3.1.&#xA0; Unit of time, second <a id="_97a51625-c220-41ef-8c78-56f80ee9311b"></a> <a id="_dd26428c-44bc-414e-9ec2-01e6f8a0b9b5"></a></h2>
+
+<p id="_472858bf-146d-4426-893f-bc9111d336ab">Before 1960, the unit of time the second, was defined as the fraction <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mn>1</mn>
+  <mo>/</mo>
+  <mn>86&#x202F;400</mn>
+</math></span> of the mean solar day. The exact definition of &#x201C;mean solar day&#x201D; was left to astronomers. However measurements showed that irregularities in the rotation of the Earth made this an unsatisfactory definition. In order to define the unit of time more precisely, the 11th CGPM (1960, Resolution 9, CR, 86) adopted a definition given by the International Astronomical Union based on the tropical year 1900. Experimental work, however, had already shown that an atomic standard of time, based on a transition between two energy levels of an atom or a molecule, could be realized and reproduced much more accurately. Considering that a very precise definition of the unit of time is indispensable for science and technology, the 13th CGPM (1967-1968, Resolution 1, CR, 103 and <i>Metrologia</i>, 1968, <b>4</b>, 43) chose a new definition of the second referenced to the frequency of the ground state hyperfine transition in the caesium 133 atom. A revised more precise wording of this same definition now in terms of a fixed numerical value of the unperturbed ground-state hyperfine transition frequency of the caesium 133 atom, <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mo>&#x394;</mo>
+  <msub>
+    <mrow>
+      <mstyle mathvariant="italic">
+        <mi>&#x3BD;</mi>
+      </mstyle>
+    </mrow>
+    <mrow>
+      <mtext>Cs</mtext>
+    </mrow>
+  </msub>
+</math></span>, was adopted in Resolution 1 of the 26<sup>th</sup> CGPM (2018). <a id="second_s"></a> <a id="time_duration"></a></p>
+</div>
+        <div id="_unit_of_length_metre_length_metre_unitsmlm"><h2 id="toc4">3.2.&#xA0; Unit of length, metre <a id="_86d32ebd-cf2d-44c8-a1f8-8d6a68799662"></a> <a id="_5eeeb1c5-0e05-45fe-bd39-3c05c0253c4c"></a></h2>
+
+<p id="_2a827160-23be-46d4-8afb-5e0ce782e10b">The 1889 definition of the metre, namely, the length of the international prototype of platinum-iridium, was replaced by the 11th CGPM (1960) using a definition based on the wavelength of the radiation corresponding to a particular transition in krypton 86. This change was adopted in order to improve the accuracy with which the definition of the metre could be realized, this being achieved using an interferometer with a travelling microscope to measure the optical path difference as the fringes were counted. In turn, this was replaced in 1983 by the 17th CGPM (Resolution 1, CR, 97, and <i>Metrologia</i>, 1984, <b>20</b>, 25) with a definition referenced to the distance that light travels in vacuum in a specified interval of time. The original international prototype of the metre<a id="_2d663fa0-8c89-4302-baec-f45cd1a7c8ba"></a>, which was sanctioned by the 1st CGPM in 1889 (CR, 34-38), is still kept at the BIPM under conditions specified in 1889. In order to make clear its dependence on the fixed numerical value of the speed of light, <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mi>c</mi>
+</math></span>, the wording of the definition was changed in Resolution 1 of the 26<sup>th</sup> CGPM (2018).</p>
+</div>
+        <div id="_unit_of_mass_kilogramverification_of_the_kilogram"><h2 id="toc5">3.3.&#xA0; Unit of mass, kilogram<a id="_4caef0f2-ba19-4b8e-944e-813758205991"></a></h2><p id="_d26ede58-e3e4-414f-a933-665600a6288e">The 1889 definition of the kilogram<a id="_a7a2d476-4a9a-4010-be19-679b284f0d79"></a> was simply the mass of the international prototype of the kilogram<a id="_f6f8c5da-57e6-46f7-ad3c-c325a2084291"></a>, an artefact made of platinum-iridium. This was, and still is, kept at the BIPM under the conditions specified by the 1st CGPM (1889, CR, 34-38) when it sanctioned the prototype and declared that &#x201C;this prototype shall henceforth be considered to be the unit of mass&#x201D;. Forty similar prototypes were made at about the same time and these were all machined and polished to have closely the same mass as the international prototype. At the 1st CGPM (1889), after calibration against the international prototype, most of these &#x201C;national prototypes&#x201D; were individually assigned to Member States of the Metre Convention<a id="_37e12871-da24-4f8e-8674-3bbc63ce538f"></a>, and some also to the BIPM. The 3rd CGPM (1901, CR, 70), in a declaration intended to end the ambiguity in common usage concerning the use of the word &#x201C;weight&#x201D;, confirmed that &#x201C;the kilogram<a id="_8217d29e-37b3-4d55-b1fd-bef56c61b803"></a> is the unit of mass; it is equal to the mass of the international prototype of the kilogram<a id="_f71413ae-137f-4f96-9d52-f136067b8bd8"></a>&#x201C;. The complete version of these declarations appears on p. 70 of the above-mentioned CGPM proceedings.
+<a id="_91c5ecfd-a241-44b6-aec5-055e86436f74"></a></p>
+<p id="_34fbdfee-562f-405b-9f27-44992aa5e379">By the time of the second verification of national prototypes in 1946 it was found that on average the masses of these prototypes were diverging from that of the international prototype. This was confirmed by the third verification carried out from 1989 to 1991, the median difference being about 25 micrograms for the set of original prototypes sanctioned by the 1st CGPM (1889). In order to assure the long-term stability of the unit of mass, to take full advantage of quantum electrical standards and to be of more utility to modern science, a new definition for the kilogram<a id="_3ae60f76-45d4-41f5-9ffd-a1e4eed00765"></a> based on the value of a fundamental constant, for which purpose the Planck constant<a id="_8ef148ab-92e2-471b-9fd1-0980e19e3b0f"></a> <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mi>h</mi>
+</math></span> was chosen, was adopted by Resolution 1 of the 26<sup>th</sup> CGPM (2018).</p></div>
+        <div id="_unit_of_electric_current_ampere_ampere_unitsmla_electric_current_ohm_unitsmlohm"><h2 id="toc6">3.4.&#xA0; Unit of electric current, ampere <a id="_e5cffcc6-a4bb-49c8-b788-8a46ed03b2c9"></a> <a id="_5bbe893b-9cb8-49e7-ba1c-3e759a59d73d"></a> <a id="_07c2b556-4f9e-48c6-a7e8-722985678ff6"></a></h2><p id="_9ab2a05a-bfd5-4a12-9cd6-8a6e6dd42f16">Electric units, called &#x201C;international units&#x201D;, for current and resistance were introduced by the International Electrical Congress held in Chicago in 1893 and definitions of the &#x201C;international ampere<a id="_5c58d568-3f37-4735-a0b2-200ff5767e6a"></a>&#x201D; and &#x201C;international ohm&#x201D; were confirmed by the International Conference in London in 1908.
+<a id="_0b06d994-dff1-42b3-ba0f-897faae21d4b"></a></p>
+<p id="_2e32ec85-80a3-41ca-9483-bb0480aeab8c">By the time of the 8th CGPM (1933) there was a unanimous desire to replace the &#x201C;international units&#x201D; by so-called &#x201C;absolute units<a id="_a9518a01-1cef-45ec-95bc-4d2133e4ce32"></a>&#x201C;. However because some laboratories had not yet completed experiments needed to determine the ratios between the international and absolute units<a id="_032dbb49-75ee-405b-93ba-0f6a99268a91"></a>, the CGPM gave authority to the CIPM to decide at an appropriate time both these ratios and the date at which the new absolute units<a id="_355363e8-0f80-4e39-8fd5-188acee80565"></a> would come into effect. The CIPM did so in 1946 (1946, Resolution 2, PV, <b>20</b>, 129-137), when it decided that the new units would come into force on 1 January 1948. In October 1948 the 9th CGPM approved the decisions taken by the CIPM. The definition of the ampere<a id="_14031447-4cb4-4471-b6b7-6d2076a7fde5"></a>, chosen by the CIPM, was referenced to the force between parallel wires carrying an electric current<a id="_69a2b21f-08b0-4cfd-878d-dd1109e63558"></a> and it had the effect of fixing the numerical value of the vacuum magnetic permeability <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <msub>
+    <mrow>
+      <mstyle mathvariant="italic">
+        <mi>&#x3BC;</mi>
+      </mstyle>
+    </mrow>
+    <mrow>
+      <mn>0</mn>
+    </mrow>
+  </msub>
+</math></span> (also called the magnetic constant). The numerical value of the vacuum electric permittivity <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <msub>
+    <mrow>
+      <mstyle mathvariant="italic">
+        <mi>&#x3B5;</mi>
+      </mstyle>
+    </mrow>
+    <mrow>
+      <mn>0</mn>
+    </mrow>
+  </msub>
+</math></span> (also called the electric constant) then became fixed as a consequence of the new definition of the metre adopted in 1983.
+<a id="_8323ceec-a723-414e-afd8-3a2958358594"></a></p>
+<p id="_228fa575-7019-4cb4-abec-a8cc80fa9d74">However the 1948 definition of the ampere<a id="_c526660f-e6fd-4214-997e-1e5552c065ac"></a> proved difficult to realize and practical quantum standards (based on Josephson and quantum-Hall effects), which link both the volt and the ohm to particular combinations of the Planck constant<a id="_6a5c26d1-04cd-439a-97f1-8630ad58fcc3"></a> <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mi>h</mi>
+</math></span> and elementary charge<a id="_628cdd62-7722-4284-8894-d9980f6b7857"></a> <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mi>e</mi>
+</math></span>, became almost universally used as a practical realization of the ampere<a id="_3aceffeb-3750-4389-a520-6a7815ba9831"></a> through Ohm&#x2019;s law (18th CGPM (1987), Resolution 6, CR 100). As a consequence, it became natural not only to fix the numerical value of <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mi>h</mi>
+</math></span> to redefine the kilogram<a id="_b3a02682-89be-487f-8d94-2aaf74bdec57"></a>, but also to fix the numerical value of <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mi>e</mi>
+</math></span> to redefine the ampere<a id="_a49ac08b-0f73-4304-af19-16685a144a1a"></a> in order to bring the practical quantum electrical standards into exact agreement with the SI. The present definition based on a fixed numerical value for the elementary charge<a id="_facc5c54-c385-4a5f-9041-bc8aecd4576f"></a>, <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mi>e</mi>
+</math></span>, was adopted in Resolution 1 of the 26<sup>th</sup> CGPM (2018).</p></div>
+        <div id="_unit_of_thermodynamic_temperature_kelvin_kelvin_unitsmlk_thermodynamic_temperature_triple_point_of_water"><h2 id="toc7">3.5.&#xA0; Unit of thermodynamic temperature, kelvin <a id="_715c39b7-0f61-4a12-8719-25b4fe354b9e"></a> <a id="_1f3ecd57-f00f-4ffd-bbac-1e963b779119"></a> <a id="_915d55cf-a359-47a5-bee0-8d192de5c443"></a></h2>
+
+<p id="_36f7b271-7361-413f-9e9c-d9d86cad962c">The definition of the unit of thermodynamic temperature was given by the 10th CGPM (1954, Resolution 3; CR 79) which selected the triple point of water, <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <msub>
+    <mrow>
+      <mstyle mathvariant="italic">
+        <mi>T</mi>
+      </mstyle>
+    </mrow>
+    <mrow>
+      <mtext>TPW</mtext>
+    </mrow>
+  </msub>
+</math></span>, as a fundamental fixed point and assigned to it the temperature 273.16 K, thereby defining the kelvin. The 13th CGPM (1967-1968, Resolution 3; CR, 104 and <i>Metrologia</i>, 1968, <b>4</b>, 43) adopted the name kelvin, symbol <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu5"><mi mathvariant="normal">K</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></span>, instead of &#x201C;degree kelvin&#x201D;, symbol <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu5"><mi mathvariant="normal">&#xB0;K</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></span>, for the unit defined in this way.<a id="_46641834-d1ed-4c38-aa78-89a461a415e7"></a>
+However, the practical difficulties in realizing this definition, requiring a sample of pure water of well-defined isotopic composition and the development of new primary methods of thermometry, led to the adoption of a new definition of the kelvin based on a fixed numerical value of the Boltzmann constant<a id="_b4192e31-3295-4ed8-a8af-79e51e26220e"></a> <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mi>k</mi>
+</math></span>. The present definition, which removed both of these constraints, was adopted in Resolution 1 of the 26<sup>th</sup> CGPM (2018).</p>
+</div>
+        <div id="_unit_of_amount_of_substanceamount_of_substance_mole_gram_mole_unitsmlmol_gram_atom_gram_moleculeiupac"><h2 id="toc8">3.6.&#xA0; Unit of amount of substance<a id="_56b5f8bc-d6aa-4593-a495-fe4da417e2fc"></a>, mole <a id="_0fe459a5-4e0f-4115-ae54-0e0c11170dd6"></a> <a id="_265a5aa4-540d-4c77-a510-1144bf59b510"></a> <a id="_435952a8-582b-40a0-a6a7-75e6e1e8cd5d"></a><a id="_b2e5149d-65e6-48b8-aa59-bd2f1dd16037"></a></h2><p id="_9f1cd541-bded-4dec-bbcc-69879bd9e24c">Following the discovery of the fundamental laws of chemistry, units called, for example, &#x201C;gram-atom&#x201D; and &#x201C;gram molecule&#x201D;, were used to specify amounts of chemical elements or compounds. These units had a direct connection with &#x201C;atomic weights&#x201D; and &#x201C;molecular weights&#x201D;, which are in fact relative atomic and molecular masses. The first compilations of &#x201C;Atomic weights&#x201D; were originally linked to the atomic weight<a id="_bfd376e7-b669-4cce-b502-818dff0ebb25"></a> of oxygen, which was, by general agreement, taken as being 16. Whereas physicists separated the isotopes in a mass spectrometer and attributed the value 16 to one of the isotopes of oxygen, chemists attributed the same value to the (slightly variable) mixture of isotopes 16, 17 and 18, which for them constituted the naturally occurring element oxygen. An agreement between the International Union of Pure and Applied Physics (IUPAP) and the International Union of Pure and Applied Chemistry (IUPAC) brought this duality to an end in 1959-1960. Physicists and chemists had agreed to assign the value 12, exactly, to the so-called atomic weight<a id="_b7066bf5-edd0-4718-9552-6bd40e518c7b"></a>, correctly referred to as the relative atomic mass <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <msub>
+    <mrow>
+      <mstyle mathvariant="italic">
+        <mi>A</mi>
+      </mstyle>
+    </mrow>
+    <mrow>
+      <mtext>r</mtext>
+    </mrow>
+  </msub>
+</math></span>, of the isotope of carbon with mass number 12 (carbon 12, <sup>12</sup>C). The unified scale thus obtained gives the relative atomic and molecular masses, also known as the atomic and molecular weights<a id="_9564d7e9-d9d7-40d6-91d9-6e6563d89118"></a>, respectively. This agreement is unaffected by the redefinition of the mole.</p>
+<p id="_71a58f91-a1e8-4139-a5ba-419c9869c8cf">The quantity used by chemists to specify the amount of chemical elements or compounds is called &#x201C;amount of substance<a id="_49510f13-24e5-4d60-85b8-f1ed3fd9c658"></a>&#x201C;. Amount of substance<a id="_cf3ec3fe-df5b-49b3-9caf-3a79d8a1ec74"></a>, symbol <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mi>n</mi>
+</math></span>, is defined to be proportional to the number of specified elementary entities <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle mathvariant="italic">
+    <mi>N</mi>
+  </mstyle>
+</math></span> in a sample, the proportionality constant being a universal constant which is the same for all entities. The proportionality constant is the reciprocal of the Avogadro constant<a id="_19796d16-98fa-47bc-8a65-77582380c910"></a> <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <msub>
+    <mrow>
+      <mstyle mathvariant="italic">
+        <mi>N</mi>
+      </mstyle>
+    </mrow>
+    <mrow>
+      <mtext>A</mtext>
+    </mrow>
+  </msub>
+</math></span>, so that <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mi>n</mi>
+  <mo>=</mo>
+  <mstyle mathvariant="italic">
+    <mi>N</mi>
+  </mstyle>
+  <mo>/</mo>
+  <msub>
+    <mrow>
+      <mstyle mathvariant="italic">
+        <mi>N</mi>
+      </mstyle>
+    </mrow>
+    <mrow>
+      <mtext>A</mtext>
+    </mrow>
+  </msub>
+</math></span>. The unit of amount of substance<a id="_f2a4361d-f01f-4291-90a5-de89ce118c9d"></a> is called the <i>mole</i>, symbol <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu6"><mi mathvariant="normal">mol</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></span>. Following proposals by the IUPAP, IUPAC and ISO, the CIPM developed a definition of the mole in 1967 and confirmed it in 1969, by specifying that the molar mass<a id="_05f3391a-1692-4c08-9e9d-c65e5e7c0fc1"></a> of carbon 12<a id="_9c1371e8-18ae-4ba1-8c50-84aaa4ccb74b"></a> should be exactly <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>0.012</mn><mo rspace="thickmathspace">&#x2062;</mo><mrow xref="U_kg/mol"><mi mathvariant="normal">kg</mi><mo>/</mo><mi mathvariant="normal">mol</mi></mrow>
+
+
+
+
+
+
+
+
+</math></span>. This allowed the amount of substance<a id="_487cf4f0-9252-4ded-881b-e2a5fa126f9e"></a> <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <msub>
+    <mrow>
+      <mi>n</mi>
+    </mrow>
+    <mrow>
+      <mtext>S</mtext>
+    </mrow>
+  </msub>
+  <mfenced open="(" close=")">
+    <mrow>
+      <mtext>X</mtext>
+    </mrow>
+  </mfenced>
+</math></span> of any pure sample <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mtext>S</mtext>
+</math></span> of entity <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mtext>X</mtext>
+</math></span> to be determined directly from the mass of the sample <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <msub>
+    <mrow>
+      <mi>m</mi>
+    </mrow>
+    <mrow>
+      <mtext>S</mtext>
+    </mrow>
+  </msub>
+</math></span> and the molar mass <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle mathvariant="italic">
+    <mi>M</mi>
+  </mstyle>
+  <mfenced open="(" close=")">
+    <mrow>
+      <mtext>X</mtext>
+    </mrow>
+  </mfenced>
+</math></span> of entity <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mtext>X</mtext>
+</math></span>, the molar mass being determined from its relative atomic mass <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <msub>
+    <mrow>
+      <mstyle mathvariant="italic">
+        <mi>A</mi>
+      </mstyle>
+    </mrow>
+    <mrow>
+      <mtext>r</mtext>
+    </mrow>
+  </msub>
+</math></span> (atomic or molecular weight) without the need for a precise knowledge of the Avogadro constant<a id="_0aa6fbde-3d43-4149-9c3b-3db0e3375ce4"></a>, by using the relations</p>
+<div id="_9697ecc6-a180-4aa5-a977-b2e5d599f4b5"><div class="formula"><p><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mi>n</mi></mrow><mrow><mtext>S</mtext></mrow></msub><mfenced open="(" close=")"><mrow><mtext>X</mtext></mrow></mfenced><mo>=</mo><msub><mrow><mi>m</mi></mrow><mrow><mtext>S</mtext></mrow></msub><mo>/</mo><mstyle mathvariant="italic"><mi>M</mi></mstyle><mfenced open="(" close=")"><mrow><mtext>X</mtext></mrow></mfenced><mi>,</mi><mtext>&#xA0;and&#xA0;</mtext><mstyle mathvariant="italic"><mi>M</mi></mstyle><mfenced open="(" close=")"><mrow><mtext>X</mtext></mrow></mfenced><mo>=</mo><msub><mrow><mstyle mathvariant="italic"><mi>A</mi></mstyle></mrow><mrow><mtext>r</mtext></mrow></msub><mfenced open="(" close=")"><mrow><mtext>X</mtext></mrow></mfenced><mrow xref="U_g/mol"><mi mathvariant="normal">g</mi><mo>/</mo><mi mathvariant="normal">mol</mi></mrow>
+
+
+
+
+
+
+
+</math></span></p></div>
+
+</div>
+<p id="_aaa8ccce-075d-4a2f-bae4-2368eef7e3c9">Thus, this definition of the mole<a id="_7d8106f0-2352-408d-826e-a00117fa0da8"></a> was dependent on the artefact definition of the kilogram<a id="_dcd49fac-b68f-4007-8452-e559dba544e3"></a>.</p>
+<p id="_72f2cfe8-774c-4799-a026-26c59820f7cb">The numerical value of the Avogadro constant<a id="_8b6c8970-33f1-48da-97c1-228aa44f3b7b"></a> defined in this way was equal to the number of atoms in 12 grams of carbon 12<a id="_0df3d8da-1620-4537-9d09-a0e2fd470a2e"></a>. However, because of recent technological advances, this number is now known with such precision that a simpler and more universal definition of the mole has become possible, namely, by specifying exactly the number of entities in one mole of any substance, thus fixing the numerical value of the Avogadro constant<a id="_2b2e3fc2-497f-4d82-8c0d-412ee4d43683"></a>. This has the effect that the new definition of the mole and the value of the Avogadro constant<a id="_2d8143f3-437e-4e43-843c-eaf9d16146f4"></a> are no longer dependent on the definition of the kilogram<a id="_0783c8e8-005e-4e5b-afee-fe1edd37e5f6"></a>. The distinction between the fundamentally different quantities &#x2018;amount of substance<a id="_82897680-f1cc-4d06-bbf5-6a0ff5b8a48c"></a>&#x2018; and &#x2018;mass&#x2019; is thereby emphasized. The present definition of the mole based on a fixed numerical value for the Avogadro constant<a id="_ff4544ce-f906-4026-bf5d-1916d585070f"></a>, <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <msub>
+    <mrow>
+      <mstyle mathvariant="italic">
+        <mi>N</mi>
+      </mstyle>
+    </mrow>
+    <mrow>
+      <mtext>A</mtext>
+    </mrow>
+  </msub>
+</math></span>, was adopted in Resolution 1 of the 26<sup>th</sup> CGPM (2018).</p></div>
+        <div id="_unit_of_luminous_intensity_candela_candela_unitsmlcd_luminous_intensity"><h2 id="toc9">3.7.&#xA0; Unit of luminous intensity, candela <a id="_d17fd921-3cb2-4c56-aff3-3330f31e8fa6"></a> <a id="_84ec894b-149e-49e2-bc8b-c50d2568e91c"></a></h2><p id="_a573dd20-35b7-429b-84f6-f12beefa9b55">The units of luminous intensity, which were based on flame or incandescent filament standards in use in various countries before 1948, were replaced initially by the &#x201C;new candle&#x201D;<a id="_d077362b-dcbc-48d3-be34-3c21a57c6387"></a> based on the luminance of a Planckian radiator (a black body) at the temperature of freezing platinum. This modification had been prepared by the International Commission on Illumination (CIE) and by the CIPM before 1937 and the decision was promulgated by the CIPM in 1946. It was then ratified in 1948 by the 9th CGPM, which adopted a new international name for this unit, the <i>candela</i>, symbol <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu7"><mi mathvariant="normal">cd</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></span>; in 1954 the 10th CGPM established the candela as a base unit<a id="_8694c559-b403-47b6-8445-5c015da2c383"></a>; In 1967 the 13th CGPM (Resolution 5, CR, 104 and <i>Metrologia</i>, 1968, <b>4</b>, 43-44) amended this definition.</p>
+<p id="_43ef8793-0acc-401e-94e8-316dc1b3de4e">In 1979, because of the difficulties in realizing a Planck radiator at high temperatures, and the new possibilities offered by radiometry, i.e. the measurement of optical radiation power, the 16th CGPM (1979, Resolution 3, CR, 100 and <i>Metrologia</i>,1980, <b>16</b>, 56) adopted a new definition of the candela<a id="_b420925c-e792-4652-bc67-1bd46fa79822"></a>.</p>
+<p id="_4bcfb664-8832-42aa-8942-9fcf3f1b0b2b">The present definition of the candela<a id="_2a52c3e4-abc4-4cbd-89cc-ec9833cff77d"></a> uses a fixed numerical value for the luminous efficacy<a id="_9e01896b-1b29-45f8-bf5d-6b03edf6bef9"></a> of monochromatic radiation of frequency <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>540</mn><mo>&#xD7;</mo><msup><mrow><mn>10</mn></mrow><mrow><mn>12</mn></mrow></msup><mo rspace="thickmathspace">&#x2062;</mo><mrow xref="U_NISTu31"><mi mathvariant="normal">Hz</mi></mrow>
+
+
+
+
+
+
+
+
+
+<mi>,</mi><mtext>&#xA0;</mtext><msub><mrow><mstyle mathvariant="italic"><mi>K</mi></mstyle></mrow><mrow><mtext>cd</mtext></mrow></msub></math></span>, adopted in Resolution 1 of the 26<sup>th</sup> CGPM (2018). <a id="historical_notes"></a> <a id="si_4"></a></p></div>
+      </div>
+      <aside id="fn:1" class="footnote">
+  <p id="_441c4bfa-83cd-478f-9f0d-871ca3391b07"><a class="FootnoteRef" href="#fn:1"><sup>1</sup></a>To recognize Bryan Kibble&#x2019;s invention of the watt balance</p>
+<a href="#fnref:1">&#x21A9;</a></aside>
+    </main>
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    "HTML-CSS": { preferredFont: "STIX" },
+    asciimath2jax: { delimiters: [['(#(', ')#)']] }
+ });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=MML_HTMLorMML-full" async="async"></script>
+<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>  <script>
+    $("#toc").on('click', 'li', function(e) {
+    $(this).parent().find('li.toc-active').removeClass('toc-active');
+    $(this).addClass('toc-active');
+});
+  </script>
+
+<script>
+  //TOC toggle animation
+$('#toggle').on('click', function(){
+    if( $('nav').is(':visible') ) {
+        $('nav').animate({ 'left': '-353px' }, 'slow', function(){
+            $('nav').hide();
+        });
+        $('.container').animate({ 'padding-left': '31px' }, 'slow');
+    }
+    else {
+        $('nav').show();
+        $('nav').animate({ 'left': '0px' }, 'slow');
+        $('.container').animate({ 'padding-left': '360px' }, 'slow');
+    }
+});
+</script>
+
+<script>
+    // Scroll to top button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+    </script>
+
+  <script>
+// @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&dn=expat.txt Expat
+//
+// AnchorJS - v4.2.2 - 2020-04-20
+// https://www.bryanbraun.com/anchorjs/
+// Copyright (c) 2020 Bryan Braun; Licensed MIT
+//
+// @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&dn=expat.txt Expat
+!function(A,e){"use strict";"function"==typeof define&&define.amd?define([],e):"object"==typeof module&&module.exports?module.exports=e():(A.AnchorJS=e(),A.anchors=new A.AnchorJS)}(this,function(){"use strict";return function(A){function f(A){A.icon=A.hasOwnProperty("icon")?A.icon:"",A.visible=A.hasOwnProperty("visible")?A.visible:"hover",A.placement=A.hasOwnProperty("placement")?A.placement:"right",A.ariaLabel=A.hasOwnProperty("ariaLabel")?A.ariaLabel:"Anchor",A.class=A.hasOwnProperty("class")?A.class:"",A.base=A.hasOwnProperty("base")?A.base:"",A.truncate=A.hasOwnProperty("truncate")?Math.floor(A.truncate):64,A.titleText=A.hasOwnProperty("titleText")?A.titleText:""}function p(A){var e;if("string"==typeof A||A instanceof String)e=[].slice.call(document.querySelectorAll(A));else{if(!(Array.isArray(A)||A instanceof NodeList))throw new Error("The selector provided to AnchorJS was invalid.");e=[].slice.call(A)}return e}this.options=A||{},this.elements=[],f(this.options),this.isTouchDevice=function(){return!!("ontouchstart"in window||window.DocumentTouch&&document instanceof DocumentTouch)},this.add=function(A){var e,t,i,n,o,s,a,r,c,h,l,u,d=[];if(f(this.options),"touch"===(l=this.options.visible)&&(l=this.isTouchDevice()?"always":"hover"),0===(e=p(A=A||"h2, h3, h4, h5, h6")).length)return this;for(!function(){if(null!==document.head.querySelector("style.anchorjs"))return;var A,e=document.createElement("style");e.className="anchorjs",e.appendChild(document.createTextNode("")),void 0===(A=document.head.querySelector('[rel="stylesheet"],style'))?document.head.appendChild(e):document.head.insertBefore(e,A);e.sheet.insertRule(".anchorjs-link{opacity:0;text-decoration:none;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}",e.sheet.cssRules.length),e.sheet.insertRule(":hover>.anchorjs-link,.anchorjs-link:focus{opacity:1}",e.sheet.cssRules.length),e.sheet.insertRule("[data-anchorjs-icon]::after{content:attr(data-anchorjs-icon)}",e.sheet.cssRules.length),e.sheet.insertRule('@font-face{font-family:anchorjs-icons;src:url(data:n/a;base64,AAEAAAALAIAAAwAwT1MvMg8yG2cAAAE4AAAAYGNtYXDp3gC3AAABpAAAAExnYXNwAAAAEAAAA9wAAAAIZ2x5ZlQCcfwAAAH4AAABCGhlYWQHFvHyAAAAvAAAADZoaGVhBnACFwAAAPQAAAAkaG10eASAADEAAAGYAAAADGxvY2EACACEAAAB8AAAAAhtYXhwAAYAVwAAARgAAAAgbmFtZQGOH9cAAAMAAAAAunBvc3QAAwAAAAADvAAAACAAAQAAAAEAAHzE2p9fDzz1AAkEAAAAAADRecUWAAAAANQA6R8AAAAAAoACwAAAAAgAAgAAAAAAAAABAAADwP/AAAACgAAA/9MCrQABAAAAAAAAAAAAAAAAAAAAAwABAAAAAwBVAAIAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAMCQAGQAAUAAAKZAswAAACPApkCzAAAAesAMwEJAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAAAAAAAAAAAAAAQAAg//0DwP/AAEADwABAAAAAAQAAAAAAAAAAAAAAIAAAAAAAAAIAAAACgAAxAAAAAwAAAAMAAAAcAAEAAwAAABwAAwABAAAAHAAEADAAAAAIAAgAAgAAACDpy//9//8AAAAg6cv//f///+EWNwADAAEAAAAAAAAAAAAAAAAACACEAAEAAAAAAAAAAAAAAAAxAAACAAQARAKAAsAAKwBUAAABIiYnJjQ3NzY2MzIWFxYUBwcGIicmNDc3NjQnJiYjIgYHBwYUFxYUBwYGIwciJicmNDc3NjIXFhQHBwYUFxYWMzI2Nzc2NCcmNDc2MhcWFAcHBgYjARQGDAUtLXoWOR8fORYtLTgKGwoKCjgaGg0gEhIgDXoaGgkJBQwHdR85Fi0tOAobCgoKOBoaDSASEiANehoaCQkKGwotLXoWOR8BMwUFLYEuehYXFxYugC44CQkKGwo4GkoaDQ0NDXoaShoKGwoFBe8XFi6ALjgJCQobCjgaShoNDQ0NehpKGgobCgoKLYEuehYXAAAADACWAAEAAAAAAAEACAAAAAEAAAAAAAIAAwAIAAEAAAAAAAMACAAAAAEAAAAAAAQACAAAAAEAAAAAAAUAAQALAAEAAAAAAAYACAAAAAMAAQQJAAEAEAAMAAMAAQQJAAIABgAcAAMAAQQJAAMAEAAMAAMAAQQJAAQAEAAMAAMAAQQJAAUAAgAiAAMAAQQJAAYAEAAMYW5jaG9yanM0MDBAAGEAbgBjAGgAbwByAGoAcwA0ADAAMABAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAH//wAP) format("truetype")}',e.sheet.cssRules.length)}(),t=document.querySelectorAll("[id]"),i=[].map.call(t,function(A){return A.id}),o=0;o<e.length;o++)if(this.hasAnchorJSLink(e[o]))d.push(o);else{if(e[o].hasAttribute("id"))n=e[o].getAttribute("id");else if(e[o].hasAttribute("data-anchor-id"))n=e[o].getAttribute("data-anchor-id");else{for(c=r=this.urlify(e[o].textContent),a=0;void 0!==s&&(c=r+"-"+a),a+=1,-1!==(s=i.indexOf(c)););s=void 0,i.push(c),e[o].setAttribute("id",c),n=c}(h=document.createElement("a")).className="anchorjs-link "+this.options.class,h.setAttribute("aria-label",this.options.ariaLabel),h.setAttribute("data-anchorjs-icon",this.options.icon),this.options.titleText&&(h.title=this.options.titleText),u=document.querySelector("base")?window.location.pathname+window.location.search:"",u=this.options.base||u,h.href=u+"#"+n,"always"===l&&(h.style.opacity="1"),""===this.options.icon&&(h.style.font="1em/1 anchorjs-icons","left"===this.options.placement&&(h.style.lineHeight="inherit")),"left"===this.options.placement?(h.style.position="absolute",h.style.marginLeft="-1em",h.style.paddingRight="0.5em",e[o].insertBefore(h,e[o].firstChild)):(h.style.paddingLeft="0.375em",e[o].appendChild(h))}for(o=0;o<d.length;o++)e.splice(d[o]-o,1);return this.elements=this.elements.concat(e),this},this.remove=function(A){for(var e,t,i=p(A),n=0;n<i.length;n++)(t=i[n].querySelector(".anchorjs-link"))&&(-1!==(e=this.elements.indexOf(i[n]))&&this.elements.splice(e,1),i[n].removeChild(t));return this},this.removeAll=function(){this.remove(this.elements)},this.urlify=function(A){return this.options.truncate||f(this.options),A.trim().replace(/\'/gi,"").replace(/[& +$,:;=?@"#{}|^~[`%!'<>\]\.\/\(\)\*\\\n\t\b\v]/g,"-").replace(/-{2,}/g,"-").substring(0,this.options.truncate).replace(/^-+|-+$/gm,"").toLowerCase()},this.hasAnchorJSLink=function(A){var e=A.firstChild&&-1<(" "+A.firstChild.className+" ").indexOf(" anchorjs-link "),t=A.lastChild&&-1<(" "+A.lastChild.className+" ").indexOf(" anchorjs-link ");return e||t||!1}}});
+// @license-end
+  </script>
+  <script>
+/*
+  $(document).ready(function() {
+          $('[id^=toc]').each(function ()
+          {
+             var currentToc = $(this);
+       var url = window.location.href;
+             currentToc.wrap("<a href='" + url + "#" + currentToc.attr("id") + "' </a>");
+          });
+});
+*/
+  anchors.options = {
+  placement: 'left'
+};
+anchors.add('h1, h2, h3, h4');
+</script>
+
+</body>
+</html>

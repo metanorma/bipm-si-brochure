@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<bipm-standard xmlns="https://www.metanorma.org/ns/bipm" type="semantic" version="1.1.4">
+<bibdata type="standard">
+<title language="en" format="text/plain" type="main">The International System of Units</title>
+<title language="en" format="text/plain" type="appendix">Mise en pratique</title>
+<title language="en" format="text/plain" type="part">Mise en pratique for the definition of the mole in the SI</title>
+<title language="fr" format="text/plain" type="main">Le syst&#232;me international d&#8217;unit&#233;s</title>
+<title language="fr" format="text/plain" type="appendix">Mise en pratique</title>
+<title language="fr" format="text/plain" type="part">Mise en pratique de la d&#233;finition de la mole</title>
+<docidentifier type="BIPM">BIPM SI MEP Mol1</docidentifier>
+<docnumber>SI MEP Mol1</docnumber>
+<contributor>
+<role type="author"/>
+<organization>
+<name>Bureau International des Poids et Mesures</name>
+<abbreviation>BIPM</abbreviation>
+</organization>
+</contributor>
+<contributor>
+<role type="publisher"/>
+<organization>
+<name>Bureau International des Poids et Mesures</name>
+<abbreviation>BIPM</abbreviation>
+</organization>
+</contributor>
+<edition>9</edition>
+<version>
+<revision-date>2019-05-20</revision-date>
+</version>
+<language>en</language>
+<script>Latn</script>
+<status>
+<stage>in-force</stage>
+</status>
+<copyright>
+<from>2019</from>
+<owner>
+<organization>
+<name>Bureau International des Poids et Mesures</name>
+<abbreviation>BIPM</abbreviation>
+</organization>
+</owner>
+</copyright>
+<ext>
+<doctype>mise-en-pratique</doctype>
+<editorialgroup>
+<committee acronym="CCQM">
+<variant language="en" script="Latn">Consultative Committee for Amount of Substance: Metrology in Chemistry and Biology</variant>
+<variant language="fr" script="Latn">Comit&#233; consultatif pour la quantit&#233; de mati&#232;re : m&#233;trologie en chimie et biologie</variant>
+</committee>
+
+</editorialgroup>
+
+<si-aspect>mol_NA</si-aspect>
+<structuredidentifier>
+<docnumber>SI MEP Mol1</docnumber>
+<part>6.1</part>
+<appendix>2</appendix>
+</structuredidentifier>
+</ext>
+</bibdata><misc-container><UnitsML xmlns="https://schema.unitsml.org/unitsml/1.0"><UnitSet><Unit xml:id="U_kg.mol-1" dimensionURL="#D_MN-1">
+<UnitSystem name="SI" type="SI_derived" xml:lang="en-US"/>
+<UnitName xml:lang="en">kg*mol^-1</UnitName>
+<UnitSymbol type="HTML">kg&#160;mol<sup>&#8722;1</sup></UnitSymbol>
+<UnitSymbol type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi mathvariant="normal">kg</mi><mo rspace="thickmathspace">&#8290;</mo><msup><mrow><mi mathvariant="normal">mol</mi></mrow><mrow><mo>&#8722;</mo><mn>1</mn></mrow></msup></mrow></math>
+</UnitSymbol>
+
+<RootUnits><EnumeratedRootUnit unit="gram" prefix="k"/>
+<EnumeratedRootUnit unit="mole" powerNumerator="-1"/></RootUnits>
+
+</Unit></UnitSet><QuantitySet><Quantity xml:id="NISTq2" dimensionURL="#NISTd2" quantityType="base">
+<QuantityName xml:lang="en-US">mass</QuantityName>
+</Quantity></QuantitySet><DimensionSet><Dimension xml:id="D_MN-1">
+<Mass symbol="M" powerNumerator="1"/>
+<AmountOfSubstance symbol="N" powerNumerator="-1"/>
+</Dimension></DimensionSet><PrefixSet><Prefix prefixBase="10" prefixPower="3" xml:id="NISTp10_3">
+  <PrefixName xml:lang="en">kilo</PrefixName>
+  <PrefixSymbol type="ASCII">k</PrefixSymbol>
+  <PrefixSymbol type="unicode">k</PrefixSymbol>
+  <PrefixSymbol type="LaTeX">k</PrefixSymbol>
+  <PrefixSymbol type="HTML">k</PrefixSymbol>
+</Prefix></PrefixSet></UnitsML></misc-container>
+<boilerplate>
+  <copyright-statement>
+    <clause>
+      <p align="center" id="_8af2d185-42f4-43a7-99ff-17bcc7270d61"> &#169; Bureau International des Poids et Mesures 2019 all rights reserved</p>
+    </clause>
+  </copyright-statement>
+  <license-statement>
+    <clause>
+      <title>Copyright statement</title>
+      <p id="_151b2e13-8201-4148-b43e-4faf9bd73e8c">This document is distributed under the terms of the Creative Commons Attribution 4.0 International License (<link target="http://creativecommons.org/licenses/by/4.0/"/>), which permits unrestricted use, distribution, and reproduction in any medium, provided you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made.</p>
+    </clause>
+  </license-statement>
+  <feedback-statement>
+    <p id="_257e804c-5cc2-475e-8777-785629ee820e">BIPM<br/>
+      Pavillon de Breteuil<br/>
+      F-92312 S&#232;vres Cedex<br/>
+      FRANCE</p>
+  </feedback-statement>
+</boilerplate>
+
+<sections><clause id="_introduction" obligation="normative"><title>Introduction</title><p id="_709dff91-cfb3-4c72-abee-d2ea2a448057">The purpose of this <em>mise en pratique</em>, prepared by the Consultative Committee for Amount of
+Substance &#8211; Metrology in Chemistry and Biology (CCQM) of the International Committee for
+Weights and Measures (CIPM), is to indicate how the definition of the SI base unit, the mole,
+symbol <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu6"><mi mathvariant="normal">mol</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>, may be realized in practice.</p>
+<p id="_dbf62358-4ad4-4654-ad44-070a5c1b56a0">In general, the term &#8220;to realize a unit&#8221; is interpreted to mean the establishment of the value and
+associated uncertainty of a quantity of the same kind as the unit that is consistent with the
+definition of the unit. The future definition of the mole does not imply any particular experiment
+for its practical realization. Any method capable of deriving an amount of substance value
+traceable to the set of seven reference constants could, in principle, be used. Thus, the list of
+methods given is not meant to be an exhaustive list of all possibilities, but rather a list of those
+methods easiest to implement and/or that provide the smallest uncertainties and which are
+officially recognized as primary methods by the relevant Consultative Committee.</p>
+<p id="_26c802ec-36dc-4751-ae8b-16f82710975a">A primary method is a method having the highest metrological properties; whose operation can
+be completely described and understood; for which a complete uncertainty statement can be
+written down in terms of SI units; and which does not require a reference standard of the same
+quantity.</p></clause>
+<clause id="_definition_of_the_mole" obligation="normative"><title>Definition of the mole</title><p id="_b0f8acd1-93e2-4409-979d-a2dcb58b6a3f">The definition of the mole, SI base unit of amount of substance, is as follows <eref type="inline" bibitemid="bipm-9th" citeas="[2.1]"/>:</p>
+<quote id="_2b2a4d01-817c-433b-992d-d25f8a6240a0"><p id="_96a0f141-ac38-4795-bac1-c15d27315b38">
+<strong>The mole, symbol <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu6"><mi mathvariant="normal">mol</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>, is the SI unit of amount of substance. One mole contains exactly <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>6.02214076</mn><mo>&#215;</mo><msup><mrow><mn>10</mn></mrow><mrow><mn>23</mn></mrow></msup></math></stem> elementary entities. This number is the fixed numerical value of the Avogadro constant, <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>N</mi></mstyle></mrow><mrow><mtext>A</mtext></mrow></msub></math></stem>, when expressed in the unit <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_mol-1"><msup><mrow><mi mathvariant="normal">mol</mi></mrow><mrow><mo>&#8722;</mo><mn>1</mn></mrow></msup></mrow>
+
+
+
+
+
+
+
+</math></stem> and is called the Avogadro number.</strong>
+</p>
+<p id="_3062f3b2-3e68-421a-bcf8-b758412f7238">
+<strong>The amount of substance, symbol <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>n</mi></math></stem>, of a system is a measure of the number of specified elementary entities. An elementary entity may be an atom, a molecule, an ion, an electron, any other particle or specified group of particles.</strong>
+</p></quote>
+<p id="_364a136f-c252-4a51-bbc6-dc96694d333a">As a consequence of the definition of the mole, the Avogadro constant and the Avogadro number
+no longer have an experimental uncertainty in the SI.</p>
+<p id="_979a2f1f-812a-432f-8073-6578c5210315">This definition was agreed by the 26th General Conference on Weights and Measures (CGPM) in
+2018, to take effect on 20 May 2019. It is now based on a fixed number of entities <eref type="inline" bibitemid="iupac-rec" citeas="[2.2]"/>. It
+replaces the definition adopted in 1971 which defined the mole as &#8220;the amount of substance of a system which contains as many elementary entities as there are atoms in 0.012 kilogram of carbon 12&#8221;.</p>
+<p id="_0321e04e-1cef-4d44-a45e-a1b75c203ba2">The quantities used to characterize a sample of a pure chemical substance <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext>X</mtext></math></stem> are:</p>
+<dl id="_283dd233-590d-44f2-848a-76ddb4c94204">
+<dt>
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>n</mi></math></stem>
+</dt>
+<dd>
+<p id="_79cb9062-9aad-4185-b88a-6499e6f5af6a">the amount of substance in the sample of <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext>X</mtext></math></stem>;</p>
+</dd>
+<dt>
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>N</mi></mstyle></math></stem>
+</dt>
+<dd>
+<p id="_85c36c26-83c9-4fe4-a1bc-01480829024a">the number of elementary entities of the substance <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext>X</mtext></math></stem> in the sample;</p>
+</dd>
+<dt>
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>m</mi></math></stem>
+</dt>
+<dd>
+<p id="_530a494d-172c-46fa-b178-3e6f24661e39">the mass of the <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>N</mi></mstyle></math></stem> elementary entities;</p>
+</dd>
+<dt>
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>A</mi></mstyle></mrow><mrow><mtext>r</mtext></mrow></msub><mfenced open="(" close=")"><mrow><mtext>X</mtext></mrow></mfenced></math></stem>
+</dt>
+<dd>
+<p id="_597c7b03-45c1-4762-adda-65440cac9dae">the relative atomic or molecular mass<fn reference="1"><p id="_e800acfb-3fa1-4d86-8f3a-1791b3131694">For historical reasons, the equivalent terms &#8220;atomic weight&#8221; and &#8220;molecular weight&#8221; are still in use <eref type="inline" bibitemid="iupac-quantities" citeas="[2.3]"/>.</p></fn> of <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext>X</mtext></math></stem> (depending whether <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext>X</mtext></math></stem> is an element or a compound, respectively)</p>
+</dd>
+<dt>
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>M</mi></mstyle></mrow><mrow><mtext>u</mtext></mrow></msub></math></stem>
+</dt>
+<dd>
+<p id="_07c0d18a-1e4f-4cc2-8646-768898a9d30d">the molar mass constant</p>
+</dd>
+</dl>
+<p id="_34f26651-ac59-4367-ab16-bfd8fab03446">Two widely used equations relate these quantities:</p>
+<formula id="eq-2-1">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>n</mi><mo>=</mo><mi>m</mi><mo>/</mo><mfenced open="(" close=")"><mrow><msub><mrow><mstyle mathvariant="italic"><mi>A</mi></mstyle></mrow><mrow><mtext>r</mtext></mrow></msub><mfenced open="(" close=")"><mrow><mtext>X</mtext></mrow></mfenced><msub><mrow><mstyle mathvariant="italic"><mi>M</mi></mstyle></mrow><mrow><mtext>u</mtext></mrow></msub></mrow></mfenced></math></stem>
+</formula>
+<p id="_367781b1-d321-402b-895a-ab77e85c94bc">and</p>
+<formula id="eq-2-2">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>n</mi><mo>=</mo><mstyle mathvariant="italic"><mi>N</mi></mstyle><mo>/</mo><msub><mrow><mstyle mathvariant="italic"><mi>N</mi></mstyle></mrow><mrow><mtext>A</mtext></mrow></msub></math></stem>
+</formula>
+<p id="_90cdc22c-4c62-46d3-bf5a-6d9a8855a015">These equations are valid under the 2019 definition as they previously were under the 1971
+definition. This document explains how the measurement uncertainties of the quantities in these
+equations should be handled under the 2019 definition.</p>
+<p id="_cea06543-4598-47e1-91bf-cd6b487bba7c">In <xref target="sec-3"/>, an example of the realization of the unit of amount of substance to the smallest
+possible uncertainty is given. It uses a method that helped motivate the development of the
+present definition and now demonstrates its realization on a primary level. In <xref target="sec-4"/>, some
+additional practical methods for realizing the mole are described. In <xref target="sec-5"/>, the issue of
+quantifying small numbers of entities is discussed. Finally, in <xref target="sec-6"/>, the continuity of
+measurement results expressed in moles with respect to the 1971 and 2019 definitions is
+explained.</p>
+<p id="_ac0e7cbb-0f4d-4fe4-89d1-088553b81d40">In the future, this <em>mise en pratique</em> may be amended to include additional practical realizations or
+revised uncertainties. The <em>mise en pratique</em> is published uniquely as an on-line appendix to the
+latest edition of the SI Brochure. In this way, this appendix can be revised whenever necessary.</p></clause>
+<clause id="sec-3" obligation="normative"><title>Practical realization of the definition of the mole with the smallest uncertainty</title><p id="_eeeb54a1-348c-4191-be95-41cee0614b44">Currently, the most accurate realization of the mole results from an experiment that led to the
+determination of the Avogadro constant. This experiment was carried out within the framework of
+the International Avogadro Coordination and was fundamental to determining the best
+experimental values of both the Avogadro and Planck constants prior to fixing their numerical
+values. It involved the determination of the number of <sup>28</sup>Si atoms (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>N</mi></mstyle></math></stem>) in a single crystal of Si,
+enriched in <sup>28</sup>Si, using volumetric and X-ray interferometric measurements <eref type="inline" bibitemid="fujii" citeas="[3.1]"/>,<eref type="inline" bibitemid="bartlg" citeas="[3.2]"/>,<eref type="inline" bibitemid="kuramoto" citeas="[3.3]"/>:</p>
+<formula id="eq-3-1">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>N</mi></mstyle><mo>=</mo><mn>8</mn><msub><mrow><mstyle mathvariant="italic"><mi>V</mi></mstyle></mrow><mrow><mtext>s</mtext></mrow></msub><mo>/</mo><mi>a</mi><msup><mrow><mfenced open="(" close=")"><mrow><msup><mrow><mtext>&#8204;</mtext></mrow><mrow><mn>28</mn></mrow></msup><mtext>Si</mtext></mrow></mfenced></mrow><mrow><mn>3</mn></mrow></msup></math></stem>
+</formula>
+<p id="_6ac56996-3993-46a3-9f24-9cc42d771490">where <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>V</mi></mstyle></mrow><mrow><mtext>s</mtext></mrow></msub></math></stem> is the crystal volume, 8 is the number of atoms per unit cell of crystalline silicon and
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>a</mi></math></stem>(<sup>28</sup>Si) is the lattice parameter of the cubic unit cell. <xref target="eq-3-1"/> is strictly valid only for the
+hypothetical case a perfect crystal of pure <sup>28</sup>Si &#8211; hence, all elementary entities in the crystal were
+identified. This was achieved by determining and correcting for the amount of substance fraction
+of all impurities (elemental and isotope impurities, i.e. <sup>29</sup>Si, <sup>30</sup>Si) with sufficient accuracy
+<eref type="inline" bibitemid="fujii" citeas="[3.1]"/>,<eref type="inline" bibitemid="bartlg" citeas="[3.2]"/>. This is consistent with the concept for the realization of the kilogram using the X-ray
+crystal-density (XRCD) approach as described in the <em>mise en pratique</em> for the kilogram <eref type="inline" bibitemid="bipm-9th" citeas="[2.1]"/>.</p>
+<p id="_8519dae2-17d9-48a9-a61a-f22fd592d9bf">Utilizing the fixed numerical value of the Avogadro constant <eref type="inline" bibitemid="newell" citeas="[3.4]"/> and <xref target="eq-2-2"/>, the amount of substance <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>n</mi></math></stem> of <sup>28</sup>Si in the macroscopic crystal is given by:</p>
+<formula id="_3e22ceee-f6b1-4ca4-b17e-42fd14e53dab">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>n</mi><mo>=</mo><mn>8</mn><msub><mrow><mstyle mathvariant="italic"><mi>V</mi></mstyle></mrow><mrow><mtext>s</mtext></mrow></msub><mo>/</mo><mfenced open="(" close=")"><mrow><mi>a</mi><msup><mrow><mfenced open="(" close=")"><mrow><msup><mrow><mtext>&#8204;</mtext></mrow><mrow><mn>28</mn></mrow></msup><mtext>Si</mtext></mrow></mfenced></mrow><mrow><mn>3</mn></mrow></msup><msub><mrow><mstyle mathvariant="italic"><mi>N</mi></mstyle></mrow><mrow><mi mathvariant="normal">A</mi></mrow></msub></mrow></mfenced></math></stem>
+</formula>
+<p id="_7491fbbe-61db-4a09-bf6a-524bc1f1ca21">This allows the definition of both the mole and the kilogram to be realized with a relative standard uncertainty below <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>2</mn><mo>&#215;</mo><msup><mrow><mn>10</mn></mrow><mrow><mrow><mo>&#8722;</mo><mn>8</mn></mrow></mrow></msup></math></stem> <eref type="inline" bibitemid="kuramoto" citeas="[3.3]"/>, <eref type="inline" bibitemid="clade" citeas="[3.5]"/>, <eref type="inline" bibitemid="massa" citeas="[3.6]"/> in a single crystal of Si, enriched in <sup>28</sup>Si.</p>
+<p id="_24afc935-3e19-43d9-b1f6-e25ec36261aa">This primary realization of the mole with the smallest uncertainty differs from methods generally used to realize the mole. It is presented here as the &#8220;state of the art&#8221; in determining the number of entities in a macroscopic sample, and hence the amount of substance in that sample. It is, at the same time, also a primary realization of the kilogram. It is a primary mass standard and the unit of mass, the kilogram, may be disseminated from this standard <eref type="inline" bibitemid="mep-kg" citeas="[3.7]"/>. In the following sections, some of the more common and practical methods to realize the mole are described.</p></clause>
+<clause id="sec-4" obligation="normative"><title>Common and practical realizations of the definition of the mole and derived units and dissemination of the mole</title><p id="_18ff5267-5c71-40c6-b2d6-d00f94fb6666">In practice, chemical measurements require the realization, across all types of chemical entities, of derived units involving amount of substance that are relevant to practical chemical measurement, such as the amount of substance concentration (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_mol//m3"><mi mathvariant="normal">mol</mi><mo>/</mo><msup><mrow><mi mathvariant="normal">m</mi></mrow><mrow><mn>3</mn></mrow></msup></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>), the amount of substance content (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_mol//kg"><mi mathvariant="normal">mol</mi><mo>/</mo><mi mathvariant="normal">kg</mi></mrow>
+
+
+
+
+
+
+
+
+
+
+</math></stem>) or the amount of substance fraction (mol/mol). This may be done by a variety of primary methods of measurement <eref type="inline" bibitemid="quinn" citeas="[4.1]"/>. The present definition of the mole allows the number of entities <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>N</mi></mstyle></math></stem> in a sample to be determined to the same accuracy as the amount of substance <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>n</mi></math></stem> in the sample because, from <xref target="eq-2-2"/>, <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>N</mi></mstyle><mo>=</mo><mi>n</mi><msub><mrow><mstyle mathvariant="italic"><mi>N</mi></mstyle></mrow><mrow><mtext>A</mtext></mrow></msub></math></stem> and <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>N</mi></mstyle></mrow><mrow><mtext>A</mtext></mrow></msub></math></stem> has an exact numerical value.</p>
+<p id="_d44fdcb3-7740-498c-8c7b-6bbb7d40acb9">Similarly, the atomic or molecular mass <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mi>m</mi></mrow><mrow><mtext>a</mtext></mrow></msub><mfenced open="(" close=")"><mrow><mtext>X</mtext></mrow></mfenced></math></stem> and the molar mass <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>M</mi></mstyle><mfenced open="(" close=")"><mrow><mtext>X</mtext></mrow></mfenced></math></stem> of any entity <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext>X</mtext></math></stem> are known to the same relative uncertainty because:</p>
+<formula id="eq-4-1">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mi>m</mi></mrow><mrow><mtext>a</mtext></mrow></msub><mfenced open="(" close=")"><mrow><mtext>X</mtext></mrow></mfenced><mo>=</mo><mfrac><mrow><mrow><mstyle mathvariant="italic"><mi>M</mi></mstyle><mfenced open="(" close=")"><mrow><mtext>X</mtext></mrow></mfenced></mrow></mrow><mrow><msub><mrow><mstyle mathvariant="italic"><mi>N</mi></mstyle></mrow><mrow><mtext>A</mtext></mrow></msub></mrow></mfrac></math></stem>
+</formula>
+<p id="_1afb31fd-3d37-4ce5-b2b1-c6324ad8e492">The atomic mass constant <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mi>m</mi></mrow><mrow><mtext>u</mtext></mrow></msub></math></stem> is 1/12 of the mass of a free <sup>12</sup>C atom, at rest and in its ground state. Its present experimentally-determined value is approximately <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>1.660539067</mn><mfenced open="(" close=")"><mrow><mn>1</mn></mrow></mfenced><mo>&#215;</mo><msup><mrow><mn>10</mn></mrow><mrow><mrow><mo>&#8722;</mo><mn>27</mn></mrow></mrow></msup><mo rspace="thickmathspace">&#8290;</mo><mrow xref="U_NISTu2"><mi mathvariant="normal">kg</mi></mrow>
+
+
+
+
+
+
+
+
+
+
+</math></stem> with a relative uncertainty less than 1 part in <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mrow><mn>10</mn></mrow><mrow><mn>9</mn></mrow></msup></math></stem> and is identical to that of <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>M</mi></mstyle></mrow><mrow><mtext>u</mtext></mrow></msub></math></stem>. Note that <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>N</mi></mstyle></mrow><mrow><mtext>A</mtext></mrow></msub><msub><mrow><mi>m</mi></mrow><mrow><mtext>u</mtext></mrow></msub><mo>=</mo><msub><mrow><mstyle mathvariant="italic"><mi>M</mi></mstyle></mrow><mrow><mtext>u</mtext></mrow></msub></math></stem> is a special case of <xref target="eq-4-1"/>. The advantages of these features of the present definition of the mole have been emphasized in the literature <eref type="inline" bibitemid="milton" citeas="[4.2]"/>. The most up-to-date values and uncertainties of <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mi>m</mi></mrow><mrow><mtext>u</mtext></mrow></msub></math></stem> and <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>M</mi></mstyle></mrow><mrow><mtext>u</mtext></mrow></msub></math></stem> are the most recent recommendations of the CODATA task group on fundamental constants.</p>
+<p id="_c92ac30c-b7fa-4dd1-b8a1-caa8c82087a0">Three examples of methods to realize the mole (and the number of entities) follow:</p>
+<clause id="_gravimetric_preparation" obligation="normative"><title>Gravimetric preparation</title><p id="_16b40a44-b32d-4fc6-a4e8-fbdf623e862a">Based on <xref target="eq-2-1"/> and <xref target="eq-2-2"/>, the number of entities <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>N</mi></mstyle></math></stem> of a substance <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext>X</mtext></math></stem> or its amount of substance <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>n</mi></math></stem> in a sample may be measured by determining the product of the mass fraction of <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext>X</mtext></math></stem> in the sample, <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>w</mi><mfenced open="(" close=")"><mrow><mtext>X</mtext></mrow></mfenced></math></stem>, and the mass <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>m</mi></math></stem> of the sample from the following equations<fn reference="2"><p id="_d64aa30f-5218-482f-be37-a1fa788ef14b"><xref target="eq-4-2"/> assumes that <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>N</mi></mstyle></math></stem> entities of <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext>X</mtext></math></stem> contribute a mass <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>N</mi></mstyle><mo>&#215;</mo><msub><mrow><mi>m</mi></mrow><mrow><mtext>a</mtext></mrow></msub><mfenced open="(" close=")"><mrow><mtext>X</mtext></mrow></mfenced></math></stem> to a sample whose total mass is <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>m</mi></math></stem>.</p></fn>:</p>
+<formula id="eq-4-2">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>N</mi></mstyle><mo>=</mo><mfrac><mrow><mrow><mi>w</mi><mfenced open="(" close=")"><mrow><mtext>X</mtext></mrow></mfenced><mi>m</mi></mrow></mrow><mrow><mrow><msub><mrow><mi>m</mi></mrow><mrow><mtext>a</mtext></mrow></msub><mfenced open="(" close=")"><mrow><mtext>X</mtext></mrow></mfenced></mrow></mrow></mfrac><mo>=</mo><mfrac><mrow><mrow><mi>w</mi><mfenced open="(" close=")"><mrow><mtext>X</mtext></mrow></mfenced><mi>m</mi></mrow></mrow><mrow><mrow><msub><mrow><mstyle mathvariant="italic"><mi>A</mi></mstyle></mrow><mrow><mtext>r</mtext></mrow></msub><mfenced open="(" close=")"><mrow><mtext>X</mtext></mrow></mfenced><msub><mrow><mi>m</mi></mrow><mrow><mtext>u</mtext></mrow></msub></mrow></mrow></mfrac></math></stem>
+</formula>
+<formula id="eq-4-3">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>n</mi><mo>=</mo><mfrac><mrow><mstyle mathvariant="italic"><mi>N</mi></mstyle></mrow><mrow><msub><mrow><mstyle mathvariant="italic"><mi>N</mi></mstyle></mrow><mrow><mtext>A</mtext></mrow></msub></mrow></mfrac><mo>=</mo><mfrac><mrow><mrow><mi>w</mi><mfenced open="(" close=")"><mrow><mtext>X</mtext></mrow></mfenced><mi>m</mi></mrow></mrow><mrow><mrow><msub><mrow><mstyle mathvariant="italic"><mi>A</mi></mstyle></mrow><mrow><mtext>r</mtext></mrow></msub><mfenced open="(" close=")"><mrow><mtext>X</mtext></mrow></mfenced><msub><mrow><mstyle mathvariant="italic"><mi>N</mi></mstyle></mrow><mrow><mtext>A</mtext></mrow></msub><msub><mrow><mi>m</mi></mrow><mrow><mtext>u</mtext></mrow></msub></mrow></mrow></mfrac><mo>=</mo><mfrac><mrow><mrow><mi>w</mi><mfenced open="(" close=")"><mrow><mtext>X</mtext></mrow></mfenced><mi>m</mi></mrow></mrow><mrow><mrow><msub><mrow><mstyle mathvariant="italic"><mi>A</mi></mstyle></mrow><mrow><mtext>r</mtext></mrow></msub><mfenced open="(" close=")"><mrow><mtext>X</mtext></mrow></mfenced><msub><mrow><mstyle mathvariant="italic"><mi>M</mi></mstyle></mrow><mrow><mtext>u</mtext></mrow></msub></mrow></mrow></mfrac></math></stem>
+</formula>
+<p id="_6d921a33-1702-4397-982b-15a776bd0d25">In <xref target="eq-4-2"/> and <xref target="eq-4-3"/>, <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>A</mi></mstyle></mrow><mrow><mtext>r</mtext></mrow></msub><mfenced open="(" close=")"><mrow><mtext>X</mtext></mrow></mfenced></math></stem> is the relative atomic or molecular mass of <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext>X</mtext></math></stem> as calculated from the chemical formula of the pure substance and tables of the relative atomic masses <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>A</mi></mstyle></mrow><mrow><mtext>r</mtext></mrow></msub></math></stem> of the elements. The relative atomic masses of the elements are tabulated <eref type="inline" bibitemid="atomic-weights" citeas="[4.3]"/> with uncertainties that, except for the mononuclidic elements, are dominated by the uncertainty in the spread of isotopes seen in naturally occurring elements from different environments. Because the reported values of <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>A</mi></mstyle></mrow><mrow><mtext>r</mtext></mrow></msub></math></stem> are mass ratios, they are unaffected by changes to the SI.</p>
+<p id="_2a0215f0-5f75-424b-8d3c-5f42c084e05d">This method of realizing the mole is commonly used because measuring the mass of a sample is relatively simple and accurate. The knowledge of the mass fraction <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>w</mi></math></stem> is a prerequisite for its use. When very high purity substances are available, the uncertainty of the determination of the mass <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>m</mi></math></stem> is often the limiting factor and the mole may be realized with a relative standard uncertainty of less than <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>1</mn><mo>&#215;</mo><msup><mrow><mn>10</mn></mrow><mrow><mrow><mo>&#8722;</mo><mn>6</mn></mrow></mrow></msup></math></stem>. It is important to note that there are relatively few substances (e.g. pure gases or pure metals), where the mass fraction of the substance (traditionally called its &#8220;purity&#8221;) can be assigned with sufficiently small uncertainty to permit a realization of the mole with a relative uncertainty at the <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>1</mn><mo>&#215;</mo><msup><mrow><mn>10</mn></mrow><mrow><mrow><mo>&#8722;</mo><mn>6</mn></mrow></mrow></msup></math></stem> level. Experimental verification that the isotopic composition of the substance is equivalent to that used for the calculation of the molar mass must also be undertaken if uncertainty at this level is to be achieved.</p>
+<p id="_7b9808b8-b6e5-44b7-bc33-6214ba995319">Realization of the mole for a pure organic or inorganic substance will usually be limited by the uncertainty of the mass fraction assignments to the substance rather than the uncertainty of mass determinations. As there are very few organic substances whose mass fraction (&#8220;purity&#8221;) is assigned with relative standard uncertainty below <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>1</mn><mo>&#215;</mo><msup><mrow><mn>10</mn></mrow><mrow><mrow><mo>&#8722;</mo><mn>4</mn></mrow></mrow></msup></math></stem>, achieving a relative standard uncertainty of <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>1</mn><mo>&#215;</mo><msup><mrow><mn>10</mn></mrow><mrow><mrow><mo>&#8722;</mo><mn>4</mn></mrow></mrow></msup></math></stem> for a realization of the mole based on a pure organic or inorganic substance is the limit in most cases.</p>
+<p id="_4257f3e0-bf7c-4d9f-902d-62642af3494e">This method of realization is used for most chemical entities. However, there are other methods that can be used for certain restricted classes of substances. These are described in <xref target="sec-4-2"/> and <xref target="sec-4-3"/>.</p></clause>
+<clause id="sec-4-2" obligation="normative"><title>Equations of state for gases</title><p id="_9172ff5f-efb4-42d7-8b21-3676da688852">The amount of substance <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>n</mi></math></stem> of a sample of a pure gas may be determined by solving the equation of state for the gas:</p>
+<formula id="_e4caf10e-4fa8-44e5-bffe-f32fc77a8d53">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>p</mi><mstyle mathvariant="italic"><mi>V</mi></mstyle><mo>=</mo><mi>n</mi><mstyle mathvariant="italic"><mi>R</mi></mstyle><mstyle mathvariant="italic"><mi>T</mi></mstyle><mfenced open="[" close="]"><mrow><mn>1</mn><mo>+</mo><mstyle mathvariant="italic"><mi>B</mi></mstyle><mfenced open="(" close=")"><mrow><mstyle mathvariant="italic"><mi>T</mi></mstyle></mrow></mfenced><mfenced open="(" close=")"><mrow><mfrac><mrow><mi>n</mi></mrow><mrow><mstyle mathvariant="italic"><mi>V</mi></mstyle></mrow></mfrac></mrow></mfenced><mo>+</mo><mo>&#8230;</mo></mrow></mfenced></math></stem>
+</formula>
+<p id="_6d404bbe-98dc-4c2f-8da6-0f309ca07baf">where <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>p</mi></math></stem> is the pressure, <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>V</mi></mstyle></math></stem> is the volume, <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>T</mi></mstyle></math></stem> is the temperature, and <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>R</mi></mstyle></math></stem> is the molar gas constant. The value of <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>R</mi></mstyle></math></stem> is known exactly (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>R</mi></mstyle><mo>=</mo><msub><mrow><mstyle mathvariant="italic"><mi>N</mi></mstyle></mrow><mrow><mtext>A</mtext></mrow></msub><mi>k</mi></math></stem>, <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math></stem> is the Boltzmann constant and its numerical value is fixed). The SI coherent unit of the molar gas constant is <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_Pa.m3.mol-1.K-1"><mi mathvariant="normal">Pa</mi><mo rspace="thickmathspace">&#8290;</mo><msup><mrow><mi mathvariant="normal">m</mi></mrow><mrow><mn>3</mn></mrow></msup><mo rspace="thickmathspace">&#8290;</mo><msup><mrow><mi mathvariant="normal">mol</mi></mrow><mrow><mo>&#8722;</mo><mn>1</mn></mrow></msup><mo rspace="thickmathspace">&#8290;</mo><msup><mrow><mi mathvariant="normal">K</mi></mrow><mrow><mo>&#8722;</mo><mn>1</mn></mrow></msup></mrow>
+
+
+
+
+
+
+
+</math></stem> or <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu13.u6e-1/1.u5e-1/1"><mi mathvariant="normal">J</mi><mo rspace="thickmathspace">&#8290;</mo><msup><mrow><mi mathvariant="normal">mol</mi></mrow><mrow><mo>&#8722;</mo><mn>1</mn></mrow></msup><mo rspace="thickmathspace">&#8290;</mo><msup><mrow><mi mathvariant="normal">K</mi></mrow><mrow><mo>&#8722;</mo><mn>1</mn></mrow></msup></mrow>
+
+
+
+
+
+
+
+
+</math></stem>, <em>i.e.</em> <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_kg.m2.s-2.mol-1.K-1"><mi mathvariant="normal">kg</mi><mo rspace="thickmathspace">&#8290;</mo><msup><mrow><mi mathvariant="normal">m</mi></mrow><mrow><mn>2</mn></mrow></msup><mo rspace="thickmathspace">&#8290;</mo><msup><mrow><mi mathvariant="normal">s</mi></mrow><mrow><mo>&#8722;</mo><mn>2</mn></mrow></msup><mo rspace="thickmathspace">&#8290;</mo><msup><mrow><mi mathvariant="normal">mol</mi></mrow><mrow><mo>&#8722;</mo><mn>1</mn></mrow></msup><mo rspace="thickmathspace">&#8290;</mo><msup><mrow><mi mathvariant="normal">K</mi></mrow><mrow><mo>&#8722;</mo><mn>1</mn></mrow></msup></mrow>
+
+
+
+
+
+
+
+
+</math></stem> when expressed in base units. The terms involving the second virial coefficient <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>B</mi></mstyle><mfenced open="(" close=")"><mrow><mstyle mathvariant="italic"><mi>T</mi></mstyle></mrow></mfenced></math></stem> and possible higher-order terms are generally small corrections. Virial coefficients expressed in SI units are tabulated for a number of simple gases. The uncertainty in a measurement of <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>n</mi></math></stem> made this way depends on the uncertainty in measuring <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>p</mi></math></stem>, <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>V</mi></mstyle></math></stem> and <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>T</mi></mstyle></math></stem>, and in the tabulated values of <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>B</mi></mstyle><mfenced open="(" close=")"><mrow><mstyle mathvariant="italic"><mi>T</mi></mstyle></mrow></mfenced></math></stem>. This method of realizing the mole for a gas relies on the use of a pure sample of the gas. The number of molecules in the gas is <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>n</mi><msub><mrow><mstyle mathvariant="italic"><mi>N</mi></mstyle></mrow><mrow><mtext>A</mtext></mrow></msub></math></stem>, which has the same relative uncertainty as the determination of <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>n</mi></math></stem>.</p></clause>
+<clause id="sec-4-3" obligation="normative"><title>Electrolysis</title><p id="_b1e654c4-a617-4a87-829f-850a8e5bde2b">In a chemical electrolysis experiment, the number <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>N</mi></mstyle></math></stem> of entities that have reacted at an electrode equals the charge <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>Q</mi></mstyle></math></stem> passed through the system divided by <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>z</mi><mi>e</mi></math></stem>, where <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>z</mi></math></stem> is the charge number of the ions reacted and <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>e</mi></math></stem> is the elementary electrical charge. Thus:</p>
+<formula id="_e2716f53-a874-48a9-a29e-778b62a28fce">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>N</mi></mstyle><mo>=</mo><mfrac><mrow><mstyle mathvariant="italic"><mi>Q</mi></mstyle></mrow><mrow><mrow><mi>z</mi><mi>e</mi></mrow></mrow></mfrac></math></stem>
+</formula>
+<p id="_540079b0-f5ee-40f8-9063-62e563c36ecb">where <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>e</mi></math></stem> has a fixed value. In terms of amount of substance <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>n</mi></math></stem>:</p>
+<formula id="_05962004-cc7a-46f0-b774-f47f54cf8661">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>n</mi><mo>=</mo><mfrac><mrow><mstyle mathvariant="italic"><mi>Q</mi></mstyle></mrow><mrow><mrow><mi>z</mi><msub><mrow><mstyle mathvariant="italic"><mi>N</mi></mstyle></mrow><mrow><mtext>A</mtext></mrow></msub><mi>e</mi></mrow></mrow></mfrac><mo>=</mo><mfrac><mrow><mstyle mathvariant="italic"><mi>Q</mi></mstyle></mrow><mrow><mrow><mi>z</mi><mstyle mathvariant="italic"><mi>F</mi></mstyle></mrow></mrow></mfrac></math></stem>
+</formula>
+<p id="_75227ece-3e96-4c48-851e-c83367f23069">The Faraday constant <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>F</mi></mstyle></math></stem> has the unit <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_C//mol"><mi mathvariant="normal">C</mi><mo>/</mo><mi mathvariant="normal">mol</mi></mrow>
+
+
+
+
+
+
+
+</math></stem> and is known exactly (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>F</mi></mstyle><mo>=</mo><msub><mrow><mstyle mathvariant="italic"><mi>N</mi></mstyle></mrow><mrow><mtext>A</mtext></mrow></msub><mi>e</mi></math></stem>). The uncertainty of this method of realizing the mole depends on the reaction efficiency of the ion of interest and no interfering ions present.</p></clause></clause>
+<clause id="sec-5" obligation="normative">
+<title>Small numbers of entities</title>
+<p id="_dcde918f-e89f-4857-a94d-c9f10f3ea73d">In cases where the number of entities being considered is small, quantities are commonly expressed as numbers of entities instead of amount of substance <eref type="inline" bibitemid="brown" citeas="[5.1]"/>. The Avogadro constant is the constant of proportionality that links amount of substance to the number of entities. However, the number of entities and amount of substance may only be equated in this way if the entities considered in both quantities are elementary entities of the same type. The unit for the number of entities is one, symbol 1, although this unit is rarely stated explicitly. An example of its use is: the number concentration of ozone molecules in air has the unit <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_1//m3"><mi mathvariant="normal">1</mi><mo>/</mo><msup><mrow><mi mathvariant="normal">m</mi></mrow><mrow><mn>3</mn></mrow></msup></mrow>
+
+
+
+
+
+
+</math></stem>.</p>
+</clause>
+<clause id="sec-6" obligation="normative"><title>Continuity with previous definition</title><p id="_30e22da1-d633-4d64-8c1c-1cabc78e8e4c">Note that the 1971 definition of the mole made a direct link between the mole and the mass of a particular nuclide. This allowed traceability to the mole to be established via mass measurements and established a simple relation between macroscopic measurements and microscopic entity numbers such as atoms or molecules via the molar mass constant. The mass of one mole of <sup>12</sup>C was fixed at exactly <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>12</mn><mo rspace="thickmathspace">&#8290;</mo><mrow xref="U_NISTu27"><mi mathvariant="normal">g</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>. This meant that <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>M</mi></mstyle><mfenced open="(" close=")"><mrow><msup><mrow><mtext/></mrow><mrow><mn>12</mn></mrow></msup><mtext>C</mtext></mrow></mfenced></math></stem> was exactly <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>12</mn><mo rspace="thickmathspace">&#8290;</mo><mrow xref="U_g//mol"><mi mathvariant="normal">g</mi><mo>/</mo><mi mathvariant="normal">mol</mi></mrow>
+
+
+
+
+
+
+
+</math></stem> and <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>M</mi></mstyle></mrow><mrow><mtext>u</mtext></mrow></msub></math></stem> was exactly <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>1</mn><mo rspace="thickmathspace">&#8290;</mo><mrow xref="U_g//mol"><mi mathvariant="normal">g</mi><mo>/</mo><mi mathvariant="normal">mol</mi></mrow>
+
+
+
+
+
+
+
+</math></stem>.</p>
+<p id="_64a31c98-1f76-420b-b7e3-a777ba0c5e08">However, the present definition of the mole fixes the numerical value of <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>N</mi></mstyle></mrow><mrow><mtext>A</mtext></mrow></msub></math></stem>. Therefore from:</p>
+<formula id="eq-6-1">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>M</mi></mstyle></mrow><mrow><mtext>u</mtext></mrow></msub><mo>=</mo><msub><mrow><mi>m</mi></mrow><mrow><mtext>u</mtext></mrow></msub><msub><mrow><mstyle mathvariant="italic"><mi>N</mi></mstyle></mrow><mrow><mtext>A</mtext></mrow></msub></math></stem>
+</formula>
+<p id="_adb621df-1966-40b2-843f-352570f60cb3"><stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>M</mi></mstyle></mrow><mrow><mtext>u</mtext></mrow></msub></math></stem> and <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mi>m</mi></mrow><mrow><mtext>u</mtext></mrow></msub></math></stem> now have the same relative uncertainty.</p>
+<p id="_0f1ffe4e-2938-4338-9bf5-b7970ed7c6b4">In <xref target="eq-6-1"/> <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mi>m</mi></mrow><mrow><mtext>u</mtext></mrow></msub></math></stem> is the atomic mass constant. The atomic mass unit <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu241"><mi mathvariant="normal">u</mi></mrow>
+
+
+
+
+
+
+
+
+</math></stem> (also known as the dalton, a non-SI unit whose symbol is <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext>Da</mtext></math></stem>) and the atomic mass constant <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mi>m</mi></mrow><mrow><mtext>u</mtext></mrow></msub></math></stem> are defined in terms of the mass of the <sup>12</sup>C isotope. The unit <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu241"><mi mathvariant="normal">u</mi></mrow>
+
+
+
+
+
+
+
+
+</math></stem> is related to the constant <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mi>m</mi></mrow><mrow><mtext>u</mtext></mrow></msub></math></stem> by</p>
+<formula id="_9aafbca9-e509-4bfe-a9e1-109b3dd0c53a">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>1</mn><mtext>&#8204;</mtext><mtext>&#160;u</mtext><mo>=</mo><msub><mrow><mi>m</mi></mrow><mrow><mtext>u</mtext></mrow></msub><mo>=</mo><mi>m</mi><mfenced open="(" close=")"><mrow><msup><mrow><mtext>&#8204;</mtext></mrow><mrow><mn>12</mn></mrow></msup><mtext>C</mtext></mrow></mfenced><mo>/</mo><mn>12</mn></math></stem>
+</formula>
+<p id="_d1204988-f7fd-48de-a7aa-c3a4255fa66b">The molar mass constant <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>M</mi></mstyle></mrow><mrow><mtext>u</mtext></mrow></msub></math></stem> and the atomic mass constant <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mi>m</mi></mrow><mrow><mtext>u</mtext></mrow></msub></math></stem> are determined to the same relative uncertainty for example from the equation:</p>
+<formula id="eq-6-3">
+<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>M</mi></mstyle></mrow><mrow><mtext>u</mtext></mrow></msub><mo>=</mo><msub><mrow><mstyle mathvariant="italic"><mi>N</mi></mstyle></mrow><mrow><mtext>A</mtext></mrow></msub><msub><mrow><mi>m</mi></mrow><mrow><mtext>u</mtext></mrow></msub><mo>=</mo><mfrac><mrow><mrow><mn>2</mn><msub><mrow><mstyle mathvariant="italic"><mi>N</mi></mstyle></mrow><mrow><mtext>A</mtext></mrow></msub><mi>h</mi></mrow></mrow><mrow><mi>c</mi></mrow></mfrac><mfrac><mrow><msub><mrow><mstyle mathvariant="italic"><mi>R</mi></mstyle></mrow><mrow><mo>&#8734;</mo></mrow></msub></mrow><mrow><mrow><msup><mrow><mstyle mathvariant="italic"><mi>&#945;</mi></mstyle></mrow><mrow><mn>2</mn></mrow></msup><msub><mrow><mstyle mathvariant="italic"><mi>A</mi></mstyle></mrow><mrow><mtext>r</mtext></mrow></msub><mfenced open="(" close=")"><mrow><mtext>e</mtext></mrow></mfenced></mrow></mrow></mfrac></math></stem>
+</formula>
+<p id="_2e211f17-1c63-4b59-963f-beddffbe695b">where the Rydberg constant (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>R</mi></mstyle></mrow><mrow><mo>&#8734;</mo></mrow></msub></math></stem>), the fine structure constant (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle mathvariant="italic"><mi>&#945;</mi></mstyle></math></stem>) and the relative atomic mass of the electron (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>A</mi></mstyle></mrow><mrow><mtext>r</mtext></mrow></msub><mfenced open="(" close=")"><mrow><mtext>e</mtext></mrow></mfenced></math></stem>) are determined experimentally. The speed of light (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>c</mi></math></stem>), the Planck constant (<stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>h</mi></math></stem>) and the Avogadro constant have fixed numerical values <eref type="inline" bibitemid="bipm-9th" citeas="[2.1]"/>.</p>
+<p id="_53fd4c57-4317-462b-aaed-b04d2aeeb57e">Continuity conditions imposed on redefinitions of SI base units have ensured that <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msub><mrow><mstyle mathvariant="italic"><mi>M</mi></mstyle></mrow><mrow><mtext>u</mtext></mrow></msub></math></stem>, now determined experimentally, is still <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>1</mn><mo>&#215;</mo><msup><mrow><mn>10</mn></mrow><mrow><mrow><mo>&#8722;</mo><mn>3</mn></mrow></mrow></msup><mo rspace="thickmathspace">&#8290;</mo><mrow xref="U_kg//mol"><mi mathvariant="normal">kg</mi><mo>/</mo><mi mathvariant="normal">mol</mi></mrow>
+
+
+
+
+
+
+
+
+</math></stem> within a relative standard uncertainty of <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>4.5</mn><mo>&#215;</mo><msup><mrow><mn>10</mn></mrow><mrow><mrow><mo>&#8722;</mo><mn>10</mn></mrow></mrow></msup></math></stem> based on <xref target="eq-6-3"/> and additional independent experimental methods <eref type="inline" bibitemid="mohr" citeas="[6.1]"/>. The present uncertainty is more than sufficient for the needs of chemical measurements, being an order of magnitude smaller than the relative uncertainty achievable in the most accurate realization of the mole <eref type="inline" bibitemid="fujii" citeas="[3.1]"/>-<eref type="inline" bibitemid="kuramoto" citeas="[3.3]"/>, and several orders of magnitude smaller than the uncertainties in examples of more common realizations of the mole described above.</p></clause>
+</sections><bibliography><references id="_references" normative="false" obligation="informative"><title>References</title><bibitem id="bipm-9th" type="standard">  <fetched>2021-07-10</fetched>  <title format="text/plain" language="en" script="Latn">The International System of Units (SI)</title>  <docidentifier type="BIPM">si-brochure</docidentifier><docidentifier type="metanorma">[2.1]</docidentifier>  <date type="updated">    <on>2019-05-20</on>  </date>  <edition>9</edition>  <abstract format="text/plain" language="en" script="Latn">The BIPM and the Metre Convention</abstract>  <copyright>    <from>2019</from>    <owner>      <organization>        <name>Bureau International des ponds et mesures</name>        <abbreviation>BIPM</abbreviation>      </organization>    </owner>  </copyright></bibitem><bibitem id="iupac-rec">
+  <formattedref format="application/x-isodoc+xml"><em>IUPAC Recommendation, Pure Appl. Chem.</em> <strong>90</strong>, (2018) 175-180</formattedref>
+  <docidentifier type="metanorma">[2.2]</docidentifier>
+</bibitem><bibitem id="iupac-quantities">
+  <formattedref format="application/x-isodoc+xml"><em>IUPAC Quantities, Units and Symbols in Physical Chemistry</em>, third ed. (2007) RSC Publishing, Cambridge UK <link target="https://www.iupac.org/fileadmin/user_upload/publications/e-resources/ONLINE-IUPAC-GB3-2ndPrinting-Online-Sep2012.pdf"/></formattedref>
+  <docidentifier type="metanorma">[2.3]</docidentifier>
+</bibitem><bibitem id="fujii">
+  <formattedref format="application/x-isodoc+xml">Fujii K, Bettin H, Becker P, Massa E, Rienitz O, Pramann A, Nicolaus A, Kuramoto N, Busch I and Borys M, <em>Metrologia</em> <strong>53</strong> (2016) A19-A45.</formattedref>
+  <docidentifier type="metanorma">[3.1]</docidentifier>
+</bibitem><bibitem id="bartlg">
+  <formattedref format="application/x-isodoc+xml">Bartl G, Becker P, Beckhoff B, Bettin H, Beyer E, Borys M, Busch I, Cibik L, D&#8217;Agostino G, Darlatt E, <em>Metrologia</em> <strong>54</strong> (2017) 693-715.</formattedref>
+  <docidentifier type="metanorma">[3.2]</docidentifier>
+</bibitem><bibitem id="kuramoto">
+  <formattedref format="application/x-isodoc+xml">Kuramoto N, Mizushima S, Zhang L, Fujita K, Azuma Y, Kurokawa A, Okubo S, Inaba H, Fujii K, <em>Metrologia</em> <strong>54</strong> (2017) 716-729.</formattedref>
+  <docidentifier type="metanorma">[3.3]</docidentifier>
+</bibitem><bibitem id="newell">
+  <formattedref format="application/x-isodoc+xml">Newell D B, Cabiati F, Fischer J, Fujii K, Karshenboim S G, Margolis H S, de Mirand&#233;s E, Mohr P J, Nez F, Pachucki K, Quinn T J, Taylor B N, Wang M, Wood B M and Zhang Z, <em>Metrologia</em> <strong>55</strong> (2018) L13-L16.</formattedref>
+  <docidentifier type="metanorma">[3.4]</docidentifier>
+</bibitem><bibitem id="clade">
+  <formattedref format="application/x-isodoc+xml">Clad&#233; P, Biraben F, Julien L, Nez F and Guellati-Khelifa S, <em>Metrologia</em> <strong>53</strong> (2016) A75-A82.</formattedref>
+  <docidentifier type="metanorma">[3.5]</docidentifier>
+</bibitem><bibitem id="massa">
+  <formattedref format="application/x-isodoc+xml">Fujii K, Massa E, Bettin H, Kuramoto N and Mana G <em>Metrologia</em> <strong>55</strong> (2018) L1-L4.</formattedref>
+  <docidentifier type="metanorma">[3.6]</docidentifier>
+</bibitem><bibitem id="mep-kg">
+  <formattedref format="application/x-isodoc+xml">
+    <link target="https://www.bipm.org/utils/en/pdf/si-mep/MeP-kg-2018.pdf"/>
+  </formattedref>
+  <docidentifier type="metanorma">[3.7]</docidentifier>
+</bibitem><bibitem id="quinn">
+  <formattedref format="application/x-isodoc+xml">Milton M and Quinn T, <em>Metrologia</em> <strong>38</strong>, (2001) 289-296.</formattedref>
+  <docidentifier type="metanorma">[4.1]</docidentifier>
+</bibitem><bibitem id="milton">
+  <formattedref format="application/x-isodoc+xml">Milton M, and Mills I, <em>Metrologia</em> <strong>46</strong> (2009) 332-338.</formattedref>
+  <docidentifier type="metanorma">[4.2]</docidentifier>
+</bibitem><bibitem id="atomic-weights">
+  <formattedref format="application/x-isodoc+xml">Commission of Isotopic Abundances and Atomic Weights, <link target="http://ciaaw.org/atomic-weights.htm"/></formattedref>
+  <docidentifier type="metanorma">[4.3]</docidentifier>
+</bibitem><bibitem id="brown">
+  <formattedref format="application/x-isodoc+xml">Brown R J C, <em>Metrologia</em> <strong>55</strong> (2018) L25&#8211;L33.</formattedref>
+  <docidentifier type="metanorma">[5.1]</docidentifier>
+</bibitem><bibitem id="mohr">
+  <formattedref format="application/x-isodoc+xml">Mohr P J, Newell D B, Taylor B N and Tiesinga E, <em>Metrologia</em> <strong>55</strong> (2018) 125-146.</formattedref>
+  <docidentifier type="metanorma">[6.1]</docidentifier>
+</bibitem> </references></bibliography>
+</bipm-standard>

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<bipm-standard xmlns="https://www.metanorma.org/ns/bipm" type="semantic" version="1.1.4">
+<bibdata type="standard">
+<title language="en" format="text/plain" type="main">The International System of Units</title>
+<title language="en" format="text/plain" type="appendix">Mise en pratique for the definition of the second in the SI</title>
+<title language="fr" format="text/plain" type="main">Le syst&#232;me international d&#8217;unit&#233;s</title>
+<title language="fr" format="text/plain" type="appendix">Mise en pratique de la d&#233;finition de la seconde</title>
+<docidentifier type="BIPM">BIPM SI MEP S1</docidentifier>
+<docnumber>SI MEP S1</docnumber>
+<contributor>
+<role type="author"/>
+<organization>
+<name>Bureau International des Poids et Mesures</name>
+<abbreviation>BIPM</abbreviation>
+</organization>
+</contributor>
+<contributor>
+<role type="publisher"/>
+<organization>
+<name>Bureau International des Poids et Mesures</name>
+<abbreviation>BIPM</abbreviation>
+</organization>
+</contributor>
+<edition>9</edition>
+<version>
+<revision-date>2019-05-20</revision-date>
+</version>
+<language>en</language>
+<script>Latn</script>
+<status>
+<stage>in-force</stage>
+</status>
+<copyright>
+<from>2019</from>
+<owner>
+<organization>
+<name>Bureau International des Poids et Mesures</name>
+<abbreviation>BIPM</abbreviation>
+</organization>
+</owner>
+</copyright>
+<ext>
+<doctype>mise-en-pratique</doctype>
+<editorialgroup>
+<committee acronym="CCTF">
+<variant language="en" script="Latn">Consultative Committee for Time and Frequency</variant>
+<variant language="fr" script="Latn">Comit&#233; consultatif du temps et des fr&#233;quences</variant>
+</committee>
+
+</editorialgroup>
+
+<si-aspect>s_deltanu</si-aspect>
+<structuredidentifier>
+<docnumber>SI MEP S1</docnumber>
+<part>1.1</part>
+<appendix>2</appendix>
+</structuredidentifier>
+</ext>
+</bibdata><misc-container><UnitsML xmlns="https://schema.unitsml.org/unitsml/1.0"><UnitSet><Unit xml:id="U_ns" dimensionURL="#NISTd3">
+<UnitSystem name="SI" type="SI_derived" xml:lang="en-US"/>
+<UnitName xml:lang="en">ns</UnitName>
+<UnitSymbol type="HTML">ns</UnitSymbol>
+<UnitSymbol type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow><mi mathvariant="normal">ns</mi></mrow></math>
+</UnitSymbol>
+
+<RootUnits><EnumeratedRootUnit unit="second" prefix="n"/></RootUnits>
+
+</Unit></UnitSet><QuantitySet><Quantity xml:id="NISTq45" dimensionURL="#NISTd24" quantityType="base">
+<QuantityName xml:lang="en-US">frequency</QuantityName>
+</Quantity></QuantitySet><DimensionSet><Dimension xml:id="NISTd3">
+<Time symbol="T" powerNumerator="1"/>
+</Dimension></DimensionSet><PrefixSet><Prefix prefixBase="10" prefixPower="-9" xml:id="NISTp10_-9">
+  <PrefixName xml:lang="en">nano</PrefixName>
+  <PrefixSymbol type="ASCII">n</PrefixSymbol>
+  <PrefixSymbol type="unicode">n</PrefixSymbol>
+  <PrefixSymbol type="LaTeX">n</PrefixSymbol>
+  <PrefixSymbol type="HTML">n</PrefixSymbol>
+</Prefix></PrefixSet></UnitsML></misc-container>
+<boilerplate>
+  <copyright-statement>
+    <clause>
+      <p align="center" id="_4852f566-9423-4ed7-9799-953db77ff037"> &#169; Bureau International des Poids et Mesures 2019 all rights reserved</p>
+    </clause>
+  </copyright-statement>
+  <license-statement>
+    <clause>
+      <title>Copyright statement</title>
+      <p id="_29fadb91-972f-4064-a669-62ee49428ee7">This document is distributed under the terms of the Creative Commons Attribution 4.0 International License (<link target="http://creativecommons.org/licenses/by/4.0/"/>), which permits unrestricted use, distribution, and reproduction in any medium, provided you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made.</p>
+    </clause>
+  </license-statement>
+  <feedback-statement>
+    <p id="_eb0e09a2-eec4-4fbc-a117-be5bc82f5946">BIPM<br/>
+      Pavillon de Breteuil<br/>
+      F-92312 S&#232;vres Cedex<br/>
+      FRANCE</p>
+  </feedback-statement>
+</boilerplate>
+
+<sections><clause id="_introduction" obligation="normative"><title>Introduction</title><p id="_0d08f5f4-a93f-4434-b45d-32ebf592245b">The purpose of this <em>mise en pratique</em>, prepared by the Consultative Committee for Time and Frequency (CCTF) of the International Committee for Weights and Measures (CIPM), is to indicate how the definition of the SI base unit, the second, symbol <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu3"><mi mathvariant="normal">s</mi></mrow>
+
+
+
+
+
+
+
+
+</math></stem>, may be realized in practice.</p>
+<p id="_859285df-a7a0-4b84-97c8-8723450fee7f">In general, the term &#8220;to realize a unit&#8221; is interpreted to mean the establishment of the value and associated uncertainty of a quantity of the same kind as the unit that is consistent with the definition of the unit. The definition of the second does not imply any particular experiment for its practical realization. Any method capable of deriving a time value traceable to the set of seven reference constant could, in principle, be used. Thus, the list of methods given is not meant to be an exhaustive list of all possibilities, but rather a list of those methods that are easiest to implement and/or that provide the smallest uncertainties and which are officially recognized as primary methods by the relevant Consultative Committee.</p>
+<p id="_1521eb6e-18bb-49b5-879e-e78e1c326376">A primary method is a method having the highest metrological properties; whose operation can be completely described and understood; for which a complete uncertainty statement can be written down in terms of SI units; and which does not require a reference standard of the same quantity.</p></clause>
+<clause id="_definition_of_the_second" obligation="normative"><title>Definition of the second</title><p id="_4c3998b5-ddd1-4ddc-ac14-cfe20e0b4362">The definition of the second, SI base unit of time, is as follows <eref type="inline" bibitemid="BIPMSIB" citeas="[1]"/>:</p>
+<ul id="_bc6bc250-789f-427c-bf01-18cee8ad1c79">
+<li>
+<p id="_dc4a797c-0712-41d3-97cc-c00a9fbc0186">
+<strong>The second, symbol <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu3"><mi mathvariant="normal">s</mi></mrow>
+
+
+
+
+
+
+
+
+</math></stem>, is the SI unit of time. It is defined by taking the fixed numerical value of the caesium frequency <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mo>&#916;</mo><msub><mrow><mstyle mathvariant="italic"><mi>&#957;</mi></mstyle></mrow><mrow><mtext>Cs</mtext></mrow></msub></math></stem>, the unperturbed ground-state hyperfine transition frequency of the caesium 133 atom, to be <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>9192631770</mn></math></stem> when expressed in the unit <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu31"><mi mathvariant="normal">Hz</mi></mrow>
+
+
+
+
+
+
+
+
+
+</math></stem>, which is equal to <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mrow xref="U_NISTu3e-1/1"><msup><mrow><mi mathvariant="normal">s</mi></mrow><mrow><mo>&#8722;</mo><mn>1</mn></mrow></msup></mrow>
+
+
+
+
+
+
+
+
+</math></stem>.</strong>
+</p>
+</li>
+</ul>
+<p id="_eab21644-da3c-4b32-b1a0-39a530a9a492">The effect of this definition is that the second is equal to the duration of <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>9192631770</mn></math></stem> periods of the radiation corresponding to the transition between the two hyperfine levels of the unperturbed ground state of the <sup>133</sup>Cs atom.</p></clause>
+<clause id="_practical_realization_of_the_second" obligation="normative"><title>Practical realization of the second</title><clause id="_atomic_clocks" obligation="normative"><title>Atomic clocks</title><p id="_13ef7da3-dd4a-4b34-a7e9-1ce2485bf3d8">The definition of a unit refers to an idealized situation that can be reached in the practical realization with some uncertainty only. In this spirit, the definition of the second has to be understood as referring to atoms free of any perturbation, at rest and in the absence of electric and magnetic fields.</p>
+<p id="_2927e881-03a1-451b-81f1-489a4a6d721a">A future re-definition of the second will be justified if these idealized conditions can be achieved much easier than with the current definition.</p>
+<p id="_959e73f6-89a5-421b-ac02-ebf1a07e62e1">The definition of the second should be understood as the definition of the unit of proper time: it applies in a small spatial domain which shares the motion of the caesium atom used to realize the definition.</p>
+<p id="_f28827bf-f096-45d5-b8f9-b2c8845f4d1a">In a laboratory sufficiently small to allow the effects of the non-uniformity of the gravitational field to be neglected when compared to the uncertainties of the realization of the second, the proper second is obtained after application of the special relativistic correction for the velocity of the atom in the laboratory. It is wrong to correct for the local gravitational field.</p>
+<clause id="_primary_frequency_standards" obligation="normative"><title>Primary frequency standards</title><p id="_b43e18fc-b2f8-4622-9c87-6c3c219a755f">A small number of national metrology laboratories realize the unit of time with the highest accuracy. To do so, they design and build frequency standards that produce electric oscillations at a frequency whose relationship to the transition frequency of the atom of caesium 133, which defines the second, is known with a very low uncertainty. For such <strong>primary frequency standards</strong>, the various frequency shifts, including those due to the relativistic Doppler effect linked to the atomic motion, the thermal radiation of the environment (blackbody shift), and several other effects related to the clock design and operation, are estimated and corrected for.</p>
+<p id="_dcc94fa0-2f8e-43d3-9f3b-413056252e21">In 2017, the best of these primary standards produce the SI second with a relative standard
+uncertainty almost approaching one part in <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mrow><mn>10</mn></mrow><mrow><mn>16</mn></mrow></msup></math></stem>.</p>
+<p id="_11f46209-be45-4252-a37e-e9da79943a5f">Note that at such a level of accuracy the effect of the non-uniformity of the gravitational field over the size of the device cannot be ignored. The standard should then be considered in the framework of general relativity in order to provide the proper time at a specified point, for instance a connector.</p></clause>
+<clause id="_secondary_representations_of_the_second" obligation="normative"><title>Secondary representations of the second</title><p id="_176152af-bb73-4e3c-a1b9-d9be7dfd7c40">A list of frequencies recommended for secondary representations of the second is maintained since 2006 and is available at <link target="https://www.bipm.org/en/publications/mises-en-pratique/standard-frequencies.html"/>.</p>
+<p id="_0642dae5-a83b-47f0-859f-7c6925db10e2">The list contains the frequency values and the respective standard uncertainties for the rubidium microwave transition and for other optical transitions, including such in neutral atoms and in single trapped ions. They are considered as <strong>secondary frequency standards, which</strong> can be intrinsically accurate at the level of parts in <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mrow><mn>10</mn></mrow><mrow><mn>18</mn></mrow></msup></math></stem>; however, the uncertainties provided in the list are in the range of parts in low <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mrow><mn>10</mn></mrow><mrow><mn>14</mn></mrow></msup></math></stem> &#8211; <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mrow><mn>10</mn></mrow><mrow><mn>16</mn></mrow></msup></math></stem> since the numerical values of the transition frequencies need to be determined by measurements with respect to primary standards with their intrinsic uncertainty as explained above.</p></clause>
+<clause id="_other_frequency_standards" obligation="normative"><title>Other frequency standards</title><p id="_bd8a4108-2fec-4bf0-8a17-99040552fc5c">Primary frequency standards can be used for calibration of the frequency of other frequency standards used as clocks in national time-service laboratories. These are generally commercial <strong>caesium clocks</strong> characterized by a very good long-term frequency stability: they are able to maintain a frequency with a stability better than 1 part in <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mrow><mn>10</mn></mrow><mrow><mn>14</mn></mrow></msup></math></stem> over a few months, and thus constitute very good &#8220;time-keepers&#8221;. The relative uncertainty of their frequencies is today of the order of <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>5</mn><mo>&#215;</mo><msup><mrow><mn>10</mn></mrow><mrow><mrow><mi>&#8722;</mi><mn>13</mn></mrow></mrow></msup></math></stem> in stand-alone operations, a value which has improved by only a factor of 2 during the last 25 years.</p>
+<p id="_35704239-8922-4cb9-984b-ae57c52ec3da">Time metrology laboratories also use <strong>hydrogen masers</strong> which rely on the <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>1.4</mn><mo rspace="thickmathspace">&#8290;</mo><mrow xref="U_GHz"><mi mathvariant="normal">GHz</mi></mrow>
+
+
+
+
+
+
+
+
+</math></stem> hyperfine transition in atomic hydrogen. Masers have a much better short-term frequency stability than any
+commercial caesium clock. These instruments have traditionally been used in all applications which require a stable reference over intervals of less than one day (frequency stability of about 1 part in <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mrow><mn>10</mn></mrow><mrow><mn>15</mn></mrow></msup></math></stem> for averaging times of a few hours). Some active hydrogen masers exhibit a small but well predictable drift of their frequencies with time, and they have thus been included with increasing importance in the realization of International Atomic Time (TAI) based on an ensemble of commercial clocks by BIPM (see below).</p></clause></clause>
+<clause id="_clock_comparisons" obligation="normative"><title>Clock comparisons</title><p id="_2d20f801-3063-42e7-9406-a10177466f68">The readings of clocks operated in metrology institutes cooperating with the BIPM with respect to a reference need to be known with high accuracy. In some applications, synchronous operation of clocks in widely separated establishments is a requirement. Both situations call for accurate methods of clocks comparison that can be operated anywhere on the Earth, at any time. In the context of general relativity, the concept of synchronization is arbitrary, and lies on a convention for simultaneity and synchronization.</p>
+<p id="_8ebcec91-c4ba-4b32-a319-e6c2b5bf8be9">The Global Navigation Satellite Systems (GNSS) provide a satisfactory solution to the problem of time transfer. The two complete systems orbiting &#8722; the US Global Positioning System (GPS) and the Russian Global Navigation Satellite System (GLONASS), composed respectively of 30 and 24 non- geostationary satellites &#8722; are designed for positioning, but have the particular feature that the satellites are equipped with atomic clocks which broadcast time signals. The European Galileo and the Chinese BeiDou are going to be equally useable in the near future. The signal received from one satellite in a laboratory equipped with an antenna with accurately known position allows the time difference between the local time scale and the GNSS system time to be determined with a Type A uncertainty of a few nanoseconds when averaging over 15 minutes. Receivers allow the simultaneous reception of signals from several satellites, and make use of signals transmitted on two frequencies. In the past, for data to be compared between two laboratories it was essential that they be collected under the strict condition of &#8220;common view&#8221;. Common-view analysis still has some advantages, but it is no longer required in the case of GPS time transfer thanks to the availability in deferred time of satellite clock parameters, very precise satellite ephemerides and of ionospheric parameters, provided by the International GNSS Service (IGS). Alternatively, one can average over a set of observations in each laboratory and calculate the offsets between the local time scales from the differences in these mean values.</p>
+<p id="_85b05ee6-bd95-4122-8bc5-ee54694b83f5">As of 2017, GPS is used on a regular basis to link national laboratories in many countries. The use of GLONASS satellites for time comparisons has increased with the completion of the satellite constellation and the operation of suitable dual-system GPS/GLONASS receivers. However, it remains limited to common-views until adequate parameters will be available.</p>
+<p id="_a14bec82-1871-4d40-8e1d-cecfbcdc7e6d">Two-way satellite time and frequency transfer (TWSFTF) is used regularly for comparing more than ten timing centres world-wide. It consists of the quasi-simultaneous transmission of radiofrequency signals between two laboratories, using a geostationary telecommunication satellite as relay. It provides one-nanosecond accuracy in quasi real-time after typically 2 minutes of measurement.</p>
+<p id="_41d2c7e9-b411-4773-ba99-ae387fe1affc">All these methods of time comparison are subject to relativistic effects typically of several tens of nanoseconds, so corrections must be applied to take them into account.</p>
+<p id="_4fd0eb9b-91b9-4d2b-85cc-a2b76799ba7d">Equally important is the determination of signal propagation delays in the transmitting (TWSTFT) and receiving equipment (GNSS). The BIPM developed a scheme for GPS equipment calibration in this context which builds on the support of the regional metrology organizations (RMOs) (see <link target="http://www.bipm.org/jsp/en/TimeCalibrations.jsp"/>). Campaigns for TWSTFT link calibrations are undertaken and supported by the BIPM. The results of calibration campaigns are inter alia reflected in the uncertainty values for the differences <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext>UTC</mtext><mo>&#8722;</mo><mi mathvariant="normal">U</mi><mi mathvariant="normal">T</mi><mi mathvariant="normal">C</mi><mfenced open="(" close=")"><mrow><mi>k</mi></mrow></mfenced></math></stem> in the <em>Circular T</em> (see below) which amount to between <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>1</mn><mo rspace="thickmathspace">&#8290;</mo><mrow xref="U_ns"><mi mathvariant="normal">ns</mi></mrow>
+
+
+
+
+
+
+
+
+</math></stem> and <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>7</mn><mo rspace="thickmathspace">&#8290;</mo><mrow xref="U_ns"><mi mathvariant="normal">ns</mi></mrow>
+
+
+
+
+
+
+
+
+</math></stem>, depending on the method and age of the calibration.</p></clause>
+<clause id="_time_scales" obligation="normative"><title>Time scales</title><p id="_30cc5bf3-bf0f-41c0-aa32-e87c1928b363">National laboratories usually operate a number of clocks. These are run independently of one another and their data are sometimes combined to generate a perennial time scale. This scale is more stable and more accurate than that of any individual contributing clocks. The scale is based on the results of local clock comparisons in the laboratory. These atomic time scales are generally designated <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext>TA</mtext><mfenced open="(" close=")"><mrow><mi>k</mi></mrow></mfenced></math></stem> for laboratory <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math></stem>.</p>
+<p id="_ce5acb5e-38ca-4d11-af3c-8f7c12c35ead">Optimal combination of all the results of comparisons between the clocks maintained in the national time-service laboratories results in a world reference time scale, Coordinated Universal Time (UTC), based on International Atomic Time (TAI), as introduced by the 14th CGPM in 1971 (Resolution 1; CR, 77 and <em>Metrologia</em>, 1972, <strong>8</strong>, 35). The formal definitions of TAI and UTC have been provided by the Consultative Committee for Time and Frequency (CCTF) in the Recommendation CCTF 3 (2017) and approved in the Resolution 2 of the CGPM (2018) <link target="https://www.bipm.org/utils/common/pdf/CGPM-2018/26th-CGPM-Resolutions.pdf"/>:</p>
+<quote id="_10cf4f5e-bda7-43bb-b50b-7b39dea6661a"><p id="_26925265-664b-47ac-b32f-c17df3def311">
+<em>International Atomic Time (TAI) is a continuous time scale produced by the BIPM based on the best realizations of the SI second. TAI is a realization of Terrestrial Time (TT) with the same rate as that of TT, as defined by the IAU Resolution B1.9 (2000),</em>
+</p>
+<p id="_07fbabd0-354c-4399-9a3d-6c8c7f4ffc4a">
+<em>Coordinated Universal Time (UTC) is a time scale produced by the BIPM with the same rate as TAI, but differing from TAI only by an integral number of seconds.</em>
+</p></quote>
+<p id="_89d1a2c3-a195-494d-90f2-eccd80ff4398">Responsibility for TAI was accepted by the CIPM and transferred from the <em>Bureau International de l&#8217;Heure</em> to the BIPM on 1 January 1988.</p>
+<p id="_42ee3b56-29d0-4718-b72d-4f1f4c97c7bb">TAI is processed in two steps.</p>
+<ul id="_0eafb017-8559-45b7-ae6d-f4ca0d6697a2">
+<li>
+<p id="_28ba0f6a-9576-4641-aca2-eedd748424f0">A weighted average based on some 450 clocks maintained under metrological conditions in about 80 laboratories is first calculated. The algorithm used is optimized for long-term stability, which requires observation of the behaviour of clocks over a long duration. In consequence, TAI is a deferred-time time scale, available with a delay of a few weeks. In 2017, the relative frequency stability of TAI was estimated to 3 parts in <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mrow><mn>10</mn></mrow><mrow><mn>16</mn></mrow></msup></math></stem> for mean durations of one month.</p>
+</li>
+<li>
+<p id="_43543e2c-07f0-4070-a28e-2dc811636d8a">The frequency accuracy of TAI is then evaluated by comparing the TAI scale unit with calibrations of the SI second produced by primary and secondary frequency standards. This requires the application of a correction to compensate for the relativistic frequency shift between the location of the primary standard and a fixed point on a conventional surface of equal gravity potential, very close to the rotating geoid. The magnitude of this correction is, between points fixed on the surface of the Earth, of the order of 1 part in <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mrow><mn>10</mn></mrow><mrow><mn>16</mn></mrow></msup></math></stem> per metre of altitude. During 2017, the fractional deviation between the TAI scale unit and the SI second
+on the rotating geoid was a few parts in <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mrow><mn>10</mn></mrow><mrow><mn>16</mn></mrow></msup></math></stem>, and was known with a standard uncertainty of about <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>3</mn><mo>&#215;</mo><msup><mrow><mn>10</mn></mrow><mrow><mrow><mi>&#8722;</mi><mn>16</mn></mrow></mrow></msup></math></stem>. Both numerical values change slightly from month to month and are reported in the BIPM <em>Circular T</em>. This difference is reduced whenever necessary by steering the frequency of TAI through the application of corrections, of a few parts in <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><msup><mrow><mn>10</mn></mrow><mrow><mn>16</mn></mrow></msup></math></stem> in magnitude, every month. This method improves the accuracy of TAI while not degrading its middle-term stability.</p>
+</li>
+</ul>
+<p id="_bc8378f0-787a-496b-8c22-bde76302a58e">TAI is not distributed directly in everyday life. The time in common use is UTC as recommended by the 15th CGPM in its Resolution 5 in 1975 (CR, 104 and <em>Metrologia</em>, 1975, <strong>11</strong>, 180). UTC differs from TAI by an integer number of seconds such that <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext>UTC</mtext><mo>&#8722;</mo><mtext>TAI</mtext><mo>=</mo><mi>&#8211;</mi><mn>37</mn><mo rspace="thickmathspace">&#8290;</mo><mrow xref="U_NISTu3"><mi mathvariant="normal">s</mi></mrow>
+
+
+
+
+
+
+
+
+</math></stem> until at least 1 July 2019. Beyond this date, updated values can be found at <link target="ftp://ftp2.bipm.org/pub/tai/publication/leaptab"/>. This difference will be modified in steps of <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>1</mn><mo rspace="thickmathspace">&#8290;</mo><mrow xref="U_NISTu3"><mi mathvariant="normal">s</mi></mrow>
+
+
+
+
+
+
+
+
+</math></stem>, using a positive or negative leap second, in order to keep UTC in agreement with the time defined by the rotation of the Earth such that, when averaged over a year, the Sun crosses the Greenwich meridian at noon UTC to within <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>0.9</mn><mo rspace="thickmathspace">&#8290;</mo><mrow xref="U_NISTu3"><mi mathvariant="normal">s</mi></mrow>
+
+
+
+
+
+
+
+
+</math></stem>.</p>
+<p id="_b5c78653-4bc4-43d6-8ef9-fcb4ddf572f2">National time-service laboratories, which contribute to the formation of UTC at the BIPM, maintain an approximation of UTC, known as <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext>UTC</mtext><mfenced open="(" close=")"><mrow><mi>k</mi></mrow></mfenced></math></stem> for laboratory <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mi>k</mi></math></stem>. UTC is disseminated monthly through the publication of the offsets <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mfenced open="[" close="]"><mrow><mtext>UTC</mtext><mo>&#8722;</mo><mtext>UTC</mtext><mfenced open="(" close=")"><mrow><mi>k</mi></mrow></mfenced></mrow></mfenced></math></stem> at five-day intervals. These offsets amount to only a few tens of nanoseconds for 35 of the 78 laboratories involved. According to Recommendation S5 of the CCDS<fn reference="1"><p id="_6285de88-f37e-4976-be14-e11ddae9954c">The CCDS has been renamed Consultative Committee for Time and Frequency (CCTF) since 1997.</p></fn> (1993), laboratories should maintain the local realizations <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext>UTC</mtext><mfenced open="(" close=")"><mrow><mi>k</mi></mrow></mfenced></math></stem> within <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mn>100</mn><mo rspace="thickmathspace">&#8290;</mo><mrow xref="U_ns"><mi mathvariant="normal">ns</mi></mrow>
+
+
+
+
+
+
+
+
+</math></stem> offset from UTC. The values of these offsets and their uncertainties are published in the BIPM <em>Circular T</em>. In some cases, <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mtext>UTC</mtext><mfenced open="(" close=")"><mrow><mi>k</mi></mrow></mfenced></math></stem> represents the basis of the legal time in the respective country. Legal times are then in general offset from UTC by an integer whole (with exceptions) number of hours to establish time zones and daylight-saving time. Such legal times are disseminated by various means, depending on the country, such as dedicated time-signal transmitters, radio, television, the speaking clock, telephone lines, the Internet, and dedicated fibre-optic transmission services. In addition, each of the GNSS de facto serves as a means for disseminating a prediction of UTC, with deviations from UTC by a few ten nanoseconds or better.</p>
+<p id="_a84b9c88-a9fc-43fa-b69c-b5583d9097cb">The computation of UTC is the basis of the key comparison CCTF-K001.UTC, defined in the framework of the CIPM Mutual Recognition Arrangement: the offsets <stem type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mfenced open="[" close="]"><mrow><mi mathvariant="normal">U</mi><mi mathvariant="normal">T</mi><mi mathvariant="normal">C</mi><mi>&#8211;</mi><mi mathvariant="normal">U</mi><mi mathvariant="normal">T</mi><mi mathvariant="normal">C</mi><mfenced open="(" close=")"><mrow><mi>k</mi></mrow></mfenced></mrow></mfenced></math></stem> and their uncertainties constitute the degrees of equivalence, which are published in the BIPM key comparison database (KCDB).</p>
+<p id="_11806f26-619f-4a4f-a766-c30fb63a3561">The CCTF Working Group on the CIPM Mutual Recognition Arrangement (CCTF WGMRA) establishes guidance documents on the requisites to participate to the computation of UTC and to the key comparison on time CCTF-K001.UTC. These guidelines can be accessed at <link target="http://www.bipm.org/en/committees/cc/cctf/publications-cc.html#pv"/>.</p></clause></clause>
+</sections><bibliography><references id="_references" normative="false" obligation="informative"><title>References</title><bibitem id="BIPMSIB" type="standard">  <fetched>2021-07-10</fetched>  <title format="text/plain" language="en" script="Latn">The International System of Units (SI)</title>  <docidentifier type="BIPM">si-brochure</docidentifier><docidentifier type="metanorma">[1]</docidentifier>  <date type="updated">    <on>2019-05-20</on>  </date>  <edition>9</edition>  <abstract format="text/plain" language="en" script="Latn">The BIPM and the Metre Convention</abstract>  <copyright>    <from>2019</from>    <owner>      <organization>        <name>Bureau International des ponds et mesures</name>        <abbreviation>BIPM</abbreviation>      </organization>    </owner>  </copyright></bibitem> </references></bibliography>
+</bipm-standard>
