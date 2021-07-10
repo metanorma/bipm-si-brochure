@@ -51,7 +51,8 @@ jobs:
         with:
           agree-to-terms: true
 
-      - run: |
+      - shell: bash
+        run: |
           metanorma collection si-brochure-bilingual.yml  \
             -x xml,html,presentation,pdf                  \
             -w bilingual-brochure                         \
