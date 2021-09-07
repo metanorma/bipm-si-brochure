@@ -77,13 +77,14 @@ Unit symbols must not be used to provide specific information about the quantity
 [[english_example]]
 [example]
 ====
-The maximum electric potential difference is
-stem:[ii(U)_{"max"} = 1000 "unitsml(V)"]
-but not
+The maximum electric potential difference is +
+stem:[ii(U)_{"max"} = 1000 "unitsml(V)"] +
+but not +
 stem:[ii(U) = 1000 " " ii(V)_{"max"}].
-The mass fraction of copper in the sample of silicon is
-stem:[w("Cu") = 1.3 xx 10^(-6)]
-but not
+
+The mass fraction of copper in the sample of silicon is +
+stem:[w("Cu") = 1.3 xx 10^(-6)] +
+but not +
 stem:[1.3 xx 10^(-6) w//w].
 ====
 
@@ -138,19 +139,25 @@ If the number is between +1 and −1, then the ((decimal marker)) is always prec
 
 [example]
 ====
-stem:[-0.234] but not stem:[-.234]
+stem:[-0.234] +
+but not +
+stem:["-.234"]
 ====
 
 Following the 9th CGPM (1948, Resolution 7) and the 22nd CGPM (2003, Resolution 10), for numbers with many digits the digits may be divided into groups of three by a space, in order to facilitate reading. Neither dots nor commas are inserted in the spaces between groups of three. However, when there are only four digits before or after the ((decimal marker)), it is customary not to use a space to isolate a single digit. The practice of grouping digits in this way is a matter of choice; it is not always followed in certain specialized applications such as engineering drawings, financial statements and scripts to be read by a computer.
 
 [example]
 ====
-stem:[43279.16829] but not 43,279.168,29
+stem:[43279.16829] +
+but not +
+stem:["43,279.168,29"]
 ====
 
 [example]
 ====
-either 3279.1683 or stem:[3279.1683]
+either stem:["3279.1683"] +
+or +
+stem:[3279.1683]
 ====
 
 For numbers in a table, the format used should not vary within one column.
@@ -182,12 +189,15 @@ When dividing the values of quantities using a solidus, brackets are used to avo
 
 [example]
 ====
-stem:[ii(F) = ma] for force equals mass times acceleration
+stem:[ii(F) = ma] +
+for force equals mass times acceleration
 
 stem:[(53 "unitsml(m/s)") xx 10.2 "unitsml(s)"] +
 or stem:[(53 "unitsml(m/s)")(10.2 "unitsml(s)")]
 
-stem:[25 xx 60.5] but not stem:[25 * 60.5]
+stem:[25 xx 60.5] +
+but not +
+stem:[25 * 60.5]
 
 stem:[(20 "unitsml(m)")//(5 "unitsml(s)") = 4 "unitsml(m/s)"]
 
@@ -202,11 +212,10 @@ As discussed in <<dimensions_of_quantities>>, values of quantities with unit one
 
 [example]
 ====
-stem:[n = 1.51],
-but not
-stem:[n = 1.51 xx 1],
-where
-stem:[n]
+stem:[n = 1.51], +
+but not +
+stem:[n = 1.51 xx 1], +
+where stem:[n]
 is the quantity symbol for refractive index.
 ====
 
