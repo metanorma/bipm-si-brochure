@@ -136,13 +136,16 @@ grandeur. Les unités ne doivent jamais servir à fournir des informations compl
 sur la nature de la grandeur{nbsp}; ce type d’information doit être attaché au symbole de la
 grandeur et non à celui de l’unité.
 
-[NOTE]
+[example]
 ====
 La différence de potentiel électrique maximale s’exprime sous la forme{nbsp}: +
 stem:[ii(U)_{"max"} = 1000 "unitsml(V)"] +
 mais pas +
 stem:[ii(U) = 1000 " " ii(V)_{"max"}].
+====
 
+[example]
+====
 La fraction massique du cuivre de l’échantillon de silicium s’exprime sous la forme +
 stem:[w("Cu") = 1.3 xx 10^(-6)] +
 mais pas +
@@ -194,7 +197,7 @@ diviser le degré de manière décimale. Ainsi, il est préférable d’écrire 
 stem:[22 "unitsml(deg)"] stem:[12 "unitsml(prime)"], sauf dans les domaines tels que la navigation, la cartographie, l’astronomie et la
 mesure d’angles très petits.
 
-[NOTE]
+[example]
 ====
 stem:[l = 10.234 "unitsml(m)"] +
 mais pas +
@@ -283,17 +286,31 @@ parenthèses pour lever toute ambiguïté.
 ====
 stem:[ii(F) = ma] +
 pour une force égale à la ((masse)) multipliée par l’accélération
+====
 
+[example]
+====
 stem:[(53 "unitsml(m/s)") xx 10.2 "unitsml(s)"] +
 ou stem:[(53 "unitsml(m/s)")(10.2 "unitsml(s)")]
+====
 
+[example]
+====
 stem:[25 xx 60.5] +
 mais pas +
 stem:[25 * 60.5]
+====
 
+[example]
+====
 stem:[(20 "unitsml(m)")"/"(5 "unitsml(s)") = 4 "unitsml(m/s)"]
+====
 
-stem:["(a/b)/c"], mais pas stem:["a/b/c"]
+[example]
+====
+stem:["(a/b)/c"] +
+mais pas +
+stem:["a/b/c"]
 ====
 
 
