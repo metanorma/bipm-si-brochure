@@ -138,14 +138,14 @@ grandeur et non à celui de l’unité.
 
 [NOTE]
 ====
-Par exemple, la différence de potentiel électrique maximale s’exprime sous la forme{nbsp}: +
-stem:[ii(U)_{"max"} = 1000 "unitsml(V)"] +
-mais pas +
-stem:[ii(U) = 1000 " " ii(V)_{"max"}]. +
-La fraction massique du cuivre de l’échantillon de silicium s’exprime sous la forme +
-stem:[w("Cu") = 1.3 xx 10^(-6)] +
-mais pas +
-stem:[1.3 xx 10^(-6)] stem:[w//w].
+La différence de potentiel électrique maximale s’exprime sous la forme{nbsp}: +
+stem:[ii(U)_{"max"} = 1000 "unitsml(V)"]
+mais pas
+stem:[ii(U) = 1000 " " ii(V)_{"max"}].
+La fraction massique du cuivre de l’échantillon de silicium s’exprime sous la forme
+stem:[w("Cu") = 1.3 xx 10^(-6)]
+mais pas
+stem:[1.3 xx 10^(-6) w//w].
 ====
 
 ==== Écriture de la valeur d’une grandeur
@@ -158,20 +158,26 @@ d’unité pour le degré, la (((minute (min)))) et la ((seconde)) d’angle(((a
 pour lesquels il n’y a pas d’espace entre la valeur numérique et le symbole de l’unité.
 (((température,Celsius)))
 
-NOTE: stem:[m = 12.3 "unitsml(g)"] où m est
-utilisé comme symbole de la
-grandeur «{nbsp}masse{nbsp}» mais stem:[phi = 30 "unitsml(deg)"] stem:[22 "unitsml(prime)"] stem:[8 "unitsml(dprime)"]
-où stem:[phi] est utilisé comme symbole
-de la grandeur «{nbsp}angle plan{nbsp}»(((angle))).
+[example]
+====
+stem:[m = 12.3 "unitsml(g)"]
+où
+stem:["unitsml(m)"]
+est utilisé comme symbole de la grandeur «{nbsp}masse{nbsp}» mais
+stem:[ii(varphi) = 30 "unitsml(deg)" 22 "unitsml(prime)" 8 "unitsml(dprime)"]
+où
+stem:[ii(varphi)]
+est utilisé comme symbole de la grandeur «{nbsp}angle plan{nbsp}»(((angle))).
+====
 
 Cette règle signifie que le symbole stem:["unitsml(degC)"] pour le degré Celsius(((degré Celsius (stem:["unitsml(degC)"])))) est précédé d’une espace pour
 exprimer la valeur de la température Celsius, stem:[t].
 
-[NOTE]
+[example]
 ====
 stem:[t = 30.2 "unitsml(degC)"] +
-mais pas stem:[t = 30.2 "unitsml(degC)"] +
-ni stem:[t = 30.2 "unitsml(degC)"]
+mais pas stem:[t = 30.2"°C"] +
+ni stem:[t = 30.2"° C"]
 ====
 
 En anglais, même lorsque la valeur d’une grandeur est utilisée comme adjectif, il convient
@@ -189,7 +195,7 @@ mesure d’angles très petits.
 
 [NOTE]
 ====
-stem:[ l = 10.234 "unitsml(m)"] +
+stem:[l = 10.234 "unitsml(m)"] +
 mais pas +
 stem:[l = 10 "unitsml(m)"" " 23.4 "unitsml(cm)"]
 ====
@@ -204,7 +210,7 @@ selon la langue concernée et le contexte.
 
 Si le nombre se situe entre +1 et −1, le ((séparateur décimal)) est toujours précédé d’un zéro.
 
-[NOTE]
+[example]
 ====
 stem:[−0.234] mais pas stem:[−,234]
 ====
@@ -218,9 +224,15 @@ pas isoler un chiffre par une espace. L’habitude de grouper ainsi les chiffres
 choix personnel{nbsp}; elle n’est pas toujours suivie dans certains domaines spécialisés tels que le
 dessin industriel, les documents financiers et les scripts qui doivent être lus par ordinateur.
 
-NOTE: stem:[43279.16829] mais pas stem:[43.279.168.29]
+[example]
+====
+stem:[43279.16829] mais pas 43.279.168.29
+====
 
-NOTE: stem:[3279.1683] ou stem:[3279.1683]
+[example]
+====
+3279.1683 ou stem:[3279.1683]
+====
 
 Le format utilisé pour écrire les nombres dans un tableau doit rester cohérent dans une
 même colonne.
@@ -260,11 +272,13 @@ multiplication stem:[xx].
 Lorsque l’on divise les valeurs des grandeurs au moyen d’une barre oblique, on utilise des
 parenthèses pour lever toute ambiguïté.
 
+[example]
 ====
-stem:[ii(F) = ma] pour une force égale
-à la ((masse)) multipliée par l’accélération
+stem:[ii(F) = ma]
+pour une force égale à la ((masse)) multipliée par l’accélération
 
-stem:[(53 "unitsml(m/s)") xx 10.2 "unitsml(s)"] ou stem:[(53 "unitsml(m/s)")(10.2 "unitsml(s)")]
+stem:[(53 "unitsml(m/s)") xx 10.2 "unitsml(s)"] +
+ou stem:[(53 "unitsml(m/s)")(10.2 "unitsml(s)")]
 
 stem:[25 xx 60.5] mais pas stem:[25 * 60.5]
 
@@ -283,7 +297,15 @@ ne sont pas écrits explicitement. Comme les symboles de préfixes du SI ne peuv
 attachés au symbole 1 ni au nom d’unité «{nbsp}un{nbsp}», les puissances de 10 sont utilisées pour
 exprimer les valeurs particulièrement grandes ou particulièrement petites.
 
-NOTE: stem:[n = 1.51] mais pas stem:[n = 1.51 xx 1] où stem:[n] est le symbole de la grandeur «{nbsp}indice de réfraction{nbsp}»
+[example]
+====
+stem:[n = 1.51]
+mais pas
+stem:[n = 1.51 xx 1]
+où
+stem:[n]
+est le symbole de la grandeur «{nbsp}indice de réfraction{nbsp}»
+====
 
 Les grandeurs qui sont des rapports de grandeurs de même nature (rapports de longueur,
 fractions molaires, etc.) peuvent être exprimées avec des unités (stem:["unitsml(m/m)", "unitsml(mol/mol)"]) afin de
