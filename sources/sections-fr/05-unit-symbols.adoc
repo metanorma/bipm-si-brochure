@@ -176,6 +176,7 @@ est utilisé comme symbole de la grandeur «{nbsp}angle plan{nbsp}»(((angle))).
 
 Cette règle signifie que le symbole stem:["unitsml(degC)"] pour le degré Celsius(((degré Celsius (stem:["unitsml(degC)"])))) est précédé d’une espace pour
 exprimer la valeur de la température Celsius, stem:[t].
+(((temps,durée)))
 
 [example]
 ====
@@ -187,8 +188,17 @@ ni stem:[t = 30.2"° C"]
 En anglais, même lorsque la valeur d’une grandeur est utilisée comme adjectif, il convient
 de laisser une espace entre la valeur numérique et le symbole de l’unité. Ce n’est que
 lorsque l’on écrit le nom de l’unité en toutes lettres que l’on applique les règles
-grammaticales ordinaires (voir un exemple en anglais page <<english-doc,anchor=english_example>>).
-(((temps,durée)))
+grammaticales ordinaires.
+
+[example]
+====
+a stem:[10 "unitsml(kOhm)"] resistor
+====
+
+[example]
+====
+a 35-millimetre film
+====
 
 Dans une expression donnée, une seule unité doit être utilisée. Les valeurs des grandeurs
 «{nbsp}temps{nbsp}» et «{nbsp}angle plan{nbsp}»(((angle))) exprimées au moyen d’unités en dehors du SI font exception à
