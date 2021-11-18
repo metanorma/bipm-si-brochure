@@ -6,10 +6,11 @@ on:
   pull_request:
     paths-ignore:
       - .gitlab-ci.yml
+      - .github/workflows/test.yml
       - .github/workflows/generate.yml
-
   repository_dispatch:
     types: [ metanorma/metanorma-docker ]
+  workflow_dispatch:
 
 jobs:
   test-docker:
@@ -21,22 +22,36 @@ jobs:
           token: ${{ secrets.METANORMA_CI_PAT_TOKEN || github.token }}
           submodules: true
 
-      - name: Install gems from local Gemfile
-        run: curl -L --retry 3 https://raw.githubusercontent.com/metanorma/metanorma-build-scripts/master/gemfile-to-bundle-add.sh | bash
+      - uses: actions/cache@v2
+        with:
+          path: /config/fonts
+          key: fontist-docker
+          restore-keys: fontist-docker
 
-      - name: Generate documents
-        run: |
-          metanorma site generate --agree-to-terms .
-          metanorma collection si-brochure-bilingual.yml -x xml,html,presentation,pdf \
-            -w bilingual-brochure -c sources/collection_cover.html
-        env:
-          LC_ALL: C.UTF-8
-          LANG: C.UTF-8
-          LANGUAGE: C.UTF-8
+      - uses: actions/cache@v2
+        with:
+          path: ~/.metanorma-ietf-workgroup-cache.json
+          key: metanorma-ietf-workgroup-cache
+          restore-keys: metanorma-ietf-workgroup-cache
 
-      - name: Move bilingual-brochure/* into site
-        run: |
-          mv bilingual-brochure/collection* site/documents/
+      - uses: metanorma/metanorma-build-scripts/gh-rubygems-setup-action@master
+        with:
+          token: ${{ secrets.METANORMA_CI_PAT_TOKEN }}
+
+      - run: |
+          curl -L --retry 3 https://raw.githubusercontent.com/metanorma/metanorma-build-scripts/master/gemfile-to-bundle-add.sh | bash
+
+      - uses: actions-mn/cli/site-gen@main
+        with:
+          agree-to-terms: true
+
+      - uses: actions-mn/cli/collection@main
+        with:
+          manifest: si-brochure-bilingual.yml
+          formats: xml,html,presentation,pdf
+          output-dir: bilingual-brochure
+          cover-page: sources/collection_cover.html
+          agree-to-terms: true
 
       - uses: actions/upload-artifact@master
         with:
@@ -56,7 +71,7 @@ jobs:
 
       - uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ github.token }}
           publish_dir: ./site
           force_orphan: true
           user_name: ${{ github.actor }}
@@ -65,5 +80,5 @@ jobs:
 
       - uses: kolpav/purge-artifacts-action@v1
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ github.token }}
           expire-in: 0

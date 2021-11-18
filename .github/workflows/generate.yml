@@ -51,9 +51,11 @@ jobs:
         with:
           agree-to-terms: true
 
-      - shell: bash
-        run: |
-          metanorma collection si-brochure-bilingual.yml  \
-            -x xml,html,presentation,pdf                  \
-            -w bilingual-brochure                         \
-            -c sources/collection_cover.html --agree-to-terms
+      - uses: actions-mn/cli/collection@main
+        with:
+          manifest: si-brochure-bilingual.yml
+          formats: xml,html,presentation,pdf
+          output-dir: bilingual-brochure
+          cover-page: sources/collection_cover.html
+          agree-to-terms: true
+
