@@ -14,18 +14,23 @@ bibdata:
   edition: 9
   date:
     - type: updated
-      value: 2019-05-20
+      value: "2019-05-20"
   copyright:
     owner:
       name: Bureau International des Poids et Mesures
       abbreviation: BIPM
     from: 2019
 
-# TODO, was CLI option, not yet supported
-output_dir: bilingual-brochure
+# Example usages of new attibutes
+#
+# New attribute for output folder
+output_folder: bilingual-brochure
 
-# TODO, was CLI option, not yet supported
-formats:
+# New attribute to support collection cover
+coverpage: sources/collection_cover.html
+
+# New attribute for format specification
+format:
   - xml
   - html
   - presentation
@@ -35,22 +40,32 @@ manifest:
   level: brochure
   title: Brochure/Brochure
 
-  # TODO, not yet supported
-  # Option 1, specify built files
-  # Option 2, specify source if not built
-  documents:  # was `docref`
-    - source: si-brochure-fr.adoc
+  docref:
+    - fileref: ../site/documents/si-brochure-fr.xml
       identifier: si-brochure-fr
 
-      # was `fileref`
-      rendered: site/documents/si-brochure-fr.xml
+    - fileref: ../site/documents/si-brochure-en.xml
+      identifier: si-brochure-en
 
-    - identifier: si-brochure-en
-      source: si-brochure-en.adoc
-      rendered: site/documents/si-brochure-en.xml
+  # # TODO, not yet supported
+  #
+  # These options needs to be supported in the core library. We aren't
+  # doing anything with this attributes on the site generation. Metanorma
+  # itself usages this internally. This could be breaking changes.
+  #
+  # # Option 1, specify built files
+  # # Option 2, specify source if not built
+  # documents:  # was `docref`
+  #   - source: si-brochure-fr.adoc
+  #     identifier: si-brochure-fr
+  #
+  #     # was `fileref`
+  #     rendered: site/documents/si-brochure-fr.xml
+  #
+  #   - identifier: si-brochure-en
+  #     source: si-brochure-en.adoc
+  #     rendered: site/documents/si-brochure-en.xml
 
-# TODO, was CLI option, not yet supported
-cover: collection_cover.html
 
 prefatory-content:
 |
