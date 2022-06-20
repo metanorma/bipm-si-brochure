@@ -68,7 +68,7 @@ Run the following commands to build the full collection of the documents.
 [source,sh]
 ----
 metanorma site generate
-metanorma collection si-brochure-bilingual.yml -x xml,html,presentation,pdf \
+metanorma collection collection.yml -x xml,html,presentation,pdf \
   -w bilingual-brochure -c sources/collection_cover.html
 ----
 
@@ -77,4 +77,3 @@ The following outputs will be built:
 Component index:: `site/index.html`
 Component outputs:: under `site/documents/` (HTML, PDF, MN S/P XML)
 Bilingual brochure:: `bilingual-brochure/collection.{pdf,xml,presentation.xml}`
-
