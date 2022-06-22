@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
+# gem "debug"
 gem "metanorma-cli"
-gem "debug"
 gem "sassc"
 
