@@ -70,7 +70,7 @@ These two measurement methods are explained in more detail in <<scls-3a>> and <<
 
 _Note on the speed of light_
 ____
-While the definition for the metre refers to light travelling in vacuum, in most cases the realization of the length unit is performed under atmospheric pressure. Then the exact value of the influence of the air on the speed of light is of major importance. Therefore, a distinction has to be made between stem:[c], the speed of light in vacuum and stem:[c'], the speed of light in general. Under atmospheric pressure, the air refractive index reduces the speed of light (stem:[c' = c//n]) with a relative effect of the order of stem:[3 xx 10^(-4)] corresponding to stem:[300 "unitsml(um)"] per metre of measured length. Moreover, in the case of modulated light it is important to consider the group refractive index of air stem:[n_"g"] instead of the (phase-) refractive index, stem:[n]. For example, for green light stem:[(ii(lambda) ~~ 520 "unitsml(nm)") n_"g" – n] is approximately stem:[10^(-5)], _i.e._ considering stem:[n] instead of stem:[n_"g"] causes an additional error of stem:[10] stem:["unitsml(um)"] per metre. This difference is significant and comparable in size to the variation of the phase refractive index of air over the entire range of visible light: stem:[n(380 "unitsml(nm)") – n(780 "unitsml(nm)") = 9 xx 10^(-6)]. Thus, determination of the exact speed of light to use in <<equation-1>> is a significant consideration in realizing the metre through primary methods.
+While the definition for the metre refers to light travelling in vacuum, in most cases the realization of the length unit is performed under atmospheric pressure. Then the exact value of the influence of the air on the speed of light is of major importance. Therefore, a distinction has to be made between stem:[c], the speed of light in vacuum and stem:[c'], the speed of light in general. Under atmospheric pressure, the air refractive index reduces the speed of light (stem:[c' = c//n]) with a relative effect of the order of stem:[3 xx 10^(-4)] corresponding to stem:[300 "unitsml(um)"] per metre of measured length. Moreover, in the case of modulated light it is important to consider the group refractive index of air stem:[n_"g"] instead of the (phase-) refractive index, stem:[n]. For example, for green light stem:[(ii(lambda) ~~ 520 "unitsml(nm)") n_"g" – n] is approximately stem:[10^(-5)], _i.e._ considering stem:[n] instead of stem:[n_"g"] causes an additional error of stem:[10 "unitsml(um)"] per metre. This difference is significant and comparable in size to the variation of the phase refractive index of air over the entire range of visible light: stem:[n(380 "unitsml(nm)") – n(780 "unitsml(nm)") = 9 xx 10^(-6)]. Thus, determination of the exact speed of light to use in <<equation-1>> is a significant consideration in realizing the metre through primary methods.
 ____
 
 
@@ -232,7 +232,7 @@ Impurities and vacancies affect the lattice parameter; the impurities that have 
 .Reproduced from <<becker>> showing theoretical and experimental values for the effective radius and lattice strain parameters (stem:[ii(beta)]) of impurity atoms in a silicon lattice.
 [cols="<,^,^,^,^",options="header"]
 |===
-| Atom <a| Theoretical Radius (stem:["unitsml(nm)"]) <a| Experimental radius (stem:["unitsml(nm)"]) <a| Theoretical strain parameter stem:[ii(beta)] (stem:[10^{-24}] stem:["unitsml(cm^(-3))"]) <a| Experimental strain parameter stem:[ii(beta)] (stem:[10^{-24}] stem:["unitsml(cm^(-3))"])
+| Atom <a| Theoretical Radius (stem:["unitsml(nm)"]) <a| Experimental radius (stem:["unitsml(nm)"]) <a| Theoretical strain parameter stem:[ii(beta)] (stem:[10^{-24} "unitsml(cm^(-3))"]) <a| Experimental strain parameter stem:[ii(beta)] (stem:[10^{-24} "unitsml(cm^(-3))"])
 
 | C | stem:[0.077] | stem:[0.077] | stem:[-6.9] | stem:[-6.9 +- 0.2]
 | O | interstitial | stem:[0.142] | | stem:[+4.4 +- 0.5]
@@ -246,7 +246,7 @@ Impurities and vacancies affect the lattice parameter; the impurities that have 
 |===
 
 
-To achieve values of lattice spacing uncertainty approaching the CODATA value, the concentration of the impurities in a silicon crystal must be determined either from the manufacturer or by using a suitable technique such as, X-ray fluorescence, neutron activation, infra-red or mass spectroscopy. The saturation concentrations of carbon nitrogen and oxygen in silicon are given by Ammon _et al._ (1996) <<ammon>> and Wolf _et al._ (1996) <<wolf>>. Normally the impurity content will be much lower than saturation values for float zoned silicon. Typical concentrations of impurities in high-purity float zoned silicon are: carbon stem:[< 1 xx 10^16] stem:["unitsml(cm^(-3))"], oxygen stem:[< 2 xx 10^16] stem:["unitsml(cm^(-3))"] and nitrogen stem:[< 1 xx 10^15 "unitsml(cm^(-3))"].When the concentrations are unknown, but it is known that the crystal was grown using the float zoned method, these values could be taken as a worst case scenario and a modified value for the lattice parameter calculated. The magnitude of the effects impurities have on the atomic spacing can be determined by multiplying the strain parameter, stem:[ii(beta)], with the impurity concentration. As an example, <<table-3>> shows the change in lattice spacing of the stem:[d_{220}] planes in a piece of high purity silicon, WASO4, used for lattice parameter measurements:
+To achieve values of lattice spacing uncertainty approaching the CODATA value, the concentration of the impurities in a silicon crystal must be determined either from the manufacturer or by using a suitable technique such as, X-ray fluorescence, neutron activation, infra-red or mass spectroscopy. The saturation concentrations of carbon nitrogen and oxygen in silicon are given by Ammon _et al._ (1996) <<ammon>> and Wolf _et al._ (1996) <<wolf>>. Normally the impurity content will be much lower than saturation values for float zoned silicon. Typical concentrations of impurities in high-purity float zoned silicon are: carbon stem:[< 1 xx 10^16 "unitsml(cm^(-3))"], oxygen stem:[< 2 xx 10^16 "unitsml(cm^(-3))"] and nitrogen stem:[< 1 xx 10^15 "unitsml(cm^(-3))"].When the concentrations are unknown, but it is known that the crystal was grown using the float zoned method, these values could be taken as a worst case scenario and a modified value for the lattice parameter calculated. The magnitude of the effects impurities have on the atomic spacing can be determined by multiplying the strain parameter, stem:[ii(beta)], with the impurity concentration. As an example, <<table-3>> shows the change in lattice spacing of the stem:[d_{220}] planes in a piece of high purity silicon, WASO4, used for lattice parameter measurements:
 
 [[table-3]]
 .Dilation of lattice parameter due to impurities on WASO4 silicon.
@@ -261,7 +261,7 @@ To achieve values of lattice spacing uncertainty approaching the CODATA value, t
 | Vacancies
 | Self interstitials
 
-| stem:[xx 10^15] stem:["unitsml(cm^(-3))"]
+| stem:[xx 10^15 "unitsml(cm^(-3))"]
 | stem:[2.5 +-] stem:[0.5]
 | stem:[1.2 +-] stem:[0.7]
 | stem:[0.62 +-] stem:[0.11]
@@ -303,7 +303,7 @@ When determining the range over which X-ray interferometer measurements can be m
 
 The Si {220} lattice spacing, stem:[d_{220} = 192.0155714 xx 10^(-12) "unitsml(m)"], may be used as a secondary realisation of the definition of the metre, for dimensional nanometrology applications, using the following techniques, and with the associated caveats and uncertainty limits:
 
-. Measurement of a displacement by reference to the stem:[d_{220}] lattice plane, using an X-ray interferometer can be made using either a monolithic interferometer or an interferometer comprising two parts. Both types of interferometer have uncertainties associated with them. Previous experience shows an uncertainty of 10 pm is realistic with a stem:[10] stem:["unitsml(um)"] displacement from a monolithic interferometer and with a stem:[1 "unitsml(mm)"] range from a separated crystal interferometer if corrections are made for errors in the scanning stage of the separated crystal. As described above, a correction must be applied to the lattice spacing to take into account impurities within the crystal. Additionally, all sources of uncertainty associated with the interferometer, its operation and operating environment must be taken into account as described by Basile _et al._ 2000 <<basile>> for a monolithic interferometer and, Massa _et al._ 2015 <<massa>> for a separated crystal arrangement.
+. Measurement of a displacement by reference to the stem:[d_{220}] lattice plane, using an X-ray interferometer can be made using either a monolithic interferometer or an interferometer comprising two parts. Both types of interferometer have uncertainties associated with them. Previous experience shows an uncertainty of 10 pm is realistic with a stem:[10 "unitsml(um)"] displacement from a monolithic interferometer and with a stem:[1 "unitsml(mm)"] range from a separated crystal interferometer if corrections are made for errors in the scanning stage of the separated crystal. As described above, a correction must be applied to the lattice spacing to take into account impurities within the crystal. Additionally, all sources of uncertainty associated with the interferometer, its operation and operating environment must be taken into account as described by Basile _et al._ 2000 <<basile>> for a monolithic interferometer and, Massa _et al._ 2015 <<massa>> for a separated crystal arrangement.
 
 . Calibration of TEM magnification by reference to a single crystal silicon artefact, where the crystal lattice is visible in the field of view of the TEM and the size or width of the single crystalline nanostructure can thus be determined by counting the number of lattice planes in the nanostructure. By this method expanded uncertainties below stem:[1 "unitsml(nm)"] for the widths of line structures smaller than stem:[200 "unitsml(nm)"] could be achieved.
 
@@ -429,13 +429,13 @@ Exact values of the above uncertainty contributions will depend strongly on the 
 | Uncertainty source | Typical size
 
 | Abbe error (sine error)
-| Depends on offset distance (stem:[d]) and change in tilt angle (stem:[ii(theta)]); error stem:[= d" "tan ii(theta)], _e.g._ for stem:[d = 1] stem:["unitsml(mm)"], stem:[ii(theta) = 1] second of arc, error = *5 nm*.
+| Depends on offset distance (stem:[d]) and change in tilt angle (stem:[ii(theta)]); error stem:[= d" "tan ii(theta)], _e.g._ for stem:[d = 1 "unitsml(mm)"], stem:[ii(theta) = 1] second of arc, error = *5 nm*.
 
 | Cosine error
 | Depends on angular error (stem:[ii(theta)]). For small angles, fractional error stem:[~~ ii(theta)^2 // 2], _e.g._ for stem:[ii(theta) = 1] second of arc, fractional error is stem:[bb (1.2 xx 10^(-11))].
 
 | Light source aperture correction
-| Depends on aperture diameter (stem:[d]) and focal length (stem:[f]) of collimator, _e.g._ for stem:[d = 1] stem:["unitsml(mm)"], stem:[f = 1000] stem:["unitsml(mm)"], fractional error (given by stem:[d^2 // 16 f^2]) is stem:[bb (6.25 xx 10^(-8))].
+| Depends on aperture diameter (stem:[d]) and focal length (stem:[f]) of collimator, _e.g._ for stem:[d = 1 "unitsml(mm)"], stem:[f = 1000 "unitsml(mm)"], fractional error (given by stem:[d^2 // 16 f^2]) is stem:[bb (6.25 xx 10^(-8))].
 
 | Phase change on reflection
 | *~20 nm* difference between _e.g._ steel and glass, *~3 nm* variation in different steels.
@@ -456,7 +456,7 @@ Exact values of the above uncertainty contributions will depend strongly on the 
 | Affects fringe interpolation, leading to errors of order of a *few nm* at low power.
 
 | Reference path instability
-| Directly contributes to error with 1:1 correspondence, _e.g._ consider a 1 m mechanical arm made of steel (CTE stem:[10.7 xx 10^(-6)] stem:["unitsml(K^(-1))"]), a stem:[1 "unitsml(degC)"] change in temperature would change the arm length by stem:[bb 10.7] stem:[bb (ii(mu) "unitsml(m)")], leading to a length error of the same value.
+| Directly contributes to error with 1:1 correspondence, _e.g._ consider a 1 m mechanical arm made of steel (CTE stem:[10.7 xx 10^(-6) "unitsml(K^(-1))"]), a stem:[1 "unitsml(degC)"] change in temperature would change the arm length by stem:[bb 10.7] stem:[bb (ii(mu) "unitsml(m)")], leading to a length error of the same value.
 
 | AC detection issues
 | Depends on geometry but could cause significant fringe fraction error (_e.g._ up to stem:[1//2] fringe, ~stem:[320 "unitsml(nm)"]).
@@ -678,7 +678,7 @@ The instrument to be calibrated should be used in a clean environment to reduce 
 
 Firstly, the CCL WG-N recommends using large step-free terraces on the silicon sample to determine the cross-talk of the stem:[x]-stem:[y] scanning unit in the stem:[z]-direction and the noise (determination of stem:[ii(R)_("q")] or stem:[ii(S)_("q")]). The step height calibration should be done at the same scanner position and the same stem:[x]-stem:[y] scan range. This allows for systematic correction of the cross-talk.
 
-Secondly, areas with steps should be scanned for the stem:[z]-axis calibration. There are two types of step arrangements on carefully prepared silicon surfaces: the first is a so-called amphitheatre (pairs of opposing terraces on the same height level) and the second is a staircase-like structure. On the amphitheatre-arranged steps, the algorithm defined in <<iso5436-1>> can be applied for the determination of the step height, which allows a well-defined alignment and is less dependent on stem:[x]-stem:[y] scanner deviations (cross-talk to stem:[z], …). In the case of staircase-like structures, large step-free terraces on both sides of a monoatomic step should be used for the levelling. In both cases it is recommended to use step free terraces larger than stem:[1] stem:["unitsml(um)"] in size for the levelling area on the lower and upper planes. Furthermore, the calibration should be done in the range of the axis which is later used in experiments and the maximum height range should be less than stem:[20 "unitsml(nm)"].
+Secondly, areas with steps should be scanned for the stem:[z]-axis calibration. There are two types of step arrangements on carefully prepared silicon surfaces: the first is a so-called amphitheatre (pairs of opposing terraces on the same height level) and the second is a staircase-like structure. On the amphitheatre-arranged steps, the algorithm defined in <<iso5436-1>> can be applied for the determination of the step height, which allows a well-defined alignment and is less dependent on stem:[x]-stem:[y] scanner deviations (cross-talk to stem:[z], …). In the case of staircase-like structures, large step-free terraces on both sides of a monoatomic step should be used for the levelling. In both cases it is recommended to use step free terraces larger than stem:[1 "unitsml(um)"] in size for the levelling area on the lower and upper planes. Furthermore, the calibration should be done in the range of the axis which is later used in experiments and the maximum height range should be less than stem:[20 "unitsml(nm)"].
 
 Further detailed information concerning the use of monoatomic steps as a secondary realisation of the metre in nanometrology may be found in the CCL WG-Nano document CCL-GD-MeP-3: _Realization of SI metre using height of monoatomic steps of crystalline silicon surfaces_ which is available from the CCL website.
 
