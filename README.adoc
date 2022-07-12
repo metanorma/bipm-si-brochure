@@ -67,7 +67,17 @@ Run the following commands to build the full collection of the documents.
 
 [source,sh]
 ----
-metanorma site generate
+metanorma site generate --agree-to-terms
+metanorma collection collection.yml -x xml,html,presentation,pdf \
+  -w bilingual-brochure -c sources/collection_cover.html
+----
+
+If you wish only to generate the bilingual SI Brochure, the following will
+suffice. (the `brochure.yml` file does not compile any MEP documents)
+
+[source,sh]
+----
+metanorma site generate -c brochure.yml --agree-to-terms
 metanorma collection collection.yml -x xml,html,presentation,pdf \
   -w bilingual-brochure -c sources/collection_cover.html
 ----
@@ -77,3 +87,4 @@ The following outputs will be built:
 Component index:: `site/index.html`
 Component outputs:: under `site/documents/` (HTML, PDF, MN S/P XML)
 Bilingual brochure:: `bilingual-brochure/collection.{pdf,xml,presentation.xml}`
+
