@@ -9,9 +9,9 @@ if File.exist? "Gemfile.devel"
 end
 #
 # gem "debug"
+
 gem "metanorma-cli"
 gem "metanorma-bipm", git: "https://github.com/metanorma/metanorma-bipm", branch: "main"
 gem "isodoc", "~> 2.3.1"
 gem "isodoc-i18n", git: "https://github.com/metanorma/isodoc-i18n", branch: "master"
 gem "sassc"
-
