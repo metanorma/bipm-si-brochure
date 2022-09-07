@@ -2,10 +2,13 @@
 metanorma:
   source:
     files:
-    - sources/sib-a4-en.adoc
-    - sources/sib-a4-fr.adoc
+
+    # Prerequisites of the SI Brochure collection
     - sources/si-brochure-en.adoc
     - sources/si-brochure-fr.adoc
+
+    # The SI Brochure collection
+    - collection.yml
 
   collection:
     organization: "BIPM - Bureau International des Poids et Mesures"
