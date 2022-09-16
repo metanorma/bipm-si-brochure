@@ -84,7 +84,7 @@ Les symboles des grandeurs sont en général formés d’une seule lettre en ita
 informations complémentaires sur la grandeur peuvent être précisées par un indice ou un
 exposant ajouté au symbole ou au moyen de parenthèses. Par exemple, stem:[ii(C)] est le symbole
 recommandé pour la ((capacité thermique)), stem:[c_"m"] pour la ((capacité thermique)) molaire, stem:[c_("m",p)] pour
-la ((capacité thermique)) molaire à pression constante et stem:[c_("m",V)] pour la ((capacité thermique))
+la ((capacité thermique)) molaire à pression constante et stem:[c_("m",ii(V))] pour la ((capacité thermique))
 molaire à volume constant.
 (((IUPAC,livre vert)))((("IUPAP SUNAMCO, livre rouge")))
 
@@ -158,7 +158,7 @@ La valeur numérique précède toujours l’unité et il y a toujours une espace
 et l’unité. Ainsi, la valeur d’une grandeur étant le produit d’un nombre par une unité,
 l’espace entre le nombre et l’unité est considérée comme un signe de multiplication
 (tout comme l’espace entre les unités). Les seules exceptions à la règle sont les symboles
-d’unité pour le degré, la (((minute (min)))) et la ((seconde)) d’angle(((angle))) plan (respectivement stem:["unitsml(deg)"], stem:["unitsml(prime)"] et stem:["unitsml(dprime)"])
+d’unité pour le degré, la minute(((minute (min)))) et la ((seconde)) d’angle(((angle))) plan (respectivement stem:["unitsml(deg)"], stem:["unitsml(prime)"] et stem:["unitsml(dprime)"])
 pour lesquels il n’y a pas d’espace entre la valeur numérique et le symbole de l’unité.
 (((température,Celsius)))
 
@@ -244,14 +244,14 @@ dessin industriel, les documents financiers et les scripts qui doivent être lus
 ====
 stem:[43279.16829] +
 mais pas +
-stem:["43.279.168.29"]
+stem:["43.279,168.29"]
 ====
 
 [example]
 ====
 stem:["3279.1683"] +
 ou +
-stem:[3279.1683]
+stem:[3279,1683]
 ====
 
 Le format utilisé pour écrire les nombres dans un tableau doit rester cohérent dans une
@@ -385,7 +385,7 @@ Lorsqu’il est exprimé en radian, l’angle(((angle))) plan entre deux lignes 
 est la ((longueur)) de l’arc circulaire stem:[s] balayée entre ces lignes par un vecteur rayon de
 longueur stem:[r] depuis le point commun, divisée par la longueur du vecteur rayon, stem:[ii(theta) = s//r "unitsml(rad)"].
 L’angle(((angle))) de phase (communément appelé «{nbsp}phase{nbsp}») est l’argument de tout nombre
-complexe. C’est l’angle(((angle))) entre l’axe réél positif et le rayon de la représentation polaire du
+complexe. C’est l’angle(((angle))) entre l’axe réel positif et le rayon de la représentation polaire du
 nombre complexe dans le plan complexe.
 
 Un radian correspond à l’angle(((angle))) pour lequel stem:[s = r], ainsi stem:[1 "unitsml(rad)" = 1]. La mesure de l’angle(((angle))) droit
