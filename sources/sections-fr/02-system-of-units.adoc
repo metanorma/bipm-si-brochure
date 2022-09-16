@@ -35,7 +35,8 @@ sont requises{nbsp}: elles sont exprimées dans la même unité.
 
 === Définition du SI
 
-Comme pour toute grandeur, la valeur d’une constante fondamentale(((constante, fondamentale (de la physique)))) peut être exprimée
+Comme pour toute grandeur, la valeur d’une
+constante fondamentale(((constante, fondamentale (de la physique)))) peut être exprimée
 sous la forme du produit d’un nombre par une unité.
 
 [NOTE]
@@ -66,11 +67,27 @@ ces constantes.
 * *la constante de Boltzmann(((constante, de Boltzmann))), stem:[k], est égale à stem:[1.380649 xx 10^{-23} "unitsml(J/K)"],*
 * *la constante d’Avogadro(((constante, d'Avogadro))), stem:[ii(N)_"A"], est égale à stem:[6.02214076 xx 10^23 "unitsml(mol^(-1))"],*
 * *l’efficacité lumineuse d’un ((rayonnement monochromatique)) de fréquence stem:[540 xx 10^12 "unitsml(Hz)"], stem:[ii(K)_{"cd"}], est égale à stem:[683 "unitsml(lm/W)"],*
-(((hertz (stem:["unitsml(Hz)"]))))(((joule (stem:["unitsml(J)"]))))(((kelvin (stem:["unitsml(K)"]))))(((lumen (stem:["unitsml(lm)"]))))(((mètre (stem:["unitsml(m)"]))))(((mole (stem:["unitsml(mol)"]))))(((seconde)))(((watt (stem:["unitsml(W)"]))))
+(((hertz (stem:["unitsml(Hz)"]))))
+(((joule (stem:["unitsml(J)"]))))
+(((kelvin (stem:["unitsml(K)"]))))
+(((lumen (stem:["unitsml(lm)"]))))
+(((mètre (stem:["unitsml(m)"]))))
+(((mole (stem:["unitsml(mol)"]))))
+(((seconde)))
+(((watt (stem:["unitsml(W)"]))))
 
-où les unités hertz, joule, coulomb(((coulomb (stem:["unitsml(C)"])))), lumen et watt, qui ont respectivement pour symbole stem:["unitsml(Hz)", "unitsml(J)", "unitsml(C)", "unitsml(lm)"] et stem:["unitsml(W)"], sont reliées aux unités seconde, mètre, kilogramme, ampère(((ampère (stem:["unitsml(A)"])))), kelvin, mole et
-candela(((candela (stem:["unitsml(cd)"])))), qui ont respectivement pour symbole stem:["unitsml(s)"], stem:["unitsml(m)"], stem:["unitsml(kg)"], stem:["unitsml(A)"], stem:["unitsml(K)"], stem:["unitsml(mol)"] et stem:["unitsml(cd)"], selon les relations
-stem:["unitsml(Hz)" = "unitsml(s^(-1))"], stem:["unitsml(J)" = "unitsml(kg*m^2*s^(-2))"], stem:["unitsml(C)" = "unitsml(A*s)"], stem:["unitsml(lm)" = "unitsml(cd*m^2*m^(-2))" = "unitsml(cd*sr)"], et stem:["unitsml(W)" = "unitsml(kg*m^2*s^(-3))"].
+où les unités hertz, joule, coulomb(((coulomb (stem:["unitsml(C)"])))),
+lumen et watt, qui ont respectivement pour symbole stem:["unitsml(Hz)"],
+stem:["unitsml(J)"], stem:["unitsml(C)"], stem:["unitsml(lm)"] et stem:["unitsml(W)"],
+sont reliées aux unités seconde, mètre, kilogramme, ampère(((ampère (stem:["unitsml(A)"])))),
+kelvin, mole et candela(((candela (stem:["unitsml(cd)"])))),
+qui ont respectivement pour symbole stem:["unitsml(s)"], stem:["unitsml(m)"],
+stem:["unitsml(kg)"], stem:["unitsml(A)"], stem:["unitsml(K)"],
+stem:["unitsml(mol)"] et stem:["unitsml(cd)"], selon les relations
+stem:["unitsml(Hz)" = "unitsml(s^(-1))"],
+stem:["unitsml(J)" = "unitsml(kg*m^2*s^(-2))"], stem:["unitsml(C)" = "unitsml(A*s)"],
+stem:["unitsml(lm)" = "unitsml(cd*m^2*m^(-2))" = "unitsml(cd*sr)"], et
+stem:["unitsml(W)" = "unitsml(kg*m^2*s^(-3))"].
 
 La valeur numérique de chacune des sept constantes définissant le SI (((constante, définissant le SI))) n’a pas d’incertitude. (((incertitude)))
 
@@ -99,9 +116,9 @@ dans la mesure où les avancées de la science et des connaissances le permettai
 
 ==== Nature des sept constantes définissant le SI (((constante, définissant le SI)))
 
-La nature des sept constantes définissant le SI (((constante, définissant le SI))) varie de constantes fondamentales(((constante, fondamentale (de la physique)))) de la
-nature jusqu’à des constantes techniques.
-(((unité(s),réalisation)))
+La nature des sept constantes définissant le SI (((constante, définissant le SI)))
+varie de constantes fondamentales(((constante, fondamentale (de la physique))))
+de la nature jusqu’à des constantes techniques. (((unité(s),réalisation)))
 
 L’utilisation d’une constante pour définir une unité dissocie la définition de la réalisation,
 ce qui ouvre la voie au développement de réalisations pratiques totalement différentes ou
@@ -167,15 +184,18 @@ lumineux reçu par un observateur moyen (stem:["unitsml(lm)"]). [[si_systeme-3]]
 
 === Définitions des unités du SI (((unité(s),de base))) index-range:unites_definions[(((unité(s),de base,définitions)))] (((unité(s),dérivées))) index-range:unite_si[(((unité(s),SI)))]
 
-Avant l’adoption de la révision du SI en 2018, le SI était défini à partir de sept _unités de base_, les _unités dérivées_ étant formées à partir de produits de puissances des _unités de base_.
+Avant l’adoption de la révision du SI en 2018, le SI était défini à partir de
+sept _unités de base_, les _unités dérivées_ étant formées à partir de produits
+de puissances des _unités de base_.
 En définissant le SI (((constante, définissant le SI))) en fixant la valeur numérique de sept constantes spécifiques,
 cette distinction n’est en principe pas nécessaire car les définitions de toutes les unités,
 qu’elles soient de base ou dérivées, peuvent être directement établies à partir des
 sept constantes. Toutefois, les concepts d’unités de base et d’unités dérivées sont conservés
 car ils sont pratiques et historiquement bien établis{nbsp}; par ailleurs, la série de normes
-ISO/IEC 80000(((ISO,série ISO/IEC 80000))) précise les grandeurs de base(((grandeurs,de base))) et les grandeurs dérivées(((grandeurs,dérivées))) qui doivent
-nécessairement correspondre aux unités de base du SI et aux unités dérivées, définies dans
-la présente brochure.
+ISO/IEC 80000(((ISO,série ISO/IEC 80000))) précise les grandeurs de
+base(((grandeurs,de base))) et les grandeurs dérivées(((grandeurs,dérivées)))
+qui doivent nécessairement correspondre aux unités de base du SI et aux unités
+dérivées, définies dans la présente brochure.
 
 
 ==== Unités de base index-range:unites_de_base[(((unité(s),de base)))] (((symboles,des grandeurs))) (((symboles,unités))) (((symboles,unités (obligatoires))))
@@ -343,11 +363,17 @@ relation identique à
 Il résulte de cette définition qu’un ampère(((ampère (stem:["unitsml(A)"])))) est le ((courant électrique)) correspondant au flux de stem:[1//(1.602176634 xx 10^(-19))] charges élémentaires par ((seconde)).
 (((henry (stem:["unitsml(H)"]))))(((unité(s),dérivées cohérentes)))
 
-La précédente définition de l’ampère(((ampère (stem:["unitsml(A)"])))), fondée sur la force produite entre deux conducteurs
-traversés par du courant, fixait la valeur de la perméabilité magnétique du vide(((constante, magnétique&#44; perméabilité du vide))) stem:[ii(mu)_0] (également
-connue sous le nom de constante magnétique)(((constante, magnétique&#44; perméabilité du vide))) à exactement stem:[4 pi xx 10^(-7) "unitsml(H*m^(-1))" = 4 pi xx 10^(-7) "unitsml(N*A^(-2))"],
-stem:["unitsml(H)"] et stem:["unitsml(N)"] représentant les unités dérivées cohérentes «{nbsp}henry{nbsp}» et «{nbsp}newton{nbsp}», respectivement.
-La nouvelle définition de l’ampère(((ampère (stem:["unitsml(A)"])))) fixe la valeur numérique de stem:[e] et non plus celle de stem:[ii(mu)_0].
+La précédente définition de l’ampère(((ampère (stem:["unitsml(A)"])))), fondée
+sur la force produite entre deux conducteurs traversés par du courant, fixait la
+valeur de la
+perméabilité magnétique du vide(((constante, magnétique&#44; perméabilité du vide)))
+stem:[ii(mu)_0]
+(également connue sous le nom de constante magnétique(((constante, magnétique&#44; perméabilité du vide))))
+à exactement stem:[4 pi xx 10^(-7) "unitsml(H*m^(-1))" = 4 pi xx 10^(-7) "unitsml(N*A^(-2))"],
+stem:["unitsml(H)"] et stem:["unitsml(N)"] représentant les unités dérivées
+cohérentes «{nbsp}henry{nbsp}» et «{nbsp}newton{nbsp}», respectivement.
+La nouvelle définition de l’ampère(((ampère (stem:["unitsml(A)"])))) fixe la
+valeur numérique de stem:[e] et non plus celle de stem:[ii(mu)_0].
 Par conséquent, stem:[ii(mu)_0] doit désormais être déterminée de façon expérimentale.
 
 Ainsi, comme la permittivité diélectrique du vide
