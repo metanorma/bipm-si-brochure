@@ -9,7 +9,7 @@
 :title-appendix-en: Principles Governing Photometry
 :title-appendix-fr: Principes régissant la photométrie
 :title-en: The International System of Units
-:title-fr: Le système international d’unités
+:title-fr: Le système international d'unités
 :doctype: rapport
 :docnumber: Rapport BIPM-2019/05
 :committee-acronym: CCPR
@@ -147,10 +147,10 @@ ii(Phi)_"v" = int int_{ii Omega} ii(I)_"v" (ii(vartheta),ii(varphi)) sin ii(vart
 
 NOTE: The corresponding radiometric quantity is "`radiant flux`". The corresponding quantity for photons is "`photon flux`".
 
-NOTE: The luminous flux is expressed in lumen (lm).
+NOTE: The luminous flux is expressed in lumen (stem:["unitsml(lm)"]).
 
 [.source]
-<<cie-2016a,term 17-21-039>>, "expressed by" removed.
+<<cie-2016a,term 17-21-039>>, ", expressed by" removed.
 
 
 
@@ -197,7 +197,7 @@ NOTE: The corresponding radiometric quantity is "`radiant intensity`". The corre
 NOTE: The luminous intensity is expressed in candela (stem:["unitsml(cd)" = "unitsml(lm*sr^(-1))"]).
 
 [.source]
-<<cie-2016a,term 17-21-045>>, expressed by" removed, Note 1 to entry changed, formula in Note 3 to entry adjusted
+<<cie-2016a,term 17-21-045>>, ", expressed by" removed, Note 1 to entry changed, formula in Note 3 to entry adjusted
 
 === luminance
 
@@ -268,7 +268,7 @@ NOTE: The corresponding radiometric quantity is "`radiance`". The corresponding 
 NOTE: The luminance is expressed in candela per square metre (stem:["unitsml(cd*m^(-2))" = "unitsml(lm*m^(-2)*sr^(-1))"]).
 
 [.source]
-<<cie-2016a,term 17-21-050>>, expressed by" removed, in Note 1 to entry "radiance" replaced by "luminance" at two places, and "radiant intensity" replaced by "luminous intensity"
+<<cie-2016a,term 17-21-050>>, ", expressed by" removed, in Note 1 to entry "radiance" replaced by "luminance" at two places, and "radiant intensity" replaced by "luminous intensity"
 
 
 [[cls-2-4]]
@@ -307,7 +307,7 @@ NOTE: The illuminance is expressed in lux (stem:["unitsml(lx)" = "unitsml(lm*m^(
 
 == Photometric units
 
-Historically the SI units have been presented in terms of a set of seven base units. All other units ("`derived units`") are then constructed as products of powers of the base units. In the field of photometry, the definition of the unit of luminous intensity (based on a blackbody at the freezing point temperature of platinum), was adopted at the 9th meeting of the General Conference on Weights and Measures (CGPM) in 1948 <<cgpm-1948>>. The name "`candela`" was assigned to this unit by the CIPM in 1949. The candela was endorsed as one of the international base units at the 10th meeting of the CGPM in 1954 <<cgpm-1955>>. The "`Système International d’unités`", abbreviation "`SI`", was established at the 11th meeting of the CGPM in 1960. In 1979, the candela was linked to radiometric quantities for monochromatic radiation of frequency stem:[540 xx 10^12 "unitsml(Hz)"] <<cgpm-1979>>. In 2018 the CGPM adopted a new approach for the SI based on seven defining constants <<cgpm-2018>>. In the International System of Units (SI) 2019 <<bipm>> the definition of the candela is reformulated by introducing the constant stem:[ii(K)_"cd" = 683 "unitsml(lm*W^(-1),symbol:lm cdot W^(-1))"], which is the luminous efficacy of monochromatic radiation of frequency stem:[540 xx 10^12 "unitsml(Hz)"].
+Historically the SI units have been presented in terms of a set of seven base units. All other units ("`derived units`") are then constructed as products of powers of the base units. In the field of photometry, the definition of the unit of luminous intensity (based on a blackbody at the freezing point temperature of platinum), was adopted at the 9th meeting of the General Conference on Weights and Measures (CGPM) in 1948 <<cgpm-1948>>. The name "`candela`" was assigned to this unit by the CIPM in 1949. The candela was endorsed as one of the international base units at the 10th meeting of the CGPM in 1954 <<cgpm-1955>>. The "`Système International d'unités`", abbreviation "`SI`", was established at the 11th meeting of the CGPM in 1960. In 1979, the candela was linked to radiometric quantities for monochromatic radiation of frequency stem:[540 xx 10^12 "unitsml(Hz)"] <<cgpm-1979>>. In 2018 the CGPM adopted a new approach for the SI based on seven defining constants <<cgpm-2018>>. In the International System of Units (SI) 2019 <<bipm>> the definition of the candela is reformulated by introducing the constant stem:[ii(K)_"cd" = 683 "unitsml(lm*W^(-1),symbol:lm cdot W^(-1))"], which is the luminous efficacy of monochromatic radiation of frequency stem:[540 xx 10^12 "unitsml(Hz)"].
 
 The frequency in the candela definition of stem:[540 xx 10^12 "unitsml(Hz)"], denoted as stem:[ii(nu)_"cd"], corresponds to a wavelength in standard air footnote:[The value of stem:[ii(lambda)_"cd"] is for standard air (dry air at stem:[15 "unitsml(degC)"] and stem:[101325 "unitsml(Pa)"], containing 0.045 % of carbon dioxide by volume), see Ciddor (1996). This value changes slightly if laboratory air conditions are different but such changes are negligible in practice.] <<ciddor>> that is usually rounded to stem:[555.017 "unitsml(nm)"], and denoted stem:[ii(lambda)_"cd"]. All wavelength values given in this document are in standard air. For photometric measurements in air under real environmental conditions, the influence of the variation of the refractive index of air on stem:[ii(lambda)_"cd"] with respect to standard air is typically in the range of a few picometres and can be neglected.
 
@@ -456,7 +456,7 @@ The following quantity names and symbols apply for photopic vision using the ste
 
 === Photometric quantities for other observers
 
-For research purposes, photometric quantities for observers other than those introduced in the above subclauses may be used, e.g. the CIE 2015 physiologically-based spectral luminous efficiency function <<cie-2015>>, and the CIE 1988 modified stem:[2 "unitsml(deg)"] observer <<cie-1990>>. When one of these alternative CIE-defined observers is used, an appropriate quantity name (e.g. CIE 2015 luminous flux, or CIE 1988 luminous flux), and an appropriate symbol for the quantities (e.g. stem:[ii(Phi)_"F"] or stem:[ii(Phi)_"M"]) should be used to avoid any confusion with other CIE-defined photometric quantities. In any case, the same SI units – stem:["unitsml(cd)"], stem:["unitsml(lm)"], stem:["unitsml(lx)"], stem:["unitsml(cd*m^(-2))"] – are used and these must not be modified. Also, when a photometric quantity is expressed with photometric units, additivity must hold (at least within the stated visual adaptation conditions). Photometric units are not used for non-visual effects <<cie-2018a>>. For non-visual effects radiometric units are used.
+For research purposes, photometric quantities for observers other than those introduced in the above subclauses may be used, e.g. the CIE 2015 physiologically-based spectral luminous efficiency function <<cie-2015>>, and the CIE 1988 modified stem:[2 "unitsml(deg)"] observer <<cie-1990>>. When one of these alternative CIE-defined observers is used, an appropriate quantity name (e.g. CIE 2015 luminous flux, or CIE 1988 luminous flux), and an appropriate symbol for the quantities (e.g. stem:[ii(Phi)_"F"] or stem:[ii(Phi)_"M"]) should be used to avoid any confusion with other CIE-defined photometric quantities. In any case, the same SI units -- stem:["unitsml(cd)"], stem:["unitsml(lm)"], stem:["unitsml(lx)"], stem:["unitsml(cd*m^(-2))"] -- are used and these must not be modified. Also, when a photometric quantity is expressed with photometric units, additivity must hold (at least within the stated visual adaptation conditions). Photometric units are not used for non-visual effects <<cie-2018a>>. For non-visual effects radiometric units are used.
 
 
 [[cls-6]]
@@ -592,7 +592,7 @@ The value of stem:[m] is determined from the photopic luminance, stem:[ii(L)_{"v
 
 [stem]
 ++++
-ii(L)_{"mes",n} = { m_{(n - 1)} ii(L)_{"v,adapt"} + (1 - m_{(n-1)}) ii(L)'_{"v,adapt"} ii(V)'(ii(lambda)_m) } / {m_{(n-1)} + (1 - m_{(n-1)}) ii(V)'(ii(lambda)_m)}
+ii(L)_{"mes",n} = { m_((n - 1)) ii(L)_{"v,adapt"} + (1 - m_((n-1))) ii(L)'_{"v,adapt"} ii(V)'(ii(lambda)_m) } / {m_((n-1)) + (1 - m_((n-1))) ii(V)'(ii(lambda)_m)}
 ++++
 
 and
@@ -1868,15 +1868,15 @@ It is also known that the spectral luminous efficiency function for photopic vis
 [bibliography]
 == References
 
-* [[[bipm,BIPM]]] BIPM, 2019. _BIPM – The International System of Units (SI), 9th ed._ 2019.
+* [[[bipm,BIPM]]] BIPM, 2019. _BIPM -- The International System of Units (SI), 9th ed._ 2019.
 
 * [[[cgpm-1948,1]]] CGPM, 1948. _Comptes Rendus des Séances de la Neuvième Conférence Générale des Poids et Mesures_, Réuni à Paris en 1948, page 53 et 54.
 
 * [[[cgpm-1955,1]]] CGPM, 1955. _Comptes Rendus des Séances de la Dixième Conférence Générale des Poids et Mesures_, Réunie à Paris en 1954.
 
-* [[[cgpm-1979,1]]] CGPM, 1979. _Comptes Rendus des Séances de la 16e Conférence Générale des Poids et Mesures_, Paris, 8–12 Octobre, 1979, p. 100, Bureau International des Poids et Mesures, F-92310 Sevres, France.
+* [[[cgpm-1979,1]]] CGPM, 1979. _Comptes Rendus des Séances de la 16e Conférence Générale des Poids et Mesures_, Paris, 8--12 Octobre, 1979, p. 100, Bureau International des Poids et Mesures, F-92310 Sevres, France.
 
-* [[[cgpm-2018,1]]] CGPM, 2018. _Comptes Rendus des Séances de la 26e Conférence Générale des Poids et Mesures_, Paris, 13–16 Novembre, 2018, Bureau International des Poids et Mesures, F-92310 Sevres, France [in press].
+* [[[cgpm-2018,1]]] CGPM, 2018. _Comptes Rendus des Séances de la 26e Conférence Générale des Poids et Mesures_, Paris, 13--16 Novembre, 2018, Bureau International des Poids et Mesures, F-92310 Sevres, France [in press].
 
 * [[[ciddor,1]]] CIDDOR, P.E. 1996. Refractive index of air: new equations for the visible and near infrared. _Appl. Optics_ *35*: 1566-1573.
 
@@ -1892,11 +1892,11 @@ It is also known that the spectral luminous efficiency function for photopic vis
 
 * [[[cie-2014,1]]] CIE, 2014. CIE TN 002:2014 _Relating Photochemical and Photobiological Quantities to Photometric Quantities_. Vienna: CIE.
 
-* [[[cie-2015,1]]] CIE, 2015. CIE 170-2:2015 _Fundamental Chromaticity Diagram with Physiological Axes – Part 2: Spectral Luminous Efficiency Functions and Chromaticity Diagrams_. Vienna: CIE.
+* [[[cie-2015,1]]] CIE, 2015. CIE 170-2:2015 _Fundamental Chromaticity Diagram with Physiological Axes -- Part 2: Spectral Luminous Efficiency Functions and Chromaticity Diagrams_. Vienna: CIE.
 
 * [[[cie-2016a,1]]] CIE, 2016a. CIE DIS 017:2016 _ILV: International Lighting Vocabulary_, 2nd Ed. Vienna: CIE.
 
-* [[[cie-2016b,1]]] CIE, 2016b. CIE TN 004: 2016 _The Use of Terms and Units in Photometry – Implementation of the CIE System for Mesopic Photometry_. Vienna: CIE.
+* [[[cie-2016b,1]]] CIE, 2016b. CIE TN 004: 2016 _The Use of Terms and Units in Photometry -- Implementation of the CIE System for Mesopic Photometry_. Vienna: CIE.
 
 * [[[cie-2017,1]]] CIE, 2017. CIE TN 007:2017 _Interim Recommendation for Practical Application of the CIE System for Mesopic Photometry in Outdoor Lighting_. Vienna: CIE.
 
@@ -1904,8 +1904,8 @@ It is also known that the spectral luminous efficiency function for photopic vis
 
 * [[[cie-2018b,1]]] CIE, 2018b. CIE 015:2018 _Colorimetry, 4th Edition_. Vienna: CIE.
 
-* [[[iso23539,ISO 23539:2005]]] ISO/CIE, 2005. ISO 23539:2005/CIE S 010:2004 Photometry – The CIE System of Physical Photometry. Vienna: CIE.
+* [[[iso23539,ISO 23539:2005]]] ISO/CIE, 2005. ISO 23539:2005/CIE S 010:2004 Photometry -- The CIE System of Physical Photometry. Vienna: CIE.
 
-* [[[iso11664,ISO 11664-1:2007]]] ISO/CIE, 2007. ISO 11664-1:2007/CIE S 014-1:2006 Colorimetry – Part 1: Standard Colorimetric Observers. Vienna: CIE.
+* [[[iso11664,ISO 11664-1:2007]]] ISO/CIE, 2007. ISO 11664-1:2007/CIE S 014-1:2006 Colorimetry -- Part 1: Standard Colorimetric Observers. Vienna: CIE.
 
 * [[[zwinkels,1]]] ZWINKELS, J., SPERLING, A., GOODMAN, T., CAMPOS, J., OHNO, Y., RASTELLO, M.L., STOCK, M, WOOLLIAMS, E. 2016. Mise en pratique for the definition of the candela and associated derived units for photometric and radiometric quantities in the International System of Units (SI). _Metrologia_: *53*, G1. (The 2019 revision is in press.)
