@@ -36,10 +36,10 @@ index-range:decibel_db[(((décibel (dB))))]
 | jour(((jour (d)))) | stem:["unitsml(d)"] | stem:[1 "unitsml(d)" = 24 "unitsml(h)" = 86400 "unitsml(s)"]
 | ((longueur)) | unité astronomique footnote:[Décision de la XXVIII^e^ Assemblée générale de l’Union astronomique internationale (Résolution B2, 2012).] | stem:["unitsml(au)"] | stem:[1 "unitsml(au)" = 149597870700 "unitsml(m)"]
 .3+| angle(((angle))) plan et de phase | degré | stem:["unitsml(deg)"] | stem:[1 "unitsml(deg)" = (pi //180) "unitsml(rad)"]
-|  minute(((minute (min)))) | stem:["unitsml(prime)"] | stem:["unitsml(prime)" = (1//60)"unitsml(deg)" = (pi //10800) "unitsml(rad)"]
+|  minute(((minute (min)))) | stem:["unitsml(prime)"] | stem:[1 "unitsml(prime)" = (1//60)"unitsml(deg)" = (pi //10800) "unitsml(rad)"]
 | ((seconde)) footnote:[En astronomie, les petits angles sont mesurés en secondes d’arc (c’est-à-dire en secondes d’angle(((angle))) plan),
 symbole as ou ″, et en milliarcsecondes, microarcsecondes et picoarcsecondes, de symboles respectifs
-mas, stem:["unitsml(uas)"] et pas, l’arcseconde étant un autre nom pour la seconde d’angle(((angle))) plan.] | stem:["unitsml(dprime)"] | stem:["unitsml(dprime)" = (1//60)"unitsml(prime)" = (pi //648000) "unitsml(rad)"]
+mas, stem:["unitsml(uas)"] et pas, l’arcseconde étant un autre nom pour la seconde d’angle(((angle))) plan.] | stem:["unitsml(dprime)"] | stem:[1 "unitsml(dprime)" = (1//60)"unitsml(prime)" = (pi //648000) "unitsml(rad)"]
 | superficie | hectare(((hectare (ha)))) footnote:[L’unité hectare et son symbole ha ont été adoptés par le CIPM en 1879 (<<PV41_h,page=41>>). L’hectare est
 utilisé pour exprimer des superficies agraires.] | stem:["unitsml(ha)"] | stem:[1 "unitsml(ha)" = 1 "unitsml(hm^2)" = 10^4 "unitsml(m^2)"]
 | volume | litre(((litre (stem:["unitsml(L)"] ou stem:["unitsml(l)"])))) footnote:[Le litre et son symbole l (en minuscule) ont été adoptés par le CIPM en 1879 (<<PV41_h,page=41>>).
@@ -53,12 +53,12 @@ unité, égale à 1/12 de la masse de l’atome de ^12^C libre, au repos et dans
 du dalton est la valeur recommandée dans l’ajustement de 2018 de ((CODATA)).] | stem:["Da"] | stem:[1 "unitsml(Da)"] stem:[= 1.66053906660(50) xx 10^{-27} "unitsml(kg)"]
 | énergie | électronvolt(((électronvolt (eV)))) footnote:[L’électronvolt est l’énergie cinétique acquise par un électron après traversée d’une différence de
 potentiel de stem:[1 "unitsml(V)"] dans le vide. L’électronvolt est souvent combiné aux préfixes du SI.] | stem:["unitsml(eV)"] | stem:[1 "unitsml(eV)"] stem:[= 1.602176634 xx 10^(-19) "unitsml(J)"]
-.3+| logarithme d’un rapport | neper
+.3+| logarithme d’un rapport | néper
 footnote:note-h[Lorsque l’on utilise ces unités, il est important de
 préciser quelle est la nature de la grandeur en
 question et la valeur de référence utilisée.] | stem:["unitsml(Np)"] | voir notes de bas de page
 | bel footnote:note-h[] | stem:["unitsml(bel_B)"] |
-| decibel footnote:note-h[] | stem:["unitsml(dbel_B)"] |
+| décibel footnote:note-h[] | stem:["unitsml(dbel_B)"] |
 |===
 
 [NOTE]
@@ -81,7 +81,7 @@ stem:["ln" = "log"_"e"]. Le bel(((bel (B)))) et le décibel(((décibel (dB)))), 
 sont utilisés pour exprimer la valeur
 de grandeurs dont la valeur numérique est un logarithme de base 10 d’un rapport de
 grandeurs, stem:["lg" = "log"_(10)]. L’égalité stem:[ii(L)_X = m "unitsml(dbel_B)" = (m//10) "unitsml(bel_B)"] (où stem:[m] est un nombre) est comprise
-comme signifiant que stem:[m = 10 "lg"(ii(X)//ii(X)_0)]. L’usage des unités néper, bel(((bel (B)))) et décibel(((décibel (dB)))) avec le SI a
+comme signifiant que stem:[m = 10 " lg"(ii(X)//ii(X)_0)]. L’usage des unités néper, bel(((bel (B)))) et décibel(((décibel (dB)))) avec le SI a
 été accepté par le CIPM mais ces unités ne sont pas des unités du SI.
 (((pied)))(((pouce)))(((yard)))
 
