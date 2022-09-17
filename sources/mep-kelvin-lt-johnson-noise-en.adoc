@@ -13,7 +13,7 @@
 :title-part-en: Mise en pratique for the definition of the kelvin in the SI
 :title-part-fr: Mise en pratique de la définition du kelvin
 :title-en: The International System of Units
-:title-fr: Le système international d’unités
+:title-fr: Le système international d'unités
 :doctype: mise-en-pratique
 :docnumber: SI MEP KLJNT
 :committee-acronym: CCT
@@ -123,7 +123,7 @@ The relative combined standard uncertainties of the thermodynamic temperature va
 
 === Current sensing noise thermometer, CSNT
 
-For the CSNT operated in absolute primary mode, relative combined standard uncertainties of about 1.5% are reached, which are expected to be lowered to sub-percent level with an improved setup. The corresponding uncertainty budget is shown in <<table2>>. For further details see <<shibahara,Shibahara 2016>> and references therein. International comparison measurements within the European EURAMET Project ‘Implementing the new kelvin’ have shown that thermodynamic temperature values and their uncertainties determined with the CSNT agree with other determinations of thermodynamic temperature as well as with copies of the PLTS-2000 better than 1% <<engert,Engert 2016>>.
+For the CSNT operated in absolute primary mode, relative combined standard uncertainties of about 1.5% are reached, which are expected to be lowered to sub-percent level with an improved setup. The corresponding uncertainty budget is shown in <<table2>>. For further details see <<shibahara,Shibahara 2016>> and references therein. International comparison measurements within the European EURAMET Project 'Implementing the new kelvin' have shown that thermodynamic temperature values and their uncertainties determined with the CSNT agree with other determinations of thermodynamic temperature as well as with copies of the PLTS-2000 better than 1% <<engert,Engert 2016>>.
 
 [[table1]]
 .Relative standard uncertainty estimates stem:[u_("rel")] for the PTB noise thermometer (coverage factor stem:[k = 1]) <<fellmuth,Fellmuth 2003>>.
@@ -139,7 +139,7 @@ For the CSNT operated in absolute primary mode, relative combined standard uncer
 
 [[table2]]
 [cols="<,^,^,^,^,^"]
-.Uncertainty budget for a temperature measurement at stem:[20 "unitsml(mK)"] using a CSNT in absolute primary mode (noise resistor of approximately stem:[2 "unitsml(mOhm)"], stem:[u_("rel")] – relative standard uncertainty, stem:[u] – standard uncertainty, last column is the relative contribution to the combined standard uncertainty, coverage factor stem:[k = 1]) <<shibahara,Shibahara 2016>>.
+.Uncertainty budget for a temperature measurement at stem:[20 "unitsml(mK)"] using a CSNT in absolute primary mode (noise resistor of approximately stem:[2 "unitsml(mOhm)"], stem:[u_("rel")] -- relative standard uncertainty, stem:[u] -- standard uncertainty, last column is the relative contribution to the combined standard uncertainty, coverage factor stem:[k = 1]) <<shibahara,Shibahara 2016>>.
 |===
 | Uncertainty component | unit | value | stem:[u_("rel")] % | stem:[u"unitsml(mK)"] a| rel. contribution %
 | Noise resistor stem:[ii(R)] | stem:["unitsml(mOhm)"] | 1.86 | 0.68 | 0.137 | 20.92
@@ -155,36 +155,36 @@ For the CSNT operated in absolute primary mode, relative combined standard uncer
 
 === Primary magnetic field fluctuation thermometer, pMFFT
 
-For the pMFFT, the relative combined standard uncertainty of temperature measurements is currently 0.6% and is expected to be reduced further with the improvement of the geometric setup <<kirste2016,Kirste 2016>>. For the operation in absolute primary mode, the uncertainty budget for the pMFFT is shown in <<table3>>. Here, the first 5 uncertainty components are related to the determination of the relevant geometric parameters of the pMFFT necessary for the analytical modelling and the calculation of stem:[ii(T)_("pMFFT")]. The following uncertainty contributions result from the determination of the electrical conductivity of the noise sensor, from the measurement equipment, from estimates of influence of noise sources other than the noise senor as well as from estimates of deviations of the analytical model from the practical implementation of the pMFFT. For more details and further explanation see <<kirste2016,Kirste 2016>>. The uncertainty budget for the operation in relative primary mode can be found in <<engert,Engert 2016>>. As for the CSNT, comparison measurements within the European EURAMET Project ‘Implementing the new kelvin’ have shown that thermodynamic temperature values and their uncertainties determined with the pMFFT agree with other determinations of thermodynamic temperature as well as with copies of the PLTS-2000 better than 1% <<engert,Engert 2016>>. The relative combined standard uncertainty of stem:[ii(T)] determined by relative primary low-temperature JNT is about 0.14% for the pMFFT <<kirste2014,Kirste 2014>>.
+For the pMFFT, the relative combined standard uncertainty of temperature measurements is currently 0.6% and is expected to be reduced further with the improvement of the geometric setup <<kirste2016,Kirste 2016>>. For the operation in absolute primary mode, the uncertainty budget for the pMFFT is shown in <<table3>>. Here, the first 5 uncertainty components are related to the determination of the relevant geometric parameters of the pMFFT necessary for the analytical modelling and the calculation of stem:[ii(T)_("pMFFT")]. The following uncertainty contributions result from the determination of the electrical conductivity of the noise sensor, from the measurement equipment, from estimates of influence of noise sources other than the noise senor as well as from estimates of deviations of the analytical model from the practical implementation of the pMFFT. For more details and further explanation see <<kirste2016,Kirste 2016>>. The uncertainty budget for the operation in relative primary mode can be found in <<engert,Engert 2016>>. As for the CSNT, comparison measurements within the European EURAMET Project 'Implementing the new kelvin' have shown that thermodynamic temperature values and their uncertainties determined with the pMFFT agree with other determinations of thermodynamic temperature as well as with copies of the PLTS-2000 better than 1% <<engert,Engert 2016>>. The relative combined standard uncertainty of stem:[ii(T)] determined by relative primary low-temperature JNT is about 0.14% for the pMFFT <<kirste2014,Kirste 2014>>.
 
 [[table3]]
 [cols="<,^,^,^,^,^"]
-.Uncertainty budget for a temperature measurement at stem:[16 "unitsml(mK)"] using a pMFFT in absolute primary mode (stem:[u] – standard uncertainty, stem:[c_i] - sensitivity coefficients, last column is the relative contribution to the combined standard uncertainty, coverage factor stem:[k = 1]) <<kirste2016,Kirste 2016>>.
+.Uncertainty budget for a temperature measurement at stem:[16 "unitsml(mK)"] using a pMFFT in absolute primary mode (stem:[u] -- standard uncertainty, stem:[c_i] - sensitivity coefficients, last column is the relative contribution to the combined standard uncertainty, coverage factor stem:[k = 1]) <<kirste2016,Kirste 2016>>.
 |===
 a| Uncertainty component stem:[x_i] | unit | value | stem:[u(x_i)] a| stem:[c_i*u(x_i) "unitsml(K)"] a| rel. +
 contribution %
 6+<| type B
-| stem:[z] | m | stem:[1.038*10^(-4)] | stem:[2.74*10^(-7)] | stem:[2.92*10^(-5)] | 9.30
-| stem:[d_(31)] | m | stem:[2.016*10^(-3)] | stem:[1.45*10^(-6)] | stem:[-8.75*10^(-5)] | 83.68
-| stem:[t] | m | stem:[1.857*10^(-3)] | stem:[1.57*10^(-6)] | stem:[-4.30*10^(-12)] | 0.00
-| stem:[r_(1,1)... r_(9,1), r_(1,2)... r_(9,2)] | m | stem:[6.485*10^(-4)] | stem:[1.15*10^(-7)] | stem:[-3.53*10^(-6)] | 0.14
-| stem:[r_(1,3)... r_(93)] | m | stem:[6.425*10^(-4)] | stem:[1.15*10^(-7)] | stem:[1.14*10^(-5)] | 1.43
-| stem:[ii(sigma)] | stem:[("unitsml(Ohm*m^(-1))")] | stem:[5.915*10^9] | stem:[3.59*10^7] | stem:[1.43*10^(-5)] | 2.23
-| stem:[ii(mu)_("r")] | | 1.00 | stem:[2.80*10^(-6)] | stem:[-9.06*10^(-8)] | 0.00
-a| Flatness of ICL transfer function depending on bandwidth stem:[f_(3 "unitsml(dbel_B)",k)] | stem:["unitsml(Hz)"] | stem:[oo] | stem:[6.20*10^5] | stem:[-4.18*10^(-7)] | 0.00
-a| Stability of feedback resistor stem:[ii(R)_(f,k)] of the SQUID electronics | stem:["unitsml(Ohm)"] | stem:[3.00*10^4] | stem:[8.66*10^(-1)] | stem:[9.34*10^(-7)] | 0.01
-a| AC voltage meas. (ADC gain, flatness) | | 1.00 | stem:[1.73*10^(-4)] | stem:[1.68*10^(-5)] | 3.09
-a| Timing accuracy of the ADC (relative) | | 1.00 | stem:[1.16*10^(-5)] | stem:[1.87*10^(-7)] | 0.00
-a| Correlation limit stem:[ii(S)_(ii(phi),12,"min")] | stem:[ii(phi)^2//"unitsml(Hz)"] | (0) | stem:[1.07*10^(-15)] | stem:[2.63*10^(-6)] | 0.08
-a| Edge effect stem:[ii(M)_k//ii(M)_k](unshielded) | | 1.00 | stem:[6.06*10^(-6)] | stem:[-1.96*10^(-7)] | 0.00
-a| Edge effect stem:[ii(S)_ii(phi)//ii(S)_ii(phi)(oo)] | | 1.00 | stem:[3.18*10^(-7)] | stem:[5.14*10^(-9)] | 0.00
-a| Edge effect stem:[ii(S)_ii(phi)//ii(S)_ii(phi)](unshielded) | | 1.00 | stem:[3.18*10^(-7)] | stem:[5.14*10^(-9)] | 0.00
-a| Parasitic coil areas, stem:[ii(S)_ii(phi)//ii(S)_ii(phi)](model) | | 1.00 | stem:[4.45*10^(-5)] | stem:[-7.19*10^(-7)] | 0.01
-| stem:[ii(R)_("cal")] | stem:["unitsml(Ohm)"] | stem:[9.988*10^2] | stem:[2.01*10^(-2)] | stem:[-6.51*10^(-7)] | 0.00
+| stem:[z] | stem:["unitsml(m)"] | stem:[1.038*10^(-4)] | stem:[2.74*10^(-7)] | stem:[2.92*10^(-5)] | stem:[9.30]
+| stem:[d_(31)] | stem:["unitsml(m)"] | stem:[2.016*10^(-3)] | stem:[1.45*10^(-6)] | stem:[-8.75*10^(-5)] | stem:[83.68]
+| stem:[t] | stem:["unitsml(m)"] | stem:[1.857*10^(-3)] | stem:[1.57*10^(-6)] | stem:[-4.30*10^(-12)] | stem:[0.00]
+| stem:[r_(1,1)... r_(9,1), r_(1,2)... r_(9,2)] | stem:["unitsml(m)"] | stem:[6.485*10^(-4)] | stem:[1.15*10^(-7)] | stem:[-3.53*10^(-6)] | stem:[0.14]
+| stem:[r_(1,3)... r_(93)] | stem:["unitsml(m)"] | stem:[6.425*10^(-4)] | stem:[1.15*10^(-7)] | stem:[1.14*10^(-5)] | stem:[1.43]
+| stem:[ii(sigma)] | stem:[("unitsml(Ohm*m^(-1))")] | stem:[5.915*10^9] | stem:[3.59*10^7] | stem:[1.43*10^(-5)] | stem:[2.23]
+| stem:[ii(mu)_("r")] | | 1.00 | stem:[2.80*10^(-6)] | stem:[-9.06*10^(-8)] | stem:[0.00]
+a| Flatness of ICL transfer function depending on bandwidth stem:[f_(3 "unitsml(dbel_B)",k)] | stem:["unitsml(Hz)"] | stem:[oo] | stem:[6.20*10^5] | stem:[-4.18*10^(-7)] | stem:[0.00]
+a| Stability of feedback resistor stem:[ii(R)_(f,k)] of the SQUID electronics | stem:["unitsml(Ohm)"] | stem:[3.00*10^4] | stem:[8.66*10^(-1)] | stem:[9.34*10^(-7)] | stem:[0.01]
+a| AC voltage meas. (ADC gain, flatness) | | stem:[1.00] | stem:[1.73*10^(-4)] | stem:[1.68*10^(-5)] | stem:[3.09]
+a| Timing accuracy of the ADC (relative) | | stem:[1.00] | stem:[1.16*10^(-5)] | stem:[1.87*10^(-7)] | stem:[0.00]
+a| Correlation limit stem:[ii(S)_(ii(phi),12,"min")] | stem:[ii(phi)^2//"unitsml(Hz)"] | stem:[(0)] | stem:[1.07*10^(-15)] | stem:[2.63*10^(-6)] | stem:[0.08]
+a| Edge effect stem:[ii(M)_k//ii(M)_k](unshielded) | | stem:[1.00] | stem:[6.06*10^(-6)] | stem:[-1.96*10^(-7)] | stem:[0.00]
+a| Edge effect stem:[ii(S)_ii(phi)//ii(S)_ii(phi)(oo)] | | stem:[1.00] | stem:[3.18*10^(-7)] | stem:[5.14*10^(-9)] | stem:[0.00]
+a| Edge effect stem:[ii(S)_ii(phi)//ii(S)_ii(phi)](unshielded) | | stem:[1.00] | stem:[3.18*10^(-7)] | stem:[5.14*10^(-9)] | stem:[0.00]
+a| Parasitic coil areas, stem:[ii(S)_ii(phi)//ii(S)_ii(phi)](model) | | stem:[1.00] | stem:[4.45*10^(-5)] | stem:[-7.19*10^(-7)] | stem:[0.01]
+| stem:[ii(R)_("cal")] | stem:["unitsml(Ohm)"] | stem:[9.988*10^2] | stem:[2.01*10^(-2)] | stem:[-6.51*10^(-7)] | stem:[0.00]
 6+<| type A
-a| Effect of signal-to-noise ratio, stem:[ii(N)_f] and stem:[ii(N)_("avg")] on CPSD in stem:[ii(T)_(12)(f)] | | stem:[1.617*10^(−2)] | stem:[1.62*10^(-6)] | stem:[1.62*10^(-6)] | 0.03
+a| Effect of signal-to-noise ratio, stem:[ii(N)_f] and stem:[ii(N)_("avg")] on CPSD in stem:[ii(T)_(12)(f)] | | stem:[1.617*10^(-2)] | stem:[1.62*10^(-6)] | stem:[1.62*10^(-6)] | stem:[0.03]
 ^| stem:[ii(T)_("pMFFT") // "unitsml(mK)"] 3+^a| combined standard uncertainty / stem:["unitsml(mK)"] 2+^a| relative combined standard uncertainty / %
-^| 16.175 3+^| 0.096 2+^| 0.59
+^| stem:[16.175] 3+^| stem:[0.096] 2+^| stem:[0.59]
 |===
 
 [bibliography]
@@ -192,11 +192,11 @@ a| Effect of signal-to-noise ratio, stem:[ii(N)_f] and stem:[ii(N)_("avg")] on C
 
 * [[[callen,1]]], Callen H. B. Callen, Welton T. A., 1951, "_Irreversibility and generalized noise_", Physical Review *83* N°1, 34, https://doi.org/10.1103/PhysRev.83.34
 
-* [[[beyer,1]]], Beyer J., Kirste A., Schurig T., 2016, "_SQUID-Based Thermometers_", Encyclopedia of Applied Physics, p. 23, Wiley‐VCH, https://onlinelibrary.wiley.com/doi/abs/10.1002/3527600434.eap766
+* [[[beyer,1]]], Beyer J., Kirste A., Schurig T., 2016, "_SQUID-Based Thermometers_", Encyclopedia of Applied Physics, p. 23, Wiley-VCH, https://onlinelibrary.wiley.com/doi/abs/10.1002/3527600434.eap766
 
-* [[[bipm,1]]], BIPM (Bureau International des Poids et Mesures), 1979, "_The 1976 provisional 0.5K to 30K temperature scale_", Metrologia *15*, 65–68. (https://iopscience.iop.org/article/10.1088/0026-1394/15/2/002/meta[doi:10.1088/0026-1394/15/2/002])
+* [[[bipm,1]]], BIPM (Bureau International des Poids et Mesures), 1979, "_The 1976 provisional stem:[0.5 "unitsml(K)"] to stem:[30 "unitsml(K)"] temperature scale_", Metrologia *15*, 65--68. (https://iopscience.iop.org/article/10.1088/0026-1394/15/2/002/meta[doi:10.1088/0026-1394/15/2/002])
 
-* [[[engert,1]]], Engert J., Kirste A., Shibahara* A., Casey A., Levitin L. V., Saunders J., Hahtela O., Kemppinen A., Mykkänen E., Prunnila M., Gunnarsson D., Roschier L., Meschke M., Pekola J., 2016, "_New Evaluation of T – T2000 from 0.02 K to 1 K by Independent Thermodynamic Methods_", Int. J. Thermophys. *37*, 125, https://link.springer.com/article/10.1007/s10765-016-2123-4[doi: 10.1007/s10765-016-2123-4]
+* [[[engert,1]]], Engert J., Kirste A., Shibahara* A., Casey A., Levitin L. V., Saunders J., Hahtela O., Kemppinen A., Mykkänen E., Prunnila M., Gunnarsson D., Roschier L., Meschke M., Pekola J., 2016, "_New Evaluation of T -- T2000 from stem:[0.02 "unitsml(K)"] to stem:[1 "unitsml(K)"] by Independent Thermodynamic Methods_", Int. J. Thermophys. *37*, 125, https://link.springer.com/article/10.1007/s10765-016-2123-4[doi: 10.1007/s10765-016-2123-4]
 
 * [[[fellmuth,1]]], Fellmuth B., Hechtfischer D., Hoffmann A., 2003, "_PTB-96: The Ultra-Low Temperature Scale of PTB_", Temperature. Its Measurement and Control in Science and Industry, ed. Ripple D. C., AIP Conference Proceedings *684*, 71, http://dx.doi.org/10.1063/1.1627103
 
