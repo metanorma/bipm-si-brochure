@@ -10,7 +10,7 @@
 :title-part-en: Mise en pratique for the definition of the mole in the SI
 :title-part-fr: Mise en pratique de la définition de la mole
 :title-en: The International System of Units
-:title-fr: Le système international d’unités
+:title-fr: Le système international d'unités
 :doctype: mise-en-pratique
 :docnumber: SI MEP Mol1
 :committee-acronym: CCQM
@@ -28,7 +28,7 @@
 == Introduction
 
 The purpose of this _mise en pratique_, prepared by the Consultative Committee for Amount of
-Substance – Metrology in Chemistry and Biology (CCQM) of the International Committee for
+Substance -- Metrology in Chemistry and Biology (CCQM) of the International Committee for
 Weights and Measures (CIPM), is to indicate how the definition of the SI base unit, the mole,
 symbol stem:["unitsml(mol)"], may be realized in practice.
 
@@ -123,8 +123,8 @@ Currently, the most accurate realization of the mole results from an experiment 
 determination of the Avogadro constant. This experiment was carried out within the framework of
 the International Avogadro Coordination and was fundamental to determining the best
 experimental values of both the Avogadro and Planck constants prior to fixing their numerical
-values. It involved the determination of the number of ^28^Si atoms (stem:[ii(N)]) in a single crystal of Si,
-enriched in ^28^Si, using volumetric and X-ray interferometric measurements <<fujii>>,<<bartlg>>,<<kuramoto>>:
+values. It involved the determination of the number of stem:["&#x200c;"^{28} "Si"] atoms (stem:[ii(N)]) in a single crystal of stem:["Si"],
+enriched in stem:["&#x200c;"^{28} "Si"], using volumetric and X-ray interferometric measurements <<fujii>>,<<bartlg>>,<<kuramoto>>:
 
 [[eq-3-1]]
 [stem]
@@ -132,16 +132,16 @@ enriched in ^28^Si, using volumetric and X-ray interferometric measurements <<fu
 ii(N) = 8 ii(V)_"s" // a ("&#x200c;"^{28} "Si")^3
 ++++
 
-where stem:[ii(V)_"s"] is the crystal volume, 8 is the number of atoms per unit cell of crystalline silicon and
-stem:[a](^28^Si) is the lattice parameter of the cubic unit cell. <<eq-3-1>> is strictly valid only for the
-hypothetical case a perfect crystal of pure ^28^Si – hence, all elementary entities in the crystal were
+where stem:[ii(V)_"s"] is the crystal volume, stem:[8] is the number of atoms per unit cell of crystalline silicon and
+stem:[a("&#x200c;"^{28} "Si")] is the lattice parameter of the cubic unit cell. <<eq-3-1>> is strictly valid only for the
+hypothetical case a perfect crystal of pure stem:["&#x200c;"^{28} "Si"] -- hence, all elementary entities in the crystal were
 identified. This was achieved by determining and correcting for the amount of substance fraction
-of all impurities (elemental and isotope impurities, i.e. ^29^Si, ^30^Si) with sufficient accuracy
+of all impurities (elemental and isotope impurities, i.e. stem:["&#x200c;"^{29} "Si"], stem:["&#x200c;"^{30} "Si"]) with sufficient accuracy
 <<fujii>>,<<bartlg>>. This is consistent with the concept for the realization of the kilogram using the X-ray
 crystal-density (XRCD) approach as described in the _mise en pratique_ for the kilogram <<bipm-9th>>.
 
 
-Utilizing the fixed numerical value of the Avogadro constant <<newell>> and <<eq-2-2>>, the amount of substance stem:[n] of ^28^Si in the macroscopic crystal is given by:
+Utilizing the fixed numerical value of the Avogadro constant <<newell>> and <<eq-2-2>>, the amount of substance stem:[n] of stem:["&#x200c;"^{28} "Si"] in the macroscopic crystal is given by:
 
 
 [stem]
@@ -149,7 +149,7 @@ Utilizing the fixed numerical value of the Avogadro constant <<newell>> and <<eq
 n = 8 ii(V)_"s" // (a( "&#x200c;"^{28} "Si")^3 ii(N)_A )
 ++++
 
-This allows the definition of both the mole and the kilogram to be realized with a relative standard uncertainty below stem:[2 xx 10^(-8)] <<kuramoto>>, <<clade>>, <<massa>> in a single crystal of Si, enriched in ^28^Si.
+This allows the definition of both the mole and the kilogram to be realized with a relative standard uncertainty below stem:[2 xx 10^(-8)] <<kuramoto>>, <<clade>>, <<massa>> in a single crystal of stem:["Si"], enriched in stem:["&#x200c;"^{28} "Si"].
 
 This primary realization of the mole with the smallest uncertainty differs from methods generally used to realize the mole. It is presented here as the "`state of the art`" in determining the number of entities in a macroscopic sample, and hence the amount of substance in that sample. It is, at the same time, also a primary realization of the kilogram. It is a primary mass standard and the unit of mass, the kilogram, may be disseminated from this standard <<mep-kg>>. In the following sections, some of the more common and practical methods to realize the mole are described.
 
@@ -157,7 +157,7 @@ This primary realization of the mole with the smallest uncertainty differs from 
 [[sec-4]]
 == Common and practical realizations of the definition of the mole and derived units and dissemination of the mole
 
-In practice, chemical measurements require the realization, across all types of chemical entities, of derived units involving amount of substance that are relevant to practical chemical measurement, such as the amount of substance concentration (stem:["unitsml(mol//m^3)"]), the amount of substance content (stem:["unitsml(mol//kg)"]) or the amount of substance fraction (mol/mol). This may be done by a variety of primary methods of measurement <<quinn>>. The present definition of the mole allows the number of entities stem:[ii(N)] in a sample to be determined to the same accuracy as the amount of substance stem:[n] in the sample because, from <<eq-2-2>>, stem:[ii(N) = n ii(N)_"A"] and stem:[ii(N)_"A"] has an exact numerical value.
+In practice, chemical measurements require the realization, across all types of chemical entities, of derived units involving amount of substance that are relevant to practical chemical measurement, such as the amount of substance concentration (stem:["unitsml(mol//m^3)"]), the amount of substance content (stem:["unitsml(mol//kg)"]) or the amount of substance fraction (stem:["unitsml(mol/mol)"]). This may be done by a variety of primary methods of measurement <<quinn>>. The present definition of the mole allows the number of entities stem:[ii(N)] in a sample to be determined to the same accuracy as the amount of substance stem:[n] in the sample because, from <<eq-2-2>>, stem:[ii(N) = n ii(N)_"A"] and stem:[ii(N)_"A"] has an exact numerical value.
 
 Similarly, the atomic or molecular mass stem:[m_"a" ("X")] and the molar mass stem:[ii(M)("X")] of any entity stem:["X"] are known to the same relative uncertainty because:
 
@@ -169,7 +169,7 @@ m_"a" ("X") = {ii(M)("X")} / {ii(N)_"A"}
 ++++
 
 
-The atomic mass constant stem:[m_{"u"}] is 1/12 of the mass of a free ^12^C atom, at rest and in its ground state. Its present experimentally-determined value is approximately stem:[1.660539067(1) xx 10^{-27} "unitsml(kg)"] with a relative uncertainty less than 1 part in stem:[10^9] and is identical to that of stem:[ii(M)_{"u"}]. Note that stem:[ii(N)_"A" m_{"u"} = ii(M)_"u"] is a special case of <<eq-4-1>>. The advantages of these features of the present definition of the mole have been emphasized in the literature <<milton>>. The most up-to-date values and uncertainties of stem:[m_{"u"}] and stem:[ii(M)_{"u"}] are the most recent recommendations of the CODATA task group on fundamental constants.
+The atomic mass constant stem:[m_{"u"}] is stem:[1//12] of the mass of a free stem:["&#x200c;"^{12} "C"] atom, at rest and in its ground state. Its present experimentally-determined value is approximately stem:[1.660539067(1) xx 10^{-27} "unitsml(kg)"] with a relative uncertainty less than 1 part in stem:[10^9] and is identical to that of stem:[ii(M)_{"u"}]. Note that stem:[ii(N)_"A" m_{"u"} = ii(M)_"u"] is a special case of <<eq-4-1>>. The advantages of these features of the present definition of the mole have been emphasized in the literature <<milton>>. The most up-to-date values and uncertainties of stem:[m_{"u"}] and stem:[ii(M)_{"u"}] are the most recent recommendations of the CODATA task group on fundamental constants.
 
 Three examples of methods to realize the mole (and the number of entities) follow:
 
@@ -246,7 +246,7 @@ In cases where the number of entities being considered is small, quantities are 
 [[sec-6]]
 == Continuity with previous definition
 
-Note that the 1971 definition of the mole made a direct link between the mole and the mass of a particular nuclide. This allowed traceability to the mole to be established via mass measurements and established a simple relation between macroscopic measurements and microscopic entity numbers such as atoms or molecules via the molar mass constant. The mass of one mole of ^12^C was fixed at exactly stem:[12 "unitsml(g)"]. This meant that stem:[ii(M)(""^{12}"C")] was exactly stem:[12 "unitsml(g//mol)"] and stem:[ii(M)_{"u"}] was exactly stem:[1 "unitsml(g//mol)"].
+Note that the 1971 definition of the mole made a direct link between the mole and the mass of a particular nuclide. This allowed traceability to the mole to be established via mass measurements and established a simple relation between macroscopic measurements and microscopic entity numbers such as atoms or molecules via the molar mass constant. The mass of one mole of stem:["&#x200c;"^{12} "C"] was fixed at exactly stem:[12 "unitsml(g)"]. This meant that stem:[ii(M)(""^{12}"C")] was exactly stem:[12 "unitsml(g//mol)"] and stem:[ii(M)_{"u"}] was exactly stem:[1 "unitsml(g//mol)"].
 
 However, the present definition of the mole fixes the numerical value of stem:[ii(N)_"A"]. Therefore from:
 
@@ -258,7 +258,7 @@ ii(M)_{"u"} = m_{"u"} ii(N)_"A"
 
 stem:[ii(M)_"u"] and stem:[m_"u"] now have the same relative uncertainty.
 
-In <<eq-6-1>> stem:[m_"u"] is the atomic mass constant. The atomic mass unit stem:["unitsml(u)"] (also known as the dalton, a non-SI unit whose symbol is stem:["Da"]) and the atomic mass constant stem:[m_"u"] are defined in terms of the mass of the ^12^C isotope. The unit stem:["unitsml(u)"] is related to the constant stem:[m_"u"] by
+In <<eq-6-1>> stem:[m_"u"] is the atomic mass constant. The atomic mass unit stem:["unitsml(u)"] (also known as the dalton, a non-SI unit whose symbol is stem:["Da"]) and the atomic mass constant stem:[m_"u"] are defined in terms of the mass of the stem:["&#x200c;"^{12} "C"] isotope. The unit stem:["unitsml(u)"] is related to the constant stem:[m_"u"] by
 
 
 [stem]
@@ -311,6 +311,6 @@ Continuity conditions imposed on redefinitions of SI base units have ensured tha
 
 * [[[atomic-weights,(4.3)]]] Commission of Isotopic Abundances and Atomic Weights, http://ciaaw.org/atomic-weights.htm
 
-* [[[brown,(5.1)]]] Brown R J C, _Metrologia_ *55* (2018) L25–L33.
+* [[[brown,(5.1)]]] Brown R J C, _Metrologia_ *55* (2018) L25--L33.
 
 * [[[mohr,(6.1)]]] Mohr P J, Newell D B, Taylor B N and Tiesinga E, _Metrologia_ *55* (2018) 125-146.
