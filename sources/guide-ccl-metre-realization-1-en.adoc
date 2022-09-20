@@ -46,7 +46,9 @@ The purpose of this document is to develop CCL/WG-N
 recommendations for the use of x-ray interferometry (XRI),
 relying on the reference value of the bulk silicon lattice
 parameter, as a pathway for traceability to the
-SI metre for applications in dimensional nanometrology.
+SI metre for applications in dimensional nanometrology. The intention is to seek to
+include the method into a future update of the _Mise en Pratique_ of the definition of 
+the metre. 
 
 
 == Current state of the art for realisation of traceable length metrology
@@ -77,7 +79,7 @@ illuminated with a helium neon stabilized laser. In recent years other
 wavelengths _e.g._ from neodymium YAG lasers (stem:[532.24503 "unitsml(nm)"]) have been used
 and there is increasing interest in the use of laser diodes. Whichever
 light source is used, simple fringe counting using optical wavelengths in
-the visible or near-IR spectrum can resolve distances to one--half or
+the visible or near-IR spectrum can resolve distances to one-half or
 one-quarter wavelength and careful fringe sub-division can increase the
 resolution further to a few hundredths of a fringe, _i.e._ of the order of
 stem:[1 "unitsml(nm)"]. More elaborate schemes claim resolutions of tenths of a nanometre.
@@ -88,7 +90,7 @@ within the fringe counting hardware. For macroscale metrology in the
 range of millimetres to metres, the limiting uncertainty contributions
 are normally those associated with air refractive index correction,
 thermal expansion of the object being measured and diffraction effects
-causing wavefront aberration in the beams of light passing through the
+causing wavefront aberration in the beams of the
 optical interferometer; the latter, without careful control can cause
 relative uncertainties of stem:[10^(-7)]. These uncertainty contributions are
 typically at the stem:[10^(-8)] level or worse and the uncertainty of the
@@ -123,7 +125,7 @@ machining communities. Furthermore, the ever-improving accuracy of macro
 scale engineering and metrology is already resulting in Calibration and
 Measurement Capabilities (CMCs) at the level of one or a few nanometres
 and there is a trend amongst the users of the highest accuracy
-positioning systems (_e.g._ Si wafer lithography) to abandon laser
+positioning systems (_e.g._ stem:["Si"] wafer lithography) to abandon laser
 wavelength scales due to refractive index limitations, and to use
 physical linescale systems to control relative positioning. However, such
 linescales cannot demonstrate traceability to the SI at uncertainties
@@ -131,7 +133,7 @@ below a few nanometres and are also subject to non-linearity <<yacoot>>.
 
 
 At present, the shortest wavelength listed in the SI Recommended values
-of standard frequencies <<bipm>> is the stem:[237 "unitsml(nm)"] wavelength of the ^115^In^+^, 5s^2^ ^1^S~0~ – 5s5p ^3^P~0~ transition in the indium ion. This is only a factor of 2-3
+of standard frequencies <<bipm>> is the stem:[237 "unitsml(nm)"] wavelength of the stem:["&#x200c;"^{115} "In"^{+}, 5"s"^2 " &#x200c;"^{1}"S"_0 - 5"s"5"p" "&#x200c;"^{3}"P"_0] transition in the indium ion. This is only a factor of 2-3
 below the common He-Ne stem:[633 "unitsml(nm)"] wavelength used in most optical
 interferometers, so does not produce the orders of magnitude improvement
 in fringe sub-division required for sub-nm metrology (should a suitable
@@ -158,19 +160,19 @@ interferometer configurations thereby taking the resolution down to a few
 picometres, with only small non-linearity at this level <<yacoot-kuetgens>>.
 
 
-== Background on XRI and Si lattice
+== Background on XRI and stem:["Si"] lattice
 
 The technique of x-ray interferometry was first demonstrated by Bonse and Hart <<bonse>> and Hart <<hart>> proposed the concept of using x-ray interferometry for dimensional metrology.
 
-Until the 1990s, most x-ray interferometry work undertaken by metrology institutes was directed towards the measurements of the lattice parameter of silicon stem:[d_{220}] planes as part of a larger project with aim of determining the Avogadro constant in support of mass metrology <<windisch>> <<seyfried>>. In addition to measuring the lattice parameter, its variation as a function of impurity content has also been examined <<martin>>. Several values for the Si stem:[d_{220}] lattice spacing have been published <<massa>> and the stem:[d_{220}] lattice spacing appears in CODATA <<mohr>>. More recently for the Avogadro project work has been directed towards measurements of the lattice parameter of ^28^Si isotopes <<andreas>>.
+Until the 1990s, most x-ray interferometry work undertaken by metrology institutes was directed towards the measurements of the lattice parameter of silicon stem:[d_{220}] planes as part of a larger project with aim of determining the Avogadro constant in support of mass metrology <<windisch>> <<seyfried>>. In addition to measuring the lattice parameter, its variation as a function of impurity content has also been examined <<martin>>. Several values for the stem:["Si"] stem:[d_{220}] lattice spacing have been published <<massa>> and the stem:[d_{220}] lattice spacing appears in CODATA <<mohr>>. More recently for the Avogadro project work has been directed towards measurements of the lattice parameter of stem:["&#x200c;"^{28} "Si"] isotopes <<andreas>>.
 
 
 === Dimensional Metrology Experience
 
-By the early 1990s NPL, PTB and IMGC (now INRIM) recognized that Si stem:[d_{220}] lattice spacing was sufficiently well known for it to be used as a reference standard for dimensional metrology using x-ray interferometry. They built a combined optical and x-ray interferometry (COXI) <<basile>> facility at NPL for the calibration of displacement measuring transducers. This established traceability to the metre via both the laser frequency of a He-Ne laser and the lattice parameter of silicon which had previously been measured using x-ray interferometry. Long range measurements (up to stem:[pm 1 "unitsml(mm)"]) were realised using the optical interferometer and short range, high accuracy measurements were realised using the x-ray interferometer working on a similar principle to a Vernier scale. This obviated the need for optical fringe
-division. Subsequent collaborative work by NPL and PTB has led to the evaluation of several displacement measuring transducers and the use of the x-ray interferometer as a positioning stage for scanning probe microscopy <<kuetgens>>. In 2011 the NANOTRACE project <<pisani>> was completed in which the performance of several high accuracy state of the art optical interferometers developed by NMIs was evaluated. Sub x-ray fringe positioning capability has also been demonstrated <<yacoot-kuetgens>>.
+By the early 1990s NPL, PTB and IMGC (now INRIM) recognized that stem:["Si"] stem:[d_{220}] lattice spacing was sufficiently well known for it to be used as a reference standard for dimensional metrology using x-ray interferometry. They built a combined optical and x-ray interferometry (COXI) <<basile>> facility at NPL for the calibration of displacement measuring transducers. This established traceability to the metre via both the laser frequency of a He-Ne laser and the lattice parameter of silicon which had previously been measured using x-ray interferometry. Long range measurements (up to stem:[pm 1 "unitsml(mm)"]) were realised using the optical interferometer and short range, high accuracy measurements were realised using the x-ray interferometer working on a similar principle to a Vernier scale. This obviated the need for optical fringe
+division. Subsequent work by NPL and PTB in collaboration has led to the evaluation of several displacement measuring transducers and the use of the x-ray interferometer as a positioning stage for scanning probe microscopy <<kuetgens>>. In 2011 the NANOTRACE project <<pisani>> was completed in which the performance of several high accuracy state of the art optical interferometers developed by NMIs was evaluated. Sub x-ray fringe positioning capability has also been demonstrated <<yacoot-kuetgens>>.
 
-Since then other applications have taken the lattice spacing as a constant and used it for dimensional metrology: specifically: the development of crystalline atomic steps for step height standards that can be used to calibrate atomic force microscopes <<koenders>> and for transmission electron microscopy and CD metrology <<dai>> <<zhu>>. The traceability for the use of the Si lattice parameter in these practical applications is based on the XRI measurements of the bulk lattice parameter of silicon lamellae a few hundred micrometres thick.
+Since then other applications have taken the lattice spacing as a constant and used it for dimensional metrology: specifically: the development of crystalline atomic steps for step height standards that can be used to calibrate atomic force microscopes <<koenders>> and for transmission electron microscopy and CD metrology <<dai>> <<zhu>>. The traceability for the use of the stem:["Si"] lattice parameter in these practical applications is based on the XRI measurements of the bulk lattice parameter of silicon lamellae a few hundred micrometres thick.
 
 
 == Practical Implementation
@@ -220,15 +222,15 @@ The silicon single crystal used for manufacture of the XRI should be ultra-pure,
 . WG-N has a responsibility to promote good measurement practice and SI traceability in dimensional nanometrology and thus proposes, after further development of this document, to issue a Recommendation to the Consultative Committee for Length (CCL).
 
 
-== CCL approval of recommendation from CCL/WG-N on the entry of the Si {220} lattice parameter into the _Mise en Pratique_
+== CCL approval of recommendation from CCL/WG-N on the entry of the stem:["Si {"220"}"] lattice parameter into the _Mise en Pratique_
 
-At the 2018 meeting of the CCL, the following recommendation was tabled by CCL-WG-N and was approved by CCL. with no objections.
+At the 2018 meeting of the CCL, the following recommendation was tabled by CCL-WG-N and was approved by CCL with no objections.
 
 
 ____
 [align=left]
 *RECOMMENDATION CCL-WG-N 1 (2018):* +
-*On the entry of the Si {220} lattice parameter into the mise en pratique*
+*On the entry of the stem:["Si {"220"}"] lattice parameter into the _mise en pratique_*
 
 *Under* its Terms of Reference, given by CCL and
 
@@ -242,21 +244,21 @@ ____
 
 and *taking into account*
 
-* recent work, preparing for the forthcoming revision of the SI, has resulted in an agreed CODATA value for the Si {220} lattice spacing, stem:[d_{220} = 192.0155714 xx 10^(-12) "unitsml(m)"], which is available with a standard uncertainty of stem:[0.0000032 xx 10^(-12) "unitsml(m)"],
+* recent work, preparing for the forthcoming revision of the SI, has resulted in an agreed CODATA value for the stem:["Si {"220"}"] lattice spacing, stem:[d_{220} = 192.0155714 xx 10^(-12) "unitsml(m)"], which is available with a standard uncertainty of stem:[0.0000032 xx 10^(-12) "unitsml(m)"],
 
 
 *the CCL Working Group on Dimensional Nanometrology (CCL/WG-N),*
 
 *recommends* that:
 
-* member laboratories of the CCL increase their efforts towards making the Si {220} lattice spacing an available standard for use in providing traceability to the SI metre for dimensional nanometrology applications in the broader sense;
+* member laboratories of the CCL increase their efforts towards making the stem:["Si {"220"}"] lattice spacing an available standard for use in providing traceability to the SI metre for dimensional nanometrology applications in the broader sense;
 
-* the CCL prepares the necessary documentation and evidence for the future consideration of the Si {220} lattice spacing as a candidate for entry into the _Mise en Pratique_ of the definition of the metre, for applications in dimensional nanometrology;
+* the CCL prepares the necessary documentation and evidence for the future consideration of the stem:["Si {"220"}"] lattice spacing as a candidate for entry into the _Mise en Pratique_ of the definition of the metre, for applications in dimensional nanometrology;
 
-* the CCL approves the inclusion of the Si {220} lattice spacing in the _Mise en Pratique_ of the definition of the metre.
+* the CCL approves the inclusion of the stem:["Si {"220"}"] lattice spacing in the _Mise en Pratique_ of the definition of the metre.
 ____
 
-Thus, the entry of the Si {220} lattice spacing is approved by CCL for entry into the _Mise en Pratique_ of the definition of the metre and the relevant document has now been revised by the chairpersons of the CCL Working Groups including the chair(s) of WG-N. The revised _Mise en Pratique_ contains additional information on the basis and limitation of the use of the Si {220} lattice constant as a secondary realization of the metre.
+Thus, the entry of the stem:["Si {"220"}"] lattice spacing is approved by CCL for entry into the _Mise en Pratique_ of the definition of the metre and the relevant document has now been revised by the chairpersons of the CCL Working Groups including the chair(s) of WG-N. The revised _Mise en Pratique_ contains additional information on the basis and limitation of the use of the stem:["Si {"220"}"] lattice constant as a secondary realization of the metre.
 
 Additionally, three CCL Guidance Documents are prepared to accompany the revised _Mise en Pratique_ document, in order to serve as the '`necessary documentation`' stated in the above Recommendation. These three Guidance Documents are:
 
@@ -270,9 +272,9 @@ CCL-GD-MeP-3:: Realization of SI metre using height of monoatomic steps of cryst
 [bibliography]
 == References
 
-* [[[pisani,1]]] Pisani M, Yacoot A, Balling P, Bancone N, Birlikseven C, Çelik M, Flügge J, Hamid R, Köchert P, Kren P, Kuetgens U, Lassila A, Picotto G B, Şahin E, Seppä J, Tedaldi M and Weichert C, "`Comparison of the performance of the next generation of optical interferometers`", _Metrologia_ *49* (4) (2012) 1394/49/4/455. https://iopscience.iop.org/article/10.1088/0026-1394/49/4/455[DOI: 10.1088/0026-1394/49/4/455]
+* [[[pisani,(1)BIPM Metrologia 49 4 455]]] Pisani M, Yacoot A, Balling P, Bancone N, Birlikseven C, Çelik M, Flügge J, Hamid R, Köchert P, Kren P, Kuetgens U, Lassila A, Picotto G B, Şahin E, Seppä J, Tedaldi M and Weichert C, "`Comparison of the performance of the next generation of optical interferometers`", _Metrologia_ *49* (4) (2012) 1394/49/4/455. https://iopscience.iop.org/article/10.1088/0026-1394/49/4/455[DOI: 10.1088/0026-1394/49/4/455]
 
-* [[[taniguchi,2]]] Taniguchi N, "`Current status in, and Future Trends of, Ultraprecision Machining and Ultrafine Materials Processing`", _CIRP Annals - Manufacturing Technology_, *32* (2) (1983) 573–582. https://www.sciencedirect.com/science/article/abs/pii/S0007850607601851?via%3Dihub[DOI: 10.1016/S0007-8506(07)60185-1]
+* [[[taniguchi,2]]] Taniguchi N, "`Current status in, and Future Trends of, Ultraprecision Machining and Ultrafine Materials Processing`", _CIRP Annals - Manufacturing Technology_, *32* (2) (1983) 573--582. https://www.sciencedirect.com/science/article/abs/pii/S0007850607601851?via%3Dihub[DOI: 10.1016/S0007-8506(07)60185-1]
 
 * [[[yacoot,3]]] Yacoot A and Cross N, "`Measurements of Picometre non-linearity in an optical grating encoder using x-ray interferometer`", _Meas. Sci. Technol_. *14* (2003) 148-152. https://iopscience.iop.org/article/10.1088/0957-0233/14/1/321[DOI: 10.1088/0957-0233/14/1/321]
 
@@ -284,17 +286,17 @@ CCL-GD-MeP-3:: Realization of SI metre using height of monoatomic steps of cryst
 
 * [[[hart,7]]] Hart M, "`An Angstrom Ruler`", _J. Phys D_ *11* (1968) 1405. https://doi.org/10.1088/0022-3727/1/11/303[DOI: 10.1088/0022-3727/1/11/303]
 
-* [[[windisch,8]]] Windisch D and Becker P, "`Silicon lattice parameters as an absolute scale of length for high precision measurements of fundamental constants`", _Phys. Status Solidi A_ *118* (1990) 379–88. https://doi.org/10.1002/pssa.2211180205[DOI: 10.1002/pssa.2211180205]
+* [[[windisch,8]]] Windisch D and Becker P, "`Silicon lattice parameters as an absolute scale of length for high precision measurements of fundamental constants`", _Phys. Status Solidi A_ *118* (1990) 379--88. https://doi.org/10.1002/pssa.2211180205[DOI: 10.1002/pssa.2211180205]
 
 * [[[seyfried,9]]] Seyfried P _et al._ "`A determination of the Avogadro Constant`", _Zeit. Phys._ *B87* (1992) 289- 298. https://doi.org/10.1007/BF01309282[DOI: 10.1007/BF01309282]
 
-* [[[martin,10]]] Martin J, Kuetgens U, Stümpel J S and Becker P, "`The silicon lattice parameter - an invariant quantity of nature ?`", _Metrologia_ *35* (1998) 811–817. https://link.springer.com/article/10.1007%2FBF01309282[DOI: 10.1088/0026-1394/35/6/4]
+* [[[martin,(10)BIPM Metrologia 35 6 811]]] Martin J, Kuetgens U, Stümpel J S and Becker P, "`The silicon lattice parameter - an invariant quantity of nature ?`", _Metrologia_ *35* (1998) 811--817. https://iopscience.iop.org/article/10.1088/0026-1394/35/6/4[DOI: 10.1088/0026-1394/35/6/4]
 
-* [[[massa,11]]] Massa E, Mana G and Kuetgens U, "`Comparison of the INRIM and PTB lattice-spacing standards`", _Metrologia_ *46* (2009) 249–53. https://iopscience.iop.org/article/10.1088/0026-1394/35/6/4[DOI: 10.1088/0026-1394/35/6/4]
+* [[[massa,(11)BIPM Metrologia 46 3 249]]] Massa E, Mana G and Kuetgens U, "`Comparison of the INRIM and PTB lattice-spacing standards`", _Metrologia_ *46* (2009) 249--53. https://iopscience.iop.org/article/10.1088/0026-1394/46/3/011[DOI: 10.1088/0026-1394/46/3/011]
 
-* [[[andreas,12]]] Andreas B et al., "`Determination of the Avogadro constant by counting atoms in a ^28^Si crystal`", _Phys. Rev. Lett._ *106* (2011) 030801. https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.106.030801[DOI: 10.1103/PhysRevLett.106.030801]
+* [[[andreas,12]]] Andreas B et al., "`Determination of the Avogadro constant by counting atoms in a stem:["&#x200c;"^{28} "Si"] crystal`", _Phys. Rev. Lett._ *106* (2011) 030801. https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.106.030801[DOI: 10.1103/PhysRevLett.106.030801]
 
-* [[[basile,13]]] Basile G, Becker P, Bergamin A, Cavagnero G, Franks A, Jackson K, Kuetgens U, Mana G, Palmer EW, Robbie C J, Stedman M, Stümpel J, Yacoot A and Zosi G, "`Combined optical and x-ray interferometer for high precision dimensional metrology`", _Proc. R. Soc. A_ *456* (2000) 701–29. https://doi.org/10.1098/rspa.2000.0536[DOI: 10.1098/rspa.2000.0536]
+* [[[basile,13]]] Basile G, Becker P, Bergamin A, Cavagnero G, Franks A, Jackson K, Kuetgens U, Mana G, Palmer EW, Robbie C J, Stedman M, Stümpel J, Yacoot A and Zosi G, "`Combined optical and x-ray interferometer for high precision dimensional metrology`", _Proc. R. Soc. A_ *456* (2000) 701--29. https://doi.org/10.1098/rspa.2000.0536[DOI: 10.1098/rspa.2000.0536]
 
 * [[[kuetgens,14]]] Yacoot A, Kuetgens K, Koenders L and Weimann T, "`A combined x-ray interferometer and scanning tunnelling microscope`", _Meas. Sci. Technol._ *12* (2001) 1660. https://iopscience.iop.org/article/10.1088/0957-0233/12/10/306[DOI: 10.1088/0957-0233/12/10/306]
 
@@ -306,4 +308,4 @@ CCL-GD-MeP-3:: Realization of SI metre using height of monoatomic steps of cryst
 
 * [[[zhu,18]]] Dai G, Zhu F, Heidelmann M, Fritz G, Bayer T, Kalt S, and Flügge J, "`Development and characterisation of a new linewidth reference material`", _Meas. Sci. Technol._ *26* (2015) 115006. https://doi.org/10.1088/0957-0233/26/11/115006[DOI: 10.1088/0957-0233/26/11/115006]
 
-* [[[watanabe,19]]] Watanabe H, Yamada N and Okaji M "`Linear Thermal Expansion Coefficient of Silicon from 293 to 1000~{K}`", _International Journal of Thermophysics_, *25* (1) (2004) 221–236. DOI: 10.1023/B:IJOT.0000022336.83719.43
+* [[[watanabe,19]]] Watanabe H, Yamada N and Okaji M "`Linear Thermal Expansion Coefficient of Silicon from 293 to 1000~{K}`", _International Journal of Thermophysics_, *25* (1) (2004) 221--236. DOI: 10.1023/B:IJOT.0000022336.83719.43

@@ -34,7 +34,7 @@ Consultative Committee for Mass and Related Quantities
 
 == Introduction
 
-This note explains how the _mise en pratique_ <<bipm-si-brochure>> for the definition of the kilogram should be implemented during a transition period to bring it in line with CCM Recommendation G1 (2017) on the dissemination process after the approved redefinition of the kilogram <<resolution-1>>. It adds greater detail to some elements of the paper: http://iopscience.iop.org/article/10.1088/1681-7575/aa8d2d/pdf[Maintaining and disseminating the kilogram following its redefinition], published in _Metrologia_ *54*(6), S99-S107 2017.
+This note explains how the _mise en pratique_ <<bipm-si-brochure>> for the definition of the kilogram should be implemented during a transition period to bring it in line with CCM Recommendation G1 (2017) on the dissemination process after the approved redefinition of the kilogram <<resolution-1>>. It adds greater detail to some elements of the paper: http://iopscience.iop.org/article/10.1088/1681-7575/aa8d2d/pdf[Maintaining and disseminating the kilogram following its redefinition], published in <<metrologia54-s99,_Metrologia_ *54*(6), S99-S107 2017>>.
 
 
 == Background
@@ -85,7 +85,7 @@ stem:[u_{m_{"IPK"}} -= 0]
 | Traceability to the Planck constant via the IPK, with additional uncertainty from the (new) definition
 a| stem:[m_{"IPK"} = 1 "unitsml(kg)"] +
 stem:[u_{m_{"IPK"}} = 10 "unitsml(ug)"]
-| stem:[~~ sqrt{u_{m_{"IPK"}^2} + u_{"stab"}^2(t)}]
+| stem:[~~ sqrt{u_{m_{"IPK"}}^2 + u_{"stab"}^2(t)}]
 | Contribute to Key Comparison (KC), improve and resolve discrepancies
 | Dissemination from national prototype traceable to IPK, with stem:[10 "unitsml(ug)"] added uncertainty
 
@@ -133,14 +133,14 @@ stem:[u_{"stab.NMI"}(t)] : The uncertainty contribution from the stability of th
 
 On 20 May 2019, the reference quantity for the mass unit changes from the mass of the IPK to the fixed numerical value of the Planck constant. At that time, the uncertainty of the adjusted value of the Planck constant prior to the redefinition (1 part in 10^8^) will be re-assigned to the mass of the IPK, which will then have an uncertainty of stem:[10 "unitsml(ug)"].
 
-On the same date NMIs of Member States will have calibration certificates from the BIPM for past calibrations, traceable to the IPK. The standard uncertainties of these calibrations are in the range stem:[3.5 "unitsml(ug)"] to stem:[7 "unitsml(ug)"] for Pt-Ir standards and stem:[10 "unitsml(ug)"] to stem:[15 "unitsml(ug)"] for stem:[1 "unitsml(kg)"] stainless steel standards. On the implementation day stem:[10 "unitsml(ug)"] needs to 3be added in quadrature to the uncertainty stated on past BIPM calibration certificates to allow for the increase in the uncertainty in the IPK. Note that the calibration values issued by the BIPM will not change, since efforts have been made to ensure that the kilogram has the same magnitude, within the uncertainty, before and after the redefinition. The BIPM will issue a note on this matter to all NMIs which have received calibrations in the past. Previous calibration certificates will not be reissued
+On the same date NMIs of Member States will have calibration certificates from the BIPM for past calibrations, traceable to the IPK. The standard uncertainties of these calibrations are in the range stem:[3.5 "unitsml(ug)"] to stem:[7 "unitsml(ug)"] for stem:["Pt"]-stem:["Ir"] standards and stem:[10 "unitsml(ug)"] to stem:[15 "unitsml(ug)"] for stem:[1 "unitsml(kg)"] stainless steel standards. On the implementation day stem:[10 "unitsml(ug)"] needs to be added in quadrature to the uncertainty stated on past BIPM calibration certificates to allow for the increase in the uncertainty in the IPK. Note that the calibration values issued by the BIPM will not change, since efforts have been made to ensure that the kilogram has the same magnitude, within the uncertainty, before and after the redefinition. The BIPM will issue a note on this matter to all NMIs which have received calibrations in the past. Previous calibration certificates will not be reissued
 
-Calibration and Measurement Capabilities (CMCs) published by NMIs in the KCDB (where expanded uncertainties, stem:[ii(U)], are listed) will need to be revised to reflect the increase in the uncertainty in the IPK (stem:[u_{m_{"IPK"}} = 10 "unitsml(ug)"]). It is the responsibility of individual NMIs to revise their CMCs to this effect. The revised expanded uncertainty, stem:[ii(U)_{20-05-2019}], can be calculated from <<eq-1>>.
+Calibration and Measurement Capabilities (CMCs) published by NMIs in the KCDB (where expanded uncertainties, stem:[ii(U)], are listed) will need to be revised to reflect the increase in the uncertainty in the IPK (stem:[u_{m_{"IPK"}} = 10 "unitsml(ug)"]). It is the responsibility of individual NMIs to revise their CMCs to this effect. The revised expanded uncertainty, stem:[ii(U)_{"20-05-2019"}], can be calculated from <<eq-1>>.
 
 [[eq-1]]
 [stem]
 ++++
-ii(U)_{20-05-2019} = 2 sqrt{(ii(U)/2)^2 + (ii(M)/{1 "unitsml(kg)"} u_{m_{"IPK"}})^2}
+ii(U)_{"20-05-2019"} = 2 sqrt{(ii(U)/2)^2 + (ii(M)/{1 "unitsml(kg)"} u_{m_{"IPK"}})^2}
 ++++
 
 
@@ -167,7 +167,7 @@ Following the completion of the first CCM Key Comparison of realization experime
 
 . data directly traceable to the IPK (taking into account the additional uncertainty of 10 micrograms and a contribution for the temporal stability of the BIPM working standards).
 
-. extant data from the CCM Pilot Study of realization experiments (corrected for the shift of 17 parts in 109 in h introduced by the CODATA 2017 adjustment)
+. extant data from the CCM Pilot Study of realization experiments (corrected for the shift of 17 parts in stem:[10^9] in stem:[h] introduced by the CODATA 2017 adjustment)
 
 . the KCRV of the first CCM Key Comparison (after removal of outliers)
 
@@ -225,30 +225,34 @@ Once the criteria for the transition from Phase 2 to Phase 3 of the disseminatio
 As the results from individual realization experiments improve further NMI realizations will meet the criteria outlined in the MRA and will therefore be able to publish CMCs giving an increasing number of NMIs which have the ability to unilaterally realize the kilogram from their individual experiments.
 
 
+== {blank}
+
 [bibliography]
-== Reference
+=== References
 
 * [[[bipm-si-brochure,1]]] BIPM, The International System of Units (SI Brochure) [9th edition, 2019], https://www.bipm.org/en/publications/si-brochure/.
 
 * [[[resolution-1,2]]] Resolution 1 of the 26th CGPM (2018), https://www.bipm.org/en/CGPM/db/26/1/.
 
-* [[[newell,3]]] D B Newell et al, The CODATA 2017 values of stem:[h], stem:[e], stem:[k], and stem:[ii(N)_"A"] for the revision of the SI, _Metrologia_, *55*, L13–L16, 2018.
+* [[[newell,(3)BIPM Metrologia 55 1 L13]]] D B Newell et al, The CODATA 2017 values of stem:[h], stem:[e], stem:[k], and stem:[ii(N)_"A"] for the revision of the SI, _Metrologia_, *55*, L13–L16, 2018.
 
-* [[[mirandes,4]]] Estefanía de Mirandés et al, Calibration campaign against the international prototype of the kilogram in anticipation of the redefinition of the kilogram, part II: evolution of the BIPM as-maintained mass unit from the 3rd periodic verification to 2014, _Metrologia_, *53*, 11204-1214, 2016.
+* [[[mirandes,(4)BIPM Metrologia 53 5 1204]]] Estefanía de Mirandés et al, Calibration campaign against the international prototype of the kilogram in anticipation of the redefinition of the kilogram, part II: evolution of the BIPM as-maintained mass unit from the 3rd periodic verification to 2014, _Metrologia_, *53*, 1204-1214, 2016.
 
-* [[[stock,5]]] M Stock et al, A comparison of future realizations of the kilogram, _Metrologia_, *55*, T1–T7, 2018
+* [[[stock,(5)BIPM Metrologia 55 1 T1]]] M Stock et al, A comparison of future realizations of the kilogram, _Metrologia_, *55*, T1–T7, 2018
 
 * [[[recommendation-g,6]]] RECOMMENDATION OF THE CONSULTATIVE COMMITTEE FOR MASS AND RELATED QUANTITIES SUBMITTED TO THE INTERNATIONAL COMMITTEE FOR WEIGHTS AND MEASURES; RECOMMENDATION G 1 (2013) On a new definition of the kilogram
 
+* [[[metrologia54-s99,(7)BIPM Metrologia 54 6 S99]]] 
+
 
 [bibliography]
-== Bibliography
+=== Bibliography
 
 * [[[lars,1]]] Lars Nielsen, Evaluation of measurement intercomparisons by the method of least squares, https://www.dropbox.com/s/5gtuu1ttgvp2egr/DFM-99-R39%20Evaluation%20of%20measurement%20intercomparisons.pdf?dl=0[DFM-99-R39], 2000.
 
 * [[[nielsen,1]]] Lars Nielsen, Identification and handling of discrepant measurements in key comparisons. https://www.dropbox.com/s/4197jroang14uwa/DFM-02-R28%20Identification%20of%20discrepant%20measurements_.pdf?dl=0[DFM-02-R28], 2002.
 
-* [[[gox-1,1]]] M G Cox, The evaluation of key comparison data, _Metrologia_, *39*, 6, 589-595, 2002.
+* [[[gox-1,(10)BIPM Metrologia 39 6 589]]] M G Cox, The evaluation of key comparison data, _Metrologia_, *39*(6), 589-595, 2002.
 
-* [[[gox-2,1]]] M G Cox, The evaluation of key comparison data: determining the largest consistent subset, _Metrologia_, *44*, 3, 2007.
+* [[[gox-2,(11)BIPM Metrologia 44 3 187]]] M G Cox, The evaluation of key comparison data: determining the largest consistent subset, _Metrologia_, *44*(3), 187, 2007.
 
