@@ -35,13 +35,14 @@ for the electrical community to provide a smooth transition through the implemen
 
 The '`Revised SI`' is well documented but the authoritative source should be the latest version of the
 SI Brochure <<meas-units>>, as well as related documents of the CIPM, CCU, CCM, CCEM and other
-consultative committees <<committes>>. In essence, the change to the SI is the abrogation of the older base unit
+consultative committees <<committes>>. In essence, the change to the SI is the abrogation of the older
+base unit
 definitions and the acceptance of exact defining values of seven reference constants. These seven
-reference values can in turn be utilized to establish direct SI traceability to a number of SI units, both
-base units and derived units. The distinction between base and derived units is no longer
+reference values can in turn be utilized to establish direct SI traceability to a number of SI units,
+both base units and derived units. The distinction between base and derived units is no longer
 fundamental, but is maintained mainly for historical continuity and pedagogical purposes. Details of
-the techniques typically used to establish traceability to the '`Revised SI`' are available in the _mise en
-pratique_ documents prepared by various Consultative Committees <<committes>>.
+the techniques typically used to establish traceability to the '`Revised SI`' are available in the
+_mise en pratique_ documents prepared by various Consultative Committees <<committes>>.
 
 At the time of preparation of this document it is expected that the '`Revised SI`' will be approved by
 the CGPM meeting in November, 2018 and that the '`Revised SI`' will be implemented worldwide on
@@ -58,12 +59,13 @@ constants.
 kelvin and the mole. These concepts will be the subject of a longer term public education
 process.
 
-*Values and Uncertainties*:: The numerical values and uncertainties of various reference constants, some constants of
+*Values and Uncertainties*:: The numerical values and uncertainties of various reference constants,
+some constants of
 nature and values of high precision reference artifacts will change on the day of
 implementation. In all cases, apart from the electrical units, these changes will be very small
 or zero and will go unnoticed by the general public.
 
-*Traceability Paths*:: 
+*Traceability Paths*::
 The transition to the '`Revised SI`' will allow new paths of SI traceability to the seven
 reference constants which were not valid in the past. These new traceability paths will have
 their own new uncertainty budgets.
@@ -76,10 +78,14 @@ quantities on implementation day and immediately following.
 == The Impact on Electrical Metrology
 
 In the electrical community, these changes to the SI primarily involve the fixing of the values of the
-Planck constant, stem:[h], and the elementary charge, stem:[e]. Fortunately, this concept of using values for stem:[h] and stem:[e]
+Planck constant, stem:[h], and the elementary charge, stem:[e]. Fortunately, this concept of using
+values for stem:[h] and stem:[e]
 has been in use by the electrical community since 1990 with the adoption of the conventional values
-of stem:[ii(K)_{J-90} ~= 2e//h] and stem:[ii(R)_{K-90} ~= h//e^2]. However, the new values of stem:[h] and stem:[e] are slightly different from those
-used to set stem:[ii(K)_{J-90}] and stem:[ii(R)_{K-90}]. The elimination of the '`conventional`' units, represented by stem:[ii(K)_{J-90}] and stem:[ii(R)_{K-90}], will mean that the disseminated electrical units will become fully coherent with the SI. However, this
+of stem:[ii(K)_{J-90} ~= 2e//h] and stem:[ii(R)_{K-90} ~= h//e^2]. However, the new values of stem:[h]
+and stem:[e] are slightly different from those
+used to set stem:[ii(K)_{J-90}] and stem:[ii(R)_{K-90}]. The elimination of the '`conventional`'
+units, represented by stem:[ii(K)_{J-90}] and stem:[ii(R)_{K-90}], will mean that the disseminated
+electrical units will become fully coherent with the SI. However, this
 will result in a small discontinuous change on the day of implementation of the '`Revised SI`' but,
 from then on, no further changes will be necessary.
 
@@ -106,7 +112,8 @@ Particular focus should be made on the highest accuracy (lowest uncertainty) com
 for this is given in the next section).
 
 Thirdly, review your quality management documents to identify references to the conventional
-values stem:[ii(K)_{J-90}] and stem:[ii(R)_{K-90}], for example in calibration procedures and measurement software. These
+values stem:[ii(K)_{J-90}] and stem:[ii(R)_{K-90}], for example in calibration procedures and
+measurement software. These
 references need to be updated.
 
 NMI's should also contact their clients so that they too can follow these guidelines.
@@ -117,19 +124,24 @@ NMI's should also contact their clients so that they too can follow these guidel
 
 This question pertains specifically to what metrological changes are required on implementation day.
 On implementation day software, quality system procedures and other associated documentation
-should be updated to reflect the newly defined values of stem:[h] and stem:[e], as well as any revised traceability
+should be updated to reflect the newly defined values of stem:[h] and stem:[e], as well as any revised
+traceability
 paths. At this time, the calibration values of all electrical instrumentation undergo a small
 discontinuous change. Of course it is acceptable to numerically correct, or even to recalibrate, all
 relevant instrumentation and standards. However, it is often impractical, and in many cases simply
 not necessary, to change the previous calibration values so that acceptable traceability to the SI is
 maintained.
 
-The relative change, stem:[d], will be about stem:[+1.066 xx 10^(-7)] for voltage related quantities and about
-stem:[+1.784 xx 10^(-8)] for resistance related quantities. The magnitude of these changes establishes general criteria
+The relative change, stem:[d], will be about stem:[+1.066 xx 10^(-7)] for voltage related quantities
+and about
+stem:[+1.784 xx 10^(-8)] for resistance related quantities. The magnitude of these changes establishes
+general criteria
 that can be used to decide what action should be taken on implementation day. In general, if the
-existing stem:[k = 2] expanded relative uncertainty, stem:[ii(U)], of any particular artifact or measurement is such that
+existing stem:[k = 2] expanded relative uncertainty, stem:[ii(U)], of any particular artifact or
+measurement is such that
 
-stem:[2.5" "d <= ii(U)]:: no action is necessary until the next recalibration (or measurement). The previous
+stem:[2.5" "d <= ii(U)]:: no action is necessary until the next recalibration (or measurement). The
+previous
 calibration data is still metrologically valid and any use of this data between
 implementation day and the next recalibration date should have an insignificant
 impact (the probability of the pre-redefinition confidence interval changes from 95 %
@@ -139,35 +151,34 @@ quantities with uncertainties of larger than stem:[5 xx 10^(-8)] require no acti
 easily extended to compound quantities like power etc. This criterion applies to the
 majority of electrical instrumentation.
 
-stem:[ii(U) < 2.5" "d]:: numerical correct or recalibrate before the standard's next use for traceability. This
+stem:[ii(U) < 2.5" "d]:: numerical correct or recalibrate before the standard's next use for
+traceability. This
 criterion applies to all quantum standards, as well as some upper echelon artifact
 standards such as Zener voltage standards and top-quality resistance and capacitance
 standards. Note it also applies to the software that controls these measurements and
 the software that is used to statistically monitor their results.
 
-
 Quantum standards such as Josephson voltage standards and quantum Hall resistance standards
 should have their reference values for stem:[2e//h] and stem:[h//e^2] updated, i.e.
-
 
 [stem%unnumbered]
 ++++
 2e // h = 483597.848416984 "unitsml(GHz//V)"
 ++++
 
-
 [stem%unnumbered]
 ++++
 h // e^2 = 25812.8074593045 "unitsml(Ohm)"
 ++++
 
-
 and their uncertainty budgets reviewed before their next use after implementation day. Truncation of
-the values of stem:[2e//h] and stem:[h//e^2] should adhere to the CCEM _mise en pratique_ <<wgsi>> and should not
+the values of stem:[2e//h] and stem:[h//e^2] should adhere to the CCEM _mise en pratique_ <<wgsi>> and
+should not
 detrimentally impact the results. In this way ultimate accuracy and subsequent traceability will be
 maintained through the transition.
 
-Also note that the electric and magnetic constants, stem:[ii(epsilon)_0] and stem:[ii(mu)_0], will have approximately the same values
+Also note that the electric and magnetic constants, stem:[ii(epsilon)_0] and stem:[ii(mu)_0], will
+have approximately the same values
 after redefinition but now with relative uncertainties the same as that of the fine structure constant,
 stem:[~ 2.3 xx 10^(-10)].
 
@@ -194,5 +205,3 @@ For more detailed information or advice contact your local NMI, your RMO or BIPM
 * [[[research-new-si,8]]] https://www.ptb.de/cms/en/research-development/research-on-the-new-si.html
 
 * [[[nick,9]]] Nick Fletcher, Gert Rietveld, James Olthoff, Ilya Budovsky, and Martin Milton, "Electrical Units in the New SI: Saying Goodbye to the 1990 Values", _NCSLI Measure_, *Vol. 9*, Iss. 3, 2014
-
-

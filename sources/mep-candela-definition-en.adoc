@@ -27,13 +27,42 @@
 
 == Introduction
 
-The purpose of this _mise en pratique_, prepared by the Consultative Committee for Photometry and Radiometry (CCPR) of the International Committee for Weights and Measures (CIPM) and formally adopted by the CIPM, is to indicate how the definition of the SI base unit, the candela, symbol stem:["unitsml(cd)"], and the derived SI units lumen (stem:["unitsml(lm)"]), lux (stem:["unitsml(lx)"]) and candela per square metre (stem:["unitsml(cd*m^(-2))"]) may be realized in practice.
+The purpose of this _mise en pratique_, prepared by the Consultative Committee for
+Photometry and Radiometry (CCPR) of the International Committee for Weights and
+Measures (CIPM) and formally adopted by the CIPM, is to indicate how the definition
+of the SI base unit, the candela, symbol stem:["unitsml(cd)"], and the derived SI
+units lumen (stem:["unitsml(lm)"]), lux (stem:["unitsml(lx)"]) and candela per square
+metre (stem:["unitsml(cd*m^(-2))"]) may be realized in practice.
 
-In general, the term "`to realize a unit`" is interpreted to mean the establishment of the value and associated uncertainty of a quantity of the same kind as the unit that is consistent with the definition of the unit. A primary method is a method having the highest metrological properties; whose operation can be completely described and understood; for which a complete uncertainty statement can be written down in terms of SI units; and which does not require a reference standard of the same quantity.
+In general, the term "`to realize a unit`" is interpreted to mean the establishment
+of the value and associated uncertainty of a quantity of the same kind as the unit
+that is consistent with the definition of the unit. A primary method is a method
+having the highest metrological properties; whose operation can be completely
+described and understood; for which a complete uncertainty statement can be written
+down in terms of SI units; and which does not require a reference standard of the
+same quantity.
 
-The scope of the _mise en pratique_ recognizes the fact that the two fields of photometry and radiometry and their units are closely related through the current definition of the SI base unit for the photometric quantity, luminous intensity: the candela. It covers the realization of the candela and other related units used for photometric and radiometric quantities. Recent advances in the generation and manipulation of individual photons show great promise of producing radiant fluxes with a well-established number of photons. Thus, this _mise en pratique_ also includes information on the practical realization of units for photometric and radiometric quantities using photon-number-based techniques. In the following, for units used for photometric and radiometric quantities, the shorter term, photometric and radiometric units, is generally used.
+The scope of the _mise en pratique_ recognizes the fact that the two fields of
+photometry and radiometry and their units are closely related through the current
+definition of the SI base unit for the photometric quantity, luminous intensity: the
+candela. It covers the realization of the candela and other related units used for
+photometric and radiometric quantities. Recent advances in the generation and
+manipulation of individual photons show great promise of producing radiant fluxes
+with a well-established number of photons. Thus, this _mise en pratique_ also
+includes information on the practical realization of units for photometric and
+radiometric quantities using photon-number-based techniques. In the following, for
+units used for photometric and radiometric quantities, the shorter term, photometric
+and radiometric units, is generally used.
 
-<<sec-2>> describes the definition of the candela which is based on the SI defining constant stem:[ii(K)_{"cd"}]. <<sec-3>> outlines the relationship between photometric and radiometric units. <<sec-4>> introduces the approaches to the realization of photometric and radiometric units, detailed respectively in <<sec-7>> and <<sec-5>>, with considerations on photon-number-based units in <<sec-6>>. <<sec-7-1>> explains how, in general, photometric units are derived from radiometric units. <<sec-7-2>> to <<sec-7-5>> deal with the particular geometric conditions for the specific photometric units. <<sec-8>> deals very briefly with the topic of determination of measurement uncertainties in photometry.
+<<sec-2>> describes the definition of the candela which is based on the SI defining
+constant stem:[ii(K)_{"cd"}]. <<sec-3>> outlines the relationship between photometric
+and radiometric units. <<sec-4>> introduces the approaches to the realization of
+photometric and radiometric units, detailed respectively in <<sec-7>> and <<sec-5>>,
+with considerations on photon-number-based units in <<sec-6>>. <<sec-7-1>> explains
+how, in general, photometric units are derived from radiometric units. <<sec-7-2>> to
+<<sec-7-5>> deal with the particular geometric conditions for the specific
+photometric units. <<sec-8>> deals very briefly with the topic of determination of
+measurement uncertainties in photometry.
 
 
 [[sec-2]]
@@ -42,10 +71,18 @@ The scope of the _mise en pratique_ recognizes the fact that the two fields of p
 The definition of the candela is as follows <<bipm>>:
 
 ____
-*The candela, symbol stem:["unitsml(cd)"], is the SI unit of luminous intensity in a given direction. It is defined by taking the fixed numerical value of the luminous efficacy of monochromatic radiation of frequency stem:[540 xx 10^12 "&#x200c;" "unitsml(Hz)"], stem:[ii(K)_{"cd"}], to be stem:[683] when expressed in the unit stem:["unitsml(lm*W^(-1))"], which is equal to stem:["unitsml(cd*sr*W^(-1))"], or stem:["unitsml(cd*sr*kg^(-1)*m^(-2)*s^3)"], where the kilogram, metre and second are defined in terms of stem:[h], stem:[c] and stem:[Delta ii(nu)_{"Cs"}].*
+*The candela, symbol stem:["unitsml(cd)"], is the SI unit of luminous intensity in a
+given direction. It is defined by taking the fixed numerical value of the luminous
+efficacy of monochromatic radiation of frequency stem:[540 xx 10^12 "&#x200c;"
+"unitsml(Hz)"], stem:[ii(K)_{"cd"}], to be stem:[683] when expressed in the unit
+stem:["unitsml(lm*W^(-1))"], which is equal to stem:["unitsml(cd*sr*W^(-1))"], or
+stem:["unitsml(cd*sr*kg^(-1)*m^(-2)*s^3)"], where the kilogram, metre and second are
+defined in terms of stem:[h], stem:[c] and stem:[Delta ii(nu)_{"Cs"}].*
 ____
 
-The candela is the SI base unit for the photometric quantity luminous intensity. The definition of the candela is based on the SI defining constant stem:[ii(K)_{"cd"}] which links the photometric units to the corresponding radiometric units.
+The candela is the SI base unit for the photometric quantity luminous intensity. The
+definition of the candela is based on the SI defining constant stem:[ii(K)_{"cd"}]
+which links the photometric units to the corresponding radiometric units.
 
 
 [[sec-3]]
@@ -54,27 +91,64 @@ The candela is the SI base unit for the photometric quantity luminous intensity.
 [[sec-3-1]]
 === Photometry, radiometry and the candela
 
-The definition of the candela is expressed in strictly physical terms and is given for only one frequency of the electromagnetic radiation. The objective of photometry is to measure light in such a way that the result of the measurement correlates with the visual sensation of brightness experienced by a human observer for the same radiation. Most light sources emit a broad spectrum of frequencies. For this purpose, the International Commission on Illumination (CIE) has defined a set of spectral weighting functions or action spectra, referred to as spectral luminous efficiency functions that describe the relative spectral sensitivity of the average human eye for specified visual conditions. These functions are defined as a function of wavelength in standard air (dry air at stem:[15 "unitsml(degC)"] and stem:[101325 "unitsml(Pa)"], containing 0.045 % by volume of carbon dioxide <<photometry>>) and normalized to unity at their maximum value. The constant, stem:[ii(K)_{"cd"}], together with the spectral luminous efficiency functions, relates photometric quantities and radiometric quantities to establish a metrologically consistent system.
+The definition of the candela is expressed in strictly physical terms and is given
+for only one frequency of the electromagnetic radiation. The objective of photometry
+is to measure light in such a way that the result of the measurement correlates with
+the visual sensation of brightness experienced by a human observer for the same
+radiation. Most light sources emit a broad spectrum of frequencies. For this purpose,
+the International Commission on Illumination (CIE) has defined a set of spectral
+weighting functions or action spectra, referred to as spectral luminous efficiency
+functions that describe the relative spectral sensitivity of the average human eye
+for specified visual conditions. These functions are defined as a function of
+wavelength in standard air (dry air at stem:[15 "unitsml(degC)"] and stem:[101325
+"unitsml(Pa)"], containing 0.045 % by volume of carbon dioxide <<photometry>>) and
+normalized to unity at their maximum value. The constant, stem:[ii(K)_{"cd"}],
+together with the spectral luminous efficiency functions, relates photometric
+quantities and radiometric quantities to establish a metrologically consistent system.
 
-In 2007, the CIPM concluded an [underline]#agreement with the CIE#, in which the two organizations recognize that:
+In 2007, the CIPM concluded an [underline]#agreement with the CIE#, in which the two
+organizations recognize that:
 
 * the CIPM is responsible for the definition of the photometric units in the SI and
-* the CIE is responsible for the standardization of the spectral luminous efficiency functions of the human eye.
+* the CIE is responsible for the standardization of the spectral luminous efficiency
+functions of the human eye.
 
-For further details of the spectral luminous efficiency functions of the human eye and the definitions of the associated photometric quantities, see [underline]#CIPM/CIE joint publication: Principles Governing Photometry, 2nd Edition# <<photometry>>.
+For further details of the spectral luminous efficiency functions of the human eye
+and the definitions of the associated photometric quantities, see
+[underline]#CIPM/CIE joint publication: Principles Governing Photometry, 2nd Edition#
+<<photometry>>.
 
-It is traditional practice in photometry to state the wavelengths in air, stem:[ii(lambda)]. However, the most definitive way to locate a monochromatic radiation within the spectrum is to state its frequency, stem:[f], since the frequency is independent of the optical medium. The values of stem:[f] and stem:[ii(lambda)] are related by:
+It is traditional practice in photometry to state the wavelengths in air,
+stem:[ii(lambda)]. However, the most definitive way to locate a monochromatic
+radiation within the spectrum is to state its frequency, stem:[f], since the
+frequency is independent of the optical medium. The values of stem:[f] and
+stem:[ii(lambda)] are related by:
 
 [stem]
 ++++
 f ii(lambda) = c // n_a (ii(lambda))
 ++++
 
-where stem:[c] is the speed of light in vacuum and equals stem:[2.99792458 xx 10^8 "&#x200c;" "unitsml(m*s^(-1))"], and stem:[n_a (ii(lambda))] is the refractive index of air. It should be noted that the value of stem:[n_a (ii(lambda))] depends upon the partial pressure of each constituent of the air and is also wavelength dependent <<ciddor>>. In the case of standard air, which is defined above <<photometry>>, this gives a refractive index in air, stem:[n_a (ii(lambda))], approximately equal to stem:[1.00028] throughout the visible spectrum.
+where stem:[c] is the speed of light in vacuum and equals stem:[2.99792458 xx 10^8
+"&#x200c;" "unitsml(m*s^(-1))"], and stem:[n_a (ii(lambda))] is the refractive index
+of air. It should be noted that the value of stem:[n_a (ii(lambda))] depends upon the
+partial pressure of each constituent of the air and is also wavelength dependent
+<<ciddor>>. In the case of standard air, which is defined above <<photometry>>, this
+gives a refractive index in air, stem:[n_a (ii(lambda))], approximately equal to
+stem:[1.00028] throughout the visible spectrum.
 
-For a practical light source, i.e. any source emitting radiation not only at the frequency stem:[540 xx 10^12 "&#x200c;" "unitsml(Hz)"], the corresponding photometric quantities are defined in purely physical terms as physical quantities proportional to the integral of the spectral power distribution of the light source (determined for the appropriate geometric configuration), weighted according to the specified spectral luminous efficiency function, and converted to absolute photometric values using the SI defining constant stem:[ii(K)_{"cd"}].
+For a practical light source, i.e. any source emitting radiation not only at the
+frequency stem:[540 xx 10^12 "&#x200c;" "unitsml(Hz)"], the corresponding photometric
+quantities are defined in purely physical terms as physical quantities proportional
+to the integral of the spectral power distribution of the light source (determined
+for the appropriate geometric configuration), weighted according to the specified
+spectral luminous efficiency function, and converted to absolute photometric values
+using the SI defining constant stem:[ii(K)_{"cd"}].
 
-Thus, the photometric quantities (human observer-based) relate to the radiometric quantities through simple relations. The general form of the equation relating a given spectral radiometric quantity stem:[ii(X)_{"e",ii(lambda)} (ii(lambda))] to its corresponding photometric quantity stem:[ii(X)_{"v,x"}] is given below:
+Thus, the photometric quantities (human observer-based) relate to the radiometric
+quantities through simple relations. The general form of the equation relating a
+given spectral radiometric quantity stem:[ii(X)_{"e",ii(lambda)} (ii(lambda))] to its
+corresponding photometric quantity stem:[ii(X)_{"v,x"}] is given below:
 
 [[eq-2]]
 [stem]
@@ -83,22 +157,64 @@ ii(X)_{"v,x"} = {ii(K)_{"cd"}} / {ii(V)_"x" (ii(lambda)_a)} int_{ii(lambda)} ii(
 ++++
 
 
-where stem:[ii(lambda)_"a" = 555.017 "unitsml(nm)"] is the wavelength in standard air <<ciddor>> at the frequency of stem:[540 xx 10^12 "&#x200c;" "unitsml(Hz)"] given in the definition of stem:[ii(K)_{"cd"}] and stem:[ii(V)_"x" (ii(lambda))] is any of the CIE spectral luminous efficiency functions; the subscript "`x`" indicating the respective function.
+where stem:[ii(lambda)_"a" = 555.017 "unitsml(nm)"] is the wavelength in standard air
+<<ciddor>> at the frequency of stem:[540 xx 10^12 "&#x200c;" "unitsml(Hz)"] given in
+the definition of stem:[ii(K)_{"cd"}] and stem:[ii(V)_"x" (ii(lambda))] is any of the
+CIE spectral luminous efficiency functions; the subscript "`x`" indicating the
+respective function.
 
 
-The most important of these visual functions is the photopic luminous efficiency function for the light-adapted eye, stem:[ii(V) (ii(lambda))], which is defined by the CIE over the wavelength range stem:[360 "unitsml(nm)"] to stem:[830 "unitsml(nm)"] at stem:[1 "unitsml(nm)"] intervals. When values are needed between these defined wavelengths, linear interpolation shall be used <<photometry>>,<<iso23539>>. For this function, the maximum value is at a wavelength stem:[ii(lambda)] of exactly stem:[555 "unitsml(nm)"] in standard air <<iso23539>>. For dark-adapted conditions, the CIE standardized the scotopic luminous efficiency function, stem:[ii(V)'(ii(lambda))], which is similar in shape to stem:[ii(V) (ii(lambda))] but its peak is shifted to shorter wavelength than the photopic curve.
+The most important of these visual functions is the photopic luminous efficiency
+function for the light-adapted eye, stem:[ii(V) (ii(lambda))], which is defined by
+the CIE over the wavelength range stem:[360 "unitsml(nm)"] to stem:[830
+"unitsml(nm)"] at stem:[1 "unitsml(nm)"] intervals. When values are needed between
+these defined wavelengths, linear interpolation shall be used
+<<photometry>>,<<iso23539>>. For this function, the maximum value is at a wavelength
+stem:[ii(lambda)] of exactly stem:[555 "unitsml(nm)"] in standard air <<iso23539>>.
+For dark-adapted conditions, the CIE standardized the scotopic luminous efficiency
+function, stem:[ii(V)'(ii(lambda))], which is similar in shape to stem:[ii(V)
+(ii(lambda))] but its peak is shifted to shorter wavelength than the photopic curve.
 
-Recently, the CIE defined a system of spectral luminous efficiency functions to be used at levels of luminance between the photopic and scotopic conditions, which is referred to as the mesopic region, thus completing the standardization of the visual functions for all states of visual adaptation; the detailed definitions of these functions and the other important CIE spectral luminous efficiency functions can be found in the recently updated joint CIPM/CIE publication on Principles Governing Photometry <<photometry>>. The _mise en pratique_ and the Principles Governing Photometry are interlinked documents that provide a comprehensive description of the current system of practical physical photometry.
+Recently, the CIE defined a system of spectral luminous efficiency functions to be
+used at levels of luminance between the photopic and scotopic conditions, which is
+referred to as the mesopic region, thus completing the standardization of the visual
+functions for all states of visual adaptation; the detailed definitions of these
+functions and the other important CIE spectral luminous efficiency functions can be
+found in the recently updated joint CIPM/CIE publication on Principles Governing
+Photometry <<photometry>>. The _mise en pratique_ and the Principles Governing
+Photometry are interlinked documents that provide a comprehensive description of the
+current system of practical physical photometry.
 
 
-The basic equations relating the specific photometric quantities (corresponding to different measurement geometries) to the corresponding radiometric quantities are given in <<photometry>>. The power levels and wavelength range involved are such that classical electromagnetic radiation concepts of incoherent sources and elementary beams of radiation (geometrical optics) are used to describe the photometric quantities. In addition to the spectral aspects, it is important to note that the definition of the photometric and radiometric quantities deal with the propagation of light in space so a definition of these quantities also requires a definition of these intrinsic geometrical parameters which are deemed essential for practical photometry <<photometry>>.
+The basic equations relating the specific photometric quantities (corresponding to
+different measurement geometries) to the corresponding radiometric quantities are
+given in <<photometry>>. The power levels and wavelength range involved are such that
+classical electromagnetic radiation concepts of incoherent sources and elementary
+beams of radiation (geometrical optics) are used to describe the photometric
+quantities. In addition to the spectral aspects, it is important to note that the
+definition of the photometric and radiometric quantities deal with the propagation of
+light in space so a definition of these quantities also requires a definition of
+these intrinsic geometrical parameters which are deemed essential for practical
+photometry <<photometry>>.
 
-For the definition of the candela, these geometric parameters are the given direction of the radiant flux at a given point of a real or imaginary irradiating surface and the solid angle propagated by the beam and containing this given direction. For the derived photometric units, it is essential to specify additional geometrical parameters; these include the area of a section of the beam containing the given point (source or receiver), and the angle from the normal to the surface element (source or receiver).
+For the definition of the candela, these geometric parameters are the given direction
+of the radiant flux at a given point of a real or imaginary irradiating surface and
+the solid angle propagated by the beam and containing this given direction. For the
+derived photometric units, it is essential to specify additional geometrical
+parameters; these include the area of a section of the beam containing the given
+point (source or receiver), and the angle from the normal to the surface element
+(source or receiver).
 
 
 === Photometry and photon-number-based quantities
 
-Photon-number-based quantities are quantities of optical radiation which are expressed in terms of a known number of photons or photon flux. Because of the dual aspect of electromagnetic radiation, photometric and/or spectral radiant quantities can also be expressed in terms of photon-number-based quantities. For wavelengths in air, the relationship between the spectral radiant quantity at a given wavelength, stem:[ii(X)_{"e",ii(lambda)} (ii(lambda))], and the corresponding photon-number-based quantity, stem:[ii(X)_{"p",ii(lambda)} (ii(lambda))], is:
+Photon-number-based quantities are quantities of optical radiation which are
+expressed in terms of a known number of photons or photon flux. Because of the dual
+aspect of electromagnetic radiation, photometric and/or spectral radiant quantities
+can also be expressed in terms of photon-number-based quantities. For wavelengths in
+air, the relationship between the spectral radiant quantity at a given wavelength,
+stem:[ii(X)_{"e",ii(lambda)} (ii(lambda))], and the corresponding photon-number-based
+quantity, stem:[ii(X)_{"p",ii(lambda)} (ii(lambda))], is:
 
 [[eq-3]]
 [stem]
@@ -106,9 +222,13 @@ Photon-number-based quantities are quantities of optical radiation which are exp
 ii(X)_{"e",ii(lambda)} (ii(lambda)) = {h c} / ii(lambda) * n_a (ii(lambda)) * ii(X)_{"p",ii(lambda)} (ii(lambda))
 ++++
 
-where stem:[h] is the Planck constant, stem:[c] is the speed of light in vacuum, and stem:[n_a (ii(lambda))] is the refractive index in air at the given wavelength, stem:[ii(lambda)].
+where stem:[h] is the Planck constant, stem:[c] is the speed of light in vacuum, and
+stem:[n_a (ii(lambda))] is the refractive index in air at the given wavelength,
+stem:[ii(lambda)].
 
-Therefore, combining <<eq-2>> and <<eq-3>>, the general form of the equation relating a given photometric quantity stem:[ii(X)_("v,x")] to its corresponding photon-number-based quantity stem:[ii(X)_{"p",ii(lambda)} (ii(lambda))] is given by:
+Therefore, combining <<eq-2>> and <<eq-3>>, the general form of the equation relating
+a given photometric quantity stem:[ii(X)_("v,x")] to its corresponding
+photon-number-based quantity stem:[ii(X)_{"p",ii(lambda)} (ii(lambda))] is given by:
 
 [[eq-4]]
 [stem]
@@ -123,49 +243,146 @@ Where
 ii(K)_{"p,x"} = {ii(K)_{"cd"} h c} / {ii(V)_"x" (ii(lambda)_"a")}
 ++++
 
-where stem:[ii(K)_{"p,x"}] is the conversion factor from photometric to photon-number-based quantities for the spectral luminous efficiency function stem:[ii(V)_"x" (ii(lambda))].
+where stem:[ii(K)_{"p,x"}] is the conversion factor from photometric to
+photon-number-based quantities for the spectral luminous efficiency function
+stem:[ii(V)_"x" (ii(lambda))].
 
 
 [[sec-4]]
 == Approaches to the realization of photometric and radiometric units and the candela
 
-As stated in the Introduction, in general, the term "`to realize a unit`" is interpreted to mean the establishment of the value (within the associated uncertainty) of a quantity of the same kind as the unit, in a way that is consistent with the definition of the unit. The definition of the candela does not imply any particular experiment for its practical realization. While it is generally true that any method consistent with the laws of physics and the SI base unit definition may be used to realize any SI unit, base or derived, special considerations are required in the case of photometry to ensure that the realized unit is relevant for measurement of practical light sources, i.e. sources that emit not only at the wavelength corresponding to a frequency of stem:[540 xx 10^12 "&#x200c;" "unitsml(Hz)"]. The list of methods given here is not meant to be an exhaustive list of all possibilities but rather a list of those methods that are easiest to implement and/or provide the smallest uncertainties and which are officially recognized as primary methods by the Consultative Committee for Photometry and Radiometry. Further details on methods available to realize photometric and radiometric units can be found in <<zwinkels>>.
+As stated in the Introduction, in general, the term "`to realize a unit`" is
+interpreted to mean the establishment of the value (within the associated
+uncertainty) of a quantity of the same kind as the unit, in a way that is consistent
+with the definition of the unit. The definition of the candela does not imply any
+particular experiment for its practical realization. While it is generally true that
+any method consistent with the laws of physics and the SI base unit definition may be
+used to realize any SI unit, base or derived, special considerations are required in
+the case of photometry to ensure that the realized unit is relevant for measurement
+of practical light sources, i.e. sources that emit not only at the wavelength
+corresponding to a frequency of stem:[540 xx 10^12 "&#x200c;" "unitsml(Hz)"]. The
+list of methods given here is not meant to be an exhaustive list of all possibilities
+but rather a list of those methods that are easiest to implement and/or provide the
+smallest uncertainties and which are officially recognized as primary methods by the
+Consultative Committee for Photometry and Radiometry. Further details on methods
+available to realize photometric and radiometric units can be found in <<zwinkels>>.
 
-As the definition of the candela is based on stem:[ii(K)_{"cd"}], and therefore on radiometric units, the practical realization of the candela and the derived photometric units is almost always based on a practical realization of radiometric units. Thus, this _mise en pratique_ logically begins with a description of methods for practical realization of radiometric units in order to provide the necessary foundation to describe the _mise en pratique_ for the candela.
+As the definition of the candela is based on stem:[ii(K)_{"cd"}], and therefore on
+radiometric units, the practical realization of the candela and the derived
+photometric units is almost always based on a practical realization of radiometric
+units. Thus, this _mise en pratique_ logically begins with a description of methods
+for practical realization of radiometric units in order to provide the necessary
+foundation to describe the _mise en pratique_ for the candela.
 
 
 [[sec-5]]
 == Practical realization of radiometric units
 
-There are two types of primary methods in general use for realizing radiometric units. These are referred to as "`detector-based`" or "`source-based`" depending on whether they rely on a primary standard detector or primary standard source, respectively.
+There are two types of primary methods in general use for realizing radiometric
+units. These are referred to as "`detector-based`" or "`source-based`" depending on
+whether they rely on a primary standard detector or primary standard source,
+respectively.
 
 
 [[sec-5-1]]
 === Detector-based radiometric traceability
 
-An absolute radiometer is an instrument which can detect and quantify the amount of incident optical radiation, where the means of quantification is by direct reference to another measurable physical phenomenon (usually this means with a route of traceability to SI electrical units, which can be measured with a lower uncertainty than other methods for measuring optical power) and that is self-calibrating, i.e. the radiometer does not require external calibration against another optical power measuring instrument or reference source. An absolute radiometer can typically take two forms, both of which have a route of traceability to SI electrical units:
+An absolute radiometer is an instrument which can detect and quantify the amount of
+incident optical radiation, where the means of quantification is by direct reference
+to another measurable physical phenomenon (usually this means with a route of
+traceability to SI electrical units, which can be measured with a lower uncertainty
+than other methods for measuring optical power) and that is self-calibrating, i.e.
+the radiometer does not require external calibration against another optical power
+measuring instrument or reference source. An absolute radiometer can typically take
+two forms, both of which have a route of traceability to SI electrical units:
 
-* [underline]#Electrical Substitution Radiometer (ESR)# -- where the heating effect of optical radiation is equated with that resulting from a substituted measured electrical power. This well-established method is now most commonly carried out with instruments cooled to cryogenic temperatures (stem:[< ~20 "unitsml(K)"]), where many of the associated sources of uncertainty are significantly reduced; these are called "`cryogenic radiometers`". For more details see <<zwinkels>>-<<hoyt>>.
+* [underline]#Electrical Substitution Radiometer (ESR)# -- where the heating effect
+of optical radiation is equated with that resulting from a substituted measured
+electrical power. This well-established method is now most commonly carried out with
+instruments cooled to cryogenic temperatures (stem:[< ~20 "unitsml(K)"]), where many
+of the associated sources of uncertainty are significantly reduced; these are called
+"`cryogenic radiometers`". For more details see <<zwinkels>>-<<hoyt>>.
 
-* [underline]#Predictable Quantum Efficient Photodiodes (PQED)# -- these are based on a low loss semi-conductor, generally silicon, and an accurate model of the photon-to-electron conversion and detection within the device, to determine the quantity of incident optical radiation from the measurement of the generated photocurrent. Although initially based on self-calibration of single photodiodes, this approach has gained in significance through the construction of '`trap detectors`', which increase overall detection efficiency through the creation of light traps from multiple reflections from a number of photodiodes with electrically combined outputs. For more details see <<zwinkels>>,<<sildoja>>,<<muller>>.
+* [underline]#Predictable Quantum Efficient Photodiodes (PQED)# -- these are based on
+a low loss semi-conductor, generally silicon, and an accurate model of the
+photon-to-electron conversion and detection within the device, to determine the
+quantity of incident optical radiation from the measurement of the generated
+photocurrent. Although initially based on self-calibration of single photodiodes,
+this approach has gained in significance through the construction of '`trap
+detectors`', which increase overall detection efficiency through the creation of
+light traps from multiple reflections from a number of photodiodes with electrically
+combined outputs. For more details see <<zwinkels>>,<<sildoja>>,<<muller>>.
 
-It should be noted that absolute radiometers are sensitive to a wide spectral range and cannot, by themselves, provide any information relating to the spectral distribution of the power from the source being measured. The addition of a spectrally selective element (e.g. filter) is necessary in order to obtain spectral information. Note that this element requires independent calibration in absolute values of spectral regular transmittance in order for a radiometer incorporating such an element to be considered '`absolute`'. In practice, the realization of the candela often involves radiometric measurements at a number of wavelengths using laser or monochromator-based light sources. It should also be noted that absolute radiometers typically measure the quantity of absorbed radiant flux, which does not include geometrical aspects of light, which are of prominent importance for photometry.
+It should be noted that absolute radiometers are sensitive to a wide spectral range
+and cannot, by themselves, provide any information relating to the spectral
+distribution of the power from the source being measured. The addition of a
+spectrally selective element (e.g. filter) is necessary in order to obtain spectral
+information. Note that this element requires independent calibration in absolute
+values of spectral regular transmittance in order for a radiometer incorporating such
+an element to be considered '`absolute`'. In practice, the realization of the candela
+often involves radiometric measurements at a number of wavelengths using laser or
+monochromator-based light sources. It should also be noted that absolute radiometers
+typically measure the quantity of absorbed radiant flux, which does not include
+geometrical aspects of light, which are of prominent importance for photometry.
 
 
 === Source-based radiometric traceability
 
-An absolute source is a source for which the amount of emitted optical radiation can be predicted based on measurements of other physical parameters. The optical radiation produced by any other source can then be measured by direct comparison with such an absolute source. There are two types of sources that can be considered absolute for certain conditions:
+An absolute source is a source for which the amount of emitted optical radiation can
+be predicted based on measurements of other physical parameters. The optical
+radiation produced by any other source can then be measured by direct comparison with
+such an absolute source. There are two types of sources that can be considered
+absolute for certain conditions:
 
-* [underline]#Planckian radiator# -- For a cavity with high emissivity (very close to unity), the emitted spectral radiance can be predicted from the thermodynamic temperature of the cavity using Planck's radiation law. In this case, traceability is to the SI unit of temperature, the kelvin. For many high-accuracy applications, the thermodynamic temperature of the cavity is determined by use of a radiometrically-calibrated filtered detector (referred to as a "`filter radiometer`") and, in this case, traceability is more appropriately considered to be "`detector-based`", to SI electrical units, as described in <<sec-5-1>>. If the radiance distribution of this source is constant in all directions, then by using a precision aperture in front of the Planckian radiator at a sufficiently large distance in a certain direction, its calculated spectral radiance can be transferred into a predictable spectral radiant intensity.
+* [underline]#Planckian radiator# -- For a cavity with high emissivity (very close to
+unity), the emitted spectral radiance can be predicted from the thermodynamic
+temperature of the cavity using Planck's radiation law. In this case, traceability is
+to the SI unit of temperature, the kelvin. For many high-accuracy applications, the
+thermodynamic temperature of the cavity is determined by use of a
+radiometrically-calibrated filtered detector (referred to as a "`filter radiometer`")
+and, in this case, traceability is more appropriately considered to be
+"`detector-based`", to SI electrical units, as described in <<sec-5-1>>. If the
+radiance distribution of this source is constant in all directions, then by using a
+precision aperture in front of the Planckian radiator at a sufficiently large
+distance in a certain direction, its calculated spectral radiance can be transferred
+into a predictable spectral radiant intensity.
 
-* [underline]#Electron storage ring producing synchrotron radiation# -- Relativistic electrons on a circular orbit emit synchrotron radiation (SR). Under certain conditions, this source can be considered absolute and in this case the spectral radiant intensity (in stem:["unitsml(W*rad^(-1))"]) of the emitted SR can be predicted from known and measured storage ring parameters and geometrical parameters through the use of the Schwinger equation <<schwinger>>. Here, traceability is to SI electrical and length units. SR covers a large dynamic range in photon flux of up to 12 decades, enabling the adjustment of the photon flux to the sensitivity of the detection system under study without changing the shape of the emitted spectrum. This is done by an appropriate adjustment of the number of stored electrons, in the range from maximum current to a single stored electron.
+* [underline]#Electron storage ring producing synchrotron radiation# -- Relativistic
+electrons on a circular orbit emit synchrotron radiation (SR). Under certain
+conditions, this source can be considered absolute and in this case the spectral
+radiant intensity (in stem:["unitsml(W*rad^(-1))"]) of the emitted SR can be
+predicted from known and measured storage ring parameters and geometrical parameters
+through the use of the Schwinger equation <<schwinger>>. Here, traceability is to SI
+electrical and length units. SR covers a large dynamic range in photon flux of up to
+12 decades, enabling the adjustment of the photon flux to the sensitivity of the
+detection system under study without changing the shape of the emitted spectrum. This
+is done by an appropriate adjustment of the number of stored electrons, in the range
+from maximum current to a single stored electron.
 
 [[sec-6]]
 == Practical realization of photon-number-based units
 
-The practical realization of units for photon-number-based quantities, such as photon flux (number of photons per second) or photon irradiance (number of photons per second per unit area) for low flux radiometric applications, can also be carried out using the detector-based and source-based radiometric methods described above and using the conversion from radiometric to photon-number-based quantities, given in <<eq-3>>. However, it is also possible to use sources that generate single photons at a known rate and photon counting as a primary method for realization of associated photon-number-based units. This approach is referred to here as "`photon-number-based`".
+The practical realization of units for photon-number-based quantities, such as photon
+flux (number of photons per second) or photon irradiance (number of photons per
+second per unit area) for low flux radiometric applications, can also be carried out
+using the detector-based and source-based radiometric methods described above and
+using the conversion from radiometric to photon-number-based quantities, given in
+<<eq-3>>. However, it is also possible to use sources that generate single photons at
+a known rate and photon counting as a primary method for realization of associated
+photon-number-based units. This approach is referred to here as
+"`photon-number-based`".
 
-In recent times, and particularly for some emerging applications, e.g. quantum optics, it has become practical to consider the full quantum nature of electromagnetic radiation as a primary traceable route to SI. Since each photon can be considered as a quantum of energy dependent on its frequency, it is conceptually simple to correlate the number of photons with an amount of energy or power. Individual photons can now be generated - using e.g. non-linear materials as well as optical and electrical based single-photon sources - and counted -- using e.g. photomultipliers, single-photon avalanche diodes, superconducting nanowire detectors and transition edge sensors. Further details on methods available for traceability of the units for radiometric quantities using photon-number-based techniques can be found in <<zwinkels>>.
+In recent times, and particularly for some emerging applications, e.g. quantum
+optics, it has become practical to consider the full quantum nature of
+electromagnetic radiation as a primary traceable route to SI. Since each photon can
+be considered as a quantum of energy dependent on its frequency, it is conceptually
+simple to correlate the number of photons with an amount of energy or power.
+Individual photons can now be generated - using e.g. non-linear materials as well as
+optical and electrical based single-photon sources - and counted -- using e.g.
+photomultipliers, single-photon avalanche diodes, superconducting nanowire detectors
+and transition edge sensors. Further details on methods available for traceability of
+the units for radiometric quantities using photon-number-based techniques can be
+found in <<zwinkels>>.
 
 
 [[sec-7]]
@@ -174,45 +391,206 @@ In recent times, and particularly for some emerging applications, e.g. quantum o
 [[sec-7-1]]
 === Traceability routes for the practical realization of photometric units
 
-<<sec-5>> outlines the traceability routes for practical realization of radiometric units. As described in <<sec-2>>, these underpin the realization of photometric units associated with the corresponding photometric quantities (e.g. luminous intensity, luminance, illuminance, luminous flux) through the use of spectral luminous efficiency functions (to provide a spectral weighting) combined with the luminous efficacy at a frequency of stem:[540 xx 10^12 "&#x200c;" "unitsml(Hz)"], as given in the definition of stem:[ii(K)_{"cd"}]. The lowest uncertainty for the realization of photometric units is currently achieved if the traceability chain starts with an absolute detector, but in the future could be achieved by using an absolute source or the photon counting approach. For more details see <<zwinkels>> and references therein.
+<<sec-5>> outlines the traceability routes for practical realization of radiometric
+units. As described in <<sec-2>>, these underpin the realization of photometric units
+associated with the corresponding photometric quantities (e.g. luminous intensity,
+luminance, illuminance, luminous flux) through the use of spectral luminous
+efficiency functions (to provide a spectral weighting) combined with the luminous
+efficacy at a frequency of stem:[540 xx 10^12 "&#x200c;" "unitsml(Hz)"], as given in
+the definition of stem:[ii(K)_{"cd"}]. The lowest uncertainty for the realization of
+photometric units is currently achieved if the traceability chain starts with an
+absolute detector, but in the future could be achieved by using an absolute source or
+the photon counting approach. For more details see <<zwinkels>> and references therein.
 
 
 [[sec-7-1-1]]
 ==== Detector-based photometric traceability
 
-The most common method for realization of photometric units is to measure the photometric output of a standards-quality light source (described in more detail below in <<sec-7-2,nosee%>>) in the desired geometric configuration using a reference photometric detector with a spectral responsivity that matches the desired luminous efficiency function and that has been spectrally calibrated for absolute irradiance responsivity traceable to an absolute radiometer (see <<sec-5-1,nosee%>>) and which is equipped with a precise aperture, which has a calibrated area traceable to the SI unit of length. The realized photometric unit is then transferred to other standards-quality light sources, (or, in a second step, to other photometric detectors), which become secondary standard photometric sources (or detectors) for the associated photometric quantity. In this case, the traceability to the SI is "`detector-based`" to SI electrical units. This method generally requires additional spectral calibration to establish the relationship (spectral mismatch) of the spectral responsivity curve of the detector to the appropriate CIE spectral luminous efficiency function. To quantify the impact of this spectral mismatch, it is also necessary to carry out a relative spectral calibration of the light source. In the case where photon-number-based quantities are experimentally measured as described in <<sec-6>> above, these can be converted to the associated photometric quantity, using <<eq-4>>, although it is more common to use a weighted integral over frequency instead of wavelength.
+The most common method for realization of photometric units is to measure the
+photometric output of a standards-quality light source (described in more detail
+below in <<sec-7-2,nosee%>>) in the desired geometric configuration using a reference
+photometric detector with a spectral responsivity that matches the desired luminous
+efficiency function and that has been spectrally calibrated for absolute irradiance
+responsivity traceable to an absolute radiometer (see <<sec-5-1,nosee%>>) and which
+is equipped with a precise aperture, which has a calibrated area traceable to the SI
+unit of length. The realized photometric unit is then transferred to other
+standards-quality light sources, (or, in a second step, to other photometric
+detectors), which become secondary standard photometric sources (or detectors) for
+the associated photometric quantity. In this case, the traceability to the SI is
+"`detector-based`" to SI electrical units. This method generally requires additional
+spectral calibration to establish the relationship (spectral mismatch) of the
+spectral responsivity curve of the detector to the appropriate CIE spectral luminous
+efficiency function. To quantify the impact of this spectral mismatch, it is also
+necessary to carry out a relative spectral calibration of the light source. In the
+case where photon-number-based quantities are experimentally measured as described in
+<<sec-6>> above, these can be converted to the associated photometric quantity, using
+<<eq-4>>, although it is more common to use a weighted integral over frequency
+instead of wavelength.
 
 
 [[sec-7-1-2]]
 ==== Source-based photometric traceability
 
-A second method realizes the photometric units directly through the use of an absolute source, whose photometric output (in the relevant geometric configuration) is calculated from first principles based upon the characteristics of the source itself. In this case, the traceability to the SI is "`source-based`". The most common absolute (calculable) source is a high temperature blackbody (a cavity with high emissivity) whose output radiant flux can be predicted from the thermodynamic temperature of the cavity using Planck's radiation law. In this case, traceability is to the SI unit of temperature, the kelvin. However, at the high temperatures usually required for photometric applications, the thermodynamic temperature is generally determined by the inversion of Planck's law via a quasi-monochromatic measurement of the absolute radiant flux output of the radiator made using one or several narrow-band detector(s) that have been calibrated by reference to an absolute radiometer, as outlined in <<sec-5-1>> above. In this case, the traceability is more appropriately considered to be "`detector-based`" to SI electrical units.
+A second method realizes the photometric units directly through the use of an
+absolute source, whose photometric output (in the relevant geometric configuration)
+is calculated from first principles based upon the characteristics of the source
+itself. In this case, the traceability to the SI is "`source-based`". The most common
+absolute (calculable) source is a high temperature blackbody (a cavity with high
+emissivity) whose output radiant flux can be predicted from the thermodynamic
+temperature of the cavity using Planck's radiation law. In this case, traceability is
+to the SI unit of temperature, the kelvin. However, at the high temperatures usually
+required for photometric applications, the thermodynamic temperature is generally
+determined by the inversion of Planck's law via a quasi-monochromatic measurement of
+the absolute radiant flux output of the radiator made using one or several
+narrow-band detector(s) that have been calibrated by reference to an absolute
+radiometer, as outlined in <<sec-5-1>> above. In this case, the traceability is more
+appropriately considered to be "`detector-based`" to SI electrical units.
 
 
 [[sec-7-2]]
 === Practical realization of the candela (stem:["unitsml(cd)"]), SI base unit of luminous intensity, stem:[ii(I)_"v"].
 
-The candela (stem:["unitsml(cd)"]) is most often realized using a standard lamp whose physical design is optimized for use in a defined direction to provide a light source (filament) that is small in relation to the distance between the source and the limiting aperture of the detector active area, such that it can be regarded as a point source in that specified direction. In the case of a tungsten standard lamp (the most commonly used form of standard lamp), the electrical operating parameters for the source are usually chosen such that the spectral output of the source approximates the defined CIE Standard Illuminant A <<iso11664>>, which has the same relative spectral output as a Planckian radiator operating at a temperature of approximately stem:[2856 "unitsml(K)"]. The geometrical configuration is established according to the relation for radiant intensity in a given direction, stem:[ii(I)_"e" = ii(phi)_e // ii Omega], and the approximation of the solid angle for large distances, stem:[ii Omega = ii(A) // r^2], where stem:[ii(phi)_"e"] is the radiant flux produced by the source of radiant intensity stem:[ii(I)_"e"] into an aperture of area stem:[ii(A)] and stem:[r] is the distance between the source and the aperture. Since the solid angle (stem:[ii Omega]) is dimensionless, it should be noted that the radiant intensity is dimensionally equivalent to the derived SI quantity radiant flux (stem:[ii(phi)_"e"]), expressed in watt (stem:["unitsml(W)"]), which can cause confusion when expressed only in SI base units, i.e. metre (stem:["unitsml(m)"]), kilogram (stem:["unitsml(kg)"]), and second (stem:["unitsml(s)"]). Thus, it is recommended to explicitly include the SI derived unit of stem:["unitsml(sr)"], as indicated in <<sec-2>> in the definition of stem:[ii(K)_{"cd"}], to clearly show the geometric dependence of the quantity. The radiant intensity is converted by <<eq-2>> to the luminous intensity using the appropriate CIE spectral luminous efficiency function and the photometric constant stem:[ii(K)_{"cd"}] <<photometry>>.
+The candela (stem:["unitsml(cd)"]) is most often realized using a standard lamp whose
+physical design is optimized for use in a defined direction to provide a light source
+(filament) that is small in relation to the distance between the source and the
+limiting aperture of the detector active area, such that it can be regarded as a
+point source in that specified direction. In the case of a tungsten standard lamp
+(the most commonly used form of standard lamp), the electrical operating parameters
+for the source are usually chosen such that the spectral output of the source
+approximates the defined CIE Standard Illuminant A <<iso11664>>, which has the same
+relative spectral output as a Planckian radiator operating at a temperature of
+approximately stem:[2856 "unitsml(K)"]. The geometrical configuration is established
+according to the relation for radiant intensity in a given direction, stem:[ii(I)_"e"
+= ii(phi)_e // ii Omega], and the approximation of the solid angle for large
+distances, stem:[ii Omega = ii(A) // r^2], where stem:[ii(phi)_"e"] is the radiant
+flux produced by the source of radiant intensity stem:[ii(I)_"e"] into an aperture of
+area stem:[ii(A)] and stem:[r] is the distance between the source and the aperture.
+Since the solid angle (stem:[ii Omega]) is dimensionless, it should be noted that the
+radiant intensity is dimensionally equivalent to the derived SI quantity radiant flux
+(stem:[ii(phi)_"e"]), expressed in watt (stem:["unitsml(W)"]), which can cause
+confusion when expressed only in SI base units, i.e. metre (stem:["unitsml(m)"]),
+kilogram (stem:["unitsml(kg)"]), and second (stem:["unitsml(s)"]). Thus, it is
+recommended to explicitly include the SI derived unit of stem:["unitsml(sr)"], as
+indicated in <<sec-2>> in the definition of stem:[ii(K)_{"cd"}], to clearly show the
+geometric dependence of the quantity. The radiant intensity is converted by <<eq-2>>
+to the luminous intensity using the appropriate CIE spectral luminous efficiency
+function and the photometric constant stem:[ii(K)_{"cd"}] <<photometry>>.
 
-In principle it would be possible to realize the candela using a stable monochromatic reference lamp emitting at the wavelength of stem:[ii(lambda)], corresponding to the frequency specified in the definition of the candela (<<sec-3-1,nosee%>>) that is mounted on a photometric bench at a known distance stem:[r] from the limiting aperture (area stem:[ii(A)]) of an absolute radiometer that measures the radiant flux. This arrangement allows the calculation of the radiant intensity at this wavelength, stem:[ii(I)_"e" (ii(lambda)_"a")]. The luminous intensity of the lamp is then obtained using the relation, stem:[ii(I)_"v" = ii(K)_{"cd"} ii(V)(ii(lambda)_"a") ii(I)_"e" (ii(lambda)_"a")]. However, such a realization would be of little use for measurements on practical broadband sources. Thus, the practical realization of the candela is predominantly carried out using one of the two following methods according to the routes described in <<sec-7-1-1>> and <<sec-7-1-2>>:
+In principle it would be possible to realize the candela using a stable monochromatic
+reference lamp emitting at the wavelength of stem:[ii(lambda)], corresponding to the
+frequency specified in the definition of the candela (<<sec-3-1,nosee%>>) that is
+mounted on a photometric bench at a known distance stem:[r] from the limiting
+aperture (area stem:[ii(A)]) of an absolute radiometer that measures the radiant
+flux. This arrangement allows the calculation of the radiant intensity at this
+wavelength, stem:[ii(I)_"e" (ii(lambda)_"a")]. The luminous intensity of the lamp is
+then obtained using the relation, stem:[ii(I)_"v" = ii(K)_{"cd"}
+ii(V)(ii(lambda)_"a") ii(I)_"e" (ii(lambda)_"a")]. However, such a realization would
+be of little use for measurements on practical broadband sources. Thus, the practical
+realization of the candela is predominantly carried out using one of the two
+following methods according to the routes described in <<sec-7-1-1>> and <<sec-7-1-2>>:
 
-* [underline]#Method A# - using a sufficiently small polychromatic source providing a nearly isotropic radiation field in the measurement direction. This is commonly an incandescent source which approximates the relative spectral power distribution of CIE standard illuminant A. For use as a luminous intensity reference lamp, a spectral characterization is needed. This spectral radiant intensity stem:[ii(I)_"e" (ii(lambda))] in a certain direction is typically measured at a sufficiently large distance stem:[r] using a series of calibrated reference filter-radiometers of known irradiance responsivity at a few discrete wavelengths in the visible wavelength range from stem:[360 "unitsml(nm)"] to stem:[830 "unitsml(nm)"] or by using a spectroradiometer with an appropriate irradiance input optic, that has been absolutely calibrated for irradiance responsivity. For these measurements, the lamp must be set according to its specified operating conditions (lamp orientation, direction of measurement and lamp current) and the distance, stem:[r], from the source to the limiting aperture area, stem:[ii(A)], of the detector must be accurately known and controlled. The radiant intensity of the polychromatic source is measured over the entire visible wavelength range, either directly at regular, closely-spaced, intervals or at a sufficient number of discrete wavelengths to enable interpolation and extrapolation to other wavelengths using an appropriate physical model. These values can then be multiplied by the desired CIE spectral luminous efficiency function and spectrally integrated to give the corresponding luminous intensity.
+* [underline]#Method A# - using a sufficiently small polychromatic source providing a
+nearly isotropic radiation field in the measurement direction. This is commonly an
+incandescent source which approximates the relative spectral power distribution of
+CIE standard illuminant A. For use as a luminous intensity reference lamp, a spectral
+characterization is needed. This spectral radiant intensity stem:[ii(I)_"e"
+(ii(lambda))] in a certain direction is typically measured at a sufficiently large
+distance stem:[r] using a series of calibrated reference filter-radiometers of known
+irradiance responsivity at a few discrete wavelengths in the visible wavelength range
+from stem:[360 "unitsml(nm)"] to stem:[830 "unitsml(nm)"] or by using a
+spectroradiometer with an appropriate irradiance input optic, that has been
+absolutely calibrated for irradiance responsivity. For these measurements, the lamp
+must be set according to its specified operating conditions (lamp orientation,
+direction of measurement and lamp current) and the distance, stem:[r], from the
+source to the limiting aperture area, stem:[ii(A)], of the detector must be
+accurately known and controlled. The radiant intensity of the polychromatic source is
+measured over the entire visible wavelength range, either directly at regular,
+closely-spaced, intervals or at a sufficient number of discrete wavelengths to enable
+interpolation and extrapolation to other wavelengths using an appropriate physical
+model. These values can then be multiplied by the desired CIE spectral luminous
+efficiency function and spectrally integrated to give the corresponding luminous
+intensity.
 
-* [underline]#Method B# - using a reference illuminance meter, which is a filtered radiometer whose relative spectral responsivity has been designed to be a close match to the spectral characteristics of the desired CIE spectral luminous efficiency function. This filter radiometer is generally used together with a precision aperture and is calibrated by reference to an absolute radiometer to give a known illuminance responsivity (stem:["unitsml(A*lm^(-1)*m^2)"]). In most cases, this involves a calibration against the absolute radiometer to give its absolute spectral irradiance responsivity (stem:["unitsml(A*W^(-1)*m^2*nm^(-1))"]) at discrete wavelengths, coupled with measurements against other reference detectors (e.g. silicon traps or PQEDs) to enable interpolation at regular intervals across the visible wavelength range. These spectral values are then converted to illuminance responsivity (for a specific source) by integration. This calibrated reference illuminance meter can then be used to calibrate a standard lamp in terms of its luminous intensity in a specified direction by means of a photometric bench, which allows the geometrical quantity of distance, stem:[r], from the source to the illuminance meter limiting aperture area, stem:[ii(A)], the alignment of the lamp, and the direction of measurement, to all be carefully controlled. A spectral calibration of the light source may also be necessary in order to correct for spectral mismatch between the illuminance meter and the required CIE spectral luminous efficiency function.
+* [underline]#Method B# - using a reference illuminance meter, which is a filtered
+radiometer whose relative spectral responsivity has been designed to be a close match
+to the spectral characteristics of the desired CIE spectral luminous efficiency
+function. This filter radiometer is generally used together with a precision aperture
+and is calibrated by reference to an absolute radiometer to give a known illuminance
+responsivity (stem:["unitsml(A*lm^(-1)*m^2)"]). In most cases, this involves a
+calibration against the absolute radiometer to give its absolute spectral irradiance
+responsivity (stem:["unitsml(A*W^(-1)*m^2*nm^(-1))"]) at discrete wavelengths,
+coupled with measurements against other reference detectors (e.g. silicon traps or
+PQEDs) to enable interpolation at regular intervals across the visible wavelength
+range. These spectral values are then converted to illuminance responsivity (for a
+specific source) by integration. This calibrated reference illuminance meter can then
+be used to calibrate a standard lamp in terms of its luminous intensity in a
+specified direction by means of a photometric bench, which allows the geometrical
+quantity of distance, stem:[r], from the source to the illuminance meter limiting
+aperture area, stem:[ii(A)], the alignment of the lamp, and the direction of
+measurement, to all be carefully controlled. A spectral calibration of the light
+source may also be necessary in order to correct for spectral mismatch between the
+illuminance meter and the required CIE spectral luminous efficiency function.
 
 
 
 === Practical realization of the lumen (stem:["unitsml(lm)"]), SI derived unit of luminous flux stem:[ii(phi)_"V"]
 
-The lumen (stem:["unitsml(lm)" = "unitsml(cd*sr)"]), can be derived from a realization of the SI unit of luminous intensity stem:[ii(I)_"v"], the candela, and the unit for solid angle stem:[ii Omega], the steradian. For a source of uniform intensity within the defined solid angle, this can be simply established using the relation stem:[ii(phi)_"V" = ii(I)_"v" ii Omega]. For the more general case of a source whose intensity varies with direction, the luminous flux stem:[ii(phi)_"V"], is obtained from the angular integration of the source luminous intensity distribution stem:[ii(I)_"V" (ii(theta),ii(phi))] measured on a spherical surface according to the relation: stem:[ii(phi)_"V" = int int ii(I)_"V" (ii(theta),ii(phi)) sin ii(theta) "&#x200c;" " d" ii(phi) " d" ii(theta)], where stem:[ii(theta)] is the polar angle and stem:[ii(phi)] is the azimuthal angle in a spherical coordinate system; the integration is carried over stem:[0 <= ii(theta) <= pi] and stem:[0 <= ii(phi) <= 2 pi]. Therefore, the lumen may also be realized by measurement with a reference illuminance meter, as described in Method B in <<sec-7-2>>. Several geometrical configurations may be utilized:
+The lumen (stem:["unitsml(lm)" = "unitsml(cd*sr)"]), can be derived from a
+realization of the SI unit of luminous intensity stem:[ii(I)_"v"], the candela, and
+the unit for solid angle stem:[ii Omega], the steradian. For a source of uniform
+intensity within the defined solid angle, this can be simply established using the
+relation stem:[ii(phi)_"V" = ii(I)_"v" ii Omega]. For the more general case of a
+source whose intensity varies with direction, the luminous flux stem:[ii(phi)_"V"],
+is obtained from the angular integration of the source luminous intensity
+distribution stem:[ii(I)_"V" (ii(theta),ii(phi))] measured on a spherical surface
+according to the relation: stem:[ii(phi)_"V" = int int ii(I)_"V" (ii(theta),ii(phi))
+sin ii(theta) "&#x200c;" " d" ii(phi) " d" ii(theta)], where stem:[ii(theta)] is the
+polar angle and stem:[ii(phi)] is the azimuthal angle in a spherical coordinate
+system; the integration is carried over stem:[0 <= ii(theta) <= pi] and stem:[0 <=
+ii(phi) <= 2 pi]. Therefore, the lumen may also be realized by measurement with a
+reference illuminance meter, as described in Method B in <<sec-7-2>>. Several
+geometrical configurations may be utilized:
 
-. [[item-73a]]The luminous flux emitted by a light source passing through an aperture of known area stem:[ii(A)] may be established using the approximation of the solid angle for large distances, stem:[ii Omega = ii(A) // r^2], and placing the aperture stem:[ii(A)] at a known distance stem:[r] from the known source of luminous intensity.
+. [[item-73a]]The luminous flux emitted by a light source passing through an aperture
+of known area stem:[ii(A)] may be established using the approximation of the solid
+angle for large distances, stem:[ii Omega = ii(A) // r^2], and placing the aperture
+stem:[ii(A)] at a known distance stem:[r] from the known source of luminous intensity.
 
-. The luminous flux emitted into a solid angle larger than that used to realize the luminous intensity for the known reference lamp may be determined using several methods of spatial integration of smaller sections. In each of these spatial integration methods, the detector used must be either a photometer with a spectral responsivity close to the desired spectral luminous efficiency function, which has been calibrated for luminous flux responsivity using configuration <<item-73a>> above, or a reference illuminance meter calibrated as described in Method B (<<sec-7-2,nosee%>>). The luminous flux integration is carried out by using either:
+. The luminous flux emitted into a solid angle larger than that used to realize the
+luminous intensity for the known reference lamp may be determined using several
+methods of spatial integration of smaller sections. In each of these spatial
+integration methods, the detector used must be either a photometer with a spectral
+responsivity close to the desired spectral luminous efficiency function, which has
+been calibrated for luminous flux responsivity using configuration <<item-73a>>
+above, or a reference illuminance meter calibrated as described in Method B
+(<<sec-7-2,nosee%>>). The luminous flux integration is carried out by using either:
 
-** [underline]#a goniophotometer# over a defined solid angle of the source. If the total luminous flux emitted by a light source is required, the integration is performed over the full solid angle stem:[0 <= ii(theta) <= pi] and stem:[0 <= ii(phi) <= 2 pi]. Note that if an illuminance meter is used that has been calibrated according to the methods in <<sec-7-4>>, the spatial integration of the source is performed over a solid angle that is defined by the illuminance responsivity (within a certain solid angle where the luminous intensity is expected to be constant) of the detector and the distance between the detector and the source.
+** [underline]#a goniophotometer# over a defined solid angle of the source. If the
+total luminous flux emitted by a light source is required, the integration is
+performed over the full solid angle stem:[0 <= ii(theta) <= pi] and stem:[0 <=
+ii(phi) <= 2 pi]. Note that if an illuminance meter is used that has been calibrated
+according to the methods in <<sec-7-4>>, the spatial integration of the source is
+performed over a solid angle that is defined by the illuminance responsivity (within
+a certain solid angle where the luminous intensity is expected to be constant) of the
+detector and the distance between the detector and the source.
 
-** [underline]#an integrating sphere# in combination with a detector, where the spectral responsivity of the sphere/detector combination is a close match to the desired spectral luminous efficiency function and that has been calibrated, for example, by introducing a known amount of luminous flux into the sphere (measured using method <<item-73a>> above). The luminous flux emitted from a selected section of the source is measured by introducing only that part of the flux into the sphere. If it is desired to measure the cumulative luminous flux of the source for a solid angle of stem:[4 pi "unitsml(sr)"], this total luminous flux (of the source) is then determined by placing the source entirely within the sphere. As the angular distribution of the source is generally very different from the light beam used for calibrating the sphere, the effect of the spatial non-uniformity of the sphere has to be characterized and corrected by an appropriate method. To account for spectral and spatial non-uniformities of the sphere, which influence the measurement results if different sources or geometries are compared, additional corrections must be applied. Furthermore, the linearity of the system needs to be characterized, to account for the very different flux levels that occur for the source outside and inside the sphere, respectively.
+** [underline]#an integrating sphere# in combination with a detector, where the
+spectral responsivity of the sphere/detector combination is a close match to the
+desired spectral luminous efficiency function and that has been calibrated, for
+example, by introducing a known amount of luminous flux into the sphere (measured
+using method <<item-73a>> above). The luminous flux emitted from a selected section
+of the source is measured by introducing only that part of the flux into the sphere.
+If it is desired to measure the cumulative luminous flux of the source for a solid
+angle of stem:[4 pi "unitsml(sr)"], this total luminous flux (of the source) is then
+determined by placing the source entirely within the sphere. As the angular
+distribution of the source is generally very different from the light beam used for
+calibrating the sphere, the effect of the spatial non-uniformity of the sphere has to
+be characterized and corrected by an appropriate method. To account for spectral and
+spatial non-uniformities of the sphere, which influence the measurement results if
+different sources or geometries are compared, additional corrections must be applied.
+Furthermore, the linearity of the system needs to be characterized, to account for
+the very different flux levels that occur for the source outside and inside the
+sphere, respectively.
 
 Further details concerning the measurement of luminous flux may be found in <<ohno>>.
 
@@ -220,27 +598,72 @@ Further details concerning the measurement of luminous flux may be found in <<oh
 [[sec-7-4]]
 === Practical realization of the lux (stem:["unitsml(lx)"]), SI derived unit of illuminance stem:[ii(E)_"v"]
 
-The lux (stem:["unitsml(lx)" = "unitsml(cd*sr*m^(-2),symbol:cd cdot sr cdot m^(-2))"]) can be derived from a realization of the candela and the unit of length, using the relation: stem:[ii(E)_"v" = ii(I)_"v" ii Omega_0 // r^2], where stem:[r] is an appropriately chosen distance from the source with luminous intensity stem:[ii(I)_"v"] at which the illuminance stem:[ii(E)_"v"] is produced to satisfy the condition that the area of the curved surface of the sphere, stem:[ii(A)_"s"], is approximately equal to the area of its two-dimensional projection, stem:[ii(A)], i.e. stem:[ii(A)_S ~= ii(A)] (see <<item-73a,nosee%>>), which would be lost if stem:[ii(A)_S] is simply exchanged by stem:[ii(A)]. More details can be found in <<cie-210>>.
+The lux (stem:["unitsml(lx)" = "unitsml(cd*sr*m^(-2),symbol:cd cdot sr cdot
+m^(-2))"]) can be derived from a realization of the candela and the unit of length,
+using the relation: stem:[ii(E)_"v" = ii(I)_"v" ii Omega_0 // r^2], where stem:[r] is
+an appropriately chosen distance from the source with luminous intensity
+stem:[ii(I)_"v"] at which the illuminance stem:[ii(E)_"v"] is produced to satisfy the
+condition that the area of the curved surface of the sphere, stem:[ii(A)_"s"], is
+approximately equal to the area of its two-dimensional projection, stem:[ii(A)], i.e.
+stem:[ii(A)_S ~= ii(A)] (see <<item-73a,nosee%>>), which would be lost if
+stem:[ii(A)_S] is simply exchanged by stem:[ii(A)]. More details can be found in
+<<cie-210>>.
 
-The lux may also be realized directly from an absolute radiometer calibrated for spectral irradiance responsivity (see <<sec-5-1,nosee%>>) or from a calculable blackbody source. Since the latter is primarily a radiance or luminance source, the illuminance incident upon a surface at a distance stem:[r] from the output aperture of the source is dependent upon the area of the source output aperture, the distance stem:[r], and the area of the surface at which the flux is received. The illuminance of the blackbody source is determined by multiplying the spectral irradiance of the blackbody by the desired standard CIE spectral luminous efficiency function and spectrally integrating, using the equation for realization of spectral irradiance scales from absolute radiance sources given in (<<gaertner>>, Equation 24).
+The lux may also be realized directly from an absolute radiometer calibrated for
+spectral irradiance responsivity (see <<sec-5-1,nosee%>>) or from a calculable
+blackbody source. Since the latter is primarily a radiance or luminance source, the
+illuminance incident upon a surface at a distance stem:[r] from the output aperture
+of the source is dependent upon the area of the source output aperture, the distance
+stem:[r], and the area of the surface at which the flux is received. The illuminance
+of the blackbody source is determined by multiplying the spectral irradiance of the
+blackbody by the desired standard CIE spectral luminous efficiency function and
+spectrally integrating, using the equation for realization of spectral irradiance
+scales from absolute radiance sources given in (<<gaertner>>, Equation 24).
 
 
 [[sec-7-5]]
 === Practical realization of the candela per square metre (stem:["unitsml(cd*m^(-2))"]), SI derived unit of luminance, stem:[ii(L)_"v"]
 
-The unit of luminance (stem:["unitsml(cd*m^(-2))"]) in a given direction, can be realized using a diffuse Lambertian source either by calculating the luminance of a light source itself, such as a blackbody radiator, or by measuring the luminance in the specified direction from a uniformly diffusing surface produced via an integrating sphere or a white diffuse reflecting surface.
+The unit of luminance (stem:["unitsml(cd*m^(-2))"]) in a given direction, can be
+realized using a diffuse Lambertian source either by calculating the luminance of a
+light source itself, such as a blackbody radiator, or by measuring the luminance in
+the specified direction from a uniformly diffusing surface produced via an
+integrating sphere or a white diffuse reflecting surface.
 
-* The realization of the unit of luminance using a blackbody radiator requires the calculation of the absolute spectral radiance of the blackbody aperture using Planck's law and the known thermodynamic temperature of the blackbody. The corresponding luminance of the blackbody source is then directly calculable from its spectral radiance and the appropriate CIE spectral luminous efficiency function, as described in <<sec-3-1>>.
+* The realization of the unit of luminance using a blackbody radiator requires the
+calculation of the absolute spectral radiance of the blackbody aperture using
+Planck's law and the known thermodynamic temperature of the blackbody. The
+corresponding luminance of the blackbody source is then directly calculable from its
+spectral radiance and the appropriate CIE spectral luminous efficiency function, as
+described in <<sec-3-1>>.
 
-* For the realization of the unit of luminance using an integrating sphere configuration, the luminance at the output port is determined from either the luminous flux in the forward direction, i.e. partial luminous flux (for definition of LED partial luminous flux, see <<cie-s025>>) from the port through the aperture of a photometer calibrated as indicated in <<sec-7-2>>, or from the illuminance at the input aperture of a reference photometer calibrated using the relation given in <<sec-7-4>>. The partial luminous flux / illuminance at the calibrated photometer is dependent upon the luminance of the sphere aperture and a geometrical factor that depends upon the distance stem:[r], and the aperture areas of both the sphere port and the photometer input aperture <<ohno>>, <<gaertner>>. As an alternative to using an integrating sphere configuration, another sufficiently uniform luminance source can be used.
+* For the realization of the unit of luminance using an integrating sphere
+configuration, the luminance at the output port is determined from either the
+luminous flux in the forward direction, i.e. partial luminous flux (for definition of
+LED partial luminous flux, see <<cie-s025>>) from the port through the aperture of a
+photometer calibrated as indicated in <<sec-7-2>>, or from the illuminance at the
+input aperture of a reference photometer calibrated using the relation given in
+<<sec-7-4>>. The partial luminous flux / illuminance at the calibrated photometer is
+dependent upon the luminance of the sphere aperture and a geometrical factor that
+depends upon the distance stem:[r], and the aperture areas of both the sphere port
+and the photometer input aperture <<ohno>>, <<gaertner>>. As an alternative to using
+an integrating sphere configuration, another sufficiently uniform luminance source
+can be used.
 
-* For the realization of the unit of luminance using the diffuse reflecting surface configuration, the luminance is calculated from the illuminance produced at the reflecting standard by the luminous intensity source (see <<sec-7-4,nosee%>>) and the luminous reflectance factor for the white diffuse reflecting standard, determined spectrophotometrically under the same geometric conditions as used for the luminance measurement <<gaertner>>.
+* For the realization of the unit of luminance using the diffuse reflecting surface
+configuration, the luminance is calculated from the illuminance produced at the
+reflecting standard by the luminous intensity source (see <<sec-7-4,nosee%>>) and the
+luminous reflectance factor for the white diffuse reflecting standard, determined
+spectrophotometrically under the same geometric conditions as used for the luminance
+measurement <<gaertner>>.
 
 
 [[sec-8]]
 == Consideration of measurement uncertainty
 
-Every measurement value has to be expressed with an associated measurement uncertainty. A general description on how to deal with uncertainties in photometry is given in <<cie-198>>, <<cgm-100>>.
+Every measurement value has to be expressed with an associated measurement
+uncertainty. A general description on how to deal with uncertainties in photometry is
+given in <<cie-198>>, <<cgm-100>>.
 
 
 [bibliography]
@@ -279,4 +702,3 @@ Every measurement value has to be expressed with an associated measurement uncer
 * [[[cie-198,16]]] CIE 198:2011 Determination of Measurement Uncertainties in Photometry.
 
 * [[[cgm-100,17]]] CGM 100:2008 Evaluation of measurement data -- Guide to the expression of uncertainty in measurement.
-

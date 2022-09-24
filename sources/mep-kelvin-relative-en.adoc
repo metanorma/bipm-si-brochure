@@ -61,25 +61,39 @@
 
 == Introduction
 
-The implementation of relative primary radiometric thermometry requires the use of one or more fixed point blackbody sources. There are three approaches to this type of thermometry that could be implemented:
+The implementation of relative primary radiometric thermometry requires the use of one
+or more fixed point blackbody sources. There are three approaches to this type of
+thermometry that could be implemented:
 
 * Extrapolation based on one fixed point.
 * Interpolation between two or three fixed points.
 * Least-squares fitting if more than three fixed points are used.
 
-After introducing fixed-point temperatures and the measurement model, these three approaches are briefly outlined below.
+After introducing fixed-point temperatures and the measurement model, these three
+approaches are briefly outlined below.
 
 == Definitive values for a selected set of high-temperature fixed points (HTFPs)
 
-Fixed point values are required to implement this approach. One or more of the fixed points could be those of the current International Temperature Scale of 1990, ITS-90 (Ag, Au or Cu), but used with the most recent recommended thermodynamic temperature values. Other fixed points that could be used are the high-temperature fixed points (HTFPs) <<machin6,Machin 2013>> whose temperatures are assigned by primary radiometry.
+Fixed point values are required to implement this approach. One or more of the fixed
+points could be those of the current International Temperature Scale of 1990, ITS-90
+(stem:["Ag"], stem:["Au"] or stem:["Cu"]), but used with the most recent recommended
+thermodynamic temperature values. Other fixed points that could be used are the
+high-temperature fixed points (HTFPs) <<machin6,Machin 2013>> whose temperatures are
+assigned by primary radiometry.
 
-The below tabulated point of inflection (poi) and equilibrium liquidus (elq) thermodynamic temperatures were agreed for Co-C, Pt-C and Re-C as definitive values by the Working Group on Non-Contact Thermometry of the Consultative Committee for Thermometry (CCT WG NCTh) at their meeting on 31 May 2017. The values are taken from <<wooliams, Woolliams _et al._ 2016>> and <<lowe, Lowe _et al._ 2017>> respectively.
+The below tabulated point of inflection (poi) and equilibrium liquidus (elq)
+thermodynamic temperatures were agreed for stem:["Co"]-stem:["C"],
+stem:["Pt"]-stem:["C"] and stem:["Re"]-stem:["C"] as definitive values by
+the Working Group on Non-Contact Thermometry of the Consultative Committee for
+Thermometry (CCT WG NCTh) at their meeting on 31 May 2017. The values are taken from
+<<wooliams, Woolliams _et al._ 2016>> and <<lowe, Lowe _et al._ 2017>> respectively.
 
-The Pd-C point of inflection temperature value is taken from a critical evaluation of published values taken from <<sadli, Sadli _et al._ 2005>>.
+The stem:["Pd"]-stem:["C"] point of inflection temperature value is taken from a
+critical evaluation of published values taken from <<sadli, Sadli _et al._ 2005>>.
 
 [[table1]]
 [cols="^,^,^,^,^"]
-.Point of inflection (poi) and equilibrium liquidus (elq) thermodynamic temperatures for Co-C, Pd-C, Pt-C and Re-C
+.Point of inflection (poi) and equilibrium liquidus (elq) thermodynamic temperatures for stem:["Co"]-stem:["C"], stem:["Pd"]-stem:["C"], stem:["Pt"]-stem:["C"] and stem:["Re"]-stem:["C"]
 |===
 | HTFP a| Thermodynamic temperature (poi) / stem:["unitsml(K)"] a| Uncertainty (poi) (stem:[k = 2]) / stem:["unitsml(K)"] a| Thermodynamic temperature (elq) / stem:["unitsml(K)"] a| Uncertainty (elq) (stem:[k = 2]) / stem:["unitsml(K)"]
 | Co-C | 1597.39 | 0.13 | 1597.48 | 0.14
@@ -93,7 +107,8 @@ This table will be reviewed and updated periodically.
 
 == Mathematical model of the measurement
 
-The measurement equation for the radiometer signal, stem:[ii(S)(ii(T))], is the following <<eq1>>:
+The measurement equation for the radiometer signal, stem:[ii(S)(ii(T))], is the
+following <<eq1>>:
 
 [[eq1]]
 [stem]
@@ -101,9 +116,18 @@ The measurement equation for the radiometer signal, stem:[ii(S)(ii(T))], is the 
 ii(S)(ii(T)) = ii(K) int_0^(oo) ii(varepsilon) (ii(lambda),ii(T)) s(ii(lambda)) ii(L)_("b")(ii(lambda),ii(T))"d" ii(lambda).
 ++++
 
-The terms in the equation are: stem:[ii(K)] is a geometric factor associated with the actual form of primary radiometry, stem:[ii(varepsilon)(ii(lambda),ii(T))] the emissivity of the blackbody radiator, stem:[s(ii(lambda))] the spectral responsivity, stem:[ii(L)_("b")(ii(lambda),ii(T))] the Planck function and stem:[ii(T)] the thermodynamic temperature.
+The terms in the equation are: stem:[ii(K)] is a geometric factor associated with the
+actual form of primary radiometry, stem:[ii(varepsilon)(ii(lambda),ii(T))] the
+emissivity of the blackbody radiator, stem:[s(ii(lambda))] the spectral responsivity,
+stem:[ii(L)_("b")(ii(lambda),ii(T))] the Planck function and stem:[ii(T)] the
+thermodynamic temperature.
 
-Because of the integral over the spectral responsivity to account for the finite bandwidth of the radiometer, <<eq1>> is not well suited to interpolation or least-squares fitting (stem:[n > 1]). To overcome this difficulty, the radiometer signal must be approximated by an analytic equation with a number of adjustable parameters. The Planck version of the Sakuma-Hattori equation <<eq2>> <<sakuma,Sakuma & Kobayashi 1997>>, which involves only a small approximation for small bandwidths, is recommended:
+Because of the integral over the spectral responsivity to account for the finite
+bandwidth of the radiometer, <<eq1>> is not well suited to interpolation or
+least-squares fitting (stem:[n > 1]). To overcome this difficulty, the radiometer signal
+must be approximated by an analytic equation with a number of adjustable parameters. The
+Planck version of the Sakuma-Hattori equation <<eq2>> <<sakuma,Sakuma & Kobayashi
+1997>>, which involves only a small approximation for small bandwidths, is recommended:
 
 [[eq2]]
 [stem]
@@ -111,29 +135,72 @@ Because of the integral over the spectral responsivity to account for the finite
 ii(S)(ii(T)) = C/("exp"((c_2')/(ii(AT)+ii(B)))-1)
 ++++
 
-where stem:[c_2' = c_2//n = hc//kn], where stem:[k] is the Boltzmann constant, stem:[h] is the Planck constant, stem:[c] the speed of light in a vacuum, stem:[n] is the refractive index of the gas in the optical path, stem:[ii(A)], stem:[ii(B)] and stem:[ii(C)] are related to the radiometer's spectral responsivity, stem:[s(ii(lambda))]. Measured (stem:[ii(T), ii(S)]) pairs form the raw data for the extrapolation, interpolation or least-squares fitting. One important condition is that the bandwidth of the radiometer must be narrow compared to the centre wavelength, stem:[Delta ii(lambda) // ii(lambda) < < 1].
+where stem:[c_2' = c_2//n = hc//kn], where stem:[k] is the Boltzmann constant, stem:[h]
+is the Planck constant, stem:[c] the speed of light in a vacuum, stem:[n] is the
+refractive index of the gas in the optical path, stem:[ii(A)], stem:[ii(B)] and
+stem:[ii(C)] are related to the radiometer's spectral responsivity,
+stem:[s(ii(lambda))]. Measured (stem:[ii(T), ii(S)]) pairs form the raw data for the
+extrapolation, interpolation or least-squares fitting. One important condition is that
+the bandwidth of the radiometer must be narrow compared to the centre wavelength,
+stem:[Delta ii(lambda) // ii(lambda) < < 1].
 
-More details of these approaches can be found in <<machin4, Machin _et al._ 2010 {1}>>, <<machin5, Machin _et al._ 2010 {2}>>, particularly Annex 2 of {1}, and in <<saunders10, Saunders 2011>>, <<bloembergen1, Bloembergen and Yamada 2011>>.
+More details of these approaches can be found in <<machin4, Machin _et al._ 2010 {1}>>,
+<<machin5, Machin _et al._ 2010 {2}>>, particularly Annex 2 of <<machin4, {1}>>, and in
+<<saunders10, Saunders 2011>>, <<bloembergen1, Bloembergen and Yamada 2011>>.
 
 === Extrapolation using one fixed point
 
-This stem:[n = 1] scheme is equivalent to the ITS-90 formalism, but uses a current thermodynamic temperature of the fixed point (as well as knowledge of the relative spectral responsivity) to extrapolate to other thermodynamic temperatures. However, the choice of the fixed point is not restricted to the Ag, Au or Cu point, as in the ITS-90. The uncertainty associated with the thermodynamic temperature of the fixed point must be taken into account in the uncertainty analysis (this uncertainty is zero for the ITS-90 approach).
+This stem:[n = 1] scheme is equivalent to the ITS-90 formalism, but uses a current
+thermodynamic temperature of the fixed point (as well as knowledge of the relative
+spectral responsivity) to extrapolate to other thermodynamic temperatures. However, the
+choice of the fixed point is not restricted to the stem:["Ag"], stem:["Au"] or
+stem:["Cu"] point, as in the ITS-90.
+The uncertainty associated with the thermodynamic temperature of the fixed point must be
+taken into account in the uncertainty analysis (this uncertainty is zero for the ITS-90
+approach).
 
 === Interpolation between two fixed points
 
-Two fixed points (stem:[n = 2]) are the minimum required for interpolation <<bloembergen2, Bloembergen _et al._ 2003>>, <<saunders9, Saunders _et al._ 2005>>. If the two fixed points are as far from each other as practically feasible (e.g., the Ag point and the highest available HTFP), the scheme combines extension in range with a very low uncertainty. Some extrapolation beyond the calibration points may also be acceptable. For example the scheme can be implemented over the range from about stem:[1000 "unitsml(K)"] to stem:[3300 "unitsml(K)"]. Only a crude knowledge of the relative spectral responsivity function is required. The uncertainties associated with interpolation and extrapolation will clearly depend on the temperatures of the calibration points used and their associated uncertainties.
+Two fixed points (stem:[n = 2]) are the minimum required for interpolation
+<<bloembergen2, Bloembergen _et al._ 2003>>, <<saunders9, Saunders _et al._ 2005>>. If
+the two fixed points are as far from each other as practically feasible (e.g., the stem:["Ag"]
+point and the highest available HTFP), the scheme combines extension in range with a
+very low uncertainty. Some extrapolation beyond the calibration points may also be
+acceptable. For example the scheme can be implemented over the range from about
+stem:[1000 "unitsml(K)"] to stem:[3300 "unitsml(K)"]. Only a crude knowledge of the
+relative spectral responsivity function is required. The uncertainties associated with
+interpolation and extrapolation will clearly depend on the temperatures of the
+calibration points used and their associated uncertainties.
 
 === Interpolation between three fixed points
 
-An alternative option is a three-point interpolation scheme (stem:[n = 3]) using one pure metal fixed point and two HTFPs, or alternatively three HTFPs. One advantage of this approach is that knowledge of the spectral responsivity function is no longer needed. A disadvantage is that the uncertainty tends to have slight oscillations between the interpolating points. In this case extrapolation beyond the interpolating end points is not recommended because of the rapid increase in uncertainty.
+An alternative option is a three-point interpolation scheme (stem:[n = 3]) using one
+pure metal fixed point and two HTFPs, or alternatively three HTFPs. One advantage of
+this approach is that knowledge of the spectral responsivity function is no longer
+needed. A disadvantage is that the uncertainty tends to have slight oscillations between
+the interpolating points. In this case extrapolation beyond the interpolating end points
+is not recommended because of the rapid increase in uncertainty.
 
 === Least squares approach
 
-Using more than three fixed points allows stem:[ii(T)_("R")] to be realised by least-squares fitting of <<eq2>> to the measured (stem:[ii(T)_("R"), ii(S)]) pairs. Because the uncertainty components associated with the calibration of the radiometer are generally reduced approximately by a factor of stem:[sqrt(n//3)], where stem:[n] is the number of fixed points, the total uncertainty is reduced as the number of fixed points increases. However, the uncertainty associated with measuring the unknown temperature is the same as for the three-point interpolation scheme, so the total uncertainty may not be significantly lower than the three-point scheme. A particular advantage is that the redundancy of HTFPs in a least-squares scheme provides additional security in realisation of temperatures. Extrapolation beyond the extreme end points is again not recommended.
+Using more than three fixed points allows stem:[ii(T)_("R")] to be realised by
+least-squares fitting of <<eq2>> to the measured (stem:[ii(T)_("R"), ii(S)]) pairs.
+Because the uncertainty components associated with the calibration of the radiometer are
+generally reduced approximately by a factor of stem:[sqrt(n//3)], where stem:[n] is the
+number of fixed points, the total uncertainty is reduced as the number of fixed points
+increases. However, the uncertainty associated with measuring the unknown temperature is
+the same as for the three-point interpolation scheme, so the total uncertainty may not
+be significantly lower than the three-point scheme. A particular advantage is that the
+redundancy of HTFPs in a least-squares scheme provides additional security in
+realisation of temperatures. Extrapolation beyond the extreme end points is again not
+recommended.
 
 == Uncertainty analysis
 
-Details of the uncertainty analysis are found in document CCT/10-12 <<machin4, Machin _et al._ 2010 {1}>> and <<saunders10,Saunders (2011)>>. These run to some 20 pages and it is not appropriate to repeat the details here. <<fig1>> summarizes the possible magnitude of uncertainties from the different approaches given above.
+Details of the uncertainty analysis are found in document CCT/10-12 <<machin4, Machin
+_et al._ 2010 {1}>> and <<saunders10,Saunders (2011)>>. These run to some 20 pages and
+it is not appropriate to repeat the details here. <<fig1>> summarizes the possible
+magnitude of uncertainties from the different approaches given above.
 
 [[fig1]]
 .Comparison of combined standard uncertainties for each of the examples considered above. The curve labelled stem:[n = 1] gives the uncertainty in thermodynamic stem:[ii(T)] extrapolated from the gold point assuming an uncertainty in the gold-point temperature as determined by absolute primary radiometry. For stem:[n = 1] (ITS-90) the thermodynamic uncertainty associated with the gold-point temperature is not included. The result for the best possible absolute primary radiometric thermometry (stem:[n = 0]) is also shown for comparison.
