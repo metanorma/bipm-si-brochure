@@ -24,37 +24,66 @@
 
 .Foreword
 
-_Basic Statement: As of the 20th May 2019 the definition of the SI unit of mass will change from the value of the International Prototype kilogram to a definition related to a fixed numerical value of the Planck constant._
+_Basic Statement: As of the 20th May 2019 the definition of the SI unit of mass will
+change from the value of the International Prototype kilogram to a definition related to
+a fixed numerical value of the Planck constant._
 
-The four phases necessary for the reliable transition from the IPK to independent NMI realizations of the unit of mass
+The four phases necessary for the reliable transition from the IPK to independent NMI
+realizations of the unit of mass
 
 Consultative Committee for Mass and Related Quantities
 
 
-
 == Introduction
 
-This note explains how the _mise en pratique_ <<bipm-si-brochure>> for the definition of the kilogram should be implemented during a transition period to bring it in line with CCM Recommendation G1 (2017) on the dissemination process after the approved redefinition of the kilogram <<resolution-1>>. It adds greater detail to some elements of the paper: http://iopscience.iop.org/article/10.1088/1681-7575/aa8d2d/pdf[Maintaining and disseminating the kilogram following its redefinition], published in <<metrologia54-s99,_Metrologia_ *54*(6), S99-S107 2017>>.
+This note explains how the _mise en pratique_ <<bipm-si-brochure>> for the definition of
+the kilogram should be implemented during a transition period to bring it in line with
+CCM Recommendation G1 (2017) on the dissemination process after the approved
+redefinition of the kilogram <<resolution-1>>. It adds greater detail to some elements
+of the paper: http://iopscience.iop.org/article/10.1088/1681-7575/aa8d2d/pdf[Maintaining
+and disseminating the kilogram following its redefinition], published in
+<<metrologia54-s99,_Metrologia_ *54*(6), S99-S107 2017>>.
 
 
 == Background
 
-At the 16th meeting (2017) of the Consultative Committee for Mass and Related Quantities (CCM), RECOMMENDATION G 1 (2017), For a new definition of the kilogram in 2018 was agreed (https://www.bipm.org/cc/CCM/Allowed/16/06E_Final_CCM-Recommendation_G1-2017.pdf). A key part of the recommendation was that;
+At the 16th meeting (2017) of the Consultative Committee for Mass and Related Quantities
+(CCM), RECOMMENDATION G 1 (2017), For a new definition of the kilogram in 2018 was
+agreed (https://www.bipm.org/cc/CCM/Allowed/16/06E_Final_CCM-Recommendation_G1-2017.pdf). A key
+part of the recommendation was that;
 
 ____
-_"those National Metrology Institutes having a realization of the kilogram to avail themselves of the consensus value (as determined from the ongoing comparison) when disseminating the unit of mass according to the new definition, until the dispersion in values becomes compatible with the individual realization uncertainties, thus preserving the international equivalence of calibration certificates and in accordance with the principles and agreed protocols of the CIPM Mutual Recognition Arrangement"_
+_"those National Metrology Institutes having a realization of the kilogram to avail
+themselves of the consensus value (as determined from the ongoing comparison) when
+disseminating the unit of mass according to the new definition, until the dispersion in
+values becomes compatible with the individual realization uncertainties, thus preserving
+the international equivalence of calibration certificates and in accordance with the
+principles and agreed protocols of the CIPM Mutual Recognition Arrangement"_
 ____
 
-The need to adopt a consensus value for realization of the unit of mass following the redefinition of the kilogram has arisen due to the discrepancy between the values of the Planck constant (stem:[h]) measured by the Kibble balance and X-ray crystal density (XRCD) experiments as submitted to CODATA for the 2017 Special Adjustment of the Fundamental Constants <<newell>>. In order to ensure the continuity, temporal stability and equivalence of the SI unit of mass the use of a consensus value for the kilogram after its redefinition was agreed by the CCM at the 16th meeting in May 2017. The use of a consensus value will facilitate the smooth transition from traceability derived from the International Prototype kilogram (IPK) to a point where individual realization experiments can be used for sovereign realization and dissemination of the unit of mass.
+The need to adopt a consensus value for realization of the unit of mass following the
+redefinition of the kilogram has arisen due to the discrepancy between the values of the
+Planck constant (stem:[h]) measured by the Kibble balance and X-ray crystal density
+(XRCD) experiments as submitted to CODATA for the 2017 Special Adjustment of the
+Fundamental Constants <<newell>>. In order to ensure the continuity, temporal stability
+and equivalence of the SI unit of mass the use of a consensus value for the kilogram
+after its redefinition was agreed by the CCM at the 16th meeting in May 2017. The use of
+a consensus value will facilitate the smooth transition from traceability derived from
+the International Prototype kilogram (IPK) to a point where individual realization
+experiments can be used for sovereign realization and dissemination of the unit of mass.
 
 
 == Implementation of the kilogram redefinition
 
 === The four phases
 
-The implementation of the kilogram dissemination will take place in three consecutive phases following on from the definition relative to the IPK (Phase 0).
+The implementation of the kilogram dissemination will take place in three consecutive
+phases following on from the definition relative to the IPK (Phase 0).
 
-<<table-1>> gives details of the present traceability and the three subsequent phases necessary for the reliable transition from the use of the IPK to the eventual realization and dissemination of the unit of mass from individual _National Measurement Institutes_ (NMIs) realization experiments.
+<<table-1>> gives details of the present traceability and the three subsequent phases
+necessary for the reliable transition from the use of the IPK to the eventual
+realization and dissemination of the unit of mass from individual _National Measurement
+Institutes_ (NMIs) realization experiments.
 
 [%landscape]
 <<<
@@ -81,7 +110,9 @@ stem:[u_{m_{"IPK"}} -= 0]
 | Dissemination from national prototype traceable to IPK
 
 | 1
-| 20 May 19 - date 1 footnote:[date 1 = CCM approval of the consensus value resulting from the first KC of realization experiments after the implementation of the revised SI, expected Q1 2020.]
+| 20 May 19 - date 1 footnote:[date 1 = CCM approval of the consensus value resulting
+from the first KC of realization experiments after the implementation of the revised SI,
+expected Q1 2020.]
 | Traceability to the Planck constant via the IPK, with additional uncertainty from the (new) definition
 a| stem:[m_{"IPK"} = 1 "unitsml(kg)"] +
 stem:[u_{m_{"IPK"}} = 10 "unitsml(ug)"]
@@ -90,8 +121,14 @@ stem:[u_{m_{"IPK"}} = 10 "unitsml(ug)"]
 | Dissemination from national prototype traceable to IPK, with stem:[10 "unitsml(ug)"] added uncertainty
 
 | 2
-| date 1 –- date 2 footnote:[date 2 = CCM decision that dissemination from consensus value no longer necessary, because dispersion of calibration results from validated primary realization experiments is compatible with their individual uncertainties.]
-| Traceability to the Planck constant, dissemination from a consensus value footnote:[CV (Consensus value). The consensus value (CV) will be managed by a CCM task group to ensure stability and continuity, taking all new realizations and comparisons into account and advising the CCM should it become clear that a consensus value is no longer required.] (CV)
+| date 1 –- date 2 footnote:[date 2 = CCM decision that dissemination from consensus
+value no longer necessary, because dispersion of calibration results from validated
+primary realization experiments is compatible with their individual uncertainties.]
+| Traceability to the Planck constant, dissemination from a consensus value footnote:[CV
+(Consensus value). The consensus value (CV) will be managed by a CCM task group to
+ensure stability and continuity, taking all new realizations and comparisons into
+account and advising the CCM should it become clear that a consensus value is no longer
+required.] (CV)
 | Consensus value (CV)
 | stem:[~~ sqrt{u_{"CV"}^2 + u_{"stab"}^2 (t)}]
 | contribute to CV (via KC), improve experiments and resolve discrepancies
@@ -104,7 +141,8 @@ a| Fixed value of stem:[h] +
 stem:[u(h) -= 0]
 | (Uncertainty of BIPM realization experiment)
 | Realization of the unit of mass, Participation in KCs to demonstrate equivalence
-| Dissemination from validated realization experiments with the uncertainty of the experiment. The terms of the CIPM MRA are applicable.
+| Dissemination from validated realization experiments with the uncertainty of the
+experiment. The terms of the CIPM MRA are applicable.
 |===
 
 [%portrait]
@@ -113,29 +151,61 @@ stem:[u(h) -= 0]
 
 === Definition of the terms used
 
-KCRV (Key Comparison Reference Value): Output of a statistical analysis of all the data available from completed Key Comparisons (in this case a comparison of realizations of the kilogram).
+KCRV (Key Comparison Reference Value): Output of a statistical analysis of all the data
+available from completed Key Comparisons (in this case a comparison of realizations of
+the kilogram).
 
 stem:[m_{"IPK"}] : The mass of the International Prototype of the Kilogram (IPK)
 
-stem:[u_{m_{"IPK"}}]: The uncertainty assigned to the mass of the IPK directly after the redefinition. The uncertainty of the adjusted value of the Planck constant stem:[h], prior to the redefinition, will be attributed to the mass of the IPK right after the redefinition. As per Newell et al <<newell>> the relative standard uncertainty in stem:[h] is 1 part in stem:[10^8]. Thus, after redefinition, stem:[u_{m_{"IPK"}} = 10 "unitsml(ug)"].
+stem:[u_{m_{"IPK"}}]: The uncertainty assigned to the mass of the IPK directly after the
+redefinition. The uncertainty of the adjusted value of the Planck constant stem:[h],
+prior to the redefinition, will be attributed to the mass of the IPK right after the
+redefinition. As per Newell et al <<newell>> the relative standard uncertainty in
+stem:[h] is 1 part in stem:[10^8]. Thus, after redefinition, stem:[u_{m_{"IPK"}} = 10
+"unitsml(ug)"].
 
-stem:[u_{"stab"} (t)] : The uncertainty contribution from the stability of BIPM working standards at time stem:[t].
+stem:[u_{"stab"} (t)] : The uncertainty contribution from the stability of BIPM working
+standards at time stem:[t].
 
-Initially, at the point of the kilogram redefinition (May 2019, stem:[t=0]), the value of stem:[u_{"stab"} (t)] will be approximately stem:[4 "unitsml(ug)"]. Each year after the redefinition the value of stem:[u_{"stab"} (t)] will increase by approximately stem:[1 "unitsml(ug)"] <<mirandes>>.
+Initially, at the point of the kilogram redefinition (May 2019, stem:[t=0]), the value
+of stem:[u_{"stab"} (t)] will be approximately stem:[4 "unitsml(ug)"]. Each year after
+the redefinition the value of stem:[u_{"stab"} (t)] will increase by approximately
+stem:[1 "unitsml(ug)"] <<mirandes>>.
 
-stem:[u_{"stab.NMI"}(t)] : The uncertainty contribution from the stability of the NMI mass standards used to disseminate the consensus value. This will need to be estimated by the individual NMIs. Validation of the estimate will be via CCM and RMO Key Comparisons (KC) as at present.
-
+stem:[u_{"stab.NMI"}(t)] : The uncertainty contribution from the stability of the NMI
+mass standards used to disseminate the consensus value. This will need to be estimated
+by the individual NMIs. Validation of the estimate will be via CCM and RMO Key
+Comparisons (KC) as at present.
 
 
 == The different phases in detail
 
 === Phase 1: Traceability to the IPK, with additional uncertainty component
 
-On 20 May 2019, the reference quantity for the mass unit changes from the mass of the IPK to the fixed numerical value of the Planck constant. At that time, the uncertainty of the adjusted value of the Planck constant prior to the redefinition (1 part in 10^8^) will be re-assigned to the mass of the IPK, which will then have an uncertainty of stem:[10 "unitsml(ug)"].
+On 20 May 2019, the reference quantity for the mass unit changes from the mass of the
+IPK to the fixed numerical value of the Planck constant. At that time, the uncertainty
+of the adjusted value of the Planck constant prior to the redefinition (1 part in stem:[10^8])
+will be re-assigned to the mass of the IPK, which will then have an uncertainty of
+stem:[10 "unitsml(ug)"].
 
-On the same date NMIs of Member States will have calibration certificates from the BIPM for past calibrations, traceable to the IPK. The standard uncertainties of these calibrations are in the range stem:[3.5 "unitsml(ug)"] to stem:[7 "unitsml(ug)"] for stem:["Pt"]-stem:["Ir"] standards and stem:[10 "unitsml(ug)"] to stem:[15 "unitsml(ug)"] for stem:[1 "unitsml(kg)"] stainless steel standards. On the implementation day stem:[10 "unitsml(ug)"] needs to be added in quadrature to the uncertainty stated on past BIPM calibration certificates to allow for the increase in the uncertainty in the IPK. Note that the calibration values issued by the BIPM will not change, since efforts have been made to ensure that the kilogram has the same magnitude, within the uncertainty, before and after the redefinition. The BIPM will issue a note on this matter to all NMIs which have received calibrations in the past. Previous calibration certificates will not be reissued
+On the same date NMIs of Member States will have calibration certificates from the BIPM
+for past calibrations, traceable to the IPK. The standard uncertainties of these
+calibrations are in the range stem:[3.5 "unitsml(ug)"] to stem:[7 "unitsml(ug)"] for
+stem:["Pt"]-stem:["Ir"] standards and stem:[10 "unitsml(ug)"] to stem:[15 "unitsml(ug)"]
+for stem:[1 "unitsml(kg)"] stainless steel standards. On the implementation day stem:[10
+"unitsml(ug)"] needs to be added in quadrature to the uncertainty stated on past BIPM
+calibration certificates to allow for the increase in the uncertainty in the IPK. Note
+that the calibration values issued by the BIPM will not change, since efforts have been
+made to ensure that the kilogram has the same magnitude, within the uncertainty, before
+and after the redefinition. The BIPM will issue a note on this matter to all NMIs which
+have received calibrations in the past. Previous calibration certificates will not be
+reissued
 
-Calibration and Measurement Capabilities (CMCs) published by NMIs in the KCDB (where expanded uncertainties, stem:[ii(U)], are listed) will need to be revised to reflect the increase in the uncertainty in the IPK (stem:[u_{m_{"IPK"}} = 10 "unitsml(ug)"]). It is the responsibility of individual NMIs to revise their CMCs to this effect. The revised expanded uncertainty, stem:[ii(U)_{"20-05-2019"}], can be calculated from <<eq-1>>.
+Calibration and Measurement Capabilities (CMCs) published by NMIs in the KCDB (where
+expanded uncertainties, stem:[ii(U)], are listed) will need to be revised to reflect the
+increase in the uncertainty in the IPK (stem:[u_{m_{"IPK"}} = 10 "unitsml(ug)"]). It is
+the responsibility of individual NMIs to revise their CMCs to this effect. The revised
+expanded uncertainty, stem:[ii(U)_{"20-05-2019"}], can be calculated from <<eq-1>>.
 
 [[eq-1]]
 [stem]
@@ -144,85 +214,176 @@ ii(U)_{"20-05-2019"} = 2 sqrt{(ii(U)/2)^2 + (ii(M)/{1 "unitsml(kg)"} u_{m_{"IPK"
 ++++
 
 
-Where stem:[ii(M)] is the nominal mass value of the CMC. After rounding to two significant digits, many CMC values will remain unchanged.
+Where stem:[ii(M)] is the nominal mass value of the CMC. After rounding to two
+significant digits, many CMC values will remain unchanged.
 
-Calibrations at the BIPM carried out during phase 1 (i.e. between 20 May 2019 and the agreement of the consensus value resulting from the first Key Comparison of kilogram realizations) will continue to be based on the values of the BIPM working standards, traceable to the IPK, but taking into account the additional uncertainty in the mass of the IPK and the uncertainty contribution from the stability of BIPM working standards. This fact will be clearly indicated on the certificates issued by the BIPM.
+Calibrations at the BIPM carried out during phase 1 (i.e. between 20 May 2019 and the
+agreement of the consensus value resulting from the first Key Comparison of kilogram
+realizations) will continue to be based on the values of the BIPM working standards,
+traceable to the IPK, but taking into account the additional uncertainty in the mass of
+the IPK and the uncertainty contribution from the stability of BIPM working standards.
+This fact will be clearly indicated on the certificates issued by the BIPM.
 
-After 20 May 2019, NMIs must also include the additional uncertainty component of stem:[10 "unitsml(ug)"] in the calculation of uncertainties quoted on calibration certificates for their own customers. In deciding whether it is necessary to inform recipients of past NMI calibrations about the additional uncertainty component, the uncertainty of these calibrations should be taken into account (in most cases the changes in the quoted uncertainties will be negligible).
+After 20 May 2019, NMIs must also include the additional uncertainty component of
+stem:[10 "unitsml(ug)"] in the calculation of uncertainties quoted on calibration
+certificates for their own customers. In deciding whether it is necessary to inform
+recipients of past NMI calibrations about the additional uncertainty component, the
+uncertainty of these calibrations should be taken into account (in most cases the
+changes in the quoted uncertainties will be negligible).
 
 
 === Phase 2: Dissemination from a consensus value of the kilogram
 
-Phase 2 of the transition period following the SI revision will involve switching from traceability to the IPK to traceability to a consensus value for the kilogram based on measurements made by the realization experiments. This will be initiated following the completion of the first Key Comparison of realization experiments. The determination of this consensus value is crucial to the continuity and ongoing global equivalence of the SI unit of mass.
+Phase 2 of the transition period following the SI revision will involve switching from
+traceability to the IPK to traceability to a consensus value for the kilogram based on
+measurements made by the realization experiments. This will be initiated following the
+completion of the first Key Comparison of realization experiments. The determination of
+this consensus value is crucial to the continuity and ongoing global equivalence of the
+SI unit of mass.
 
 
 ==== Description of the Consensus Value
 
-It is worth noting that the Consensus Value is an interim solution, the need for which has been brought about by the discrepancy in the mass values (at the kilogram level) which would be determined by the realization experiments at the time of the redefinition of the SI unit of mass. The Consensus Value is thus intended to act as an ersatz realization experiment and its uncertainty needs to reflect a typical uncertainty from the pool of experiments.
+It is worth noting that the Consensus Value is an interim solution, the need for which
+has been brought about by the discrepancy in the mass values (at the kilogram level)
+which would be determined by the realization experiments at the time of the redefinition
+of the SI unit of mass. The Consensus Value is thus intended to act as an ersatz
+realization experiment and its uncertainty needs to reflect a typical uncertainty from
+the pool of experiments.
 
 
 ==== The initial determination of the consensus value
 
-Following the completion of the first CCM Key Comparison of realization experiments the consensus value for the kilogram will be adopted. The value will be physically maintained by the BIPM who will provide traceability for national mass standards. The initial consensus value will be calculated based on an arithmetic (non-weighted) mean of three sets of data;
+Following the completion of the first CCM Key Comparison of realization experiments the
+consensus value for the kilogram will be adopted. The value will be physically
+maintained by the BIPM who will provide traceability for national mass standards. The
+initial consensus value will be calculated based on an arithmetic (non-weighted) mean of
+three sets of data;
 
-. data directly traceable to the IPK (taking into account the additional uncertainty of 10 micrograms and a contribution for the temporal stability of the BIPM working standards).
+. [[data1]]data directly traceable to the IPK (taking into account the additional uncertainty of
+10 micrograms and a contribution for the temporal stability of the BIPM working
+standards).
 
-. extant data from the CCM Pilot Study of realization experiments (corrected for the shift of 17 parts in stem:[10^9] in stem:[h] introduced by the CODATA 2017 adjustment)
+. [[data2]]extant data from the CCM Pilot Study of realization experiments (corrected for the
+shift of 17 parts in stem:[10^9] in stem:[h] introduced by the CODATA 2017 adjustment)
 
-. the KCRV of the first CCM Key Comparison (after removal of outliers)
+. [[data3]]the KCRV of the first CCM Key Comparison (after removal of outliers)
 
-Note that data sets 1. and 2. are both linked to the IPK since the Pilot Study was completed prior to CODATA fixing the value of the Planck constant. Data set 3, although based on the revised definition of the kilogram, is also linked to the IPK, because stem:[h_{2017}], which was used for the definition of the kilogram, was determined based on traceability to the IPK. The calculation of the initial consensus value will therefore be strongly weighted to the extant value of the IPK, thus ensuring continuity of the value of the kilogram.
+Note that data sets <<data1>> and <<data2>> are both linked to the IPK since the Pilot Study was
+completed prior to CODATA fixing the value of the Planck constant. Data set <<data3>>, although
+based on the revised definition of the kilogram, is also linked to the IPK, because
+stem:[h_{2017}], which was used for the definition of the kilogram, was determined based
+on traceability to the IPK. The calculation of the initial consensus value will
+therefore be strongly weighted to the extant value of the IPK, thus ensuring continuity
+of the value of the kilogram.
 
 
 ==== The temporal evolution of the consensus value
 
-On completion of subsequent Key Comparisons, expected to be organized every two years, the value of the consensus value will be calculated as the non-weighted mean from the three most recent data sets, thus reducing temporal changes in the consensus value. Participation of an NMI in each subsequent Key Comparison requires a new realization to be undertaken since the previous comparison. Participating laboratories must calculate and report the correlation between their reported KC result and that of the previous KC to ensure that the new results from individual experiments are significantly independent of the previous result of that experiment. It is envisaged that the process by which the Consensus Value evolves will mean changes in the value are small. However, to ensure the continuity of the mass scale, changes in the Consensus Value between consecutive Key Comparisons will be reviewed and, if necessary, limited to stem:[+- 5] parts in stem:[10^9].
+On completion of subsequent Key Comparisons, expected to be organized every two years,
+the value of the consensus value will be calculated as the non-weighted mean from the
+three most recent data sets, thus reducing temporal changes in the consensus value.
+Participation of an NMI in each subsequent Key Comparison requires a new realization to
+be undertaken since the previous comparison. Participating laboratories must calculate
+and report the correlation between their reported KC result and that of the previous KC
+to ensure that the new results from individual experiments are significantly independent
+of the previous result of that experiment. It is envisaged that the process by which the
+Consensus Value evolves will mean changes in the value are small. However, to ensure the
+continuity of the mass scale, changes in the Consensus Value between consecutive Key
+Comparisons will be reviewed and, if necessary, limited to stem:[+- 5] parts in
+stem:[10^9].
 
 
 ==== Details of the Key Comparisons of realization experiments
 
-Participation in the Key Comparison of realization experiments will be restricted to NMIs having published results (for the Planck constant or for the realization of the kilogram after 20 May 2019) in peer reviewed journals with a relative standard uncertainty lower than or equal to stem:[2.0 xx 10^(-7)]. The published paper(s) should include a detailed uncertainty budget and evidence of the long term (preferably > 1 year) stability of the experiment. It is envisaged that the minimum number of participants in the initial Key Comparison should be not less than the number which participated in the Pilot Study <<stock>>, i.e. five. If five realization experiments of suitable uncertainty are not available at the scheduled time of the KC the comparison should be delayed until such time as enough experiments are available. (The timetable for subsequent KCs will also be deferred to maintain a 2 year periodicity).
+Participation in the Key Comparison of realization experiments will be restricted to
+NMIs having published results (for the Planck constant or for the realization of the
+kilogram after 20 May 2019) in peer reviewed journals with a relative standard
+uncertainty lower than or equal to stem:[2.0 xx 10^(-7)]. The published paper(s) should
+include a detailed uncertainty budget and evidence of the long term (preferably > 1
+year) stability of the experiment. It is envisaged that the minimum number of
+participants in the initial Key Comparison should be not less than the number which
+participated in the Pilot Study <<stock>>, i.e. five. If five realization experiments of
+suitable uncertainty are not available at the scheduled time of the KC the comparison
+should be delayed until such time as enough experiments are available. (The timetable
+for subsequent KCs will also be deferred to maintain a 2 year periodicity).
 
 
 ==== The uncertainty of the consensus value
 
-It is proposed that the standard uncertainty in the consensus value is stem:[20 "unitsml(ug)"] throughout Phase 2 (unless a statistical analysis following a Key Comparison shows that this value should be increased). This value is recommended by the CCM Task group on the Phases for the Dissemination of the kilogram following redefinition (CCM TGPfD-kg) and was arrived at based on:
+It is proposed that the standard uncertainty in the consensus value is stem:[20
+"unitsml(ug)"] throughout Phase 2 (unless a statistical analysis following a Key
+Comparison shows that this value should be increased). This value is recommended by the
+CCM Task group on the Phases for the Dissemination of the kilogram following
+redefinition (CCM TGPfD-kg) and was arrived at based on:
 
-* Typical uncertainty of "`mature`" realization experiments such as those at NIST, NMIJ, NRC and PTB
+* Typical uncertainty of "`mature`" realization experiments such as those at NIST, NMIJ,
+NRC and PTB
 
-* The target uncertainty of newer realization experiments which are predicted to be completed in the next 10 years
+* The target uncertainty of newer realization experiments which are predicted to be
+completed in the next 10 years
 
-* Setting the expectations on future uncertainties from individual realization experiments (Phase 3) at the beginning of Phase 2.
+* Setting the expectations on future uncertainties from individual realization
+experiments (Phase 3) at the beginning of Phase 2.
 
-* stem:[20 "unitsml(ug)"] was the target uncertainty that the CCM established to proceed with the redefinition of the kilogram <<recommendation-g>>
+* stem:[20 "unitsml(ug)"] was the target uncertainty that the CCM established to proceed
+with the redefinition of the kilogram <<recommendation-g>>
 
-In considering the uncertainty assigned to the consensus value, readers are reminded that use of a consensus value during the process of transition from the IPK to individual realizations was driven by the need to address the inconsistency in the results of the realization experiments and not a desire to (statistically) reduce the uncertainty in the realization.
+In considering the uncertainty assigned to the consensus value, readers are reminded
+that use of a consensus value during the process of transition from the IPK to
+individual realizations was driven by the need to address the inconsistency in the
+results of the realization experiments and not a desire to (statistically) reduce the
+uncertainty in the realization.
 
 
 === Phase 3: Dissemination of individual realizations
 
-At such time that the CCM determines that the results from a sufficient number of individual realization experiments are coherent with the consensus value, taking into account the uncertainties of the results, individual realizations can then provide direct traceability to the SI unit of mass. The CMCs of these realizations will be evaluated via the standard CIPM MRA process based on degree of equivalence between the independent realizations and the KCRV. The KC report should specifically include details of the correlation coeffecients between the participants to allow full evaluation of the implications of the dissemination of the mass scale from the individual realizations.
+At such time that the CCM determines that the results from a sufficient number of
+individual realization experiments are coherent with the consensus value, taking into
+account the uncertainties of the results, individual realizations can then provide
+direct traceability to the SI unit of mass. The CMCs of these realizations will be
+evaluated via the standard CIPM MRA process based on degree of equivalence between the
+independent realizations and the KCRV. The KC report should specifically include details
+of the correlation coefficients between the participants to allow full evaluation of the
+implications of the dissemination of the mass scale from the individual realizations.
 
 
 ==== Criteria for transition from Phase 2 to Phase 3 of the dissemination process
 
 . A minimum of five consistent realization experiments which:
-.. Achieve Key Comparison results with a relative standard uncertainty of 40 parts in stem:[10^9] or better
+.. Achieve Key Comparison results with a relative standard uncertainty of 40 parts in
+stem:[10^9] or better
 .. Demonstrate consistency with the KCRV
-.. Demonstrate stability by producing consistent (equivalent) results for two consecutive Key Comparisons
+.. Demonstrate stability by producing consistent (equivalent) results for two
+consecutive Key Comparisons
 
-. At least three of the realization experiments meeting the above criteria should have uncertainties less than or equal to 20 parts in stem:[10^9].
+. At least three of the realization experiments meeting the above criteria should have
+uncertainties less than or equal to 20 parts in stem:[10^9].
 
-. The consistent set of experiments must include two independent methods of realizing the SI unit of mass (e.g. Kibble balance and X-ray crystal density experiments)
+. The consistent set of experiments must include two independent methods of realizing
+the SI unit of mass (e.g. Kibble balance and X-ray crystal density experiments)
 
-. The difference between the Consensus Value for the kilogram (determined from three last 3 Key Comparison results) and the KCRV for the final Key Comparison is less than 5 parts in stem:[10^9].
+. The difference between the Consensus Value for the kilogram (determined from three
+last 3 Key Comparison results) and the KCRV for the final Key Comparison is less than 5
+parts in stem:[10^9].
 
 
 ==== Traceability in Phase 3 of the dissemination process
 
-Once the criteria for the transition from Phase 2 to Phase 3 of the dissemination process have been met the Consensus Value for the kilogram will cease to be used. Those realization experiments which have fulfilled the criteria outlined in the MRA will be able to publish CMCs, validated by the results of the Key Comparisons, and will be able to provide traceable mass calibrations based on these CMCs. The BIPM will also continue to provide traceable calibrations to member states not having validated realization experiments either using the latest Reference Value from the ongoing Key Comparison of realizations, maintained via conventional mass standards or using their own validated realization experiment.
+Once the criteria for the transition from Phase 2 to Phase 3 of the dissemination
+process have been met the Consensus Value for the kilogram will cease to be used. Those
+realization experiments which have fulfilled the criteria outlined in the MRA will be
+able to publish CMCs, validated by the results of the Key Comparisons, and will be able
+to provide traceable mass calibrations based on these CMCs. The BIPM will also continue
+to provide traceable calibrations to member states not having validated realization
+experiments either using the latest Reference Value from the ongoing Key Comparison of
+realizations, maintained via conventional mass standards or using their own validated
+realization experiment.
 
-As the results from individual realization experiments improve further NMI realizations will meet the criteria outlined in the MRA and will therefore be able to publish CMCs giving an increasing number of NMIs which have the ability to unilaterally realize the kilogram from their individual experiments.
+As the results from individual realization experiments improve further NMI realizations
+will meet the criteria outlined in the MRA and will therefore be able to publish CMCs
+giving an increasing number of NMIs which have the ability to unilaterally realize the
+kilogram from their individual experiments.
 
 
 == {blank}
@@ -242,7 +403,7 @@ As the results from individual realization experiments improve further NMI reali
 
 * [[[recommendation-g,6]]] RECOMMENDATION OF THE CONSULTATIVE COMMITTEE FOR MASS AND RELATED QUANTITIES SUBMITTED TO THE INTERNATIONAL COMMITTEE FOR WEIGHTS AND MEASURES; RECOMMENDATION G 1 (2013) On a new definition of the kilogram
 
-* [[[metrologia54-s99,(7)BIPM Metrologia 54 6 S99]]] 
+* [[[metrologia54-s99,(7)BIPM Metrologia 54 6 S99]]]
 
 
 [bibliography]

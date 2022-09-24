@@ -27,15 +27,50 @@
 
 == Introduction
 
-The purpose of this _mise en pratique_, prepared by the Consultative Committee for Thermometry (CCT) of the International Committee for Weights and Measures (CIPM), is to indicate how the definition of the SI base unit, the kelvin, symbol stem:["unitsml(K)"], may be realized in practice.
+The purpose of this _mise en pratique_, prepared by the Consultative Committee for
+Thermometry (CCT) of the International Committee for Weights and Measures (CIPM), is
+to indicate how the definition of the SI base unit, the kelvin, symbol
+stem:["unitsml(K)"], may be realized in practice.
 
-In general, the term "`to realize a unit`" is interpreted to mean the establishment of the value and associated uncertainty of a quantity of the same kind as the unit that is consistent with the definition of the unit. The definition of the kelvin of 2018 does not imply any particular experiment for its practical realization. Any method capable of deriving a temperature value traceable to the set of seven reference constants can, in principle, be used. Thus, the list of methods given is not meant to be an exhaustive list of all possibilities, but rather a list of those methods that are easiest to implement and/or that provide the smallest uncertainties and which are officially recognized as primary methods by the relevant Consultative Committee.
+In general, the term "`to realize a unit`" is interpreted to mean the establishment
+of the value and associated uncertainty of a quantity of the same kind as the unit
+that is consistent with the definition of the unit. The definition of the kelvin of
+2018 does not imply any particular experiment for its practical realization. Any
+method capable of deriving a temperature value traceable to the set of seven
+reference constants can, in principle, be used. Thus, the list of methods given is
+not meant to be an exhaustive list of all possibilities, but rather a list of those
+methods that are easiest to implement and/or that provide the smallest uncertainties
+and which are officially recognized as primary methods by the relevant Consultative
+Committee.
 
-A primary method is a method having the highest metrological properties; whose operation can be completely described and understood; for which a complete uncertainty statement can be written down in terms of SI units; and which does not require a reference standard of the same quantity.
+A primary method is a method having the highest metrological properties; whose
+operation can be completely described and understood; for which a complete
+uncertainty statement can be written down in terms of SI units; and which does not
+require a reference standard of the same quantity.
 
-The text of and https://www.bipm.org/en/committees/cc/cct/publications-cc.html[supplementary information] on the International Temperature Scales constituted until recently the reference guide for the realization of the base unit kelvin. However, recent developments in thermometry and the redefinition of the kelvin have justified the establishment of a broader and flexible document that incorporates the temperature scales in current use and developed primary thermometry methods: the _Mise en Pratique_ of the realization of the kelvin (_MeP_-K).
+The text of and
+https://www.bipm.org/en/committees/cc/cct/publications-cc.html[supplementary
+information] on the International Temperature Scales constituted until recently the
+reference guide for the realization of the base unit kelvin. However, recent
+developments in thermometry and the redefinition of the kelvin have justified the
+establishment of a broader and flexible document that incorporates the temperature
+scales in current use and developed primary thermometry methods: the _Mise en
+Pratique_ of the realization of the kelvin (_MeP_-K).
 
-As envisaged by the CCT [https://www.bipm.org/utils/common/pdf/CC/CCT/CCT23.pdf[Recommendation T3 (2005)]] and in accordance with the report of the https://www.bipm.org/utils/en/pdf/CIPM/CIPM2008-EN.pdf[97th meeting of the CIPM in 2008], the _MeP_-K provides or makes reference to the information needed to perform a practical measurement of temperature, in accordance with the International System of Units (SI), at the highest level of accuracy. A _MeP_-K was first adopted by the CCT in April 2006, see the https://www.bipm.org/utils/common/pdf/CC/CCT/CCT24.pdf[report of the 24th meeting] of the CCT. The 2019 version of the _Mise en Pratique_ of the realization of the kelvin (_MeP_-K-19) presented here incorporates the redefinition of the kelvin as adopted by the https://www.bipm.org/utils/common/pdf/CGPM-2018/26th-CGPM-Resolutions.pdf[CGPM at its 26th meeting] and represents the realization of the redefined kelvin that came into force on 20 May 2019.
+As envisaged by the CCT
+[https://www.bipm.org/utils/common/pdf/CC/CCT/CCT23.pdf[Recommendation T3 (2005)]]
+and in accordance with the report of the
+https://www.bipm.org/utils/en/pdf/CIPM/CIPM2008-EN.pdf[97th meeting of the CIPM in
+2008], the _MeP_-K provides or makes reference to the information needed to perform a
+practical measurement of temperature, in accordance with the International System of
+Units (SI), at the highest level of accuracy. A _MeP_-K was first adopted by the CCT
+in April 2006, see the https://www.bipm.org/utils/common/pdf/CC/CCT/CCT24.pdf[report
+of the 24th meeting] of the CCT. The 2019 version of the _Mise en Pratique_ of the
+realization of the kelvin (_MeP_-K-19) presented here incorporates the redefinition
+of the kelvin as adopted by the
+https://www.bipm.org/utils/common/pdf/CGPM-2018/26th-CGPM-Resolutions.pdf[CGPM at its
+26th meeting] and represents the realization of the redefined kelvin that came into
+force on 20 May 2019.
 
 
 == Definition of the kelvin
@@ -43,120 +78,244 @@ As envisaged by the CCT [https://www.bipm.org/utils/common/pdf/CC/CCT/CCT23.pdf[
 The definition of the kelvin, SI base unit of temperature, is as follows <<bipm>>:
 
 ____
-*The kelvin, symbol stem:["unitsml(K)"], is the SI unit of thermodynamic temperature. It is defined by taking the fixed numerical value of the Boltzmann constant stem:[k] to be stem:[1.380649 xx 10^{-23}] when expressed in the unit stem:["unitsml(J*K^(-1))"], which is equal to stem:["unitsml(kg*m^2*s^(-2)*K^(-1))"], where the kilogram, metre and second are defined in terms of stem:[h], stem:[c] and stem:[Delta ii(nu)_{"Cs"}].*
+*The kelvin, symbol stem:["unitsml(K)"], is the SI unit of thermodynamic temperature.
+It is defined by taking the fixed numerical value of the Boltzmann constant stem:[k]
+to be stem:[1.380649 xx 10^{-23}] when expressed in the unit
+stem:["unitsml(J*K^(-1))"], which is equal to stem:["unitsml(kg*m^2*s^(-2)*K^(-1))"],
+where the kilogram, metre and second are defined in terms of stem:[h], stem:[c] and
+stem:[Delta ii(nu)_{"Cs"}].*
 ____
 
-(stem:[h] is the Planck constant, stem:[c] is the speed of light in vacuum and stem:[Delta ii(nu)_{"Cs"}] is the caesium frequency corresponding to the transition between the two hyperfine levels of the unperturbed ground state of the ^133^Cs atom.) This definition implies the exact relation stem:[k = 1.380649 xx 10^{-23} "unitsml(J//K)"]. Its effect is that one kelvin is equal to the change of thermodynamic temperature stem:[ii(T)] that results in a change of thermal energy stem:[k ii(T)] by stem:[1.380649 xx 10^{-23} "unitsml(J)"].
+(stem:[h] is the Planck constant, stem:[c] is the speed of light in vacuum and
+stem:[Delta ii(nu)_{"Cs"}] is the caesium frequency corresponding to the transition
+between the two hyperfine levels of the unperturbed ground state of the ^133^Cs
+atom.) This definition implies the exact relation stem:[k = 1.380649 xx 10^{-23}
+"unitsml(J//K)"]. Its effect is that one kelvin is equal to the change of
+thermodynamic temperature stem:[ii(T)] that results in a change of thermal energy
+stem:[k ii(T)] by stem:[1.380649 xx 10^{-23} "unitsml(J)"].
 
-Prior to 2018 the kelvin was defined as the fraction stem:[1//273.16] of the thermodynamic temperature stem:[ii(T)_{"TPW"}] of the triple point of water [13th CGPM meeting in 1967, Resolutions 3 and 4]. The kelvin is now defined in terms of the SI derived unit of energy, the joule, by fixing the value of the Boltzmann constant stem:[k], which is the proportionality constant between thermodynamic temperature and the associated thermal energy stem:[k ii(T)]. The new definition has its origin in statistical mechanics, where thermodynamic temperature is a measure of the average thermal energy per degree of freedom in the system. In principle, the natural unit of thermodynamic temperature is the joule and a separate base unit for temperature is not required. However, for historical and in particular for practical reasons, the kelvin remains a base unit of the SI. The explicit-constant definition is sufficiently wide to encompass any form of thermometry, where the _MeP_-K provides guidance on the practical realization of the kelvin.
+Prior to 2018 the kelvin was defined as the fraction stem:[1//273.16] of the
+thermodynamic temperature stem:[ii(T)_{"TPW"}] of the triple point of water [13th
+CGPM meeting in 1967, Resolutions 3 and 4]. The kelvin is now defined in terms of the
+SI derived unit of energy, the joule, by fixing the value of the Boltzmann constant
+stem:[k], which is the proportionality constant between thermodynamic temperature and
+the associated thermal energy stem:[k ii(T)]. The new definition has its origin in
+statistical mechanics, where thermodynamic temperature is a measure of the average
+thermal energy per degree of freedom in the system. In principle, the natural unit of
+thermodynamic temperature is the joule and a separate base unit for temperature is
+not required. However, for historical and in particular for practical reasons, the
+kelvin remains a base unit of the SI. The explicit-constant definition is
+sufficiently wide to encompass any form of thermometry, where the _MeP_-K provides
+guidance on the practical realization of the kelvin.
 
-It remains common practice to call the difference stem:[ii(T) - 273.15 "unitsml(K)"] Celsius temperature, symbol stem:[t]. The unit of Celsius temperature is the degree Celsius, symbol stem:["unitsml(degC)"], which is by definition equal in magnitude to the kelvin.
+It remains common practice to call the difference stem:[ii(T) - 273.15 "unitsml(K)"]
+Celsius temperature, symbol stem:[t]. The unit of Celsius temperature is the degree
+Celsius, symbol stem:["unitsml(degC)"], which is by definition equal in magnitude to
+the kelvin.
 
-The value of stem:[k] adopted for the new definition is the https://doi.org/10.1088/1681-7575/aa950a[2017 CODATA value] <<newell>>. This ensures that the best estimate of the value of stem:[ii(T)_{"TPW"}] remains stem:[273.16 "unitsml(K)"]. One consequence of the 2018 definition is that the former relative uncertainty in the determination of stem:[k], stem:[3.7 xx 10^(-7)], is transferred to the temperature of the triple point of water, stem:[ii(T)_{"TPW"}]. The standard uncertainty of stem:[ii(T)_{"TPW"}] is hence now stem:[u(ii(T)_{"TPW"}) = 0.1 "unitsml(mK)"].
+The value of stem:[k] adopted for the new definition is the
+https://doi.org/10.1088/1681-7575/aa950a[2017 CODATA value] <<newell>>. This ensures
+that the best estimate of the value of stem:[ii(T)_{"TPW"}] remains stem:[273.16
+"unitsml(K)"]. One consequence of the 2018 definition is that the former relative
+uncertainty in the determination of stem:[k], stem:[3.7 xx 10^(-7)], is transferred
+to the temperature of the triple point of water, stem:[ii(T)_{"TPW"}]. The standard
+uncertainty of stem:[ii(T)_{"TPW"}] is hence now stem:[u(ii(T)_{"TPW"}) = 0.1
+"unitsml(mK)"].
 
-The CCT is not aware of any thermometry technology that provides a significantly reduced value of stem:[u(ii(T)_{"TPW"})]. Consequently, it is unlikely that the value of stem:[ii(T)_{"TPW"}] will be modified in a foreseeable future. On the other hand, the reproducibility of stem:[ii(T)_{"TPW"}], realized in water triple point cells and applying isotopic corrections footnote:[Recommendation 2, CI-2005 of the CIPM clarified the definition of the triple point of water by specifying the isotopic composition of the water to be that of Vienna Standard Mean Ocean Water (V-SMOW).], is better than stem:[50 "unitsml(uK)"]. Experiments requiring ultimate accuracy at or close to stem:[ii(T)_{"TPW"}] will continue to rely on the reproducibility of the triple point of water. Although the value stem:[ii(T)_{"TPW"}] is not a fundamental constant, the triple point of water is an invariant of nature with the inherent long-term stability of fundamental constants.
+The CCT is not aware of any thermometry technology that provides a significantly
+reduced value of stem:[u(ii(T)_{"TPW"})]. Consequently, it is unlikely that the value
+of stem:[ii(T)_{"TPW"}] will be modified in a foreseeable future. On the other hand,
+the reproducibility of stem:[ii(T)_{"TPW"}], realized in water triple point cells and
+applying isotopic corrections footnote:[Recommendation 2, CI-2005 of the CIPM
+clarified the definition of the triple point of water by specifying the isotopic
+composition of the water to be that of Vienna Standard Mean Ocean Water (V-SMOW).],
+is better than stem:[50 "unitsml(uK)"]. Experiments requiring ultimate accuracy at or
+close to stem:[ii(T)_{"TPW"}] will continue to rely on the reproducibility of the
+triple point of water. Although the value stem:[ii(T)_{"TPW"}] is not a fundamental
+constant, the triple point of water is an invariant of nature with the inherent
+long-term stability of fundamental constants.
 
-Direct measurements of thermodynamic temperature require a primary thermometer based on a well-understood physical system whose temperature can be derived from measurements of other quantities, as described in the following sections. Unfortunately, primary thermometry is usually complicated and time consuming, and is therefore rarely used as a practical means of disseminating the kelvin. As a practical alternative, the International Temperature Scales provide internationally accepted procedures for both realizing and disseminating temperature in a straightforward and reproducible manner, see <<sec-5>>.
+Direct measurements of thermodynamic temperature require a primary thermometer based
+on a well-understood physical system whose temperature can be derived from
+measurements of other quantities, as described in the following sections.
+Unfortunately, primary thermometry is usually complicated and time consuming, and is
+therefore rarely used as a practical means of disseminating the kelvin. As a
+practical alternative, the International Temperature Scales provide internationally
+accepted procedures for both realizing and disseminating temperature in a
+straightforward and reproducible manner, see <<sec-5>>.
 
 
 == Nomenclature (taxonomy of methods)
 
-The purpose of this section is to clarify the terms that will be used in the following sections on <<item-1>> primary thermometry and <<item-2>> defined temperature scales. A clear and well-defined nomenclature is essential to support an unambiguous taxonomy of methods in the _MeP_-K. The _MeP_-K uses the following definitions.
+The purpose of this section is to clarify the terms that will be used in the
+following sections on <<item-1>> primary thermometry and <<item-2>> defined
+temperature scales. A clear and well-defined nomenclature is essential to support an
+unambiguous taxonomy of methods in the _MeP_-K. The _MeP_-K uses the following
+definitions.
 
-. [[item-1]]_Primary thermometry_ is carried out using a thermometer based on a well-understood physical system, for which the equation of state describing the relation between thermodynamic temperature stem:[ii(T)] and other independent quantities, such as the ideal gas law or Planck's equation, can be expressed explicitly without unknown or significantly temperature-dependent constants. Thermodynamic temperature can be obtained by measuring the independent quantities. Accurate thermodynamic temperature values require not only accurate measurements of the independent quantities, but also sufficient understanding of the system to enable a quantitative assessment of departures from the ideal model in order to apply appropriate corrections.
+. [[item-1]]_Primary thermometry_ is carried out using a thermometer based on a
+well-understood physical system, for which the equation of state describing the
+relation between thermodynamic temperature stem:[ii(T)] and other independent
+quantities, such as the ideal gas law or Planck's equation, can be expressed
+explicitly without unknown or significantly temperature-dependent constants.
+Thermodynamic temperature can be obtained by measuring the independent quantities.
+Accurate thermodynamic temperature values require not only accurate measurements of
+the independent quantities, but also sufficient understanding of the system to enable
+a quantitative assessment of departures from the ideal model in order to apply
+appropriate corrections.
 +
 --
-_Absolute primary thermometry_ allows to measure thermodynamic temperature directly in terms of the definition of the base unit kelvin, i.e. the defined numerical value of the Boltzmann constant. No reference is made to any temperature fixed point (stem:[n = 0], stem:[n = " number of points"]) and all other parameters specified in the equation of state are measured or otherwise determined.
+_Absolute primary thermometry_ allows to measure thermodynamic temperature directly
+in terms of the definition of the base unit kelvin, i.e. the defined numerical value
+of the Boltzmann constant. No reference is made to any temperature fixed point
+(stem:[n = 0], stem:[n = " number of points"]) and all other parameters specified in
+the equation of state are measured or otherwise determined.
 
-_Relative primary thermometry_ allows to measure thermodynamic temperature indirectly using a specified equation of state, with one or more key-parameter values determined from temperature fixed points (stem:[n > 0]), for which values for the thermodynamic temperature stem:[ii(T)] and their uncertainties are known a priori from previous absolute or relative primary thermometry. Tables containing data for stem:[ii(T)] of fixed points are given in the _MeP_-K annexes "`link:https://www.bipm.org/utils/en/pdf/si-mep/MeP-K-2018_Relative_Primary_Radiometry.pdf[Relative primary radiometric thermometry]`", see <<sec-4-2-3>>, and "`link:https://www.bipm.org/utils/common/pdf/ITS-90/Estimates_Differences_T-T90_2010.pdf[Estimates of the differences stem:[ii(T) - ii(T)_{90}]]`", see <<sec-5-1>>.
+_Relative primary thermometry_ allows to measure thermodynamic temperature indirectly
+using a specified equation of state, with one or more key-parameter values determined
+from temperature fixed points (stem:[n > 0]), for which values for the thermodynamic
+temperature stem:[ii(T)] and their uncertainties are known a priori from previous
+absolute or relative primary thermometry. Tables containing data for stem:[ii(T)] of
+fixed points are given in the _MeP_-K annexes
+"`link:https://www.bipm.org/utils/en/pdf/si-mep/MeP-K-2018_Relative_Primary_Radiometry.
+pdf[Relative primary radiometric thermometry]`", see <<sec-4-2-3>>, and
+"`link:https://www.bipm.org/utils/common/pdf/ITS-90/Estimates_Differences_T-T90_2010.pd
+f[Estimates of the differences stem:[ii(T) - ii(T)_{90}]]`", see <<sec-5-1>>.
 --
 
-. [[item-2]]_Defined temperature_ scales allow to assign temperature values, determined by primary thermometry, to a series of naturally occurring and highly reproducible states (e.g., the freezing and triple points of pure substances). They also cover a specification of the interpolating or extrapolating instruments for a particular sub-range of temperature and define any necessary interpolating or extrapolating equations. The defined scales are highly prescriptive and define new temperature quantities stem:[ii(T)_{"XX"}] (scale temperatures) that provide close approximations to the thermodynamic temperature stem:[ii(T)] and have the same unit as stem:[ii(T)], i.e. the kelvin. Temperature values assigned to the fixed points of each scale are considered exact and are not altered while the scale is in force, even if subsequent research reveals a bias of the values relative to true thermodynamic temperature. Presently, the only such defined temperature scales recommended by the CCT and approved by the CIPM are the https://doi.org/10.1088/0026-1394/27/1/002[International Temperature Scale of 1990 (ITS-90)] <<preston>> from stem:[0.65 "unitsml(K)"] and higher and the https://www.bipm.org/utils/en/pdf/PLTS-2000.pdf[Provisional Low Temperature Scale] <<proces>> covering the temperature range from stem:[0.9 "unitsml(mK)"] to stem:[1 "unitsml(K)"] (PLTS-2000). The temperatures defined by ITS-90 and PLTS-2000 are denoted by stem:[ii(T)_{90}] and stem:[ii(T)_{2000}]. Non-prescriptive recommendations for the realization of the ITS-90 and the PLTS-2000 are given in the https://www.bipm.org/en/committees/cc/cct/guide-its90.html["`Guide to the Realization of the ITS-90`"] and the https://www.bipm.org/en/committees/cc/cct/guide-plts2000.html["`Guide to the Realization of the PLTS-2000`"],
+. [[item-2]]_Defined temperature_ scales allow to assign temperature values,
+determined by primary thermometry, to a series of naturally occurring and highly
+reproducible states (e.g., the freezing and triple points of pure substances). They
+also cover a specification of the interpolating or extrapolating instruments for a
+particular sub-range of temperature and define any necessary interpolating or
+extrapolating equations. The defined scales are highly prescriptive and define new
+temperature quantities stem:[ii(T)_{"XX"}] (scale temperatures) that provide close
+approximations to the thermodynamic temperature stem:[ii(T)] and have the same unit
+as stem:[ii(T)], i.e. the kelvin. Temperature values assigned to the fixed points of
+each scale are considered exact and are not altered while the scale is in force, even
+if subsequent research reveals a bias of the values relative to true thermodynamic
+temperature. Presently, the only such defined temperature scales recommended by the
+CCT and approved by the CIPM are the
+https://doi.org/10.1088/0026-1394/27/1/002[International Temperature Scale of 1990
+(ITS-90)] <<preston>> from stem:[0.65 "unitsml(K)"] and higher and the
+https://www.bipm.org/utils/en/pdf/PLTS-2000.pdf[Provisional Low Temperature Scale]
+<<proces>> covering the temperature range from stem:[0.9 "unitsml(mK)"] to stem:[1
+"unitsml(K)"] (PLTS-2000). The temperatures defined by ITS-90 and PLTS-2000 are
+denoted by stem:[ii(T)_{90}] and stem:[ii(T)_{2000}]. Non-prescriptive
+recommendations for the realization of the ITS-90 and the PLTS-2000 are given in the
+https://www.bipm.org/en/committees/cc/cct/guide-its90.html["`Guide to the Realization
+of the ITS-90`"] and the
+https://www.bipm.org/en/committees/cc/cct/guide-plts2000.html["`Guide to the
+Realization of the PLTS-2000`"],
 respectively.
 +
 --
-There exist also _approximations of defined scales_ where fixed points, interpolating or extrapolating
-instruments, and interpolating or extrapolating equations are different from those specified in the
-defined scales, but any differences from a scale are sufficiently well understood. Such methods are
-described in the "`link:https://www.bipm.org/en/committees/cc/cct/publications-cc.html[Guide on secondary thermometry]`".
+There exist also _approximations of defined scales_ where fixed points, interpolating
+or extrapolating
+instruments, and interpolating or extrapolating equations are different from those
+specified in the
+defined scales, but any differences from a scale are sufficiently well understood.
+Such methods are
+described in the
+"`link:https://www.bipm.org/en/committees/cc/cct/publications-cc.html[Guide on
+secondary thermometry]`".
 --
 
 == Practical realization of the kelvin by primary thermometry
 
-While the 2018 definition of the kelvin in terms of the Boltzmann constant has no immediate impact
-on the status of the ITS-90 and the PLTS-2000, there are significant benefits, particularly for
-temperature measurements below stem:[~20 "unitsml(K)"] and above stem:[~1300 "unitsml(K)"], where primary thermometers may offer
-a lower thermodynamic uncertainty than is currently available with the ITS-90 and the PLTS-2000.
-In the future, as the primary methods evolve and are expected to achieve lower uncertainties, primary
-thermometers will become more widely used and gradually replace the ITS-90 and the PLTS-2000 as
+While the 2018 definition of the kelvin in terms of the Boltzmann constant has no
+immediate impact
+on the status of the ITS-90 and the PLTS-2000, there are significant benefits,
+particularly for
+temperature measurements below stem:[~20 "unitsml(K)"] and above stem:[~1300
+"unitsml(K)"], where primary thermometers may offer
+a lower thermodynamic uncertainty than is currently available with the ITS-90 and the
+PLTS-2000.
+In the future, as the primary methods evolve and are expected to achieve lower
+uncertainties, primary
+thermometers will become more widely used and gradually replace the ITS-90 and the
+PLTS-2000 as
 the basis of temperature measurement.
 
 The primary thermometry methods included in this section fulfil the following criteria:
 
-* At least one example of a complete uncertainty budget has been examined and approved by the
-CCT.
+* At least one example of a complete uncertainty budget has been examined and
+approved by the CCT.
 
-* The uncertainty of the realization of the kelvin is not more than one order of magnitude larger
-than the state-of-the-art uncertainty achieved with primary thermometry or defined temperature
-scales, or the uncertainty needed by the stakeholders.
+* The uncertainty of the realization of the kelvin is not more than one order of
+magnitude larger
+than the state-of-the-art uncertainty achieved with primary thermometry or defined
+temperature scales, or the uncertainty needed by the stakeholders.
 
-* At least two independent realizations applying the method with the necessary uncertainty exist.
+* At least two independent realizations applying the method with the necessary
+uncertainty exist.
 
-* A comparison of the realizations with the results of already accepted methods has been carried
-out.
+* A comparison of the realizations with the results of already accepted methods has
+been carried out.
 
-* The methods are applicable over temperature ranges that are acceptable for the stakeholders in
-metrology, science or industry.
+* The methods are applicable over temperature ranges that are acceptable for the
+stakeholders in metrology, science or industry.
 
-* The experimental technique necessary for applying the methods is documented in sufficient
-detail in the open literature so that experts in metrology can realize it independently.
-
+* The experimental technique necessary for applying the methods is documented in
+sufficient detail in the open literature so that experts in metrology can realize it
+independently.
 
 
 === Thermodynamic temperature measurement by acoustic gas thermometry
 
 ==== Principle of primary acoustic gas thermometry
 
-Primary acoustic gas thermometry (AGT) exploits the relationship between the speed of sound, stem:[u], in
-an ideal gas in the limit of zero frequency and the thermodynamic temperature, stem:[ii(T)], of the gas,
+Primary acoustic gas thermometry (AGT) exploits the relationship between the speed of
+sound, stem:[u], in
+an ideal gas in the limit of zero frequency and the thermodynamic temperature,
+stem:[ii(T)], of the gas,
 
 [stem]
 ++++
 u^2 = {gamma k ii(T)} / m,
 ++++
 
-where stem:[k] is the Boltzmann constant, stem:[m] is the average molecular mass of the gas, and stem:[gamma] is the ratio of
-the heat capacity of the gas at constant pressure to its heat capacity at constant volume. For ideal
-monatomic gases, stem:[gamma = 5//3].
-
+where stem:[k] is the Boltzmann constant, stem:[m] is the average molecular mass of
+the gas, and stem:[gamma] is the ratio of
+the heat capacity of the gas at constant pressure to its heat capacity at constant
+volume. For ideal monatomic gases, stem:[gamma = 5//3].
 
 
 ==== Absolute primary acoustic gas thermometry
 
-The speed of sound is deduced from the resonance frequencies of a monatomic gas contained within
-an isothermal cavity. Accurate determinations of the resonance frequencies require the use of nondegenerate
+The speed of sound is deduced from the resonance frequencies of a monatomic gas
+contained within
+an isothermal cavity. Accurate determinations of the resonance frequencies require
+the use of nondegenerate
 acoustic modes, and often the non-degenerate radially-symmetrical modes of nearly
-spherical cavities are used. The average radius of the cavity is often determined using microwave
-resonances. The non-ideal properties of real gases are accommodated with the use of a virial
-expansion of the speed-of-sound relation and extrapolation to zero pressure.
+spherical cavities are used. The average radius of the cavity is often determined
+using microwave
+resonances. The non-ideal properties of real gases are accommodated with the use of a
+virial expansion of the speed-of-sound relation and extrapolation to zero pressure.
 
-Measurements of the acoustic resonance frequencies, pressures, cavity dimensions and molecular
-mass of the gas must be traceable to the metre, the kilogram and the second. Primary AGT has been
-conducted at the temperature of the triple point of water with relative uncertainties of the order of
-stem:[10^(-6)]. However, the low uncertainties claimed for AGT have not yet been confirmed by independent
+Measurements of the acoustic resonance frequencies, pressures, cavity dimensions and
+molecular mass of the gas must be traceable to the metre, the kilogram and the
+second. Primary AGT has been
+conducted at the temperature of the triple point of water with relative uncertainties
+of the order of stem:[10^(-6)]. However, the low uncertainties claimed for AGT have
+not yet been confirmed by independent
 measurements. Details are found in the review paper "`Acoustic gas thermometry`"
-by https://iopscience.iop.org/article/10.1088/0026-1394/51/1/R1[Moldover _et al._] <<moldover>> and references therein.
+by https://iopscience.iop.org/article/10.1088/0026-1394/51/1/R1[Moldover _et al._]
+<<moldover>> and references therein.
 
 
 ==== Relative primary acoustic gas thermometry
 
-Relative AGT determines the ratios of thermodynamic temperatures from measurements of the ratios
-of speeds of sound. Typically, a temperature is determined as a ratio with respect to the temperature
-of a fixed point for which the thermodynamic temperature is known. The measured temperature
-ratios are usually expressible in terms of measured ratios of lengths and frequencies. Relative AGT
-has been conducted over a wide temperature range from a few kelvins to above stem:[550 "unitsml(K)"]. Independent
-realizations of relative AGT typically agree within stem:[3 xx 10^(-6) " " ii(T)] in the sub-range stem:[234 "unitsml(K)"] to stem:[380 "unitsml(K)"]. A
-table containing data for the thermodynamic temperature stem:[ii(T)] of fixed points is given in the annex
+Relative AGT determines the ratios of thermodynamic temperatures from measurements of
+the ratios of speeds of sound. Typically, a temperature is determined as a ratio with
+respect to the temperature of a fixed point for which the thermodynamic temperature
+is known. The measured temperature ratios are usually expressible in terms of
+measured ratios of lengths and frequencies. Relative AGT has been conducted over a
+wide temperature range from a few kelvins to above stem:[550 "unitsml(K)"]. Independent
+realizations of relative AGT typically agree within stem:[3 xx 10^(-6) " " ii(T)] in
+the sub-range stem:[234 "unitsml(K)"] to stem:[380 "unitsml(K)"]. A
+table containing data for the thermodynamic temperature stem:[ii(T)] of fixed points
+is given in the annex
 "`link:https://www.bipm.org/utils/common/pdf/ITS-90/Estimates_Differences_T-T90_2010.pdf[Estimates of the differences stem:[ii(T)-ii(T)_{90}]]`", see <<sec-5-1>>.
 
 
@@ -164,50 +323,89 @@ table containing data for the thermodynamic temperature stem:[ii(T)] of fixed po
 
 ==== Principle of primary radiometric thermometry
 
-The basic equation for spectral radiometric thermometry is the Planck law, which gives the spectral
-radiance footnote:[The subscript stem:[ii(lambda)] on stem:[ii(L)_{"b",ii(lambda)}] in this case indicates that the value is per unit wavelength, and is not a wavelength dependency.], stem:[ii(L)_{"b",ii(lambda)}], of an ideal blackbody as a function of temperature, stem:[ii(T)],
+The basic equation for spectral radiometric thermometry is the Planck law, which
+gives the spectral radiance footnote:[The subscript stem:[ii(lambda)] on
+stem:[ii(L)_{"b",ii(lambda)}] in this case indicates that the value is per unit
+wavelength, and is not a wavelength dependency.], stem:[ii(L)_{"b",ii(lambda)}], of
+an ideal blackbody as a function of temperature, stem:[ii(T)],
 
 [stem]
 ++++
 ii(L)_{"b",ii(lambda)} (ii(lambda),ii(T)) = ({2hc^2}/{ii(lambda)^5}) 1 / {exp (hc // ii(lambda) k ii(T)) - 1},
 ++++
 
-where stem:[k] is the Boltzmann constant, stem:[h] is the Planck constant, stem:[c] is the speed of light _in vacuo_, and stem:[ii(lambda)] is
-the wavelength _in vacuo_. Spectral radiance is the power emitted per unit area per unit solid angle per
-unit wavelength and is often expressed with the units stem:["unitsml(W*m^(-2)*sr^(-1)*nm^(-1))"].
-
+where stem:[k] is the Boltzmann constant, stem:[h] is the Planck constant, stem:[c]
+is the speed of light _in vacuo_, and stem:[ii(lambda)] is
+the wavelength _in vacuo_. Spectral radiance is the power emitted per unit area per
+unit solid angle per
+unit wavelength and is often expressed with the units
+stem:["unitsml(W*m^(-2)*sr^(-1)*nm^(-1))"].
 
 
 ==== Absolute primary radiometric thermometry
 
-Absolute primary radiometric thermometry requires an accurate determination of the optical power, emitted over a known spectral band and known solid angle, by an isothermal cavity of known emissivity. Measurement of the power requires a radiometer, comprising a detector and spectral filter, with known absolute spectral responsivity. The optical system typically includes two co-aligned circular apertures separated by a known distance to define the solid angle, and may additionally include lenses or mirrors. The refractive index of the medium in which the measurement is made must also be known. All measurements of the quantities involved must be traceable to the corresponding units of the SI, in particular, the watt and the metre.
+Absolute primary radiometric thermometry requires an accurate determination of the
+optical power, emitted over a known spectral band and known solid angle, by an
+isothermal cavity of known emissivity. Measurement of the power requires a
+radiometer, comprising a detector and spectral filter, with known absolute spectral
+responsivity. The optical system typically includes two co-aligned circular apertures
+separated by a known distance to define the solid angle, and may additionally include
+lenses or mirrors. The refractive index of the medium in which the measurement is
+made must also be known. All measurements of the quantities involved must be
+traceable to the corresponding units of the SI, in particular, the watt and the metre.
 
-Uncertainties of around stem:[0.1 "unitsml(K)"] (stem:[k = 1]) at stem:[2800 "unitsml(K)"] are possible with primary radiometric thermometry. Practical guidelines for the realization, including typical uncertainty estimates, are found in the annex "`link:https://www.bipm.org/utils/en/pdf/si-mep/MeP-K-2018_Absolute_Primary_Radiometry.pdf[Absolute primary radiometric thermometry]`" and references therein. Methods used for determining the uncertainty associated with thermodynamic temperature as measured using absolute primary radiometric thermometry are described in the annex "`link:https://www.bipm.org/utils/en/pdf/si-mep/MeP-K-2018_Absolute_Primary_Radiometry_Uncertainty.pdf[Uncertainty estimation in primary radiometric temperature measurement]`" and references therein.
+Uncertainties of around stem:[0.1 "unitsml(K)"] (stem:[k = 1]) at stem:[2800
+"unitsml(K)"] are possible with primary radiometric thermometry. Practical guidelines
+for the realization, including typical uncertainty estimates, are found in the annex
+"`link:https://www.bipm.org/utils/en/pdf/si-mep/MeP-K-2018_Absolute_Primary_Radiometry.
+pdf[Absolute primary radiometric thermometry]`" and references therein. Methods used
+for determining the uncertainty associated with thermodynamic temperature as measured
+using absolute primary radiometric thermometry are described in the annex
+"`link:https://www.bipm.org/utils/en/pdf/si-mep/MeP-K-2018_Absolute_Primary_Radiometry_
+Uncertainty.pdf[Uncertainty estimation in primary radiometric temperature
+measurement]`" and references therein.
 
 
 [[sec-4-2-3]]
 ==== Relative primary radiometric thermometry
 
-For relative primary radiometric thermometry, the absolute spectral responsivity of the radiometer is not required, nor is quantification of the geometric factors defining the solid angle. Instead, the optical power is measured relative to optical power measurements made of one or more fixed-point blackbodies, each with known thermodynamic temperature. There are three recognisable approaches to relative primary thermometry:
+For relative primary radiometric thermometry, the absolute spectral responsivity of
+the radiometer is not required, nor is quantification of the geometric factors
+defining the solid angle. Instead, the optical power is measured relative to optical
+power measurements made of one or more fixed-point blackbodies, each with known
+thermodynamic temperature. There are three recognisable approaches to relative
+primary thermometry:
 
-* extrapolation from one fixed point, which requires only knowledge of the relative spectral responsivity of the detector and filter;
-* interpolation or extrapolation from two fixed points, which requires only the bandwidth of the responsivity;
-* interpolation or extrapolation from three or more fixed points, for which detailed measurements of responsivity are not required.
+* extrapolation from one fixed point, which requires only knowledge of the relative
+spectral responsivity of the detector and filter;
+* interpolation or extrapolation from two fixed points, which requires only the
+bandwidth of the responsivity;
+* interpolation or extrapolation from three or more fixed points, for which detailed
+measurements of responsivity are not required.
 
-The interpolation and extrapolation is greatly simplified with the use of a well-understood parametric approximation of the integral expression of the optical power (e.g., by the Planck form of the Sakuma-Hattori equation), which eliminates the need to iteratively solve the integral equation describing the measured optical power.
+The interpolation and extrapolation is greatly simplified with the use of a
+well-understood parametric approximation of the integral expression of the optical
+power (e.g., by the Planck form of the Sakuma-Hattori equation), which eliminates the
+need to iteratively solve the integral equation describing the measured optical power.
 
-Relative primary radiometric thermometry gives uncertainties that are only slightly higher than absolute primary radiometric thermometry. Guidelines for the realization, including typical uncertainty estimates, are found in the annex "`link:https://www.bipm.org/utils/en/pdf/si-mep/MeP-K-2018_Relative_Primary_Radiometry.pdf[Relative primary radiometric thermometry]`" and references therein.
+Relative primary radiometric thermometry gives uncertainties that are only slightly
+higher than absolute primary radiometric thermometry. Guidelines for the realization,
+including typical uncertainty estimates, are found in the annex
+"`link:https://www.bipm.org/utils/en/pdf/si-mep/MeP-K-2018_Relative_Primary_Radiometry.pdf[Relative primary radiometric thermometry]`" and references therein.
 
 
 === Thermodynamic temperature measurement by polarizing gas thermometry
 
 ==== Principle of primary polarizing gas thermometry
 
-Polarizing gas thermometry (PGT) is based on the in-situ measurement of the gas density via its
-electromagnetic properties. The basic working equations are the Clausius-Mossotti and Lorentz-Lorenz
+Polarizing gas thermometry (PGT) is based on the in-situ measurement of the gas
+density via its
+electromagnetic properties. The basic working equations are the Clausius-Mossotti and
+Lorentz-Lorenz
 equation, which have been independently theoretically derived. The Clausius-Mossotti
-equation describes the gas behaviour in an electric field by the relative dielectric constant
-(permittivity) stem:[ii(epsilon)_"r"]. For an ideal gas, its combination with the equation of state yields the rigorous
+equation describes the gas behaviour in an electric field by the relative dielectric
+constant (permittivity) stem:[ii(epsilon)_"r"]. For an ideal gas, its combination
+with the equation of state yields the rigorous
 relationship between stem:[ii(epsilon)_"r"] and the gas pressure stem:[p]:
 
 [stem]
@@ -216,10 +414,14 @@ relationship between stem:[ii(epsilon)_"r"] and the gas pressure stem:[p]:
 ++++
 
 
-where stem:[ii(A)_{ii(epsilon)}] is the molar electric polarizability. The Lorentz-Lorenz equation describes the propagation
-of electromagnetic waves by the refractive index stem:[n]. Its combination with the equation of state of an
-ideal gas can be approximated with a relative uncertainty of less than one part per million (ppm) at
-gas densities up to stem:[0.1 "unitsml(mol//cm^3)"] by the rigorous relationship between stem:[n] and stem:[p]:
+where stem:[ii(A)_{ii(epsilon)}] is the molar electric polarizability. The
+Lorentz-Lorenz equation describes the propagation
+of electromagnetic waves by the refractive index stem:[n]. Its combination with the
+equation of state of an
+ideal gas can be approximated with a relative uncertainty of less than one part per
+million (ppm) at
+gas densities up to stem:[0.1 "unitsml(mol//cm^3)"] by the rigorous relationship
+between stem:[n] and stem:[p]:
 
 
 [stem]
@@ -228,80 +430,111 @@ gas densities up to stem:[0.1 "unitsml(mol//cm^3)"] by the rigorous relationship
 ++++
 
 
-where stem:[ii(A)_{ii(mu)}] is the molar magnetic polarizability. The two relationships are closely related since
+where stem:[ii(A)_{ii(mu)}] is the molar magnetic polarizability. The two
+relationships are closely related since
 stem:[n^2 = ii(epsilon)_"r" ii(mu)_"r"], with stem:[ii(mu)_"r"]
 being the relative magnetic permeability. At non-zero gas densities, the properties
-of real gases deviate from the ideal equations above, and power series expansions with different virial
-coefficients have to be used for the Clausius-Mossotti equation, Lorentz-Lorenz equation and the
-equation of state. But for primary thermometry, the ideal-gas properties may be determined by
-extrapolation to zero density.
+of real gases deviate from the ideal equations above, and power series expansions
+with different virial coefficients have to be used for the Clausius-Mossotti
+equation, Lorentz-Lorenz equation and the
+equation of state. But for primary thermometry, the ideal-gas properties may be
+determined by extrapolation to zero density.
 
-Each of the two relationships is the physical basis for one kind of PGT. Dielectric-constant gas
+Each of the two relationships is the physical basis for one kind of PGT.
+Dielectric-constant gas
 thermometry (DCGT) measures stem:[ii(epsilon)_"r"]
 by the change of the capacitance of a suitable capacitor by the
-measuring gas. Refractive-index gas thermometry (RIGT) detects resonances of electromagnetic
-waves in a cavity resonator. DCGT and RIGT share several challenges. The polarizabilities must be
-known from ab initio calculations. With sub-ppm uncertainties, this is at present only fulfilled for
+measuring gas. Refractive-index gas thermometry (RIGT) detects resonances of
+electromagnetic waves in a cavity resonator. DCGT and RIGT share several challenges.
+The polarizabilities must be known from ab initio calculations. With sub-ppm
+uncertainties, this is at present only fulfilled for
 helium, which has small polarizabilities of order stem:[ii(A)_{ii(epsilon)} ~~ 0.52 "unitsml(cm^3//mol)"]
 and stem:[ii(A)_{ii(mu)} ~~ - 0.0000079 "unitsml(cm^3//mol)"].
-Both DCGT and RIGT share the need of accurately measuring the pressure traceably to the SI base
-units metre, kilogram and the second.
-
+Both DCGT and RIGT share the need of accurately measuring the pressure traceably to
+the SI base units metre, kilogram and the second.
 
 
 ==== Dielectric-constant gas thermometry
 
-The dielectric constant is determined via the change of the capacitance stem:[ii(C)(p)] of a suitable capacitor
-measured with and without the measuring gas. This works ideally only for a pressure-independent
-configuration of the capacitor. In practice, changes of the electrode geometry with pressure are
-unavoidable and have to be taken into account. This leads for a highly-stable capacitor to a linear
-experimental equation for the determination of stem:[ii(epsilon)_"r"],
+The dielectric constant is determined via the change of the capacitance
+stem:[ii(C)(p)] of a suitable capacitor
+measured with and without the measuring gas. This works ideally only for a
+pressure-independent
+configuration of the capacitor. In practice, changes of the electrode geometry with
+pressure are unavoidable and have to be taken into account. This leads for a
+highly-stable capacitor to a linear experimental equation for the determination of stem:[ii(epsilon)_"r"],
 
 [stem]
 ++++
 ii(epsilon)_"r" = {ii(C)(p)} / {ii(C)(0)(1 + ii(kappa)_{"eff"}p)},
 ++++
 
-where stem:[ii(kappa)_{"eff"}] is the negative isothermal effective compressibility and stem:[ii(C)(0)] is the capacitance of the
-evacuated capacitor footnote:[The term "effective" indicates the fact that each capacitor is a composite because small pieces of insulator
-materials are necessary to isolate the electrodes electrically.]. Because of the small stem:[ii(A)_{ii(epsilon)}] value of helium, the capacitance changes have to be
-measured using a high-precision ratio-transformer bridge, the quality of which is comparable with
-those applied for the realization and dissemination of the capacitance unit.
+where stem:[ii(kappa)_{"eff"}] is the negative isothermal effective compressibility
+and stem:[ii(C)(0)] is the capacitance of the
+evacuated capacitor footnote:[The term "effective" indicates the fact that each
+capacitor is a composite because small pieces of insulator
+materials are necessary to isolate the electrodes electrically.]. Because of the
+small stem:[ii(A)_{ii(epsilon)}] value of helium, the capacitance changes have to be
+measured using a high-precision ratio-transformer bridge, the quality of which is
+comparable with those applied for the realization and dissemination of the
+capacitance unit.
 
-For deriving the complete working equation of DCGT, the experimental equation for stem:[ii(epsilon)_"r"]
+For deriving the complete working equation of DCGT, the experimental equation for
+stem:[ii(epsilon)_"r"]
 has to be combined with the relationship between stem:[ii(epsilon)_"r"]
 and stem:[p]. Applying the complete working equation, isotherms
-stem:[ii(C)(p)] versus stem:[p] at constant temperature have to be measured for determining the DCGT results in the
-ideal-gas limit by extrapolation. In this limit, the values of the virial coefficients are not needed and
+stem:[ii(C)(p)] versus stem:[p] at constant temperature have to be measured for
+determining the DCGT results in the
+ideal-gas limit by extrapolation. In this limit, the values of the virial
+coefficients are not needed and
 values of the thermodynamic temperature stem:[ii(T)] can be deduced.
 
-Besides knowledge of the polarizability of the measuring gas and a traceable pressure measurement
-as mentioned above, absolute primary DCGT requires calculation of the effective compressibility of
-the measuring capacitor from the individual elastic constants of the construction materials.
-Traceability to the capacitance unit is not necessary because only capacitance ratios are needed.
-Primary DCGT has been conducted at the triple point of water with relative uncertainty of order
-stem:[1 "unitsml(ppm)"]. The relative uncertainty of primary DCGT results in the low-temperature range decreases
-from about stem:[40 "unitsml(ppm)"] at stem:[2.5 "unitsml(K)"] to about stem:[10 "unitsml(ppm)"] around stem:[100 "unitsml(K)"]. All results are confirmed by independent
-thermodynamic measurements within the uncertainty estimates. Details are found in the review paper
+Besides knowledge of the polarizability of the measuring gas and a traceable pressure
+measurement
+as mentioned above, absolute primary DCGT requires calculation of the effective
+compressibility of
+the measuring capacitor from the individual elastic constants of the construction
+materials.
+Traceability to the capacitance unit is not necessary because only capacitance ratios
+are needed.
+Primary DCGT has been conducted at the triple point of water with relative
+uncertainty of order
+stem:[1 "unitsml(ppm)"]. The relative uncertainty of primary DCGT results in the
+low-temperature range decreases
+from about stem:[40 "unitsml(ppm)"] at stem:[2.5 "unitsml(K)"] to about stem:[10
+"unitsml(ppm)"] around stem:[100 "unitsml(K)"]. All results are confirmed by
+independent
+thermodynamic measurements within the uncertainty estimates. Details are found in the
+review paper
 "`Dielectric-constant gas thermometry`"
-by https://iopscience.iop.org/article/10.1088/0026-1394/52/5/S217[Gaiser _et al._] <<gaiser>> and the references therein.
+by https://iopscience.iop.org/article/10.1088/0026-1394/52/5/S217[Gaiser _et al._]
+<<gaiser>> and the references therein.
 
-The requirement for SI-traceable, low-uncertainty pressure measurements can be relaxed by
-conducting relative primary DCGT. For instance, measurements on isobars require only that stem:[p] is
-stabilized by the aid of an uncalibrated pressure balance. But due to the complicated temperature
-dependence of the elastic constants of the construction materials, and thus of stem:[ii(kappa)_{"eff"}] of the measuring
+The requirement for SI-traceable, low-uncertainty pressure measurements can be
+relaxed by
+conducting relative primary DCGT. For instance, measurements on isobars require only
+that stem:[p] is
+stabilized by the aid of an uncalibrated pressure balance. But due to the complicated
+temperature
+dependence of the elastic constants of the construction materials, and thus of
+stem:[ii(kappa)_{"eff"}] of the measuring
 capacitor, simple ratio measurements are not sufficient.
-
 
 
 ==== Refractive-index gas thermometry
 
-In the context of absolute primary microwave RIGT, the refractive index is determined from
-measurements of microwave resonance frequencies stem:[f_m (p)] of a gas-filled isothermal cavity. (The
-subscript "`_m_`" specifies a particular microwave mode.) Quasi-spherical or cylindrical cavity shapes
-are typically employed, with the cavity dimensions at the working gas pressure calculated by
-combining the positive isothermal effective compressibility stem:[ii(kappa)_{"eff"}] of the resonator shell with cavity
-resonance measurements performed in vacuum stem:[f_m(0)] (the sign of stem:[ii(kappa)_{"eff"}] depends on the design of the
+In the context of absolute primary microwave RIGT, the refractive index is determined
+from
+measurements of microwave resonance frequencies stem:[f_m (p)] of a gas-filled
+isothermal cavity. (The
+subscript "`_m_`" specifies a particular microwave mode.) Quasi-spherical or
+cylindrical cavity shapes
+are typically employed, with the cavity dimensions at the working gas pressure
+calculated by
+combining the positive isothermal effective compressibility stem:[ii(kappa)_{"eff"}]
+of the resonator shell with cavity
+resonance measurements performed in vacuum stem:[f_m(0)] (the sign of
+stem:[ii(kappa)_{"eff"}] depends on the design of the
 cavity resonator):
 
 
@@ -311,29 +544,45 @@ n^2 = {f_m^2(0)} / {f_m^2(p)(1 - ii(kappa)_{"eff"} p)^2} ~~ {f_m^2 (0)} / {f_m^2
 ++++
 
 
-This experimental equation for the determination of stem:[n^2] is similar to that of DCGT for stem:[ii(epsilon)_"r"]
-, except that the influence of the negative effective compressibility stem:[ii(kappa)_{"eff"}] is twice as large. The equation contains
-ratios of microwave resonance frequencies stem:[f_m(0)//f_m(p)]. These ratios can be measured accurately using
-a clock that is stable for the interval required for thermally-equilibrated measurements of stem:[f_m(0)] and
+This experimental equation for the determination of stem:[n^2] is similar to that of
+DCGT for stem:[ii(epsilon)_"r"], except that the influence of the negative effective
+compressibility stem:[ii(kappa)_{"eff"}] is twice as large. The equation contains
+ratios of microwave resonance frequencies stem:[f_m(0)//f_m(p)]. These ratios can be
+measured accurately using
+a clock that is stable for the interval required for thermally-equilibrated
+measurements of stem:[f_m(0)] and
 stem:[f_m(p)] to be completed (usually days to weeks for an isotherm).
 
-For deriving the complete working equation of RIGT, the experimental equation for stem:[n^2] has to be
-combined with the relationship between stem:[n^2] and stem:[p]. Furthermore, for describing the real-gas properties
-of helium, power series with different virial coefficients have to be used both for the Lorentz-Lorenz
-equation and the equation of state. Applying the complete working equation, isotherms stem:[n^2] versus stem:[p] at
-constant temperature may be measured for determining the RIGT results in the ideal-gas limit by
-extrapolation. In this limit, the values of the virial coefficients are not needed and values of the
+For deriving the complete working equation of RIGT, the experimental equation for
+stem:[n^2] has to be
+combined with the relationship between stem:[n^2] and stem:[p]. Furthermore, for
+describing the real-gas properties
+of helium, power series with different virial coefficients have to be used both for
+the Lorentz-Lorenz
+equation and the equation of state. Applying the complete working equation, isotherms
+stem:[n^2] versus stem:[p] at
+constant temperature may be measured for determining the RIGT results in the
+ideal-gas limit by
+extrapolation. In this limit, the values of the virial coefficients are not needed
+and values of the
 thermodynamic temperature stem:[ii(T)] can be deduced.
 
-Besides the knowledge of the polarizability of the measuring gas and a traceable low-uncertainty
+Besides the knowledge of the polarizability of the measuring gas and a traceable
+low-uncertainty
 pressure measurement as mentioned above, absolute primary RIGT requires calculation of the
-effective compressibility of the measuring resonator shell from the individual elastic constants of the
+effective compressibility of the measuring resonator shell from the individual
+elastic constants of the
 construction materials. Absolute primary RIGT has been conducted using helium gas at the
-temperature of the triple point of water with relative uncertainty of the order of stem:[10 "unitsml(ppm)"], and at the
-temperatures of the triple points of neon, oxygen, and argon with relative uncertainties of the order
-stem:[20 "unitsml(ppm)"]. All results are confirmed by independent thermodynamic measurements within the
-uncertainty estimates. Details are found in the review paper "`Refractive-index gas thermometry`" by
-https://doi.org/10.1088/1681-7575/ab0dbe[Rourke _et al._] <<rourke>> and the references therein.
+temperature of the triple point of water with relative uncertainty of the order of
+stem:[10 "unitsml(ppm)"], and at the
+temperatures of the triple points of neon, oxygen, and argon with relative
+uncertainties of the order
+stem:[20 "unitsml(ppm)"]. All results are confirmed by independent thermodynamic
+measurements within the
+uncertainty estimates. Details are found in the review paper "`Refractive-index gas
+thermometry`" by
+https://doi.org/10.1088/1681-7575/ab0dbe[Rourke _et al._] <<rourke>> and the
+references therein.
 
 The requirement for SI-traceable, low-uncertainty pressure measurements can be relaxed by
 conducting relative primary RIGT. For instance, measurements on isobars require only that stem:[p] is
@@ -351,7 +600,8 @@ and simple ratio measurements may not be sufficient.
 Primary Johnson noise thermometry (JNT) is based on the thermal agitation of the charge carriers
 inside an electrical conductor and the fluctuation-dissipation theorem as its theoretical description.
 
-The power spectral density stem:[ii(S)_ii(V) (f,ii(T))] of the noise voltage stem:[ii(V)] across a complex electrical
+The power spectral density stem:[ii(S)_ii(V) (f,ii(T))] of the noise voltage
+stem:[ii(V)] across a complex electrical
 impedance stem:[ii(Z)(f)] is given by
 
 
@@ -361,26 +611,33 @@ ii(S)_ii(V) (f,ii(T)) = 4 h f "Re"(ii(Z)(f)) [ 1/2 + 1/{exp(hf // k ii(T))} ],
 ++++
 
 
-where stem:[f] is frequency, stem:[ii(T)] is the thermodynamic temperature, stem:[h] is Planck's constant, stem:[k] is Boltzmann's
-constant, and stem:["Re"] means the real part. The impedance can be, but is not necessarily a resistor with
-resistance stem:["Re"(ii(Z)(f)) = ii(R)]. Neglecting for stem:[hf " « " kii(T)] the quantum corrections, this equation yields the
-Nyquist formula
+where stem:[f] is frequency, stem:[ii(T)] is the thermodynamic temperature, stem:[h]
+is Planck's constant, stem:[k] is Boltzmann's
+constant, and stem:["Re"] means the real part. The impedance can be, but is not
+necessarily a resistor with
+resistance stem:["Re"(ii(Z)(f)) = ii(R)]. Neglecting for stem:[hf " « " kii(T)] the
+quantum corrections, this equation yields the Nyquist formula
 
 [stem]
 ++++
 << ii(V)^2 >> = 4 k ii(T) ii(R) Delta f,
 ++++
 
-where stem:[Delta f] is the bandwidth over which the noise voltage is measured. To the lowest order, the
-quantum effects introduce a relative correction equal to stem:[(hf // k ii(T))^2//12], which amounts for instance to
-stem:[2 xx 10^(-10)] at stem:[1 "unitsml(mK)"] and stem:[1 "unitsml(kHz)"] or less than stem:[2 xx 10^(-9)]
+where stem:[Delta f] is the bandwidth over which the noise voltage is measured. To
+the lowest order, the
+quantum effects introduce a relative correction equal to stem:[(hf // k
+ii(T))^2//12], which amounts for instance to
+stem:[2 xx 10^(-10)] at stem:[1 "unitsml(mK)"] and stem:[1 "unitsml(kHz)"] or less
+than stem:[2 xx 10^(-9)]
 for temperatures near stem:[300 "unitsml(K)"] and frequencies below stem:[1 "unitsml(GHz)"].
 
 
 ==== Absolute primary low-temperature Johnson noise thermometry (below stem:[4 "unitsml(K)"])
 
-Absolute primary JNT at low temperatures requires the measurement of the power spectral density on
-a noise source with an exactly known impedance stem:[ii(Z)(f)], which generally may be frequency dependent.
+Absolute primary JNT at low temperatures requires the measurement of the power
+spectral density on
+a noise source with an exactly known impedance stem:[ii(Z)(f)], which generally may
+be frequency dependent.
 The noise source is usually made of a high-purity metal containing negligible amounts of magnetic
 impurities to ensure a temperature-independent impedance. At low temperatures, the noise signals are
 very small and preferably measured with a sensor based on a superconducting quantum interference
@@ -405,41 +662,119 @@ and the references therein.
 
 ==== Absolute primary Johnson noise thermometry (above stem:[1 "unitsml(K)"])
 
-The power spectral density is deduced from measurements of the root-mean-square noise voltage (or noise current) over the measured bandwidth of the measurement system, and from measurement of the resistance. The non-ideal ac properties of real resistors and connecting leads may be accommodated with the use of a frequency-dependent model and extrapolation to zero frequency.
+The power spectral density is deduced from measurements of the root-mean-square noise
+voltage (or noise current) over the measured bandwidth of the measurement system, and
+from measurement of the resistance. The non-ideal ac properties of real resistors and
+connecting leads may be accommodated with the use of a frequency-dependent model and
+extrapolation to zero frequency.
 
-Measurements of the voltage, resistance, and bandwidth must all be traceable to the ampere, the kilogram, and the second. Absolute primary JNT has been conducted at the temperature of the triple point of water with relative uncertainties of the order of stem:[4 xx 10^(-6)]. Purely electronic measurements have been performed by comparing the thermal noise power with the noise power of a quantum-accurate pseudo-random noise waveform generated with a superconducting Josephson-junction waveform synthesizer. The low uncertainties claimed for JNT have been confirmed by independent measurements using absolute primary acoustic gas thermometry. Details on absolute primary JNT can be found in the annex "`link:https://www.bipm.org/utils/en/pdf/si-mep/MeP-K-2018-Document-being-prepared.pdf[Primary Johnson noise thermometry]`" and references therein.
+Measurements of the voltage, resistance, and bandwidth must all be traceable to the
+ampere, the kilogram, and the second. Absolute primary JNT has been conducted at the
+temperature of the triple point of water with relative uncertainties of the order of
+stem:[4 xx 10^(-6)]. Purely electronic measurements have been performed by comparing
+the thermal noise power with the noise power of a quantum-accurate pseudo-random
+noise waveform generated with a superconducting Josephson-junction waveform
+synthesizer. The low uncertainties claimed for JNT have been confirmed by independent
+measurements using absolute primary acoustic gas thermometry. Details on absolute
+primary JNT can be found in the annex
+"`link:https://www.bipm.org/utils/en/pdf/si-mep/MeP-K-2018-Document-being-prepared.pdf[Primary Johnson noise thermometry]`" and references therein.
 
 
 ==== Relative primary Johnson noise thermometry (above stem:[1 "unitsml(K)"])
 
-Relative primary JNT determines the ratios of thermodynamic temperatures from measurements of the ratios of the power spectral densities. Typically, a temperature is determined as a ratio with respect to the temperature of a fixed point for which the thermodynamic temperature is known. The measured temperature ratios are usually expressible in terms of measured ratios of noise power and resistance. Relative primary JNT has been conducted over a wide temperature range to above stem:[2500 "unitsml(K)"]. Details on relative primary JNT can be found in the annex "`link:https://www.bipm.org/utils/en/pdf/si-mep/MeP-K-2018-Document-being-prepared.pdf[Primary Johnson noise thermometry]`" and references therein.
+Relative primary JNT determines the ratios of thermodynamic temperatures from
+measurements of the ratios of the power spectral densities. Typically, a temperature
+is determined as a ratio with respect to the temperature of a fixed point for which
+the thermodynamic temperature is known. The measured temperature ratios are usually
+expressible in terms of measured ratios of noise power and resistance. Relative
+primary JNT has been conducted over a wide temperature range to above stem:[2500
+"unitsml(K)"]. Details on relative primary JNT can be found in the annex
+"`link:https://www.bipm.org/utils/en/pdf/si-mep/MeP-K-2018-Document-being-prepared.pdf[Primary Johnson noise thermometry]`" and references therein.
 
 
 [[sec-5]]
 == Practical realization of the kelvin applying defined temperature scales
 
-The CIPM has adopted a series of International Temperature Scales; firstly in 1927, acting under the authority of the CGPM and, since 1937, on the advice of its CCT. Subsequent to the 1927 scale, new scales have been adopted in 1948, 1968, and 1990, with occasional minor revisions in intervening years. In 2000 a Provisional Low Temperature Scale PLTS-2000 was adopted for temperatures below stem:[1 "unitsml(K)"].
+The CIPM has adopted a series of International Temperature Scales; firstly in 1927,
+acting under the authority of the CGPM and, since 1937, on the advice of its CCT.
+Subsequent to the 1927 scale, new scales have been adopted in 1948, 1968, and 1990,
+with occasional minor revisions in intervening years. In 2000 a Provisional Low
+Temperature Scale PLTS-2000 was adopted for temperatures below stem:[1 "unitsml(K)"].
 
-It should be noted that the fixed-point temperatures assigned in an International Temperature Scale are exact with respect to the respective scale temperature (there is no assigned uncertainty) and fixed (the value remains unchanged throughout the life of the scale). As a consequence, the definition of the kelvin in terms of the Boltzmann constant has no effect on the temperature values or realization uncertainties of the International Temperature Scales.
+It should be noted that the fixed-point temperatures assigned in an International
+Temperature Scale are exact with respect to the respective scale temperature (there
+is no assigned uncertainty) and fixed (the value remains unchanged throughout the
+life of the scale). As a consequence, the definition of the kelvin in terms of the
+Boltzmann constant has no effect on the temperature values or realization
+uncertainties of the International Temperature Scales.
 
-The International Temperature Scale of 1990 (ITS-90) from stem:[0.65 "unitsml(K)"] upwards and the Provisional Low Temperature Scale from stem:[0.9 "unitsml(mK)"] to stem:[1 "unitsml(K)"] (PLTS-2000) will remain in use in the foreseeable future allowing precise, reproducible and practical approximations to thermodynamic temperature. In particular, the most precise temperature measurements in the temperature range from approximately stem:[-250 "unitsml(degC)"] to stem:[960 "unitsml(degC)"] will, at least initially, continue to be traceable to standard platinum resistance thermometers calibrated according to the ITS-90.
+The International Temperature Scale of 1990 (ITS-90) from stem:[0.65 "unitsml(K)"]
+upwards and the Provisional Low Temperature Scale from stem:[0.9 "unitsml(mK)"] to
+stem:[1 "unitsml(K)"] (PLTS-2000) will remain in use in the foreseeable future
+allowing precise, reproducible and practical approximations to thermodynamic
+temperature. In particular, the most precise temperature measurements in the
+temperature range from approximately stem:[-250 "unitsml(degC)"] to stem:[960
+"unitsml(degC)"] will, at least initially, continue to be traceable to standard
+platinum resistance thermometers calibrated according to the ITS-90.
 
 
 [[sec-5-1]]
 === International Temperature Scale of 1990 (ITS-90) for temperatures above stem:[0.65 "unitsml(K)"]
 
-The ITS-90 [Recommendation 5, CI-1989] is the most recent descendant of the original International Temperature Scale of 1927 and replaced the International Practical Temperature Scale of 1968 (IPTS-68) and its extension, the 1976 Provisional stem:[0.5 "unitsml(K)"] to stem:[30 "unitsml(K)"] Temperature Scale (EPT-76). The ITS-90 covers the temperature range from stem:[0.65 "unitsml(K)"] to the highest temperatures that can be determined practically by radiometric means. https://www.bipm.org/en/committees/cc/cct/publications-cc.html[Guides] are available for both the ITS-90 and approximating methods to the ITS-90.
+The ITS-90 [Recommendation 5, CI-1989] is the most recent descendant of the original
+International Temperature Scale of 1927 and replaced the International Practical
+Temperature Scale of 1968 (IPTS-68) and its extension, the 1976 Provisional stem:[0.5
+"unitsml(K)"] to stem:[30 "unitsml(K)"] Temperature Scale (EPT-76). The ITS-90 covers
+the temperature range from stem:[0.65 "unitsml(K)"] to the highest temperatures that
+can be determined practically by radiometric means.
+https://www.bipm.org/en/committees/cc/cct/publications-cc.html[Guides] are available
+for both the ITS-90 and approximating methods to the ITS-90.
 
-Besides the text of the ITS-90 footnote:[The first sentence of Section 1 _Units of Temperature_ of this text has been superseded by the explicit-constant definition of the SI unit of thermodynamic temperature given in Section 2.], the https://www.bipm.org/utils/en/pdf/MeP_K_Technical_Annex.pdf[Technical Annex] of the _MeP_-K is mandatory for the realization of the ITS-90. This annex specifies the isotopic composition of the three fixed-point substances water, hydrogen and neon. Such a specification is not included in the scale definition itself. For the former definition of the base unit kelvin via the temperature of the triple point of water, the same isotopic composition as that given in the annex was specified by the CIPM at its 94th meeting in 2005. Furthermore, the Technical Annex contains equations, which facilitate corrections for the results obtained with fixed-point samples having other isotopic compositions.
+Besides the text of the ITS-90 footnote:[The first sentence of Section 1 _Units of
+Temperature_ of this text has been superseded by the explicit-constant definition of
+the SI unit of thermodynamic temperature given in Section 2.], the
+https://www.bipm.org/utils/en/pdf/MeP_K_Technical_Annex.pdf[Technical Annex] of the
+_MeP_-K is mandatory for the realization of the ITS-90. This annex specifies the
+isotopic composition of the three fixed-point substances water, hydrogen and neon.
+Such a specification is not included in the scale definition itself. For the former
+definition of the base unit kelvin via the temperature of the triple point of water,
+the same isotopic composition as that given in the annex was specified by the CIPM at
+its 94th meeting in 2005. Furthermore, the Technical Annex contains equations, which
+facilitate corrections for the results obtained with fixed-point samples having other
+isotopic compositions.
 
-Recommended differences between thermodynamic temperature stem:[ii(T)] and temperature stem:[ii(T)_{90}] on the ITS-90, stem:[ii(T)-ii(T)_{90}], together with their uncertainties are given in the annex "`link:https://www.bipm.org/utils/common/pdf/ITS-90/Estimates_Differences_T-T90_2010.pdf[Estimates of the differences stem:[ii(T)-ii(T)_{90}]]`" of the _MeP_-K. They constitute a support to high-accuracy measurements of stem:[ii(T)]. The user can easily convert measurements obtained in terms of stem:[ii(T)_{90}] to stem:[ii(T)] and vice versa. Since the fixed-point temperatures assigned in the ITS-90 have no uncertainty, the differences stem:[ii(T)-ii(T)_{90}] allow directly deducing stem:[ii(T)] values for the fixed points and their uncertainties.
+Recommended differences between thermodynamic temperature stem:[ii(T)] and
+temperature stem:[ii(T)_{90}] on the ITS-90, stem:[ii(T)-ii(T)_{90}], together with
+their uncertainties are given in the annex
+"`link:https://www.bipm.org/utils/common/pdf/ITS-90/Estimates_Differences_T-T90_2010.pdf[Estimates of the differences stem:[ii(T)-ii(T)_{90}]]`" of the _MeP_-K. They
+constitute a support to high-accuracy measurements of stem:[ii(T)]. The user can
+easily convert measurements obtained in terms of stem:[ii(T)_{90}] to stem:[ii(T)]
+and vice versa. Since the fixed-point temperatures assigned in the ITS-90 have no
+uncertainty, the differences stem:[ii(T)-ii(T)_{90}] allow directly deducing
+stem:[ii(T)] values for the fixed points and their uncertainties.
 
 
 === Provisional Low Temperature Scale from stem:[0.9 "unitsml(mK)"] to stem:[1 "unitsml(K)"] (PLTS-2000)
 
-Considerable research has been carried out to establish a temperature scale extending to temperatures lower than stem:[0.65 "unitsml(K)"]. This has resulted in PLTS-2000, adopted in 2000 by the CIPM [Recommendation 1, CI-2000]. The PLTS-2000 defines temperature from stem:[1 "unitsml(K)"] down to stem:[0.9 "unitsml(mK)"]. It is explicitly a provisional scale, recognising that the data sets comprising the basis of the scale were somewhat inconsistent below stem:[10 "unitsml(mK)"]. In the temperature range from stem:[0.65 "unitsml(K)"] to stem:[1 "unitsml(K)"], temperature may be defined using either the ITS-90 or the PLTS-2000. Either scale is acceptable; the choice of scale is oriented by convenience or the attainable uncertainty of realization. In those rare cases where use of both scales is convenient, stem:[ii(T)_{2000}] offers a better approximation of thermodynamic temperature than stem:[ii(T)_{90}] in the overlapping region.
+Considerable research has been carried out to establish a temperature scale extending
+to temperatures lower than stem:[0.65 "unitsml(K)"]. This has resulted in PLTS-2000,
+adopted in 2000 by the CIPM [Recommendation 1, CI-2000]. The PLTS-2000 defines
+temperature from stem:[1 "unitsml(K)"] down to stem:[0.9 "unitsml(mK)"]. It is
+explicitly a provisional scale, recognising that the data sets comprising the basis
+of the scale were somewhat inconsistent below stem:[10 "unitsml(mK)"]. In the
+temperature range from stem:[0.65 "unitsml(K)"] to stem:[1 "unitsml(K)"], temperature
+may be defined using either the ITS-90 or the PLTS-2000. Either scale is acceptable;
+the choice of scale is oriented by convenience or the attainable uncertainty of
+realization. In those rare cases where use of both scales is convenient,
+stem:[ii(T)_{2000}] offers a better approximation of thermodynamic temperature than
+stem:[ii(T)_{90}] in the overlapping region.
 
-In contrast to the ITS-90, for which the Technical Annex of the _MeP_-K contains important specifications, only the text of the scale is mandatory for the realization of temperatures stem:[ii(T)_{2000}] on the PLTS-2000. A https://www.bipm.org/en/committees/cc/cct/guide-plts2000.html[guide] for the realization of the PLTS-2000 describes methods by which the PLTS-2000 can be realized successfully.
+In contrast to the ITS-90, for which the Technical Annex of the _MeP_-K contains
+important specifications, only the text of the scale is mandatory for the realization
+of temperatures stem:[ii(T)_{2000}] on the PLTS-2000. A
+https://www.bipm.org/en/committees/cc/cct/guide-plts2000.html[guide] for the
+realization of the PLTS-2000 describes methods by which the PLTS-2000 can be realized
+successfully.
 
 
 [bibliography]
@@ -464,9 +799,8 @@ In contrast to the ITS-90, for which the Technical Annex of the _MeP_-K contains
 * [[[flowers,(9)BIPM Metrologia 54 5 730]]] Flowers-Jacobs N-E, Pollarolo A, Coakley J J, Fox A E, Rogalla H, Tew W L and Benz S P 2017 A Boltzmann constant determination based on Johnson noise thermometry _Metrologia_ *54*, 730-737 (8 pp) https://doi.org/10.1088/1681-7575/aa7b3f
 
 
-
-
 == Annexes
+
 Absolute primary radiometric thermometry +
 https://www.bipm.org/utils/en/pdf/si-mep/MeP-K-2018_Absolute_Primary_Radiometry.pdf
 
