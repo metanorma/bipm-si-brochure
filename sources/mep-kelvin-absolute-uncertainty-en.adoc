@@ -234,7 +234,7 @@ stem:[ii(T)] is the thermodynamic temperature. This expression will be modified
 somewhat for the different schemes.
 
 For the _spectral power method_, the radiometer is calibrated for flux responsivity
-[units: stem:["unitsml(A*W^(-1))"] ] and two apertures are added for the blackbody
+[units: stem:["unitsml(A*W^(-1))"]&nbsp;] and two apertures are added for the blackbody
 measurement (see <<fig1>>). <<eq7>> is implemented using
 
 [[eq8]]
@@ -1290,7 +1290,7 @@ mirrors are used to image the monochromator's output slits onto the FR and the
 transfer detector. The transfer detector is used to measure the power in the beam
 and then the FR is moved into place in front of the beam and its output is measured.
 The monochromator wavelength is changed, and the measurements are repeated until the
-wavelength range of the FR has been measured (see <<fig8>>).
+wavelength range of the FR has been measured (see <<fig8,nosee%>>).
 
 [[fig8]]
 .Calibration and use setups for the power method.
@@ -1936,7 +1936,14 @@ h| stem:[ii(lambda) \\ ii(T)] h| stem:[1358 "unitsml(K)"] h| stem:[1500 "unitsml
 [cols="^,^,^,^,^,^,^"]
 .Typical corrections and uncertainties related to the use of a monochromator-based spectroradiometer.
 |===
-h| Component h| Component value h| Uncertainty value h| Uncertainty unit h| Sensitivity value h| Sensitivity unit h| Temperature uncertainty at the copper point (stem:["unitsml(K)"])
+h| Component h| Component +
+value h| Uncertainty +
+value h| Uncertainty +
+unit h| Sensitivity +
+value h| Sensitivity +
+unit h| Temperature +
+uncertainty at the +
+copper point (stem:["unitsml(K)"])
 | stem:[ii(lambda)_("eff")] | stem:[8.000043 xx 10^(-7)] | stem:[1.0 xx 10^(-11)] | stem:["unitsml(m)"] | stem:[1.7 xx 10^9] | stem:["unitsml(K*m^(-1))"] | stem:[0.017]
 | Int(stem:[ii(lambda)_("eff")]) | stem:[2.9215 xx 10^(-8)] | stem:[5.3 xx 10^(-12)] | stem:["unitsml(V*W^(-1)*m^3*sr^1)"] | stem:[3.5 xx 10^9] | stem:["unitsml(K*V^(-1)*W*m^(-3)*sr^(-1))"] | stem:[0.018]
 | stem:[ii(K)_("OOB")] | 1.0007 | stem:[2.0 xx 10^(-4)] | no unit | stem:[105] | stem:["unitsml(K)"] | stem:[0.021]
@@ -2062,7 +2069,7 @@ u(ii(sigma)(ii(R)_("eff"))) = 1/(ii(S)_0) { u^2(ii(S)_0) [ii(sigma)(ii(R)_("eff"
 
 [stem%unnumbered]
 ++++
-+ sum_(i=0)^ii(N) (ii(S)_i - ii(S)_(i+1))^2 {: [u^2(ii(sigma)(ii(R)_i)) + ((del ii(sigma)(ii(R)))/(del ii(R)):|:_(ii(R)=ii(R)_i))^2 u^2(ii(R)_i)]}^(1//2),
++ sum_(i=0)^ii(N) (ii(S)_i - ii(S)_(i+1))^2 {: [[ u^2(ii(sigma)(ii(R)_i)) + ((del ii(sigma)(ii(R)))/(del ii(R)):|:_(ii(R)=ii(R)_i))^2 u^2(ii(R)_i) ]] }^(1//2),
 ++++
 
 where stem:[ii(S)_(ii(N)+1)=0] by definition.
@@ -3343,13 +3350,13 @@ where the term stem:[u(ii(G))//ii(G)] is the relative uncertainty in the gain.
 
 * [[[hartmann2009,1]]], J Hartmann, "High-temperature measurement techniques for the application in photometry, radiometry and thermometry", _Physics Reports_, *469*, 205--269, 2009.
 
-* [[[townetech,1]]], http://www.townetech.com/aperture.htm.
+* [[[townetech,1]]], link:http://www.townetech.com/aperture.htm[http://www.townetech.com/aperture.htm].
 
 * [[[lu,1]]], X Lu, K Anhalt, R D Taubert, Z Yuan, "A comparison of irradiance responsivity and thermodynamic temperature measurement between PTB and NIM", in _Temperature: Its Measurement and Control in Science and Industry_, Vol. 8, edited by C W Meyer, AIP Conference Proceedings, Melville, New York, pp. 728--733, 2013.
 
 * [[[todd2013,(13)BIPM Metrologia 50 1 20]]], A D W Todd, D J Woods, "Thermodynamic temperature measurements of the melting temperatures of stem:["Co"]-stem:["C"], stem:["Pt"]-stem:["C"] and stem:["Re"]-stem:["C"] fixed points at NRC", _Metrologia_, *50*, 20--26, 2013.
 
-* [[[semrock,1]]], www.semrock.com.
+* [[[semrock,1]]], link:www.semrock.com[www.semrock.com].
 
 * [[[yoo,(15)BIPM Metrologia 53 6 1354]]], Y S Yoo, G J Kim, S Park, D-H Lee, B-H Kim, "Spectral responsivity calibration of the reference radiation thermometer at KRISS by using a super-continuum laser-based high-accuracy monochromatic source", _Metrologia_, *53*, 1354--1364, 2016.
 
