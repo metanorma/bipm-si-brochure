@@ -10,14 +10,14 @@
 :title-part-en: Ytterbium 171 Ion (stem:[f ~~ 688 "unitsml(THz)"])
 :title-part-fr: Ytterbium 171 Ion (stem:[f ~~ 688 "unitsml(THz)"])
 :title-en: The International System of Units
-:title-fr: Le système international d’unités
+:title-fr: Le système international d'unités
 :doctype: mise-en-pratique
 :committee-acronym: CCL-CCTF-WGFS
 :committee-en: CCL-CCTF Frequency Standards Working Group
 :si-aspect: m_c_deltanu
 :docstage: in-force
-:confirmed-date: 2015-10
-:revdate: 2016-05
+:confirmed-date: 2021-03
+:revdate: 2022-04-13
 :imagesdir: images
 :mn-document-class: bipm
 :mn-output-extensions: xml,html,pdf,rxl
@@ -27,55 +27,64 @@
 [%unnumbered]
 == {blank}
 
-*^171^Yb^+^ ion, stem:[6"s"" "^2"S"_{1//2} - 5"d"" "^2"D"_{3//2}] unperturbed optical transition*
+*stem:["&#x200c;"^{171} "Yb"^"+"] ion, stem:[6"s" " &#x200c;"^2 "S"_{1//2} " "("F"=0, "mF"=0) - 5"d" " &#x200c;"^2"D"_{3//2} " "("F"=2, "mF"=0)] unperturbed optical transition*
 
-== Recommended value <<ci2015>> of the frequency
+== Recommended value <<cctf22>> of the frequency in the CIPM List of Frequencies
 
-stem:[f](Yb^+^, quadrupole) stem:[= 688358979309308.3 "unitsml(Hz)"]
+stem:[f("&#x200c;"^{171} "Yb"^"+"", quadrupole") = 688358979309308.24 "unitsml(Hz)"]
 
 equivalent to
 
-stem:[ii(lambda)](Yb^+^) stem:[= 435517610.739688 "unitsml(fm)"]
+stem:[ii(lambda)("&#x200c;"^{171} "Yb"^"+") = 435517610.73968763 "unitsml(fm)"]
 
-with an estimated relative standard uncertainty of stem:[6 xx 10^(-16)].
+with a relative standard uncertainty of stem:[2.0 xx 10^(-16)].
 
-This radiation is already endorsed by the CIPM as a secondary representation of the definition of the second.
+This radiation was endorsed by the CIPM as a secondary representation of the
+definition of the second <<cipm1>>.
 
-== Source data
+== Method to establish the recommended value
 
-Adopted value:: stem:[f](Yb^+^) stem:[= 688358979309308.3 "unitsml(Hz)"] +
-stem:[u_c//y = 6 xx 10^(−16)]
+A global adjustment of all measurements of frequency ratios published in
+peer-reviewed publications and available to the CCL-CCTF WGFS was carried out
+following the methods presented in <<margolis;to!riehle>>.
 
-calculated from
+This adjustment determines the frequency of 14 transitions (see <<fig1>>) which are
+either already adopted as secondary representations of the second <<riehle>> or
+considered as candidates for SRS. It took into account 105 measurements, including 33
+frequency ratios and 72 absolute frequency measurements (i.e. ratios to the
+stem:["&#x200c;"^{133} "Cs"] frequency). A total of 483 correlations between these
+input measurements were estimated and considered in the adjustment. More details on
+the input data and the processing are provided at
+https://webtai.bipm.org/ftp/pub/tai/publication/wgfs/Adjustment_2021.html . The
+recommended value is the direct result of the adjustment, rounded as deemed adequate
+with respect to the recommended uncertainty.
 
-[%unnumbered]
-[cols="<,^,^,^,^"]
-|===
-h| f (^171^Yb^+^, quadrupole) / stem:["unitsml(Hz)"] h| u / stem:["unitsml(Hz)"] h| f(^171^Yb^\+^ oct)/ f(^171^Yb^+^ quad) h| u h| source data
+While the results are from a global adjustment, it is of interest to note (see
+<<fig1>>) that the stem:["&#x200c;"^{171} "Yb"^"+"] transition is involved in 5
+measurements relative to stem:["&#x200c;"^{133} "Cs"], and in 2 frequency ratios with
+an optical transition.
 
-| stem:[688358979309308] | stem:[2.14] | | | <<ccl2005>>
-| stem:[688358979309306.97] | stem:[0.73] | | | <<tamm2009>>
-| stem:[688358979309310] | stem:[9] | | | <<webster>>
-| stem:[688358979309308.42] | stem:[0.42] | | | <<godun>>
-| stem:[688358979309307.82] | stem:[0.36] | | | <<tamm2014>>
-| | | stem:[0.93282940453096465] | stem:[3.1 xx 10^(−16)] | <<godun>>
-|===
-
-as a weighted mean from the above values applying the method of Margolis and Gill <<margolis>>. Considering that the values came from only two laboratories, the CCTF considered it prudent to enlarge the uncertainty by a factor of two.
+[[fig1]]
+.Representation of the 105 measurements linking 14 transitions on the circle and stem:["&#x200c;"^{133} "Cs"] at the center.
+image::img01.png[]
 
 [bibliography]
 == References
 
-* [[[ci2015,1]]], CIPM Recommendation 2 (CI-2015): Updates to the list of standard frequencies http://www.bipm.org/jsp/en/CIPMRecommendations.jsp
+* [[[cctf22,(1)CCTF Meeting 22]]], Consultative Committee for Time and Frequency
+(CCTF), 22 nd meeting (session II – online), Recommendation PSFS-2 available at
+https://www.bipm.org/en/committees/cc/cctf/22-_2-2021
 
-* [[[ccl2005,2]]], Report of the 12th meeting, Consultative Committee for Length (CCL), 15-16 Sept. 2005; available at http://www.bipm.org/utils/common/pdf/CCL12.pdf and Questionnaire previous to the 2006 meeting of the CCL/CCTF Joint Working GroupCCL-CCTF/06-11.
+* [[[cipm1,(2)CIPM Recommendation 1 (2006)]]], CIPM Recommendation 1 (CI-2006) https://www.bipm.org/utils/en/pdf/CIPM/CIPM2006-EN.pdf
 
-* [[[tamm2009,3]]], Chr. Tamm, S. Weyers, B. Lipphardt, and E. Peik: Stray-field-induced quadrupole shift and absolute frequency of the 688-THz ^171^Yb^+^ single-ion optical frequency standard, _Phys. Rev. A_ *80*, 043403 (2009).
+* [[[margolis,(3)BIPM Metrologia 52 5 628]]], H. S. Margolis, P. Gill: Least-squares analysis of clock frequency comparison data to deduce optimized frequency and frequency ratio values; _Metrologia_ *52*, 628 (2015)
 
-* [[[webster,4]]], S. Webster, R. Godun, S. King, G. Huang, B. Walton, V. Tsatourian, H. Margolis, S. Lea and P. Gill: Frequency Measurement of the 2S1/2–2D3/2 Electric Quadrupole Transition in a Single ^171^Yb^+^ Ion, _IEEE Trans.on Ultrasonics, Ferroelectrics, and Frequency Control_, *57*, 592 (2010).
+* [[[robertsson,(4)BIPM Metrologia 53 6 1272]]], L. Robertsson: On the evaluation of ultra-high-precision frequency ratio measurements: examining closed loops in a graph theory framework; _Metrologia_ *53*, 1272 (2016)
 
-* [[[godun,5]]], Godun, R. M.; Nisbet-Jones, P. B. R.; Jones, J. M.; King, S. A.; Johnson, L. A. M.; Margolis, H. S.; Szymaniec, K.; Lea, S. N.; Bongs, K. & Gill, P.: Frequency ratio of two optical clock transitions in ^171^Yb^+^ and constraints on the time-variation of fundamental constants, _Phys. Rev. Lett._, *113*, 210801 (2014).
+* [[[panfilo, 5]]], G. Panfilo, communication to the CCL-CCTF WGFS. A new
+implementation of [4] was realized in MatLab at the BIPM (2020)
 
-* [[[tamm2014,6]]], Tamm, C.; Huntemann, N.; Lipphardt, B.; Gerginov, V.; Nemitz, N.; Kazda, M.; Weyers, S. & Peik, E.: A Cs-Based Optical Frequency Measurement Using Cross-Linked Optical and Microwave Oscillators, _Phys. Rev.A_, *89*, 023820 (2014).
+* [[[oates,6]]], Ch. Oates, communication to the CCL-CCTF WGFS. An independent
+program was developed in Mathematica at NIST (2017)
 
-* [[[margolis,7]]], H. S. Margolis, P. Gill: Least-squares analysis of clock frequency comparison data to deduce optimized frequency and frequency ratio values; _Metrologia_, 2015, *52*, 628-634
+* [[[riehle,(7)BIPM Metrologia 55 2 188]]], F. Riehle, P. Gill, F. Arias, L. Robertsson: The CIPM List of Recommended Frequency Standard Values: Guidelines and Procedures; _Metrologia_ *55*, 188-200 (2018)
