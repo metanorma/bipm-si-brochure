@@ -10,8 +10,4 @@ end
 #
 # gem "debug"
 
-gem "metanorma-standoc", github: "metanorma/metanorma-standoc", branch: "extract-pdf-attributes"
-gem "metanorma", github: "metanorma/metanorma", branch: "fix-pdf-options"
 gem "metanorma-cli"
-gem "metanorma-bipm", git: "https://github.com/metanorma/metanorma-bipm", branch: "main"
-gem "sassc"
