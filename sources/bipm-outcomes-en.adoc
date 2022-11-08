@@ -165,7 +165,8 @@ parts of the reference syntax.
 
 `group-name`:: is the name of the publishing group
 `resource-type`:: is the English or French name of the outcome type
-`resource-specific-id`:: is the identifier of the outcome
+`resource-specific-id`:: is the identifier of the outcome.
+// If there is only 1 outcome of that particular type in the cited year, the ID is omitted.
 `year`:: is the year when the outcome was published
 
 
@@ -179,7 +180,7 @@ identify an information resource with adequate readability.
 [[full-french]]
 ==== Single language: French
 
-The pattern is as follows:
+The general pattern is as follows:
 
 [source%unnumbered]
 ----
@@ -203,10 +204,30 @@ Décision::: For a Decision;
 Déclaration::: For a Statement;
 
 [example]
+Résolution 1 de la CGPM (1889).
+
+[example]
 Recommandation 2 du CCDS (1970).
 
 [example]
-Résolution X de la CGPM (YYYY).
+Résolution 1 de la CGPM (2018).
+
+
+
+For Decisions of the CIPM (since 2012), and
+Recommendations/Resolutions/Decisions of the JCRB, the pattern is:
+
+[source%unnumbered]
+----
+{resource-type} {group-name}/{resource-specific-id} ({year})
+----
+
+[example]
+Décision CIPM/111-10 (2022).
+
+[example]
+Recommandation JCRB/43-1 (2021).
+
 
 
 [[full-english]]
@@ -228,6 +249,14 @@ Recommendation::: For a Recommendation
 Decision::: For a Decision
 Statement::: For a Statement
 
+[example]
+CGPM Resolution 1 (1889).
+
+[example]
+CCDS Recommendation 2 (1970).
+
+[example]
+CGPM Resolution 1 (2018).
 
 [example]
 CIPM Decision 111-10 (2022).
@@ -255,13 +284,19 @@ French language <<full-french>>.
 
 
 [example]
-CIPM Decision 111-10 (2022) / Décision 111-10 (2022).
+CGPM Resolution 1 (1889) / Résolution 1 (1889).
 
 [example]
-JCRB Recommendation 43-1 (2021) / Recommandation 43-1 (2021).
+CCDS Recommandation 2 / Recommendation 2 (1970).
 
 [example]
-CCTF Recommandation 2 / Recommendation 2 (1970).
+CGPM Resolution 1 (2018) / Résolution 1 (2018).
+
+[example]
+CIPM Decision 111-10 (2022) / Décision CIPM/111-10 (2022).
+
+[example]
+JCRB Recommendation 43-1 (2021) / Recommandation JCRB/43-1 (2021).
 
 
 === Short syntax
@@ -297,7 +332,13 @@ The pattern is as follows:
 ----
 
 [example]
-CCTF REC 2 (1970, F).
+CGPM RES 1 (1889, F).
+
+[example]
+CCDS REC 2 (1970, F).
+
+[example]
+CGPM RES 1 (2018, F).
 
 [example]
 CIPM DECN 111-10 (2022, F).
@@ -316,7 +357,13 @@ The pattern is as follows:
 ----
 
 [example]
-CCTF REC 2 (1970, E).
+CGPM RES 1 (1889, E).
+
+[example]
+CCDS REC 2 (1970, E).
+
+[example]
+CGPM RES 1 (2018, E).
 
 [example]
 CIPM DECN 111-10 (2022, E).
@@ -333,13 +380,19 @@ JCRB REC 43-1 (2021, E).
 ----
 
 [example]
-CCTF REC 2 (1970).
+CGPM RES 1 (1889).
 
 [example]
-CIPM DECN 111-10 (2022)
+CCDS REC 2 (1970).
 
 [example]
-JCRB REC 43-1 (2021)
+CGPM RES 1 (2018).
+
+[example]
+CIPM DECN 111-10 (2022).
+
+[example]
+JCRB REC 43-1 (2021).
 
 
 [bibliography]
