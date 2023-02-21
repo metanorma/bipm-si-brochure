@@ -92,9 +92,9 @@ then combines them together into the bilingual version.
 ----
 metanorma sources/si-brochure-en.adoc
 metanorma sources/si-brochure-fr.adoc
-mkdir -p site/documents
-mv sources/si-brochure-en.xml site/documents
-mv sources/si-brochure-fr.xml site/documents
+mkdir -p _site/documents
+mv sources/si-brochure-en.xml _site/documents
+mv sources/si-brochure-fr.xml _site/documents
 metanorma collection collection.yml
 ----
 
@@ -102,8 +102,8 @@ metanorma collection collection.yml
 
 The following outputs will be built:
 
-Component index:: `site/index.html`
-Component outputs:: under `site/documents/` (HTML, PDF, MN S/P XML)
+Component index:: `_site/index.html`
+Component outputs:: under `_site/documents/` (HTML, PDF, MN S/P XML)
 Bilingual brochure:: `bilingual-brochure/collection.{pdf,xml,presentation.xml}`
 
 
