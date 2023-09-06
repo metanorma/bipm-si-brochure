@@ -22,9 +22,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-
-      - name: Cache Metanorma assets
-        uses: actions-mn/cache@v1
+        with:
+          submodules: true
 
       - name: Setup Metanorma toolchain
         uses: actions-mn/setup@main
