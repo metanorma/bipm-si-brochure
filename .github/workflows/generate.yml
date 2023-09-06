@@ -25,9 +25,6 @@ jobs:
         with:
           submodules: true
 
-      - name: Cache Metanorma assets
-        uses: actions-mn/cache@v1
-
       - name: Setup Metanorma toolchain
         uses: actions-mn/setup@main
 
