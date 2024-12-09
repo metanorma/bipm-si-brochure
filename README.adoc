@@ -80,7 +80,7 @@ This method will generate the bilingual SI Brochure in one command.
 
 [source,sh]
 ----
-metanorma site generate -c brochure.yml --agree-to-terms
+bundle exec metanorma site generate -c brochure.yml --agree-to-terms
 ----
 
 === Method 2: individual document generation
