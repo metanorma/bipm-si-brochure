@@ -2,7 +2,7 @@
 
 === Defining the unit of a quantity index-range:si_3[(((International System of Units (SI))))](((value of a quantity)))(((quantity)))(((second (stem:["unitsml(s)"]))))
 
-The value of a quantity is generally expressed as the product of a number and a unit. The unit is simply a particular example of the quantity concerned which is used as a reference, and the number is the ratio of the value of the quantity to the unit.
+The value of a quantity is generally expressed as the product of a number and a unit. The unit is a particular example of the quantity concerned which is used as a reference, and the number is the ratio of the value of the quantity to the unit.
 
 NOTE: For example, the ((speed of light in vacuum)) is a constant of nature, denoted by stem:[c], whose value in SI units is given by the relation stem:[c = 299792458 "unitsml(m/s)"] where the numerical value is stem:[299792458] and the unit is stem:["unitsml(m/s)"].
 
@@ -19,7 +19,7 @@ As for any quantity, the value of a fundamental constant can be expressed as the
 
 [NOTE]
 ====
-Quotients of SI units may be expressed using either a solidus (/) or a negative exponent (^−^)
+Quotients of SI units may be expressed using either a solidus (/) or a negative exponent (^−^).
 
 [align=left]
 For example, +
@@ -247,7 +247,7 @@ As a result of the way temperature scales used to be defined, it remains common 
 t = ii(T) − ii(T)_0 " ".
 ++++
 
-The unit of ((Celsius temperature)) is the degree Celsius(((degree Celsius (stem:["unitsml(degC)"])))), symbol stem:["unitsml(degC)"], which is by definition equal in magnitude to the unit kelvin. A difference or interval of temperature may be expressed in kelvin or in degrees Celsius, the numerical value of the temperature difference being the same in either case. However, the numerical value of a ((Celsius temperature)) expressed in degrees Celsius is related to the numerical value of the ((thermodynamic temperature)) expressed in kelvin by the relation
+The unit of ((Celsius temperature)) is the degree Celsius(((degree Celsius (stem:["unitsml(degC)"])))), symbol stem:["unitsml(degC)"], which is by definition equal in magnitude to the unit kelvin. A difference or interval of temperature may be expressed in kelvins or in degrees Celsius, the numerical value of the temperature difference being the same in either case. However, the numerical value of a ((Celsius temperature)) expressed in degrees Celsius is related to the numerical value of the ((thermodynamic temperature)) expressed in kelvins by the relation
 
 [stem%unnumbered]
 ++++
@@ -384,7 +384,7 @@ The unit one is the neutral element of any system of units – necessary and pre
 (((steradian (stem:["unitsml(sr)"]))))
 (((angle)))
 
-Plane and solid angles, when expressed in radians and steradians respectively, are in effect also treated within the SI as quantities with the unit one (see <<plane_angles,nosee%>>). The symbols stem:["unitsml(rad)"] and stem:["unitsml(sr)"] are written explicitly where appropriate, in order to emphasize that, for radians or steradians, the quantity being considered is, or involves the plane angle or solid angle respectively. For steradians it emphasizes the distinction between units of flux and intensity in radiometry and photometry for example. However, it is a long-established practice in mathematics and across all areas of science to make use of stem:["unitsml(rad)" = 1] and stem:["unitsml(sr)" = 1]. For historical reasons the radian and steradian are treated as derived units, as described in <<derived_units>>.
+Plane and solid angles, when expressed in radians and steradians respectively, are also treated within the SI as quantities with the unit one (see <<plane_angles,nosee%>>). The symbols stem:["unitsml(rad)"] and stem:["unitsml(sr)"] are written explicitly where appropriate, in order to emphasize that, for radians or steradians, the quantity being considered is, or involves the plane angle or solid angle respectively. For steradians it emphasizes the distinction between units of flux and intensity in radiometry and photometry for example. However, it is a long-established practice in mathematics and across all areas of science to make use of stem:["unitsml(rad)" = 1] and stem:["unitsml(sr)" = 1]. For historical reasons the radian and steradian are treated as derived units, as described in <<derived_units>>.
 
 It is especially important to have a clear description of any quantity with unit one (see <<stating_quantity,nosee%>>) that is expressed as a ratio of quantities of the same kind (for example length ratios or amount fractions) or as a count (for example number of photons or decays). [[dimension_quantity]] [[quantity_symbols]]
 index-range:derived_units_rng[(((derived unit(s))))]
@@ -428,8 +428,8 @@ index-range:steradian_sr[(((steradian (stem:["unitsml(sr)"]))))]
 | magnetic flux | weber (((weber (stem:["unitsml(Wb)"])))) | stem:["unitsml(Wb)" = "unitsml(kg*m^2*s^(-2)*A^(-1))"] | stem:["unitsml(V*s)"]
 | magnetic flux density | tesla(((tesla (stem:["unitsml(T)"])))) | stem:["unitsml(T)" = "unitsml(kg*s^(-2)*A^(-1))"] | stem:["unitsml(Wb/m^2)"]
 | inductance | henry | stem:["unitsml(H)" = "unitsml(kg*m^2*s^(-2)*A^(-2))"] | stem:["unitsml(Wb/A)"] (((henry (stem:["unitsml(H)"]))))
-| ((Celsius temperature)) | degree Celsius(((degree Celsius (stem:["unitsml(degC)"])))) footnote:[The degree Celsius(((degree Celsius (stem:["unitsml(degC)"])))) is used to express Celsius temperatures. The numerical value of a temperature difference or temperature interval is the same when expressed in either degrees Celsius or in kelvin.] | stem:["unitsml(degC)" = "unitsml(K)"] |
-| luminous flux | lumen(((lumen (stem:["unitsml(lm)"])))) | stem:["unitsml(lm)" = "unitsml(cd*sr)"] footnote:[In photometry the name steradian and the symbol stem:["unitsml(sr)"] are usually retained in expressions for units] | stem:["unitsml(cd*sr)"]
+| ((Celsius temperature)) | degree Celsius(((degree Celsius (stem:["unitsml(degC)"])))) footnote:[The degree Celsius(((degree Celsius (stem:["unitsml(degC)"])))) is used to express Celsius temperatures. The numerical value of a temperature difference or temperature interval is the same when expressed in either degrees Celsius or in kelvins.] | stem:["unitsml(degC)" = "unitsml(K)"] |
+| luminous flux | lumen(((lumen (stem:["unitsml(lm)"])))) | stem:["unitsml(lm)" = "unitsml(cd*sr)"] footnote:[In photometry the name steradian and the symbol stem:["unitsml(sr)"] are usually retained in expressions for units.] | stem:["unitsml(cd*sr)"]
 | illuminance | lux (((lux (stem:["unitsml(lx)"])))) | stem:["unitsml(lx)" = "unitsml(cd*sr*m^(-2))"] | stem:["unitsml(lm/m^2)"]
 | ((activity referred to a radionuclide)) footnote:d[] footnote:[Activity referred to a radionuclide is sometimes incorrectly called radioactivity.]| becquerel(((becquerel (stem:["unitsml(Bq)"])))) | stem:["unitsml(Bq)" = "unitsml(s^(-1))"] |
 | ((absorbed dose)), kerma | gray (((gray (stem:["unitsml(Gy)"])))) | stem:["unitsml(Gy)" = "unitsml(m^2*s^(-2))"] | stem:["unitsml(J/kg)"]
