@@ -1,0 +1,276 @@
+[[unit_symbols]]
+== Writing unit symbols and names, and expressing the values of quantities (((unit symbols)))
+
+=== The use of unit symbols and names
+
+General principles for the writing of unit symbols and numbers were first given in <<CR1948-7>>. These were subsequently elaborated by ISO, IEC and other international bodies. As a consequence, there now exists a general consensus on how unit symbols and names, including prefix symbols and names as well as quantity symbols should be written and used, and how the values of quantities should be expressed. Compliance with these rules and style conventions, the most important of which are presented in this chapter, supports the readability and unambiguity of numerical results expressed in SI units.
+index-range:symbols_for_units[(((mandatory symbols for units)))]
+(((prefixes)))
+
+=== Unit symbols
+
+Unit symbols are printed in upright type regardless of the type used in the surrounding text. They are printed in lower-case letters unless they are derived from a proper name, in which case the first letter is a capital letter.
+(((litre (stem:["unitsml(L)"] or stem:["unitsml(l)"]))))
+
+An exception, adopted in <<CR1979-6>>, is that either capital L or lower-case l is allowed for the litre, in order to avoid possible confusion between the numeral 1 (one) and the lower-case letter l (el).
+
+A multiple or sub-multiple prefix, if used, is part of the unit and precedes the unit symbol without a separator. A prefix is never used in isolation and compound prefixes are never used.
+
+Unit symbols are mathematical entities and not abbreviations. Therefore, they are not followed by a period except at the end of a sentence, and one must neither use the plural nor mix unit symbols and unit names within one expression, since names are not mathematical entities.
+
+In forming products and quotients of unit symbols the normal rules of algebraic multiplication or division apply. Multiplication must be indicated by a space or a half-high (centred) dot (stem:[*]), since otherwise some prefixes could be misinterpreted as a unit symbol. Division is indicated by a horizontal line, by a solidus (oblique stroke, /) or by negative exponents. When several unit symbols are combined, care should be taken to avoid ambiguities, for example by using brackets or negative exponents. A solidus must not be used more than once in a given expression without brackets to remove ambiguities.
+
+It is not permissible to use abbreviations for unit symbols or unit names, such as sec (for either stem:["unitsml(s)"] or second), sq. mm (for either stem:["unitsml(mm^2)"] or square millimetre), cc (for either stem:["unitsml(cm^3)"] or cubic centimetre), or mps (for either stem:["unitsml(m/s)"] or metre per second). The use of the correct symbols for SI units, and for units in general, as listed in earlier chapters of this brochure, is mandatory. In this way ambiguities and misunderstandings in the values of quantities are avoided.
+(((unit names)))
+(((degree Celsius (stem:["unitsml(degC)"]))))
+
+
+[[unit_names]]
+=== Unit names
+
+Unit names are normally printed in upright type and they are treated like ordinary nouns. In English, the names of units start with a lower-case letter (even when the symbol for the unit begins with a capital letter), except at the beginning of a sentence or in capitalized material such as a title. In keeping with this rule, the correct spelling of the name of the unit with the symbol stem:["unitsml(degC)"] is "degree Celsius" (the unit degree begins with a lower-case d and the modifier Celsius begins with an upper-case C because it is a proper name).
+
+Although the values of quantities are normally expressed using symbols for numbers and symbols for units, if for some reason the unit name is more appropriate than the unit symbol, the unit name should be spelled out in full.
+
+When the name of a unit is combined with the name of a multiple or sub-multiple prefix, no space or hyphen is used between the prefix name and the unit name. The combination of prefix name and unit name is a single word (see <<multiples,nosee%>>).
+
+When the name of a derived unit is formed from the names of individual units by juxtaposition, either a space or a hyphen is used to separate the names of the individual units. [[symbols_for_units]]
+index-range:numerical_value[(((numerical value of a quantity)))]
+(((heat capacity)))
+index-range:quantity_calculus[(((quantity calculus)))]
+index-range:value_quantity[(((value of a quantity)))]
+
+
+[[quantities_rules]]
+=== Rules and style conventions for expressing values of quantities
+
+[[quantity_value]]
+==== Value and numerical value of a quantity, and the use of quantity calculus
+
+Symbols for quantities are generally single letters set in an italic font, although they may be qualified by further information in subscripts or superscripts or in brackets. For example, stem:[ii(C)] is the recommended symbol for heat capacity, stem:[c_"m"] for molar heat capacity, stem:[c_("m",p)] for molar heat capacity at constant pressure, and stem:[c_("m",ii(V))] for molar heat capacity at constant volume.
+(((IUPAC, Green Book)))(((IUPAP SUNAMCO)))(((IUPAP SUNAMCO, Red Book)))
+
+Recommended names and symbols for quantities are listed in many standard references, such as the ((ISO/IEC 80000 series)) _Quantities and units_, the IUPAP SUNAMCO Red Book _Symbols, Units and Nomenclature in Physics_ and the IUPAC Green Book _Quantities, Units and Symbols in Physical Chemistry_. However, symbols for quantities are recommendations (in contrast to symbols for units, for which the use of the correct form is mandatory). In certain circumstances authors may wish to use a symbol of their own choice for a quantity, for example to avoid a conflict arising from the use of the same symbol for two different quantities. In such cases, the meaning of the symbol must be clearly stated. However, neither the name of a quantity, nor the symbol used to denote it, should imply any particular choice of unit.
+
+Symbols for units are treated as mathematical entities. In expressing the value of a quantity as the product of a numerical value and a unit, both the numerical value and the unit may be treated by the ordinary rules of algebra. This procedure is described as the use of quantity calculus, or the algebra of quantities. For example, the equation stem:[p = 48 "unitsml(kPa)"] may equally be written as stem:[p//"unitsml(kPa)" = 48]. It is common practice to write the quotient of a quantity and a unit in this way for a column heading in a table, so that the entries in the table are simply numbers. For example, a table of the velocity squared versus pressure may be formatted as shown below.
+
+[%unnumbered]
+[cols="^,^"]
+|===
+| stem:[p//"unitsml(kPa)"] | stem:[v^2//("unitsml(m/s^2)")]
+
+| stem:[48.73] | stem:[94766]
+| stem:[72.87] | stem:[94771]
+| stem:[135.42] | stem:[94784]
+
+|===
+
+The axes of a graph may also be labelled in this way, so that the tick marks are labelled only with numbers, as in the graph below. [[numerical_value]] [[quantity_calculus]]
+
+[%unnumbered]
+image::img01.png[]
+
+==== Quantity symbols and unit symbols (((non-SI units)))
+
+Unit symbols must not be used to provide specific information about the quantity and should never be the sole source of information on the quantity. Units are never qualified by further information about the nature of the quantity; any extra information on the nature of the quantity should be attached to the quantity symbol and not to the unit symbol.
+
+[[english_example]]
+[example]
+====
+The maximum electric potential difference is +
+stem:[ii(U)_{"max"} = 1000 "unitsml(V)"] +
+but not +
+stem:[ii(U) = 1000 " " V_{"max"}].
+====
+
+[example]
+====
+The mass fraction of copper in the sample of silicon is +
+stem:[w("Cu") = 1.3 xx 10^(-6)] +
+but not +
+stem:[1.3 xx 10^(-6) w//w].
+====
+
+==== Formatting the value of a quantity (((formatting the value of a quantity)))
+
+The numerical value always precedes the unit and a space is always used to separate the unit from the number. Thus the value of the quantity is the product of the number and the unit. The space between the number and the unit is regarded as a multiplication sign (just as a space between units implies multiplication). The only exceptions to this rule are for the unit symbols for degree, minute and second for plane angle, stem:["unitsml(deg)"], stem:["unitsml(prime)"] and stem:["unitsml(dprime)"], respectively, for which no space is left between the numerical value and the unit symbol.
+
+[example]
+====
+stem:[m = 12.3 "unitsml(g)"]
+where
+stem:[m]
+is used as a symbol for the quantity mass, but
+stem:[ii(varphi) = 30 "unitsml(deg)" " " 22 "unitsml(prime)" " " 8 "unitsml(dprime)"],
+where
+stem:[ii(varphi)]
+is used as a symbol for the quantity plane angle.
+====
+
+This rule means that the symbol stem:["unitsml(degC)"] for the degree Celsius(((degree Celsius (stem:["unitsml(degC)"])))) is preceded by a space when one expresses values of ((Celsius temperature)) stem:[t].
+
+[example]
+====
+stem:[t = 30.2 "unitsml(degC)"] +
+but not stem:[t = 30.2"°C"] +
+nor stem:[t = 30.2"° C"]
+====
+
+Even when the value of a quantity is used as an adjective, a space is left between the numerical value and the unit symbol. Only when the name of the unit is spelled out would the ordinary rules of grammar apply, so that in English a hyphen would be used to separate the number from the unit.
+
+[[id]]
+[example]
+====
+a stem:[10 "unitsml(kOhm)"] resistor
+====
+
+[example]
+====
+a 35-millimetre film
+====
+
+In any expression, only one unit is used. An exception to this rule is in expressing the values of time and of plane angles using non-SI units. However, for plane angles it is generally preferable to divide the degree decimally. It is therefore preferable to write stem:[22.20 "unitsml(deg)"] rather than stem:[22 "unitsml(deg)"] stem:[12 "unitsml(prime)"], except in fields such as navigation, cartography, astronomy, and in the measurement of very small angles.
+
+[example]
+====
+stem:[l = 10.234 "unitsml(m)"] +
+but not +
+stem:[l = 10 "unitsml(m)"" " 23.4 "unitsml(cm)"]
+====
+
+==== Formatting numbers, and the decimal marker (((decimal marker))) (((digits in groups of three, grouping digits)))
+
+The symbol used to separate the integral part of a number from its decimal part is called the ((decimal marker)). Following a decision in <<CR2003-10>>, the ((decimal marker)) "shall be either the point on the line or the comma on the line." The ((decimal marker)) chosen should be that which is customary in the language and context concerned.
+
+If the number is between +1 and −1, then the ((decimal marker)) is always preceded by a zero.
+
+[example]
+====
+stem:[-0.234] +
+but not +
+stem:[-.234]
+====
+
+Following <<CR1948-7>> and <<CR2003-10>>, for numbers with many digits the digits may be divided into groups of three by a space, in order to facilitate reading. Neither dots nor commas are inserted in the spaces between groups of three. However, when there are only four digits before or after the ((decimal marker)), it is customary not to use a space to isolate a single digit. The practice of grouping digits in this way is a matter of choice; it is not always followed in certain specialized applications such as engineering drawings, financial statements and scripts to be read by a computer.
+
+[example]
+====
+stem:[43279.16829] +
+but not +
+stem:["43,279.168,29"]
+====
+
+[example]
+====
+either stem:[3279.1683] +
+or +
+stem:["3 279.168 3"]
+====
+
+For numbers in a table, the format used should not vary within one column.
+
+[[uncertainty]]
+==== Expressing the measurement uncertainty in the value of a quantity (((uncertainty)))
+
+The uncertainty associated with an estimated value of a quantity should be evaluated and expressed in accordance with the document JCGM 100:2008 (GUM 1995 with minor corrections), _Evaluation of measurement data -- Guide to the expression of uncertainty in measurement_. The standard uncertainty associated with a quantity stem:[x] is denoted by stem:[u(x)]. One convenient way to represent the standard uncertainty is given in the following example:
+
+[stem%unnumbered]
+++++
+m_"n" = 1.674927471 (21) xx 10^(−27) "unitsml(kg)",
+++++
+
+where stem:[m_"n"] is the symbol for the quantity (in this case the mass of a neutron) and the number in parentheses is the numerical value of the standard uncertainty of the estimated value of stem:[m_"n"] referred to the last digits of the quoted value; in this case stem:[u(m_"n") = 0.000000021 xx 10^(−27) "unitsml(kg)"]. If an expanded uncertainty stem:[ii(U)(x)] is used in place of the standard uncertainty stem:[u(x)], then the coverage probability stem:[p] and the coverage factor stem:[k] must be stated.
+
+==== Multiplying or dividing quantity symbols, the values of quantities, or numbers
+
+When multiplying or dividing quantity symbols any of the following methods may be used:
+
+[stem%unnumbered]
+++++
+ab, a" "b, a * b, a xx b, a //b, a/b, a" "b^(−1).
+++++
+
+When multiplying the value of quantities either a multiplication sign stem:[xx] or brackets should be used, not a half-high (centred) dot. When multiplying numbers only the multiplication sign stem:[xx] should be used.
+
+When dividing the values of quantities using a solidus, brackets are used to avoid ambiguity. [[value_quantity]]
+
+[example]
+====
+stem:[ii(F) = ma] +
+for force equals mass times acceleration
+====
+
+[example]
+====
+stem:[(53 "unitsml(m/s)") xx 10.2 "unitsml(s)"] +
+or stem:[(53 "unitsml(m/s)")(10.2 "unitsml(s)")]
+====
+
+[example]
+====
+stem:[25 xx 60.5] +
+but not +
+stem:[25 * 60.5]
+====
+
+[example]
+====
+stem:[(20 "unitsml(m)")//(5 "unitsml(s)") = 4 "unitsml(m/s)"]
+====
+
+[example]
+====
+stem:["(a/b)/c"] +
+not +
+stem:["a/b/c"]
+====
+
+
+[[stating_quantity]]
+==== Stating quantity values being pure numbers
+
+As discussed in <<dimensions_of_quantities>>, values of quantities with unit one, are expressed simply as numbers. The unit symbol 1 or unit name "one" are not explicitly shown. SI prefix symbols can neither be attached to the symbol 1 nor to the name "one", therefore powers of 10 are used to express particularly large or small values.
+
+[example]
+====
+stem:[n = 1.51], +
+but not +
+stem:[n = 1.51 xx 1], +
+where stem:[n]
+is the quantity symbol for refractive index.
+====
+
+Quantities that are ratios of quantities of the same kind (for example length ratios and amount fractions) have the option of being expressed with units (stem:["unitsml(m/m)"], stem:["unitsml(mol/mol)"]) to aid the understanding of the quantity being expressed and also allow the use of ((SI prefixes)), if this is desirable (stem:["unitsml(um/m)"], stem:["unitsml(nmol/mol)"]). Quantities(((counting quantities))) relating to counting do not have this option, they are just numbers.
+(((percent)))
+
+The internationally recognized symbol % (percent) may be used with the SI. When it is used, a space separates the number and the symbol %. The symbol % should be used rather than the name "percent". In written text, however, the symbol % generally takes the meaning of "parts per hundred". Phrases such as "percentage by mass", "percentage by volume", or "percentage by ((amount of substance))" shall not be used; the extra information on the quantity should instead be conveyed in the description and symbol for the quantity.
+
+The term "((ppm))", meaning stem:[10^(−6)] relative value, or 1 part in stem:[10^6], or parts per million, is also used. This is analogous to the meaning of percent as parts per hundred. The terms "parts per billion" and "parts per trillion" and their respective abbreviations "((ppb))" and "((ppt))", are also used, but their meanings are language dependent. For this reason the abbreviations ppb and ppt should be avoided.
+
+NOTE: In English-speaking countries, a billion is now generally taken to be stem:[10^9] and a trillion to be stem:[10^(12)]; however, a billion may still sometimes be interpreted as stem:[10^(12)] and a trillion as stem:[10^(18)]. The abbreviation ppt is also sometimes read as parts per thousand, adding further confusion.
+
+[[plane_angles]]
+==== Plane angles, solid angles and phase angles (((radian (stem:["unitsml(rad)"])))) (((steradian (stem:["unitsml(sr)"]))))
+
+The coherent SI unit for the plane angle and the phase angle is radian, unit symbol stem:["unitsml(rad)"] and that for the solid angle is steradian, unit symbol stem:["unitsml(sr)"].
+(((length)))
+
+The plane angle, expressed in radian, between two lines originating from a common point is the length of circular arc stem:[s], swept out between the lines by a radius vector of length stem:[r] from the common point divided by the length of the radius vector, stem:[ii(theta) = s//r "unitsml(rad)"]. The phase angle (often just referred to as the "phase") is the argument of any complex number. It is the angle between the positive real axis and the radius of the polar representation of the complex number in the complex plane.
+
+One radian corresponds to the angle for which stem:[s = r], thus stem:[1 "unitsml(rad)" = 1]. The measure of the right angle is exactly equal to the number stem:[pi //2].
+
+A historical convention is the degree. The conversion between radians and degrees follows from the relation stem:[360 "unitsml(deg)" = 2pi "unitsml(rad)"]. Note that the degree, with the symbol stem:["unitsml(deg)"], is not a unit of the SI.
+(((steradian (stem:["unitsml(sr)"]))))
+
+The solid angle, expressed in steradian, corresponds to the ratio between an area stem:[ii(A)] of the surface of a sphere of radius stem:[r] and the squared radius, stem:[ii Omega = ii(A)//r^2 "unitsml(sr)"]. One steradian corresponds to the solid angle for which stem:[ii(A) = r^2], thus stem:[1 "unitsml(sr)" = 1].
+(((length)))
+
+The units stem:["unitsml(rad)"] and stem:["unitsml(sr)"] correspond to ratios of two lengths and two squared lengths, respectively. However, it shall be emphasized that stem:["unitsml(rad)"] and stem:["unitsml(sr)"] must only be used to express angles and solid angles, but not to express ratios of lengths and squared lengths in general.
+
+[NOTE]
+====
+When the SI was adopted by <<CGPM_MET_11>>, a category of "((supplementary units))" was created to accommodate the radian and steradian. Decades later, The CGPM decided:
+
+. "to interpret the ((supplementary units)) in the SI, namely the radian and the steradian, as dimensionless derived units, the names and symbols of which may, but need not, be used in expressions for other SI derived units, as is convenient", and
+. to eliminate the separate class of ((supplementary units)) (<<CR1995-8>>).
+====

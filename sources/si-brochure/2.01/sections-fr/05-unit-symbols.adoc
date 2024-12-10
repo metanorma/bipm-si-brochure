@@ -1,0 +1,427 @@
+
+[[chapter5]]
+== Règles d’écriture des noms et symboles d’unités et expression des valeurs des grandeurs index-range:regles_ecriture[(((grandeurs,règles d’écriture)))] index-range:prefixes_si-3[(((préfixes SI)))] index-range:symboles_ecriture[(((symboles,écriture et emploi des)))] (((symboles,unités))) (((unité(s),noms)))(((unité(s),règles d’écriture)))
+
+=== Utilisation des symboles et noms des unités (((ISO)))
+
+Les principes généraux concernant l’écriture des symboles des unités et des
+nombres furent d’abord proposés par la CGPM à sa 9^e^ réunion (<<CR1948-7>>).
+Ils furent ensuite adoptés et mis en forme par l’ISO, l’IEC et d’autres
+organisations internationales. Il existe donc un consensus général sur la
+manière dont doivent être exprimés les symboles et noms d’unités, y compris les
+symboles et noms de préfixes, ainsi que les symboles et les valeurs des
+grandeurs. Le respect de ces règles et des conventions de style, dont les plus
+importantes sont présentées dans ce chapitre, aide à la lisibilité et à la
+clarté des résultats numériques exprimés en unités SI.
+
+
+=== Symboles des unités (((unité(s),symboles)))
+
+Les symboles des unités sont imprimés en caractères droits, quelle que soit la police
+employée dans le texte où ils figurent. En général les symboles des unités sont écrits en
+minuscules mais, si le nom de l’unité dérive d’un nom propre, la première lettre du symbole
+est en majuscule.
+
+Le symbole du litre(((litre (stem:["unitsml(L)"] ou stem:["unitsml(l)"]))))
+constitue une exception à cette règle. La CGPM à sa 16^e^ réunion (<<CR1979-6>>)
+a approuvé l’utilisation de la lettre L en majuscule ou l en minuscule comme
+symbole du litre afin d’éviter la confusion entre le chiffre 1 (un) et la lettre
+l.
+
+Si l’on utilise un préfixe de multiple ou sous-multiple, celui-ci fait partie de l’unité et
+précède le symbole de l’unité, sans espace entre le symbole du préfixe et le symbole de
+l’unité. Un préfixe n’est jamais utilisé seul et l’on n’utilise jamais de préfixe composé.
+
+Les symboles d’unités sont des entités mathématiques et non des abréviations.
+Par conséquent, ils ne doivent pas être suivis d’un point, sauf s’ils se trouvent placés à la fin
+d’une phrase. Ils restent invariables au pluriel et il ne faut pas mélanger des symboles
+d’unités avec des noms d’unités dans une même expression puisque les noms ne sont pas
+des entités mathématiques.
+
+Les règles classiques de multiplication ou de division algébriques s’appliquent pour former
+les produits et quotients de symboles d’unités. La multiplication doit être indiquée par une
+espace ou un point à mi-hauteur centré (stem:[*]) pour éviter que certains préfixes soient
+interprétés à tort comme un symbole d’unité. La division est indiquée par une ligne
+horizontale, par une barre oblique (/) ou par des exposants négatifs. Lorsque l’on combine
+plusieurs symboles d’unités, il faut prendre soin d’éviter toute ambiguïté en utilisant par
+exemple des crochets, des parenthèses ou des exposants négatifs. Il ne faut pas utiliser plus
+d’une barre oblique dans une expression donnée s’il n’y a pas de parenthèses pour lever
+toute ambiguïté.
+
+Il n’est pas autorisé d’utiliser des abréviations pour les symboles et noms d’unités, comme
+sec (pour s ou seconde)(((seconde))), mm car. (pour stem:["unitsml(mm^2)"] ou millimètre carré), cc (pour stem:["unitsml(cm^3)"] ou
+centimètre cube), ou mps (pour stem:["unitsml(m/s)"] ou mètre par seconde). L’utilisation correcte des
+symboles des unités du SI et des unités en général, dont il a été fait mention dans les
+chapitres précédents de cette brochure, est obligatoire. C’est ainsi que l’on évite les
+ambiguïtés et les erreurs de compréhension concernant les valeurs des grandeurs.
+
+
+=== Noms des unités
+
+Les noms des unités sont imprimés en caractères droits et sont considérés comme des noms
+ordinaires. En français et en anglais, les noms d’unités commencent par une minuscule
+(même si le symbole de l’unité commence par une majuscule) sauf s’ils se trouvent placés
+au début d’une phrase ou dans un titre en majuscules. Selon cette règle, l’écriture correcte
+du nom de l’unité dont le symbole est stem:["unitsml(degC)"] est «{nbsp}degré Celsius{nbsp}»(((degré Celsius (stem:["unitsml(degC)"])))) (l’unité degré commence par
+la lettre d en minuscule et le qualificatif «{nbsp}Celsius{nbsp}» commence par la lettre C en majuscule,
+parce que c’est un nom propre).
+
+Bien que les valeurs des grandeurs soient généralement exprimées au moyen de nombres et
+de symboles d’unités, si pour une raison quelconque le nom de l’unité est plus approprié
+que son symbole, il convient d’écrire en toutes lettres le nom de l’unité.
+
+Lorsque le nom de l’unité est accolé au nom d’un préfixe d’un multiple ou sous-multiple,
+il n’y a pas d’espace ni de tiret entre le nom du préfixe et celui de l’unité. L’ensemble
+formé du nom du préfixe et de celui de l’unité constitue un seul mot (voir aussi <<chapter3,nosee%>>).
+
+Lorsque le nom d’une unité dérivée est constitué par juxtaposition de noms d’unités
+individuelles, il convient d’utiliser une espace ou un tiret pour séparer chaque nom d’unité.  [[prefixes_si-3]]
+
+
+=== Règles et conventions stylistiques servant à exprimer les valeurs des grandeurs index-range:symboles_recommandes[(((grandeurs,symboles (recommandés))))] index-range:valeur_numerique[(((grandeurs,valeur numérique)))] (((symboles,unités (obligatoires))))
+
+[[scls541]]
+==== Valeur et valeur numérique d’une grandeur{nbsp}; utilisation du calcul formel index-range:calcul_formel[(((calcul formel)))]
+
+Les symboles des grandeurs sont en général formés d’une seule lettre en italique mais des
+informations complémentaires sur la grandeur peuvent être précisées par un indice ou un
+exposant ajouté au symbole ou au moyen de parenthèses. Par exemple, stem:[ii(C)] est le symbole
+recommandé pour la ((capacité thermique)), stem:[c_"m"] pour la ((capacité thermique)) molaire, stem:[c_("m",p)] pour
+la ((capacité thermique)) molaire à pression constante et stem:[c_("m",ii(V))] pour la ((capacité thermique))
+molaire à volume constant.
+(((IUPAC,livre vert)))((("IUPAP SUNAMCO, livre rouge")))
+
+Les noms et symboles recommandés pour les grandeurs figurent dans de nombreux
+ouvrages de référence, tels que la série de normes ISO/IEC 80000(((ISO,série ISO/IEC 80000))) «{nbsp}__Grandeurs et unités__{nbsp}»,
+le «{nbsp}livre rouge{nbsp}» de l’IUPAP SUNAMCO intitulé «{nbsp}__Symbols, Units and Nomenclature in
+Physics__{nbsp}» et le «{nbsp}livre vert{nbsp}» de l’IUPAC(((IUPAC))) intitulé «{nbsp}__Quantities, Units and Symbols in
+Physical Chemistry__{nbsp}». Toutefois, les symboles des grandeurs ne sont que recommandés
+(alors qu’il est obligatoire d’utiliser les symboles corrects des unités). Dans certaines
+circonstances, les auteurs peuvent préférer utiliser le symbole de leur choix pour une
+grandeur donnée, par exemple pour éviter un conflit résultant de l’utilisation du même
+symbole pour deux grandeurs différentes. Il faut alors préciser clairement quelle est la
+signification du symbole. Le nom d’une grandeur, ou le symbole utilisé pour l’exprimer,
+n’oblige en aucun cas à choisir une unité en particulier.
+
+Les symboles des unités sont traités comme des entités mathématiques. Lorsque l’on
+exprime la valeur d’une grandeur comme le produit d’une valeur numérique par une unité,
+la valeur numérique et l’unité peuvent être traitées selon les règles ordinaires de l’algèbre.
+Une telle démarche applique les principes du calcul formel ou de l’algèbre des grandeurs.
+Par exemple l’équation stem:[p = 48 "unitsml(kPa)"] peut aussi s’écrire
+stem:[p//"unitsml(kPa)" = 48]. Il est courant d’écrire le
+quotient d’une grandeur et d’une unité en tête de colonne d’un tableau, afin que les entrées
+du tableau soient simplement des nombres. Par exemple, un tableau exprimant la vitesse au
+carré en fonction d’une pression peut prendre la forme suivante{nbsp}:
+
+[%unnumbered]
+[cols="^,^"]
+|===
+| stem:[p//"unitsml(kPa)"] | stem:[v^2//("unitsml(m/s^2)")]
+
+| stem:[48.73] | stem:[94766]
+| stem:[72.87] | stem:[94771]
+| stem:[135.42] | stem:[94784]
+
+|===
+
+Les axes d’un graphique peuvent aussi être identifiés de cette manière, afin que les
+graduations soient uniquement identifiées par des nombres, comme illustré sur la figure
+ci-dessous. [[calcul_formel]]
+
+[%unnumbered]
+image::img01.png[]
+
+
+==== Symboles des grandeurs et unités (((unité(s),symboles)))
+
+Le symbole de l’unité ne doit pas être utilisé pour fournir des informations spécifiques sur
+la grandeur en question et il ne doit jamais être la seule source d’information sur la
+grandeur. Les unités ne doivent jamais servir à fournir des informations complémentaires
+sur la nature de la grandeur{nbsp}; ce type d’information doit être attaché au symbole de la
+grandeur et non à celui de l’unité.
+
+[example]
+====
+La différence de potentiel électrique maximale s’exprime sous la forme +
+stem:[ii(U)_{"max"} = 1000 "unitsml(V)"] +
+mais pas +
+stem:[ii(U) = 1000 " " ii(V)_{"max"}].
+====
+
+[example]
+====
+La fraction massique du cuivre de l’échantillon de silicium s’exprime sous la forme +
+stem:[w("Cu") = 1.3 xx 10^(-6)] +
+mais pas +
+stem:[1.3 xx 10^(-6) w//w].
+====
+
+==== Écriture de la valeur d’une grandeur
+
+La valeur numérique précède toujours l’unité et il y a toujours une espace entre le nombre
+et l’unité. Ainsi, la valeur d’une grandeur étant le produit d’un nombre par une unité,
+l’espace entre le nombre et l’unité est considérée comme un signe de multiplication
+(tout comme l’espace entre les unités). Les seules exceptions à la règle sont les symboles
+d’unité pour le degré, la minute(((minute (min)))) et la ((seconde)) d’angle(((angle))) plan (respectivement stem:["unitsml(deg)"], stem:["unitsml(prime)"] et stem:["unitsml(dprime)"])
+pour lesquels il n’y a pas d’espace entre la valeur numérique et le symbole de l’unité.
+(((température,Celsius)))
+
+[example]
+====
+stem:[m = 12.3 "unitsml(g)"]
+où
+stem:[m]
+est utilisé comme symbole de la grandeur «{nbsp}masse{nbsp}» mais
+stem:[ii(varphi) = 30 "unitsml(deg)" " " 22 "unitsml(prime)" " " 8 "unitsml(dprime)"]
+où
+stem:[ii(varphi)]
+est utilisé comme symbole de la grandeur «{nbsp}angle plan{nbsp}»(((angle))).
+====
+
+Cette règle signifie que le symbole stem:["unitsml(degC)"] pour le degré Celsius(((degré Celsius (stem:["unitsml(degC)"])))) est précédé d’une espace pour
+exprimer la valeur de la température Celsius, stem:[t].
+(((temps,durée)))
+
+[example]
+====
+stem:[t = 30.2 "unitsml(degC)"] +
+mais pas stem:[t = 30.2"°C"] +
+ni stem:[t = 30.2"° C"]
+====
+
+En anglais, même lorsque la valeur d’une grandeur est utilisée comme adjectif, il convient
+de laisser une espace entre la valeur numérique et le symbole de l’unité. Ce n’est que
+lorsque l’on écrit le nom de l’unité en toutes lettres que l’on applique les règles
+grammaticales ordinaires.
+
+[example]
+====
+a stem:[10 "unitsml(kOhm)"] resistor
+====
+
+[example]
+====
+a 35-millimetre film
+====
+
+Dans une expression donnée, une seule unité doit être utilisée. Les valeurs des grandeurs
+«{nbsp}temps{nbsp}» et «{nbsp}angle plan{nbsp}»(((angle))) exprimées au moyen d’unités en dehors du SI font exception à
+cette règle. Toutefois, en ce qui concerne l’angle(((angle))) plan, il est généralement préférable de
+diviser le degré de manière décimale. Ainsi, il est préférable d’écrire stem:[22.20 "unitsml(deg)"] plutôt que
+stem:[22 "unitsml(deg)"] stem:[12 "unitsml(prime)"], sauf dans les domaines tels que la navigation, la cartographie, l’astronomie et la
+mesure d’angles très petits.
+
+[example]
+====
+stem:[l = 10.234 "unitsml(m)"] +
+mais pas +
+stem:[l = 10 "unitsml(m)"" " 23.4 "unitsml(cm)"]
+====
+
+==== Écriture des nombres et séparateur décimal (((séparateur décimal)))
+
+Le symbole utilisé pour séparer le nombre entier de sa partie décimale est
+appelé «{nbsp}séparateur décimal{nbsp}». Conformément à la décision de la CGPM à
+sa 22^e^ réunion (<<CR2003-10>>), «{nbsp}le symbole du
+séparateur décimal pourra être le point sur la ligne ou la virgule sur la
+ligne{nbsp}». Le séparateur décimal choisi sera celui qui est d’usage courant
+selon la langue concernée et le contexte.
+
+Si le nombre se situe entre +1 et −1, le ((séparateur décimal)) est toujours précédé d’un zéro.
+
+[example]
+====
+stem:[−0.234] +
+mais pas +
+stem:["−,234"]
+====
+
+Conformément à la décision de la CGPM à sa 9^e^ réunion (<<CR1948-7>>) et à sa
+22^e^ réunion (<<CR2003-10>>), les nombres comportant un grand nombre de
+chiffres peuvent être partagés en tranches de trois chiffres(((chiffres groupés
+par tranches de 3 chiffres))), séparées par une espace, afin de faciliter la
+lecture. Ces tranches ne sont jamais séparées par des points, ni par des
+virgules. Cependant, lorsqu’il n’y a que quatre chiffres avant ou après le
+((séparateur décimal)), il est d’usage de ne pas isoler un chiffre par une
+espace. L’habitude de grouper ainsi les chiffres est question de choix
+personnel{nbsp}; elle n’est pas toujours suivie dans certains domaines
+spécialisés tels que le dessin industriel, les documents financiers et les
+scripts qui doivent être lus par ordinateur.
+
+[example]
+====
+stem:[43279.16829] +
+mais pas +
+stem:["43.279,168.29"]
+====
+
+[example]
+====
+stem:[3279.1683] +
+ou +
+stem:["3 279,168 3"]
+====
+
+Le format utilisé pour écrire les nombres dans un tableau doit rester cohérent dans une
+même colonne.
+
+
+==== Expression de l’incertitude de mesure associée à la valeur d’une grandeur index-range:incertitude-2[(((incertitude)))]
+
+L’incertitude associée à la valeur estimée d’une grandeur doit être évaluée et exprimée en
+accord avec le Guide JCGM 100:2008 (GUM 1995 avec des corrections mineures),
+_Évaluation des données de mesure - Guide pour l’expression de l’incertitude de mesure_.
+L’incertitude-type associée à une grandeur stem:[x] est désignée par stem:[u(x)]. Un moyen commode de
+représenter l’incertitude-type est donné dans l’exemple suivant{nbsp}:
+
+[stem%unnumbered]
+++++
+m_"n" = 1.674927471(21) xx 10^{-27} "unitsml(kg)"
+++++
+
+où stem:[m_"n"] est le symbole de la grandeur (ici la ((masse)) du neutron) et le nombre entre parenthèses
+la valeur numérique de l’incertitude-type sur les deux derniers chiffres de la valeur estimée
+de stem:[m_"n"], dans le cas présent{nbsp}: stem:[u(m_"n") = 0.000000021 xx 10^{-27} "unitsml(kg)"]. Si une incertitude élargie
+stem:[ii(U)(x)] est utilisée au lieu de l’incertitude-type stem:[u(x)], alors la probabilité d’élargissement stem:[p] et le
+facteur d’élargissement stem:[k] doivent être précisés. [[valeur_numerique]] [[incertitude-2]]
+
+
+==== Multiplication ou division des symboles des grandeurs, des valeurs des grandeurs et des nombres
+
+Pour multiplier ou diviser les symboles des grandeurs, il est possible d’utiliser n’importe
+laquelle des écritures suivantes{nbsp}: stem:[ab], stem:[a" "b], stem:[a * b], stem:[a xx b], stem:[a//b],
+stem:[a/b], stem:[a" "b^(-1)].
+
+Lorsque l’on multiplie la valeur des grandeurs, il convient d’utiliser un signe de
+multiplication stem:[xx], des parenthèses (ou des crochets), mais pas le point (centré) à mi-hauteur.
+Lorsque l’on multiplie des nombres, il convient d’utiliser uniquement le signe de
+multiplication stem:[xx].
+
+Lorsque l’on divise les valeurs des grandeurs au moyen d’une barre oblique, on utilise des
+parenthèses pour lever toute ambiguïté.
+
+[example]
+====
+stem:[ii(F) = ma] +
+pour une force égale à la ((masse)) multipliée par l’accélération
+====
+
+[example]
+====
+stem:[(53 "unitsml(m/s)") xx 10.2 "unitsml(s)"] +
+ou stem:[(53 "unitsml(m/s)")(10.2 "unitsml(s)")]
+====
+
+[example]
+====
+stem:[25 xx 60.5] +
+mais pas +
+stem:[25 * 60.5]
+====
+
+[example]
+====
+stem:[(20 "unitsml(m)")"/"(5 "unitsml(s)") = 4 "unitsml(m/s)"]
+====
+
+[example]
+====
+stem:["(a/b)/c"] +
+mais pas +
+stem:["a/b/c"]
+====
+
+
+[[scls547]]
+==== Écriture des valeurs des grandeurs exprimées par des nombres
+
+Comme mentionné dans la <<dim_des_grandeurs>>, les valeurs des grandeurs d’unité «{nbsp}un{nbsp}» sont
+simplement exprimées par des nombres. Le symbole d’unité, 1, ou le nom d’unité «{nbsp}un{nbsp}»
+ne sont pas écrits explicitement. Comme les symboles de préfixes du SI ne peuvent pas être
+attachés au symbole 1 ni au nom d’unité «{nbsp}un{nbsp}», les puissances de 10 sont utilisées pour
+exprimer les valeurs particulièrement grandes ou particulièrement petites.
+
+[example]
+====
+stem:[n = 1.51] +
+mais pas +
+stem:[n = 1.51 xx 1] +
+où stem:[n]
+est le symbole de la grandeur «{nbsp}indice de réfraction{nbsp}»
+====
+
+Les grandeurs qui sont des rapports de grandeurs de même nature (rapports de longueur,
+fractions molaires, etc.) peuvent être exprimées avec des unités (stem:["unitsml(m/m)", "unitsml(mol/mol)"]) afin de
+faciliter la compréhension de la grandeur exprimée et afin de permettre l’utilisation de
+préfixes du SI, si cela est préférable (stem:["unitsml(um/m)"], stem:["unitsml(nmol/mol)"]). Cela n’est pas possible avec les
+grandeurs de comptage(((grandeurs,de comptage))) qui sont simplement des nombres.
+
+Le symbole % (pour cent), qui est internationalement reconnu, peut être utilisé avec le SI.
+Quand il est utilisé, il convient de mettre une espace entre le nombre et le symbole %. Il est
+préférable d’utiliser le symbole % plutôt que le nom «{nbsp}pour cent{nbsp}». Dans un texte écrit,
+le symbole % signifie en général «{nbsp}parties par centaine{nbsp}». Les expressions telles que
+«{nbsp}pourcentage de masse{nbsp}», «{nbsp}pourcentage de volume{nbsp}», «{nbsp}pourcentage de quantité de
+matière{nbsp}», ne doivent pas être utilisées{nbsp}; les informations sur la grandeur en question doivent
+être données par le nom et le symbole de la grandeur.
+
+Le terme «{nbsp}ppm{nbsp}»(((ppm))), qui signifie stem:[10^{-6}] en valeur relative ou stem:[1 xx 10^{-6}] ou «{nbsp}parties par million{nbsp}»,
+est également utilisé. L’expression est analogue à «{nbsp}pour cent{nbsp}» dans le sens de parties par
+centaine. Les termes «{nbsp}partie par milliard{nbsp}» et «{nbsp}partie par millier de milliards{nbsp}» [billion
+(États-Unis)/trillion (Royaume-Uni)] et leur abréviation respective «{nbsp}ppb{nbsp}»(((ppb))) et «{nbsp}ppt{nbsp}» sont
+également utilisés mais comme leur signification varie selon la langue, il est préférable
+d’éviter de les employer.
+
+[NOTE]
+====
+Bien que dans les pays de langue anglaise le
+terme «{nbsp}billion{nbsp}» corresponde à stem:[10^9],
+et le terme «{nbsp}trillion{nbsp}» à stem:[10^(12)], le terme «{nbsp}billion{nbsp}»
+peut parfois correspondre à stem:[10^(12)] et «{nbsp}trillion{nbsp}» à stem:[10^(18)].
+L’abréviation ((ppt)) est aussi parfois comprise comme
+une partie par millier (ou millième), ce qui est
+source de confusion supplémentaire.
+====
+
+
+[[scls548]]
+==== Angles plans, angles solides et angles de phase (((radian (stem:["unitsml(rad)"]))))(((unité(s),dérivées)))(((unité(s),supplémentaires)))
+
+L’unité cohérente du SI pour l’angle(((angle))) plan et l’angle(((angle))) de phase est le radian, symbole stem:["unitsml(rad)"],
+et celle de l’angle(((angle))) solide est le stéradian(((stéradian (sr)))), symbole stem:["unitsml(sr)"].
+
+Lorsqu’il est exprimé en radian, l’angle(((angle))) plan entre deux lignes partant d’un point commun
+est la ((longueur)) de l’arc circulaire stem:[s] balayée entre ces lignes par un vecteur rayon de
+longueur stem:[r] depuis le point commun, divisée par la longueur du vecteur rayon, stem:[ii(theta) = s//r "unitsml(rad)"].
+L’angle(((angle))) de phase (communément appelé «{nbsp}phase{nbsp}») est l’argument de tout nombre
+complexe. C’est l’angle(((angle))) entre l’axe réel positif et le rayon de la représentation polaire du
+nombre complexe dans le plan complexe.
+
+Un radian correspond à l’angle(((angle))) pour lequel stem:[s = r], ainsi stem:[1 "unitsml(rad)" = 1]. La mesure de l’angle(((angle))) droit
+est exactement égale au nombre stem:[pi//2].
+
+Le degré est une convention historique. La conversion entre radians et degrés découle de la
+relation stem:[360 "unitsml(deg)" = 2 pi "unitsml(rad)"]. On remarque que le degré, symbole stem:["unitsml(deg)"], n’est pas une unité du SI.
+
+L’angle(((angle))) solide, exprimé en stéradian(((stéradian (sr)))), correspond au rapport entre l’aire stem:[ii(A)] de la surface
+d’une sphère de rayon stem:[r] et le rayon au carré, stem:[ii Omega = ii(A)//r^2 "unitsml(sr)"]. Un stéradian correspond à l’angle(((angle)))
+solide pour lequel stem:[ii(A) = r^2], ainsi stem:[1 "unitsml(sr)" = 1].
+
+Les unités stem:["unitsml(rad)"] et stem:["unitsml(sr)"] correspondent respectivement aux rapports de deux longueurs et de
+deux longueurs au carré. Toutefois, les unités stem:["unitsml(rad)"] et stem:["unitsml(sr)"] ne doivent être utilisées que pour
+exprimer des angles et des angles solides, et non des rapports de longueurs ou de longueurs
+au carré en général. [[regles_ecriture]] [[symboles_recommandes]] [[symboles_ecriture]] (((radian (stem:["unitsml(rad)"])))) (((stéradian (sr))))
+
+[NOTE]
+====
+Lorsque le SI a été adopté par la <<CGPM_MET_11>>, la classe des
+«{nbsp}unités supplémentaires{nbsp}» a été créée afin d’inclure le radian et le
+stéradian. Des décennies plus tard, la CGPM a décidé{nbsp}:
+
+. «{nbsp}d’interpréter les unités supplémentaires, dans le SI, c’est-à-dire le
+radian et le stéradian, comme des unités dérivées sans dimension dont les noms
+et les symboles peuvent être utilisés, mais pas nécessairement, dans les
+expressions d’autres unités dérivées SI, suivant les besoins{nbsp}» et
+
+. de supprimer la classe des unités supplémentaires en tant que classe séparée
+dans le SI (<<CR1995-8>>).
+====

@@ -1,0 +1,61 @@
+== Non-SI units that are accepted for use with the SI
+
+The SI provides the internationally agreed reference in terms of which all other units are defined. The coherent SI units have the important advantage that unit conversions are not required when inserting particular values for quantities into quantity equations.
+(((prefixes)))
+
+Nonetheless it is recognized that some non-SI units are widely used and are expected to continue to be used for many years. Therefore, the CIPM has accepted some non-SI units for use with the SI; these are listed in <<table8>>. If these units are used it should be understood that some advantages of the SI are lost. The SI prefixes can be used with several of these units, but not, for example, with the non-SI units of time.
+index-range:logarithmic_ratio[(((logarithmic ratio quantities)))]
+index-range:neper_np[(((neper (Np))))]
+index-range:non_si_units[(((non-SI units)))]
+(((microarcsecond (stem:[mu"as"]))))
+(((milliarcsecond (mas))))
+(((minute (min))))
+(((second (stem:["unitsml(s)"]))))
+(((SI prefixes)))
+(((time (duration))))
+
+[[table8]]
+.Non-SI units accepted for use with the SI Units
+[cols="<,<,<,<"]
+|===
+| Quantity | Name of unit | Symbol for unit | Value in SI units
+
+.3+| time | minute | stem:["unitsml(min)"] | stem:[1 "unitsml(min)" = 60 "unitsml(s)"]
+| hour | stem:["unitsml(h)"] | stem:[1 "unitsml(h)" = 60 "unitsml(min)" = 3600 "unitsml(s)"] (((hour (stem:["unitsml(h)"]))))
+| day | stem:["unitsml(d)"] | stem:[1 "unitsml(d)" = 24 "unitsml(h)" = 86400 "unitsml(s)"] (((day (d))))
+
+| ((length)) | ((astronomical unit)) footnote:[As decided at the XXVIII General Assembly of the International Astronomical Union (Resolution B2, 2012).] | stem:["unitsml(au)"] | stem:[1 "unitsml(au)" = 149597870700 "unitsml(m)"]
+
+.3+| plane and phase ((angle)) | degree | stem:["unitsml(deg)"] | stem:[1 "unitsml(deg)" = (pi //180) "unitsml(rad)"]
+| minute | stem:["unitsml(prime)"] | stem:[1 "unitsml(prime)" = (1//60)"unitsml(deg)" = (pi //10800) "unitsml(rad)"]
+| second footnote:[For some applications such as in astronomy, small angles are measured in arcseconds (i.e. seconds of plane angle), denoted as or stem:["unitsml(dprime)"], milliarcseconds, microarcseconds  and picoarcseconds, denoted stem:["unitsml(mas)"], stem:["unitsml(uas)"] and stem:["unitsml(pas)"], respectively, where ((arcsecond)) is an alternative name for second of plane angle.] | stem:["unitsml(dprime)"] | stem:[1 "unitsml(dprime)" = (1//60)"unitsml(prime)" = (pi //648000) "unitsml(rad)"]
+
+| area | hectare(((hectare (ha)))) footnote:[The unit hectare and its symbol ha, were adopted in <<CIPM_RES_1879>>. The hectare is used to express land area.] | stem:["unitsml(ha)"] | stem:[1 "unitsml(ha)" = 1 "unitsml(hm^2)" = 10^4 "unitsml(m^2)"]
+
+| volume | litre(((litre (stem:["unitsml(L)"] or stem:["unitsml(l)"])))) footnote:[The litre and the symbol lower-case l, were adopted in <<CIPM_RES_1879>>. The alternative symbol, capital L, was adopted in <<CR1979-6>> in order to avoid the risk of confusion between the letter l (el) and the numeral 1 (one).] | stem:["unitsml(l)", "unitsml(L)"] | stem:[1 "unitsml(l)" = 1 "unitsml(L)" = 1 "unitsml(dm^3)" = 10^3 "unitsml(cm^3)" = 10^(−3) "unitsml(m^3)"]
+
+.2+| mass (((mass))) | tonne(((tonne))) (((metric ton))) footnote:[The tonne(((tonne))) and its symbol stem:["unitsml(t)"], were adopted in <<CIPM_RES_1879>>. This unit is sometimes referred to as "metric ton" in some English-speaking countries.] | stem:["unitsml(t)"] | stem:[1 "unitsml(t)" = 10^3 "unitsml(kg)"]
+| dalton(((dalton (Da)))) footnote:[The dalton (stem:["unitsml(Da)"])(((dalton (Da)))) and the unified atomic mass unit (stem:[u]) are alternative names (and symbols) for the same unit, equal to 1/12 of the mass of a free ((carbon 12)) atom, at rest and in its ground state. This value of the dalton is the value recommended in the ((CODATA)) 2018 adjustment.] | stem:["unitsml(Da)"] | stem:[1 "unitsml(Da)"=1.66053906660(50) xx 10^(−27) "unitsml(kg)"]
+
+| energy | electronvolt (((electronvolt (eV)))) footnote:[The electronvolt is the kinetic energy acquired by an electron in passing through a potential difference of one volt in vacuum. The electronvolt is often combined with the ((SI prefixes)).] | stem:["unitsml(eV)"] | stem:[1 "unitsml(eV)" = 1.602176634 xx 10^(−19) "unitsml(J)"]
+
+.3+| logarithmic ratio quantities | neper footnote:h[In using these units it is important that the nature of the quantity be specified and that any reference value used be specified.] | stem:["unitsml(Np)"] | see text
+| bel(((bel (B)))) footnote:h[] | stem:["unitsml(bel_B)"] |
+| decibel footnote:h[] | stem:["unitsml(dbel_B)"] | (((decibel (dB))))
+|===
+
+{nbsp}[[logarithmic_ratio]] [[neper_np]] [[non_si_units]]
+
+
+[NOTE]
+====
+The gal (symbol: stem:["unitsml(Gal)"]) is a non SI unit of acceleration employed in geodesy and geophysics to express acceleration due to gravity ((("acceleration due to gravity, standard value of " (stem:[g_{"n"}])))) (((gal (Gal))))
+
+stem:[1 "unitsml(Gal)" = 1 "unitsml(cm*s^(-2))"] +
+stem:[= 10^(−2) "unitsml(m*s^(-2))"]
+====
+
+<<table8>> also includes the units of logarithmic ratio quantities, the neper, bel(((bel (B)))) and decibel(((decibel (dB)))). They are used to convey information on the nature of the logarithmic ratio quantity concerned. The neper, stem:["unitsml(Np)"], is used to express the values of quantities whose numerical values are based on the use of the neperian (or natural) logarithm, stem:["ln" = "log"_"e"]. The bel(((bel (B)))) and the decibel(((decibel (dB)))), stem:["unitsml(bel_B)"] and stem:["unitsml(dbel_B)"], where stem:[1 "unitsml(dbel_B)" = (1//10) "unitsml(bel_B)"], are used to express the values of logarithmic ratio quantities whose numerical values are based on the decadic logarithm, stem:["lg" = "log"_(10)]. The statement stem:[ii(L)_X = m "unitsml(dbel_B)" = (m //10) "unitsml(bel_B)"] (where stem:[m] is a number) is interpreted to mean that stem:[m = 10 " lg"(ii(X)//ii(X)_0)]. The units neper, bel(((bel (B)))) and decibel(((decibel (dB)))) have been accepted by the CIPM for use with the International System, but are not SI units.
+(((foot)))(((inch)))(((yard)))
+
+There are many more non-SI units, which are either of historical interest, or are still used in specific fields (for example, the barrel of oil) or in particular countries (the inch, foot and yard). The CIPM can see no case for continuing to use these units in modern scientific and technical work. However, it is clearly a matter of importance to be able to recall the relation of these units to the corresponding SI units and this will continue to be true for many years.
