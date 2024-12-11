@@ -63,27 +63,32 @@ See https://www.metanorma.org/install/
 
 == Building the documents
 
-Run the following commands to build the full collection of the documents.
+=== Full set
+
+Run the following command to build the full collection of the documents.
 
 [source,sh]
 ----
-metanorma site generate --agree-to-terms
-metanorma collection collection.yml
+$ bundle exec metanorma site generate --agree-to-terms
 ----
+
+=== SI Brochure
 
 If you wish only to generate the bilingual SI Brochure, the following will
 suffice. (the `brochure.yml` file does not compile any MEP documents)
 
-=== Method 1: all in one
-
-This method will generate the bilingual SI Brochure in one command.
-
+.Compile document in single language
 [source,sh]
 ----
-bundle exec metanorma site generate -c brochure.yml --agree-to-terms
+$ bundle exec metanorma sources/si-brochure/1.07/si-brochure-en.adoc
 ----
 
-=== Method 2: individual document generation
+.Compile collection with dual languages
+[source,sh]
+----
+$ bundle exec metanorma collection --agree-to-terms sources/si-brochure/1.07/collection.yml
+----
+
 
 This method generates the English and French SI Brochures separately, and
 then combines them together into the bilingual version.
