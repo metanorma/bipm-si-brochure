@@ -1,0 +1,90 @@
+= Recommended Values of Standard Frequencies: Mercury 199 Ion (stem:[f ~~ 1065 "unitsml(THz)"])
+:appendix-id: 2
+:partnumber: 2.5
+:edition: 9
+:copyright-year: 2019
+:language: en
+:docnumber: SI MEP M REC 1065THz
+:title-appendix-en: Recommended values of standard frequencies for applications including the practical realization of the metre and secondary representations of the second
+:title-appendix-fr: Valeurs recommandées des fréquences étalons destinées à la mise en pratique de la définition du mètre et aux représentations secondaires de la seconde
+:title-part-en: Mercury 199 Ion (stem:[f ~~ 1065 "unitsml(THz)"])
+:title-part-fr: Mercury 199 Ion (stem:[f ~~ 1065 "unitsml(THz)"])
+:title-en: The International System of Units
+:title-fr: Le système international d'unités
+:doctype: mise-en-pratique
+:committee-acronym: CCL-CCTF-WGFS
+:committee-en: CCL-CCTF Frequency Standards Working Group
+:si-aspect: m_c_deltanu
+:docstage: in-force
+:confirmed-date: 2021-03
+:revdate: 2022-04-13
+:imagesdir: images
+:mn-document-class: bipm
+:mn-output-extensions: xml,html,pdf,rxl
+:local-cache-only:
+:data-uri-image:
+
+[%unnumbered]
+== {blank}
+
+*stem:["&#x200c;"^{199} "Hg"^"+"] ion, stem:[5"d"^{10} 6"s"" "^2"S"_{1//2} - 5"d"^9 6"s"^2" "^2"D"_{5//2}] unperturbed optical transition*
+
+== Recommended value <<cctf22>> of the frequency in the CIPM List of Frequencies
+
+stem:[f("&#x200c;"^{199} "Hg"^"+") = 1064721609899146.96 "unitsml(Hz)"]
+
+equivalent to
+
+stem:[ii(lambda)("&#x200c;"^{199} "Hg"^"+") = 281568867.59196808 "unitsml(fm)"]
+
+with a relative standard uncertainty of stem:[2.2 xx 10^(-16)].
+
+This radiation was endorsed by the CIPM as a secondary representation of the
+definition of the second.
+
+== Method to establish the recommended value
+
+A global adjustment of all measurements of frequency ratios published in
+peer-reviewed publications and available to the CCL-CCTF WGFS was carried out
+following the methods presented in <<margolis;to!riehle>>.
+
+This adjustment determines the frequency of 14 transitions (see <<fig1>>) which are
+either already adopted as secondary representations of the second <<riehle>> or
+considered as candidates for SRS. It took into account 105 measurements, including 33
+frequency ratios and 72 absolute frequency measurements (i.e. ratios to the
+stem:["&#x200c;"^{133} "Cs"] frequency). A total of 483 correlations between these
+input measurements were estimated and considered in the adjustment. More details on
+the input data and the processing are provided at
+https://webtai.bipm.org/ftp/pub/tai/publication/wgfs/Adjustment_2021.html . The
+recommended value is the direct result of the adjustment, rounded as deemed adequate
+with respect to the recommended uncertainty.
+
+While the results are from a global adjustment, it is of interest to note (see
+<<fig1>>) that the stem:["&#x200c;"^{199} "Hg"^"+"] transition is involved in 1
+measurement relative to stem:["&#x200c;"^{133} "Cs"], and in 1 frequency ratio with
+an optical transition.
+
+[[fig1]]
+.Representation of the 105 measurements linking 14 transitions on the circle and stem:["&#x200c;"^{133} "Cs"] at the center.
+image::fig-01.jpg[]
+
+[bibliography]
+== References
+
+* [[[cctf22,(1)CCTF Meeting 22]]], Consultative Committee for Time and Frequency
+(CCTF), 22 nd meeting (session II – online), Recommendation PSFS-2 available at
+https://www.bipm.org/en/committees/cc/cctf/22-_2-2021
+
+* [[[cipm1,(2)CIPM Recommendation 1 (2006)]]], CIPM Recommendation 1 (CI-2006) https://www.bipm.org/utils/en/pdf/CIPM/CIPM2006-EN.pdf
+
+* [[[margolis,(3)BIPM Metrologia 52 5 628]]], H. S. Margolis, P. Gill: Least-squares analysis of clock frequency comparison data to deduce optimized frequency and frequency ratio values; _Metrologia_ *52*, 628 (2015)
+
+* [[[robertsson,(4)BIPM Metrologia 53 6 1272]]], L. Robertsson: On the evaluation of ultra-high-precision frequency ratio measurements: examining closed loops in a graph theory framework; _Metrologia_ *53*, 1272 (2016)
+
+* [[[panfilo, 5]]], G. Panfilo, communication to the CCL-CCTF WGFS. A new
+implementation of [4] was realized in MatLab at the BIPM (2020)
+
+* [[[oates,6]]], Ch. Oates, communication to the CCL-CCTF WGFS. An independent
+program was developed in Mathematica at NIST (2017)
+
+* [[[riehle,(7)BIPM Metrologia 55 2 188]]], F. Riehle, P. Gill, F. Arias, L. Robertsson: The CIPM List of Recommended Frequency Standard Values: Guidelines and Procedures; _Metrologia_ *55*, 188-200 (2018)
