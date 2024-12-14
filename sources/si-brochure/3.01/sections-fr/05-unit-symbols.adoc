@@ -333,11 +333,9 @@ stem:["a/b/c"]
 
 
 [[scls547]]
-==== Écriture des valeurs des grandeurs exprimées par des nombres
+==== Grandeurs d’unité «{nbsp}un{nbsp}»
 
-Comme mentionné dans la <<dim_des_grandeurs>>, les valeurs des grandeurs d’unité «{nbsp}un{nbsp}» sont
-simplement exprimées par des nombres. Le symbole d’unité, 1, ou le nom d’unité «{nbsp}un{nbsp}»
-ne sont pas écrits explicitement. Comme les symboles de préfixes du SI ne peuvent pas être
+Comme mentionné dans la <<dim_des_grandeurs>>, les valeurs des grandeurs d’unité «{nbsp}un{nbsp}» peuvent être simplement exprimées par des nombres. Le symbole d’unité, 1, ou le nom d’unité «{nbsp}un{nbsp}» sont rarement écrits de façon explicite. Comme les symboles de préfixes du SI ne peuvent pas être
 attachés au symbole 1 ni au nom d’unité «{nbsp}un{nbsp}», les puissances de 10 sont utilisées pour
 exprimer les valeurs particulièrement grandes ou particulièrement petites.
 
@@ -354,7 +352,14 @@ Les grandeurs qui sont des rapports de grandeurs de même nature (rapports de lo
 fractions molaires, etc.) peuvent être exprimées avec des unités (stem:["unitsml(m/m)", "unitsml(mol/mol)"]) afin de
 faciliter la compréhension de la grandeur exprimée et afin de permettre l’utilisation de
 préfixes du SI, si cela est préférable (stem:["unitsml(um/m)"], stem:["unitsml(nmol/mol)"]). Cela n’est pas possible avec les
-grandeurs de comptage(((grandeurs,de comptage))) qui sont simplement des nombres.
+grandeurs(((grandeurs))) qui sont un nombre d’entités.
+
+Bien que ne faisant pas partie du SI, des termes descriptifs sont couramment utilisés
+pour remplacer l’unité «{nbsp}un{nbsp}» afin de qualifier les entités considérées lors de
+l’expression de valeurs de grandeurs qui sont un nombre d’entités. Lorsque tel
+est le cas, ces termes et leur convention d’utilisation doivent être clairement
+définis. En outre, les principes généraux présentés au chapitre 5 de la Brochure
+sur le SI doivent être respectés.
 
 Le symbole % (pour cent), qui est internationalement reconnu, peut être utilisé avec le SI.
 Quand il est utilisé, il convient de mettre une espace entre le nombre et le symbole %. Il est
@@ -364,7 +369,7 @@ le symbole % signifie en général «{nbsp}parties par centaine{nbsp}». Les exp
 matière{nbsp}», ne doivent pas être utilisées{nbsp}; les informations sur la grandeur en question doivent
 être données par le nom et le symbole de la grandeur.
 
-Le terme «{nbsp}ppm{nbsp}»(((ppm))), qui signifie stem:[10^{-6}] en valeur relative ou stem:[1 xx 10^{-6}] ou «{nbsp}parties par million{nbsp}»,
+Le terme «{nbsp}partie par million{nbsp}» ou «{nbsp}ppm{nbsp}»(((ppm))), qui signifie stem:[10^{-6}] en valeur relative ou stem:[1 xx 10^{-6}],
 est également utilisé. L’expression est analogue à «{nbsp}pour cent{nbsp}» dans le sens de parties par
 centaine. Les termes «{nbsp}partie par milliard{nbsp}» et «{nbsp}partie par millier de milliards{nbsp}» [billion
 (États-Unis)/trillion (Royaume-Uni)] et leur abréviation respective «{nbsp}ppb{nbsp}»(((ppb))) et «{nbsp}ppt{nbsp}» sont
@@ -380,48 +385,4 @@ peut parfois correspondre à stem:[10^(12)] et «{nbsp}trillion{nbsp}» à stem:
 L’abréviation ((ppt)) est aussi parfois comprise comme
 une partie par millier (ou millième), ce qui est
 source de confusion supplémentaire.
-====
-
-
-[[scls548]]
-==== Angles plans, angles solides et angles de phase (((radian (stem:["unitsml(rad)"]))))(((unité(s),dérivées)))(((unité(s),supplémentaires)))
-
-L’unité cohérente du SI pour l’angle(((angle))) plan et l’angle(((angle))) de phase est le radian, symbole stem:["unitsml(rad)"],
-et celle de l’angle(((angle))) solide est le stéradian(((stéradian (sr)))), symbole stem:["unitsml(sr)"].
-
-Lorsqu’il est exprimé en radian, l’angle(((angle))) plan entre deux lignes partant d’un point commun
-est la ((longueur)) de l’arc circulaire stem:[s] balayée entre ces lignes par un vecteur rayon de
-longueur stem:[r] depuis le point commun, divisée par la longueur du vecteur rayon, stem:[ii(theta) = s//r "unitsml(rad)"].
-L’angle(((angle))) de phase (communément appelé «{nbsp}phase{nbsp}») est l’argument de tout nombre
-complexe. C’est l’angle(((angle))) entre l’axe réel positif et le rayon de la représentation polaire du
-nombre complexe dans le plan complexe.
-
-Un radian correspond à l’angle(((angle))) pour lequel stem:[s = r], ainsi stem:[1 "unitsml(rad)" = 1]. La mesure de l’angle(((angle))) droit
-est exactement égale au nombre stem:[pi//2].
-
-Le degré est une convention historique. La conversion entre radians et degrés découle de la
-relation stem:[360 "unitsml(deg)" = 2 pi "unitsml(rad)"]. On remarque que le degré, symbole stem:["unitsml(deg)"], n’est pas une unité du SI.
-
-L’angle(((angle))) solide, exprimé en stéradian(((stéradian (sr)))), correspond au rapport entre l’aire stem:[ii(A)] de la surface
-d’une sphère de rayon stem:[r] et le rayon au carré, stem:[ii Omega = ii(A)//r^2 "unitsml(sr)"]. Un stéradian correspond à l’angle(((angle)))
-solide pour lequel stem:[ii(A) = r^2], ainsi stem:[1 "unitsml(sr)" = 1].
-
-Les unités stem:["unitsml(rad)"] et stem:["unitsml(sr)"] correspondent respectivement aux rapports de deux longueurs et de
-deux longueurs au carré. Toutefois, les unités stem:["unitsml(rad)"] et stem:["unitsml(sr)"] ne doivent être utilisées que pour
-exprimer des angles et des angles solides, et non des rapports de longueurs ou de longueurs
-au carré en général. [[regles_ecriture]] [[symboles_recommandes]] [[symboles_ecriture]] (((radian (stem:["unitsml(rad)"])))) (((stéradian (sr))))
-
-[NOTE]
-====
-Lorsque le SI a été adopté par la <<CGPM_MET_11>>, la classe des
-«{nbsp}unités supplémentaires{nbsp}» a été créée afin d’inclure le radian et le
-stéradian. Des décennies plus tard, la CGPM a décidé{nbsp}:
-
-. «{nbsp}d’interpréter les unités supplémentaires, dans le SI, c’est-à-dire le
-radian et le stéradian, comme des unités dérivées sans dimension dont les noms
-et les symboles peuvent être utilisés, mais pas nécessairement, dans les
-expressions d’autres unités dérivées SI, suivant les besoins{nbsp}» et
-
-. de supprimer la classe des unités supplémentaires en tant que classe séparée
-dans le SI (<<CR1995-8>>).
 ====
