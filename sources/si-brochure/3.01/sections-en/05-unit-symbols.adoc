@@ -227,9 +227,9 @@ stem:["a/b/c"]
 
 
 [[stating_quantity]]
-==== Stating quantity values being pure numbers
+==== Quantities with the unit one
 
-As discussed in <<dimensions_of_quantities>>, values of quantities with unit one are expressed simply as numbers. The unit symbol 1 or unit name "one" are not explicitly shown. SI prefix symbols can neither be attached to the symbol 1 nor to the name "one", therefore powers of 10 are used to express particularly large or small values.
+As discussed in <<dimensions_of_quantities>>, values of quantities with the unit one can be expressed simply as numbers. The unit symbol 1 or unit name "one" are not explicitly written. SI prefix symbols can neither be attached to the symbol 1 nor to the name "one", therefore powers of 10 are used to express particularly large or small values.
 
 [example]
 ====
@@ -240,37 +240,13 @@ where stem:[n]
 is the quantity symbol for refractive index.
 ====
 
-Quantities that are ratios of quantities of the same kind (for example length ratios and amount fractions) have the option of being expressed with units (stem:["unitsml(m/m)"], stem:["unitsml(mol/mol)"]) to aid the understanding of the quantity being expressed and also allow the use of ((SI prefixes)), if this is desirable (stem:["unitsml(um/m)"], stem:["unitsml(nmol/mol)"]). Quantities(((counting quantities))) relating to counting do not have this option, they are just numbers.
+Quantities that are ratios of quantities of the same kind (for example length ratios and amount fractions) have the option of being expressed with units (stem:["unitsml(m/m)"], stem:["unitsml(mol/mol)"]) to aid the understanding of the quantity being expressed and also allow the use of ((SI prefixes)), if this is desirable (stem:["unitsml(um/m)"], stem:["unitsml(nmol/mol)"]). Quantities(((counting quantities))) that are a number of entities do not have this option.
 (((per cent)))
+
+Whilst not part of the SI, descriptive terms are commonly used in place of the unit one to indicate the entities being considered when expressing the values of quantities that are a number of entities. If this is done, the definitions of such terms and the conventions for their use must be clearly documented. The general principles of Section 5 should also be followed.
 
 The internationally recognized symbol % (per cent) may be used with the SI. When it is used, a space separates the number and the symbol %. The symbol % should be used rather than the name "per cent". In written text, however, the symbol % generally takes the meaning of "parts per hundred". Phrases such as "percentage by mass", "percentage by volume", or "percentage by ((amount of substance))" shall not be used; the extra information on the quantity should instead be conveyed in the description and symbol for the quantity.
 
-The term "((ppm))", meaning stem:[10^(−6)] relative value, or 1 part in stem:[10^6], or parts per million, is also used. This is analogous to the meaning of per cent as parts per hundred. The terms "parts per billion" and "parts per trillion" and their respective abbreviations "((ppb))" and "((ppt))", are also used, but their meanings are language dependent. For this reason the abbreviations ppb and ppt should be avoided.
+The term "parts per million" or "((ppm))", meaning stem:[10^(−6)] relative value, or parts in stem:[10^6], is also used. This is analogous to the meaning of per cent as parts per hundred. The terms "parts per billion" and "parts per trillion" and their respective abbreviations "((ppb))" and "((ppt))", are also used, but their meanings are language dependent. For this reason the abbreviations ppb and ppt should be avoided.
 
 NOTE: In English-speaking countries, a billion is now generally taken to be stem:[10^9] and a trillion to be stem:[10^(12)]; however, a billion may still sometimes be interpreted as stem:[10^(12)] and a trillion as stem:[10^(18)]. The abbreviation ppt is also sometimes read as parts per thousand, adding further confusion.
-
-[[plane_angles]]
-==== Plane angles, solid angles and phase angles (((radian (stem:["unitsml(rad)"])))) (((steradian (stem:["unitsml(sr)"]))))
-
-The coherent SI unit for the plane angle and the phase angle is radian, unit symbol stem:["unitsml(rad)"] and that for the solid angle is steradian, unit symbol stem:["unitsml(sr)"].
-(((length)))
-
-The plane angle, expressed in radian, between two lines originating from a common point is the length of circular arc stem:[s], swept out between the lines by a radius vector of length stem:[r] from the common point divided by the length of the radius vector, stem:[ii(theta) = s//r "unitsml(rad)"]. The phase angle (often just referred to as the "phase") is the argument of any complex number. It is the angle between the positive real axis and the radius of the polar representation of the complex number in the complex plane.
-
-One radian corresponds to the angle for which stem:[s = r], thus stem:[1 "unitsml(rad)" = 1]. The measure of the right angle is exactly equal to the number stem:[pi //2].
-
-A historical convention is the degree. The conversion between radians and degrees follows from the relation stem:[360 "unitsml(deg)" = 2pi "unitsml(rad)"]. Note that the degree, with the symbol stem:["unitsml(deg)"], is not a unit of the SI.
-(((steradian (stem:["unitsml(sr)"]))))
-
-The solid angle, expressed in steradian, corresponds to the ratio between an area stem:[ii(A)] of the surface of a sphere of radius stem:[r] and the squared radius, stem:[ii Omega = ii(A)//r^2 "unitsml(sr)"]. One steradian corresponds to the solid angle for which stem:[ii(A) = r^2], thus stem:[1 "unitsml(sr)" = 1].
-(((length)))
-
-The units stem:["unitsml(rad)"] and stem:["unitsml(sr)"] correspond to ratios of two lengths and two squared lengths, respectively. However, it shall be emphasized that stem:["unitsml(rad)"] and stem:["unitsml(sr)"] must only be used to express angles and solid angles, but not to express ratios of lengths and squared lengths in general.
-
-[NOTE]
-====
-When the SI was adopted by <<CGPM_MET_11>>, a category of "((supplementary units))" was created to accommodate the radian and steradian. Decades later, the CGPM decided:
-
-. "to interpret the ((supplementary units)) in the SI, namely the radian and the steradian, as dimensionless derived units, the names and symbols of which may, but need not, be used in expressions for other SI derived units, as is convenient", and
-. to eliminate the separate class of ((supplementary units)) (<<CR1995-8>>).
-====
