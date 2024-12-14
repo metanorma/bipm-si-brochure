@@ -86,7 +86,7 @@ stem:["unitsml(kg)"], stem:["unitsml(A)"], stem:["unitsml(K)"],
 stem:["unitsml(mol)"] et stem:["unitsml(cd)"], selon les relations
 stem:["unitsml(Hz)" = "unitsml(s^(-1))"],
 stem:["unitsml(J)" = "unitsml(kg*m^2*s^(-2))"], stem:["unitsml(C)" = "unitsml(A*s)"],
-stem:["unitsml(lm)" = "unitsml(cd*m^2*m^(-2))" = "unitsml(cd*sr)"], et
+stem:["unitsml(lm)" = "unitsml(cd*sr)"], et
 stem:["unitsml(W)" = "unitsml(kg*m^2*s^(-3))"].
 
 La valeur numérique de chacune des sept constantes définissant le SI (((constante, définissant le SI))) n’a pas d’incertitude. (((incertitude)))
@@ -171,8 +171,7 @@ comme stem:[Delta ii(nu)_{"Cs"}] ne dissocie pas la définition de la réalisati
 mais précise la référence retenue.
 
 La constante d’Avogadro(((constante, d'Avogadro))), stem:[ii(N)_"A"], est une constante de proportionnalité entre la grandeur
-«{nbsp}quantité de matière{nbsp}»(((quantité de matière))) (dont l’unité est la mole) et une grandeur dont la valeur est déterminée
-par comptage d’entités (dont l’unité est le nombre «{nbsp}un{nbsp}», symbole 1). Elle a ainsi le caractère
+«{nbsp}quantité de matière{nbsp}»(((quantité de matière))) (dont l’unité est la mole) et la grandeur « nombre d’entités élémentaires » (dont l’unité est le nombre «{nbsp}un{nbsp}», symbole 1). Elle a ainsi le caractère
 d’une constante de proportionnalité similaire à la constante de Boltzmann(((constante, de Boltzmann))), stem:[k].
 
 L’efficacité lumineuse d’un ((rayonnement monochromatique)) de fréquence stem:[540 xx 10^(12) "unitsml(Hz)"],
@@ -525,7 +524,7 @@ ii(M)_{u} = ii(N)_"A" m_{u}
 Dans le terme «{nbsp}quantité de matière{nbsp}»(((quantité de matière))), le mot «{nbsp}matière{nbsp}» sera généralement remplacé par
 d’autres mots précisant la matière en question pour chaque application particulière{nbsp};
 on pourrait par exemple parler de «{nbsp}quantité de chlorure d’hydrogène{nbsp}» ou de «{nbsp}quantité de
-benzène{nbsp}». Il est important de définir précisément l’entité en question (comme le souligne la
+benzène{nbsp}». Il est important de définir précisément l’entité élémentaire en question (comme le souligne la
 définition de la mole)(((mole (stem:["unitsml(mol)"])))), de préférence en précisant la formule chimique moléculaire du
 matériau concerné. Bien que le mot «{nbsp}quantité{nbsp}» ait une définition plus générale dans le
 dictionnaire, cette abréviation du nom complet «{nbsp}quantité de matière{nbsp}» est parfois utilisée
@@ -622,8 +621,7 @@ indiquer leur dimension sont présentés dans le <<table-3>>.
 |===
 
 
-Toutes les autres grandeurs, à l’exception de celles dont la valeur est déterminée par
-comptage, sont des grandeurs dérivées(((grandeurs,dérivées))) qui peuvent être exprimées en fonction des grandeurs
+Toutes les autres grandeurs, à l’exception de celles qui sont un nombre d’entités, sont des grandeurs dérivées(((grandeurs,dérivées))) qui peuvent être exprimées en fonction des grandeurs
 de base à l’aide des équations de la physique. Les dimensions des grandeurs(((dimension (d’une grandeur)))) dérivées sont
 écrites sous la forme de produits de puissances des dimensions des grandeurs(((dimension (d’une grandeur)))) de base au
 moyen des équations qui relient les grandeurs dérivées aux grandeurs de base. En général,
@@ -648,29 +646,24 @@ symbole 1, bien que l’unité «{nbsp}un{nbsp}» soit rarement explicitement é
 (((grandeurs,de base)))(((grandeurs,de comptage)))
 
 Il existe également des grandeurs qui ne peuvent pas être décrites au moyen des
-sept grandeurs de base du SI mais dont la valeur est déterminée par comptage.
-C’est, par exemple, un nombre de molécules, d’entités cellulaires ou biomoléculaires (telles
-que des copies d’une séquence d’acide nucléique particulière) ou la dégénérescence en
-mécanique quantique. Ces grandeurs de comptage ont également pour unité le nombre un.
+sept grandeurs de base du SI mais qui sont un nombre d’entités.
+C’est, par exemple, un nombre d’entités cellulaires ou biomoléculaires ou la dégénérescence en
+mécanique quantique. Ces grandeurs sont également des grandeurs d’unité « un ».
 
 L’unité «{nbsp}un{nbsp}» est nécessairement l’élément neutre de tout système d’unités{nbsp}: elle est
 automatiquement présente. Il n’y a pas lieu d’introduire l’unité «{nbsp}un{nbsp}» dans le SI par une
-décision spécifique. Ainsi, il est possible d’établir la traçabilité formelle au SI par des
+décision spécifique. Il est possible d’établir la traçabilité formelle au SI par des
 procédures adéquates et validées.
 
-Les angles(((angle))) plans et solides, lorsqu’ils sont exprimés respectivement en radians(((radian (stem:["unitsml(rad)"])))) et stéradians(((stéradian (sr)))),
-sont également traités dans le SI comme des grandeurs d’unité «{nbsp}un{nbsp}» (voir <<scls548,nosee%>>).
+Pour des raison historiques et de convention, les angles(((angle))) plans et solides sont considérés dans le SI comme des grandeurs d’unité «{nbsp}un{nbsp}» (voir <<scls234,nosee%>>).
 Au besoin, les symboles stem:["unitsml(rad)"] et stem:["unitsml(sr)"] sont écrits explicitement de façon à souligner que la
 grandeur considérée, pour les radians ou stéradians, est – ou implique – respectivement
 l’angle(((angle))) plan ou l’angle(((angle))) solide. L’usage des stéradians souligne par exemple la distinction
-entre les unités de flux et d’intensité en radiométrie et photométrie. Toutefois, c’est une
-pratique établie de longue date en mathématiques et dans tous les domaines de la science
-d’utiliser stem:["unitsml(rad)" = 1] et stem:["unitsml(sr)" = 1]. Pour des raisons historiques, le radian et le stéradian sont traités
-comme des unités dérivées, tel que décrit dans la <<scls234>>.
+entre les unités de flux et d’intensité en radiométrie et photométrie. Il est à noter qu’en en mathématiques et dans certains domaines des sciences, les symboles stem:["unitsml(rad)"] et stem:["unitsml(sr)"] ne sont pas utilisés.
 
 Il est particulièrement important de disposer d’une description claire de toute grandeur
 d’unité «{nbsp}un{nbsp}» (voir <<scls547,nosee%>>), qui peut s’exprimer comme un rapport de grandeurs de
-même nature (rapports de longueur, fractions molaires, etc.) ou comme un comptage
+même nature (rapports de longueur, fractions molaires, etc.) ou comme un nombre d’entités
 (nombre de photons, désintégrations, etc.).
 
 
@@ -706,51 +699,51 @@ expliqué en détail au <<chapter3>>.
 
 [[table-4]]
 .Les 22 unités SI ayant un nom spécial et un symbole particulier index-range:sievert_sv-1[(((sievert (stem:["unitsml(Sv)"]))))] index-range:symboles_derivees[(((symboles,unités dérivées ayant des noms spéciaux)))] index-range:temperature_celsius[(((température,Celsius)))] (((tesla (stem:["unitsml(T)"]))))
-[cols="4",options="header"]
+[cols="5",options="header"]
 |===
 | Grandeur dérivée
 | Nom spécial de l’unité
+| Symbole
 | Expression de l’unité en unités de base footnote:[L'ordre des symboles des unités de base dans le <<table-4>> est différent de celui utilisé dans la 8^e^ édition de la Brochure sur le SI par suite à la décision prise par le CCU à sa 21^e^ réunion (2013) de
 revenir à l’ordre originel défini dans <<CR1960-12,la Résolution 12>> adoptée par la CGPM à sa 11^e^ réunion (1960),
 selon laquelle le newton est noté{nbsp}: stem:["unitsml(kg*m*s^(-2))"], le joule:{nbsp} stem:["unitsml(kg*m^2*s^(-2))"] et stem:["unitsml(J*s)"]{nbsp}: stem:["unitsml(kg*m^(-2)*s^(-1))"]. L’objectif est de refléter les principes physiques sous-jacents aux équations correspondantes des grandeurs bien que,
 pour certaines unités dérivées plus complexes, cela puisse s’avérer impossible.]
 | Expression de l’unité en d’autres unités SI
 
-| angle(((angle))) plan | radian(((radian (stem:["unitsml(rad)"])))) footnote:[Le radian est l’unité cohérente d’angle(((angle))) plan. Un radian est un angle(((angle))) compris entre deux rayons d’un
+| angle(((angle))) plan | radian(((radian (stem:["unitsml(rad)"])))) footnote:rad_footnote[Le radian est l’unité cohérente d’angle(((angle))) plan. Un radian est un angle(((angle))) compris entre deux rayons d’un
 cercle qui, sur la circonférence du cercle, interceptent un arc de longueur égale à celle du rayon.
-Le radian est aussi l’unité d’angle(((angle))) de phase. Pour les phénomènes périodiques, l’angle(((angle))) de phase
-augmente de stem:[2 pi "unitsml(rad)"] à chaque période. Le radian était auparavant une unité SI supplémentaire mais
-cette catégorie a été supprimée en 1995.] | stem:["unitsml(rad)" = "unitsml(m/m)"] |
-| angle(((angle))) solide | stéradian(((stéradian (sr)))) footnote:[Le stéradian est l’unité cohérente d’angle(((angle))) solide. Un stéradian est un angle(((angle))) solide d’un cône qui,
+Cela suggère que rad = m/m mais cette représentation n’est pas intrinsèque et pourrait porter à confusion car l’angle n’est pas une grandeur de même nature que d’autres rapports de longueurs. Une autre définition possible serait que l’angle droit est égal à stem:[pi//2 "unitsml(rad)"]. Le radian est aussi l’unité cohérente d’angle(((angle))) de phase. Pour les phénomènes périodiques, l’angle(((angle))) de phase
+augmente de stem:[2 pi "unitsml(rad)"] à chaque période.] | stem:["unitsml(rad)"] | footnote:rad_footnote[] | 1
+| angle(((angle))) solide | stéradian(((stéradian (sr)))) footnote:sr_footnote[Le stéradian est l’unité cohérente d’angle(((angle))) solide. Un stéradian est un angle(((angle))) solide d’un cône qui,
 ayant son sommet au centre d’une sphère, découpe sur la surface de cette sphère une aire égale à
-celle d’un carré ayant pour côté une longueur égale au rayon de la sphère. Comme le radian,
-le stéradian était auparavant une unité SI supplémentaire.] | stem:["unitsml(sr)" = "unitsml(m^2/m^2)"] |
+celle d’un carré ayant pour côté une longueur égale au rayon de la sphère. Cela suggère que
+stem:["unitsml(sr)" = "m"^2//"m"^2] mais cette représentation n’est pas intrinsèque et pourrait porter à confusion car l’angle solide n’est pas une grandeur de même nature que d’autres rapports de surfaces. Une autre définition possible serait qu’une sphère entière sous-tend, depuis son centre, un angle solide de stem:[4pi "unitsml(sr)"].] | stem:["unitsml(sr)"] | stem:sr_footnote[] | 1
 | fréquence | hertz(((hertz (stem:["unitsml(Hz)"])))) footnote:[Le hertz ne doit être utilisé que pour les phénomènes périodiques et le becquerel que pour les
-processus aléatoires liés à la mesure de l’activité d’un radionucléide.] | stem:["unitsml(Hz)" = "unitsml(s^(-1))"] |
-| force | newton(((newton (stem:["unitsml(N)"])))) | stem:["unitsml(N)" = "unitsml(kg*m*s^(-2))"] |
-| pression, contrainte | pascal(((pascal (stem:["unitsml(Pa)"])))) | stem:["unitsml(Pa)" = "unitsml(kg*m^(-1)*s^(-2))"] | stem:["unitsml(N*m^(-2))"]
-| énergie, travail, quantité de chaleur | joule(((joule (stem:["unitsml(J)"])))) | stem:["unitsml(J)" = "unitsml(kg*m^2*s^(-2))"] | stem:["unitsml(N*m)"]
-| puissance, flux énergétique | watt(((watt (stem:["unitsml(W)"])))) | stem:["unitsml(W)" = "unitsml(kg*m^2*s^(-3))"] | stem:["unitsml(J/s)"]
-| ((charge électrique)) | coulomb(((coulomb (stem:["unitsml(C)"])))) | stem:["unitsml(C)" = "unitsml(A*s)"] |
+processus aléatoires liés à la mesure de l’activité d’un radionucléide.] | stem:["unitsml(Hz)"] | stem:["unitsml(s^(-1))"] |
+| force | newton(((newton (stem:["unitsml(N)"])))) | stem:["unitsml(N)"] | stem:["unitsml(kg*m*s^(-2))"] |
+| pression, contrainte | pascal(((pascal (stem:["unitsml(Pa)"])))) | stem:["unitsml(Pa)"] | stem:["unitsml(kg*m^(-1)*s^(-2))"] | stem:["unitsml(N*m^(-2))"]
+| énergie, travail, quantité de chaleur | joule(((joule (stem:["unitsml(J)"])))) | stem:["unitsml(J)"] | stem:["unitsml(kg*m^2*s^(-2))"] | stem:["unitsml(N*m)"]
+| puissance, flux énergétique | watt(((watt (stem:["unitsml(W)"])))) | stem:["unitsml(W)"] | stem:["unitsml(kg*m^2*s^(-3))"] | stem:["unitsml(J/s)"]
+| ((charge électrique)) | coulomb(((coulomb (stem:["unitsml(C)"])))) | stem:["unitsml(C)"] | stem:["unitsml(A*s)"] |
 | différence de potentiel électrique footnote:[La différence de potentiel électrique est
 également appelée «{nbsp}tension{nbsp}» ou «{nbsp}tension électrique{nbsp}»
-dans certains pays.] | volt(((volt (stem:["unitsml(V)"])))) | stem:["unitsml(V)" = "unitsml(kg*m^2*s^(-3)*A^(-1))"] | stem:["unitsml(W/A)"]
-| capacité électrique | farad(((farad (stem:["unitsml(F)"])))) | stem:["unitsml(F)" = "unitsml(kg^(-1)*m^(-2)*s^4*A^2)"] | stem:["unitsml(C/V)"]
-| résistance électrique | ohm(((ohm (stem:["unitsml(Ohm)"])))) | stem:["unitsml(Ohm)" = "unitsml(kg*m^2*s^(-3)*A^(-2))"] | stem:["unitsml(V/A)"]
-| conductance électrique | siemens(((siemens (stem:["unitsml(S)"])))) | stem:["unitsml(S)" = "unitsml(kg^(-1)*m^(-2)*s^3*A^2)"] | stem:["unitsml(A/V)"]
-| flux d’induction magnétique | weber(((weber (stem:["unitsml(Wb)"])))) | stem:["unitsml(Wb)" = "unitsml(kg*m^2*s^(-2)*A^(-1))"] | stem:["unitsml(V*s)"]
-| induction magnétique | tesla(((tesla (stem:["unitsml(T)"])))) | stem:["unitsml(T)" = "unitsml(kg*s^(-2)*A^(-1))"] | stem:["unitsml(Wb//m^2)"]
-| inductance | henry(((henry (stem:["unitsml(H)"])))) | stem:["unitsml(H)" = "unitsml(kg*m^2*s^(-2)*A^(-2))"] | stem:["unitsml(Wb/A)"]
+dans certains pays.] | volt(((volt (stem:["unitsml(V)"])))) | stem:["unitsml(V)"] | stem:["unitsml(kg*m^2*s^(-3)*A^(-1))"] | stem:["unitsml(W/A)"]
+| capacité électrique | farad(((farad (stem:["unitsml(F)"])))) | stem:["unitsml(F)"] | stem:["unitsml(kg^(-1)*m^(-2)*s^4*A^2)"] | stem:["unitsml(C/V)"]
+| résistance électrique | ohm(((ohm (stem:["unitsml(Ohm)"])))) | stem:["unitsml(Ohm)"] | stem:["unitsml(kg*m^2*s^(-3)*A^(-2))"] | stem:["unitsml(V/A)"]
+| conductance électrique | siemens(((siemens (stem:["unitsml(S)"])))) | stem:["unitsml(S)"] | stem:["unitsml(kg^(-1)*m^(-2)*s^3*A^2)"] | stem:["unitsml(A/V)"]
+| flux d’induction magnétique | weber(((weber (stem:["unitsml(Wb)"])))) | stem:["unitsml(Wb)"] | stem:["unitsml(kg*m^2*s^(-2)*A^(-1))"] | stem:["unitsml(V*s)"]
+| induction magnétique | tesla(((tesla (stem:["unitsml(T)"])))) | stem:["unitsml(T)"] | stem:["unitsml(kg*s^(-2)*A^(-1))"] | stem:["unitsml(Wb//m^2)"]
+| inductance | henry(((henry (stem:["unitsml(H)"])))) | stem:["unitsml(H)"] | stem:["unitsml(kg*m^2*s^(-2)*A^(-2))"] | stem:["unitsml(Wb/A)"]
 | température Celsius | degré Celsius(((degré Celsius (stem:["unitsml(degC)"])))) footnote:[Le degré Celsius est utilisé pour exprimer des températures Celsius. La valeur numérique d’une
 différence de température ou d’un intervalle de température est identique quand elle est exprimée en
-degrés Celsius ou en kelvins.] | stem:["unitsml(degC)" = "unitsml(K)"] |
-| flux lumineux | lumen(((lumen (stem:["unitsml(lm)"])))) | stem:["unitsml(lm)" = "unitsml(cd*sr)"] footnote:[En photométrie, on maintient généralement le nom et le symbole du stéradian, sr, dans l’expression des unités.] | stem:["unitsml(cd*sr)"]
-| éclairement lumineux | lux(((lux (stem:["unitsml(lx)"])))) | stem:["unitsml(lx)" = "unitsml(cd*sr*m^(-2))"] | stem:["unitsml(lm/m^2)"]
+degrés Celsius ou en kelvins.] | stem:["unitsml(degC)"] | stem:["unitsml(K)"] |
+| flux lumineux | lumen(((lumen (stem:["unitsml(lm)"])))) | stem:["unitsml(lm)"] | stem:["unitsml(cd*sr)"] footnote:[En photométrie, on maintient généralement le nom et le symbole du stéradian, sr, dans l’expression des unités.] | stem:["unitsml(cd*sr)"]
+| éclairement lumineux | lux(((lux (stem:["unitsml(lx)"])))) | stem:["unitsml(lx)"] | stem:["unitsml(cd*sr*m^(-2))"] | stem:["unitsml(lm/m^2)"]
 | ((activité d’un radionucléide)) footnote:[Le hertz ne doit être utilisé que pour les phénomènes périodiques et le becquerel que pour les
-processus aléatoires liés à la mesure de l’activité d’un radionucléide.] footnote:[L’activité d’un radionucléide est parfois appelée de manière incorrecte radioactivité.] | becquerel(((becquerel (stem:["unitsml(Bq)"])))) | stem:["unitsml(Bq)" = "unitsml(s^(-1))"] |
-| ((dose absorbée)), kerma | gray(((gray (stem:["unitsml(Gy)"])))) | stem:["unitsml(Gy)" = "unitsml(m^2*s^(-2))"] | stem:["unitsml(J/kg)"]
-| équivalent de dose | sievert footnote:[Voir la Recommandation 2 du CIPM sur l’utilisation du sievert (<<PV70_2>>).] | stem:["unitsml(Sv)" = "unitsml(m^2*s^(-2))"] | stem:["unitsml(J/kg)"]
-| activité catalytique | katal(((katal (stem:["unitsml(kat)"])))) | stem:["unitsml(kat)" = "unitsml(mol*s^(-1))"] |
+processus aléatoires liés à la mesure de l’activité d’un radionucléide.] footnote:[L’activité d’un radionucléide est parfois appelée de manière incorrecte radioactivité.] | becquerel(((becquerel (stem:["unitsml(Bq)"])))) | stem:["unitsml(Bq)"] | stem:["unitsml(s^(-1))"] |
+| ((dose absorbée)), kerma | gray(((gray (stem:["unitsml(Gy)"])))) | stem:["unitsml(Gy)"] | stem:["unitsml(m^2*s^(-2))"] | stem:["unitsml(J/kg)"]
+| équivalent de dose | sievert footnote:[Voir la Recommandation 2 du CIPM sur l’utilisation du sievert (<<PV70_2>>).] | stem:["unitsml(Sv)"] | stem:["unitsml(m^2*s^(-2))"] | stem:["unitsml(J/kg)"]
+| activité catalytique | katal(((katal (stem:["unitsml(kat)"])))) | stem:["unitsml(kat)"] | stem:["unitsml(mol*s^(-1))"] |
 |===
 
 
@@ -797,8 +790,8 @@ formés à l’aide de préfixes SI(((préfixes SI))). [[sievert_sv-1]] [[temper
 | viscosité dynamique(((viscosité,dynamique (poise)))) | pascal ((seconde)) | stem:["unitsml(Pa*s)"] | stem:["unitsml(kg*m^(-1)*s^(-1))"]
 | moment d’une force | newton(((newton (stem:["unitsml(N)"])))) mètre(((mètre (stem:["unitsml(m)"])))) | stem:["unitsml(N*m)"] | stem:["unitsml(kg*m^2*s^(-2))"]
 | tension superficielle | newton par mètre | stem:["unitsml(N*m^(-1))"] | stem:["unitsml(kg*s^(-2))"]
-| vitesse angulaire, fréquence angulaire | radian par seconde | stem:["unitsml(rad*s^(-1))"] | stem:["unitsml(s^(-1))"]
-| accélération angulaire | radian par seconde carrée | stem:["unitsml(rad*s^(-2))"] | stem:["unitsml(s^(-2))"]
+| vitesse angulaire, fréquence angulaire | radian par seconde | stem:["unitsml(rad*s^(-1))"] |
+| accélération angulaire | radian par seconde carrée | stem:["unitsml(rad*s^(-2))"] |
 | flux thermique surfacique, éclairement énergétique | watt par mètre carré | stem:["unitsml(W*m^(-2))"] | stem:["unitsml(kg*s^(-3))"]
 | ((capacité thermique)), entropie | joule par kelvin(((kelvin (stem:["unitsml(K)"])))) | stem:["unitsml(J*K^(-1))"] | stem:["unitsml(kg*m^2*s^(-2)*K^(-1))"]
 | capacité thermique massique, entropie massique | joule par ((kilogramme)) kelvin | stem:["unitsml(J*K^(-1)*kg^(-1))"] | stem:["unitsml(m^2*s^(-2)*K^(-1))"]
@@ -849,16 +842,15 @@ NOTE: La Commission électrotechnique internationale
 pour l’unité de puissance réactive. Exprimé en unités SI
 cohérentes, le var est identique au volt ampère.
 
-L’unité SI de fréquence est le hertz(((hertz (stem:["unitsml(Hz)"])))), l’unité SI de vitesse angulaire et de fréquence angulaire
-est le radian(((radian (stem:["unitsml(rad)"])))) par ((seconde)), et l’unité SI d’activité est le becquerel(((becquerel (stem:["unitsml(Bq)"])))){nbsp}: toutes impliquent un
-comptage par seconde. Même s’il est correct d’écrire ces trois unités «{nbsp}seconde à la
-puissance moins un{nbsp}», l’emploi de noms différents sert à souligner la différence de nature
+L’unité SI de fréquence est le hertz(((hertz (stem:["unitsml(Hz)"])))){nbsp}; l’unité SI de vitesse angulaire et de fréquence angulaire
+est le radian(((radian (stem:["unitsml(rad)"])))) par ((seconde)). L’unité SI d’activité est le becquerel(((becquerel (stem:["unitsml(Bq)"])))), impliquant un
+comptage par seconde. L’emploi de noms différents sert à souligner la différence de nature
 des grandeurs en question. Il est particulièrement important de distinguer les fréquences des
 fréquences angulaires car leurs valeurs numériques diffèrent par définition d’un facteur
 footnote:[Voir la norme ISO 80000-3 pour de plus amples détails.] de
 stem:[2 pi]. Ignorer cela peut provoquer une erreur de stem:[2 pi]. On remarque que dans certains pays
-les valeurs de fréquence sont exprimées par convention à l’aide de «{nbsp}cycle/s{nbsp}» ou «{nbsp}cps{nbsp}» au
-lieu de l’unité SI «{nbsp}Hz{nbsp}», bien que «{nbsp}cycle{nbsp}» et «{nbsp}cps{nbsp}» ne soient pas des unités du SI.
+les valeurs de fréquence sont exprimées par convention à l’aide de «{nbsp}cycle/s{nbsp}» («{nbsp}cps{nbsp}») ou «{nbsp}révolution/s{nbsp}» («{nbsp}rev/s{nbsp}») au
+lieu de l’unité SI «{nbsp}Hz{nbsp}», bien que «{nbsp}cycle{nbsp}», «{nbsp}cps{nbsp}», «{nbsp}révolution{nbsp}» et «{nbsp}rev{nbsp} ne soient pas des unités du SI.
 On remarque également qu’il est courant, bien que cela ne soit pas recommandé, d’utiliser
 le terme «{nbsp}fréquence{nbsp}» pour des grandeurs exprimées en stem:["unitsml(rad/s)"]. De ce fait, il est recommandé
 de toujours exprimer les grandeurs «{nbsp}fréquence{nbsp}», «{nbsp}fréquence angulaire{nbsp}» et «{nbsp}vitesse
