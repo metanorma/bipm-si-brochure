@@ -2,6 +2,30 @@
 metanorma:
   source:
     files:
+
+    # SI Brochure guides
+    - sources/guide-ccem-ampere-realization-en.adoc
+    - sources/guide-ccl-metre-realization-1-en.adoc
+    - sources/guide-ccl-metre-realization-2-en.adoc
+    - sources/guide-ccl-metre-realization-3-en.adoc
+    - sources/guide-ccm-kilogram-calibration-en.adoc
+    - sources/guide-ccm-kilogram-dissemination-en.adoc
+
+    # SI Brochure MEPs
+    - sources/mep-ampere-definition-en.adoc
+    - sources/mep-candela-rapport-en.adoc
+    - sources/mep-candela-definition-en.adoc
+    - sources/mep-kelvin-absolute-en.adoc
+    - sources/mep-kelvin-absolute-uncertainty-en.adoc
+    - sources/mep-metre-definition-en.adoc
+    - sources/mep-kelvin-definition-en.adoc
+    - sources/mep-kelvin-lt-johnson-noise-en.adoc
+    - sources/mep-kelvin-relative-en.adoc
+    - sources/mep-kilogram-definition-en.adoc
+    - sources/mep-mole-definition-en.adoc
+    - sources/mep-second-definition-en.adoc
+
+    # MEP recommended values
     - sources/rec-values/mep-wgfs-um3_39-CH4/2003/document.adoc
     - sources/rec-values/mep-wgfs-spectral-lamp/2003/document.adoc
     - sources/rec-values/mep-wgfs-um1_54-C2H2/2019/document.adoc
@@ -39,44 +63,22 @@ metanorma:
     - sources/rec-values/mep-wgfs-nm282-199Hg_1065THz/2013/document.adoc
     - sources/rec-values/mep-wgfs-nm282-199Hg_1065THz/2021/document.adoc
 
-    - sources/guide-ccem-ampere-realization-en.adoc
-    - sources/guide-ccl-metre-realization-1-en.adoc
-    - sources/guide-ccl-metre-realization-2-en.adoc
-    - sources/guide-ccl-metre-realization-3-en.adoc
-    - sources/guide-ccm-kilogram-calibration-en.adoc
-    - sources/guide-ccm-kilogram-dissemination-en.adoc
-    - sources/mep-ampere-definition-en.adoc
-    - sources/mep-candela-rapport-en.adoc
-    - sources/mep-candela-definition-en.adoc
-    - sources/mep-kelvin-absolute-en.adoc
-    - sources/mep-kelvin-absolute-uncertainty-en.adoc
-    - sources/mep-metre-definition-en.adoc
+    # The SI Brochure, Annex 3
+    - sources/sib-a3-en.adoc
+    - sources/sib-a3-fr.adoc
 
-    # TODO: NOT WORKING
-    # - sources/mep-kelvin-definition-en.adoc
-
-    - sources/mep-kelvin-lt-johnson-noise-en.adoc
-    - sources/mep-kelvin-relative-en.adoc
-    - sources/mep-kilogram-definition-en.adoc
-    - sources/mep-mole-definition-en.adoc
-    - sources/mep-second-definition-en.adoc
-
-    # TODO: NOT WORKING
-    # - sources/sib-a3-en.adoc
-    # - sources/sib-a3-fr.adoc
-
+    # The SI Brochure (obsolete versions)
     - sources/si-brochure/1.08/sib-a4-en.adoc
     - sources/si-brochure/1.08/sib-a4-fr.adoc
     - sources/si-brochure/1.08/si-brochure-en.adoc
     - sources/si-brochure/1.08/si-brochure-fr.adoc
+    - sources/si-brochure/1.08/collection.yml
 
+    # The SI Brochure collection
     - sources/si-brochure/2.01/sib-a4-en.adoc
     - sources/si-brochure/2.01/sib-a4-fr.adoc
     - sources/si-brochure/2.01/si-brochure-en.adoc
     - sources/si-brochure/2.01/si-brochure-fr.adoc
-
-    # The SI Brochure collection
-    # - sources/si-brochure/1.08/collection.yml
     - sources/si-brochure/2.01/collection.yml
 
   collection:
