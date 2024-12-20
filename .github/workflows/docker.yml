@@ -33,6 +33,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           agree-to-terms: true
+          use-bundler: true
 
   deploy:
     if: ${{ github.ref_name == github.event.repository.default_branch }}
