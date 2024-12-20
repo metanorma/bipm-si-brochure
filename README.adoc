@@ -52,13 +52,88 @@ documents.
 
 == Structure
 
-`sources/si-brochure/`:: source files for the SI Brochure and its components.
+=== SI Brochure
 
-`sources/si-brochure/1.08`:: source files for the SI Brochure edition 9 v1.08, published 2020-09-17.
+`sources/si-brochure/`:: SI Brochure and its components.
 
-`sources/si-brochure/2.01`:: source files for the SI Brochure edition 9 v2.01, published 2019-05-20.
+`sources/si-brochure/1.08`:: SI Brochure edition 9 v1.08, published 2020-09-17.
 
-`sources/si-brochure/3.01`:: source files for the SI Brochure edition 9 v3.01.
+`sources/si-brochure/2.01`:: SI Brochure edition 9 v2.01, published 2022-12-15.
+
+`sources/si-brochure/2.01/si-brochure-en.adoc`:: SI Brochure edition 9 v2.01 English.
+
+`sources/si-brochure/2.01/si-brochure-fr.adoc`:: SI Brochure edition 9 v2.01 French.
+
+`sources/si-brochure/2.01/collection.yml`:: Metanorma collection of the bilingual SI Brochure edition 9 v2.01.
+
+`sources/si-brochure/2.01/sib-a1-en.adoc`:: SI Brochure Appendix 1 (English) edition 9 v2.01.
+
+`sources/si-brochure/2.01/sib-a1-fr.adoc`:: SI Brochure Appendix 1 (French) edition 9 v2.01.
+
+`sources/si-brochure/2.01/sib-a4-en.adoc`:: SI Brochure Appendix 4 (English) edition 9 v2.01.
+
+`sources/si-brochure/2.01/sib-a4-fr.adoc`:: SI Brochure Appendix 4 (French) edition 9 v2.01.
+
+
+`sources/si-brochure/3.01`:: source files for the SI Brochure edition 9 v3.01, published 2024-08-28.
+
+`sources/si-brochure/3.01/si-brochure-en.adoc`:: SI Brochure edition 9 v3.01 English.
+
+`sources/si-brochure/3.01/si-brochure-fr.adoc`:: SI Brochure edition 9 v3.01 French.
+
+`sources/si-brochure/3.01/collection.yml`:: Metanorma collection of the bilingual SI Brochure edition 9 v3.01.
+
+`sources/si-brochure/3.01/sib-a1-en.adoc`:: SI Brochure Appendix 1 (English) edition 9 v3.01.
+
+`sources/si-brochure/3.01/sib-a1-fr.adoc`:: SI Brochure Appendix 1 (French) edition 9 v3.01.
+
+`sources/si-brochure/3.01/sib-a4-en.adoc`:: SI Brochure Appendix 4 (English) edition 9 v3.01.
+
+`sources/si-brochure/3.01/sib-a4-fr.adoc`:: SI Brochure Appendix 4 (French) edition 9 v3.01.
+
+
+=== mise en pratique documents
+
+`sources/guide-ccem-ampere-realization-en.adoc`:: CCEM guide on ampere realization.
+
+`sources/guide-ccl-metre-realization-1-en.adoc`:: CCL guide on metre realization (part 1).
+
+`sources/guide-ccl-metre-realization-2-en.adoc`:: CCL guide on metre realization (part 2).
+
+`sources/guide-ccl-metre-realization-3-en.adoc`:: CCL guide on metre realization (part 3).
+
+`sources/guide-ccm-kilogram-calibration-en.adoc`:: CCM guide on kilogram calibration.
+
+`sources/guide-ccm-kilogram-dissemination-en.adoc`:: CCM guide on kilogram dissemination.
+
+`sources/mep-ampere-definition-en.adoc`:: MEP on ampere definition.
+
+`sources/mep-candela-definition-en.adoc`:: MEP on candela definition.
+
+`sources/mep-candela-rapport-en.adoc`:: MEP on candela rapport.
+
+`sources/mep-kelvin-absolute-en.adoc`:: MEP on kelvin absolute.
+
+`sources/mep-kelvin-absolute-uncertainty-en.adoc`:: MEP on kelvin absolute uncertainty.
+
+`sources/mep-kelvin-definition-en.adoc`:: MEP on kelvin definition.
+
+`sources/mep-kelvin-lt-johnson-noise-en.adoc`:: MEP on kelvin lt johnson noise.
+
+`sources/mep-kelvin-relative-en.adoc`:: MEP on kelvin relative.
+
+`sources/mep-kilogram-definition-en.adoc`:: MEP on kilogram definition.
+
+`sources/mep-metre-definition-en.adoc`:: MEP on metre definition.
+
+`sources/mep-mole-definition-en.adoc`:: MEP on mole definition.
+
+`sources/mep-second-definition-en.adoc`:: MEP on second definition.
+
+`sources/rec-values/`:: source files for MEPs for reference values.
+
+`sources/rec-values/{document-name}/{edition-year}/document.adoc`:: source files for
+MEPs for reference values (across edition years).
 
 `sources/si-brochure/3.01/collection.yml`:: collection for the bilingual SI Brochure.
 
@@ -141,12 +216,12 @@ then combines them together into the bilingual version.
 
 [source,sh]
 ----
-metanorma sources/si-brochure-en.adoc
-metanorma sources/si-brochure-fr.adoc
-mkdir -p _site/documents
-mv sources/si-brochure-en.xml _site/documents
-mv sources/si-brochure-fr.xml _site/documents
-metanorma collection collection.yml
+$ bundle exec metanorma sources/si-brochure-en.adoc
+$ bundle exec metanorma sources/si-brochure-fr.adoc
+$ mkdir -p _site/documents
+$ mv sources/si-brochure-en.xml _site/documents
+$ mv sources/si-brochure-fr.xml _site/documents
+$ bundle exec metanorma collection collection.yml
 ----
 
 === Outputs
@@ -154,8 +229,10 @@ metanorma collection collection.yml
 The following outputs will be built:
 
 Component index:: `_site/index.html`
-Component outputs:: under `_site/documents/` (HTML, PDF, MN S/P XML)
-Bilingual brochure:: `bilingual-brochure/collection.{pdf,xml,presentation.xml}`
+
+Component outputs:: `_site/documents/` (HTML, PDF, MN XML)
+
+Bilingual brochure:: `_site/brochure/collection.{pdf,xml,presentation.xml}`
 
 
 == References
@@ -168,4 +245,3 @@ The original source files for the SI Brochure are available at:
 == License
 
 Content copyright BIPM. Other tools copyright Ribose.
-
