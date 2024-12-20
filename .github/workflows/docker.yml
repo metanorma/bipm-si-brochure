@@ -28,6 +28,9 @@ jobs:
         with:
           submodules: true
 
+      - name: Bundler install
+        uses: metanorma/ci/docker-gem-install@main
+
       - name: Metanorma generate site
         uses: actions-mn/build-and-publish@v1
         with:
