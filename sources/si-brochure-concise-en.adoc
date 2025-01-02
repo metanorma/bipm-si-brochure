@@ -1,0 +1,214 @@
+= A concise summary of the International System of Units, SI
+:edition: 3.01
+:copyright-year: 2018
+:language: en
+:doctype: guide
+:title-en: A concise summary of the International System of Units, SI
+:title-fr: Résumé de la Brochure sur le Système international d'unités (SI)
+:number-presentation-formula: default
+:imagesdir: images
+:mn-document-class: bipm
+:mn-output-extensions: xml,html,pdf,rxl
+:local-cache-only:
+:data-uri-image:
+
+== Preface
+
+Metrology is the science of measurement and its application. Metrology includes all theoretical and practical aspects of measurement, whatever the measurement uncertainty and field of application.
+
+== Introduction
+
+The International Bureau of Weights and Measures (BIPM) was established by Article 1 of the Metre Convention, which was signed on 20 May 1875. It is charged with providing the basis for a single, coherent system of measurements to be used throughout the world and it operates under the authority of the International Committee for Weights and Measures (CIPM). The decimal metric system, dating from the time of the French Revolution, was based in 1799 on the metre and the kilogram. Under the terms of the Metre Convention, new international prototypes of the metre and kilogram were manufactured and formally adopted by the first General Conference on Weights and Measures (CGPM) in 1889. In 1960 the 11th CGPM formally defined and established the International System of Units (SI). Since then the SI has been periodically updated to take account of advances in science and the need for measurements in new domains. The last major revision was adopted by the 26th CGPM (2018), which decided that the SI would be based on the fixed numerical values of a set of seven **defining constants** from which the definitions of the seven base units of the SI would be deduced. This document is a summary of the **SI Brochure**, a publication produced by the BIPM, which gives a detailed explanation of the current status of the SI.
+
+The SI is the system of units in which:
+
+* the unperturbed ground state hyperfine transition frequency of the caesium 133 atom, stem:[Delta ii(nu)_("Cs")], is stem:[9192631770 "unitsml(Hz)"],
+* the speed of light in vacuum, stem:[c], is stem:[299792458 "unitsml(m/s)"],
+* the Planck constant, stem:[h], is stem:[6.62607015 xx 10^(-34) "unitsml(J*s)"],
+* the elementary charge, stem:[e], is stem:[1.602176634 xx 10^(-19) "unitsml(C)"],
+* the Boltzmann constant, stem:[k], is stem:[1.380649 xx 10^(-23) "unitsml(J/K)"],
+* the Avogadro constant, stem:[ii(N)_"A"], is stem:[6.02214076 xx 10^(23) "unitsml(mol^(-1))"],
+* the luminous efficacy of monochromatic radiation of frequency stem:[540 xx 10^(12) "unitsml(Hz)"], stem:[ii(K)_("cd")], is stem:[683 "unitsml(lm/W)"],
+
+where the hertz, joule, coulomb, lumen, and watt, with unit symbols stem:["unitsml(Hz)"], stem:["unitsml(J)"], stem:["unitsml(C)"], stem:["unitsml(lm)"], and stem:["unitsml(W)"], respectively, are related to the units second, metre, kilogram, ampere, kelvin, mole, and candela, with unit symbols stem:["unitsml(s)"], stem:["unitsml(m)"], stem:["unitsml(kg)"], stem:["unitsml(A)"], stem:["unitsml(K)"], stem:["unitsml(mol)"], and stem:["unitsml(cd)"], respectively, according to stem:["unitsml(Hz)" = "unitsml(s^(-1))"], stem:["unitsml(J)" = "unitsml(kg*m^2*s^(-2))"], stem:["unitsml(C)" = "unitsml(A*s)"], stem:["unitsml(lm)" = "unitsml(cd*m^2*m^(-2))" = "unitsml(cd*sr)"], and stem:["unitsml(W)" = "unitsml(kg*m^2*s^(-3))"].
+
+These definitions specify the exact numerical value of each constant when its value is expressed in the corresponding SI unit. By fixing the exact numerical value, the unit becomes defined, since the product of the *_numerical value_* and the unit has to equal the *_value_* of the constant, which is invariant.
+
+The defining constants have been chosen such that, when taken together, their units cover all of the units of the SI. In general, there is no one-to-one correspondence between the defining constants and the SI base units, except for the caesium frequency stem:[Delta ii(nu)_("Cs")] and the Avogadro constant stem:[ii(N)_"A"]. Any SI unit is a product of powers of these seven constants and a dimensionless factor.
+For example: using stem:["unitsml(Hz)" = "unitsml(s^(-1))"], one metre can be derived from the speed of light stem:[c] and caesium frequency stem:[Delta ii(nu)_("Cs")],
+
+[stem%unnumbered]
+++++
+1 "unitsml(m)" = (c/(299792458)) "unitsml(s)" = (9192631770)/(229792458) c/(Delta ii(nu)_("Cs")) ~~ 30.663319 c/(Delta ii(nu)_("Cs")).
+++++
+
+The concept of base units and derived units was used to define the SI until 2018. These categories, although no longer essential in the SI, are maintained in view of their convenience and widespread use. The definitions of the base units, which follow from the definition of the SI in terms of the seven defining constants, are given in <<table1>>.
+
+[[table1]]
+.The seven base units of the SI
+[cols="2",options="header"]
+|===
+| Quantity | SI unit
+
+| *time* | The *second*, symbol stem:["unitsml(s)"], is the SI unit of time. It is defined by taking the fixed numerical value of the caesium frequency, stem:[Delta ii(nu)_("Cs")], the unperturbed ground-state hyperfine transition frequency of the caesium 133 atom, to be stem:[9192631770] when expressed in the unit stem:["unitsml(Hz)"], which is equal to stem:["unitsml(s^(-1))"].
+| *length* | The *metre*, symbol stem:["unitsml(m)"], is the SI unit of length. It is defined by taking the fixed numerical value of the speed of light in vacuum, stem:[c], to be stem:[299792458] when expressed in the unit stem:["unitsml(m*s^(-1))"], where the second is defined in terms of stem:[Delta ii(nu)_("Cs")].
+| *mass* | The *kilogram*, symbol stem:["unitsml(kg)"], is the SI unit of mass. It is defined by taking the fixed numerical value of the Planck constant, stem:[h], to be stem:[6.62607015 xx 10^(-34)] when expressed in the unit stem:["unitsml(J*s)"], which is equal to stem:["unitsml(kg*m^2*s^(-1))"], where the metre and the second are defined in terms of stem:[c] and stem:[Delta ii(nu)_("Cs")].
+| *electric current* | The *ampere*, symbol stem:["unitsml(A)"], is the SI unit of electric current. It is defined by taking the fixed numerical value of the elementary charge, stem:[e], to be stem:[1.602176634 xx 10^(-19)] when expressed in the unit stem:["unitsml(C)"], which is equal to stem:["unitsml(A*s)"], where the second is defined in terms of stem:[Delta ii(nu)_("Cs")].
+| *thermodynamic temperature* | The *kelvin*, symbol stem:["unitsml(K)"], is the SI unit of thermodynamic temperature. It is defined by taking the fixed numerical value of the Boltzmann constant, stem:[k], to be stem:[1.380649 xx 10^(-23)] when expressed in the unit stem:["unitsml(J*K^(-1))"], which is equal to stem:["unitsml(kg*m^2*s^(-2)*K^(-1))"], where the kilogram, metre and second are defined in terms of stem:[h], stem:[c] and stem:[Delta ii(nu)_("Cs")].
+| *amount of substance* | The *mole*, symbol stem:["unitsml(mol)"], is the SI unit of amount of substance. One mole contains exactly stem:[6.02214076 xx 10^23] elementary entities. This number is the fixed numerical value of the Avogadro constant, stem:[N_{"A"}], when expressed in the unit stem:["unitsml(mol^(-1))"] and is called the Avogadro number.
+
+The amount of substance, symbol stem:[n], of a system is a measure of the number of specified elementary entities. An elementary entity may be an atom, a molecule, an ion, an electron, any other particle or specified group of particles.
+
+| *luminous intensity* | The *candela*, symbol stem:["unitsml(cd)"], is the SI unit of luminous intensity in a given direction. It is defined by taking the fixed numerical value of the luminous efficacy of monochromatic radiation of frequency stem:[540 xx 10^12 "unitsml(Hz)"], stem:[K_{"cd"}], to be 683 when expressed in the unit stem:["unitsml(lm*W^(-1))"], which is equal to stem:["unitsml(cd*sr*W^(-1))"], or stem:["unitsml(cd*sr*kg^(-1)*m^(-2)*s^3)"], where the kilogram, metre and second are defined in terms of stem:[h], stem:[c] and stem:[Delta ii(nu)_("Cs")].
+|===
+
+All other quantities may be called "derived quantities" and are measured using derived units, which can be written as products of powers of base units. Twenty-two derived units are given a special name, as listed in <<table2>>.
+
+[[table2]]
+.Derived units with special names in the SI
+[cols="4",options="header"]
+|===
+| Derived quantity | Name of derived unit | Symbol for unit | Expression in terms of other units
+
+| plane angle | radian | stem:["unitsml(rad)"] | 1
+| solid angle | steradian | stem:["unitsml(sr)"] | 1
+| frequency | hertz | stem:["unitsml(Hz)"] | stem:["unitsml(s^(-1))"]
+| force | newton | stem:["unitsml(N)"] | stem:["unitsml(kg*m*s^(-2))"]
+| pressure, stress | pascal | stem:["unitsml(Pa)"] | stem:["unitsml(N/m^2)" = "unitsml(kg*m^(-1)*s^(-2))"]
+| energy, work, amount of heat | joule | stem:["unitsml(J)"] | stem:["unitsml(N*m)" = "unitsml(kg*m^2*s^(-2))"]
+| power, radiant flux | watt | stem:["unitsml(W)"] | stem:["unitsml(J/s)" = "unitsml(kg*m^2*s^(-3))"]
+| electric charge | coulomb | stem:["unitsml(C)"] | stem:["unitsml(A*s)"]
+| electric potential difference | volt | stem:["unitsml(V)"] | stem:["unitsml(W/A)" = "unitsml(kg*m^2*s^(-3)*A^(-1))"]
+| capacitance | farad | stem:["unitsml(F)"] | stem:["unitsml(C/V)" = "unitsml(kg^(-1)*m^(-2)*s^4*A^2)"]
+| electric resistance | ohm | stem:["unitsml(Ohm)"] | stem:["unitsml(V/A)" = "unitsml(kg*m^2*s^(-3)*A^(-2))"]
+| electric conductance | siemens | stem:["unitsml(S)"] | stem:["unitsml(A/V)" = "unitsml(kg^(-1)*m^(-2)*s^3*A^2)"]
+| magnetic flux | weber | stem:["unitsml(Wb)"] | stem:["unitsml(V*s)" = "unitsml(kg*m^2*s^(-2)*A^(-1))"]
+| magnetic flux density | tesla | stem:["unitsml(T)"] | stem:["unitsml(Wb/m^2)" = "unitsml(kg*s^(-2)*A^(-1))"]
+| inductance | henry | stem:["unitsml(H)"] | stem:["unitsml(Wb/A)" = "unitsml(kg*m^2*s^(-2)*A^(-2))"]
+| Celsius temperature | degree Celsius | stem:["unitsml(degC)"] | stem:["unitsml(K)"]
+| luminous flux | lumen | stem:["unitsml(lm)"] | stem:["unitsml(cd*sr)"]
+| illuminance | lux | stem:["unitsml(lx)"] | stem:["unitsml(lm/m^2)" = "unitsml(cd*sr*m^(-2))"]
+| activity referred to a radionuclide | becquerel | stem:["unitsml(Bq)"] | stem:["unitsml(s^(-1))"]
+| absorbed dose, kerma | gray | stem:["unitsml(Gy)"] | stem:["unitsml(J/kg)" = "unitsml(m^2*s^(-2))"]
+| dose equivalent | sievert | stem:["unitsml(Sv)"] | stem:["unitsml(J/kg)" = "unitsml(m^2*s^(-2))"]
+| catalytic activity | katal | stem:["unitsml(kat)"] | stem:["unitsml(mol*s^(-1))"]
+|===
+
+Although the hertz and the becquerel are both equal to the reciprocal second, hertz is used only for periodic phenomena, and becquerel is used only for stochastic processes in radioactive decay.
+
+The unit of Celsius temperature is the degree Celsius, stem:["unitsml(degC)"], which is equal in magnitude to the kelvin, stem:["unitsml(K)"], the unit of thermodynamic temperature. The quantity Celsius temperature stem:[t] is related to thermodynamic temperature stem:["unitsml(T)"] by the equation stem:["unitsml(t/degC)" = "unitsml(T/K)" - 273.15].
+
+The sievert is also used for the quantities 'directional dose equivalent' and 'personal dose equivalent'.
+
+There are many more quantities than units. For each quantity, there is only one SI unit (although this may often be expressed in different ways by using the special names), while the same SI unit may be used to express the values of several different quantities (for example, the SI unit stem:["unitsml(J/K)"] may be used to express the value of both heat capacity and entropy). It is therefore important not to use the unit alone to specify the quantity. This applies both to scientific texts and also to measuring instruments (i.e. an instrument read-out should indicate both the quantity concerned and the unit).
+
+There are quantities with the unit one, symbol 1, that are ratios of two quantities of the same kind. For example, refractive index is the ratio of two speeds, and relative permittivity is the ratio of the permittivity of a dielectric medium to that of free space. There are also quantities that are a number of entities, for example, the number of cellular or biomolecular entities. These quantities also have the unit one. The unit one is the neutral element of any system of units. Quantities with the unit one can therefore be considered as traceable to the SI. However, when expressing the values of quantities with the unit one, the unit symbol 1 is not written.
+
+== Decimal multiples and sub-multiples of SI units
+
+A set of prefixes have been adopted for use with the SI units in order to express the values of quantities that are either much larger than, or much smaller than, the SI unit when used without any prefix. They can be used with any SI unit. The SI prefixes are listed in <<table3>>.
+
+[[table3]]
+.The SI prefixes
+[cols="6",options="header"]
+|===
+| Factor | Name | Symbol | Factor | Name | Symbol
+
+| stem:[10^1] | deca | stem:["unitsml(da-)"] | stem:[10^(-1)] | deci | stem:["unitsml(d-)"]
+| stem:[10^2] | hecto | stem:["unitsml(h-)"] | stem:[10^(-2)] | centi | stem:["unitsml(c-)"]
+| stem:[10^3] | kilo | stem:["unitsml(k-)"] | stem:[10^(-3)] | milli | stem:["unitsml(m-)"]
+| stem:[10^6] | mega | stem:["unitsml(M-)"] | stem:[10^(-6)] | micro | stem:["unitsml(u-)"]
+| stem:[10^9] | giga | stem:["unitsml(G-)"] | stem:[10^(-9)] | nano | stem:["unitsml(n-)"]
+| stem:[10^(12)] | tera | stem:["unitsml(T-)"] | stem:[10^(-12)] | pico | stem:["unitsml(p-)"]
+| stem:[10^(15)] | peta | stem:["unitsml(P-)"] | stem:[10^(-15)] | femto | stem:["unitsml(f-)"]
+| stem:[10^(18)] | exa | stem:["unitsml(E-)"] | stem:[10^(-18)] | atto | stem:["unitsml(a-)"]
+| stem:[10^(21)] | zetta | stem:["unitsml(Z-)"] | stem:[10^(-21)] | zepto | stem:["unitsml(z-)"]
+| stem:[10^(24)] | yotta | stem:["unitsml(Y-)"] | stem:[10^(-24)] | yocto | stem:["unitsml(y-)"]
+| stem:[10^27] | ronna | stem:["unitsml(R-)"] | stem:[10^{-27}] | ronto | stem:["unitsml(r-)"]
+| stem:[10^30] | quetta | stem:["unitsml(Q-)"] | stem:[10^{-30}] | quecto | stem:["unitsml(q-)"]
+|===
+
+When the prefixes are used, the prefix name and the unit name are combined to form a single word. Similarly, the prefix symbol and the unit symbol are written without any space to form a single symbol, which may itself be raised to any power. For example, we may write: kilometre, stem:["unitsml(km)"]; microvolt, stem:["unitsml(uV)"]; or femtosecond, stem:["unitsml(fs)"].
+
+When the SI units are used without any prefixes, the resulting set of units is described as being *coherent* in the following sense: when only coherent units are used, equations between the numerical values of quantities take exactly the same form as the equations between the quantities themselves. The use of a coherent set of units has technical advantages, for example in algebraic calculus (see the SI Brochure).
+
+The kilogram, stem:["unitsml(kg)"], is problematic because the name already includes a prefix, for historical reasons. Multiples and sub-multiples of the kilogram are written by combining prefixes with the gram: thus we write milligram, stem:["unitsml(mg)"], not microkilogram, μkg.
+
+== Units outside the SI
+
+The SI is the only system of units that is universally recognized, so it has a distinct advantage for establishing international dialogue. The use of the SI, as a standard system of units, simplifies the teaching of science. For these reasons, the use of SI units is recommended in all fields of science and technology. Other units, i.e. non-SI units, are generally defined in terms of SI units using conversion factors.
+
+Nonetheless, some non-SI units are still widely used. A few, such as the minute, hour and day as units of time, will always be used because they are part of our culture. Others are used for historical reasons, to meet the needs of special interest groups, or because there is no convenient SI alternative. It will always remain the prerogative of a scientist to use the units that are considered to be best suited to the purpose. However, when non-SI units are used, the correspondence to the SI should always be quoted. A selection of non-SI units is listed in <<table4>> with their conversion factors to the SI. For a more comprehensive list, see the SI Brochure.
+
+[[table4]]
+.A selection of non-SI units
+[cols="4",options="header"]
+|===
+| Quantity | Unit | Symbol | Relation to SI
+
+| time | minute  | stem:["unitsml(min)"] | stem:[1 "unitsml(min)" = 60 "unitsml(s)"]
+| time | hour | stem:["unitsml(h)"] | stem:[1 "unitsml(h)" = 3600 "unitsml(s)"]
+| time | day | stem:["unitsml(d)"] | stem:[1 "unitsml(d)" = 86400 "unitsml(s)"]
+| volume | litre | stem:["unitsml(L)"] or stem:["unitsml(l)"] | stem:[1 "unitsml(L)" = 1 "unitsml(dm^3)"]
+| mass | tonne | stem:["unitsml(t)"] | stem:[1 "unitsml(t)" = 1000 "unitsml(kg)"]
+| energy | electronvolt (__e__/C) stem:["unitsml(J)"] | stem:["unitsml(eV)"] | stem:[1 "unitsml(eV)" = 1.602176634 xx 10^(-19) "unitsml(J)"]
+|===
+
+When units are named after an individual their symbol should begin with a capital letter (for example: ampere, stem:["unitsml(A)"]; kelvin, stem:["unitsml(K)"]; hertz, stem:["unitsml(Hz)"]; or coulomb, stem:["unitsml(C)"]). In all other cases, except the litre, they begin with a lower case letter (for example: metre, stem:["unitsml(m)"]; second, stem:["unitsml(s)"]; or mole, stem:["unitsml(mol)"]). The symbol for the litre is an exception; either a lower case letter 'l' or a capital 'L' may be used, the capital is allowed in this case to avoid confusion between the lower case letter l and the number one, 1.
+
+== The language of science: using the SI to express the values of quantities
+
+The value of a quantity is written as the product of a number and a unit. The number multiplying the unit is the numerical value of the quantity in that unit. A single space is always left between the number and the unit. The numerical value depends on the choice of unit, so that the same value of a quantity may have different numerical values when expressed in different units, as in the examples provided below.
+
+====
+The speed of a bicycle is approximately
+
+stem:[v = 5.0 "unitsml(m/s)" = 18 "unitsml(km/h)"].
+
+The wavelength of one of the yellow lines of the sodium doublet is
+
+stem:[Lambda = 5.896 xx 10^(-7) "unitsml(m)" = 589.6 "unitsml(nm)"].
+====
+
+Quantity symbols are written using italic (slanting) type, and they are generally single letters of the Latin or Greek alphabet. Either capital or lower case letters may be used, and additional information on the quantity may be added as a subscript or as information in brackets.
+
+Authorities such as the International Organization for Standardization (ISO) and international scientific unions such as the International Union of Pure and Applied Physics (IUPAP) and the International Union of Pure and Applied Chemistry (IUPAC) have specified recommended symbols for many quantities. Examples include:
+
+stem:[T]:: for thermodynamic temperature
+stem:[C_p]:: for heat capacity at constant pressure
+stem:[x_i]:: for the mole fraction (amount fraction) of species _i_
+stem:[mu_r]:: for relative permeability.
+
+Unit symbols are written using roman (upright) type, regardless of the type used in the surrounding text. They are mathematical entities and not abbreviations; unit symbols are never followed by a full stop (except at the end of a sentence) nor by an 's' for the plural. The use of the correct form for unit symbols is mandatory, and is illustrated by examples in the SI Brochure. Unit symbols may be more than a single letter. They are written in lower case letters, the exception being that the first letter is a capital when the unit is named after a person. However, when the name of a unit is spelled in full, it should begin with a lower case letter (except at the beginning of a sentence), to distinguish the unit from the person (for example, the name kelvin for the unit of thermodynamic temperature is derived from the proper name Kelvin).
+
+When writing the value of a quantity as the product of a numerical value and a unit, both the number and the unit may be treated by the ordinary rules of algebra. For example, the equation stem:[T = 293 "unitsml(K)"] may equally be written as stem:["unitsml(T/K)" = 293]. This procedure is described as the use of quantity calculus, or the algebra of quantities. It is often useful to use the ratio of a quantity to its unit as the heading for columns in a table, or for labelling the axes of a graph, so that the entries in the table or the labels for the tick marks on the axes are all simply denoted by numbers. The example (<<table5>>) shows a table of the velocity squared versus pressure, with the columns labelled in this way.
+
+[[table5]]
+.Example of column heading in a table of the velocity squared versus pressure
+[cols="^,^"]
+|===
+| stem:[p//"unitsml(kPa)"] | stem:[v^2//("unitsml(m/s)")^2]
+| 48.73 | 94766
+| 72.87 | 94771
+| 135.4 | 94784
+|===
+
+In forming products or quotients of unit symbols the normal rules of algebra apply. In forming products of unit symbols, a space should be left between units (or alternatively a half-high centred dot can be used as a multiplication symbol). The importance of the space should be noted: the product of a metre and a second is denoted by stem:["unitsml(m*s)"] (with a space), but stem:["unitsml(ms)"] (without a space) is used to denote a millisecond. In addition, when forming complicated products of units, brackets or negative exponents should be used to avoid ambiguities. For example, the molar gas constant stem:[R] is given by:
+
+[stem%unnumbered]
+++++
+{:(pV_m//ii(T) = ii(R),=,8.314 "unitsml(Pa*m^3*mol^(-1)*K^(-1))"),
+(,=,8.314 "unitsml(Pa*m^3/(mol*K))".):}
+++++
+
+When formatting numbers, the decimal marker may be either a point (i.e. a full stop) or a comma, depending on the circumstances. For documents in the English language a point is usual, but for many languages and in many countries a comma is usual.
+
+When a number has many digits, it is customary to group the digits into threes about the decimal point to aid readability. This is not essential, but it is often done and is generally helpful. When this format is used, the groups of three digits should be separated only by a space; neither a point nor a comma should be used. The uncertainty in the numerical value of a quantity may often be conveniently shown by giving the uncertainty in the least significant digits in brackets after the number. +
+For example: The value of the electron mass is given in the 2014 CODATA listing of fundamental constants as
+
+[stem%unnumbered]
+++++
+m_e = 9.10938356 (11) xx 10^(-31) "unitsml(kg)",
+++++
+
+where 11 is the standard uncertainty in the final digits quoted for the numerical value.
