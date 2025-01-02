@@ -1,0 +1,233 @@
+= A concise summary of the International System of Units, SI
+:edition: 3.01
+:copyright-year: 2018
+:language: fr
+:doctype: guide
+:title-en: A concise summary of the International System of Units, SI
+:title-fr: Résumé de la Brochure sur le Système international d'unités (SI)
+:number-presentation-formula: default
+:imagesdir: images
+:mn-document-class: bipm
+:mn-output-extensions: xml,html,pdf,rxl
+:local-cache-only:
+:data-uri-image:
+
+== Preface
+
+La métrologie est la science de la mesure et son application. La métrologie embrasse tous les aspects théoriques et pratiques des mesures, indépendamment de leur incertitude ou de leur champ d'application.
+
+== Introduction
+
+Le Bureau international des poids et mesures (BIPM) a été établi en vertu de l'article 1 de la Convention du Mètre, signée le 20 mai 1875{nbsp}; il est chargé d'établir les fondements d'un système de mesures unique et cohérent, pour le monde entier, et fonctionne sous l'autorité du Comité international des poids et mesures (CIPM). Le système métrique décimal, qui date de l'époque de la Révolution française, a été fondé en 1799 sur le mètre et le kilogramme. Selon les termes de la Convention du Mètre, de nouveaux prototypes internationaux du mètre et du kilogramme furent fabriqués et approuvés officiellement en 1889 par la Conférence générale des poids et mesures (CGPM) à sa première réunion. En 1960, la CGPM à sa 11e réunion a officiellement défini et établi le Système international d'unités (SI). Depuis, le SI a régulièrement été mis à jour afin de tenir compte des avancées de la science et des besoins en matière de mesure dans de nouveaux domaines. La dernière révision majeure du SI a été adoptée par la CGPM à sa 26e réunion (2018){nbsp}: il a ainsi été décidé que le SI serait fondé sur les valeurs numériques fixées d'un ensemble de sept *constantes* à partir desquelles les définitions des sept unités de base du SI seraient déduites. Le présent document est un résumé de la *Brochure sur le SI*, la publication produite par le BIPM décrivant en détail l'actuel Système international d'unités.
+
+Le SI est le système d'unités selon lequel{nbsp}:
+
+* la fréquence de la transition hyperfine de l'état fondamental de l'atome de césium 133 non perturbé, stem:[Delta ii(nu)_("Cs")], est égale à stem:[9192631770 "unitsml(Hz)"],
+* la vitesse de la lumière dans le vide, stem:[c], est égale à stem:[299792458 "unitsml(m/s)"],
+* la constante de Planck, stem:[h], est égale à stem:[6.62607015 xx 10^(-34) "unitsml(J*s)"],
+* la charge élémentaire, stem:[e], est égale à stem:[1.602176634 xx 10^(-19) "unitsml(C)"],
+* la constante de Boltzmann, stem:[k], est égale à stem:[1.380649 xx 10^(-23) "unitsml(J/K)"],
+* la constante d'Avogadro, stem:[ii(N)_"A"], est égale à stem:[6.02214076 xx 10^(23) "unitsml(mol^(-1))"],
+* l'efficacité lumineuse d'un rayonnement monochromatique de fréquence stem:[540 xx 10^(12) "unitsml(Hz)"], stem:[ii(K)_("cd")], est égale à stem:[683 "unitsml(lm/W)"],
+
+où les unités hertz, joule, coulomb, lumen et watt, qui ont respectivement pour symbole stem:["unitsml(Hz)"], stem:["unitsml(J)"], stem:["unitsml(C)"], stem:["unitsml(lm)"] et stem:["unitsml(W)"], sont reliées aux unités seconde, mètre, kilogramme, ampère, kelvin, mole et candela, qui ont respectivement pour symbole stem:["unitsml(s)"], stem:["unitsml(m)"], stem:["unitsml(kg)"], stem:["unitsml(A)"], stem:["unitsml(K)"], stem:["unitsml(mol)"] et stem:["unitsml(cd)"], selon les relations stem:["unitsml(Hz)" = "unitsml(s^(-1))"], stem:["unitsml(J)" = "unitsml(kg*m^2*s^(-2))"], stem:["unitsml(C)" = "unitsml(A*s)"], stem:["unitsml(W)" = "unitsml(kg*m^2*s^(-3))"].
+
+Ces définitions précisent la valeur numérique exacte de chaque constante lorsque sa valeur est exprimée dans l'unité du SI correspondante. En fixant la valeur numérique exacte, l'unité devient définie car le produit de la *_valeur numérique_* par l'**_unité_** doit être égal à la *_valeur_* de la constante, qui est invariante.
+
+Les sept constantes définissant le SI ont été choisies de sorte qu'ensemble, leurs unités couvrent toutes les unités du SI. En général, il n'y a pas de correspondance biunivoque entre les constantes définissant le SI et les unités de base du SI, à l'exception de la fréquence du césium, stem:[Delta ii(nu)_("Cs")], et de la constante d'Avogadro, stem:[ii(N)_"A"]. Chaque unité du SI est un produit de puissances de ces sept constantes et d'un facteur sans dimension.
+
+Par exemple{nbsp}: en utilisant la relation stem:["unitsml(Hz)" = "unitsml(s^(-1))"], un mètre peut être exprimé en fonction de la vitesse de la lumière, stem:[c], et de la fréquence du césium, stem:[Delta ii(nu)_("Cs")]{nbsp}:
+
+[stem%unnumbered]
+++++
+1 "unitsml(m)" = (c/(299792458)) "unitsml(s)" = (9192631770)/(229792458) c/(Delta ii(nu)_("Cs")) ~~ 30.663319 c/(Delta ii(nu)_("Cs")).
+++++
+
+Les concepts d'unités de base et d'unités dérivées ont été utilisés pour définir le SI jusqu'en 2018. Ces catégories, bien qu'elles ne soient plus essentielles dans le SI, sont conservées en raison de leur aspect pratique et de leur utilisation généralisée. Les définitions des unités de base, qui résultent de la définition du SI fondée sur les sept constantes choisies, sont données dans le <<table1>>.
+
+[[table1]]
+.Les sept unités de base du SI
+[cols="2",options="header"]
+|===
+| Grandeur | Unité SI
+
+| *temps*
+| La *seconde*, symbole stem:["unitsml(s)"], est l'unité de temps du SI. Elle est définie en prenant la valeur numérique fixée de la fréquence du césium, stem:[Delta ii(nu)_("Cs")], la fréquence de la transition hyperfine de l'état fondamental de l'atome de césium 133 non perturbé, égale à stem:[9192631770] lorsqu'elle est exprimée en Hz, unité égale à stem:["unitsml(s^(-1))"].
+
+| *longueur*
+| Le *mètre*, symbole stem:["unitsml(m)"], est l'unité de longueur du SI. Il est défini en prenant la valeur numérique fixée de la vitesse de la lumière dans le vide, stem:[c], égale à stem:[299792458] lorsqu'elle est exprimée en stem:["unitsml(m*s^(-1))"], la seconde étant définie en fonction de stem:[Delta ii(nu)_("Cs")].
+
+| *masse*
+| Le *kilogramme*, symbole stem:["unitsml(kg)"], est l'unité de masse du SI. Il est défini en prenant la valeur numérique fixée de la constante de Planck, stem:[h], égale à stem:[6.62607015 xx 10^(-34)] lorsqu'elle est exprimée en stem:["unitsml(J*s)"], unité égale à stem:["unitsml(kg*m^2*s^(-1))"], le mètre et la seconde étant définis en fonction de stem:[c] et stem:[Delta ii(nu)_("Cs")].
+
+| *courant électrique*
+| *L'ampère*, symbole stem:["unitsml(A)"], est l'unité de courant électrique du SI. Il est défini en prenant la valeur numérique fixée de la charge élémentaire, stem:[e], égale à stem:[1.602176634 xx 10^(-19)] lorsqu'elle est exprimée en stem:["unitsml(C)"], unité égale à stem:["unitsml(A*s)"], la seconde étant définie en fonction de stem:[Delta ii(nu)_("Cs")].
+
+| *température thermodynamique*
+| Le *kelvin*, symbole stem:["unitsml(K)"], est l'unité de température thermodynamique du SI. Il est défini en prenant la valeur numérique fixée de la constante de Boltzmann, stem:[k], égale à stem:[1.380649 xx 10^(-23)] lorsqu'elle est exprimée en stem:["unitsml(J*K^(-1))"], unité égale à stem:["unitsml(kg*m^2*s^(-2)*K^(-1))"], le kilogramme, le mètre et la seconde étant définis en fonction de stem:[h], stem:[c] et stem:[Delta ii(nu)_("Cs")].
+
+| *quantité de matière*
+| La *mole*, symbole stem:["unitsml(mol)"], est l'unité de quantité de matière du SI. Une mole contient exactement stem:[6.02214076 xx 10^23] entités élémentaires. Ce nombre, appelé «{nbsp}nombre d'Avogadro{nbsp}», correspond à la valeur numérique fixée de la constante d'Avogadro, stem:[N_{"A"}], lorsqu'elle est exprimée en stem:["unitsml(mol^(-1))"].
+
+La quantité de matière, symbole n, d'un système est une représentation du nombre d'entités élémentaires spécifiées. Une entité élémentaire peut être un atome, une molécule, un ion, un électron, ou toute autre particule ou groupement spécifié de particules.
+
+| *intensité lumineuse*
+| La *candela*, symbole stem:["unitsml(cd)"], est l'unité du SI d'intensité lumineuse dans une direction donnée. Elle est définie en prenant la valeur numérique fixée de l'efficacité lumineuse d'un rayonnement monochromatique de fréquence stem:[540 xx 10^12 "unitsml(Hz)"], stem:[K_{"cd"}], égale à 683 lorsqu'elle est exprimée en stem:["unitsml(lm*W^(-1))"], unité égale à stem:["unitsml(cd*sr*W^(-1))"], ou stem:["unitsml(cd*sr*kg^(-1)*m^(-2)*s^3)"], le kilogramme, le mètre et la seconde étant définis en fonction de stem:[h], stem:[c] et stem:[Delta ii(nu)_("Cs")].
+
+|===
+
+
+Toutes les autres grandeurs peuvent être dénommées «{nbsp}grandeurs dérivées{nbsp}» et sont exprimées au moyen d'unités dérivées, définies comme étant des produits de puissances des unités de base. Vingt-deux unités dérivées, telles que présentées dans le <<table2>>, ont un nom spécial.
+
+[[table2]]
+.Unités dérivées du SI ayant un nom spécial
+[cols="4",options="header"]
+|===
+| Grandeur dérivée | Nom de l'unité dérivée | Symbole de l'unité | Expression utilisant d'autres unités
+
+| angle plan | radian | stem:["unitsml(rad)"] | 1
+| angle solide | stéradian | stem:["unitsml(sr)"] | 1
+| fréquence | hertz | stem:["unitsml(Hz)"] | stem:["unitsml(s^(-1))"]
+| force | newton | stem:["unitsml(N)"] | stem:["unitsml(kg*m*s^(-2))"]
+| pression, contrainte | pascal | stem:["unitsml(Pa)"] | stem:["unitsml(N/m^2)" = "unitsml(kg*m^(-1)*s^(-2))"]
+| énergie, travail, quantité de chaleur | joule | stem:["unitsml(J)"] | stem:["unitsml(N*m)" = "unitsml(kg*m^2*s^(-2))"]
+| puissance, flux énergétique | watt | stem:["unitsml(W)"] | stem:["unitsml(J/s)" = "unitsml(kg*m^2*s^(-3))"]
+| charge électrique | coulomb | stem:["unitsml(C)"] | stem:["unitsml(A*s)"]
+| différence de potentiel électrique | volt | stem:["unitsml(V)"] | stem:["unitsml(W/A)" = "unitsml(kg*m^2*s^(-3)*A^(-1))"]
+| capacité électrique | farad | stem:["unitsml(F)"] | stem:["unitsml(C/V)" = "unitsml(kg^(-1)*m^(-2)*s^4*A^2)"]
+| résistance électrique | ohm | stem:["unitsml(Ohm)"] | stem:["unitsml(V/A)" = "unitsml(kg*m^2*s^(-3)*A^(-2))"]
+| conductance électrique | siemens | stem:["unitsml(S)"] | stem:["unitsml(A/V)" = "unitsml(kg^(-1)*m^(-2)*s^3*A^2)"]
+| flux d'induction magnétique | weber | stem:["unitsml(Wb)"] | stem:["unitsml(V*s)" = "unitsml(kg*m^2*s^(-2)*A^(-1))"]
+| induction magnétique | tesla | stem:["unitsml(T)"] | stem:["unitsml(Wb/m^2)" = "unitsml(kg*s^(-2)*A^(-1))"]
+| inductance | henry | stem:["unitsml(H)"] | stem:["unitsml(Wb/A)" = "unitsml(kg*m^2*s^(-2)*A^(-2))"]
+| température Celsius | degré Celsius | stem:["unitsml(degC)"] | stem:["unitsml(K)"]
+| flux lumineux | lumen | stem:["unitsml(lm)"] | stem:["unitsml(cd*sr)"]
+| éclairement lumineux | lux | stem:["unitsml(lx)"] | stem:["unitsml(lm/m^2)" = "unitsml(cd*sr*m^(-2))"]
+| activité d'un radionucléide | becquerel | stem:["unitsml(Bq)"] | stem:["unitsml(s^(-1))"]
+| dose absorbée, kerma | gray | stem:["unitsml(Gy)"] | stem:["unitsml(J/kg)" = "unitsml(m^2*s^(-2))"]
+| équivalent de dose | sievert | stem:["unitsml(Sv)"] | stem:["unitsml(J/kg)" = "unitsml(m^2*s^(-2))"]
+| activité catalytique | katal | stem:["unitsml(kat)"] | stem:["unitsml(mol*s^(-1))"]
+|===
+
+
+Bien que le hertz et le becquerel soient égaux à la seconde à la puissance moins un, le hertz est utilisé uniquement pour des phénomènes périodiques et le becquerel uniquement pour des processus stochastiques concernant la désintégration radioactive.
+
+L'unité de température Celsius est le degré Celsius, stem:["unitsml(degC)"], dont l'amplitude est égale à celle du kelvin, stem:["unitsml(K)"], l'unité de température thermodynamique. La grandeur «{nbsp}température Celsius{nbsp}», stem:[t], est liée à la température thermodynamique, stem:["unitsml(T)"], au moyen de l'équationstem:["unitsml(t/degC)" = "unitsml(T/K)" - 273.15].
+
+Le sievert est utilisé pour les grandeurs «{nbsp}équivalent de dose directionnel{nbsp}» et «{nbsp}équivalent de dose individuel{nbsp}».
+
+Il existe bien plus de grandeurs que d'unités. Pour chaque grandeur, il n'existe qu'une seule unité SI (qui peut être exprimée de diverses façons au moyen des noms spéciaux), alors que la même unité SI peut être utilisée pour exprimer les valeurs de plusieurs grandeurs différentes (par exemple, l'unité SI stem:["unitsml(J/K)"] peut être utilisée pour exprimer la valeur de la capacité thermique et celle de l'entropie). Il est important de noter qu'il ne suffit pas d'indiquer le nom de l'unité pour spécifier la grandeur mesurée. Cette règle s'applique non seulement aux textes scientifiques et techniques mais aussi, par exemple, aux appareils de mesure (en effet, ces derniers doivent afficher non seulement l'unité mais aussi la grandeur mesurée).
+
+Il existe des grandeurs d'unité «{nbsp}un{nbsp}», symbole 1, qui sont des rapports de grandeurs de même nature. Par exemple, l'indice de réfraction est le rapport de deux vitesses et la permittivité relative est le rapport entre la permittivité d'un milieu diélectrique et celle du vide. Il existe également des grandeurs qui sont un nombre d'entités, comme le nombre d'entités cellulaires ou biomoléculaires. Ces grandeurs ont également pour unité le nombre un. L'unité «{nbsp}un{nbsp}» est l'élément neutre de tout système d'unités. Les grandeurs d'unité «{nbsp}un{nbsp}» peuvent ainsi être considérées comme traçables au SI. Toutefois, lorsqu'on exprime la valeur des grandeurs d'unité «{nbsp}un{nbsp}», le symbole 1 n'est pas écrit.
+
+== Multiples et sous-multiples décimaux des unités SI
+
+Une série de préfixes, à utiliser avec les unités SI, ont été adoptés pour exprimer les valeurs des grandeurs beaucoup plus grandes ou plus petites que l'unité SI elle-même. Les préfixes peuvent être utilisés avec toutes les unités SI. Les préfixes SI figurent au <<table3>>.
+
+[[table3]]
+.Préfixes du SI
+[cols="6",options="header"]
+|===
+| Facteur | Nom | Symbole | Facteur | Nom | Symbole
+
+| stem:[10^1] | déca | stem:["unitsml(da-)"] | stem:[10^(-1)] | déci | stem:["unitsml(d-)"]
+| stem:[10^2] | hecto | stem:["unitsml(h-)"] | stem:[10^(-2)] | centi | stem:["unitsml(c-)"]
+| stem:[10^3] | kilo | stem:["unitsml(k-)"] | stem:[10^(-3)] | milli | stem:["unitsml(m-)"]
+| stem:[10^6] | méga | stem:["unitsml(M-)"] | stem:[10^(-6)] | micro | stem:["unitsml(u-)"]
+| stem:[10^9] | giga | stem:["unitsml(G-)"] | stem:[10^(-9)] | nano | stem:["unitsml(n-)"]
+| stem:[10^12] | téra | stem:["unitsml(T-)"] | stem:[10^(-12)] | pico | stem:["unitsml(p-)"]
+| stem:[10^15] | péta | stem:["unitsml(P-)"] | stem:[10^(-15)] | femto | stem:["unitsml(f-)"]
+| stem:[10^18] | exa | stem:["unitsml(E-)"] | stem:[10^(-18)] | atto | stem:["unitsml(a-)"]
+| stem:[10^21] | zetta | stem:["unitsml(Z-)"] | stem:[10^(-21)] | zepto | stem:["unitsml(z-)"]
+| stem:[10^24] | yotta | stem:["unitsml(Y-)"] | stem:[10^{-24}] | yocto | stem:["unitsml(y-)"]
+| stem:[10^27] | ronna | stem:["unitsml(R-)"] | stem:[10^{-27}] | ronto | stem:["unitsml(r-)"]
+| stem:[10^30] | quetta | stem:["unitsml(Q-)"] | stem:[10^{-30}] | quecto | stem:["unitsml(q-)"]
+|===
+
+Lorsque l'on utilise ces préfixes, le nom du préfixe et celui de l'unité sont composés pour former un mot unique. De même, le symbole du préfixe et celui de l'unité forment un nouveau symbole, sans espace, qui peut lui-même être élevé à une puissance. Par exemple, nous pouvons écrire{nbsp}: kilomètre, stem:["unitsml(km)"]{nbsp}; microvolt, stem:["unitsml(uV)"]{nbsp}; femtoseconde, stem:["unitsml(fs)"].
+
+Les unités SI, utilisées sans préfixe, forment l'ensemble des unités cohérentes{nbsp}: cela signifie que lorsque seules des unités cohérentes sont utilisées, les équations reliant les valeurs numériques des grandeurs prennent exactement la même forme que les équations reliant les grandeurs proprement dites. L'utilisation de l'ensemble des unités cohérentes présente des avantages techniques, par exemple dans le cas du calcul algébrique (cf. Brochure sur le SI).
+
+Le kilogramme, stem:["unitsml(kg)"], est un cas à part car son nom, pour des raisons historiques, contient déjà un préfixe. Les multiples et sous-multiples du kilogramme sont formés par l'adjonction de préfixes au mot gramme{nbsp}: ainsi, nous écrivons milligramme, stem:["unitsml(mg)"], et pas microkilogramme, μkg.
+
+== Unités en dehors du SI
+
+Le SI étant le seul système d'unités reconnu au niveau mondial, il a l'avantage manifeste d'établir un langage universel. L'utilisation du SI comme système conventionnel d'unités simplifie l'enseignement des sciences. Pour toutes ces raisons, l'utilisation des unités SI est recommandée dans tous les domaines de la science et de la technologie. Les autres unités, c'est-à-dire les unités en dehors du SI, sont généralement définies en fonction des unités SI à l'aide de facteurs de conversion.
+
+Toutefois, certaines unités en dehors du SI sont encore largement utilisées. Quelques-unes, telles que les unités de temps «{nbsp}minute{nbsp}», «{nbsp}heure{nbsp}» et «{nbsp}jour{nbsp}», seront toujours utilisées car elles font partie de notre culture. D'autres unités continuent à l'être pour des raisons historiques, afin de répondre aux besoins de certains groupes d'intérêt ou parce qu'il n'existe pas de solution pratique dans le SI. Le fait d'utiliser les unités les plus appropriées pour une application donnée restera toujours la prérogative des scientifiques. Cependant, lorsque des unités en dehors du SI sont utilisées, il conviendrait de toujours mentionner leur correspondance en unités SI. Quelques unités en dehors du SI, accompagnées de leur facteur de conversion au SI, sont présentées dans le <<table4>>. Une liste plus complète se trouve dans la Brochure sur le SI.
+
+[[table4]]
+.Quelques unités en dehors du SI
+[cols="4",options="header"]
+|===
+| Grandeur | Unité | Symbole | Valeur en unités SI
+
+| temps | minute  | stem:["unitsml(min)"] | stem:[1 "unitsml(min)" = 60 "unitsml(s)"]
+| temps | heure | stem:["unitsml(h)"] | stem:[1 "unitsml(h)" = 3600 "unitsml(s)"]
+| temps | jour | stem:["unitsml(d)"] | stem:[1 "unitsml(d)" = 86400 "unitsml(s)"]
+| volume | litre | stem:["unitsml(L)"] ou stem:["unitsml(l)"] | stem:[1 "unitsml(L)" = 1 "unitsml(dm^3)"]
+| mass | tonne | stem:["unitsml(t)"] | stem:[1 "unitsml(t)" = 1000 "unitsml(kg)"]
+| énergie | électronvolt (__e__/C) stem:["unitsml(J)"] | stem:["unitsml(eV)"] | stem:[1 "unitsml(eV)" = 1.602176634 xx 10^(-19) "unitsml(J)"]
+|===
+
+Lorsque le nom d'une unité dérive d'un nom propre, son symbole commence par une majuscule (par exemple{nbsp}: ampère, stem:["unitsml(A)"]{nbsp}; kelvin, stem:["unitsml(K)"]{nbsp}; hertz, stem:["unitsml(Hz)"]{nbsp}; coulomb, stem:["unitsml(C)"]). Dans tous les autres cas, sauf le litre, les symboles prennent une minuscule (par exemple{nbsp}: mètre, stem:["unitsml(m)"]{nbsp}; seconde, stem:["unitsml(s)"]{nbsp}; mole, stem:["unitsml(mol)"]). Le symbole du litre constitue une exception à cette règle{nbsp}: il est possible d'utiliser la lettre L en majuscule afin d'éviter toute confusion entre le chiffre 1 (un) et la lettre l en minuscule.
+
+== Le langage des sciences{nbsp}: utilisation du SI pour exprimer les valeurs des grandeurs
+
+La valeur d'une grandeur s'exprime comme le produit d'un nombre par une unité. Le nombre qui multiplie l'unité est la valeur numérique de la grandeur exprimée dans cette unité. On laisse toujours une espace entre le nombre et l'unité. La valeur numérique d'une grandeur particulière dépend du choix de l'unité{nbsp}: elle est donc différente selon l'unité choisie, comme le montrent les exemples ci-dessous{nbsp}:
+
+====
+La vitesse d'une bicyclette est d'environ
+
+stem:[v = 5.0 "unitsml(m/s)" = 18 "unitsml(km/h)"].
+
+La longueur d'onde de l'une des raies jaunes du doublet de sodium est
+
+stem:[Lambda = 5.896 xx 10^(-7) "unitsml(m)" = 589.6 "unitsml(nm)"].
+====
+
+Les symboles des grandeurs doivent être écrits en italique et sont en général formés d'une seule lettre de l'alphabet latin ou grec, en majuscule ou en minuscule. Des informations complémentaires sur la grandeur peuvent être précisées par un indice ajouté au symbole ou au moyen de parenthèses.
+
+Des autorités telles que l'Organisation internationale de normalisation (ISO) et diverses unions scientifiques internationales telles que l'International Union of Pure and Applied Physics (IUPAP) et l'International Union of Pure and Applied Chemistry (IUPAC) ont recommandé des symboles pour beaucoup de grandeurs, par exemple{nbsp}:
+
+stem:[T]:: pour la température thermodynamique
+stem:[C_p]:: pour la capacité thermique à pression constante
+stem:[x_i]:: pour la fraction molaire de l'espèce _i_
+stem:[mu_r]:: pour la perméabilité relative.
+
+Les symboles des unités sont imprimés en caractères romains (droits), quelle que soit la police employée dans le texte où ils figurent. Ce sont des entités mathématiques et non des abréviations. Les symboles des unités ne doivent donc pas être suivis d'un point, sauf s'ils se trouvent placés à la fin d'une phrase, et restent invariables au pluriel. L'utilisation correcte des symboles des unités est obligatoire et est illustrée par de nombreux exemples dans la Brochure sur le SI. Les symboles des unités peuvent être composés de plus d'une lettre. Ils sont écrits en minuscules, sauf si le nom de l'unité dérive d'un nom propre, auquel cas la première lettre du symbole est en majuscule. Toutefois, le nom de l'unité donnée en toutes lettres commence par une minuscule (sauf en début de phrase) afin de distinguer le nom de l'unité de celle du nom propre (par exemple, le nom «{nbsp}kelvin{nbsp}» de l'unité de température thermodynamique est dérivé du nom propre Kelvin).
+
+Lorsque l'on exprime la valeur d'une grandeur comme le produit d'un nombre et d'une unité, le nombre et l'unité suivent les règles classiques de l'algèbre. Par exemple, l'équation stem:[T = 293 "unitsml(K)"] peut aussi s'écrire stem:["unitsml(T/K)" = 293]. Une telle démarche correspond à l'utilisation de l'algèbre des grandeurs. Il est souvent pratique d'utiliser le rapport entre une grandeur et son unité pour les entêtes de colonne des tableaux ou les axes des graphiques, afin que le contenu du tableau ou les marques sur l'axe soient des nombres. L'exemple ci-dessous (<<table5>>) montre un tableau d'une vitesse au carré en fonction d'une pression.
+
+[[table5]]
+.Exemple d'entêtes de colonne dans un tableau d'une vitesse au carré en fonction d'une pression
+[cols="^,^"]
+|===
+| stem:[p//"unitsml(kPa)"] | stem:[v^2//("unitsml(m/s)")^2]
+| 48.73 | 94766
+| 72.87 | 94771
+| 135.4 | 94784
+|===
+
+Les règles classiques de l'algèbre s'appliquent pour former les produits et quotients de symboles d'unités. La multiplication doit être indiquée par une espace ou un point à mi-hauteur centrée. Il convient de souligner l'importance de l'espace{nbsp}: le produit d'un mètre par une seconde est noté stem:["unitsml(m*s)"] (avec une espace) mais stem:["unitsml(ms)"] (sans espace) désigne une milliseconde. En outre, lorsque l'on combine plusieurs symboles d'unités, il faut prendre soin d'éviter toute ambiguïté en utilisant des parenthèses ou des exposants négatifs. Par exemple, la constante molaire des gaz, stem:[R], s'exprime sous la forme{nbsp}:
+
+[stem%unnumbered]
+++++
+{:(pV_m//ii(T) = ii(R),=,8.314 "unitsml(Pa*m^3*mol^(-1)*K^(-1))"),
+(,=,8.314 "unitsml(Pa*m^3/(mol*K))".):}
+++++
+
+Lorsque l'on écrit un nombre, le séparateur décimal utilisé pour séparer la partie entière de la partie décimale peut être le point ou la virgule, selon le contexte. Pour les documents en anglais, il est d'usage d'utiliser le point mais de nombreuses autres langues utilisent la virgule.
+
+Il est d'usage de séparer en tranches de trois chiffres, de part et d'autre du séparateur décimal, les nombres comportant un grand nombre de chiffres. Ce n'est pas indispensable mais cette règle est souvent appliquée car elle est utile. Lorsque ce format est utilisé, les tranches de trois chiffres doivent être séparées par une espace et non par des points ou des virgules.
+
+L'incertitude associée à la valeur numérique d'une grandeur peut souvent être exprimée en donnant entre parenthèses, après la valeur, l'incertitude-type sur les derniers chiffres significatifs. +
+Par exemple, la valeur de la masse de l'électron est exprimée dans la liste des constantes fondamentales de CODATA de 2014 sous la forme
+
+[stem%unnumbered]
+++++
+m_e = 9.10938356 (11) xx 10^(-31) "unitsml(kg)",
+++++
+
+où 11 est l'incertitude-type sur les derniers chiffres de la valeur numérique.
+
