@@ -28,11 +28,15 @@ jobs:
         with:
           submodules: true
 
+      - name: Bundler install
+        uses: metanorma/ci/docker-gem-install@main
+
       - name: Metanorma generate site
         uses: actions-mn/build-and-publish@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           agree-to-terms: true
+          use-bundler: true
 
   deploy:
     if: ${{ github.ref_name == github.event.repository.default_branch }}
