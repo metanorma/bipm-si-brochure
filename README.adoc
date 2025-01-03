@@ -34,6 +34,8 @@ These components include:
 ** Appendix 3 (fr, en)
 ** Appendix 4 (fr, en)
 
+* SI Brochure concise summary (fr, en)
+
 Rendering formats supported include:
 
 * Metanorma semantic XML
@@ -91,13 +93,13 @@ suffice. (the `brochure.yml` file does not compile any MEP documents)
 .Compile document in single language
 [source,sh]
 ----
-$ bundle exec metanorma sources/si-brochure/1.07/si-brochure-en.adoc
+$ bundle exec metanorma sources/si-brochure/3.01/si-brochure-en.adoc
 ----
 
 .Compile collection with dual languages
 [source,sh]
 ----
-$ bundle exec metanorma collection --agree-to-terms sources/si-brochure/1.07/collection.yml
+$ bundle exec metanorma collection --agree-to-terms sources/si-brochure/3.01/collection.yml
 ----
 
 
