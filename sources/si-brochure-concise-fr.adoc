@@ -1,5 +1,6 @@
 = A concise summary of the International System of Units, SI
-:edition: 3.01
+:edition: 9
+:draft: v3.01
 :copyright-year: 2018
 :language: fr
 :doctype: guide
@@ -51,31 +52,30 @@ Les concepts d'unités de base et d'unités dérivées ont été utilisés pour 
 |===
 | Grandeur | Unité SI
 
-| *temps*
-| La *seconde*, symbole stem:["unitsml(s)"], est l'unité de temps du SI. Elle est définie en prenant la valeur numérique fixée de la fréquence du césium, stem:[Delta ii(nu)_("Cs")], la fréquence de la transition hyperfine de l'état fondamental de l'atome de césium 133 non perturbé, égale à stem:[9192631770] lorsqu'elle est exprimée en Hz, unité égale à stem:["unitsml(s^(-1))"].
+| [css color: #f1b265]#*temps*#
+| La [css color: #f1b265]#*seconde*#, symbole stem:["unitsml(s)"], est l'unité de temps du SI. Elle est définie en prenant la valeur numérique fixée de la fréquence du césium, stem:[Delta ii(nu)_("Cs")], la fréquence de la transition hyperfine de l'état fondamental de l'atome de césium 133 non perturbé, égale à stem:[9192631770] lorsqu'elle est exprimée en Hz, unité égale à stem:["unitsml(s^(-1))"].
 
-| *longueur*
-| Le *mètre*, symbole stem:["unitsml(m)"], est l'unité de longueur du SI. Il est défini en prenant la valeur numérique fixée de la vitesse de la lumière dans le vide, stem:[c], égale à stem:[299792458] lorsqu'elle est exprimée en stem:["unitsml(m*s^(-1))"], la seconde étant définie en fonction de stem:[Delta ii(nu)_("Cs")].
+| [css color: #be6c08]#*longueur*#
+| Le [css color: #be6c08]#*mètre*#, symbole stem:["unitsml(m)"], est l'unité de longueur du SI. Il est défini en prenant la valeur numérique fixée de la vitesse de la lumière dans le vide, stem:[c], égale à stem:[299792458] lorsqu'elle est exprimée en stem:["unitsml(m*s^(-1))"], la seconde étant définie en fonction de stem:[Delta ii(nu)_("Cs")].
 
-| *masse*
-| Le *kilogramme*, symbole stem:["unitsml(kg)"], est l'unité de masse du SI. Il est défini en prenant la valeur numérique fixée de la constante de Planck, stem:[h], égale à stem:[6.62607015 xx 10^(-34)] lorsqu'elle est exprimée en stem:["unitsml(J*s)"], unité égale à stem:["unitsml(kg*m^2*s^(-1))"], le mètre et la seconde étant définis en fonction de stem:[c] et stem:[Delta ii(nu)_("Cs")].
+| [css color: #8b0000]#*masse*#
+| Le [css color: #8b0000]#*kilogramme*#, symbole stem:["unitsml(kg)"], est l'unité de masse du SI. Il est défini en prenant la valeur numérique fixée de la constante de Planck, stem:[h], égale à stem:[6.62607015 xx 10^(-34)] lorsqu'elle est exprimée en stem:["unitsml(J*s)"], unité égale à stem:["unitsml(kg*m^2*s^(-1))"], le mètre et la seconde étant définis en fonction de stem:[c] et stem:[Delta ii(nu)_("Cs")].
 
-| *courant électrique*
-| *L'ampère*, symbole stem:["unitsml(A)"], est l'unité de courant électrique du SI. Il est défini en prenant la valeur numérique fixée de la charge élémentaire, stem:[e], égale à stem:[1.602176634 xx 10^(-19)] lorsqu'elle est exprimée en stem:["unitsml(C)"], unité égale à stem:["unitsml(A*s)"], la seconde étant définie en fonction de stem:[Delta ii(nu)_("Cs")].
+| [css color: #87ac71]#*courant électrique*#
+| [css color: #87ac71]#*L'ampère*#, symbole stem:["unitsml(A)"], est l'unité de courant électrique du SI. Il est défini en prenant la valeur numérique fixée de la charge élémentaire, stem:[e], égale à stem:[1.602176634 xx 10^(-19)] lorsqu'elle est exprimée en stem:["unitsml(C)"], unité égale à stem:["unitsml(A*s)"], la seconde étant définie en fonction de stem:[Delta ii(nu)_("Cs")].
 
-| *température thermodynamique*
-| Le *kelvin*, symbole stem:["unitsml(K)"], est l'unité de température thermodynamique du SI. Il est défini en prenant la valeur numérique fixée de la constante de Boltzmann, stem:[k], égale à stem:[1.380649 xx 10^(-23)] lorsqu'elle est exprimée en stem:["unitsml(J*K^(-1))"], unité égale à stem:["unitsml(kg*m^2*s^(-2)*K^(-1))"], le kilogramme, le mètre et la seconde étant définis en fonction de stem:[h], stem:[c] et stem:[Delta ii(nu)_("Cs")].
+| [css color: #468499]#*température thermodynamique*#
+| Le [css color: #468499]#*kelvin*#, symbole stem:["unitsml(K)"], est l'unité de température thermodynamique du SI. Il est défini en prenant la valeur numérique fixée de la constante de Boltzmann, stem:[k], égale à stem:[1.380649 xx 10^(-23)] lorsqu'elle est exprimée en stem:["unitsml(J*K^(-1))"], unité égale à stem:["unitsml(kg*m^2*s^(-2)*K^(-1))"], le kilogramme, le mètre et la seconde étant définis en fonction de stem:[h], stem:[c] et stem:[Delta ii(nu)_("Cs")].
 
-| *quantité de matière*
-| La *mole*, symbole stem:["unitsml(mol)"], est l'unité de quantité de matière du SI. Une mole contient exactement stem:[6.02214076 xx 10^23] entités élémentaires. Ce nombre, appelé «{nbsp}nombre d'Avogadro{nbsp}», correspond à la valeur numérique fixée de la constante d'Avogadro, stem:[N_{"A"}], lorsqu'elle est exprimée en stem:["unitsml(mol^(-1))"].
+| [css color: #8a2be2]#*quantité de matière*#
+| La [css color: #8a2be2]#*mole*#, symbole stem:["unitsml(mol)"], est l'unité de quantité de matière du SI. Une mole contient exactement stem:[6.02214076 xx 10^23] entités élémentaires. Ce nombre, appelé «{nbsp}nombre d'Avogadro{nbsp}», correspond à la valeur numérique fixée de la constante d'Avogadro, stem:[N_{"A"}], lorsqu'elle est exprimée en stem:["unitsml(mol^(-1))"].
 
 La quantité de matière, symbole n, d'un système est une représentation du nombre d'entités élémentaires spécifiées. Une entité élémentaire peut être un atome, une molécule, un ion, un électron, ou toute autre particule ou groupement spécifié de particules.
 
-| *intensité lumineuse*
-| La *candela*, symbole stem:["unitsml(cd)"], est l'unité du SI d'intensité lumineuse dans une direction donnée. Elle est définie en prenant la valeur numérique fixée de l'efficacité lumineuse d'un rayonnement monochromatique de fréquence stem:[540 xx 10^12 "unitsml(Hz)"], stem:[K_{"cd"}], égale à 683 lorsqu'elle est exprimée en stem:["unitsml(lm*W^(-1))"], unité égale à stem:["unitsml(cd*sr*W^(-1))"], ou stem:["unitsml(cd*sr*kg^(-1)*m^(-2)*s^3)"], le kilogramme, le mètre et la seconde étant définis en fonction de stem:[h], stem:[c] et stem:[Delta ii(nu)_("Cs")].
+| [css color: #2c0d49]#*intensité lumineuse*#
+| La [css color: #2c0d49]#*candela*#, symbole stem:["unitsml(cd)"], est l'unité du SI d'intensité lumineuse dans une direction donnée. Elle est définie en prenant la valeur numérique fixée de l'efficacité lumineuse d'un rayonnement monochromatique de fréquence stem:[540 xx 10^12 "unitsml(Hz)"], stem:[K_{"cd"}], égale à 683 lorsqu'elle est exprimée en stem:["unitsml(lm*W^(-1))"], unité égale à stem:["unitsml(cd*sr*W^(-1))"], ou stem:["unitsml(cd*sr*kg^(-1)*m^(-2)*s^3)"], le kilogramme, le mètre et la seconde étant définis en fonction de stem:[h], stem:[c] et stem:[Delta ii(nu)_("Cs")].
 
 |===
-
 
 Toutes les autres grandeurs peuvent être dénommées «{nbsp}grandeurs dérivées{nbsp}» et sont exprimées au moyen d'unités dérivées, définies comme étant des produits de puissances des unités de base. Vingt-deux unités dérivées, telles que présentées dans le <<table2>>, ont un nom spécial.
 
@@ -108,7 +108,6 @@ Toutes les autres grandeurs peuvent être dénommées «{nbsp}grandeurs dérivé
 | équivalent de dose | sievert | stem:["unitsml(Sv)"] | stem:["unitsml(J/kg)" = "unitsml(m^2*s^(-2))"]
 | activité catalytique | katal | stem:["unitsml(kat)"] | stem:["unitsml(mol*s^(-1))"]
 |===
-
 
 Bien que le hertz et le becquerel soient égaux à la seconde à la puissance moins un, le hertz est utilisé uniquement pour des phénomènes périodiques et le becquerel uniquement pour des processus stochastiques concernant la désintégration radioactive.
 
