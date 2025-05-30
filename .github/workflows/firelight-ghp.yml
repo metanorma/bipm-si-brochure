@@ -1,0 +1,145 @@
+name: docker
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+  packages: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.head_ref || github.ref_name }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container:
+      image: metanorma/metanorma:latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          submodules: true
+
+      - name: Print Metanorma version
+        run: metanorma --version
+
+      - name: Cache or generate Metanorma XML
+        uses: actions-mn/build-and-publish@v2
+        with:
+          agree-to-terms: true
+          destination: artifact
+          artifact-name: mn
+          cache-extra-input: |
+            sources/si-brochure/3.01/**
+
+          # TODO: What does cache-site-for-manifest mean? Is this correct?
+          # We are only building the SI brochure version 3.01
+          cache-site-for-manifest: metanorma.yml
+
+  fl-build:
+    runs-on: ubuntu-latest
+    needs: build
+    strategy:
+      matrix:
+        env:
+          - { name: 'ghp (repo prefix)', prefix: '/mn-samples-bipm/' }
+          - { name: 'local (no prefix)', prefix: '/' }
+        document:
+          - { dir: "si-brochure/3.01/brochure", url: "si-brochure-3.01" }
+
+    name: Firelight build - Document ${{ matrix.document.dir }} for ${{ matrix.env.name }}
+
+    steps:
+      - name: Download Metanorma artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: mn
+
+      - name: "Firelight: create temporary Git repo"
+        run: |
+          git config --global user.email "57123902+metanorma-ci@users.noreply.github.com"
+          git config --global user.name "Metanorma CI"
+          git config --global init.defaultBranch main
+          git init .
+
+      - name: "Firelight: commit document ${{ matrix.document.dir }}"
+        run: |
+          git add documents/${{ matrix.document.dir }}/collection.presentation.xml
+          git commit -m "Commit presentation XML"
+
+      - name: "Firelight: prepare config for document ${{ matrix.document.dir }}"
+        run: |
+          cat <<'EOF' >> anafero-config.json
+          {
+            "version": "0.1",
+            "entryPoint": "file:documents/${{ matrix.document.dir }}/collection.presentation.xml",
+            "storeAdapters": [
+              "git+https://github.com/metanorma/firelight#main/packages/metanorma-xml-store"
+            ],
+            "contentAdapters": [
+              "git+https://github.com/metanorma/firelight#main/packages/metanorma-site-content"
+            ],
+            "resourceLayouts": [
+              "git+https://github.com/metanorma/firelight#main/packages/plateau-layout"
+            ]
+          }
+          EOF
+          git add anafero-config.json
+          git commit -m "Add build config for ${{ matrix.document.dir }}"
+
+      - name: "Firelight: generate HTML for doc ${{ matrix.document.dir }}"
+        run: |
+          npx --node-options='--experimental-vm-modules' \
+            -y @riboseinc/anafero-cli@0.0.51 build-site \
+            --target-dir dist/${{ matrix.document.url }} \
+            --path-prefix ${{ matrix.env.prefix }}${{ matrix.document.url }} \
+            --current-rev main
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: fl-${{ matrix.env.name }}-${{ matrix.document.dir }}
+          path: dist
+          if-no-files-found: error
+
+  deploy-pages:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    needs: fl-build
+    permissions:
+      pages: write      # to deploy to Pages
+      id-token: write   # to verify the deployment originates from an appropriate source
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Make dist dir
+        run: mkdir dist
+
+      - name: Download HTML artifacts
+        uses: actions/download-artifact@v4
+        with:
+          pattern: fl-ghp-*
+          path: dist
+          merge-multiple: true
+
+      - name: List files in dist
+        run: ls -l dist
+
+      - name: Upload pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
