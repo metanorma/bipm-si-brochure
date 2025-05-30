@@ -1,4 +1,4 @@
-name: docker
+name: firelight-ghp
 
 on:
   push:
@@ -17,42 +17,111 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  build:
+
+  build-ruby:
     runs-on: ubuntu-latest
-    container:
-      image: metanorma/metanorma:latest
+    name: "Build MN with Ruby"
     steps:
+
       - name: Checkout
         uses: actions/checkout@v4
         with:
           submodules: true
 
-      - name: Print Metanorma version
-        run: metanorma --version
-
-      - name: Cache or generate Metanorma XML
-        uses: actions-mn/build-and-publish@v2
+      # In case of cache miss, the generate MN XML step will run
+      # and the cache will be filled after job finishes.
+      # Next time it’ll be a cache hit, unless sources changed.
+      # See also “Upload cached Metanorma XML” step, which is important.
+      - name: Restore cached Metanorma XML, if any
+        id: cache-mn-xml
+        uses: actions/cache@v4
+        env:
+          cache-name: _site
         with:
-          agree-to-terms: true
-          destination: artifact
-          artifact-name: mn
-          cache-extra-input: |
-            sources/si-brochure/3.01/**
+          path: _site
 
-          # TODO: What does cache-site-for-manifest mean? Is this correct?
-          # We are only building the SI brochure version 3.01
-          cache-site-for-manifest: metanorma.yml
+          # NOTE: cache key does not include current MN version,
+          # which means if sources did not change but it’s desirable
+          # to rebuild XML using a newer MN version it may be impossible to do
+          # without making a dummy/meaningless change in the content
+          # to change the hash.
+          #
+          # The proper way to address this could be pinning MN version
+          # somewhere and including it as part of the hash here;
+          # alternatively, if we really want to always use whatever MN version
+          # is latest, we could detect that version and include it
+          # as part of this key.
+          key: ${{ runner.os }}-mn-${{ env.cache-name }}-${{ hashFiles('sources/si-brochure/3.01/**') }}
+
+          # We can fuzzy-match latest available cache,
+          # instead of precise hash.
+          # This can speed up build in some scenarios,
+          # but can in theory also cause issues where XML is not updated
+          # after source changes.
+          # restore-keys: |
+          #   ${{ runner.os }}-mn-${{ env.cache-name }}-
+          #   ${{ runner.os }}-mn-
+          #   ${{ runner.os }}-- uses: ruby/setup-ruby@v1
+
+      # Only run these tree if there is no cache hit
+      - uses: ruby/setup-ruby@v1
+        if: steps.cache-mn-xml.outputs.cache-hit != 'true'
+        with:
+          ruby-version: '3.3'
+      # Strip unneeded output formats
+      - run: grep -Ev '^  - pdf|^  - html' sources/si-brochure/3.01/collection.yml > sources/si-brochure/3.01/collection-xml-only.yml
+      - run: bundle install
+        if: steps.cache-mn-xml.outputs.cache-hit != 'true'
+      - run: bundle exec metanorma collection --agree-to-terms sources/si-brochure/3.01/collection-xml-only.yml
+        if: steps.cache-mn-xml.outputs.cache-hit != 'true'
+        # Output will be under sources/si-brochure/3.01/brochure
+
+      # In case of cache hit, we must explicitly upload the _site dir as artifact
+      - name: Upload cached Metanorma XML
+        uses: actions/upload-artifact@v4
+        if: steps.cache-mn-xml.outputs.cache-hit == 'true'
+        with:
+          name: mn-fl
+          path: sources/si-brochure
+          if-no-files-found: error
+
+  # build-docker:
+  #   runs-on: ubuntu-latest
+  #   container:
+  #     image: metanorma/metanorma:latest
+  #   steps:
+  #     - name: Checkout
+  #       uses: actions/checkout@v4
+  #       with:
+  #         submodules: true
+
+  #     - name: Print Metanorma version
+  #       run: metanorma --version
+
+  #     - name: Cache or generate Metanorma XML
+  #       uses: actions-mn/build-and-publish@v2
+  #       with:
+  #         agree-to-terms: true
+  #         destination: artifact
+  #         artifact-name: mn-fl
+  #         cache-extra-input: |
+  #           sources/si-brochure/3.01/**
+
+  #         # TODO: What does cache-site-for-manifest mean? Is this correct?
+  #         cache-site-for-manifest: metanorma.yml
+
+  #         # TODO: We only want to build the SI brochure version 3.01
 
   fl-build:
     runs-on: ubuntu-latest
-    needs: build
+    needs: build-ruby
     strategy:
       matrix:
         env:
           - { name: 'ghp (repo prefix)', prefix: '/mn-samples-bipm/' }
           - { name: 'local (no prefix)', prefix: '/' }
         document:
-          - { dir: "si-brochure/3.01/brochure", url: "si-brochure-3.01" }
+          - { dir: '3.01/brochure', url: 'si-brochure-3.01' }
 
     name: Firelight build - Document ${{ matrix.document.dir }} for ${{ matrix.env.name }}
 
@@ -60,7 +129,7 @@ jobs:
       - name: Download Metanorma artifacts
         uses: actions/download-artifact@v4
         with:
-          name: mn
+          name: mn-fl
 
       - name: "Firelight: create temporary Git repo"
         run: |
