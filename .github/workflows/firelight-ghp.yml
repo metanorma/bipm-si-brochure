@@ -79,7 +79,6 @@ jobs:
       # In case of cache hit, we must explicitly upload the _site dir as artifact
       - name: Upload cached Metanorma XML
         uses: actions/upload-artifact@v4
-        if: steps.cache-mn-xml.outputs.cache-hit == 'true'
         with:
           name: mn-fl
           path: sources/si-brochure
