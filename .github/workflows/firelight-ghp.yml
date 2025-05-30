@@ -139,7 +139,7 @@ jobs:
 
       - name: "Firelight: commit document ${{ matrix.document.dir }}"
         run: |
-          git add documents/${{ matrix.document.dir }}/collection.presentation.xml
+          git add ${{ matrix.document.dir }}/collection.presentation.xml
           git commit -m "Commit presentation XML"
 
       - name: "Firelight: prepare config for document ${{ matrix.document.dir }}"
@@ -147,7 +147,7 @@ jobs:
           cat <<'EOF' >> anafero-config.json
           {
             "version": "0.1",
-            "entryPoint": "file:documents/${{ matrix.document.dir }}/collection.presentation.xml",
+            "entryPoint": "file:${{ matrix.document.dir }}/collection.presentation.xml",
             "storeAdapters": [
               "git+https://github.com/metanorma/firelight#main/packages/metanorma-xml-store"
             ],
