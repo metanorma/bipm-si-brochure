@@ -117,10 +117,10 @@ jobs:
     strategy:
       matrix:
         env:
-          - { name: 'ghp (repo prefix)', prefix: '/mn-samples-bipm/' }
-          - { name: 'local (no prefix)', prefix: '/' }
+          - { name: 'ghp-with-prefix', prefix: '/mn-samples-bipm/' }
+          - { name: 'local-without-prefix', prefix: '/' }
         document:
-          - { dir: '3.01/brochure', url: 'si-brochure-3.01' }
+          - { dir: '3.01/brochure', url: 'si-brochure-3.01', id: 'brochure' }
 
     name: Firelight build - Document ${{ matrix.document.dir }} for ${{ matrix.env.name }}
 
@@ -172,7 +172,7 @@ jobs:
 
       - uses: actions/upload-artifact@v4
         with:
-          name: fl-${{ matrix.env.name }}-${{ matrix.document.dir }}
+          name: fl-${{ matrix.env.name }}-${{ matrix.document.id }}
           path: dist
           if-no-files-found: error
 
