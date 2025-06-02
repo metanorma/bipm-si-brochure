@@ -117,8 +117,8 @@ jobs:
     strategy:
       matrix:
         env:
-          - { name: 'ghp-with-prefix', prefix: '/bipm-si-brochure/' }
-          - { name: 'local-without-prefix', prefix: '/' }
+          - { name: 'ghp', prefix: '/bipm-si-brochure/' }
+          # - { name: 'local-without-prefix', prefix: '/' }
         document:
           - { dir: '3.01/brochure', url: 'si-brochure-3.01', id: 'brochure' }
 
