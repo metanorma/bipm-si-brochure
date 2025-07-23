@@ -34,7 +34,11 @@ jobs:
       - name: Metanorma generate site
         uses: actions-mn/build-and-publish@v1
         with:
+<<<<<<< Updated upstream
           token: ${{ secrets.GITHUB_TOKEN }}
+=======
+          destination: gh-pages
+>>>>>>> Stashed changes
           agree-to-terms: true
           use-bundler: true
 
