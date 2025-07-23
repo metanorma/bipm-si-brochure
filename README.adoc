@@ -111,31 +111,28 @@ The repository is organized into several main directories:
 
 `sources/guide-ccm-kilogram-dissemination/`:: CCM guide on kilogram dissemination.
 
-Each guide directory contains:
+Each guide directory is organized by year and contains:
 
-`document-en.adoc`:: The English version of the guide document.
-`images/`:: Directory containing images used in the document (where applicable).
+`{year}/document-en.adoc`:: The English version of the guide document for the specified year.
+`{year}/images/`:: Directory containing images used in the document (where applicable).
 
 
 ==== Mise en pratique documents
 
-`sources/mep-ampere-definition/`:: MEP on ampere definition.
+MEP documents are organized by document type and year. Each MEP directory is structured as follows:
 
-`sources/mep-candela-definition/`:: MEP on candela definition.
+`{year}/document-en.adoc`:: The English version of the MEP document for the specified year.
+`{year}/images/`:: Directory containing images used in the document (where applicable).
 
-`sources/mep-candela-rapport/`:: MEP on candela rapport.
+===== Definitions
 
-`sources/mep-kelvin-absolute/`:: MEP on kelvin absolute.
+`sources/mep-ampere-definition/`:: MEP on ampere definition (available years: 2019).
 
-`sources/mep-kelvin-absolute-uncertainty/`:: MEP on kelvin absolute uncertainty.
+`sources/mep-candela-definition/`:: MEP on candela definition (available years: 2019, 2021).
 
 `sources/mep-kelvin-definition/`:: MEP on kelvin definition.
 
-`sources/mep-kelvin-lt-johnson-noise/`:: MEP on kelvin lt johnson noise.
-
-`sources/mep-kelvin-relative/`:: MEP on kelvin relative.
-
-`sources/mep-kilogram-definition/`:: MEP on kilogram definition.
+`sources/mep-kilogram-definition/`:: MEP on kilogram definition (available years: 2020, 2021).
 
 `sources/mep-metre-definition/`:: MEP on metre definition.
 
@@ -143,10 +140,17 @@ Each guide directory contains:
 
 `sources/mep-second-definition/`:: MEP on second definition.
 
-Each MEP directory contains:
+===== Other MEPs
 
-`document-en.adoc`:: The English version of the MEP document.
-`images/`:: Directory containing images used in the document (where applicable).
+`sources/mep-candela-rapport/`:: MEP on candela rapport.
+
+`sources/mep-kelvin-absolute/`:: MEP on kelvin absolute.
+
+`sources/mep-kelvin-absolute-uncertainty/`:: MEP on kelvin absolute uncertainty.
+
+`sources/mep-kelvin-lt-johnson-noise/`:: MEP on kelvin lt johnson noise.
+
+`sources/mep-kelvin-relative/`:: MEP on kelvin relative.
 
 
 ==== Reference values
@@ -156,18 +160,8 @@ Each MEP directory contains:
 `sources/rec-values/{document-name}/`:: Individual reference value documents organized by name.
 
 Each reference value directory may contain multiple edition years with the structure:
-`sources/rec-values/{document-name}/{edition-year}/document.adoc`
+`sources/rec-values/{document-name}/{year}/document.adoc`
 
-==== Resolutions and decisions
-
-`sources/cgpm-resolutions/`:: CGPM (General Conference on Weights and Measures) resolutions.
-
-`sources/cgpm-resolutions/meetings-{en|fr}/`:: Meeting resolutions organized by language.
-
-`sources/cipm-resolutions/`:: CIPM (International Committee for Weights and Measures) resolutions and decisions.
-
-`sources/cipm-resolutions/meetings-{en|fr}/`:: Meeting resolutions organized by language.
-`sources/cipm-resolutions/decisions-{en|fr}/`:: Meeting decisions organized by language.
 
 ==== Archive
 
@@ -235,23 +229,23 @@ $ bundle exec metanorma collection --agree-to-terms sources/si-brochure/3.01/col
 
 === Individual MEP documents
 
-To compile individual MEP documents:
+To compile individual MEP documents (specify the year):
 
 [source,sh]
 ----
-$ bundle exec metanorma sources/mep-metre-definition/document-en.adoc
-$ bundle exec metanorma sources/mep-kilogram-definition/document-en.adoc
-$ bundle exec metanorma sources/mep-candela-rapport/document-en.adoc
+$ bundle exec metanorma sources/mep-ampere-definition/2019/document-en.adoc
+$ bundle exec metanorma sources/mep-kilogram-definition/2021/document-en.adoc
+$ bundle exec metanorma sources/mep-candela-definition/2021/document-en.adoc
 ----
 
 === Individual guide documents
 
-To compile individual guide documents:
+To compile individual guide documents (specify the year):
 
 [source,sh]
 ----
-$ bundle exec metanorma sources/guide-ccl-metre-realization-1/document-en.adoc
-$ bundle exec metanorma sources/guide-ccl-metre-realization-2/document-en.adoc
+$ bundle exec metanorma sources/guide-ccem-ampere-realization/2018/document-en.adoc
+$ bundle exec metanorma sources/guide-ccl-metre-realization-1/2019/document-en.adoc
 $ bundle exec metanorma sources/guide-ccl-metre-realization-3/document-en.adoc
 ----
 
