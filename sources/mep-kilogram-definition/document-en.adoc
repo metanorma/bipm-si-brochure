@@ -1,0 +1,862 @@
+= Mise en pratique for the definition of the kilogram in the SI
+:appendix-id: 2
+:partnumber: 3.1
+:edition: 9
+:copyright-year: 2019
+:revdate: 2021-07-07
+:language: en
+:title-appendix-en: Mise en pratique
+:title-appendix-fr: Mise en pratique
+:title-part-en: Mise en pratique for the definition of the kilogram in the SI
+:title-part-fr: Mise en pratique de la définition du kilogramme
+:title-en: The International System of Units
+:title-fr: Le système international d'unités
+:doctype: mise-en-pratique
+:docnumber: SI MEP Kg1
+:committee-acronym: CCM
+:committee-en: Consultative Committee for Mass and Related Quantities
+:committee-fr: Comité consultatif pour la masse et les grandeurs apparentées
+:si-aspect: kg_h
+:status: in-force
+:imagesdir: images
+:mn-document-class: bipm
+:mn-output-extensions: xml,html,pdf,rxl
+:local-cache-only:
+:data-uri-image:
+
+
+
+== Introduction
+
+The purpose of this _mise en pratique_, prepared by the Consultative Committee for
+Mass and Related Quantities (CCM) of the International Committee for Weights and
+Measures (CIPM), is to indicate how the definition of the SI base unit, the kilogram,
+symbol stem:["unitsml(kg)"], may be realized in practice.
+
+In general, the term "`to realize a unit`" is interpreted to mean the establishment
+of the value and associated uncertainty of a quantity of the same kind as the unit
+that is consistent with the definition of the unit. The definition of the kilogram
+does not imply any particular experiment for its practical realization. Any method
+capable of deriving a mass value traceable to the set of seven reference constants
+could, in principle, be used. Thus, the list of methods given is not meant to be an
+exhaustive list of all possibilities, but rather a list of those methods that are
+easiest to implement and/or that provide the smallest uncertainties and which are
+officially recognized as primary methods by the relevant Consultative Committee.
+
+A primary method is a method having the highest metrological properties; whose
+operation can be completely described and understood; for which a complete
+uncertainty statement can be written down in terms of SI units; and which does not
+require a reference standard of the same quantity.
+
+
+[[sec-2]]
+== Definition of the kilogram
+
+
+=== Definition
+
+The definition of the kilogram, SI base unit of mass, is as follows
+<<bipm-si-brochure>>:
+
+____
+*The kilogram, symbol stem:["unitsml(kg)"], is the SI unit of mass. It is defined by
+taking the fixed numerical value of the Planck constant stem:[h] to be
+stem:[6.62607015 xx 10^{-34}] when expressed in the unit stem:["unitsml(J*s)"], which
+is equal to stem:["unitsml(kg*m^2*s^(-1))"], where the metre and the second are
+defined in terms of stem:[c] and stem:[Delta ii(nu)_{"Cs"}].*
+____
+
+Thus the Planck constant stem:[h] is exactly stem:[h = 6.62607015 xx
+10^{-34}"unitsml(J*s)"]. This numerical value of stem:[h] defines the unit joule
+second in the SI and, in combination with the SI second and metre, defines the
+kilogram. The second and metre are themselves defined by exact values of the
+hyperfine transition frequency stem:[Delta ii(nu)_{"Cs"}] of the caesium stem:[133]
+atom and the speed of light in vacuum stem:[c]. The numerical value of stem:[h] given
+in the definition of the kilogram has ensured the continuity of the unit of mass with
+the previous definition, as explained in <<sec-5>>.
+
+Details of the redefinition process are described in <<richard>>.
+
+
+=== Traceability chain for mass metrology
+
+The definition of the unit of mass does not imply or suggest any particular method to
+realize it. This document recommends primary methods of practical realization of the
+mass unit based on its formal definition. A primary method is a method for
+determining a mass in terms of stem:[h] without use of any other mass standard
+(<<fig-1>>). The mass whose value is to be determined may be an artefact, atom or
+other entity although the following focuses on metrology for mass artefacts at the
+highest level of accuracy. Such an artefact whose mass has been directly calibrated
+by a primary method to realize the kilogram definition is called a primary mass
+standard in this document. Secondary mass standards are established through
+calibration with respect to primary mass standards.
+
+The current primary methods focus on the realization and dissemination of the unit of
+mass at a nominal value of stem:[1 "unitsml(kg)"]. The _mise en pratique_ may be
+updated to include information on primary methods at different nominal mass values.
+
+Primary methods for the realization of the definition of the kilogram and procedures
+for its dissemination through primary mass standards are described in the following
+two sections. The traceability chain is shown schematically in <<fig-1>>.
+
+
+[[fig-1]]
+.Illustration of the traceability chain from the definition of the kilogram. The unit of the Planck constant being stem:["unitsml(kg*m^2*s^(-1))"], the units second and metre are needed to derive a primary mass standard from the Planck constant.
+image::fig-1.png[]
+
+
+This _mise en pratique_ will be updated to take account of new methods and
+technological improvements. It is not printed in the _SI Brochure_
+<<bipm-si-brochure>>, but the current version is posted on the open BIPM web site at
+http://www.bipm.org/en/publications/si-brochure/.
+
+
+[[sec-3]]
+== Practical realization of the definition of the kilogram
+
+There are currently two independent primary methods that are capable of realizing the
+definition of the kilogram with relative uncertainties within a few parts in
+stem:[10^8]. The first of these relies on determining the unknown mass using an
+electromechanical balance specially designed for the purpose. The second method
+compares the unknown mass to the mass of a single atom of a specified isotope by
+counting the number of atoms in a crystal, where the mass of the atom is well-known
+in terms of stem:[h], stem:[c] and stem:[Delta ii(nu)_{"Cs"}].
+
+
+[[sec-3-1]]
+=== Realization by comparing electrical power to mechanical power
+
+Accurate instruments that function in a way that electrical and mechanical power can
+be equated had been known as watt balances, and, more recently, as Kibble balances
+footnote:[We refer to watt balances as "`Kibble balances`" to recognize Dr. Bryan
+Kibble, who originally conceived the idea of this experiment.]. Kibble balances can
+be designed with different geometries and operated with different experimental
+protocols. The following schematic description serves to demonstrate that any of
+these Kibble-balance configurations has the potential to be a primary method to
+realize the definition of the kilogram.
+
+The determination of the unknown mass stem:[m_"x"] of an artefact x is carried out in
+two modes: the weighing mode and the moving mode. They may occur successively or
+simultaneously. In the weighing mode, the weight footnote:[In legal metrology
+"`weight`" can refer to a material object or to a gravitational force. The terms
+"`weight force`" and "`weight piece`" are used in legal metrology if the meaning of
+"`weight`" is not clear from the context <<oiml>>.] stem:[m_"x" g] of the artefact is
+balanced by the electromagnetic force produced, for example, on a circular coil of
+wire-length stem:[l] immersed in a radial magnetic field of flux density stem:[ii(B)]
+when a current stem:[ii(I)_1] flows through the coil. The magnet and coil geometries
+are designed to produce a force that is parallel to the local gravitational
+acceleration. The acceleration of gravity stem:[g] acting on the mass, and the
+current stem:[ii(I)_1] flowing in the coil are measured simultaneously so that
+
+
+[stem]
+++++
+m_"x"g = ii(I)_1 ii(B) l.
+++++
+
+In the moving mode, the voltage stem:[ii(U)_2] which is induced across the terminals
+of the same coil moving vertically at a velocity stem:[ii(vee)] through the same
+magnetic flux density, is measured so that
+
+
+[stem]
+++++
+ii(U)_2 = ii(vee) ii(B) l.
+++++
+
+The equations describing the two modes are combined by eliminating stem:[ii(B) l]:
+
+[[eq-3-3]]
+[stem]
+++++
+m_"x" g ii(vee) = ii(I)_1 ii(U)_2.
+++++
+
+
+Thus power of a mechanical nature is equated to power of an electromagnetic nature.
+The powers are manifestly "`virtual`" in this method of operation because power does
+not figure in either mode of this two-mode experiment.
+
+
+The current stem:[ii(I)_1] can, for example, be determined using Ohm's law by
+measuring the voltage drop stem:[ii(U)_1] across the terminals of a stable resistor
+of value stem:[ii(R)]. Both voltages, stem:[ii(U)_1] and stem:[ii(U)_2], are measured
+in terms of the Josephson constant stem:[ii(K)_"J"], which is taken to be
+stem:[ii(K)_"J" = 2e//h]; stem:[e] is the elementary charge. Similarly, stem:[ii(R)]
+is measured in terms of the von Klitzing constant stem:[ii(R)_"K"], which is taken to
+be stem:[ii(R)_"K" = h//e^2]. The quantities stem:[ii(vee)] and stem:[g] are measured
+in their respective SI units, stem:["unitsml(m*s^(-1))"] and
+stem:["unitsml(m*s^(-2))"]. Note that stem:[ii(K)_"J"^2 ii(R)_"K" = 4//h] allowing
+<<eq-3-3>> to be rewritten schematically as
+
+[[eq-3-4]]
+[stem]
+++++
+m_"x" = h ({b f^2}/4) 1 / {g ii(vee)},
+++++
+
+
+where stem:[f] is an experimental frequency and stem:[b] is a dimensionless
+experimental quantity, both associated with the required measurements of electrical
+current and voltage. +
+See <<robinson>> for a more complete analysis of this experiment.
+
+All relevant influences on the mass, stem:[m_"x"], as derived from <<eq-3-4>> must be
+considered for the realization, maintenance and dissemination of the unit of mass
+(see also <<annex-2,nosee%>>). +
+Other electromagnetic and electrostatic realizations have been proposed, such as the
+joule-balance and volt-balance methods, and may well be perfected <<robinson>>,
+<<shaw>>.
+
+
+=== Realization by the X-ray-crystal-density method
+
+The concept of the X-ray-crystal-density (XRCD) method comes from a classical idea
+where the mass of a pure substance can be expressed in terms of the number of
+elementary entities in the substance footnote:[The measurements described here were
+first used to determine the value of the Avogadro constant stem:[ii(N)_"A"], which is
+defined as the number of elementary entities per mole of substance. An accurate
+measurement of  stem:[ii(N)_"A"] was an essential contribution on the road to
+redefining the kilogram in 2018. Today, however, the numerical value of
+stem:[ii(N)_"A"] is exactly defined when expressed in the SI unit
+stem:["unitsml(mol^(-1))"] thus making the definition of the mole independent of the
+kilogram.]. Such a number can be measured by the XRCD method in which the volumes of
+the unit cell and of a nearly perfect crystal are determined, e.g. by measuring the
+lattice parameter stem:[a] and the mean diameter of a spherical sample. Single
+crystals of silicon are most often used in this method because large crystals can be
+obtained having high chemical purity and no dislocations. This is achieved using the
+crystal growth technologies developed for the semiconductor industry. The macroscopic
+volume stem:[ii(V)_"s"] of a crystal is equal to the mean microscopic volume per atom
+in the unit cell multiplied by the number of atoms in the crystal. For the following,
+assume that the crystal contains only the isotope stem:["&#x200c;"^{28} "Si"]. The
+number stem:[ii(N)] of atoms in the macroscopic crystal is therefore given by
+
+
+[stem]
+++++
+N = 8 ii(V)_"s" // a ("&#x200c;"^28 "Si")^3,
+++++
+
+
+where stem:[8] is the number of atoms per unit cell of crystalline silicon and
+stem:[a ("&#x200c;"^28 "Si")^3] is the volume of the unit cell, which is a cube;
+i.e., stem:[ii(V)_s//a("&#x200c;"^28 "Si")^3] is the number of unit cells in the
+crystal and each unit cell contains eight silicon stem:[28] atoms. Since the volume
+of any solid is a function of temperature and, to a lesser extent, hydrostatic
+pressure, stem:[ii(V)_"s"] and stem:[a ("&#x200c;"^28 "Si")^3] are referred to the
+same reference conditions. For practical reasons, the crystal is fashioned into a
+sphere having a mass of approximately stem:[1 "unitsml(kg)"].
+
+To realize the definition of the kilogram, the mass stem:[m_"s"] of the sphere is
+first expressed in terms of the mass of a single atom, using the XRCD method
+footnote:[It is well known that <<eq-3-6>> is not exact because the right-hand side
+is reduced by the mass equivalent, stem:[ii(E)//c^2], of the total binding energy
+stem:[ii(E)] of the atoms in the crystal, where stem:[c] is the speed of light in
+vacuum. The correction, about 2 parts in stem:[10^(10)] <<david>>, is insignificant
+compared with present experimental uncertainties and has therefore been ignored.
+Additional energy terms (e.g. thermal energy) are even smaller than the binding
+energy and thus negligible.]:
+
+[[eq-3-6]]
+[stem]
+++++
+m_"s" = ii(N) m ("&#x200c;"^28 "Si"),
+++++
+
+
+Since the experimental value of the physical constant stem:[h//m " &#x200c;"^{28}
+"Si"] is known to high accuracy <<clade>>, one can rewrite <<eq-3-6>> as
+
+
+[[eq-3-7]]
+[stem]
+++++
+m_"s" = h ii(N) ({m("&#x200c;"^28 "Si")}/ h).
+++++
+
+
+The XRCD experiment determines stem:[ii(N)]; stem:[m("&#x200c;"^28 "Si") // h] is a
+constant of nature whose value is known to high accuracy and, of course, the
+numerical value of stem:[h] is now fixed.
+
+The sphere is a primary mass standard and the unit of mass, the kilogram, is
+disseminated from this standard. Spheres currently used in this work are enriched in
+the isotope stem:["&#x200c;"^{28} "Si"] but the presence of trace amounts of two
+additional silicon isotopes leads to obvious modifications of the simple equations
+presented in this section. See <<fujii>> for a more complete analysis of this
+experiment. +
+All relevant influences on the mass of the sphere, stem:[m_"s"], as derived from
+<<eq-3-7>> must be considered for the realization, maintenance and dissemination of
+the unit of mass (see also <<annex-2,nosee%>>).
+
+
+[[sec-4]]
+== Dissemination of the mass unit
+
+The definition of the kilogram ensures that the unit of mass is constant in time and
+that the definition can be realized by any laboratory, or collaboration of
+laboratories, with the means to do so. Any National Metrology Institute (NMI),
+Designated Institute (DI), the Bureau International des Poids et Mesures (BIPM), or
+collaboration among them, that realizes the kilogram definition can disseminate the
+SI kilogram from its primary mass standards to any other laboratory or, more
+generally, to any user of secondary mass standards (see <<fig-1,nosee%>>). This is
+described in <<sec-4-1>> footnote:[In order to preserve the international equivalence
+of calibration certificates, the National Metrology Institutes having a realization
+of the kilogram avail themselves of the consensus value
+until the dispersion of the results from individual realization experiments is
+compatible with the uncertainties of the individual realizations <<ccm2>>. The
+consensus value is obtained from a statistical analysis of all the data from
+available realizations of the kilogram. The consensus value is managed by a CCM task
+group to ensure stability and continuity, taking all new realizations and comparisons
+into account. Its calculation is described in the "`CCM detailed note on the
+dissemination process after the redefinition of the kilogram`" <<ccm2>>. See also
+<<stock>>, <<nielsen>> and <<annex-3>>, which all address issues related to the
+dissemination of the kilogram from multiple realizations of its definition.].
+Dissemination from a dedicated ensemble of stem:[1 "unitsml(kg)"] secondary standards
+maintained at the BIPM, called BIPM ensemble of reference mass standards, is
+described in <<sec-4-2>>.
+
+[[sec-4-1]]
+=== Dissemination from a particular realization of the kilogram
+
+The dissemination of the mass unit is based on primary mass standards obtained from
+the realization of the definition of the kilogram according to the methods described
+in <<sec-3>>. All relevant influences on a primary mass standard must be considered
+for the maintenance and dissemination of the mass unit (see <<annex-2,nosee%>>). In
+particular, the uncertainty due to a possible drift of the primary mass standards
+since the last realization must be taken into account.
+
+The BIPM in coordination with the CCM organizes a CIPM key comparison <<cipm-mra>>,
+CCM.M-K8 <<m-k1>>, for laboratories with primary realization methods. In this
+comparison, the primary mass standards of the participants are compared with each
+other and with stable BIPM mass standards which maintain the reference values of
+previous comparisons (see <<sec-4-2,nosee%>>). The CCM decides the required
+periodicity of laboratory participation in CCM.M-K8 in order to support relevant
+calibration and measurement capabilities (CMCs).
+
+In cases where compliance with the CIPM Mutual Recognition Arrangement (CIPM MRA) is
+required <<cipm-2009-24>>, it is essential that the mass standards are traceable to
+primary mass standards of a participant in CCM.M-K8 that has relevant CMC entries or,
+in the case of the BIPM, suitable entries in its calibration and measurement services
+as approved by the CIPM. Dissemination of the whole mass scale is validated for all
+NMIs/DIs and the BIPM through the traditional types of key comparisons organized
+prior to the present definition of the kilogram. +
+Results of all key comparisons are published in the Key Comparison Database (KCDB) in
+accordance with the rules of CIPM MRA <<cipm-mra>> and may be used in support of
+NMI/DI claims of its calibration and measurement capabilities and the BIPM claims
+listed in its calibration and measurement services.
+
+[[sec-4-2]]
+=== Dissemination from the BIPM
+
+In accordance with Resolution 1 of the 24th meeting of the General Conference on
+Weights and Measures (CGPM) (2011) <<cgpm-24>> and Resolution 1 of the 25th meeting
+of the CGPM (2014) <<cgpm-1>>, the BIPM maintains an ensemble of reference mass
+standards "`_to facilitate the dissemination of the unit of mass_`" in the revised
+SI. This ensemble is composed of stem:[1 "unitsml(kg)"] artefacts of various
+materials which have been chosen to minimize known or suspected sources of mass
+instability.
+
+The average mass of the ensemble is derived from links to primary realizations of the
+kilogram definition that have participated in an initial pilot study <<kg-p1>> and/or
+in CCM.M-K8 through an algorithm defined by the CCM. The BIPM footnote:[The BIPM
+operates under a quality management system (QMS) that conforms to ISO/IEC 17025:2005.
+The QMS is under the exclusive supervision of the CIPM. Competence is demonstrated
+through on-site audits conducted by external experts and regular reports to CIPM
+Consultative Committees and Regional Metrology Organizations.] disseminates the unit
+of mass from the average mass of the ensemble. NMIs, DIs, the BIPM or collaborations
+among them, may adopt a similar strategy for dissemination of the mass unit.
+
+[[sec-5]]
+== Continuity with the previous definition of the kilogram
+
+Preserving the continuity of measurements traceable to an SI unit before and after
+its redefinition is a generally accepted criterion for revised definitions of SI base
+units. The previous definition of the kilogram was based on the mass of the
+international prototype of the kilogram (IPK) immediately after the prescribed
+cleaning procedure. The dissemination of the mass unit therefore required
+traceability to the mass of the IPK.
+
+
+=== Steps to ensure continuity
+
+Prior to the adoption of Resolution 1 of the 26th CGPM (2018) <<cgpm-1-26>>, all mass
+standards used for the experimental determination of the Planck constant were
+calibrated by an "`extraordinary use`" of the IPK <<barat>>. Additionally, the BIPM
+ensemble of reference mass standards was calibrated.
+
+A pilot study was performed in 2016 to prepare for the redefinition of the kilogram
+<<kg-p1>>. The comparison included all available experiments capable of determining
+the value of the Planck constant to high accuracy.
+
+In preparation for the redefinition of the kilogram (and other units) the Committee
+on Data for Science and Technology (CODATA) Task Group on Fundamental Constants
+evaluated all published experimental values for the Planck constant stem:[h] by July
+1st 2017 and recommended the numerical value of stem:[h] to be used for the new
+definition of the kilogram <<mohr>>. The relative uncertainty of stem:[h] recommended
+by the Task Group was assigned to the international prototype of the kilogram just
+after fixing the numerical value of stem:[h]. As a consequence the 26th CGPM
+confirmed in its Resolution 1 that, just after the redefinition, the mass of the IPK
+was still stem:[1 "unitsml(kg)"], but within an uncertainty of stem:[1.0 xx 10^{-8}].
+Accordingly, all mass values traceable to the IPK were unchanged when the new
+definition came into effect, but all associated uncertainties of these
+mass values were increased by a common component of relative uncertainty, equal to
+the relative uncertainty of the IPK just after the redefinition.
+
+
+=== The role and status of the international prototype
+
+The mass values of the IPK and its six official copies are now determined
+experimentally with traceability to realization experiments (see <<sec-4,nosee%>>).
+
+Subsequent changes to the mass of the IPK may have historical interest even though
+the IPK no longer retains a special status or a dedicated role in this _mise en
+pratique_ <<davis>>. By following the change in mass of the IPK over time, one may be
+able to ascertain its mass stability with respect to fundamental constants, which has
+long been a topic of conjecture. For that reason, the IPK and its six official copies
+are conserved at the BIPM under the same conditions as they were prior to the
+redefinition.
+
+
+[bibliography]
+== References
+
+* [[[bipm-si-brochure,(2.1)]]] BIPM, The International System of Units (SI Brochure) [9th edition, 2019], https://www.bipm.org/en/publications/si-brochure/.
+
+* [[[richard,(2.2)BIPM Metrologia 53 5 A6]]] Richard P, Fang H and Davis R, "`Foundation for the redefinition of the kilogram`", _Metrologia_ *53* (2016) A6--A11.
+
+* [[[oiml,(3.1)]]] _OIML D28_ (2004), https://www.oiml.org/en/files/pdf_d/d028-e04.pdf
+
+* [[[robinson,(3.2)BIPM Metrologia 53 5 A46]]] Robinson I A and Schlamminger S, "`The watt or Kibble balance: a technique for implementing the new SI definition of the unit of mass`", _Metrologia_ *53* (2016) A46--A74.
+
+* [[[shaw,(3.3)BIPM Metrologia 53 5 A86]]] Shaw G A, Stirling J, Kramar J A, Moses A, Abbott P, Steiner R, Koffman A, Pratt J R and Kubarych Z J, "`Milligram mass metrology using an electrostatic force balance`", _Metrologia_ *53* (2016) A86--A94.
+
+* [[[david,(3.4)BIPM Metrologia 51 3 169]]] Davis R S and Milton M J T, "`The assumption of the conservation of mass and its implications for present and future definitions of the kilogram and the mole`", _Metrologia_ *51* (2014) 169--173.
+
+* [[[clade,(3.5)BIPM Metrologia 53 5 A75]]] Cladé P, Biraben F, Julien L, Nez F and Guellati-Khelifa S, "`Precise determination of the ratio stem:[h//m_"u"]: a way to link microscopic mass to the new kilogram`", _Metrologia_ *53* (2016) A75--A82.
+
+* [[[fujii,(3.6)BIPM Metrologia 53 5 A19]]] Fujii K, Bettin H, Becker P, Massa E, Rienitz O, Pramann A, Nicolaus A, Kuramoto N, Busch I and Borys M, "`Realization of the kilogram by the XRCD method`", _Metrologia_ *53* (2016) A19-A45.
+
+* [[[ccm,(4.1)]]] CCM Recommendation G 1 (2017),
+https://www.bipm.org/cc/CCM/Allowed/16/06E_Final_CCM-Recommendation_G1-2017.pdf
+
+* [[[ccm2,(4.2)]]] CCM detailed note on the dissemination process after the redefinition of the kilogram, https://www.bipm.org/cc/CCM/Allowed/17/06B_CCM-DetailedNote_Dissemination-after-redefinition.pdf
+
+* [[[stock,(4.3)BIPM Metrologia 54 6 S99]]] Stock M, Davidson S, Fang H, Milton M, de Mirandés E, Richard P and Sutton C, "`Maintaining and disseminating the kilogram following its redefinition`", _Metrologia_ *54* (2017) S99-S107.
+
+* [[[nielsen,(4.4)BIPM Metrologia 53 6 1306]]] Nielsen L, "`Disseminating the unit of mass from multiple primary realisations`", _Metrologia_ *53* (2016) 1306-1316.
+
+* [[[cipm-mra,(4.5)]]] _Measurement comparisons in the CIPM MRA_, CIPM MRA-D-05, Version 1.6 (March 2016), http://www.bipm.org/utils/common/CIPM_MRA/CIPM_MRA-D-05.pdf
+
+* [[[m-k1,(4.6)]]] Comparison of Realizations of the Kilogram CCM.M-K8, https://www.bipm.org/kcdb/comparison?id=1341
+
+* [[[cipm-2009-24,(4.7)]]] _Traceability in the CIPM MRA_, CIPM 2009-24 (revised 13 October 2009) https://www.bipm.org/utils/common/documents/CIPM-MRA/CIPM-MRA-Traceability.pdf
+
+* [[[cgpm-24,(4.8)]]] Resolution 1 of the 24th CGPM (2011), https://www.bipm.org/utils/common/pdf/24_CGPM_Resolutions.pdf
+
+* [[[cgpm-1,(4.9)]]] Resolution 1 of the 25th CGPM (2014),
+http://www.bipm.org/utils/common/pdf/CGPM-2014/25th-CGPM-Resolutions.pdf
+
+* [[[kg-p1,(4.10)]]] Report on CCM Pilot Study CCM.R-kg-P1, https://www.bipm.org/cc/CCM/Allowed/16/03-7B2_CCM-PilotStudy-FinalReport.pdf
+
+* [[[cgpm-1-26,(5.1)]]] Resolution 1 of the 26th CGPM (2018)
+
+* [[[barat,(5.2)BIPM Metrologia 52 2 310]]] Stock M, Barat P, Davis R S, Picard A and Milton M J T, "`Calibration campaign against the international prototype of the kilogram in anticipation of the redefinition of the kilogram part I: comparison of the international prototype with its official copies`", _Metrologia_ *52* (2015) 310--316.
+
+* [[[mirandes,(5.3)BIPM Metrologia 53 5 1204]]], de Mirandés E, Barat P, Stock, M and Milton M J T, "`Calibration campaign against the international prototype of the kilogram in anticipation of the redefinition of the kilogram, part II: evolution of the BIPM as-maintained mass unit from the 3rd periodic verification to 2014`" _Metrologia_ *53* (2016) 1204--1214.
+
+* [[[mohr,(5.4)BIPM Metrologia 55 1 125]]] Mohr P J, Newell D B, Taylor B N and Tiesinga E., "`Data and analysis for the CODATA 2017 Special Fundamental Constants Adjustment,`" _Metrologia_ *55* (2018) 125-146.
+
+* [[[davis,(5.5)]]] Davis, R S, "`The role of the international prototype of the kilogram after redefinition of the International System of Units`", _Phil. Trans. R. Soc. A_, *369* (2011) 3975-3992.
+
+* [[[ampere,(A1.1)BIPM MeP-a-2018]]] _Mise en pratique_ of the definition of the ampere.
+
+* [[[kelvin,(A1.2)BIPM MeP_K]]] _Mise en pratique_ of the definition of the kelvin.
+
+* [[[bipm-8,(A1.3)]]] BIPM, The International System of Units (SI Brochure) [8th edition, 2006], https://www.bipm.org/en/publications/si-brochure/.
+
+
+[[annex-1]]
+[appendix]
+== Traceability to units derived from the kilogram
+
+[[a1-1]]
+=== Coherent derived units expressed in terms of base units stem:["unitsml(kg)"] stem:[m^p] stem:[s^q]
+
+Neither the realizations of the metre nor the second have been affected by the
+Resolution 1 of the 26th CGPM. This means that for any coherent derived units
+expressed in terms of base units as stem:["unitsml(kg)"] stem:["m"^"p"]
+stem:["s"^"q"] (where stem:["p"] and stem:["q"] are integers), the only change in
+traceability to the SI is in the traceability to the kilogram, and this has been
+described above. Examples of quantities and their associated coherent derived units
+are shown in <<table-a1>>. Several of the coherent derived units have special names,
+e.g. newton, joule, pascal. These are not given in <<table-a1>> but they are
+tabulated in Table 4 of the 9th edition of the _SI Brochure_ <<bipm-si-brochure>>.
+
+
+[[table-a1]]
+.Some quantities whose SI coherent unit is expressed as stem:["unitsml(kg)"] stem:["m"^{"p"}] stem:["s"^{"q"}].
+[cols="1,^,^",options="header"]
+|===
+h| Quantity h| p h| q
+
+| mass density | -3 | 0
+| surface density | -2 | 0
+| pressure, stress | -1 | -2
+| momentum | 1 | -1
+| force | 1 | -2
+| angular momentum | 2 | -1
+| energy, work, torque | 2 | -2
+| power | 2 | -3
+|===
+
+
+=== Electrical units
+
+The ampere was previously defined in terms of the second, the metre and the kilogram,
+and by giving a fixed numerical value to the magnetic constant stem:[ii(mu)_0], whose
+unit is stem:["unitsml(kg*m*s^(-2)*A^(-2))"] (equivalently,
+stem:["unitsml(N*A^(-2))"] or stem:["unitsml(H*m^(-1))"]). The ampere is now defined
+in terms of the second and a fixed numerical value for the elementary charge
+stem:[e], whose unit is stem:["unitsml(A*s)"]. The fact that the Planck constant now
+has a defined numerical value is of great utility to electrical metrology, as
+described in the _mise en pratique_ for the ampere <<ampere>>.
+
+
+=== Units involving the kelvin and the candela
+
+The kelvin is now defined in terms of exact numerical values for stem:[Delta
+ii(nu)_{"Cs"}], stem:[h], and the Boltzmann constant stem:[k]. The unit of stem:[k]
+is stem:["unitsml(kg*m^2*s^(-2)*K^(-1))"] (equivalently, stem:["unitsml(J*K^(-1))"]).
+The redefinition of the kilogram has no practical impact on this change (see the
+_mise en pratique_ of the definition of the kelvin <<kelvin>>). Similarly, although
+the definition of the candela refers in part to power, Resolution 1 has had no
+practical impact on the realization of the candela.
+
+
+=== Atomic, subatomic and molecular units
+
+NOTE: This section focuses on atomic physics rather than chemistry.
+
+The fact that adoption of Resolution 1 by the 26th CGPM (2018) redefined both the
+kilogram and the mole, and that the unit of molar mass is
+stem:["unitsml(kg*mol^(-1))"], is a potential source of confusion regarding non-SI
+units such as the unified atomic mass unit, stem:["unitsml(u)"], commonly used in
+atomic, subatomic and molecular science. The following describes the present
+situation and contrasts it with the situation described in the 8th edition of the _SI
+Brochure_ <<bipm-8>>. In <<a1-4-1>> we list important equations used in atomic and
+molecular physics and define the quantities that appear in these equations. Of course
+the changes to the SI have no effect on the equations. However, uncertainties of the
+quantities appearing in the equations are affected by the redefinitions of the
+kilogram and mole. <<a1-4-2>> describes these changes and gives present uncertainties.
+
+
+[[a1-4-1]]
+==== Equations of physics
+
+The equations of physics have not changed. Some of the principal relations used in
+atomic physics are recalled in this subsection.
+
+The unified atomic mass constant stem:[ii(m)_u] is defined in terms of the mass of
+the stem:["&#x200c;"^{12} "C"] isotope
+
+[stem]
+++++
+m_"u" = m ("&#x200c;"^12 C)//12.
+++++
+
+
+The unified atomic mass unit, stem:["unitsml(u)"], also known as the dalton (symbol:
+stem:["Da"]), is not an SI unit. Formally, the conversion between stem:["unitsml(u)"]
+and stem:["unitsml(kg)"] is stem:[u = {m_"u"} "unitsml(kg)"] where the curly brackets
+around stem:[m_"u"] mean "`the numerical value of stem:[m_"u"] when it is expressed
+in the unit stem:["unitsml(kg)"]`".
+
+The relative atomic mass of an elementary entity stem:["X"] is a pure number defined by
+
+[[eq-a1-2]]
+[stem]
+++++
+ii(A)_"r"("X") = m ("X") // m_"u" = 12 m("X") // m("&#x200c;"^12 "C")
+++++
+
+where stem:[ii(A)_"r"("X")] is the relative atomic mass of stem:["X"], and
+stem:[m("X")] is the atomic mass of stem:["X"]. (Relative atomic mass is usually
+called "`atomic weight`" in the field of chemistry.) The elementary entity stem:["X"]
+must be specified in each case. If stem:["X"] represents an atomic species, or
+nuclide, then the notation stem:["&#x200c;"^{"A"} "X"] is used for a neutral atom
+where stem:["A"] is the number of nucleons; for example: stem:["&#x200c;"^{12} "C"].
+
+
+In the SI, stem:[m_"u"] is determined experimentally in terms of the definition of
+the kilogram. See the next section for additional information.
+
+The molar mass of stem:["X"], stem:[ii(M)("X")], is defined as the atomic mass of the
+entity stem:["X"] multiplied by the Avogadro constant, stem:[ii(N)_"A"]. The SI
+coherent unit of stem:[ii(M)("X")] is stem:["kg mol"^(-1)]. For any elementary entity
+stem:["X"], stem:[ii(M)("X")] is related to stem:[m("X")] through stem:[ii(N)_"A"]:
+
+[[eq-a1-3]]
+[stem]
+++++
+ii(M)("X") = m("X") ii(N)_"A" = ii(A)_"r" ("X") m_"u" ii(N)_"A".
+++++
+
+The molar mass constant stem:[ii(M)_u] is defined as
+
+[[eq-a1-4]]
+[stem]
+++++
+ii(M)_"u" = ii(M)("&#x200c;"^12 "C") // 12.
+++++
+
+
+These four equations relate the various quantities which are the building blocks of
+atomic and molar masses and, by extension, are often applied to subatomic and
+molecular masses.
+
+[[a1-4-2]]
+==== Changes of uncertainties
+
+To discuss the implications of Resolution 1 <<cgpm-1-26>>, we begin with two
+additional equations taken from the Rydberg relation of atomic physics,
+
+[[eq-a1-5]]
+[stem]
+++++
+h ii(R)_{oo} = 1/2 m_e ii(alpha)^2 c,
+++++
+
+
+where stem:[ii(R)_{oo}] is the Rydberg constant, stem:[m_"e" -= m(e)] is the electron
+rest mass, stem:[ii(alpha)] is the fine-structure constant and stem:[c] is the speed
+of light in vacuum.
+
+First, it follows from <<eq-a1-2>> and <<eq-a1-5>> that for any entity stem:["X"],
+
+[[eq-a1-6]]
+[stem]
+++++
+h/{m("X")} = 1/2 {ii(A)_"r"("e")}/{ii(A)_"r" ("X")} {ii(alpha)^2 c}/{ii(R)_{oo}}.
+++++
+
+
+Second, from <<eq-a1-3>>, <<eq-a1-4>> and <<eq-a1-6>>,
+
+[[eq-a1-7]]
+[stem]
+++++
+{ii(N)_"A" h}/{ii(M)_"u"} = 1/2 ii(A)_"r"("e") {ii(alpha)^2 c}/{ii(R)_{oo}}.
+++++
+
+
+The right-hand side of <<eq-a1-7>>, which is traceable to the SI units of time and
+length, has a relative standard uncertainty of stem:[4.5 xx 10^(-10)] <<mohr>> at the
+time of the revision of the SI. This relation is key to understanding how the
+uncertainties of stem:[ii(M)_"u"] and stem:[m_"u"] were affected by Resolution 1 of
+the 26th CGPM (2018).
+
+Of the constants appearing in the seven relations shown above, stem:[ii(M)_u] (and by
+extension stem:[ii(M)(""^{12}"C")]), had a fixed numerical value before the SI was
+revised by the 26th meeting of the CGPM, but no longer. The constants
+stem:[ii(N)_"A"] and stem:[h] did not have fixed numerical values prior to the 26th
+CGPM. (The value of the speed of light in vacuum has been fixed since 1983).
+
+Thus Resolution 1 of the 26th CGPM has had the following consequences to the
+quantities and measurements discussed above:
+
+. Relative atomic masses (and their uncertainties) are unaffected. They are
+dimensionless ratios and thus independent of unit systems. In the field of chemistry,
+relative atomic masses are often referred to as atomic weights.
+
+. Determinations of the fine-structure constant have been unaffected.
+
+. &nbsp;
+
+.. Neither the value nor the uncertainty of stem:[ii(N)_"A"h//ii(M)_"u"] were
+affected by Resolution 1. The value of this combination of constants is still
+determined from the recommended values for the parameters on the right-hand side of
+<<eq-a1-7>>, and these are either traceable to SI units of time and length or are
+pure numbers.
++
+--
+In some scientific papers published prior to the adoption of Resolution 1, the
+quantity stem:[ii(N)_"A"h//ii(M)_"u"] has been written as stem:[ii(N)_"A"h(10^3)],
+where the factor stem:[10^3] was used as a kind of short-hand to indicate the exact
+numerical value of stem:[ii(M)_"u"^(-1)] whose SI coherent unit is
+stem:["unitsml(mol*kg^(-1))"]. This short-hand arose because the mole was defined
+through the definition of the kilogram combined with an exact numerical value of
+stem:[ii(M)_u] equal to stem:[10^(-3) "unitsml(kg*mol^(-1))"]; but the mole is now
+defined through a fixed numerical value of stem:[ii(N)_"A"], whose SI coherent unit
+is stem:["unitsml(mol^(-1))"]. Nevertheless, stem:[ii(M)_"u"] may still be taken to
+be stem:[0.001 "unitsml(kg*mol^(-1))"] as long as the relative standard uncertainty
+of stem:[ii(M)_"u"], which is currently stem:[4.5 xx 10^(-10)] <<mohr>>, can be
+neglected in the uncertainty budget of a measurement under discussion.
+--
+
+.. For no other reason than to bring clarity to the discussion in this subsection,
+the changes to the value of stem:[ii(M)_"u"] and its uncertainty may be parameterized
+in terms of a small, dimensionless quantity stem:[ii(kappa)]. The molar mass constant
+stem:[ii(M)_"u"], instead of being defined as exactly stem:[0.001
+"unitsml(kg*mol^(-1))"], as it was prior to the adoption of Resolution 1, can be
+accurately derived from the last term of the following relation
++
+--
+[stem]
+++++
+ii(M)_"u" = (0.001 "unitsml(kg*mol^(-1))")(1+ii(kappa)) = {ii(R)_{oo}}/{ii(A)_"r" ("e") ii(alpha)^2} ({2 ii(N)_"A" h}/c),
+++++
+
+where, in the last term, the constants in the final parentheses have exactly defined
+values.
+--
+
+Due to the principle of continuity when changes are made to the SI, the value of
+stem:[ii(kappa)] is consistent with zero to a standard uncertainty of
+stem:[u(ii(kappa)) = u_"r"(ii(R)_{oo} // (ii(A)_"r"("e") ii(alpha)^2))], which at
+present is 4.5 parts in stem:[10^(10)]. This uncertainty would be further reduced by
+improved measurements of the constants involved, stem:[ii(alpha)] in particular. The
+accepted values and relative uncertainties of stem:[ii(A)_"r"("e")],
+stem:[ii(R)_{oo}] and stem:[alpha] are the CODATA 2017 recommended values <<mohr>>.
+
+The molar mass constant and the unified atomic mass constant are related by
+stem:[ii(M)_"u" = m_"u" ii(N)_"A"]. It follows that, since stem:[u_"r"(ii(N)_"A") =
+0], the relative uncertainties of stem:[m_"u"] and stem:[ii(M)_"u"] are identical:
+
+[stem]
+++++
+u_"r" (m_"u") = u_"r" (ii(M)_"u") = u (ii(kappa)).
+++++
+
+
+For the case of stem:[m_"u"], whose value has been (and remains) determined by
+experiment, the adoption of Resolution 1 nevertheless resulted in a reduction of
+stem:[u_"r"(m_"u")] by more than a factor of 20 simply by defining stem:[h] to have a
+fixed numerical value, although this improved uncertainty does not seem to have any
+immediate practical benefits.
+
+Finally, in atomic physics it is sometimes necessary to convert between the non-SI
+units electronvolt (symbol: stem:["unitsml(eV)"]) and the unified atomic mass unit
+(symbol: stem:["unitsml(u)"]). The correspondence is at present
+
+[stem]
+++++
+1 "unitsml(u)" harr	931.49410274 (42) times 10^6 "unitsml(eV)",
+++++
+
+where the numerical value of the energy expressed in electronvolts equals the
+numerical value of stem:[m_"u"c^2//e] expressed in joules per coulomb. The quantities
+stem:[c] and e have fixed numerical values.
+
+
+[[annex-2]]
+[appendix]
+== Maintenance of practical realizations
+
+In the past, an experiment capable of determining the value of the Planck constant
+provided a result of enduring value, even if the experiment was never repeated. Now
+that similar experiments are used to realize the mass unit, we discuss briefly
+whether an abbreviated experiment could be used to ensure that the realization
+remains valid. If we consider the realizations described in <<sec-2>>, the basic
+question is: must routine realizations of primary mass standards be identical to the
+first such realization? Some considerations are given here.
+
+For realization through a Kibble balance: Assurances are needed that the mechanical
+and magnetic alignments of the balance remain adequate; that SI traceability is
+maintained to auxiliary measurements of velocity, gravitational acceleration, current
+and voltage. Improved technology in these areas opens the possibility of reducing the
+uncertainty of the realization.
+
+For a realization through the XRCD method, stem:["&#x200c;"^{28} "Si"]-enriched,
+single-crystal silicon ingots were prepared. X-ray interferometers, samples for molar
+mass measurements, two stem:[1 "unitsml(kg)"] spheres for the density measurement,
+and many other samples were prepared from each ingot. The spheres are primary mass
+standards from which the mass unit can be disseminated, but the spheres must be
+maintained in good condition for periodic monitoring by appropriate methods of the
+following parameters:
+
+* Surface layers on the silicon spheres by, for example, spectral ellipsometry, X-ray
+refractometry (XRR), X-ray photoelectron spectrometry (XPS), X-ray fluorescence (XRF)
+analysis, and infrared absorption;
+
+* Volume of the silicon spheres by, for example, optical interferometry.
+
+These measurements are not onerous and it is estimated that they could be carried out
+within a few weeks.
+
+
+In addition, although no known mechanism would change the molar mass of the crystals,
+re-measurement of the molar mass by improved methods could reduce the uncertainty
+with which the kilogram definition can be realized by the XRCD method.
+
+Similarly, there is no known mechanism for the edge dimension stem:[a("Si")] of the
+unit cell to change with respect to time, but re-measurement of this quantity by
+combined X-ray and optical interferometry could reduce the uncertainty with which the
+kilogram definition can be realized by the XRCD method.
+
+Confirmation can be provided by mechanisms of the CIPM MRA, which provide measures of
+the equivalence of the various realizations.
+
+[[annex-3]]
+[appendix]
+== Maintenance of mass correlation among artefacts calibrated by NMIs or DIs realizing the kilogram (informational)
+
+In the context of the CIPM MRA, an NMI, DI or the BIPM, realizing the mass unit would
+be able to calibrate mass standards traceable to their own realization only, provided
+that the laboratory has participated with success in a key comparison as described in
+<<sec-3-1>>. However, as long as the uncertainty of a primary realization is
+significantly larger than the uncertainty of a mass comparison, the uncertainty of a
+calibration traceable to a single realization would be larger than the uncertainty of
+a calibration traceable to multiple realizations at least in the case of independent
+and consistent results.
+
+Laboratories realizing the mass unit might take advantage of the information obtained
+in key comparisons in order to reduce the mass calibration uncertainty and increase
+the correlation of mass measurement worldwide. The following simplified example
+illustrates how the analysis of the key comparison might be modified in order to
+achieve this.
+
+Assume that a number stem:[n] of laboratories is realizing the mass unit. These
+laboratories are labeled stem:["NMI"_1,...,"NMI"_n]. As a result of the realization,
+stem:["NMI"_i] assigns a prior value stem:[m_i] and an associated standard
+uncertainty stem:[u(m_i)] to a stable mass standard stem:["S"_i] with nominal mass
+stem:[1 "unitsml(kg)"]. In a subsequent key comparison, stem:["NMI"_i] measures the
+mass difference between the standard stem:["S"_i] and a circulated, stable mass
+standard stem:["S"_"R"]. stem:["NMI"_i] reports the measured mass difference
+stem:[Delta m_i], the prior mass value stem:[m_i] and the associated standard
+uncertainties stem:[u(Delta m_i)] and stem:[u(m_i)].
+
+The key comparison reference value stem:[hat m_"R"] (the mass of the circulated
+standard stem:["S"_"R"]) and highly correlated posterior values stem:[hat m_i] of the
+mass standards stem:["S"_i] are obtained as the weighted least squares solution to
+the model
+
+[stem]
+++++
+((m_1),(m_2),(vdots),(m_n),(Delta m_1),(Delta m_2),(vdots),(Delta m_n)) dot =
+((1,0,cdots,0,0),(0,1,cdots,0,0),
+(vdots,vdots,ddots,vdots,vdots),
+(0,0,cdots,1,0),(1,0,cdots,0,-1),
+(0,1,cdots,0,-1),
+(vdots,vdots,ddots,vdots,vdots),
+(0,0,cdots,1,-1))
+((hat m_1),(hat m_2), (vdots),(hat m_n), (hat m_R))
+++++
+
+(The symbol stem:[dot =], also used in <<mohr>>, indicates that an input datum of the
+type on the left-hand side is ideally given by the expression on the right-hand side
+containing adjusted quantities.)
+
+In the subsequent dissemination of mass unit, stem:["NMI"_i] uses the stable mass
+standard stem:["S"_i] as reference, but with the posterior value stem:[hat m_i] and
+associated standard uncertainty stem:[u(hat m_i)] rather than the prior value
+stem:[m_i] and associated standard uncertainty stem:[u(m_i)].
+
+For simplicity, the above example is based on the assumption that stable mass
+standards are available. Such standards were not available in the past, and they may
+not be available in the future either. However, as long as the changes in mass
+standards are predictable with an uncertainty smaller than the uncertainty of the
+realization of the mass unit, a procedure similar to the one described, but which
+takes into account the instability of the mass standards, will provide posterior mass
+values with smaller uncertainties and higher correlations than those of the prior
+values.

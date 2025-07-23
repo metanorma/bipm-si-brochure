@@ -1,0 +1,235 @@
+= MEP-K Relative Primary Radiometric Thermometry
+:annex-id: 3
+:appendix-id: 2
+:partnumber: 1
+:edition: 1
+:copyright-year: 2017
+:revdate: 2017-08-31
+:language: en
+:title-annex-en: MEP-K Relative Primary Radiometric Thermometry
+:title-annex-fr:
+:title-appendix-en: Mise en pratique
+:title-appendix-fr: Mise en pratique
+:title-part-en: Mise en pratique for the definition of the kelvin in the SI
+:title-part-fr: Mise en pratique de la définition du kelvin
+:title-en: The International System of Units
+:title-fr: Le système international d'unités
+:doctype: mise-en-pratique
+:docnumber: SI MEP KRPRT
+:committee-acronym: CCT
+:committee-en: Consultative Committee for Thermometry
+:committee-fr: Comité consultatif de thermométrie
+:si-aspect: K_k
+:fullname: Graham Machin
+:affiliation: NPL
+:address: Teddington, UK
+:fullname_2: Klaus Anhalt
+:affiliation_2: PTB
+:city_2: Berlin
+:country_2: Germany
+:fullname_3: Pieter Bloembergen
+:affiliation_3: NIM
+:city_3: Beijing
+:country_3: China
+:fullname_4: Mohamed Sadli
+:affiliation_4: LNE-CNAM
+:city_4: St Denis
+:country_4: France
+:fullname_5: Dave Lowe
+:affiliation_5: NPL
+:city_5: Teddington
+:country_5: UK
+:fullname_6: Peter Saunders
+:affiliation_6: MSL
+:city_6: Lower Hutt
+:country_6: New Zealand
+:fullname_7: Yoshiro Yamada
+:affiliation_7: NMIJ
+:city_7: Tsukuba
+:country_7: Japan
+:fullname_8: Howard Yoon
+:affiliation_8: NIST
+:city_8: Gaithersburg
+:country_8: USA
+:status: in-force
+:imagesdir: images
+:mn-document-class: bipm
+:mn-output-extensions: xml,html,pdf,rxl
+:local-cache-only:
+:data-uri-image:
+:uri: https://www.bipm.org/utils/en/pdf/si-mep/MeP-K-2018_Relative_Primary_Radiometry.pdf
+
+== Introduction
+
+The implementation of relative primary radiometric thermometry requires the use of one
+or more fixed point blackbody sources. There are three approaches to this type of
+thermometry that could be implemented:
+
+* Extrapolation based on one fixed point.
+* Interpolation between two or three fixed points.
+* Least-squares fitting if more than three fixed points are used.
+
+After introducing fixed-point temperatures and the measurement model, these three
+approaches are briefly outlined below.
+
+== Definitive values for a selected set of high-temperature fixed points (HTFPs)
+
+Fixed point values are required to implement this approach. One or more of the fixed
+points could be those of the current International Temperature Scale of 1990, ITS-90
+(stem:["Ag"], stem:["Au"] or stem:["Cu"]), but used with the most recent recommended
+thermodynamic temperature values. Other fixed points that could be used are the
+high-temperature fixed points (HTFPs) <<machin6,Machin 2013>> whose temperatures are
+assigned by primary radiometry.
+
+The below tabulated point of inflection (poi) and equilibrium liquidus (elq)
+thermodynamic temperatures were agreed for stem:["Co"]-stem:["C"],
+stem:["Pt"]-stem:["C"] and stem:["Re"]-stem:["C"] as definitive values by
+the Working Group on Non-Contact Thermometry of the Consultative Committee for
+Thermometry (CCT WG NCTh) at their meeting on 31 May 2017. The values are taken from
+<<wooliams, Woolliams _et al._ 2016>> and <<lowe, Lowe _et al._ 2017>> respectively.
+
+The stem:["Pd"]-stem:["C"] point of inflection temperature value is taken from a
+critical evaluation of published values taken from <<sadli, Sadli _et al._ 2005>>.
+
+[[table1]]
+[cols="^,^,^,^,^"]
+.Point of inflection (poi) and equilibrium liquidus (elq) thermodynamic temperatures for stem:["Co"]-stem:["C"], stem:["Pd"]-stem:["C"], stem:["Pt"]-stem:["C"] and stem:["Re"]-stem:["C"]
+|===
+| HTFP a| Thermodynamic temperature (poi) / stem:["unitsml(K)"] a| Uncertainty (poi) (stem:[k = 2]) / stem:["unitsml(K)"] a| Thermodynamic temperature (elq) / stem:["unitsml(K)"] a| Uncertainty (elq) (stem:[k = 2]) / stem:["unitsml(K)"]
+| Co-C | 1597.39 | 0.13 | 1597.48 | 0.14
+| Pt-C | 2011.43 | 0.18 | 2011.50 | 0.22
+| Re-C | 2747.84 | 0.35 | 2747.91 | 0.44
+| | | | |
+| Pd-C | 1764.85 | 0.7 | - |
+|===
+
+This table will be reviewed and updated periodically.
+
+== Mathematical model of the measurement
+
+The measurement equation for the radiometer signal, stem:[ii(S)(ii(T))], is the
+following <<eq1>>:
+
+[[eq1]]
+[stem]
+++++
+ii(S)(ii(T)) = ii(K) int_0^(oo) ii(varepsilon) (ii(lambda),ii(T)) s(ii(lambda)) ii(L)_("b")(ii(lambda),ii(T))"d" ii(lambda).
+++++
+
+The terms in the equation are: stem:[ii(K)] is a geometric factor associated with the
+actual form of primary radiometry, stem:[ii(varepsilon)(ii(lambda),ii(T))] the
+emissivity of the blackbody radiator, stem:[s(ii(lambda))] the spectral responsivity,
+stem:[ii(L)_("b")(ii(lambda),ii(T))] the Planck function and stem:[ii(T)] the
+thermodynamic temperature.
+
+Because of the integral over the spectral responsivity to account for the finite
+bandwidth of the radiometer, <<eq1>> is not well suited to interpolation or
+least-squares fitting (stem:[n > 1]). To overcome this difficulty, the radiometer signal
+must be approximated by an analytic equation with a number of adjustable parameters. The
+Planck version of the Sakuma-Hattori equation <<eq2>> <<sakuma,Sakuma & Kobayashi
+1997>>, which involves only a small approximation for small bandwidths, is recommended:
+
+[[eq2]]
+[stem]
+++++
+ii(S)(ii(T)) = C/("exp"((c_2')/(ii(AT)+ii(B)))-1)
+++++
+
+where stem:[c_2' = c_2//n = hc//kn], where stem:[k] is the Boltzmann constant, stem:[h]
+is the Planck constant, stem:[c] the speed of light in a vacuum, stem:[n] is the
+refractive index of the gas in the optical path, stem:[ii(A)], stem:[ii(B)] and
+stem:[ii(C)] are related to the radiometer's spectral responsivity,
+stem:[s(ii(lambda))]. Measured (stem:[ii(T), ii(S)]) pairs form the raw data for the
+extrapolation, interpolation or least-squares fitting. One important condition is that
+the bandwidth of the radiometer must be narrow compared to the centre wavelength,
+stem:[Delta ii(lambda) // ii(lambda) < < 1].
+
+More details of these approaches can be found in <<machin4, Machin _et al._ 2010 {1}>>,
+<<machin5, Machin _et al._ 2010 {2}>>, particularly Annex 2 of <<machin4, {1}>>, and in
+<<saunders10, Saunders 2011>>, <<bloembergen1, Bloembergen and Yamada 2011>>.
+
+=== Extrapolation using one fixed point
+
+This stem:[n = 1] scheme is equivalent to the ITS-90 formalism, but uses a current
+thermodynamic temperature of the fixed point (as well as knowledge of the relative
+spectral responsivity) to extrapolate to other thermodynamic temperatures. However, the
+choice of the fixed point is not restricted to the stem:["Ag"], stem:["Au"] or
+stem:["Cu"] point, as in the ITS-90.
+The uncertainty associated with the thermodynamic temperature of the fixed point must be
+taken into account in the uncertainty analysis (this uncertainty is zero for the ITS-90
+approach).
+
+=== Interpolation between two fixed points
+
+Two fixed points (stem:[n = 2]) are the minimum required for interpolation
+<<bloembergen2, Bloembergen _et al._ 2003>>, <<saunders9, Saunders _et al._ 2005>>. If
+the two fixed points are as far from each other as practically feasible (e.g., the stem:["Ag"]
+point and the highest available HTFP), the scheme combines extension in range with a
+very low uncertainty. Some extrapolation beyond the calibration points may also be
+acceptable. For example the scheme can be implemented over the range from about
+stem:[1000 "unitsml(K)"] to stem:[3300 "unitsml(K)"]. Only a crude knowledge of the
+relative spectral responsivity function is required. The uncertainties associated with
+interpolation and extrapolation will clearly depend on the temperatures of the
+calibration points used and their associated uncertainties.
+
+=== Interpolation between three fixed points
+
+An alternative option is a three-point interpolation scheme (stem:[n = 3]) using one
+pure metal fixed point and two HTFPs, or alternatively three HTFPs. One advantage of
+this approach is that knowledge of the spectral responsivity function is no longer
+needed. A disadvantage is that the uncertainty tends to have slight oscillations between
+the interpolating points. In this case extrapolation beyond the interpolating end points
+is not recommended because of the rapid increase in uncertainty.
+
+=== Least squares approach
+
+Using more than three fixed points allows stem:[ii(T)_("R")] to be realised by
+least-squares fitting of <<eq2>> to the measured (stem:[ii(T)_("R"), ii(S)]) pairs.
+Because the uncertainty components associated with the calibration of the radiometer are
+generally reduced approximately by a factor of stem:[sqrt(n//3)], where stem:[n] is the
+number of fixed points, the total uncertainty is reduced as the number of fixed points
+increases. However, the uncertainty associated with measuring the unknown temperature is
+the same as for the three-point interpolation scheme, so the total uncertainty may not
+be significantly lower than the three-point scheme. A particular advantage is that the
+redundancy of HTFPs in a least-squares scheme provides additional security in
+realisation of temperatures. Extrapolation beyond the extreme end points is again not
+recommended.
+
+== Uncertainty analysis
+
+Details of the uncertainty analysis are found in document CCT/10-12 <<machin4, Machin
+_et al._ 2010 {1}>> and <<saunders10,Saunders (2011)>>. These run to some 20 pages and
+it is not appropriate to repeat the details here. <<fig1>> summarizes the possible
+magnitude of uncertainties from the different approaches given above.
+
+[[fig1]]
+.Comparison of combined standard uncertainties for each of the examples considered above. The curve labelled stem:[n = 1] gives the uncertainty in thermodynamic stem:[ii(T)] extrapolated from the gold point assuming an uncertainty in the gold-point temperature as determined by absolute primary radiometry. For stem:[n = 1] (ITS-90) the thermodynamic uncertainty associated with the gold-point temperature is not included. The result for the best possible absolute primary radiometric thermometry (stem:[n = 0]) is also shown for comparison.
+image::img01.png[]
+
+[bibliography]
+== References
+
+* [[[bloembergen1,1]]], Bloembergen, P., Yamada, Y., Yamamoto, N., Hartmann, J., "Realising the high-temperature part of a future ITS with the aid of eutectic metal-carbon fixed points", In: _Temperature its measurement and control in science and industry_, Vol 7, Part 1, ed. Dean Ripple (AIP, Melville, NY) pp. 291-296 (2003)
+
+* [[[bloembergen2,1]]], Bloembergen, P., Yamada, Y., "Measurement of thermodynamic temperature above the silver point on the basis of the scheme n=2", _Int. J. Thermophys._, *32*, pp. 45-67 (2011)
+
+* [[[lowe,(3)BIPM Metrologia 54 3 390]]], Lowe, D.H., Todd, A. D. W., Van den Bossche, R., Bloembergen, P., Anhalt, K., Ballico, M., Bourson, F., Briaudeau, S., Campos, J., Cox, M.G., del Campo, D., Dury, M., Gavrilov, V., Grigoryeva, I., Hernanz, M. L., Jahan, F., Khlevnoy, B., Khromchenko, V., Lu, X., Machin, G., Mantilla, J.M., Martin, M. J., McEvoy, H.C., Rougié, B., Sadli, M., Salim, S.G.R., Sasajima, N., Taubert, D., van der Ham, E., Wang, T., Wei, D., Whittam, A., Wilthan, B., Woods, D., Woodward, J.T., Woolliams, E.R., Yamada, Y., Yamaguchi, Y., Yoon, H., Yuan, Z., 2017, "The equilibrium liquidus temperatures of rhenium-carbon, platinum-carbon and cobalt-carbon eutectic alloys" _Metrologia_, *54*, 390-398 (2017) https://doi.org/10.1088/1681-7575/aa6eeb
+
+* [[[machin4,1]]], Machin, G., Bloembergen, P., Anhalt, K., Hartmann, J., Sadli, M., Saunders, P., Woolliams, E., Yamada, Y., Yoon, H., 2010 {1}, "Realisation and dissemination of thermodynamic temperature above 1234.93 K", CCT Working Document CCT/10-12.
+
+* [[[machin5,1]]], Machin, G., Bloembergen, P, Anhalt, K., Hartmann, J., Sadli, M., Saunders, P., Woolliams, E., Yamada, Y. & Yoon, H., "Practical implementation of the mise-en-pratique for the definition of the kelvin above the silver point", _Int. J. Thermophys._, *31*, p. 1779-1788, (2010 {2}), DOI 10.1007/s10765-010-0834-5
+
+* [[[machin6,1]]], Machin, G., "Twelve years of high temperature fixed point research: a review", AIP Conf. Proc. *1552*, 305 (2013); doi: 10.1063/1.4821383
+
+* [[[sadli,1]]], Sadli, M., Fischer, J., Yamada, Y., Sapritsky, V., Lowe, D., Machin, G., "Review of metal-carbon eutectic temperatures proposal for new ITS-90 secondary points", In: _TEMPMEKO '04, Ninth International Symposium on Temperature and Thermal Measurements in Industry and Science_, ed. Davor Zvizdic (LPM/FSB, Zagreb) pp. 341-348. (2005)
+
+* [[[sakuma,1]]], Sakuma, F., Kobayashi, M., 1997, "Interpolation equations of scales of radiation thermometers", In: _Proceedings of TEMPMEKO '96, Sixth International Symposium on Temperature and Thermal Measurements in Industry and Science_, ed. P. Marcarino (Levrotto & Bella, Torino) pp. 305-310 (1996)
+
+* [[[saunders9,1]]], Saunders, P., Bloembergen, P., White, R., "Uncertainty in temperatures realised by radiation thermometry using two fixed points", In: _TEMPMEKO '04, Ninth International Symposium on Temperature and Thermal Measurements in Industry and Science_, ed. Davor Zvizdic (LPM/FSB, Zagreb) pp. 1149-1154 (2005)
+
+* [[[saunders10,1]]], Saunders P., "Uncertainties in the realisation of thermodynamic temperature above the silver point", _Int. J. Thermophys._, *32*, 26-44 (2011)
+
+* [[[wooliams,1]]], Woolliams, E., Anhalt, K., Ballico, M., Bloembergen, P., Bourson, F., Briaudeau, S., Campos, J., Cox, M. G., del Campo, D., Dury, M.R., Gavrilov, V., Grigoryeva, I., Hernandez, M.L., Jahan, F., Khlevnoy, B., Khromchenko, V., Lowe, D.H., Lu, X., Machin, G., Mantilla, J.M., Martin, M.J., McEvoy, H.C., Rougié, B., Sadli, M., Salim, S.G., Sasajima, N., Taubert, D.R., Todd, A., Van den Bossche, R., van der Ham, E., Wang, T., Wei, D., Whittam, A., Wilthan, B., Woods, D., Woodward, J., Yamada, Y., Yamaguchi, Y., Yoon, H., Yuan, Z. 2016, "Thermodynamic temperature assignment to the point of inflection of the melting curve of high temperature fixed points", _Phil. Trans R. Soc. A._ *374*: 20150044 (2016) http://dx.doi.org/10.1098/rsta.2015.0044
+
+//[align=right]
+//_Last update on 31 August 2017_

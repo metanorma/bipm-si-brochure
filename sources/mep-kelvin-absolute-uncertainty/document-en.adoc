@@ -1,0 +1,3487 @@
+= Uncertainty Estimation in Primary Radiometric Temperature Measurement
+:annex-id: 2
+:appendix-id: 2
+:partnumber: 1
+:edition: 1
+:copyright-year: 2018
+:revdate: 2018-07-01
+:language: en
+:title-annex-en: Uncertainty Estimation in Primary Radiometric Temperature Measurement
+:title-annex-fr:
+:title-appendix-en: Mise en pratique
+:title-appendix-fr: Mise en pratique
+:title-part-en: Mise en pratique for the definition of the kelvin in the SI
+:title-part-fr: Mise en pratique de la définition du kelvin
+:title-en: The International System of Units
+:title-fr: Le système international d'unités
+:doctype: mise-en-pratique
+:docnumber: SI MEP KUPRTM
+:committee-acronym: CCT
+:committee-en: Consultative Committee for Thermometry
+:committee-fr: Comité consultatif de thermométrie
+:si-aspect: K_k
+:fullname: Peter Saunders
+:affiliation: MSL
+:city: Lower Hutt
+:country: New Zealand
+:fullname_2: Emma Woolliams
+:affiliation_2: NPL
+:city_2: Teddington
+:country_2: United Kingdom
+:fullname_3: Howard Yoon
+:affiliation_3: NIST
+:city_3: Gaithersburg
+:country_3: United States of America
+:fullname_4: Andrew Todd
+:affiliation_4: NRC
+:city_4: Ottawa
+:country_4: Canada
+:fullname_5: Mohamed Sadli
+:affiliation_5: LNE-CNAM
+:city_5: St Denis
+:country_5: France
+:fullname_6: Eric van der Ham
+:affiliation_6: NMIA
+:city_6: Sydney
+:country_6: Australia
+:fullname_7: Klaus Anhalt
+:affiliation_7: PTB
+:city_7: Berlin
+:country_7: Germany
+:fullname_8: Lutz Werner
+:affiliation_8: PTB
+:city_8: Berlin
+:country_8: Germany
+:fullname_9: Dieter R. Taubert
+:affiliation_9: PTB
+:city_9: Berlin
+:country_9: Germany
+:fullname_10: Stephan Briaudeau
+:affiliation_10: LNE-CNAM
+:city_10: St Denis
+:country_10: France
+:fullname_11: Boris Khlevnoy
+:affiliation_11: VNIIOFI
+:city_11: Moscow
+:country_11: Russian Federation
+:status: in-force
+:imagesdir: images
+:mn-document-class: bipm
+:mn-output-extensions: xml,html,pdf,rxl
+:local-cache-only:
+:data-uri-image:
+:uri: https://www.bipm.org/utils/en/pdf/si-mep/MeP-K-2018_Absolute_Primary_Radiometry_Uncertainty.pdf
+
+== Scope
+
+The _mise-en-pratique_ for the definition of the kelvin describes _absolute primary
+radiometric thermometry_ as an approach for thermodynamic temperature measurement
+based on an accurate determination of the optical power emitted, over a known
+spectral band and known solid angle, by an isothermal cavity of known emissivity.
+This report has been produced by members of the CCT Working Group on Non-Contact
+Thermometry (CCT-WG-NCTh) to describe the methods used for determining the
+uncertainty associated with thermodynamic temperature as measured using absolute
+primary radiometric thermometry. The uncertainty components given in the report are
+described as "best" and "normal", where best uncertainties are those that can be
+obtained with considerable effort by a small number of leading workers in the field,
+and normal uncertainties are those that can easily be obtained at present in national
+metrology institutes. All uncertainties given in this document are standard
+uncertainties.
+
+== Radiometric Measurement of Thermodynamic Temperature
+
+[[measurement]]
+=== Measurement of Radiance
+
+The determination of thermodynamic temperature through filter radiometry involves the
+measurement of the spectral radiance of a blackbody source using an instrument known
+variously as a 'filter radiometer' or 'absolute radiation thermometer'. Such an
+instrument consists of a detector and spectral filter footnote:[Which may be a glass
+or interference filter, or may be created using an instrument such as a
+monochromator.], and an optical system, typically including two co-aligned circular
+apertures that define the solid angle, and, optionally, additional lenses or mirrors.
+
+The blackbody spectral radiance is given by Planck's law, which, for measurements
+where the detector is in air, is
+
+[[eq1]]
+[stem]
+++++
+ii(L)_("b")(ii(lambda),ii(T)) = ((2hc^2)/(n^2 ii(lambda)^5)) 1/("exp"[hc//(n ii(lambda) k ii(T))]-1),
+++++
+
+where stem:[ii(T)] is the thermodynamic temperature, stem:[k] is the Boltzmann
+constant, stem:[h] is the Planck constant, stem:[c] is the speed of light in a
+vacuum, stem:[n] is the refractive index of the air <<boivin2010>>, <<gaertner>> at
+the detector, and stem:[ii(lambda)] is the wavelength in air. The constants in
+<<eq1>> are usually written in terms of the first and second radiation constants,
+stem:[c_1 = 2hc^2 = 1.191042972 xx 10^(-16) "unitsml(W*m^2)"] and stem:[c_2 = hc//k =
+0.014387768 "unitsml(m*K)"].
+
+The temperature of the blackbody is determined by measuring the spectral radiance
+within a defined spectral band. The units of spectral radiance are
+stem:["unitsml(W*m^(-2)*sr^(-1)*nm^(-1))"] and, therefore, a primary radiometric
+determination of thermodynamic temperature requires the power measurement to be
+traceable to the definition of the watt, and wavelength, area, and distance
+measurements to the definition of the metre.
+
+Generally, this is achieved as follows:
+
+* *Power*: via a responsivity calibration of the filter radiometer against a trap
+detector that has been calibrated against a cryogenic radiometer.
+* *Wavelength*: by making the responsivity calibration at discrete wavelengths using
+a calibrated tuneable monochromatic source. This is often achieved using a tuneable
+laser illuminating an integrating sphere <<anderson>>, <<brown>> or, alternatively, a
+monochromator-based source <<taubert5>>, <<taubert6>>. The wavelength determination
+of the laser, or the wavelength scale calibration of the monochromator using atomic
+emission lines <<reader>>, provides traceability to the metre.
+* *Area and distance*: via two precision circular apertures with known diameters and
+separation.
+
+[[geometric_factor]]
+=== The Geometric Factor (Form Factor, Configuration Factor)
+
+Consider the simple case of a coaxial system consisting of a blackbody, two
+apertures, and a detector. The blackbody is a Lambertian source and, therefore, the
+flux, stem:[rm(Phi)], that leaves the first aperture and radiates into the full
+hemisphere is determined by the area, stem:[ii(A)_1], of the first aperture and the
+radiance of the blackbody:
+
+[[eq2]]
+[stem]
+++++
+rm(Phi)_(ii(A)_1) = ii(A)_1 pi ii(L)_("b").
+++++
+
+The form factor is the fraction of radiation emitted by one Lambertian surface that
+is intercepted directly by a second surface. The form factor for two coaxial parallel
+circular apertures of radii stem:[r_1] and stem:[r_2] and separation stem:[d] is:
+
+[[eq3]]
+[stem]
+++++
+ii(F)_(ii(A)_1-ii(A)_2) = (2r_2^2)/((r_1^2+r_2^2+d^2) + sqrt((r_1^2+r_2^2+d^2)^2-4r_1^2r_2^2)).
+++++
+
+The flux that reaches the second aperture is equal to the flux emitted by the first
+aperture multiplied by the form factor; i.e.,
+
+[[eq4]]
+[stem]
+++++
+rm(Phi)_(ii(A)_2) = ii(A)_1 pi ii(L)_("b") ii(F)_(ii(A)_1-ii(A)_2).
+++++
+
+It is sometimes helpful to introduce a geometric factor, stem:[g], defined as
+
+[[eq5]]
+[stem]
+++++
+g = ii(A)_1 ii(F)_(ii(A)_1-ii(A)_2) = (2pi r_1^2r_2^2)/((r_1^2+r_2^2+d^2) + sqrt((r_1^2+r_2^2+d^2)^2-4r_1^2r_2^2),
+++++
+
+so that the flux is calculated from
+
+[[eq6]]
+[stem]
+++++
+rm(Phi)_(ii(A)_2) = g pi ii(L)_("b").
+++++
+
+The geometric factor is symmetrical with respect to the two apertures, so
+distinguishing between a 'first' and a 'second' aperture is not required.
+
+[[four_calibration_schemes]]
+=== Four Calibration Schemes
+
+As currently realised, filter radiometers comprise a detector, a spectrally-selective
+filter, and a geometric/optical system with two defining apertures. For illustrative
+purposes, four different implementations are described below (and in the _mise en
+pratique_), each having a slightly different calibration method.
+
+* A filter radiometer, calibrated for power responsivity, used to measure the
+radiance of the blackbody in combination with detector and source apertures -- the
+_spectral power method_.
+* A filter radiometer, calibrated for irradiance responsivity, used to measure the
+radiance of the blackbody in combination with a source aperture -- the _irradiance
+method_.
+* A filter radiometer, calibrated for irradiance responsivity, used to measure the
+radiance of the blackbody in combination with a lens aperture and a single, simple
+lens -- the _hybrid method_.
+* An imaging radiometer, calibrated for radiance responsivity, comprising a filter
+radiometer incorporated within an optical system consisting of several lenses and
+appropriate baffling -- the _radiance method_.
+
+The first two methods are non-imaging and the second two use optics to facilitate the
+measurement of small sources.
+
+[[basic_measurement]]
+=== The Basic Measurement Equation
+
+Whichever scheme is used, the measurement equation takes the form
+
+[[eq7]]
+[stem]
+++++
+i = int_0^(oo) s_ii(L) (ii(lambda)) ii(L)_("b")(ii(lambda),ii(T)) "d" ii(lambda),
+++++
+
+where stem:[i] is the measured photocurrent, stem:[s_ii(L)(ii(lambda))] is the
+spectral radiance responsivity [units: stem:["unitsml(A*W^(-1)*m^2*sr)"] ] of the
+combined instrument, stem:[ii(L)_("b")(ii(lambda),ii(T))] is the spectral radiance of
+the blackbody, as given by <<eq1>>, stem:[ii(lambda)] is the wavelength in air, and
+stem:[ii(T)] is the thermodynamic temperature. This expression will be modified
+somewhat for the different schemes.
+
+For the _spectral power method_, the radiometer is calibrated for flux responsivity
+[units: stem:["unitsml(A*W^(-1))"]&nbsp;] and two apertures are added for the blackbody
+measurement (see <<fig1>>). <<eq7>> is implemented using
+
+[[eq8]]
+[stem]
+++++
+"Spectral power: " s_ii(L) (ii(lambda)) = pi g s_(rm(Phi)) (ii(lambda)),
+++++
+
+where stem:[g] is the geometric factor for the added double aperture system, given by
+<<eq5>>, and stem:[s_(rm(Phi))(ii(lambda))] is the spectral flux responsivity of the
+filter radiometer.
+
+[[fig1]]
+.The power method.
+====
+[[fig1a]]
+.Calibration
+image::img01.png[]
+
+[[fig1b]]
+.Use
+image::img02.png[]
+====
+
+For the _irradiance method_, the radiometer is calibrated for irradiance responsivity
+[units: stem:["unitsml(A*W^(-1)*m^2)"] ] with an overfilled aperture. It is then used
+with a second aperture added for the blackbody measurement (see <<fig2>>). <<eq7>> is
+implemented using
+
+[[eq9]]
+[stem]
+++++
+"Irradiance: " s_ii(L)(ii(lambda)) = (pi g s_ii(E)(ii(lambda)))/(ii(A)_("FR")),
+++++
+
+where stem:[g] is the geometric factor for the double aperture system, given by
+<<eq5>>, after the second aperture is added, stem:[ii(A)_("FR")] is the filter
+radiometer's aperture area, and stem:[s_ii(E)(ii(lambda))] is the irradiance
+responsivity of the filter radiometer.
+
+[[fig2]]
+.The irradiance method.
+====
+[[fig2a]]
+.Calibration
+image::img03.png[]
+
+[[fig2b]]
+.Use
+image::img04.png[]
+====
+
+For the _hybrid method_, the setup is similar to the irradiance method, but an
+additional lens is introduced to enable the measurement of smaller sources (see
+<<fig3>>). Here, <<eq7>> is implemented using
+
+[[eq10]]
+[stem]
+++++
+"Hybrid: " s_ii(L)(ii(lambda)) = (pi g s_ii(E) (ii(lambda)) tau(ii(lambda)))/(ii(A)_("FR")),
+++++
+
+where stem:[g] is the geometric factor for the double aperture system, given by
+<<eq5>>, after the second aperture is added, stem:[ii(A)_("FR")] is the filter
+radiometer's aperture area, stem:[s_ii(E) (ii(lambda))] is the irradiance
+responsivity of the filter radiometer, and stem:[ii(tau)(ii(lambda))] is the spectral
+transmittance of the lens.
+
+[[fig3]]
+.The hybrid method.
+====
+[[fig3a]]
+.Calibration
+image::img05.png[]
+
+[[fig3b]]
+.Use
+image::img06.png[]
+====
+
+For the _radiance method_, <<eq7>> can be used directly, as here the instrument is
+calibrated for radiance responsivity (see <<fig4>>).
+
+[[fig4]]
+.The radiance method.
+image::img07.png[]
+
+[[generic_measurement]]
+=== The Generic Measurement Equation
+
+Generally, <<eq7>> has additional multiplying constants to account for various
+corrections. The measured signal may be, for example, a voltage
+
+[[eq11]]
+[stem]
+++++
+ii(V)_("signal") = i xx ii(G)_("amp"),
+++++
+
+where stem:[ii(G)_("amp")] is the gain of a transimpedance amplifier [units:
+stem:["unitsml(V*A^(-1))"] ].
+
+There will be further corrections for other effects. The hybrid and radiance methods
+will have a size-of-source effect (SSE) correction due to lens scatter (see
+<<sos_characteristic>> and <<sos_effect>>). The irradiance and power methods will
+have a similar diffraction correction for diffraction at the first aperture (see
+<<diffraction>>). These provide an additional correction factor, here generically
+given by the symbol stem:[ii(K)_("SSE")]. The power, irradiance, and hybrid methods
+will also have a correction for stray light, stem:[ii(K)_("stray")] (see
+<<stray_light>>).
+
+There may be a correction for blackbody emissivity, stem:[ii(varepsilon)_("BB")],
+which is generally considered to be a constant over the spectral responsivity of the
+filter radiometer (but may need to be treated as a spectral quantity for wide
+bandwidths). There may also be a correction for instrument linearity between the
+calibration and blackbody signal levels, stem:[ii(K)_("lin")] (see <<linearity>>),
+and a correction for out-of-band transmittance, stem:[ii(K)_("OOB")] (see
+<<oob_radiation>>). Thus, for example, for the hybrid method <<eq7>> may be written
+
+[[eq12]]
+[stem]
+++++
+ii(V)_("signal") = (pi g)/(ii(A)_("FR")) ii(varepsilon)_("BB") ii(G)_("amp") ii(K)_("OOB") ii(K)_("stray") ii(K)_("SSE") ii(K)_("lin") int_0^(oo) s_ii(E) (ii(lambda)) ii(tau)(ii(lambda)) ii(L)_("b")(ii(lambda),ii(T)) "d" ii(lambda) .
+++++
+
+For the purposes of uncertainty analysis, it is helpful to write this in a generic
+way to simplify the mathematical expressions. Therefore, for the mathematical
+sections of this report, we use a generic version of this expression. Note that later
+sections describe how to interpret this generic notation for specific cases. Thus,
+the generic version of the equation is:
+
+[[eq13]]
+[stem]
+++++
+"Generic: " ii(S) = ii(K) int_0^(oo) s(ii(lambda))ii(L)_("b")(ii(lambda),ii(T)) "d" ii(lambda),
+++++
+
+where stem:[ii(S)] is the measured temperature-dependent "signal", which may be in
+amps, volts, or digital numbers, depending on the device, stem:[s(ii(lambda))] is the
+radiance, irradiance, or power responsivity of the filter radiometer, as appropriate
+(and for the hybrid case also includes the lens transmittance), stem:[ii(K)] includes
+all the optical, geometrical, and electrical quantities not included in
+stem:[s(ii(lambda))], and stem:[ii(L)_("b")(ii(lambda),ii(T))] is the blackbody
+spectral radiance.
+
+=== Determining the Temperature of the Blackbody
+
+Generally, <<eq13>>, with the appropriate corrections (e.g., in the form of
+<<eq12>>), is solved numerically by iteratively varying stem:[ii(T)] until the
+calculated signal (the right-hand side of <<eq13>>) is equal to the measured signal,
+stem:[ii(S)]. Methods such as the bisection rule can be used to achieve this, but the
+most efficient method is to use the Newton-Raphson algorithm, based on an initial
+estimate stem:[ii(T)_0]. The algorithm then proceeds by forming successively better
+estimates, stem:[ii(T)_i], for stem:[i = 1," "2," "3, ...,] using the formula
+
+[[eq14]]
+[stem]
+++++
+ii(T)_(i+1) = ii(T)_i + (ii(S)-ii(K) int_0^(oo) s(ii(lambda))ii(L)_("b")(ii(lambda),ii(T)_i) "d" ii(lambda))/(c_2/(ii(T)_i^2) ii(K) int_0^(oo) s(ii(lambda)) (ii(L)_("b")(ii(lambda),ii(T)_i))/(n ii(lambda)[1-"exp"(-c_2//(n ii(lambda)ii(T)_i))]) "d" ii(lambda)).
+++++
+
+Convergence to better than stem:[0.1 "unitsml(mK)"] is usually achieved in fewer than
+5--10 iterations, depending on how close the initial guess, stem:[ii(T)_0], is to the
+true temperature <<saunders2003>>.
+
+[[uncertainty_analysis]]
+== Uncertainty Analysis
+
+=== Categorising the Uncertainty Components
+
+For the purposes of this report, the uncertainty components are separated into four
+categories, as shown in <<fig5>>. The main split is between those sources of
+uncertainty that are due to the calibration of the filter radiometer and those that
+are due to its use in measuring a blackbody. Some sources of uncertainty for the
+filter radiometer calibration are common to all four calibration schemes
+(<<common_sources>>), while others are specific to one scheme. The sources of
+uncertainty relating to the measurement of a blackbody can themselves be split into
+those due to the source and those due to the filter radiometer.
+
+[[fig5]]
+.Classification of the uncertainty components.
+image::img08.png[]
+
+=== Overview of Uncertainty Analysis
+
+The measurement equation, written in generic notation as <<eq13>>, relates the
+measured signal to the source temperature, stem:[ii(T)]. Uncertainty associated with
+any of the factors or parameters in <<eq13>>, determined either during the
+calibration phase or during use to determine an unknown temperature, must be
+propagated through this equation to calculate its influence on the calculated value
+of stem:[ii(T)]. As the expression cannot be rearranged into the direct form
+stem:[ii(T) = f(x_1,x_2,...)], the uncertainty analysis requires implicit
+differentiation. The sensitivity coefficient for any standard uncertainty component
+stem:[u(x_i)] can be determined from:
+
+[[eq15]]
+[stem]
+++++
+(del ii(T))/(del x_i) = - (del ii(S))/(del x_i) // (del ii(S))/(del ii(T)).
+++++
+
+The total standard uncertainty associated with the calculated temperature is then, in
+accordance with the law of propagation of uncertainties <<jcgm>>,
+
+[[eq16]]
+[stem]
+++++
+u(ii(T)) = [sum_i ((del ii(T))/(del x_i) u(x_i))^2 + sum_i sum_(j,j!=i) (del ii(T))/(del x_i) (del ii(T))/(del x_j) r(x_i,x_j)u(x_i)u(x_j)]^(1//2),
+++++
+
+where stem:[r(x_i,x_j)] is the correlation coefficient between the uncertainties
+stem:[u(x_i)] and stem:[u(x_j)].
+
+There are two approaches to deriving these sensitivity coefficients. One method,
+described in <<appendixA>>, is based on the full integral of <<eq13>>. The second
+method, described in <<appendixB>>, approximates the measurement equation by an
+analytic equation based on key spectral parameters of the filter radiometer, which
+can be used to calculate stem:[ii(T)] directly.
+
+=== Correlation
+
+There are two ways in which correlation affects the uncertainty analysis:
+
+* Where multiple measured values are combined, it is necessary to distinguish those
+sources of uncertainty that are systematic between the combined measurements (for
+example, if the same filter radiometer is used, then its calibration can be
+considered common) and those that change from one measurement to the next (for
+example, measurement noise).
+* The measurement equation, <<eq13>>, integrates the product of the Planck function
+and the spectral responsivity of the filter radiometer. The spectral responsivity of
+the filter radiometer is determined at discrete wavelength values by comparison with
+the trap detector. In order to estimate the uncertainty associated with the
+integrated quantity, it is necessary to understand the correlation between the
+measured values at the discrete wavelengths.
+
+This section concentrates on the second condition -- the implication of correlation
+on the spectral integral. It is also necessary to consider that there will be
+uncertainties associated with both the wavelength scale (horizontal axis in graphed
+spectral responsivity) and with the responsivity (vertical axis in graphed spectral
+responsivity), and for both wavelength and responsivity effects there are some
+sources of uncertainty that are fully correlated, some that are partially correlated,
+and some that are uncorrelated.
+
+==== Uncertainties associated with wavelength
+
+During the filter radiometer spectral calibration, the responsivity is determined at
+several wavelengths using a monochromatic, or pseudo-monochromatic, source created
+using either a tuneable laser or a monochromator illuminated by a broadband source.
+The calibration of the wavelength scale of a laser and monochromator is described in
+<<wavelength_scale>>. Where a wavemeter is used with a laser, the uncertainties are
+generally small. The worst-case scenario would be when these uncertainties are fully
+uncorrelated.
+
+A monochromator's wavelength scale is itself calibrated against reference
+wavelengths. Here there will be wavelength uncertainties in all three categories. The
+accuracy of the wavelength scale calibration will be a fully correlated
+(systematic-wavelength) effect. The reproducibility of the wavelength scale
+(repeatability of the grating rotation) will be a fully uncorrelated
+(randomwavelength) effect. Any sine-bar error, which creates a reproducible spectral
+shape to the wavelength scale error, will be a partially-correlated effect.
+
+==== Uncertainties associated with the spectral responsivity
+
+Assuming that the calibration is performed in 'one go' (i.e., the filter radiometer
+is not realigned from one wavelength to the next), then all sources of uncertainty
+relating to the setup (e.g., alignment, geometry, diffraction) will be correlated
+effects, affecting the spectral responsivity equally at all wavelengths. Stray light
+and source non-uniformity are usually also spectrally 'flat' across the spectral
+range of a filter radiometer.
+
+Measurement noise (whether electrical or optical) is always a random effect, and,
+assuming that the measurements take a considerable period of time, fluctuations in,
+for example, room temperature, as well as source stability, will also be uncorrelated
+(having a random effect on the responsivity values determined from one wavelength to
+the next).
+
+Partial correlation will come from a slow drift during the measurements of, for
+example, the reference detector, from room temperature variations, or from a drift in
+the instrument alignment. Here, measured values at wavelengths taken closer together
+in time will have a higher correlation than those taken at, for example, the
+beginning and end of a scan. Partial correlation is also introduced through
+mathematical interpolations of the reference detector's spectral responsivity. If the
+filter radiometer is relatively narrowband, then the reference detector's spectral
+responsivity may be based on a single wavelength value and, therefore, the
+uncertainty associated with the reference detector's responsivity will create a fully
+correlated effect in the filter radiometer's spectral responsivity. On the other
+hand, if the filter radiometer is broadband, then the reference detector's
+responsivity will be based on several measured values, and in this case the effect
+will be partially correlated.
+
+==== Application of correlation information
+
+The application of correlation information is discussed in <<appendixA>> and
+<<appendixB>>. In these appendices, the wavelength uncertainties are separated into
+fully correlated components and fully uncorrelated components, and propagation of
+uncertainty formulae, based on <<eq16>>, are explicitly derived for these two cases
+(i.e., when stem:[r(ii(lambda)_i,ii(lambda)_j)=1] for all stem:[i] and stem:[j], and
+when stem:[r(ii(lambda)_i,ii(lambda)_j)=1] only when stem:[i = j] and is zero
+otherwise). Partially-correlated uncertainties are easily dealt with if the values of
+stem:[r(ii(lambda)_i,ii(lambda)_j)] are known, since all of the sensitivity
+coefficients in <<eq16>> are given. Propagation of uncertainty formulae for the
+spectral responsivity values are similarly derived.
+
+== Calibration of the Filter Radiometer
+
+[[common_sources]]
+=== Common Sources of Uncertainty
+
+This section describes sources of uncertainty that are common to all four of the
+calibration schemes discussed in <<four_calibration_schemes>>. There may be some
+differences in how these uncertainties are assessed for each calibration scheme, and
+those differences are discussed in the relevant sections below
+(<<sources_of_uncertainty>>).
+
+==== Power responsivity of a trap detector
+
+The spectral power responsivity, stem:[s_(rm(Phi),"trap")(ii(lambda))], of a
+photodiode-based trap detector is defined as the ratio of the photocurrent,
+stem:[ii(I)], to the incident radiant power, stem:[ii(P)], causing the photocurrent:
+
+[[eq17]]
+[stem]
+++++
+s_(rm(Phi),"trap")(ii(lambda)) = ii(I)//ii(P).
+++++
+
+The photocurrent measurement is usually performed by a current-to-voltage converter
+(<<amplification>>) and a digital voltmeter. The radiant power is measured using a
+cryogenic radiometer, which is an electrical substitution radiometer operated at low
+temperatures, slightly above the boiling point of liquid helium. The radiation
+sources can be subdivided into three main types: (i) a monochromator in conjunction
+with a broadband radiation source (e.g., an argon arc plasma, a xenon arc, or a
+tungstenhalogen lamp); (ii) a widely and continuously wavelength-tuneable laser
+system; and (iii) a laser system delivering radiation at widely separated laser lines
+(e.g., a krypton ion laser). The first two systems allow, in principle, the
+determination of the spectral responsivity at any wavelength of interest. In
+practice, the measurements are performed at wavelengths separated by intervals
+ranging from about stem:[2 "unitsml(nm)"] to stem:[20 "unitsml(nm)"]. The last system
+(iii) is restricted to measurements at the available laser lines, which are usually
+widely separated. In all cases, the measured spectral responsivity must be
+interpolated over the entire wavelength range of interest using empirical or physical
+models. When the trap detector is applied to measure the radiant power in order to
+calibrate a filter radiometer, its spectral responsivity has to be corrected for the
+experimental conditions (e.g., radiant power, temperature, spot size, polarisation
+state, etc.) during the calibration of the filter radiometer, which usually strongly
+differ from those during the calibration of the trap detector.
+
+The uncertainty contributions can be grouped as follows:
+
+. _Uncertainty of the radiant power measurement by the cryogenic radiometer._ +
+These contributions mainly depend on the type of cryogenic radiometer used and the
+effort spent to characterise the device.
+. _Uncertainty contributions related to the trap detector calibration against the
+cryogenic radiometer._ +
+These contributions mainly depend on the calibration principle, the radiation source,
+and the facility used to calibrate a trap detector against a cryogenic radiometer.
+. _Uncertainty contributions arising from the interpolation of the spectral
+responsivity._
+. _Uncertainty contributions related to the use of the calibrated trap detector under
+experimental conditions different from those during its calibration._ +
+These contributions depend on the properties of the filter radiometer to be
+calibrated and the degree of mismatch of the experimental conditions of the
+calibration and the use of the trap detector.
+
+An example of an uncertainty budget is shown in the <<table1>>.
+
+[[table1]]
+[cols="<,^"]
+.Example uncertainty budget for the power responsivity of a trap detector.
+|===
+h| Source of uncertainty h| stem:[10^6 xx] relative standard uncertainty
+
+h| G1 (radiant power measurement): |
+| Electrical power measurements | 5
+| Non-equivalence of electrical/optical power | 10
+| Cavity absorptance | 10
+| Window transmittance | 18
+| Sensitivity of the radiometer | 10
+| Repeatability | 15
+| *Total uncertainty of group G1* | *30*
+h| G2 (Detector calibration): |
+| Stray radiation | 20
+| Photocurrent | 10
+| Wavelength | 2
+| Distance and diameter effects | 20
+| *Total uncertainty of group G2* | *30*
+h| G3 (Interpolation/Fit): |
+| Interpolation/fit of the spectral responsivity | 200
+| *Total uncertainty of group G3* | *200*
+h| G4 (Use of the detector under different experimental conditions): |
+| Spatial non-uniformity | 40
+| Linearity correction | 20
+| Temperature correction | 10
+| Beam polarisation orientation | 10
+| Temporal stability | 20
+| *Total uncertainty of group G4* | *51*
+| *Total* | *211*
+|===
+
+[[amplification]]
+==== Amplification of a small photocurrent
+
+Photocurrent amplifiers (current-to-voltage converters) are used both with the
+reference trap detector and with the filter radiometer. The filter radiometers are
+typically calibrated at a single power level but are used at several power levels
+with possibly quite large differences in the generated photocurrents. In this case,
+the gain-to-gain linearity of the preamplifier must be known with stated
+uncertainties. These separate current calibrations can be performed only if the
+detector and the preamplifier can be separated from each other.
+
+The gain accuracy in the operational amplifier circuits is primarily determined by
+the accuracy and the temporal stability of the feedback resistors. Custom
+preamplifiers can be constructed with precision feedback resistors exhibiting low
+temperature and voltage coefficients of resistance. The shunt resistances of the
+detectors should be either measured or known so that the feedback resistances can be
+kept below the shunt resistances under operational conditions.
+
+The preamplifiers can be calibrated using a precision current source whose output has
+been calibrated. These current sources can be calibrated using shunt resistors or by
+using a charging capacitor technique. The current source is operated to output a
+known current, and the voltage output of the preamplifier is measured using a
+calibrated voltmeter. This procedure can be repeated over the output range of the
+preamplifier at interval steps. A linear function can be fitted to the voltage output
+with changing input current to determine a single gain value and to determine the
+differences from linearity.
+
+The uncertainties of the measurements include the uncertainties in the determination
+of the output current value from the current source. The input current should be
+stable between the time of the calibrations and the time of use. An additional source
+of uncertainty can arise from differences in the  output resistance of the current
+source and the feedback resistance of the preamplifier. An example of such an
+uncertainty budget is shown in <<table2>>.
+
+[[table2]]
+[cols="^,^,^"]
+.Example uncertainty budget for the amplifier gain.
+|===
+h| Uncertainty components +
+stem:[1 xx 10^(10) "unitsml(V//A)"] h| Type h| Relative uncertainty (ppm)
+| Current measurement | B | 20
+| Short-term instability of input current | A | 6
+| Voltage measurement (HP DVM, 3458A) | B | 2
+| Output noise and drift (4 days) | A | 16
+| Loop gain | A | 2
+| Combined standard uncertainty of signal-gain, stem:[ii(G)_("amp")] | | 26
+|===
+
+==== Geometric propagation through a double aperture system
+
+The geometric factor is defined by two apertures of known area, a known distance
+apart (<<geometric_factor>>).
+
+===== Quality of the apertures and their area determination
+
+To minimise the uncertainty associated with the two apertures, two things should be
+considered: the quality of the apertures and how the aperture areas are determined.
+Optically, a knife-edge aperture is ideal since it reduces scattering, but an
+aperture with a land (physical edge size) of stem:[0.1 "unitsml(mm)"] can be measured
+using a contact method. Diamond-turned aluminium, copper, or aluminium-bronze
+apertures have been found to have ideal properties for highly-accurate filter
+radiometry <<hartmann2009>>. High-quality apertures can also be made from nickel over
+brass bi-metal substrate using electrochemical etching <<townetech>>.
+
+The aperture area can be determined using contact or non-contact methods. Typical
+stated uncertainties for contact methods (in the determination of diameter) are
+stem:[~0.1 "unitsml(um)"]. However, there are two reasons not to 'believe' these
+uncertainties for operational use. The first is the results of the CCPR-S2 aperture
+comparison. As shown in <<fig6>>, the results did not agree within the uncertainties.
+This comparison compared optical and contact methods for measuring aperture area, and
+there is a noticeable discrepancy. This suggests that uncertainties should be
+increased by at least a factor of 3.
+
+[[fig6]]
+.Comparison result for aperture area (from CCPR-S2 report).
+image::img09.png[]
+
+The second reason that these uncertainties are likely to be under-estimated is that
+the measured values are based on calibrations of brand new apertures in the clean and
+very accurately temperature-controlled environment of a length metrology laboratory.
+Apertures in operational use in an optical or thermal laboratory (often with
+high-temperature graphite furnaces producing graphite dust) can often have minor
+damage. It is important to ensure that apertures near a high-temperature furnace are
+also temperature-controlled, for example by using a temperature-controlled aperture
+holder.
+
+The geometric factor as used here is based on the radii of the two apertures. This
+makes an underlying assumption that the apertures are perfectly round. In practice,
+aperture roundness can vary and so needs to be determined during the measurements of
+diameter.
+
+===== Alignment of the apertures
+
+The calculation of the geometric factor assumes that the apertures are co-aligned. It
+is not unreasonable to assume that they may be slightly misaligned relative to each
+other, say by stem:[~2 "unitsml(mm)"] at stem:[300 "unitsml(mm)"] separation.
+Consider <<fig7>>. The distance between the two apertures is the hypotenuse
+stem:[d//cos ii(theta)] . As irradiance drops according to the inverse square law,
+this means the irradiance of the second aperture is reduced compared to the on-axis
+irradiance by stem:[cos^2 ii(theta)]. The second aperture has an effective area in
+this direction of stem:[ii(A)_2 cos ii(theta)] and the first aperture has an
+effective area of stem:[ii(A)_1 cos ii(theta)]. Combining all of this, the effective
+irradiance drops as stem:[cos^4 ii(theta)] . For stem:[d = 300 "unitsml(mm)"] and
+stem:[x = 2 "unitsml(mm)"], stem:[cos^4 ii(theta) = 0.999911]. Therefore, the
+uncertainty associated with the measured radiance due to possible misalignment is
+stem:[< 0.009 %].
+
+The apertures are aligned to be parallel with each other and perpendicular to the
+optical axis either by back-reflecting a laser beam or by aligning the apertures to
+the faces of a gauge bar. If the laser method is used, the angular uncertainty is
+approximately 0.0005 radians, which has a negligible effect on the effective area. If
+a gauge bar is used, an angular uncertainty of 0.01 radians is reasonable, which
+leads to an uncertainty in the effective area of approximately 0.01 %.
+
+[[fig7]]
+.Geometry for misaligned apertures.
+image::img10.png[]
+
+===== Distance between the apertures
+
+To determine the distance between the apertures, a gauge bar of known length can be
+placed in between the two apertures and the apertures moved towards the bar, or a
+tubular vernier inside micrometer with adjustable extension rods can be used so that
+the gauge just touch the faces. Care must be taken not to damage the apertures when
+they are brought to touch the ends of the gauge bar. For higher accuracy,
+interferometry can be used. Since the geometric factor varies with the square of the
+distance between the apertures, lower uncertainties are achieved (for a given
+accuracy in the distance measurement) when the distance between the apertures is
+increased <<lu>>, <<todd2013>>.
+
+[[uncertainty_geometric_factor]]
+===== Uncertainty associated with the geometric factor
+
+The geometric factor is given by <<eq5>>. If we define the variables
+
+[[eq18]]
+[stem]
+++++
+ii(beta) = sqrt((r_1^2+r_2^2+d^2)^2 - 4r_1^2r_2^2)
+++++
+
+and
+
+[[eq19]]
+[stem]
+++++
+ii(alpha) = r_1^2 + r_2^2 + d^2 + ii(beta),
+++++
+
+then
+
+[[eq20]]
+[stem]
+++++
+g = (2pi r_1^2r_2^2)/ii(alpha).
+++++
+
+The sensitivity coefficients are given by:
+
+[[eq21]]
+[stem]
+++++
+(del g)/(del r_1) = (4pi r_1r_2^2)/ii(alpha) [1- (r_1^2)/ii(alpha) ((ii(alpha)-2r_2^2)/ii(beta))],
+++++
+
+[[eq22]]
+[stem]
+++++
+(del g)/(del r_2) = (4pi r_1^2r_2)/ii(alpha) [1-(r_2^2)/ii(alpha)((ii(alpha)-2r_1^2)/ii(beta))],
+++++
+
+and
+
+[[eq23]]
+[stem]
+++++
+(del g)/(del d) = (-4pi r_1^2r_2^2d)/(ii(alpha) ii(beta)).
+++++
+
+Thus, the uncertainty in stem:[g] (in stem:["unitsml(m^2*sr)"]), given the
+uncertainties in the radii and distances (in stem:["unitsml(m)"]), is:
+
+[[eq24]]
+[stem]
+++++
+u(g) = [((del g)/(del r_1)u(r_1))^2 + ((del g)/(del r_2)u(r_2))^2 + ((del g)/(del d)u(d))^2]^(1//2).
+++++
+
+Note that the uncertainty in each radius is likely to be half that in the
+corresponding diameter measurement. For further calculation, it is useful to turn
+<<eq24>> into a relative uncertainty. This is done by dividing it by the value of
+stem:[g]:
+
+[[eq25]]
+[stem]
+++++
+u_("rel")(g) = (u(g))/g.
+++++
+
+It should be noted that the area of an aperture and the diffraction from the aperture
+edge can change with time. Damage to the edge of an aperture will affect both the
+area and the amount of light diffracted from the edge.
+
+Note that for both the irradiance method and the hybrid method of calibrating the
+filter radiometer, the area of the filter radiometer's aperture is taken into account
+in the irradiance responsivity determination.
+
+[[variation_for_irradiance]]
+===== Variation for irradiance and hybrid approach calibrations
+
+For the hybrid and irradiance calibration approaches, the significant apertures are
+those on the trap detector and the additional aperture introduced (the lens aperture
+for the hybrid method or the source aperture for the irradiance method). The aperture
+on the filter radiometer is also important, but its absolute area does not need to be
+known with the same accuracy -- although it is essential that it is stable.
+
+The irradiance of the monochromatic irradiance field is measured with the trap
+detector (with its aperture). The irradiance responsivity of the filter radiometer,
+stem:[s_(ii(E),"FR")], is then determined by comparison with that of the trap
+detector using:
+
+[[eq26]]
+[stem]
+++++
+s_(ii(E),"FR")(ii(lambda)) = (ii(S)_("cal","FR")(ii(lambda)))/(ii(S)_("cal","trap")(ii(lambda))) s_(rm(Phi),"trap")(ii(lambda))ii(A)_("trap"),
+++++
+
+where stem:[ii(S)_("cal","FR")(ii(lambda))] is the signal on the filter radiometer
+during calibration, stem:[ii(S)_("cal","trap")(ii(lambda))] is the signal on the trap
+detector, and
+stem:[s_(rm(Phi),"trap")(ii(lambda))ii(A)_("trap")=s_(ii(E),"trap")(ii(lambda))] is
+the irradiance responsivity of the trap detector, determined from the flux
+responsivity stem:[s_(rm(Phi),"trap")(ii(lambda))] and the trap aperture area
+stem:[ii(A)_"trap"].
+
+When the filter radiometer is used, then the radiance responsivity is required, as in
+<<eq9>> or <<eq10>>. The overall geometric term in combining <<eq26>> and <<eq10>> is
+
+[[eq27]]
+[stem]
+++++
+g_ii(E) = (g ii(A)_("trap"))/(ii(A)_("FR")).
+++++
+
+With the terms stem:[ii(alpha)] and stem:[ii(beta)] as defined in <<eq18>> and
+<<eq19>>, the equivalent of <<eq24>> is:
+
+[[eq28]]
+[stem]
+++++
+u(g_ii(E)) = {[(4r_("FR")r_("lens")^2)/(ii(alpha)^2) ((ii(alpha)-2 r_("lens")^2)/ii(beta))ii(A)_("trap")u(r_("FR"))]^2
+++++
+
+[stem%unnumbered]
+++++
++ [(4r_("lens"))/(ii(alpha)^2) (1-(r_("lens")^2)/ii(alpha) ((ii(alpha)-2 r_("lens")^2)/ii(beta))) ii(A)_("trap")u(r_("lens"))]^2
+++++
+
+[stem%unnumbered]
+++++
++ {: [(4r_("lens")^2dii(A)_("trap"))/(ii(alpha) ii(beta)) u(d)]^2 + [(4pi gr_("trap"))/(ii(A)_(FR))u(r_("trap"))]^2 }^(1//2).
+++++
+
+===== Uncertainties
+
+<<table3>> gives the normal and best uncertainties associated with the calculation of
+the geometric factor.
+
+[[table3]]
+.Uncertainties associated with the calculation of the geometric factor.
+|===
+^h| Quantity 2+^h| Standard uncertainty +
+(relative, % or +
+absolute) ^h| Sensitivity +
+coefficient for +
+relative +
+radiance 2+^h| Relative standard +
+uncertainty in +
+radiance ^h| Comments
+
+| | Normal | Best | | Normal | Best |
+
+a| Aperture +
+radius a| stem:[1 "unitsml(um)"] +
+(radius) a| stem:[0.5 "unitsml(um)"] +
+(radius) a| <<eq20>> and <<eq21>> | 0.02 % | 0.01 % a| Relative uncertainty in radiance based here on stem:[3 "unitsml(mm)"] and stem:[5 "unitsml(mm)"] apertures, stem:[500 "unitsml(mm)"] apart.
+
+| Distance | stem:[0.25 "unitsml(mm)"] | stem:[10 "unitsml(um)"] | <<eq22>> | 0.1 % | 0.004 % a| Relative uncertainty depends on absolute distance and aperture areas.
+
+a| Aperture co-alignment | 0.01 % | 0.0001 % | 1 | 0.01 % | 0.0001 % |
+
+a| Aperture angular alignment | 0.01 % | Negligible | 1 | 0.01 % | 0 |
+
+a| Aperture non-roundness | stem:[0.06 "unitsml(um)"] +
+(radius) a| stem:[0.02 "unitsml(um)"] +
+(radius) | <<eq20>> and <<eq21>> | 0.004 % | 0.001 % a| Relative uncertainty in radiance based here on stem:[3 "unitsml(mm)"] and stem:[5 "unitsml(mm)"] apertures, stem:[500 "unitsml(mm)"] apart.
+
+a| Aperture changes since calibration a| 0.02 % +
+(area) | Negligible | 1 | 0.02 % | 0 a| From potential damage and thermal expansion.
+|===
+
+[[wavelength_scale]]
+==== Wavelength scale
+
+The filters in a filter radiometer are used to select a specific spectral region for
+the measurements of the blackbody radiances. Tuneable lasers or broadband sources
+with monochromators are used to determine either the relative or the absolute
+spectral responsivities of filter radiometers, and the wavelength uncertainties of
+these sources must be determined. If the wavelengths of the spectral responsivity
+determinations are in error, then, due to the spectral dependence of the Planck
+function, the calculated temperatures will also be in error.
+
+Laser-based methods rely upon wavemeters to determine the wavelengths of the laser
+radiation. These wavemeters use interferometers with an internal laser that acts as a
+reference to determine the wavelength of the radiation. Wavemeters have the lowest
+uncertainties in the wavelength assignments but can only be used with coherent
+radiation, such as that from a laser.
+
+Monochromators, which use gratings or prisms, are calibrated for their wavelength
+scales using a set of low-pressure atomic emission lamps. Atomic emission sources,
+such as stem:["Hg"], stem:["Ne"], stem:["Ar"], stem:["Kr"], and others, are used to
+generate a sufficient number of known
+spectral peaks. The wavelengths at which these atomic emission transitions occur are
+well known and published in atomic-transition databases. The uncertainty of these
+transition assignments is about stem:[0.01 "unitsml(pm)"] <<reader>>. For the
+calibration of monochromators, these emission lamps should be placed in integrating
+spheres so that an angularly- and spatially-uniform radiation can be input into the
+monochromator. The radiation from the integrating sphere must fill both the fore
+optics and the internal optics of the monochromator. Care should also be taken to
+place the exit of the integrating sphere source at the position of the lamp or the
+broadband source that is typically used to illuminate the monochromator. If the
+emission source is shifted from the position of the broadband source, the wavelength
+calibration will be shifted due to the different angular position of the atomic
+emission source as compared to that of the broadband source.
+
+The angular positions of the grating or prism disperser can be measured using an
+optical rotary encoder attached to the shaft of the threaded rod or, preferably, an
+angular encoder. The spectral peak position is determined using the centroid
+calculated from the measured spectral signal. The centroid can shift depending on the
+wavelength extent over which the summation is performed. A symmetric wavelength
+interval should be chosen for the summation range for the centroid calculations.
+
+The wavelength accuracy of monochromators can be improved by using a piece-wise
+polynomial fit, which minimises the residuals of the fit. The order of the polynomial
+can be increased until the residuals from the fit do not decrease in substantive ways.
+
+The uncertainties of the wavelength calibrations are determined from the standard
+deviation of the residuals of the polynomial fitting function from the actual atomic
+emission line wavelength assignments. The wavelength accuracies can be further
+checked using a spectrograph that has also been calibrated for wavelength measurements.
+
+The laser-based method, where the laser wavelengths are determined using a wavemeter,
+will not require any corrections. <<table4>> gives the normal and best uncertainties
+for monochromator and laser-based measurement systems.
+
+[[table4]]
+[cols="<,^,^"]
+.Uncertainties in wavelengths measured using both laser-based and monochromator-based systems.
+|===
+^h| Quantity 2+^h| Standard uncertainty
+| | Normal | Best
+| Laser wavelengths | stem:[3.0 "unitsml(pm)"] | stem:[0.1 "unitsml(pm)"]
+a| Monochromator wavelengths | stem:[100 "unitsml(pm)"] | stem:[20 "unitsml(pm)"]
+|===
+
+[[oob_radiation]]
+==== Out-of-band radiation
+
+Out-of-band (OOB) suppression of radiation is more critical for thermodynamic
+temperature measurements than for measurements under ITS-90. This is because under
+ITS-90 the ratio of the radiances of two blackbodies is measured and the OOB error
+for each measurement partially cancels. However, for thermodynamic measurement, the
+filter radiometer is calibrated using an integrating sphere that is illuminated
+using a monochromatic source. In this case, the radiance of the integrating sphere
+is compared to the radiance of a blackbody. OOB radiation will cause the response of
+the filter radiometer in front of the blackbody to be higher than expected, because
+the radiance of a blackbody is integrated over the full bandwidth of the detector,
+which is not the case during calibration with the monochromatic source. The
+transmittance in the far wings of the spectral responsivity should, therefore, be
+evaluated to estimate the OOB correction.
+
+Unaccounted-for OOB transmittance causes the measured signal to be higher than
+expected by the factor stem:[ii(K)_("OOB")] (see <<eq12>>), given by
+
+[[eq29]]
+[stem]
+++++
+ii(K)_("OOB") = 1+ (int_0^(ii(lambda)_1) s(ii(lambda)) ii(L)_("b")(ii(lambda),ii(T)) "d" ii(lambda) + int_(ii(lambda)_2)^(oo) s(ii(lambda)) ii(L)_("b")(ii(lambda),ii(T)) "d" ii(lambda))/(int_(ii(lambda)_1)^(ii(lambda)_2) s(ii(lambda))ii(L)_("b")(ii(lambda),ii(T)) "d" ii(lambda))
+++++
+
+[stem%unnumbered]
+++++
+= (int_0^(oo)s(ii(lambda))ii(L)_("b")(ii(lambda),ii(T)) "d" ii(lambda))/(int_(ii(lambda)_1)^(ii(lambda)_2) s(ii(lambda))ii(L)_("b")(ii(lambda),ii(T)) "d" ii(lambda)),
+++++
+
+where stem:[ii(lambda)_1] and stem:[ii(lambda)_2] are the practical wavelength
+limits over which the integral in <<eq13>> is evaluated.
+
+To avoid OOB corrections, the requirements for OOB suppression depend on the centre
+wavelength of the spectral responsivity function and the spectral bandpass. The OOB
+analysis given here is for a filter radiometer with a spectral filter centred at
+stem:[650 "unitsml(nm)"] and a spectral bandwidth of stem:[10 "unitsml(nm)"] used
+with a stem:["Si"] detector, which is a common configuration used in national metrology
+institutes (NMIs). Note that the OOB analysis can be carried out using relative
+spectral responsivities.
+
+A spectral filter should be measured separately prior to its incorporation into a
+radiometer, to determine whether its OOB suppression is sufficient. Depending on the
+filter radiometer design, possible radiation leakage around the filter could be
+perceived as OOB radiation even though the light path does not go directly through
+the filter. A comparison of the expected component-wise responsivity and the actual
+spectral responsivity of the filter radiometer as a whole is helpful in assessing
+any possible light leakage in the filter radiometer.
+
+Measurements of the OOB response of spectral responsivities to high optical
+densities are difficult to perform using traditional monochromator and lamp sources
+because of their low power outputs, and measurements of filter response to optical
+densities higher than 5 (OD5) using commercial spectrophotometers are challenging.
+Some filter manufacturers have recently started offering better than OD6 OOB
+suppression <<semrock>>. Custom-designed transmittance setups using high-power
+supercontinuum lasers and monochromators have led to OOB measurements down to OD8
+<<yoo>> and even OD11 <<lequime>>.
+
+The temperature error, stem:[Delta ii(T)], resulting from uncorrected OOB radiation
+can be calculated as
+
+[[eq30]]
+[stem]
+++++
+Delta ii(T) ~~ (ii(K)_("OOB")-1) (n ii(lambda)_0 ii(T)^2)/(c_2),
+++++
+
+where stem:[ii(lambda)_0] is the mean wavelength of the filter radiometer's spectral
+responsivity, and the monochromatic and Wien's approximations have been used.
+Assuming a filter radiometer consisting of a stem:[10 "unitsml(nm)"] bandwidth
+rectangular spectral filter centred at stem:[650 "unitsml(nm)"], with a stem:["Si"]
+photodiode that is sensitive to radiation within its entire spectral range from
+stem:[200 "unitsml(nm)"] to stem:[1100 "unitsml(nm)"], <<eq29>> can be used to
+calculate the value of stem:[ii(K)_("OOB")]. The worst case is when the OOB
+radiation is flat across the entire spectral range, in which case the value of
+stem:[ii(K)_("OOB")-1] at stem:[1300 "unitsml(K)"] is given by stem:[1136 xx
+10^(-"OD")] and at stem:[3000 "unitsml(K)"] is given by stem:[76.51 xx 10^(-"OD")],
+where OD is the optical density value of the filter. This gives rise to temperature
+errors, given by <<eq30>>, of stem:[86700 xx 10^(-"OD") "unitsml(K)"] at stem:[1300
+"unitsml(K)"] and stem:[31106 xx 10^(-"OD")] at stem:[3000 "unitsml(K)"] (e.g.,
+temperature errors of stem:[0.87 "unitsml(K)"] and stem:[0.31 "unitsml(K)"],
+respectively, for a filter with OOB suppression of OD5). Thus, OOB suppression
+beyond OD7 will result in errors less than about stem:[9 "unitsml(mK)"] at
+stem:[1300 "unitsml(K)"] and about stem:[3 "unitsml(mK)"] at stem:[3000 "unitsml(K)"].
+
+An alternative method to determine the OOB correction is to use a notch filter to
+cut out the in-band signal of the filter radiometer. The value of
+stem:[ii(K)_("OOB")] can then be determined by measuring the filter radiometer
+signal, stem:[ii(S)], with and without the notch filter in place:
+
+[[eq31]]
+[stem]
+++++
+ii(K)_("OOB") ~~ 1 + (ii(S)_("with notch filter"))/(ii(S)_("without notch filter")).
+++++
+
+This method relies on high transmittance of the notch filter outside the notch
+region and low transmittance inside. Corrections to <<eq31>> can be made if these
+transmittances are known.
+
+[[stray_light]]
+==== Stray light
+
+Stray light is defined as detected photons that do not propagate along a straight
+line from the source to the radiometer. Optical diffusion by the molecules of the
+atmosphere is neglected here, and stray light is considered to originate only from
+optical diffusion of the source used to illuminate the radiometer. Stray light
+causes the detected flux, stem:[rm(Phi)(d)], to differ from that given by <<eq6>>;
+note the explicit dependence here of stem:[rm(Phi)] on the distance, stem:[d],
+between the source and detector apertures. The stray detected flux,
+stem:[rm(Phi)_("stray")(d)], may be defined as:
+
+[[eq32]]
+[stem]
+++++
+rm(Phi)_("stray")(d) = rm(Phi)(d) - rm(Phi)_0(d),
+++++
+
+where stem:[rm(Phi)_0(d)] is the stray-light-free flux given by <<eq6>>:
+
+[[eq33]]
+[stem]
+++++
+rm(Phi)_0(d) = g pi ii(L)_0,
+++++
+
+where stem:[ii(L)_0] is the radiance of the source.
+
+In the absence of stray light, the detected flux is given by stem:[rm(Phi)(d) =
+rm(Phi)_0(d)]. At the other extreme, the stray light would be maximised if the
+optical beam were enclosed within a perfect light pipe. In this case, the detected
+flux would be constant and independent of stem:[d]. The real situation will be
+somewhere between these two extremes, and we can propose that the stray light is
+approximately inversely proportional to stem:[d]:
+
+[[eq34]]
+[stem]
+++++
+rm(Phi)_("stray")(d) ~~ kdg pi ii(L)_0,
+++++
+
+where stem:[k] is a constant (note that the geometric factor, stem:[g], given by
+<<eq5>>, is approximately inversely proportional to stem:[d^2] when the aperture
+separation is much greater than the radii of the two apertures).
+
+<<eq32>> can be converted to the filter radiometer signal (as in <<eq13>>):
+
+[[eq35]]
+[stem]
+++++
+ii(S)(d) = ii(S)_0(d) + ii(S)_("stray")(d),
+++++
+
+where stem:[ii(S)(d)] is the total measured signal as a function of distance,
+stem:[ii(S)_0(d)] is the stray-light-free component of the signal, and
+stem:[ii(S)_("stray")(d)] is the component of the signal corresponding to the stray
+light. Using <<eq33>> and <<eq34>>, <<eq35>>, after dividing both sides by stem:[g],
+can be written
+
+[[eq36]]
+[stem]
+++++
+(ii(S)(d))/g = (ii(S)_0(d))/g (1+kd).
+++++
+
+Note that the quantity stem:[ii(S)_0(d)//g] is independent of stem:[d], so fitting a
+straight line to the measured signal divided by stem:[g] as a function of distance
+allows stem:[ii(S)_0] and stem:[k] to be evaluated from the intercept and slope,
+respectively. The correction factor for stray light, stem:[ii(K)_("stray")] (see
+<<eq12>>), is given by:
+
+[[eq37]]
+[stem]
+++++
+ii(K)_("stray") = 1+kd,
+++++
+
+where stem:[d] is the distance used for the blackbody temperature measurement.
+
+The uncertainty in the value of stem:[k] can be determined using the standard
+formulae for straight-line fitting, and depends on the sampling of the distance
+stem:[d]:
+
+[[eq38]]
+[stem]
+++++
+u^2(k) ~~ [((u(ii(S)(d)))/(ii(S)(d)))^2 + ((u(g))/g)^2] 1/(sum_(i=1)^ii(N) d_i^2 - 1/ii(N) (sum_(i=1)^ii(N) d_i)^2),
+++++
+
+where the distance has been sampled at stem:[ii(N)] values, stem:[d_i], and it has
+been assumed that the uncertainty stem:[u(ii(S)(d)//g)] is the same for each
+measurement and the uncertainties in the distance measurements are negligible. Thus,
+the relative uncertainty in the stray-light correction factor,
+stem:[ii(K)_("stray")], is
+
+[[eq39]]
+[stem]
+++++
+(u(ii(K)_("stray")))/(ii(K)_("stray")) = [(d/(1+kd)u(k))^2 + (k/(1+kd)u(d))^2]^(1//2).
+++++
+
+[[diffraction]]
+==== Diffraction and aperture scatter
+
+Diffraction effects at the apertures lead to a deviation stem:[delta] between the
+measured radiation flux, stem:[rm(Phi)_("rad")], and the flux calculated by means of
+geometrical optics, stem:[rm(Phi)_("geom")]:
+
+[[eq40]]
+[stem]
+++++
+rm(Phi)_("rad") = (1+delta) rm(Phi)_("geom").
+++++
+
+Generally, the deviation stem:[delta] is small for a large ratio of aperture
+diameter to wavelength <<blevin>>, but can have a positive or negative sign. For
+typical experimental setups in radiometry, where the radiation overfills the
+aperture, stem:[delta] becomes positive and is generally << 1.
+
+For the different calibration approaches, diffraction will be considered in
+different places:
+
+* For the power method, diffraction is significant for the apertures used during the
+blackbody measurement.
+* For the irradiance method, diffraction is significant for the apertures used
+during the blackbody measurement.
+* For the hybrid method, diffraction effects are part of the absolute SSE and are
+not considered separately.
+* For the radiance method, diffraction is significant for the apertures used with
+the trap detector for calibration. Diffraction in the filter radiometer is part of
+the relative SSE and is not considered separately.
+
+Diffraction occurs for both of the two apertures that define the optical geometry.
+As both effects are small, they can be treated independently, and the two
+corrections add to give:
+
+[[eq41]]
+[stem]
+++++
+delta_("aperture",1+2) = delta_("aperture",1] + delta_("aperture",2).
+++++
+
+Hence, the following two cases can be treated separately:
+
+. Diffraction at the filter radiometer's aperture: the furnace aperture acts as a
+source and the photodiode as an under-filled detector.
+. Diffraction at the furnace aperture: the opening of the blackbody radiator acts as
+a source and the filter radiometer aperture as an over-filled detector.
+
+Invoking the reciprocity theorem of Kirchhoff, the deviation due to diffraction does
+not change if the source and detector are exchanged. Therefore, the two cases can be
+treated as equivalent. References <<steele>>, <<shirley>> give both exact solutions
+and approximations for this diffraction problem.
+
+For a blackbody source, the diffraction correction must be calculated for all
+wavelengths measured. The radiometers typically used only have a small bandpass of
+stem:[10 "unitsml(nm)"] to stem:[20 "unitsml(nm)"]. The diffraction correction
+stem:[delta] is inversely proportional to the wavelength and varies little across
+the bandpass. For simplification, often only the centre wavelength of the
+interference filter is used in the calculation of the correction. While a furnace
+aperture diameter of stem:[20 "unitsml(nm)"] is typically used for the standard
+measurement of a high-temperature blackbody's temperature using a filter radiometer,
+a large eutectic fixed-point cell with stem:[8 "unitsml(nm)"] cavity diameter
+requires a furnace aperture of stem:[3 "unitsml(mm)"] in diameter, which results in
+a considerably larger diffraction effect because of the smaller furnace aperture.
+
+By changing the distance between the two apertures, the chosen approximation for the
+diffraction correction can be experimentally tested and an uncertainty of the
+correction can be deduced. This has been found to be of the order of stem:[2 xx
+10^(-4)].
+
+[[sources_of_uncertainty]]
+=== Sources of Uncertainty Specific to the Calibration Scheme
+
+==== Power approach
+
+In order to measure temperature using a filter radiometer (FR) calibrated via the
+power method, two steps are required. First, the power responsivity of the FR needs
+to be determined. Then, the measurement geometry is defined using two apertures of
+known areas and known separation (see <<fig1>>).
+
+To calibrate the absolute spectral responsivity of a filter radiometer using the
+power method, a beam of quasi-monochromatic radiation under-fills the FR aperture
+and a transfer detector (trap or single element) is used as a reference. The
+transfer detector will have had its spectral responsivity calibrated with respect to
+an absolute standard (cryogenic radiometer or other absolutely-calibrated detector).
+Typically, a monochromator is used to provide the quasi-monochromatic beam and
+mirrors are used to image the monochromator's output slits onto the FR and the
+transfer detector. The transfer detector is used to measure the power in the beam
+and then the FR is moved into place in front of the beam and its output is measured.
+The monochromator wavelength is changed, and the measurements are repeated until the
+wavelength range of the FR has been measured (see <<fig8,nosee%>>).
+
+[[fig8]]
+.Calibration and use setups for the power method.
+====
+[%unnumbered]
+image::img11.png[]
+
+[%unnumbered]
+image::img12.png[]
+====
+
+With the power responsivity known, apertures can be added to the system to enable
+the radiance measurement to be made, which can then be converted to temperature.
+<<eq13>> can be solved iteratively to obtain the temperature, with the radiance
+responsivity defined by <<eq8>>.
+
+Additionally, it is necessary to know or verify the uniformity of the FR and
+transfer detector since the calibration geometry is different from the in-use
+measurement geometry. This can be done by rastering a focused beam across the
+entrance aperture of the FR. Boivin <<boivin1998>> has described this method for
+trap- and single-element stem:["Si"] detectors and found a uniformity of 0.05 %. For a filter
+radiometer it is also important that the filter is uniform.
+
+===== Sources of uncertainty for the power method
+
+The common sources of uncertainty, described in <<common_sources>>, apply to the
+power method as follows:
+
+* The uncertainty in the power responsivity of the trap detector impacts directly on
+the uncertainty in the power responsivity of the filter radiometer.
+* The uncertainty in the gain of the transimpedance amplifiers must be considered
+for the trap amplifier during calibration and, if a different gain is used for
+calibration and use of the filter radiometer because of different signal levels, for
+the filter radiometer as well.
+* The geometric factor is derived from the two apertures added to the system for
+measuring a blackbody. The uncertainty analysis follows that described in
+<<uncertainty_geometric_factor>>, and the uncertainty in the geometric factor is
+given by <<eq24>>.
+* The wavelength scale is based on the monochromator used to provide the
+quasi-monochromatic beam.
+* Out-of-band transmittance must be considered, as described in <<oob_radiation>>.
+* Stray light is relatively straightforward to control during calibration because
+the monochromator provides a beam of radiation.
+
+In addition, it is necessary to consider:
+
+* The uncertainty associated with the uniformity of the filter radiometer and the
+average response over the area illuminated by the calibration beam and the area of
+the aperture used.
+* Diffraction at the apertures during the blackbody measurement.
+
+==== Irradiance approach
+
+The spectral irradiance responsivity of the filter radiometer with mounted aperture
+is determined with a calibrated trap detector together with a calibrated entrance
+aperture defining the effective area of the trap detector. The spectral irradiance
+responsivity can be determined with a monochromator-based <<taubert5>>, <<taubert6>>
+or a laser-based <<anderson>>, <<fox>> system. During use, an additional aperture is
+added in front of the blackbody to define the solid angle necessary to convert from
+irradiance to radiance (see <<fig2>>). Absolute primary thermometry from the Zn
+point upwards has been performed by this method <<hartmann-taubert2002>>,
+<<hartmann2008>>, <<hollandt>>, <<noulkow>>, <<taubert26>>. However, diffraction
+losses increase drastically for a decreasing diameter of the furnace aperture, so
+the method has been adapted, as in the hybrid method below, for determining the
+temperature of small sources (e.g., high-temperature fixed points (HTFPs))
+<<anhalt2008>>, <<anhalt2006>>, <<anhalt-wang>>.
+
+===== Sources of uncertainty for the irradiance method
+
+The common sources of uncertainty, described in <<common_sources>>, apply to the
+irradiance method as follows:
+
+* The uncertainty in the power responsivity of the trap detector impacts directly on
+the uncertainty in the irradiance responsivity of the filter radiometer.
+* The uncertainty in the gain of the transimpedance amplifiers must be considered
+for the trap amplifier during calibration and, if a different gain is used for
+calibration and use of the filter radiometer because of different signal levels, for
+the filter radiometer as well.
+* The geometric factor is derived from the filter radiometer and the aperture added
+to the system for measuring a blackbody. However, because the radiometer is
+calibrated for irradiance responsivity, the aperture on the trap detector is more
+significant than that on the filter radiometer. The uncertainty analysis follows
+that described in <<variation_for_irradiance>>, and the uncertainty in the geometric
+factor is given by <<eq28>>.
+* The wavelength scale is based on the monochromator or laser used to provide the
+irradiance field used in the calibration.
+* Out-of-band transmittance must be considered, as described in <<oob_radiation>>.
+* The significance of stray light in the calibration depends on the method used to
+generate the irradiance field.
+
+In addition, it is necessary to consider:
+
+* The uncertainty associated with the uniformity of the irradiance field used and
+the relative sizes of the filter radiometer and trap apertures (and how much they
+are aligned in the same position within that irradiance field).
+* Diffraction at the apertures during the blackbody measurement.
+
+==== Hybrid approach
+
+The irradiance approach can be applied to smaller blackbody cavities by introducing
+a single lens to create the hybrid method <<woolliams2011>>. The calibration is
+usually performed "in parts", with the irradiance responsivity of the filter
+radiometer determined as above, and the transmittance of the lens determined
+separately <<anderson>>, <<woolliams2000>>. Again, an additional aperture is added
+to the lens to form the geometric system for radiance (see <<fig3>>). Formally, the
+method can be considered equivalent to the irradiance method above, but is capable
+of measuring sources with small apertures. Note that here it is important that the
+irradiance field is formed by a light source converging with the same geometry as
+the lens provides -- this ensures that the filter is illuminated with the same range
+of angles in calibration and use. Usually this is achieved by imaging a source,
+e.g., a laser-illuminated integrating sphere, using the same lens system.
+
+The calibration process assumes that the same irradiance is measured by the trap
+detector and filter radiometer. This relies on the spatial uniformity of the source
+and any differences, or potential differences, in the sizes of the two apertures and
+their position within the uniform irradiance field. The source also needs to be
+stable between the trap measurement and the filter radiometer measurement. Angular
+uniformity is less critical, although it is important that the irradiance field
+matches the geometry that will be used for measurements with the lens so that the
+filter is illuminated with the same range of angles.
+
+Generally, the irradiance field is created by imaging a small aperture on an
+integrating sphere. There is usually a compromise to be made, where a larger
+integrating sphere will create a more spatially uniform image but will have a lower
+irradiance level for the same input laser power, and this will make the signal more
+noisy and limit how far into the wings of the filter radiometer spectral
+responsivity measurements can be made.
+
+With a hybrid-mode calibration, with the irradiance field created by imaging a
+sphere exit port, stray light can generally be very well limited by placing the
+imaging lens in a large baffle screen. After the lens, the main light is well
+controlled and unlikely to scatter. Dark readings can be taken by closing the lens.
+The hybrid-mode calibration, therefore, has very low sensitivity to stray light.
+
+The lens transmittance of a simple uncoated lens can be reasonably predicted from
+the Fresnel equations. More accurate results can be obtained <<woolliams2000>> by
+treating the Fresnel prediction as a relative spectral transmittance and making
+measurements at a single wavelength to provide an absolute scaling.
+
+In most applications, the size-of-source effect (see <<sos_effect>>) is a relative
+effect: the instrument is sensitive to the _difference_ in the size (and lateral
+uniformity) of the test and reference sources. For the hybrid method it is an
+absolute effect. Because the filter radiometer is calibrated without a lens, there
+is no reference source size footnote:[Note, that a lens may be used in creating the
+irradiance source for the calibration. But since both the trap detector and filter
+radiometer are on the same side of that lens, any SSE is cancelled in calibration.],
+and what matters is the absolute size-of-source effect, i.e., the difference when
+viewing the test source compared to an infinite uniform source. This is difficult to
+estimate, and it is even more difficult to estimate an uncertainty for it, although
+for a hybrid-mode calibration this is often the dominant uncertainty. It is
+necessary to make SSE characteristic measurements out to sufficiently large sources
+that the SSE characteristic of the instrument flattens off.
+
+One solution <<winkler>>, which avoids the use of an absolute SSE, is to calibrate
+the lens transmittance and SSE simultaneously by making measurements of a
+large-aperture radiance source both with and without the lens. If the SSE and lens
+transmittance are determined separately, they have typical normal standard
+uncertainties of 0.06 % and 0.04 %, respectively <<woolliams2011>>. If they are
+measured together then smaller standard uncertainties are achievable <<winkler>>.
+
+===== Sources of uncertainty for the hybrid method
+
+The common sources of uncertainty, described in <<common_sources>>, apply to the
+hybrid method as follows:
+
+* The uncertainty in the power responsivity of the trap detector impacts directly on
+the uncertainty in the irradiance responsivity of the filter radiometer.
+* The uncertainty in the gain of the transimpedance amplifiers must be considered
+for the trap amplifier during calibration and, if a different gain is used for
+calibration and use of the filter radiometer because of different signal levels, for
+the filter radiometer as well.
+* The geometric factor is derived from the filter radiometer and the lens apertures.
+However, because the radiometer is calibrated for irradiance responsivity, the
+aperture on the trap detector is more significant than that on the filter
+radiometer. The uncertainty analysis follows that described in
+<<variation_for_irradiance>>, and the uncertainty in the geometric factor is given
+by <<eq28>>.
+* The wavelength scale is based on the laser used to provide the irradiance field.
+* Out-of-band transmittance must be considered, as described in <<oob_radiation>>.
+* Stray light is relatively straightforward to control during calibration because
+the lens used to obtain the same geometry for calibration and filter radiometer use
+controls the direction of radiation.
+
+In addition, it is necessary to consider:
+
+* The uncertainty associated with the uniformity of the irradiance field and the
+relative sizes of the filter radiometer and trap apertures (and how much they are
+aligned in the same position within that irradiance field).
+* The calibration of the transmittance of the lens.
+* The absolute SSE.
+
+==== Radiance approach
+
+An appropriately designed imaging radiometer can be calibrated in absolute mode as a
+radiance-mode filter radiometer. The more complex optical system of the thermometer
+(e.g., several lenses and appropriate baffling) can lead to an extremely low
+size-of-source effect <<yoon-allen2005>>, <<yoon2006>>, <<yoon2007>>.
+
+The calibration of such a system is by comparison with a source of known radiance,
+as shown in <<fig4>>. The instrument can then be used to determine the blackbody
+radiance directly. Examples of the method can be found in <<yoon2006>>,
+<<yoon2007>>, <<baker>>. Briefly, the radiation thermometer is calibrated against a
+cryogenic radiometer by the use of silicon trap detectors that are calibrated for
+power responsivity at selected wavelengths. The full responsivity is then determined
+by interpolation. The spatial uniformity of the trap detector is utilised to obtain
+the irradiance responsivity from the power responsivity in conjunction with a
+precision aperture. If the geometric parameters, such as the aperture area and the
+distance between the integrating sphere and the trap detector, are known, then the
+spectral irradiance of the sphere source can be assigned. If the area of the
+precision aperture on the integrating sphere is known, then the spectral radiance of
+the sphere can be determined. Radiation thermometers are calibrated as a system
+without separately measuring the transmittance of the lenses and characteristics of
+the components. The calibrations are performed at many different wavelengths with
+stabilised lasers.
+
+The common sources of uncertainty, described in <<common_sources>>, apply to the
+radiance method as follows:
+
+* The uncertainty in the power responsivity of the trap detector impacts directly on
+the uncertainty in the radiance responsivity of the filter radiometer.
+* The uncertainty in the gain of the transimpedance amplifiers must be considered
+for the trap amplifier during calibration and, if a different gain is used for
+calibration and use of the filter radiometer because of different signal levels, for
+the filter radiometer as well.
+* The geometric factor is derived from the two apertures added to the trap detector
+and the integrating sphere for measuring the monochromatic radiance source. The
+uncertainty analysis follows that described in <<uncertainty_geometric_factor>>, and
+the uncertainty in the geometric factor is given by <<eq24>>.
+* The wavelength scale is based on the laser used to illuminate the radiance source.
+* Out-of-band transmittance must be considered, as described in <<oob_radiation>>.
+* Stray light can be challenging to control, especially if the first aperture is
+mounted on the integrating sphere.
+
+In addition, it is necessary to consider:
+
+* The uncertainty associated with the uniformity of the integrating sphere -- both
+spatial and angular uniformity.
+* Diffraction at the apertures used to measure the integrating sphere. This is
+reduced when the first aperture is closer to the integrating sphere (but in turn
+this increases stray light).
+
+== Other Characteristics of the Filter Radiometer
+
+=== Spectral Selection and Filtering
+
+The spectral selection for the filter radiometer can be made with interference
+filters, with glass filters, or with a monochromator (prism or grating). There are
+uncertainties associated with both the calibration and use of the filter radiometer
+that depend on the chosen filtering approach.
+
+==== Glass and interference filters
+
+Interference filters applied as wavelength selecting elements in filter radiometers
+are susceptible to changes in their spectral transmittance properties (i.e., the
+centre wavelength and the integrated transmittance), mainly due to modifications of
+the optical pathlengths within the constituent dielectric material thin layers
+<<baker>>. These modifications have their origin in filter temperature changes,
+angular incidence dependence, water vapour absorption, and irreversible changes due
+to ageing.
+
+For the assessment of the uncertainty contributions due to these effects, <<eq13>>
+in <<generic_measurement>> is used:
+
+[[eq42]]
+[stem]
+++++
+ii(S) = ii(K) int_0^(oo) s(ii(lambda)) ii(L)_("b")(ii(lambda),ii(T)) "d" ii(lambda).
+++++
+
+For filter radiometers with narrowband interference filters, stem:[ii(S)] can be
+approximated as:
+
+[[eq43]]
+[stem]
+++++
+ii(S) ~~ ii(K) ii(L)_("b") (ii(lambda)_0,ii(T)) int_0^(oo) s(ii(lambda)) "d" ii(lambda) = ii(K) ii(L)_("b")(ii(lambda)_0,ii(T)) ii(I)_s,
+++++
+
+where stem:[ii(I)_s] is the integrated spectral responsivity and stem:[ii(lambda)_0]
+is the mean wavelength according to:
+
+[[eq44]]
+[stem]
+++++
+ii(lambda)_0 = (int_0^(oo)ii(lambda)s(ii(lambda))"d"ii(lambda))/(int_0^(oo)s(ii(lambda))"d"ii(lambda)).
+++++
+
+When the spectral responsivity is symmetric, stem:[ii(lambda)_0] is equal to the
+centre wavelength.
+
+[[sensitivity_to_temperature]]
+===== Sensitivity to temperature
+
+Typically <<boivin2010>>, with increasing temperature, the mean wavelength of an
+interference filter is shifted towards longer wavelengths whilst the integrated
+transmittance stem:[ii(I)_s] decreases (see <<table5>>). When considered as a unit
+with a silicon photodiode detector (i.e., a filter radiometer) and operated close to
+the bandgap wavelength range of the detector, the temperature coefficient of the
+integrated spectral responsivity is dominated by the temperature coefficient of the
+detector (see <<table6>>).
+
+[[table5]]
+[cols="^,^,^"]
+.Change in integrated transmittance, stem:[ii(I)_s], and mean wavelength, stem:[ii(lambda)_0], per temperature change for a range of interference filters.
+|===
+h| Interference Filter h| stem:[(Delta ii(I)_s//ii(I)_s)//Delta ii(T)] stem:[("unitsml(K^(-1))")] h| stem:[Delta ii(lambda)_0 // Delta ii(T)] stem:[("unitsml(pm*K^(-1))")]
+| IF450 | stem:[-3.4 xx 10^(-4)] | stem:[15]
+| IF500 | stem:[-3.1 xx 10^(-4)] | stem:[17]
+| IF650 | stem:[-4.3 xx 10^(-4)] | stem:[20]
+| IF800 | stem:[-7.9 xx 10^(-5)] | stem:[26]
+| IF900 | stem:[-9.0 xx 10^(-5)] | stem:[27]
+|===
+
+[[table6]]
+[cols="^,^,^"]
+.As for <<table5>>, but including the temperature coefficient of a silicon photodiode (i.e., for a complete filter radiometer).
+|===
+h| Filter Radiometer h| stem:[(Delta ii(I)_s//ii(I)_s)//Delta ii(T)] stem:[("unitsml(K^(-1))")] h| stem:[Delta ii(lambda)_0 // Delta ii(T)] stem:[("unitsml(pm*K^(-1))")]
+| FR800 | stem:[ -2.8 xx 10^(-4)] | stem:[33]
+| FR900 | stem:[0.2 xx 10^(-4)] | stem:[30]
+| FR1000 | stem:[13.5 xx 10^(-4)] | stem:[35]
+|===
+
+Under the assumption that Wien's approximation to Planck's law can be applied
+(VIS/NIR spectral range), when measuring a blackbody at the temperature
+stem:[ii(T)], the change, stem:[Delta ii(T)], in the measured temperature due to a
+filter/detector temperature-change-caused centre wavelength shift stem:[Delta
+ii(lambda)_0] is equal to:
+
+[[eq45]]
+[stem]
+++++
+Delta ii(T) ~~ ii(T)/(ii(lambda)_0) (5 (n ii(lambda)_0 ii(T))/(c_2)-1) Delta ii(lambda)_0.
+++++
+
+The associated uncertainty can then be calculated by assuming that the interference
+filter/detector temperature can be controlled within stem:[\+- 200 "unitsml(mK)"]
+(normal) or stem:[+- 50 "unitsml(mK)"] (best). Extensive details on how
+uncertainties in the properties of the filter radiometer's spectral responsivity
+propagate to the measured temperature are given in <<appendixA>> and <<appendixB>>.
+
+===== Sensitivity to angle of incidence
+
+As the transmittance and the centre wavelength of an interference filter change with
+the angle of incidence of the optical radiation, and, in general, the beam geometry
+during calibration (e.g., collimated) is different from that during the application
+(e.g., divergent/convergent), these changes must be taken into account in the
+uncertainty budget. For incident angles, stem:[ii(theta)], smaller than stem:[20
+"unitsml(deg)"], the centre wavelength change, stem:[Delta ii(lambda)_0], can be
+expressed as <<lissberger>>:
+
+[[eq46]]
+[stem]
+++++
+Delta ii(lambda)_0 = - ii(lambda)_0 (ii(theta)^2)/(2 ii(mu)_("eff")^2),
+++++
+
+where stem:[ii(mu)_("eff")] is the "effective refractive index" of the interference
+filter. <<eq45>> can be used to convert this to a change in measured temperature.
+
+===== Stability/Ageing
+
+The stability of interference filters with respect to observed ageing effects, in
+terms of the shift of the centre wavelength and modifications of the spectral
+transmittance, has its origin in:
+
+* modifications of the structure of the dielectric thin film layers <<meaburn>>;
+* absorption of water (moisture) by the dielectric thin film layers <<furman>>;
+* contamination of the interference filter's outer surfaces.
+
+The first effect can be ascribed to crystal growth in the (initially amorphous)
+deposited thin film dielectric layers. This time-dependent _irreversible_ process
+causes a change of the refractive index and, hence, a shift of the centre wavelength
+towards longer wavelengths. The magnitude of the wavelength shift, which can be up
+to 1 % of the centre wavelength, depends on the thermal history (i.e., the substrate
+temperature during the manufacturing process of the interference filter). By
+choosing an adequate substrate temperature (stem:[> 130 "unitsml(degC)"]) during the
+thin film deposition process, and/or if the interference filter undergoes a
+subsequent heat treatment (stem:[~90 "unitsml(degC)"]), the wavelength shift can be
+minimised <<meaburn>>. Considering that interference filter technology has evolved,
+especially in terms of process control, and that the timescale of the described
+effect is of the order of tens of hours, the wavelength shift due to a
+crystallization process within the dielectric thin film layers can be neglected when
+assessing the mid- and long-term stability.
+
+Due to the "sponge-like" fractal structure of the deposited thin film dielectric
+layers, the layers have a 10 % to 20 % (depending on the layer material) void space
+porosity, which makes them susceptible to the absorption of water. By absorbing
+moisture, the refractive index increases and consequently the centre wavelength is
+shifted towards _longer_ wavelengths. Under the assumption that this process is
+_reversible_, it has been shown <<furman>> that if interference filters previously
+exposed to environmental humidity undergo a thermal treatment (heating up to
+stem:[70 "unitsml(degC)"]), the water can be removed from the pores of the layers.
+This leads to a decrease of the refractive index and, consequently, the centre
+wavelength will shift back towards _shorter_ wavelengths. Depending on the layer
+materials, the magnitude of the observed wavelength shift varies from 0.1 % to 0.5 %
+of the centre wavelength. If the interference filter is sealed against environmental
+humidity, the observed wavelength shift is considerably lower (< 0.01 % of the
+centre wavelength).
+
+A different way to assess the stability of interference filters was followed in
+<<taubert41>>, and comprised an analysis of the calibration history of four
+different filter radiometers (FR) equipped with sealed, narrowband interference
+filters (centre wavelengths at stem:[677 "unitsml(nm)"], stem:[802 "unitsml(nm)"],
+stem:[903 "unitsml(nm)"], and stem:[1003 "unitsml(nm)"], FWHM: stem:[14
+"unitsml(nm)"] to stem:[24 "unitsml(nm)"]) in terms of the temporal change of the
+centre wavelength and the integrated spectral responsivity over a period of
+approximately 8 years. Over this period, the FRs were routinely used to measure the
+thermodynamic temperature of blackbodies in the temperature range from stem:[1000
+"unitsml(degC)"] to stem:[3000 "unitsml(degC)"]. When not being used, the FRs were
+kept under cleanroom conditions but not under humidity-controlled conditions; i.e.,
+they were exposed to the seasonal humidity variation of the laboratory. For the
+period investigated, all the FRs displayed a linear shift of the centre wavelength
+towards longer wavelengths, ranging from stem:[0.038 "unitsml(nm)"] per year to
+stem:[0.067 "unitsml(nm)"] per year, corresponding to a maximum relative wavelength
+change of 0.01 % per year. Except for one FR, the integrated spectral responsivity
+over the bandpass of all the FRs did not change significantly; the relative changes
+observed in the assessed time interval were within the uncertainty of the
+calibration. For the FR with the centre wavelength at stem:[677 "unitsml(nm)"], a
+sudden relative drop of stem:[2 xx 10^(-3)] in the integrated spectral responsivity
+was observed. After cleaning of the interference filter, the integrated responsivity
+returned to the previous value, revealing contamination as the origin of the
+observed effect.
+
+===== Fluorescence
+
+Depending on the type of filter glass selected as the substrate in the interference
+filter, and on the spectral distribution of the radiation source the interference
+filter is exposed to during its application, the interference filter can display a
+significant fluorescence effect originating from the glass substrate and/or the
+optical cement. Although glass manufacturers specify in their catalogues whether the
+filter glasses are (non-)fluorescent, except for custom-made interference filters,
+details on the internal glass/optical cement setup of interference filters are not
+always available from the filter manufacturer. If fluorescence is suspected, that is
+if an apparent increasing transmittance towards shorter wavelengths is observed
+during the filter characterisation, special experimental care must be taken  when
+these interference filters are applied in conjunction with high-temperature
+blackbodies. Generally, there is no analytical correction possible, but several
+(experimental) solutions have been presented to minimise the problem <<turner>>. The
+most accessible solution from the radiation thermometry point of view is the
+following: because the fluorescent radiation is emitted in all directions,
+independently of the (directional) incoming radiation from the source, a careful
+design of the detector optical layout (i.e., the position of the interference
+filter) can minimise the contribution of fluorescence to the detector signal.
+
+==== Monochromator-based filtering
+
+The spectral selection can be achieved by a monochromator. The advantages of a
+monochromator are that it offers the possibility of adapting to the spectral range
+in which a monochromatic source (laser) is available, and the ease of the wavelength
+calibration using spectral lamps if multiple laser wavelengths are not accessible.
+The disadvantages are mainly the poor stability, the out-of-band stray light, and
+the large dimensions and weight, which make it difficult to transport.
+
+Radiance comparators based on monochromators can be absolutely calibrated against a
+reference trap detector (with the necessary apertures of known area and distance,
+forming an ensemble called a "radiance meter" or "spectroradiometer"), but this
+calibration may not be valid for long periods due to insufficient stability of the
+monochromator. The radiance measurement would, therefore, become part of the
+measurement scheme in all cases. This method was applied in the past to the
+measurement of the thermodynamic temperature of the fixed point of copper
+<<anderson>>, <<brown>>. It is a direct radiance measurement method using a tuneable
+laser associated with an integrating sphere as a monochromatic source with a
+Lambertian distribution of the radiation.
+
+The determination of the spectral responsivity of the monochromator with the
+corresponding slits (in other words, the slit function) is a major part of the
+measurement process.
+
+===== Slit scattering function
+
+The spectral responsivity of the spectroradiometer depends on the orientation of its
+optical grating via its slit scattering function stem:[ii(R)_("slit") (ii(lambda) -
+ii(lambda)_("eff"))], where the effective wavelength stem:[ii(lambda)_("eff")] is
+defined by averaging the slit scattering function distribution,
+stem:[ii(R)(ii(lambda))], weighted by the wavelength (i.e.,
+stem:[ii(lambda)_("eff")] is the mean wavelength of the slit function):
+
+[[eq47]]
+[stem]
+++++
+ii(lambda)_("eff") = (int_0^(oo) ii(lambda) ii(R)(ii(lambda))"d" ii(lambda))/(int_0^(oo) ii(R)(ii(lambda))"d" ii(lambda)).
+++++
+
+Because the spectral width of the slit scattering function of the monochromator is
+typically narrow (a few nm), the optical responsivity,
+stem:[ii(R)_("opt")(ii(lambda))], of the monochromator should not vary significantly
+throughout the bandwidth. Within this approximation, one can write the spectral
+responsivity of the spectroradiometer as a product of the slit scattering function
+of the monochromator multiplied by a smooth optical responsivity:
+
+[[eq48]]
+[stem]
+++++
+ii(R)(ii(lambda),ii(lambda)_("eff")) = ii(R)_("slit") (ii(lambda) - ii(lambda)_("eff")) ii(R)_("opt")(ii(lambda)).
+++++
+
+The slit scattering function of the spectroradiometer
+stem:[ii(R)_("slit")(ii(lambda) - ii(lambda)_("eff"))] is recorded with a laser of
+radiance stem:[ii(L)_("laser") (ii(lambda)) = ii(L)_0 (ii(lambda)_("laser"))
+ii(delta)(ii(lambda)-ii(lambda)_("laser"))], where stem:[ii(lambda)_("laser")] is
+the laser wavelength (in air) and stem:[ii(delta)] is the Dirac delta function, and
+can be defined as a function of the voltage delivered by the spectroradiometer:
+
+[[eq49]]
+[stem]
+++++
+ii(R)_("slit") (ii(lambda)_("laser")-ii(lambda)_("eff")) = (ii(U)_("laser")(ii(lambda)_("laser")-ii(lambda)_("eff")))/(ii(I)_0(ii(lambda)_("laser"))),
+++++
+
+where stem:[ii(U)_("laser")(ii(lambda)_("laser")-ii(lambda)_("eff"))] is the voltage
+delivered by the spectroradiometer viewing the laser source tuned to
+stem:[ii(lambda)_("eff")] and with intensity stem:[ii(I)_0 (ii(lambda)_("eff"))]:
+
+[[eq50]]
+[stem]
+++++
+ii(I)_0 (ii(lambda)_("laser")) = int_0^(oo) ii(U)_("laser") (ii(lambda)_("laser") - ii(lambda)_("eff"))"d" ii(lambda)_("eff").
+++++
+
+With this definition, the slit scattering function of the spectroradiometer has a
+unit integral over optical wavelengths.
+
+===== Optical responsivity
+
+From the definition of the slit scattering function, one can express the optical
+responsivity, stem:[ii(R)_("opt")(ii(lambda)_("laser"))], of the spectroradiometer
+calibrated with the integrating sphere radiance at the laser wavelength:
+
+[[eq51]]
+[stem]
+++++
+ii(R)_("opt") (ii(lambda)_("laser")) = (ii(I)_0 (ii(lambda)_("laser")))/(ii(L)_0 (ii(lambda)_("laser"))).
+++++
+
+The optical responsivity of the spectroradiometer (see <<fig9>>) is then
+extrapolated to another wavelength stem:[ii(lambda)] using an ITS-90 fixed-point
+blackbody of known temperature (e.g., copper, at stem:[ii(T)_(90) = 1357.77
+"unitsml(K)"]):
+
+[[eq52]]
+[stem]
+++++
+ii(R)_("opt")(ii(lambda)) = (ii(L)_("b")(ii(lambda)_("laser"),ii(T)))/(ii(L)_("b")(ii(lambda),ii(T))) (ii(U)_("b")(ii(lambda),ii(T)))/(ii(U)_("b")(ii(lambda)_("laser"),ii(T))) (ii(I)_0(ii(lambda)_("laser")))/(ii(L)_0 (ii(lambda)_("laser"))).
+++++
+
+The spectral responsivity of the spectroradiometer can be fully expressed from the
+measurement variables:
+
+[[eq53]]
+[stem]
+++++
+ii(R)(ii(lambda), ii(lambda)_("eff")) = (ii(U)_("laser")(ii(lambda)-ii(lambda)_("eff")))/(ii(L)_0(ii(lambda)_("laser"))) (ii(L)_("b")(ii(lambda)_("laser"),ii(T)))/(ii(L)_("b")(ii(lambda),ii(T))) (ii(U)_("b")(ii(lambda),ii(T)))/(U_("b")(ii(lambda)_("laser"),ii(T))).
+++++
+
+This relative method used to calibrate the optical responsivity of the
+spectroradiometer is not critical as the determination of the thermodynamic
+temperature of the blackbody is performed at the laser wavelength. In these
+conditions, stem:[ii(R)(ii(lambda)_("laser"),ii(lambda)_("laser")) =
+ii(U)_("laser")(0)//ii(L)_0(ii(lambda)_("laser"))].
+
+[[fig9]]
+.Optical responsivity of a spectroradiometer.
+image::img13.png[]
+
+===== Out-of-band stray light
+
+The Czerny Turner monochromator is subject to stray light outside its narrow
+detection bandwidth. While the optical diffusion level remains negligible (about a
+few parts in stem:[10^6]), its summation over the full visible spectrum range
+represents a non-negligible fraction (about one part in stem:[10^3]) of the detected
+optical power. The out-of-band stray light correction depends on the temperature,
+stem:[ii(T)], of the blackbody, and on the measurement wavelength,
+stem:[ii(lambda)_("eff")], selected by the spectroradiometer. The out-of-band stray
+light can be defined as the signal coming from outside of the detection bandwidth
+used to compute the thermodynamic temperature. As the spectroradiometer spectral
+responsivity is recorded in a spectral bandwidth [stem:[ii(lambda)_("eff")-delta
+ii(lambda), ii(lambda)_("eff")+delta ii(lambda)] ], the signal part coming from
+outside of this spectral band must be corrected. The voltage
+stem:[ii(U)_("b")(ii(lambda)_("eff"),ii(T))] delivered by the spectroradiometer
+viewing a blackbody is then composed of an in-band signal voltage
+stem:[ii(U)_("b")^0 (ii(lambda)_("eff"),ii(T))] and an out-of-band voltage
+stem:[ii(U)_("OOB")(ii(lambda)_("eff"),ii(T))]:
+
+[[eq54]]
+[stem]
+++++
+ii(U)_("b") (ii(lambda)_("eff"),ii(T)) = ii(U)_("b")^0 (ii(lambda)_("eff"),ii(T)) + ii(U)_("OOB")(ii(lambda)_("eff"),ii(T)),
+++++
+
+where
+
+[[eq55]]
+[stem]
+++++
+ii(U)_("b")^0(ii(lambda)_("eff"),ii(T)) = int_(ii(lambda)_("eff")- ii(delta) ii(lambda))^(ii(lambda)_("eff")+ ii(delta) ii(lambda)) R(ii(lambda),ii(lambda)_("eff")) ii(L)(ii(lambda),ii(T)) "d" ii(lambda)
+++++
+
+[stem%unnumbered]
+++++
+~~ L(ii(lambda)_("eff"),ii(T)) int_(ii(lambda)_("eff")- ii(delta) ii(lambda))^(ii(lambda)_("eff")+ ii(delta) ii(lambda)) ii(R)(ii(lambda),ii(lambda)_("eff")) "d" ii(lambda)
+++++
+
+and
+
+[[eq56]]
+[stem]
+++++
+ii(U)_("OOB") (ii(lambda)_("eff"),ii(T)) = int_0^(ii(lambda)_("eff")- ii(delta) ii(lambda)) ii(R)(ii(lambda),ii(lambda)_("eff")) ii(L)(ii(lambda),ii(T)) "d" ii(lambda) + int_(ii(lambda)_("eff")+ ii(delta) ii(lambda))^(oo) ii(R)(ii(lambda),ii(lambda)_("eff")) ii(L)(ii(lambda),ii(T)) "d" ii(lambda).
+++++
+
+The value of out-of-band stray light depends on the wavelength range,
+stem:[ii(delta) ii(lambda)] chosen for the computation of the thermodynamic
+temperature. Its measurement is performed with a continuous wave, fixed wavelength
+laser whose beam is injected into an integrating sphere to produce a
+quasi-Lambertian light distribution. As laser light is coherent, optical diffusion
+on the integrating sphere wall produces optical speckle that enhances detection
+noise. The speckle pattern is filtered by time-averaging after the laser beam passes
+through a multimode optical fibre that is agitated by an ultrasonic bath. This
+method is limited by a signal-to-noise ratio of about stem:[10^5], while stem:[10^6]
+is required. Repeating the recording and averaging of the slit scattering function
+over a whole day helps to lower the noise power by one order of magnitude. The
+computed out-of-band stray light correction is given in <<table7>>. The out-of-band
+correction factor (see <<eq12>>) is defined as:
+
+[[eq57]]
+[stem]
+++++
+ii(K)_("OOB") (ii(lambda)_("eff"),ii(T)) = 1 + (ii(U)_("OOB")(ii(lambda)_("eff"),ii(T)))/(ii(U)_("b")^0(ii(lambda)_("eff"),ii(T))).
+++++
+
+[[table7]]
+[cols="^,^,^,^,^"]
+.Temperature correction (expressed in kelvin) caused by out-of-band stray light with effective detection wavelength stem:[ii(lambda)] and blackbody temperature stem:[ii(T)].
+|===
+h| stem:[ii(lambda) \\ ii(T)] h| stem:[1358 "unitsml(K)"] h| stem:[1500 "unitsml(K)"] h| stem:[2000 "unitsml(K)"] h| stem:[2750 "unitsml(K)"]
+| *stem:[730 "unitsml(nm)"]* | stem:[-0.127] | stem:[-0.128] | stem:[-0.164] | stem:[-0.263]
+| *stem:[830 "unitsml(nm)"]* | stem:[-0.084] | stem:[-0.098] | stem:[-0.159] | stem:[-0.289]
+| *stem:[910 "unitsml(nm)"]* | stem:[-0.071] | stem:[-0.086] | stem:[-0.150] | stem:[-0.285]
+|===
+
+[[table8]]
+[cols="^,^,^,^,^,^,^"]
+.Typical corrections and uncertainties related to the use of a monochromator-based spectroradiometer.
+|===
+h| Component h| Component +
+value h| Uncertainty +
+value h| Uncertainty +
+unit h| Sensitivity +
+value h| Sensitivity +
+unit h| Temperature +
+uncertainty at the +
+copper point (stem:["unitsml(K)"])
+| stem:[ii(lambda)_("eff")] | stem:[8.000043 xx 10^(-7)] | stem:[1.0 xx 10^(-11)] | stem:["unitsml(m)"] | stem:[1.7 xx 10^9] | stem:["unitsml(K*m^(-1))"] | stem:[0.017]
+| Int(stem:[ii(lambda)_("eff")]) | stem:[2.9215 xx 10^(-8)] | stem:[5.3 xx 10^(-12)] | stem:["unitsml(V*W^(-1)*m^3*sr^1)"] | stem:[3.5 xx 10^9] | stem:["unitsml(K*V^(-1)*W*m^(-3)*sr^(-1))"] | stem:[0.018]
+| stem:[ii(K)_("OOB")] | 1.0007 | stem:[2.0 xx 10^(-4)] | no unit | stem:[105] | stem:["unitsml(K)"] | stem:[0.021]
+|===
+
+== Measurement of Sources
+
+=== Sources of Uncertainty due to the Filter Radiometer
+
+[[sos_characteristic]]
+==== Size-of-source characteristic
+
+The size-of-source effect (SSE) arises from scattering and diffraction of radiation
+and from aberrations within the optical/aperture system of a filter radiometer. This
+characteristic of the optical design of the filter radiometer causes some radiation
+from within the target area (nominal field-of-view) to be lost and some radiation
+from outside the nominal field-of-view to be detected. The filter radiometer signal
+will show a dependence on the size of the target (and on changes in the radiance
+distribution surrounding the target), hence the term 'size-of-source effect'. When
+using a calibrated filter radiometer, a correction needs to be applied to the
+measured signal, as typically the source under test and the source used in the
+calibration are not the same size and do not have the same surrounding spatial
+radiance distribution.
+
+In order to quantify the size-of-source characteristic of a filter radiometer, the
+parameter stem:[q_("SSE")(r)] is introduced <<saunders2009>>, such that
+stem:[q_("SSE")(r)"d"r] represents the fraction of radiation originating from an
+annulus of infinitesimal width stem:["d"r], at a distance stem:[r] from the centre
+of the field of view, that is scattered into the field-of-view. Three equivalent
+methods have been introduced to measure the size-of-source characteristic
+<<saunders2009>>, each of which measures a slightly different quantity and is
+related to stem:[q_("SSE")(r)"d"r] in a different way. These methods can be
+categorised as either direct or indirect methods <<saunders2009>>, <<machin>>. The
+direct method, which involves increasing the size of an aperture in front of a large
+uniform source, relies implicitly on the very high stability of that source. The
+indirect methods, which block the direct illumination within the instrument's
+field-of-view, are less sensitive to the stability of the source used.
+
+For an instrument calibrated using the radiance method, the necessary correction
+depends on the difference in size (and radiance distribution) of the calibration
+source (the aperture on the integrating sphere) and the test source (the furnace and
+fixed-point or variable-temperature blackbody) and the size-of-source characteristic.
+
+For an instrument calibrated using the hybrid method, the necessary correction
+depends on the absolute SSE <<winkler>>; i.e., the difference between the measured
+signal and that obtained from an infinitely large source, where the radiation
+scattered out of the field-of-view is balanced by light scattered into the
+field-of-view.
+
+For an instrument calibrated with the irradiance or power method, the size-of-source
+characteristic is determined by the diffraction loss at the apertures. This is
+discussed in <<diffraction>>.
+
+Filter radiometers and pyrometers can be designed to minimise the size-of-source
+characteristic <<yoon-allen2005>>, and size-of-source characteristics of
+stem:[~10^(-5)] are achievable. This requires introducing a second, collimating lens
+after the second aperture and placing a baffle aperture, the so-called Lyot stop, in
+the collimated beam at a precise location.
+
+In general, the size-of-source characteristic will be lower for an instrument
+designed for the radiance-method calibration than for an instrument designed for the
+hybrid-method calibration. The size-of-source characteristic can be reduced by
+selecting a lens with low scattering <<dury>>, and by using lenses that are
+anti-reflection coated. A high-quality achromatic lens, with minimal spherical
+aberration and coma will also have a smaller size-of-source characteristic. It
+should be noted, however, that for the hybrid method, such lenses will need their
+transmittance calibrated at all wavelengths.
+
+[[sos_effect]]
+==== Size-of-source effect
+
+The size-of-source effect (SSE) arises from the combination of the instrument
+size-of-source characteristic and the uniformity of the observed source.
+
+The SSE correction <<saunders2011>>, in its general form, is given by
+
+[[eq58]]
+[stem]
+++++
+ii(S)_("cal") = [1+ ii(sigma)(ii(R)_("eff,cal"))- ii(sigma)(ii(R)_("eff,use"))] ii(S),
+++++
+
+where stem:[ii(S)_("cal")] is the corrected signal, stem:[ii(S)] is the measured
+signal and stem:[ii(sigma)(ii(R))] is the SSE quantity, related to
+stem:[q_("SSE")(r)], determined by any one of the direct or indirect methods
+available.
+
+stem:[ii(R)_("eff,use")] is the effective radius of the target, and
+stem:[ii(R)_("eff,cal")] is the effective radius of the calibration target, which
+will be infinite for irradiance-method calibrations. The effective radius of a given
+source can be calculated using
+
+[[eq59]]
+[stem]
+++++
+sigma(ii(R)_("eff")) = ii(sigma)(ii(R)_0) + 1/(ii(S)_0) sum_(i=1)^ii(N) [sigma(ii(R)_i)-ii(sigma)(ii(R)_(i-1))]ii(S)_i,
+++++
+
+where it is assumed that the surroundings of the source can be divided into
+stem:[ii(N)] distinct adjacent annular isothermal regions with radii stem:[ii(R)_i],
+whose signals measured by the filter radiometer are stem:[ii(S)_i], and
+stem:[ii(R)_0] and stem:[ii(S)_0] are the radius and measured signal, respectively,
+of the isothermal region of which the target is a part. Inherent in <<eq58>> and
+<<eq59>> is an assumption that the SSE quantity stem:[ii(sigma)] is small (close to
+0 for indirect methods or close to 1 for direct methods). Alternative correction
+equations, which depend on the particular SSE measurement method used, are available
+if this is not the case <<saunders2011>>.
+
+The uncertainty in stem:[ii(sigma)(ii(R)_("eff"))] can be calculated by propagating
+the uncertainties in stem:[ii(sigma)(ii(R))] and stem:[ii(R)] through <<eq59>>. This
+can be achieved by first fitting a function to the measured SSE data to approximate
+stem:[ii(sigma)(ii(R))]. A wide range of appropriate functions can be found in
+<<bloembergen2009>>, and the uncertainty in the fitted function,
+stem:[u(ii(sigma)(ii(R)))], can be determined using the method in
+<<saunders2003-prop>>. The uncertainty in stem:[ii(sigma)(ii(R)_("eff"))] is then
+given by:
+
+[[eq60]]
+[stem]
+++++
+u(ii(sigma)(ii(R)_("eff"))) = 1/(ii(S)_0) { u^2(ii(S)_0) [ii(sigma)(ii(R)_("eff")) - ii(sigma)(ii(R)_0)]^2 + sum_(i=1)^ii(N) u^2(ii(S)_i) [ii(sigma)(ii(R)_i) - ii(sigma)(ii(R)_(i-1))]^2
+++++
+
+[stem%unnumbered]
+++++
++ sum_(i=0)^ii(N) (ii(S)_i - ii(S)_(i+1))^2 {: [[ u^2(ii(sigma)(ii(R)_i)) + ((del ii(sigma)(ii(R)))/(del ii(R)):|:_(ii(R)=ii(R)_i))^2 u^2(ii(R)_i) ]] }^(1//2),
+++++
+
+where stem:[ii(S)_(ii(N)+1)=0] by definition.
+
+The size-of-source effect introduces a scaling factor to the measured signal.
+Rearranging <<eq58>> gives the scaling factor, stem:[ii(K)_("SSE")]:
+
+[[eq61]]
+[stem]
+++++
+ii(K)_("SSE") = ii(S)/(ii(S)_("cal")) = 1/(1+ii(sigma)(ii(R)_("eff,cal")) - ii(sigma)(ii(R)_("eff,use"))).
+++++
+
+The relative uncertainty associated with the radiance measured by the filter
+radiometer due to the SSE is equal to stem:[u(ii(K)_("SSE"))//ii(K)_("SSE")]. Normal
+and best relative uncertainties are 0.01 % and 0.002 %, respectively. Note that for
+the hybrid method, stem:[ii(R)_("eff,cal")=oo]; that it, the SSE characteristic must
+be measured out to a sufficient source diameter that it flattens off.
+
+[[linearity]]
+==== Linearity
+
+<<eq13>> for the output signal of a filter radiometer is only valid if the
+instrument, including the amplifier, responds linearly to input flux. Any departures
+from linearity should be corrected for by including the correction factor
+stem:[ii(K)_("lin")] from <<eq12>>.
+
+Methods for measuring linearity are roughly divided into two groups --
+'dual-aperture' and 'combinatorial' methods <<saunders2007>>. Dual-aperture methods
+compare the sum of two signals when two individual apertures are successively
+illuminated with the combined signal obtained when both apertures are simultaneously
+illuminated. The flux levels are progressively increased to cover the range of
+signals expected in use, and the measured non-linearity values accumulate with
+increasing flux. The most common dual-aperture method is a flux-doubling method, in
+which it is arranged that the two individual signals are approximately equal, and
+the signal levels progressively double until the highest signal level is reached.
+This method tends to produce fairly sparse data.
+
+If the linearity factor in <<eq12>> is defined as a continuous function of the
+measured signal, stem:[ii(K)_("lin") = 1//ii(eta)(ii(S)_("meas"))], then the
+linearised measured signal is simply given by
+
+[[eq62]]
+[stem]
+++++
+ii(S) = ii(eta)(ii(S)_("meas"))ii(S)_("meas").
+++++
+
+The function stem:[ii(eta)(ii(S)_("meas"))] is determined from a number of discrete
+linearity values, stem:[ii(eta)_i], which in turn are accumulated from a set of
+measured linearity values stem:[ii(eta)_("meas",i)]. For the flux-doubling method,
+it can be shown that after stem:[k] doublings, the linearity value is given by
+<<saunders2007>>
+
+[[eq63]]
+[stem]
+++++
+ii(eta)_k = ii(eta)_0 prod_(j=1)^k ii(eta)_("meas",j),
+++++
+
+where stem:[ii(eta)_0] is the linearity value at the lowest signal level. The value
+of stem:[ii(eta)_0] can be arbitrarily set to 1 for the lowest signal measured
+during calibration of the filter radiometer. The values of stem:[ii(eta)_k] can be
+interpolated to generate the continuous function stem:[ii(eta)(ii(S)_("meas"))].
+Because the values of stem:[ii(eta)_k] accumulate according to <<eq63>>, the
+uncertainties in their values are highly correlated. The uncertainties are given by
+<<saunders2007>>
+
+[[eq64]]
+[stem]
+++++
+u(ii(eta)_j) = [u^2(ii(eta)_(j-1))+u^2(ii(eta)_("meas",j))]^(1//2)" for " j=2" to "ii(N),
+++++
+
+where there are stem:[ii(N)] discrete linearity measurements, and
+stem:[u(ii(eta)_0)=0] and stem:[u(ii(eta)_1)=u(ii(eta)_("meas",1))]. The correlation
+coefficients, stem:[r(ii(eta)_j,ii(eta)_k)], between each of the uncertainty
+components are
+
+[[eq65]]
+[stem]
+++++
+r(ii(eta)_j,ii(eta)_k) ~~ {((j//k)^(1//2)," for "j<=k),((k//j)^(1//2)," for "j>k.) :}
+++++
+
+Combinatorial methods, on the other hand, use several filters and multiple paths to
+generate a large number of inter-related flux levels covering the expected range of
+signal values <<saunders2015>>, <<yoon2003>>. Non-linearity values are determined
+directly by comparing the measured signals with a model of the ideal signals using
+least-squares fitting techniques with the filter transmittances as adjustable
+parameters:
+
+[[eq66]]
+[stem]
+++++
+ii(eta)_j = (ii(S)_("ideal")(ii(phi)_j))/(ii(S)_("meas",j)),
+++++
+
+where stem:[ii(phi)_j] is the flux level for the stem:[j]th measurement. The
+stem:[ii(eta)_j] values can again be interpolated to obtain the continuous linearity
+function stem:[ii(eta)(ii(S)_("meas"))].
+
+==== Instrument temperature sensitivity (room temperature and heating from furnace)
+
+As discussed in <<sensitivity_to_temperature>>, filter radiometers are sensitive to
+their operating temperature and this sensitivity depends on the type of filter and
+the detector, as interference filters will react differently than glass filters to
+changes in temperature. FRs generally have some means of temperature stabilisation,
+but there will be some residual sensitivity. In <<boivin2010>>, Boivin _et al._
+determined the sensitivity of the spectral responsivity to changes in operating
+temperature for glass-filter-based FRs. By measuring the responsivity of the FR with
+the operating temperature of the integrated thermoelectric cooler set to stem:[20
+"unitsml(degC)"] and then stem:[40 "unitsml(degC)"], the temperature sensitivity was
+determined. The responsivity and change in responsivity with operating temperature
+is shown in <<fig10>>.
+
+If the FR is used to determine the temperature of a blackbody, the change in
+responsivity of the FR with operating temperature will lead to a change in the
+measured blackbody temperature. <<fig11>> shows the change in measured blackbody
+temperature for a stem:[1 "unitsml(K)"] change in FR operating temperature. With the
+thermoelectric system described in <<boivin2010>>, temperature stability of
+stem:[0.05 "unitsml(K)"] is achievable.
+
+[[fig10]]
+.Responsivity (blue) and the change in responsivity with temperature (red) for a glass filter, stem:["Si"] detector filter radiometer with a central wavelength near stem:[650 "unitsml(nm)"].
+image::img14.png[]
+
+[[fig11]]
+.Change in the measured temperature (of a blackbody, for example) indicated by stem:[650 "unitsml(nm)"], glass filter-based FR per degree of FR operating temperature change.
+image::img15.png[]
+
+=== Sources of Uncertainty Due to the Source
+
+==== Blackbody emissivity
+
+The Monte-Carlo method is usually used for estimating a high-temperature blackbody's
+effective emissivity <<sapritsky>>, <<prokhorov>>, <<hartmann-taubert2002>>. The
+uncertainty in the emissivity can by estimated using the same method by varying the
+cavity's surface reflectance and temperature distributions. Typical emissivities of
+large-area variable-temperature blackbodies in the visible are in the range from
+0.999 to 0.9997 with a standard uncertainty of 0.0002 to 0.0005
+<<khlevnoy-samoylov>>, <<yoon-gibson2003>>, <<hartmann2010>>. The typical emissivity
+of HTFPs is 0.9997 with a standard uncertainty of 0.0001 to 0.0002
+<<khlevnoy-grigoryeva>>, <<yamada>>. In the case of HTFP thermodynamic temperature
+measurement, the influence of the furnace cavity on the FP blackbody cavity must be
+taken into account <<bloembergen2008>>.
+
+The blackbody emissivity and the blackbody temperature measured with a filter
+radiometer are related by <<eq12>>. However, for estimation of the temperature
+uncertainty component associated with the emissivity, we can assume that the filter
+radiometer spectral bandpass is narrow enough that the monochromatic approximation
+can be applied. For typical wavelengths and temperatures, the Wien approximation can
+also be applied. Therefore, the corresponding temperature uncertainty component
+arising from the emissivity uncertainty is given by
+
+[[eq67]]
+[stem]
+++++
+u_(ii(varepsilon))(ii(T)) = (n ii(lambda)_0 ii(T)^2)/(c_2) u_("rel")(ii(varepsilon)_("BB")),
+++++
+
+where stem:[ii(T)] and stem:[ii(varepsilon)_("BB")] are the temperature and
+effective emissivity, respectively, of the blackbody, and
+stem:[u_("rel")(ii(varepsilon)_("BB"))] is the relative uncertainty in the effective
+emissivity.
+
+When using the irradiance method, a variable-temperature blackbody (VTBB) is used as
+an intermediator between an irradiance-mode filter radiometer and a radiation
+thermometer. The filter radiometer <<khlevnoy-gavrilov>>, <<hartmann2011>> is used
+for measuring the thermodynamic temperature of the blackbody and then, immediately
+after that, the blackbody is used for calibration of the radiation thermometer,
+which later is used for HTFP radiance temperature measurement. In this case the
+emissivity of the VTBB must be taken into account. Applying the monochromatic and
+Wien approximations, the signals of the filter radiometer, stem:[ii(S)_("FR")], and
+the radiation thermometer, stem:[ii(S)_("RT")], can be expressed as
+
+[[eq68]]
+[stem]
+++++
+ii(S)_("FR") = ii(R)_("eff","FR") ii(varepsilon)_("BB") (ii(lambda)_(0,"FR")) (c_1)/(n^2 ii(lambda)_(0,"FR")^5) "exp"(-(c_2)/(n ii(lambda)_(0,"FR")ii(T)_("VTBB")))
+++++
+
+and
+
+[[eq69]]
+[stem]
+++++
+ii(S)_("RT") = ii(R)_("eff","RT") ii(varepsilon)_("BB") (ii(lambda)_(0,"RT")) (c_1)/(n^2 ii(lambda)_(0,"RT")^5) "exp"(-(c_2)/(n ii(lambda)_(0,"RT")ii(T)_("VTBB"))),
+++++
+
+where stem:[ii(lambda)_(0,"FR")] and stem:[ii(lambda)_(0,"RT")] are the mean
+wavelengths of the filter radiometer and radiation thermometer, respectively,
+stem:[ii(R)_("eff","FR")] and stem:[ii(R)_("eff","RT")] are effective responsivity
+of the filter radiometer and radiation thermometer, stem:[ii(varepsilon)_("BB")
+(ii(lambda)_(0,"FR"))] and stem:[ii(varepsilon)_("BB") (ii(lambda)_(0,"RT"))] are
+the emissivities of VTBB at the mean wavelength of the filter radiometer and
+radiation thermometer, and stem:[ii(T)_("VTBB")] is the temperature of the VTBB.
+Therefore, the thermometer signal, stem:[ii(S)_("RT")], is related to the filter
+radiometer signal, stem:[ii(S)_("FR")], by:
+
+[[eq70]]
+[stem]
+++++
+ii(S)_("RT") = ii(S)_("RF") (ii(R)_("eff,RT"))/(ii(R)_("eff,FR")) (ii(varepsilon)_("BB")(ii(lambda)_(0,"RT")))/(ii(varepsilon)_("BB")(ii(lambda)_(0,"FR"))) (ii(lambda)_(0,"FR")^5)/(ii(lambda)_(0,"RT")^5) "exp" ((c_2)/(n ii(T)_(VTBB)) (1/(ii(lambda)_(0,"FR")) - 1/(ii(lambda)_(0,"RT")))).
+++++
+
+which is proportional to:
+
+[[eq71]]
+[stem]
+++++
+ii(S)_("RT") prop (ii(varepsilon)_("BB")(ii(lambda)_(0,"RT")))/(ii(varepsilon)_("BB")(ii(lambda)_(0,"FR"))) = (1 + (Delta ii(varepsilon)_("BB"))/(ii(varepsilon)_("BB")(ii(lambda)_(0,"FR")))),
+++++
+
+where stem:[Delta ii(varepsilon)_("BB")] is the difference between the emissivities
+at the two wavelengths. Because stem:[ii(varepsilon)_("BB")(ii(lambda)_(0,"FR"))] is
+very close to unity, <<eq71>> can be rewritten as
+
+[[eq72]]
+[stem]
+++++
+ii(S)_("RT") prop (1+ Delta ii(varepsilon)_("BB")).
+++++
+
+The radiance of the HTFP blackbody,
+stem:[ii(L)_("HTFP")(ii(lambda)_(0,"RT"),ii(T)_("HTFP"))], will be proportional to
+the radiation thermometer signal when it's used for the HTFP measurement. Note that
+stem:[ii(T)_("HTFP") ~~ ii(T)_("VTBB")], because the temperature of the VTBB is
+intentionally kept as close as possible to the temperature of the HTFP. Therefore,
+
+[[eq73]]
+[stem]
+++++
+ii(L)_("HTFP")(ii(lambda)_(0,"RT"),ii(T)_("HTFP")) prop ii(S)_("RT") prop (1 + Delta ii(varepsilon)_("BB")),
+++++
+
+and the HTFP blackbody radiance uncertainty component associated with the emissivity
+of the VTBB equals the uncertainty in the difference between the VTBB emissivity at
+the mean wavelength of the filter radiometer and the VTBB emissivity at the mean
+wavelength of the radiation thermometer:
+
+[[eq74]]
+[stem]
+++++
+u_(ii(varepsilon)_("BB")) (ii(L)_("HTFP")) = u(Delta ii(varepsilon)_("BB")).
+++++
+
+Filter radiometers and radiation thermometers are usually visible or near IR
+instruments. The emissivity of a VTBB in this spectral range does not depend
+strongly on wavelength and the variation is usually in the range 0.0001 to 0.0002.
+Therefore, the uncertainty stem:[u(Delta ii(varepsilon)_("BB"))] can be estimated as
+0.0001 in the typical case, and even lower for the best case.
+
+Therefore, the irradiance method, in comparison with the radiance and hybrid
+methods, has an additional uncertainty component related to the VTBB emissivity;
+however, this component is relatively small.
+
+==== For variable temperature blackbodies
+
+The stability and uniformity of a large-area variable-temperature blackbody (VTBB)
+must be taken into account when the irradiance (or power) method is applied for
+determining a HTPF's thermodynamic temperature; i.e., when an irradiance-mode filter
+radiometer (FR) is used for measuring the thermodynamic temperature of the VTBB and
+then a radiation thermometer (RT) is calibrated against the VTBB source.
+
+===== VTBB stability
+
+To minimise the effect of the VTBB instability, the FR and RT should measure the
+blackbody immediately after each other; i.e., the duration between the measurements
+with the FR and the RT should be as short as possible. Typically, a cycle of two
+measurements takes several minutes.
+
+Two methods of VTBB stabilisation can be used: active, with optical feedback; and
+passive, with a constant blackbody electric current. <<fig12>> shows typical
+stabilisation curves of the actively stabilised VNIIOFI-made blackbody BB3500MP.
+Stabilisation behaviour can change depending on the history of the blackbody (for
+instance, whether it was heated up or cooled down just before stabilisation). The
+usual instability characteristic is a monotonic drift. One can see that in the worst
+case, the drift has a rate of about 0.02 % (in terms of radiance at stem:[650
+"unitsml(nm)"]) per 5 minutes, and the noise instability is less than 0.004 %
+(calculated as the standard deviation of 10 consecutive measurements). The passive
+stabilisation method features smaller noise but can suffer from unpredictable random
+change of the drift direction. To avoid this indeterminacy, it is recommended that a
+slight current ramp is applied, leading to a monotonic temperature drift. The best
+stability result <<sperfeld1995>> achieved with this technique is stem:[0.2
+"unitsml(K//h)"] at a temperature of about stem:[3000 "unitsml(K)"]
+<<sperfeld1998>>; i.e., 0.05 % in terms of spectral radiance at stem:[650
+"unitsml(nm)"], which is comparable with the best results for the active method.
+
+Assuming linear drift of the blackbody, the following measurement sequence is
+recommended: RT -- FR -- RT (or FR -- RT -- FR). In this case, the mean value of two
+RT measurements (before and after) corresponds to the FR measurement without any
+corrections for the blackbody stability. The difference stem:[Delta ii(T)_("RT") =
+ii(T)_("RT,after")-ii(T)_("RT,before")] between the blackbody temperature measured
+by the RT before and after the FR can be used for evaluating the upper limit of the
+uncertainty component associated with VTBB stability:
+
+[[eq75]]
+[stem]
+++++
+u_("VTBB,stab") = (Delta ii(T)_("RT"))/(sqrt(12)).
+++++
+
+During the WP5 (InK WP1) for HTFP temperature measurements at VNIIOFI, stem:[Delta
+ii(T)_("RT")] varied from stem:[0.01 "unitsml(K)"] to stem:[0.05 "unitsml(K)"].
+Therefore, the corresponding uncertainty component was typically within stem:[0.01
+"unitsml(K)"] (0.009 % in terms of radiance at stem:[650 "unitsml(nm)"] at the
+temperature level corresponding to the stem:["Co"]-stem:["C"] point).
+
+[[fig12]]
+.Typical stability of the actively stabilised VTBB of the BB3500 type.
+image::img16.png[]
+
+===== VTBB uniformity
+
+A VTBB is generally not perfectly uniform. The FR and RT may view different areas of
+the VTBB's cavity bottom. Therefore, the uncertainty component
+stem:[u_("VTBB,uniform")] (and maybe a correction factor) associated with the VTBB
+uniformity must be estimated. To minimise the correction and associated uncertainty,
+the blackbody must be as uniform as possible and the geometry of the measurements
+(diameters of apertures, RT optics, and measurement distances) must be chosen in
+such a way that both detectors (RT and FR) see as close as possible the same area of
+the cavity bottom. The uniformity should be measured and then used for an estimation
+of the uncertainty.
+
+As an example, <<fig13>> shows the uniformity, plotted as a radiance distribution
+along the cavity bottom in the horizontal direction, of the blackbody BB3500M used
+at VNIIOFI as the VTBB for WP5 (WP1 of InK). The FR had an aperture of stem:[5
+"unitsml(mm)"] and was positioned at a distance of stem:[720 "unitsml(mm)"] from the
+blackbody aperture (BB aperture), whose diameter was stem:[8 "unitsml(mm)"]; the
+distance from the BB aperture to the blackbody bottom was stem:[350 "unitsml(mm)"].
+The RT had an effective lens aperture of stem:[34 "unitsml(mm)"] and was focused at
+the BB aperture; the distance from the RT lens to the BB aperture was stem:[750
+"unitsml(mm)"]. So, the FR and RT detectors saw at the BB bottom circular areas with
+diameters of about stem:[14 "unitsml(mm)"] and stem:[16 "unitsml(mm)"],
+respectively; i.e., the RT saw a larger area. To check the influence of this
+difference, the RT was moved towards the BB aperture by about stem:[40
+"unitsml(mm)"] without re-focusing, so it saw in this position an area of about
+stem:[14 "unitsml(mm)"] (similar to that of the FR). The difference between the RT
+temperature readings, stem:[Delta ii(T)_("RT,un")], taken in the two RT positions
+was stem:[0.04 "unitsml(K)"], stem:[0.03 "unitsml(K)"], and less than stem:[0.01
+"unitsml(K)"] for temperatures corresponding to the stem:["Co"]-stem:["C"],
+stem:["Pt"]-stem:["C"], and stem:["Re"]-stem:["C"] eutectic
+points, respectively. These values were applied as corrections, and the uncertainty
+component associated with the blackbody uniformity was estimated as stem:[0.02
+"unitsml(K)"] for stem:["Co"]-stem:["C"] and stem:["Pt"]-stem:["C"], and
+stem:[0.01 "unitsml(K)"] for stem:["Re"]-stem:["C"], using an approximate relation:
+
+[[eq76]]
+[stem]
+++++
+u_("VTBB,uniform") = (Delta ii(T)_("RT,un"))/(sqrt 3).
+++++
+
+The experiment described above and <<fig13>> show that the uniformity of 0.2 %
+within the observed area leads to reasonably low uncertainties in the case where
+both detectors (FR and RT) observe comparable areas of the cavity bottom.
+
+The VTBB uniformity results presented in <<fig13>> are comparable with that
+published elsewhere <<sperfeld-metzdorf1998>>. Therefore, based on the above example
+we can conclude that the normal uncertainty associated with VTBB uniformity is
+within 0.02 %, and for the best case is less than 0.01 %, in terms of radiance in
+the visible.
+
+[[fig13]]
+.Cavity bottom uniformity of the blackbody BB3500M measured at VNIIOFI for stem:["Co"]-stem:["C"], stem:["Pt"]-stem:["C"], stem:["Re"]-stem:["C"], and stem:["Cu"] points. The measurements were carried out at a wavelength of stem:[900 "unitsml(nm)"] for the stem:["Cu"] point, and stem:[650 "unitsml(nm)"] for the other three points.
+image::img17.png[]
+
+==== For fixed-points
+
+There are a number of effects related to pure-metal or eutectic fixed-points that
+lead to uncertainties in the measured temperatures of these fixed points. In
+addition to the uncertainty in effective emissivity discussed above, these include
+impurities, cavity-bottom temperature drop, and plateau identification. These
+uncertainties have been described for pure-metal fixed points in <<fischer>>. For
+the eutectic fixed-points additional uncertainties include structure effect,
+identification of the point of inflection or identification of the liquidus point,
+stability, furnace effect, and uncertainties of unknown origin. These are discussed
+in detail for stem:["Co"]-stem:["C"], stem:["Pt"]-stem:["C"], and
+stem:["Re"]-stem:["C"] in <<todd>>.
+
+== Example Uncertainty Budgets
+
+=== Uncertainty Components for Each Calibration Scheme
+
+Following the format of <<fig5>>, <<table9>> lists all the uncertainty components
+and which calibration scheme they apply to.
+
+[[table9]]
+[cols="<,^,^,^,^,^"]
+.Uncertainty components required for each method -- power, irradiance, hybrid, and radiance.
+|===
+2+<h| Uncertainty Component h| Power h| Irradiance h| Hybrid h| Radiance
+6+^h| Filter Radiometer Calibration
+
+2+| Wavelength scale | ✓ | ✓ | ✓ | ✓
+2+| Stray light in calibration | ✓ | ✓ | ✓ | ✓
+2+| Responsivity of trap detector | ✓ | ✓ | ✓ | ✓
+2+| Out-of-band effects | ✓ | ✓ | ✓ | ✓
+2+| Amplification of photocurrent | ✓ | ✓ | ✓ | ✓
+.7+.^| Geometric factor <| Distance | ✓ | ✓ | ✓ | ✓
+| FR aperture area | ✓ | | |
+| Source aperture area | ✓ | | | ✓
+| Transfer/trap aperture area | | ✓ | ✓ | ✓
+| Aperture co-alignment | ✓ | ✓ | ✓ | ✓
+| Aperture non-roundness | ✓ | ✓ | ✓ | ✓
+| Aperture change | ✓ | ✓ | ✓ | ✓
+2+| Noise | ✓ | ✓ | ✓ | ✓
+2+| FR spatial uniformity | ✓ | | |
+2+| Ageing and repeatability of trap detector | ✓ | | |
+2+| Temperature of trap detector | ✓ | | |
+2+| Diffraction | ✓ | ✓ | | ✓
+2+| Lens transmittance | | | ✓ |
+2+| Absolute SSE | | | ✓ |
+2+| Uniformity of irradiance field | | ✓ | ✓ |
+2+| SSE | | | | ✓
+6+^h| Measurement of Blackbody
+2+| Linearity | ✓ | ✓ | ✓ | ✓
+2+| FR temperature stability | ✓ | ✓ | ✓ | ✓
+2+| Effective emissivity of blackbody | ✓ | ✓ | ✓ | ✓
+2+| Source uniformity | ✓ | ✓ | ✓ | ✓
+2+| Source stability | ✓ | ✓ | ✓ | ✓
+2+| Fixed point transition definition | ✓ | ✓ | ✓ | ✓
+|===
+
+=== Uncertainty Values
+
+<<table10>> and <<table11>> give values for each uncertainty component listed in
+<<table9>>, largely taken from the uncertainty budgets in the supplementary
+information for the work reported in <<woolliams2016>>. These values are categorised
+as being "normal" and "best"; however, given the complexity of primary radiometry,
+even the "normal" uncertainties are not easily obtainable at any NMI.
+
+[[table10]]
+[cols="<,^,^,^,<"]
+.Typical contributions to the uncertainty budget for the calibration of a filter radiometer. All uncertainties are standard uncertainties.
+|===
+2+<h| Uncertainty Component h| Normal Uncertainty h| Best Uncertainty ^h| Notes
+5+^h| Filter Radiometer Calibration
+
+2+| Wavelength scale | stem:[100 "unitsml(pm)"] | stem:[0.1 "unitsml(pm)"] <a| Normal uncertainty for monochromator and best for laser system.
+2+| Stray light in calibration | 0.01 % | 0.0003 % <a| Based on the stray light values reported in <<woolliams2016>>.
+2+| Responsivity of trap detector | 0.07 % | 0.013 % <a| Absolute calibration traceable to a cryogenic radiometer.
+2+| Out-of-band effects | 0.025 % | 0.01 % <a| Based on the OOB values reported in <<woolliams2016>>.
+2+| Amplification of photocurrent | 0.0026 % | 0.001 % |
+.7+.^| Geometric factor <| Distance | 0.1 % | 0.004 % .7+.^| All expressed as uncertainties in radiance, as per <<table3>>.
+| FR aperture radius | 0.02 % | 0.01 %
+| Source aperture radius | 0.02 % | 0.01 %
+| Transfer/trap aperture radius | 0.02 % | 0.01 %
+| Aperture co-alignment | 0.01 % | 0.0001 %
+| Aperture non-roundness | 0.004 % | 0.001 %
+| Aperture change | 0.02 % | 0
+2+| Noise | 0.05% | 0.01% |
+2+| FR spatial uniformity | 0.02 % | 0.02 % <a| Only for the power method since the FR is calibrated under-filled and used overfilled.
+2+| Ageing and repeatability of trap detector | 0.03 % | 0.01 % <a| 0.01 % per year has been measured <<taubert41>>.
+2+| Temperature of trap detector | 0.01 % | 0.003 % <a| Based on the sensitivities reported in <<woolliams2016>>.
+2+| Diffraction | 0.07 % | 0.001 % <a| Diffraction at source/trap/FR depending on the method.
+2+| Lens transmittance | 0.02 % | 0.02 % |
+2+| Uniformity of irradiance field | 0.03 % | 0.013 % |
+2+| SSE | 0.01 % | 0.002 % <a| Based on the SSEs reported in <<woolliams2016>>.
+|===
+
+[[table11]]
+[cols="<,^,^,<"]
+.Typical contributions to the uncertainty budget for the measurement of a blackbody. All uncertainties are standard uncertainties.
+|===
+h| Uncertainty Component h| Normal Uncertainty h| Best Uncertainty ^h| Notes
+4+^h| Measurement of Blackbody
+| Linearity | 0.01 % | 0.002 % |
+| FR temperature stability | 0.01 % | 0.002 % |
+| Effective emissivity of blackbody | 0.008 % | 0.008 % |
+| Source uniformity | 0.02 % | 0.01 % |For VTBB.
+| Source stability | 0.12 % | 0.03 % | For VTBB.
+| Fixed-point transition definition | See <<fischer>>, <<todd>> | See <<fischer>>, <<todd>> |
+|===
+
+<<fig14>> and <<fig15>> show plots of the propagated uncertainties for measurements
+of a variable-temperature blackbody over the range stem:[1000 "unitsml(degC)"] to
+stem:[3000 "unitsml(degC)"] for each of the four calibration schemes, for the normal
+and best uncertainties, respectively, based on the values given in <<table10>> and
+<<table11>>. These curves have been calculated assuming there are no correlations
+between any of the uncertainty components. There is little difference between each
+of the schemes.
+
+[[fig14]]
+.Uncertainties for each calibration scheme, propagated from the normal values given in <<table10>> and <<table11>>.
+image::img18.png[]
+
+[[fig15]]
+.Uncertainties for each calibration scheme, propagated from the best values given in <<table10>> and <<table11>>.
+image::img19.png[]
+
+[appendix,obligation=informative]
+[[appendixA]]
+== Uncertainty Propagation Based on the Integral
+
+[[appendixA-1]]
+=== Concepts
+
+The method of propagating uncertainties directly through the integral in <<eq13>> is
+described in detail in <<woolliams2014>> and has also been published in
+<<yoon2003>>, <<woolliams2003>>, <<woolliams2006>>. This method calculates the
+sensitivity coefficients in terms of signal directly from the practical numerical
+implementation of <<eq13>>, and uses implicit differentiation to convert these into
+sensitivity coefficients in terms of temperature.
+
+In practice, <<eq13>> is solved by introducing the numerical summation (trapezium
+rule):
+
+[[eq77]]
+[stem]
+++++
+{:({:ii(S):},{:= ii(K)/2 [s_1 ii(L)_("b")(ii(lambda)_1,ii(T))(ii(lambda)_2-ii(lambda)_1) + sum_(i=2)^(ii(N)-1) s_i ii(L)_("b")(ii(lambda)_i,ii(T)) (ii(lambda)_(i+1)-ii(lambda)_(i-1)) + s_ii(N) ii(L)_("b")(ii(lambda)_ii(N),ii(T)) (ii(lambda)_ii(N) - ii(lambda)_(ii(N)-1))]:}),
+({:"":},{:= ii(K)/2 sum_(i=1)^ii(N) s_i ii(L)_("b")(ii(lambda)_i,ii(T))delta ii(lambda)_i,:}):}
+++++
+
+where the spectral responsivity has been sampled at stem:[ii(N)] wavelengths (not
+necessarily at equal wavelength intervals) with measured wavelength-spectral
+responsivity pairs stem:[(ii(lambda)_i,s_i)], and
+
+[[eq78]]
+[stem]
+++++
+delta ii(lambda)_i = {(ii(lambda)_2-ii(lambda)_1," if "i=1), (ii(lambda)_(i+1)-ii(lambda)_(i-1)," if " 1< i< ii(N)), (ii(lambda)_ii(N)-ii(lambda)_(ii(N)-1)," if "i=ii(N).) :}
+++++
+
+For a given measured value of stem:[ii(S)], the value of stem:[ii(T)] is determined
+iteratively by repeatedly evaluating the right-hand side of <<eq77>> with different
+trial values of stem:[ii(T)] until the right-hand side is equal to stem:[ii(S)]. The
+most efficient method of doing this is to use the Newton-Raphson algorithm as given
+by <<eq14>> and outlined in <<saunders2003>>.
+
+Regardless of the algorithm used to solve <<eq77>> for stem:[ii(T)], the
+_uncertainty_ in the value of stem:[ii(T)] can be determined directly from <<eq77>>
+as a function of the uncertainties in the measured stem:[(ii(lambda)_i,s_i)] values
+and the uncertainties in stem:[ii(K)] and stem:[ii(S)]. In order to calculate the
+appropriate sensitivity coefficients, it will be assumed that the errors in the
+measurements can be separated into purely random components (that is, components
+that vary independently from measurement to measurement; e.g., measurement noise)
+and purely systematic components (that is, fully correlated components that are
+constant from one measurement to the next; e.g., uniformity of reference source,
+alignment, wavelength scale offset).(Partially correlated components will not be
+considered explicitly, but can easily be accommodated using the sensitivity
+coefficients derived below.) Thus, the wavelength and responsivity measurements can
+be modelled as:
+
+[[eq79]]
+[stem]
+++++
+ii(lambda)_i = ii(lambda)_("true",i) + ii(lambda)_("ran",i) + ii(lambda)_("sys")
+++++
+
+and
+
+[[eq80]]
+[stem]
+++++
+s_i = s_("true",i)(1+s_("ran",i)+s_("sys")),
+++++
+
+where stem:[ii(lambda)_("true",i)] and stem:[s_("true",i)] are the unknown true
+values of the stem:[i]th wavelength and stem:[i]th responsivity, respectively,
+stem:[ii(lambda)_("ran",i)] is the unknown random error in the stem:[i]th
+wavelength, stem:[ii(lambda)_("sys")] is the unknown systematic error common to all
+wavelengths, stem:[s_("ran",i)] is the unknown random error in the stem:[i]th
+responsivity, and stem:[s_("sys")] is the unknown systematic error common to all
+responsivity measurements. Note that the wavelength errors are expressed as absolute
+values, while the responsivity errors are relative values. All of these errors have
+expectation values of zero, and are characterised by uncertainties
+stem:[u(ii(lambda)_("ran",i))], stem:[u(ii(lambda)_("sys"))],
+stem:[u_("rel")(s_("ran",i))], and stem:[u_("rel")(s_("sys"))], respectively. Thus,
+the expectation value of stem:[ii(lambda)_("true",i)] is stem:[ii(lambda)_i] and the
+expectation value of stem:[s_("true",i)] is stem:[s_i]. There is no need to separate
+the uncertainties in stem:[ii(K)] and stem:[ii(S)] into random and systematic
+components since the sensitivity coefficients for the random and systematic errors
+are the same as each other. Thus, there will be single combined uncertainties
+stem:[u(ii(K))] and stem:[u(ii(S))].
+
+Substituting <<eq79>> and <<eq80>> into <<eq77>> and <<eq78>> and differentiating
+with respect to each of stem:[ii(lambda)_("ran",i)], stem:[ii(lambda)_("sys")],
+stem:[s_("ran",i)], stem:[s_("sys")], stem:[ii(K)], and stem:[ii(T)] gives:
+
+[[eq81]]
+[stem]
+++++
+(del ii(S))/(del ii(lambda)_("ran",i)) = ii(K)/2 {(s_1 (del ii(L)_("b")(ii(lambda),ii(T)))/(del ii(lambda)) :|:_(ii(lambda)=ii(lambda)_1) delta ii(lambda)_1 - s_1 ii(L)_("b")(ii(lambda)_1,ii(T))-s_2 ii(L)_("b")(ii(lambda)_2,ii(T))," if "i=1), (s_i (del ii(L)_("b")(ii(lambda),ii(T)))/(del ii(lambda)) :|:_(ii(lambda)=ii(lambda)_1) delta ii(lambda)_i + s_(i-1)ii(L)_("b")(ii(lambda)_(i-1),ii(T))-s_(i+1)ii(L)_("b")(ii(lambda)_(i+1),ii(T))," if "1<i<ii(N)), (s_ii(N) (del ii(L)_("b")(ii(lambda),ii(T)))/(del ii(lambda)) :|:_(ii(lambda)=ii(lambda)_ii(N)) delta ii(lambda)_ii(N) + s_(ii(N)-1)ii(L)_("b")(ii(lambda)_(ii(N)-1),ii(T))+s_ii(N) ii(L)_("b")(ii(lambda)_ii(N),ii(T))," if "i=ii(N)",") :}
+++++
+
+[[eq82]]
+[stem]
+++++
+(del ii(S))/(del ii(lambda)_("sys")) = ii(K)/2 sum_(i=1)^ii(N) s_i (del ii(L)_("b")(ii(lambda),ii(T)))/(del ii(lambda)) :|:_(ii(lambda)=ii(lambda)_i) delta ii(lambda)_i,
+++++
+
+[[eq83]]
+[stem]
+++++
+(del ii(S))/(del s_("ran",i)) = ii(K)/2 s_i ii(L)_("b") (ii(lambda)_i,ii(T)) ii(delta) ii(lambda)_i,
+++++
+
+[[eq84]]
+[stem]
+++++
+(del ii(S))/(del s_("sys")) = ii(S),
+++++
+
+[[eq85]]
+[stem]
+++++
+(del ii(S))/(del ii(K)) = ii(S)/ii(K),
+++++
+
+and
+
+[[eq86]]
+[stem]
+++++
+(del ii(S))/(del ii(T)) = ii(K)/2 sum_(i=1)^ii(N) s_i (del ii(L)_("b")(ii(lambda),ii(T)))/(del ii(T)) :|:_(ii(lambda)=ii(lambda)_i) ii(delta) ii(lambda)_i
+++++
+
+where
+
+[[eq87]]
+[stem]
+++++
+(del ii(L)_("b")(ii(lambda),ii(T)))/(del ii(lambda)) :|:_(ii(lambda)= ii(lambda)_i) = (ii(L)_("b")(ii(lambda)_i,ii(T)))/(ii(lambda)_i) [(c_2)/(n ii(lambda)_i ii(T) [1-"exp"(-c_2//(nii(lambda)_i ii(T)))])-5]
+++++
+
+[stem%unnumbered]
+++++
+~~ (ii(L)_("b")(ii(lambda)_i,ii(T)))/(ii(lambda)_i) [(c_2)/(n ii(lambda)_i ii(T))-5] " (Wien approximation)"
+++++
+
+and
+
+[[eq88]]
+[stem]
+++++
+(del ii(L)_("b")(ii(lambda),ii(T)))/(del ii(T)) :|:_(ii(lambda)=ii(lambda)_i) = (c_2)/(n ii(lambda)_i ii(T)^2 [1-"exp"(-c_2//(n ii(lambda)_i ii(T)))]) ii(L)_("b")(ii(lambda)_i,ii(T))
+++++
+
+[stem%unnumbered]
+++++
+~~ (c_2)/(n ii(lambda)_i ii(T)^2)ii(L)_("b")(ii(lambda)_i,ii(T))" (Wien approximation)."
+++++
+
+The sensitivity coefficients for temperature are obtained by applying the rule for
+implicit differentiation:
+
+[[eq89]]
+[stem]
+++++
+(del ii(T))/(del ii(lambda)_("ran",i)) = -(del ii(S))/(del ii(lambda)_("ran",i)) // (del ii(S))/(del ii(T)),
+++++
+
+[[eq90]]
+[stem]
+++++
+(del ii(T))/(del ii(lambda)_("sys")) = - (del ii(S))/(del ii(lambda)_("sys")) // (del ii(S))/(del ii(T)),
+++++
+
+[[eq91]]
+[stem]
+++++
+(del ii(T))/(del s_("ran",i)) = -(del ii(S))/(del s_("ran",i)) // (del ii(S))/(del ii(T)),
+++++
+
+[[eq92]]
+[stem]
+++++
+(del ii(T))/(del s_("sys")) = -(del ii(S))/(del s_("sys")) // (del ii(S))/(del ii(T)),
+++++
+
+[[eq93]]
+[stem]
+++++
+(del ii(T))/(del ii(K)) = -(del ii(S))/(del ii(K)) // (del ii(S))/(del ii(T)),
+++++
+
+[[eq94]]
+[stem]
+++++
+(del ii(T))/(del ii(S)) = 1/(del ii(S)// del ii(T)).
+++++
+
+The uncertainty in temperature is given by the GUM law for propagation of
+uncertainty as
+
+[[eq95]]
+[stem]
+++++
+u^2(ii(T)) = sum_(i=1)^ii(N) [((del ii(T))/(del ii(lambda)_("ran",i)) u(ii(lambda)_("ran",i)))^2 + ((del ii(T))/(del s_("ran",i)) u_("rel")(s_("ran",i)))^2]
+++++
+
+[stem%unnumbered]
+++++
++((del ii(T))/(del ii(lambda)_("sys")) u(ii(lambda)_("sys")))^2 + ((del ii(T))/(del s_("sys"))u_("rel")(s_("sys")))^2 + ((del ii(T))/(del ii(K))u(ii(K)))^2 + ((del ii(T))/(del ii(S)) u(ii(S)))^2
+++++
+
+with the addition of any correlated components. For example, the uncertainties
+stem:[u(ii(K))] and stem:[u(ii(S))] may be partially correlated.
+
+[[appendixA-2]]
+=== GUM Tree Calculator (GTC)
+
+While the equations in <<appendixA-1>> look fearsome, with care they can be easily
+implemented in a software language of choice or in a spreadsheet application.
+Alternatively, a powerful technique, known as GUM Tree Calculator (GTC), which can
+automatically propagate uncertainties through any equation or series of
+inter-related equations, can be used. GTC can also propagate uncertainties through
+iterative algorithms, such as the Newton-Raphson algorithm. GTC is described in
+<<hall>> and is available for download from the MSL website <<gtc>>. GTC can be used
+as an interactive calculator, or as a batch processing tool. It is self-contained
+(requiring no supporting software) and programmable using the Python language.
+
+GTC uses a special data type, called an uncertain number, to represent quantities
+that have been measured, or estimated in some way. They are the key feature of GTC
+that distinguishes it from other data processing tools. An uncertain number in GTC
+is a variable data structure containing a value, a standard uncertainty, and a
+number of degrees of freedom. Correlation coefficients for any two uncertain numbers
+can also be assigned. Thus, when propagating uncertainties through <<eq77>>, each of
+the stem:[ii(lambda)_i] and stem:[s_i] measurements are treated as uncertain numbers
+with both random and systematic uncertainty components. When using Python, for
+example, coding of <<eq77>> is carried out with these uncertain-number variables in
+the same way that the integral would be coded using normal singlevalue variables.
+Then the Newton-Raphson algorithm (or any other suitable algorithm) can be applied,
+using the same uncertain-number variables, to determine the value of stem:[ii(T)].
+GTC automatically propagates the uncertainties through these calculations, using the
+method of automatic differentiation, which uses the chain rule of calculus, to
+implement the GUM propagation law. GTC will deliver a value, standard uncertainty,
+and number of degrees of freedom for stem:[ii(T)], and also provide a complete
+uncertainty budget if required.
+
+[[appendixA-3]]
+=== How to Apply the Method for Different Sources of Uncertainty
+
+This method is applied by calculating the sensitivity coefficients in <<eq89>> to
+<<eq94>> and combining the uncertainty components using <<eq95>>. The appropriate
+sensitivity coefficients for common sources of uncertainty are calculated as follows.
+
+[%unnumbered]
+[cols="3*"]
+|===
+h| Effect h| Notes h| Calculation
+a| Spectral responsivity of trap detector, stem:[s_("trap")] a| If spectral in stem:[s(ii(lambda))], possibly affects all of stem:[u(ii(lambda)_("ran",i))], stem:[u(ii(lambda)_("sys"))], stem:[u_("rel")(s_("ran",i))], and stem:[u_("rel")(s_("sys"))]. Otherwise in stem:[ii(K)]. a| <<eq89>> to <<eq92>> +
+or +
+{nbsp} +
+stem:[(del ii(T))/(del s_("trap")) = (del ii(K))/(del s_("trap")) (del ii(T))/(del ii(K))] +
+{nbsp} +
+stem:[(del ii(K))/(del ii(tau)_("trap")) = ii(K)/(ii(tau)_("trap"))] +
+{nbsp} +
+stem:[(del ii(T))/(del ii(K))] from <<eq93>>. +
+{nbsp}
+
+| Geometric factor, stem:[g] a| Uncertainty associated with geometric factor given by <<eq24>> and <<eq28>>. Then in stem:[ii(K)].
+a| stem:[(del ii(K))/(del g) = ii(K)/g] +
+{nbsp} +
+stem:[(del ii(T))/(del ii(K))] from <<eq93>>.
+{nbsp}
+
+| Amplifier gain, stem:[ii(G)] | In stem:[ii(K)].
+a| stem:[(del ii(K))/(del ii(G)) = ii(K)/ii(G)] +
+{nbsp} +
+stem:[(del ii(T))/(del ii(K))] from <<eq93>>. +
+{nbsp}
+| Wavelength scale accuracy a| This produces uncertainty components stem:[u(ii(lambda)_("ran",i))] and stem:[u(ii(lambda)_("sys"))]. However, if the accuracy can be considered a spectral offset, it can be considered a simple uncertainty component stem:[u(ii(lambda)_("sys"))] only. | <<eq89>> and <<eq90>>.
+| Filter stability a| This will affect the shape of stem:[s(ii(lambda))] and hence possibly all of stem:[u(ii(lambda)_("ran",i))], stem:[u(ii(lambda)_("sys"))], stem:[u_("rel")(s_("ran",i))], and stem:[u_("rel")(s_("sys"))]. | <<eq89>> to <<eq92>>.
+| Instrument stability and noise | This affects the measured signal, stem:[S]. | <<eq94>>.
+| Size-of source effect, stem:[ii(K)_("SSE")] | In stem:[ii(K)].
+a| stem:[(del ii(K))/(del ii(K)_("SSE")) = ii(K)/(ii(K)_("SSE"))] +
+{nbsp} +
+stem:[(del ii(T))/(del ii(K))] from <<eq93>>. +
+{nbsp}
+| Linearity, stem:[ii(K)_("lin")] | In stem:[ii(K)].
+a| stem:[(del ii(K))/(del ii(K)_("lin")) = (K)/(ii(K)_("lin"))] +
+{nbsp} +
+stem:[(del ii(T))/(del ii(K))] from <<eq93>>. +
+{nbsp}
+
+| Blackbody emissivity, stem:[ii(varepsilon)] a| In stem:[ii(S)] when measuring a blackbody at an unknown temperature.
+a| stem:[(del ii(T))/(del ii(varepsilon)) = (del ii(S))/(del ii(varepsilon)) (del ii(T))/(del ii(S))] +
+{nbsp} +
+stem:[(del ii(S))/(del ii(varepsilon)) = ii(S)/ii(varepsilon)] +
+{nbsp} +
+stem:[(del ii(T))/(del ii(S))] from <<eq94>>.
+{nbsp}
+
+a| Blackbody stability, ability to define melt and similar | As above. |
+a| Hybrid method: lens transmittance
+a| If spectral in stem:[s(ii(lambda))], possibly affects all of stem:[u(ii(lambda)_("ran",i))], stem:[u(ii(lambda)_("sys"))], stem:[u_("rel")(s_("ran",i))], and stem:[u_("rel")(s_("sys"))]. But normally stem:[ii(K)]. a| <<eq87>> to <<eq92>> +
+or +
+{nbsp} +
+stem:[(del ii(T))/(del ii(tau)_("abs")) = (del ii(K))/(del ii(tau)_("abs")) (del ii(T))/(del ii(K))] +
+{nbsp} +
+stem:[(del ii(K))/(del ii(tau)_("abs")) = ii(K)/(ii(tau)_("abs"))] +
+{nbsp} +
+stem:[(del ii(T))/(del ii(K))] from <<eq93>>. +
+{nbsp}
+a| Power method: uniformity of detector .3+| These can all be considered as a relative uncertainty within stem:[ii(K)]. .3+| stem:[(del ii(T))/(del ii(K))] from <<eq93>>.
+a| Radiance method: angular uniformity of the calibration source
+a| Irradiance/hybrid method: spatial uniformity of the calibration irradiance field
+|===
+
+[appendix,obligation=informative]
+[[appendixB]]
+== Uncertainty Propagation Based on Key Spectral Parameters
+
+=== Concepts
+
+An alternative method of propagating the uncertainties in the spectral responsivity
+measurements to the measured temperature redefines the integral in <<eq13>> in terms
+of key spectral parameters of the filter radiometer. This method is most fully
+described in <<saunders2011-uncertainties>>.
+
+For the purpose of calculating temperature and its uncertainty, the measurement
+equation, <<eq13>>, can be approximated by the Planck version of the Sakuma-Hattori
+equation <<sakuma>>:
+
+[[eq96]]
+[stem]
+++++
+ii(S)(ii(T)) = ii(C)/("exp"((c_2)/(ii(AT) + ii(B)))-1),
+++++
+
+where stem:[ii(A)], stem:[ii(B)], and stem:[ii(C)] are parameters related to the
+optical properties of the filter radiometer. This approximation is valid for small
+footnote:[The approximation, when the relative bandwidth is less than stem:[0.01],
+e.g., for a stem:[650 "unitsml(nm)"] filter radiometer with bandwidth (full-width at
+half maximum) less than about stem:[20 "unitsml(nm)"], typically creates an error
+smaller than stem:[3 "unitsml(mK)"] over the temperature range stem:[600
+"unitsml(degC)"] to stem:[3000 "unitsml(degC)"].] values of the relative bandwidth,
+stem:[r = ii(sigma)//ii(lambda)_0], of the spectral responsivity <<saunders2004>>.
+In this case <<saunders2003-physical>>
+
+[[eq97]]
+[stem]
+++++
+ii(A) = n ii(lambda)_0(1-6r^2),
+++++
+
+[[eq98]]
+[stem]
+++++
+ii(B) = (c_2)/2 r^2,
+++++
+
+[[eq99]]
+[stem]
+++++
+ii(C) = ii(K) (c_1)/(n^2ii(lambda)_0^5) (1+15r^2) int_0^(oo) s(ii(lambda)) "d" ii(lambda) = ii(H)/(n^2 ii(lambda)_0^5) (1+15r^2),
+++++
+
+where stem:[ii(lambda)_0] and stem:[ii(sigma)] are the mean wavelength and standard
+deviation (which is a measure of the bandwidth), respectively, of the spectral
+responsivity (as measured in air), stem:[n] is the refractive index of air, and
+stem:[ii(K)] (as described in <<generic_measurement>>) includes any optical,
+geometrical, and electrical quantities not included in stem:[s(ii(lambda))].
+
+An advantage of using the approximation given by <<eq96>> is that it can be
+rearranged to give stem:[ii(T)] directly as a function of stem:[ii(S)]:
+
+[[eq100]]
+[stem]
+++++
+ii(T) = (c_2)/(ii(A) "ln"(ii(C)/ii(S) +1)) - ii(B)/ii(A),
+++++
+
+so that once stem:[ii(A)], stem:[ii(B)], and stem:[ii(C)] have been calculated from
+stem:[ii(H)], stem:[ii(lambda)_0], and stem:[ii(sigma)], <<eq100>> can be used to
+calculate the temperature directly from subsequent measurements of stem:[ii(S)].
+
+The values of stem:[ii(H)], stem:[ii(lambda)_0], and stem:[ii(sigma)] can be
+calculated from stem:[s(ii(lambda))] through the following integrals
+<<saunders2003-physical>>:
+
+[[eq101]]
+[stem]
+++++
+ii(H) = ii(K) c_1 int_0^(oo) s(ii(lambda))"d" ii(lambda),
+++++
+
+[[eq102]]
+[stem]
+++++
+ii(lambda)_0 = (int_0^(oo)ii(lambda) s(ii(lambda))"d" ii(lambda))/(int_0^(oo)s(ii(lambda))"d" ii(lambda)),
+++++
+
+[[eq103]]
+[stem]
+++++
+ii(sigma)^2 = (int_0^(oo)(ii(lambda)-ii(lambda)_0)^2s(ii(lambda))" d" ii(lambda))/(int_0^(oo)s(ii(lambda)) "d" ii(lambda)).
+++++
+
+<<eq96>> to <<eq99>> and <<eq101>> to <<eq103>> form the basis of the uncertainty
+analysis. Uncertainties in the values of stem:[ii(H)], stem:[ii(lambda)_0], and
+stem:[ii(sigma)], and additionally stem:[n] and stem:[c_2], can be propagated
+through <<eq96>> using the following sensitivity coefficients:
+
+[[eq104]]
+[stem]
+++++
+(del ii(T))/(del ii(H)) = -(del ii(S))/(del ii(H)) // (del ii(S))/(del ii(T)) ~~ -(n ii(lambda)_0 ii(T)^2 ii(P))/(c_2) 1/ii(H),
+++++
+
+[[eq105]]
+[stem]
+++++
+(del ii(T))/(del ii(lambda)_0) = -(del ii(S))/(del ii(lambda)_0) // (del ii(S))/(del ii(T)) ~~ ii(T)/(ii(lambda)_0) (5(n ii(lambda)_0 ii(TP))/(c_2)-1),
+++++
+
+[[eq106]]
+[stem]
+++++
+(del ii(T))/(del ii(sigma)) = -(del ii(S))/(del ii(sigma)) // (del ii(S))/(del ii(T)) ~~ -((30n ii(T)^2 ii(P))/(c_2) - (12 ii(T))/(ii(lambda)_0) + (c_2)/(n ii(lambda)_0^2)) ii(sigma)/(ii(lambda)_0),
+++++
+
+[[eq107]]
+[stem]
+++++
+(del ii(T))/(del n) = -(del ii(S))/(del n) // (del ii(S))/(del ii(T)) ~~ ii(T)/n (2(nii(lambda)_0 ii(TP))/(c_2)-1),
+++++
+
+[[eq108]]
+[stem]
+++++
+(del ii(T))/(del c_2) = - (del ii(S))/(del c_2) // (del ii(S))/(del ii(T)) = ii(T)/(c_2),
+++++
+
+where
+
+[[eq109]]
+[stem]
+++++
+ii(P) = 1-"exp"((-c_2)/(n ii(lambda)_0 ii(T))).
+++++
+
+All of these components are determined during the calibration of the filter
+radiometer. Additionally, the uncertainty in measuring stem:[ii(S)] during use when
+determining the unknown temperature is propagated to stem:[ii(T)] by the sensitivity
+coefficient
+
+[[eq110]]
+[stem]
+++++
+(del ii(T))/(del ii(S)) = 1/(del ii(S) // del ii(T)) ~~ (n ii(lambda)_0 ii(T)^2 ii(P))/(c_2) 1/ii(S).
+++++
+
+The approximations indicated by the stem:[~~] symbol in <<eq104>> to <<eq107>> and
+<<eq110>> arise from neglecting terms in the derivatives of order stem:[r^2] or
+higher (narrowband approximation). Additionally, the Wien approximation can be
+applied by replacing stem:[ii(P)] with 1.
+
+Each of the uncertainty components discussed in the main text can be identified with
+one of the six sensitivity coefficients of <<eq104>> to <<eq108>> or <<eq110>>, and
+contribute towards one of the uncertainty values stem:[u(ii(lambda)_0)],
+stem:[u(ii(sigma))], stem:[u(ii(H))], stem:[u(n)], stem:[u(c_2)], or
+stem:[u(ii(S))]. The total standard uncertainty in the calculated value of
+stem:[ii(T)] is evaluated from the GUM formula:
+
+[[eq111]]
+[stem]
+++++
+u^2(ii(T)) = ((del ii(T))/(del ii(lambda)_0) u(ii(lambda)_0))^2 +((del ii(T))/(del ii(sigma)) u(ii(sigma)))^2 + ((del ii(T))/(del ii(H))u(ii(H)))^2
+++++
+
+[stem%unnumbered]
+++++
++ ((del ii(T))/(del n)u(n))^2 + ((del ii(T))/(del c_2)u(c_2))^2 + ((del ii(T))/(del ii(S))u(ii(S)))^2
+++++
+
+with the addition of any correlated components. The narrowband and Wien
+approximations indicated above introduce insignificant error (typically less than
+stem:[3 "unitsml(mK)"]) into the calculated value of the total standard uncertainty
+for realistic values of the parameters. Because the uncertainties stem:[u(n)] and
+stem:[u(c_2)] are small, the fourth and fifth terms in <<eq111>> are negligible and
+can be removed from the equation. In fact, after the redefinition of the SI in 2019,
+stem:[u(c_2)] will be identically zero, since stem:[c_2=hc//k] and stem:[h],
+stem:[c], and stem:[k] will all have defined values. Similarly, the component of
+uncertainty in stem:[ii(H)] due to stem:[c_1] is also negligible, and will be
+identically zero after the redefinition since stem:[c_1 = 2hc^2].
+
+The uncertainties stem:[u(ii(H))], stem:[u(ii(lambda)_0)], and stem:[u(ii(sigma))]
+can be derived from the uncertainties stem:[u(ii(lambda)_("ran",i))],
+stem:[u(ii(lambda)_("sys"))], stem:[u_("rel")(s_("ran",i))],
+stem:[u_("rel")(s_("sys"))], and stem:[u(ii(K))] in a similar fashion to the method
+in <<appendixA>>. That is, each of the integrals in <<eq101>> to <<eq103>> can be
+expressed as numerical summations (given by the trapezium rule) in terms of the
+measured stem:[(ii(lambda)_i,s_i)] pairs, and the appropriate sensitivity
+coefficients calculated.
+
+The sensitivity coefficients for stem:[ii(H)] are:
+
+[[eq112]]
+[stem]
+++++
+(del ii(H))/(del ii(lambda)_("ran",i)) = (ii(K) c_1)/2 {(-s_1-s_2," if "i=1), (s_(i-1)-s_(i+1), " if " 1 < i < ii(N)), (s_(ii(N)-1)+s_ii(N)," if "i=ii(N)",") :}
+++++
+
+[[eq113]]
+[stem]
+++++
+(del ii(H))/(del ii(lambda)_("sys")) = 0,
+++++
+
+[[eq114]]
+[stem]
+++++
+(del ii(H))/(del s_("ran",i)) = (ii(K) c_1)/2 s_i ii(delta) ii(lambda)_i,
+++++
+
+[[eq115]]
+[stem]
+++++
+(del ii(H))/(del s_("sys")) = ii(H),
+++++
+
+and
+
+[[eq116]]
+[stem]
+++++
+(del ii(H))/(del ii(K)) = ii(H)/ii(K),
+++++
+
+where stem:[ii(delta) ii(lambda)_i] is given by <<eq78>> in <<appendixA>>. The
+uncertainty stem:[u(ii(H))] is then obtained from:
+
+[[eq117]]
+[stem]
+++++
+u^2(ii(H)) = sum_(i=1)^ii(N) [((del ii(H))/(del ii(lambda)_("ran",i))u(ii(lambda)_("ran",i)))^2 + ((del ii(H))/(del s_("ran",i)) u_("rel")(s_("ran",i)))^2]
+++++
+
+[stem%unnumbered]
+++++
++ ii(H)^2 u_("rel")^2(s_("sys")) + ii(H)^2 u_("rel")^2(K).
+++++
+
+The sensitivity coefficients for stem:[ii(lambda)_0] are:
+
+[[eq118]]
+[stem]
+++++
+(del ii(lambda)_0)/(del ii(lambda)_("ran",i)) = (ii(K) c_1)/(2 ii(H)) {(s_1 ii(delta) ii(lambda)_1 - s_1(ii(lambda)_1-ii(lambda)_0)-s_2(ii(lambda)_2-ii(lambda)_0)," if "i=1), (s_i ii(delta) ii(lambda)_i + s_(i-1)(ii(lambda)_(i-1)-ii(lambda)_0)-s_(i+1)(ii(lambda)_(i+1)-ii(lambda)_0)," if "1<i<ii(N)), (s_ii(N) ii(delta) ii(lambda)_ii(N) + s_(ii(N)-1)(ii(lambda)_(ii(N)-1)-ii(lambda)_0)+s_ii(N)(ii(lambda)_ii(N) - ii(lambda)_0)," if "i=ii(N)",") :}
+++++
+
+[[eq119]]
+[stem]
+++++
+(del ii(lambda)_0)/(del ii(lambda)_("sys")) = 1,
+++++
+
+[[eq120]]
+[stem]
+++++
+(del ii(lambda)_0)/(del s_("ran",i)) = (ii(K) c_1s_i delta ii(lambda)_i)/(2 ii(H)) (ii(lambda)_i - ii(lambda)_0),
+++++
+
+and
+
+[[eq121]]
+[stem]
+++++
+(del ii(lambda)_0)/(del s_("sys")) = 0.
+++++
+
+Note that in <<eq118>> and <<eq120>> stem:[ii(K) c_1//ii(H) =
+[int_0^(oo)s(ii(lambda))"d" ii(lambda)\]^(-1)], the inverse of the area under the
+spectral responsivity curve (i.e., stem:[del ii(lambda)_0 // del
+ii(lambda)_("ran",i)] and stem:[del ii(lambda)_0 // del s_("ran",i)] are independent
+of stem:[ii(K)] and stem:[c_1], as expected from <<eq102>> and <<eq103>>). The
+uncertainty stem:[u(ii(lambda)_0)] is then obtained from:
+
+[[eq122]]
+[stem]
+++++
+u^2(ii(lambda)_0) = sum_(i=1)^ii(N) [((del ii(lambda)_0)/(del ii(lambda)_("ran",i)) u(ii(lambda)_("ran",i)))^2 + ((del ii(lambda)_0)/(del s_("ran",i))u_("rel")(s_("ran",i)))^2] + u^2(ii(lambda)_("sys")).
+++++
+
+The sensitivity coefficients for stem:[ii(sigma)] are:
+
+[[eq123]]
+[stem]
+++++
+(del ii(sigma))/(del ii(lambda)_("ran",i)) = (ii(K) c_1)/(4 ii(sigma) ii(H)) { (2s_1(ii(lambda)_1-ii(lambda)_0) ii(delta)(ii(lambda)_1) - s_1[(ii(lambda)_1-ii(lambda)_0)^2 - ii(sigma)^2] - s_2[(ii(lambda)_2-ii(lambda)_0) - ii(sigma)^2]," if "i=1), (2s_i(ii(lambda)_i-ii(lambda)_0) ii(delta) ii(lambda)_i + s_(i-1)[(ii(lambda)_(i-1)-ii(lambda)_0)^2 - ii(sigma)^2] - s_(i+1)[(ii(lambda)_(i+1)-ii(lambda)_0)^2 - ii(sigma)^2]," if "1 < i < ii(N)), (2s_ii(N)(ii(lambda)_ii(N) - ii(lambda)_0) ii(delta) ii(lambda)_ii(N) + s_(ii(N)-1)[(ii(lambda)_(ii(N)-1)-ii(lambda)_0)^2 - ii(sigma)^2] + s_ii(N) [(ii(lambda)_ii(N) - ii(lambda)_0)^2 - ii(sigma)^2]," if "i=ii(N)",") :}
+++++
+
+and
+
+[[eq124]]
+[stem]
+++++
+(del ii(sigma))/(del ii(lambda)_("sys")) = 0,
+++++
+
+[[eq125]]
+[stem]
+++++
+(del ii(sigma))/(del s_("ran",i)) = (s_i ii(delta) ii(lambda)_i ii(K) c_1)/(4 ii(sigma) ii(H)) [(ii(lambda)_i - ii(lambda)_0)^2 - ii(sigma)^2],
+++++
+
+and
+
+[[eq126]]
+[stem]
+++++
+(del ii(sigma))/(del s_("sys")) = 0.
+++++
+
+Again, stem:[del ii(sigma)// del ii(lambda)_("ran",i)] and stem:[del ii(sigma)// del
+s_("ran",i)] are independent of stem:[ii(K)] and stem:[c_1] since
+stem:[ii(K)c_1//ii(H)] is equal to the inverse of the area under the spectral
+responsivity curve. The uncertainty stem:[u(ii(sigma))] is obtained from:
+
+[[eq127]]
+[stem]
+++++
+u^2(ii(sigma)) = sum_(i=1)^ii(N) [((del ii(sigma))/(del ii(lambda)_("ran",i)) u(ii(lambda)_("ran",i)))^2 + ((del ii(sigma))/(del s_("ran",i)) u_("rel")(s_("ran",i)))^2].
+++++
+
+Finally, because stem:[ii(H)], stem:[ii(lambda)_0], and stem:[ii(sigma)] are all
+calculated from the same stem:[(ii(lambda)_i,s_i)] data, their uncertainties will be
+correlated. For any two of these quantities, stem:[ii(X)_1] and stem:[ii(X)_2], the
+covariance is:
+
+[[eq128]]
+[stem]
+++++
+u(ii(X)_1,ii(X)_2) = sum_(i=1)^ii(N) (del ii(X)_1)/(del ii(lambda)_("ran",i)) (del ii(X)_2)/(del ii(lambda)_("ran",i)) u^2(ii(lambda)_("ran",i)) + sum_(i=1)^ii(N) (del ii(X)_1)/(del s_("ran",i)) (del ii(X)_2)/(del s_("ran",i)) u_("rel")^2 (s_("ran",i))
+++++
+
+[stem%unnumbered]
+++++
++ (del ii(X)_1)/(del ii(lambda)_("sys")) (del ii(X)_2)/(del ii(lambda)_("sys")) u^2(ii(lambda)_("sys")) + (del ii(X)_1)/(del s_("sys")) (del ii(X)_2)/(del s_("sys")) u_("rel")^2 (s_("sys")).
+++++
+
+Thus
+
+[[eq129]]
+[stem]
+++++
+u(ii(H),ii(lambda)_0) = sum_(i=1)^ii(N) [(del ii(H))/(del ii(lambda)_("ran",i)) (del ii(lambda)_0)/(del ii(lambda)_("ran",i)) u^2(ii(lambda)_("ran",i)) + (del ii(H))/(del s_("ran",i)) (del ii(lambda)_0)/(del s_("ran",i)) u_("rel")^2(s_("ran",i))],
+++++
+
+[[eq130]]
+[stem]
+++++
+u(ii(H), ii(sigma)) = sum_(i=1)^ii(N) [(del ii(H))/(del ii(lambda)_("ran",i)) (del ii(sigma))/(del ii(lambda)_("ran",i)) u^2(ii(lambda)_("ran",i)) + (del ii(H))/(del s_("ran",i)) (del ii(sigma))/(del s_("ran",i)) u_("rel")^2(s_("ran",i))],
+++++
+
+and
+
+[[eq131]]
+[stem]
+++++
+u(ii(lambda)_0,ii(sigma)) = sum_(i=1)^ii(N) [(del ii(lambda)_0)/(del ii(lambda)_("ran",i)) (del ii(sigma))/(del ii(lambda)_("ran",i)) u^2(ii(lambda)_("ran",i)) + (del ii(lambda)_0)/(del s_("ran",i)) (del ii(sigma))/(del s_("ran",i)) u_("rel")^2 (s_("ran",i))].
+++++
+
+These correlated components should be added to <<eq111>> when calculating the total
+uncertainty in the value of stem:[ii(T)]. The additional terms to be added to
+stem:[u^2(T)] are:
+
+[[eq132]]
+[stem]
+++++
+2[(del ii(T))/(del ii(H)) (del ii(T))/(del ii(lambda)_0) u(ii(H), ii(lambda)_0) + (del ii(T))/(del ii(H)) (del ii(T))/(del ii(sigma)) u(ii(H),ii(sigma)) + (del ii(T))/(del ii(lambda)_0) (del ii(T))/(del ii(sigma)) u(ii(lambda)_0, ii(sigma))].
+++++
+
+However, in practice, these terms are generally negligible compared to those in
+<<eq111>> and can be ignored.
+
+Once again, GUM Tree Calculator (GTC), as described in <<appendixA-2>>, can be used
+to automatically propagate the uncertainties in the stem:[(ii(lambda)_i,s_i)] and
+stem:[ii(K)] measurements through <<eq101>> to <<eq103>> to give stem:[u(ii(H))],
+stem:[u(ii(lambda)_0)], and stem:[u(ii(sigma))] directly, which can then be used in
+<<eq111>>.
+
+=== How to Apply the Method for Different Sources of Uncertainty
+
+This method is applied by calculating the integral quantities of <<eq101>> to
+<<eq103>> and then the sensitivity coefficients in <<eq104>> to <<eq108>> and
+<<eq110>>. The appropriate sensitivity coefficients for common sources of
+uncertainty are calculated as follows.
+
+[%unnumbered]
+|===
+h| Effect h| Notes h| Calculation
+| Spectral responsivity of trap detector, stem:[s_("trap")] a| If spectral in stem:[s(ii(lambda))], which affects the central wavelength and bandwidth. a| Contributes to stem:[ii(H)] as a component in stem:[ii(K)]. +
+stem:[(del ii(T))/(del ii(H))] from <<eq104>>. +
+{nbsp}
+| Geometric factor, stem:[g] a| Uncertainty associated with geometric factor given by <<eq24>> and <<eq28>>. Then in stem:[ii(H)] through stem:[ii(K)]. a| stem:[(del ii(H))/(del g) = ii(H)/g] +
+{nbsp} +
+stem:[(del ii(T))/(del ii(H))] from <<eq104>>. +
+{nbsp}
+| Amplifier gain, stem:[ii(G)] | In stem:[ii(H)] through stem:[ii(K)]. a| stem:[(del ii(H))/(del ii(G)) = ii(H)/ii(G)] +
+{nbsp} +
+stem:[(del ii(T))/(del ii(H))] from <<eq104>>. +
+{nbsp}
+| Wavelength scale accuracy a| This produces an uncertainty assoc. with both stem:[ii(lambda)_0] and stem:[sigma]. However, if the accuracy can be considered a spectral offset, it can be considered a simple uncertainty associated with stem:[ii(lambda)_0] only. | <<eq105>> and <<eq106>>.
+| Filter stability a| This will affect the shape of stem:[s(ii(lambda))] and hence both stem:[ii(lambda)_0] and stem:[ii(sigma)]. It is best modelled to estimate an uncertainty associated with those. | <<eq105>> and <<eq106>>.
+| Instrument stability and noise | This affects the measured signal, stem:[ii(S)]. | <<eq110>>.
+| Size-of source effect, stem:[ii(K)_("SSE")] | In stem:[ii(H)] through stem:[ii(K)]. a| stem:[(del ii(T))/(del ii(K)_("SSE")) = (del ii(H))/(del ii(K)_("SSE")) (del ii(T))/(del ii(H))] +
+{nbsp} +
+stem:[(del ii(H))/(del ii(K)_("SSE")) = ii(H)/(ii(K)_("SSE"))] +
+{nbsp} +
+stem:[(del ii(T))/(del ii(H))] from <<eq104>>. +
+{nbsp}
+| Linearity, stem:[ii(K)_("lin")] | In stem:[ii(H)] through stem:[ii(K)]. a| stem:[(del ii(T))/(del ii(K)_("lin")) = (del ii(H))/(del ii(K)_("lin")) (del ii(T))/(del ii(H))] +
+{nbsp} +
+stem:[(del ii(H))/(del ii(K)_("lin")) = ii(H)/(ii(K)_("lin"))] +
+{nbsp} +
+stem:[(del ii(T))/(del ii(H))] from <<eq104>>. +
+{nbsp}
+| Blackbody emissivity, stem:[ii(varepsilon)] a| In stem:[ii(S)] when measuring a blackbody at an unknown temperature. a| stem:[(del ii(T))/(del ii(varepsilon)) = (del ii(S))/(del varepsilon) (del ii(T))/(del ii(S))] +
+{nbsp} +
+stem:[(del ii(S))/(del ii(varepsilon)) = ii(S)/ii(varepsilon)] +
+{nbsp} +
+stem:[(del ii(T))/(del ii(S))] from <<eq110>>. +
+{nbsp}
+a| Blackbody stability, ability to define melt and similar | As above. |
+a| Hybrid method: lens transmittance a| If spectral in stem:[s(ii(lambda))], which affects the central wavelength and bandwidth. But normally in stem:[ii(H)] through stem:[ii(K)]. a| stem:[(del ii(T))/(del ii(tau)_("abs")) = (del ii(H))/(del ii(tau)_("abs")) (del ii(T))/(del ii(H))] +
+{nbsp} +
+stem:[(del ii(H))/(del ii(tau)_("abs")) = ii(H)/(ii(tau)_("abs"))] +
+{nbsp} +
+stem:[(del ii(T))/(del ii(H))] from <<eq104>>. +
+{nbsp}
+a| Power method: uniformity of detector .3+| These can all be considered as a relative uncertainty in stem:[ii(H)] through stem:[ii(K)]. .3+| stem:[(del ii(T))/(del ii(H))] from <<eq104>>.
+a| Radiance method: angular uniformity of the calibration source
+a| Irradiance/hybrid method: spatial uniformity of the calibration irradiance field
+|===
+
+Note that many sources of uncertainty will be expressed as relative uncertainties
+rather than absolute uncertainties (with units). All uncertainties in the equations
+above are absolute uncertainties. However, as an example, consider an amplifier
+gain. From the table above, this is:
+
+[[eq133]]
+[stem]
+++++
+(del ii(T))/(del ii(G)) = (del ii(H))/(del ii(G)) (del ii(T))/(del ii(H)) ~~ (n ii(lambda)_0 ii(T)^2)/(ii(G) c_2).
+++++
+
+Therefore, the uncertainty in temperature due to amplifier gain is
+
+[[eq134]]
+[stem]
+++++
+u(ii(T)_ii(G)) = (n ii(lambda)_0 ii(T)^2)/(c_2) ((u(ii(G)))/ii(G))
+++++
+
+[stem%unnumbered]
+++++
+= (n ii(lambda)_0 ii(T)^2)/(c_2) u_("rel")(ii(G)),
+++++
+
+where the term stem:[u(ii(G))//ii(G)] is the relative uncertainty in the gain.
+
+[bibliography]
+== References
+
+* [[[boivin2010,1]]], L P Boivin, C Bambera, A A Gaertner, R K Gerson, D J Woods, E R Woolliams, "Wideband filter radiometers for blackbody temperature measurements", _Journal of Modern Optics_, *57*, 1648--1660, 2010.
+
+* [[[gaertner,1]]], A A Gaertner, "Index of refraction effects in blackbody temperature measurements", 2011; available from: http://www.bipm.org/cc/CCT/Allowed/25/D11_CCTdraftAAG.pdf.
+
+* [[[anderson,1]]], V E Anderson, N P Fox, D H Nettleton, "Highly stable, monochromatic and tunable optical radiation source and its application to high accuracy spectrophotometry", _Applied Optics_, *31*, 536--545, 1992.
+
+* [[[brown,(4)BIPM Metrologia 37 5 579]]], S W Brown, G P Eppeldauer, K R Lykke, "NIST facility for Spectral Irradiance and Radiance Responsivity Calibrations with Uniform Sources", _Metrologia_, *37*, 579--582, 2000.
+
+* [[[taubert5,(5)BIPM Metrologia 40 1 S35]]], D R Taubert, R Friedrich, J Hartmann, J Hollandt, "Improved calibration of the spectral responsivity of interference filter radiometers in the visible and near infrared spectral range at PTB", _Metrologia_, *40*, S35--S38, 2003.
+
+* [[[taubert6,1]]], D R Taubert, R Friedrich, J Hartmann, P Sperfeld, J Hollandt, "Long-term stability of the spectral responsivity of filter radiometers at the PTB" in _Proceedings of TEMPMEKO 2004, 9th International Symposium on Temperature and Thermal Measurements in Industry and Science_, edited by D Zvizdic, LPM/FSB, Zagreb, pp. 977--982, 2005.
+
+* [[[reader,(7)BIPM Metrologia 39 4 391]]], J Reader, "Metrological implications of recent interferometric wavelength measurements for singly ionized silicon in the vacuum ultraviolet (stem:[152 "unitsml(nm)"] and stem:[180 "unitsml(nm)"])", _Metrologia_, *39*, 391--394, 2002.
+
+* [[[saunders2003,1]]], P Saunders, "Uncertainty arising from the use of the mean effective wavelength in realizing ITS-90", in _Temperature: Its Measurement and Control in Science and Industry_, Vol. 7, edited by D C Ripple _et al._, AIP Conference Proceedings, Melville, New York, 639--644, 2003.
+
+* [[[jcgm,1]]], JCGM, JCGM 100:2008, _Evaluation of measurement data -- Guide to the expression of uncertainty in measurement_, BIPM, 2008.
+
+* [[[hartmann2009,1]]], J Hartmann, "High-temperature measurement techniques for the application in photometry, radiometry and thermometry", _Physics Reports_, *469*, 205--269, 2009.
+
+* [[[townetech,1]]], link:http://www.townetech.com/aperture.htm[http://www.townetech.com/aperture.htm].
+
+* [[[lu,1]]], X Lu, K Anhalt, R D Taubert, Z Yuan, "A comparison of irradiance responsivity and thermodynamic temperature measurement between PTB and NIM", in _Temperature: Its Measurement and Control in Science and Industry_, Vol. 8, edited by C W Meyer, AIP Conference Proceedings, Melville, New York, pp. 728--733, 2013.
+
+* [[[todd2013,(13)BIPM Metrologia 50 1 20]]], A D W Todd, D J Woods, "Thermodynamic temperature measurements of the melting temperatures of stem:["Co"]-stem:["C"], stem:["Pt"]-stem:["C"] and stem:["Re"]-stem:["C"] fixed points at NRC", _Metrologia_, *50*, 20--26, 2013.
+
+* [[[semrock,1]]], link:www.semrock.com[www.semrock.com].
+
+* [[[yoo,(15)BIPM Metrologia 53 6 1354]]], Y S Yoo, G J Kim, S Park, D-H Lee, B-H Kim, "Spectral responsivity calibration of the reference radiation thermometer at KRISS by using a super-continuum laser-based high-accuracy monochromatic source", _Metrologia_, *53*, 1354--1364, 2016.
+
+* [[[lequime,1]]], M Lequime, S Liukaityte, M Zerrad, C Amra, "Ultra-wide-range measurements of thin-film filter optical density over the visible and near-infrared spectrum", _Optics Express_, *23*, 26863--26878, 2015.
+
+* [[[blevin,(17)BIPM Metrologia 7 1 15]]], W R Blevin, W J Brown, "A precise measurement of the Stefan-Boltzmann constant", _Metrologia_, *7*, 15--29, 1970.
+
+* [[[steele,1]]], W H Steele, M De, J A Bell, "Diffraction corrections in radiometry", _Journal of the Optical Society of America_, *62*, 1099--1103, 1972.
+
+* [[[shirley,1]]], E L Shirley, "Revised formulas for diffraction effects with point and extended sources", _Applied Optics_, *37*, 6581--6590, 1998.
+
+* [[[boivin1998,(20)BIPM Metrologia 35 4 363]]], L P Boivin, "Measurements using two types of transfer radiometer developed for a monochromator-based cryogenic radiometer facility", _Metrologia_, *35*, 363--368, 1998.
+
+* [[[fox,(21)BIPM Metrologia 28 5 357]]], N P Fox, J E Martin, D H Nettleton, "Absolute spectral radiometric determination of the thermodynamic temperatures of the melting/freezing points of gold, silver and aluminium", _Metrologia_, *28*, 357--374, 1991.
+
+* [[[hartmann2002,1]]], J Hartmann, D R Taubert, J Fischer, "Measurements of T--T90 down to Zinc point temperatures with absolute filter radiometry", in _Proceedings of TEMPMEKO 2001, 8th International Symposium on Temperature and Thermal Measurements in Industry and Science_, edited by B Fellmuth, J Seidel, G Scholz, VDE Verlag GmbH, Berlin, pp. 377--382, 2002.
+
+* [[[hartmann2008,1]]], J Hartmann, L Werner, "Radiation thermometry towards the triple point of water?" _International Journal of Thermophysics_, *29*, 1052--1065, 2008.
+
+* [[[hollandt,1]]], J Hollandt, R Friedrich, B Gutschwager, D Taubert, J. Hartmann, "High-accuracy radiation thermometry at the National Metrology Institute of Germany, the PTB", _High Temperatures--High Pressures_, *35/36*, 379--415, 2005.
+
+* [[[noulkow,1]]], N Noulkow, R D Taubert, P Meindl, J Hollandt, "Infrared filter radiometers for thermodynamic temperature determination below stem:[660 "unitsml(degC)"]", _International Journal of Thermophysics_, *30*, 131--143, 2009.
+
+* [[[taubert26,1]]], D R Taubert, J Hartmann, J Hollandt, J Fischer, "Investigation of the accuracy of the ITS-90 with reference to thermodynamic temperature in the range from stem:[400 "unitsml(degC)"] up to stem:[600 "unitsml(degC)"]", in _Temperature: Its Measurement and Control in Science and Industry_, Vol. 7, edited by D C Ripple _et al._, AIP Conference Proceedings, Melville, New York, pp. 7--12, 2003.
+
+* [[[anhalt2008,1]]], K Anhalt, "Radiometric measurement of thermodynamic temperatures during the phase transformation of metal-carbon eutectic alloys for a new high temperature scale above stem:[1000 "unitsml(degC)"]", University of Berlin, 2008.
+
+* [[[anhalt2006,(28)BIPM Metrologia 43 2 S78]]], K Anhalt, J Hartmann, D Lowe, G Machin, M Sadli, Y Yamada, "Thermodynamic temperature determinations of stem:["Co"]-stem:["C"], stem:["Pd"]-stem:["C"], stem:["Pt"]-stem:["C"] and stem:["Ru"]-stem:["C"] eutectic fixed-point cells", _Metrologia_, *43*, S78--S83, 2006.
+
+* [[[anhalt-wang,1]]], K Anhalt, Y Wang, Y Yamada, J Hartmann, "Large and small aperture fixed-point cells of stem:["Cu"], stem:["Pt"]-stem:["C"] and stem:["Re"]-stem:["C"]", _International Journal of Thermophysics_, *29*, 969--983, 2008.
+
+* [[[woolliams2011,1]]], E R Woolliams, M R Dury, T A Burnitt, P E R Alexander, R Winkler, W S Hartree, S G R Salim, G Machin, "Primary radiometry for the Mise-en-Pratique for the definition of the kelvin: the hybrid method", _International Journal of Thermophysics_, *32*, 1--11, 2011.
+
+* [[[woolliams2000,(31)BIPM Metrologia 37 5 603]]], E R Woolliams, D F Pollard, N J Harrison, E Theocharous, N P Fox, "New facility for the high-accuracy measurement of lens transmission", _Metrologia_, *37*, 603--605, 2000.
+
+* [[[winkler,1]]], R Winkler, E R Woolliams, W S Hartree, S G R Salim, N P Fox, J R Mountford, M White, S R Montgomery, "Calibration of an absolute radiation thermometer for accurate determination of fixed-point temperatures", _International Journal of Thermophysics_, *28*, 2087--2097, 2007.
+
+* [[[yoon2005,1]]], H W Yoon, D W Allen, R D Saunders, "Methods to reduce the size-of-source effect in radiation thermometers", in _Proceedings of TEMPMEKO 2004, 9th International Symposium on Temperature and Thermal Measurements in Industry and Science_, edited by D Zvizdic, LPM/FSB, Zagreb, 521--526, 2005.
+
+* [[[yoon2006,(34)BIPM Metrologia 43 2 S22]]], H W Yoon, "The realization and the dissemination of thermodynamic temperature scales", _Metrologia_, *43*, S22--S26, 2006.
+
+* [[[yoon2007,1]]], H W Yoon, D W Allen, C E Gibson, M Litorja, R D Saunders, S W Brown, G P Eppeldauer, K R Lykke, "Thermodynamic-temperature determinations of the Ag and Au freezing temperatures using a detector-based radiation thermometer", _Applied Optics_, *46*, 2870--2880, 2007.
+
+* [[[yoon2008,1]]], H W Yoon _et al._, "Uncertainty analysis and maintenance of the NIST detector-based temperature scale", _Acta Metrologica Sinica_, *29*, 2008.
+
+* [[[baker,1]]], M L Baker, V L Yen, "Effects of the variation of angle of incidence and temperature on infrared filter characteristics", _Applied Optics_, *6*, 1343--1348, 1967.
+
+* [[[lissberger,1]]], P H Lissberger, "Effective refractive index as a criterion of performance of interference filters", _Journal of the Optical Society of America_, *58*, 1586--90, 1968.
+
+* [[[meaburn,1]]], J Meaburn, "The stability of interference filters", _Applied Optics_, *5*, 1757--1759, 1966.
+
+* [[[furman,1]]], Sh A Furman, M D Levina, "Effect of moisture on the optical characteristics of narrow band interference filters", _Optics and Spectroscopy (USSR)_, *30*, 404--408, 1971.
+
+* [[[taubert41,1]]], D R Taubert, R Friedrich, J Hartmann, P Sperfeld, J Hollandt, "Long term stability of the spectral responsivity of filter radiometers at the PTB", in _Proceedings of TEMPMEKO 2004, 9th International Symposium on Temperature and Thermal Measurements in Industry and Science_, edited by D Zvizdic, LPM/FSB, Zagreb, 977--982, 2005, ISBN 953-6313-73-1.
+
+* [[[turner,1]]], W H Turner, "Photoluminescence of color filter glasses", _Applied Optics_, *12*, 480--486, 1973.
+
+* [[[saunders2009,(43)BIPM Metrologia 46 1 62]]], P Saunders, H Edgar, "On the characterisation and correction of the size-of-source effect in radiation thermometers", _Metrologia_, *46*, 62--74, 2009.
+
+* [[[machin,1]]], G Machin, R Sergienko, "A comparative study of size-of-source effect (SSE) determination techniques", in Proceedings of TEMPMEKO 2001, 8th International Symposium on Temperature and Thermal Measurements in _Industry and Science_, edited by B Fellmuth, J Seidel, G Scholz, VDE Verlag GmbH, Berlin, 155--160, 2002.
+
+* [[[yoon-allen2005,(45)BIPM Metrologia 42 2 89]]], H W Yoon, D W Allen, R D Saunders, "Methods to reduce the size-of-source effect in radiometers", _Metrologia_, *42*, 89--96, 2005.
+
+* [[[dury,1]]], M R Dury, T C Arneil, G Machin G, T M Goodman, "Size-of-source effect sensitivities in radiometers", _International Journal of Thermophysics_, *35*, 1391--1400, 2014.
+
+* [[[saunders2011,1]]], P Saunders, "Correcting radiation thermometry measurements for the size-of-source effect", _International Journal of Thermophysics_, *32*, 1633--1654, 2011.
+
+* [[[bloembergen2009,(48)BIPM Metrologia 46 5 534]]], P Bloembergen, "Analytical representations of the size-of-source effect", _Metrologia_, *46*, 534--543, 2009.
+
+* [[[saunders2003-prop,(49)BIPM Metrologia 40 2 93]]], P Saunders, "Propagation of uncertainty for non-linear calibration equations with an application in radiation thermometry", _Metrologia_, *40*, 93--101, 2003.
+
+* [[[saunders2007,1]]], P Saunders, D R White, "Propagation of uncertainty due to non-linearity in radiation thermometers", _International Journal of Thermophysics_, *28*, 2098--2110, 2007.
+
+* [[[saunders2015,1]]], P Saunders, D R White, H Edgar, "A compact combinatorial device for measurement of non-linearity of radiation detectors", _International Journal of Thermophysics_, *36*, 290--302, 2015.
+
+* [[[yoon2003,(52)BIPM Metrologia 40 1 S154]]], H W Yoon, J J Butler, T C Larason, G P Eppledauer, "Linearity of InGaAs photodiodes", _Metrologia_, *40*, S154--S158, 2003.
+
+* [[[sapritsky,1]]], V I Sapritsky, A V Prokhorov, "Spectral effective emissivities of nonisothermal cavities calculated by the Monte Carlo method", _Applied Optics_, *34*, 5645--5652, 1995.
+
+* [[[prokhorov,(54)BIPM Metrologia 35 4 465]]], A V Prokhorov, "Monte Carlo Method in Optical Radiometry", _Metrologia_, *35*, 465--471, 1998.
+
+* [[[hartmann-taubert2002,1]]], J Hartmann, D Taubert, "Assessing blackbody emissivity by Monte Carlo simulation", in _Proceedings of Infrared Sensors and Systems_, pp. 133--138, 2002.
+
+* [[[khlevnoy-samoylov,1]]], B B Khlevnoy, M L Samoylov, I A Grigoryeva, N A Ibragimov, V I Shapoval, A V Puzanov, S A Ogarev, "Development of high-temperature blackbodies and furnaces for radiation thermometry", _International Journal of Thermophysics_, *32*, 1686--1696, 2011.
+
+* [[[yoon-gibson2003,1]]], H W Yoon, C E Gibson, J L Gardner, "Spectral radiance comparison of two blackbodies with temperatures determined using absolute detectors and ITS-90 techniques", in _Temperature: Its Measurement and Control in Science and Industry_, Vol. 7, edited by D C Ripple _et al._, AIP Conference Proceedings, Melville, New York, pp. 601--606, 2003.
+
+* [[[hartmann2010,1]]], J Hartmann, J Hollandt, B Khlevnoy, S Morozova, S Ogarev, F Sakuma, "Blackbody and other calibration sources", Chapter 6, in _Radiometric Temperature Measurements, I. Fundamentals. Experimental Methods in the Physical Sciences_, Volume 42, edited by Z M Zhang, B K Tsai, G Machin, Academic Press, USA, pp. 241--295, 2010.
+
+* [[[khlevnoy-grigoryeva,1]]], B B Khlevnoy, I A Grigoryeva, M L Samoylov, Y Yamada, "Comparison of stem:["Re"]-stem:["C"] fixed-point cells and their T-90 temperatures between NMIJ and VNIIOFI", _International Journal of Thermophysics_, *32*, 1753--1762, 2011.
+
+* [[[yamada,1]]], Y Yamada, K Anhalt, M Battuello, P Bloembergen, B Khlevnoy, G Machin, M Matveyev, M Sadli, T Wang, "Construction of high-temperature fixed-point cells for thermodynamic temperature assignment", in _Temperature: Its Measurement and Control in Science and Industry_, Vol. 8, edited by C. W. Meyer, AIP Conference Proceedings, Melville, New York, pp. 335--339, 2013.
+
+* [[[bloembergen2008,1]]], P Bloembergen, B Khlevnoy, P Jimeno Largo, Y Yamada, "Spectral and total effective emissivity of a high-temperature fixed-point radiator considered in relation to the temperature drop across its back wall", _International Journal of Thermophysics_, *29*, 370--385, 2008.
+
+* [[[khlevnoy-gavrilov,1]]], B B Khlevnoy, V R Gavrilov, D A Otryaskin, I A Grigor'eva, M V Solodilov, M L Samoilov, V I Sapritsky, "Measurement of the thermodynamic temperature of high-temperature fixed points", _Measurement Techniques_, *56*, 433--439, 2013.
+
+* [[[hartmann2011,1]]], J Hartmann, K Anhalt, D Taubert, J Hollandt, "Absolute radiometry for the MeP-K: the irradiance measurement method", _International Journal of Thermophysics_, *32*, 1707--1718, 2011.
+
+* [[[sperfeld1995,(64)BIPM Metrologia 32 6 435]]], P Sperfeld, K-H Raatz, B Nawo, W Moeller, J. Metzdorf, "Spectral-irradiance scale based on radiometric black-body temperature measurements", _Metrologia_, *32*, 435--439, 1995/96.
+
+* [[[sperfeld1998,(65)BIPM Metrologia 35 4 267]]], P Sperfeld, J Metzdorf, S Galal Yousef, K D Stock and, W Moeller, "Improvement and extension of the black-body-based spectral irradiance scale", _Metrologia_, *35*, 267--271, 1998.
+
+* [[[sperfeld-metzdorf1998,(66)BIPM Metrologia 35 4 419]]], P Sperfeld, J Metzdorf, N J Harrison, N P Fox, B B Khlevnoy, V B Khromchenko, S N Mekhontsev, V I Shapoval, M F Zelener, V I Sapritsky, "Investigation of high-temperature black body BB3200", _Metrologia_, *35*, 419--422, 1998.
+
+* [[[fischer,1]]], J Fischer, M Battuello, M Sadli, M Ballico, S N Park, P Saunders, Y Zundong, B C Johnson, E van der Ham, Wang Li, F Sakuma, G Machin, N Fox, S Ugur, M Matveyev, "Uncertainty budgets for realisation of scales by radiation thermometry", CCT working document CCT03-03, Sèvres, France, May 2003.
+
+* [[[todd,1]]], A Todd, D Lowe, K Anhalt, P Bloembergen, B Khlevnoy, M Sadli, N Sasajima, G Machin, "Report from the CCT Task Group for Non-Contact Thermometry HTFP Uncertainties (CCT TG-NCTh-HTFPU)".
+
+* [[[woolliams2016,1]]], E R Woolliams, K Anhalt, M Ballico, P Bloembergen, F Bourson, S Briaudeau, J Campos, M G Cox, D del Campo, W Dong, M R Dury, V Gavrilov, I Grigoryeva, M L Hernanz, F Jahan, B Khlevnoy, V Khromchenko, D H Lowe, X Lu, G Machin, J M Mantilla, M J Martin, H C McEvoy, B Rougié, M Sadli, S G R Salim, N Sasajima, D R Taubert, A D W Todd, R Van den Bossche, E van der Ham, T Wang, A Whittam, B Wilthan, D J Woods, J T Woodward, Y Yamada, Y Yamaguchi, H W Yoon, Z Yuan "Thermodynamic temperature assignment to the point of inflection of the melting curve of high-temperature fixed points", _Phil. Trans. R. Soc. A_ 374 20150044; 2016; DOI: 10.1098/rsta.2015.0044.
+
+* [[[woolliams2014,1]]], E R Woolliams, "Uncertainty analysis for filter radiometry based on the uncertainty associated with integrated quantities", _International Journal of Thermophysics_, *35*, 1353--1365, 2014.
+
+* [[[woolliams2003,1]]], E R Woolliams, "Development and evaluation of a high temperature blackbody source for the realisation of NPL's primary spectral irradiance scale" in _Physics_, University of Manchester, 2003.
+
+* [[[woolliams2006,(72)BIPM Metrologia 43 1A 02003]]], E R Woolliams, N P Fox, M G Cox, P M Harris, N J Harrison, "Final report on CCPR K1-a: spectral irradiance from stem:[250 "unitsml(nm)"] to stem:[2500 "unitsml(nm)"]", _Metrologia_, *43*, 02003, 2006.
+
+* [[[hall,1]]], B D Hall, "Object-oriented software for evaluating measurement uncertainty", _Measurement Science and Technology_, *24*, 055004, 2013.
+
+* [[[gtc,1]]], GUM Tree Calculator (GTC) can be downloaded from the MSL website: http://www.measurement.govt.nz/services/specialist-user-groups/measurement-software-toolkit/software-download-request-form.
+
+* [[[saunders2011-uncertainties,1]]], P Saunders, "Uncertainties in the realisation of thermodynamic temperature above the silver point", _International Journal of Thermophysics_, *32*, 26--44, 2011.
+
+* [[[sakuma,1]]], F Sakuma, S Hattori, "Establishing a practical temperature standard by using a narrow-band radiation thermometer with a silicon detector", in _Temperature: Its Measurement and Control in Science and Industry_, edited by J F Schooley, AIP, New York, pp. 421--427, 1982.
+
+* [[[saunders2004,(77)BIPM Metrologia 41 1 41]]], P Saunders, D R White, "Interpolation errors for radiation thermometry", _Metrologia_, *41*, 41--46, 2004.
+
+* [[[saunders2003-physical,(78)BIPM Metrologia 40 4 195]]], P Saunders, D R White, "Physical basis of interpolation equations for radiation thermometry", _Metrologia_, *40*, 195--203, 2003.
