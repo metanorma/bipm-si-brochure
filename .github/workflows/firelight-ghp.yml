@@ -61,9 +61,9 @@ jobs:
           # restore-keys: |
           #   ${{ runner.os }}-mn-${{ env.cache-name }}-
           #   ${{ runner.os }}-mn-
-          #   ${{ runner.os }}-- uses: ruby/setup-ruby@v1
+          #   ${{ runner.os }}-
 
-      # Only run these tree if there is no cache hit
+      # Only run these three if there is no cache hit
       - uses: ruby/setup-ruby@v1
         if: steps.cache-mn-xml.outputs.cache-hit != 'true'
         with:
