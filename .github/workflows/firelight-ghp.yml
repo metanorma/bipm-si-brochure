@@ -71,6 +71,7 @@ jobs:
           bundler-cache: true
       # Strip unneeded output formats
       - run: grep -Ev '^  - pdf|^  - html' sources/si-brochure/3.01/collection.yml > sources/si-brochure/3.01/collection-xml-only.yml
+        if: steps.cache-mn-xml.outputs.cache-hit != 'true'
       - run: bundle exec metanorma collection --agree-to-terms sources/si-brochure/3.01/collection-xml-only.yml
         if: steps.cache-mn-xml.outputs.cache-hit != 'true'
         # Output will be under sources/si-brochure/3.01/brochure
