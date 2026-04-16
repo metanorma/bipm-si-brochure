@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metanorma xmlns="https://www.metanorma.org/ns/standoc" type="semantic" version="2.8.3" schema-version="v2.1.5" flavor="bipm">
+<bibdata type="standard">
+<title language="en" type="title-main">Note on the impact of the redefinition of the kilogram on BIPM mass calibration uncertainties</title>
+
+<title language="en" type="title-part-prefix">Part 3.1</title>
+
+<title language="en" type="title-appendix-prefix">Appendix 2</title>
+
+<title language="fr" type="title-main">Note sur l’impact de la redéfinition du kilogramme sur les incertitudes des étalonnages de masse du BIPM</title>
+
+<title language="fr" type="title-part-prefix">Partie 3.1</title>
+
+<title language="fr" type="title-appendix-prefix">Appendice 2</title>
+<docidentifier primary="true" type="BIPM">BIPM CCM-GD-RSI-1-3.1 A2</docidentifier><docidentifier type="BIPM-parent-document">BIPM CCM-GD-RSI-1</docidentifier><docnumber>CCM-GD-RSI-1</docnumber><contributor><role type="author"/><organization>
+<name>Bureau International des Poids et Mesures</name>
+<abbreviation>BIPM</abbreviation></organization></contributor><contributor><role type="author"><description>committee</description></role><organization>
+<name>Bureau International des Poids et Mesures</name>
+<subdivision type="Committee">
+<name language="en">Consultative Committee for Amount of Substance: Metrology in Chemistry and Biology</name>
+
+<name language="fr">Comité consultatif pour la quantité de matière : métrologie en chimie et biologie</name>
+<identifier>CCQM</identifier><identifier type="full">CCQM</identifier></subdivision></organization></contributor><contributor><role type="publisher"/><organization>
+<name>Bureau International des Poids et Mesures</name>
+<abbreviation>BIPM</abbreviation></organization></contributor><edition>1</edition><version><revision-date>2019-05-20</revision-date></version><language>en</language><script>Latn</script><status><stage>in-force</stage></status><copyright><from>2019</from><owner><organization>
+<name>Bureau International des Poids et Mesures</name>
+<abbreviation>BIPM</abbreviation></organization></owner></copyright><ext><doctype>guide</doctype><flavor>bipm</flavor><structuredidentifier><docnumber>CCM-GD-RSI-1</docnumber><part>3.1</part><appendix>2</appendix>
+</structuredidentifier><si-aspect>kg_h</si-aspect></ext></bibdata><metanorma-extension><semantic-metadata><stage-published>true</stage-published></semantic-metadata>
+<UnitsML xmlns="https://schema.unitsml.org/unitsml/1.0"><UnitSet><Unit dimensionURL="#NISTd2" id="U_ug">
+        <UnitSystem name="SI" type="SI_base" lang="en-US"/>
+        <UnitName lang="en">ug</UnitName>
+        <UnitSymbol type="HTML">g</UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">µg</mi>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="gram" prefix="u"/>
+        </RootUnits>
+      </Unit></UnitSet><DimensionSet><Dimension id="NISTd2">
+        <Mass symbol="M" powerNumerator="1"/>
+      </Dimension></DimensionSet><PrefixSet><Prefix prefixBase="10" prefixPower="-6" id="NISTp10_-6">
+        <PrefixName lang="en">micro</PrefixName>
+        <PrefixSymbol type="ASCII">u</PrefixSymbol>
+        <PrefixSymbol type="unicode">μ</PrefixSymbol>
+        <PrefixSymbol type="LaTeX">$mu$</PrefixSymbol>
+        <PrefixSymbol type="HTML">µ</PrefixSymbol>
+      </Prefix></PrefixSet></UnitsML><presentation-metadata><toc-heading-levels>2</toc-heading-levels><html-toc-heading-levels>2</html-toc-heading-levels><doc-toc-heading-levels>2</doc-toc-heading-levels><pdf-toc-heading-levels>2</pdf-toc-heading-levels></presentation-metadata></metanorma-extension>
+<boilerplate><copyright-statement>
+
+<clause id="_de529b36-05ca-b9e4-a8ac-4c41964770f0" obligation="normative"><p id="_2c83afdd-6f3c-8a19-1954-83e4ede65ae8" align="center">© Bureau International des Poids et Mesures 2019 all rights reserved</p>
+</clause>
+</copyright-statement>
+
+<license-statement>
+
+<clause id="_4ffcd5b5-8039-1aa4-59ce-390aa3b61c7a" obligation="normative">
+<title id="_29f75465-0cf3-76fd-bc56-6b3aa457ee69">Copyright statement</title>
+<p id="_50719790-3c5b-c213-8298-0631d690bc21">This document is distributed under the terms of the Creative Commons Attribution 4.0 International License (<link target="http://creativecommons.org/licenses/by/4.0/:"/>), which permits unrestricted use, distribution, and reproduction in any medium, provided you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made.</p>
+</clause>
+</license-statement>
+
+<feedback-statement>
+
+<p id="_5926bc3f-b367-69e7-6cc6-442a91e32db2">BIPM<br/> Pavillon de Breteuil<br/> F-92312 Sèvres Cedex<br/> FRANCE</p>
+</feedback-statement>
+</boilerplate><preface><foreword id="_9712b9b1-1157-6bc7-84c6-3757be8bf8d3" obligation="informative">
+<title id="_41c9fad3-d4c1-eecc-4fad-f91704acc026">Foreword</title>
+<p id="_d3921fbc-44a4-ccf5-4843-22c881b6af32">This note provides information on the impact of the redefinition of the kilogram, which takes place on 20 May 2019, on mass calibration uncertainties stated on BIPM calibration certificates issued before this date.</p>
+</foreword></preface><sections>
+<clause id="_32de5377-8d00-4d24-a57f-e4459bcfa999" obligation="normative">
+<title id="_c23006c0-a910-d1f2-886d-b82c95142efc">Background</title>
+<p id="_23333024-d617-8ceb-af21-2998ce149d35">In November 2018 the General Conference on Weights and Measures (CGPM) approved a
+revision of the International System of Units (SI). After the implementation date of the
+revised SI, 20 May 2019, the kilogram will change from being equal to the mass of the
+International Prototype of the Kilogram (IPK) to a quantity related to a fixed numerical
+value of the Planck constant. At this point the IPK will change from having a fixed mass
+without uncertainty to having a mass with a finite uncertainty which can change with
+time. Directly after the implementation date of the revised SI the IPK will inherit the
+uncertainty that had previously been associated with the Planck constant, equal to
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>10</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_ug">
+      <mstyle mathvariant="normal">
+        <mi>µg</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>10 "unitsml(ug)"</asciimath></stem> (<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>k</mi>
+    <mo>=</mo>
+    <mn>1</mn>
+  </mstyle>
+</math><asciimath>k = 1</asciimath></stem>).</p>
+</clause>
+
+<clause id="_419f5da4-4d7b-8d9d-fd40-fadf181120a6" obligation="normative">
+<title id="_e0371158-f7e3-a000-5033-b0961fb5ae7c">Adjustment of the mass uncertainty of BIPM calibration certificates issued before 20 May 2019</title>
+<p id="_2774719a-6660-62fb-6cfa-2c8425ab654c">Prior to the decision to redefine the kilogram, all NMIs took traceability, directly or
+indirectly, from the IPK. This will continue to be the case immediately after 20 May
+2019. The mass of the IPK will then have an associated uncertainty of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>10</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_ug">
+      <mstyle mathvariant="normal">
+        <mi>µg</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>10
+"unitsml(ug)"</asciimath></stem>.</p>
+
+<p id="_7c109ca1-b125-448f-06a2-6fe06dc3bfce">NMIs will need to review and, where necessary, adjust their uncertainty budgets for measurements made after 20 May 2019 by:</p>
+
+<ol id="_a9324bc4-5770-a276-6b7c-de3b91e44a36" type="arabic"><li><p id="_18f6fc48-0ca4-0736-69d7-61897de24841">Adding <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>10</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_ug">
+      <mstyle mathvariant="normal">
+        <mi>µg</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>10 "unitsml(ug)"</asciimath></stem> in quadrature to the existing uncertainty given by the BIPM for those standard(s) by which they achieve traceability to the BIPM</p>
+</li>
+<li><p id="_a24139a0-e089-9406-0748-8f93689d08e6">Updating their uncertainty budgets with the new uncertainty for the standard(s)</p>
+</li>
+</ol>
+
+<p id="_ece9ef83-4ccc-2b6a-b143-871a88d2d1e0">The mass values stated on the BIPM certificates remain valid.</p>
+
+<p id="_5794b894-06e9-d1fd-2916-446a87bcb73f">The Consultative Committee for Mass and Related Quantities (CCM) will meet on 16 and 17 May 2019 and will provide guidance on how Calibration and Measurement Capabilities (CMCs) published in the BIPM Key Comparison Database (KCDB) should be adjusted.</p>
+
+<p id="_b1601dac-8c72-f259-3697-80e3b4b91cf8">BIPM calibration certificates issued after 20 May 2019 will include the <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>10</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_ug">
+      <mstyle mathvariant="normal">
+        <mi>µg</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>10
+"unitsml(ug)"</asciimath></stem> uncertainty of the IPK with respect to the Planck constant, until completion of the first key comparison of primary realization experiments. Then, mass calibrations at the BIPM will be traceable to the consensus value, determined from the comparison, following CCM Recommendation G1 (2017). The CCM is preparing a detailed information note on the dissemination process after the redefinition of the kilogram.</p>
+</clause>
+</sections>
+</metanorma>

@@ -1,0 +1,1019 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metanorma xmlns="https://www.metanorma.org/ns/standoc" type="semantic" version="2.8.3" schema-version="v2.1.5" flavor="bipm">
+<bibdata type="standard">
+<title language="en" type="title-main">Units for photochemical and photobiological quantities</title>
+
+<title language="en" type="title-appendix-prefix">Appendix 3</title>
+
+<title language="fr" type="title-main">Unités pour la mesure des grandeurs photochimiques et photobiologiques</title>
+
+<title language="fr" type="title-appendix-prefix">Appendice 3</title>
+<docidentifier primary="true" type="BIPM">BIPM Brochure A3</docidentifier><docidentifier type="BIPM-parent-document">BIPM Brochure</docidentifier><docnumber>Brochure</docnumber><contributor><role type="author"/><organization>
+<name>Bureau International des Poids et Mesures</name>
+<abbreviation>BIPM</abbreviation></organization></contributor><contributor><role type="author"><description>committee</description></role><organization>
+<name>Bureau International des Poids et Mesures</name>
+<subdivision type="Committee">
+<name language="en">International Bureau of Weights and Measures</name>
+
+<name language="fr">Bureau International des Poids et Mesures</name>
+<identifier>BIPM</identifier><identifier type="full">BIPM</identifier></subdivision></organization></contributor><contributor><role type="publisher"/><organization>
+<name>Bureau International des Poids et Mesures</name>
+<abbreviation>BIPM</abbreviation></organization></contributor><edition>9</edition><version><revision-date>2019-05-20</revision-date></version><language>en</language><script>Latn</script><status><stage>in-force</stage></status><copyright><from>2019</from><owner><organization>
+<name>Bureau International des Poids et Mesures</name>
+<abbreviation>BIPM</abbreviation></organization></owner></copyright><ext><doctype>brochure</doctype><flavor>bipm</flavor><structuredidentifier><docnumber>Brochure</docnumber><appendix>3</appendix>
+</structuredidentifier></ext></bibdata><metanorma-extension><semantic-metadata><stage-published>true</stage-published></semantic-metadata>
+<UnitsML xmlns="https://schema.unitsml.org/unitsml/1.0"><UnitSet><Unit dimensionURL="#D_L-2M-1T3J" id="U_lm.W-1">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">lm*W^-1</UnitName>
+        <UnitSymbol type="HTML">lm W
+          <sup>−1</sup>
+        </UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">lm</mi>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">W</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>1</mn>
+              </mrow>
+            </msup>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="lumen"/>
+          <EnumeratedRootUnit unit="watt" powerNumerator="-1"/>
+        </RootUnits>
+      </Unit><Unit dimensionURL="#NISTd27" id="U_NISTu7.u1e-2/1">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">candela per square meter</UnitName>
+        <UnitSymbol type="HTML">cd m
+          <sup>−2</sup>
+        </UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">cd</mi>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">m</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>2</mn>
+              </mrow>
+            </msup>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="candela"/>
+          <EnumeratedRootUnit unit="metre" powerNumerator="-2"/>
+        </RootUnits>
+      </Unit><Unit dimensionURL="#D_L-1MT-3" id="U_W.m-2.nm-1">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">W*m^-2*nm^-1</UnitName>
+        <UnitSymbol type="HTML">W m
+          <sup>−2</sup> nm
+          <sup>−1</sup>
+        </UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">W</mi>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">m</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>2</mn>
+              </mrow>
+            </msup>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">nm</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>1</mn>
+              </mrow>
+            </msup>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="watt"/>
+          <EnumeratedRootUnit unit="metre" powerNumerator="-2"/>
+          <EnumeratedRootUnit unit="metre" prefix="n" powerNumerator="-1"/>
+        </RootUnits>
+      </Unit><Unit dimensionURL="#D_L0MT-3" id="U_NISTu14.u1e-2/1">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">watt per square meter</UnitName>
+        <UnitSymbol type="HTML">W m
+          <sup>−2</sup>
+        </UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">W</mi>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">m</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>2</mn>
+              </mrow>
+            </msup>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="watt"/>
+          <EnumeratedRootUnit unit="metre" powerNumerator="-2"/>
+        </RootUnits>
+      </Unit><Unit dimensionURL="#NISTd101" id="U_NISTu3e-1/1">
+        <UnitSystem name="SI" type="SI_base" lang="en-US"/>
+        <UnitName lang="en">second to the power minus one</UnitName>
+        <UnitSymbol type="HTML">s
+          <sup>−1</sup>
+        </UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">s</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>1</mn>
+              </mrow>
+            </msup>
+          </math>
+        </UnitSymbol>
+      </Unit><Unit dimensionURL="#D_L-3T-1" id="U_s-1.m-2.nm-1">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">s^-1*m^-2*nm^-1</UnitName>
+        <UnitSymbol type="HTML">s
+          <sup>−1</sup> m
+          <sup>−2</sup> nm
+          <sup>−1</sup>
+        </UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">s</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>1</mn>
+              </mrow>
+            </msup>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">m</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>2</mn>
+              </mrow>
+            </msup>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">nm</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>1</mn>
+              </mrow>
+            </msup>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="second" powerNumerator="-1"/>
+          <EnumeratedRootUnit unit="metre" powerNumerator="-2"/>
+          <EnumeratedRootUnit unit="metre" prefix="n" powerNumerator="-1"/>
+        </RootUnits>
+      </Unit><Unit dimensionURL="#NISTd97" id="U_s-1.m-2">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">s^-1*m^-2</UnitName>
+        <UnitSymbol type="HTML">s
+          <sup>−1</sup> m
+          <sup>−2</sup>
+        </UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">s</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>1</mn>
+              </mrow>
+            </msup>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">m</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>2</mn>
+              </mrow>
+            </msup>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="second" powerNumerator="-1"/>
+          <EnumeratedRootUnit unit="metre" powerNumerator="-2"/>
+        </RootUnits>
+      </Unit><Unit dimensionURL="#NISTd4" id="U_NISTu4">
+        <UnitSystem name="SI" type="SI_base" lang="en-US"/>
+        <UnitName lang="en">ampere</UnitName>
+        <UnitSymbol type="HTML">A</UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">A</mi>
+          </math>
+        </UnitSymbol>
+      </Unit></UnitSet><QuantitySet><Quantity id="NISTq56" quantityType="base" dimensionURL="#NISTd27">
+        <QuantityName lang="en-US">luminance</QuantityName>
+      </Quantity><Quantity id="NISTq4" quantityType="base" dimensionURL="#NISTd4">
+        <QuantityName lang="en-US">electric current</QuantityName>
+      </Quantity></QuantitySet><DimensionSet><Dimension id="D_L-2M-1T3J">
+        <Length symbol="L" powerNumerator="-2"/>
+        <Mass symbol="M" powerNumerator="-1"/>
+        <Time symbol="T" powerNumerator="3"/>
+        <LuminousIntensity symbol="J" powerNumerator="1"/>
+      </Dimension><Dimension id="NISTd27">
+        <Length symbol="L" powerNumerator="-2"/>
+        <LuminousIntensity symbol="J" powerNumerator="1"/>
+      </Dimension><Dimension id="D_L-1MT-3">
+        <Length symbol="L" powerNumerator="-1"/>
+        <Mass symbol="M" powerNumerator="1"/>
+        <Time symbol="T" powerNumerator="-3"/>
+      </Dimension><Dimension id="NISTd38">
+        <Mass symbol="M" powerNumerator="1"/>
+        <Time symbol="T" powerNumerator="-3"/>
+      </Dimension><Dimension id="D_L0MT-3">
+        <Length symbol="L" powerNumerator="0"/>
+        <Mass symbol="M" powerNumerator="1"/>
+        <Time symbol="T" powerNumerator="-3"/>
+      </Dimension><Dimension id="NISTd24">
+        <Time symbol="T" powerNumerator="-1"/>
+      </Dimension><Dimension id="NISTd101">
+        <Time symbol="T" powerNumerator="-1"/>
+      </Dimension><Dimension id="D_L-3T-1">
+        <Length symbol="L" powerNumerator="-3"/>
+        <Time symbol="T" powerNumerator="-1"/>
+      </Dimension><Dimension id="NISTd97">
+        <Length symbol="L" powerNumerator="-2"/>
+        <Time symbol="T" powerNumerator="-1"/>
+      </Dimension><Dimension id="NISTd4">
+        <ElectricCurrent symbol="I" powerNumerator="1"/>
+      </Dimension></DimensionSet><PrefixSet><Prefix prefixBase="10" prefixPower="-9" id="NISTp10_-9">
+        <PrefixName lang="en">nano</PrefixName>
+        <PrefixSymbol type="ASCII">n</PrefixSymbol>
+        <PrefixSymbol type="unicode">n</PrefixSymbol>
+        <PrefixSymbol type="LaTeX">n</PrefixSymbol>
+        <PrefixSymbol type="HTML">n</PrefixSymbol>
+      </Prefix></PrefixSet></UnitsML><presentation-metadata><toc-heading-levels>2</toc-heading-levels><html-toc-heading-levels>2</html-toc-heading-levels><doc-toc-heading-levels>2</doc-toc-heading-levels><pdf-toc-heading-levels>2</pdf-toc-heading-levels></presentation-metadata></metanorma-extension>
+<boilerplate><copyright-statement>
+
+<clause id="_de529b36-05ca-b9e4-a8ac-4c41964770f0" obligation="normative"><p id="_2c83afdd-6f3c-8a19-1954-83e4ede65ae8" align="center">© Bureau International des Poids et Mesures 2019 all rights reserved</p>
+</clause>
+</copyright-statement>
+
+<license-statement>
+
+<clause id="_4ffcd5b5-8039-1aa4-59ce-390aa3b61c7a" obligation="normative">
+<title id="_29f75465-0cf3-76fd-bc56-6b3aa457ee69">Copyright statement</title>
+<p id="_50719790-3c5b-c213-8298-0631d690bc21">This document is distributed under the terms of the Creative Commons Attribution 4.0 International License (<link target="http://creativecommons.org/licenses/by/4.0/:"/>), which permits unrestricted use, distribution, and reproduction in any medium, provided you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made.</p>
+</clause>
+</license-statement>
+
+<feedback-statement>
+
+<p id="_5926bc3f-b367-69e7-6cc6-442a91e32db2">BIPM<br/> Pavillon de Breteuil<br/> F-92312 Sèvres Cedex<br/> FRANCE</p>
+</feedback-statement>
+</boilerplate><preface><foreword id="_86e24040-5476-9f83-00ac-debddbe4a3c7" obligation="informative">
+<title id="_41c9fad3-d4c1-eecc-4fad-f91704acc026">Foreword</title>
+<p id="_8aa1b9d4-1ff5-acce-2a58-81aedca40079">Optical radiation is able to cause chemical changes in certain living or non-living materials: this property is called actinism, and radiation capable of causing such changes is referred to as actinic radiation. Actinic radiation has the fundamental characteristic that, at the molecular level, one photon interacts with one molecule to alter or break the molecule into new molecular species. In addition, optical radiation at infrared wavelengths is able to cause thermal damage to living or non-living materials at high exposure levels, although in this case the interaction is not at the single photon level. These interactions between incident optical radiation and the material being irradiated can be described by defining specific photochemical or photobiological quantities in terms of the result of optical radiation on the material in question and the associated chemical or biological receptors.</p>
+
+<p id="_df48d7e8-723d-55eb-f8be-ef924f38bab2">In the field of metrology, the only photobiological quantity which has been formally defined for measurement in the SI relates to the interaction of light with the human eye in vision. An SI base unit, the candela, has been defined for this important photobiological quantity. Several other photometric quantities with units derived from the candela have also been defined (such as the lumen and the lux, see Table 4 in section 2.3.4).</p>
+
+<p id="_eff1da57-f6fa-3015-96d0-11192504ac2d">Marginal note: The definition of photometric quantities and units can be found in the <em>ILV: International Lighting Vocabulary</em>, CIE publication S 017/E:2011 or in the <em>International Electrotechnical Vocabulary</em>, IEC publication 60050 (IEV), chapter 845: Lighting. The practical realization of these definitions can be found in the <em>mise-en-pratique</em> for the candela, and further details of the basic conventions and how to apply these definitions can be found in the joint BIPM/CIE technical report CIE 018 and the joint ISO/CIE standard ISO 23539 CIE S 010 <em>Photometry – The CIE system of physical photometry</em>.</p>
+</foreword></preface><sections>
+<clause id="_c81a28e6-b52f-01cf-222c-7efb3cf995d7" obligation="normative">
+<title id="_6a83414c-e5d7-7235-2778-197a2a32b050">Action spectrum</title>
+<p id="_a9b4b5a9-0d5c-ecbc-da32-79d5bcb84c15">Optical radiation can be characterized by its spectral distribution. The mechanisms by which optical radiation is absorbed by chemical or biological systems are usually very complicated, and are always wavelength (or frequency) dependent. For metrological purposes, however, the complexities of the absorption mechanisms can be ignored and the effect is characterized simply by an action spectrum linking the photochemical or the photobiological response to the incident radiation. This action spectrum (or weighting function) describes the relative effectiveness of monochromatic optical radiation at wavelength <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>λ</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(lambda)</asciimath></stem> to elicit a given response. It is given in relative values, normalized to one at the wavelength at which the efficacy is a maximum. Action spectra are defined and recommended by international scientific or standardizing organizations, particularly the International Commission on Illumination (CIE). The weighting function may be combined with an efficacy constant relating the absolute photochemical or photobiological response to the units of optical radiation; in photometry this is the spectral luminous efficacy, expressed in <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_lm.W-1">
+      <mstyle mathvariant="normal">
+        <mi>lm</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>W</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>1</mn>
+        </mrow>
+      </msup>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(lm*W^(-1))"</asciimath></stem>.</p>
+
+<p id="_784fbd9a-df97-02eb-5d46-b155bf66abbb">In photochemistry and photobiology, optical radiation measurements may be made in terms of the spectral distribution of a radiant quantity (so-called spectral radiometric system) or the spectral distribution of a photon quantity (so-called spectral photon system); hereafter referred simply as spectral power distribution or spectral photon distribution, respectively. As the spectral power distribution and the spectral photon distribution describe optical radiation in different units, a given photochemical or photobiological effect has two efficacy constants, one for each system. Furthermore, since the spectral power distribution is not proportional to the spectral photon distribution, it follows that the weighting functions for these measurement systems are also not proportional. To avoid confusion, it is essential when using an action spectrum or weighting function to state the system (i.e. radiometric or photon) in which it is defined. There is a close relationship governing the two efficacy constants and their respective weighting functions which is described in the mise en pratique for the candela and associated derived units for photometric and radiometric quantities in the International System of Units (SI), section 1.2.</p>
+
+<p id="_0976eb3e-a93d-a7a3-2402-67f9e8b709e6">For vision, two radiometric weighting functions have been defined by the CIE and endorsed by the CIPM: <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>V</mi>
+    </mstyle>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>ii(V)(ii(lambda))</asciimath></stem> for photopic vision and <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>V</mi>
+    </mstyle>
+    <mi>ʹ</mi>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>ii(V)ʹ(ii(lambda))</asciimath></stem> for scotopic vision. These are used in the measurement of photometric quantities and are an implicit part of the definition of the SI unit for photometry, the candela. Photopic vision is governed by stimulation of the cones on the retina of the eye, which are sensitive to a high level of luminance (<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>L</mtext>
+    <mo>&gt;</mo>
+    <mtext> approx. </mtext>
+    <mn>5</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu7.u1e-2/1">
+      <mstyle mathvariant="normal">
+        <mi>cd</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>m</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>2</mn>
+        </mrow>
+      </msup>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"L" &gt; text( approx. ) 5 "unitsml(cd*m^(-2))"</asciimath></stem>), and are used in daytime vision. Scotopic vision is governed by stimulation of the rods of the retina, which are sensitive to low level luminance (<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>L</mtext>
+    <mo>&lt;</mo>
+    <mtext> approx. </mtext>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mi>−</mi>
+        <mn>3</mn>
+      </mrow>
+    </msup>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu7.u1e-2/1">
+      <mstyle mathvariant="normal">
+        <mi>cd</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>m</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>2</mn>
+        </mrow>
+      </msup>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"L" &lt; text( approx. ) 10^(−3) "unitsml(cd*m^(-2))"</asciimath></stem>) and are used in night vision. In the domain between these levels of luminance both cones and rods are used, and this is described as mesopic vision.</p>
+
+<p id="_8af535b8-174b-055b-e582-f146f35d79b8">Other radiometric action spectra for other photobiological effects have also been defined by the CIE, such as the erythemal (skin-reddening) action spectrum for ultraviolet radiation, but these have not been given any special status within the SI.</p>
+
+<p id="_f5dbe431-4a3c-4f02-3105-85722a83806a">Photochemical and photobiological actinic processes are often impacted by other factors. For example, thermal absorption may alter the actinic efficacy of radiation of a given wavelength, or optical filtering may arise due to intervening layers between the optical radiation source and the actinic layer. It is often convenient to use action spectra that combine these types of modifying effects with the actinic effect, particularly for the various retinal responses to optical radiation. Therefore, the term action spectrum can also refer to weighting functions used to derive spectrally weighted quantities based on photochemical and photobiological effects that are not purely actinic.</p>
+</clause>
+
+<clause id="_87195f42-7c7c-921f-9b06-83bc9ac6fec3" obligation="normative">
+<title id="_cd3aacc3-1e0a-49de-cca5-d367806080ef">Measurement of photochemical or photobiological quantities and their corresponding units</title>
+<p id="_1a98117f-34b5-8395-42cc-b90558c436cb">The photometric quantities and photometric units which are defined for vision are well established and have been widely used for a long time. They are not affected by the following rules. For all other photochemical and photobiological quantities the rules given below shall be applied for defining the units to be used. This method was recommended by the Consultative Committee for Photometry and Radiometry at its 9th meeting in 1977 for use with action spectra expressed in terms of the spectral radiometric system and was contained in Appendix 3 of the 8th SI brochure. The CCPR at its 23rd meeting in 2016 recommended that this wording be revised for the on-line version of this Appendix in the 9th SI brochure to clarify the use of action spectra expressed in terms of the spectral photon system as well as the spectral radiometric system.</p>
+
+<p id="_515d9098-80f1-3f95-345f-824f3b923130">A photochemical or photobiological quantity is defined in purely physical terms as the quantity derived from the corresponding radiant quantity by evaluating the radiation according to its action upon a selective receptor, the spectral sensitivity of which is defined by the action spectrum of the photochemical or photobiological effect considered. The quantity is given by the integral over wavelength of the spectral distribution of the radiant quantity weighted by the appropriate weighting function. The use of integrals implicitly assumes a law of arithmetic additivity for photochemical or photobiological quantities, although such a law is often not perfectly obeyed by actual effects. The weighting function is a relative quantity; it is dimensionless, with the SI unit one. The radiant quantity has the radiometric unit corresponding to that quantity. Thus, following the rule for obtaining the SI unit for a derived quantity, the unit of the photochemical or photobiological quantity is the radiometric unit of the corresponding radiant quantity; this also means that for compliance with the SI, the efficacy constant is unity. When giving a quantitative value, it is essential to specify whether a radiometric or spectrally weighted quantity is intended, as the unit is the same. If a given photochemical or photobiological effect exists in several action spectra, the action spectrum used for measurement has to be clearly specified.</p>
+
+<p id="_970c2fb4-4063-1162-a6a8-d73768362f19">As an example, the erythemal irradiance, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>E</mi>
+      </mstyle>
+      <mtext>er</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(E)_("er")</asciimath></stem>, from a source of ultraviolet radiation is obtained by weighting the spectral irradiance at wavelength <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>λ</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(lambda)</asciimath></stem> by the effectiveness of radiation at this wavelength to cause an erythema and summing over all wavelengths present in the source spectrum over the full wavelength range of the action spectrum. This can be expressed mathematically as:</p>
+
+<formula id="_03930d01-577b-fdea-72e0-2d54c9e9fa8e" anchor="eq-a-3-1"><stem block="true" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>E</mi>
+      </mstyle>
+      <mtext>er</mtext>
+    </msub>
+    <mo>=</mo>
+    <mo>∫</mo>
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>E</mi>
+      </mstyle>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+    <msub>
+      <mi>s</mi>
+      <mtext>er</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+    <mtext>d</mtext>
+    <mstyle mathvariant="italic">
+      <mi>λ</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(E)_("er") = int ii(E)_(ii(lambda))(ii(lambda)) s_("er")(ii(lambda)) "d" ii(lambda)</asciimath></stem></formula>
+
+<p id="_235dfb8c-5dc6-61d3-eabd-f61aedd3ee01">where <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>E</mi>
+      </mstyle>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>ii(E)_(ii(lambda))(ii(lambda))</asciimath></stem> is the spectral irradiance at wavelength <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>λ</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(lambda)</asciimath></stem> (usually reported in the SI unit <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_W.m-2.nm-1">
+      <mstyle mathvariant="normal">
+        <mi>W</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>m</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>2</mn>
+        </mrow>
+      </msup>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>nm</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>1</mn>
+        </mrow>
+      </msup>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(W*m^(-2)*nm^(-1))"</asciimath></stem>), and <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>s</mi>
+      <mtext>er</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>s_("er")(ii(lambda))</asciimath></stem> is the erythema spectral weighting function expressed in the spectral radiometric system and normalized to 1 at its maximum spectral value. The erythemal irradiance, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>E</mi>
+      </mstyle>
+      <mtext>er</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(E)_("er")</asciimath></stem>, determined this way is reported in the SI unit <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu14.u1e-2/1">
+      <mstyle mathvariant="normal">
+        <mi>W</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>m</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>2</mn>
+        </mrow>
+      </msup>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(W*m^(−2))"</asciimath></stem>.</p>
+</clause>
+
+<clause id="_029fe18b-3c00-d720-32b9-6f69ca8bf097" obligation="normative">
+<title id="_1f6d0ff9-0c67-11df-0012-c0fb928054f8">Conversion of action spectra between spectral radiometric system and spectral photon system</title>
+<p id="_da67134e-3f00-b6eb-7919-4070a08be1a3">As described above, in photochemistry and photobiology optical radiation measurements may be performed in terms of the spectral power distribution or the spectral photon distribution. If an effect is purely actinic, i.e. a purely chemical/molecular interaction, the magnitude of the effect is governed by the number of photons absorbed and thus the weighting function in the spectral photon system is proportional to the absorption spectrum of the actinic material. In this case, it is necessary to apply a conversion to the absorption spectrum before it can be used in the spectral power distribution system. In contrast, if an effect is purely thermal, i.e. related to heating without a chemical change and hence dependent on the energy absorbed, the weighting function in the spectral radiometric system is proportional to the absorption spectrum; in this case a conversion must be applied to the absorption spectrum to allow use in the spectral photon system.</p>
+
+<p id="_300daaf0-f23e-4cf8-24dd-0f875c625add">Photochemical and photobiological quantities may be determined using either the spectral radiometric system or the spectral photon system, so it is essential not only to apply the correct weighting function but also to make clear the system being used when describing the quantity. Thus by analogy to <xref target="eq-a-3-1"/>, the erythema caused by a source of ultraviolet radiation can be characterized in the units of the spectral photon distribution system using the erythemal photon irradiance:</p>
+
+<formula id="_0f5b0282-cc6e-0d5a-2754-2ed132e0e988" anchor="eq-a-3-2"><stem block="true" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>E</mi>
+      </mstyle>
+      <mtext>p,er</mtext>
+    </msub>
+    <mo>=</mo>
+    <mo>∫</mo>
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>E</mi>
+      </mstyle>
+      <mrow>
+        <mtext>p</mtext>
+        <mo>,</mo>
+        <mstyle mathvariant="italic">
+          <mi>λ</mi>
+        </mstyle>
+      </mrow>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+    <msub>
+      <mi>s</mi>
+      <mtext>p,er</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+    <mtext>d</mtext>
+    <mstyle mathvariant="italic">
+      <mi>λ</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(E)_("p,er") = int ii(E)_("p",ii(lambda))(ii(lambda)) s_("p,er")(ii(lambda)) "d" ii(lambda)</asciimath></stem></formula>
+
+<p id="_6874eb45-c8b7-8b63-cdf6-c9b73189fe32">where <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>E</mi>
+      </mstyle>
+      <mrow>
+        <mtext>p</mtext>
+        <mo>,</mo>
+        <mstyle mathvariant="italic">
+          <mi>λ</mi>
+        </mstyle>
+      </mrow>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>ii(E)_("p",ii(lambda))(ii(lambda))</asciimath></stem> is the spectral photon flux<fn id="_9d61178d-48a3-f5d5-7f06-145d20ae6b01" reference="1"><p id="_968db1e2-8af7-bdf9-a030-adc1f7aeed3e">Photon flux is the number of photons emitted, transmitted or received per unit time interval, usually reported in the unit <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu3e-1/1">
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>s</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>1</mn>
+        </mrow>
+      </msup>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(s^-1)"</asciimath></stem>.</p>
+</fn> per unit area at wavelength <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>λ</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(lambda)</asciimath></stem> (usually reported in the unit <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_s-1.m-2.nm-1">
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>s</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>1</mn>
+        </mrow>
+      </msup>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>m</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>2</mn>
+        </mrow>
+      </msup>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>nm</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>1</mn>
+        </mrow>
+      </msup>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(s^(-1)*m^(-2)*nm^(-1))"</asciimath></stem>), and <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>s</mi>
+      <mtext>p,er</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>s_("p,er")(ii(lambda))</asciimath></stem> is the erythema spectral weighting function expressed in the spectral photon distribution system and normalized to 1 at its maximum spectral value. The erythemal <strong>photon</strong> irradiance, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>E</mi>
+      </mstyle>
+      <mtext>p,er</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(E)_("p,er")</asciimath></stem>, determined in this way is usually reported in the unit <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_s-1.m-2">
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>s</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>1</mn>
+        </mrow>
+      </msup>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>m</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>2</mn>
+        </mrow>
+      </msup>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(s^(-1)*m^(-2))"</asciimath></stem>, as the number of photons is dimensionless.</p>
+
+<p id="_837f2084-645a-105c-9fd1-6ed2211bb12a">It follows directly from the above equations that the relationship between the expressions for the spectrally weighted quantity in the two systems depends on both the spectral shape of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>E</mi>
+      </mstyle>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>ii(E)_(ii(lambda))(ii(lambda))</asciimath></stem> and the action spectrum. However, for a general response process <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu4">
+      <mstyle mathvariant="normal">
+        <mi>A</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(A)"</asciimath></stem>, the relationship between the shapes of the two spectral weighting functions <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>s</mi>
+      <mtext>p,A</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>s_("p,A")(ii(lambda))</asciimath></stem> and <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>s</mi>
+      <mtext>e,A</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>s_("e,A")(ii(lambda))</asciimath></stem> (in the photon system and radiometric system, respectively) that can be used to describe the effect is governed by:</p>
+
+<formula id="_4cc8f661-e9f3-745a-2e25-20f951f13f12" anchor="eq-a-3-3"><stem block="true" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <msub>
+      <mi>s</mi>
+      <mtext>p,A</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+    <mo>=</mo>
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>γ</mi>
+      </mstyle>
+      <mtext>A</mtext>
+    </msub>
+    <mo>⋅</mo>
+    <mfrac>
+      <mrow>
+        <mi>h</mi>
+        <mi>c</mi>
+      </mrow>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+    </mfrac>
+    <mo>⋅</mo>
+    <msub>
+      <mi>n</mi>
+      <mtext>a</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+    <mo>⋅</mo>
+    <msub>
+      <mi>s</mi>
+      <mtext>e,A</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>s_("p,A")(ii(lambda)) = ii(gamma)_"A" * (hc)/(ii(lambda)) * n_"a"(ii(lambda)) * s_("e,A")(ii(lambda))</asciimath></stem></formula>
+
+<p id="_b805ff56-4db4-dff8-500a-dfc606470d98">where <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>γ</mi>
+      </mstyle>
+      <mtext>A</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(gamma)_"A"</asciimath></stem> is a constant (reported in units of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msup>
+      <mi mathvariant="normal">J</mi>
+      <mrow>
+        <mo>−</mo>
+        <mn>1</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math><asciimath>J^(-1)</asciimath></stem>), independent of the spectral irradiance, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>E</mi>
+      </mstyle>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>ii(E)_(ii(lambda))(ii(lambda))</asciimath></stem>, that satisfies the requirement to set the maximum values of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>s</mi>
+      <mtext>p,A</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>s_("p,A")(ii(lambda))</asciimath></stem> to 1, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>h</mi>
+  </mstyle>
+</math><asciimath>h</asciimath></stem> is the Planck constant, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>c</mi>
+  </mstyle>
+</math><asciimath>c</asciimath></stem> is the speed of light in vacuum, and <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>n</mi>
+      <mtext>a</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>n_"a"(ii(lambda))</asciimath></stem> is the refractive index in air<fn id="_f10930bb-4d21-8927-7148-372a19ee141e" reference="2"><p id="_7a109ed2-1118-f40a-86d2-7bceac8aeb97">Action spectra are defined in terms of the magnitude of the effect as a function of wavelength. The wavelength of radiation depends on the refractive index of the medium, meaning that the value of the action spectrum at any stated wavelength will vary depending on the medium for which that wavelength is determined. In general, the medium under consideration is air and the CIE action spectra mentioned above apply for wavelengths measured in air.</p>
+</fn> at the given wavelength, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>λ</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(lambda)</asciimath></stem>. It should be noted that the two spectral weighting functions <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>s</mi>
+      <mtext>p,A</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>s_("p,A")(ii(lambda))</asciimath></stem> and <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>s</mi>
+      <mtext>e,A</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>s_("e,A")(ii(lambda))</asciimath></stem> describing the same effect are different in form, and the peak wavelength of the effect is different when expressed in photon quantities or radiometric quantities.</p>
+</clause>
+</sections>
+</metanorma>

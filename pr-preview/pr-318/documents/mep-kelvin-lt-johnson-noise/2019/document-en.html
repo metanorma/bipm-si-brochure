@@ -1,0 +1,4741 @@
+
+<!DOCTYPE html SYSTEM "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en" xml:lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><style>@charset "UTF-8";
+/*
+  0 CSS RESET
+*/
+/* http://meyerweb.com/eric/tools/css/reset/
+  v2.0 | 20110126
+  License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  border: 0;
+  font-size: 100%;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, tt, var,
+b, u, i, center,
+dl, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  vertical-align: baseline;
+}
+
+html, body, div, span, applet, object, iframe,
+p, blockquote,
+a, abbr, acronym, address, big, cite,
+del, dfn, em, img, ins, q, s,
+small, strike, strong, sub, sup, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  font-family: Times New Roman;
+}
+
+code, pre, tt, kbd, samp {
+  font-family: "Space Mono",monospace;
+  font-variant-ligatures: none;
+}
+
+code *, pre *, tt *, kbd *, samp * {
+  font-family: "Space Mono",monospace !important;
+  font-variant-ligatures: none;
+}
+
+p code, dt code, li code, label code, legend code, caption code, th code, td code,
+p tt, dt tt, li tt, label tt, legend tt, caption tt, th tt, td tt,
+p kbd, dt kbd, li kbd, label kbd, legend kbd, caption kbd, th kbd, td kbd,
+p samp, dt samp, li samp, label samp, legend samp, caption samp, th samp, td samp {
+  font-size: ;
+}
+
+sub, sup {
+  font-size: 0.75em;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Times New Roman;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: Times New Roman;
+}
+
+blockquote, q {
+  quotes: none;
+}
+blockquote::before, blockquote::after, q::before, q::after {
+  content: "";
+  content: none;
+}
+
+.h2Annex {
+  font-family: Times New Roman;
+}
+
+dl {
+  display: grid;
+  grid-template-columns: max-content auto;
+}
+dl dt p, dl dd p {
+  margin-top: 0;
+}
+dl dt {
+  grid-column-start: 1;
+}
+dl dd {
+  grid-column-start: 2;
+}
+
+b, strong {
+  font-weight: bold;
+}
+
+div.document-stage-band, div.document-type-band {
+  background-color: #333333;
+}
+
+a.TableFootnoteRef, span.TableFootnoteRef,
+a.FootnoteRef, span.FootnoteRef {
+  vertical-align: super;
+}
+
+.addition {
+  color: blue;
+}
+
+.deletion {
+  color: red;
+  text-decoration: line-through;
+}
+
+ruby {
+  ruby-position: over;
+  -webkit-ruby-position: before;
+}
+
+ruby ruby {
+  ruby-position: under;
+  -webkit-ruby-position: after;
+}
+
+/* code highlighting with line numbers */
+table.rouge-line-table td.rouge-gutter {
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  padding-right: 1em;
+}
+
+table.rouge-line-table td.rouge-code {
+  -moz-user-select: all;
+  -ms-user-select: all;
+  -webkit-user-select: all;
+  user-select: all;
+}
+
+table.rouge-line-table,
+table.rouge-line-table th,
+table.rouge-line-table td {
+  width: auto;
+  border: none;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+}
+
+table.rouge-line-table pre {
+  margin: 0;
+  padding: 0;
+  overflow-x: visible;
+  font-size: 100%;
+}
+
+/* header § links */
+a.header {
+  color: inherit;
+  text-decoration: none;
+}
+
+a.header:hover {
+  color: #a53221 !important;
+  background: inherit;
+  box-shadow: none;
+}
+
+a.header:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+a.anchor {
+  position: absolute;
+  z-index: 1001;
+  width: 1.5ex;
+  margin-left: -1.5ex;
+  display: block;
+  text-decoration: none !important;
+  visibility: hidden;
+  text-align: center;
+  font-weight: 400;
+}
+
+a.anchor::before {
+  content: "§";
+  font-size: 0.85em;
+  display: block;
+  padding-top: 0.1em;
+}
+
+a.anchor:hover {
+  color: #a53221;
+  background: inherit;
+  box-shadow: none;
+}
+
+h1 > a.anchor:hover,
+h2 > a.anchor:hover,
+h3 > a.anchor:hover,
+h4 > a.anchor:hover,
+h5 > a.anchor:hover,
+h6 > a.anchor:hover,
+.inline-header > a.anchor:hover,
+h1:hover > a.anchor,
+h2:hover > a.anchor,
+h3:hover > a.anchor,
+h4:hover > a.anchor,
+h5:hover > a.anchor,
+h6:hover > a.anchor,
+.inline-header:hover > a.anchor {
+  visibility: visible;
+}
+
+/* collapsible snippets: collapsible before hidable */
+.hidable {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  cursor: pointer;
+  padding: 3px 0;
+  margin: 0;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.collapsible:after {
+  content: "▼";
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.active:after {
+  content: "▲";
+}
+
+/* collapsible: */
+.collapsible + .hidable {
+  margin-top: 0;
+}
+
+.collapsible:not(.active) + .hidable {
+  overflow: hidden;
+  padding: 0;
+}
+
+.svg-container {
+  width: 100%; /* or any desired width */
+  display: block; /* ← removes unwanted inline spacing */
+}
+
+svg {
+  width: 100%;
+  height: auto; /* ← key to maintaining aspect ratio */
+  display: block; /* ← removes unwanted inline spacing */
+}
+
+/* style dfn by override in flavor */
+dfn {
+  font-style: inherit;
+}
+
+#standard-band {
+  background-color: #0AC442;
+}
+
+#standard {
+  border-bottom: solid 3px #0AC442;
+}
+
+#directive-band {
+  background-color: #540D6E;
+}
+
+#directive {
+  border-bottom: solid 3px #540D6E;
+}
+
+#guide-band {
+  background-color: #D183C9;
+}
+
+#guide {
+  border-bottom: solid 3px #D183C9;
+}
+
+#specification-band {
+  background-color: #65AFFF;
+}
+
+#specification {
+  border-bottom: solid 3px #65AFFF;
+}
+
+#report-band {
+  background-color: #3A405A;
+}
+
+#report {
+  border-bottom: solid 3px #3A405A;
+}
+
+#amendment-band {
+  background-color: #F26430;
+}
+
+#amendment {
+  border-bottom: solid 3px #F26430;
+}
+
+#corrigendum-band {
+  background-color: #C84630;
+}
+
+#corrigendum {
+  border-bottom: solid 3px #C84630;
+}
+
+#administrative-band {
+  background-color: #BFAE48;
+}
+
+#administrative {
+  border-bottom: solid 3px #BFAE48;
+}
+
+#advisory-band {
+  background-color: #BD9391;
+}
+
+#advisory {
+  border-bottom: solid 3px #BD9391;
+}
+
+#proposal-band {
+  background-color: #39A0ED;
+}
+
+#proposal {
+  border-bottom: solid 3px #39A0ED;
+}
+
+#working-draft-band {
+  background-color: #2D7393;
+}
+
+#working-draft {
+  border-bottom: solid 3px #2D7393;
+}
+
+#committee-draft-band {
+  background-color: #2A6B7C;
+}
+
+#committee-draft {
+  border-bottom: solid 3px #2A6B7C;
+}
+
+#draft-standard-band {
+  background-color: #1C7F7A;
+}
+
+#draft-standard {
+  border-bottom: solid 3px #1C7F7A;
+}
+
+#final-draft-band {
+  background-color: #53C170;
+}
+
+#final-draft {
+  border-bottom: solid 3px #53C170;
+}
+
+#published-band {
+  background-color: #069E2D;
+}
+
+#published {
+  border-bottom: solid 3px #069E2D;
+}
+
+#withdrawn-band {
+  background-color: #004E64;
+}
+
+#withdrawn {
+  border-bottom: solid 3px #004E64;
+}
+
+#cancelled-band {
+  background-color: #2E382E;
+}
+
+#cancelled {
+  border-bottom: solid 3px #2E382E;
+}
+
+/*
+    1. HTML & Body
+*/
+body {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 1.4em;
+  color: #1d1d1d;
+  background-color: #ffffff;
+}
+body main {
+  margin: 0 3em 0 6em;
+}
+body {
+  font-weight: 400;
+}
+body pre * {
+  font-family: Times New Roman !important;
+}
+
+main {
+  margin: 0 3em 0 6em;
+}
+
+/*
+    2. Responsive navigation layout
+*/
+#toc ul, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#toc ul li a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) ul li a {
+  padding: 5px 10px;
+}
+#toc ul a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) ul a {
+  color: #485094;
+  text-decoration: none;
+  display: block;
+}
+#toc ul a:hover, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) ul a:hover {
+  box-shadow: none;
+  color: #485094;
+}
+#toc .h2, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h2 {
+  padding-left: 30px;
+}
+#toc .h3, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h3 {
+  padding-left: 50px;
+}
+#toc .h4, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h4 {
+  padding-left: 70px;
+}
+#toc .h5, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h5 {
+  padding-left: 90px;
+}
+#toc .h6, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .h6 {
+  padding-left: 110px;
+}
+#toc .toc-active, #toc li:hover, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover {
+  background: #6C734A;
+  box-shadow: inset -5px 0px 10px -5px #6C734A !important;
+}
+#toc .toc-active a, #toc li:hover a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover a {
+  color: #485094;
+}
+@media print {
+  #toc .toc-active, #toc li:hover, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover {
+    background: white;
+    box-shadow: none !important;
+  }
+  #toc .toc-active a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active a {
+    color: #485094;
+  }
+  #toc li:hover a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover a {
+    color: black;
+  }
+}
+#toc, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) {
+  font-family: Times New Roman;
+  font-weight: 400;
+}
+@media screen and (max-width: 768px) {
+  #toc, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) {
+    padding: 0 1.5em;
+    overflow: visible;
+  }
+}
+#toc .toc-active a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active a {
+  color: white;
+}
+#toc .toc-active,
+#toc li:hover, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active,
+#toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover {
+  box-shadow: none !important;
+}
+#toc .toc-active a,
+#toc li:hover a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) .toc-active a,
+#toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li:hover a {
+  color: white;
+  background: none;
+  box-shadow: none;
+}
+#toc li a, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) li a {
+  text-transform: uppercase;
+}
+#toc ul a:hover, #toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) ul a:hover {
+  box-shadow: none;
+  color: white;
+}
+
+#toc > ul :is(.h1, .h2, .h3, .h4, .h5, .h6) {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  nav {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 323px;
+    font-size: 0.9em;
+    overflow: auto;
+    padding: 0 0 0 30px;
+    background-color: #f7f7f7;
+  }
+}
+@media print {
+  nav {
+    position: relative;
+    width: auto;
+    font-size: 0.9em;
+    overflow: auto;
+    padding: 0;
+    margin-right: 0;
+    background-color: white;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #toggle {
+    position: fixed;
+    height: 100%;
+    width: 30px;
+    background-color: #6C734A;
+    color: white !important;
+    cursor: pointer;
+    z-index: 100;
+  }
+  #toggle span {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+  }
+}
+@media screen and (max-width: 768px) {
+  #toggle {
+    display: none;
+  }
+}
+@media print {
+  #toggle {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    padding-left: 360px;
+  }
+  .rule.toc {
+    display: none;
+  }
+  h1.toc-contents {
+    margin-top: 1em;
+  }
+  ul#toc-list, ul#toc-list > :is(.h1, .h2, .h3, .h4, .h5, .h6) {
+    padding: 0;
+    margin: 0;
+  }
+}
+figure figcaption {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+}
+figure > img, figure > svg {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+figure {
+  line-height: 1.6em;
+  padding: 1.5em;
+  margin: 2em 0 1em 0;
+  overflow: auto;
+}
+
+table figure {
+  padding: 0;
+  margin: 0;
+}
+
+/*
+    Document types + stages
+*/
+.document-type-band {
+  left: 0;
+  top: 180px;
+  height: 100%;
+  position: fixed;
+  display: block;
+  z-index: 102;
+}
+.document-type-band > :first-child {
+  position: relative;
+  width: 25px;
+  font-weight: 400;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  margin: 0;
+  margin-left: 6px;
+  writing-mode: tb-rl;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  white-space: nowrap;
+  display: block;
+  bottom: 0;
+}
+@media print {
+  .document-type-band {
+    display: none;
+  }
+}
+.document-type-band .document-type {
+  top: 20px;
+}
+
+.document-stage-band {
+  left: 0;
+  top: 0;
+  height: 100%;
+  position: fixed;
+  display: block;
+  z-index: 101;
+  box-shadow: -5px 0px 10px #1d1d1d;
+}
+.document-stage-band > :first-child {
+  position: relative;
+  width: 25px;
+  font-weight: 400;
+  height: 150;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  margin: 0;
+  margin-left: 6px;
+  writing-mode: tb-rl;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  white-space: nowrap;
+  display: block;
+  bottom: 0;
+}
+@media print {
+  .document-stage-band {
+    display: none;
+  }
+}
+
+.document-stage-band > :first-child {
+  font-weight: 300;
+}
+
+p.document-stage {
+  position: relative;
+  width: 25px;
+  font-weight: 400;
+  height: 150;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.9em;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  margin: 0;
+  margin-left: 6px;
+  writing-mode: tb-rl;
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  white-space: nowrap;
+  display: block;
+  bottom: 0;
+}
+
+#governance-band p.document-type {
+  height: 230px !important;
+}
+
+p.document-stage {
+  font-weight: 300;
+  height: 160px;
+}
+
+.coverpage-maturity {
+  font-family: Times New Roman;
+  font-weight: 400;
+  font-size: 1em;
+  margin: 0 0 2em 0;
+  text-transform: uppercase;
+}
+
+/*
+    3. TYPOGRAPHY
+*/
+/*
+    3.1 Titles
+*/
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: Times New Roman;
+  color: #6C734A;
+  font-weight: 300;
+  margin-top: 1.6em;
+  margin-bottom: 0.3em;
+}
+
+h1, .h1 {
+  font-size: 1.6em;
+  text-transform: uppercase;
+  margin-top: 2em;
+}
+
+h1#content, .h1#content {
+  margin-top: 2em;
+}
+
+h2, .h2 {
+  margin-top: 1.3em;
+  font-size: 1.3em;
+  font-weight: 400;
+}
+
+h3, .h3 {
+  margin-top: 1.1em;
+  font-size: 1.1em;
+  font-weight: 100;
+}
+
+.TermNum {
+  font-weight: 100;
+}
+
+.TermNum, .Terms, .AltTerms {
+  color: #6C734A;
+}
+
+h2.TermNum {
+  margin-bottom: 0;
+}
+
+p.Terms {
+  font-size: 1.1em;
+  line-height: 1.5em;
+  margin: 0;
+}
+
+p.AltTerms {
+  /*
+  font-style: italic;
+   */
+  font-size: 1.1em;
+  margin: 0;
+}
+
+/*
+    3.2 Links
+*/
+a, a:visited {
+  text-decoration: none;
+  color: #485094;
+}
+
+a:hover {
+  color: white;
+  background: #6C734A;
+  box-shadow: 3px 0 0 #6C734A, -3px 0 0 #6C734A;
+}
+
+*::selection {
+  background: #6C734A;
+  color: white;
+}
+
+*::-moz-selection {
+  background: #6C734A;
+  color: white;
+}
+
+/*
+    3.3 Lists
+*/
+ul, ol {
+  margin-left: 1.2em;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li::before {
+  content: "—";
+  display: inline-block;
+  width: 1em;
+  margin-left: -1.2em;
+}
+
+ul li p {
+  display: inline;
+}
+
+ul > li:first-child {
+  margin-top: 1em;
+}
+
+ul ul > li:first-child {
+  margin-top: 0;
+}
+
+ol ul > li:first-child {
+  margin-top: 0;
+}
+
+#toc-list ul {
+  margin-bottom: 0.25em;
+}
+
+#toc-list li {
+  list-style-type: none;
+}
+
+#toc li::before {
+  content: " ";
+  display: none;
+}
+
+/* https://github.com/metanorma/metanorma-bipm/issues/47 */
+ol[class=alphabet] {
+  counter-reset: alphabet;
+}
+
+ol[class=roman] {
+  counter-reset: roman;
+}
+
+ol[class=alphabet] ol[class=alphabet] {
+  counter-reset: none;
+}
+
+ol[class=alphabet] > li {
+  list-style: none;
+  position: relative;
+}
+
+ol[class=alphabet] ol[class=alphabet] > li {
+  list-style: inherit;
+}
+
+ol[class=alphabet] > li::before {
+  counter-increment: alphabet;
+  content: counter(alphabet, lower-alpha) ") ";
+  position: absolute;
+  left: -1.4em;
+}
+
+ol[class=alphabet] ol[class=alphabet] > li::before {
+  counter-increment: none;
+  content: initial;
+}
+
+ol[class=roman] ol[class=roman] {
+  counter-reset: none;
+}
+
+ol[class=roman] > li {
+  list-style: none;
+  position: relative;
+}
+
+ol[class=roman] ol[class=roman] > li {
+  list-style: inherit;
+}
+
+ol[class=roman] > li::before {
+  counter-increment: roman;
+  content: "(" counter(roman, lower-roman) ") ";
+  position: absolute;
+  left: -2em;
+}
+
+ol[class=roman] ol[class=roman] > li::before {
+  counter-increment: none;
+  content: initial;
+}
+
+/*
+    3.4 Rules
+*/
+.rule {
+  width: 100%;
+  height: 1px;
+  background-color: #0e1a85;
+  margin: 2em 0;
+}
+
+/*
+    3.5 Bibliograhy
+*/
+p.Biblio, p.NormRef, div.Biblio, div.NormRef {
+  margin-top: 1em;
+  margin-left: 2em;
+}
+
+.Biblio.note, .Biblio.Note, .NormRef.note, .NormRef.Note {
+  margin-left: 3em;
+}
+
+/*
+    3.6 Source Code + figures
+*/
+figure .SourceTitle,
+pre .SourceTitle,
+.pseudocode .SourceTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+}
+figure,
+pre,
+.pseudocode {
+  background-color: #f7f7f7;
+  font-size: ;
+  line-height: 1.6em;
+  padding: 1.5em;
+  margin: 2em 0 1em 0;
+  overflow: auto;
+}
+
+pre {
+  font-family: "Space Mono",monospace;
+  font-variant-ligatures: none;
+}
+
+.AdmonitionTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+}
+
+.RecommendationTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+}
+
+.ListTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+  text-align: left;
+}
+
+figcaption,
+.SourceTitle {
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+}
+
+/*
+    3.7 Notes
+*/
+.Note {
+  background-color: #fff495;
+  color: #47430c;
+  padding: 1.2em;
+  margin: 1em 0 1em 0;
+}
+.Note p {
+  margin: 0;
+}
+
+/*
+    3.8 Examples
+*/
+.example {
+  background-color: #e1eef1;
+  padding: 1.2em;
+  margin: 2em 0 1em 0;
+  text-align: left;
+}
+.example p {
+  margin: 0;
+}
+.example {
+  color: #424242;
+  padding-left: 2.7em;
+}
+.example .example-title {
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-left: -1.5em;
+}
+.example .example-title {
+  margin-top: 0;
+}
+.example pre,
+.example .pseudocode {
+  background: none;
+}
+
+/*
+    3.9 Tables
+*/
+table {
+  width: 100%;
+  font-weight: 300;
+  margin: 1em 0 2em 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-right: 2em;
+}
+table, table th, table td {
+  border: 1px solid black;
+  font-size: 0.95em;
+}
+table th, table td {
+  padding: 1em;
+}
+table td.header {
+  font-weight: 400;
+}
+table table.plain, table table.plain th, table table.plain td {
+  border: none !important;
+  font-size: 0.95em;
+}
+
+table > caption {
+  text-align: center;
+  margin-top: 2.5em;
+  font-weight: 400;
+}
+
+/*
+  3.10 Footnotes
+*/
+a.footnote-number {
+  vertical-align: super;
+  font-size: 0.8em;
+}
+
+.footnote {
+  font-size: 0.9em;
+}
+
+/*
+    3.11 Blockquotes
+*/
+.Quote {
+  background-color: #f2f2f2;
+  font-style: italic;
+  width: 80%;
+  padding: 1.5em;
+  margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*
+    3.12 Formulas
+*/
+.formula {
+  background-color: #f7f7f7;
+  padding: 1.5em;
+  margin-top: 2em;
+  text-align: center;
+}
+
+/*
+    3.13 Contact Info
+*/
+.contact-info {
+  padding: 2em;
+  margin-top: 5em;
+  width: 250px;
+  text-align: left;
+  border: #6C734A solid 2px;
+  color: #6C734A !important;
+  border-radius: 25px;
+}
+
+.contact-info a,
+.contact-info a:hover {
+  color: #6C734A;
+}
+
+.contact-info p, .contact-info a {
+  font-family: "Space Mono",monospace;
+  font-weight: 400;
+}
+
+.contact-info .name {
+  font-weight: 700;
+  font-size: 1.2em;
+  margin-bottom: 0;
+}
+
+.contact-info .address {
+  font-size: 1em;
+  line-height: 1.3em;
+  margin-top: 0;
+}
+
+/*
+    Keywords
+*/
+span.keyword {
+  font-weight: 600;
+}
+
+/*
+    Paragraphs
+*/
+p {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+h2 p, .h2 p {
+  display: inline;
+}
+
+/*
+    4.0 Page header
+*/
+/*
+    4.1 Top Logo
+*/
+.icon-svg {
+  width: 100%;
+  color: #5ecf86;
+}
+
+.wrapper-top {
+  background: linear-gradient(200deg, #007864, #6C734A);
+  color: #ffffff;
+  padding: 2em 0;
+  width: 100%;
+}
+
+.wrapper-top-bottom {
+  width: 0;
+  height: 0;
+  border-top: 100px solid #6C734A;
+  border-right: 100px solid transparent;
+  position: absolute;
+}
+
+.doc-number {
+  font-size: 0.5em;
+  font-family: Times New Roman;
+}
+
+.coverpage-title {
+  padding-bottom: 0.5em;
+  font-family: Times New Roman;
+  font-size: 1.2em;
+  line-height: 1.5em;
+  font-weight: 100;
+  padding-left: 1em;
+  padding-right: 1em;
+  text-transform: uppercase;
+}
+
+.WordSection11 {
+  padding: 0 2em 0 3em;
+}
+
+.info-section {
+  padding: 0 2em 0 5em;
+}
+
+.prefatory-section {
+  padding: 0 3em 0 6em;
+}
+
+.zzSTDTitle1, .MsoCommentText {
+  display: none;
+}
+
+.coverpage {
+  text-align: center;
+  padding-left: 1.5em;
+}
+
+.coverpage-logo span, .coverpage-tc-name span {
+  font-family: Times New Roman;
+  text-transform: none;
+  font-weight: 300;
+}
+
+.coverpage-tc-name {
+  font-size: 1.2em;
+  line-height: 1.2em;
+  margin: 0.25em 0;
+}
+
+.logo-img {
+  width: 310px;
+  height: auto;
+  margin: auto;
+  padding: 0.5em;
+}
+
+/*
+    4.2 Document Identity
+*/
+.coverpage-doc-identity {
+  font-size: 2em;
+  line-height: 2em;
+}
+
+.coverpage-title .title-second {
+  font-size: 0.8em;
+}
+
+.coverpage-title .title-third {
+  font-size: 0.6em;
+}
+
+.coverpage-stage-block {
+  font-family: Times New Roman;
+  font-weight: 600;
+  font-size: 1.25em;
+  margin: 2em 0em 2em 0em;
+  text-transform: uppercase;
+}
+
+/*
+    4.3 Draft Warning
+*/
+.coverpage-warning {
+  border: #f36f36 solid 2px;
+  color: #f36f36 !important;
+  margin: 1em 2em;
+  color: #485094;
+  padding: 2em 1em 1em 1em;
+  border-radius: 25px;
+}
+
+.coverpage-warning .title {
+  font-family: Times New Roman;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 1.2em;
+}
+
+/*
+    4.4 Copyright
+*/
+.copyright {
+  padding: 1em;
+  font-size: 0.9em;
+  text-align: left;
+}
+
+/*  .copyright .name, .copyright .address {color: #485094;} */
+/*
+    5.0 Other styles
+*/
+/*
+To top button
+*/
+#myBtn {
+  font-family: "Space Mono",monospace;
+  font-variant-ligatures: none;
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 12px;
+  border: none;
+  outline: none;
+  background-color: #1f8ca0;
+  opacity: 0.15;
+  color: white;
+  cursor: pointer;
+  padding: 10px 15px 10px 15px;
+  border-radius: 4px;
+}
+#myBtn:hover {
+  opacity: 1;
+}
+@media print {
+  #myBtn {
+    display: none;
+  }
+}
+#myBtn {
+  text-transform: uppercase;
+}
+#myBtn a.anchorjs-link:hover {
+  background: none;
+  color: #485094;
+  box-shadow: none;
+}
+
+@page {
+  margin: 2cm 1cm;
+}
+@media print {
+  .document-info, nav, .copyright {
+    page-break-before: always;
+  }
+  h1, h2, h3, h4, .h1, .h2, .h3, .h4 {
+    page-break-after: avoid;
+    margin-top: 1.2em;
+  }
+  .note, figure, pre, .pseudocode, table {
+    page-break-inside: avoid;
+  }
+  .info-section {
+    display: none;
+  }
+  .coverpage {
+    height: 23cm;
+  }
+  .wrapper-top {
+    top: 0;
+    padding-top: 4cm;
+    padding-bottom: 4cm;
+  }
+  .wrapper-top-bottom {
+    margin-top: -5px;
+  }
+  #toggle, .document-stage-band,
+  .document-type-band, button#myBtn {
+    display: none;
+  }
+  .container {
+    padding-left: 0;
+  }
+  h1.content, .h1.content {
+    margin-top: 2em;
+    line-height: 2.5em;
+  }
+  h1, .h1 {
+    font-size: 1.5em;
+    line-height: 1.5;
+  }
+  h2, .h2 {
+    font-size: 1.2em;
+  }
+  h3, .h3 {
+    font-size: 1em;
+  }
+  .Note {
+    background-color: #fff495;
+    color: #47430c;
+    padding: 5px;
+    margin: 2em 0 1em 0;
+  }
+  .Note p {
+    padding: 0 5px 0 5px;
+  }
+  .wrapper-top-bottom {
+    display: none;
+  }
+}
+</style><style>pre.sourcecode table td { padding: 5px; }
+pre.sourcecode table pre { margin: 0; }
+pre.sourcecode, pre.sourcecode .w {
+  color: #444444;
+}
+pre.sourcecode .cp {
+  color: #CC00A3;
+}
+pre.sourcecode .cs {
+  color: #CC00A3;
+}
+pre.sourcecode .c, pre.sourcecode .ch, pre.sourcecode .cd, pre.sourcecode .cm, pre.sourcecode .cpf, pre.sourcecode .c1 {
+  color: #FF0000;
+}
+pre.sourcecode .kc {
+  color: #C34E00;
+}
+pre.sourcecode .kd {
+  color: #0000FF;
+}
+pre.sourcecode .kr {
+  color: #007575;
+}
+pre.sourcecode .k, pre.sourcecode .kn, pre.sourcecode .kp, pre.sourcecode .kt, pre.sourcecode .kv {
+  color: #0000FF;
+}
+pre.sourcecode .s, pre.sourcecode .sb, pre.sourcecode .sc, pre.sourcecode .ld, pre.sourcecode .sd, pre.sourcecode .s2, pre.sourcecode .se, pre.sourcecode .sh, pre.sourcecode .si, pre.sourcecode .sx, pre.sourcecode .sr, pre.sourcecode .s1, pre.sourcecode .ss {
+  color: #009C00;
+}
+pre.sourcecode .sa {
+  color: #0000FF;
+}
+pre.sourcecode .nb, pre.sourcecode .bp {
+  color: #C34E00;
+}
+pre.sourcecode .nt {
+  color: #0000FF;
+}
+
+</style><title>The International System of Units</title>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!--TOC script import-->
+<script type="text/javascript" src="https://cdn.rawgit.com/jgallen23/toc/0.3.2/dist/toc.min.js"></script>
+<script type="text/javascript">function toclevel() { return "h1:not(:empty):not(.TermNum):not(.noTOC),h2:not(:empty):not(.TermNum):not(.noTOC)";}
+</script>
+
+<!--Google fonts-->
+<link rel="preconnect" href="https://fonts.gstatic.com" />
+
+<!--Font awesome import for the link icon-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css" integrity="sha384-v2Tw72dyUXeU3y4aM2Y0tBJQkGfplr39mxZqlTBDUZAb9BGoC40+rdFCG0m10lXk" crossorigin="anonymous" />
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/fontawesome.css" integrity="sha384-q3jl8XQu1OpdLgGFvNRnPdj5VIlCvgsDQTQB6owSOHWlAurxul7f+JpUOVdAiJ5P" crossorigin="anonymous" />
+<style class="anchorjs"></style>
+</head><body lang="EN-US" link="blue" vlink="#954F72" xml:lang="EN-US" class="container"><div class="title-section"><div class="document-stage-band" id="in-force-band">
+    <p class="document-stage">In Force</p>
+</div>
+
+<div class="document-type-band" id="mise-en-pratique-band">
+  <p class="document-type">BIPM Mise en Pratique</p>
+</div>
+
+
+
+  <div id="toggle"> <span>•</span> </div>
+
+  <header>
+
+<!--<div class="WordSection1">-->
+  <div class="coverpage">
+    <div class="wrapper-top">
+
+  <div class="coverpage-doc-identity">
+    <div class="doc-number">
+      <span class="docnumber">BIPM SI MEP KLJNT-1 A2.4</span>
+      <span class="docnumber-separator">:</span>
+      <span class="docyear">2019 </span>
+      
+      
+      <br />Date: 2019-01-01
+      
+    </div>
+
+    <div class="coverpage-logo logo-img">
+      <image src="" mimetype="image/svg+xml"><svg xmlns="http://www.w3.org/2000/svg" id="uuid-4162b5c4-51d5-4227-8dcd-f05974f2b5f8" width="206.54mm" height="104.93mm" viewBox="0 0 585.46 297.43" preserveaspectratio="xMidYMin slice"><path d="M31.43,8h18.98c4.51,0,7.93,1.08,10.27,3.25s3.51,5.29,3.51,9.36c0,2.47-.44,4.52-1.33,6.14-.89,1.62-2.24,3-4.06,4.13,1.82.35,3.37.88,4.65,1.59,1.28.72,2.32,1.59,3.12,2.63.8,1.04,1.38,2.21,1.72,3.51.35,1.3.52,2.69.52,4.16,0,2.3-.4,4.33-1.2,6.11-.8,1.78-1.93,3.27-3.38,4.48-1.45,1.21-3.22,2.12-5.3,2.73-2.08.61-4.42.91-7.02.91h-20.48V8ZM44.17,27.23h2.34c3.99,0,5.98-1.58,5.98-4.75s-1.99-4.74-5.98-4.74h-2.34v9.49ZM44.17,47.13h2.79c3.21,0,5.5-.41,6.89-1.24,1.39-.82,2.08-2.14,2.08-3.96s-.69-3.14-2.08-3.96-3.68-1.24-6.89-1.24h-2.79v10.4Z" style="fill:#0f3c80;"></path><path d="M101.63,43.93c0,4.85-.98,8.4-2.94,10.66s-5.01,3.4-9.16,3.4-7.23-1.13-9.17-3.4c-1.95-2.26-2.92-5.82-2.92-10.66v-17.27h5.21v17.08c0,3.24.52,5.59,1.57,7.05,1.05,1.46,2.82,2.19,5.32,2.19s4.26-.72,5.28-2.16c1.03-1.44,1.54-3.8,1.54-7.08v-17.08h5.27v17.27Z" style="fill:#0f3c80;"></path><path d="M129.47,26.31l-1.24,5.14c-.38-.23-.79-.41-1.24-.52s-.92-.17-1.43-.17c-2.56,0-4.49,1.1-5.79,3.29-1.3,2.19-1.95,5.46-1.95,9.82v13.14h-5.17v-30.34h5.17v5.33c.74-2.18,1.81-3.77,3.21-4.76s3.26-1.49,5.59-1.49c.55,0,1.08.05,1.6.16s.94.24,1.25.41Z" style="fill:#0f3c80;"></path><path d="M161.05,42.63h-24.38c.19,3.28,1.16,5.82,2.9,7.63,1.75,1.81,4.08,2.71,7,2.71,2.22,0,4.11-.44,5.67-1.32,1.55-.88,2.79-2.2,3.7-3.95l4.35,2.29c-1.4,2.65-3.25,4.64-5.57,5.98-2.32,1.34-5.05,2.01-8.2,2.01-4.57,0-8.22-1.49-10.93-4.47s-4.08-6.93-4.08-11.84c0-4.57,1.44-8.37,4.32-11.39,2.88-3.03,6.42-4.54,10.63-4.54s7.83,1.39,10.54,4.16c2.71,2.77,4.06,6.41,4.06,10.92v1.81ZM155.88,38.95c-.28-2.6-1.25-4.63-2.92-6.08-1.67-1.45-3.84-2.17-6.51-2.17s-4.73.75-6.51,2.24c-1.78,1.49-2.82,3.5-3.14,6.01h19.08Z" style="fill:#0f3c80;"></path><path d="M197.59,57.01h-5.21v-5.01c-1.04,1.95-2.49,3.43-4.36,4.46-1.87,1.03-4.08,1.54-6.62,1.54-4.23,0-7.71-1.53-10.44-4.6-2.73-3.07-4.09-6.99-4.09-11.78s1.37-8.49,4.11-11.44c2.74-2.95,6.26-4.43,10.55-4.43,2.43,0,4.58.48,6.44,1.43,1.86.95,3.33,2.32,4.41,4.09v-4.6h5.21v30.34ZM192.38,41.48c0-3.32-.92-5.95-2.75-7.89-1.83-1.94-4.27-2.9-7.32-2.9s-5.49,1.01-7.38,3.02-2.84,4.67-2.84,7.97.93,6.06,2.79,8.16c1.86,2.09,4.25,3.14,7.17,3.14s5.42-1.07,7.38-3.22c1.96-2.15,2.94-4.9,2.94-8.27Z" style="fill:#0f3c80;"></path><path d="M232.19,43.93c0,4.85-.98,8.4-2.94,10.66s-5.01,3.4-9.16,3.4-7.23-1.13-9.17-3.4c-1.95-2.26-2.92-5.82-2.92-10.66v-17.27h5.21v17.08c0,3.24.52,5.59,1.57,7.05,1.05,1.46,2.82,2.19,5.32,2.19s4.26-.72,5.28-2.16c1.03-1.44,1.54-3.8,1.54-7.08v-17.08h5.27v17.27Z" style="fill:#0f3c80;"></path><path d="M153.42,202.46h-12.74v-49.01h20.28c5.5,0,9.72,1.43,12.64,4.29,2.92,2.86,4.39,6.89,4.39,12.09s-1.46,9.23-4.39,12.09c-2.92,2.86-7.14,4.29-12.64,4.29h-7.54v16.25ZM153.42,175.94h4.22c4.68,0,7.02-2.04,7.02-6.11s-2.34-6.11-7.02-6.11h-4.22v12.22Z" style="fill:#0f3c80;"></path><path d="M215.68,187.2c0,4.51-1.58,8.34-4.73,11.51-3.15,3.16-6.99,4.74-11.52,4.74s-8.29-1.58-11.41-4.73c-3.12-3.15-4.68-6.99-4.68-11.52s1.54-8.33,4.63-11.39c3.09-3.07,6.91-4.6,11.46-4.6s8.45,1.54,11.57,4.62c3.12,3.08,4.68,6.87,4.68,11.38ZM210.5,187.2c0-3.19-1.06-5.83-3.17-7.92-2.12-2.08-4.73-3.13-7.84-3.13s-5.75,1.04-7.84,3.13-3.14,4.72-3.14,7.92,1.06,5.9,3.19,8.06c2.13,2.16,4.72,3.24,7.79,3.24s5.75-1.08,7.85-3.24,3.16-4.84,3.16-8.06Z" style="fill:#0f3c80;"></path><path d="M230.6,160.16c0,.97-.35,1.81-1.06,2.51-.71.7-1.55,1.05-2.52,1.05s-1.81-.35-2.51-1.05c-.7-.7-1.05-1.53-1.05-2.51s.35-1.81,1.05-2.52c.7-.71,1.53-1.06,2.51-1.06s1.81.35,2.52,1.06c.71.71,1.06,1.55,1.06,2.52ZM229.62,202.46h-5.21v-30.34h5.21v30.34Z" style="fill:#0f3c80;"></path><path d="M269.3,202.46h-5.21v-5.01c-1.04,1.95-2.49,3.43-4.36,4.46-1.87,1.03-4.08,1.54-6.62,1.54-4.23,0-7.71-1.53-10.44-4.6-2.73-3.07-4.09-6.99-4.09-11.78s1.37-8.49,4.11-11.44c2.74-2.95,6.26-4.43,10.55-4.43,2.43,0,4.58.48,6.44,1.43,1.86.95,3.33,2.32,4.41,4.09v-27.9h5.21v53.64ZM264.09,186.94c0-3.32-.92-5.95-2.75-7.89-1.83-1.94-4.27-2.9-7.32-2.9s-5.49,1.01-7.38,3.02-2.84,4.67-2.84,7.97.93,6.06,2.79,8.16c1.86,2.09,4.25,3.14,7.17,3.14s5.42-1.07,7.38-3.22c1.96-2.15,2.94-4.9,2.94-8.27Z" style="fill:#0f3c80;"></path><path d="M298.95,194.28c0,2.79-1.02,5.02-3.05,6.68s-4.8,2.49-8.32,2.49c-2.64,0-4.88-.53-6.71-1.6-1.83-1.07-3.17-2.62-4.01-4.65l4.41-2.79c.61,1.46,1.47,2.55,2.57,3.27,1.1.72,2.45,1.08,4.06,1.08,1.78,0,3.19-.37,4.25-1.11,1.06-.74,1.59-1.76,1.59-3.05,0-1.42-.48-2.5-1.44-3.24-.96-.74-2.84-1.61-5.63-2.6-2.73-1.02-4.78-2.27-6.14-3.78-1.36-1.5-2.05-3.28-2.05-5.33,0-2.62.87-4.69,2.62-6.19,1.75-1.5,4.18-2.25,7.32-2.25,2.29,0,4.19.47,5.71,1.4,1.52.93,2.74,2.37,3.65,4.32l-4.28,2.6c-.55-1.27-1.25-2.21-2.1-2.81-.85-.6-1.9-.9-3.17-.9-1.46,0-2.6.33-3.43,1-.82.67-1.24,1.57-1.24,2.71s.43,2.14,1.29,2.92c.86.78,2.42,1.54,4.68,2.29,3.34,1.08,5.75,2.37,7.22,3.86,1.47,1.49,2.21,3.39,2.21,5.7Z" style="fill:#0f3c80;"></path><path d="M349.97,188.09h-24.38c.19,3.28,1.16,5.82,2.9,7.63,1.75,1.81,4.08,2.71,7,2.71,2.22,0,4.11-.44,5.67-1.32,1.55-.88,2.79-2.2,3.7-3.95l4.35,2.29c-1.4,2.65-3.25,4.64-5.57,5.98-2.32,1.34-5.05,2.01-8.2,2.01-4.57,0-8.22-1.49-10.93-4.47s-4.08-6.93-4.08-11.84c0-4.57,1.44-8.37,4.32-11.39,2.88-3.03,6.42-4.54,10.63-4.54s7.83,1.39,10.54,4.16c2.71,2.77,4.06,6.41,4.06,10.92v1.81ZM344.79,184.4c-.28-2.6-1.25-4.63-2.92-6.08-1.67-1.45-3.84-2.17-6.51-2.17s-4.73.75-6.51,2.24c-1.78,1.49-2.82,3.5-3.14,6.01h19.08Z" style="fill:#0f3c80;"></path><path d="M365.13,176.79h-4.82v25.68h-5.17v-25.68h-3.65v-4.67h3.65v-12.28h5.17v12.28h4.82v4.67Z" style="fill:#0f3c80;"></path><path d="M188.58,275.07l8.32-49.01h12.61l9.81,26.13,9.75-26.13h12.61l8.32,49.01h-12.67l-4.22-28.21-11.57,28.21h-5.07l-10.98-28.21-4.23,28.21h-12.67Z" style="fill:#0f3c80;"></path><path d="M284.57,260.69h-24.38c.19,3.28,1.16,5.82,2.9,7.63,1.75,1.81,4.08,2.71,7,2.71,2.22,0,4.11-.44,5.67-1.32,1.55-.88,2.79-2.2,3.7-3.95l4.35,2.29c-1.4,2.65-3.25,4.64-5.57,5.98-2.32,1.34-5.05,2.01-8.2,2.01-4.57,0-8.22-1.49-10.93-4.47s-4.08-6.93-4.08-11.84c0-4.57,1.44-8.37,4.32-11.39,2.88-3.03,6.42-4.54,10.63-4.54s7.83,1.39,10.54,4.16c2.71,2.77,4.06,6.41,4.06,10.92v1.81ZM279.39,257.01c-.28-2.6-1.25-4.63-2.92-6.08-1.67-1.45-3.84-2.17-6.51-2.17s-4.73.75-6.51,2.24c-1.78,1.49-2.82,3.5-3.14,6.01h19.08Z" style="fill:#0f3c80;"></path><path d="M310.2,266.88c0,2.79-1.02,5.02-3.05,6.68s-4.8,2.49-8.32,2.49c-2.64,0-4.88-.53-6.71-1.6-1.83-1.07-3.17-2.62-4.01-4.65l4.41-2.79c.61,1.46,1.47,2.55,2.57,3.27,1.1.72,2.45,1.08,4.06,1.08,1.78,0,3.19-.37,4.25-1.11,1.06-.74,1.59-1.76,1.59-3.05,0-1.42-.48-2.5-1.44-3.24-.96-.74-2.84-1.61-5.63-2.6-2.73-1.02-4.78-2.27-6.14-3.78-1.36-1.5-2.05-3.28-2.05-5.33,0-2.62.87-4.69,2.62-6.19,1.75-1.5,4.18-2.25,7.32-2.25,2.29,0,4.19.47,5.71,1.4,1.52.93,2.74,2.37,3.65,4.32l-4.28,2.6c-.55-1.27-1.25-2.21-2.1-2.81-.85-.6-1.9-.9-3.17-.9-1.46,0-2.6.33-3.43,1-.82.67-1.24,1.57-1.24,2.71s.43,2.14,1.29,2.92c.86.78,2.42,1.54,4.68,2.29,3.34,1.08,5.75,2.37,7.22,3.86,1.47,1.49,2.21,3.39,2.21,5.7Z" style="fill:#0f3c80;"></path><path d="M342.17,261.99c0,4.85-.98,8.4-2.94,10.66s-5.01,3.4-9.16,3.4-7.23-1.13-9.17-3.4c-1.95-2.26-2.92-5.82-2.92-10.66v-17.27h5.21v17.08c0,3.24.52,5.59,1.57,7.05,1.05,1.46,2.82,2.19,5.32,2.19s4.26-.72,5.28-2.16c1.03-1.44,1.54-3.8,1.54-7.08v-17.08h5.27v17.27Z" style="fill:#0f3c80;"></path><path d="M369.04,244.38l-1.24,5.14c-.38-.23-.79-.41-1.24-.52s-.92-.17-1.43-.17c-2.56,0-4.49,1.1-5.79,3.29-1.3,2.19-1.95,5.46-1.95,9.82v13.14h-5.17v-30.34h5.17v5.33c.74-2.18,1.81-3.77,3.21-4.76s3.26-1.49,5.59-1.49c.55,0,1.08.05,1.6.16s.94.24,1.25.41Z" style="fill:#0f3c80;"></path><path d="M399.65,260.69h-24.38c.19,3.28,1.16,5.82,2.9,7.63,1.75,1.81,4.08,2.71,7,2.71,2.22,0,4.11-.44,5.67-1.32,1.55-.88,2.79-2.2,3.7-3.95l4.35,2.29c-1.4,2.65-3.25,4.64-5.57,5.98-2.32,1.34-5.05,2.01-8.2,2.01-4.57,0-8.22-1.49-10.93-4.47s-4.08-6.93-4.08-11.84c0-4.57,1.44-8.37,4.32-11.39,2.88-3.03,6.42-4.54,10.63-4.54s7.83,1.39,10.54,4.16c2.71,2.77,4.06,6.41,4.06,10.92v1.81ZM394.47,257.01c-.28-2.6-1.25-4.63-2.92-6.08-1.67-1.45-3.84-2.17-6.51-2.17s-4.73.75-6.51,2.24c-1.78,1.49-2.82,3.5-3.14,6.01h19.08Z" style="fill:#0f3c80;"></path><path d="M425.28,266.88c0,2.79-1.02,5.02-3.05,6.68s-4.8,2.49-8.32,2.49c-2.64,0-4.88-.53-6.71-1.6-1.83-1.07-3.17-2.62-4.01-4.65l4.41-2.79c.61,1.46,1.47,2.55,2.57,3.27,1.1.72,2.45,1.08,4.06,1.08,1.78,0,3.19-.37,4.25-1.11,1.06-.74,1.59-1.76,1.59-3.05,0-1.42-.48-2.5-1.44-3.24-.96-.74-2.84-1.61-5.63-2.6-2.73-1.02-4.78-2.27-6.14-3.78-1.36-1.5-2.05-3.28-2.05-5.33,0-2.62.87-4.69,2.62-6.19,1.75-1.5,4.18-2.25,7.32-2.25,2.29,0,4.19.47,5.71,1.4,1.52.93,2.74,2.37,3.65,4.32l-4.28,2.6c-.55-1.27-1.25-2.21-2.1-2.81-.85-.6-1.9-.9-3.17-.9-1.46,0-2.6.33-3.43,1-.82.67-1.24,1.57-1.24,2.71s.43,2.14,1.29,2.92c.86.78,2.42,1.54,4.68,2.29,3.34,1.08,5.75,2.37,7.22,3.86,1.47,1.49,2.21,3.39,2.21,5.7Z" style="fill:#0f3c80;"></path><path d="M101.6,80.19v49.01h-12.74v-49.01h12.74Z" style="fill:#0f3c80;"></path><path d="M138.13,129.2h-5.21v-18.12c0-2.94-.52-5.1-1.57-6.47-1.05-1.38-2.71-2.06-5-2.06-2.6,0-4.59,1.03-5.95,3.08-1.37,2.05-2.05,5.06-2.05,9.01v14.57h-5.17v-30.34h5.17v4.47c.91-1.8,2.18-3.15,3.81-4.05,1.63-.9,3.62-1.35,5.97-1.35,3.11,0,5.55,1.03,7.33,3.08s2.67,4.93,2.67,8.63v19.55Z" style="fill:#0f3c80;"></path><path d="M158.93,103.52h-4.82v25.68h-5.17v-25.68h-3.65v-4.67h3.65v-12.28h5.17v12.28h4.82v4.67Z" style="fill:#0f3c80;"></path><path d="M192.55,114.82h-24.38c.19,3.28,1.16,5.82,2.9,7.63,1.75,1.81,4.08,2.71,7,2.71,2.22,0,4.11-.44,5.67-1.32,1.55-.88,2.79-2.2,3.7-3.95l4.35,2.29c-1.4,2.65-3.25,4.64-5.57,5.98-2.32,1.34-5.05,2.01-8.2,2.01-4.57,0-8.22-1.49-10.93-4.47s-4.08-6.93-4.08-11.84c0-4.57,1.44-8.37,4.32-11.39,2.88-3.03,6.42-4.54,10.63-4.54s7.83,1.39,10.54,4.16c2.71,2.77,4.06,6.41,4.06,10.92v1.81ZM187.37,111.14c-.28-2.6-1.25-4.63-2.92-6.08-1.67-1.45-3.84-2.17-6.51-2.17s-4.73.75-6.51,2.24c-1.78,1.49-2.82,3.5-3.14,6.01h19.08Z" style="fill:#0f3c80;"></path><path d="M217.66,98.51l-1.24,5.14c-.38-.23-.79-.41-1.24-.52s-.92-.17-1.43-.17c-2.56,0-4.49,1.1-5.79,3.29-1.3,2.19-1.95,5.46-1.95,9.82v13.14h-5.17v-30.34h5.17v5.33c.74-2.18,1.81-3.77,3.21-4.76s3.26-1.49,5.59-1.49c.55,0,1.08.05,1.6.16s.94.24,1.25.41Z" style="fill:#0f3c80;"></path><path d="M248.29,129.2h-5.21v-18.12c0-2.94-.52-5.1-1.57-6.47-1.05-1.38-2.71-2.06-5-2.06-2.6,0-4.59,1.03-5.95,3.08-1.37,2.05-2.05,5.06-2.05,9.01v14.57h-5.17v-30.34h5.17v4.47c.91-1.8,2.18-3.15,3.81-4.05,1.63-.9,3.62-1.35,5.97-1.35,3.11,0,5.55,1.03,7.33,3.08s2.67,4.93,2.67,8.63v19.55Z" style="fill:#0f3c80;"></path><path d="M287.27,129.2h-5.21v-5.01c-1.04,1.95-2.49,3.43-4.36,4.46-1.87,1.03-4.08,1.54-6.62,1.54-4.23,0-7.71-1.53-10.44-4.6-2.73-3.07-4.09-6.99-4.09-11.78s1.37-8.49,4.11-11.44c2.74-2.95,6.26-4.43,10.55-4.43,2.43,0,4.58.48,6.44,1.43,1.86.95,3.33,2.32,4.41,4.09v-4.6h5.21v30.34ZM282.07,113.68c0-3.32-.92-5.95-2.75-7.89-1.83-1.94-4.27-2.9-7.32-2.9s-5.49,1.01-7.38,3.02-2.84,4.67-2.84,7.97.93,6.06,2.79,8.16c1.86,2.09,4.25,3.14,7.17,3.14s5.42-1.07,7.38-3.22c1.96-2.15,2.94-4.9,2.94-8.27Z" style="fill:#0f3c80;"></path><path d="M308.54,103.52h-4.82v25.68h-5.17v-25.68h-3.65v-4.67h3.65v-12.28h5.17v12.28h4.82v4.67Z" style="fill:#0f3c80;"></path><path d="M322.93,86.89c0,.97-.35,1.81-1.06,2.51-.71.7-1.55,1.05-2.52,1.05s-1.81-.35-2.51-1.05c-.7-.7-1.05-1.53-1.05-2.51s.35-1.81,1.05-2.52c.7-.71,1.53-1.06,2.51-1.06s1.81.35,2.52,1.06c.71.71,1.06,1.55,1.06,2.52ZM321.94,129.2h-5.21v-30.34h5.21v30.34Z" style="fill:#0f3c80;"></path><path d="M363.05,113.93c0,4.51-1.58,8.34-4.73,11.51-3.15,3.16-6.99,4.74-11.52,4.74s-8.29-1.58-11.41-4.73c-3.12-3.15-4.68-6.99-4.68-11.52s1.54-8.33,4.63-11.39c3.09-3.07,6.91-4.6,11.46-4.6s8.45,1.54,11.57,4.62c3.12,3.08,4.68,6.87,4.68,11.38ZM357.88,113.93c0-3.19-1.06-5.83-3.17-7.92-2.12-2.08-4.73-3.13-7.84-3.13s-5.75,1.04-7.84,3.13-3.14,4.72-3.14,7.92,1.06,5.9,3.19,8.06c2.13,2.16,4.72,3.24,7.79,3.24s5.75-1.08,7.85-3.24,3.16-4.84,3.16-8.06Z" style="fill:#0f3c80;"></path><path d="M396.29,129.2h-5.21v-18.12c0-2.94-.52-5.1-1.57-6.47-1.05-1.38-2.71-2.06-5-2.06-2.6,0-4.59,1.03-5.95,3.08-1.37,2.05-2.05,5.06-2.05,9.01v14.57h-5.17v-30.34h5.17v4.47c.91-1.8,2.18-3.15,3.81-4.05,1.63-.9,3.62-1.35,5.97-1.35,3.11,0,5.55,1.03,7.33,3.08s2.67,4.93,2.67,8.63v19.55Z" style="fill:#0f3c80;"></path><path d="M435.27,129.2h-5.21v-5.01c-1.04,1.95-2.49,3.43-4.36,4.46-1.87,1.03-4.08,1.54-6.62,1.54-4.23,0-7.71-1.53-10.44-4.6-2.73-3.07-4.09-6.99-4.09-11.78s1.37-8.49,4.11-11.44c2.74-2.95,6.26-4.43,10.55-4.43,2.43,0,4.58.48,6.44,1.43,1.86.95,3.33,2.32,4.41,4.09v-4.6h5.21v30.34ZM430.06,113.68c0-3.32-.92-5.95-2.75-7.89-1.83-1.94-4.27-2.9-7.32-2.9s-5.49,1.01-7.38,3.02-2.84,4.67-2.84,7.97.93,6.06,2.79,8.16c1.86,2.09,4.25,3.14,7.17,3.14s5.42-1.07,7.38-3.22c1.96-2.15,2.94-4.9,2.94-8.27Z" style="fill:#0f3c80;"></path><path d="M451.59,129.2h-5.17v-53.64h5.17v53.64Z" style="fill:#0f3c80;"></path><path d="M507.57,129.2h-5.21v-5.01c-1.04,1.95-2.49,3.43-4.36,4.46-1.87,1.03-4.08,1.54-6.62,1.54-4.23,0-7.71-1.53-10.44-4.6-2.73-3.07-4.09-6.99-4.09-11.78s1.37-8.49,4.11-11.44c2.74-2.95,6.26-4.43,10.55-4.43,2.43,0,4.58.48,6.44,1.43,1.86.95,3.33,2.32,4.41,4.09v-27.9h5.21v53.64ZM502.36,113.68c0-3.32-.92-5.95-2.75-7.89-1.83-1.94-4.27-2.9-7.32-2.9s-5.49,1.01-7.38,3.02-2.84,4.67-2.84,7.97.93,6.06,2.79,8.16c1.86,2.09,4.25,3.14,7.17,3.14s5.42-1.07,7.38-3.22c1.96-2.15,2.94-4.9,2.94-8.27Z" style="fill:#0f3c80;"></path><path d="M540.66,114.82h-24.38c.19,3.28,1.16,5.82,2.9,7.63,1.75,1.81,4.08,2.71,7,2.71,2.22,0,4.11-.44,5.67-1.32,1.55-.88,2.79-2.2,3.7-3.95l4.35,2.29c-1.4,2.65-3.25,4.64-5.57,5.98-2.32,1.34-5.05,2.01-8.2,2.01-4.57,0-8.22-1.49-10.93-4.47s-4.08-6.93-4.08-11.84c0-4.57,1.44-8.37,4.32-11.39,2.88-3.03,6.42-4.54,10.63-4.54s7.83,1.39,10.54,4.16c2.71,2.77,4.06,6.41,4.06,10.92v1.81ZM535.49,111.14c-.28-2.6-1.25-4.63-2.92-6.08-1.67-1.45-3.84-2.17-6.51-2.17s-4.73.75-6.51,2.24c-1.78,1.49-2.82,3.5-3.14,6.01h19.08Z" style="fill:#0f3c80;"></path><path d="M567.26,121.01c0,2.79-1.02,5.02-3.05,6.68s-4.8,2.49-8.32,2.49c-2.64,0-4.88-.53-6.71-1.6-1.83-1.07-3.17-2.62-4.01-4.65l4.41-2.79c.61,1.46,1.47,2.55,2.57,3.27,1.1.72,2.45,1.08,4.06,1.08,1.78,0,3.19-.37,4.25-1.11,1.06-.74,1.59-1.76,1.59-3.05,0-1.42-.48-2.5-1.44-3.24-.96-.74-2.84-1.61-5.63-2.6-2.73-1.02-4.78-2.27-6.14-3.78-1.36-1.5-2.05-3.28-2.05-5.33,0-2.62.87-4.69,2.62-6.19,1.75-1.5,4.18-2.25,7.32-2.25,2.29,0,4.19.47,5.71,1.4,1.52.93,2.74,2.37,3.65,4.32l-4.28,2.6c-.55-1.27-1.25-2.21-2.1-2.81-.85-.6-1.9-.9-3.17-.9-1.46,0-2.6.33-3.43,1-.82.67-1.24,1.57-1.24,2.71s.43,2.14,1.29,2.92c.86.78,2.42,1.54,4.68,2.29,3.34,1.08,5.75,2.37,7.22,3.86,1.47,1.49,2.21,3.39,2.21,5.7Z" style="fill:#0f3c80;"></path><rect x="31.43" y="71.7" width="4.12" height="203.36" style="fill:#0f3c80;"></rect><rect x="26.32" y="104.96" width="14.34" height="14.34" transform="translate(89.1 9.16) rotate(45)" style="fill:#0f3c80;"></rect><rect x="86.8" y="144.12" width="4.12" height="130.95" style="fill:#0f3c80;"></rect><rect x="81.69" y="177.37" width="14.34" height="14.34" transform="translate(156.52 -8.78) rotate(45)" style="fill:#0f3c80;"></rect><rect x="140.91" y="216.92" width="4.12" height="58.15" style="fill:#0f3c80;"></rect><rect x="135.8" y="250.17" width="14.34" height="14.34" transform="translate(223.84 -25.72) rotate(45)" style="fill:#0f3c80;"></rect></svg></image>
+    </div>
+
+    <div class="coverpage-title">
+      
+      <span class="title-third">The International System of Units</span>
+      <span class="title-third">Le système international d’unités</span><br />
+      <span class="title-first">Part 1: Mise en pratique for the definition of the kelvin in the SI</span><br />
+      <span class="title-second">Partie 1: Mise en pratique de la définition du kelvin</span>       
+      
+      
+      
+      
+      <span class="title-first">Annex 2: Mise en pratique</span><br /> 
+      <span class="title-second">Annexe 2: Mise en pratique</span>
+      <span class="title-first">Appendix 4: MeP-K Low-temperature Johnson Noise Thermometry</span><br /> 
+      <span class="title-second">Appendice 4: </span>
+      
+    </div>
+  </div>
+
+  <div class="coverpage-logo">
+    <span>Bureau International de Poids et Mesures 2019</span>
+  
+    <br />
+    <div class="logo-img"><image src="" mimetype="image/svg+xml"><svg xmlns="http://www.w3.org/2000/svg" id="uuid-1bc3648c-3591-4a2e-85ef-24027e4aa706" width="210mm" height="210mm" viewBox="0 0 595.28 595.28" preserveaspectratio="xMidYMin slice"><path d="M220.05,146.34l-49.23-102.23C97.33,80.93,42.09,148.75,22.22,230.43l110.58,25.24c12.12-47.7,44.41-87.33,87.25-109.34Z" style="fill:#bcbec0;"></path><path d="M467.72,297.67c0,38.58-12.86,74.14-34.5,102.67l88.67,70.72c37.11-47.93,59.22-108.07,59.22-173.38,0-20.21-2.13-39.93-6.16-58.95l-110.58,25.24c2.19,10.9,3.35,22.16,3.35,33.71Z" style="fill:#bcbec0;"></path><path d="M297.64,14.2c-42.57,0-82.93,9.4-119.16,26.21l49.23,102.23c21.34-9.64,45-15.05,69.93-15.05s48.59,5.41,69.93,15.05l49.23-102.23c-36.23-16.81-76.59-26.21-119.16-26.21" style="fill:#bcbec0;"></path><path d="M462.48,255.67l110.58-25.24c-19.87-81.68-75.12-149.5-148.6-186.32l-49.23,102.23c42.84,22.01,75.13,61.63,87.25,109.34Z" style="fill:#bcbec0;"></path><path d="M127.56,297.67c0-11.54,1.16-22.81,3.35-33.7l-110.58-25.24c-4.02,19.02-6.15,38.73-6.15,58.94,0,65.31,22.1,125.45,59.21,173.38l88.67-70.71c-21.64-28.53-34.5-64.09-34.5-102.67Z" style="fill:#bcbec0;"></path><path d="M293.39,581.08v-113.44c-50.58-1.25-95.66-24.53-126.01-60.66l-88.69,70.73c51.15,62.14,128.24,102.1,214.7,103.37" style="fill:#005cb9;"></path><path d="M301.89,581.08c86.46-1.27,163.55-41.24,214.7-103.37l-88.69-70.73c-30.35,36.13-75.44,59.42-126.02,60.66v113.44" style="fill:#bcbec0;"></path><path d="M367.57,142.64c-21.34-9.64-44.99-15.05-69.93-15.05s-48.6,5.41-69.93,15.05l69.93,145.21,69.93-145.21Z" style="fill:#dcddde;"></path><path d="M130.91,263.96c-2.19,10.9-3.35,22.16-3.35,33.7,0,38.57,12.86,74.13,34.5,102.67l126.02-100.5-157.17-35.87Z" style="fill:#dcddde;"></path><path d="M301.89,467.64c50.58-1.24,95.67-24.53,126.02-60.66l-126.02-100.49v161.15Z" style="fill:#dcddde;"></path><path d="M464.37,263.96l-157.17,35.87,126.02,100.5c21.64-28.53,34.5-64.09,34.5-102.67,0-11.54-1.16-22.81-3.35-33.71Z" style="fill:#dcddde;"></path><path d="M220.05,146.34c-42.84,22.01-75.13,61.63-87.25,109.34l157.18,35.87-69.93-145.21Z" style="fill:#dcddde;"></path><path d="M462.48,255.67c-12.12-47.71-44.41-87.33-87.25-109.34l-69.93,145.21,157.18-35.88Z" style="fill:#dcddde;"></path><path d="M167.37,406.98c30.35,36.13,75.44,59.42,126.01,60.66v-161.15l-126.01,100.49Z" style="fill:#7da9dc;"></path><path d="M78.69,477.7c-1.8-2.19-3.56-4.41-5.3-6.65" style="fill:#ec008c;"></path><circle cx="297.64" cy="297.67" r="99.21" style="fill:#fff;"></circle><path d="M242.81,336.72l7.48-8.68c7.03,7.33,16.9,12.27,27.07,12.27,12.86,0,20.49-6.43,20.49-16.01s-7.03-13.16-16.3-17.35l-14.06-6.13c-9.27-3.89-19.89-10.92-19.89-25.28s13.01-26.03,30.81-26.03c11.67,0,21.99,4.94,29.02,12.12l-6.73,8.08c-5.98-5.68-13.16-9.27-22.29-9.27-10.92,0-18.25,5.53-18.25,14.36,0,9.42,8.53,13.01,16.3,16.3l13.91,5.98c11.37,4.94,20.19,11.67,20.19,26.18,0,15.56-12.71,27.97-33.36,27.97-13.76,0-25.88-5.68-34.4-14.51Z" style="fill:#414042;"></path><path d="M329.87,251.31h12.42v98.13h-12.42v-98.13Z" style="fill:#414042;"></path><path d="M105.39,177.82c-8.1-5.59-8.81-14.48-4.35-20.94,2.15-3.11,4.87-4.51,7.62-5.23l1.79,5.32c-2.02.5-3.52,1.29-4.57,2.82-2.69,3.9-1.36,8.83,3.53,12.21,4.84,3.34,9.89,2.89,12.51-.91,1.3-1.88,1.55-4.25,1.37-6.42l5.36.27c.4,3.64-.59,7.18-2.5,9.94-4.57,6.61-12.72,8.49-20.77,2.93Z" style="fill:#fff;"></path><path d="M120.84,155.62c-7.11-6.45-7.39-14.89-3.08-19.64,2.26-2.49,4.6-3.2,7.6-3.56l-3.67-3.01-7.91-7.18,4.63-5.11,31.37,28.46-3.83,4.22-2.68-1.78-.16.18c.15,3.05-.58,6.44-2.72,8.8-4.96,5.47-12.36,5.15-19.56-1.39ZM139.02,145.14l-10.18-9.23c-2.7.3-4.52,1.32-5.85,2.79-2.54,2.8-1.97,7.44,2.6,11.6,4.71,4.27,8.85,4.79,11.72,1.64,1.53-1.69,2.07-3.8,1.71-6.79Z" style="fill:#fff;"></path><path d="M269.57,44.26l6.77-.43,1.69,26.41h.18s10.03-14.24,10.03-14.24l7.54-.48-9.29,12.62,12.19,16.72-7.48.48-8.36-12.27-4.27,5.56.48,7.48-6.77.43-2.7-42.27Z" style="fill:#fff;"></path><path d="M299.26,90.31c.18-2.45,1.84-4.5,4.66-5.97l.02-.24c-1.42-1.07-2.45-2.71-2.27-5.1.17-2.27,1.87-4.13,3.64-5.2l.02-.24c-1.86-1.64-3.51-4.59-3.25-8.06.51-6.76,6.23-10.12,12.39-9.66,1.62.12,3.09.53,4.26,1.04l10.53.79-.38,5.09-5.39-.4c.87,1.21,1.46,3.06,1.3,5.09-.49,6.52-5.65,9.62-11.88,9.16-1.26-.09-2.67-.44-3.95-1.08-.96.71-1.55,1.39-1.65,2.71-.12,1.68.99,2.78,4.58,3.05l5.21.39c7.06.53,10.61,2.96,10.23,8.05-.43,5.8-6.88,9.89-16.45,9.18-7-.52-12.02-3.43-11.63-8.57ZM320.62,90.35c.17-2.27-1.64-3.07-4.99-3.32l-4.01-.3c-1.62-.12-2.86-.33-3.98-.72-1.65,1.08-2.46,2.34-2.56,3.72-.2,2.63,2.56,4.4,7.23,4.75,4.73.35,8.12-1.62,8.31-4.13ZM318.77,66.74c.27-3.65-1.78-5.97-4.65-6.18-2.87-.22-5.3,1.71-5.58,5.42-.28,3.77,1.83,6.09,4.7,6.31,2.81.21,5.25-1.77,5.53-5.54Z" style="fill:#fff;"></path><path d="M473.05,130.69l3.52,4.48-2.86,2.86.15.19c3.6.3,7.03,1.27,9.29,4.15,2.67,3.4,2.63,6.55.89,9.68,4.1.36,7.71,1.26,10.01,4.19,3.86,4.9,2.29,9.8-3.56,14.4l-14.53,11.42-4.3-5.47,13.82-10.87c3.82-3,4.35-5.25,2.46-7.65-1.15-1.46-3.36-2.32-6.7-2.6l-16.18,12.72-4.26-5.42,13.82-10.86c3.82-3,4.35-5.25,2.42-7.7-1.11-1.41-3.35-2.32-6.7-2.6l-16.18,12.72-4.26-5.42,23.16-18.21Z" style="fill:#fff;"></path><path d="M508.69,333.11l3.58,4.17c-2.59,2.1-4.39,4.27-5.08,7.19-.73,3.09.39,4.9,2.38,5.36,2.39.56,4.17-2.29,6.05-5.05,2.29-3.47,5.46-7.22,10.24-6.1,5.02,1.18,7.64,6.04,6.13,12.47-.93,3.97-3.32,6.8-5.68,8.71l-3.36-4.06c1.93-1.64,3.4-3.45,3.93-5.73.67-2.86-.36-4.52-2.17-4.95-2.28-.54-3.82,2.12-5.66,4.96-2.38,3.57-5.26,7.45-10.63,6.19-4.91-1.15-7.96-6-6.26-13.24.92-3.91,3.59-7.66,6.52-9.93Z" style="fill:#fff;"></path><path d="M77.49,394.23l-1.85-5.39,3.65-1.76-.08-.23c-3.29-1.47-6.21-3.52-7.4-6.98-1.4-4.09-.32-7.06,2.35-9.43-3.75-1.7-6.86-3.74-8.07-7.26-2.02-5.9,1.08-10.01,8.11-12.42l17.48-5.99,2.25,6.58-16.63,5.7c-4.6,1.57-5.83,3.52-4.84,6.41.6,1.76,2.4,3.3,5.46,4.66l19.47-6.67,2.23,6.53-16.63,5.7c-4.6,1.57-5.83,3.52-4.82,6.47.58,1.7,2.4,3.3,5.46,4.66l19.47-6.67,2.24,6.53-27.87,9.54Z" style="fill:#fff;"></path><path d="M76.7,342.13c-9.74,1.39-16.27-4.41-17.3-11.66-1.04-7.31,3.6-14.7,13.34-16.09,9.68-1.38,16.21,4.42,17.25,11.72,1.03,7.25-3.61,14.64-13.29,16.02ZM73.74,321.4c-5.88.84-9.37,4-8.76,8.28.61,4.28,4.84,6.28,10.72,5.44,5.82-.83,9.32-3.94,8.71-8.21-.61-4.28-4.84-6.34-10.67-5.51Z" style="fill:#fff;"></path><path d="M79.81,306.78l-34.78,1.07-.21-6.9,35.14-1.08c1.68-.05,2.25-.85,2.23-1.57,0-.3-.02-.54-.15-1.08l5.13-1.06c.39.83.66,2.02.71,3.64.15,4.92-2.97,6.81-8.07,6.97Z" style="fill:#fff;"></path><path d="M198.95,476.39l6.25,3.05-7.82,16.01.16.08,20.38-9.88,6.96,3.4-17.55,8.45,2.16,27.7-6.9-3.37-1.43-21.27-8.15,3.83-5.03,10.3-6.25-3.05,17.22-35.26Z" style="fill:#fff;"></path><path d="M382.32,481.97l7.38-3.49,28.34,30-6.62,3.13-7.31-8.29-11.93,5.65,1.78,10.91-6.4,3.03-5.24-40.93ZM391.3,503.34l9.06-4.29-3.3-3.75c-2.91-3.2-5.87-6.78-8.74-10.2l-.22.1c.9,4.42,1.77,8.92,2.4,13.2l.8,4.93Z" style="fill:#fff;"></path><path d="M169.77,218.68l2.4-3.59,8.54,8.54.09-.13-3.5-16.09,2.64-3.96,3.3,13.79,16.38,3.86-2.49,3.73-13.4-3.41,1.38,6.59,5.95,5.94-2.4,3.59-18.88-18.85Z" style="fill:#414042;"></path><path d="M207.03,224.42c-2.88-2.52-2.77-5.98-.76-8.28.97-1.11,2.08-1.53,3.18-1.69l.46,2.14c-.8.1-1.42.34-1.89.89-1.21,1.39-.92,3.35.82,4.87,1.72,1.5,3.69,1.55,4.88.2.58-.67.79-1.57.81-2.42l2.06.34c0,1.42-.54,2.75-1.4,3.73-2.06,2.35-5.29,2.72-8.15.22Z" style="fill:#414042;"></path><path d="M212.95,217.58c-2.59-2.69-2.47-5.97-.67-7.7.94-.9,1.87-1.12,3.04-1.18l-1.34-1.26-2.88-2.99,1.93-1.86,11.41,11.87-1.6,1.54-.99-.76-.07.06c-.02,1.19-.39,2.48-1.29,3.34-2.07,1.99-4.93,1.67-7.55-1.06ZM220.28,214l-3.7-3.85c-1.06.04-1.79.39-2.35.93-1.06,1.02-.96,2.83.7,4.57,1.71,1.78,3.31,2.09,4.5.95.64-.61.9-1.42.84-2.59Z" style="fill:#414042;"></path><path d="M294.02,145.21l4.28.02-1.76,8.31-.77,2.83h.16c2.01-1.71,4.13-3.02,6.49-3.01,3.28.02,4.63,1.82,4.61,4.98,0,.92-.09,1.72-.33,2.76l-2.54,12.39-4.28-.02,2.46-11.83c.16-.92.33-1.48.33-2.08,0-1.68-.79-2.52-2.47-2.53-1.36,0-2.88.9-4.97,3.01l-2.71,13.38-4.32-.02,5.82-28.21Z" style="fill:#414042;"></path><path d="M396.15,209.98c5.53-4.35,13.09-3.73,16.88,1.08,1.48,1.89,1.64,3.9,1.3,5.54l-3.53-.28c.25-1.37.13-2.29-.68-3.33-2.18-2.77-7.29-2.67-11.12.35-2.33,1.83-2.86,3.93-1.23,6,.94,1.19,2.25,1.69,3.49,1.98l-1,3.13c-1.76-.5-3.94-1.33-5.77-3.65-2.67-3.4-2.33-7.68,1.66-10.82Z" style="fill:#414042;"></path><path d="M424.58,306.48l21.72,11.93-.88,5.41-24.38,4.37-2.76-.45,3.54-21.72,2.76.45ZM422.96,323.36l10.77-1.69,8.42-1.18.03-.16-7.62-3.76-9.69-4.98-1.92,11.77Z" style="fill:#414042;"></path><path d="M414.97,335.43h13.52c.89-.01,1.8-.1,2.73-.29.93-.18,1.52-.66,1.78-1.44.12-.37.18-.8.17-1.3l.74-.04.34,5.24-.27.81-15.87.09,5.15,5.09c.92.93,1.7,1.5,2.33,1.71.51.17,1.25.3,2.23.4.72.06,1.25.15,1.58.26,1.22.41,1.61,1.28,1.17,2.6-.39,1.17-1.15,1.57-2.26,1.2-1.1-.37-2.92-1.89-5.47-4.56l-8.24-8.66.38-1.11Z" style="fill:#414042; stroke:#414042; stroke-miterlimit:10; stroke-width:.5px;"></path><path d="M154.77,343.48l-1.13-4.09,13.26-8.96,5.03-2.96-.04-.15c-2.67.4-6.01,1.07-8.91,1.25l-12.08.88-1.1-4.01,26.61-1.89,1.12,4.05-13.23,8.91-5.11,2.98.04.15c2.78-.44,5.95-.98,8.85-1.15l12.2-.91,1.09,3.97-26.6,1.93Z" style="fill:#414042;"></path><path d="M173.1,314.62l-.39-3.15,14.53-6.8.35,2.82-3.95,1.69.63,5.09,4.24.68.34,2.73-15.74-3.06ZM182.08,313.91l-.48-3.86-1.79.76c-1.54.68-3.22,1.34-4.83,1.98v.09c1.75.21,3.52.44,5.18.73l1.92.3Z" style="fill:#414042;"></path><path d="M243.26,403.51l3.85,1.88-11,14.39.14.07,11.82-4.42,4.31,2.11-10.8,4.07-.73,12.15-3.88-1.9.81-9.31-5.15,1.8-2.99,3.93-3.88-1.9,17.5-22.88Z" style="fill:#414042;"></path><path d="M353.94,411.68c4.12-1.95,6.99.19,8.74,3.88.74,1.55,1,3.42,1.02,4.12l-10.81,5.12c1.38,3.95,4.23,4.55,6.91,3.28,1.27-.6,2.31-1.94,2.95-3.12l2.63,1.81c-.97,1.7-2.65,3.56-5.19,4.75-4.23,2-8.42.62-10.68-4.15-3.13-6.62-.23-13.48,4.44-15.69ZM359.89,418.47c-.11-.52-.28-1.06-.55-1.64-.82-1.74-2.28-2.95-4.45-1.92-2.13,1.01-3.41,3.83-2.84,7.27l7.85-3.71Z" style="fill:#414042;"></path></svg></image></div>
+  
+  </div>
+
+  
+
+  <div class="coverpage-tc-name">
+    <span></span>
+    <div class="coverpage-logo logo-img">
+      <image src="" mimetype="image/svg+xml"><svg xmlns="http://www.w3.org/2000/svg" id="uuid-bb4d84f8-f13e-4e99-95bd-adc2f7c4ffc6" width="175.2mm" height="51.44mm" viewBox="0 0 496.62 145.8" preserveaspectratio="xMidYMin slice"><rect x="40.59" y="-.11" width="9.37" height="145.75" style="fill:#0f3c80;"></rect><rect x="84.49" y="-.11" width="9.37" height="145.75" style="fill:#0f3c80;"></rect><rect x="129.99" y="-.11" width="9.37" height="145.75" style="fill:#0f3c80;"></rect><rect x="122.95" y="101.81" width="24.05" height="24.05" transform="translate(120.03 -62.1) rotate(45)" style="fill:#0f3c80;"></rect><rect x="77.01" y="60.88" width="24.05" height="24.05" transform="translate(77.63 -41.61) rotate(45)" style="fill:#0f3c80;"></rect><rect x="33.12" y="21.55" width="24.05" height="24.05" transform="translate(36.97 -22.09) rotate(45)" style="fill:#0f3c80;"></rect><path d="M269.6,61.65c-6.53-7.97-14.59-11.95-24.19-11.95-4.23,0-8.14.77-11.74,2.3-3.6,1.54-6.7,3.62-9.29,6.26-2.59,2.64-4.63,5.78-6.12,9.43-1.49,3.65-2.23,7.58-2.23,11.81s.74,8.3,2.23,11.95c1.49,3.65,3.55,6.82,6.19,9.5,2.64,2.69,5.74,4.8,9.29,6.34,3.55,1.54,7.39,2.3,11.52,2.3,9.02,0,17.14-3.84,24.34-11.52v33.41l-2.88,1.01c-4.32,1.54-8.35,2.66-12.1,3.38-3.74.72-7.44,1.08-11.09,1.08-7.49,0-14.67-1.42-21.53-4.25-6.86-2.83-12.91-6.82-18.14-11.95-5.23-5.13-9.43-11.23-12.6-18.29s-4.75-14.76-4.75-23.11,1.56-16.01,4.68-22.97c3.12-6.96,7.29-12.96,12.53-18,5.23-5.04,11.3-8.98,18.22-11.81,6.91-2.83,14.16-4.25,21.74-4.25,4.32,0,8.57.46,12.74,1.37,4.18.91,8.57,2.33,13.18,4.25v33.7Z" style="fill:#0f3c80;"></path><path d="M362.05,61.65c-6.53-7.97-14.59-11.95-24.19-11.95-4.23,0-8.14.77-11.74,2.3-3.6,1.54-6.7,3.62-9.29,6.26-2.59,2.64-4.63,5.78-6.12,9.43-1.49,3.65-2.23,7.58-2.23,11.81s.74,8.3,2.23,11.95c1.49,3.65,3.55,6.82,6.19,9.5,2.64,2.69,5.74,4.8,9.29,6.34,3.55,1.54,7.39,2.3,11.52,2.3,9.02,0,17.14-3.84,24.34-11.52v33.41l-2.88,1.01c-4.32,1.54-8.35,2.66-12.1,3.38-3.74.72-7.44,1.08-11.09,1.08-7.49,0-14.67-1.42-21.53-4.25-6.86-2.83-12.91-6.82-18.14-11.95-5.23-5.13-9.43-11.23-12.6-18.29s-4.75-14.76-4.75-23.11,1.56-16.01,4.68-22.97c3.12-6.96,7.29-12.96,12.53-18,5.23-5.04,11.3-8.98,18.22-11.81,6.91-2.83,14.16-4.25,21.74-4.25,4.32,0,8.57.46,12.74,1.37,4.18.91,8.57,2.33,13.18,4.25v33.7Z" style="fill:#0f3c80;"></path><path d="M417.48,49.26v84.67h-28.22V49.26h-23.18v-23.9h74.59v23.9h-23.18Z" style="fill:#0f3c80;"></path></svg></image>
+    </div>
+  </div>
+ 
+  
+  <div class="coverpage-tc-name">
+    
+    <span>Jost Engert (PTB, Berlin, Germany), </span>
+    <span>Alexander Kirste (PTB, BerlinGermany)</span>.
+  </div>
+  
+
+  
+
+  
+
+  </div>
+
+    <div class="wrapper-top-bottom"></div>
+
+  <div class="WordSection11">
+  <div class="coverpage-stage-block">
+    <span class="coverpage-stage" id="mise-en-pratique">BIPM Mise en Pratique</span>
+  </div>
+
+  <div class="coverpage-stage-block">
+    <p><span class="coverpage-maturity" id="in-force">In Force</span></p>
+</div>
+
+<div class="info-section">
+<div class="copyright">
+<div class="boilerplate-copyright">
+
+<div id="_de529b36-05ca-b9e4-a8ac-4c41964770f0"><p id="_2c83afdd-6f3c-8a19-1954-83e4ede65ae8" style="text-align:center;">© Bureau International des Poids et Mesures 2019 all rights reserved</p>
+</div>
+</div>
+  <div class="boilerplate-license">
+
+<div id="_4ffcd5b5-8039-1aa4-59ce-390aa3b61c7a"><h1 class="IntroTitle"><a class="anchor" href="#_4ffcd5b5-8039-1aa4-59ce-390aa3b61c7a"></a><a class="header" href="#_4ffcd5b5-8039-1aa4-59ce-390aa3b61c7a">Copyright statement</a></h1>
+
+<p id="_50719790-3c5b-c213-8298-0631d690bc21">This document is distributed under the terms of the Creative Commons Attribution 4.0 International License (<a href="http://creativecommons.org/licenses/by/4.0/:">http://creativecommons.org/licenses/by/4.0/:</a>), which permits unrestricted use, distribution, and reproduction in any medium, provided you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made.</p>
+</div>
+</div>
+  <div id="boilerplate-legal-destination"></div>
+<div class="boilerplate-feedback">
+
+<p id="_5926bc3f-b367-69e7-6cc6-442a91e32db2">BIPM<br /> Pavillon de Breteuil<br /> F-92312 Sèvres Cedex<br /> FRANCE</p>
+</div>
+</div>
+
+<div class="rule"></div>
+</div>
+  </div>
+
+
+</div>
+</header></div><br /><div class="prefatory-section"><nav>
+  <div id="toc"><h1 class="IntroTitle"><a class="anchor" href="#_5c1a45ef-0335-c28e-3f58-6bf64e3f6a5a"></a><a class="header" href="#_5c1a45ef-0335-c28e-3f58-6bf64e3f6a5a">Contents</a></h1><ul><li class="h1"><a href="#_e74b06d3-4c1f-257a-cc95-45accedad307">      
+  
+  1.  Introduction
+</a></li>
+<li class="h1"><a href="#_62ca1e59-2d72-8894-2288-327fe9e29db3">      
+  
+  2.  Traceability to SI units
+</a></li>
+<li class="h1"><a href="#_af59896e-2376-478d-7a54-db2b13ca7624">      
+  
+  3.  Absolute primary low-temperature JNT
+</a></li>
+<li class="h2"><a href="#_e63dc7b7-900e-883b-3a22-0ef6bb165a9d">      
+  
+  3.1.  JNT with the RSQUID setup
+</a></li>
+<li class="h2"><a href="#_69f7d9d5-0f17-1b6b-5711-3f9f490201e7">      
+  
+  3.2.  Current sensing noise thermometer, CSNT
+</a></li>
+<li class="h2"><a href="#_badba00a-f015-552f-35d1-9c050b77e0b9">      
+  
+  3.3.  Primary magnetic field fluctuation thermometer, pMFFT
+</a></li>
+<li class="h1"><a href="#_55d6cd3f-af71-212a-129c-88458efc7ef4">      
+  
+  4.  Relative primary low-temperature JNT
+</a></li>
+<li class="h1"><a href="#_474a3204-4040-672c-74cd-1b9f209b0669">      
+  
+  5.  Attainable uncertainties with low-temperature JNT
+</a></li>
+<li class="h2"><a href="#_96f39cdf-b30e-15c0-7814-f3f1893c43b3">      
+  
+  5.1.  JNT with the RSQUID setup
+</a></li>
+<li class="h2"><a href="#_6f07a0d2-8536-d806-5f6f-d2c4ce65ea91">      
+  
+  5.2.  Current sensing noise thermometer, CSNT
+</a></li>
+<li class="h2"><a href="#_e1bd0eaf-891e-6c0c-fae3-3d1bc41af9b7">      
+  
+  5.3.  Primary magnetic field fluctuation thermometer, pMFFT
+</a></li>
+<li class="h1"><a href="#_fc4b8e85-cac6-4346-a9c8-c8ff3b60ff0c">      References</a></li></ul></div>
+
+</nav>
+
+
+<div class="rule toc"></div>
+</div><br /><main class="main-section"><button onclick="topFunction()" id="myBtn" title="Go to top">Top</button><div class="authority">
+
+
+
+
+</div><br /><div id="_e74b06d3-4c1f-257a-cc95-45accedad307"><h1 id="_6496ee13-6d8c-48c0-a8f0-507146a8de15"><a class="anchor" href="#_e74b06d3-4c1f-257a-cc95-45accedad307"></a><a class="header" href="#_e74b06d3-4c1f-257a-cc95-45accedad307">1.  Introduction</a></h1><p id="_8f72d4b9-b362-1499-ac40-950ef1d6bdb8">The determination of thermodynamic temperatures by low-temperature Johnson noise thermometry (JNT) is based on the Nyquist formula:</p><div id="eq1"><div class="formula"><p><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <mi>〈</mi>
+    <mstyle mathvariant="italic">
+      <mi>V</mi>
+    </mstyle>
+    <msup>
+      <mrow>
+        <mo>(</mo>
+        <mi>f</mi>
+        <mo>,</mo>
+        <mstyle mathvariant="italic">
+          <mi>T</mi>
+        </mstyle>
+        <mo>)</mo>
+      </mrow>
+      <mn>2</mn>
+    </msup>
+    <mi>〉</mi>
+    <mo>=</mo>
+    <mn>4</mn>
+    <mi>k</mi>
+    <mstyle mathvariant="italic">
+      <mi>T</mi>
+    </mstyle>
+    <mstyle mathvariant="italic">
+      <mi>R</mi>
+    </mstyle>
+    <mi mathvariant="normal">Δ</mi>
+    <mi>f</mi>
+    <mo>,</mo>
+  </mstyle>
+</math></span>  (1)</p></div></div><p id="_ef086ab8-7dd1-4d03-5664-5c7710f71c10">stating that the mean square of the noise voltage <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>V</mi>
+    </mstyle>
+    <mrow>
+      <mo>(</mo>
+      <mi>f</mi>
+      <mo>,</mo>
+      <mstyle mathvariant="italic">
+        <mi>T</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math></span> across an
+unbiased resistor in a frequency band <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi mathvariant="normal">Δ</mi>
+    <mi>f</mi>
+  </mstyle>
+</math></span> is proportional to temperature
+<span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>T</mi>
+    </mstyle>
+  </mstyle>
+</math></span> and independent of any material properties except the resistance of the
+conductor. <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>R</mi>
+    </mstyle>
+  </mstyle>
+</math></span> is the resistance and <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>k</mi>
+  </mstyle>
+</math></span> is the Boltzmann constant. The Nyquist formula is the limiting case of the fluctuation-dissipation theorem <a href="#callen">Callen 1951</a>, when quantum corrections are neglected, which is applicable
+in nearly all practical situations for temperatures from <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu5">
+      <mstyle mathvariant="normal">
+        <mi>K</mi>
+      </mstyle>
+
+
+    </mrow>
+  </mstyle>
+</math></span> down
+to <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_mK">
+      <mstyle mathvariant="normal">
+        <mi>mK</mi>
+      </mstyle>
+
+
+
+    </mrow>
+  </mstyle>
+</math></span> and for frequencies up to a few hundred
+<span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_MHz">
+      <mstyle mathvariant="normal">
+        <mi>MHz</mi>
+      </mstyle>
+
+
+
+    </mrow>
+  </mstyle>
+</math></span> or a few hundred <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_kHz">
+      <mstyle mathvariant="normal">
+        <mi>kHz</mi>
+      </mstyle>
+
+
+
+    </mrow>
+  </mstyle>
+</math></span>, respectively. The general approach and basic principles of JNT and its application are described in <a href="#white">White 1996</a>. JNT can be implemented in absolute primary or relative primary form, whereas the second requires the reference to a temperature of known thermodynamic value.</p></div><div id="_62ca1e59-2d72-8894-2288-327fe9e29db3"><h1 id="_b171df5e-df7d-4256-b7ac-67565aae6565"><a class="anchor" href="#_62ca1e59-2d72-8894-2288-327fe9e29db3"></a><a class="header" href="#_62ca1e59-2d72-8894-2288-327fe9e29db3">2.  Traceability to SI units</a></h1><p id="_c9b1c370-154d-5f57-4772-88269dad7b37">The implementation of primary Johnson noise thermometry requires that the quantities involved are traceable to the units of the SI. Therefore, the measurement of the voltage and the resistance must be traceable to the definition of electrical units and the measurement of frequencies to the definition of the unit time.</p></div><div id="_af59896e-2376-478d-7a54-db2b13ca7624"><h1 id="_eded152f-4bac-40bd-9d2c-ab9a309212a0"><a class="anchor" href="#_af59896e-2376-478d-7a54-db2b13ca7624"></a><a class="header" href="#_af59896e-2376-478d-7a54-db2b13ca7624">3.  Absolute primary low-temperature JNT</a></h1><p id="_f4afc306-baa7-206c-5119-7a42484129b5">For JNT very small noise voltages must be measured (<span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1.3</mn>
+    <mo>×</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>9</mn>
+      </mrow>
+    </msup>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_V.Hz-0.5">
+      <mstyle mathvariant="normal">
+        <mi>V</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>Hz</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>0.5</mn>
+        </mrow>
+      </msup>
+
+
+    </mrow>
+  </mstyle>
+</math></span> for a <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>100</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu18">
+      <mstyle mathvariant="normal">
+        <mi>Ω</mi>
+      </mstyle>
+
+
+
+
+    </mrow>
+  </mstyle>
+</math></span> resistor at <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>293</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu5">
+      <mstyle mathvariant="normal">
+        <mi>K</mi>
+      </mstyle>
+
+
+    </mrow>
+  </mstyle>
+</math></span> and <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>3.3</mn>
+    <mo>×</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>13</mn>
+      </mrow>
+    </msup>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_V.Hz-0.5">
+      <mstyle mathvariant="normal">
+        <mi>V</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>Hz</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>0.5</mn>
+        </mrow>
+      </msup>
+
+
+    </mrow>
+    <mo>)</mo>
+  </mstyle>
+</math></span> for a <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>2</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_mOhm">
+      <mstyle mathvariant="normal">
+        <mi>mΩ</mi>
+      </mstyle>
+
+
+
+    </mrow>
+  </mstyle>
+</math></span> resistor at <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu5">
+      <mstyle mathvariant="normal">
+        <mi>K</mi>
+      </mstyle>
+
+
+    </mrow>
+  </mstyle>
+</math></span>), and the gain as well as the bandwidth of the measurement must be stable and known with high accuracy. Contributions to the measurement signal from non-thermal noise sources must be negligible. For low-temperature JNT, superconducting quantum interference devices (SQUIDs) are the method of choice for the measurement of the tiny noise voltages. A review on current SQUID-based low-temperature thermometers is given in  <a href="#beyer">Beyer 2016</a>.</p><p id="_b11ff0df-5e0d-d75b-87b0-853f433ab5da">Three main variants of SQUID-based low-temperature Johnson noise thermometers are mainly implemented. The first one is historically called the resistive SQUID (RSQUID) setup and uses as the main component a superconducting loop containing a Josephson tunnel junction and a resistive shunt closing the loop. The second one is the so-called current sensing noise thermometer (CSNT), where the current through the noise resistor is read out by a SQUID current sensor. The third one is the magnetic field fluctuation thermometer (MFFT), in which the fluctuating magnetic field caused by the noise resistor is read out by a SQUID magnetometer or gradiometer.</p><div id="_e63dc7b7-900e-883b-3a22-0ef6bb165a9d"><h2 id="_d09a5a14-942d-4681-abe6-9213493b6a72"><a class="anchor" href="#_e63dc7b7-900e-883b-3a22-0ef6bb165a9d"></a><a class="header" href="#_e63dc7b7-900e-883b-3a22-0ef6bb165a9d">3.1.  JNT with the RSQUID setup</a></h2>
+
+<p id="_e9f4776c-b3e3-0054-1df6-cf15a115d34d">In the RSQUID setup, a direct bias current develops a voltage <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>V</mi>
+    </mstyle>
+  </mstyle>
+</math></span> across a
+resistor <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>R</mi>
+    </mstyle>
+  </mstyle>
+</math></span> connected in parallel to the Josephson junction of the RSQUID.
+This voltage is converted by the junction into ac oscillations at the frequency
+<span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>ν</mi>
+    </mstyle>
+  </mstyle>
+</math></span> given by the Josephson equation</p>
+
+<div id="eq2"><div class="formula"><p><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <mstyle mathvariant="italic">
+      <mi>ν</mi>
+    </mstyle>
+    <mo>=</mo>
+    <mfrac>
+      <mrow>
+        <mn>2</mn>
+        <mi>e</mi>
+        <mstyle mathvariant="italic">
+          <mi>V</mi>
+        </mstyle>
+      </mrow>
+      <mi>h</mi>
+    </mfrac>
+    <mo>,</mo>
+  </mstyle>
+</math></span>  (2)</p></div></div>
+
+<p id="_7f0d66c6-4afb-2292-04f0-24b822ccca79">where <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>e</mi>
+  </mstyle>
+</math></span> is the elementary charge and <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>h</mi>
+  </mstyle>
+</math></span> is the Planck constant. The voltage fluctuations due to thermal noise in the resistor cause frequency fluctuations with the variance</p>
+
+<div id="eq3"><div class="formula"><p><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>σ</mi>
+      </mstyle>
+      <mi>v</mi>
+    </msub>
+    <mo>=</mo>
+    <mfrac>
+      <mrow>
+        <mn>2</mn>
+        <mi>k</mi>
+        <mstyle mathvariant="italic">
+          <mi>R</mi>
+        </mstyle>
+        <mstyle mathvariant="italic">
+          <mi>T</mi>
+        </mstyle>
+      </mrow>
+      <mrow>
+        <msub>
+          <mstyle mathvariant="italic">
+            <mi>ϕ</mi>
+          </mstyle>
+          <mn>0</mn>
+        </msub>
+        <mstyle mathvariant="italic">
+          <mi>τ</mi>
+        </mstyle>
+      </mrow>
+    </mfrac>
+    <mo>,</mo>
+  </mstyle>
+</math></span>  (3)</p></div></div>
+
+<p id="_0faaeb11-467f-91f2-63e8-aa2ad6cf4b8d">where <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>k</mi>
+  </mstyle>
+</math></span> is the Boltzmann constant, <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>ϕ</mi>
+      </mstyle>
+      <mn>0</mn>
+    </msub>
+    <mo>=</mo>
+    <mi>h</mi>
+    <mo>/</mo>
+    <mrow>
+      <mo>(</mo>
+      <mn>2</mn>
+      <mi>e</mi>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math></span> is the magnetic
+flux quantum and <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>τ</mi>
+    </mstyle>
+  </mstyle>
+</math></span> is the gate time of the frequency measurement. The
+frequency fluctuations are measured by coupling a tank circuit to the RSQUID excited
+at the resonance frequency. From the filtered sideband of the resonance, the variance
+of the Josephson oscillations is determined. The value of the resistor <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>R</mi>
+    </mstyle>
+  </mstyle>
+</math></span>
+can be measured independently as well as the gate time <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>τ</mi>
+    </mstyle>
+  </mstyle>
+</math></span>. Then, using <a href="#eq3">Equation (3)</a> the thermodynamic temperature <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>T</mi>
+    </mstyle>
+  </mstyle>
+</math></span> is directly calculated from the
+variance <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>σ</mi>
+      </mstyle>
+      <mstyle mathvariant="italic">
+        <mi>ν</mi>
+      </mstyle>
+    </msub>
+  </mstyle>
+</math></span> of the Josephson frequency fluctuations.</p>
+
+<p id="_6db4d767-a813-5f48-8f5a-8fc5f05200d6">An overview of the details of thermodynamic temperature measurements with rf RSQUIDs is given in  <a href="#soulen">Soulen 1994</a>. JNT realizations based on RSQUIDs have been used, for example, for the establishment of the PLTS-2000  <a href="#rusby">Rusby 2002</a>. In <a href="#menkel">Menkel 2000</a>, the theory of temperature measurement with rf RSQUIDs was extended to the application of modern thin-film dc RSQUIDs.</p>
+</div><div id="_69f7d9d5-0f17-1b6b-5711-3f9f490201e7"><h2 id="_8f3c821d-5de4-4905-bf20-b53cf23b5201"><a class="anchor" href="#_69f7d9d5-0f17-1b6b-5711-3f9f490201e7"></a><a class="header" href="#_69f7d9d5-0f17-1b6b-5711-3f9f490201e7">3.2.  Current sensing noise thermometer, CSNT</a></h2>
+
+<p id="_72413ec6-1303-0120-ed3f-3637fb5169c7">Current sensing noise thermometers utilizing rf or dc SQUIDs resolve the thermal noise signal in time domain  <a href="#giffard">Giffard 1972</a>, <a href="#webb">Webb 1973</a>, <a href="#lusher">Lusher 2001</a>, <a href="#shibahara">Shibahara 2016</a>. The thermal voltage noise across the
+resistor causes fluctuating currents in the input coil that are detected as thermal
+magnetic flux noise by the SQUID, which is operated in flux-locked loop (FLL) mode
+and read out by the SQUID electronics. In the FLL mode, the SQUID is used as a null
+detector with negative feedback to maintain linear operation. The noise current
+<span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>I</mi>
+      </mstyle>
+      <mtext>N</mtext>
+    </msub>
+  </mstyle>
+</math></span> through the noise resistor is converted to a noise voltage
+<span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>V</mi>
+      </mstyle>
+      <mtext>N</mtext>
+    </msub>
+    <mo>=</mo>
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>I</mi>
+      </mstyle>
+      <mtext>N</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <msub>
+        <mstyle mathvariant="italic">
+          <mi>M</mi>
+        </mstyle>
+        <mtext>in</mtext>
+      </msub>
+      <msub>
+        <mstyle mathvariant="italic">
+          <mi>R</mi>
+        </mstyle>
+        <mtext>f</mtext>
+      </msub>
+      <mo>)</mo>
+    </mrow>
+    <mo>/</mo>
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>M</mi>
+      </mstyle>
+      <mtext>f</mtext>
+    </msub>
+  </mstyle>
+</math></span> at the
+output of the SQUID electronics, where <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>M</mi>
+      </mstyle>
+      <mtext>in</mtext>
+    </msub>
+  </mstyle>
+</math></span> is the mutual inductance
+between the SQUID loop and the input coil, <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>M</mi>
+      </mstyle>
+      <mtext>f</mtext>
+    </msub>
+  </mstyle>
+</math></span> is the mutual
+inductance between the SQUID loop and the feedback coil applied for the FLL mode, and
+<span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>R</mi>
+      </mstyle>
+      <mtext>f</mtext>
+    </msub>
+  </mstyle>
+</math></span> is the resistance of the feedback resistor. Then, the noise
+voltage <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>V</mi>
+      </mstyle>
+      <mtext>N</mtext>
+    </msub>
+  </mstyle>
+</math></span> is digitized, filtered in the time domain for glitches,
+Fourier transformed and averaged to obtain the power spectral density (PSD) of the
+noise spectrum. Before analysis, the PSD is subjected to a peak removal algorithm to
+remove non-thermal noise pickup. Finally, the noise temperature <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>T</mi>
+      </mstyle>
+      <mtext>CSNT</mtext>
+    </msub>
+  </mstyle>
+</math></span> is computed from the PSD using the equation:</p>
+
+<div id="eq4"><div class="formula"><p><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>T</mi>
+      </mstyle>
+      <mtext>CSNT</mtext>
+    </msub>
+    <mo>=</mo>
+    <mfrac>
+      <mstyle mathvariant="italic">
+        <mi>R</mi>
+      </mstyle>
+      <mrow>
+        <mn>4</mn>
+        <mi>k</mi>
+      </mrow>
+    </mfrac>
+    <mrow>
+      <mo>(</mo>
+      <mi>〈</mi>
+      <msub>
+        <mstyle mathvariant="italic">
+          <mi>S</mi>
+        </mstyle>
+        <mtext>V,N</mtext>
+      </msub>
+      <mi>〉</mi>
+      <mo>−</mo>
+      <mi>〈</mi>
+      <msub>
+        <mstyle mathvariant="italic">
+          <mi>S</mi>
+        </mstyle>
+        <mtext>V,SQUID</mtext>
+      </msub>
+      <mi>〉</mi>
+      <mo>)</mo>
+    </mrow>
+    <msup>
+      <mrow>
+        <mo>(</mo>
+        <mfrac>
+          <msub>
+            <mstyle mathvariant="italic">
+              <mi>M</mi>
+            </mstyle>
+            <mtext>f</mtext>
+          </msub>
+          <mrow>
+            <msub>
+              <mstyle mathvariant="italic">
+                <mi>M</mi>
+              </mstyle>
+              <mtext>in</mtext>
+            </msub>
+            <msub>
+              <mstyle mathvariant="italic">
+                <mi>R</mi>
+              </mstyle>
+              <mtext>f</mtext>
+            </msub>
+          </mrow>
+        </mfrac>
+        <mo>)</mo>
+      </mrow>
+      <mn>2</mn>
+    </msup>
+    <mo>,</mo>
+  </mstyle>
+</math></span>  (4)</p></div></div>
+
+<p id="_93f5a50a-d552-b7fe-8031-baa26610607f">where <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>〈</mi>
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>S</mi>
+      </mstyle>
+      <mtext>V,N</mtext>
+    </msub>
+    <mi>〉</mi>
+  </mstyle>
+</math></span> is the averaged PSD of the measured noise voltage in
+the limit of zero frequency obtained from a fit to the PSD and <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>〈</mi>
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>S</mi>
+      </mstyle>
+      <mtext>V,SQUID</mtext>
+    </msub>
+    <mi>〉</mi>
+  </mstyle>
+</math></span> is the averaged PSD of the noise contribution from the SQUID and
+the SQUID electronics. <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>〈</mi>
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>S</mi>
+      </mstyle>
+      <mtext>V,SQUID</mtext>
+    </msub>
+    <mi>〉</mi>
+  </mstyle>
+</math></span> is a system parameter, which
+does not depend on the temperature to be measured, provided the SQUID is operated at
+constant temperature. Typically, <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>〈</mi>
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>S</mi>
+      </mstyle>
+      <mtext>V,N</mtext>
+    </msub>
+    <mi>〉</mi>
+    <mo>&#x3e;</mo>
+    <mo>&#x3e;</mo>
+    <mi>〈</mi>
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>S</mi>
+      </mstyle>
+      <mtext>V,SQUID</mtext>
+    </msub>
+    <mi>〉</mi>
+  </mstyle>
+</math></span>. The uncertainty of the measured noise temperature
+<span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>T</mi>
+      </mstyle>
+      <mtext>CSNT</mtext>
+    </msub>
+  </mstyle>
+</math></span> (see <a href="#table2">Table 2</a>.) is determined by system parameters, which must be measured independently  <a href="#shibahara">Shibahara 2016</a>: the value of the noise
+resistor <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>R</mi>
+    </mstyle>
+  </mstyle>
+</math></span>, the value of the feedback resistor <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>R</mi>
+      </mstyle>
+      <mtext>f</mtext>
+    </msub>
+  </mstyle>
+</math></span>, the
+mutual inductances between the SQUID and the input coil <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>M</mi>
+      </mstyle>
+      <mtext>in</mtext>
+    </msub>
+  </mstyle>
+</math></span> as well
+as the feedback coil <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>M</mi>
+      </mstyle>
+      <mtext>f</mtext>
+    </msub>
+  </mstyle>
+</math></span>, and the non-thermal noise components from the SQUID and the SQUID electronics.</p>
+</div><div id="_badba00a-f015-552f-35d1-9c050b77e0b9"><h2 id="_d4dc6525-b4e3-477b-b57f-7a799ada4f37"><a class="anchor" href="#_badba00a-f015-552f-35d1-9c050b77e0b9"></a><a class="header" href="#_badba00a-f015-552f-35d1-9c050b77e0b9">3.3.  Primary magnetic field fluctuation thermometer, pMFFT</a></h2>
+
+<p id="_3e8655cd-eef5-6b73-ef88-b1123aed2931">The primary magnetic field fluctuation thermometer (pMFFT) <a href="#kirste2016">Kirste 2016</a>
+utilizes the fact that thermally activated noise currents in the noise resistor cause
+fluctuating magnetic fields, which are accessible above the surface of the resistor.
+These magnetic field fluctuations are measured as thermal magnetic flux noise using a
+SQUID-based gradiometer. The pMFFT employs two SQUID channels (labeled 1 and 2) and a
+cross-correlation technique for the thermal magnetic flux noise measurement to
+minimize uncorrelated non-thermal noise contributions. Each channel is connected to
+an independent, planar thin-film detection coil. The layout of the detection coils
+enables analytical electromagnetic modelling and an easy determination of the
+geometric dimensions of the gradiometers and their distances to the noise resistor
+necessary for the calibration of the SQUID channels. The pMFFT has a separate
+calibration coil, which is used to determine the transfer functions (flux-to-voltage
+calibration coefficients) of the two SQUID gradiometer channels and the electrical
+conductivity <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>σ</mi>
+      </mstyle>
+      <mtext>el</mtext>
+    </msub>
+  </mstyle>
+</math></span> of the noise resistor. The final equation for
+calculating the noise temperature <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>T</mi>
+      </mstyle>
+      <mtext>pMFFT</mtext>
+    </msub>
+  </mstyle>
+</math></span> is:</p>
+
+<div id="eq5"><div class="formula"><p><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>T</mi>
+      </mstyle>
+      <mtext>pMFFT</mtext>
+    </msub>
+    <mo>=</mo>
+    <mfrac>
+      <mrow>
+        <msub>
+          <mover>
+            <mstyle mathvariant="italic">
+              <mi>V</mi>
+            </mstyle>
+            <mo>^</mo>
+          </mover>
+          <mrow>
+            <mstyle mathvariant="italic">
+              <mi>R</mi>
+            </mstyle>
+            <mtext>cal</mtext>
+            <mo>,</mo>
+            <mn>1</mn>
+          </mrow>
+        </msub>
+        <mo>⋅</mo>
+        <msub>
+          <mover>
+            <mstyle mathvariant="italic">
+              <mi>V</mi>
+            </mstyle>
+            <mo>^</mo>
+          </mover>
+          <mrow>
+            <mstyle mathvariant="italic">
+              <mi>R</mi>
+            </mstyle>
+            <msub>
+              <mtext>cal</mtext>
+              <mn>2</mn>
+            </msub>
+          </mrow>
+        </msub>
+        <mo>⋅</mo>
+        <msub>
+          <mstyle mathvariant="italic">
+            <mi>M</mi>
+          </mstyle>
+          <mn>1</mn>
+        </msub>
+        <mo>⋅</mo>
+        <msub>
+          <mstyle mathvariant="italic">
+            <mi>M</mi>
+          </mstyle>
+          <mn>2</mn>
+        </msub>
+      </mrow>
+      <mrow>
+        <msub>
+          <mover>
+            <mstyle mathvariant="italic">
+              <mi>V</mi>
+            </mstyle>
+            <mo>^</mo>
+          </mover>
+          <mrow>
+            <mtext>cal</mtext>
+            <mo>,</mo>
+            <mn>1</mn>
+          </mrow>
+        </msub>
+        <mo>⋅</mo>
+        <msub>
+          <mover>
+            <mstyle mathvariant="italic">
+              <mi>V</mi>
+            </mstyle>
+            <mo>^</mo>
+          </mover>
+          <mrow>
+            <mtext>cal</mtext>
+            <mo>,</mo>
+            <mn>2</mn>
+          </mrow>
+        </msub>
+        <mo>⋅</mo>
+        <msubsup>
+          <mstyle mathvariant="italic">
+            <mi>R</mi>
+          </mstyle>
+          <mtext>cal</mtext>
+          <mn>2</mn>
+        </msubsup>
+      </mrow>
+    </mfrac>
+    <mo>⋅</mo>
+    <mfrac>
+      <mn>1</mn>
+      <msub>
+        <mstyle mathvariant="italic">
+          <mi>N</mi>
+        </mstyle>
+        <mi>f</mi>
+      </msub>
+    </mfrac>
+    <mrow>
+      <munderover>
+        <mo>∑</mo>
+        <mrow>
+          <mi>k</mi>
+          <mo>=</mo>
+          <mn>1</mn>
+        </mrow>
+        <msub>
+          <mstyle mathvariant="italic">
+            <mi>N</mi>
+          </mstyle>
+          <mi>f</mi>
+        </msub>
+      </munderover>
+      <mfrac>
+        <mrow>
+          <mtext>Re</mtext>
+          <mrow>
+            <mo>[</mo>
+            <msub>
+              <mstyle mathvariant="italic">
+                <mi>S</mi>
+              </mstyle>
+              <mrow>
+                <mstyle mathvariant="italic">
+                  <mi>V</mi>
+                </mstyle>
+                <mo>,</mo>
+                <mn>12</mn>
+              </mrow>
+            </msub>
+            <mrow>
+              <mo>(</mo>
+              <msub>
+                <mi>f</mi>
+                <mtext>k</mtext>
+              </msub>
+              <mo>,</mo>
+              <msub>
+                <mstyle mathvariant="italic">
+                  <mi>V</mi>
+                </mstyle>
+                <mn>1</mn>
+              </msub>
+              <mo>,</mo>
+              <msub>
+                <mstyle mathvariant="italic">
+                  <mi>V</mi>
+                </mstyle>
+                <mn>2</mn>
+              </msub>
+              <mo>)</mo>
+            </mrow>
+            <mo>]</mo>
+          </mrow>
+        </mrow>
+        <mrow>
+          <mtext>Re</mtext>
+          <mrow>
+            <mo>[</mo>
+            <msub>
+              <mstyle mathvariant="italic">
+                <mi>S</mi>
+              </mstyle>
+              <mrow>
+                <mstyle mathvariant="italic">
+                  <mi>ϕ</mi>
+                </mstyle>
+                <mo>,</mo>
+                <mn>12</mn>
+              </mrow>
+            </msub>
+            <mrow>
+              <mo>(</mo>
+              <msub>
+                <mi>f</mi>
+                <mtext>k</mtext>
+              </msub>
+              <mo>,</mo>
+              <msub>
+                <mstyle mathvariant="italic">
+                  <mi>σ</mi>
+                </mstyle>
+                <mtext>el</mtext>
+              </msub>
+              <mo>,</mo>
+              <msub>
+                <mstyle mathvariant="italic">
+                  <mi>T</mi>
+                </mstyle>
+                <mtext>Ref</mtext>
+              </msub>
+              <mo>,</mo>
+              <mo>…</mo>
+              <mo>)</mo>
+            </mrow>
+            <mo>]</mo>
+          </mrow>
+          <mo>/</mo>
+          <msub>
+            <mstyle mathvariant="italic">
+              <mi>T</mi>
+            </mstyle>
+            <mtext>Ref</mtext>
+          </msub>
+        </mrow>
+      </mfrac>
+    </mrow>
+    <mo>,</mo>
+  </mstyle>
+</math></span>  (5)</p></div></div>
+
+<p id="_7d68af22-71fd-a294-74bd-541cf5a8097c">where <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Re</mtext>
+  </mstyle>
+</math></span> is the real part of the complex cross-power spectral densities
+(CPSDs), <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>N</mi>
+      </mstyle>
+      <mi>f</mi>
+    </msub>
+  </mstyle>
+</math></span> denotes the number of frequency bins considered in the CPSD
+of the noise <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>S</mi>
+      </mstyle>
+      <mrow>
+        <mstyle mathvariant="italic">
+          <mi>V</mi>
+        </mstyle>
+        <mo>,</mo>
+        <mn>12</mn>
+      </mrow>
+    </msub>
+  </mstyle>
+</math></span>. The first part of <a href="#eq5">Equation (5)</a> is related to the
+calibration of the SQUID channels 1 and 2. <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>R</mi>
+      </mstyle>
+      <mtext>cal</mtext>
+    </msub>
+  </mstyle>
+</math></span> is the value of the
+resistor used to measure the current through the calibration coil, <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>M</mi>
+      </mstyle>
+      <mn>1</mn>
+    </msub>
+  </mstyle>
+</math></span> and
+<span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>M</mi>
+      </mstyle>
+      <mn>2</mn>
+    </msub>
+  </mstyle>
+</math></span> are calculated values (based on the given geometry of the pMFFT setup)
+of the mutual induction between calibration coil and the respective detection coil.
+The four voltage amplitudes are determined during calibration using quasi-dc
+currents: <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mover>
+        <mstyle mathvariant="italic">
+          <mi>V</mi>
+        </mstyle>
+        <mo>^</mo>
+      </mover>
+      <mrow>
+        <mtext>cal</mtext>
+        <mo>,</mo>
+        <mi>i</mi>
+      </mrow>
+    </msub>
+  </mstyle>
+</math></span> is the voltage of the signal channel <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>i</mi>
+  </mstyle>
+</math></span>
+(1, 2), while <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mover>
+        <mstyle mathvariant="italic">
+          <mi>V</mi>
+        </mstyle>
+        <mo>^</mo>
+      </mover>
+      <mrow>
+        <mstyle mathvariant="italic">
+          <mi>R</mi>
+        </mstyle>
+        <mtext>cal</mtext>
+        <mo>,</mo>
+        <mi>i</mi>
+      </mrow>
+    </msub>
+  </mstyle>
+</math></span> is the corresponding voltage drop at the calibration resistor. The second part of  <a href="#eq5">Equation (5)</a> provides the actual temperature
+information as obtained from the measured CPSD <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>S</mi>
+      </mstyle>
+      <mrow>
+        <mstyle mathvariant="italic">
+          <mi>V</mi>
+        </mstyle>
+        <mo>,</mo>
+        <mn>12</mn>
+      </mrow>
+    </msub>
+  </mstyle>
+</math></span>, normalized by
+the CPSD of the thermal magnetic flux noise <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>S</mi>
+      </mstyle>
+      <mrow>
+        <mstyle mathvariant="italic">
+          <mi>ϕ</mi>
+        </mstyle>
+        <mo>,</mo>
+        <mn>12</mn>
+      </mrow>
+    </msub>
+  </mstyle>
+</math></span> calculated for
+the given geometrical setup and averaged over suitable frequency bins <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>f</mi>
+      <mi>k</mi>
+    </msub>
+  </mstyle>
+</math></span> <a href="#varpula">Varpula 1984</a>, <a href="#kirste2008">Kirste 2008</a>. <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>S</mi>
+      </mstyle>
+      <mrow>
+        <mstyle mathvariant="italic">
+          <mi>ϕ</mi>
+        </mstyle>
+        <mo>,</mo>
+        <mn>12</mn>
+      </mrow>
+    </msub>
+  </mstyle>
+</math></span>
+originates from a forward calculation and is proportional to the arbitrary reference
+temperature <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>T</mi>
+      </mstyle>
+      <mtext>Ref</mtext>
+    </msub>
+  </mstyle>
+</math></span> chosen for this calculation. Since
+<span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>S</mi>
+      </mstyle>
+      <mrow>
+        <mstyle mathvariant="italic">
+          <mi>ϕ</mi>
+        </mstyle>
+        <mo>,</mo>
+        <mn>12</mn>
+      </mrow>
+    </msub>
+    <mi>∝</mi>
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>T</mi>
+      </mstyle>
+      <mtext>Ref</mtext>
+    </msub>
+  </mstyle>
+</math></span>, <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>T</mi>
+      </mstyle>
+      <mtext>Ref</mtext>
+    </msub>
+  </mstyle>
+</math></span> effectively
+cancels out in the ratio of both quantities. Hence <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>T</mi>
+      </mstyle>
+      <mtext>Ref</mtext>
+    </msub>
+  </mstyle>
+</math></span> is only formally introduced in  <a href="#eq5">Equation (5)</a> so that <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>T</mi>
+      </mstyle>
+      <mtext>pMFFT</mtext>
+    </msub>
+  </mstyle>
+</math></span> can be represented as a ratio of common physical quantities  <a href="#kirste2016">Kirste 2016</a>. The pMFFT setup allows to check in situ the electrical conductivity of the noise resistor, which turns out to be independent of temperature. Hence, the pMFFT can be also operated in relative primary mode as a MFFT.</p>
+</div></div><div id="_55d6cd3f-af71-212a-129c-88458efc7ef4"><h1 id="_33b3560e-d1eb-4675-bc79-014407c3ee9a"><a class="anchor" href="#_55d6cd3f-af71-212a-129c-88458efc7ef4"></a><a class="header" href="#_55d6cd3f-af71-212a-129c-88458efc7ef4">4.  Relative primary low-temperature JNT</a></h1><p id="_674edca0-da5a-1bfd-26da-0edb1d35af93">In relative primary low-temperature JNT, ratios of temperatures are determined from
+the ratio of the measured noise PSD <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>S</mi>
+    </mstyle>
+    <mrow>
+      <mo>(</mo>
+      <mi>f</mi>
+      <mo>,</mo>
+      <mstyle mathvariant="italic">
+        <mi>T</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math></span> to the noise PSD
+<span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>S</mi>
+    </mstyle>
+    <mrow>
+      <mo>(</mo>
+      <mi>f</mi>
+      <mo>,</mo>
+      <msub>
+        <mstyle mathvariant="italic">
+          <mi>T</mi>
+        </mstyle>
+        <mtext>Ref</mtext>
+      </msub>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math></span> measured at a reference temperature
+<span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>T</mi>
+      </mstyle>
+      <mtext>Ref</mtext>
+    </msub>
+  </mstyle>
+</math></span> for which the thermodynamic value is known. An essential
+requirement for this operational mode of low-temperature JNT is the independence of
+the value of the noise resistor of temperature in the regime of residual resistance.
+Therefore, the noise resistor usually is made of a high-purity metal containing
+negligible amount of magnetic impurities to ensure a constant electrical conductivity
+over the temperature range of operation. Then, the thermodynamic noise temperature
+<span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>T</mi>
+      </mstyle>
+      <mtext>JNT</mtext>
+    </msub>
+  </mstyle>
+</math></span> is calculated according:</p><div id="eq6"><div class="formula"><p><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>T</mi>
+      </mstyle>
+      <mtext>JNT</mtext>
+    </msub>
+    <mo>=</mo>
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>T</mi>
+      </mstyle>
+      <mtext>Ref</mtext>
+    </msub>
+    <mi>〈</mi>
+    <mfrac>
+      <mrow>
+        <mstyle mathvariant="italic">
+          <mi>S</mi>
+        </mstyle>
+        <mrow>
+          <mo>(</mo>
+          <mi>f</mi>
+          <mo>,</mo>
+          <mstyle mathvariant="italic">
+            <mi>T</mi>
+          </mstyle>
+          <mo>)</mo>
+        </mrow>
+      </mrow>
+      <mrow>
+        <mstyle mathvariant="italic">
+          <mi>S</mi>
+        </mstyle>
+        <mrow>
+          <mo>(</mo>
+          <mi>f</mi>
+          <mo>,</mo>
+          <msub>
+            <mstyle mathvariant="italic">
+              <mi>T</mi>
+            </mstyle>
+            <mtext>Ref</mtext>
+          </msub>
+          <mo>)</mo>
+        </mrow>
+      </mrow>
+    </mfrac>
+    <mi>〉</mi>
+    <mo>.</mo>
+  </mstyle>
+</math></span>  (6)</p></div></div><p id="_afea59ef-8252-c464-228e-5cbf63cbb4b3">The brackets <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>〈</mi>
+    <mo>⋅</mo>
+    <mi>〉</mi>
+  </mstyle>
+</math></span> stand for averaging over a suitable frequency range. Even though relative primary low-temperature JNT avoids the elaborate determination and calibration of the system parameters of the noise thermometer setups, for reaching a desired uncertainty level, it may be necessary to subtract from the corresponding PSDs the contributions of non-thermal noise sources. In case of the pMFFT, the PSDs in  <a href="#eq6">Equation (6)</a> correspond to the real part of the CPSD <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Re</mtext>
+    <mrow>
+      <mo>[</mo>
+      <msub>
+        <mstyle mathvariant="italic">
+          <mi>S</mi>
+        </mstyle>
+        <mrow>
+          <mstyle mathvariant="italic">
+            <mi>V</mi>
+          </mstyle>
+          <mo>,</mo>
+          <mn>12</mn>
+        </mrow>
+      </msub>
+      <mo>]</mo>
+    </mrow>
+  </mstyle>
+</math></span>
+measured for the considered frequency bins at <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>T</mi>
+    </mstyle>
+  </mstyle>
+</math></span> and <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>T</mi>
+      </mstyle>
+      <mtext>Ref</mtext>
+    </msub>
+  </mstyle>
+</math></span>, respectively.</p></div><div id="_474a3204-4040-672c-74cd-1b9f209b0669"><h1 id="_a4253a0f-de90-4c76-a1b5-9a46f3add3e8"><a class="anchor" href="#_474a3204-4040-672c-74cd-1b9f209b0669"></a><a class="header" href="#_474a3204-4040-672c-74cd-1b9f209b0669">5.  Attainable uncertainties with low-temperature JNT</a></h1><div id="_96f39cdf-b30e-15c0-7814-f3f1893c43b3"><h2 id="_6c68eeed-d9cc-423c-9f83-9c44df05c879"><a class="anchor" href="#_96f39cdf-b30e-15c0-7814-f3f1893c43b3"></a><a class="header" href="#_96f39cdf-b30e-15c0-7814-f3f1893c43b3">5.1.  JNT with the RSQUID setup</a></h2>
+
+<p id="_1be06db1-8885-0001-c23b-efe18f5e1595">The relative combined standard uncertainties of the thermodynamic temperature values determined with rf RSQUIDs were estimated in  <a href="#soulen">Soulen 1994</a> to range from 0.13% to 0.38% based on comparisons with reference temperatures according to the EPT-76 scale  <a href="#bipm">BIPM 1979</a> and with <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msup>
+      <mtext>‌</mtext>
+      <mn>60</mn>
+    </msup>
+    <mtext>Co</mtext>
+  </mstyle>
+</math></span> nuclear orientation thermometry, another variant of primary low-temperature thermometry  <a href="#hudson">Hudson 1975</a>. The lowest relative standard uncertainty of about 0.07% was achieved by another rf RSQUID-based JNT realization  <a href="#fellmuth">Fellmuth 2003</a>. As an example, the uncertainty budget for such noise measurements is given in  <a href="#table1">Table 1</a>.</p>
+</div><div id="_6f07a0d2-8536-d806-5f6f-d2c4ce65ea91"><h2 id="_fd637a74-c25d-4ddc-b151-30294fdc761c"><a class="anchor" href="#_6f07a0d2-8536-d806-5f6f-d2c4ce65ea91"></a><a class="header" href="#_6f07a0d2-8536-d806-5f6f-d2c4ce65ea91">5.2.  Current sensing noise thermometer, CSNT</a></h2>
+
+<p id="_f998b89b-044f-7a8c-0b3b-d69a363df884">For the CSNT operated in absolute primary mode, relative combined standard uncertainties of about 1.5% are reached, which are expected to be lowered to sub-percent level with an improved setup. The corresponding uncertainty budget is shown in  <a href="#table2">Table 2</a>. For further details see <a href="#shibahara">Shibahara 2016</a> and references therein. International comparison measurements within the European EURAMET Project ‘Implementing the new kelvin’ have shown that thermodynamic temperature values and their uncertainties determined with the CSNT agree with other determinations of thermodynamic temperature as well as with copies of the PLTS-2000 better than 1%  <a href="#engert">Engert 2016</a>.</p>
+
+<table id="table1" class="MsoISOTable" style="border-width:1px;border-spacing:0;"><caption>Table 1.  Relative standard uncertainty estimates <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>u</mi>
+      <mtext>rel</mtext>
+    </msub>
+  </mstyle>
+</math></span> for the PTB noise thermometer (coverage factor <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>k</mi>
+    <mo>=</mo>
+    <mn>1</mn>
+  </mstyle>
+</math></span>) <a href="#fellmuth">Fellmuth 2003</a>.</caption><tbody><tr><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;">Uncertainty component</td><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>u</mi>
+      <mtext>rel</mtext>
+    </msub>
+  </mstyle>
+</math></span> %</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">Measurement of <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>R</mi>
+    </mstyle>
+  </mstyle>
+</math></span></td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">0.020</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">Gate time <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>τ</mi>
+    </mstyle>
+  </mstyle>
+</math></span></td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">0.003</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">Filter correction</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">0.010</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">Interference by external magnetic fields with the mains frequency</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">0.020</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">Statistics (5 measurements over 11 hours with <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>τ</mi>
+    </mstyle>
+    <mo>=</mo>
+    <mn>20</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu3">
+      <mstyle mathvariant="normal">
+        <mi>s</mi>
+      </mstyle>
+
+
+    </mrow>
+  </mstyle>
+</math></span>)</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">0.060</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;">Relative combined standard uncertainty</td><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;">0.067</td></tr></tbody></table>
+
+<table id="table2" class="MsoISOTable" style="border-width:1px;border-spacing:0;"><caption>Table 2.  Uncertainty budget for a temperature measurement at <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>20</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_mK">
+      <mstyle mathvariant="normal">
+        <mi>mK</mi>
+      </mstyle>
+
+
+
+    </mrow>
+  </mstyle>
+</math></span> using a CSNT in absolute primary mode (noise resistor of approximately <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>2</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_mOhm">
+      <mstyle mathvariant="normal">
+        <mi>mΩ</mi>
+      </mstyle>
+
+
+
+    </mrow>
+  </mstyle>
+</math></span>, <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>u</mi>
+      <mtext>rel</mtext>
+    </msub>
+  </mstyle>
+</math></span> — relative standard uncertainty, <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>u</mi>
+  </mstyle>
+</math></span> — standard uncertainty, last column is the relative contribution to the combined standard uncertainty, coverage factor <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>k</mi>
+    <mo>=</mo>
+    <mn>1</mn>
+  </mstyle>
+</math></span>) <a href="#shibahara">Shibahara 2016</a>.</caption><tbody><tr><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;">Uncertainty component</td><td style="text-align:center;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;">unit</td><td style="text-align:center;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;">value</td><td style="text-align:center;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>u</mi>
+      <mtext>rel</mtext>
+    </msub>
+  </mstyle>
+</math></span> %</td><td style="text-align:center;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>u</mi>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_mK">
+      <mstyle mathvariant="normal">
+        <mi>mK</mi>
+      </mstyle>
+
+
+
+    </mrow>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;"><p id="_9c85221b-31d0-a439-aef6-7325ad2ced62">rel. contribution %</p>
+</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">Noise resistor <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>R</mi>
+    </mstyle>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_mOhm">
+      <mstyle mathvariant="normal">
+        <mi>mΩ</mi>
+      </mstyle>
+
+
+
+    </mrow>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">1.86</td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">0.68</td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">0.137</td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">20.92</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">PSD of thermal noise, <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>〈</mi>
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>S</mi>
+      </mstyle>
+      <mrow>
+        <mstyle mathvariant="italic">
+          <mi>V</mi>
+        </mstyle>
+        <mo>,</mo>
+        <mtext>N</mtext>
+      </mrow>
+    </msub>
+    <mi>〉</mi>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_uV.Hz0.5">
+      <mstyle mathvariant="normal">
+        <mi>µV</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>Hz</mi>
+        </mstyle>
+        <mn>0.5</mn>
+      </msup>
+
+
+
+    </mrow>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">35.06</td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">0.10</td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">0.040</td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">1.79</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">PSD of SQUID noise, <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>〈</mi>
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>S</mi>
+      </mstyle>
+      <mrow>
+        <mstyle mathvariant="italic">
+          <mi>V</mi>
+        </mstyle>
+        <mo>,</mo>
+        <mtext>SQ</mtext>
+      </mrow>
+    </msub>
+    <mi>〉</mi>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_nV.Hz0.5">
+      <mstyle mathvariant="normal">
+        <mi>nV</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>Hz</mi>
+        </mstyle>
+        <mn>0.5</mn>
+      </msup>
+
+
+
+    </mrow>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">388.0</td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">0.30</td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">0.004</td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">0.02</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">Mutual inductance of input coil <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>M</mi>
+      </mstyle>
+      <mtext>in</mtext>
+    </msub>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_nA">
+      <mstyle mathvariant="normal">
+        <mi>nA</mi>
+      </mstyle>
+
+
+
+    </mrow>
+    <mo>/</mo>
+    <mstyle mathvariant="normal">
+      <msub>
+        <mi>Φ</mi>
+        <mn>0</mn>
+      </msub>
+    </mstyle>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">306.2</td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">0.30</td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">0.118</td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">15.55</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">Mutual inductance of feedback coil <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>M</mi>
+      </mstyle>
+      <mi>f</mi>
+    </msub>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_uA">
+      <mstyle mathvariant="normal">
+        <mi>µA</mi>
+      </mstyle>
+
+
+
+    </mrow>
+    <mo>/</mo>
+    <mstyle mathvariant="normal">
+      <msub>
+        <mi>Φ</mi>
+        <mn>0</mn>
+      </msub>
+    </mstyle>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">43.59</td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">0.58</td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">0.234</td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">61.14</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">Feedback resistor <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>R</mi>
+      </mstyle>
+      <mi>f</mi>
+    </msub>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_kOhm">
+      <mstyle mathvariant="normal">
+        <mi>kΩ</mi>
+      </mstyle>
+
+
+
+    </mrow>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">10</td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">0.06</td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">0.023</td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">0.60</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">Temperature gradients</td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_uK">
+      <mstyle mathvariant="normal">
+        <mi>µK</mi>
+      </mstyle>
+
+
+
+    </mrow>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">16.34</td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">11.55</td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">0.003</td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">0.01</td></tr><tr><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>T</mi>
+      </mstyle>
+      <mtext>CSNT</mtext>
+    </msub>
+    <mo>/</mo>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_mK">
+      <mstyle mathvariant="normal">
+        <mi>mK</mi>
+      </mstyle>
+
+
+
+    </mrow>
+  </mstyle>
+</math></span></td><td colspan="3" style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><p id="_5aabec32-d87c-b19b-d446-f704e5afc171">combined standard uncertainty / <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_mK">
+      <mstyle mathvariant="normal">
+        <mi>mK</mi>
+      </mstyle>
+
+
+
+    </mrow>
+  </mstyle>
+</math></span></p>
+</td><td colspan="2" style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><p id="_43e940cc-84ea-c482-07a0-61219b9d9046">relative combined standard uncertainty / %</p>
+</td></tr><tr><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;">20.000</td><td colspan="3" style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;">0.299</td><td colspan="2" style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;">1.53</td></tr></tbody></table>
+</div><div id="_e1bd0eaf-891e-6c0c-fae3-3d1bc41af9b7"><h2 id="_35ef0df2-37c9-476e-b38b-216845122364"><a class="anchor" href="#_e1bd0eaf-891e-6c0c-fae3-3d1bc41af9b7"></a><a class="header" href="#_e1bd0eaf-891e-6c0c-fae3-3d1bc41af9b7">5.3.  Primary magnetic field fluctuation thermometer, pMFFT</a></h2>
+
+<p id="_fb7e4a82-85f4-b8f5-2b55-fc9e4fd61760">For the pMFFT, the relative combined standard uncertainty of temperature measurements is currently 0.6% and is expected to be reduced further with the improvement of the geometric setup  <a href="#kirste2016">Kirste 2016</a>. For the operation in absolute primary mode, the uncertainty budget for the pMFFT is shown in  <a href="#table3">Table 3</a>. Here, the first 5
+uncertainty components are related to the determination of the relevant geometric
+parameters of the pMFFT necessary for the analytical modelling and the calculation of
+<span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>T</mi>
+      </mstyle>
+      <mtext>pMFFT</mtext>
+    </msub>
+  </mstyle>
+</math></span>. The following uncertainty contributions result from the determination of the electrical conductivity of the noise sensor, from the measurement equipment, from estimates of influence of noise sources other than the noise senor as well as from estimates of deviations of the analytical model from the practical implementation of the pMFFT. For more details and further explanation see <a href="#kirste2016">Kirste 2016</a>. The uncertainty budget for the operation in relative primary mode can be found in  <a href="#engert">Engert 2016</a>. As for the CSNT, comparison measurements within the European EURAMET Project ‘Implementing the new kelvin’ have shown that thermodynamic temperature values and their uncertainties determined with the pMFFT agree with other determinations of thermodynamic temperature as well as with copies of the PLTS-2000 better than 1%  <a href="#engert">Engert 2016</a>. The relative
+combined standard uncertainty of <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>T</mi>
+    </mstyle>
+  </mstyle>
+</math></span> determined by relative primary low-temperature JNT is about 0.14% for the pMFFT  <a href="#kirste2014">Kirste 2014</a>.</p>
+
+<table id="table3" class="MsoISOTable" style="border-width:1px;border-spacing:0;"><caption>Table 3.  Uncertainty budget for a temperature measurement at <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>16</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_mK">
+      <mstyle mathvariant="normal">
+        <mi>mK</mi>
+      </mstyle>
+
+
+
+    </mrow>
+  </mstyle>
+</math></span> using a pMFFT in absolute primary mode (<span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>u</mi>
+  </mstyle>
+</math></span> — standard uncertainty, <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>c</mi>
+      <mi>i</mi>
+    </msub>
+  </mstyle>
+</math></span> — sensitivity coefficients, last column is the relative contribution to the combined standard uncertainty, coverage factor <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>k</mi>
+    <mo>=</mo>
+    <mn>1</mn>
+  </mstyle>
+</math></span>) <a href="#kirste2016">Kirste 2016</a>.</caption><tbody><tr><td style="text-align:left;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;"><p id="_100aecfa-df54-bc63-0c54-39dd0aadace6">Uncertainty component <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>x</mi>
+      <mi>i</mi>
+    </msub>
+  </mstyle>
+</math></span></p>
+</td><td style="text-align:center;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;">unit</td><td style="text-align:center;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;">value</td><td style="text-align:center;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>u</mi>
+    <mrow>
+      <mo>(</mo>
+      <msub>
+        <mi>x</mi>
+        <mi>i</mi>
+      </msub>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;"><p id="_b23cd91f-b780-62a2-2583-9b306e06d549"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>c</mi>
+      <mi>i</mi>
+    </msub>
+    <mo>⋅</mo>
+    <mi>u</mi>
+    <mrow>
+      <mo>(</mo>
+      <msub>
+        <mi>x</mi>
+        <mi>i</mi>
+      </msub>
+      <mo>)</mo>
+    </mrow>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu5">
+      <mstyle mathvariant="normal">
+        <mi>K</mi>
+      </mstyle>
+
+
+    </mrow>
+  </mstyle>
+</math></span></p>
+</td><td style="text-align:center;vertical-align:top;border-top:solid windowtext 1.5pt;border-bottom:solid windowtext 1.0pt;"><p id="_f4e9d505-5a25-9968-bc5e-0a8f34def35f">rel.<br /> contribution %</p>
+</td></tr><tr><td colspan="6" style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">type B</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>z</mi>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu1">
+      <mstyle mathvariant="normal">
+        <mi>m</mi>
+      </mstyle>
+
+
+    </mrow>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1.038</mn>
+    <mo>⋅</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>4</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>2.74</mn>
+    <mo>⋅</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>7</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>2.92</mn>
+    <mo>⋅</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>5</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span>9.30</span></td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>d</mi>
+      <mn>31</mn>
+    </msub>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu1">
+      <mstyle mathvariant="normal">
+        <mi>m</mi>
+      </mstyle>
+
+
+    </mrow>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>2.016</mn>
+    <mo>⋅</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>3</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1.45</mn>
+    <mo>⋅</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>6</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo>−</mo>
+    <mn>8.75</mn>
+    <mo>⋅</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>5</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span>83.68</span></td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>t</mi>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu1">
+      <mstyle mathvariant="normal">
+        <mi>m</mi>
+      </mstyle>
+
+
+    </mrow>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1.857</mn>
+    <mo>⋅</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>3</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1.57</mn>
+    <mo>⋅</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>6</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo>−</mo>
+    <mn>4.30</mn>
+    <mo>⋅</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>12</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span>0.00</span></td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>r</mi>
+      <mrow>
+        <mn>1</mn>
+        <mo>,</mo>
+        <mn>1</mn>
+      </mrow>
+    </msub>
+    <mo>…</mo>
+    <msub>
+      <mi>r</mi>
+      <mrow>
+        <mn>9</mn>
+        <mo>,</mo>
+        <mn>1</mn>
+      </mrow>
+    </msub>
+    <mo>,</mo>
+    <msub>
+      <mi>r</mi>
+      <mrow>
+        <mn>1</mn>
+        <mo>,</mo>
+        <mn>2</mn>
+      </mrow>
+    </msub>
+    <mo>…</mo>
+    <msub>
+      <mi>r</mi>
+      <mrow>
+        <mn>9</mn>
+        <mo>,</mo>
+        <mn>2</mn>
+      </mrow>
+    </msub>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu1">
+      <mstyle mathvariant="normal">
+        <mi>m</mi>
+      </mstyle>
+
+
+    </mrow>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>6.485</mn>
+    <mo>⋅</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>4</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1.15</mn>
+    <mo>⋅</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>7</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo>−</mo>
+    <mn>3.53</mn>
+    <mo>⋅</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>6</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span>0.14</span></td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>r</mi>
+      <mrow>
+        <mn>1</mn>
+        <mo>,</mo>
+        <mn>3</mn>
+      </mrow>
+    </msub>
+    <mo>…</mo>
+    <msub>
+      <mi>r</mi>
+      <mn>93</mn>
+    </msub>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu1">
+      <mstyle mathvariant="normal">
+        <mi>m</mi>
+      </mstyle>
+
+
+    </mrow>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>6.425</mn>
+    <mo>⋅</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>4</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1.15</mn>
+    <mo>⋅</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>7</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1.14</mn>
+    <mo>⋅</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>5</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span>1.43</span></td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>σ</mi>
+    </mstyle>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow>
+      <mo>(</mo>
+      <mo rspace="thickmathspace">⁢</mo>
+      <mrow xref="U_Ohm.m-1">
+        <mstyle mathvariant="normal">
+          <mi>Ω</mi>
+        </mstyle>
+        <mi rspace="thickmathspace">⁢</mi>
+        <msup>
+          <mstyle mathvariant="normal">
+            <mi>m</mi>
+          </mstyle>
+          <mrow>
+            <mo>−</mo>
+            <mn>1</mn>
+          </mrow>
+        </msup>
+
+
+      </mrow>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>5.915</mn>
+    <mo>⋅</mo>
+    <msup>
+      <mn>10</mn>
+      <mn>9</mn>
+    </msup>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>3.59</mn>
+    <mo>⋅</mo>
+    <msup>
+      <mn>10</mn>
+      <mn>7</mn>
+    </msup>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1.43</mn>
+    <mo>⋅</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>5</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span>2.23</span></td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>μ</mi>
+      </mstyle>
+      <mtext>r</mtext>
+    </msub>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">1.00</td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>2.80</mn>
+    <mo>⋅</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>6</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo>−</mo>
+    <mn>9.06</mn>
+    <mo>⋅</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>8</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span>0.00</span></td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><p id="_fb7f31a2-f15f-2e4d-36ee-1c033cf0fb02">Flatness of ICL transfer function depending on bandwidth <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>f</mi>
+      <mrow>
+        <mn>3</mn>
+        <mo rspace="thickmathspace">⁢</mo>
+        <mrow xref="U_dbel_B">
+          <mstyle mathvariant="normal">
+            <mi>dB</mi>
+          </mstyle>
+
+
+        </mrow>
+        <mo>,</mo>
+        <mi>k</mi>
+      </mrow>
+    </msub>
+  </mstyle>
+</math></span></p>
+</td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu31">
+      <mstyle mathvariant="normal">
+        <mi>Hz</mi>
+      </mstyle>
+
+
+
+
+    </mrow>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo>∞</mo>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>6.20</mn>
+    <mo>⋅</mo>
+    <msup>
+      <mn>10</mn>
+      <mn>5</mn>
+    </msup>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo>−</mo>
+    <mn>4.18</mn>
+    <mo>⋅</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>7</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span>0.00</span></td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><p id="_b1e564be-0cbe-3c1c-af25-bd8999af598c">Stability of feedback resistor <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>R</mi>
+      </mstyle>
+      <mrow>
+        <mi>f</mi>
+        <mo>,</mo>
+        <mi>k</mi>
+      </mrow>
+    </msub>
+  </mstyle>
+</math></span> of the SQUID electronics</p>
+</td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu18">
+      <mstyle mathvariant="normal">
+        <mi>Ω</mi>
+      </mstyle>
+
+
+
+
+    </mrow>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>3.00</mn>
+    <mo>⋅</mo>
+    <msup>
+      <mn>10</mn>
+      <mn>4</mn>
+    </msup>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>8.66</mn>
+    <mo>⋅</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>1</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>9.34</mn>
+    <mo>⋅</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>7</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span>0.01</span></td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><p id="_c372b3af-9a0e-a7fe-ddfc-e506eb268796">AC voltage meas. (ADC gain, flatness)</p>
+</td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span>1.00</span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1.73</mn>
+    <mo>⋅</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>4</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1.68</mn>
+    <mo>⋅</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>5</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span>3.09</span></td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><p id="_792ed3bb-ba46-5ee4-06c0-9cef5b296d43">Timing accuracy of the ADC (relative)</p>
+</td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span>1.00</span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1.16</mn>
+    <mo>⋅</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>5</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1.87</mn>
+    <mo>⋅</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>7</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span>0.00</span></td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><p id="_56593c80-77dd-7472-cf5d-f0c7183b592e">Correlation limit <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>S</mi>
+      </mstyle>
+      <mrow>
+        <mstyle mathvariant="italic">
+          <mi>ϕ</mi>
+        </mstyle>
+        <mo>,</mo>
+        <mn>12</mn>
+        <mo>,</mo>
+        <mtext>min</mtext>
+      </mrow>
+    </msub>
+  </mstyle>
+</math></span></p>
+</td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msup>
+      <mstyle mathvariant="italic">
+        <mi>ϕ</mi>
+      </mstyle>
+      <mn>2</mn>
+    </msup>
+    <mo>/</mo>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu31">
+      <mstyle mathvariant="normal">
+        <mi>Hz</mi>
+      </mstyle>
+
+
+
+
+    </mrow>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow>
+      <mo>(</mo>
+      <mn>0</mn>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1.07</mn>
+    <mo>⋅</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>15</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>2.63</mn>
+    <mo>⋅</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>6</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span>0.08</span></td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><p id="_1ca696ef-ecf7-d46b-09a9-1a93801e9c7b">Edge effect <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>M</mi>
+      </mstyle>
+      <mi>k</mi>
+    </msub>
+    <mo>/</mo>
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>M</mi>
+      </mstyle>
+      <mi>k</mi>
+    </msub>
+  </mstyle>
+</math></span>(unshielded)</p>
+</td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span>1.00</span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>6.06</mn>
+    <mo>⋅</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>6</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo>−</mo>
+    <mn>1.96</mn>
+    <mo>⋅</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>7</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span>0.00</span></td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><p id="_380ae079-654d-034a-9d78-a0e727da8bbb">Edge effect <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>S</mi>
+      </mstyle>
+      <mstyle mathvariant="italic">
+        <mi>ϕ</mi>
+      </mstyle>
+    </msub>
+    <mo>/</mo>
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>S</mi>
+      </mstyle>
+      <mstyle mathvariant="italic">
+        <mi>ϕ</mi>
+      </mstyle>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mo>∞</mo>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math></span></p>
+</td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span>1.00</span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>3.18</mn>
+    <mo>⋅</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>7</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>5.14</mn>
+    <mo>⋅</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>9</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span>0.00</span></td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><p id="_dde3d8d4-9614-8f14-166f-694b7d222e5a">Edge effect <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>S</mi>
+      </mstyle>
+      <mstyle mathvariant="italic">
+        <mi>ϕ</mi>
+      </mstyle>
+    </msub>
+    <mo>/</mo>
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>S</mi>
+      </mstyle>
+      <mstyle mathvariant="italic">
+        <mi>ϕ</mi>
+      </mstyle>
+    </msub>
+  </mstyle>
+</math></span>(unshielded)</p>
+</td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span>1.00</span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>3.18</mn>
+    <mo>⋅</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>7</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>5.14</mn>
+    <mo>⋅</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>9</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span>0.00</span></td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><p id="_f1410c96-3b8b-5d33-fce8-8dd44b4ba063">Parasitic coil areas, <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>S</mi>
+      </mstyle>
+      <mstyle mathvariant="italic">
+        <mi>ϕ</mi>
+      </mstyle>
+    </msub>
+    <mo>/</mo>
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>S</mi>
+      </mstyle>
+      <mstyle mathvariant="italic">
+        <mi>ϕ</mi>
+      </mstyle>
+    </msub>
+  </mstyle>
+</math></span>(model)</p>
+</td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span>1.00</span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>4.45</mn>
+    <mo>⋅</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>5</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo>−</mo>
+    <mn>7.19</mn>
+    <mo>⋅</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>7</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span>0.01</span></td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>R</mi>
+      </mstyle>
+      <mtext>cal</mtext>
+    </msub>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu18">
+      <mstyle mathvariant="normal">
+        <mi>Ω</mi>
+      </mstyle>
+
+
+
+
+    </mrow>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>9.988</mn>
+    <mo>⋅</mo>
+    <msup>
+      <mn>10</mn>
+      <mn>2</mn>
+    </msup>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>2.01</mn>
+    <mo>⋅</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>2</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo>−</mo>
+    <mn>6.51</mn>
+    <mo>⋅</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>7</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span>0.00</span></td></tr><tr><td colspan="6" style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;">type A</td></tr><tr><td style="text-align:left;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><p id="_e9243219-40ac-8bbe-f94a-ef39963ea543">Effect of signal-to-noise ratio, <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>N</mi>
+      </mstyle>
+      <mi>f</mi>
+    </msub>
+  </mstyle>
+</math></span> and <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>N</mi>
+      </mstyle>
+      <mtext>avg</mtext>
+    </msub>
+  </mstyle>
+</math></span> on CPSD in <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>T</mi>
+      </mstyle>
+      <mn>12</mn>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mi>f</mi>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math></span></p>
+</td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1.617</mn>
+    <mo>⋅</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>2</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1.62</mn>
+    <mo>⋅</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>6</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1.62</mn>
+    <mo>⋅</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>6</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math></span></td><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span>0.03</span></td></tr><tr><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>T</mi>
+      </mstyle>
+      <mtext>pMFFT</mtext>
+    </msub>
+    <mo>/</mo>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_mK">
+      <mstyle mathvariant="normal">
+        <mi>mK</mi>
+      </mstyle>
+
+
+
+    </mrow>
+  </mstyle>
+</math></span></td><td colspan="3" style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><p id="_36f193eb-8af0-2ad6-cf2a-3c669144ea05">combined standard uncertainty / <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_mK">
+      <mstyle mathvariant="normal">
+        <mi>mK</mi>
+      </mstyle>
+
+
+
+    </mrow>
+  </mstyle>
+</math></span></p>
+</td><td colspan="2" style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.0pt;"><p id="_0e11cfbb-3555-7e1b-c668-cd1ee9859564">relative combined standard uncertainty / %</p>
+</td></tr><tr><td style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;"><span>16.175</span></td><td colspan="3" style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;"><span>0.096</span></td><td colspan="2" style="text-align:center;vertical-align:top;border-top:none;border-bottom:solid windowtext 1.5pt;"><span>0.59</span></td></tr></tbody></table>
+</div></div><br /><div><h1 class="Section3" id="_fc4b8e85-cac6-4346-a9c8-c8ff3b60ff0c">References</h1>
+<p id="callen" class="Biblio">[1]  Callen H. B. Callen, Welton T. A., 1951, “<i>Irreversibility and generalized noise</i>”, Physical Review <b>83</b> N°1, 34, <a href="https://doi.org/10.1103/PhysRev.83.34">https://doi.org/10.1103/PhysRev.83.34</a></p><p id="beyer" class="Biblio">[2]  Beyer J., Kirste A., Schurig T., 2016, “<i>SQUID-Based Thermometers</i>”, Encyclopedia of Applied Physics, p. 23, Wiley-VCH, <a href="https://onlinelibrary.wiley.com/doi/abs/10.1002/3527600434.eap766">https://onlinelibrary.wiley.com/doi/abs/10.1002/3527600434.eap766</a></p><p id="bipm" class="Biblio">[3]  Bureau International des Poids et Mesures (1979) The 1976 Provisional 0.5 K to 30 K Temperature Scale. <i><i>Metrologia</i></i>. <b>15</b> (2) 65–68. <a href="https://doi.org/10.1088/0026-1394/15/2/002">https://doi.org/10.1088/0026-1394/15/2/002</a>.</p><p id="engert" class="Biblio">[4]  Engert J., Kirste A., Shibahara* A., Casey A., Levitin L. V., Saunders J., Hahtela O., Kemppinen A., Mykkänen E., Prunnila M., Gunnarsson D., Roschier L., Meschke M., Pekola J., 2016, “<i>New Evaluation of T — T2000 from <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>0.02</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu5">
+      <mstyle mathvariant="normal">
+        <mi>K</mi>
+      </mstyle>
+
+
+    </mrow>
+  </mstyle>
+</math></span> to <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu5">
+      <mstyle mathvariant="normal">
+        <mi>K</mi>
+      </mstyle>
+
+
+    </mrow>
+  </mstyle>
+</math></span> by Independent Thermodynamic Methods</i>”, Int. J. Thermophys. <b>37</b>, 125, <a href="https://link.springer.com/article/10.1007/s10765-016-2123-4">doi: 10.1007/s10765-016-2123-4</a></p><p id="fellmuth" class="Biblio">[5]  Fellmuth B., Hechtfischer D., Hoffmann A., 2003, “<i>PTB-96: The Ultra-Low Temperature Scale of PTB</i>”, Temperature. Its Measurement and Control in Science and Industry, ed. Ripple D. C., AIP Conference Proceedings <b>684</b>, 71, <a href="http://dx.doi.org/10.1063/1.1627103">http://dx.doi.org/10.1063/1.1627103</a></p><p id="giffard" class="Biblio">[6]  Giffard R. P., Webb R. A., 1972, “<i>Principles and methods of low-frequency electric and magnetic measurements using an rf-biased point-contact superconducting device</i>”, Journal of Low Temperature Physics <b>6</b>, N° 5/6, 533, <a href="http://dx.doi.org/10.1007/BF00644085">http://dx.doi.org/10.1007/BF00644085</a></p><p id="hudson" class="Biblio">[7]  Hudson R. P., Marshak H., Soulen R. J., Utton D. B., 1975, “<i>Review paper: recent advances in thermometry below <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>300</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_mK">
+      <mstyle mathvariant="normal">
+        <mi>mK</mi>
+      </mstyle>
+
+
+
+    </mrow>
+  </mstyle>
+</math></span></i>“, Journal of Low Temperature Physics <b>20</b> N° 1/2, 1, <a href="https://link.springer.com/article/10.1007/BF00115257">doi:10.1007/BF00115257</a></p><p id="kirste2016" class="Biblio">[8]  Kirste A., Engert J., 2016, <i>“A SQUID-based primary noise thermometer for low- temperature metrology</i>”, phil. Trans. R. Soc. <b>A 374</b>, 20150050, <a href="http://dx.doi.org/10.1098/rsta.2015.0050">http://dx.doi.org/10.1098/rsta.2015.0050</a></p><p id="kirste2008" class="Biblio">[9]  Kirste A., Drung D., Beyer J., Schurig T., 2008, “<i>Optimization of SQUID Magnetometers and Gradiometers for Magnetic-Field-Fluctuation Thermometers</i>”, Journal of Physics: Conference Series <b>97</b>, 012320, <a href="http://iopscience.iop.org/article/10.1088/1742-6596/97/1/012320/meta">doi: 10.1088/1742-6596/97/1/012320</a></p><p id="kirste2014" class="Biblio">[10]  Kirste A., Regin M., Engert J., Drung D., Schurig T., 2014, “<i>A calculable and correlation-based magnetic field fluctuation thermometer</i>”, Journal of Physics: Conference Series <b>568</b>, 032012, <a href="https://iopscience.iop.org/article/10.1088/1742-6596/568/3/032012">doi: 10.1088/1742-6596/568/3/032012</a></p><p id="lusher" class="Biblio">[11]  Lusher C. P., Junyun Li, Maidanov V. A., Digby M. E., Dyball H., Casey A., Nyéki J., Dmitriev V. V., Cowan B. P., Saunders J., 2001, “<i>Current sensing noise thermometry using a low Tc DC SQUID preamplifier</i>”, Meas. Sci. Technol. <b>12</b> N°1, 1, <a href="https://doi.org/10.1088/0957-0233/12/1/301">https://doi.org/10.1088/0957-0233/12/1/301</a></p><p id="menkel" class="Biblio">[12]  Menkel S., Drung D., Greenberg Ya. S., Schurig T., 2000, “<i>Integrated Thin-Film dc RSQUIDs for Noise Thermometry</i>”, Journal of Low Temperature Physics <b>120</b> N° 5/6, 381, <a href="http://dx.doi.org/10.1023/A:1004640804558">http://dx.doi.org/10.1023/A:1004640804558</a></p><p id="rusby" class="Biblio">[13]  Rusby R. L., Durieux M., Reesink A. L., Hudson R. P., Schuster G., Kühne M., Fogle W. E., Soulen R. J., Adams E. D., 2002, “<i>The Provisional Low Temperature Scale from <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>0.9</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_mK">
+      <mstyle mathvariant="normal">
+        <mi>mK</mi>
+      </mstyle>
+
+
+
+    </mrow>
+  </mstyle>
+</math></span> to <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu5">
+      <mstyle mathvariant="normal">
+        <mi>K</mi>
+      </mstyle>
+
+
+    </mrow>
+  </mstyle>
+</math></span>, PLTS-2000</i>”, Journal of Low Temperature Physics <b>126</b> N° 1/2, 633, <a href="http://dx.doi.org/10.1023/A:1013791823354">http://dx.doi.org/10.1023/A:1013791823354</a></p><p id="shibahara" class="Biblio">[14]  Shibahara A., Hahtela O., Engert J., van der Vliet H., Levitin L. V., Casey A., Lusher C.P., Saunders J., Drung D., Schurig T., 2016, “<i>Primary current-sensing noise thermometry in the millikelvin regime</i>”, phil. Trans. R. Soc. <b>A 374</b>, 20150054, <a href="http://dx.doi.org/10.1098/rsta.2015.0054">http://dx.doi.org/10.1098/rsta.2015.0054</a></p><p id="soulen" class="Biblio">[15]  Soulen, Jr. R. J., Fogle W. E., Colwell J. H., 1994, “<i>Measurements of Absolute Temperature Below <span class="stem"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>0.75</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu5">
+      <mstyle mathvariant="normal">
+        <mi>K</mi>
+      </mstyle>
+
+
+    </mrow>
+  </mstyle>
+</math></span> Using a Josephson-Junction Noise Thermometer</i>”, Journal of Low Temperature Physics <b>94</b> N° 5/6, 385, <a href="http://dx.doi.org/10.1007/BF00753823">http://dx.doi.org/10.1007/BF00753823</a></p><p id="webb" class="Biblio">[16]  Webb R. A., Giffard R. P., Wheatley J. C., 1973, “<i>Noise thermometry at ultralow temperatures</i>”, Journal of Low Temperature Physics <b>13</b> N° 3/4, 383, <a href="http://dx.doi.org/10.1007/BF00654076">http://dx.doi.org/10.1007/BF00654076</a></p><p id="white" class="Biblio">[17]  D R White, R Galleano, A Actis, H Brixy, M De Groot, J Dubbeldam, A L Reesink, F Edler, H Sakurai, R L Shepard and J C Gallop (1996) The status of Johnson noise thermometry. <i><i>Metrologia</i></i>. <b>33</b> (4) 325–335. <a href="https://doi.org/10.1088/0026-1394/33/4/6">https://doi.org/10.1088/0026-1394/33/4/6</a>.</p><p id="varpula" class="Biblio">[18]  Varpula T., Poutanen T., 1984, “<i>Magnetic field fluctuations arising from thermal motion of electric charge in conductors</i>”, J. Appl. Phys. <b>55</b> N° 11, 4015, <a href="http://dx.doi.org/10.1063/1.332990">http://dx.doi.org/10.1063/1.332990</a></p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div></main><script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    "HTML-CSS": {
+      preferredFont: "STIX",
+      linebreaks: {
+        automatic: true,
+        width: "container"  // or specify something like "90%"/"30em"
+      }
+    },
+    MathML: {
+      linebreaks: {
+        automatic: true
+      }
+    },
+    asciimath2jax: { delimiters: [['(#(', ')#)']] }
+  });
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=MML_HTMLorMML-full" async="async"></script>
+  <script>
+    $("#toc").on('click', 'li', function(e) {
+    $(this).parent().find('li.toc-active').removeClass('toc-active');
+    $(this).addClass('toc-active');
+});
+  </script>
+
+  <script>
+    //TOC toggle animation
+    (function() {
+      const jqNav = $('nav');
+      const jqBody = $('body');
+      const jqToggle = $('#toggle');
+      const animationSpeed = 'slow';
+
+      jqToggle.on('click', function() {
+        const isNavVisible = jqNav.is(':visible');
+        const fullNavWidth = jqNav.outerWidth();
+        const navLeft = isNavVisible ? '-' + fullNavWidth + 'px' : '0px';
+        const bodyMarginLeft = isNavVisible ? '0px' : fullNavWidth + 'px';
+
+        // Stop current animations
+        jqNav.stop(true, true);
+        jqBody.stop(true, true);
+
+        if(!isNavVisible) {
+            jqNav.show();
+        }
+        jqNav.animate({'left': navLeft}, animationSpeed, function() {
+          if(isNavVisible) {jqNav.hide()}
+        });
+        jqBody.animate({'marginLeft': bodyMarginLeft}, animationSpeed);
+
+      });
+    })();
+  </script>
+
+<script>
+    // Scroll to top button
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+    </script>
+
+<script>
+/*
+  $(document).ready(function() {
+	  $('[id^=toc]').each(function ()
+	  {
+	     var currentToc = $(this);
+       var url = window.location.href;
+            currentToc.wrap("<a href='" + url + "#" + currentToc.attr("id") + "'></a>");
+	  });
+});
+*/
+</script>
+
+  <script>
+    document.querySelectorAll('*|svg a').forEach(function(item) {
+      var loc = item.getAttribute('href');
+      if (loc !== null && loc.startsWith('#')) {
+  item.setAttribute('href', location.pathname + loc);
+      }
+});
+  </script>
+
+
+<script>
+
+// jQuery Inline Footnotes v1.0.3
+// Copyright (c) 2011 Vesa Vänskä, released under the MIT License.
+
+// Generated by CoffeeScript 1.6.1
+(function() {
+
+  (function($) {
+    $.inlineFootnote = function(el, options) {
+      var _this = this;
+      this.el = $(el);
+      this.el.data("inlineFootnote", this);
+      this.initialize = function() {
+        this.options = $.extend({}, $.inlineFootnote.defaultOptions, options);
+        this.footnoteId = this.el.attr("href").match(/#(.*)/)[1];
+        if (this.footnoteId) {
+          this.el.mouseenter(this.openBox);
+          return $("body").mousemove(this.closeBox);
+        }
+      };
+      this.openBox = function(event) {
+        var footnoteContent, linkOffset;
+        if (!_this.box) {
+          footnoteContent = $("[id='" + _this.footnoteId + "']").children().filter(":not('" + _this.options.hideFromContent + "')");
+          linkOffset = _this.el.offset();
+          _this.box = $("<div />", {
+            id: _this.options.boxId,
+            html: footnoteContent.clone().find(_this.options.hideFromContent).remove().end(),
+            css: {
+              position: "absolute",
+              top: linkOffset.top,
+              left: linkOffset.left + _this.el.outerWidth()
+            }
+          }).appendTo("body");
+          return _this.positionBox();
+        }
+      };
+      this.closeBox = function(event) {
+        if (_this.box) {
+          if (_this.isHoveringFootnote(event)) {
+            clearTimeout(_this.closeTimeout);
+            return _this.closeTimeout = null;
+          } else {
+            if (!_this.closeTimeout) {
+              return _this.closeTimeout = setTimeout((function() {
+                _this.box.remove();
+                return _this.box = null;
+              }), _this.options.hideDelay);
+            }
+          }
+        }
+      };
+      this.isHoveringFootnote = function(event) {
+        return this.box.is(event.target) || $(event.target).closest(this.box).length > 0 || event.target === this.el[0];
+      };
+      this.positionBox = function() {
+        var boxHorizontalPadding, boxLeft, boxWidth, linkLeftOffset, windowWidth;
+        boxHorizontalPadding = parseInt(this.box.css("padding-left")) + parseInt(this.box.css("padding-right"));
+        linkLeftOffset = this.el.offset().left;
+        windowWidth = $(window).width();
+        if ((windowWidth / 2) > linkLeftOffset) {
+          boxLeft = linkLeftOffset + 20;
+          boxWidth = windowWidth - boxLeft - boxHorizontalPadding - this.options.boxMargin * 2;
+          if (boxWidth > this.options.maximumBoxWidth) {
+            boxWidth = this.options.maximumBoxWidth;
+          }
+        } else {
+          boxWidth = linkLeftOffset - boxHorizontalPadding - this.options.boxMargin * 2;
+          if (boxWidth > this.options.maximumBoxWidth) {
+            boxWidth = this.options.maximumBoxWidth;
+          }
+          boxLeft = linkLeftOffset - boxWidth - this.options.boxMargin * 2;
+        }
+        return this.box.css({
+          width: boxWidth,
+          left: boxLeft
+        });
+      };
+      return this.initialize();
+    };
+    $.inlineFootnote.defaultOptions = {
+      boxMargin: 20,
+      hideDelay: 200,
+      hideFromContent: "[rel=footnote]",
+      maximumBoxWidth: 500,
+      boxId: "footnote_box"
+    };
+    return $.fn.inlineFootnote = function(options) {
+      return this.each(function() {
+        return new $.inlineFootnote(this, options);
+      });
+    };
+  })(jQuery);
+
+}).call(this);
+</script>
+
+<script>
+      $(function() {
+        $("[rel=footnote]").inlineFootnote();
+        });
+</script>
+  <script>
+// @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&dn=expat.txt Expat
+//
+// AnchorJS - v4.2.2 - 2020-04-20
+// https://www.bryanbraun.com/anchorjs/
+// Copyright (c) 2020 Bryan Braun; Licensed MIT
+//
+// @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&dn=expat.txt Expat
+!function(A,e){"use strict";"function"==typeof define&&define.amd?define([],e):"object"==typeof module&&module.exports?module.exports=e():(A.AnchorJS=e(),A.anchors=new A.AnchorJS)}(this,function(){"use strict";return function(A){function f(A){A.icon=A.hasOwnProperty("icon")?A.icon:"",A.visible=A.hasOwnProperty("visible")?A.visible:"hover",A.placement=A.hasOwnProperty("placement")?A.placement:"right",A.ariaLabel=A.hasOwnProperty("ariaLabel")?A.ariaLabel:"Anchor",A.class=A.hasOwnProperty("class")?A.class:"",A.base=A.hasOwnProperty("base")?A.base:"",A.truncate=A.hasOwnProperty("truncate")?Math.floor(A.truncate):64,A.titleText=A.hasOwnProperty("titleText")?A.titleText:""}function p(A){var e;if("string"==typeof A||A instanceof String)e=[].slice.call(document.querySelectorAll(A));else{if(!(Array.isArray(A)||A instanceof NodeList))throw new Error("The selector provided to AnchorJS was invalid.");e=[].slice.call(A)}return e}this.options=A||{},this.elements=[],f(this.options),this.isTouchDevice=function(){return!!("ontouchstart"in window||window.DocumentTouch&&document instanceof DocumentTouch)},this.add=function(A){var e,t,i,n,o,s,a,r,c,h,l,u,d=[];if(f(this.options),"touch"===(l=this.options.visible)&&(l=this.isTouchDevice()?"always":"hover"),0===(e=p(A=A||"h2, h3, h4, h5, h6")).length)return this;for(!function(){if(null!==document.head.querySelector("style.anchorjs"))return;var A,e=document.createElement("style");e.className="anchorjs",e.appendChild(document.createTextNode("")),void 0===(A=document.head.querySelector('[rel="stylesheet"],style'))?document.head.appendChild(e):document.head.insertBefore(e,A);e.sheet.insertRule(".anchorjs-link{opacity:0;text-decoration:none;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}",e.sheet.cssRules.length),e.sheet.insertRule(":hover>.anchorjs-link,.anchorjs-link:focus{opacity:1}",e.sheet.cssRules.length),e.sheet.insertRule("[data-anchorjs-icon]::after{content:attr(data-anchorjs-icon)}",e.sheet.cssRules.length),e.sheet.insertRule('@font-face{font-family:anchorjs-icons;src:url(data:n/a;base64,AAEAAAALAIAAAwAwT1MvMg8yG2cAAAE4AAAAYGNtYXDp3gC3AAABpAAAAExnYXNwAAAAEAAAA9wAAAAIZ2x5ZlQCcfwAAAH4AAABCGhlYWQHFvHyAAAAvAAAADZoaGVhBnACFwAAAPQAAAAkaG10eASAADEAAAGYAAAADGxvY2EACACEAAAB8AAAAAhtYXhwAAYAVwAAARgAAAAgbmFtZQGOH9cAAAMAAAAAunBvc3QAAwAAAAADvAAAACAAAQAAAAEAAHzE2p9fDzz1AAkEAAAAAADRecUWAAAAANQA6R8AAAAAAoACwAAAAAgAAgAAAAAAAAABAAADwP/AAAACgAAA/9MCrQABAAAAAAAAAAAAAAAAAAAAAwABAAAAAwBVAAIAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAMCQAGQAAUAAAKZAswAAACPApkCzAAAAesAMwEJAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAAAAAAAAAAAAAAQAAg//0DwP/AAEADwABAAAAAAQAAAAAAAAAAAAAAIAAAAAAAAAIAAAACgAAxAAAAAwAAAAMAAAAcAAEAAwAAABwAAwABAAAAHAAEADAAAAAIAAgAAgAAACDpy//9//8AAAAg6cv//f///+EWNwADAAEAAAAAAAAAAAAAAAAACACEAAEAAAAAAAAAAAAAAAAxAAACAAQARAKAAsAAKwBUAAABIiYnJjQ3NzY2MzIWFxYUBwcGIicmNDc3NjQnJiYjIgYHBwYUFxYUBwYGIwciJicmNDc3NjIXFhQHBwYUFxYWMzI2Nzc2NCcmNDc2MhcWFAcHBgYjARQGDAUtLXoWOR8fORYtLTgKGwoKCjgaGg0gEhIgDXoaGgkJBQwHdR85Fi0tOAobCgoKOBoaDSASEiANehoaCQkKGwotLXoWOR8BMwUFLYEuehYXFxYugC44CQkKGwo4GkoaDQ0NDXoaShoKGwoFBe8XFi6ALjgJCQobCjgaShoNDQ0NehpKGgobCgoKLYEuehYXAAAADACWAAEAAAAAAAEACAAAAAEAAAAAAAIAAwAIAAEAAAAAAAMACAAAAAEAAAAAAAQACAAAAAEAAAAAAAUAAQALAAEAAAAAAAYACAAAAAMAAQQJAAEAEAAMAAMAAQQJAAIABgAcAAMAAQQJAAMAEAAMAAMAAQQJAAQAEAAMAAMAAQQJAAUAAgAiAAMAAQQJAAYAEAAMYW5jaG9yanM0MDBAAGEAbgBjAGgAbwByAGoAcwA0ADAAMABAAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAH//wAP) format("truetype")}',e.sheet.cssRules.length)}(),t=document.querySelectorAll("[id]"),i=[].map.call(t,function(A){return A.id}),o=0;o<e.length;o++)if(this.hasAnchorJSLink(e[o]))d.push(o);else{if(e[o].hasAttribute("id"))n=e[o].getAttribute("id");else if(e[o].hasAttribute("data-anchor-id"))n=e[o].getAttribute("data-anchor-id");else{for(c=r=this.urlify(e[o].textContent),a=0;void 0!==s&&(c=r+"-"+a),a+=1,-1!==(s=i.indexOf(c)););s=void 0,i.push(c),e[o].setAttribute("id",c),n=c}(h=document.createElement("a")).className="anchorjs-link "+this.options.class,h.setAttribute("aria-label",this.options.ariaLabel),h.setAttribute("data-anchorjs-icon",this.options.icon),this.options.titleText&&(h.title=this.options.titleText),u=document.querySelector("base")?window.location.pathname+window.location.search:"",u=this.options.base||u,h.href=u+"#"+n,"always"===l&&(h.style.opacity="1"),""===this.options.icon&&(h.style.font="1em/1 anchorjs-icons","left"===this.options.placement&&(h.style.lineHeight="inherit")),"left"===this.options.placement?(h.style.position="absolute",h.style.marginLeft="-1em",h.style.paddingRight="0.5em",e[o].insertBefore(h,e[o].firstChild)):(h.style.paddingLeft="0.375em",e[o].appendChild(h))}for(o=0;o<d.length;o++)e.splice(d[o]-o,1);return this.elements=this.elements.concat(e),this},this.remove=function(A){for(var e,t,i=p(A),n=0;n<i.length;n++)(t=i[n].querySelector(".anchorjs-link"))&&(-1!==(e=this.elements.indexOf(i[n]))&&this.elements.splice(e,1),i[n].removeChild(t));return this},this.removeAll=function(){this.remove(this.elements)},this.urlify=function(A){return this.options.truncate||f(this.options),A.trim().replace(/\'/gi,"").replace(/[& +$,:;=?@"#{}|^~[`%!'<>\]\.\/\(\)\*\\\n\t\b\v]/g,"-").replace(/-{2,}/g,"-").substring(0,this.options.truncate).replace(/^-+|-+$/gm,"").toLowerCase()},this.hasAnchorJSLink=function(A){var e=A.firstChild&&-1<(" "+A.firstChild.className+" ").indexOf(" anchorjs-link "),t=A.lastChild&&-1<(" "+A.lastChild.className+" ").indexOf(" anchorjs-link ");return e||t||!1}}});
+// @license-end
+  </script>
+    <script>
+  anchors.options = {
+  placement: 'left'
+};
+anchors.add('h1, h2, h3, h4');
+</script>
+
+<script>
+// use .collapsible element to toggle visibility of element following it
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+</script>
+
+</body></html>

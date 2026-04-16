@@ -1,0 +1,2816 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metanorma xmlns="https://www.metanorma.org/ns/standoc" type="semantic" version="2.8.3" schema-version="v2.1.5" flavor="bipm">
+<bibdata type="standard">
+<title language="en" type="title-main">The International System of Units</title>
+
+<title language="en" type="title-appendix">Mise en pratique</title>
+
+<title language="en" type="title-part">Mise en pratique for the definition of the candela and associated derived units for photometric and radiometric quantities in the SI</title>
+
+<title language="en" type="title-part-prefix">Part 7.1</title>
+
+<title language="en" type="title-appendix-prefix">Appendix 2</title>
+
+<title language="fr" type="title-main">Le système international d’unités</title>
+
+<title language="fr" type="title-appendix">Mise en pratique</title>
+
+<title language="fr" type="title-part">Mise en pratique de la définition de la candela</title>
+
+<title language="fr" type="title-part-prefix">Partie 7.1</title>
+
+<title language="fr" type="title-appendix-prefix">Appendice 2</title>
+<docidentifier primary="true" type="BIPM">BIPM SI MEP Cd1-7.1 A2</docidentifier><docidentifier type="BIPM-parent-document">BIPM SI MEP Cd1</docidentifier><docnumber>SI MEP Cd1</docnumber><contributor><role type="author"/><organization>
+<name>Bureau International des Poids et Mesures</name>
+<abbreviation>BIPM</abbreviation></organization></contributor><contributor><role type="author"><description>committee</description></role><organization>
+<name>Bureau International des Poids et Mesures</name>
+<subdivision type="Committee">
+<name language="en">Consultative Committee for Photometry and Radiometry</name>
+
+<name language="fr">Comité consultatif de photométrie et radiométrie</name>
+<identifier>CCPR</identifier><identifier type="full">CCPR</identifier></subdivision></organization></contributor><contributor><role type="publisher"/><organization>
+<name>Bureau International des Poids et Mesures</name>
+<abbreviation>BIPM</abbreviation></organization></contributor><edition>9</edition><version><revision-date>2019-05-20</revision-date></version><language>en</language><script>Latn</script><status><stage>in-force</stage></status><copyright><from>2019</from><owner><organization>
+<name>Bureau International des Poids et Mesures</name>
+<abbreviation>BIPM</abbreviation></organization></owner></copyright><ext><doctype>mise-en-pratique</doctype><flavor>bipm</flavor><structuredidentifier><docnumber>SI MEP Cd1</docnumber><part>7.1</part><appendix>2</appendix>
+</structuredidentifier><si-aspect>cd_Kcd</si-aspect></ext></bibdata><metanorma-extension><semantic-metadata><stage-published>true</stage-published></semantic-metadata>
+<UnitsML xmlns="https://schema.unitsml.org/unitsml/1.0"><UnitSet><Unit dimensionURL="#NISTd7" id="U_NISTu7">
+        <UnitSystem name="SI" type="SI_base" lang="en-US"/>
+        <UnitName lang="en">candela</UnitName>
+        <UnitSymbol type="HTML">cd</UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">cd</mi>
+          </math>
+        </UnitSymbol>
+      </Unit><Unit dimensionURL="#NISTd7" id="U_NISTu32">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">lumen</UnitName>
+        <UnitSymbol type="HTML">lm</UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">lm</mi>
+          </math>
+        </UnitSymbol>
+      </Unit><Unit dimensionURL="#D_T-2J" id="U_NISTu33">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">lux</UnitName>
+        <UnitSymbol type="HTML">lx</UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">lx</mi>
+          </math>
+        </UnitSymbol>
+      </Unit><Unit dimensionURL="#NISTd27" id="U_NISTu7.u1e-2/1">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">candela per square meter</UnitName>
+        <UnitSymbol type="HTML">cd m
+          <sup>−2</sup>
+        </UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">cd</mi>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">m</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>2</mn>
+              </mrow>
+            </msup>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="candela"/>
+          <EnumeratedRootUnit unit="metre" powerNumerator="-2"/>
+        </RootUnits>
+      </Unit><Unit dimensionURL="#NISTd101" id="U_NISTu31">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">hertz</UnitName>
+        <UnitSymbol type="HTML">Hz</UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">Hz</mi>
+          </math>
+        </UnitSymbol>
+      </Unit><Unit dimensionURL="#D_L-2M-1T3J" id="U_lm.W-1">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">lm*W^-1</UnitName>
+        <UnitSymbol type="HTML">lm W
+          <sup>−1</sup>
+        </UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">lm</mi>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">W</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>1</mn>
+              </mrow>
+            </msup>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="lumen"/>
+          <EnumeratedRootUnit unit="watt" powerNumerator="-1"/>
+        </RootUnits>
+      </Unit><Unit dimensionURL="#D_L-2M-1T3J" id="U_cd.sr.W-1">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">cd*sr*W^-1</UnitName>
+        <UnitSymbol type="HTML">cd sr W
+          <sup>−1</sup>
+        </UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">cd</mi>
+            <mo rspace="thickmathspace">⁢</mo>
+            <mi mathvariant="normal">sr</mi>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">W</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>1</mn>
+              </mrow>
+            </msup>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="candela"/>
+          <EnumeratedRootUnit unit="steradian"/>
+          <EnumeratedRootUnit unit="watt" powerNumerator="-1"/>
+        </RootUnits>
+      </Unit><Unit dimensionURL="#D_L-2M-1T3J" id="U_cd.sr.kg-1.m-2.s3">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">cd*sr*kg^-1*m^-2*s^3</UnitName>
+        <UnitSymbol type="HTML">cd sr kg
+          <sup>−1</sup> m
+          <sup>−2</sup> s
+          <sup>3</sup>
+        </UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">cd</mi>
+            <mo rspace="thickmathspace">⁢</mo>
+            <mi mathvariant="normal">sr</mi>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">kg</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>1</mn>
+              </mrow>
+            </msup>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">m</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>2</mn>
+              </mrow>
+            </msup>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">s</mi>
+              </mrow>
+              <mrow>
+                <mn>3</mn>
+              </mrow>
+            </msup>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="candela"/>
+          <EnumeratedRootUnit unit="steradian"/>
+          <EnumeratedRootUnit unit="gram" prefix="k" powerNumerator="-1"/>
+          <EnumeratedRootUnit unit="metre" powerNumerator="-2"/>
+          <EnumeratedRootUnit unit="second" powerNumerator="3"/>
+        </RootUnits>
+      </Unit><Unit dimensionURL="#NISTd5" id="U_NISTu23">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">degree Celsius</UnitName>
+        <UnitSymbol type="HTML">°C</UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">°C</mi>
+          </math>
+        </UnitSymbol>
+      </Unit><Unit dimensionURL="#NISTd14" id="U_NISTu12">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">pascal</UnitName>
+        <UnitSymbol type="HTML">Pa</UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">Pa</mi>
+          </math>
+        </UnitSymbol>
+      </Unit><Unit dimensionURL="#NISTd11" id="U_NISTu1.u3e-1/1">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">meter per second</UnitName>
+        <UnitSymbol type="HTML">m s
+          <sup>−1</sup>
+        </UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">m</mi>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">s</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>1</mn>
+              </mrow>
+            </msup>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="metre"/>
+          <EnumeratedRootUnit unit="second" powerNumerator="-1"/>
+        </RootUnits>
+      </Unit><Unit dimensionURL="#NISTd1" id="U_nm">
+        <UnitSystem name="SI" type="SI_base" lang="en-US"/>
+        <UnitName lang="en">nm</UnitName>
+        <UnitSymbol type="HTML">nm</UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">nm</mi>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="metre" prefix="n"/>
+        </RootUnits>
+      </Unit><Unit dimensionURL="#D_L2MT-3" id="U_W.rad-1">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">W*rad^-1</UnitName>
+        <UnitSymbol type="HTML">W rad
+          <sup>−1</sup>
+        </UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">W</mi>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">rad</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>1</mn>
+              </mrow>
+            </msup>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="watt"/>
+          <EnumeratedRootUnit unit="radian" powerNumerator="-1"/>
+        </RootUnits>
+      </Unit><Unit dimensionURL="#NISTd5" id="U_NISTu5">
+        <UnitSystem name="SI" type="SI_base" lang="en-US"/>
+        <UnitName lang="en">kelvin</UnitName>
+        <UnitSymbol type="HTML">K</UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">K</mi>
+          </math>
+        </UnitSymbol>
+      </Unit><Unit dimensionURL="#NISTd1" id="U_NISTu1">
+        <UnitSystem name="SI" type="SI_base" lang="en-US"/>
+        <UnitName lang="en">metre</UnitName>
+        <UnitSymbol type="HTML">m</UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">m</mi>
+          </math>
+        </UnitSymbol>
+      </Unit><Unit dimensionURL="#NISTd2" id="U_NISTu2">
+        <UnitSystem name="SI" type="SI_base" lang="en-US"/>
+        <UnitName lang="en">kilogram</UnitName>
+        <UnitSymbol type="HTML">kg</UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">kg</mi>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="gram" prefix="k"/>
+        </RootUnits>
+      </Unit><Unit dimensionURL="#NISTd3" id="U_NISTu3">
+        <UnitSystem name="SI" type="SI_base" lang="en-US"/>
+        <UnitName lang="en">second</UnitName>
+        <UnitSymbol type="HTML">s</UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">s</mi>
+          </math>
+        </UnitSymbol>
+      </Unit><Unit dimensionURL="#D_L0" id="U_NISTu10">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">steradian</UnitName>
+        <UnitSymbol type="HTML">sr</UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">sr</mi>
+          </math>
+        </UnitSymbol>
+      </Unit><Unit dimensionURL="#D_L2IJ-1" id="U_A.lm-1.m2">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">A*lm^-1*m^2</UnitName>
+        <UnitSymbol type="HTML">A lm
+          <sup>−1</sup> m
+          <sup>2</sup>
+        </UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">A</mi>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">lm</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>1</mn>
+              </mrow>
+            </msup>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">m</mi>
+              </mrow>
+              <mrow>
+                <mn>2</mn>
+              </mrow>
+            </msup>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="ampere"/>
+          <EnumeratedRootUnit unit="lumen" powerNumerator="-1"/>
+          <EnumeratedRootUnit unit="metre" powerNumerator="2"/>
+        </RootUnits>
+      </Unit><Unit dimensionURL="#D_L-1M-1T3I" id="U_A.W-1.m2.nm-1">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">A*W^-1*m^2*nm^-1</UnitName>
+        <UnitSymbol type="HTML">A W
+          <sup>−1</sup> m
+          <sup>2</sup> nm
+          <sup>−1</sup>
+        </UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">A</mi>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">W</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>1</mn>
+              </mrow>
+            </msup>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">m</mi>
+              </mrow>
+              <mrow>
+                <mn>2</mn>
+              </mrow>
+            </msup>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">nm</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>1</mn>
+              </mrow>
+            </msup>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="ampere"/>
+          <EnumeratedRootUnit unit="watt" powerNumerator="-1"/>
+          <EnumeratedRootUnit unit="metre" powerNumerator="2"/>
+          <EnumeratedRootUnit unit="metre" prefix="n" powerNumerator="-1"/>
+        </RootUnits>
+      </Unit><Unit dimensionURL="#D_L0J" id="U_cd.sr">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">cd*sr</UnitName>
+        <UnitSymbol type="HTML">cd sr</UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">cd</mi>
+            <mo rspace="thickmathspace">⁢</mo>
+            <mi mathvariant="normal">sr</mi>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="candela"/>
+          <EnumeratedRootUnit unit="steradian"/>
+        </RootUnits>
+      </Unit><Unit dimensionURL="#D_L-2J" id="U_cd.sr.m-2">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">cd*sr*m^-2</UnitName>
+        <UnitSymbol type="HTML">cd sr m
+          <sup>−2</sup>
+        </UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">cd</mi>
+            <mo rspace="thickmathspace">⁢</mo>
+            <mi mathvariant="normal">sr</mi>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">m</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>2</mn>
+              </mrow>
+            </msup>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="candela"/>
+          <EnumeratedRootUnit unit="steradian"/>
+          <EnumeratedRootUnit unit="metre" powerNumerator="-2"/>
+        </RootUnits>
+      </Unit></UnitSet><QuantitySet><Quantity id="NISTq7" quantityType="base" dimensionURL="#NISTd7">
+        <QuantityName lang="en-US">luminous intensity</QuantityName>
+      </Quantity><Quantity id="NISTq46" quantityType="base" dimensionURL="#NISTd7">
+        <QuantityName lang="en-US">luminous flux</QuantityName>
+      </Quantity><Quantity id="NISTq47" quantityType="base" dimensionURL="#NISTd27">
+        <QuantityName lang="en-US">illuminance</QuantityName>
+      </Quantity><Quantity id="NISTq56" quantityType="base" dimensionURL="#NISTd27">
+        <QuantityName lang="en-US">luminance</QuantityName>
+      </Quantity><Quantity id="NISTq45" quantityType="base" dimensionURL="#NISTd24">
+        <QuantityName lang="en-US">frequency</QuantityName>
+      </Quantity><Quantity id="NISTq2" quantityType="base" dimensionURL="#NISTd2">
+        <QuantityName lang="en-US">mass</QuantityName>
+      </Quantity><Quantity id="NISTq11" quantityType="base" dimensionURL="#NISTd64">
+        <QuantityName lang="en-US">solid angle</QuantityName>
+      </Quantity></QuantitySet><DimensionSet><Dimension id="NISTd7">
+        <LuminousIntensity symbol="J" powerNumerator="1"/>
+      </Dimension><Dimension id="NISTd27">
+        <Length symbol="L" powerNumerator="-2"/>
+        <LuminousIntensity symbol="J" powerNumerator="1"/>
+      </Dimension><Dimension id="D_T-2J">
+        <Time symbol="T" powerNumerator="-2"/>
+        <LuminousIntensity symbol="J" powerNumerator="1"/>
+      </Dimension><Dimension id="NISTd24">
+        <Time symbol="T" powerNumerator="-1"/>
+      </Dimension><Dimension id="NISTd101">
+        <Time symbol="T" powerNumerator="-1"/>
+      </Dimension><Dimension id="D_L-2M-1T3J">
+        <Length symbol="L" powerNumerator="-2"/>
+        <Mass symbol="M" powerNumerator="-1"/>
+        <Time symbol="T" powerNumerator="3"/>
+        <LuminousIntensity symbol="J" powerNumerator="1"/>
+      </Dimension><Dimension id="NISTd5">
+        <ThermodynamicTemperature symbol="Theta" powerNumerator="1"/>
+      </Dimension><Dimension id="NISTd14">
+        <Length symbol="L" powerNumerator="-1"/>
+        <Mass symbol="M" powerNumerator="1"/>
+        <Time symbol="T" powerNumerator="-2"/>
+      </Dimension><Dimension id="NISTd11">
+        <Length symbol="L" powerNumerator="1"/>
+        <Time symbol="T" powerNumerator="-1"/>
+      </Dimension><Dimension id="NISTd1">
+        <Length symbol="L" powerNumerator="1"/>
+      </Dimension><Dimension id="D_L2MT-3">
+        <Length symbol="L" powerNumerator="2"/>
+        <Mass symbol="M" powerNumerator="1"/>
+        <Time symbol="T" powerNumerator="-3"/>
+      </Dimension><Dimension id="NISTd2">
+        <Mass symbol="M" powerNumerator="1"/>
+      </Dimension><Dimension id="NISTd3">
+        <Time symbol="T" powerNumerator="1"/>
+      </Dimension><Dimension id="NISTd64">
+        <PlaneAngle symbol="phi" powerNumerator="1"/>
+      </Dimension><Dimension id="D_L0">
+        <Length symbol="L" powerNumerator="0"/>
+      </Dimension><Dimension id="D_L2IJ-1">
+        <Length symbol="L" powerNumerator="2"/>
+        <ElectricCurrent symbol="I" powerNumerator="1"/>
+        <LuminousIntensity symbol="J" powerNumerator="-1"/>
+      </Dimension><Dimension id="D_L-1M-1T3I">
+        <Length symbol="L" powerNumerator="-1"/>
+        <Mass symbol="M" powerNumerator="-1"/>
+        <Time symbol="T" powerNumerator="3"/>
+        <ElectricCurrent symbol="I" powerNumerator="1"/>
+      </Dimension><Dimension id="D_L0J">
+        <Length symbol="L" powerNumerator="0"/>
+        <LuminousIntensity symbol="J" powerNumerator="1"/>
+      </Dimension><Dimension id="D_L-2J">
+        <Length symbol="L" powerNumerator="-2"/>
+        <LuminousIntensity symbol="J" powerNumerator="1"/>
+      </Dimension></DimensionSet><PrefixSet><Prefix prefixBase="10" prefixPower="3" id="NISTp10_3">
+        <PrefixName lang="en">kilo</PrefixName>
+        <PrefixSymbol type="ASCII">k</PrefixSymbol>
+        <PrefixSymbol type="unicode">k</PrefixSymbol>
+        <PrefixSymbol type="LaTeX">k</PrefixSymbol>
+        <PrefixSymbol type="HTML">k</PrefixSymbol>
+      </Prefix><Prefix prefixBase="10" prefixPower="-9" id="NISTp10_-9">
+        <PrefixName lang="en">nano</PrefixName>
+        <PrefixSymbol type="ASCII">n</PrefixSymbol>
+        <PrefixSymbol type="unicode">n</PrefixSymbol>
+        <PrefixSymbol type="LaTeX">n</PrefixSymbol>
+        <PrefixSymbol type="HTML">n</PrefixSymbol>
+      </Prefix></PrefixSet></UnitsML><presentation-metadata><toc-heading-levels>2</toc-heading-levels><html-toc-heading-levels>2</html-toc-heading-levels><doc-toc-heading-levels>2</doc-toc-heading-levels><pdf-toc-heading-levels>2</pdf-toc-heading-levels></presentation-metadata></metanorma-extension>
+<boilerplate><copyright-statement>
+
+<clause id="_de529b36-05ca-b9e4-a8ac-4c41964770f0" obligation="normative"><p id="_2c83afdd-6f3c-8a19-1954-83e4ede65ae8" align="center">© Bureau International des Poids et Mesures 2019 all rights reserved</p>
+</clause>
+</copyright-statement>
+
+<license-statement>
+
+<clause id="_4ffcd5b5-8039-1aa4-59ce-390aa3b61c7a" obligation="normative">
+<title id="_29f75465-0cf3-76fd-bc56-6b3aa457ee69">Copyright statement</title>
+<p id="_50719790-3c5b-c213-8298-0631d690bc21">This document is distributed under the terms of the Creative Commons Attribution 4.0 International License (<link target="http://creativecommons.org/licenses/by/4.0/:"/>), which permits unrestricted use, distribution, and reproduction in any medium, provided you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made.</p>
+</clause>
+</license-statement>
+
+<feedback-statement>
+
+<p id="_5926bc3f-b367-69e7-6cc6-442a91e32db2">BIPM<br/> Pavillon de Breteuil<br/> F-92312 Sèvres Cedex<br/> FRANCE</p>
+</feedback-statement>
+</boilerplate><sections><clause id="_7b06602d-abd2-8c8c-6d66-ff317f3bfb94" obligation="normative">
+<title id="_46069e95-51f4-1e9a-f2b9-70fe751a0935">Introduction</title>
+<p id="_ebbf521f-28c3-42d8-6e20-e9d32b81f224">The purpose of this <em>mise en pratique</em>, prepared by the Consultative Committee for Photometry and Radiometry (CCPR) of the International Committee for Weights and Measures (CIPM) and formally adopted by the CIPM, is to indicate how the definition of the SI base unit, the candela, symbol <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu7">
+      <mstyle mathvariant="normal">
+        <mi>cd</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(cd)"</asciimath></stem>, and the derived SI units lumen (<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu32">
+      <mstyle mathvariant="normal">
+        <mi>lm</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(lm)"</asciimath></stem>), lux (<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu33">
+      <mstyle mathvariant="normal">
+        <mi>lx</mi>
+      </mstyle>
+      
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(lx)"</asciimath></stem>) and candela per square metre (<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu7.u1e-2/1">
+      <mstyle mathvariant="normal">
+        <mi>cd</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>m</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>2</mn>
+        </mrow>
+      </msup>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(cd*m^(-2))"</asciimath></stem>) may be realized in practice.</p>
+
+<p id="_553d16ea-3c0a-d300-9f83-bf1e92c5301c">In general, the term “<tt>to realize a unit</tt>” is interpreted to mean the establishment of the value and associated uncertainty of a quantity of the same kind as the unit that is consistent with the definition of the unit. A primary method is a method having the highest metrological properties; whose operation can be completely described and understood; for which a complete uncertainty statement can be written down in terms of SI units; and which does not require a reference standard of the same quantity.</p>
+
+<p id="_6068fd8f-760a-c286-6b4f-36073b379fcd">The scope of the <em>mise en pratique</em> recognizes the fact that the two fields of photometry and radiometry and their units are closely related through the current definition of the SI base unit for the photometric quantity, luminous intensity: the candela. It covers the realization of the candela and other related units used for photometric and radiometric quantities. Recent advances in the generation and manipulation of individual photons show great promise of producing radiant fluxes with a well-established number of photons. Thus, this <em>mise en pratique</em> also includes information on the practical realization of units for photometric and radiometric quantities using photon-number-based techniques. In the following, for units used for photometric and radiometric quantities, the shorter term, photometric and radiometric units, is generally used.</p>
+
+<p id="_24f4a983-af53-b7e0-0079-91f9d6d9be82"><xref target="sec-2"/> describes the definition of the candela which is based on the SI defining constant <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>K</mi>
+      </mstyle>
+      <mtext>cd</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(K)_{"cd"}</asciimath></stem>. <xref target="sec-3"/> outlines the relationship between photometric and radiometric units. <xref target="sec-4"/> introduces the approaches to the realization of photometric and radiometric units, detailed respectively in <xref target="sec-7"/> and <xref target="sec-5"/>, with considerations on photon−number−based units in <xref target="sec-6"/>. <xref target="sec-7-1"/> explains how, in general, photometric units are derived from radiometric units. <xref target="sec-7-2"/> to <xref target="sec-7-5"/> deal with the particular geometric conditions for the specific photometric units. <xref target="sec-8"/> deals very briefly with the topic of determination of measurement uncertainties in photometry.</p>
+</clause>
+
+<clause id="_97caa86b-9b45-42bd-cb63-be849cfe7c0e" anchor="sec-2" obligation="normative">
+<title id="_4c9f2ac1-209f-61da-1f31-10c52b059912">Definition of the candela</title>
+<p id="_ecc299e9-3510-be10-dd96-1ea02cca9f67">The definition of the candela is as follows <eref type="inline" bibitemid="bipm" citeas="[1]"/>:</p>
+
+<quote id="_b4f0556b-160e-21cc-e994-7679026f8e4c"><p id="_28524cab-344f-8e14-45ff-7ce9f1bb942a"><strong>The candela, symbol <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu7">
+      <mstyle mathvariant="normal">
+        <mi>cd</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(cd)"</asciimath></stem>, is the SI unit of luminous intensity in a given direction. It is defined by taking the fixed numerical value of the luminous efficacy of monochromatic radiation of frequency <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>540</mn>
+    <mo>×</mo>
+    <msup>
+      <mn>10</mn>
+      <mn>12</mn>
+    </msup>
+    <mtext>‌</mtext>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu31">
+      <mstyle mathvariant="normal">
+        <mi>Hz</mi>
+      </mstyle>
+      
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>540 xx 10^12 "‌" "unitsml(Hz)"</asciimath></stem>, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>K</mi>
+      </mstyle>
+      <mtext>cd</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(K)_{"cd"}</asciimath></stem>, to be 683 when expressed in the unit <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_lm.W-1">
+      <mstyle mathvariant="normal">
+        <mi>lm</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>W</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>1</mn>
+        </mrow>
+      </msup>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(lm*W^(-1))"</asciimath></stem>, which is equal to <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_cd.sr.W-1">
+      <mstyle mathvariant="normal">
+        <mi>cd</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <mstyle mathvariant="normal">
+        <mi>sr</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>W</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>1</mn>
+        </mrow>
+      </msup>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(cd*sr*W^(-1))"</asciimath></stem>, or <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_cd.sr.kg-1.m-2.s3">
+      <mstyle mathvariant="normal">
+        <mi>cd</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <mstyle mathvariant="normal">
+        <mi>sr</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>kg</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>1</mn>
+        </mrow>
+      </msup>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>m</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>2</mn>
+        </mrow>
+      </msup>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>s</mi>
+        </mstyle>
+        <mn>3</mn>
+      </msup>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(cd*sr*kg^(-1)*m^(-2)*s^3)"</asciimath></stem>, where the kilogram, metre and second are defined in terms of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>h</mi>
+  </mstyle>
+</math><asciimath>h</asciimath></stem>, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>c</mi>
+  </mstyle>
+</math><asciimath>c</asciimath></stem> and <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi mathvariant="normal">Δ</mi>
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>ν</mi>
+      </mstyle>
+      <mtext>Cs</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>Delta ii(nu)_{"Cs"}</asciimath></stem>.</strong></p>
+</quote>
+
+<p id="_2b584407-cf2a-28eb-301b-ed632db61c54">The candela is the SI base unit for the photometric quantity luminous intensity. The definition of the candela is based on the SI defining constant <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>K</mi>
+      </mstyle>
+      <mtext>cd</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(K)_{"cd"}</asciimath></stem> which links the photometric units to the corresponding radiometric units.</p>
+</clause>
+
+<clause id="_84999613-bef4-5300-7c50-e8909fc0f678" anchor="sec-3" obligation="normative">
+<title id="_23ad80f6-f26d-17de-93d3-ff74d6057070">Relationship between photometry, radiometry and photon-number-based quantities</title>
+<clause id="_02c00027-2dcf-7141-5c75-0c9b85db20d2" anchor="sec-3-1" obligation="normative">
+<title id="_86b287dc-b5ba-dabc-5788-9bd4a8ac8ac5">Photometry, radiometry and the candela</title>
+<p id="_66b3d067-998b-20e7-ecf6-3ed952417f76">The definition of the candela is expressed in strictly physical terms and is given for only one frequency of the electromagnetic radiation. The objective of photometry is to measure light in such a way that the result of the measurement correlates with the visual sensation of brightness experienced by a human observer for the same radiation. Most light sources emit a broad spectrum of frequencies. For this purpose, the International Commission on Illumination (CIE) has defined a set of spectral weighting functions or action spectra, referred to as spectral luminous efficiency functions that describe the relative spectral sensitivity of the average human eye for specified visual conditions. These functions are defined as a function of wavelength in standard air (dry air at <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>15</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu23">
+      <mstyle mathvariant="normal">
+        <mi>°C</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>15 "unitsml(degC)"</asciimath></stem> and <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>101325</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu12">
+      <mstyle mathvariant="normal">
+        <mi>Pa</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>101325 "unitsml(Pa)"</asciimath></stem>, containing 0.03 % by volume of carbon dioxide <eref type="inline" bibitemid="photometry" citeas="[2]"/>) and normalized to unity at their maximum value. The constant, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>K</mi>
+      </mstyle>
+      <mtext>cd</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(K)_{"cd"}</asciimath></stem>, together with the spectral luminous efficiency functions, relates photometric quantities and radiometric quantities to establish a metrologically consistent system.</p>
+
+<p id="_1a646a36-2f6c-5c67-bbd2-69721504f525">In 2007, the CIPM concluded an <underline>agreement with the CIE</underline>, in which the two organizations recognize that:</p>
+
+<ul id="_f7428d37-1d2a-07f8-571d-e5d5d770dee0"><li><p id="_a8b39469-41ad-1c2f-ea39-7e2014dcae07">the CIPM is responsible for the definition of the photometric units in the SI and</p>
+</li>
+<li><p id="_8d0fad3d-87f8-d512-f684-a22db8a14f48">the CIE is responsible for the standardization of the spectral luminous efficiency functions of the human eye.</p>
+</li>
+</ul>
+
+<p id="_369e3728-c93c-9a0a-fe44-b1ce44d30ef4">For further details of the spectral luminous efficiency functions of the human eye and the definitions of the associated photometric quantities, see <underline>CIPM/CIE joint publication: Principles Governing Photometry, 2nd Edition</underline> <eref type="inline" bibitemid="photometry" citeas="[2]"/>.</p>
+
+<p id="_a04b9860-e1c6-2e71-ea93-8795e5f7d74f">It is traditional practice in photometry to state the wavelengths in air, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>λ</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(lambda)</asciimath></stem>. However, the most definitive way to locate a monochromatic radiation within the spectrum is to state its frequency, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>f</mi>
+  </mstyle>
+</math><asciimath>f</asciimath></stem>, since the frequency is independent of the optical medium. The values of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>f</mi>
+  </mstyle>
+</math><asciimath>f</asciimath></stem> and <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>λ</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(lambda)</asciimath></stem> are related by:</p>
+
+<formula id="_69a181ab-d1ab-a50f-d68c-9b1bd3b3f9bf"><stem block="true" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <mi>f</mi>
+    <mstyle mathvariant="italic">
+      <mi>λ</mi>
+    </mstyle>
+    <mo>=</mo>
+    <mi>c</mi>
+    <mo>/</mo>
+    <msub>
+      <mi>n</mi>
+      <mi>a</mi>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>f ii(lambda) = c // n_a (ii(lambda))</asciimath></stem></formula>
+
+<p id="_9f9a325e-be91-44ed-3d21-663c6ca01564">where <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>c</mi>
+  </mstyle>
+</math><asciimath>c</asciimath></stem> is the speed of light in vacuum and equals <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>2.99792458</mn>
+    <mo>×</mo>
+    <msup>
+      <mn>10</mn>
+      <mn>8</mn>
+    </msup>
+    <mtext>‌</mtext>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu1.u3e-1/1">
+      <mstyle mathvariant="normal">
+        <mi>m</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>s</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>1</mn>
+        </mrow>
+      </msup>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>2.99792458 xx 10^8 "‌" "unitsml(m*s^(-1))"</asciimath></stem>, and <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>n</mi>
+      <mi>a</mi>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>n_a (ii(lambda))</asciimath></stem> is the refractive index of air. It should be noted that the value of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>n</mi>
+      <mi>a</mi>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>n_a (ii(lambda))</asciimath></stem> depends upon the partial pressure of each constituent of the air and is also wavelength dependent <eref type="inline" bibitemid="ciddor" citeas="[3]"/>. In the case of standard air, which is defined above <eref type="inline" bibitemid="photometry" citeas="[2]"/>, this gives a refractive index in air, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>n</mi>
+      <mi>a</mi>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>n_a (ii(lambda))</asciimath></stem>, approximately equal to <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle displaystyle="false"><mn>1.00028</mn></mstyle></math><asciimath>1.00028</asciimath></stem> throughout the visible spectrum.</p>
+
+<p id="_e308e37d-1629-6efa-8b08-bc34e4fe0d7c">For a practical light source, i.e. any source emitting radiation not only at the frequency <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>540</mn>
+    <mo>×</mo>
+    <msup>
+      <mn>10</mn>
+      <mn>12</mn>
+    </msup>
+    <mtext>‌</mtext>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu31">
+      <mstyle mathvariant="normal">
+        <mi>Hz</mi>
+      </mstyle>
+      
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>540 xx 10^12 "‌" "unitsml(Hz)"</asciimath></stem>, the corresponding photometric quantities are defined in purely physical terms as physical quantities proportional to the integral of the spectral power distribution of the light source (determined for the appropriate geometric configuration), weighted according to the specified spectral luminous efficiency function, and converted to absolute photometric values using the SI defining constant <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>K</mi>
+      </mstyle>
+      <mtext>cd</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(K)_{"cd"}</asciimath></stem>.</p>
+
+<p id="_b52bbc58-b58c-7a14-7e49-b151b3191b5d">Thus, the photometric quantities (human observer-based) relate to the radiometric quantities through simple relations. The general form of the equation relating a given spectral radiometric quantity <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>X</mi>
+      </mstyle>
+      <mrow>
+        <mtext>e</mtext>
+        <mo>,</mo>
+        <mstyle mathvariant="italic">
+          <mi>λ</mi>
+        </mstyle>
+      </mrow>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>ii(X)_{"e",ii(lambda)} (ii(lambda))</asciimath></stem> to its corresponding photometric quantity <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>X</mi>
+      </mstyle>
+      <mtext>v,x</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(X)_{"v,x"}</asciimath></stem> is given below:</p>
+
+<formula id="_a579d068-bc8a-78a9-73ac-1209587a55d7" anchor="eq-2"><stem block="true" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>X</mi>
+      </mstyle>
+      <mtext>v,x</mtext>
+    </msub>
+    <mo>=</mo>
+    <mfrac>
+      <msub>
+        <mstyle mathvariant="italic">
+          <mi>K</mi>
+        </mstyle>
+        <mtext>cd</mtext>
+      </msub>
+      <mrow>
+        <msub>
+          <mstyle mathvariant="italic">
+            <mi>V</mi>
+          </mstyle>
+          <mtext>x</mtext>
+        </msub>
+        <mrow>
+          <mo>(</mo>
+          <msub>
+            <mstyle mathvariant="italic">
+              <mi>λ</mi>
+            </mstyle>
+            <mi>a</mi>
+          </msub>
+          <mo>)</mo>
+        </mrow>
+      </mrow>
+    </mfrac>
+    <mrow>
+      <msubsup>
+        <mo>∫</mo>
+        <mstyle mathvariant="italic">
+          <mi>λ</mi>
+        </mstyle>
+        <mrow/>
+      </msubsup>
+      <msub>
+        <mstyle mathvariant="italic">
+          <mi>X</mi>
+        </mstyle>
+        <mrow>
+          <mtext>e</mtext>
+          <mo>,</mo>
+          <mstyle mathvariant="italic">
+            <mi>λ</mi>
+          </mstyle>
+        </mrow>
+      </msub>
+    </mrow>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>V</mi>
+      </mstyle>
+      <mtext>x</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+    <mtext>d</mtext>
+    <mstyle mathvariant="italic">
+      <mi>λ</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(X)_{"v,x"} = {ii(K)_{"cd"}} / {ii(V)_"x" (ii(lambda)_a)} int_{ii(lambda)} ii(X)_{"e",ii(lambda)} (ii(lambda)) ii(V)_"x" (ii(lambda)) "d" ii(lambda)</asciimath></stem></formula>
+
+<p id="_4b2a4370-d26c-975b-7463-91db6d0248a6">where <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mtext>a</mtext>
+    </msub>
+    <mo>=</mo>
+    <mn>555.017</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_nm">
+      <mstyle mathvariant="normal">
+        <mi>nm</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>ii(lambda)_"a" = 555.017 "unitsml(nm)"</asciimath></stem> is the wavelength in standard air <eref type="inline" bibitemid="ciddor" citeas="[3]"/> at the frequency of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>540</mn>
+    <mo>×</mo>
+    <msup>
+      <mn>10</mn>
+      <mn>12</mn>
+    </msup>
+    <mtext>‌</mtext>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu31">
+      <mstyle mathvariant="normal">
+        <mi>Hz</mi>
+      </mstyle>
+      
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>540 xx 10^12 "‌" "unitsml(Hz)"</asciimath></stem> given in the definition of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>K</mi>
+      </mstyle>
+      <mtext>cd</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(K)_{"cd"}</asciimath></stem> and <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>V</mi>
+      </mstyle>
+      <mtext>x</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>ii(V)_"x" (ii(lambda))</asciimath></stem> is any of the CIE spectral luminous efficiency functions; the subscript “<tt>x</tt>” indicating the respective function.</p>
+
+<p id="_a267e59a-d89f-cae5-9f21-cdf8574af5e6">The most important of these visual functions is the photopic luminous efficiency function for the light-adapted eye, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>V</mi>
+    </mstyle>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>ii(V) (ii(lambda))</asciimath></stem>, which is defined by the CIE over the wavelength range <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>360</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_nm">
+      <mstyle mathvariant="normal">
+        <mi>nm</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>360 "unitsml(nm)"</asciimath></stem> to <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>830</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_nm">
+      <mstyle mathvariant="normal">
+        <mi>nm</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>830 "unitsml(nm)"</asciimath></stem> at <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_nm">
+      <mstyle mathvariant="normal">
+        <mi>nm</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>1 "unitsml(nm)"</asciimath></stem> intervals. When values are needed between these defined wavelengths, linear interpolation shall be used <eref type="inline" bibitemid="photometry" citeas="[2]"/>,<eref type="inline" bibitemid="iso23539" citeas="[4]"/>. For this function, the maximum value is at a wavelength <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>λ</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(lambda)</asciimath></stem> of exactly <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>555</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_nm">
+      <mstyle mathvariant="normal">
+        <mi>nm</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>555 "unitsml(nm)"</asciimath></stem> in standard air <eref type="inline" bibitemid="iso23539" citeas="[4]"/>. For dark-adapted conditions, the CIE standardized the scotopic luminous efficiency function, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>V</mi>
+    </mstyle>
+    <mo>′</mo>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>ii(V)'(ii(lambda))</asciimath></stem>, which is similar in shape to <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>V</mi>
+    </mstyle>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>ii(V) (ii(lambda))</asciimath></stem> but its peak is shifted to shorter wavelength than the photopic curve.</p>
+
+<p id="_7192f792-7fa4-3f05-d328-57a7578a85fa">Recently, the CIE defined a system of spectral luminous efficiency functions to be used at levels of luminance between the photopic and scotopic conditions, which is referred to as the mesopic region, thus completing the standardization of the visual functions for all states of visual adaptation; the detailed definitions of these functions and the other important CIE spectral luminous efficiency functions can be found in the recently updated joint CIPM/CIE publication on Principles Governing Photometry <eref type="inline" bibitemid="photometry" citeas="[2]"/>. The <em>mise en pratique</em> and the Principles Governing Photometry are interlinked documents that provide a comprehensive description of the current system of practical physical photometry.</p>
+
+<p id="_2321416a-413d-3eb6-4609-4583cce6c8ee">The basic equations relating the specific photometric quantities (corresponding to different measurement geometries) to the corresponding radiometric quantities are given in <eref type="inline" bibitemid="photometry" citeas="[2]"/>. The power levels and wavelength range involved are such that classical electromagnetic radiation concepts of incoherent sources and elementary beams of radiation (geometrical optics) are used to describe the photometric quantities. In addition to the spectral aspects, it is important to note that the definition of the photometric and radiometric quantities deal with the propagation of light in space so a definition of these quantities also requires a definition of these intrinsic geometrical parameters which are deemed essential for practical photometry <eref type="inline" bibitemid="photometry" citeas="[2]"/>.</p>
+
+<p id="_4df89cd6-8384-4687-5d8e-03ead638439b">For the definition of the candela, these geometric parameters are the given direction of the radiant flux at a given point of a real or imaginary irradiating surface and the solid angle propagated by the beam and containing this given direction. For the derived photometric units, it is essential to specify additional geometrical parameters; these include the area of a section of the beam containing the given point (source or receiver), and the angle from the normal to the surface element (source or receiver).</p>
+</clause>
+
+<clause id="_02bc9af8-c4d4-32d3-7bc4-0090b0eab51c" obligation="normative">
+<title id="_dde47a9f-a41d-5641-90a1-6dbad6f5b0ff">Photometry and photon-number-based quantities</title>
+<p id="_0fffc6f6-159d-fb0f-4703-a5105625a987">Photon-number-based quantities are quantities of optical radiation which are expressed in terms of a known number of photons or photon flux. Because of the dual aspect of electromagnetic radiation, photometric and/or spectral radiant quantities can also be expressed in terms of photon-number-based quantities. For wavelengths in air, the relationship between the spectral radiant quantity at a given wavelength, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>X</mi>
+      </mstyle>
+      <mrow>
+        <mtext>e</mtext>
+        <mo>,</mo>
+        <mstyle mathvariant="italic">
+          <mi>λ</mi>
+        </mstyle>
+      </mrow>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>ii(X)_{"e",ii(lambda)} (ii(lambda))</asciimath></stem>, and the corresponding photon-number-based quantity, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>X</mi>
+      </mstyle>
+      <mrow>
+        <mtext>p</mtext>
+        <mo>,</mo>
+        <mstyle mathvariant="italic">
+          <mi>λ</mi>
+        </mstyle>
+      </mrow>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>ii(X)_{"p",ii(lambda)} (ii(lambda))</asciimath></stem>, is:</p>
+
+<formula id="_8b5f6035-2517-5e57-7dbd-2bd6451b34f4" anchor="eq-3"><stem block="true" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>X</mi>
+      </mstyle>
+      <mrow>
+        <mtext>e</mtext>
+        <mo>,</mo>
+        <mstyle mathvariant="italic">
+          <mi>λ</mi>
+        </mstyle>
+      </mrow>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+    <mo>=</mo>
+    <mfrac>
+      <mrow>
+        <mi>h</mi>
+        <mi>c</mi>
+      </mrow>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+    </mfrac>
+    <mo>⋅</mo>
+    <msub>
+      <mi>n</mi>
+      <mi>a</mi>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+    <mo>⋅</mo>
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>X</mi>
+      </mstyle>
+      <mrow>
+        <mtext>p</mtext>
+        <mo>,</mo>
+        <mstyle mathvariant="italic">
+          <mi>λ</mi>
+        </mstyle>
+      </mrow>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>ii(X)_{"e",ii(lambda)} (ii(lambda)) = {h c} / ii(lambda) * n_a (ii(lambda)) * ii(X)_{"p",ii(lambda)} (ii(lambda))</asciimath></stem></formula>
+
+<p id="_4b893dca-87a4-eed6-256a-2346944df419">where <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>h</mi>
+  </mstyle>
+</math><asciimath>h</asciimath></stem> is the Planck constant, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>c</mi>
+  </mstyle>
+</math><asciimath>c</asciimath></stem> is the speed of light in vacuum, and <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>n</mi>
+      <mi>a</mi>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>n_a (ii(lambda))</asciimath></stem> is the refractive index in air at the given wavelength, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>λ</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(lambda)</asciimath></stem>.</p>
+
+<p id="_5b4939fe-9675-bebb-293a-ecbab9a9ed24">Therefore, combining <xref target="eq-2"/> and <xref target="eq-3"/>, the general form of the equation relating a given photometric quantity <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>X</mi>
+      </mstyle>
+      <mtext>v,x</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(X)_("v,x")</asciimath></stem> to its corresponding photon-number-based quantity <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>X</mi>
+      </mstyle>
+      <mrow>
+        <mtext>p</mtext>
+        <mo>,</mo>
+        <mstyle mathvariant="italic">
+          <mi>λ</mi>
+        </mstyle>
+      </mrow>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>ii(X)_{"p",ii(lambda)} (ii(lambda))</asciimath></stem> is given by:</p>
+
+<formula id="_19dd5f7a-a3eb-093c-d17a-e0fafe3ed477" anchor="eq-4"><stem block="true" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>X</mi>
+      </mstyle>
+      <mtext>v,x</mtext>
+    </msub>
+    <mo>=</mo>
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>K</mi>
+      </mstyle>
+      <mtext>p,x</mtext>
+    </msub>
+    <mrow>
+      <msubsup>
+        <mo>∫</mo>
+        <mstyle mathvariant="italic">
+          <mi>λ</mi>
+        </mstyle>
+        <mrow/>
+      </msubsup>
+      <msub>
+        <mstyle mathvariant="italic">
+          <mi>X</mi>
+        </mstyle>
+        <mrow>
+          <mtext>p</mtext>
+          <mo>,</mo>
+          <mstyle mathvariant="italic">
+            <mi>λ</mi>
+          </mstyle>
+        </mrow>
+      </msub>
+    </mrow>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+    <mfrac>
+      <mrow>
+        <msub>
+          <mi>n</mi>
+          <mi>a</mi>
+        </msub>
+        <mrow>
+          <mo>(</mo>
+          <mstyle mathvariant="italic">
+            <mi>λ</mi>
+          </mstyle>
+          <mo>)</mo>
+        </mrow>
+        <msub>
+          <mstyle mathvariant="italic">
+            <mi>V</mi>
+          </mstyle>
+          <mi>x</mi>
+        </msub>
+        <mrow>
+          <mo>(</mo>
+          <mstyle mathvariant="italic">
+            <mi>λ</mi>
+          </mstyle>
+          <mo>)</mo>
+        </mrow>
+      </mrow>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+    </mfrac>
+    <mtext>d</mtext>
+    <mstyle mathvariant="italic">
+      <mi>λ</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(X)_{"v,x"} = ii(K)_{"p,x"} int_{ii(lambda)} ii(X)_{"p",ii(lambda)} (ii(lambda)) {n_a (ii(lambda)) ii(V)_x (ii(lambda))} / {ii(lambda)} "d" ii(lambda)</asciimath></stem></formula>
+
+<p id="_5387fe35-6456-6c65-310a-b17347b3ac06">Where</p>
+
+<formula id="_56eb0472-e105-fb29-b1a2-c9cdb8742292"><stem block="true" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>K</mi>
+      </mstyle>
+      <mtext>p,x</mtext>
+    </msub>
+    <mo>=</mo>
+    <mfrac>
+      <mrow>
+        <msub>
+          <mstyle mathvariant="italic">
+            <mi>K</mi>
+          </mstyle>
+          <mtext>cd</mtext>
+        </msub>
+        <mi>h</mi>
+        <mi>c</mi>
+      </mrow>
+      <mrow>
+        <msub>
+          <mstyle mathvariant="italic">
+            <mi>V</mi>
+          </mstyle>
+          <mtext>x</mtext>
+        </msub>
+        <mrow>
+          <mo>(</mo>
+          <msub>
+            <mstyle mathvariant="italic">
+              <mi>λ</mi>
+            </mstyle>
+            <mtext>a</mtext>
+          </msub>
+          <mo>)</mo>
+        </mrow>
+      </mrow>
+    </mfrac>
+  </mstyle>
+</math><asciimath>ii(K)_{"p,x"} = {ii(K)_{"cd"} h c} / {ii(V)_"x" (ii(lambda)_"a")}</asciimath></stem></formula>
+
+<p id="_625e46b2-c516-e17e-4696-d2a7fcd96568">where <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>K</mi>
+      </mstyle>
+      <mtext>p,x</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(K)_{"p,x"}</asciimath></stem> is the conversion factor from photometric to photon-number-based quantities for the spectral luminous efficiency function <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>V</mi>
+      </mstyle>
+      <mtext>x</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>ii(V)_"x" (ii(lambda))</asciimath></stem>.</p>
+</clause>
+</clause>
+
+<clause id="_5cd64d73-b876-9493-78c3-dfe9809a5887" anchor="sec-4" obligation="normative">
+<title id="_f70fb98c-0581-9e99-73ba-9621c65d17a4">Approaches to the realization of photometric and radiometric units and the candela</title>
+<p id="_c050a700-6087-70b9-58d5-b6f206952380">As stated in the Introduction, in general, the term “<tt>to realize a unit</tt>” is interpreted to mean the establishment of the value (within the associated uncertainty) of a quantity of the same kind as the unit, in a way that is consistent with the definition of the unit. The definition of the candela does not imply any particular experiment for its practical realization. While it is generally true that any method consistent with the laws of physics and the SI base unit definition may be used to realize any SI unit, base or derived, special considerations are required in the case of photometry to ensure that the realized unit is relevant for measurement of practical light sources, i.e. sources that emit not only at the wavelength corresponding to a frequency of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>540</mn>
+    <mo>×</mo>
+    <msup>
+      <mn>10</mn>
+      <mn>12</mn>
+    </msup>
+    <mtext>‌</mtext>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu31">
+      <mstyle mathvariant="normal">
+        <mi>Hz</mi>
+      </mstyle>
+      
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>540 xx 10^12 "‌" "unitsml(Hz)"</asciimath></stem>. The list of methods given here is not meant to be an exhaustive list of all possibilities but rather a list of those methods that are easiest to implement and/or provide the smallest uncertainties and which are officially recognized as primary methods by the Consultative Committee for Photometry and Radiometry. Further details on methods available to realize photometric and radiometric units can be found in <eref type="inline" bibitemid="zwinkels" citeas="[5]"/>.</p>
+
+<p id="_f591e299-1470-60e3-ef01-1f3869da72d7">As the definition of the candela is based on <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>K</mi>
+      </mstyle>
+      <mtext>cd</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(K)_{"cd"}</asciimath></stem>, and therefore on radiometric units, the practical realization of the candela and the derived photometric units is almost always based on a practical realization of radiometric units. Thus, this <em>mise en pratique</em> logically begins with a description of methods for practical realization of radiometric units in order to provide the necessary foundation to describe the <em>mise en pratique</em> for the candela.</p>
+</clause>
+
+<clause id="_ce48f3ca-5a2b-10c1-257f-506dde387814" anchor="sec-5" obligation="normative">
+<title id="_a4a1287c-43ad-be97-f71c-e973d3ec0a50">Practical realization of radiometric units</title>
+<p id="_7ff82f94-11e5-d1d0-643f-ac851e389d67">There are two types of primary methods in general use for realizing radiometric units. These are referred to as “<tt>detector-based</tt>” or “<tt>source-based</tt>” depending on whether they rely on a primary standard detector or primary standard source, respectively.</p>
+
+<clause id="_05126b66-b1c9-a263-5362-10b30afa7791" anchor="sec-5-1" obligation="normative">
+<title id="_0e6f22db-7131-c3bb-e945-1806c6042c96">Detector-based radiometric traceability</title>
+<p id="_55daa2d2-7a77-df08-862f-b3bc74e46d36">An absolute radiometer is an instrument which can detect and quantify the amount of incident optical radiation, where the means of quantification is by direct reference to another measurable physical phenomenon (usually this means with a route of traceability to SI electrical units, which can be measured with a lower uncertainty than other methods for measuring optical power) and that is self-calibrating, i.e. the radiometer does not require external calibration against another optical power measuring instrument or reference source. An absolute radiometer can typically take two forms, both of which have a route of traceability to SI electrical units:</p>
+
+<ul id="_06add70c-f637-896f-b2a1-8a5c603ef334"><li><p id="_b7d21c40-7ec1-0f1f-5836-01908706991f"><underline>Electrical Substitution Radiometer (ESR)</underline> – where the heating effect of optical radiation is equated with that resulting from a substituted measured electrical power. This well-established method is now most commonly carried out with instruments cooled to cryogenic temperatures (&lt; ~20 K), where many of the associated sources of uncertainty are significantly reduced; these are called “<tt>cryogenic radiometers</tt>”. For more details see <eref type="inline" bibitemid="zwinkels" citeas="[5]"/>-<eref type="inline" bibitemid="hoyt" citeas="[7]"/>.</p>
+</li>
+<li><p id="_921fabe1-ca9b-6f38-6f42-175dc309a1c3"><underline>Predictable Quantum Efficient Photodiodes (PQED)</underline> – these are based on a low loss semi-conductor, generally silicon, and an accurate model of the photon-to-electron conversion and detection within the device, to determine the quantity of incident optical radiation from the measurement of the generated photocurrent. Although initially based on self-calibration of single photodiodes, this approach has gained in significance through the construction of ‘<tt>trap detectors</tt>‘, which increase overall detection efficiency through the creation of light traps from multiple reflections from a number of photodiodes with electrically combined outputs. For more details see <eref type="inline" bibitemid="zwinkels" citeas="[5]"/>,<eref type="inline" bibitemid="sildoja" citeas="[8]"/>,<eref type="inline" bibitemid="muller" citeas="[9]"/>.</p>
+</li>
+</ul>
+
+<p id="_e8d11c21-c426-74f3-e8cd-c11c063ac61c">It should be noted that absolute radiometers are sensitive to a wide spectral range and cannot, by themselves, provide any information relating to the spectral distribution of the power from the source being measured. The addition of a spectrally selective element (e.g. filter) is necessary in order to obtain spectral information. Note that this element requires independent calibration in absolute values of spectral regular transmittance in order for a radiometer incorporating such an element to be considered ‘<tt>absolute</tt>‘. In practice, the realization of the candela often involves radiometric measurements at a number of wavelengths using laser or monochromator-based light sources. It should also be noted that absolute radiometers typically measure the quantity of absorbed radiant flux, which does not include geometrical aspects of light, which are of prominent importance for photometry.</p>
+</clause>
+
+<clause id="_18b8bd98-d58c-359b-f872-317032864407" obligation="normative">
+<title id="_e9e57fe4-8ca3-0e17-3737-4b5a72c8309b">Source-based radiometric traceability</title>
+<p id="_e77d2476-36d6-001a-9203-82962cd70cb2">An absolute source is a source for which the amount of emitted optical radiation can be predicted based on measurements of other physical parameters. The optical radiation produced by any other source can then be measured by direct comparison with such an absolute source. There are two types of sources that can be considered absolute for certain conditions:</p>
+
+<ul id="_71cda615-5906-fb0d-829c-216bc21ad95e"><li><p id="_426ddc88-93a8-3160-3a11-4c27fa5fbdbb"><underline>Planckian radiator</underline> – For a cavity with high emissivity (very close to unity), the emitted spectral radiance can be predicted from the thermodynamic temperature of the cavity using Planck’s radiation law. In this case, traceability is to the SI unit of temperature, the kelvin. For many high-accuracy applications, the thermodynamic temperature of the cavity is determined by use of a radiometrically-calibrated filtered detector (referred to as a “<tt>filter radiometer</tt>”) and, in this case, traceability is more appropriately considered to be “<tt>detector-based</tt>”, to SI electrical units, as described in <xref target="sec-5-1"/>. If the radiance distribution of this source is constant in all directions, then by using a precision aperture in front of the Planckian radiator at a sufficiently large distance in a certain direction, its calculated spectral radiance can be transferred into a predictable spectral radiant intensity.</p>
+</li>
+<li><p id="_6e17857b-6d47-2b04-8744-4cd35843484f"><underline>Electron storage ring producing synchrotron radiation</underline> – Relativistic electrons on a circular orbit emit synchrotron radiation (SR). Under certain conditions, this source can be considered absolute and in this case the spectral radiant intensity (in <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_W.rad-1">
+      <mstyle mathvariant="normal">
+        <mi>W</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>rad</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>1</mn>
+        </mrow>
+      </msup>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(W*rad^(-1))"</asciimath></stem>) of the emitted SR can be predicted from known and measured storage ring parameters and geometrical parameters through the use of the Schwinger equation <eref type="inline" bibitemid="schwinger" citeas="[10]"/>. Here, traceability is to SI electrical and length units. SR covers a large dynamic range in photon flux of up to 12 decades, enabling the adjustment of the photon flux to the sensitivity of the detection system under study without changing the shape of the emitted spectrum. This is done by an appropriate adjustment of the number of stored electrons, in the range from maximum current to a single stored electron.</p>
+</li>
+</ul>
+</clause>
+</clause>
+
+<clause id="_5647d8a9-401c-f163-272f-85fdc3588919" anchor="sec-6" obligation="normative">
+<title id="_aa6f8508-9354-9bac-3050-0736688613b8">Practical realization of photon-number-based units</title>
+<p id="_42c5cfde-6063-798f-b642-d6854f633321">The practical realization of units for photon-number-based quantities, such as photon flux (number of photons per second) or photon irradiance (number of photons per second per unit area) for low flux radiometric applications, can also be carried out using the detector-based and source-based radiometric methods described above and using the conversion from radiometric to photon-number-based quantities, given in <xref target="eq-3"/>. However, it is also possible to use sources that generate single photons at a known rate and photon counting as a primary method for realization of associated photon-number-based units. This approach is referred to here as “<tt>photon-number-based</tt>”.</p>
+
+<p id="_a1ff380e-e306-a960-e9ed-3763c35b5807">In recent times, and particularly for some emerging applications, e.g. quantum optics, it has become practical to consider the full quantum nature of electromagnetic radiation as a primary traceable route to SI. Since each photon can be considered as a quantum of energy dependent on its frequency, it is conceptually simple to correlate the number of photons with an amount of energy or power. Individual photons can now be generated — using e.g. non-linear materials as well as optical and electrical based single-photon sources — and counted – using e.g. photomultipliers, single-photon avalanche diodes, superconducting nanowire detectors and transition edge sensors. Further details on methods available for traceability of the units for radiometric quantities using photon-number-based techniques can be found in <eref type="inline" bibitemid="zwinkels" citeas="[5]"/>.</p>
+</clause>
+
+<clause id="_06759eb8-55a7-c614-46a9-1778dd274e1b" anchor="sec-7" obligation="normative">
+<title id="_514167e1-92ff-6f33-a1e0-cc2f87928ead">Practical realization of photometric units</title>
+<clause id="_8d6203ad-7da9-9a04-c2b3-fa3ec133f83e" anchor="sec-7-1" obligation="normative">
+<title id="_6b8bcd9a-da65-e270-8c64-e3e153adb795">Traceability routes for the practical realization of photometric units</title>
+<p id="_07cfa71e-8d0a-5ef3-739d-50e07f6543cd"><xref target="sec-5"/> outlines the traceability routes for practical realization of radiometric units. As described in <xref target="sec-2"/>, these underpin the realization of photometric units associated with the corresponding photometric quantities (e.g. luminous intensity, luminance, illuminance, luminous flux) through the use of spectral luminous efficiency functions (to provide a spectral weighting) combined with the luminous efficacy at a frequency of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>540</mn>
+    <mo>×</mo>
+    <msup>
+      <mn>10</mn>
+      <mn>12</mn>
+    </msup>
+    <mtext>‌</mtext>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu31">
+      <mstyle mathvariant="normal">
+        <mi>Hz</mi>
+      </mstyle>
+      
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>540 xx 10^12 "‌" "unitsml(Hz)"</asciimath></stem>, as given in the definition of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>K</mi>
+      </mstyle>
+      <mtext>cd</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(K)_{"cd"}</asciimath></stem>. The lowest uncertainty for the realization of photometric units is currently achieved if the traceability chain starts with an absolute detector, but in the future could be achieved by using an absolute source or the photon counting approach. For more details see <eref type="inline" bibitemid="zwinkels" citeas="[5]"/> and references therein.</p>
+
+<clause id="_ec60ebd6-f254-733a-7c3a-c33906922c96" anchor="sec-7-1-1" obligation="normative">
+<title id="_6cdc84ed-4fde-c620-a958-c0eacc7b24ae">Detector-based photometric traceability</title>
+<p id="_f6ec4934-f027-746c-fd71-f295bc3bcfa3">The most common method for realization of photometric units is to measure the photometric output of a standards-quality light source (described in more detail below in <xref target="sec-7-2" nosee="true"/>) in the desired geometric configuration using a reference photometric detector with a spectral responsivity that matches the desired luminous efficiency function and that has been spectrally calibrated for absolute irradiance responsivity traceable to an absolute radiometer (see <xref target="sec-5-1" nosee="true"/>) and which is equipped with a precise aperture, which has a calibrated area traceable to the SI unit of length. The realized photometric unit is then transferred to other standards-quality light sources, (or, in a second step, to other photometric detectors), which become secondary standard photometric sources (or detectors) for the associated photometric quantity. In this case, the traceability to the SI is “<tt>detector-based</tt>” to SI electrical units. This method generally requires additional spectral calibration to establish the relationship (spectral mismatch) of the spectral responsivity curve of the detector to the appropriate CIE spectral luminous efficiency function. To quantify the impact of this spectral mismatch, it is also necessary to carry out a relative spectral calibration of the light source. In the case where photon-number-based quantities are experimentally measured as described in <xref target="sec-6"/> above, these can be converted to the associated photometric quantity, using <xref target="eq-4"/>, although it is more common to use a weighted integral over frequency instead of wavelength.</p>
+</clause>
+
+<clause id="_f23d87f8-c6ba-982a-ee7d-702a1ed874d7" anchor="sec-7-1-2" obligation="normative">
+<title id="_edd6ab7e-0c02-7291-94a3-2fd3a834f6b5">Source-based photometric traceability</title>
+<p id="_065af669-37b5-5176-6e20-da7b7d64d0b7">A second method realizes the photometric units directly through the use of an absolute source, whose photometric output (in the relevant geometric configuration) is calculated from first principles based upon the characteristics of the source itself. In this case, the traceability to the SI is “<tt>source-based</tt>”. The most common absolute (calculable) source is a high temperature blackbody (a cavity with high emissivity) whose output radiant flux can be predicted from the thermodynamic temperature of the cavity using Planck’s radiation law. In this case, traceability is to the SI unit of temperature, the kelvin. However, at the high temperatures usually required for photometric applications, the thermodynamic temperature is generally determined by the inversion of Planck’s law via a quasi-monochromatic measurement of the absolute radiant flux output of the radiator made using one or several narrow-band detector(s) that have been calibrated by reference to an absolute radiometer, as outlined in <xref target="sec-5-1"/> above. In this case, the traceability is more appropriately considered to be “<tt>detector-based</tt>” to SI electrical units.</p>
+</clause>
+</clause>
+
+<clause id="_a0356080-f960-6574-1809-213f10bcddcd" anchor="sec-7-2" obligation="normative">
+<title id="_1b7d5748-5d0d-aae3-4ee0-2efcca92d29c">Practical realization of the candela (cd), SI base unit of luminous intensity, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>I</mi>
+      </mstyle>
+      <mtext>v</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(I)_"v"</asciimath></stem>.</title>
+<p id="_db04ac51-7571-fd0c-e724-98d4b312820b">The candela (cd) is most often realized using a standard lamp whose physical design is optimized for use in a defined direction to provide a light source (filament) that is small in relation to the distance between the source and the limiting aperture of the detector active area, such that it can be regarded as a point source in that specified direction. In the case of a tungsten standard lamp (the most commonly used form of standard lamp), the electrical operating parameters for the source are usually chosen such that the spectral output of the source approximates the defined CIE Standard Illuminant A <eref type="inline" bibitemid="iso11664" citeas="[11]"/>, which has the same relative spectral output as a Planckian radiator operating at a temperature of approximately <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>2856</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu5">
+      <mstyle mathvariant="normal">
+        <mi>K</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>2856 "unitsml(K)"</asciimath></stem>. The geometrical configuration is established according to the relation for radiant intensity in a given direction, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>I</mi>
+      </mstyle>
+      <mtext>e</mtext>
+    </msub>
+    <mo>=</mo>
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>ϕ</mi>
+      </mstyle>
+      <mi>e</mi>
+    </msub>
+    <mo>/</mo>
+    <mstyle mathvariant="italic">
+      <mi>Ω</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(I)_"e" = ii(phi)_e // ii Omega</asciimath></stem>, and the approximation of the solid angle for large distances, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>Ω</mi>
+    </mstyle>
+    <mo>=</mo>
+    <mstyle mathvariant="italic">
+      <mi>A</mi>
+    </mstyle>
+    <mo>/</mo>
+    <msup>
+      <mi>r</mi>
+      <mn>2</mn>
+    </msup>
+  </mstyle>
+</math><asciimath>ii Omega = ii(A) // r^2</asciimath></stem>, where <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>ϕ</mi>
+      </mstyle>
+      <mtext>e</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(phi)_"e"</asciimath></stem> is the radiant flux produced by the source of radiant intensity <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>I</mi>
+      </mstyle>
+      <mtext>e</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(I)_"e"</asciimath></stem> into an aperture of area <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>A</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(A)</asciimath></stem> and <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>r</mi>
+  </mstyle>
+</math><asciimath>r</asciimath></stem> is the distance between the source and the aperture. Since the solid angle (<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>Ω</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii Omega</asciimath></stem>) is dimensionless, it should be noted that the radiant intensity is dimensionally equivalent to the derived SI quantity radiant flux (<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>ϕ</mi>
+      </mstyle>
+      <mtext>e</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(phi)_"e"</asciimath></stem>), expressed in watt (W), which can cause confusion when expressed only in SI base units, i.e. metre (<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu1">
+      <mstyle mathvariant="normal">
+        <mi>m</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(m)"</asciimath></stem>), kilogram (<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu2">
+      <mstyle mathvariant="normal">
+        <mi>kg</mi>
+      </mstyle>
+      
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(kg)"</asciimath></stem>), and second (<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu3">
+      <mstyle mathvariant="normal">
+        <mi>s</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(s)"</asciimath></stem>). Thus, it is recommended to explicitly include the SI derived unit of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu10">
+      <mstyle mathvariant="normal">
+        <mi>sr</mi>
+      </mstyle>
+      
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(sr)"</asciimath></stem>, as indicated in <xref target="sec-2"/> in the definition of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>K</mi>
+      </mstyle>
+      <mtext>cd</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(K)_{"cd"}</asciimath></stem>, to clearly show the geometric dependence of the quantity. The radiant intensity is converted by <xref target="eq-2"/> to the luminous intensity using the appropriate CIE spectral luminous efficiency function and the photometric constant <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>K</mi>
+      </mstyle>
+      <mtext>cd</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(K)_{"cd"}</asciimath></stem> <eref type="inline" bibitemid="photometry" citeas="[2]"/>.</p>
+
+<p id="_441d59b0-6e22-1457-2791-60058e377ac9">In principle it would be possible to realize the candela using a stable monochromatic reference lamp emitting at the wavelength of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>λ</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(lambda)</asciimath></stem>, corresponding to the frequency specified in the definition of the candela (<xref target="sec-3-1" nosee="true"/>) that is mounted on a photometric bench at a known distance <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>r</mi>
+  </mstyle>
+</math><asciimath>r</asciimath></stem> from the limiting aperture (area <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>A</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(A)</asciimath></stem>) of an absolute radiometer that measures the radiant flux. This arrangement allows the calculation of the radiant intensity at this wavelength, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>I</mi>
+      </mstyle>
+      <mtext>e</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <msub>
+        <mstyle mathvariant="italic">
+          <mi>λ</mi>
+        </mstyle>
+        <mtext>a</mtext>
+      </msub>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>ii(I)_"e" (ii(lambda)_"a")</asciimath></stem>. The luminous intensity of the lamp is then obtained using the relation, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>I</mi>
+      </mstyle>
+      <mtext>v</mtext>
+    </msub>
+    <mo>=</mo>
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>K</mi>
+      </mstyle>
+      <mtext>cd</mtext>
+    </msub>
+    <mstyle mathvariant="italic">
+      <mi>V</mi>
+    </mstyle>
+    <mrow>
+      <mo>(</mo>
+      <msub>
+        <mstyle mathvariant="italic">
+          <mi>λ</mi>
+        </mstyle>
+        <mtext>a</mtext>
+      </msub>
+      <mo>)</mo>
+    </mrow>
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>I</mi>
+      </mstyle>
+      <mtext>e</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>ii(I)_"v" = ii(K)_{"cd"} ii(V)(ii(lambda)_"a") ii(I)_"e" (ii(lambda))</asciimath></stem>. However, such a realization would be of little use for measurements on practical broadband sources. Thus, the practical realization of the candela is predominantly carried out using one of the two following methods according to the routes described in <xref target="sec-7-1-1"/> and <xref target="sec-7-1-2"/>:</p>
+
+<ul id="_973771aa-3716-647c-96f4-60ecf74ea731"><li><p id="_dabddf68-cba3-647a-9ac7-8ffc114f8cf8"><underline>Method A</underline> — using a sufficiently small polychromatic source providing a nearly isotropic radiation field in the measurement direction. This is commonly an incandescent source which approximates the relative spectral power distribution of CIE standard illuminant A. For use as a luminous intensity reference lamp, a spectral characterization is needed. This spectral radiant intensity <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>I</mi>
+      </mstyle>
+      <mtext>e</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>ii(I)_"e" (ii(lambda))</asciimath></stem> in a certain direction is typically measured at a sufficiently large distance <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>r</mi>
+  </mstyle>
+</math><asciimath>r</asciimath></stem> using a series of calibrated reference filter-radiometers of known irradiance responsivity at a few discrete wavelengths in the visible wavelength range from <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>360</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_nm">
+      <mstyle mathvariant="normal">
+        <mi>nm</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>360 "unitsml(nm)"</asciimath></stem> to <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>830</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_nm">
+      <mstyle mathvariant="normal">
+        <mi>nm</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>830 "unitsml(nm)"</asciimath></stem> or by using a spectroradiometer with an appropriate irradiance input optic, that has been absolutely calibrated for irradiance responsivity. For these measurements, the lamp must be set according to its specified operating conditions (lamp orientation, direction of measurement and lamp current) and the distance, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>r</mi>
+  </mstyle>
+</math><asciimath>r</asciimath></stem>, from the source to the limiting aperture area, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>A</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(A)</asciimath></stem>, of the detector must be accurately known and controlled. The radiant intensity of the polychromatic source is measured over the entire visible wavelength range, either directly at regular, closely-spaced, intervals or at a sufficient number of discrete wavelengths to enable interpolation and extrapolation to other wavelengths using an appropriate physical model. These values can then be multiplied by the desired CIE spectral luminous efficiency function and spectrally integrated to give the corresponding luminous intensity.</p>
+</li>
+<li><p id="_a68d3a2e-66c0-7283-f5b0-520f39e9b286"><underline>Method B</underline> — using a reference illuminance meter, which is a filtered radiometer whose relative spectral responsivity has been designed to be a close match to the spectral characteristics of the desired CIE spectral luminous efficiency function. This filter radiometer is generally used together with a precision aperture and is calibrated by reference to an absolute radiometer to give a known illuminance responsivity (<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_A.lm-1.m2">
+      <mstyle mathvariant="normal">
+        <mi>A</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>lm</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>1</mn>
+        </mrow>
+      </msup>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>m</mi>
+        </mstyle>
+        <mn>2</mn>
+      </msup>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(A*lm^(-1)*m^2)"</asciimath></stem>). In most cases, this involves a calibration against the absolute radiometer to give its absolute spectral irradiance responsivity (<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_A.W-1.m2.nm-1">
+      <mstyle mathvariant="normal">
+        <mi>A</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>W</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>1</mn>
+        </mrow>
+      </msup>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>m</mi>
+        </mstyle>
+        <mn>2</mn>
+      </msup>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>nm</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>1</mn>
+        </mrow>
+      </msup>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(A*W^(-1)*m^2*nm^(-1))"</asciimath></stem>) at discrete wavelengths, coupled with measurements against other reference detectors (e.g. silicon traps or PQEDs) to enable interpolation at regular intervals across the visible wavelength range. These spectral values are then converted to illuminance responsivity (for a specific source) by integration. This calibrated reference illuminance meter can then be used to calibrate a standard lamp in terms of its luminous intensity in a specified direction by means of a photometric bench, which allows the geometrical quantity of distance, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>r</mi>
+  </mstyle>
+</math><asciimath>r</asciimath></stem>, from the source to the illuminance meter limiting aperture area, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>A</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(A)</asciimath></stem>, the alignment of the lamp, and the direction of measurement, to all be carefully controlled. A spectral calibration of the light source may also be necessary in order to correct for spectral mismatch between the illuminance meter and the required CIE spectral luminous efficiency function.</p>
+</li>
+</ul>
+</clause>
+
+<clause id="_a1f7d7ee-90f6-10a4-9a4d-dc7d6adc90f2" obligation="normative">
+<title id="_d36dd67d-0389-ee9d-65ad-35ae06ed8595">Practical realization of the lumen (lm), SI derived unit of luminous flux <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>ϕ</mi>
+      </mstyle>
+      <mtext>V</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(phi)_"V"</asciimath></stem></title>
+<p id="_f8ac9f85-11cb-ba96-7046-4af02cbf111e">The lumen (<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu32">
+      <mstyle mathvariant="normal">
+        <mi>lm</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+    <mo>=</mo>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_cd.sr">
+      <mstyle mathvariant="normal">
+        <mi>cd</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <mstyle mathvariant="normal">
+        <mi>sr</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(lm)" = "unitsml(cd*sr)"</asciimath></stem>), can be derived from a realization of the SI unit of luminous intensity <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>I</mi>
+      </mstyle>
+      <mtext>v</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(I)_"v"</asciimath></stem>, the candela, and the unit for solid angle <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>Ω</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii Omega</asciimath></stem>, the steradian. For a source of uniform intensity within the defined solid angle, this can be simply established using the relation <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>ϕ</mi>
+      </mstyle>
+      <mtext>V</mtext>
+    </msub>
+    <mo>=</mo>
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>I</mi>
+      </mstyle>
+      <mtext>v</mtext>
+    </msub>
+    <mstyle mathvariant="italic">
+      <mi>Ω</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(phi)_"V" = ii(I)_"v" ii Omega</asciimath></stem>. For the more general case of a source whose intensity varies with direction, the luminous flux <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>ϕ</mi>
+      </mstyle>
+      <mtext>V</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(phi)_"V"</asciimath></stem>, is obtained from the angular integration of the source luminous intensity distribution <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>I</mi>
+      </mstyle>
+      <mtext>V</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>θ</mi>
+      </mstyle>
+      <mo>,</mo>
+      <mstyle mathvariant="italic">
+        <mi>ϕ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>ii(I)_"V" (ii(theta),ii(phi))</asciimath></stem> measured on a spherical surface according to the relation: <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>ϕ</mi>
+      </mstyle>
+      <mtext>V</mtext>
+    </msub>
+    <mo>=</mo>
+    <mo>∫</mo>
+    <mo>∫</mo>
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>I</mi>
+      </mstyle>
+      <mtext>V</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>θ</mi>
+      </mstyle>
+      <mo>,</mo>
+      <mstyle mathvariant="italic">
+        <mi>ϕ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+    <mrow>
+      <mo rspace="thickmathspace"/>
+      <mrow>
+        <mi>sin</mi>
+        <mstyle mathvariant="italic">
+          <mi>θ</mi>
+        </mstyle>
+      </mrow>
+    </mrow>
+    <mtext>‌</mtext>
+    <mtext> d</mtext>
+    <mstyle mathvariant="italic">
+      <mi>ϕ</mi>
+    </mstyle>
+    <mtext> d</mtext>
+    <mstyle mathvariant="italic">
+      <mi>θ</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(phi)_"V" = int int ii(I)_"V" (ii(theta),ii(phi)) sin ii(theta) "‌" " d" ii(phi) " d" ii(theta)</asciimath></stem>, where <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>θ</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(theta)</asciimath></stem> is the polar angle and <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>ϕ</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(phi)</asciimath></stem> is the azimuthal angle in a spherical coordinate system; the integration is carried over <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>0</mn>
+    <mo>≤</mo>
+    <mstyle mathvariant="italic">
+      <mi>θ</mi>
+    </mstyle>
+    <mo>≤</mo>
+    <mi mathvariant="normal">π</mi>
+  </mstyle>
+</math><asciimath>0 &lt;= ii(theta) &lt;= pi</asciimath></stem> and <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>0</mn>
+    <mo>≤</mo>
+    <mstyle mathvariant="italic">
+      <mi>ϕ</mi>
+    </mstyle>
+    <mo>≤</mo>
+    <mn>2</mn>
+    <mi mathvariant="normal">π</mi>
+  </mstyle>
+</math><asciimath>0 &lt;= ii(phi) &lt;= 2 pi</asciimath></stem>. Therefore, the lumen may also be realized by measurement with a reference illuminance meter, as described in Method B in <xref target="sec-7-2"/>. Several geometrical configurations may be utilized:</p>
+
+<ol id="_097eb0ec-b022-3ce5-a439-06605c9b4b2c" type="arabic"><li id="_fd8bf92e-b53b-39d9-bf2c-0cd5efbaf1bc" anchor="item-73a"><p id="_64f5feb6-9ac3-f449-2924-dd04383c4bcb">The luminous flux emitted by a light source passing through an aperture of known area <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>A</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(A)</asciimath></stem> may be established using the approximation of the solid angle for large distances, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>Ω</mi>
+    </mstyle>
+    <mo>=</mo>
+    <mstyle mathvariant="italic">
+      <mi>A</mi>
+    </mstyle>
+    <mo>/</mo>
+    <msup>
+      <mi>r</mi>
+      <mn>2</mn>
+    </msup>
+  </mstyle>
+</math><asciimath>ii Omega = ii(A) // r^2</asciimath></stem>, and placing the aperture <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>A</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(A)</asciimath></stem> at a known distance <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>r</mi>
+  </mstyle>
+</math><asciimath>r</asciimath></stem> from the known source of luminous intensity.</p>
+</li>
+<li><p id="_f0bb9f61-6935-c2ec-d5dd-549dc3d98c24">The luminous flux emitted into a solid angle larger than that used to realize the luminous intensity for the known reference lamp may be determined using several methods of spatial integration of smaller sections. In each of these spatial integration methods, the detector used must be either a photometer with a spectral responsivity close to the desired spectral luminous efficiency function, which has been calibrated for luminous flux responsivity using configuration (a) above, or a reference illuminance meter calibrated as described in Method B (<xref target="sec-7-2" nosee="true"/>). The luminous flux integration is carried out by using either:</p>
+<ul id="_51992c7e-306a-f18f-22eb-32970115733a"><li><p id="_895b52e3-2f7a-3380-e121-468db4f2333d"><underline>a goniophotometer</underline> over a defined solid angle of the source. If the total luminous flux emitted by a light source is required, the integration is performed over the full solid angle <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>0</mn>
+    <mo>≤</mo>
+    <mstyle mathvariant="italic">
+      <mi>θ</mi>
+    </mstyle>
+    <mo>≤</mo>
+    <mi mathvariant="normal">π</mi>
+  </mstyle>
+</math><asciimath>0 &lt;= ii(theta) &lt;= pi</asciimath></stem> and <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>0</mn>
+    <mo>≤</mo>
+    <mstyle mathvariant="italic">
+      <mi>ϕ</mi>
+    </mstyle>
+    <mo>≤</mo>
+    <mn>2</mn>
+    <mi mathvariant="normal">π</mi>
+  </mstyle>
+</math><asciimath>0 &lt;= ii(phi) &lt;= 2 pi</asciimath></stem>. Note that if an illuminance meter is used that has been calibrated according to the methods in <xref target="sec-7-4"/>, the spatial integration of the source is performed over a solid angle that is defined by the illuminance responsivity (within a certain solid angle where the luminous intensity is expected to be constant) of the detector and the distance between the detector and the source.</p>
+</li>
+<li><p id="_28d81fde-2a23-e24b-2ab9-0356672d637b"><underline>an integrating sphere</underline> in combination with a detector, where the spectral responsivity of the sphere/detector combination is a close match to the desired spectral luminous efficiency function and that has been calibrated, for example, by introducing a known amount of luminous flux into the sphere (measured using method (a) above). The luminous flux emitted from a selected section of the source is measured by introducing only that part of the flux into the sphere. If it is desired to measure the cumulative luminous flux of the source for a solid angle of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>4</mn>
+    <mi mathvariant="normal">π</mi>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu10">
+      <mstyle mathvariant="normal">
+        <mi>sr</mi>
+      </mstyle>
+      
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>4 pi "unitsml(sr)"</asciimath></stem>, this total luminous flux (of the source) is then determined by placing the source entirely within the sphere. As the angular distribution of the source is generally very different from the light beam used for calibrating the sphere, the effect of the spatial non-uniformity of the sphere has to be characterized and corrected by an appropriate method. To account for spectral and spatial non-uniformities of the sphere, which influence the measurement results if different sources or geometries are compared, additional corrections must be applied. Furthermore, the linearity of the system needs to be characterized, to account for the very different flux levels that occur for the source outside and inside the sphere, respectively.</p>
+</li>
+</ul>
+</li>
+</ol>
+
+<p id="_f8b8a619-0b65-fbe7-7c7c-842143c8ac0d">Further details concerning the measurement of luminous flux may be found in <eref type="inline" bibitemid="ohno" citeas="[12]"/>.</p>
+</clause>
+
+<clause id="_4b39422d-6ca8-6a60-bdfd-91ffd9a9d7f9" anchor="sec-7-4" obligation="normative">
+<title id="_e65c4f52-0bd5-b0c9-ba6f-8e8e48005053">Practical realization of the lux (lx), SI derived unit of illuminance <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>E</mi>
+      </mstyle>
+      <mtext>v</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(E)_"v"</asciimath></stem></title>
+<p id="_54020b27-49a5-dd84-a6b9-29b994db2bf7">The lux (<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu33">
+      <mstyle mathvariant="normal">
+        <mi>lx</mi>
+      </mstyle>
+      
+      
+      
+      
+    </mrow>
+    <mo>=</mo>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_cd.sr.m-2">
+      <mstyle mathvariant="normal">
+        <mi>cd</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <mstyle mathvariant="normal">
+        <mi>sr</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>m</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>2</mn>
+        </mrow>
+      </msup>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(lx)" = "unitsml(cd*sr*m^(-2),symbol:cd cdot sr cdot m^(-2))"</asciimath></stem>) can be derived from a realization of the candela and the unit of length, using the relation: <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>E</mi>
+      </mstyle>
+      <mtext>v</mtext>
+    </msub>
+    <mo>=</mo>
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>I</mi>
+      </mstyle>
+      <mtext>v</mtext>
+    </msub>
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>Ω</mi>
+      </mstyle>
+      <mn>0</mn>
+    </msub>
+    <mo>/</mo>
+    <msup>
+      <mi>r</mi>
+      <mn>2</mn>
+    </msup>
+  </mstyle>
+</math><asciimath>ii(E)_"v" = ii(I)_"v" ii Omega_0 // r^2</asciimath></stem>, where <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>r</mi>
+  </mstyle>
+</math><asciimath>r</asciimath></stem> is an appropriately chosen distance from the source with luminous intensity <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>I</mi>
+      </mstyle>
+      <mtext>v</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(I)_"v"</asciimath></stem> at which the illuminance <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>E</mi>
+      </mstyle>
+      <mtext>v</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(E)_"v"</asciimath></stem> is produced to satisfy the condition that the area of the curved surface of the sphere, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>A</mi>
+      </mstyle>
+      <mtext>s</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(A)_"s"</asciimath></stem>, is approximately equal to the area of its two-dimensional projection, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>A</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(A)</asciimath></stem>, i.e. <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>A</mi>
+      </mstyle>
+      <mi mathvariant="normal">S</mi>
+    </msub>
+    <mi>≅</mi>
+    <mstyle mathvariant="italic">
+      <mi>A</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(A)_S ~= ii(A)</asciimath></stem> (see <xref target="item-73a" nosee="true"/>), which would be lost if <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>A</mi>
+      </mstyle>
+      <mi mathvariant="normal">S</mi>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(A)_S</asciimath></stem> is simply exchanged by <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>A</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(A)</asciimath></stem>. More details can be found in <eref type="inline" bibitemid="cie-210" citeas="[13]"/>.</p>
+
+<p id="_89334bd0-4f34-2d71-cad7-c3cc83d25e6f">The lux may also be realized directly from an absolute radiometer calibrated for spectral irradiance responsivity (see <xref target="sec-5-1" nosee="true"/>) or from a calculable blackbody source. Since the latter is primarily a radiance or luminance source, the illuminance incident upon a surface at a distance <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>r</mi>
+  </mstyle>
+</math><asciimath>r</asciimath></stem> from the output aperture of the source is dependent upon the area of the source output aperture, the distance <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>r</mi>
+  </mstyle>
+</math><asciimath>r</asciimath></stem>, and the area of the surface at which the flux is received. The illuminance of the blackbody source is determined by multiplying the spectral irradiance of the blackbody by the desired standard CIE spectral luminous efficiency function and spectrally integrating, using the equation for realization of spectral irradiance scales from absolute radiance sources given in (<eref type="inline" bibitemid="gaertner" citeas="[14]"/>, Equation 24).</p>
+</clause>
+
+<clause id="_69e91bf5-bfd0-85c9-7f69-6c4374c92a72" anchor="sec-7-5" obligation="normative">
+<title id="_f24886bd-60b0-304e-a608-668cbad29623">Practical realization of the candela per square metre (<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu7.u1e-2/1">
+      <mstyle mathvariant="normal">
+        <mi>cd</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>m</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>2</mn>
+        </mrow>
+      </msup>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(cd*m^(-2))"</asciimath></stem>), SI derived unit of luminance, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>L</mi>
+      </mstyle>
+      <mtext>v</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(L)_"v"</asciimath></stem></title>
+<p id="_f7628bb2-bbf7-e3a7-e2da-9f916d4efe4e">The unit of luminance (<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu7.u1e-2/1">
+      <mstyle mathvariant="normal">
+        <mi>cd</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>m</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>2</mn>
+        </mrow>
+      </msup>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(cd*m^(-2))"</asciimath></stem>) in a given direction, can be realized using a diffuse Lambertian source either by calculating the luminance of a light source itself, such as a blackbody radiator, or by measuring the luminance in the specified direction from a uniformly diffusing surface produced via an integrating sphere or a white diffuse reflecting surface.</p>
+
+<ul id="_95b8a206-5b62-8e3c-5d5d-1d5a15bda788"><li><p id="_f373be08-2928-3bdd-8ee4-33bb49d95789">The realization of the unit of luminance using a blackbody radiator requires the calculation of the absolute spectral radiance of the blackbody aperture using Planck’s law and the known thermodynamic temperature of the blackbody. The corresponding luminance of the blackbody source is then directly calculable from its spectral radiance and the appropriate CIE spectral luminous efficiency function, as described in <xref target="sec-3-1"/>.</p>
+</li>
+<li><p id="_b6a07fea-e84f-15b5-c891-8831dff12d7f">For the realization of the unit of luminance using an integrating sphere configuration, the luminance at the output port is determined from either the luminous flux in the forward direction, i.e. partial luminous flux (for definition of LED partial luminous flux, see <eref type="inline" bibitemid="cie-s025" citeas="[15]"/>) from the port through the aperture of a photometer calibrated as indicated in <xref target="sec-7-2"/>, or from the illuminance at the input aperture of a reference photometer calibrated using the relation given in <xref target="sec-7-4"/>. The partial luminous flux / illuminance at the calibrated photometer is dependent upon the luminance of the sphere aperture and a geometrical factor that depends upon the distance <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>r</mi>
+  </mstyle>
+</math><asciimath>r</asciimath></stem>, and the aperture areas of both the sphere port and the photometer input aperture <eref type="inline" bibitemid="ohno" citeas="[12]"/>,<eref type="inline" bibitemid="gaertner" citeas="[14]"/>. As an alternative to using an integrating sphere configuration, another sufficiently uniform luminance source can be used.</p>
+</li>
+<li><p id="_b445e9ed-3e7a-2a85-ca47-a6e54f5a7876">For the realization of the unit of luminance using the diffuse reflecting surface configuration, the luminance is calculated from the illuminance produced at the reflecting standard by the luminous intensity source (see <xref target="sec-7-4" nosee="true"/>) and the luminous reflectance factor for the white diffuse reflecting standard, determined spectrophotometrically under the same geometric conditions as used for the luminance measurement <eref type="inline" bibitemid="gaertner" citeas="[14]"/>.</p>
+</li>
+</ul>
+</clause>
+</clause>
+
+<clause id="_c7532928-c2dd-d627-d246-da2e0deb2a0a" anchor="sec-8" obligation="normative">
+<title id="_8b3104aa-db1c-cb3f-215f-35ca0751e90d">Consideration of measurement uncertainty</title>
+<p id="_5cd84b06-2fda-ec02-48d0-a5cec9e7fe62">Every measurement value has to be expressed with an associated measurement uncertainty. A general description on how to deal with uncertainties in photometry is given in <eref type="inline" bibitemid="cie-198" citeas="[16]"/>, <eref type="inline" bibitemid="cgm-100" citeas="[17]"/>.</p>
+</clause>
+
+
+</sections><bibliography><references id="_c462f8dc-db4f-a689-9336-8bb0340f5b47" normative="false" obligation="informative">
+<title id="_1d852725-9432-e979-5884-c8c2939954c3">References</title><bibitem anchor="bipm" id="_254779d2-f347-c7e8-6509-ab4715d9efda">
+  <formattedref format="application/x-isodoc+xml">BIPM, The International System of Units (SI Brochure) [9th edition, 2019], Appendix 3, <link target="https://www.bipm.org/en/publications/si-brochure/"/>.</formattedref>
+  <docidentifier type="metanorma">[1]</docidentifier>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem anchor="photometry" id="_5fd0d200-126f-e95a-031b-60e2a6523bd3">
+  <formattedref format="application/x-isodoc+xml">Principles Governing Photometry, 2nd ed., Joint CIPM/CIE publication (in press).</formattedref>
+  <docidentifier type="metanorma">[2]</docidentifier>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem anchor="ciddor" id="_7b7926e7-fab7-18ce-fdf4-abb3e86eb4a2">
+  <formattedref format="application/x-isodoc+xml">Ciddor P.E., Refractive index of air: new equations for the visible and near infrared, <em>Appl. Optics</em>, 1996, 35, 1566-1573.</formattedref>
+  <docidentifier type="metanorma">[3]</docidentifier>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem anchor="iso23539" id="_8cca3c68-9116-50c3-2cdf-fc768cd81ea8">
+  <formattedref format="application/x-isodoc+xml">CIE (International Commission on Illumination), Joint ISO/CIE Standard: Photometry — The CIE System of Physical Photometry, ISO 23539:2005(E)/CIE S 010/E:2004.</formattedref>
+  <docidentifier type="metanorma">[4]</docidentifier>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem anchor="zwinkels" id="_50a09a4c-ecbc-1754-98ec-b65f764492a4">
+  <formattedref format="application/x-isodoc+xml">Zwinkels J.C., Ikonen E., Fox N.P., Ulm G., and Rastello M.L., Photometry, radiometry and “<tt>the candela</tt>”: evolution in the classical and quantum world, <em>Metrologia</em>, 2010, <strong>47</strong>, R15-R32.</formattedref>
+  <docidentifier type="metanorma">[5]</docidentifier>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem anchor="martin" id="_28088576-4736-a0fe-0867-26d8171299b9">
+  <formattedref format="application/x-isodoc+xml">Martin, J.E., Fox, N.P., and Key, P.J., A cryogenic radiometer for absolute radiometric measurements, <em>Metrologia</em>, 1985, <strong>21</strong>, 147-155.</formattedref>
+  <docidentifier type="metanorma">[6]</docidentifier>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem anchor="hoyt" id="_c1eefe62-d386-302a-f41d-c7f06d95a31c">
+  <formattedref format="application/x-isodoc+xml">Hoyt C.C. and Foukal, P.V., Cryogenic radiometers and their application to metrology, <em>Metrologia</em>, 1991, <strong>28</strong>, 163-167.</formattedref>
+  <docidentifier type="metanorma">[7]</docidentifier>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem anchor="sildoja" id="_593f16dd-21a7-80d9-5708-c77c58fc8aeb">
+  <formattedref format="application/x-isodoc+xml">Sildoja M. et al., Predictable Quantum Efficient Detector I: Photodiodes and predicted responsivity, <em>Metrologia</em>, 2013, <strong>50</strong>, 385–394.</formattedref>
+  <docidentifier type="metanorma">[8]</docidentifier>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem anchor="muller" id="_cdf31e0c-6289-62d6-1fe8-11e99e3190e3">
+  <formattedref format="application/x-isodoc+xml">Müller I. et al., Predictable Quantum Efficient Detector II: Characterization results, <em>Metrologia</em>, 2013, <strong>50</strong>, 395–401.</formattedref>
+  <docidentifier type="metanorma">[9]</docidentifier>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem anchor="schwinger" id="_f3eabde8-3b59-14ec-a259-9b8498c166a3">
+  <formattedref format="application/x-isodoc+xml">Schwinger, J., On the classical radiation of accelerated electrons”, <em>Physical Review</em>, 1949, <strong>75</strong>, 1912-25.</formattedref>
+  <docidentifier type="metanorma">[10]</docidentifier>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem id="_5e69f957-0d8d-d5d3-1988-adabddb9b2e8" type="standard" schema-version="v1.2.9" anchor="iso11664">
+  <fetched>2026-04-16</fetched>
+  
+<title type="title-main" format="text/plain" language="en" script="Latn">Colorimetry</title>
+
+  
+<title type="title-part" format="text/plain" language="en" script="Latn">Part 2: CIE standard illuminants</title>
+
+  
+<title type="main" format="text/plain" language="en" script="Latn">Colorimetry — Part 2: CIE standard illuminants</title>
+
+  <uri type="src">https://www.iso.org/standard/52496.html</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/05/24/52496.detail.rss</uri>
+  <docidentifier type="ISO" primary="true">ISO 11664-2:2007</docidentifier><docidentifier type="metanorma">[11]</docidentifier>
+  <docidentifier type="iso-reference">ISO 11664-2:2007(E)</docidentifier>
+  <docidentifier type="URN">urn:iso:std:iso:11664:-2:stage-95.99</docidentifier>
+  <docnumber>11664</docnumber>
+  <date type="published">
+    <on>2007-10</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      
+<name>International Organization for Standardization</name>
+
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <abstract format="text/plain" language="en" script="Latn">ISO 11664-2:2007 comprises ISO 10526:2007 and ISO 10526:2007/Cor.1:2008. Its technical content is identical to that of ISO 10526:2007. ISO 10526:2007/Cor.1:2008 changes the reference number of the standard from 10526 to 11664-2.
+ISO 11664-2:2007 specifies two illuminants for use in colorimetry. The illuminants are the CIE standard illuminant A and the CIE standard illuminant D65.</abstract>
+  <status>
+    <stage>95</stage>
+    <substage>99</substage>
+  </status>
+  <copyright>
+    <from>2007</from>
+    <owner>
+      <organization>
+        
+<name>ISO</name>
+
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO 10526:2007</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 10526:2007</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO 10526:2007/Cor 1:2008</formattedref>
+      <docidentifier type="ISO" primary="true">ISO 10526:2007/Cor 1:2008</docidentifier>
+    </bibitem>
+
+  </relation>
+  <relation type="updates">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/CIE 11664-2:2022</formattedref>
+      <docidentifier type="ISO" primary="true">ISO/CIE 11664-2:2022</docidentifier>
+      <date type="circulated">
+        <on>2022-08-31</on>
+      </date>
+    </bibitem>
+
+  </relation>
+  <place>
+    <city>Geneva</city>
+  </place>
+</bibitem><bibitem anchor="ohno" id="_a378f204-c373-ee3b-1de1-9f527d866a2a">
+  <formattedref format="application/x-isodoc+xml">Ohno Y., Photometric Standards (Chapter 3), In Handbook of Applied Photometry, Casimir DeCusatis, (p. 55-99) American Institute of Physics Press, ISBN 1-56396-416-3, Woodbury, NY, USA. (1997).</formattedref>
+  <docidentifier type="metanorma">[12]</docidentifier>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem anchor="cie-210" id="_e704b7ae-8fa4-a34d-358f-a78bd89c6a89">
+  <formattedref format="application/x-isodoc+xml">CIE 210:2014 Photometry Using <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>V</mi>
+    </mstyle>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>ii(V) (ii(lambda))</asciimath></stem>-Corrected Detectors as Reference and Transfer Standards.</formattedref>
+  <docidentifier type="metanorma">[13]</docidentifier>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem anchor="gaertner" id="_763b048f-4add-d14e-f70d-2a6645c33b40">
+  <formattedref format="application/x-isodoc+xml">Gaertner A.A., Optical Radiation Measurement (Chapter 9), in Modern Metrology Concerns, Luigi Cocco, InTech, ISBN 978-953-51-0584-8, Rijeka, Croatia (2012). Open Access available at <link target="http://www.intechopen.com/articles/show/title/optical-radiation-measurements"/></formattedref>
+  <docidentifier type="metanorma">[14]</docidentifier>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem anchor="cie-s025" id="_d375a99b-2026-1562-df07-28078c343a02">
+  <formattedref format="application/x-isodoc+xml">CIE (International Commission on Illumination) International Standard on Test Method for LED lamps, LED luminaires and LED modules, S025/E:2015.</formattedref>
+  <docidentifier type="metanorma">[15]</docidentifier>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem anchor="cie-198" id="_6e45722e-0d3c-2aac-baef-cf94eff0dc54">
+  <formattedref format="application/x-isodoc+xml">CIE 198:2011 Determination of Measurement Uncertainties in Photometry.</formattedref>
+  <docidentifier type="metanorma">[16]</docidentifier>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem anchor="cgm-100" id="_6cd6e18b-4bd6-b368-78c2-fa3b6a107106">
+  <formattedref format="application/x-isodoc+xml">CGM 100:2008 Evaluation of measurement data – Guide to the expression of uncertainty in measurement.</formattedref>
+  <docidentifier type="metanorma">[17]</docidentifier>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</references></bibliography>
+</metanorma>

@@ -1,0 +1,2934 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metanorma xmlns="https://www.metanorma.org/ns/standoc" type="semantic" version="2.8.3" schema-version="v2.1.5" flavor="bipm">
+<bibdata type="standard">
+<title language="en" type="title-main">The International System of Units</title>
+
+<title language="en" type="title-appendix">Mise en pratique</title>
+
+<title language="en" type="title-part">Mise en pratique for the definition of the ampere and other electric units in the SI</title>
+
+<title language="en" type="title-part-prefix">Part 4.1</title>
+
+<title language="en" type="title-appendix-prefix">Appendix 2</title>
+
+<title language="fr" type="title-main">Le système international d’unités</title>
+
+<title language="fr" type="title-appendix">Mise en pratique</title>
+
+<title language="fr" type="title-part">Mise en pratique de la définition de l’ampère et d’autres unités électriques</title>
+
+<title language="fr" type="title-part-prefix">Partie 4.1</title>
+
+<title language="fr" type="title-appendix-prefix">Appendice 2</title>
+<docidentifier primary="true" type="BIPM">BIPM SI MEP A1-4.1 A2</docidentifier><docidentifier type="BIPM-parent-document">BIPM SI MEP A1</docidentifier><docnumber>SI MEP A1</docnumber><contributor><role type="author"/><organization>
+<name>Bureau International des Poids et Mesures</name>
+<abbreviation>BIPM</abbreviation></organization></contributor><contributor><role type="author"><description>committee</description></role><organization>
+<name>Bureau International des Poids et Mesures</name>
+<subdivision type="Committee">
+<name language="en">Consultative Committee for Electricity and Magnetism</name>
+
+<name language="fr">Comité consultatif d'électricité et magnétisme</name>
+<identifier>CCEM</identifier><identifier type="full">CCEM</identifier></subdivision></organization></contributor><contributor><role type="publisher"/><organization>
+<name>Bureau International des Poids et Mesures</name>
+<abbreviation>BIPM</abbreviation></organization></contributor><edition>9</edition><version><revision-date>2019-05-20</revision-date></version><language>en</language><script>Latn</script><status><stage>in-force</stage></status><copyright><from>2019</from><owner><organization>
+<name>Bureau International des Poids et Mesures</name>
+<abbreviation>BIPM</abbreviation></organization></owner></copyright><ext><doctype>mise-en-pratique</doctype><flavor>bipm</flavor><structuredidentifier><docnumber>SI MEP A1</docnumber><part>4.1</part><appendix>2</appendix>
+</structuredidentifier><si-aspect>A_e</si-aspect></ext></bibdata><metanorma-extension><semantic-metadata><stage-published>true</stage-published></semantic-metadata>
+<UnitsML xmlns="https://schema.unitsml.org/unitsml/1.0"><UnitSet><Unit dimensionURL="#NISTd4" id="U_NISTu4">
+        <UnitSystem name="SI" type="SI_base" lang="en-US"/>
+        <UnitName lang="en">ampere</UnitName>
+        <UnitSymbol type="HTML">A</UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">A</mi>
+          </math>
+        </UnitSymbol>
+      </Unit><Unit dimensionURL="#NISTd18" id="U_NISTu16">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">volt</UnitName>
+        <UnitSymbol type="HTML">V</UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">V</mi>
+          </math>
+        </UnitSymbol>
+      </Unit><Unit dimensionURL="#D_L2MT4I2" id="U_NISTu18">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">ohm</UnitName>
+        <UnitSymbol type="HTML">Ω</UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">Ω</mi>
+          </math>
+        </UnitSymbol>
+      </Unit><Unit dimensionURL="#NISTd21" id="U_NISTu19">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">siemens</UnitName>
+        <UnitSymbol type="HTML">S</UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">S</mi>
+          </math>
+        </UnitSymbol>
+      </Unit><Unit dimensionURL="#D_MI" id="U_NISTu15">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">coulomb</UnitName>
+        <UnitSymbol type="HTML">C</UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">C</mi>
+          </math>
+        </UnitSymbol>
+      </Unit><Unit dimensionURL="#NISTd19" id="U_NISTu17">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">farad</UnitName>
+        <UnitSymbol type="HTML">F</UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">F</mi>
+          </math>
+        </UnitSymbol>
+      </Unit><Unit dimensionURL="#NISTd23" id="U_NISTu22">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">henry</UnitName>
+        <UnitSymbol type="HTML">H</UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">H</mi>
+          </math>
+        </UnitSymbol>
+      </Unit><Unit dimensionURL="#NISTd16" id="U_NISTu14">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">watt</UnitName>
+        <UnitSymbol type="HTML">W</UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">W</mi>
+          </math>
+        </UnitSymbol>
+      </Unit><Unit dimensionURL="#NISTd13" id="U_NISTu21">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">tesla</UnitName>
+        <UnitSymbol type="HTML">T</UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">T</mi>
+          </math>
+        </UnitSymbol>
+      </Unit><Unit dimensionURL="#NISTd22" id="U_NISTu20">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">weber</UnitName>
+        <UnitSymbol type="HTML">Wb</UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">Wb</mi>
+          </math>
+        </UnitSymbol>
+      </Unit><Unit dimensionURL="#NISTd17" id="U_A.s">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">A*s</UnitName>
+        <UnitSymbol type="HTML">A s</UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">A</mi>
+            <mo rspace="thickmathspace">⁢</mo>
+            <mi mathvariant="normal">s</mi>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="ampere"/>
+          <EnumeratedRootUnit unit="second"/>
+        </RootUnits>
+      </Unit><Unit dimensionURL="#D_L0M0T-7I-3" id="U_V.Ohm-1">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">V*Ohm^-1</UnitName>
+        <UnitSymbol type="HTML">V Ω
+          <sup>−1</sup>
+        </UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">V</mi>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">Ω</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>1</mn>
+              </mrow>
+            </msup>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="volt"/>
+          <EnumeratedRootUnit unit="ohm" powerNumerator="-1"/>
+        </RootUnits>
+      </Unit><Unit dimensionURL="#D_MT-1I" id="U_C.s-1">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">C*s^-1</UnitName>
+        <UnitSymbol type="HTML">C s
+          <sup>−1</sup>
+        </UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">C</mi>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">s</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>1</mn>
+              </mrow>
+            </msup>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="coulomb"/>
+          <EnumeratedRootUnit unit="second" powerNumerator="-1"/>
+        </RootUnits>
+      </Unit><Unit dimensionURL="#NISTd3" id="U_NISTu3">
+        <UnitSystem name="SI" type="SI_base" lang="en-US"/>
+        <UnitName lang="en">second</UnitName>
+        <UnitSymbol type="HTML">s</UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">s</mi>
+          </math>
+        </UnitSymbol>
+      </Unit><Unit dimensionURL="#D_L0M0TI" id="U_F.V">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">F*V</UnitName>
+        <UnitSymbol type="HTML">F V</UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">F</mi>
+            <mo rspace="thickmathspace">⁢</mo>
+            <mi mathvariant="normal">V</mi>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="farad"/>
+          <EnumeratedRootUnit unit="volt"/>
+        </RootUnits>
+      </Unit><Unit dimensionURL="#D_L-2M-1T2I" id="U_GHz.V-1">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">GHz*V^-1</UnitName>
+        <UnitSymbol type="HTML">GHz V
+          <sup>−1</sup>
+        </UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">GHz</mi>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">V</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>1</mn>
+              </mrow>
+            </msup>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="hertz" prefix="G"/>
+          <EnumeratedRootUnit unit="volt" powerNumerator="-1"/>
+        </RootUnits>
+      </Unit><Unit dimensionURL="#D_L-2M-1T-4I-2" id="U_Ohm-1">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">Ohm^-1</UnitName>
+        <UnitSymbol type="HTML">Ω
+          <sup>−1</sup>
+        </UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">Ω</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>1</mn>
+              </mrow>
+            </msup>
+          </math>
+        </UnitSymbol>
+      </Unit><Unit dimensionURL="#D_L2MT-10I-4" id="U_V2.Ohm-1">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">V^2*Ohm^-1</UnitName>
+        <UnitSymbol type="HTML">V
+          <sup>2</sup> Ω
+          <sup>−1</sup>
+        </UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">V</mi>
+              </mrow>
+              <mrow>
+                <mn>2</mn>
+              </mrow>
+            </msup>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">Ω</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>1</mn>
+              </mrow>
+            </msup>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="volt" powerNumerator="2"/>
+          <EnumeratedRootUnit unit="ohm" powerNumerator="-1"/>
+        </RootUnits>
+      </Unit><Unit dimensionURL="#NISTd5" id="U_NISTu23">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">degree Celsius</UnitName>
+        <UnitSymbol type="HTML">°C</UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">°C</mi>
+          </math>
+        </UnitSymbol>
+      </Unit><Unit dimensionURL="#NISTd22" id="U_T.m2">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">T*m^2</UnitName>
+        <UnitSymbol type="HTML">T m
+          <sup>2</sup>
+        </UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">T</mi>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">m</mi>
+              </mrow>
+              <mrow>
+                <mn>2</mn>
+              </mrow>
+            </msup>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="tesla"/>
+          <EnumeratedRootUnit unit="metre" powerNumerator="2"/>
+        </RootUnits>
+      </Unit><Unit dimensionURL="#D_L2MT-2I-1" id="U_V.s">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">V*s</UnitName>
+        <UnitSymbol type="HTML">V s</UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">V</mi>
+            <mo rspace="thickmathspace">⁢</mo>
+            <mi mathvariant="normal">s</mi>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="volt"/>
+          <EnumeratedRootUnit unit="second"/>
+        </RootUnits>
+      </Unit><Unit dimensionURL="#NISTd1" id="U_NISTu1">
+        <UnitSystem name="SI" type="SI_base" lang="en-US"/>
+        <UnitName lang="en">metre</UnitName>
+        <UnitSymbol type="HTML">m</UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">m</mi>
+          </math>
+        </UnitSymbol>
+      </Unit><Unit dimensionURL="#NISTd46" id="U_N.A-2">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">N*A^-2</UnitName>
+        <UnitSymbol type="HTML">N A
+          <sup>−2</sup>
+        </UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">N</mi>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">A</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>2</mn>
+              </mrow>
+            </msup>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="newton"/>
+          <EnumeratedRootUnit unit="ampere" powerNumerator="-2"/>
+        </RootUnits>
+      </Unit></UnitSet><QuantitySet><Quantity id="NISTq4" quantityType="base" dimensionURL="#NISTd4">
+        <QuantityName lang="en-US">electric current</QuantityName>
+      </Quantity><Quantity id="NISTq28" quantityType="base" dimensionURL="#NISTd20">
+        <QuantityName lang="en-US">electric resistance</QuantityName>
+      </Quantity><Quantity id="NISTq29" quantityType="base" dimensionURL="#NISTd21">
+        <QuantityName lang="en-US">electric conductance</QuantityName>
+      </Quantity><Quantity id="NISTq27" quantityType="base" dimensionURL="#NISTd19">
+        <QuantityName lang="en-US">capacitance</QuantityName>
+      </Quantity><Quantity id="NISTq32" quantityType="base" dimensionURL="#NISTd23">
+        <QuantityName lang="en-US">inductance</QuantityName>
+      </Quantity><Quantity id="NISTq14" quantityType="base" dimensionURL="#NISTd13">
+        <QuantityName lang="en-US">magnetic flux density</QuantityName>
+      </Quantity><Quantity id="NISTq30" quantityType="base" dimensionURL="#NISTd22">
+        <QuantityName lang="en-US">magnetic flux</QuantityName>
+      </Quantity></QuantitySet><DimensionSet><Dimension id="NISTd4">
+        <ElectricCurrent symbol="I" powerNumerator="1"/>
+      </Dimension><Dimension id="NISTd18">
+        <Length symbol="L" powerNumerator="2"/>
+        <Mass symbol="M" powerNumerator="1"/>
+        <Time symbol="T" powerNumerator="-3"/>
+        <ElectricCurrent symbol="I" powerNumerator="-1"/>
+      </Dimension><Dimension id="NISTd20">
+        <Length symbol="L" powerNumerator="2"/>
+        <Mass symbol="M" powerNumerator="1"/>
+        <Time symbol="T" powerNumerator="-3"/>
+        <ElectricCurrent symbol="I" powerNumerator="-2"/>
+      </Dimension><Dimension id="D_L2MT4I2">
+        <Length symbol="L" powerNumerator="2"/>
+        <Mass symbol="M" powerNumerator="1"/>
+        <Time symbol="T" powerNumerator="4"/>
+        <ElectricCurrent symbol="I" powerNumerator="2"/>
+      </Dimension><Dimension id="NISTd21">
+        <Length symbol="L" powerNumerator="-2"/>
+        <Mass symbol="M" powerNumerator="-1"/>
+        <Time symbol="T" powerNumerator="3"/>
+        <ElectricCurrent symbol="I" powerNumerator="2"/>
+      </Dimension><Dimension id="NISTd17">
+        <Time symbol="T" powerNumerator="1"/>
+        <ElectricCurrent symbol="I" powerNumerator="1"/>
+      </Dimension><Dimension id="D_MI">
+        <Mass symbol="M" powerNumerator="1"/>
+        <ElectricCurrent symbol="I" powerNumerator="1"/>
+      </Dimension><Dimension id="NISTd19">
+        <Length symbol="L" powerNumerator="-2"/>
+        <Mass symbol="M" powerNumerator="-1"/>
+        <Time symbol="T" powerNumerator="4"/>
+        <ElectricCurrent symbol="I" powerNumerator="2"/>
+      </Dimension><Dimension id="NISTd23">
+        <Length symbol="L" powerNumerator="2"/>
+        <Mass symbol="M" powerNumerator="1"/>
+        <Time symbol="T" powerNumerator="-2"/>
+        <ElectricCurrent symbol="I" powerNumerator="-2"/>
+      </Dimension><Dimension id="NISTd16">
+        <Length symbol="L" powerNumerator="2"/>
+        <Mass symbol="M" powerNumerator="1"/>
+        <Time symbol="T" powerNumerator="-3"/>
+      </Dimension><Dimension id="NISTd13">
+        <Mass symbol="M" powerNumerator="1"/>
+        <Time symbol="T" powerNumerator="-2"/>
+        <ElectricCurrent symbol="I" powerNumerator="-1"/>
+      </Dimension><Dimension id="NISTd22">
+        <Length symbol="L" powerNumerator="2"/>
+        <Mass symbol="M" powerNumerator="1"/>
+        <Time symbol="T" powerNumerator="-2"/>
+        <ElectricCurrent symbol="I" powerNumerator="-1"/>
+      </Dimension><Dimension id="D_L0M0T-7I-3">
+        <Length symbol="L" powerNumerator="0"/>
+        <Mass symbol="M" powerNumerator="0"/>
+        <Time symbol="T" powerNumerator="-7"/>
+        <ElectricCurrent symbol="I" powerNumerator="-3"/>
+      </Dimension><Dimension id="D_MT-1I">
+        <Mass symbol="M" powerNumerator="1"/>
+        <Time symbol="T" powerNumerator="-1"/>
+        <ElectricCurrent symbol="I" powerNumerator="1"/>
+      </Dimension><Dimension id="NISTd3">
+        <Time symbol="T" powerNumerator="1"/>
+      </Dimension><Dimension id="D_L0M0TI">
+        <Length symbol="L" powerNumerator="0"/>
+        <Mass symbol="M" powerNumerator="0"/>
+        <Time symbol="T" powerNumerator="1"/>
+        <ElectricCurrent symbol="I" powerNumerator="1"/>
+      </Dimension><Dimension id="D_L-2M-1T2I">
+        <Length symbol="L" powerNumerator="-2"/>
+        <Mass symbol="M" powerNumerator="-1"/>
+        <Time symbol="T" powerNumerator="2"/>
+        <ElectricCurrent symbol="I" powerNumerator="1"/>
+      </Dimension><Dimension id="D_L-2M-1T-4I-2">
+        <Length symbol="L" powerNumerator="-2"/>
+        <Mass symbol="M" powerNumerator="-1"/>
+        <Time symbol="T" powerNumerator="-4"/>
+        <ElectricCurrent symbol="I" powerNumerator="-2"/>
+      </Dimension><Dimension id="D_L2MT-10I-4">
+        <Length symbol="L" powerNumerator="2"/>
+        <Mass symbol="M" powerNumerator="1"/>
+        <Time symbol="T" powerNumerator="-10"/>
+        <ElectricCurrent symbol="I" powerNumerator="-4"/>
+      </Dimension><Dimension id="NISTd5">
+        <ThermodynamicTemperature symbol="Theta" powerNumerator="1"/>
+      </Dimension><Dimension id="D_L2MT-2I-1">
+        <Length symbol="L" powerNumerator="2"/>
+        <Mass symbol="M" powerNumerator="1"/>
+        <Time symbol="T" powerNumerator="-2"/>
+        <ElectricCurrent symbol="I" powerNumerator="-1"/>
+      </Dimension><Dimension id="NISTd1">
+        <Length symbol="L" powerNumerator="1"/>
+      </Dimension><Dimension id="NISTd46">
+        <Length symbol="L" powerNumerator="1"/>
+        <Mass symbol="M" powerNumerator="1"/>
+        <Time symbol="T" powerNumerator="-2"/>
+        <ElectricCurrent symbol="I" powerNumerator="-2"/>
+      </Dimension></DimensionSet><PrefixSet><Prefix prefixBase="10" prefixPower="9" id="NISTp10_9">
+        <PrefixName lang="en">giga</PrefixName>
+        <PrefixSymbol type="ASCII">G</PrefixSymbol>
+        <PrefixSymbol type="unicode">G</PrefixSymbol>
+        <PrefixSymbol type="LaTeX">G</PrefixSymbol>
+        <PrefixSymbol type="HTML">G</PrefixSymbol>
+      </Prefix></PrefixSet></UnitsML><presentation-metadata><toc-heading-levels>2</toc-heading-levels><html-toc-heading-levels>2</html-toc-heading-levels><doc-toc-heading-levels>2</doc-toc-heading-levels><pdf-toc-heading-levels>2</pdf-toc-heading-levels></presentation-metadata></metanorma-extension>
+<boilerplate><copyright-statement>
+
+<clause id="_de529b36-05ca-b9e4-a8ac-4c41964770f0" obligation="normative"><p id="_2c83afdd-6f3c-8a19-1954-83e4ede65ae8" align="center">© Bureau International des Poids et Mesures 2019 all rights reserved</p>
+</clause>
+</copyright-statement>
+
+<license-statement>
+
+<clause id="_4ffcd5b5-8039-1aa4-59ce-390aa3b61c7a" obligation="normative">
+<title id="_29f75465-0cf3-76fd-bc56-6b3aa457ee69">Copyright statement</title>
+<p id="_50719790-3c5b-c213-8298-0631d690bc21">This document is distributed under the terms of the Creative Commons Attribution 4.0 International License (<link target="http://creativecommons.org/licenses/by/4.0/:"/>), which permits unrestricted use, distribution, and reproduction in any medium, provided you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made.</p>
+</clause>
+</license-statement>
+
+<feedback-statement>
+
+<p id="_5926bc3f-b367-69e7-6cc6-442a91e32db2">BIPM<br/> Pavillon de Breteuil<br/> F-92312 Sèvres Cedex<br/> FRANCE</p>
+</feedback-statement>
+</boilerplate><sections><clause id="_f6de2335-484e-bd67-9b69-db69433d798a" anchor="sec-1" obligation="normative">
+<title id="_46069e95-51f4-1e9a-f2b9-70fe751a0935">Introduction</title>
+<p id="_72372a32-80da-33b0-bba7-d0097269cfac">The purpose of this <em>Mise en pratique</em>, prepared by the Consultative Committee for
+Electricity and Magnetism (CCEM) of the International Committee for Weights and Measures
+(CIPM), is to indicate how the SI base unit, the ampere, symbol <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu4">
+      <mstyle mathvariant="normal">
+        <mi>A</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(A)"</asciimath></stem>, and
+the derived electric SI units with names and symbols, the volt <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu16">
+      <mstyle mathvariant="normal">
+        <mi>V</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(V)"</asciimath></stem>, ohm
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu18">
+      <mstyle mathvariant="normal">
+        <mi>Ω</mi>
+      </mstyle>
+      
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(Ohm)"</asciimath></stem>, siemens <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu19">
+      <mstyle mathvariant="normal">
+        <mi>S</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(S)"</asciimath></stem>, coulomb <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu15">
+      <mstyle mathvariant="normal">
+        <mi>C</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(C)"</asciimath></stem>, farad
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu17">
+      <mstyle mathvariant="normal">
+        <mi>F</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(F)"</asciimath></stem>, henry <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu22">
+      <mstyle mathvariant="normal">
+        <mi>H</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(H)"</asciimath></stem>, watt <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu14">
+      <mstyle mathvariant="normal">
+        <mi>W</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(W)"</asciimath></stem>, tesla
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu21">
+      <mstyle mathvariant="normal">
+        <mi>T</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(T)"</asciimath></stem>, and weber <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu20">
+      <mstyle mathvariant="normal">
+        <mi>Wb</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(Wb)"</asciimath></stem>, may be realized in practice.</p>
+
+<p id="_08f96cb8-5e80-e010-1858-6c33e166e020">In general, the term “<tt>to realize a unit</tt>” is interpreted to mean the establishment of the value and associated uncertainty of a quantity of the same kind as the unit that is consistent with the definition of the unit. The definition of the ampere does not imply any particular experiment for its practical realization. Any method capable of deriving an electric current value traceable to the set of seven reference constants could, in principle, be used. Thus, the list of methods given is not meant to be an exhaustive list of all possibilities, but rather a list of those primary methods that are easiest to implement and/or that provide the smallest uncertainties.</p>
+
+<p id="_48c4a638-4ce8-1711-8310-a1eed39a881c">A primary method is a method having the highest metrological properties; whose operation can be completely described and understood; for which a complete uncertainty statement can be written down in terms of SI units; and which does not require a reference standard of the same quantity.</p>
+</clause>
+
+<clause id="_d9f25bc6-067d-88f1-1856-725c27512c4d" obligation="normative">
+<title id="_0073a2f1-2be1-fb79-2498-24edee486d89">Definition of the ampere</title>
+<p id="_feb253b4-e716-f3f2-8a2e-c85767d2dc06">The definition of the ampere, SI base unit of electric current, is as follows <eref type="inline" bibitemid="bipm" citeas="[1]"/>:</p>
+
+<quote id="_dfc30ab8-1ffb-13cd-d532-d611c8b5306a"><p id="_32a7d619-8a16-8f0b-46ea-52fc130fa223"><strong>The ampere, symbol <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu4">
+      <mstyle mathvariant="normal">
+        <mi>A</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(A)"</asciimath></stem>, is the SI unit of electric current. It is
+defined by taking the fixed numerical value of the elementary charge <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>e</mi>
+  </mstyle>
+</math><asciimath>e</asciimath></stem> to be
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1.602176634</mn>
+    <mo>×</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>19</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math><asciimath>1.602176634 xx 10^(-19)</asciimath></stem> when expressed in the unit <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu15">
+      <mstyle mathvariant="normal">
+        <mi>C</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(C)"</asciimath></stem>, which is
+equal to <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_A.s">
+      <mstyle mathvariant="normal">
+        <mi>A</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <mstyle mathvariant="normal">
+        <mi>s</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(A*s)"</asciimath></stem>, where the second is defined in terms of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi mathvariant="normal">Δ</mi>
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>ν</mi>
+      </mstyle>
+      <mtext>Cs</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>Delta
+ii(nu)_{"Cs"}</asciimath></stem>.</strong></p>
+</quote>
+</clause>
+
+<clause id="_5af35c43-ad24-0b0b-2230-130e7e70d84a" anchor="sec-3" obligation="normative">
+<title id="_3fec8fd9-9105-89d0-c238-e6a2995f22c8">Practical realization of the ampere</title>
+<p id="_aee98025-e537-9a35-9cd3-20633bad4039">As already noted in <xref target="sec-1"/>, to realize a unit generally means to establish the value
+and associated uncertainty of a quantity of the same kind as the unit that is consistent
+with the definition of the unit. In practice, the ampere <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu4">
+      <mstyle mathvariant="normal">
+        <mi>A</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(A)"</asciimath></stem> can be realized:</p>
+
+<ol id="_cfb18621-22ac-8c19-96fc-d70c4543b142" type="arabic"><li><p id="_6ede6b79-d8a1-526d-891c-e6bf49b048c4">by using Ohm’s law, the unit relation <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu4">
+      <mstyle mathvariant="normal">
+        <mi>A</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+    <mo>=</mo>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_V.Ohm-1">
+      <mstyle mathvariant="normal">
+        <mi>V</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>Ω</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>1</mn>
+        </mrow>
+      </msup>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(A)" = "unitsml(V//Ohm)"</asciimath></stem>, and
+using practical realizations of the SI
+derived units the volt <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu16">
+      <mstyle mathvariant="normal">
+        <mi>V</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(V)"</asciimath></stem> and the ohm <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu18">
+      <mstyle mathvariant="normal">
+        <mi>Ω</mi>
+      </mstyle>
+      
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(Ohm)"</asciimath></stem>, based on the Josephson and quantum Hall effects, respectively, as discussed in  <xref target="sec-4"/> and <xref target="sec-5"/> below; or</p>
+</li>
+<li><p id="_27db9686-47e1-d0d7-6f5b-014ad8a95ba7">by using a single electron transport (SET) or similar device, the unit relation
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu4">
+      <mstyle mathvariant="normal">
+        <mi>A</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+    <mo>=</mo>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_C.s-1">
+      <mstyle mathvariant="normal">
+        <mi>C</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>s</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>1</mn>
+        </mrow>
+      </msup>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(A)" = "unitsml(C//s)"</asciimath></stem>, the
+value of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>e</mi>
+  </mstyle>
+</math><asciimath>e</asciimath></stem> given in the definition of the ampere and a practical realization of
+the SI base unit the second <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu3">
+      <mstyle mathvariant="normal">
+        <mi>s</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(s)"</asciimath></stem>; or</p>
+</li>
+<li><p id="_0e3b2852-cc23-fb6c-7e45-6a3a503c55a2">by using the relation <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>I</mi>
+    </mstyle>
+    <mo>=</mo>
+    <mstyle mathvariant="italic">
+      <mi>C</mi>
+    </mstyle>
+    <mo>⋅</mo>
+    <mtext>d</mtext>
+    <mstyle mathvariant="italic">
+      <mi>U</mi>
+    </mstyle>
+    <mo>/</mo>
+    <mtext>d</mtext>
+    <mi>t</mi>
+  </mstyle>
+</math><asciimath>ii(I) = ii(C) * "d"ii(U)//"d"t</asciimath></stem>, the unit relation
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu4">
+      <mstyle mathvariant="normal">
+        <mi>A</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+    <mo>=</mo>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_F.V">
+      <mstyle mathvariant="normal">
+        <mi>F</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <mstyle mathvariant="normal">
+        <mi>V</mi>
+      </mstyle>
+      
+      
+    </mrow>
+    <mo>/</mo>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu3">
+      <mstyle mathvariant="normal">
+        <mi>s</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(A)" = "unitsml(F*V)" // "unitsml(s)"</asciimath></stem>, and practical realizations of the
+SI derived units the volt <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu16">
+      <mstyle mathvariant="normal">
+        <mi>V</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(V)"</asciimath></stem> and the farad <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu17">
+      <mstyle mathvariant="normal">
+        <mi>F</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(F)"</asciimath></stem> and of
+the SI base unit second <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu3">
+      <mstyle mathvariant="normal">
+        <mi>s</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(s)"</asciimath></stem>.</p>
+</li>
+</ol>
+
+<p id="_394a3ef8-f9a1-5121-b0ba-2a47096da7e6">At the time of the preparation of this <em>Mise en pratique</em>, single electron transport (SET) implementations still have technical limitations and often larger relative uncertainties than some other competitive techniques. However, SET implementations are included in this  <em>Mise en pratique</em> because they offer unique and elegant approaches to realizing SI units, and their uncertainties have been improving in recent years, and they promise to improve further in the future.</p>
+</clause>
+
+<clause id="_2842d77a-54be-5326-d8cc-b9763ccb2c2a" anchor="sec-4" obligation="normative">
+<title id="_25d8eda8-c3c0-1502-cd38-5a6aed62fb84">Practical realization of the volt, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu16">
+      <mstyle mathvariant="normal">
+        <mi>V</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(V)"</asciimath></stem>, SI derived unit of electric potential difference (voltage) and electromotive force</title>
+<p id="_9ba4715e-0c3d-508f-139e-65671595d98b">The volt <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu16">
+      <mstyle mathvariant="normal">
+        <mi>V</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(V)"</asciimath></stem> can be realized using the Josephson effect and the
+following value of the Josephson constant <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>K</mi>
+      </mstyle>
+      <mtext>J</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(K)_"J"</asciimath></stem><fn id="_116d2ff5-9cf4-b13f-02ee-26c87a5269b3" reference="1"><p id="_0960b11c-a753-e5f5-51fb-caa55365066f">This value has been calculated to 15 significant digits.</p>
+</fn>:</p>
+
+<formula id="_0fa8af53-ec9e-a15d-4c8e-90fecf88ccd4" anchor="eq-1"><stem block="true" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>K</mi>
+      </mstyle>
+      <mtext>J</mtext>
+    </msub>
+    <mo>=</mo>
+    <mn>483597.848416984</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_GHz.V-1">
+      <mstyle mathvariant="normal">
+        <mi>GHz</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>V</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>1</mn>
+        </mrow>
+      </msup>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>ii(K)_"J" = 483597.848416984 "unitsml(GHz*V^(-1))"</asciimath></stem></formula>
+
+<p id="_086d1b59-6b8b-5f64-efd7-9d3523afb9fa">This value follows from the assumption of the accuracy of the equation <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>K</mi>
+      </mstyle>
+      <mtext>J</mtext>
+    </msub>
+    <mo>=</mo>
+    <mn>2</mn>
+    <mi>e</mi>
+    <mo>/</mo>
+    <mi>h</mi>
+  </mstyle>
+</math><asciimath>ii(K)_"J" =
+2e//h</asciimath></stem>, which is strongly
+supported by a large body of experimental and theoretical works, and the values of
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>h</mi>
+  </mstyle>
+</math><asciimath>h</asciimath></stem> and <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>e</mi>
+  </mstyle>
+</math><asciimath>e</asciimath></stem> given in <eref type="inline" bibitemid="bipm" citeas="[1]"/>. Although the quotient <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>2</mn>
+    <mi>e</mi>
+    <mo>/</mo>
+    <mi>h</mi>
+  </mstyle>
+</math><asciimath>2e//h</asciimath></stem> can obviously be calculated with any number
+of digits, this truncated
+recommended value is in error by less than 1 part in <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msup>
+      <mn>10</mn>
+      <mn>15</mn>
+    </msup>
+  </mstyle>
+</math><asciimath>10^(15)</asciimath></stem>, which is intended
+to be negligible in the
+vast majority of applications. In those rare cases where this error may not be
+negligible, additional
+digits should be employed. The advantage of recommending a particular value of
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>K</mi>
+      </mstyle>
+      <mtext>J</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(K)_"J"</asciimath></stem> for practical use is that it ensures that virtually all realizations of the volt based on the Josephson effect employ exactly the same value.</p>
+
+<p id="_6988d1a1-9b50-8eee-7d94-faabd8766b4b">Note that the value of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>K</mi>
+      </mstyle>
+      <mtext>J</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(K)_"J"</asciimath></stem> in <xref target="eq-1"/> is smaller than the value
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>K</mi>
+      </mstyle>
+      <mtext>J-90</mtext>
+    </msub>
+    <mo>=</mo>
+    <mn>483597.9</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_GHz.V-1">
+      <mstyle mathvariant="normal">
+        <mi>GHz</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>V</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>1</mn>
+        </mrow>
+      </msup>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>ii(K)_{"J-90"} = 483597.9 "unitsml(GHz*V^(-1))"</asciimath></stem>, which was
+adopted by the CIPM starting 1 January 1990 for the international realization of the
+volt using the
+Josephson effect, by the fractional amount <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>106.665</mn>
+    <mo>×</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>9</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math><asciimath>106.665 xx 10^(-9)</asciimath></stem>. This implies that
+the unit of voltage
+realized using <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>K</mi>
+      </mstyle>
+      <mtext>J-90</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(K)_{"J-90"}</asciimath></stem> was larger than the present SI unit as realized using the value in  <xref target="eq-1"/> by the
+same fractional amount. Thus, the numerical value of a voltage measured in terms of
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>K</mi>
+      </mstyle>
+      <mtext>J-90</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(K)_{"J-90"}</asciimath></stem> would
+have been smaller by the same fractional amount as the numerical value of the identical
+voltage measured today in terms of the present SI volt realized using the value of
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>K</mi>
+      </mstyle>
+      <mtext>J</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(K)_"J"</asciimath></stem> given in <xref target="eq-1"/>.</p>
+</clause>
+
+<clause id="_ad66c3bc-7ac9-0b69-a2cc-cf185034bdab" anchor="sec-5" obligation="normative">
+<title id="_522e1cee-2b64-a949-3495-567516f6f641">Practical realization of the ohm, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu18">
+      <mstyle mathvariant="normal">
+        <mi>Ω</mi>
+      </mstyle>
+      
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(Ohm)"</asciimath></stem>, SI derived unit of electric resistance and impedance</title>
+<p id="_4e828ba1-342c-6895-7c85-95f693210978">The ohm <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu18">
+      <mstyle mathvariant="normal">
+        <mi>Ω</mi>
+      </mstyle>
+      
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(Ohm)"</asciimath></stem> can be realized as follows:</p>
+
+<ol id="_7bbe4380-d023-67b2-5147-f6bb1aaae57d" type="arabic"><li><p id="_817ee0a1-8c74-b35a-d8b8-788381f5d4a5">by using the quantum Hall effect in a manner consistent with the CCEM Guidelines
+<eref type="inline" bibitemid="delahaye" citeas="[2]"/> and the following value of the von Klitzing constant <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>R</mi>
+      </mstyle>
+      <mtext>K</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(R)_"K"</asciimath></stem><fn id="_87a9c27d-7d6b-b8a7-e29b-4907baef3f8e" reference="1"><p id="_7aecd757-bb19-2f90-296b-5a65cc80bf7a">This value has been calculated to 15 significant digits.</p>
+</fn>:</p>
+<formula id="_9429b5ec-f120-8535-7c46-53ac411d0ecb" anchor="eq-2"><stem block="true" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>R</mi>
+      </mstyle>
+      <mtext>K</mtext>
+    </msub>
+    <mo>=</mo>
+    <mn>25812.8074593045</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu18">
+      <mstyle mathvariant="normal">
+        <mi>Ω</mi>
+      </mstyle>
+      
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>ii(R)_"K" = 25812.8074593045 "unitsml(Ohm)"</asciimath></stem></formula>
+
+<p id="_1e11eae1-fa79-18ec-9aa0-ca7fef5dad3b">This value follows from the assumption of the accuracy of the equation <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>R</mi>
+      </mstyle>
+      <mtext>K</mtext>
+    </msub>
+    <mo>=</mo>
+    <mi>h</mi>
+    <mo>/</mo>
+    <msup>
+      <mi>e</mi>
+      <mn>2</mn>
+    </msup>
+  </mstyle>
+</math><asciimath>ii(R)_"K" =
+h//e^2</asciimath></stem>, which is
+strongly supported by a large body of experimental and theoretical works, and the values
+of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>h</mi>
+  </mstyle>
+</math><asciimath>h</asciimath></stem>
+and <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>e</mi>
+  </mstyle>
+</math><asciimath>e</asciimath></stem> given in <eref type="inline" bibitemid="bipm" citeas="[1]"/>. Although the quotient <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>h</mi>
+    <mo>/</mo>
+    <msup>
+      <mi>e</mi>
+      <mn>2</mn>
+    </msup>
+  </mstyle>
+</math><asciimath>h//e^2</asciimath></stem> can obviously be
+calculated with any number
+of digits, this truncated recommended value is in error by less than 1 part in
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msup>
+      <mn>10</mn>
+      <mn>15</mn>
+    </msup>
+  </mstyle>
+</math><asciimath>10^(15)</asciimath></stem>, which is
+intended to be negligible in the vast majority of applications. In those rare cases
+where this
+error may not be negligible, additional digits should be employed. The advantage of
+recommending a particular value of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>R</mi>
+      </mstyle>
+      <mtext>K</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(R)_"K"</asciimath></stem> for practical use is that it ensures that virtually all realizations of the ohm based on the quantum Hall effect employ exactly the same value; or</p>
+</li>
+<li><p id="_23e2caf6-b07c-9b5e-fdb8-634dcea3edea">by comparing an unknown resistance to the impedance of a known capacitance using, for example, a quadrature bridge, where, for example, the capacitance has been determined by means of a calculable capacitor and the value of the electric constant given by  <xref target="eq-3"/> in <xref target="magnetic_constant"/> below.</p>
+</li>
+</ol>
+
+<p id="_1b394cd3-0dbb-8793-e972-3b78bb575cd5">Note that the value of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>R</mi>
+      </mstyle>
+      <mtext>K</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(R)_"K"</asciimath></stem> in <xref target="eq-2"/> is larger than the value
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>R</mi>
+      </mstyle>
+      <mtext>K-90</mtext>
+    </msub>
+    <mo>=</mo>
+    <mn>25812.807</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu18">
+      <mstyle mathvariant="normal">
+        <mi>Ω</mi>
+      </mstyle>
+      
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>ii(R)_{"K-90"} = 25812.807 "unitsml(Ohm)"</asciimath></stem>, which was adopted
+by the CIPM starting 1 January 1990 for the international realization of the ohm using
+the quantum
+Hall effect, by the fractional amount <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>17.793</mn>
+    <mo>×</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>9</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math><asciimath>17.793 xx 10^(-9)</asciimath></stem>. This implies that the
+unit of resistance realized
+using <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>R</mi>
+      </mstyle>
+      <mtext>K-90</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(R)_{"K-90"}</asciimath></stem> was larger than the present SI unit as realized using the value in  <xref target="eq-2"/> by the same
+fractional amount. Thus, the numerical value of a resistance measured in terms of
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>R</mi>
+      </mstyle>
+      <mtext>K-90</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(R)_{"K-90"}</asciimath></stem> would have
+been smaller by the same fractional amount as the numerical value of the identical
+resistance
+measured today in terms of the present SI ohm realized using the value of
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>R</mi>
+      </mstyle>
+      <mtext>K</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(R)_"K"</asciimath></stem> given in <xref target="eq-2"/>.</p>
+</clause>
+
+<clause id="_cd4aea39-aead-979e-9c1c-4b91fa4baf96" obligation="normative">
+<title id="_cfc7f604-b7c3-6515-cd3d-a630b836603d">Practical realization of the siemens, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu19">
+      <mstyle mathvariant="normal">
+        <mi>S</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(S)"</asciimath></stem>, SI derived unit of electric conductance</title>
+<p id="_0f105ed0-bf0a-60f2-0865-944b289c5ab3">The siemens <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu19">
+      <mstyle mathvariant="normal">
+        <mi>S</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(S)"</asciimath></stem> can be realized from a realization of the ohm (see <xref target="sec-5" nosee="true"/>) since <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu19">
+      <mstyle mathvariant="normal">
+        <mi>S</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(S)"</asciimath></stem> is related to <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu18">
+      <mstyle mathvariant="normal">
+        <mi>Ω</mi>
+      </mstyle>
+      
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(Ohm)"</asciimath></stem> by the
+unit relation <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu19">
+      <mstyle mathvariant="normal">
+        <mi>S</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+    <mo>=</mo>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_Ohm-1">
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>Ω</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>1</mn>
+        </mrow>
+      </msup>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(S)" = "unitsml(Ohm^(-1))"</asciimath></stem>.</p>
+</clause>
+
+<clause id="_9e69bd0e-6ad6-c24d-14e6-755f39aceb24" obligation="normative">
+<title id="_1fa5b893-b36c-e5eb-9671-a4acf675a3f2">Practical realization of the coulomb, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu15">
+      <mstyle mathvariant="normal">
+        <mi>C</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(C)"</asciimath></stem>, SI derived unit of electric charge</title>
+<p id="_0450d3d3-069a-3b60-177f-d152b9a1abf3">The coulomb <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu15">
+      <mstyle mathvariant="normal">
+        <mi>C</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(C)"</asciimath></stem> can be realized as follows:</p>
+
+<ol id="_8de989c5-6f9c-a730-6d61-76cc910e3413" type="arabic"><li><p id="_27feb80a-bded-a449-dbde-628c1c0ccdff">by measuring the duration in terms of the SI unit of time, the second
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu3">
+      <mstyle mathvariant="normal">
+        <mi>s</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(s)"</asciimath></stem>, of the flow of an electric current known in terms of the ampere realized as indicated in  <xref target="sec-3"/>; or</p>
+</li>
+<li><p id="_31632f5d-9178-8d8c-390c-9d9366f30d01">by determining the amount of charge placed on a capacitance known in terms of the
+farad <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu17">
+      <mstyle mathvariant="normal">
+        <mi>F</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(F)"</asciimath></stem> realized by method <xref target="item-8a"/> or <xref target="item-8b"/>, using the unit
+relation <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu15">
+      <mstyle mathvariant="normal">
+        <mi>C</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+    <mo>=</mo>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_F.V">
+      <mstyle mathvariant="normal">
+        <mi>F</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <mstyle mathvariant="normal">
+        <mi>V</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(C)" = "unitsml(F*V,symbol:F cdot V)"</asciimath></stem> and by measuring the
+voltage across the capacitance in terms of the volt <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu16">
+      <mstyle mathvariant="normal">
+        <mi>V</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(V)"</asciimath></stem> as realized by the Josephson effect and the value of the Josephson constant given in  <xref target="eq-1"/> (see <xref target="sec-4" nosee="true"/>); or</p>
+</li>
+<li><p id="_7a761f9d-cea2-ed02-3d92-e905ba09d3d8">by using a SET or similar device to transfer a known amount of charge based on the
+value of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>e</mi>
+  </mstyle>
+</math><asciimath>e</asciimath></stem>, given in the definition of the ampere, onto a suitable circuit element.</p>
+</li>
+</ol>
+</clause>
+
+<clause id="_cac9f349-5efa-5a8e-1bc2-2af1768e420d" anchor="sec-8" obligation="normative">
+<title id="_28bb03af-ffa7-c9f3-d017-74b82a72750f">Practical realization of the farad, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu17">
+      <mstyle mathvariant="normal">
+        <mi>F</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(F)"</asciimath></stem>, SI derived unit of capacitance</title>
+<p id="_0692bd5f-b781-e65c-4728-48f44539d930">The farad <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu17">
+      <mstyle mathvariant="normal">
+        <mi>F</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(F)"</asciimath></stem> can be realized as follows:</p>
+
+<ol id="_aefaf65a-0a75-0640-7d60-c76f45feb80e" type="arabic"><li id="_eaa5a588-3518-09f1-c261-a6150b12c4a1" anchor="item-8a"><p id="_a9dfa646-6000-02c0-9ee3-0b8f29e45b84">by comparing the impedance of a known resistance obtained using the quantum Hall effect and the value of the von Klitzing constant given in  <xref target="eq-2"/> (see <xref target="sec-5"/>), including a quantized Hall resistance itself, to the impedance of an unknown capacitance using, for example, a quadrature bridge; or</p>
+</li>
+<li id="_39048071-fe24-b659-58ef-189f560f7a98" anchor="item-8b"><p id="_19067d59-9f03-6747-ae22-923cfd94ae23">by using a calculable capacitor and the value of the electric constant given by  <xref target="eq-3"/>.</p>
+</li>
+</ol>
+</clause>
+
+<clause id="_0f046f70-ec03-4656-c819-237bb4138323" obligation="normative">
+<title id="_57a518f9-b7c3-9e7e-b2f5-e57d26529ea9">Practical realization of the henry, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu22">
+      <mstyle mathvariant="normal">
+        <mi>H</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(H)"</asciimath></stem>, SI derived unit of inductance</title>
+<p id="_0b36bca1-5ddf-4119-e2fc-ec43a476220c">The henry <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu22">
+      <mstyle mathvariant="normal">
+        <mi>H</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(H)"</asciimath></stem> can be realized as follows:</p>
+
+<ol id="_bf6b8b2d-e28d-3529-7b40-4f3c64dec015" type="arabic"><li><p id="_42943e29-b6f3-8ef0-bd25-e79e14f153f7">by comparing the impedance of an unknown inductance to the impedance of a known
+capacitance with the aid of known resistances using, for example, a Maxwell-Wien bridge,
+where the known capacitance and resistances have been determined, for example, from the
+quantum Hall effect and the value of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>R</mi>
+      </mstyle>
+      <mtext>K</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(R)_"K"</asciimath></stem> given in <xref target="eq-2"/> (see <xref target="sec-5"/> and  <xref target="sec-8"/>); or</p>
+</li>
+<li><p id="_5cda3a0e-74d6-8266-70df-7eb3ebd0af5a">by using a calculable inductor of, for example, the Campbell type of mutual inductor
+and the value of the magnetic constant <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>μ</mi>
+      </mstyle>
+      <mn>0</mn>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(mu)_0</asciimath></stem> given by <xref target="eq-6"/>.</p>
+</li>
+</ol>
+</clause>
+
+<clause id="_051d00ea-d35e-98a8-1fe6-722fc65d6fab" obligation="normative">
+<title id="_74125f43-4a05-ab60-1ed3-e7f94a718e37">Practical realization of the watt, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu14">
+      <mstyle mathvariant="normal">
+        <mi>W</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(W)"</asciimath></stem>, SI derived unit of power</title>
+<p id="_7d892b3b-2a56-2621-a4ef-88f96d953419">The watt <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu14">
+      <mstyle mathvariant="normal">
+        <mi>W</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(W)"</asciimath></stem> can be realized using electrical units by using the fact
+that electric power is equal to current times voltage, the unit relation based on Ohm’s
+law, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu14">
+      <mstyle mathvariant="normal">
+        <mi>W</mi>
+      </mstyle>
+      
+      
+    </mrow>
+    <mo>=</mo>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_V2.Ohm-1">
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>V</mi>
+        </mstyle>
+        <mn>2</mn>
+      </msup>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>Ω</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>1</mn>
+        </mrow>
+      </msup>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(W)" = "unitsml(V^2//Ohm)"</asciimath></stem>, and realizations of the volt and ohm using the Josephson and quantum Hall effects and the values of the Josephson and von Klitzing constants given in  <xref target="eq-1"/> and <xref target="eq-2"/> (see <xref target="sec-4" nosee="true"/> and <xref target="sec-5" nosee="true"/>).</p>
+</clause>
+
+<clause id="_ff4b1722-9d4d-4d07-ec13-3a39744f8778" obligation="normative">
+<title id="_dbf1192a-1f06-d5ba-b07c-91cefc71e5b6">Practical realization of the tesla, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu21">
+      <mstyle mathvariant="normal">
+        <mi>T</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(T)"</asciimath></stem>, SI derived unit of magnetic flux density</title>
+<p id="_5778bf7d-0438-9f48-863a-3ceeecf032fb">The tesla <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu21">
+      <mstyle mathvariant="normal">
+        <mi>T</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(T)"</asciimath></stem> can be realized as follows:</p>
+
+<ol id="_b5f66646-1d47-84a0-35f6-89c6b964caef" type="arabic"><li><p id="_249498ae-e601-0b65-4645-0400232851ce">by using a solenoid, Helmholtz coil or other configuration of conductors of known dimensions carrying an electric current determined in terms of the ampere realized as discussed in  <xref target="sec-3"/>, and the value of the magnetic constant <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>μ</mi>
+      </mstyle>
+      <mn>0</mn>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(mu)_0</asciimath></stem> given in <xref target="eq-6"/> in the calculation of the magnetic flux density generated by the current carrying conductors; or</p>
+</li>
+<li><p id="_12f5328d-dbe3-cb65-4cd0-730f89da089f">by using nuclear magnetic resonance (NMR) with a sample of known gyromagnetic ratio,
+for example, a spherical sample of pure <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mtext>H</mtext>
+      <mn>2</mn>
+    </msub>
+    <mtext>O</mtext>
+  </mstyle>
+</math><asciimath>"H"_2 "O"</asciimath></stem> at <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>25</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu23">
+      <mstyle mathvariant="normal">
+        <mi>°C</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>25 "unitsml(degC)"</asciimath></stem>
+and the most recent recommended value of the shielded gyromagnetic ratio of the proton
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi mathvariant="normal">γ</mi>
+      <mtext>p'</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>gamma_{"p'"}</asciimath></stem> given by CODATA.</p>
+</li>
+</ol>
+</clause>
+
+<clause id="_fef23441-d3ad-3949-d846-85124d3534f7" obligation="normative">
+<title id="_68ce9c7f-9155-172d-a743-c33e30f59402">Practical realization of the weber, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu20">
+      <mstyle mathvariant="normal">
+        <mi>Wb</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(Wb)"</asciimath></stem>, SI derived unit of magnetic flux</title>
+<p id="_d1dce2db-e64e-61a6-9e56-b02b06ac8adf">The weber <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu20">
+      <mstyle mathvariant="normal">
+        <mi>Wb</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(Wb)"</asciimath></stem> can be realized from the tesla based on the unit relation
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu20">
+      <mstyle mathvariant="normal">
+        <mi>Wb</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+    <mo>=</mo>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_T.m2">
+      <mstyle mathvariant="normal">
+        <mi>T</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>m</mi>
+        </mstyle>
+        <mn>2</mn>
+      </msup>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(Wb)" = "unitsml(T*m^2)"</asciimath></stem> or from the volt based on the unit relation
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu20">
+      <mstyle mathvariant="normal">
+        <mi>Wb</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+    <mo>=</mo>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_V.s">
+      <mstyle mathvariant="normal">
+        <mi>V</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <mstyle mathvariant="normal">
+        <mi>s</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(Wb)" = "unitsml(V*s)"</asciimath></stem>. Use can also be made of the fact that the
+magnetic flux quantum <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>ϕ</mi>
+      </mstyle>
+      <mn>0</mn>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(phi)_0</asciimath></stem>, which characterizes the magnetic properties of
+superconductors, is related to <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>h</mi>
+  </mstyle>
+</math><asciimath>h</asciimath></stem> and <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>e</mi>
+  </mstyle>
+</math><asciimath>e</asciimath></stem> as given in <eref type="inline" bibitemid="bipm" citeas="[1]"/> by the exact
+relation <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>ϕ</mi>
+      </mstyle>
+      <mn>0</mn>
+    </msub>
+    <mo>=</mo>
+    <mi>h</mi>
+    <mo>/</mo>
+    <mn>2</mn>
+    <mi>e</mi>
+  </mstyle>
+</math><asciimath>ii(phi)_0 = h//2e</asciimath></stem>.</p>
+</clause>
+
+<clause id="_6381f4a6-698b-e1fd-813c-eb85a830da45" anchor="magnetic_constant" obligation="normative">
+<title id="_19f57aa4-1152-eb75-83ee-e5ebb490c6cc">Magnetic constant <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>μ</mi>
+      </mstyle>
+      <mn>0</mn>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(mu)_0</asciimath></stem> and related quantities</title>
+<p id="_1d2931f8-bcad-661c-ed80-476dcb8aa8b5">The new definitions of the kilogram, ampere, kelvin, and mole do not alter the
+relationships among the magnetic constant (permeability of vacuum) <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>μ</mi>
+      </mstyle>
+      <mn>0</mn>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(mu)_0</asciimath></stem>,
+electric constant (permittivity of vacuum) <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>ε</mi>
+      </mstyle>
+      <mn>0</mn>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(epsilon)_0</asciimath></stem>, characteristic
+impedance of vacuum <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>Z</mi>
+      </mstyle>
+      <mn>0</mn>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(Z)_0</asciimath></stem>, admittance of vacuum <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>Y</mi>
+      </mstyle>
+      <mn>0</mn>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(Y)_0</asciimath></stem>, and speed of
+light in vacuum <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>c</mi>
+  </mstyle>
+</math><asciimath>c</asciimath></stem>. Moreover, they do not change the exact value of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>c</mi>
+  </mstyle>
+</math><asciimath>c</asciimath></stem>,
+which is explicit in the definition of the SI base unit of length, the metre,
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu1">
+      <mstyle mathvariant="normal">
+        <mi>m</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(m)"</asciimath></stem>. The relationships among these constants are</p>
+
+<formula id="_b6f580a5-c58d-7e2a-8b67-b294c04f619c" anchor="eq-3"><stem block="true" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>ε</mi>
+      </mstyle>
+      <mn>0</mn>
+    </msub>
+    <mo>=</mo>
+    <mn>1</mn>
+    <mo>/</mo>
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>μ</mi>
+      </mstyle>
+      <mn>0</mn>
+    </msub>
+    <msup>
+      <mi>c</mi>
+      <mn>2</mn>
+    </msup>
+  </mstyle>
+</math><asciimath>ii(epsilon)_0 = 1 // ii(mu)_0 c^2</asciimath></stem></formula>
+
+<formula id="_bfbb8d07-08c4-de58-e5c1-566ffd410e1f"><stem block="true" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>Z</mi>
+      </mstyle>
+      <mn>0</mn>
+    </msub>
+    <mo>=</mo>
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>μ</mi>
+      </mstyle>
+      <mn>0</mn>
+    </msub>
+    <mi>c</mi>
+    <mo>=</mo>
+    <msup>
+      <mrow>
+        <mo>(</mo>
+        <msub>
+          <mstyle mathvariant="italic">
+            <mi>μ</mi>
+          </mstyle>
+          <mn>0</mn>
+        </msub>
+        <mo>/</mo>
+        <msub>
+          <mstyle mathvariant="italic">
+            <mi>ε</mi>
+          </mstyle>
+          <mn>0</mn>
+        </msub>
+        <mo>)</mo>
+      </mrow>
+      <mrow>
+        <mn>1</mn>
+        <mo>/</mo>
+        <mn>2</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math><asciimath>ii(Z)_0 = ii(mu)_0 c = (ii(mu)_0 // ii(epsilon)_0)^{1//2}</asciimath></stem></formula>
+
+<formula id="_0e2fd1f8-e723-cb3d-f4d3-18c999d98163"><stem block="true" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>Y</mi>
+      </mstyle>
+      <mn>0</mn>
+    </msub>
+    <mo>=</mo>
+    <mn>1</mn>
+    <mo>/</mo>
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>μ</mi>
+      </mstyle>
+      <mn>0</mn>
+    </msub>
+    <mi>c</mi>
+    <mo>=</mo>
+    <msup>
+      <mrow>
+        <mo>(</mo>
+        <msub>
+          <mstyle mathvariant="italic">
+            <mi>ε</mi>
+          </mstyle>
+          <mn>0</mn>
+        </msub>
+        <mo>/</mo>
+        <msub>
+          <mstyle mathvariant="italic">
+            <mi>μ</mi>
+          </mstyle>
+          <mn>0</mn>
+        </msub>
+        <mo>)</mo>
+      </mrow>
+      <mrow>
+        <mn>1</mn>
+        <mo>/</mo>
+        <mn>2</mn>
+      </mrow>
+    </msup>
+    <mo>=</mo>
+    <mn>1</mn>
+    <mo>/</mo>
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>Z</mi>
+      </mstyle>
+      <mn>0</mn>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(Y)_0 = 1 // ii(mu)_0 c = (ii(epsilon)_0 // ii(mu)_0)^{1//2} = 1 // ii(Z)_0</asciimath></stem></formula>
+
+<p id="_13e23f2a-68b5-d345-0255-3cd497669a7d">However, the new definitions do affect the value of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>μ</mi>
+      </mstyle>
+      <mn>0</mn>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(mu)_0</asciimath></stem>, and hence the
+values of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>ε</mi>
+      </mstyle>
+      <mn>0</mn>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(epsilon)_0</asciimath></stem>, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>Z</mi>
+      </mstyle>
+      <mn>0</mn>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(Z)_0</asciimath></stem>, and <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>Y</mi>
+      </mstyle>
+      <mn>0</mn>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(Y)_0</asciimath></stem>. In particular,
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>μ</mi>
+      </mstyle>
+      <mn>0</mn>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(mu)_0</asciimath></stem> no longer has the exact value <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>4</mn>
+    <mi mathvariant="normal">π</mi>
+    <mo>×</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>7</mn>
+      </mrow>
+    </msup>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_N.A-2">
+      <mstyle mathvariant="normal">
+        <mi>N</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>A</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>2</mn>
+        </mrow>
+      </msup>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>4 pi xx 10^(-7) "unitsml(N*A^(-2))"</asciimath></stem>
+and must be determined experimentally. The value of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>μ</mi>
+      </mstyle>
+      <mn>0</mn>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(mu)_0</asciimath></stem> can be obtained with
+a relative standard uncertainty, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>u</mi>
+      <mtext>r</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>u_"r"</asciimath></stem>, identical to that of the fine structure
+constant <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>α</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(alpha)</asciimath></stem> from the exact relation</p>
+
+<formula id="_287ee9f7-a256-4468-d76c-b3efd5a51b09" anchor="eq-6"><stem block="true" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>μ</mi>
+      </mstyle>
+      <mn>0</mn>
+    </msub>
+    <mo>=</mo>
+    <mstyle mathvariant="italic">
+      <mi>α</mi>
+    </mstyle>
+    <mfrac>
+      <mrow>
+        <mn>2</mn>
+        <mi>h</mi>
+      </mrow>
+      <mrow>
+        <mi>c</mi>
+        <msup>
+          <mi>e</mi>
+          <mn>2</mn>
+        </msup>
+      </mrow>
+    </mfrac>
+  </mstyle>
+</math><asciimath>ii(mu)_0 = ii(alpha) {2h} / {c e^2}</asciimath></stem></formula>
+
+<p id="_846a7a4e-1496-9bc1-d093-fafd180801e7">Since <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>h</mi>
+  </mstyle>
+</math><asciimath>h</asciimath></stem>, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>c</mi>
+  </mstyle>
+</math><asciimath>c</asciimath></stem>, and <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>e</mi>
+  </mstyle>
+</math><asciimath>e</asciimath></stem> have fixed numerical values, it follows from <xref target="eq-3"/>-<xref target="eq-6"/> that</p>
+
+<formula id="_7f748a04-3b5b-01ec-c737-e018f49b4cfc"><stem block="true" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <msub>
+      <mi>u</mi>
+      <mtext>r</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <msub>
+        <mstyle mathvariant="italic">
+          <mi>Y</mi>
+        </mstyle>
+        <mn>0</mn>
+      </msub>
+      <mo>)</mo>
+    </mrow>
+    <mo>=</mo>
+    <msub>
+      <mi>u</mi>
+      <mtext>r</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <msub>
+        <mstyle mathvariant="italic">
+          <mi>Z</mi>
+        </mstyle>
+        <mn>0</mn>
+      </msub>
+      <mo>)</mo>
+    </mrow>
+    <mo>=</mo>
+    <msub>
+      <mi>u</mi>
+      <mtext>r</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <msub>
+        <mstyle mathvariant="italic">
+          <mi>ε</mi>
+        </mstyle>
+        <mn>0</mn>
+      </msub>
+      <mo>)</mo>
+    </mrow>
+    <mo>=</mo>
+    <msub>
+      <mi>u</mi>
+      <mtext>r</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <msub>
+        <mstyle mathvariant="italic">
+          <mi>μ</mi>
+        </mstyle>
+        <mn>0</mn>
+      </msub>
+      <mo>)</mo>
+    </mrow>
+    <mo>=</mo>
+    <msub>
+      <mi>u</mi>
+      <mtext>r</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>α</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>u_"r" (ii(Y)_0) = u_"r" (ii(Z)_0) = u_"r" (ii(epsilon)_0) = u_"r" (ii(mu)_0) = u_"r" (ii(alpha))</asciimath></stem></formula>
+
+<p id="_7823adf1-4fe9-3147-211f-177f9a95f1e5">The recommended values of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>h</mi>
+  </mstyle>
+</math><asciimath>h</asciimath></stem>, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>e</mi>
+  </mstyle>
+</math><asciimath>e</asciimath></stem>, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>k</mi>
+  </mstyle>
+</math><asciimath>k</asciimath></stem>, and <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>N</mi>
+      </mstyle>
+      <mtext>A</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(N)_"A"</asciimath></stem> resulting from the 2017 CODATA special least-squares adjustment of the values of the fundamental constants  <eref type="inline" bibitemid="newell" citeas="[3]"/> were the basis of the exact values used for these four constants in the new definitions of the kilogram, ampere, kelvin, and mole adopted by the 26th CGPM <eref type="inline" bibitemid="bipm" citeas="[1]"/>. The 2017 special adjustment but with <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>h</mi>
+  </mstyle>
+</math><asciimath>h</asciimath></stem>, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>e</mi>
+  </mstyle>
+</math><asciimath>e</asciimath></stem>, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>k</mi>
+  </mstyle>
+</math><asciimath>k</asciimath></stem>, and
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>N</mi>
+      </mstyle>
+      <mtext>A</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(N)_"A"</asciimath></stem> taken to have the exact values used in the new definitions, yields the following currently recommended value of the magnetic constant:</p>
+
+<formula id="_16a2ede3-59eb-0428-7da8-af36d059d26a"><stem block="true" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>μ</mi>
+      </mstyle>
+      <mn>0</mn>
+    </msub>
+    <mo>=</mo>
+    <mn>4</mn>
+    <mi mathvariant="normal">π</mi>
+    <mrow>
+      <mo>[</mo>
+      <mn>1</mn>
+      <mo>+</mo>
+      <mn>2.0</mn>
+      <mrow>
+        <mo>(</mo>
+        <mn>2.3</mn>
+        <mo>)</mo>
+      </mrow>
+      <mo>×</mo>
+      <msup>
+        <mn>10</mn>
+        <mrow>
+          <mo>−</mo>
+          <mn>10</mn>
+        </mrow>
+      </msup>
+      <mo>]</mo>
+    </mrow>
+    <mo>×</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>7</mn>
+      </mrow>
+    </msup>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_N.A-2">
+      <mstyle mathvariant="normal">
+        <mi>N</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>A</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>2</mn>
+        </mrow>
+      </msup>
+      
+      
+    </mrow>
+    <mo>=</mo>
+    <mn>12.5663706169</mn>
+    <mrow>
+      <mo>(</mo>
+      <mn>29</mn>
+      <mo>)</mo>
+    </mrow>
+    <mo>×</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>7</mn>
+      </mrow>
+    </msup>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_N.A-2">
+      <mstyle mathvariant="normal">
+        <mi>N</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>A</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>2</mn>
+        </mrow>
+      </msup>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>ii(mu)_0 = 4 pi [1 + 2.0(2.3) xx 10^(-10)] xx 10^(-7) "unitsml(N*A^(-2))"
+= 12.5663706169(29) xx 10^(-7) "unitsml(N*A^(-2))"</asciimath></stem></formula>
+
+<p id="_cf3203cd-a3da-e611-90b9-a746886453fc">However, users should always compute the value from the most recent CODATA adjustment <eref type="inline" bibitemid="codata" citeas="[4]"/>. The values and uncertainties of the electric constant, characteristic impedance of vacuum and characteristic admittance of vacuum may always be obtained from the relationships of  <xref target="eq-3"/>-<xref target="eq-6"/>.</p>
+
+<p id="_f4c59994-a06a-9089-11f0-2b6026bc4adf">It should be recognized that the recommended values for <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>μ</mi>
+      </mstyle>
+      <mn>0</mn>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(mu)_0</asciimath></stem>,
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>ε</mi>
+      </mstyle>
+      <mn>0</mn>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(epsilon)_0</asciimath></stem>, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>Z</mi>
+      </mstyle>
+      <mn>0</mn>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(Z)_0</asciimath></stem>, and <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>Y</mi>
+      </mstyle>
+      <mn>0</mn>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(Y)_0</asciimath></stem> are expected to change slightly
+from one future CODATA adjustment to the next, as new data that influence the value of
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>α</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(alpha)</asciimath></stem> become available. Users of this document should, therefore, always
+employ the most up-to-date CODATA recommended values for these constants in their
+calculations. Of course, the values of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>h</mi>
+  </mstyle>
+</math><asciimath>h</asciimath></stem>, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>e</mi>
+  </mstyle>
+</math><asciimath>e</asciimath></stem>, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>k</mi>
+  </mstyle>
+</math><asciimath>k</asciimath></stem>, and
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>N</mi>
+      </mstyle>
+      <mtext>A</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(N)_"A"</asciimath></stem> fixed by the new definitions will be unchanged from one adjustment to the next.</p>
+</clause>
+
+
+</sections><bibliography><references id="_4d8004ad-4178-0eb3-fbc7-7824c990d4d2" normative="false" obligation="informative">
+<title id="_1d852725-9432-e979-5884-c8c2939954c3">References</title><bibitem anchor="bipm" id="_1a06b275-87e1-475b-5a86-fcf8cd157520">
+  <formattedref format="application/x-isodoc+xml">BIPM, The International System of Units (SI Brochure) [9th edition, 2019], <link target="https://www.bipm.org/en/publications/si-brochure/"/>.</formattedref>
+  <docidentifier type="metanorma">[1]</docidentifier>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem id="_83a007ec-dc4a-f62b-3641-319881c163c0" type="article" schema-version="v1.2.9" anchor="delahaye">
+  <fetched>2026-04-16</fetched>
+  
+<title format="text/plain" language="en" script="Latn">Revised technical guidelines for reliable dc measurements of the quantized Hall resistance</title>
+
+  <uri type="src">https://doi.org/10.1088/0026-1394/40/5/302</uri>
+  <uri type="doi">https://doi.org/10.1088/0026-1394/40/5/302</uri>
+  <docidentifier type="BIPM" primary="true">Metrologia 40 5 217</docidentifier><docidentifier type="metanorma">[2]</docidentifier>
+  <docidentifier type="doi">10.1088/0026-1394/40/5/302</docidentifier>
+  <date type="published">
+    <on>2003-09-02</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">F Delahaye</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Bureau International des Poids et Mesures, Pavillon de Breteuil, F-92312 Sèvres Cedex, France</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">B Jeckelmann</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Swiss Federal Office of Metrology and Accreditation, Lindenweg 50, CH-3003 Bern-Wabern, Switzerland</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor><language>en</language><script>Latn</script>
+  <abstract format="text/html" language="en" script="Latn">
+    <p id="_227f7978-0f51-82d0-98b0-fbcfc8d14d13">This paper describes the main tests and precautions necessary for both reproducible and accurate results in the use of the quantum Hall effect as a means to establish a reference standard of dc resistance having a relative uncertainty of a few parts in 10<sup>9</sup>.</p>
+
+  </abstract>
+  <copyright>
+    <from>2003</from>
+    <owner>
+      <organization>
+        
+<name>Published under licence by IOP Publishing Ltd</name>
+
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="hasManifestation">
+    <bibitem>
+      
+<title format="text/plain" language="en" script="Latn">Revised technical guidelines for reliable dc measurements of the quantized Hall resistance</title>
+
+      <date type="epub">
+        <on>2003-09-02</on>
+      </date>
+      <medium>
+        <carrier>online</carrier>
+      </medium>
+    </bibitem>
+
+  </relation>
+  <relation type="hasManifestation">
+    <bibitem>
+      
+<title format="text/plain" language="en" script="Latn">Revised technical guidelines for reliable dc measurements of the quantized Hall resistance</title>
+
+      <date type="ppub">
+        <on>2003-10-01</on>
+      </date>
+      <medium>
+        <carrier>print</carrier>
+      </medium>
+    </bibitem>
+
+  </relation>
+  <series>
+    
+<title format="text/plain" language="en" script="Latn">Metrologia</title>
+
+  </series>
+  <extent>
+    <locality type="volume">
+      <referenceFrom>40</referenceFrom>
+    </locality>
+    <locality type="issue">
+      <referenceFrom>5</referenceFrom>
+    </locality>
+    <locality type="page">
+      <referenceFrom>217</referenceFrom>
+      <referenceTo>223</referenceTo>
+    </locality>
+  </extent>
+</bibitem><bibitem id="_24c37a5e-b8a4-4251-9539-b3440ab368ab" type="article" schema-version="v1.2.9" anchor="newell">
+  <fetched>2026-04-16</fetched>
+  
+<title format="text/html" script="Latn">The CODATA 2017 values of h, e, k, and N<sub>A</sub> for the revision of the SI</title>
+
+  <uri type="src">https://doi.org/10.1088/1681-7575/aa950a</uri>
+  <uri type="doi">https://doi.org/10.1088/1681-7575/aa950a</uri>
+  <docidentifier type="BIPM" primary="true">Metrologia 55 1 L13</docidentifier><docidentifier type="metanorma">[3]</docidentifier>
+  <docidentifier type="doi">10.1088/1681-7575/aa950a</docidentifier>
+  <date type="published">
+    <on>2018-01-29</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">D B Newell</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Committee on Data for Science and Technology (CODATA) Task Group on Fundamental Constants</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">F Cabiati</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Committee on Data for Science and Technology (CODATA) Task Group on Fundamental Constants</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">J Fischer</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Committee on Data for Science and Technology (CODATA) Task Group on Fundamental Constants</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">K Fujii</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Committee on Data for Science and Technology (CODATA) Task Group on Fundamental Constants</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">S G Karshenboim</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Committee on Data for Science and Technology (CODATA) Task Group on Fundamental Constants</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">H S Margolis</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Committee on Data for Science and Technology (CODATA) Task Group on Fundamental Constants</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">E de Mirandés</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Committee on Data for Science and Technology (CODATA) Task Group on Fundamental Constants</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">P J Mohr</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Committee on Data for Science and Technology (CODATA) Task Group on Fundamental Constants</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">F Nez</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Committee on Data for Science and Technology (CODATA) Task Group on Fundamental Constants</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">K Pachucki</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Committee on Data for Science and Technology (CODATA) Task Group on Fundamental Constants</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">T J Quinn</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Committee on Data for Science and Technology (CODATA) Task Group on Fundamental Constants</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">B N Taylor</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Committee on Data for Science and Technology (CODATA) Task Group on Fundamental Constants</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">M Wang</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Committee on Data for Science and Technology (CODATA) Task Group on Fundamental Constants</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">B M Wood</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Committee on Data for Science and Technology (CODATA) Task Group on Fundamental Constants</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">Z Zhang</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Committee on Data for Science and Technology (CODATA) Task Group on Fundamental Constants</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor><language>en</language><script>Latn</script>
+  <abstract format="text/html" script="Latn">Abstract<p id="_87521b2e-cecf-a00d-d815-1022d23f6d47">Sufficient progress towards redefining the International System of Units (SI) in terms of exact values of fundamental constants has been achieved. Exact values of the Planck constant h, elementary charge e, Boltzmann constant k, and Avogadro constant N<sub>A</sub> from the CODATA 2017 Special Adjustment of the Fundamental Constants are presented here. These values are recommended to the 26th General Conference on Weights and Measures to form the foundation of the revised SI.</p>
+</abstract>
+  <copyright>
+    <from>2018</from>
+    <owner>
+      <organization>
+        
+<name>BIPM</name>
+
+      </organization>
+    </owner>
+    <owner>
+      <organization>
+        
+<name>IOP Publishing Ltd</name>
+
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="hasManifestation">
+    <bibitem>
+      
+<title format="text/html" script="Latn">The CODATA 2017 values of h, e, k, and N<sub>A</sub> for the revision of the SI</title>
+
+      <date type="ppub">
+        <on>2018-04-01</on>
+      </date>
+      <medium>
+        <carrier>print</carrier>
+      </medium>
+    </bibitem>
+
+  </relation>
+  <relation type="hasManifestation">
+    <bibitem>
+      
+<title format="text/html" script="Latn">The CODATA 2017 values of h, e, k, and N<sub>A</sub> for the revision of the SI</title>
+
+      <date type="epub">
+        <on>2018-01-29</on>
+      </date>
+      <medium>
+        <carrier>online</carrier>
+      </medium>
+    </bibitem>
+
+  </relation>
+  <relation type="hasManifestation">
+    <bibitem>
+      
+<title format="text/html" script="Latn">The CODATA 2017 values of h, e, k, and N<sub>A</sub> for the revision of the SI</title>
+
+      <date type="open-access">
+        <on>2018-01-29</on>
+      </date>
+      <medium>
+        <carrier>print</carrier>
+      </medium>
+    </bibitem>
+
+  </relation>
+  <series>
+    
+<title format="text/plain" language="en" script="Latn">Metrologia</title>
+
+  </series>
+  <extent>
+    <locality type="volume">
+      <referenceFrom>55</referenceFrom>
+    </locality>
+    <locality type="issue">
+      <referenceFrom>1</referenceFrom>
+    </locality>
+    <locality type="page">
+      <referenceFrom>L13</referenceFrom>
+      <referenceTo>L16</referenceTo>
+    </locality>
+  </extent>
+</bibitem><bibitem anchor="codata" id="_09210037-4609-0823-be39-79688edb9120">
+  <formattedref format="application/x-isodoc+xml">‘<tt>CODATA recommended values of the fundamental physical constants: 2018</tt>‘, <link target="https://physics.nist.gov/cuu/Constants/index.html"/>.</formattedref>
+  <docidentifier type="metanorma">[4]</docidentifier>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem>
+
+
+
+
+</references></bibliography>
+</metanorma>

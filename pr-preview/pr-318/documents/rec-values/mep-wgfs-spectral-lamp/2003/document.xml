@@ -1,0 +1,898 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metanorma xmlns="https://www.metanorma.org/ns/standoc" type="semantic" version="2.8.3" schema-version="v2.1.5" flavor="bipm">
+<bibdata type="standard">
+<title language="en" type="title-main">The International System of Units</title>
+
+<title language="en" type="title-appendix">Recommended values of standard frequencies for applications including the practical realization of the metre and secondary representations of the second</title>
+
+<title language="en" type="title-part">Spectral lamp radiations</title>
+
+<title language="en" type="title-part-prefix">Part 2.28</title>
+
+<title language="en" type="title-appendix-prefix">Appendix 2</title>
+
+<title language="fr" type="title-main">Le système international d’unités</title>
+
+<title language="fr" type="title-appendix">Valeurs recommandées des fréquences étalons destinées à la mise en pratique de la définition du mètre et aux représentations secondaires de la seconde</title>
+
+<title language="fr" type="title-part">Rayonnements spectraux de la lampe</title>
+
+<title language="fr" type="title-part-prefix">Partie 2.28</title>
+
+<title language="fr" type="title-appendix-prefix">Appendice 2</title>
+<docidentifier primary="true" type="BIPM">BIPM SI MEP M REC Spectral-2.28 A2</docidentifier><docidentifier type="BIPM-parent-document">BIPM SI MEP M REC Spectral</docidentifier><docnumber>SI MEP M REC Spectral</docnumber><date type="confirmed"/><contributor><role type="author"/><organization>
+<name>Bureau International des Poids et Mesures</name>
+<abbreviation>BIPM</abbreviation></organization></contributor><contributor><role type="author"><description>committee</description></role><organization>
+<name>Bureau International des Poids et Mesures</name>
+<subdivision type="Committee">
+<name language="en">CCL-CCTF Frequency Standards Working Group</name>
+<identifier>CCL-CCTF-WGFS</identifier><identifier type="full">CCL-CCTF-WGFS</identifier></subdivision></organization></contributor><contributor><role type="publisher"/><organization>
+<name>Bureau International des Poids et Mesures</name>
+<abbreviation>BIPM</abbreviation></organization></contributor><edition>9</edition><language>en</language><script>Latn</script><status><stage>in-force</stage></status><copyright><from>2003</from><owner><organization>
+<name>Bureau International des Poids et Mesures</name>
+<abbreviation>BIPM</abbreviation></organization></owner></copyright><ext><doctype>mise-en-pratique</doctype><flavor>bipm</flavor><structuredidentifier><docnumber>SI MEP M REC Spectral</docnumber><part>2.28</part><appendix>2</appendix>
+</structuredidentifier><si-aspect>m_c_deltanu</si-aspect></ext></bibdata><metanorma-extension><semantic-metadata><stage-published>true</stage-published></semantic-metadata>
+<UnitsML xmlns="https://schema.unitsml.org/unitsml/1.0"><UnitSet><Unit dimensionURL="#NISTd1" id="U_pm">
+        <UnitSystem name="SI" type="SI_base" lang="en-US"/>
+        <UnitName lang="en">pm</UnitName>
+        <UnitSymbol type="HTML">pm</UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">pm</mi>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="metre" prefix="p"/>
+        </RootUnits>
+      </Unit><Unit dimensionURL="#NISTd5" id="U_NISTu5">
+        <UnitSystem name="SI" type="SI_base" lang="en-US"/>
+        <UnitName lang="en">kelvin</UnitName>
+        <UnitSymbol type="HTML">K</UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">K</mi>
+          </math>
+        </UnitSymbol>
+      </Unit><Unit dimensionURL="#NISTd1" id="U_mm">
+        <UnitSystem name="SI" type="SI_base" lang="en-US"/>
+        <UnitName lang="en">mm</UnitName>
+        <UnitSymbol type="HTML">mm</UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">mm</mi>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="metre" prefix="m"/>
+        </RootUnits>
+      </Unit><Unit dimensionURL="#NISTd32" id="U_A.cm-2">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">A*cm^-2</UnitName>
+        <UnitSymbol type="HTML">A cm
+          <sup>−2</sup>
+        </UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">A</mi>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">cm</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>2</mn>
+              </mrow>
+            </msup>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="ampere"/>
+          <EnumeratedRootUnit unit="metre" prefix="c" powerNumerator="-2"/>
+        </RootUnits>
+      </Unit><Unit dimensionURL="#NISTd14" id="U_NISTu12">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">pascal</UnitName>
+        <UnitSymbol type="HTML">Pa</UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">Pa</mi>
+          </math>
+        </UnitSymbol>
+      </Unit><Unit dimensionURL="#NISTd5" id="U_NISTu23">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">degree Celsius</UnitName>
+        <UnitSymbol type="HTML">°C</UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">°C</mi>
+          </math>
+        </UnitSymbol>
+      </Unit><Unit dimensionURL="#NISTd10" id="U_cm3">
+        <UnitSystem name="SI" type="SI_base" lang="en-US"/>
+        <UnitName lang="en">cm^3</UnitName>
+        <UnitSymbol type="HTML">cm
+          <sup>3</sup>
+        </UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">cm</mi>
+              </mrow>
+              <mrow>
+                <mn>3</mn>
+              </mrow>
+            </msup>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="metre" prefix="c" powerNumerator="3"/>
+        </RootUnits>
+      </Unit></UnitSet><DimensionSet><Dimension id="NISTd1">
+        <Length symbol="L" powerNumerator="1"/>
+      </Dimension><Dimension id="NISTd5">
+        <ThermodynamicTemperature symbol="Theta" powerNumerator="1"/>
+      </Dimension><Dimension id="NISTd32">
+        <Length symbol="L" powerNumerator="-2"/>
+        <ElectricCurrent symbol="I" powerNumerator="1"/>
+      </Dimension><Dimension id="NISTd14">
+        <Length symbol="L" powerNumerator="-1"/>
+        <Mass symbol="M" powerNumerator="1"/>
+        <Time symbol="T" powerNumerator="-2"/>
+      </Dimension><Dimension id="NISTd10">
+        <Length symbol="L" powerNumerator="3"/>
+      </Dimension></DimensionSet><PrefixSet><Prefix prefixBase="10" prefixPower="-12" id="NISTp10_-12">
+        <PrefixName lang="en">pico</PrefixName>
+        <PrefixSymbol type="ASCII">p</PrefixSymbol>
+        <PrefixSymbol type="unicode">p</PrefixSymbol>
+        <PrefixSymbol type="LaTeX">p</PrefixSymbol>
+        <PrefixSymbol type="HTML">p</PrefixSymbol>
+      </Prefix><Prefix prefixBase="10" prefixPower="-3" id="NISTp10_-3">
+        <PrefixName lang="en">milli</PrefixName>
+        <PrefixSymbol type="ASCII">m</PrefixSymbol>
+        <PrefixSymbol type="unicode">m</PrefixSymbol>
+        <PrefixSymbol type="LaTeX">m</PrefixSymbol>
+        <PrefixSymbol type="HTML">m</PrefixSymbol>
+      </Prefix><Prefix prefixBase="10" prefixPower="-2" id="NISTp10_-2">
+        <PrefixName lang="en">centi</PrefixName>
+        <PrefixSymbol type="ASCII">c</PrefixSymbol>
+        <PrefixSymbol type="unicode">c</PrefixSymbol>
+        <PrefixSymbol type="LaTeX">c</PrefixSymbol>
+        <PrefixSymbol type="HTML">c</PrefixSymbol>
+      </Prefix></PrefixSet></UnitsML><presentation-metadata><toc-heading-levels>2</toc-heading-levels><html-toc-heading-levels>2</html-toc-heading-levels><doc-toc-heading-levels>2</doc-toc-heading-levels><pdf-toc-heading-levels>2</pdf-toc-heading-levels></presentation-metadata></metanorma-extension>
+<boilerplate><copyright-statement>
+
+<clause id="_d21d3e4f-f125-25e3-1839-162d73407ff3" obligation="normative"><p id="_a65023c5-0c23-c6ce-ec46-855136f0a4af" align="center">© Bureau International des Poids et Mesures 2003 all rights reserved</p>
+</clause>
+</copyright-statement>
+
+<license-statement>
+
+<clause id="_4ffcd5b5-8039-1aa4-59ce-390aa3b61c7a" obligation="normative">
+<title id="_29f75465-0cf3-76fd-bc56-6b3aa457ee69">Copyright statement</title>
+<p id="_50719790-3c5b-c213-8298-0631d690bc21">This document is distributed under the terms of the Creative Commons Attribution 4.0 International License (<link target="http://creativecommons.org/licenses/by/4.0/:"/>), which permits unrestricted use, distribution, and reproduction in any medium, provided you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made.</p>
+</clause>
+</license-statement>
+
+<feedback-statement>
+
+<p id="_5926bc3f-b367-69e7-6cc6-442a91e32db2">BIPM<br/> Pavillon de Breteuil<br/> F-92312 Sèvres Cedex<br/> FRANCE</p>
+</feedback-statement>
+</boilerplate><sections><clause id="_b41cb9dc-4786-f5ce-643b-5c41fa1e0cd2" unnumbered="true" obligation="normative"><p id="_d12ec3ad-6688-449a-d6e9-d428a6110638"><strong><sup>86</sup>Kr, <sup>198</sup>Hg, <sup>114</sup>Cd, spectral lamp radiations</strong></p>
+</clause>
+
+<clause id="_facbdb6a-780b-0ba9-7eb6-f483623056af" obligation="normative">
+<title id="_5d693233-1d99-6bdb-b116-06b41638f3e7">CIPM recommended values</title>
+<p id="_e7b97ec9-84af-6ecb-60b5-ac1728a5d151">Vacuum wavelengths, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>λ</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(lambda)</asciimath></stem>, for <sup>86</sup>Kr, <sup>198</sup>Hg and <sup>114</sup>Cd transitions</p>
+
+<table id="_07670902-5c61-b79e-e204-7547fe1fedda" unnumbered="true"><tbody><tr id="_1a541a2f-a58f-3cdd-b5f0-5aea80b559e6"><td id="_969de6a0-ab39-18ef-1fe9-361af7a8998c" valign="top" align="center">Atom</td>
+<td id="_bbdd7b08-d150-3f51-e346-4166c2787d47" valign="top" align="center">Transition</td>
+<td id="_4338e6aa-02de-d925-8198-f8501eb70853" valign="top" align="center"><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>λ</mi>
+    </mstyle>
+    <mo>/</mo>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_pm">
+      <mstyle mathvariant="normal">
+        <mi>pm</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>ii(lambda) // "unitsml(pm)"</asciimath></stem></td>
+</tr><tr id="_a2348446-e072-8e67-14c8-680695a17a4f"><td id="_7030c3c1-41f0-8dae-1d0e-111615df1a49" valign="top" align="center"><sup>86</sup>Kr</td>
+<td id="_9a35544c-8ba8-2937-5868-ba33e5961ca0" valign="top" align="center"><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="normal">
+      <mrow>
+        <mn>2</mn>
+        <msub>
+          <mi>p</mi>
+          <mn>9</mn>
+        </msub>
+        <mo>−</mo>
+        <mn>5</mn>
+        <msubsup>
+          <mi>d</mi>
+          <mn>4</mn>
+          <mo>′</mo>
+        </msubsup>
+      </mrow>
+    </mstyle>
+  </mstyle>
+</math><asciimath>rm(2p_9 - 5d_4^')</asciimath></stem></td>
+<td id="_c66df5c1-5fe5-c599-89a7-20e3f197c658" valign="top" align="center"><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle displaystyle="false"><mn>645807.20</mn></mstyle></math><asciimath>645807.20</asciimath></stem></td>
+</tr><tr id="_e9a50056-253e-9a60-3811-2d675ccd07df"><td id="_482ba151-2985-fd95-0139-4d601ad069f5" valign="top" align="center"><sup>86</sup>Kr</td>
+<td id="_274c6d9b-9b79-2e1e-3318-ca4bf78ad06f" valign="top" align="center"><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="normal">
+      <mrow>
+        <mn>2</mn>
+        <msub>
+          <mi>p</mi>
+          <mn>8</mn>
+        </msub>
+        <mo>−</mo>
+        <mn>5</mn>
+        <msub>
+          <mi>d</mi>
+          <mn>4</mn>
+        </msub>
+      </mrow>
+    </mstyle>
+  </mstyle>
+</math><asciimath>rm(2p_8 - 5d_4)</asciimath></stem></td>
+<td id="_622b2635-82bc-4714-a5e9-46d5476d3d9e" valign="top" align="center"><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle displaystyle="false"><mn>642280.06</mn></mstyle></math><asciimath>642280.06</asciimath></stem></td>
+</tr><tr id="_5bfb9e36-6e60-a100-4890-f15858c565c9"><td id="_9e43d1ed-f321-924f-a2c6-1c4307d8ac05" valign="top" align="center"><sup>86</sup>Kr</td>
+<td id="_2388b849-94da-0702-595d-a0efe637cbdc" valign="top" align="center"><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="normal">
+      <mrow>
+        <mn>1</mn>
+        <msub>
+          <mi>s</mi>
+          <mn>3</mn>
+        </msub>
+        <mo>−</mo>
+        <mn>3</mn>
+        <msub>
+          <mi>p</mi>
+          <mn>10</mn>
+        </msub>
+      </mrow>
+    </mstyle>
+  </mstyle>
+</math><asciimath>rm(1s_3 - 3p_10)</asciimath></stem></td>
+<td id="_39ce7f45-a64d-7e3b-4525-76f94910dc80" valign="top" align="center"><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle displaystyle="false"><mn>565112.86</mn></mstyle></math><asciimath>565112.86</asciimath></stem></td>
+</tr><tr id="_8fbdeaf9-286e-c243-ecaf-52cc4a6f9418"><td id="_bbcf17b9-8e7e-b27f-7895-37fdae70a667" valign="top" align="center"><sup>86</sup>Kr</td>
+<td id="_8a69fa16-21ee-dbce-44c9-e1b3652f9e05" valign="top" align="center"><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="normal">
+      <mrow>
+        <mn>1</mn>
+        <msub>
+          <mi>s</mi>
+          <mn>4</mn>
+        </msub>
+        <mo>−</mo>
+        <mn>3</mn>
+        <msub>
+          <mi>p</mi>
+          <mn>8</mn>
+        </msub>
+      </mrow>
+    </mstyle>
+  </mstyle>
+</math><asciimath>rm(1s_4 - 3p_8)</asciimath></stem></td>
+<td id="_be8f696f-2a67-0341-ed0c-d9176d472fe4" valign="top" align="center"><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle displaystyle="false"><mn>450361.62</mn></mstyle></math><asciimath>450361.62</asciimath></stem></td>
+</tr><tr id="_3cabf8c9-9e6b-2a1f-ee48-200e06d6e977"><td id="_90d6012d-08e8-eb8a-b8be-ed0c023e14ce" valign="top" align="center"><sup>198</sup>Hg</td>
+<td id="_f574a757-b0b6-939a-6bde-810e94136340" valign="top" align="center"><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="normal">
+      <mrow>
+        <msup>
+          <mn>6</mn>
+          <mn>1</mn>
+        </msup>
+        <msub>
+          <mi>P</mi>
+          <mn>1</mn>
+        </msub>
+        <mo>−</mo>
+        <msup>
+          <mn>6</mn>
+          <mn>1</mn>
+        </msup>
+        <msub>
+          <mi>D</mi>
+          <mn>2</mn>
+        </msub>
+      </mrow>
+    </mstyle>
+  </mstyle>
+</math><asciimath>rm(6^1 P_1 - 6^1 D_2)</asciimath></stem></td>
+<td id="_f131653d-d51c-ad11-93fe-1cd8e2750443" valign="top" align="center"><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle displaystyle="false"><mn>579226.83</mn></mstyle></math><asciimath>579226.83</asciimath></stem></td>
+</tr><tr id="_a9e77026-ff5f-f2ac-219f-047f0b067817"><td id="_7377c18e-1704-7ed6-9761-4a27daa6e58d" valign="top" align="center"><sup>198</sup>Hg</td>
+<td id="_e9b2e073-75bf-828c-eabe-f61dd9d34442" valign="top" align="center"><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="normal">
+      <mrow>
+        <msup>
+          <mn>6</mn>
+          <mn>1</mn>
+        </msup>
+        <msub>
+          <mi>P</mi>
+          <mn>1</mn>
+        </msub>
+        <mo>−</mo>
+        <msup>
+          <mn>6</mn>
+          <mn>3</mn>
+        </msup>
+        <msub>
+          <mi>D</mi>
+          <mn>2</mn>
+        </msub>
+      </mrow>
+    </mstyle>
+  </mstyle>
+</math><asciimath>rm(6^1 P_1 - 6^3 D_2)</asciimath></stem></td>
+<td id="_37ba74fd-d55b-b718-0198-bdabe45eecca" valign="top" align="center"><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle displaystyle="false"><mn>577119.83</mn></mstyle></math><asciimath>577119.83</asciimath></stem></td>
+</tr><tr id="_9463b195-3b1c-4430-9824-48a63d3ffa6b"><td id="_36093546-e36d-7111-d23b-aa66c8495dd9" valign="top" align="center"><sup>198</sup>Hg</td>
+<td id="_367d2245-d18e-7ae7-f6c5-e26da0381d40" valign="top" align="center"><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="normal">
+      <mrow>
+        <msup>
+          <mn>6</mn>
+          <mn>3</mn>
+        </msup>
+        <msub>
+          <mi>P</mi>
+          <mn>2</mn>
+        </msub>
+        <mo>−</mo>
+        <msup>
+          <mn>7</mn>
+          <mn>3</mn>
+        </msup>
+        <msub>
+          <mi>S</mi>
+          <mn>1</mn>
+        </msub>
+      </mrow>
+    </mstyle>
+  </mstyle>
+</math><asciimath>rm(6^3 P_2 - 7^3 S_1)</asciimath></stem></td>
+<td id="_5f1accea-edd7-daaa-74d1-dde42368ea71" valign="top" align="center"><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle displaystyle="false"><mn>546227.05</mn></mstyle></math><asciimath>546227.05</asciimath></stem></td>
+</tr><tr id="_54e86b33-7b9c-03c3-f03f-44103adb1fe4"><td id="_406fe9e2-91eb-553f-a85d-492270588f6f" valign="top" align="center"><sup>198</sup>Hg</td>
+<td id="_ed760a3b-78d7-6bfd-d23a-9ba155434a3d" valign="top" align="center"><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="normal">
+      <mrow>
+        <msup>
+          <mn>6</mn>
+          <mn>3</mn>
+        </msup>
+        <msub>
+          <mi>P</mi>
+          <mn>1</mn>
+        </msub>
+        <mo>−</mo>
+        <msup>
+          <mn>7</mn>
+          <mn>3</mn>
+        </msup>
+        <msub>
+          <mi>S</mi>
+          <mn>1</mn>
+        </msub>
+      </mrow>
+    </mstyle>
+  </mstyle>
+</math><asciimath>rm(6^3 P_1 - 7^3 S_1)</asciimath></stem></td>
+<td id="_ad6f234a-545b-3b52-32fe-7db9a523be55" valign="top" align="center"><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle displaystyle="false"><mn>435956.24</mn></mstyle></math><asciimath>435956.24</asciimath></stem></td>
+</tr><tr id="_f9430ad1-43e0-b862-b257-eae4074a55a9"><td id="_52ee6acd-0a1b-cf6e-0866-a43866a7f019" valign="top" align="center"><sup>114</sup>Cd</td>
+<td id="_34b435fe-4fba-688d-c4ae-ee811d0fe3f2" valign="top" align="center"><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="normal">
+      <mrow>
+        <msup>
+          <mn>5</mn>
+          <mn>1</mn>
+        </msup>
+        <msub>
+          <mi>P</mi>
+          <mn>1</mn>
+        </msub>
+        <mo>−</mo>
+        <msup>
+          <mn>5</mn>
+          <mn>1</mn>
+        </msup>
+        <msub>
+          <mi>D</mi>
+          <mn>2</mn>
+        </msub>
+      </mrow>
+    </mstyle>
+  </mstyle>
+</math><asciimath>rm(5^1 P_1 - 5^1 D_2)</asciimath></stem></td>
+<td id="_22264014-56ac-e557-6446-b645f7de9358" valign="top" align="center"><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle displaystyle="false"><mn>644024.80</mn></mstyle></math><asciimath>644024.80</asciimath></stem></td>
+</tr><tr id="_c0e7f114-b405-68af-0a8e-0ba2f01b9225"><td id="_a3cd3f30-cab0-67ef-501a-6d3956fbb2f5" valign="top" align="center"><sup>114</sup>Cd</td>
+<td id="_e240e735-ecdf-1a1b-54c7-031613c64a0e" valign="top" align="center"><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="normal">
+      <mrow>
+        <msup>
+          <mn>5</mn>
+          <mn>3</mn>
+        </msup>
+        <msub>
+          <mi>P</mi>
+          <mn>2</mn>
+        </msub>
+        <mo>−</mo>
+        <msup>
+          <mn>6</mn>
+          <mn>3</mn>
+        </msup>
+        <msub>
+          <mi>S</mi>
+          <mn>1</mn>
+        </msub>
+      </mrow>
+    </mstyle>
+  </mstyle>
+</math><asciimath>rm(5^3 P_2 - 6^3 S_1)</asciimath></stem></td>
+<td id="_7580ba75-5b06-34da-3d5e-4e6f8164afd5" valign="top" align="center"><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle displaystyle="false"><mn>508723.79</mn></mstyle></math><asciimath>508723.79</asciimath></stem></td>
+</tr><tr id="_bc33d982-936f-68fc-8c39-bd28b07cae2e"><td id="_006d6463-d92b-d32e-2124-3b7d126b3768" valign="top" align="center"><sup>114</sup>Cd</td>
+<td id="_f859b955-1452-3509-b0a5-53b53413713c" valign="top" align="center"><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="normal">
+      <mrow>
+        <msup>
+          <mn>5</mn>
+          <mn>3</mn>
+        </msup>
+        <msub>
+          <mi>P</mi>
+          <mn>1</mn>
+        </msub>
+        <mo>−</mo>
+        <msup>
+          <mn>6</mn>
+          <mn>3</mn>
+        </msup>
+        <msub>
+          <mi>S</mi>
+          <mn>1</mn>
+        </msub>
+      </mrow>
+    </mstyle>
+  </mstyle>
+</math><asciimath>rm(5^3 P_1 - 6^3 S_1)</asciimath></stem></td>
+<td id="_88728682-2914-4d92-a303-53a151e58b93" valign="top" align="center"><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle displaystyle="false"><mn>480125.21</mn></mstyle></math><asciimath>480125.21</asciimath></stem></td>
+</tr><tr id="_88670575-87a0-2718-8048-646ea735540b"><td id="_d19b86c7-5004-7765-e114-39976fe81188" valign="top" align="center"><sup>114</sup>Cd</td>
+<td id="_a88426e5-3549-efcb-9017-1152c9255a59" valign="top" align="center"><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="normal">
+      <mrow>
+        <msup>
+          <mn>5</mn>
+          <mn>3</mn>
+        </msup>
+        <msub>
+          <mi>P</mi>
+          <mn>0</mn>
+        </msub>
+        <mo>−</mo>
+        <msup>
+          <mn>6</mn>
+          <mn>3</mn>
+        </msup>
+        <msub>
+          <mi>S</mi>
+          <mn>1</mn>
+        </msub>
+      </mrow>
+    </mstyle>
+  </mstyle>
+</math><asciimath>rm(5^3 P_0 - 6^3 S_1)</asciimath></stem></td>
+<td id="_eeea4b4f-203b-f8ba-284f-b47ee416034f" valign="top" align="center"><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle displaystyle="false"><mn>467945.81</mn></mstyle></math><asciimath>467945.81</asciimath></stem></td>
+</tr></tbody>
+</table>
+
+<p id="_3e221152-fac3-0d32-1796-447f62d2d424">For <sup>86</sup>Kr, the above values with a relative expanded uncertainty <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>U</mi>
+    </mstyle>
+    <mo>=</mo>
+    <mn>2</mn>
+    <mo>×</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mi>−</mi>
+        <mn>8</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math><asciimath>ii(U) = 2 xx 10^(−8)</asciimath></stem>, where <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>U</mi>
+    </mstyle>
+    <mo>=</mo>
+    <mi>k</mi>
+    <msub>
+      <mi>u</mi>
+      <mi>c</mi>
+    </msub>
+    <mtext> </mtext>
+    <mrow>
+      <mo>(</mo>
+      <mi>k</mi>
+      <mo>=</mo>
+      <mn>3</mn>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>ii(U) = ku_c" "(k = 3)</asciimath></stem>, apply to radiations emitted by a hot-cathode discharge lamp containing <sup>86</sup>Kr, of a purity not less than 99 %, in sufficient quantity to assure the presence of solid krypton at a temperature of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>64</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu5">
+      <mstyle mathvariant="normal">
+        <mi>K</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>64 "unitsml(K)"</asciimath></stem>, this lamp having a capillary with an inner diameter from <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>2</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_mm">
+      <mstyle mathvariant="normal">
+        <mi>mm</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>2 "unitsml(mm)"</asciimath></stem> to <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>4</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_mm">
+      <mstyle mathvariant="normal">
+        <mi>mm</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>4 "unitsml(mm)"</asciimath></stem> and a wall thickness of about <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_mm">
+      <mstyle mathvariant="normal">
+        <mi>mm</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>1 "unitsml(mm)"</asciimath></stem>.</p>
+
+<p id="_13c4b8a0-f4f0-d8d5-24c9-dc923c56ea14">It is estimated that the wavelength of the radiation emitted by the positive column is equal, to within 1 part in <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msup>
+      <mn>10</mn>
+      <mn>8</mn>
+    </msup>
+  </mstyle>
+</math><asciimath>10^8</asciimath></stem>, to the wavelength corresponding to the transition between the unperturbed levels, when the following conditions are satisfied:</p>
+
+<ul id="_07010228-c91f-6715-1c96-d9d8e858dceb"><li><p id="_d7cdc4dc-d3a9-35dc-8e78-df19811d677c">the capillary is observed end-on from the side closest to the anode;</p>
+</li>
+<li><p id="_fc79d7ff-6879-1aa7-8aa3-39bb5209a55d">the lower part of the lamp, including the capillary, is immersed in a cold bath maintained at a temperature within one degree of the triple point of nitrogen;</p>
+</li>
+<li><p id="_8513ef1f-c92b-a1cd-3dc7-a8b7b1eb250b">the current density in the capillary is <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow>
+      <mo>(</mo>
+      <mn>0.3</mn>
+      <mo>±</mo>
+      <mn>0.1</mn>
+      <mo>)</mo>
+    </mrow>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_A.cm-2">
+      <mstyle mathvariant="normal">
+        <mi>A</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>cm</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>2</mn>
+        </mrow>
+      </msup>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>(0.3 +- 0.1) "unitsml(A*cm^(-2),symbol:A cdot cm^(-2))"</asciimath></stem>.</p>
+</li>
+</ul>
+
+<p id="_80fa374f-3e6b-d278-b84c-b36fd450991b">For <sup>198</sup>Hg, the above values with a relative expanded uncertainty <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>U</mi>
+    </mstyle>
+    <mo>=</mo>
+    <mn>5</mn>
+    <mo>×</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mi>−</mi>
+        <mn>8</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math><asciimath>ii(U) = 5 xx 10^(−8)</asciimath></stem>, where <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>U</mi>
+    </mstyle>
+    <mo>=</mo>
+    <mi>k</mi>
+    <msub>
+      <mi>u</mi>
+      <mi>c</mi>
+    </msub>
+    <mtext> </mtext>
+    <mrow>
+      <mo>(</mo>
+      <mi>k</mi>
+      <mo>=</mo>
+      <mn>3</mn>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>ii(U) = ku_c" "(k = 3)</asciimath></stem>, apply to radiations emitted by a discharge lamp when the following conditions are met:</p>
+
+<ul id="_ada58198-b388-b89e-4a13-588c0f086079"><li><p id="_45bfbdca-935e-95b6-a0af-b83238895182">the radiations are produced using a discharge lamp without electrodes containing <sup>198</sup>Hg, of a purity not less than 98 %, and argon at a pressure from <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>0.5</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_mm">
+      <mstyle mathvariant="normal">
+        <mi>mm</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>0.5 "unitsml(mm)"</asciimath></stem> Hg to <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1.0</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_mm">
+      <mstyle mathvariant="normal">
+        <mi>mm</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>1.0 "unitsml(mm)"</asciimath></stem> Hg (<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>66</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu12">
+      <mstyle mathvariant="normal">
+        <mi>Pa</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>66 "unitsml(Pa)"</asciimath></stem> to <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>133</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu12">
+      <mstyle mathvariant="normal">
+        <mi>Pa</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>133 "unitsml(Pa)"</asciimath></stem>);</p>
+</li>
+<li><p id="_d93f2fda-c331-687d-a5f0-dc3385f723d0">the internal diameter of the capillary of the lamp is about <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>5</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_mm">
+      <mstyle mathvariant="normal">
+        <mi>mm</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>5 "unitsml(mm)"</asciimath></stem>, and the radiation is observed transversely;</p>
+</li>
+<li><p id="_0bea3439-8e49-5b46-17b1-66c2b34abe86">the lamp is excited by a high-frequency field at a moderate power and is maintained at a temperature less than <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>10</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu23">
+      <mstyle mathvariant="normal">
+        <mi>°C</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>10 "unitsml(degC)"</asciimath></stem>;</p>
+</li>
+<li><p id="_17d6bd8c-d982-6140-6604-3c493cf1add6">it is preferred that the volume of the lamp be greater than <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>20</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_cm3">
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>cm</mi>
+        </mstyle>
+        <mn>3</mn>
+      </msup>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>20 "unitsml(cm^3)"</asciimath></stem>.</p>
+</li>
+</ul>
+
+<p id="_0cf7fce8-6c14-699b-a2c4-2308e782a81c">For <sup>114</sup>Cd, the above values with a relative expanded uncertainty <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>U</mi>
+    </mstyle>
+    <mo>=</mo>
+    <mn>7</mn>
+    <mo>×</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mi>−</mi>
+        <mn>8</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math><asciimath>ii(U) = 7 xx 10^(−8)</asciimath></stem>, where <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>U</mi>
+    </mstyle>
+    <mo>=</mo>
+    <mi>k</mi>
+    <msub>
+      <mi>u</mi>
+      <mi>c</mi>
+    </msub>
+    <mtext> </mtext>
+    <mrow>
+      <mo>(</mo>
+      <mi>k</mi>
+      <mo>=</mo>
+      <mn>3</mn>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>ii(U) = ku_c" "(k = 3)</asciimath></stem>, apply to radiations emitted by a discharge lamp under the following conditions:</p>
+
+<ul id="_dc61d617-859d-c58d-93f2-81346e214b77"><li><p id="_053fb4c7-cad7-a2d7-55bc-3144e482f528">the radiations are generated using a discharge lamp without electrodes, containing <sup>114</sup>Cd of a purity not less than 95 %, and argon at a pressure of about <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_mm">
+      <mstyle mathvariant="normal">
+        <mi>mm</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>1 "unitsml(mm)"</asciimath></stem> Hg (<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>133</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu12">
+      <mstyle mathvariant="normal">
+        <mi>Pa</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>133 "unitsml(Pa)"</asciimath></stem>) at ambient temperature;</p>
+</li>
+<li><p id="_fe6d5bd0-fb92-0da6-c3f7-0a27de26730f">the internal diameter of the capillary of the lamp is about <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>5</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_mm">
+      <mstyle mathvariant="normal">
+        <mi>mm</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>5 "unitsml(mm)"</asciimath></stem>, and the radiation is observed transversely;</p>
+</li>
+<li><p id="_43a30220-8876-c002-4d8e-33b5223b80e7">the lamp is excited by a high-frequency field at a moderate power and is maintained at a temperature such that the green line is not reversed.</p>
+</li>
+</ul>
+</clause>
+
+<clause id="_17759fda-586d-62fe-79aa-5df982921da8" obligation="normative">
+<title id="_bb276ad1-d38b-220d-9278-0280a9a55fb5">Source data</title>
+<p id="_4bc69bf8-2f23-4faa-bcbd-dba28845d0a7">The recommended wavelengths are those recommended by the CIPM in 1963 <eref type="inline" bibitemid="bipm1962" citeas="[1]"/>, <eref type="inline" bibitemid="bipm1963" citeas="[2]"/>.</p>
+</clause>
+
+
+</sections><bibliography><references id="_447c4406-f7b8-8b2d-8333-4d0c4ce6a349" normative="false" obligation="informative">
+<title id="_1d852725-9432-e979-5884-c8c2939954c3">References</title><bibitem anchor="bipm1962" id="_1e983d60-6d58-4aa8-b4a9-f0466f1380c9">
+  <formattedref format="application/x-isodoc+xml"><em>BIPM, Com. Cons. Déf. Mètre</em>, 1962, <strong>3</strong>, 18-19</formattedref>
+  <docidentifier type="metanorma">[1]</docidentifier>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem anchor="bipm1963" id="_685a6c52-b9b4-6feb-6567-14b5f0e57154">
+  <formattedref format="application/x-isodoc+xml"><em>BIPM, Proc. Verb. Com. Int. Poids et Mesures</em>, 1963, <strong>31</strong>, 26-27.</formattedref>
+  <docidentifier type="metanorma">[2]</docidentifier>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem>
+
+
+</references></bibliography>
+</metanorma>

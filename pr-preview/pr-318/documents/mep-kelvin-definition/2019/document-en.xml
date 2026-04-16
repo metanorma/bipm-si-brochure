@@ -1,0 +1,4636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metanorma xmlns="https://www.metanorma.org/ns/standoc" type="semantic" version="2.8.3" schema-version="v2.1.5" flavor="bipm">
+<bibdata type="standard">
+<title language="en" type="title-main">The International System of Units</title>
+
+<title language="en" type="title-appendix">Mise en pratique</title>
+
+<title language="en" type="title-part">Mise en pratique for the definition of the kelvin in the SI</title>
+
+<title language="en" type="title-part-prefix">Part 5.1</title>
+
+<title language="en" type="title-appendix-prefix">Appendix 2</title>
+
+<title language="fr" type="title-main">Le système international d’unités</title>
+
+<title language="fr" type="title-appendix">Mise en pratique</title>
+
+<title language="fr" type="title-part">Mise en pratique de la définition du kelvin</title>
+
+<title language="fr" type="title-part-prefix">Partie 5.1</title>
+
+<title language="fr" type="title-appendix-prefix">Appendice 2</title>
+<docidentifier primary="true" type="BIPM">BIPM SI MEP K1-5.1 A2</docidentifier><docidentifier type="BIPM-parent-document">BIPM SI MEP K1</docidentifier><docnumber>SI MEP K1</docnumber><contributor><role type="author"/><organization>
+<name>Bureau International des Poids et Mesures</name>
+<abbreviation>BIPM</abbreviation></organization></contributor><contributor><role type="author"><description>committee</description></role><organization>
+<name>Bureau International des Poids et Mesures</name>
+<subdivision type="Committee">
+<name language="en">Consultative Committee for Thermometry</name>
+
+<name language="fr">Comité consultatif de thermométrie</name>
+<identifier>CCT</identifier><identifier type="full">CCT</identifier></subdivision></organization></contributor><contributor><role type="publisher"/><organization>
+<name>Bureau International des Poids et Mesures</name>
+<abbreviation>BIPM</abbreviation></organization></contributor><edition>9</edition><version><revision-date>2019-05-20</revision-date></version><language>en</language><script>Latn</script><status><stage>in-force</stage></status><copyright><from>2019</from><owner><organization>
+<name>Bureau International des Poids et Mesures</name>
+<abbreviation>BIPM</abbreviation></organization></owner></copyright><ext><doctype>mise-en-pratique</doctype><flavor>bipm</flavor><structuredidentifier><docnumber>SI MEP K1</docnumber><part>5.1</part><appendix>2</appendix>
+</structuredidentifier><si-aspect>K_k</si-aspect></ext></bibdata><metanorma-extension><semantic-metadata><stage-published>true</stage-published></semantic-metadata>
+<UnitsML xmlns="https://schema.unitsml.org/unitsml/1.0"><UnitSet><Unit dimensionURL="#NISTd5" id="U_NISTu5">
+        <UnitSystem name="SI" type="SI_base" lang="en-US"/>
+        <UnitName lang="en">kelvin</UnitName>
+        <UnitSymbol type="HTML">K</UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">K</mi>
+          </math>
+        </UnitSymbol>
+      </Unit><Unit dimensionURL="#NISTd39" id="U_NISTu13.u5e-1/1">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">joule per kelvin</UnitName>
+        <UnitSymbol type="HTML">J K
+          <sup>−1</sup>
+        </UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">J</mi>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">K</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>1</mn>
+              </mrow>
+            </msup>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="joule"/>
+          <EnumeratedRootUnit unit="kelvin" powerNumerator="-1"/>
+        </RootUnits>
+      </Unit><Unit dimensionURL="#NISTd39" id="U_kg.m2.s-2.K-1">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">kg*m^2*s^-2*K^-1</UnitName>
+        <UnitSymbol type="HTML">kg m
+          <sup>2</sup> s
+          <sup>−2</sup> K
+          <sup>−1</sup>
+        </UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">kg</mi>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">m</mi>
+              </mrow>
+              <mrow>
+                <mn>2</mn>
+              </mrow>
+            </msup>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">s</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>2</mn>
+              </mrow>
+            </msup>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">K</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>1</mn>
+              </mrow>
+            </msup>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="gram" prefix="k"/>
+          <EnumeratedRootUnit unit="metre" powerNumerator="2"/>
+          <EnumeratedRootUnit unit="second" powerNumerator="-2"/>
+          <EnumeratedRootUnit unit="kelvin" powerNumerator="-1"/>
+        </RootUnits>
+      </Unit><Unit dimensionURL="#NISTd15" id="U_NISTu13">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">joule</UnitName>
+        <UnitSymbol type="HTML">J</UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">J</mi>
+          </math>
+        </UnitSymbol>
+      </Unit><Unit dimensionURL="#NISTd5" id="U_NISTu23">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">degree Celsius</UnitName>
+        <UnitSymbol type="HTML">°C</UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">°C</mi>
+          </math>
+        </UnitSymbol>
+      </Unit><Unit dimensionURL="#NISTd5" id="U_mK">
+        <UnitSystem name="SI" type="SI_base" lang="en-US"/>
+        <UnitName lang="en">mK</UnitName>
+        <UnitSymbol type="HTML">mK</UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">mK</mi>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="kelvin" prefix="m"/>
+        </RootUnits>
+      </Unit><Unit dimensionURL="#NISTd5" id="U_uK">
+        <UnitSystem name="SI" type="SI_base" lang="en-US"/>
+        <UnitName lang="en">uK</UnitName>
+        <UnitSymbol type="HTML">K</UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">µK</mi>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="kelvin" prefix="u"/>
+        </RootUnits>
+      </Unit><Unit dimensionURL="#D_L-1MT-3" id="U_W.m-2.sr-1.nm-1">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">W*m^-2*sr^-1*nm^-1</UnitName>
+        <UnitSymbol type="HTML">W m
+          <sup>−2</sup> sr
+          <sup>−1</sup> nm
+          <sup>−1</sup>
+        </UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">W</mi>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">m</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>2</mn>
+              </mrow>
+            </msup>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">sr</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>1</mn>
+              </mrow>
+            </msup>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">nm</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>1</mn>
+              </mrow>
+            </msup>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="watt"/>
+          <EnumeratedRootUnit unit="metre" powerNumerator="-2"/>
+          <EnumeratedRootUnit unit="steradian" powerNumerator="-1"/>
+          <EnumeratedRootUnit unit="metre" prefix="n" powerNumerator="-1"/>
+        </RootUnits>
+      </Unit><Unit dimensionURL="#NISTd34" id="U_mol.cm-3">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">mol*cm^-3</UnitName>
+        <UnitSymbol type="HTML">mol cm
+          <sup>−3</sup>
+        </UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">mol</mi>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">cm</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>3</mn>
+              </mrow>
+            </msup>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="mole"/>
+          <EnumeratedRootUnit unit="metre" prefix="c" powerNumerator="-3"/>
+        </RootUnits>
+      </Unit><Unit dimensionURL="#D_L3N-1" id="U_cm3.mol-1">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">cm^3*mol^-1</UnitName>
+        <UnitSymbol type="HTML">cm
+          <sup>3</sup> mol
+          <sup>−1</sup>
+        </UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">cm</mi>
+              </mrow>
+              <mrow>
+                <mn>3</mn>
+              </mrow>
+            </msup>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">mol</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>1</mn>
+              </mrow>
+            </msup>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="metre" prefix="c" powerNumerator="3"/>
+          <EnumeratedRootUnit unit="mole" powerNumerator="-1"/>
+        </RootUnits>
+      </Unit><Unit id="U_NISTu400">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">parts per million</UnitName>
+        <UnitSymbol type="HTML">ppm</UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">ppm</mi>
+          </math>
+        </UnitSymbol>
+      </Unit><Unit dimensionURL="#NISTd101" id="U_kHz">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">kHz</UnitName>
+        <UnitSymbol type="HTML">kHz</UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">kHz</mi>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="hertz" prefix="k"/>
+        </RootUnits>
+      </Unit><Unit dimensionURL="#NISTd101" id="U_GHz">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">GHz</UnitName>
+        <UnitSymbol type="HTML">GHz</UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">GHz</mi>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="hertz" prefix="G"/>
+        </RootUnits>
+      </Unit></UnitSet><QuantitySet><Quantity id="NISTq186" quantityType="base" dimensionURL="#NISTd85">
+        <QuantityName lang="en-US">mass fraction</QuantityName>
+        <QuantityName lang="en-US">mole fraction</QuantityName>
+      </Quantity></QuantitySet><DimensionSet><Dimension id="NISTd5">
+        <ThermodynamicTemperature symbol="Theta" powerNumerator="1"/>
+      </Dimension><Dimension id="NISTd39">
+        <Length symbol="L" powerNumerator="2"/>
+        <Mass symbol="M" powerNumerator="1"/>
+        <Time symbol="T" powerNumerator="-2"/>
+        <ThermodynamicTemperature symbol="Theta" powerNumerator="-1"/>
+      </Dimension><Dimension id="NISTd15">
+        <Length symbol="L" powerNumerator="2"/>
+        <Mass symbol="M" powerNumerator="1"/>
+        <Time symbol="T" powerNumerator="-2"/>
+      </Dimension><Dimension id="D_L-1MT-3">
+        <Length symbol="L" powerNumerator="-1"/>
+        <Mass symbol="M" powerNumerator="1"/>
+        <Time symbol="T" powerNumerator="-3"/>
+      </Dimension><Dimension id="NISTd34">
+        <Length symbol="L" powerNumerator="-3"/>
+        <AmountOfSubstance symbol="N" powerNumerator="1"/>
+      </Dimension><Dimension id="D_L3N-1">
+        <Length symbol="L" powerNumerator="3"/>
+        <AmountOfSubstance symbol="N" powerNumerator="-1"/>
+      </Dimension><Dimension id="NISTd85"/><Dimension id="NISTd101">
+        <Time symbol="T" powerNumerator="-1"/>
+      </Dimension></DimensionSet><PrefixSet><Prefix prefixBase="10" prefixPower="3" id="NISTp10_3">
+        <PrefixName lang="en">kilo</PrefixName>
+        <PrefixSymbol type="ASCII">k</PrefixSymbol>
+        <PrefixSymbol type="unicode">k</PrefixSymbol>
+        <PrefixSymbol type="LaTeX">k</PrefixSymbol>
+        <PrefixSymbol type="HTML">k</PrefixSymbol>
+      </Prefix><Prefix prefixBase="10" prefixPower="-3" id="NISTp10_-3">
+        <PrefixName lang="en">milli</PrefixName>
+        <PrefixSymbol type="ASCII">m</PrefixSymbol>
+        <PrefixSymbol type="unicode">m</PrefixSymbol>
+        <PrefixSymbol type="LaTeX">m</PrefixSymbol>
+        <PrefixSymbol type="HTML">m</PrefixSymbol>
+      </Prefix><Prefix prefixBase="10" prefixPower="-6" id="NISTp10_-6">
+        <PrefixName lang="en">micro</PrefixName>
+        <PrefixSymbol type="ASCII">u</PrefixSymbol>
+        <PrefixSymbol type="unicode">μ</PrefixSymbol>
+        <PrefixSymbol type="LaTeX">$mu$</PrefixSymbol>
+        <PrefixSymbol type="HTML">µ</PrefixSymbol>
+      </Prefix><Prefix prefixBase="10" prefixPower="-9" id="NISTp10_-9">
+        <PrefixName lang="en">nano</PrefixName>
+        <PrefixSymbol type="ASCII">n</PrefixSymbol>
+        <PrefixSymbol type="unicode">n</PrefixSymbol>
+        <PrefixSymbol type="LaTeX">n</PrefixSymbol>
+        <PrefixSymbol type="HTML">n</PrefixSymbol>
+      </Prefix><Prefix prefixBase="10" prefixPower="-2" id="NISTp10_-2">
+        <PrefixName lang="en">centi</PrefixName>
+        <PrefixSymbol type="ASCII">c</PrefixSymbol>
+        <PrefixSymbol type="unicode">c</PrefixSymbol>
+        <PrefixSymbol type="LaTeX">c</PrefixSymbol>
+        <PrefixSymbol type="HTML">c</PrefixSymbol>
+      </Prefix><Prefix prefixBase="10" prefixPower="9" id="NISTp10_9">
+        <PrefixName lang="en">giga</PrefixName>
+        <PrefixSymbol type="ASCII">G</PrefixSymbol>
+        <PrefixSymbol type="unicode">G</PrefixSymbol>
+        <PrefixSymbol type="LaTeX">G</PrefixSymbol>
+        <PrefixSymbol type="HTML">G</PrefixSymbol>
+      </Prefix></PrefixSet></UnitsML><presentation-metadata><toc-heading-levels>2</toc-heading-levels><html-toc-heading-levels>2</html-toc-heading-levels><doc-toc-heading-levels>2</doc-toc-heading-levels><pdf-toc-heading-levels>2</pdf-toc-heading-levels></presentation-metadata></metanorma-extension>
+<boilerplate><copyright-statement>
+
+<clause id="_de529b36-05ca-b9e4-a8ac-4c41964770f0" obligation="normative"><p id="_2c83afdd-6f3c-8a19-1954-83e4ede65ae8" align="center">© Bureau International des Poids et Mesures 2019 all rights reserved</p>
+</clause>
+</copyright-statement>
+
+<license-statement>
+
+<clause id="_4ffcd5b5-8039-1aa4-59ce-390aa3b61c7a" obligation="normative">
+<title id="_29f75465-0cf3-76fd-bc56-6b3aa457ee69">Copyright statement</title>
+<p id="_50719790-3c5b-c213-8298-0631d690bc21">This document is distributed under the terms of the Creative Commons Attribution 4.0 International License (<link target="http://creativecommons.org/licenses/by/4.0/:"/>), which permits unrestricted use, distribution, and reproduction in any medium, provided you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made.</p>
+</clause>
+</license-statement>
+
+<feedback-statement>
+
+<p id="_5926bc3f-b367-69e7-6cc6-442a91e32db2">BIPM<br/> Pavillon de Breteuil<br/> F-92312 Sèvres Cedex<br/> FRANCE</p>
+</feedback-statement>
+</boilerplate><sections><clause id="_56442e53-a327-e9de-271a-b19454a97a5d" obligation="normative">
+<title id="_46069e95-51f4-1e9a-f2b9-70fe751a0935">Introduction</title>
+<p id="_b16ba942-8b6b-324d-1f53-2e9b302654d7">The purpose of this <em>mise en pratique</em>, prepared by the Consultative Committee for
+Thermometry (CCT) of the International Committee for Weights and Measures (CIPM), is
+to indicate how the definition of the SI base unit, the kelvin, symbol
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu5">
+      <mstyle mathvariant="normal">
+        <mi>K</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(K)"</asciimath></stem>, may be realized in practice.</p>
+
+<p id="_6a41c3c7-9784-025a-87ad-ffe010f831f0">In general, the term “<tt>to realize a unit</tt>” is interpreted to mean the establishment of the value and associated uncertainty of a quantity of the same kind as the unit that is consistent with the definition of the unit. The definition of the kelvin of 2018 does not imply any particular experiment for its practical realization. Any method capable of deriving a temperature value traceable to the set of seven reference constants can, in principle, be used. Thus, the list of methods given is not meant to be an exhaustive list of all possibilities, but rather a list of those methods that are easiest to implement and/or that provide the smallest uncertainties and which are officially recognized as primary methods by the relevant Consultative Committee.</p>
+
+<p id="_48c4a638-4ce8-1711-8310-a1eed39a881c">A primary method is a method having the highest metrological properties; whose operation can be completely described and understood; for which a complete uncertainty statement can be written down in terms of SI units; and which does not require a reference standard of the same quantity.</p>
+
+<p id="_b7d9dbcf-ca61-3263-ea4a-bae5ea8ff86b">The text of and <link target="https://www.bipm.org/en/committees/cc/cct/publications-cc.html"/>[supplementary information] on the International Temperature Scales constituted until recently the reference guide for the realization of the base unit kelvin. However, recent developments in thermometry and the redefinition of the kelvin have justified the establishment of a broader and flexible document that incorporates the temperature scales in current use and developed primary thermometry methods: the  <em>Mise en Pratique</em> of the realization of the kelvin (<em>MeP</em>-K).</p>
+
+<p id="_40664f9b-4525-77ea-ce47-c7fc38be7405">As envisaged by the CCT [ <link target="https://www.bipm.org/utils/common/pdf/CC/CCT/CCT23.pdf">Recommendation T3 (2005)</link> ] and in accordance with the report of the <link target="https://www.bipm.org/utils/en/pdf/CIPM/CIPM2008-EN.pdf"/>[97th meeting of the CIPM in 2008], the  <em>MeP</em>-K provides or makes reference to the information needed to perform a practical measurement of temperature, in accordance with the International System of Units (SI), at the highest level of accuracy. A  <em>MeP</em>-K was first adopted by the CCT in April 2006, see the  <link target="https://www.bipm.org/utils/common/pdf/CC/CCT/CCT24.pdf"/>[report of the 24th meeting] of the CCT. The 2019 version of the  <em>Mise en Pratique</em> of the realization of the kelvin (<em>MeP</em>-K-19) presented here incorporates the redefinition of the kelvin as adopted by the <link target="https://www.bipm.org/utils/common/pdf/CGPM-2018/26th-CGPM-Resolutions.pdf"/>[CGPM at its 26th meeting] and represents the realization of the redefined kelvin that came into force on 20 May 2019.</p>
+</clause>
+
+<clause id="_49fa0d62-5762-3917-795e-f1dd95bd0847" obligation="normative">
+<title id="_57b559ca-6e0b-59ed-1675-bf692ef13dcc">Definition of the kelvin</title>
+<p id="_f18adc66-eab3-89b7-459e-f6d01fdc2899">The definition of the kelvin, SI base unit of temperature, is as follows <eref type="inline" bibitemid="bipm" citeas="[1]"/>:</p>
+
+<quote id="_48249ef6-f787-15cf-9b00-d5939562c7b5"><p id="_4122d174-5a52-ea7e-31fc-de81009fbced"><strong>The kelvin, symbol <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu5">
+      <mstyle mathvariant="normal">
+        <mi>K</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(K)"</asciimath></stem>, is the SI unit of thermodynamic temperature.
+It is defined by taking the fixed numerical value of the Boltzmann constant <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>k</mi>
+  </mstyle>
+</math><asciimath>k</asciimath></stem>
+to be <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1.380649</mn>
+    <mo>×</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>23</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math><asciimath>1.380649 xx 10^{-23}</asciimath></stem> when expressed in the unit
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu13.u5e-1/1">
+      <mstyle mathvariant="normal">
+        <mi>J</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>K</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>1</mn>
+        </mrow>
+      </msup>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(J*K^(-1))"</asciimath></stem>, which is equal to <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_kg.m2.s-2.K-1">
+      <mstyle mathvariant="normal">
+        <mi>kg</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>m</mi>
+        </mstyle>
+        <mn>2</mn>
+      </msup>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>s</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>2</mn>
+        </mrow>
+      </msup>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>K</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>1</mn>
+        </mrow>
+      </msup>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(kg*m^2*s^(-2)*K^(-1))"</asciimath></stem>,
+where the kilogram, metre and second are defined in terms of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>h</mi>
+  </mstyle>
+</math><asciimath>h</asciimath></stem>, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>c</mi>
+  </mstyle>
+</math><asciimath>c</asciimath></stem> and
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi mathvariant="normal">Δ</mi>
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>ν</mi>
+      </mstyle>
+      <mtext>Cs</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>Delta ii(nu)_{"Cs"}</asciimath></stem>.</strong></p>
+</quote>
+
+<p id="_f5c49f31-693f-6284-14e3-19e02cb73a54">(<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>h</mi>
+  </mstyle>
+</math><asciimath>h</asciimath></stem> is the Planck constant, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>c</mi>
+  </mstyle>
+</math><asciimath>c</asciimath></stem> is the speed of light in vacuum and
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi mathvariant="normal">Δ</mi>
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>ν</mi>
+      </mstyle>
+      <mtext>Cs</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>Delta ii(nu)_{"Cs"}</asciimath></stem> is the caesium frequency corresponding to the transition
+between the two hyperfine levels of the unperturbed ground state of the <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msup>
+      <mtext>‌</mtext>
+      <mn>133</mn>
+    </msup>
+    <mtext>Cs</mtext>
+  </mstyle>
+</math><asciimath>"‌"^{133} "Cs"</asciimath></stem>
+atom.) This definition implies the exact relation <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>k</mi>
+    <mo>=</mo>
+    <mn>1.380649</mn>
+    <mo>×</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>23</mn>
+      </mrow>
+    </msup>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu13.u5e-1/1">
+      <mstyle mathvariant="normal">
+        <mi>J</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>K</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>1</mn>
+        </mrow>
+      </msup>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>k = 1.380649 xx 10^{-23}
+"unitsml(J//K)"</asciimath></stem>. Its effect is that one kelvin is equal to the change of
+thermodynamic temperature <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>T</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(T)</asciimath></stem> that results in a change of thermal energy
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>k</mi>
+    <mstyle mathvariant="italic">
+      <mi>T</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>k ii(T)</asciimath></stem> by <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1.380649</mn>
+    <mo>×</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>23</mn>
+      </mrow>
+    </msup>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu13">
+      <mstyle mathvariant="normal">
+        <mi>J</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>1.380649 xx 10^{-23} "unitsml(J)"</asciimath></stem>.</p>
+
+<p id="_a6f25323-23b4-834c-becd-9da77e9778fa">Prior to 2018 the kelvin was defined as the fraction <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1</mn>
+    <mo>/</mo>
+    <mn>273.16</mn>
+  </mstyle>
+</math><asciimath>1//273.16</asciimath></stem> of the
+thermodynamic temperature <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>T</mi>
+      </mstyle>
+      <mtext>TPW</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(T)_{"TPW"}</asciimath></stem> of the triple point of water [13th
+CGPM meeting in 1967, Resolutions 3 and 4]. The kelvin is now defined in terms of the
+SI derived unit of energy, the joule, by fixing the value of the Boltzmann constant
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>k</mi>
+  </mstyle>
+</math><asciimath>k</asciimath></stem>, which is the proportionality constant between thermodynamic temperature and
+the associated thermal energy <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>k</mi>
+    <mstyle mathvariant="italic">
+      <mi>T</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>k ii(T)</asciimath></stem>. The new definition has its origin in statistical mechanics, where thermodynamic temperature is a measure of the average thermal energy per degree of freedom in the system. In principle, the natural unit of thermodynamic temperature is the joule and a separate base unit for temperature is not required. However, for historical and in particular for practical reasons, the kelvin remains a base unit of the SI. The explicit-constant definition is sufficiently wide to encompass any form of thermometry, where the  <em>MeP</em>-K provides guidance on the practical realization of the kelvin.</p>
+
+<p id="_cfb3fa2f-e003-ed38-c9b9-84b8e4718af2">It remains common practice to call the difference <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>T</mi>
+    </mstyle>
+    <mo>−</mo>
+    <mn>273.15</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu5">
+      <mstyle mathvariant="normal">
+        <mi>K</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>ii(T) - 273.15 "unitsml(K)"</asciimath></stem>
+Celsius temperature, symbol <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>t</mi>
+  </mstyle>
+</math><asciimath>t</asciimath></stem>. The unit of Celsius temperature is the degree
+Celsius, symbol <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu23">
+      <mstyle mathvariant="normal">
+        <mi>°C</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(degC)"</asciimath></stem>, which is by definition equal in magnitude to the kelvin.</p>
+
+<p id="_c518909b-9e6b-baad-0786-209688a30fdb">The value of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>k</mi>
+  </mstyle>
+</math><asciimath>k</asciimath></stem> adopted for the new definition is the <link target="https://doi.org/10.1088/1681-7575/aa950a">2017 CODATA value</link> <eref type="inline" bibitemid="newell" citeas="[2]"/>. This ensures
+that the best estimate of the value of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>T</mi>
+      </mstyle>
+      <mtext>TPW</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(T)_{"TPW"}</asciimath></stem> remains <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>273.16</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu5">
+      <mstyle mathvariant="normal">
+        <mi>K</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>273.16
+"unitsml(K)"</asciimath></stem>. One consequence of the 2018 definition is that the former relative
+uncertainty in the determination of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>k</mi>
+  </mstyle>
+</math><asciimath>k</asciimath></stem>, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>3.7</mn>
+    <mo>×</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>7</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math><asciimath>3.7 xx 10^(-7)</asciimath></stem>, is transferred
+to the temperature of the triple point of water, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>T</mi>
+      </mstyle>
+      <mtext>TPW</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(T)_{"TPW"}</asciimath></stem>. The standard
+uncertainty of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>T</mi>
+      </mstyle>
+      <mtext>TPW</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(T)_{"TPW"}</asciimath></stem> is hence now <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>u</mi>
+    <mrow>
+      <mo>(</mo>
+      <msub>
+        <mstyle mathvariant="italic">
+          <mi>T</mi>
+        </mstyle>
+        <mtext>TPW</mtext>
+      </msub>
+      <mo>)</mo>
+    </mrow>
+    <mo>=</mo>
+    <mn>0.1</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_mK">
+      <mstyle mathvariant="normal">
+        <mi>mK</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>u(ii(T)_{"TPW"}) = 0.1
+"unitsml(mK)"</asciimath></stem>.</p>
+
+<p id="_e3ddf94b-8e17-bd9d-83ef-2a6fec95dbde">The CCT is not aware of any thermometry technology that provides a significantly
+reduced value of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>u</mi>
+    <mrow>
+      <mo>(</mo>
+      <msub>
+        <mstyle mathvariant="italic">
+          <mi>T</mi>
+        </mstyle>
+        <mtext>TPW</mtext>
+      </msub>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>u(ii(T)_{"TPW"})</asciimath></stem>. Consequently, it is unlikely that the value
+of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>T</mi>
+      </mstyle>
+      <mtext>TPW</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(T)_{"TPW"}</asciimath></stem> will be modified in a foreseeable future. On the other hand,
+the reproducibility of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>T</mi>
+      </mstyle>
+      <mtext>TPW</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(T)_{"TPW"}</asciimath></stem>, realized in water triple point cells and
+applying isotopic corrections<fn id="_e26602d2-157a-c3bc-8397-1322d80646d0" reference="1"><p id="_c4f20fd7-7cb7-d4aa-3345-66bc596feedb">Recommendation 2, CI-2005 of the CIPM clarified the definition of the triple point of water by specifying the isotopic composition of the water to be that of Vienna Standard Mean Ocean Water (V-SMOW).</p>
+</fn>,
+is better than <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>50</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_uK">
+      <mstyle mathvariant="normal">
+        <mi>µK</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>50 "unitsml(uK)"</asciimath></stem>. Experiments requiring ultimate accuracy at or
+close to <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>T</mi>
+      </mstyle>
+      <mtext>TPW</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(T)_{"TPW"}</asciimath></stem> will continue to rely on the reproducibility of the
+triple point of water. Although the value <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>T</mi>
+      </mstyle>
+      <mtext>TPW</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(T)_{"TPW"}</asciimath></stem> is not a fundamental
+constant, the triple point of water is an invariant of nature with the inherent
+long-term stability of fundamental constants.</p>
+
+<p id="_3321b1ed-ba4d-3854-edbc-5049195efb98">Direct measurements of thermodynamic temperature require a primary thermometer based on a well-understood physical system whose temperature can be derived from measurements of other quantities, as described in the following sections. Unfortunately, primary thermometry is usually complicated and time consuming, and is therefore rarely used as a practical means of disseminating the kelvin. As a practical alternative, the International Temperature Scales provide internationally accepted procedures for both realizing and disseminating temperature in a straightforward and reproducible manner, see  <xref target="sec-5"/>.</p>
+</clause>
+
+<clause id="_37f5480c-09e4-20a1-6f60-084dab6995bc" obligation="normative">
+<title id="_e4912b30-7edc-aedf-c596-b9b562df6f92">Nomenclature (taxonomy of methods)</title>
+<p id="_d936b8db-df39-1b14-59e4-547253814ed5">The purpose of this section is to clarify the terms that will be used in the following sections on  <xref target="item-1"/> primary thermometry and <xref target="item-2"/> defined temperature scales. A clear and well-defined nomenclature is essential to support an unambiguous taxonomy of methods in the  <em>MeP</em>-K. The <em>MeP</em>-K uses the following definitions.</p>
+
+<ol id="_1002f5ae-7d25-0811-ac20-e265d96315f8" type="arabic"><li id="_150bb5f2-3325-269f-c4ba-e224d9435e95" anchor="item-1"><p id="_236ae2a0-34da-fc74-a3a0-27d00d5647a4"><em>Primary thermometry</em> is carried out using a thermometer based on a
+well-understood physical system, for which the equation of state describing the
+relation between thermodynamic temperature <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>T</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(T)</asciimath></stem> and other independent quantities, such as the ideal gas law or Planck’s equation, can be expressed explicitly without unknown or significantly temperature-dependent constants. Thermodynamic temperature can be obtained by measuring the independent quantities. Accurate thermodynamic temperature values require not only accurate measurements of the independent quantities, but also sufficient understanding of the system to enable a quantitative assessment of departures from the ideal model in order to apply appropriate corrections.</p>
+<p id="_cb1e6daa-6359-5ab2-97c2-b5fb8e5be41a"><em>Absolute primary thermometry</em> allows to measure thermodynamic temperature directly
+in terms of the definition of the base unit kelvin, i.e. the defined numerical value
+of the Boltzmann constant. No reference is made to any temperature fixed point
+(<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>n</mi>
+    <mo>=</mo>
+    <mn>0</mn>
+  </mstyle>
+</math><asciimath>n = 0</asciimath></stem>, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>n</mi>
+    <mo>=</mo>
+    <mtext> number of points</mtext>
+  </mstyle>
+</math><asciimath>n = " number of points"</asciimath></stem>) and all other parameters specified in the equation of state are measured or otherwise determined.</p>
+
+<p id="_76742737-326a-7c3e-fd33-3890a0efc9f4"><em>Relative primary thermometry</em> allows to measure thermodynamic temperature indirectly
+using a specified equation of state, with one or more key-parameter values determined
+from temperature fixed points (<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>n</mi>
+    <mo>&gt;</mo>
+    <mn>0</mn>
+  </mstyle>
+</math><asciimath>n &gt; 0</asciimath></stem>), for which values for the thermodynamic
+temperature <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>T</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(T)</asciimath></stem> and their uncertainties are known a priori from previous
+absolute or relative primary thermometry. Tables containing data for <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>T</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(T)</asciimath></stem> of fixed points are given in the  <em>MeP</em>-K annexes “<link target="https://www.bipm.org/utils/en/pdf/si-mep/MeP-K-2018_Relative_Primary_Radiometry.pdf">Relative primary radiometric thermometry</link>”, see <xref target="sec-4-2-3"/>, and “<link target="https://www.bipm.org/utils/common/pdf/ITS-90/Estimates_Differences_T-T90_2010.pdf"/>[Estimates of the differences <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>T</mi>
+    </mstyle>
+    <mo>−</mo>
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>T</mi>
+      </mstyle>
+      <mn>90</mn>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(T) - ii(T)_{90}</asciimath></stem>]”, see <xref target="sec-5-1"/>.</p>
+</li>
+<li id="_7d2dcdfb-94d3-2986-3dd5-5be00aa54d16" anchor="item-2"><p id="_2ab8ad4a-4708-c43d-7baa-bf85d258faf5"><em>Defined temperature</em> scales allow to assign temperature values,
+determined by primary thermometry, to a series of naturally occurring and highly
+reproducible states (e.g., the freezing and triple points of pure substances). They
+also cover a specification of the interpolating or extrapolating instruments for a
+particular sub-range of temperature and define any necessary interpolating or
+extrapolating equations. The defined scales are highly prescriptive and define new
+temperature quantities <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>T</mi>
+      </mstyle>
+      <mtext>XX</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(T)_{"XX"}</asciimath></stem> (scale temperatures) that provide close
+approximations to the thermodynamic temperature <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>T</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(T)</asciimath></stem> and have the same unit
+as <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>T</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(T)</asciimath></stem>, i.e. the kelvin. Temperature values assigned to the fixed points of each scale are considered exact and are not altered while the scale is in force, even if subsequent research reveals a bias of the values relative to true thermodynamic temperature. Presently, the only such defined temperature scales recommended by the CCT and approved by the CIPM are the <link target="https://doi.org/10.1088/0026-1394/27/1/002"/>[International Temperature Scale of 1990 (ITS-90)]  <eref type="inline" bibitemid="preston" citeas="[3]"/> from <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>0.65</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu5">
+      <mstyle mathvariant="normal">
+        <mi>K</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>0.65 "unitsml(K)"</asciimath></stem> and higher and the <link target="https://www.bipm.org/utils/en/pdf/PLTS-2000.pdf">Provisional Low Temperature Scale</link> <eref type="inline" bibitemid="proces" citeas="[4]"/> covering the temperature range from <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>0.9</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_mK">
+      <mstyle mathvariant="normal">
+        <mi>mK</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>0.9 "unitsml(mK)"</asciimath></stem> to <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu5">
+      <mstyle mathvariant="normal">
+        <mi>K</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>1
+"unitsml(K)"</asciimath></stem> (PLTS-2000). The temperatures defined by ITS-90 and PLTS-2000 are
+denoted by <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>T</mi>
+      </mstyle>
+      <mn>90</mn>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(T)_{90}</asciimath></stem> and <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>T</mi>
+      </mstyle>
+      <mn>2000</mn>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(T)_{2000}</asciimath></stem>. Non-prescriptive recommendations for the realization of the ITS-90 and the PLTS-2000 are given in the <link target="https://www.bipm.org/en/committees/cc/cct/guide-its90.html"/>[“Guide to the Realization of the ITS-90”] and the <link target="https://www.bipm.org/en/committees/cc/cct/guide-plts2000.html"/>[“Guide to the Realization of the PLTS-2000”], respectively.</p>
+<p id="_e694eb48-9835-c35a-fbc8-545116050731">There exist also <em>approximations of defined scales</em> where fixed points, interpolating or extrapolating instruments, and interpolating or extrapolating equations are different from those specified in the defined scales, but any differences from a scale are sufficiently well understood. Such methods are described in the “<link target="https://www.bipm.org/en/committees/cc/cct/publications-cc.html"/>[Guide on secondary thermometry]”.</p>
+</li>
+</ol>
+</clause>
+
+<clause id="_f3be2d14-42ce-2637-3054-ccd8501d4007" obligation="normative">
+<title id="_7e0f021e-e26d-6b17-f2e7-3b850ac72c04">Practical realization of the kelvin by primary thermometry</title>
+<p id="_49f24024-071d-6473-4b82-4d040ab92c66">While the 2018 definition of the kelvin in terms of the Boltzmann constant has no
+immediate impact
+on the status of the ITS-90 and the PLTS-2000, there are significant benefits,
+particularly for
+temperature measurements below <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>~</mi>
+    <mn>20</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu5">
+      <mstyle mathvariant="normal">
+        <mi>K</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>~20 "unitsml(K)"</asciimath></stem> and above <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>~</mi>
+    <mn>1300</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu5">
+      <mstyle mathvariant="normal">
+        <mi>K</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>~1300
+"unitsml(K)"</asciimath></stem>, where primary thermometers may offer a lower thermodynamic uncertainty than is currently available with the ITS-90 and the PLTS-2000. In the future, as the primary methods evolve and are expected to achieve lower uncertainties, primary thermometers will become more widely used and gradually replace the ITS-90 and the PLTS-2000 as the basis of temperature measurement.</p>
+
+<p id="_18bbc6c3-0341-987f-b157-69ef8d567b8a">The primary thermometry methods included in this section fulfil the following criteria:</p>
+
+<ul id="_c9442635-de7f-520a-0eae-2788cec20958"><li><p id="_b400646a-bef6-5649-c89b-72ba5355bcc4">At least one example of a complete uncertainty budget has been examined and approved by the CCT.</p>
+</li>
+<li><p id="_e88cda86-b516-1ba8-b760-35a019a2e969">The uncertainty of the realization of the kelvin is not more than one order of magnitude larger than the state-of-the-art uncertainty achieved with primary thermometry or defined temperature scales, or the uncertainty needed by the stakeholders.</p>
+</li>
+<li><p id="_1638bc11-1155-36e0-deec-d4dea05e4503">At least two independent realizations applying the method with the necessary uncertainty exist.</p>
+</li>
+<li><p id="_4d286fa6-1006-f8a9-3aea-dd8b58021dcc">A comparison of the realizations with the results of already accepted methods has been carried out.</p>
+</li>
+<li><p id="_983b2377-9ec7-ba21-405c-8cd4779c3b2b">The methods are applicable over temperature ranges that are acceptable for the stakeholders in metrology, science or industry.</p>
+</li>
+<li><p id="_8cc9fa22-5219-bad8-4361-ca1a5765f0c6">The experimental technique necessary for applying the methods is documented in sufficient detail in the open literature so that experts in metrology can realize it independently.</p>
+</li>
+</ul>
+
+<clause id="_84f731bb-7017-7ae8-2e33-f100ea7777dd" obligation="normative">
+<title id="_a85c07ef-aa0f-0f06-3b5a-def2a25254fc">Thermodynamic temperature measurement by acoustic gas thermometry</title>
+<clause id="_32198a6f-313f-410d-e0db-f52beeb58146" obligation="normative">
+<title id="_5ba37570-f786-c921-dae7-58040edecf43">Principle of primary acoustic gas thermometry</title>
+<p id="_9ffc4617-cf71-c871-69b4-2a73814866a8">Primary acoustic gas thermometry (AGT) exploits the relationship between the speed of
+sound, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>u</mi>
+  </mstyle>
+</math><asciimath>u</asciimath></stem>, in
+an ideal gas in the limit of zero frequency and the thermodynamic temperature,
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>T</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(T)</asciimath></stem>, of the gas,</p>
+
+<formula id="_faf7393b-2d63-b77b-c580-66afee8aacfa"><stem block="true" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <msup>
+      <mi>u</mi>
+      <mn>2</mn>
+    </msup>
+    <mo>=</mo>
+    <mfrac>
+      <mrow>
+        <mi mathvariant="normal">γ</mi>
+        <mi>k</mi>
+        <mstyle mathvariant="italic">
+          <mi>T</mi>
+        </mstyle>
+      </mrow>
+      <mi>m</mi>
+    </mfrac>
+    <mo>,</mo>
+  </mstyle>
+</math><asciimath>u^2 = {gamma k ii(T)} / m,</asciimath></stem></formula>
+
+<p id="_47b8ef9f-23e2-af79-1535-702ebefd0afc">where <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>k</mi>
+  </mstyle>
+</math><asciimath>k</asciimath></stem> is the Boltzmann constant, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>m</mi>
+  </mstyle>
+</math><asciimath>m</asciimath></stem> is the average molecular mass of
+the gas, and <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi mathvariant="normal">γ</mi>
+  </mstyle>
+</math><asciimath>gamma</asciimath></stem> is the ratio of
+the heat capacity of the gas at constant pressure to its heat capacity at constant
+volume. For ideal monatomic gases, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi mathvariant="normal">γ</mi>
+    <mo>=</mo>
+    <mn>5</mn>
+    <mo>/</mo>
+    <mn>3</mn>
+  </mstyle>
+</math><asciimath>gamma = 5//3</asciimath></stem>.</p>
+</clause>
+
+<clause id="_faa095e3-ab52-19c8-3c90-4e75f7c4ae97" obligation="normative">
+<title id="_fa988dc7-3069-5a8b-30e1-a07d5f54f931">Absolute primary acoustic gas thermometry</title>
+<p id="_e9210080-d5eb-4df1-faf5-aa1524cd6f0a">The speed of sound is deduced from the resonance frequencies of a monatomic gas contained within an isothermal cavity. Accurate determinations of the resonance frequencies require the use of nondegenerate acoustic modes, and often the non-degenerate radially-symmetrical modes of nearly spherical cavities are used. The average radius of the cavity is often determined using microwave resonances. The non-ideal properties of real gases are accommodated with the use of a virial expansion of the speed-of-sound relation and extrapolation to zero pressure.</p>
+
+<p id="_0837a925-eefa-beb8-26fa-2291f891a67d">Measurements of the acoustic resonance frequencies, pressures, cavity dimensions and
+molecular mass of the gas must be traceable to the metre, the kilogram and the
+second. Primary AGT has been
+conducted at the temperature of the triple point of water with relative uncertainties
+of the order of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>6</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math><asciimath>10^(-6)</asciimath></stem>. However, the low uncertainties claimed for AGT have not yet been confirmed by independent measurements. Details are found in the review paper “<tt>Acoustic gas thermometry</tt>” by  <link target="https://iopscience.iop.org/article/10.1088/0026-1394/51/1/R1">Moldover <em>et al.</em></link> <eref type="inline" bibitemid="moldover" citeas="[5]"/> and references therein.</p>
+</clause>
+
+<clause id="_1e34f29a-db1c-3424-23a3-13b634dbf7aa" obligation="normative">
+<title id="_8f6456c2-7ede-5539-009f-149fa8993040">Relative primary acoustic gas thermometry</title>
+<p id="_78d3d11b-b16e-95ad-ae34-2eeefb7911a8">Relative AGT determines the ratios of thermodynamic temperatures from measurements of
+the ratios of speeds of sound. Typically, a temperature is determined as a ratio with
+respect to the temperature of a fixed point for which the thermodynamic temperature
+is known. The measured temperature ratios are usually expressible in terms of
+measured ratios of lengths and frequencies. Relative AGT has been conducted over a
+wide temperature range from a few kelvins to above <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>550</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu5">
+      <mstyle mathvariant="normal">
+        <mi>K</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>550 "unitsml(K)"</asciimath></stem>. Independent
+realizations of relative AGT typically agree within <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>3</mn>
+    <mo>×</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>6</mn>
+      </mrow>
+    </msup>
+    <mtext> </mtext>
+    <mstyle mathvariant="italic">
+      <mi>T</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>3 xx 10^(-6) " " ii(T)</asciimath></stem> in
+the sub-range <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>234</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu5">
+      <mstyle mathvariant="normal">
+        <mi>K</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>234 "unitsml(K)"</asciimath></stem> to <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>380</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu5">
+      <mstyle mathvariant="normal">
+        <mi>K</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>380 "unitsml(K)"</asciimath></stem>. A
+table containing data for the thermodynamic temperature <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>T</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(T)</asciimath></stem> of fixed points is given in the annex “<link target="https://www.bipm.org/utils/common/pdf/ITS-90/Estimates_Differences_T-T90_2010.pdf"/>[Estimates of the differences <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>T</mi>
+    </mstyle>
+    <mo>−</mo>
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>T</mi>
+      </mstyle>
+      <mn>90</mn>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(T)-ii(T)_{90}</asciimath></stem>]”, see <xref target="sec-5-1"/>.</p>
+</clause>
+</clause>
+
+<clause id="_d6e68d62-50a8-9923-348d-7bee4d130f16" obligation="normative">
+<title id="_2f2a67ea-8ba2-9520-6ad8-3a3c7194c5c2">Spectral-band radiometric thermometry (<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1235</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu5">
+      <mstyle mathvariant="normal">
+        <mi>K</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>1235 "unitsml(K)"</asciimath></stem> and above)</title>
+<clause id="_3266f644-aa95-3251-f3aa-5c10520cca4a" obligation="normative">
+<title id="_608ba1ee-c37c-20fc-1860-b63fa9ef50f8">Principle of primary radiometric thermometry</title>
+<p id="_21dd74a1-16af-8904-9c62-c4f3e2bb96cf">The basic equation for spectral radiometric thermometry is the Planck law, which
+gives the spectral radiance<fn id="_c540eb68-1f86-4dd9-7dd9-7a0704c7efde" reference="2"><p id="_1994d1ff-2d9e-cf07-b936-60ed34391464">The subscript <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>λ</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(lambda)</asciimath></stem> on <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>L</mi>
+      </mstyle>
+      <mrow>
+        <mtext>b</mtext>
+        <mo>,</mo>
+        <mstyle mathvariant="italic">
+          <mi>λ</mi>
+        </mstyle>
+      </mrow>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(L)_{"b",ii(lambda)}</asciimath></stem> in this case indicates that the value is per unit wavelength, and is not a wavelength dependency.</p>
+</fn>, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>L</mi>
+      </mstyle>
+      <mrow>
+        <mtext>b</mtext>
+        <mo>,</mo>
+        <mstyle mathvariant="italic">
+          <mi>λ</mi>
+        </mstyle>
+      </mrow>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(L)_{"b",ii(lambda)}</asciimath></stem>, of
+an ideal blackbody as a function of temperature, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>T</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(T)</asciimath></stem>,</p>
+
+<formula id="_252cfc0a-1836-0304-0060-d640e18acb16"><stem block="true" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>L</mi>
+      </mstyle>
+      <mrow>
+        <mtext>b</mtext>
+        <mo>,</mo>
+        <mstyle mathvariant="italic">
+          <mi>λ</mi>
+        </mstyle>
+      </mrow>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>,</mo>
+      <mstyle mathvariant="italic">
+        <mi>T</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+    <mo>=</mo>
+    <mrow>
+      <mo>(</mo>
+      <mfrac>
+        <mrow>
+          <mn>2</mn>
+          <mi>h</mi>
+          <msup>
+            <mi>c</mi>
+            <mn>2</mn>
+          </msup>
+        </mrow>
+        <msup>
+          <mstyle mathvariant="italic">
+            <mi>λ</mi>
+          </mstyle>
+          <mn>5</mn>
+        </msup>
+      </mfrac>
+      <mo>)</mo>
+    </mrow>
+    <mfrac>
+      <mn>1</mn>
+      <mrow>
+        <mrow>
+          <mo rspace="thickmathspace"/>
+          <mrow>
+            <mi>exp</mi>
+            <mrow>
+              <mo>(</mo>
+              <mi>h</mi>
+              <mi>c</mi>
+              <mo>/</mo>
+              <mstyle mathvariant="italic">
+                <mi>λ</mi>
+              </mstyle>
+              <mi>k</mi>
+              <mstyle mathvariant="italic">
+                <mi>T</mi>
+              </mstyle>
+              <mo>)</mo>
+            </mrow>
+          </mrow>
+        </mrow>
+        <mo>−</mo>
+        <mn>1</mn>
+      </mrow>
+    </mfrac>
+    <mo>,</mo>
+  </mstyle>
+</math><asciimath>ii(L)_{"b",ii(lambda)} (ii(lambda),ii(T)) = ({2hc^2}/{ii(lambda)^5}) 1 / {exp (hc // ii(lambda) k ii(T)) - 1},</asciimath></stem></formula>
+
+<p id="_63432371-8c7e-c943-3441-85be8c3f5697">where <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>k</mi>
+  </mstyle>
+</math><asciimath>k</asciimath></stem> is the Boltzmann constant, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>h</mi>
+  </mstyle>
+</math><asciimath>h</asciimath></stem> is the Planck constant, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>c</mi>
+  </mstyle>
+</math><asciimath>c</asciimath></stem> is the speed of light  <em>in vacuo</em>, and <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>λ</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(lambda)</asciimath></stem> is the wavelength  <em>in vacuo</em>. Spectral radiance is the power emitted per unit area per
+unit solid angle per
+unit wavelength and is often expressed with the units
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_W.m-2.sr-1.nm-1">
+      <mstyle mathvariant="normal">
+        <mi>W</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>m</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>2</mn>
+        </mrow>
+      </msup>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>sr</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>1</mn>
+        </mrow>
+      </msup>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>nm</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>1</mn>
+        </mrow>
+      </msup>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(W*m^(-2)*sr^(-1)*nm^(-1))"</asciimath></stem>.</p>
+</clause>
+
+<clause id="_e5b9a169-7565-92da-904f-5a48813faf09" obligation="normative">
+<title id="_d99c680b-8a94-1246-6661-599f8289b925">Absolute primary radiometric thermometry</title>
+<p id="_e5ee4010-b725-063e-371c-6f70286830cc">Absolute primary radiometric thermometry requires an accurate determination of the optical power, emitted over a known spectral band and known solid angle, by an isothermal cavity of known emissivity. Measurement of the power requires a radiometer, comprising a detector and spectral filter, with known absolute spectral responsivity. The optical system typically includes two co-aligned circular apertures separated by a known distance to define the solid angle, and may additionally include lenses or mirrors. The refractive index of the medium in which the measurement is made must also be known. All measurements of the quantities involved must be traceable to the corresponding units of the SI, in particular, the watt and the metre.</p>
+
+<p id="_c4bd7d57-5c6d-4686-464e-a0369036c5a5">Uncertainties of around <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>0.1</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu5">
+      <mstyle mathvariant="normal">
+        <mi>K</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>0.1 "unitsml(K)"</asciimath></stem> (<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>k</mi>
+    <mo>=</mo>
+    <mn>1</mn>
+  </mstyle>
+</math><asciimath>k = 1</asciimath></stem>) at <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>2800</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu5">
+      <mstyle mathvariant="normal">
+        <mi>K</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>2800
+"unitsml(K)"</asciimath></stem> are possible with primary radiometric thermometry. Practical guidelines for the realization, including typical uncertainty estimates, are found in the annex “<tt><link target="https://www.bipm.org/utils/en/pdf/si-mep/MeP-K-2018_Absolute_Primary_Radiometry.pdf">Absolute primary radiometric thermometry</link></tt>” and references therein. Methods used for determining the uncertainty associated with thermodynamic temperature as measured using absolute primary radiometric thermometry are described in the annex “<tt><link target="https://www.bipm.org/utils/en/pdf/si-mep/MeP-K-2018_Absolute_Primary_Radiometry_Uncertainty.pdf">Uncertainty estimation in primary radiometric temperature measurement</link></tt>” and references therein.</p>
+</clause>
+
+<clause id="_1a812053-a823-101f-8778-76b653d5f04c" anchor="sec-4-2-3" obligation="normative">
+<title id="_11b1a81e-76be-9f5d-ea1d-d42426dc105f">Relative primary radiometric thermometry</title>
+<p id="_5321f663-4f20-3cc8-b99f-6cfa9ec1161d">For relative primary radiometric thermometry, the absolute spectral responsivity of the radiometer is not required, nor is quantification of the geometric factors defining the solid angle. Instead, the optical power is measured relative to optical power measurements made of one or more fixed-point blackbodies, each with known thermodynamic temperature. There are three recognisable approaches to relative primary thermometry:</p>
+
+<ul id="_9f15a50e-3cb5-fac4-a8e7-7bb4dda00c10"><li><p id="_e1bc16b9-e81c-db8a-974d-c6866114a476">extrapolation from one fixed point, which requires only knowledge of the relative spectral responsivity of the detector and filter;</p>
+</li>
+<li><p id="_74992290-96ab-3b73-d55c-2d1e7dfbe758">interpolation or extrapolation from two fixed points, which requires only the bandwidth of the responsivity;</p>
+</li>
+<li><p id="_1d9d88bb-5185-a995-3545-564d82dbdf1a">interpolation or extrapolation from three or more fixed points, for which detailed measurements of responsivity are not required.</p>
+</li>
+</ul>
+
+<p id="_81b56be4-ef80-bac7-4384-5d7178f15138">The interpolation and extrapolation is greatly simplified with the use of a well-understood parametric approximation of the integral expression of the optical power (e.g., by the Planck form of the Sakuma-Hattori equation), which eliminates the need to iteratively solve the integral equation describing the measured optical power.</p>
+
+<p id="_c3621ecb-4ecf-291e-8f01-ad2af0fec4e7">Relative primary radiometric thermometry gives uncertainties that are only slightly higher than absolute primary radiometric thermometry. Guidelines for the realization, including typical uncertainty estimates, are found in the annex “<tt><link target="https://www.bipm.org/utils/en/pdf/si-mep/MeP-K-2018_Relative_Primary_Radiometry.pdf">Relative primary radiometric thermometry</link></tt>” and references therein.</p>
+</clause>
+</clause>
+
+<clause id="_10a8561e-45b1-1318-1ca8-db8573736237" obligation="normative">
+<title id="_a6f2ed20-2a23-3e3e-fcfd-b37a2a22e7af">Thermodynamic temperature measurement by polarizing gas thermometry</title>
+<clause id="_845e1019-d5b1-e3aa-194d-bcb0593ba237" obligation="normative">
+<title id="_ca363fb3-d1e8-ad7c-a9b6-b593f1ea8865">Principle of primary polarizing gas thermometry</title>
+<p id="_da45afd9-e858-a6e0-a31e-faa1dc22c979">Polarizing gas thermometry (PGT) is based on the in-situ measurement of the gas
+density via its
+electromagnetic properties. The basic working equations are the Clausius-Mossotti and
+Lorentz-Lorenz
+equation, which have been independently theoretically derived. The Clausius-Mossotti
+equation describes the gas behaviour in an electric field by the relative dielectric
+constant (permittivity) <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>ε</mi>
+      </mstyle>
+      <mtext>r</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(epsilon)_"r"</asciimath></stem>. For an ideal gas, its combination
+with the equation of state yields the rigorous
+relationship between <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>ε</mi>
+      </mstyle>
+      <mtext>r</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(epsilon)_"r"</asciimath></stem> and the gas pressure <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>p</mi>
+  </mstyle>
+</math><asciimath>p</asciimath></stem>:</p>
+
+<formula id="_5e9fdc71-76f6-054c-b8ec-52e3b34c619d"><stem block="true" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <mfrac>
+      <mrow>
+        <msub>
+          <mstyle mathvariant="italic">
+            <mi>ε</mi>
+          </mstyle>
+          <mtext>r</mtext>
+        </msub>
+        <mo>−</mo>
+        <mn>1</mn>
+      </mrow>
+      <mrow>
+        <msub>
+          <mstyle mathvariant="italic">
+            <mi>ε</mi>
+          </mstyle>
+          <mtext>r</mtext>
+        </msub>
+        <mo>+</mo>
+        <mn>2</mn>
+      </mrow>
+    </mfrac>
+    <mo>=</mo>
+    <mfrac>
+      <mrow>
+        <msub>
+          <mstyle mathvariant="italic">
+            <mi>A</mi>
+          </mstyle>
+          <mstyle mathvariant="italic">
+            <mi>ε</mi>
+          </mstyle>
+        </msub>
+        <mi>p</mi>
+      </mrow>
+      <mstyle mathvariant="italic">
+        <mrow>
+          <mi>R</mi>
+          <mi>T</mi>
+        </mrow>
+      </mstyle>
+    </mfrac>
+  </mstyle>
+</math><asciimath>{ii(epsilon)_"r" - 1} / {ii(epsilon)_"r" + 2} = {ii(A)_{ii(epsilon)} p} / {ii(RT)}</asciimath></stem></formula>
+
+<p id="_390a8488-f124-a187-0ca0-8a3a122f36b4">where <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>A</mi>
+      </mstyle>
+      <mstyle mathvariant="italic">
+        <mi>ε</mi>
+      </mstyle>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(A)_{ii(epsilon)}</asciimath></stem> is the molar electric polarizability. The
+Lorentz-Lorenz equation describes the propagation
+of electromagnetic waves by the refractive index <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>n</mi>
+  </mstyle>
+</math><asciimath>n</asciimath></stem>. Its combination with the
+equation of state of an
+ideal gas can be approximated with a relative uncertainty of less than one part per
+million (ppm) at
+gas densities up to <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>0.1</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_mol.cm-3">
+      <mstyle mathvariant="normal">
+        <mi>mol</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>cm</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>3</mn>
+        </mrow>
+      </msup>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>0.1 "unitsml(mol//cm^3)"</asciimath></stem> by the rigorous relationship
+between <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>n</mi>
+  </mstyle>
+</math><asciimath>n</asciimath></stem> and <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>p</mi>
+  </mstyle>
+</math><asciimath>p</asciimath></stem>:</p>
+
+<formula id="_894290a9-a6c2-1bd0-921e-13bcc2b94f88"><stem block="true" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <mfrac>
+      <mrow>
+        <msup>
+          <mi>n</mi>
+          <mn>2</mn>
+        </msup>
+        <mo>−</mo>
+        <mn>1</mn>
+      </mrow>
+      <mrow>
+        <msup>
+          <mi>n</mi>
+          <mn>2</mn>
+        </msup>
+        <mo>+</mo>
+        <mn>2</mn>
+      </mrow>
+    </mfrac>
+    <mo>=</mo>
+    <mfrac>
+      <mrow>
+        <mrow>
+          <mo>(</mo>
+          <msub>
+            <mstyle mathvariant="italic">
+              <mi>A</mi>
+            </mstyle>
+            <mstyle mathvariant="italic">
+              <mi>ε</mi>
+            </mstyle>
+          </msub>
+          <mo>+</mo>
+          <msub>
+            <mstyle mathvariant="italic">
+              <mi>A</mi>
+            </mstyle>
+            <mstyle mathvariant="italic">
+              <mi>μ</mi>
+            </mstyle>
+          </msub>
+          <mo>)</mo>
+        </mrow>
+        <mi>p</mi>
+      </mrow>
+      <mstyle mathvariant="italic">
+        <mrow>
+          <mi>R</mi>
+          <mi>T</mi>
+        </mrow>
+      </mstyle>
+    </mfrac>
+  </mstyle>
+</math><asciimath>{n^2 - 1} / {n^2 + 2} = {(ii(A)_{ii(epsilon)} + ii(A)_{ii(mu)}) p} / {ii(RT)}</asciimath></stem></formula>
+
+<p id="_86a1af22-a276-f9f9-f750-884c75c45bb9">where <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>A</mi>
+      </mstyle>
+      <mstyle mathvariant="italic">
+        <mi>μ</mi>
+      </mstyle>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(A)_{ii(mu)}</asciimath></stem> is the molar magnetic polarizability. The two
+relationships are closely related since
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msup>
+      <mi>n</mi>
+      <mn>2</mn>
+    </msup>
+    <mo>=</mo>
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>ε</mi>
+      </mstyle>
+      <mtext>r</mtext>
+    </msub>
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>μ</mi>
+      </mstyle>
+      <mtext>r</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>n^2 = ii(epsilon)_"r" ii(mu)_"r"</asciimath></stem>, with <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>μ</mi>
+      </mstyle>
+      <mtext>r</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(mu)_"r"</asciimath></stem> being the relative magnetic permeability. At non-zero gas densities, the properties of real gases deviate from the ideal equations above, and power series expansions with different virial coefficients have to be used for the Clausius-Mossotti equation, Lorentz-Lorenz equation and the equation of state. But for primary thermometry, the ideal-gas properties may be determined by extrapolation to zero density.</p>
+
+<p id="_e49fc2ee-6982-e332-c4a2-8a396a58a080">Each of the two relationships is the physical basis for one kind of PGT.
+Dielectric-constant gas
+thermometry (DCGT) measures <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>ε</mi>
+      </mstyle>
+      <mtext>r</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(epsilon)_"r"</asciimath></stem>
+by the change of the capacitance of a suitable capacitor by the
+measuring gas. Refractive-index gas thermometry (RIGT) detects resonances of
+electromagnetic waves in a cavity resonator. DCGT and RIGT share several challenges.
+The polarizabilities must be known from ab initio calculations. With sub-ppm
+uncertainties, this is at present only fulfilled for
+helium, which has small polarizabilities of order <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>A</mi>
+      </mstyle>
+      <mstyle mathvariant="italic">
+        <mi>ε</mi>
+      </mstyle>
+    </msub>
+    <mo>≈</mo>
+    <mn>0.52</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_cm3.mol-1">
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>cm</mi>
+        </mstyle>
+        <mn>3</mn>
+      </msup>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>mol</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>1</mn>
+        </mrow>
+      </msup>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>ii(A)_{ii(epsilon)} ~~ 0.52 "unitsml(cm^3//mol)"</asciimath></stem>
+and <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>A</mi>
+      </mstyle>
+      <mstyle mathvariant="italic">
+        <mi>μ</mi>
+      </mstyle>
+    </msub>
+    <mo>≈</mo>
+    <mo>−</mo>
+    <mn>0.0000079</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_cm3.mol-1">
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>cm</mi>
+        </mstyle>
+        <mn>3</mn>
+      </msup>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>mol</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>1</mn>
+        </mrow>
+      </msup>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>ii(A)_{ii(mu)} ~~ - 0.0000079 "unitsml(cm^3//mol)"</asciimath></stem>. Both DCGT and RIGT share the need of accurately measuring the pressure traceably to the SI base units metre, kilogram and the second.</p>
+</clause>
+
+<clause id="_082dc9ec-90b1-8e43-e8cd-3e0c58b87763" obligation="normative">
+<title id="_cfeb661c-b780-33af-06f4-bea4998482d9">Dielectric-constant gas thermometry</title>
+<p id="_3ae26763-c5b0-b149-2c98-cc09b3b1f4e7">The dielectric constant is determined via the change of the capacitance
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>C</mi>
+    </mstyle>
+    <mrow>
+      <mo>(</mo>
+      <mi>p</mi>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>ii(C)(p)</asciimath></stem> of a suitable capacitor
+measured with and without the measuring gas. This works ideally only for a
+pressure-independent
+configuration of the capacitor. In practice, changes of the electrode geometry with
+pressure are unavoidable and have to be taken into account. This leads for a
+highly-stable capacitor to a linear experimental equation for the determination of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>ε</mi>
+      </mstyle>
+      <mtext>r</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(epsilon)_"r"</asciimath></stem>,</p>
+
+<formula id="_473979fd-80e8-879d-2ee2-1428b99707b1"><stem block="true" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>ε</mi>
+      </mstyle>
+      <mtext>r</mtext>
+    </msub>
+    <mo>=</mo>
+    <mfrac>
+      <mrow>
+        <mstyle mathvariant="italic">
+          <mi>C</mi>
+        </mstyle>
+        <mrow>
+          <mo>(</mo>
+          <mi>p</mi>
+          <mo>)</mo>
+        </mrow>
+      </mrow>
+      <mrow>
+        <mstyle mathvariant="italic">
+          <mi>C</mi>
+        </mstyle>
+        <mrow>
+          <mo>(</mo>
+          <mn>0</mn>
+          <mo>)</mo>
+        </mrow>
+        <mrow>
+          <mo>(</mo>
+          <mn>1</mn>
+          <mo>+</mo>
+          <msub>
+            <mstyle mathvariant="italic">
+              <mi>κ</mi>
+            </mstyle>
+            <mtext>eff</mtext>
+          </msub>
+          <mi>p</mi>
+          <mo>)</mo>
+        </mrow>
+      </mrow>
+    </mfrac>
+    <mo>,</mo>
+  </mstyle>
+</math><asciimath>ii(epsilon)_"r" = {ii(C)(p)} / {ii(C)(0)(1 + ii(kappa)_{"eff"}p)},</asciimath></stem></formula>
+
+<p id="_3a5d28e2-ca97-5475-65cc-53ca71784f60">where <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>κ</mi>
+      </mstyle>
+      <mtext>eff</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(kappa)_{"eff"}</asciimath></stem> is the negative isothermal effective compressibility
+and <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>C</mi>
+    </mstyle>
+    <mrow>
+      <mo>(</mo>
+      <mn>0</mn>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>ii(C)(0)</asciimath></stem> is the capacitance of the
+evacuated capacitor<fn id="_e0a2e4d3-de97-0b9a-4d59-3381b9ee7da6" reference="3"><p id="_39ec6e54-8bfb-596a-2bc1-95ae3a16c9b2">The term “effective” indicates the fact that each capacitor is a composite because small pieces of insulator materials are necessary to isolate the electrodes electrically.</p>
+</fn>. Because of the
+small <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>A</mi>
+      </mstyle>
+      <mstyle mathvariant="italic">
+        <mi>ε</mi>
+      </mstyle>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(A)_{ii(epsilon)}</asciimath></stem> value of helium, the capacitance changes have to be
+measured using a high-precision ratio-transformer bridge, the quality of which is
+comparable with those applied for the realization and dissemination of the
+capacitance unit.</p>
+
+<p id="_a8f8292a-1c47-8c33-e9a3-339471dabc3f">For deriving the complete working equation of DCGT, the experimental equation for
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>ε</mi>
+      </mstyle>
+      <mtext>r</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(epsilon)_"r"</asciimath></stem>
+has to be combined with the relationship between <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>ε</mi>
+      </mstyle>
+      <mtext>r</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(epsilon)_"r"</asciimath></stem>
+and <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>p</mi>
+  </mstyle>
+</math><asciimath>p</asciimath></stem>. Applying the complete working equation, isotherms
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>C</mi>
+    </mstyle>
+    <mrow>
+      <mo>(</mo>
+      <mi>p</mi>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>ii(C)(p)</asciimath></stem> versus <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>p</mi>
+  </mstyle>
+</math><asciimath>p</asciimath></stem> at constant temperature have to be measured for
+determining the DCGT results in the
+ideal-gas limit by extrapolation. In this limit, the values of the virial
+coefficients are not needed and
+values of the thermodynamic temperature <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>T</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(T)</asciimath></stem> can be deduced.</p>
+
+<p id="_0071c09e-b032-6e79-1c74-41eed1a5cd72">Besides knowledge of the polarizability of the measuring gas and a traceable pressure
+measurement
+as mentioned above, absolute primary DCGT requires calculation of the effective
+compressibility of
+the measuring capacitor from the individual elastic constants of the construction
+materials.
+Traceability to the capacitance unit is not necessary because only capacitance ratios
+are needed.
+Primary DCGT has been conducted at the triple point of water with relative
+uncertainty of order
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu400">
+      <mstyle mathvariant="normal">
+        <mi>ppm</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>1 "unitsml(ppm)"</asciimath></stem>. The relative uncertainty of primary DCGT results in the
+low-temperature range decreases
+from about <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>40</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu400">
+      <mstyle mathvariant="normal">
+        <mi>ppm</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>40 "unitsml(ppm)"</asciimath></stem> at <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>2.5</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu5">
+      <mstyle mathvariant="normal">
+        <mi>K</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>2.5 "unitsml(K)"</asciimath></stem> to about <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>10</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu400">
+      <mstyle mathvariant="normal">
+        <mi>ppm</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>10
+"unitsml(ppm)"</asciimath></stem> around <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>100</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu5">
+      <mstyle mathvariant="normal">
+        <mi>K</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>100 "unitsml(K)"</asciimath></stem>. All results are confirmed by independent thermodynamic measurements within the uncertainty estimates. Details are found in the review paper “<tt>Dielectric-constant gas thermometry</tt>” by  <link target="https://iopscience.iop.org/article/10.1088/0026-1394/52/5/S217">Gaiser <em>et al.</em></link> <eref type="inline" bibitemid="gaiser" citeas="[6]"/> and the references therein.</p>
+
+<p id="_f5cba6bb-8025-ed42-17d2-ecf7e88e88ca">The requirement for SI-traceable, low-uncertainty pressure measurements can be
+relaxed by
+conducting relative primary DCGT. For instance, measurements on isobars require only
+that <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>p</mi>
+  </mstyle>
+</math><asciimath>p</asciimath></stem> is
+stabilized by the aid of an uncalibrated pressure balance. But due to the complicated
+temperature
+dependence of the elastic constants of the construction materials, and thus of
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>κ</mi>
+      </mstyle>
+      <mtext>eff</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(kappa)_{"eff"}</asciimath></stem> of the measuring capacitor, simple ratio measurements are not sufficient.</p>
+</clause>
+
+<clause id="_690b226c-b7fc-3594-00df-fa0debd2b387" obligation="normative">
+<title id="_b29f4ee9-d0aa-9e17-96c5-9f89c813b3d9">Refractive-index gas thermometry</title>
+<p id="_fd0507e2-f365-1e74-789b-a39cfe91db7b">In the context of absolute primary microwave RIGT, the refractive index is determined
+from
+measurements of microwave resonance frequencies <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>f</mi>
+      <mi>m</mi>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mi>p</mi>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>f_m (p)</asciimath></stem> of a gas-filled isothermal cavity. (The subscript “<tt><em>m</em></tt>” specifies a particular microwave mode.) Quasi-spherical or
+cylindrical cavity shapes
+are typically employed, with the cavity dimensions at the working gas pressure
+calculated by
+combining the positive isothermal effective compressibility <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>κ</mi>
+      </mstyle>
+      <mtext>eff</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(kappa)_{"eff"}</asciimath></stem>
+of the resonator shell with cavity
+resonance measurements performed in vacuum <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>f</mi>
+      <mi>m</mi>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mn>0</mn>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>f_m(0)</asciimath></stem> (the sign of
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>κ</mi>
+      </mstyle>
+      <mtext>eff</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(kappa)_{"eff"}</asciimath></stem> depends on the design of the cavity resonator):</p>
+
+<formula id="_db008f9b-0541-32c9-1429-8b7ba63c3031"><stem block="true" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <msup>
+      <mi>n</mi>
+      <mn>2</mn>
+    </msup>
+    <mo>=</mo>
+    <mfrac>
+      <mrow>
+        <msubsup>
+          <mi>f</mi>
+          <mi>m</mi>
+          <mn>2</mn>
+        </msubsup>
+        <mrow>
+          <mo>(</mo>
+          <mn>0</mn>
+          <mo>)</mo>
+        </mrow>
+      </mrow>
+      <mrow>
+        <msubsup>
+          <mi>f</mi>
+          <mi>m</mi>
+          <mn>2</mn>
+        </msubsup>
+        <mrow>
+          <mo>(</mo>
+          <mi>p</mi>
+          <mo>)</mo>
+        </mrow>
+        <msup>
+          <mrow>
+            <mo>(</mo>
+            <mn>1</mn>
+            <mo>−</mo>
+            <msub>
+              <mstyle mathvariant="italic">
+                <mi>κ</mi>
+              </mstyle>
+              <mtext>eff</mtext>
+            </msub>
+            <mi>p</mi>
+            <mo>)</mo>
+          </mrow>
+          <mn>2</mn>
+        </msup>
+      </mrow>
+    </mfrac>
+    <mo>≈</mo>
+    <mfrac>
+      <mrow>
+        <msubsup>
+          <mi>f</mi>
+          <mi>m</mi>
+          <mn>2</mn>
+        </msubsup>
+        <mrow>
+          <mo>(</mo>
+          <mn>0</mn>
+          <mo>)</mo>
+        </mrow>
+      </mrow>
+      <mrow>
+        <msubsup>
+          <mi>f</mi>
+          <mi>m</mi>
+          <mn>2</mn>
+        </msubsup>
+        <mrow>
+          <mo>(</mo>
+          <mi>p</mi>
+          <mo>)</mo>
+        </mrow>
+      </mrow>
+    </mfrac>
+    <mrow>
+      <mo>(</mo>
+      <mn>1</mn>
+      <mo>+</mo>
+      <mn>2</mn>
+      <msub>
+        <mstyle mathvariant="italic">
+          <mi>κ</mi>
+        </mstyle>
+        <mtext>eff</mtext>
+      </msub>
+      <mi>p</mi>
+      <mo>)</mo>
+    </mrow>
+    <mo>.</mo>
+  </mstyle>
+</math><asciimath>n^2 = {f_m^2(0)} / {f_m^2(p)(1 - ii(kappa)_{"eff"} p)^2} ~~ {f_m^2 (0)} / {f_m^2 (p)} (1 + 2 ii(kappa)_{"eff"} p).</asciimath></stem></formula>
+
+<p id="_799861f8-9a8b-b1bd-17bc-73ea6fdad8a8">This experimental equation for the determination of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msup>
+      <mi>n</mi>
+      <mn>2</mn>
+    </msup>
+  </mstyle>
+</math><asciimath>n^2</asciimath></stem> is similar to that of
+DCGT for <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>ε</mi>
+      </mstyle>
+      <mtext>r</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(epsilon)_"r"</asciimath></stem>, except that the influence of the negative effective
+compressibility <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>κ</mi>
+      </mstyle>
+      <mtext>eff</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(kappa)_{"eff"}</asciimath></stem> is twice as large. The equation contains
+ratios of microwave resonance frequencies <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>f</mi>
+      <mi>m</mi>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mn>0</mn>
+      <mo>)</mo>
+    </mrow>
+    <mo>/</mo>
+    <msub>
+      <mi>f</mi>
+      <mi>m</mi>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mi>p</mi>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>f_m(0)//f_m(p)</asciimath></stem>. These ratios can be
+measured accurately using
+a clock that is stable for the interval required for thermally-equilibrated
+measurements of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>f</mi>
+      <mi>m</mi>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mn>0</mn>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>f_m(0)</asciimath></stem> and
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>f</mi>
+      <mi>m</mi>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mi>p</mi>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>f_m(p)</asciimath></stem> to be completed (usually days to weeks for an isotherm).</p>
+
+<p id="_e7d911c5-48c6-344e-a127-edd99fd56dcd">For deriving the complete working equation of RIGT, the experimental equation for
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msup>
+      <mi>n</mi>
+      <mn>2</mn>
+    </msup>
+  </mstyle>
+</math><asciimath>n^2</asciimath></stem> has to be
+combined with the relationship between <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msup>
+      <mi>n</mi>
+      <mn>2</mn>
+    </msup>
+  </mstyle>
+</math><asciimath>n^2</asciimath></stem> and <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>p</mi>
+  </mstyle>
+</math><asciimath>p</asciimath></stem>. Furthermore, for
+describing the real-gas properties
+of helium, power series with different virial coefficients have to be used both for
+the Lorentz-Lorenz
+equation and the equation of state. Applying the complete working equation, isotherms
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msup>
+      <mi>n</mi>
+      <mn>2</mn>
+    </msup>
+  </mstyle>
+</math><asciimath>n^2</asciimath></stem> versus <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>p</mi>
+  </mstyle>
+</math><asciimath>p</asciimath></stem> at
+constant temperature may be measured for determining the RIGT results in the
+ideal-gas limit by
+extrapolation. In this limit, the values of the virial coefficients are not needed
+and values of the
+thermodynamic temperature <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>T</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(T)</asciimath></stem> can be deduced.</p>
+
+<p id="_d09cbb3f-14e6-f26c-9669-760e2e84fcae">Besides the knowledge of the polarizability of the measuring gas and a traceable
+low-uncertainty
+pressure measurement as mentioned above, absolute primary RIGT requires calculation of the
+effective compressibility of the measuring resonator shell from the individual
+elastic constants of the
+construction materials. Absolute primary RIGT has been conducted using helium gas at the
+temperature of the triple point of water with relative uncertainty of the order of
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>10</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu400">
+      <mstyle mathvariant="normal">
+        <mi>ppm</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>10 "unitsml(ppm)"</asciimath></stem>, and at the
+temperatures of the triple points of neon, oxygen, and argon with relative
+uncertainties of the order
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>20</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu400">
+      <mstyle mathvariant="normal">
+        <mi>ppm</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>20 "unitsml(ppm)"</asciimath></stem>. All results are confirmed by independent thermodynamic measurements within the uncertainty estimates. Details are found in the review paper “Refractive-index gas thermometry” by <link target="https://doi.org/10.1088/1681-7575/ab0dbe">Rourke <em>et al.</em></link> <eref type="inline" bibitemid="rourke" citeas="[7]"/> and the references therein.</p>
+
+<p id="_504070b8-ad4e-8b98-b386-caf98a54bbd1">The requirement for SI-traceable, low-uncertainty pressure measurements can be relaxed by
+conducting relative primary RIGT. For instance, measurements on isobars require only that <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>p</mi>
+  </mstyle>
+</math><asciimath>p</asciimath></stem> is
+stabilized by the aid of a pressure balance with weaker calibration constraints than required for
+absolute primary RIGT. However, the complicated temperature dependence of the elastic constants
+of the construction materials, and thus of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>κ</mi>
+      </mstyle>
+      <mtext>eff</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(kappa)_{"eff"}</asciimath></stem> of the measuring resonator, must be taken into account and simple ratio measurements may not be sufficient.</p>
+</clause>
+</clause>
+
+<clause id="_fe1b3760-75d6-3ce9-fd73-4b44bee52508" obligation="normative">
+<title id="_3c1cf874-4bbe-bc0a-6e7f-5e71e700a6f4">Thermodynamic temperature measurement by Johnson noise thermometry</title>
+<clause id="_b0ad98b5-ecfd-237c-5bb6-5372989c0e3b" obligation="normative">
+<title id="_7358683c-6577-23a1-e9a3-ca65326ae4c8">Principle of primary Johnson noise thermometry</title>
+<p id="_1591ca20-c7cc-2eb8-cb78-82cf63906918">Primary Johnson noise thermometry (JNT) is based on the thermal agitation of the charge carriers inside an electrical conductor and the fluctuation-dissipation theorem as its theoretical description.</p>
+
+<p id="_bd917bf4-0d0e-ea74-a5c1-0bc79a26af91">The power spectral density <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>S</mi>
+      </mstyle>
+      <mstyle mathvariant="italic">
+        <mi>V</mi>
+      </mstyle>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mi>f</mi>
+      <mo>,</mo>
+      <mstyle mathvariant="italic">
+        <mi>T</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>ii(S)_ii(V) (f,ii(T))</asciimath></stem> of the noise voltage
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>V</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(V)</asciimath></stem> across a complex electrical
+impedance <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>Z</mi>
+    </mstyle>
+    <mrow>
+      <mo>(</mo>
+      <mi>f</mi>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>ii(Z)(f)</asciimath></stem> is given by</p>
+
+<formula id="_3bf18a70-31ad-40e8-8f7a-81a9ed2e402a"><stem block="true" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>S</mi>
+      </mstyle>
+      <mstyle mathvariant="italic">
+        <mi>V</mi>
+      </mstyle>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mi>f</mi>
+      <mo>,</mo>
+      <mstyle mathvariant="italic">
+        <mi>T</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+    <mo>=</mo>
+    <mn>4</mn>
+    <mi>h</mi>
+    <mi>f</mi>
+    <mtext>Re</mtext>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>Z</mi>
+      </mstyle>
+      <mrow>
+        <mo>(</mo>
+        <mi>f</mi>
+        <mo>)</mo>
+      </mrow>
+      <mo>)</mo>
+    </mrow>
+    <mrow>
+      <mo>[</mo>
+      <mfrac>
+        <mn>1</mn>
+        <mn>2</mn>
+      </mfrac>
+      <mo>+</mo>
+      <mfrac>
+        <mn>1</mn>
+        <mrow>
+          <mo rspace="thickmathspace"/>
+          <mrow>
+            <mi>exp</mi>
+            <mrow>
+              <mo>(</mo>
+              <mi>h</mi>
+              <mi>f</mi>
+              <mo>/</mo>
+              <mi>k</mi>
+              <mstyle mathvariant="italic">
+                <mi>T</mi>
+              </mstyle>
+              <mo>)</mo>
+            </mrow>
+          </mrow>
+        </mrow>
+      </mfrac>
+      <mo>]</mo>
+    </mrow>
+    <mo>,</mo>
+  </mstyle>
+</math><asciimath>ii(S)_ii(V) (f,ii(T)) = 4 h f "Re"(ii(Z)(f)) [ 1/2 + 1/{exp(hf // k ii(T))} ],</asciimath></stem></formula>
+
+<p id="_688f415a-1aef-9f67-d313-226de664d900">where <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>f</mi>
+  </mstyle>
+</math><asciimath>f</asciimath></stem> is frequency, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>T</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(T)</asciimath></stem> is the thermodynamic temperature, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>h</mi>
+  </mstyle>
+</math><asciimath>h</asciimath></stem>
+is Planck’s constant, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>k</mi>
+  </mstyle>
+</math><asciimath>k</asciimath></stem> is Boltzmann’s
+constant, and <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Re</mtext>
+  </mstyle>
+</math><asciimath>"Re"</asciimath></stem> means the real part. The impedance can be, but is not
+necessarily a resistor with
+resistance <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Re</mtext>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>Z</mi>
+      </mstyle>
+      <mrow>
+        <mo>(</mo>
+        <mi>f</mi>
+        <mo>)</mo>
+      </mrow>
+      <mo>)</mo>
+    </mrow>
+    <mo>=</mo>
+    <mstyle mathvariant="italic">
+      <mi>R</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>"Re"(ii(Z)(f)) = ii(R)</asciimath></stem>. Neglecting for <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>h</mi>
+    <mi>f</mi>
+    <mtext> « </mtext>
+    <mi>k</mi>
+    <mstyle mathvariant="italic">
+      <mi>T</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>hf " « " kii(T)</asciimath></stem> the quantum corrections, this equation yields the Nyquist formula</p>
+
+<formula id="_971f38c9-8fa4-c1ea-504c-fc5e078c5238"><stem block="true" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <mi>〈</mi>
+    <msup>
+      <mstyle mathvariant="italic">
+        <mi>V</mi>
+      </mstyle>
+      <mn>2</mn>
+    </msup>
+    <mi>〉</mi>
+    <mo>=</mo>
+    <mn>4</mn>
+    <mi>k</mi>
+    <mstyle mathvariant="italic">
+      <mi>T</mi>
+    </mstyle>
+    <mstyle mathvariant="italic">
+      <mi>R</mi>
+    </mstyle>
+    <mi mathvariant="normal">Δ</mi>
+    <mi>f</mi>
+    <mo>,</mo>
+  </mstyle>
+</math><asciimath>&lt;&lt; ii(V)^2 &gt;&gt; = 4 k ii(T) ii(R) Delta f,</asciimath></stem></formula>
+
+<p id="_7b8aabaa-d0ca-a755-00a3-191d2219c8e1">where <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi mathvariant="normal">Δ</mi>
+    <mi>f</mi>
+  </mstyle>
+</math><asciimath>Delta f</asciimath></stem> is the bandwidth over which the noise voltage is measured. To
+the lowest order, the
+quantum effects introduce a relative correction equal to <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msup>
+      <mrow>
+        <mo>(</mo>
+        <mi>h</mi>
+        <mi>f</mi>
+        <mo>/</mo>
+        <mi>k</mi>
+        <mstyle mathvariant="italic">
+          <mi>T</mi>
+        </mstyle>
+        <mo>)</mo>
+      </mrow>
+      <mn>2</mn>
+    </msup>
+    <mo>/</mo>
+    <mn>12</mn>
+  </mstyle>
+</math><asciimath>(hf // k
+ii(T))^2//12</asciimath></stem>, which amounts for instance to
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>2</mn>
+    <mo>×</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>10</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math><asciimath>2 xx 10^(-10)</asciimath></stem> at <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_mK">
+      <mstyle mathvariant="normal">
+        <mi>mK</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>1 "unitsml(mK)"</asciimath></stem> and <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_kHz">
+      <mstyle mathvariant="normal">
+        <mi>kHz</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>1 "unitsml(kHz)"</asciimath></stem> or less
+than <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>2</mn>
+    <mo>×</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>9</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math><asciimath>2 xx 10^(-9)</asciimath></stem>
+for temperatures near <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>300</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu5">
+      <mstyle mathvariant="normal">
+        <mi>K</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>300 "unitsml(K)"</asciimath></stem> and frequencies below <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_GHz">
+      <mstyle mathvariant="normal">
+        <mi>GHz</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>1 "unitsml(GHz)"</asciimath></stem>.</p>
+</clause>
+
+<clause id="_d3f2c734-915f-5fe7-4e3c-b322b6b4dfbf" obligation="normative">
+<title id="_1396de1e-78fe-54bf-f797-7355b0d45b67">Absolute primary low-temperature Johnson noise thermometry (below <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>4</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu5">
+      <mstyle mathvariant="normal">
+        <mi>K</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>4 "unitsml(K)"</asciimath></stem>)</title>
+<p id="_baf2567b-45d4-f44a-b2ce-1efe832ba1ef">Absolute primary JNT at low temperatures requires the measurement of the power
+spectral density on
+a noise source with an exactly known impedance <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>Z</mi>
+    </mstyle>
+    <mrow>
+      <mo>(</mo>
+      <mi>f</mi>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>ii(Z)(f)</asciimath></stem>, which generally may
+be frequency dependent.
+The noise source is usually made of a high-purity metal containing negligible amounts of magnetic
+impurities to ensure a temperature-independent impedance. At low temperatures, the noise signals are
+very small and preferably measured with a sensor based on a superconducting quantum interference
+device (SQUID). In the evaluated frequency band, the electronic transfer function of the whole
+circuit including the noise source and the SQUID sensor must be precisely determined. Relative
+combined standard uncertainties of order <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1</mn>
+    <mo>×</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>3</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math><asciimath>1 xx 10^(-3)</asciimath></stem> have been achieved for thermodynamic temperatures determined by absolute primary low-temperature JNT. Details are found in the annex “<tt><link target="https://www.bipm.org/utils/en/pdf/si-mep/MeP-K-2019-LT_Johnson_Noise_Thermometry.pdf">Low-temperature Johnson noise thermometry</link></tt>” and the references therein. See also Qu <em>et al.</em> <eref type="inline" bibitemid="jifeng" citeas="[8]"/> and Flowers-Jacobs <em>et al.</em> <eref type="inline" bibitemid="flowers" citeas="[9]"/>.</p>
+</clause>
+
+<clause id="_3a00056a-c30b-4bad-27aa-614f7ac12a5e" obligation="normative">
+<title id="_3f1b3cf8-4354-b880-cf30-d50a86bd0696">Relative primary low-temperature Johnson noise thermometry (below <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>4</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu5">
+      <mstyle mathvariant="normal">
+        <mi>K</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>4 "unitsml(K)"</asciimath></stem>)</title>
+<p id="_3cf315ec-38b7-d335-9fcf-0e0268982b4c">In relative primary low-temperature JNT, ratios of temperatures are determined from the ratio of the measured noise power spectral density to the noise power spectral density measured at a reference temperature for which the thermodynamic value is known. The uncertainty of relative primary JNT may be of the same level or lower as for absolute primary JNT provided the uncertainty for the thermodynamic reference temperature is sufficiently low. Details are found in the annex “<tt><link target="https://www.bipm.org/utils/en/pdf/si-mep/MeP-K-2019-LT_Johnson_Noise_Thermometry.pdf">Low-temperature Johnson noise thermometry</link></tt>” and the references therein.</p>
+</clause>
+
+<clause id="_e2e9130f-74f5-11ea-d27c-0d1c5e0939c4" obligation="normative">
+<title id="_5e55ad41-64b6-421e-bd1c-d707426294e0">Absolute primary Johnson noise thermometry (above <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu5">
+      <mstyle mathvariant="normal">
+        <mi>K</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>1 "unitsml(K)"</asciimath></stem>)</title>
+<p id="_6ab70bf4-5242-4222-f8d0-b2a14a105730">The power spectral density is deduced from measurements of the root-mean-square noise voltage (or noise current) over the measured bandwidth of the measurement system, and from measurement of the resistance. The non-ideal ac properties of real resistors and connecting leads may be accommodated with the use of a frequency-dependent model and extrapolation to zero frequency.</p>
+
+<p id="_0ffaf0ba-fc93-6311-42e0-f7ac458ddc5c">Measurements of the voltage, resistance, and bandwidth must all be traceable to the
+ampere, the kilogram, and the second. Absolute primary JNT has been conducted at the
+temperature of the triple point of water with relative uncertainties of the order of
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>4</mn>
+    <mo>×</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>6</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math><asciimath>4 xx 10^(-6)</asciimath></stem>. Purely electronic measurements have been performed by comparing the thermal noise power with the noise power of a quantum-accurate pseudo-random noise waveform generated with a superconducting Josephson-junction waveform synthesizer. The low uncertainties claimed for JNT have been confirmed by independent measurements using absolute primary acoustic gas thermometry. Details on absolute primary JNT can be found in the annex “<tt><link target="https://www.bipm.org/utils/en/pdf/si-mep/MeP-K-2018-Document-being-prepared.pdf">Primary Johnson noise thermometry</link></tt>” and references therein.</p>
+</clause>
+
+<clause id="_3bd20cd6-4eba-308b-0d5c-975fb36829b9" obligation="normative">
+<title id="_06ad5079-f214-0d5e-6009-8d1ce2091b4a">Relative primary Johnson noise thermometry (above <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu5">
+      <mstyle mathvariant="normal">
+        <mi>K</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>1 "unitsml(K)"</asciimath></stem>)</title>
+<p id="_6d45244b-c8b5-8b69-1217-00a4f0f387f6">Relative primary JNT determines the ratios of thermodynamic temperatures from
+measurements of the ratios of the power spectral densities. Typically, a temperature
+is determined as a ratio with respect to the temperature of a fixed point for which
+the thermodynamic temperature is known. The measured temperature ratios are usually
+expressible in terms of measured ratios of noise power and resistance. Relative
+primary JNT has been conducted over a wide temperature range to above <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>2500</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu5">
+      <mstyle mathvariant="normal">
+        <mi>K</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>2500
+"unitsml(K)"</asciimath></stem>. Details on relative primary JNT can be found in the annex “<tt><link target="https://www.bipm.org/utils/en/pdf/si-mep/MeP-K-2018-Document-being-prepared.pdf">Primary Johnson noise thermometry</link></tt>” and references therein.</p>
+</clause>
+</clause>
+</clause>
+
+<clause id="_e73fd049-c852-4ec7-ee15-98a728c9ebba" anchor="sec-5" obligation="normative">
+<title id="_e0931995-df80-2231-b5e3-0c857d65255a">Practical realization of the kelvin applying defined temperature scales</title>
+<p id="_adc8f5f9-d223-6d6a-6c52-a9c50f4fedcb">The CIPM has adopted a series of International Temperature Scales; firstly in 1927,
+acting under the authority of the CGPM and, since 1937, on the advice of its CCT.
+Subsequent to the 1927 scale, new scales have been adopted in 1948, 1968, and 1990,
+with occasional minor revisions in intervening years. In 2000 a Provisional Low
+Temperature Scale PLTS-2000 was adopted for temperatures below <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu5">
+      <mstyle mathvariant="normal">
+        <mi>K</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>1 "unitsml(K)"</asciimath></stem>.</p>
+
+<p id="_b9069358-7c64-09b6-ce38-7470c0f96bdd">It should be noted that the fixed-point temperatures assigned in an International Temperature Scale are exact with respect to the respective scale temperature (there is no assigned uncertainty) and fixed (the value remains unchanged throughout the life of the scale). As a consequence, the definition of the kelvin in terms of the Boltzmann constant has no effect on the temperature values or realization uncertainties of the International Temperature Scales.</p>
+
+<p id="_62572d8b-7664-db09-0d0f-c798b07a0a59">The International Temperature Scale of 1990 (ITS-90) from <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>0.65</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu5">
+      <mstyle mathvariant="normal">
+        <mi>K</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>0.65 "unitsml(K)"</asciimath></stem>
+upwards and the Provisional Low Temperature Scale from <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>0.9</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_mK">
+      <mstyle mathvariant="normal">
+        <mi>mK</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>0.9 "unitsml(mK)"</asciimath></stem> to
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu5">
+      <mstyle mathvariant="normal">
+        <mi>K</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>1 "unitsml(K)"</asciimath></stem> (PLTS-2000) will remain in use in the foreseeable future
+allowing precise, reproducible and practical approximations to thermodynamic
+temperature. In particular, the most precise temperature measurements in the
+temperature range from approximately <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo>−</mo>
+    <mn>250</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu23">
+      <mstyle mathvariant="normal">
+        <mi>°C</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>-250 "unitsml(degC)"</asciimath></stem> to <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>960</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu23">
+      <mstyle mathvariant="normal">
+        <mi>°C</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>960
+"unitsml(degC)"</asciimath></stem> will, at least initially, continue to be traceable to standard platinum resistance thermometers calibrated according to the ITS-90.</p>
+
+<clause id="_5ed2170f-8931-eb85-4abb-fa337de967d8" anchor="sec-5-1" obligation="normative">
+<title id="_1588b1ca-a2a7-b40a-d421-0a94c27aa676">International Temperature Scale of 1990 (ITS-90) for temperatures above <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>0.65</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu5">
+      <mstyle mathvariant="normal">
+        <mi>K</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>0.65 "unitsml(K)"</asciimath></stem></title>
+<p id="_2afa4bd3-3df9-e7e7-6ed2-d96bfe1e6eb9">The ITS-90 [Recommendation 5, CI-1989] is the most recent descendant of the original
+International Temperature Scale of 1927 and replaced the International Practical
+Temperature Scale of 1968 (IPTS-68) and its extension, the 1976 Provisional <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>0.5</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu5">
+      <mstyle mathvariant="normal">
+        <mi>K</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>0.5
+"unitsml(K)"</asciimath></stem> to <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>30</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu5">
+      <mstyle mathvariant="normal">
+        <mi>K</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>30 "unitsml(K)"</asciimath></stem> Temperature Scale (EPT-76). The ITS-90 covers
+the temperature range from <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>0.65</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu5">
+      <mstyle mathvariant="normal">
+        <mi>K</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>0.65 "unitsml(K)"</asciimath></stem> to the highest temperatures that can be determined practically by radiometric means. <link target="https://www.bipm.org/en/committees/cc/cct/publications-cc.html">Guides</link> are available for both the ITS-90 and approximating methods to the ITS-90.</p>
+
+<p id="_8d426d51-823e-9ea0-3c1e-6c1e529ccc5f">Besides the text of the ITS-90<fn id="_bd898500-4e01-da43-a5c0-1062292546be" reference="4"><p id="_426e5b22-5eff-a724-24aa-d41ab1e01db0">The first sentence of Section 1 <em>Units of Temperature</em> of this text has been superseded by the explicit-constant definition of the SI unit of thermodynamic temperature given in Section 2.</p>
+</fn>, the
+<link target="https://www.bipm.org/utils/en/pdf/MeP_K_Technical_Annex.pdf">Technical Annex</link> of the
+<em>MeP</em>-K is mandatory for the realization of the ITS-90. This annex specifies the
+isotopic composition of the three fixed-point substances water, hydrogen and neon.
+Such a specification is not included in the scale definition itself. For the former
+definition of the base unit kelvin via the temperature of the triple point of water,
+the same isotopic composition as that given in the annex was specified by the CIPM at
+its 94th meeting in 2005. Furthermore, the Technical Annex contains equations, which
+facilitate corrections for the results obtained with fixed-point samples having other
+isotopic compositions.</p>
+
+<p id="_5a1e28b7-70bd-f026-786b-0fce373e20a6">Recommended differences between thermodynamic temperature <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>T</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(T)</asciimath></stem> and
+temperature <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>T</mi>
+      </mstyle>
+      <mn>90</mn>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(T)_{90}</asciimath></stem> on the ITS-90, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>T</mi>
+    </mstyle>
+    <mo>−</mo>
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>T</mi>
+      </mstyle>
+      <mn>90</mn>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(T)-ii(T)_{90}</asciimath></stem>, together with their uncertainties are given in the annex “<link target="https://www.bipm.org/utils/common/pdf/ITS-90/Estimates_Differences_T-T90_2010.pdf"/>[Estimates of the differences <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>T</mi>
+    </mstyle>
+    <mo>−</mo>
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>T</mi>
+      </mstyle>
+      <mn>90</mn>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(T)-ii(T)_{90}</asciimath></stem>]” of the <em>MeP</em>-K. They
+constitute a support to high-accuracy measurements of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>T</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(T)</asciimath></stem>. The user can
+easily convert measurements obtained in terms of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>T</mi>
+      </mstyle>
+      <mn>90</mn>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(T)_{90}</asciimath></stem> to <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>T</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(T)</asciimath></stem>
+and vice versa. Since the fixed-point temperatures assigned in the ITS-90 have no
+uncertainty, the differences <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>T</mi>
+    </mstyle>
+    <mo>−</mo>
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>T</mi>
+      </mstyle>
+      <mn>90</mn>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(T)-ii(T)_{90}</asciimath></stem> allow directly deducing
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>T</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(T)</asciimath></stem> values for the fixed points and their uncertainties.</p>
+</clause>
+
+<clause id="_92f5acf3-628d-f5ff-435b-1583a3753b6f" obligation="normative">
+<title id="_7518f56c-50f9-08b7-9342-b29774f56fe5">Provisional Low Temperature Scale from <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>0.9</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_mK">
+      <mstyle mathvariant="normal">
+        <mi>mK</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>0.9 "unitsml(mK)"</asciimath></stem> to <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu5">
+      <mstyle mathvariant="normal">
+        <mi>K</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>1 "unitsml(K)"</asciimath></stem> (PLTS-2000)</title>
+<p id="_ee4bee57-72d5-5861-1209-6ca49cd0d266">Considerable research has been carried out to establish a temperature scale extending
+to temperatures lower than <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>0.65</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu5">
+      <mstyle mathvariant="normal">
+        <mi>K</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>0.65 "unitsml(K)"</asciimath></stem>. This has resulted in PLTS-2000,
+adopted in 2000 by the CIPM [Recommendation 1, CI-2000]. The PLTS-2000 defines
+temperature from <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu5">
+      <mstyle mathvariant="normal">
+        <mi>K</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>1 "unitsml(K)"</asciimath></stem> down to <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>0.9</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_mK">
+      <mstyle mathvariant="normal">
+        <mi>mK</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>0.9 "unitsml(mK)"</asciimath></stem>. It is
+explicitly a provisional scale, recognising that the data sets comprising the basis
+of the scale were somewhat inconsistent below <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>10</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_mK">
+      <mstyle mathvariant="normal">
+        <mi>mK</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>10 "unitsml(mK)"</asciimath></stem>. In the
+temperature range from <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>0.65</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu5">
+      <mstyle mathvariant="normal">
+        <mi>K</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>0.65 "unitsml(K)"</asciimath></stem> to <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu5">
+      <mstyle mathvariant="normal">
+        <mi>K</mi>
+      </mstyle>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>1 "unitsml(K)"</asciimath></stem>, temperature
+may be defined using either the ITS-90 or the PLTS-2000. Either scale is acceptable;
+the choice of scale is oriented by convenience or the attainable uncertainty of
+realization. In those rare cases where use of both scales is convenient,
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>T</mi>
+      </mstyle>
+      <mn>2000</mn>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(T)_{2000}</asciimath></stem> offers a better approximation of thermodynamic temperature than
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>T</mi>
+      </mstyle>
+      <mn>90</mn>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(T)_{90}</asciimath></stem> in the overlapping region.</p>
+
+<p id="_1b205a3d-afb0-1a73-8deb-970371b78654">In contrast to the ITS-90, for which the Technical Annex of the <em>MeP</em>-K contains
+important specifications, only the text of the scale is mandatory for the realization
+of temperatures <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>T</mi>
+      </mstyle>
+      <mn>2000</mn>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(T)_{2000}</asciimath></stem> on the PLTS-2000. A <link target="https://www.bipm.org/en/committees/cc/cct/guide-plts2000.html">guide</link> for the realization of the PLTS-2000 describes methods by which the PLTS-2000 can be realized successfully.</p>
+</clause>
+</clause>
+
+
+
+<clause id="_7e7bda13-f9d0-60cb-75e5-9cdfc11ec1b2" obligation="normative">
+<title id="_33145c8d-3289-c122-0927-33c7811f6e3d">Annexes</title>
+<p id="_f3165d53-d835-1c42-7906-f90566496e28">Absolute primary radiometric thermometry<br/> <link target="https://www.bipm.org/utils/en/pdf/si-mep/MeP-K-2018_Absolute_Primary_Radiometry.pdf"/></p>
+
+<p id="_c0bad282-9e35-5fa8-2d35-6f0e57829a5a">Uncertainty estimation in primary radiometric temperature measurement<br/> <link target="https://www.bipm.org/utils/en/pdf/si-mep/MeP-K-2018_Absolute_Primary_Radiometry_Uncertainty.pdf"/></p>
+
+<p id="_b692d4cf-322c-c56b-5edc-c22690aeb6ab">Relative primary radiometric thermometry<br/> <link target="https://www.bipm.org/utils/en/pdf/si-mep/MeP-K-2018_Relative_Primary_Radiometry.pdf"/></p>
+
+<p id="_410cbf6f-4f0b-c6cf-765f-63ac41528c16">Low-temperature Johnson noise thermometry<br/> <link target="https://www.bipm.org/utils/en/pdf/si-mep/MeP-K-2019-LT_Johnson_Noise_Thermometry.pdf"/></p>
+
+<p id="_ba1a8663-2238-cb74-e7d2-888012e0c311">Primary Johnson noise thermometry<br/> <link target="https://www.bipm.org/utils/en/pdf/si-mep/MeP-K-2018-Document-being-prepared.pdf"/></p>
+</clause>
+</sections><bibliography><references id="_6721f6c8-c312-f913-443b-b0da20af0a74" normative="false" obligation="informative">
+<title id="_1d852725-9432-e979-5884-c8c2939954c3">References</title><bibitem anchor="bipm" id="_592282f5-c79d-a21d-df56-6efe7c32c491">
+  <formattedref format="application/x-isodoc+xml">BIPM, The International System of Units (SI Brochure) [9th edition, 2019], <link target="https://www.bipm.org/en/publications/si-brochure/"/></formattedref>
+  <docidentifier type="metanorma">[1]</docidentifier>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem id="_9414b9d6-77c6-e29f-8fd5-85910e81be46" type="article" schema-version="v1.2.9" anchor="newell">
+  <fetched>2026-04-16</fetched>
+  
+<title format="text/html" script="Latn">The CODATA 2017 values of h, e, k, and N<sub>A</sub> for the revision of the SI</title>
+
+  <uri type="src">https://doi.org/10.1088/1681-7575/aa950a</uri>
+  <uri type="doi">https://doi.org/10.1088/1681-7575/aa950a</uri>
+  <docidentifier type="BIPM" primary="true">Metrologia 55 1 L13</docidentifier><docidentifier type="metanorma">[2]</docidentifier>
+  <docidentifier type="doi">10.1088/1681-7575/aa950a</docidentifier>
+  <date type="published">
+    <on>2018-01-29</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">D B Newell</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Committee on Data for Science and Technology (CODATA) Task Group on Fundamental Constants</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">F Cabiati</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Committee on Data for Science and Technology (CODATA) Task Group on Fundamental Constants</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">J Fischer</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Committee on Data for Science and Technology (CODATA) Task Group on Fundamental Constants</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">K Fujii</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Committee on Data for Science and Technology (CODATA) Task Group on Fundamental Constants</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">S G Karshenboim</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Committee on Data for Science and Technology (CODATA) Task Group on Fundamental Constants</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">H S Margolis</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Committee on Data for Science and Technology (CODATA) Task Group on Fundamental Constants</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">E de Mirandés</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Committee on Data for Science and Technology (CODATA) Task Group on Fundamental Constants</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">P J Mohr</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Committee on Data for Science and Technology (CODATA) Task Group on Fundamental Constants</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">F Nez</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Committee on Data for Science and Technology (CODATA) Task Group on Fundamental Constants</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">K Pachucki</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Committee on Data for Science and Technology (CODATA) Task Group on Fundamental Constants</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">T J Quinn</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Committee on Data for Science and Technology (CODATA) Task Group on Fundamental Constants</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">B N Taylor</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Committee on Data for Science and Technology (CODATA) Task Group on Fundamental Constants</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">M Wang</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Committee on Data for Science and Technology (CODATA) Task Group on Fundamental Constants</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">B M Wood</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Committee on Data for Science and Technology (CODATA) Task Group on Fundamental Constants</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">Z Zhang</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Committee on Data for Science and Technology (CODATA) Task Group on Fundamental Constants</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor><language>en</language><script>Latn</script>
+  <abstract format="text/html" script="Latn">Abstract<p id="_2913dfab-f280-5db5-9aac-f80927517bca">Sufficient progress towards redefining the International System of Units (SI) in terms of exact values of fundamental constants has been achieved. Exact values of the Planck constant h, elementary charge e, Boltzmann constant k, and Avogadro constant N<sub>A</sub> from the CODATA 2017 Special Adjustment of the Fundamental Constants are presented here. These values are recommended to the 26th General Conference on Weights and Measures to form the foundation of the revised SI.</p>
+</abstract>
+  <copyright>
+    <from>2018</from>
+    <owner>
+      <organization>
+        
+<name>BIPM</name>
+
+      </organization>
+    </owner>
+    <owner>
+      <organization>
+        
+<name>IOP Publishing Ltd</name>
+
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="hasManifestation">
+    <bibitem>
+      
+<title format="text/html" script="Latn">The CODATA 2017 values of h, e, k, and N<sub>A</sub> for the revision of the SI</title>
+
+      <date type="ppub">
+        <on>2018-04-01</on>
+      </date>
+      <medium>
+        <carrier>print</carrier>
+      </medium>
+    </bibitem>
+
+  </relation>
+  <relation type="hasManifestation">
+    <bibitem>
+      
+<title format="text/html" script="Latn">The CODATA 2017 values of h, e, k, and N<sub>A</sub> for the revision of the SI</title>
+
+      <date type="epub">
+        <on>2018-01-29</on>
+      </date>
+      <medium>
+        <carrier>online</carrier>
+      </medium>
+    </bibitem>
+
+  </relation>
+  <relation type="hasManifestation">
+    <bibitem>
+      
+<title format="text/html" script="Latn">The CODATA 2017 values of h, e, k, and N<sub>A</sub> for the revision of the SI</title>
+
+      <date type="open-access">
+        <on>2018-01-29</on>
+      </date>
+      <medium>
+        <carrier>print</carrier>
+      </medium>
+    </bibitem>
+
+  </relation>
+  <series>
+    
+<title format="text/plain" language="en" script="Latn">Metrologia</title>
+
+  </series>
+  <extent>
+    <locality type="volume">
+      <referenceFrom>55</referenceFrom>
+    </locality>
+    <locality type="issue">
+      <referenceFrom>1</referenceFrom>
+    </locality>
+    <locality type="page">
+      <referenceFrom>L13</referenceFrom>
+      <referenceTo>L16</referenceTo>
+    </locality>
+  </extent>
+</bibitem><bibitem id="_335ea908-b1f2-b940-2262-9f5bebf4c74f" type="article" schema-version="v1.2.9" anchor="preston">
+  <fetched>2026-04-16</fetched>
+  
+<title format="text/plain" language="en" script="Latn">The International Temperature Scale of 1990 (ITS-90)</title>
+
+  <uri type="src">https://doi.org/10.1088/0026-1394/27/1/002</uri>
+  <uri type="doi">https://doi.org/10.1088/0026-1394/27/1/002</uri>
+  <docidentifier type="BIPM" primary="true">Metrologia 27 1 3</docidentifier><docidentifier type="metanorma">[3]</docidentifier>
+  <docidentifier type="doi">10.1088/0026-1394/27/1/002</docidentifier>
+  <date type="published">
+    <on>1990-01-01</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">H Preston-Thomas</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>President of the Comité Consultatif de Thermométrie and Vice-President of the Comité International des Poids et Mesures Division of Physics, National Research Council of Canada, Ottawa, K1A 0S1 Canada</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor><language>en</language><script>Latn</script>
+  <copyright>
+    <from>1990</from>
+    <owner>
+      <organization>
+        
+<name>Published under licence by IOP Publishing Ltd</name>
+
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="hasManifestation">
+    <bibitem>
+      
+<title format="text/plain" language="en" script="Latn">The International Temperature Scale of 1990 (ITS-90)</title>
+
+      <date type="ppub">
+        <on>1990-01-01</on>
+      </date>
+      <medium>
+        <carrier>print</carrier>
+      </medium>
+    </bibitem>
+
+  </relation>
+  <series>
+    
+<title format="text/plain" language="en" script="Latn">Metrologia</title>
+
+  </series>
+  <extent>
+    <locality type="volume">
+      <referenceFrom>27</referenceFrom>
+    </locality>
+    <locality type="issue">
+      <referenceFrom>1</referenceFrom>
+    </locality>
+    <locality type="page">
+      <referenceFrom>3</referenceFrom>
+      <referenceTo>10</referenceTo>
+    </locality>
+  </extent>
+</bibitem><bibitem anchor="proces" id="_857a2ba0-b6e8-4b41-c4d1-a1e6bc6fd115">
+  <formattedref format="application/x-isodoc+xml">Procès-Verbaux du Comité International des Poids et Mesures, 89th meeting (2000), <link target="https://www.bipm.org/utils/en/pdf/PLTS-2000.pdf"/></formattedref>
+  <docidentifier type="metanorma">[4]</docidentifier>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem id="_226d4c0e-f3ba-49ff-a7be-b06f79679de9" type="article" schema-version="v1.2.9" anchor="moldover">
+  <fetched>2026-04-16</fetched>
+  
+<title format="text/plain" script="Latn">Acoustic gas thermometry</title>
+
+  <uri type="src">https://doi.org/10.1088/0026-1394/51/1/R1</uri>
+  <uri type="doi">https://doi.org/10.1088/0026-1394/51/1/R1</uri>
+  <docidentifier type="BIPM" primary="true">Metrologia 51 1 R1</docidentifier><docidentifier type="metanorma">[5]</docidentifier>
+  <docidentifier type="doi">10.1088/0026-1394/51/1/R1</docidentifier>
+  <date type="published">
+    <on>2014-01-16</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">M R Moldover</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Institute of Standards and Technology</name>
+
+          <subdivision>Sensor Science Division</subdivision>
+          <address>
+            <formattedAddress>Gaithersburg, MD, USA</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">R M Gavioso</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Istituto Nazionale di Ricerca Metrologica</name>
+
+          <subdivision>Thermodynamics Division</subdivision>
+          <address>
+            <formattedAddress>10135 Turin, Italy</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">J B Mehl</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>36 Zunuqua Trail</name>
+
+          <address>
+            <formattedAddress>PO Box 307, Orcas, WA 98280-0307, USA</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">L Pitre</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Laboratoire Commun de Métrologie LNE-Cnam (LCM)</name>
+
+          <address>
+            <formattedAddress>61 rue du Landy, 93210 La Plaine Saint-Denis, France</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">M de Podesta</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Physical Laboratory</name>
+
+          <address>
+            <formattedAddress>Teddington, Middlesex, TW11 0LW, UK</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">J T Zhang</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Institute of Metrology</name>
+
+          <address>
+            <formattedAddress>Beijing 100013, People’s Republic of China</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor><language>en</language><script>Latn</script>
+  <abstract format="text/html" script="Latn">Abstract<p id="_ee065d05-188f-8f42-9099-08d07e00a1d5">We review the principles, techniques and results from primary acoustic gas thermometry (AGT). Since the establishment of ITS-90, the International Temperature Scale of 1990, spherical and quasi-spherical cavity resonators have been used to realize primary AGT in the temperature range 7 K to 552 K. Throughout the sub-range 90 K &lt; T &lt; 384 K, at least two laboratories measured (T − T<sub>90</sub>). (Here T is the thermodynamic temperature and T<sub>90</sub> is the temperature on ITS-90.) With a minor exception, the resulting values of (T − T<sub>90</sub>) are mutually consistent within 3 × 10<sup>−6</sup> T. These consistent measurements were obtained using helium and argon as thermometric gases inside cavities that had radii ranging from 40 mm to 90 mm and that had walls made of copper or aluminium or stainless steel. The AGT values of (T − T<sub>90</sub>) fall on a smooth curve that is outside ±u(T<sub>90</sub>), the estimated uncertainty of T<sub>90</sub>. Thus, the AGT results imply that ITS-90 has errors that could be reduced in a future temperature scale. Recently developed techniques imply that low-uncertainty AGT can be realized at temperatures up to 1350 K or higher and also at temperatures in the liquid-helium range.</p>
+</abstract>
+  <copyright>
+    <from>2014</from>
+    <owner>
+      <organization>
+        
+<name>BIPM</name>
+
+      </organization>
+    </owner>
+    <owner>
+      <organization>
+        
+<name>IOP Publishing Ltd</name>
+
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="hasManifestation">
+    <bibitem>
+      
+<title format="text/plain" script="Latn">Acoustic gas thermometry</title>
+
+      <date type="ppub">
+        <on>2014-02-01</on>
+      </date>
+      <medium>
+        <carrier>print</carrier>
+      </medium>
+    </bibitem>
+
+  </relation>
+  <relation type="hasManifestation">
+    <bibitem>
+      
+<title format="text/plain" script="Latn">Acoustic gas thermometry</title>
+
+      <date type="epub">
+        <on>2014-01-16</on>
+      </date>
+      <medium>
+        <carrier>online</carrier>
+      </medium>
+    </bibitem>
+
+  </relation>
+  <series>
+    
+<title format="text/plain" language="en" script="Latn">Metrologia</title>
+
+  </series>
+  <extent>
+    <locality type="volume">
+      <referenceFrom>51</referenceFrom>
+    </locality>
+    <locality type="issue">
+      <referenceFrom>1</referenceFrom>
+    </locality>
+    <locality type="page">
+      <referenceFrom>R1</referenceFrom>
+      <referenceTo>R19</referenceTo>
+    </locality>
+  </extent>
+</bibitem><bibitem id="_9517f97d-d619-a2f9-46be-0f5631b57092" type="article" schema-version="v1.2.9" anchor="gaiser">
+  <fetched>2026-04-16</fetched>
+  
+<title format="text/plain" script="Latn">Dielectric-constant gas thermometry</title>
+
+  <uri type="src">https://doi.org/10.1088/0026-1394/52/5/S217</uri>
+  <uri type="doi">https://doi.org/10.1088/0026-1394/52/5/S217</uri>
+  <docidentifier type="BIPM" primary="true">Metrologia 52 5 S217</docidentifier><docidentifier type="metanorma">[6]</docidentifier>
+  <docidentifier type="doi">10.1088/0026-1394/52/5/S217</docidentifier>
+  <date type="published">
+    <on>2015-08-19</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">Christof Gaiser</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Physikalisch-Technische Bundesanstalt (PTB)</name>
+
+          <address>
+            <formattedAddress>Abbestrasse 2–12, 10587 Berlin, Germany</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">Thorsten Zandt</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Physikalisch-Technische Bundesanstalt (PTB)</name>
+
+          <address>
+            <formattedAddress>Abbestrasse 2–12, 10587 Berlin, Germany</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">Bernd Fellmuth</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Physikalisch-Technische Bundesanstalt (PTB)</name>
+
+          <address>
+            <formattedAddress>Abbestrasse 2–12, 10587 Berlin, Germany</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor><language>en</language><script>Latn</script>
+  <abstract format="text/html" script="Latn">Abstract<p id="_67c89575-5de0-83dc-607c-71862a34b6aa">The principles, techniques and results from dielectric-constant gas thermometry (DCGT) are reviewed. Primary DCGT with helium has been used for measuring T–T<sub>90</sub> below the triple point of water (TPW), where T is the thermodynamic temperature and T<sub>90</sub> is the temperature on the international temperature scale of 1990 (ITS-90), and, in an inverse regime with T as input quantity, for determining the Boltzmann constant at the TPW. Furthermore, DCGT allows the determination of several important material properties including the polarizability of neon and argon as well as the virial coefficients of helium, neon, and argon. With interpolating DCGT (IDCGT), the ITS-90 has been approximated in the temperature range from 4 K to 25 K. An overview and uncertainty budget for each of these applications of DCGT is provided, accompanied by corroborating evidence from the literature or, for IDCGT, a CIPM key comparison.</p>
+</abstract>
+  <copyright>
+    <from>2015</from>
+    <owner>
+      <organization>
+        
+<name>BIPM</name>
+
+      </organization>
+    </owner>
+    <owner>
+      <organization>
+        
+<name>IOP Publishing Ltd</name>
+
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="hasManifestation">
+    <bibitem>
+      
+<title format="text/plain" script="Latn">Dielectric-constant gas thermometry</title>
+
+      <date type="ppub">
+        <on>2015-10-01</on>
+      </date>
+      <medium>
+        <carrier>print</carrier>
+      </medium>
+    </bibitem>
+
+  </relation>
+  <relation type="hasManifestation">
+    <bibitem>
+      
+<title format="text/plain" script="Latn">Dielectric-constant gas thermometry</title>
+
+      <date type="epub">
+        <on>2015-08-19</on>
+      </date>
+      <medium>
+        <carrier>online</carrier>
+      </medium>
+    </bibitem>
+
+  </relation>
+  <series>
+    
+<title format="text/plain" language="en" script="Latn">Metrologia</title>
+
+  </series>
+  <extent>
+    <locality type="volume">
+      <referenceFrom>52</referenceFrom>
+    </locality>
+    <locality type="issue">
+      <referenceFrom>5</referenceFrom>
+    </locality>
+    <locality type="page">
+      <referenceFrom>S217</referenceFrom>
+      <referenceTo>S226</referenceTo>
+    </locality>
+  </extent>
+</bibitem><bibitem id="_364f5ba9-39bc-5799-4cb9-d530b7640da2" type="article" schema-version="v1.2.9" anchor="rourke">
+  <fetched>2026-04-16</fetched>
+  
+<title format="text/plain" script="Latn">Refractive-index gas thermometry</title>
+
+  <uri type="src">https://doi.org/10.1088/1681-7575/ab0dbe</uri>
+  <uri type="doi">https://doi.org/10.1088/1681-7575/ab0dbe</uri>
+  <docidentifier type="BIPM" primary="true">Metrologia 56 3 032001</docidentifier><docidentifier type="metanorma">[7]</docidentifier>
+  <docidentifier type="doi">10.1088/1681-7575/ab0dbe</docidentifier>
+  <date type="published">
+    <on>2019-04-18</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">Patrick M C Rourke</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Research Council</name>
+
+          <address>
+            <formattedAddress>Ottawa, Ontario K1A 0R6, Canada</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">Christof Gaiser</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Physikalisch-Technische Bundesanstalt (PTB)</name>
+
+          <address>
+            <formattedAddress>Abbestrasse 2-12, 10587 Berlin, Germany</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">Bo Gao</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Chinese Academy of Sciences</name>
+
+          <subdivision>Technical Institute of Physics and Chemistry</subdivision>
+          <address>
+            <formattedAddress>Beijing 100190, People’s Republic of China</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">Daniele Madonna Ripa</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Istituto Nazionale di Ricerca Metrologica (INRiM)</name>
+
+          <subdivision>Applied Metrology and Engineering Division</subdivision>
+          <address>
+            <formattedAddress>10135 Turin, Italy</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">Michael R Moldover</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Institute of Standards and Technology</name>
+
+          <subdivision>Sensor Science Division</subdivision>
+          <address>
+            <formattedAddress>Gaithersburg, MD 20899-8360, United States of America</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">Laurent Pitre</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Laboratoire Commun de Métrologie LNE-Cnam (LCM)</name>
+
+          <address>
+            <formattedAddress>93210 La Plaine Saint-Denis, France</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">Robin J Underwood</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Physical Laboratory</name>
+
+          <address>
+            <formattedAddress>Teddington, Middlesex TW11 0LW, United Kingdom</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor><language>en</language><script>Latn</script>
+  <abstract format="text/html" script="Latn">Abstract<p id="_0c1d154f-4038-75b9-c699-45964b9c14ac">The principles and techniques of primary refractive-index gas thermometry (RIGT) are reviewed. Absolute primary RIGT using microwave measurements of helium-filled quasi-spherical resonators has been implemented at the temperatures of the triple points of neon, oxygen, argon and water, with relative standard uncertainties ranging from 9.1  ×  10<sup>−6</sup> to 3.5  ×  10<sup>−5</sup>. Researchers are now also using argon-filled cylindrical microwave resonators for RIGT near ambient temperature, with relative standard uncertainties between 3.8  ×  10<sup>−5</sup> and 4.6  ×  10<sup>−5</sup>, and conducting relative RIGT measurements on isobars at low temperatures. RIGT at optical frequencies is progressing, and has been used to perform a Boltzmann constant measurement at room temperature with a relative standard uncertainty of 1.2  ×  10<sup>−5</sup>. Uncertainty budgets from implementations of absolute primary microwave RIGT, relative primary microwave RIGT and absolute primary optical RIGT are provided.</p>
+</abstract>
+  <copyright>
+    <from>2019</from>
+    <owner>
+      <organization>
+        
+<name>Crown copyright</name>
+
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="hasManifestation">
+    <bibitem>
+      
+<title format="text/plain" script="Latn">Refractive-index gas thermometry</title>
+
+      <date type="ppub">
+        <on>2019-06-01</on>
+      </date>
+      <medium>
+        <carrier>print</carrier>
+      </medium>
+    </bibitem>
+
+  </relation>
+  <relation type="hasManifestation">
+    <bibitem>
+      
+<title format="text/plain" script="Latn">Refractive-index gas thermometry</title>
+
+      <date type="epub">
+        <on>2019-04-18</on>
+      </date>
+      <medium>
+        <carrier>online</carrier>
+      </medium>
+    </bibitem>
+
+  </relation>
+  <series>
+    
+<title format="text/plain" language="en" script="Latn">Metrologia</title>
+
+  </series>
+  <extent>
+    <locality type="volume">
+      <referenceFrom>56</referenceFrom>
+    </locality>
+    <locality type="issue">
+      <referenceFrom>3</referenceFrom>
+    </locality>
+  </extent>
+</bibitem><bibitem id="_d641be40-adac-ba4d-fbec-f09e08a3ed10" type="article" schema-version="v1.2.9" anchor="jifeng">
+  <fetched>2026-04-16</fetched>
+  
+<title format="text/plain" script="Latn">An improved electronic determination of the Boltzmann constant by Johnson noise thermometry</title>
+
+  <uri type="src">https://doi.org/10.1088/1681-7575/aa781e</uri>
+  <uri type="doi">https://doi.org/10.1088/1681-7575/aa781e</uri>
+  <docidentifier type="BIPM" primary="true">Metrologia 54 4 549</docidentifier><docidentifier type="metanorma">[8]</docidentifier>
+  <docidentifier type="doi">10.1088/1681-7575/aa781e</docidentifier>
+  <date type="published">
+    <on>2017-07-18</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">Jifeng Qu</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Institute of Metrology (NIM)</name>
+
+          <address>
+            <formattedAddress>Beijing 100029, People’s Republic of China</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">Samuel P Benz</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Institute of Standards and Technology (NIST)</name>
+
+          <address>
+            <formattedAddress>325 Broadway, Boulder, CO 80305-3328, United States of America</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">Kevin Coakley</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Institute of Standards and Technology (NIST)</name>
+
+          <address>
+            <formattedAddress>325 Broadway, Boulder, CO 80305-3328, United States of America</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">Horst Rogalla</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Institute of Standards and Technology (NIST)</name>
+
+          <address>
+            <formattedAddress>325 Broadway, Boulder, CO 80305-3328, United States of America</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+      <affiliation>
+        <organization>
+          
+<name>University of Colorado at Boulder</name>
+
+          <subdivision>ECEE Department</subdivision>
+          <address>
+            <formattedAddress>Boulder, CO 80303, United States of America</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">Weston L Tew</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Institute of Standards and Technology (NIST)</name>
+
+          <address>
+            <formattedAddress>100 Bureau Drive, Gaithersburg, MD 20899, United States of America</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">Rod White</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Measurement Standards Laboratory of New Zealand</name>
+
+          <address>
+            <formattedAddress>Lower Hutt, New Zealand</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">Kunli Zhou</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Institute of Metrology (NIM)</name>
+
+          <address>
+            <formattedAddress>Beijing 100029, People’s Republic of China</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">Zhenyu Zhou</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Institute of Metrology (NIM)</name>
+
+          <address>
+            <formattedAddress>Beijing 100029, People’s Republic of China</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor><language>en</language><script>Latn</script>
+  <abstract format="text/html" script="Latn">Abstract<p id="_eedf83af-a8f6-a224-953a-eabebf7c6198">Recent measurements using acoustic gas thermometry have determined the value of the Boltzmann constant, k, with a relative uncertainty less than 1  ×  10<sup>−6</sup>. These results have been supported by a measurement with a relative uncertainty of 1.9  ×  10<sup>−6</sup> made with dielectric-constant gas thermometry. Together, the measurements meet the requirements of the International Committee for Weights and Measures and enable them to proceed with the redefinition of the kelvin in 2018. In further support, we provide a new determination of k using a purely electronic approach, Johnson noise thermometry, in which the thermal noise power generated by a sensing resistor immersed in a triple-point-of-water cell is compared to the noise power of a quantum-accurate pseudo-random noise waveform of nominally equal noise power. The experimental setup differs from that of the 2015 determination in several respects: a 100 Ω resistor is used as the thermal noise source, identical thin coaxial cables made of solid beryllium–copper conductors and foam dielectrics are used to connect the thermal and quantum-accurate noise sources to the correlator so as to minimize the temperature and frequency sensitivity of the impedances in the connecting leads, and no trimming capacitors or inductors are inserted into the connecting leads. The combination of reduced uncertainty due to spectral mismatches in the connecting leads and reduced statistical uncertainty due to a longer integration period of 100 d results in an improved determination of k  =  1.380 649 7(37)  ×  10<sup>−23</sup> J K<sup>−1</sup> with a relative standard uncertainty of 2.7  ×  10<sup>−6</sup> and a relative offset of 0.89  ×  10<sup>−6</sup> from the CODATA 2014 recommended value. The most significant terms in the uncertainty budget, the statistical uncertainty and the spectral-mismatch uncertainty, are uncorrelated with the corresponding uncertainties in the 2015 measurements.</p>
+</abstract>
+  <copyright>
+    <from>2017</from>
+    <owner>
+      <organization>
+        
+<name>BIPM</name>
+
+      </organization>
+    </owner>
+    <owner>
+      <organization>
+        
+<name>IOP Publishing Ltd</name>
+
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="hasManifestation">
+    <bibitem>
+      
+<title format="text/plain" script="Latn">An improved electronic determination of the Boltzmann constant by Johnson noise thermometry</title>
+
+      <date type="ppub">
+        <on>2017-08-01</on>
+      </date>
+      <medium>
+        <carrier>print</carrier>
+      </medium>
+    </bibitem>
+
+  </relation>
+  <relation type="hasManifestation">
+    <bibitem>
+      
+<title format="text/plain" script="Latn">An improved electronic determination of the Boltzmann constant by Johnson noise thermometry</title>
+
+      <date type="epub">
+        <on>2017-07-18</on>
+      </date>
+      <medium>
+        <carrier>online</carrier>
+      </medium>
+    </bibitem>
+
+  </relation>
+  <series>
+    
+<title format="text/plain" language="en" script="Latn">Metrologia</title>
+
+  </series>
+  <extent>
+    <locality type="volume">
+      <referenceFrom>54</referenceFrom>
+    </locality>
+    <locality type="issue">
+      <referenceFrom>4</referenceFrom>
+    </locality>
+    <locality type="page">
+      <referenceFrom>549</referenceFrom>
+      <referenceTo>558</referenceTo>
+    </locality>
+  </extent>
+</bibitem><bibitem id="_5582523c-530e-1d3d-6d41-529e625363e1" type="article" schema-version="v1.2.9" anchor="flowers">
+  <fetched>2026-04-16</fetched>
+  
+<title format="text/plain" script="Latn">A Boltzmann constant determination based on Johnson noise thermometry</title>
+
+  <uri type="src">https://doi.org/10.1088/1681-7575/aa7b3f</uri>
+  <uri type="doi">https://doi.org/10.1088/1681-7575/aa7b3f</uri>
+  <docidentifier type="BIPM" primary="true">Metrologia 54 5 730</docidentifier><docidentifier type="metanorma">[9]</docidentifier>
+  <docidentifier type="doi">10.1088/1681-7575/aa7b3f</docidentifier>
+  <date type="published">
+    <on>2017-08-10</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">N E Flowers-Jacobs</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Institute of Standards and Technology (NIST)</name>
+
+          <address>
+            <formattedAddress>325 Broadway, Boulder, CO 80305-3328, United States of America</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">A Pollarolo</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Institute of Standards and Technology (NIST)</name>
+
+          <address>
+            <formattedAddress>325 Broadway, Boulder, CO 80305-3328, United States of America</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">K J Coakley</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Institute of Standards and Technology (NIST)</name>
+
+          <address>
+            <formattedAddress>325 Broadway, Boulder, CO 80305-3328, United States of America</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">A E Fox</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Institute of Standards and Technology (NIST)</name>
+
+          <address>
+            <formattedAddress>325 Broadway, Boulder, CO 80305-3328, United States of America</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">H Rogalla</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Institute of Standards and Technology (NIST)</name>
+
+          <address>
+            <formattedAddress>325 Broadway, Boulder, CO 80305-3328, United States of America</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">W L Tew</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Institute of Standards and Technology (NIST)</name>
+
+          <address>
+            <formattedAddress>100 Bureau Drive, Gaithersburg, MD 20899, United States of America</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">S P Benz</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Institute of Standards and Technology (NIST)</name>
+
+          <address>
+            <formattedAddress>325 Broadway, Boulder, CO 80305-3328, United States of America</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor><language>en</language><script>Latn</script>
+  <abstract format="text/html" script="Latn">Abstract<p id="_1608d0ff-98fb-acc5-3930-cb198db9971a">A value for the Boltzmann constant was measured electronically using an improved version of the Johnson Noise Thermometry (JNT) system at the National Institute of Standards and Technology (NIST), USA. This system is different from prior ones, including those from the 2011 determination at NIST and both 2015 and 2017 determinations at the National Institute of Metrology (NIM), China. As in all three previous determinations, the main contribution to the combined uncertainty is the statistical uncertainty in the noise measurement, which is mitigated by accumulating and integrating many weeks of cross-correlated measured data. The second major uncertainty contribution also still results from variations in the frequency response of the ratio of the measured spectral noise of the two noise sources, the sense resistor at the triple-point of water and the superconducting quantum voltage noise source. In this paper, we briefly describe the major differences between our JNT system and previous systems, in particular the input circuit and approach we used to match the frequency responses of the two noise sources. After analyzing and integrating 50 d of accumulated data, we determined a value: k =1.380 642 9(69)×10−23 J K<sup>−1</sup> with a relative standard uncertainty of 5.0×10−6 and relative offset −4.05×10−6 from the CODATA 2014 recommended value.</p>
+</abstract>
+  <copyright>
+    <from>2017</from>
+    <owner>
+      <organization>
+        
+<name>Not subject to copyright in the USA</name>
+
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="hasManifestation">
+    <bibitem>
+      
+<title format="text/plain" script="Latn">A Boltzmann constant determination based on Johnson noise thermometry</title>
+
+      <date type="ppub">
+        <on>2017-10-01</on>
+      </date>
+      <medium>
+        <carrier>print</carrier>
+      </medium>
+    </bibitem>
+
+  </relation>
+  <relation type="hasManifestation">
+    <bibitem>
+      
+<title format="text/plain" script="Latn">A Boltzmann constant determination based on Johnson noise thermometry</title>
+
+      <date type="epub">
+        <on>2017-08-10</on>
+      </date>
+      <medium>
+        <carrier>online</carrier>
+      </medium>
+    </bibitem>
+
+  </relation>
+  <series>
+    
+<title format="text/plain" language="en" script="Latn">Metrologia</title>
+
+  </series>
+  <extent>
+    <locality type="volume">
+      <referenceFrom>54</referenceFrom>
+    </locality>
+    <locality type="issue">
+      <referenceFrom>5</referenceFrom>
+    </locality>
+    <locality type="page">
+      <referenceFrom>730</referenceFrom>
+      <referenceTo>737</referenceTo>
+    </locality>
+  </extent>
+</bibitem>
+
+
+
+
+
+
+
+
+
+</references></bibliography>
+</metanorma>

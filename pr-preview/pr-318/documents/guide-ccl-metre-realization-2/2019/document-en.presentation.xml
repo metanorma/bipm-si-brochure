@@ -1,0 +1,1009 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metanorma xmlns="https://www.metanorma.org/ns/standoc" type="presentation" version="2.8.3" schema-version="v2.1.5" flavor="bipm">
+<bibdata type="standard">
+<title language="en" type="title-main">Realization of SI metre using silicon lattice and Transmission Electron Microscopy for Dimensional Nanometrology</title>
+
+<title language="en" type="title-part-prefix">Part 2.2</title>
+
+<title language="en" type="title-appendix-prefix">Appendix 2</title>
+
+<title language="fr" type="title-main">Réalisation de SI mètre utilisant un réseau silicium et microscopie électronique en transmission pour la nanométrologie dimensionnelle</title>
+
+<title language="fr" type="title-part-prefix">Partie 2.2</title>
+
+<title language="fr" type="title-appendix-prefix">Appendice 2</title>
+<docidentifier primary="true" type="BIPM">BIPM CCL-GD-MeP-2-2.2 A2</docidentifier><docidentifier type="BIPM-parent-document">BIPM CCL-GD-MeP-2</docidentifier><docidentifier type="BIPM" language="fr">BIPM CCL-GD-MeP-2 Annexe 2 Partie 2.2</docidentifier><docidentifier type="BIPM" language="en">BIPM CCL-GD-MeP-2 Annex 2 Part 2.2</docidentifier><docnumber>CCL-GD-MeP-2</docnumber><contributor><role type="author"/><organization>
+<name>Bureau International des Poids et Mesures</name>
+<abbreviation>BIPM</abbreviation></organization></contributor><contributor><role type="author"/><person>
+<name><completename>Ronald Dixson</completename></name>
+<affiliation><organization>
+<name>NIST</name>
+</organization></affiliation></person></contributor><contributor><role type="author"/><person>
+<name><completename>Harald Bosse</completename></name>
+<affiliation><organization>
+<name>PTB</name>
+</organization></affiliation></person></contributor><contributor><role type="editor">WG-N co-chair</role><person>
+<name><completename>Ronald Dixson</completename></name>
+<affiliation><organization>
+<name>NIST</name>
+</organization></affiliation></person></contributor><contributor><role type="editor">WG-N co-chair</role><person>
+<name><completename>Harald Bosse</completename></name>
+<affiliation><organization>
+<name>PTB</name>
+</organization></affiliation></person></contributor><contributor><role type="editor">WG-N chair</role><person>
+<name><completename>Andrew Yacoot</completename></name>
+<affiliation><organization>
+<name>NPL</name>
+</organization></affiliation></person></contributor><contributor><role type="author"><description>committee</description></role><organization>
+<name>Bureau International des Poids et Mesures</name>
+<subdivision type="Committee">
+<name language="en">Consultative Committee for Length</name>
+
+<name language="fr">Comité consultatif des longueurs</name>
+<identifier id="_9959af0b-25ad-2fe4-d28a-1dccf3e20838">CCL</identifier><fmt-identifier><tt><semx element="identifier" source="_9959af0b-25ad-2fe4-d28a-1dccf3e20838">CCL</semx></tt></fmt-identifier><identifier type="full" id="_484c18ca-9e8c-bc85-4bc3-87e68cf88bcc">CCL</identifier><fmt-identifier><tt><semx element="identifier" source="_484c18ca-9e8c-bc85-4bc3-87e68cf88bcc">CCL</semx></tt></fmt-identifier><logo><image src="" mimetype="image/svg+xml"><svg xmlns="http://www.w3.org/2000/svg" id="uuid-762be337-14f9-4793-9c3e-04718caba2c5" width="172.94mm" height="51.44mm" viewBox="0 0 490.22 145.8" preserveaspectratio="xMidYMin slice"><rect x="40.59" y="-.11" width="9.37" height="145.75" style="fill:#0f3c80;"/><rect x="84.49" y="-.11" width="9.37" height="145.75" style="fill:#0f3c80;"/><rect x="129.99" y="-.11" width="9.37" height="145.75" style="fill:#0f3c80;"/><rect x="122.95" y="101.81" width="24.05" height="24.05" transform="translate(120.03 -62.1) rotate(45)" style="fill:#0f3c80;"/><rect x="77.01" y="60.88" width="24.05" height="24.05" transform="translate(77.63 -41.61) rotate(45)" style="fill:#0f3c80;"/><rect x="33.12" y="21.55" width="24.05" height="24.05" transform="translate(36.97 -22.09) rotate(45)" style="fill:#0f3c80;"/><path d="M269.6,61.65c-6.53-7.97-14.59-11.95-24.19-11.95-4.23,0-8.14.77-11.74,2.3-3.6,1.54-6.7,3.62-9.29,6.26-2.59,2.64-4.63,5.78-6.12,9.43-1.49,3.65-2.23,7.58-2.23,11.81s.74,8.3,2.23,11.95c1.49,3.65,3.55,6.82,6.19,9.5,2.64,2.69,5.74,4.8,9.29,6.34,3.55,1.54,7.39,2.3,11.52,2.3,9.02,0,17.14-3.84,24.34-11.52v33.41l-2.88,1.01c-4.32,1.54-8.35,2.66-12.1,3.38-3.74.72-7.44,1.08-11.09,1.08-7.49,0-14.67-1.42-21.53-4.25-6.86-2.83-12.91-6.82-18.14-11.95-5.23-5.13-9.43-11.23-12.6-18.29s-4.75-14.76-4.75-23.11,1.56-16.01,4.68-22.97c3.12-6.96,7.29-12.96,12.53-18,5.23-5.04,11.3-8.98,18.22-11.81,6.91-2.83,14.16-4.25,21.74-4.25,4.32,0,8.57.46,12.74,1.37,4.18.91,8.57,2.33,13.18,4.25v33.7Z" style="fill:#0f3c80;"/><path d="M362.05,61.65c-6.53-7.97-14.59-11.95-24.19-11.95-4.23,0-8.14.77-11.74,2.3-3.6,1.54-6.7,3.62-9.29,6.26-2.59,2.64-4.63,5.78-6.12,9.43-1.49,3.65-2.23,7.58-2.23,11.81s.74,8.3,2.23,11.95c1.49,3.65,3.55,6.82,6.19,9.5,2.64,2.69,5.74,4.8,9.29,6.34,3.55,1.54,7.39,2.3,11.52,2.3,9.02,0,17.14-3.84,24.34-11.52v33.41l-2.88,1.01c-4.32,1.54-8.35,2.66-12.1,3.38-3.74.72-7.44,1.08-11.09,1.08-7.49,0-14.67-1.42-21.53-4.25-6.86-2.83-12.91-6.82-18.14-11.95-5.23-5.13-9.43-11.23-12.6-18.29s-4.75-14.76-4.75-23.11,1.56-16.01,4.68-22.97c3.12-6.96,7.29-12.96,12.53-18,5.23-5.04,11.3-8.98,18.22-11.81,6.91-2.83,14.16-4.25,21.74-4.25,4.32,0,8.57.46,12.74,1.37,4.18.91,8.57,2.33,13.18,4.25v33.7Z" style="fill:#0f3c80;"/><path d="M404.52,25.36v84.67h33.84v23.9h-62.06V25.36h28.22Z" style="fill:#0f3c80;"/></svg></image></logo>
+</subdivision></organization></contributor><contributor><role type="publisher"/><organization>
+<name>Bureau International des Poids et Mesures</name>
+<abbreviation>BIPM</abbreviation><logo type="full"><image src="" mimetype="image/svg+xml"><svg xmlns="http://www.w3.org/2000/svg" id="uuid-4162b5c4-51d5-4227-8dcd-f05974f2b5f8" width="206.54mm" height="104.93mm" viewBox="0 0 585.46 297.43" preserveaspectratio="xMidYMin slice"><path d="M31.43,8h18.98c4.51,0,7.93,1.08,10.27,3.25s3.51,5.29,3.51,9.36c0,2.47-.44,4.52-1.33,6.14-.89,1.62-2.24,3-4.06,4.13,1.82.35,3.37.88,4.65,1.59,1.28.72,2.32,1.59,3.12,2.63.8,1.04,1.38,2.21,1.72,3.51.35,1.3.52,2.69.52,4.16,0,2.3-.4,4.33-1.2,6.11-.8,1.78-1.93,3.27-3.38,4.48-1.45,1.21-3.22,2.12-5.3,2.73-2.08.61-4.42.91-7.02.91h-20.48V8ZM44.17,27.23h2.34c3.99,0,5.98-1.58,5.98-4.75s-1.99-4.74-5.98-4.74h-2.34v9.49ZM44.17,47.13h2.79c3.21,0,5.5-.41,6.89-1.24,1.39-.82,2.08-2.14,2.08-3.96s-.69-3.14-2.08-3.96-3.68-1.24-6.89-1.24h-2.79v10.4Z" style="fill:#0f3c80;"/><path d="M101.63,43.93c0,4.85-.98,8.4-2.94,10.66s-5.01,3.4-9.16,3.4-7.23-1.13-9.17-3.4c-1.95-2.26-2.92-5.82-2.92-10.66v-17.27h5.21v17.08c0,3.24.52,5.59,1.57,7.05,1.05,1.46,2.82,2.19,5.32,2.19s4.26-.72,5.28-2.16c1.03-1.44,1.54-3.8,1.54-7.08v-17.08h5.27v17.27Z" style="fill:#0f3c80;"/><path d="M129.47,26.31l-1.24,5.14c-.38-.23-.79-.41-1.24-.52s-.92-.17-1.43-.17c-2.56,0-4.49,1.1-5.79,3.29-1.3,2.19-1.95,5.46-1.95,9.82v13.14h-5.17v-30.34h5.17v5.33c.74-2.18,1.81-3.77,3.21-4.76s3.26-1.49,5.59-1.49c.55,0,1.08.05,1.6.16s.94.24,1.25.41Z" style="fill:#0f3c80;"/><path d="M161.05,42.63h-24.38c.19,3.28,1.16,5.82,2.9,7.63,1.75,1.81,4.08,2.71,7,2.71,2.22,0,4.11-.44,5.67-1.32,1.55-.88,2.79-2.2,3.7-3.95l4.35,2.29c-1.4,2.65-3.25,4.64-5.57,5.98-2.32,1.34-5.05,2.01-8.2,2.01-4.57,0-8.22-1.49-10.93-4.47s-4.08-6.93-4.08-11.84c0-4.57,1.44-8.37,4.32-11.39,2.88-3.03,6.42-4.54,10.63-4.54s7.83,1.39,10.54,4.16c2.71,2.77,4.06,6.41,4.06,10.92v1.81ZM155.88,38.95c-.28-2.6-1.25-4.63-2.92-6.08-1.67-1.45-3.84-2.17-6.51-2.17s-4.73.75-6.51,2.24c-1.78,1.49-2.82,3.5-3.14,6.01h19.08Z" style="fill:#0f3c80;"/><path d="M197.59,57.01h-5.21v-5.01c-1.04,1.95-2.49,3.43-4.36,4.46-1.87,1.03-4.08,1.54-6.62,1.54-4.23,0-7.71-1.53-10.44-4.6-2.73-3.07-4.09-6.99-4.09-11.78s1.37-8.49,4.11-11.44c2.74-2.95,6.26-4.43,10.55-4.43,2.43,0,4.58.48,6.44,1.43,1.86.95,3.33,2.32,4.41,4.09v-4.6h5.21v30.34ZM192.38,41.48c0-3.32-.92-5.95-2.75-7.89-1.83-1.94-4.27-2.9-7.32-2.9s-5.49,1.01-7.38,3.02-2.84,4.67-2.84,7.97.93,6.06,2.79,8.16c1.86,2.09,4.25,3.14,7.17,3.14s5.42-1.07,7.38-3.22c1.96-2.15,2.94-4.9,2.94-8.27Z" style="fill:#0f3c80;"/><path d="M232.19,43.93c0,4.85-.98,8.4-2.94,10.66s-5.01,3.4-9.16,3.4-7.23-1.13-9.17-3.4c-1.95-2.26-2.92-5.82-2.92-10.66v-17.27h5.21v17.08c0,3.24.52,5.59,1.57,7.05,1.05,1.46,2.82,2.19,5.32,2.19s4.26-.72,5.28-2.16c1.03-1.44,1.54-3.8,1.54-7.08v-17.08h5.27v17.27Z" style="fill:#0f3c80;"/><path d="M153.42,202.46h-12.74v-49.01h20.28c5.5,0,9.72,1.43,12.64,4.29,2.92,2.86,4.39,6.89,4.39,12.09s-1.46,9.23-4.39,12.09c-2.92,2.86-7.14,4.29-12.64,4.29h-7.54v16.25ZM153.42,175.94h4.22c4.68,0,7.02-2.04,7.02-6.11s-2.34-6.11-7.02-6.11h-4.22v12.22Z" style="fill:#0f3c80;"/><path d="M215.68,187.2c0,4.51-1.58,8.34-4.73,11.51-3.15,3.16-6.99,4.74-11.52,4.74s-8.29-1.58-11.41-4.73c-3.12-3.15-4.68-6.99-4.68-11.52s1.54-8.33,4.63-11.39c3.09-3.07,6.91-4.6,11.46-4.6s8.45,1.54,11.57,4.62c3.12,3.08,4.68,6.87,4.68,11.38ZM210.5,187.2c0-3.19-1.06-5.83-3.17-7.92-2.12-2.08-4.73-3.13-7.84-3.13s-5.75,1.04-7.84,3.13-3.14,4.72-3.14,7.92,1.06,5.9,3.19,8.06c2.13,2.16,4.72,3.24,7.79,3.24s5.75-1.08,7.85-3.24,3.16-4.84,3.16-8.06Z" style="fill:#0f3c80;"/><path d="M230.6,160.16c0,.97-.35,1.81-1.06,2.51-.71.7-1.55,1.05-2.52,1.05s-1.81-.35-2.51-1.05c-.7-.7-1.05-1.53-1.05-2.51s.35-1.81,1.05-2.52c.7-.71,1.53-1.06,2.51-1.06s1.81.35,2.52,1.06c.71.71,1.06,1.55,1.06,2.52ZM229.62,202.46h-5.21v-30.34h5.21v30.34Z" style="fill:#0f3c80;"/><path d="M269.3,202.46h-5.21v-5.01c-1.04,1.95-2.49,3.43-4.36,4.46-1.87,1.03-4.08,1.54-6.62,1.54-4.23,0-7.71-1.53-10.44-4.6-2.73-3.07-4.09-6.99-4.09-11.78s1.37-8.49,4.11-11.44c2.74-2.95,6.26-4.43,10.55-4.43,2.43,0,4.58.48,6.44,1.43,1.86.95,3.33,2.32,4.41,4.09v-27.9h5.21v53.64ZM264.09,186.94c0-3.32-.92-5.95-2.75-7.89-1.83-1.94-4.27-2.9-7.32-2.9s-5.49,1.01-7.38,3.02-2.84,4.67-2.84,7.97.93,6.06,2.79,8.16c1.86,2.09,4.25,3.14,7.17,3.14s5.42-1.07,7.38-3.22c1.96-2.15,2.94-4.9,2.94-8.27Z" style="fill:#0f3c80;"/><path d="M298.95,194.28c0,2.79-1.02,5.02-3.05,6.68s-4.8,2.49-8.32,2.49c-2.64,0-4.88-.53-6.71-1.6-1.83-1.07-3.17-2.62-4.01-4.65l4.41-2.79c.61,1.46,1.47,2.55,2.57,3.27,1.1.72,2.45,1.08,4.06,1.08,1.78,0,3.19-.37,4.25-1.11,1.06-.74,1.59-1.76,1.59-3.05,0-1.42-.48-2.5-1.44-3.24-.96-.74-2.84-1.61-5.63-2.6-2.73-1.02-4.78-2.27-6.14-3.78-1.36-1.5-2.05-3.28-2.05-5.33,0-2.62.87-4.69,2.62-6.19,1.75-1.5,4.18-2.25,7.32-2.25,2.29,0,4.19.47,5.71,1.4,1.52.93,2.74,2.37,3.65,4.32l-4.28,2.6c-.55-1.27-1.25-2.21-2.1-2.81-.85-.6-1.9-.9-3.17-.9-1.46,0-2.6.33-3.43,1-.82.67-1.24,1.57-1.24,2.71s.43,2.14,1.29,2.92c.86.78,2.42,1.54,4.68,2.29,3.34,1.08,5.75,2.37,7.22,3.86,1.47,1.49,2.21,3.39,2.21,5.7Z" style="fill:#0f3c80;"/><path d="M349.97,188.09h-24.38c.19,3.28,1.16,5.82,2.9,7.63,1.75,1.81,4.08,2.71,7,2.71,2.22,0,4.11-.44,5.67-1.32,1.55-.88,2.79-2.2,3.7-3.95l4.35,2.29c-1.4,2.65-3.25,4.64-5.57,5.98-2.32,1.34-5.05,2.01-8.2,2.01-4.57,0-8.22-1.49-10.93-4.47s-4.08-6.93-4.08-11.84c0-4.57,1.44-8.37,4.32-11.39,2.88-3.03,6.42-4.54,10.63-4.54s7.83,1.39,10.54,4.16c2.71,2.77,4.06,6.41,4.06,10.92v1.81ZM344.79,184.4c-.28-2.6-1.25-4.63-2.92-6.08-1.67-1.45-3.84-2.17-6.51-2.17s-4.73.75-6.51,2.24c-1.78,1.49-2.82,3.5-3.14,6.01h19.08Z" style="fill:#0f3c80;"/><path d="M365.13,176.79h-4.82v25.68h-5.17v-25.68h-3.65v-4.67h3.65v-12.28h5.17v12.28h4.82v4.67Z" style="fill:#0f3c80;"/><path d="M188.58,275.07l8.32-49.01h12.61l9.81,26.13,9.75-26.13h12.61l8.32,49.01h-12.67l-4.22-28.21-11.57,28.21h-5.07l-10.98-28.21-4.23,28.21h-12.67Z" style="fill:#0f3c80;"/><path d="M284.57,260.69h-24.38c.19,3.28,1.16,5.82,2.9,7.63,1.75,1.81,4.08,2.71,7,2.71,2.22,0,4.11-.44,5.67-1.32,1.55-.88,2.79-2.2,3.7-3.95l4.35,2.29c-1.4,2.65-3.25,4.64-5.57,5.98-2.32,1.34-5.05,2.01-8.2,2.01-4.57,0-8.22-1.49-10.93-4.47s-4.08-6.93-4.08-11.84c0-4.57,1.44-8.37,4.32-11.39,2.88-3.03,6.42-4.54,10.63-4.54s7.83,1.39,10.54,4.16c2.71,2.77,4.06,6.41,4.06,10.92v1.81ZM279.39,257.01c-.28-2.6-1.25-4.63-2.92-6.08-1.67-1.45-3.84-2.17-6.51-2.17s-4.73.75-6.51,2.24c-1.78,1.49-2.82,3.5-3.14,6.01h19.08Z" style="fill:#0f3c80;"/><path d="M310.2,266.88c0,2.79-1.02,5.02-3.05,6.68s-4.8,2.49-8.32,2.49c-2.64,0-4.88-.53-6.71-1.6-1.83-1.07-3.17-2.62-4.01-4.65l4.41-2.79c.61,1.46,1.47,2.55,2.57,3.27,1.1.72,2.45,1.08,4.06,1.08,1.78,0,3.19-.37,4.25-1.11,1.06-.74,1.59-1.76,1.59-3.05,0-1.42-.48-2.5-1.44-3.24-.96-.74-2.84-1.61-5.63-2.6-2.73-1.02-4.78-2.27-6.14-3.78-1.36-1.5-2.05-3.28-2.05-5.33,0-2.62.87-4.69,2.62-6.19,1.75-1.5,4.18-2.25,7.32-2.25,2.29,0,4.19.47,5.71,1.4,1.52.93,2.74,2.37,3.65,4.32l-4.28,2.6c-.55-1.27-1.25-2.21-2.1-2.81-.85-.6-1.9-.9-3.17-.9-1.46,0-2.6.33-3.43,1-.82.67-1.24,1.57-1.24,2.71s.43,2.14,1.29,2.92c.86.78,2.42,1.54,4.68,2.29,3.34,1.08,5.75,2.37,7.22,3.86,1.47,1.49,2.21,3.39,2.21,5.7Z" style="fill:#0f3c80;"/><path d="M342.17,261.99c0,4.85-.98,8.4-2.94,10.66s-5.01,3.4-9.16,3.4-7.23-1.13-9.17-3.4c-1.95-2.26-2.92-5.82-2.92-10.66v-17.27h5.21v17.08c0,3.24.52,5.59,1.57,7.05,1.05,1.46,2.82,2.19,5.32,2.19s4.26-.72,5.28-2.16c1.03-1.44,1.54-3.8,1.54-7.08v-17.08h5.27v17.27Z" style="fill:#0f3c80;"/><path d="M369.04,244.38l-1.24,5.14c-.38-.23-.79-.41-1.24-.52s-.92-.17-1.43-.17c-2.56,0-4.49,1.1-5.79,3.29-1.3,2.19-1.95,5.46-1.95,9.82v13.14h-5.17v-30.34h5.17v5.33c.74-2.18,1.81-3.77,3.21-4.76s3.26-1.49,5.59-1.49c.55,0,1.08.05,1.6.16s.94.24,1.25.41Z" style="fill:#0f3c80;"/><path d="M399.65,260.69h-24.38c.19,3.28,1.16,5.82,2.9,7.63,1.75,1.81,4.08,2.71,7,2.71,2.22,0,4.11-.44,5.67-1.32,1.55-.88,2.79-2.2,3.7-3.95l4.35,2.29c-1.4,2.65-3.25,4.64-5.57,5.98-2.32,1.34-5.05,2.01-8.2,2.01-4.57,0-8.22-1.49-10.93-4.47s-4.08-6.93-4.08-11.84c0-4.57,1.44-8.37,4.32-11.39,2.88-3.03,6.42-4.54,10.63-4.54s7.83,1.39,10.54,4.16c2.71,2.77,4.06,6.41,4.06,10.92v1.81ZM394.47,257.01c-.28-2.6-1.25-4.63-2.92-6.08-1.67-1.45-3.84-2.17-6.51-2.17s-4.73.75-6.51,2.24c-1.78,1.49-2.82,3.5-3.14,6.01h19.08Z" style="fill:#0f3c80;"/><path d="M425.28,266.88c0,2.79-1.02,5.02-3.05,6.68s-4.8,2.49-8.32,2.49c-2.64,0-4.88-.53-6.71-1.6-1.83-1.07-3.17-2.62-4.01-4.65l4.41-2.79c.61,1.46,1.47,2.55,2.57,3.27,1.1.72,2.45,1.08,4.06,1.08,1.78,0,3.19-.37,4.25-1.11,1.06-.74,1.59-1.76,1.59-3.05,0-1.42-.48-2.5-1.44-3.24-.96-.74-2.84-1.61-5.63-2.6-2.73-1.02-4.78-2.27-6.14-3.78-1.36-1.5-2.05-3.28-2.05-5.33,0-2.62.87-4.69,2.62-6.19,1.75-1.5,4.18-2.25,7.32-2.25,2.29,0,4.19.47,5.71,1.4,1.52.93,2.74,2.37,3.65,4.32l-4.28,2.6c-.55-1.27-1.25-2.21-2.1-2.81-.85-.6-1.9-.9-3.17-.9-1.46,0-2.6.33-3.43,1-.82.67-1.24,1.57-1.24,2.71s.43,2.14,1.29,2.92c.86.78,2.42,1.54,4.68,2.29,3.34,1.08,5.75,2.37,7.22,3.86,1.47,1.49,2.21,3.39,2.21,5.7Z" style="fill:#0f3c80;"/><path d="M101.6,80.19v49.01h-12.74v-49.01h12.74Z" style="fill:#0f3c80;"/><path d="M138.13,129.2h-5.21v-18.12c0-2.94-.52-5.1-1.57-6.47-1.05-1.38-2.71-2.06-5-2.06-2.6,0-4.59,1.03-5.95,3.08-1.37,2.05-2.05,5.06-2.05,9.01v14.57h-5.17v-30.34h5.17v4.47c.91-1.8,2.18-3.15,3.81-4.05,1.63-.9,3.62-1.35,5.97-1.35,3.11,0,5.55,1.03,7.33,3.08s2.67,4.93,2.67,8.63v19.55Z" style="fill:#0f3c80;"/><path d="M158.93,103.52h-4.82v25.68h-5.17v-25.68h-3.65v-4.67h3.65v-12.28h5.17v12.28h4.82v4.67Z" style="fill:#0f3c80;"/><path d="M192.55,114.82h-24.38c.19,3.28,1.16,5.82,2.9,7.63,1.75,1.81,4.08,2.71,7,2.71,2.22,0,4.11-.44,5.67-1.32,1.55-.88,2.79-2.2,3.7-3.95l4.35,2.29c-1.4,2.65-3.25,4.64-5.57,5.98-2.32,1.34-5.05,2.01-8.2,2.01-4.57,0-8.22-1.49-10.93-4.47s-4.08-6.93-4.08-11.84c0-4.57,1.44-8.37,4.32-11.39,2.88-3.03,6.42-4.54,10.63-4.54s7.83,1.39,10.54,4.16c2.71,2.77,4.06,6.41,4.06,10.92v1.81ZM187.37,111.14c-.28-2.6-1.25-4.63-2.92-6.08-1.67-1.45-3.84-2.17-6.51-2.17s-4.73.75-6.51,2.24c-1.78,1.49-2.82,3.5-3.14,6.01h19.08Z" style="fill:#0f3c80;"/><path d="M217.66,98.51l-1.24,5.14c-.38-.23-.79-.41-1.24-.52s-.92-.17-1.43-.17c-2.56,0-4.49,1.1-5.79,3.29-1.3,2.19-1.95,5.46-1.95,9.82v13.14h-5.17v-30.34h5.17v5.33c.74-2.18,1.81-3.77,3.21-4.76s3.26-1.49,5.59-1.49c.55,0,1.08.05,1.6.16s.94.24,1.25.41Z" style="fill:#0f3c80;"/><path d="M248.29,129.2h-5.21v-18.12c0-2.94-.52-5.1-1.57-6.47-1.05-1.38-2.71-2.06-5-2.06-2.6,0-4.59,1.03-5.95,3.08-1.37,2.05-2.05,5.06-2.05,9.01v14.57h-5.17v-30.34h5.17v4.47c.91-1.8,2.18-3.15,3.81-4.05,1.63-.9,3.62-1.35,5.97-1.35,3.11,0,5.55,1.03,7.33,3.08s2.67,4.93,2.67,8.63v19.55Z" style="fill:#0f3c80;"/><path d="M287.27,129.2h-5.21v-5.01c-1.04,1.95-2.49,3.43-4.36,4.46-1.87,1.03-4.08,1.54-6.62,1.54-4.23,0-7.71-1.53-10.44-4.6-2.73-3.07-4.09-6.99-4.09-11.78s1.37-8.49,4.11-11.44c2.74-2.95,6.26-4.43,10.55-4.43,2.43,0,4.58.48,6.44,1.43,1.86.95,3.33,2.32,4.41,4.09v-4.6h5.21v30.34ZM282.07,113.68c0-3.32-.92-5.95-2.75-7.89-1.83-1.94-4.27-2.9-7.32-2.9s-5.49,1.01-7.38,3.02-2.84,4.67-2.84,7.97.93,6.06,2.79,8.16c1.86,2.09,4.25,3.14,7.17,3.14s5.42-1.07,7.38-3.22c1.96-2.15,2.94-4.9,2.94-8.27Z" style="fill:#0f3c80;"/><path d="M308.54,103.52h-4.82v25.68h-5.17v-25.68h-3.65v-4.67h3.65v-12.28h5.17v12.28h4.82v4.67Z" style="fill:#0f3c80;"/><path d="M322.93,86.89c0,.97-.35,1.81-1.06,2.51-.71.7-1.55,1.05-2.52,1.05s-1.81-.35-2.51-1.05c-.7-.7-1.05-1.53-1.05-2.51s.35-1.81,1.05-2.52c.7-.71,1.53-1.06,2.51-1.06s1.81.35,2.52,1.06c.71.71,1.06,1.55,1.06,2.52ZM321.94,129.2h-5.21v-30.34h5.21v30.34Z" style="fill:#0f3c80;"/><path d="M363.05,113.93c0,4.51-1.58,8.34-4.73,11.51-3.15,3.16-6.99,4.74-11.52,4.74s-8.29-1.58-11.41-4.73c-3.12-3.15-4.68-6.99-4.68-11.52s1.54-8.33,4.63-11.39c3.09-3.07,6.91-4.6,11.46-4.6s8.45,1.54,11.57,4.62c3.12,3.08,4.68,6.87,4.68,11.38ZM357.88,113.93c0-3.19-1.06-5.83-3.17-7.92-2.12-2.08-4.73-3.13-7.84-3.13s-5.75,1.04-7.84,3.13-3.14,4.72-3.14,7.92,1.06,5.9,3.19,8.06c2.13,2.16,4.72,3.24,7.79,3.24s5.75-1.08,7.85-3.24,3.16-4.84,3.16-8.06Z" style="fill:#0f3c80;"/><path d="M396.29,129.2h-5.21v-18.12c0-2.94-.52-5.1-1.57-6.47-1.05-1.38-2.71-2.06-5-2.06-2.6,0-4.59,1.03-5.95,3.08-1.37,2.05-2.05,5.06-2.05,9.01v14.57h-5.17v-30.34h5.17v4.47c.91-1.8,2.18-3.15,3.81-4.05,1.63-.9,3.62-1.35,5.97-1.35,3.11,0,5.55,1.03,7.33,3.08s2.67,4.93,2.67,8.63v19.55Z" style="fill:#0f3c80;"/><path d="M435.27,129.2h-5.21v-5.01c-1.04,1.95-2.49,3.43-4.36,4.46-1.87,1.03-4.08,1.54-6.62,1.54-4.23,0-7.71-1.53-10.44-4.6-2.73-3.07-4.09-6.99-4.09-11.78s1.37-8.49,4.11-11.44c2.74-2.95,6.26-4.43,10.55-4.43,2.43,0,4.58.48,6.44,1.43,1.86.95,3.33,2.32,4.41,4.09v-4.6h5.21v30.34ZM430.06,113.68c0-3.32-.92-5.95-2.75-7.89-1.83-1.94-4.27-2.9-7.32-2.9s-5.49,1.01-7.38,3.02-2.84,4.67-2.84,7.97.93,6.06,2.79,8.16c1.86,2.09,4.25,3.14,7.17,3.14s5.42-1.07,7.38-3.22c1.96-2.15,2.94-4.9,2.94-8.27Z" style="fill:#0f3c80;"/><path d="M451.59,129.2h-5.17v-53.64h5.17v53.64Z" style="fill:#0f3c80;"/><path d="M507.57,129.2h-5.21v-5.01c-1.04,1.95-2.49,3.43-4.36,4.46-1.87,1.03-4.08,1.54-6.62,1.54-4.23,0-7.71-1.53-10.44-4.6-2.73-3.07-4.09-6.99-4.09-11.78s1.37-8.49,4.11-11.44c2.74-2.95,6.26-4.43,10.55-4.43,2.43,0,4.58.48,6.44,1.43,1.86.95,3.33,2.32,4.41,4.09v-27.9h5.21v53.64ZM502.36,113.68c0-3.32-.92-5.95-2.75-7.89-1.83-1.94-4.27-2.9-7.32-2.9s-5.49,1.01-7.38,3.02-2.84,4.67-2.84,7.97.93,6.06,2.79,8.16c1.86,2.09,4.25,3.14,7.17,3.14s5.42-1.07,7.38-3.22c1.96-2.15,2.94-4.9,2.94-8.27Z" style="fill:#0f3c80;"/><path d="M540.66,114.82h-24.38c.19,3.28,1.16,5.82,2.9,7.63,1.75,1.81,4.08,2.71,7,2.71,2.22,0,4.11-.44,5.67-1.32,1.55-.88,2.79-2.2,3.7-3.95l4.35,2.29c-1.4,2.65-3.25,4.64-5.57,5.98-2.32,1.34-5.05,2.01-8.2,2.01-4.57,0-8.22-1.49-10.93-4.47s-4.08-6.93-4.08-11.84c0-4.57,1.44-8.37,4.32-11.39,2.88-3.03,6.42-4.54,10.63-4.54s7.83,1.39,10.54,4.16c2.71,2.77,4.06,6.41,4.06,10.92v1.81ZM535.49,111.14c-.28-2.6-1.25-4.63-2.92-6.08-1.67-1.45-3.84-2.17-6.51-2.17s-4.73.75-6.51,2.24c-1.78,1.49-2.82,3.5-3.14,6.01h19.08Z" style="fill:#0f3c80;"/><path d="M567.26,121.01c0,2.79-1.02,5.02-3.05,6.68s-4.8,2.49-8.32,2.49c-2.64,0-4.88-.53-6.71-1.6-1.83-1.07-3.17-2.62-4.01-4.65l4.41-2.79c.61,1.46,1.47,2.55,2.57,3.27,1.1.72,2.45,1.08,4.06,1.08,1.78,0,3.19-.37,4.25-1.11,1.06-.74,1.59-1.76,1.59-3.05,0-1.42-.48-2.5-1.44-3.24-.96-.74-2.84-1.61-5.63-2.6-2.73-1.02-4.78-2.27-6.14-3.78-1.36-1.5-2.05-3.28-2.05-5.33,0-2.62.87-4.69,2.62-6.19,1.75-1.5,4.18-2.25,7.32-2.25,2.29,0,4.19.47,5.71,1.4,1.52.93,2.74,2.37,3.65,4.32l-4.28,2.6c-.55-1.27-1.25-2.21-2.1-2.81-.85-.6-1.9-.9-3.17-.9-1.46,0-2.6.33-3.43,1-.82.67-1.24,1.57-1.24,2.71s.43,2.14,1.29,2.92c.86.78,2.42,1.54,4.68,2.29,3.34,1.08,5.75,2.37,7.22,3.86,1.47,1.49,2.21,3.39,2.21,5.7Z" style="fill:#0f3c80;"/><rect x="31.43" y="71.7" width="4.12" height="203.36" style="fill:#0f3c80;"/><rect x="26.32" y="104.96" width="14.34" height="14.34" transform="translate(89.1 9.16) rotate(45)" style="fill:#0f3c80;"/><rect x="86.8" y="144.12" width="4.12" height="130.95" style="fill:#0f3c80;"/><rect x="81.69" y="177.37" width="14.34" height="14.34" transform="translate(156.52 -8.78) rotate(45)" style="fill:#0f3c80;"/><rect x="140.91" y="216.92" width="4.12" height="58.15" style="fill:#0f3c80;"/><rect x="135.8" y="250.17" width="14.34" height="14.34" transform="translate(223.84 -25.72) rotate(45)" style="fill:#0f3c80;"/></svg></image></logo>
+<logo type="small"><image src="" mimetype="image/svg+xml"><svg xmlns="http://www.w3.org/2000/svg" id="uuid-025413ec-7b33-4cab-9252-e1a1cbcbc7d4" width="216.86mm" height="51.44mm" viewBox="0 0 614.73 145.8" preserveaspectratio="xMidYMin slice"><rect x="40.59" y="-.11" width="9.37" height="145.75" style="fill:#0f3c80;"/><rect x="84.49" y="-.11" width="9.37" height="145.75" style="fill:#0f3c80;"/><rect x="129.99" y="-.11" width="9.37" height="145.75" style="fill:#0f3c80;"/><rect x="122.95" y="101.81" width="24.05" height="24.05" transform="translate(120.03 -62.1) rotate(45)" style="fill:#0f3c80;"/><rect x="77.01" y="60.88" width="24.05" height="24.05" transform="translate(77.63 -41.61) rotate(45)" style="fill:#0f3c80;"/><rect x="33.12" y="21.55" width="24.05" height="24.05" transform="translate(36.97 -22.09) rotate(45)" style="fill:#0f3c80;"/><path d="M191.41,25.36h42.05c9.98,0,17.57,2.4,22.75,7.2,5.18,4.8,7.78,11.71,7.78,20.74,0,5.47-.99,10.01-2.95,13.61-1.97,3.6-4.97,6.65-9,9.14,4.03.77,7.46,1.94,10.3,3.53,2.83,1.58,5.13,3.53,6.91,5.83,1.78,2.3,3.05,4.9,3.82,7.78.77,2.88,1.15,5.95,1.15,9.22,0,5.09-.89,9.6-2.66,13.54-1.78,3.94-4.27,7.25-7.49,9.94-3.22,2.69-7.13,4.71-11.74,6.05-4.61,1.34-9.79,2.02-15.55,2.02h-45.36V25.36ZM219.63,67.98h5.18c8.83,0,13.25-3.5,13.25-10.51s-4.42-10.51-13.25-10.51h-5.18v21.02ZM219.63,112.05h6.19c7.1,0,12.19-.91,15.26-2.74,3.07-1.82,4.61-4.75,4.61-8.78s-1.54-6.96-4.61-8.78c-3.07-1.82-8.16-2.74-15.26-2.74h-6.19v23.04Z" style="fill:#0f3c80;"/><path d="M315.68,25.36v108.58h-28.22V25.36h28.22Z" style="fill:#0f3c80;"/><path d="M363.05,133.93h-28.22V25.36h44.93c12.19,0,21.53,3.17,28.01,9.5,6.48,6.34,9.72,15.26,9.72,26.78s-3.24,20.45-9.72,26.78c-6.48,6.34-15.82,9.5-28.01,9.5h-16.7v36ZM363.05,75.18h9.36c10.37,0,15.55-4.51,15.55-13.54s-5.18-13.54-15.55-13.54h-9.36v27.07Z" style="fill:#0f3c80;"/><path d="M423.96,133.93l18.43-108.58h27.94l21.74,57.89,21.6-57.89h27.94l18.43,108.58h-28.08l-9.36-62.5-25.63,62.5h-11.23l-24.34-62.5-9.36,62.5h-28.08Z" style="fill:#0f3c80;"/></svg></image></logo>
+</organization></contributor><edition language="">1</edition><edition language="en">first edition</edition><version><revision-date>2019-04-30</revision-date></version><language current="true">en</language><script current="true">Latn</script><status><stage>in-force</stage></status><copyright><from>2019</from><owner><organization>
+<name>Bureau International des Poids et Mesures</name>
+<abbreviation>BIPM</abbreviation></organization></owner></copyright><relation type="supersedes"><bibitem><date type="circulated">2018-06-11</date><version><draft>1.0</draft></version></bibitem>
+</relation><relation type="supersedes"><bibitem><date type="published">2019-04-30</date><edition>1.0</edition></bibitem>
+</relation><depiction type="si-aspect"><image src="" mimetype="image/svg+xml"><svg xmlns="http://www.w3.org/2000/svg" id="uuid-e9634d95-95f3-4e02-ae60-1454ba12d46f" width="210mm" height="210mm" viewBox="0 0 595.28 595.28" preserveaspectratio="xMidYMin slice"><path d="M220.05,146.34l-49.23-102.23C97.33,80.93,42.09,148.75,22.22,230.43l110.58,25.24c12.12-47.7,44.41-87.33,87.25-109.34Z" style="fill:#bcbec0;"/><path d="M467.72,297.67c0,38.58-12.86,74.14-34.5,102.67l88.67,70.72c37.11-47.93,59.22-108.07,59.22-173.38,0-20.21-2.13-39.93-6.16-58.95l-110.58,25.24c2.19,10.9,3.35,22.16,3.35,33.71Z" style="fill:#bcbec0;"/><path d="M297.64,14.2c-42.57,0-82.93,9.4-119.16,26.21l49.23,102.23c21.34-9.64,45-15.05,69.93-15.05s48.59,5.41,69.93,15.05l49.23-102.23c-36.23-16.81-76.59-26.21-119.16-26.21" style="fill:#bcbec0;"/><path d="M462.48,255.67l110.58-25.24c-19.87-81.68-75.12-149.5-148.6-186.32l-49.23,102.23c42.84,22.01,75.13,61.63,87.25,109.34Z" style="fill:#ff671d;"/><path d="M127.56,297.67c0-11.54,1.16-22.81,3.35-33.7l-110.58-25.24c-4.02,19.02-6.15,38.73-6.15,58.94,0,65.31,22.1,125.45,59.21,173.38l88.67-70.71c-21.64-28.53-34.5-64.09-34.5-102.67Z" style="fill:#bcbec0;"/><path d="M293.39,581.08v-113.44c-50.58-1.25-95.66-24.53-126.01-60.66l-88.69,70.73c51.15,62.14,128.24,102.1,214.7,103.37" style="fill:#bcbec0;"/><path d="M301.89,581.08c86.46-1.27,163.55-41.24,214.7-103.37l-88.69-70.73c-30.35,36.13-75.44,59.42-126.02,60.66v113.44" style="fill:#bcbec0;"/><path d="M367.57,142.64c-21.34-9.64-44.99-15.05-69.93-15.05s-48.6,5.41-69.93,15.05l69.93,145.21,69.93-145.21Z" style="fill:#dcddde;"/><path d="M130.91,263.96c-2.19,10.9-3.35,22.16-3.35,33.7,0,38.57,12.86,74.13,34.5,102.67l126.02-100.5-157.17-35.87Z" style="fill:#dcddde;"/><path d="M301.89,467.64c50.58-1.24,95.67-24.53,126.02-60.66l-126.02-100.49v161.15Z" style="fill:#dcddde;"/><path d="M464.37,263.96l-157.17,35.87,126.02,100.5c21.64-28.53,34.5-64.09,34.5-102.67,0-11.54-1.16-22.81-3.35-33.71Z" style="fill:#dcddde;"/><path d="M220.05,146.34c-42.84,22.01-75.13,61.63-87.25,109.34l157.18,35.87-69.93-145.21Z" style="fill:#dcddde;"/><path d="M462.48,255.67c-12.12-47.71-44.41-87.33-87.25-109.34l-69.93,145.21,157.18-35.88Z" style="fill:#ffb68d;"/><path d="M167.37,406.98c30.35,36.13,75.44,59.42,126.01,60.66v-161.15l-126.01,100.49Z" style="fill:#dcddde;"/><path d="M78.69,477.7c-1.8-2.19-3.56-4.41-5.3-6.65" style="fill:#ec008c;"/><circle cx="297.64" cy="297.67" r="99.21" style="fill:#fff;"/><path d="M242.81,336.72l7.48-8.68c7.03,7.33,16.9,12.27,27.07,12.27,12.86,0,20.49-6.43,20.49-16.01s-7.03-13.16-16.3-17.35l-14.06-6.13c-9.27-3.89-19.89-10.92-19.89-25.28s13.01-26.03,30.81-26.03c11.67,0,21.99,4.94,29.02,12.12l-6.73,8.08c-5.98-5.68-13.16-9.27-22.29-9.27-10.92,0-18.25,5.53-18.25,14.36,0,9.42,8.53,13.01,16.3,16.3l13.91,5.98c11.37,4.94,20.19,11.67,20.19,26.18,0,15.56-12.71,27.97-33.36,27.97-13.76,0-25.88-5.68-34.4-14.51Z" style="fill:#414042;"/><path d="M329.87,251.31h12.42v98.13h-12.42v-98.13Z" style="fill:#414042;"/><path d="M105.39,177.82c-8.1-5.59-8.81-14.48-4.35-20.94,2.15-3.11,4.87-4.51,7.62-5.23l1.79,5.32c-2.02.5-3.52,1.29-4.57,2.82-2.69,3.9-1.36,8.83,3.53,12.21,4.84,3.34,9.89,2.89,12.51-.91,1.3-1.88,1.55-4.25,1.37-6.42l5.36.27c.4,3.64-.59,7.18-2.5,9.94-4.57,6.61-12.72,8.49-20.77,2.93Z" style="fill:#fff;"/><path d="M120.84,155.62c-7.11-6.45-7.39-14.89-3.08-19.64,2.26-2.49,4.6-3.2,7.6-3.56l-3.67-3.01-7.91-7.18,4.63-5.11,31.37,28.46-3.83,4.22-2.68-1.78-.16.18c.15,3.05-.58,6.44-2.72,8.8-4.96,5.47-12.36,5.15-19.56-1.39ZM139.02,145.14l-10.18-9.23c-2.7.3-4.52,1.32-5.85,2.79-2.54,2.8-1.97,7.44,2.6,11.6,4.71,4.27,8.85,4.79,11.72,1.64,1.53-1.69,2.07-3.8,1.71-6.79Z" style="fill:#fff;"/><path d="M269.57,44.26l6.77-.43,1.69,26.41h.18s10.03-14.24,10.03-14.24l7.54-.48-9.29,12.62,12.19,16.72-7.48.48-8.36-12.27-4.27,5.56.48,7.48-6.77.43-2.7-42.27Z" style="fill:#fff;"/><path d="M299.26,90.31c.18-2.45,1.84-4.5,4.66-5.97l.02-.24c-1.42-1.07-2.45-2.71-2.27-5.1.17-2.27,1.87-4.13,3.64-5.2l.02-.24c-1.86-1.64-3.51-4.59-3.25-8.06.51-6.76,6.23-10.12,12.39-9.66,1.62.12,3.09.53,4.26,1.04l10.53.79-.38,5.09-5.39-.4c.87,1.21,1.46,3.06,1.3,5.09-.49,6.52-5.65,9.62-11.88,9.16-1.26-.09-2.67-.44-3.95-1.08-.96.71-1.55,1.39-1.65,2.71-.12,1.68.99,2.78,4.58,3.05l5.21.39c7.06.53,10.61,2.96,10.23,8.05-.43,5.8-6.88,9.89-16.45,9.18-7-.52-12.02-3.43-11.63-8.57ZM320.62,90.35c.17-2.27-1.64-3.07-4.99-3.32l-4.01-.3c-1.62-.12-2.86-.33-3.98-.72-1.65,1.08-2.46,2.34-2.56,3.72-.2,2.63,2.56,4.4,7.23,4.75,4.73.35,8.12-1.62,8.31-4.13ZM318.77,66.74c.27-3.65-1.78-5.97-4.65-6.18-2.87-.22-5.3,1.71-5.58,5.42-.28,3.77,1.83,6.09,4.7,6.31,2.81.21,5.25-1.77,5.53-5.54Z" style="fill:#fff;"/><path d="M473.05,130.69l3.52,4.48-2.86,2.86.15.19c3.6.3,7.03,1.27,9.29,4.15,2.67,3.4,2.63,6.55.89,9.68,4.1.36,7.71,1.26,10.01,4.19,3.86,4.9,2.29,9.8-3.56,14.4l-14.53,11.42-4.3-5.47,13.82-10.87c3.82-3,4.35-5.25,2.46-7.65-1.15-1.46-3.36-2.32-6.7-2.6l-16.18,12.72-4.26-5.42,13.82-10.86c3.82-3,4.35-5.25,2.42-7.7-1.11-1.41-3.35-2.32-6.7-2.6l-16.18,12.72-4.26-5.42,23.16-18.21Z" style="fill:#fff;"/><path d="M508.69,333.11l3.58,4.17c-2.59,2.1-4.39,4.27-5.08,7.19-.73,3.09.39,4.9,2.38,5.36,2.39.56,4.17-2.29,6.05-5.05,2.29-3.47,5.46-7.22,10.24-6.1,5.02,1.18,7.64,6.04,6.13,12.47-.93,3.97-3.32,6.8-5.68,8.71l-3.36-4.06c1.93-1.64,3.4-3.45,3.93-5.73.67-2.86-.36-4.52-2.17-4.95-2.28-.54-3.82,2.12-5.66,4.96-2.38,3.57-5.26,7.45-10.63,6.19-4.91-1.15-7.96-6-6.26-13.24.92-3.91,3.59-7.66,6.52-9.93Z" style="fill:#fff;"/><path d="M77.49,394.23l-1.85-5.39,3.65-1.76-.08-.23c-3.29-1.47-6.21-3.52-7.4-6.98-1.4-4.09-.32-7.06,2.35-9.43-3.75-1.7-6.86-3.74-8.07-7.26-2.02-5.9,1.08-10.01,8.11-12.42l17.48-5.99,2.25,6.58-16.63,5.7c-4.6,1.57-5.83,3.52-4.84,6.41.6,1.76,2.4,3.3,5.46,4.66l19.47-6.67,2.23,6.53-16.63,5.7c-4.6,1.57-5.83,3.52-4.82,6.47.58,1.7,2.4,3.3,5.46,4.66l19.47-6.67,2.24,6.53-27.87,9.54Z" style="fill:#fff;"/><path d="M76.7,342.13c-9.74,1.39-16.27-4.41-17.3-11.66-1.04-7.31,3.6-14.7,13.34-16.09,9.68-1.38,16.21,4.42,17.25,11.72,1.03,7.25-3.61,14.64-13.29,16.02ZM73.74,321.4c-5.88.84-9.37,4-8.76,8.28.61,4.28,4.84,6.28,10.72,5.44,5.82-.83,9.32-3.94,8.71-8.21-.61-4.28-4.84-6.34-10.67-5.51Z" style="fill:#fff;"/><path d="M79.81,306.78l-34.78,1.07-.21-6.9,35.14-1.08c1.68-.05,2.25-.85,2.23-1.57,0-.3-.02-.54-.15-1.08l5.13-1.06c.39.83.66,2.02.71,3.64.15,4.92-2.97,6.81-8.07,6.97Z" style="fill:#fff;"/><path d="M198.95,476.39l6.25,3.05-7.82,16.01.16.08,20.38-9.88,6.96,3.4-17.55,8.45,2.16,27.7-6.9-3.37-1.43-21.27-8.15,3.83-5.03,10.3-6.25-3.05,17.22-35.26Z" style="fill:#fff;"/><path d="M382.32,481.97l7.38-3.49,28.34,30-6.62,3.13-7.31-8.29-11.93,5.65,1.78,10.91-6.4,3.03-5.24-40.93ZM391.3,503.34l9.06-4.29-3.3-3.75c-2.91-3.2-5.87-6.78-8.74-10.2l-.22.1c.9,4.42,1.77,8.92,2.4,13.2l.8,4.93Z" style="fill:#fff;"/><path d="M169.77,218.68l2.4-3.59,8.54,8.54.09-.13-3.5-16.09,2.64-3.96,3.3,13.79,16.38,3.86-2.49,3.73-13.4-3.41,1.38,6.59,5.95,5.94-2.4,3.59-18.88-18.85Z" style="fill:#414042;"/><path d="M207.03,224.42c-2.88-2.52-2.77-5.98-.76-8.28.97-1.11,2.08-1.53,3.18-1.69l.46,2.14c-.8.1-1.42.34-1.89.89-1.21,1.39-.92,3.35.82,4.87,1.72,1.5,3.69,1.55,4.88.2.58-.67.79-1.57.81-2.42l2.06.34c0,1.42-.54,2.75-1.4,3.73-2.06,2.35-5.29,2.72-8.15.22Z" style="fill:#414042;"/><path d="M212.95,217.58c-2.59-2.69-2.47-5.97-.67-7.7.94-.9,1.87-1.12,3.04-1.18l-1.34-1.26-2.88-2.99,1.93-1.86,11.41,11.87-1.6,1.54-.99-.76-.07.06c-.02,1.19-.39,2.48-1.29,3.34-2.07,1.99-4.93,1.67-7.55-1.06ZM220.28,214l-3.7-3.85c-1.06.04-1.79.39-2.35.93-1.06,1.02-.96,2.83.7,4.57,1.71,1.78,3.31,2.09,4.5.95.64-.61.9-1.42.84-2.59Z" style="fill:#414042;"/><path d="M294.02,145.21l4.28.02-1.76,8.31-.77,2.83h.16c2.01-1.71,4.13-3.02,6.49-3.01,3.28.02,4.63,1.82,4.61,4.98,0,.92-.09,1.72-.33,2.76l-2.54,12.39-4.28-.02,2.46-11.83c.16-.92.33-1.48.33-2.08,0-1.68-.79-2.52-2.47-2.53-1.36,0-2.88.9-4.97,3.01l-2.71,13.38-4.32-.02,5.82-28.21Z" style="fill:#414042;"/><path d="M396.15,209.98c5.53-4.35,13.09-3.73,16.88,1.08,1.48,1.89,1.64,3.9,1.3,5.54l-3.53-.28c.25-1.37.13-2.29-.68-3.33-2.18-2.77-7.29-2.67-11.12.35-2.33,1.83-2.86,3.93-1.23,6,.94,1.19,2.25,1.69,3.49,1.98l-1,3.13c-1.76-.5-3.94-1.33-5.77-3.65-2.67-3.4-2.33-7.68,1.66-10.82Z" style="fill:#414042;"/><path d="M424.58,306.48l21.72,11.93-.88,5.41-24.38,4.37-2.76-.45,3.54-21.72,2.76.45ZM422.96,323.36l10.77-1.69,8.42-1.18.03-.16-7.62-3.76-9.69-4.98-1.92,11.77Z" style="fill:#414042;"/><path d="M414.97,335.43h13.52c.89-.01,1.8-.1,2.73-.29.93-.18,1.52-.66,1.78-1.44.12-.37.18-.8.17-1.3l.74-.04.34,5.24-.27.81-15.87.09,5.15,5.09c.92.93,1.7,1.5,2.33,1.71.51.17,1.25.3,2.23.4.72.06,1.25.15,1.58.26,1.22.41,1.61,1.28,1.17,2.6-.39,1.17-1.15,1.57-2.26,1.2-1.1-.37-2.92-1.89-5.47-4.56l-8.24-8.66.38-1.11Z" style="fill:#414042; stroke:#414042; stroke-miterlimit:10; stroke-width:.5px;"/><path d="M154.77,343.48l-1.13-4.09,13.26-8.96,5.03-2.96-.04-.15c-2.67.4-6.01,1.07-8.91,1.25l-12.08.88-1.1-4.01,26.61-1.89,1.12,4.05-13.23,8.91-5.11,2.98.04.15c2.78-.44,5.95-.98,8.85-1.15l12.2-.91,1.09,3.97-26.6,1.93Z" style="fill:#414042;"/><path d="M173.1,314.62l-.39-3.15,14.53-6.8.35,2.82-3.95,1.69.63,5.09,4.24.68.34,2.73-15.74-3.06ZM182.08,313.91l-.48-3.86-1.79.76c-1.54.68-3.22,1.34-4.83,1.98v.09c1.75.21,3.52.44,5.18.73l1.92.3Z" style="fill:#414042;"/><path d="M243.26,403.51l3.85,1.88-11,14.39.14.07,11.82-4.42,4.31,2.11-10.8,4.07-.73,12.15-3.88-1.9.81-9.31-5.15,1.8-2.99,3.93-3.88-1.9,17.5-22.88Z" style="fill:#414042;"/><path d="M353.94,411.68c4.12-1.95,6.99.19,8.74,3.88.74,1.55,1,3.42,1.02,4.12l-10.81,5.12c1.38,3.95,4.23,4.55,6.91,3.28,1.27-.6,2.31-1.94,2.95-3.12l2.63,1.81c-.97,1.7-2.65,3.56-5.19,4.75-4.23,2-8.42.62-10.68-4.15-3.13-6.62-.23-13.48,4.44-15.69ZM359.89,418.47c-.11-.52-.28-1.06-.55-1.64-.82-1.74-2.28-2.95-4.45-1.92-2.13,1.01-3.41,3.83-2.84,7.27l7.85-3.71Z" style="fill:#414042;"/></svg></image></depiction>
+<ext><doctype>guide</doctype><flavor>bipm</flavor><structuredidentifier><docnumber>CCL-GD-MeP-2</docnumber><part>2.2</part><appendix>2</appendix>
+</structuredidentifier><si-aspect>m_c</si-aspect></ext></bibdata><localized-strings><localized-string key="scope" language="en">Scope</localized-string><localized-string key="symbolsabbrev" language="en">Symbols and abbreviated terms</localized-string><localized-string key="abbrev" language="en">Abbreviated terms</localized-string><localized-string key="symbols" language="en">Symbols</localized-string><localized-string key="table_of_contents" language="en">Contents</localized-string><localized-string key="introduction" language="en">Introduction</localized-string><localized-string key="foreword" language="en">Foreword</localized-string><localized-string key="abstract" language="en">Abstract</localized-string><localized-string key="acknowledgements" language="en">Acknowledgements</localized-string><localized-string key="executivesummary" language="en">Executive summary</localized-string><localized-string key="termsdef" language="en">Terms and definitions</localized-string><localized-string key="termsdefsymbolsabbrev" language="en">Terms, definitions, symbols and abbreviated terms</localized-string><localized-string key="termsdefsymbols" language="en">Terms, definitions and symbols</localized-string><localized-string key="termsdefabbrev" language="en">Terms, definitions and abbreviated terms</localized-string><localized-string key="normref" language="en">Normative references</localized-string><localized-string key="bibliography" language="en">References</localized-string><localized-string key="index" language="en">Index</localized-string><localized-string key="see" language="en">see</localized-string><localized-string key="see_also" language="en">see also</localized-string><localized-string key="preface" language="en">Preface</localized-string><localized-string key="section" language="en">Section</localized-string><localized-string key="clause" language="en">Chapter</localized-string><localized-string key="annex" language="en">Annex</localized-string><localized-string key="appendix" language="en">Appendix</localized-string><localized-string key="continued" language="en">continued</localized-string><localized-string key="no_terms_boilerplate" language="en">No terms and definitions are listed in this document.
+</localized-string><localized-string key="internal_terms_boilerplate" language="en">For the purposes of this document, the following terms and definitions apply.
+</localized-string><localized-string key="norm_with_refs_pref" language="en">The following referenced documents are indispensable for the application of this document. For dated references, only the edition cited applies. For undated references, the latest edition of the referenced document (including any amendments) applies.</localized-string><localized-string key="norm_empty_pref" language="en">There are no normative references in this document.</localized-string><localized-string key="external_terms_boilerplate" language="en">For the purposes of this document, the terms and definitions given in % apply.
+</localized-string><localized-string key="internal_external_terms_boilerplate" language="en">For the purposes of this document, the terms and definitions given in % and the following apply.
+</localized-string><localized-string key="no_information_available" language="en">[NO INFORMATION AVAILABLE]</localized-string><localized-string key="term_defined_in" language="en">(%)</localized-string><localized-string key="binary_and" language="en">%1 <conn>and</conn> %2</localized-string><localized-string key="multiple_and" language="en">%1<enum-comma>,</enum-comma> <conn>and</conn> %2</localized-string><localized-string key="binary_or" language="en">%1 <conn>or</conn> %2</localized-string><localized-string key="multiple_or" language="en">%1<enum-comma>,</enum-comma> <conn>or</conn> %2</localized-string><localized-string key="chain_and" language="en">%1 <conn>and</conn> %2</localized-string><localized-string key="chain_or" language="en">%1 <conn>or</conn> %2</localized-string><localized-string key="chain_from" language="en">%1 <conn>from</conn> %2</localized-string><localized-string key="chain_to" language="en">%1 <conn>to</conn> %2</localized-string><localized-string key="nested_xref" language="en">%1<comma>,</comma> %2</localized-string><localized-string key="list_nested_xref" language="en">%1 %2</localized-string><localized-string key="SpelloutRules" language="en">spellout-ordinal</localized-string><localized-string key="OrdinalRules" language="en">digits-ordinal</localized-string><localized-string key="note" language="en">Note</localized-string><localized-string key="note_xref" language="en">Note</localized-string><localized-string key="termnote" language="en">Note % to entry</localized-string><localized-string key="para_xref" language="en">Paragraph</localized-string><localized-string key="list" language="en">List</localized-string><localized-string key="deflist" language="en">Definition List</localized-string><localized-string key="figure" language="en">Figure</localized-string><localized-string key="diagram" language="en">Diagram</localized-string><localized-string key="formula" language="en">Equation</localized-string><localized-string key="inequality" language="en">Inequality</localized-string><localized-string key="table" language="en">Table</localized-string><localized-string key="requirement" language="en">Requirement</localized-string><localized-string key="recommendation" language="en">Recommendation</localized-string><localized-string key="permission" language="en">Permission</localized-string><localized-string key="box" language="en">Box</localized-string><localized-string key="no_identifier" language="en">(NO ID)</localized-string><localized-string key="recommendationtest" language="en">Recommendation test</localized-string><localized-string key="requirementtest" language="en">Requirement test</localized-string><localized-string key="permissiontest" language="en">Permission test</localized-string><localized-string key="recommendationclass" language="en">Recommendations class</localized-string><localized-string key="requirementclass" language="en">Requirements class</localized-string><localized-string key="permissionclass" language="en">Permissions class</localized-string><localized-string key="abstracttest" language="en">Abstract test</localized-string><localized-string key="conformanceclass" language="en">Conformance class</localized-string><localized-string key="key" language="en">Key</localized-string><localized-string key="example" language="en">EXAMPLE</localized-string><localized-string key="example_xref" language="en">Example</localized-string><localized-string key="where" language="en">where</localized-string><localized-string key="where_one" language="en">where</localized-string><localized-string key="wholeoftext" language="en">Whole of text</localized-string><localized-string key="draft_label" language="en">draft</localized-string><localized-string key="inform_annex" language="en">informative</localized-string><localized-string key="norm_annex" language="en">normative</localized-string><localized-string key="modified" language="en">modified</localized-string><localized-string key="adapted" language="en">adapted</localized-string><localized-string key="deprecated" language="en">DEPRECATED</localized-string><localized-string key="and" language="en">and</localized-string><localized-string key="all_parts" language="en">All Parts</localized-string><localized-string key="edition_ordinal" language="en">{{ var1 | ordinal_word: '', '' }} edition</localized-string><localized-string key="edition_cardinal" language="en">edition {{ var1 }}</localized-string><localized-string key="edition" language="en">edition</localized-string><localized-string key="version" language="en">version</localized-string><localized-string key="toc_figures" language="en">List of figures</localized-string><localized-string key="toc_tables" language="en">List of tables</localized-string><localized-string key="toc_recommendations" language="en">List of recommendations</localized-string><localized-string key="month_january" language="en">January</localized-string><localized-string key="month_february" language="en">February</localized-string><localized-string key="month_march" language="en">March</localized-string><localized-string key="month_april" language="en">April</localized-string><localized-string key="month_may" language="en">May</localized-string><localized-string key="month_june" language="en">June</localized-string><localized-string key="month_july" language="en">July</localized-string><localized-string key="month_august" language="en">August</localized-string><localized-string key="month_september" language="en">September</localized-string><localized-string key="month_october" language="en">October</localized-string><localized-string key="month_november" language="en">November</localized-string><localized-string key="month_december" language="en">December</localized-string><localized-string key="obligation" language="en">Obligation</localized-string><localized-string key="admonition.danger" language="en">Danger</localized-string><localized-string key="admonition.warning" language="en">Warning</localized-string><localized-string key="admonition.caution" language="en">Caution</localized-string><localized-string key="admonition.important" language="en">Important</localized-string><localized-string key="admonition.safety_precautions" language="en">Safety Precautions</localized-string><localized-string key="admonition.editorial" language="en">Editorial Note</localized-string><localized-string key="title_prefixes.part" language="en">Part</localized-string><localized-string key="title_prefixes.amendment" language="en">Amendment</localized-string><localized-string key="title_prefixes.corrigendum" language="en">Corrigendum</localized-string><localized-string key="title_prefixes.addendum" language="en">Addendum</localized-string><localized-string key="title_prefixes.supplement" language="en">Supplement</localized-string><localized-string key="title_prefixes.annex" language="en">Annex</localized-string><localized-string key="title_prefixes.appendix" language="en">Appendix</localized-string><localized-string key="locality.section" language="en">Section</localized-string><localized-string key="locality.clause" language="en">Clause</localized-string><localized-string key="locality.part" language="en">Part</localized-string><localized-string key="locality.paragraph" language="en">Paragraph</localized-string><localized-string key="locality.chapter" language="en">Chapter</localized-string><localized-string key="locality.page" language="en">Page</localized-string><localized-string key="locality.table" language="en">Table</localized-string><localized-string key="locality.annex" language="en">Annex</localized-string><localized-string key="locality.figure" language="en">Figure</localized-string><localized-string key="locality.example" language="en">Example</localized-string><localized-string key="locality.note" language="en">Note</localized-string><localized-string key="locality.formula" language="en">Formula</localized-string><localized-string key="grammar_abbrevs.masculine" language="en">m</localized-string><localized-string key="grammar_abbrevs.feminine" language="en">f</localized-string><localized-string key="grammar_abbrevs.neuter" language="en">n</localized-string><localized-string key="grammar_abbrevs.common" language="en">common</localized-string><localized-string key="grammar_abbrevs.singular" language="en">sg</localized-string><localized-string key="grammar_abbrevs.dual" language="en">dual</localized-string><localized-string key="grammar_abbrevs.pl" language="en">pl</localized-string><localized-string key="grammar_abbrevs.isPreposition" language="en">prep</localized-string><localized-string key="grammar_abbrevs.isParticiple" language="en">part</localized-string><localized-string key="grammar_abbrevs.isAdjective" language="en">adj</localized-string><localized-string key="grammar_abbrevs.isAdverb" language="en">adv</localized-string><localized-string key="grammar_abbrevs.isNoun" language="en">noun</localized-string><localized-string key="grammar_abbrevs.isVerb" language="en">verb</localized-string><localized-string key="relatedterms.deprecates" language="en">deprecates</localized-string><localized-string key="relatedterms.supersedes" language="en">supersedes</localized-string><localized-string key="relatedterms.narrower" language="en">narrower</localized-string><localized-string key="relatedterms.broader" language="en">broader</localized-string><localized-string key="relatedterms.equivalent" language="en">equivalent</localized-string><localized-string key="relatedterms.compare" language="en">compare</localized-string><localized-string key="relatedterms.contrast" language="en">contrast</localized-string><localized-string key="relatedterms.see" language="en">see</localized-string><localized-string key="relatedterms.seealso" language="en">see also</localized-string><localized-string key="Clause.sg" language="en">Clause</localized-string><localized-string key="Clause.pl" language="en">Clauses</localized-string><localized-string key="Annex.sg" language="en">Annex</localized-string><localized-string key="Annex.pl" language="en">Annexes</localized-string><localized-string key="Appendix.sg" language="en">Appendix</localized-string><localized-string key="Appendix.pl" language="en">Appendixes</localized-string><localized-string key="Note.sg" language="en">Note</localized-string><localized-string key="Note.pl" language="en">Notes</localized-string><localized-string key="Note_%_to_entry.sg" language="en">Note % to entry</localized-string><localized-string key="Note_%_to_entry.pl" language="en">Notes % to entry</localized-string><localized-string key="List.sg" language="en">List</localized-string><localized-string key="List.pl" language="en">Lists</localized-string><localized-string key="Figure.sg" language="en">Figure</localized-string><localized-string key="Figure.pl" language="en">Figures</localized-string><localized-string key="Formula.sg" language="en">Formula</localized-string><localized-string key="Formula.pl" language="en">Formulas</localized-string><localized-string key="Table.sg" language="en">Table</localized-string><localized-string key="Table.pl" language="en">Tables</localized-string><localized-string key="Requirement.sg" language="en">Requirement</localized-string><localized-string key="Requirement.pl" language="en">Requirements</localized-string><localized-string key="Recommendation.sg" language="en">Recommendation</localized-string><localized-string key="Recommendation.pl" language="en">Recommendations</localized-string><localized-string key="Permission.sg" language="en">Permission</localized-string><localized-string key="Permission.pl" language="en">Permissions</localized-string><localized-string key="Example.sg" language="en">Example</localized-string><localized-string key="Example.pl" language="en">Examples</localized-string><localized-string key="Part.sg" language="en">Part</localized-string><localized-string key="Part.pl" language="en">Parts</localized-string><localized-string key="Section.sg" language="en">Section</localized-string><localized-string key="Section.pl" language="en">Sections</localized-string><localized-string key="Paragraph.sg" language="en">Paragraph</localized-string><localized-string key="Paragraph.pl" language="en">Paragraphs</localized-string><localized-string key="Chapter.sg" language="en">Chapter</localized-string><localized-string key="Chapter.pl" language="en">Chapters</localized-string><localized-string key="Page.sg" language="en">Page</localized-string><localized-string key="Page.pl" language="en">Pages</localized-string><localized-string key="punct.colon" language="en">:</localized-string><localized-string key="punct.comma" language="en">,</localized-string><localized-string key="punct.enum-comma" language="en">,</localized-string><localized-string key="punct.semicolon" language="en">;</localized-string><localized-string key="punct.period" language="en">.</localized-string><localized-string key="punct.close-paren" language="en">)</localized-string><localized-string key="punct.open-paren" language="en">(</localized-string><localized-string key="punct.close-bracket" language="en">]</localized-string><localized-string key="punct.open-bracket" language="en">[</localized-string><localized-string key="punct.question-mark" language="en">?</localized-string><localized-string key="punct.exclamation-mark" language="en">!</localized-string><localized-string key="punct.em-dash" language="en">—</localized-string><localized-string key="punct.en-dash" language="en">–</localized-string><localized-string key="punct.number-en-dash" language="en">–</localized-string><localized-string key="punct.open-quote" language="en">“</localized-string><localized-string key="punct.close-quote" language="en">”</localized-string><localized-string key="punct.open-nested-quote" language="en">‘</localized-string><localized-string key="punct.close-nested-quote" language="en">’</localized-string><localized-string key="punct.ellipse" language="en">…</localized-string><localized-string key="level2_ancillary" language="en">Annex</localized-string><localized-string key="level3_ancillary" language="en">Appendix</localized-string><localized-string key="level2_ancillary_2019" language="en">Appendix</localized-string><localized-string key="level3_ancillary_2019" language="en">Annex</localized-string><localized-string key="level2_ancillary_alt" language="en">Annexe</localized-string><localized-string key="level3_ancillary_alt" language="en">Appendice</localized-string><localized-string key="level2_ancillary_alt_2019" language="en">Annexe</localized-string><localized-string key="level3_ancillary_alt_2019" language="en">Annexe</localized-string><localized-string key="level4_ancillary" language="en">Part</localized-string><localized-string key="level4_ancillary_alt" language="en">Partie</localized-string><localized-string key="level5_ancillary" language="en">Sub-part</localized-string><localized-string key="level5_ancillary_alt" language="en">Partie de sub</localized-string><localized-string key="iso_annex" language="en">Annex</localized-string><localized-string key="subclause" language="en">Section</localized-string><localized-string key="clause_jcgm" language="en">Clause</localized-string><localized-string key="subclause_jcgm" language="en">Clause</localized-string><localized-string key="all_rights_reserved" language="en">All rights reserved</localized-string><localized-string key="adapted_from" language="en">Adapted from: </localized-string><localized-string key="modified_from" language="en">Modified from: </localized-string><localized-string key="prefacenote" language="en">NOTE</localized-string><localized-string key="listnote" language="en">Note</localized-string><localized-string key="date" language="en">Date</localized-string><localized-string key="authorized" language="en">Authorized</localized-string><localized-string key="language" language="en">en</localized-string><localized-string key="script" language="en">Latn</localized-string><localized-string key="scope" language="fr">Domaine d’application</localized-string><localized-string key="symbolsabbrev" language="fr">Symboles et termes abrégés</localized-string><localized-string key="abbrev" language="fr">Termes abrégés</localized-string><localized-string key="symbols" language="fr">Symboles</localized-string><localized-string key="table_of_contents" language="fr">Table des matières</localized-string><localized-string key="introduction" language="fr">Introduction</localized-string><localized-string key="foreword" language="fr">Avant-propos</localized-string><localized-string key="abstract" language="fr">Résumé</localized-string><localized-string key="acknowledgements" language="fr">Remerciements</localized-string><localized-string key="executivesummary" language="fr">Résumé exécutif</localized-string><localized-string key="termsdef" language="fr">Termes et définitions</localized-string><localized-string key="termsdefsymbolsabbrev" language="fr">Termes, définitions, symboles et termes abrégés</localized-string><localized-string key="termsdefsymbols" language="fr">Termes, définitions et symboles</localized-string><localized-string key="termsdefabbrev" language="fr">Termes, définitions et termes abrégés</localized-string><localized-string key="normref" language="fr">Références normatives</localized-string><localized-string key="bibliography" language="fr">Références</localized-string><localized-string key="index" language="fr">Index</localized-string><localized-string key="see" language="fr">voir</localized-string><localized-string key="see_also" language="fr">voir aussi</localized-string><localized-string key="preface" language="fr">Préface</localized-string><localized-string key="section" language="fr">Section</localized-string><localized-string key="clause" language="fr">chapitre</localized-string><localized-string key="annex" language="fr">Annexe</localized-string><localized-string key="appendix" language="fr">Appendice</localized-string><localized-string key="continued" language="fr">continué</localized-string><localized-string key="no_terms_boilerplate" language="fr">Aucun terme n’est défini dans le présent document.
+</localized-string><localized-string key="internal_terms_boilerplate" language="fr">Pour les besoins du présent document, les termes et définitions suivants s’appliquent.
+</localized-string><localized-string key="norm_with_refs_pref" language="fr">Les documents suivants cités dans le texte sont indispensables pour l'application de ce document. Pour les références datées, seule l’édition citée s’applique. Pour les références non datées, la dernière édition du document de référence s’applique (y compris les éventuels amendements).</localized-string><localized-string key="norm_empty_pref" language="fr">Le présent document ne contient aucune référence normative.</localized-string><localized-string key="external_terms_boilerplate" language="fr">Pour les besoins du présent document, les termes et définitions de % s’appliquent.
+</localized-string><localized-string key="internal_external_terms_boilerplate" language="fr">Pour les besoins du présent document, les termes et définitions de % ainsi que les suivants, s’appliquent.
+</localized-string><localized-string key="no_information_available" language="fr">[PAS D’INFORMATION DISPONIBLE]</localized-string><localized-string key="term_defined_in" language="fr">(%)</localized-string><localized-string key="binary_and" language="fr">%1 <conn>et</conn> %2</localized-string><localized-string key="multiple_and" language="fr">%1<enum-comma>,</enum-comma> <conn>et</conn> %2</localized-string><localized-string key="binary_or" language="fr">%1 <conn>ou</conn> %2</localized-string><localized-string key="multiple_or" language="fr">%1<enum-comma>,</enum-comma> <conn>ou</conn> %2</localized-string><localized-string key="chain_and" language="fr">%1 <conn>et</conn> %2</localized-string><localized-string key="chain_or" language="fr">%1 <conn>ou</conn> %2</localized-string><localized-string key="chain_from" language="fr">%1 <conn>de</conn> %2</localized-string><localized-string key="chain_to" language="fr">%1 <conn>à</conn> %2</localized-string><localized-string key="nested_xref" language="fr">%1<comma>,</comma> %2</localized-string><localized-string key="list_nested_xref" language="fr">%1 %2</localized-string><localized-string key="ordinal_keys.0" language="fr">gender</localized-string><localized-string key="ordinal_keys.1" language="fr">number</localized-string><localized-string key="SpelloutRules.m_sg" language="fr">spellout-ordinal-masculine</localized-string><localized-string key="SpelloutRules.f_sg" language="fr">spellout-ordinal-feminine</localized-string><localized-string key="SpelloutRules.m_pl" language="fr">spellout-ordinal-masculine-plural</localized-string><localized-string key="SpelloutRules.f_pl" language="fr">spellout-ordinal-feminine-plural</localized-string><localized-string key="OrdinalRules.m_sg" language="fr">digits-ordinal-masculine</localized-string><localized-string key="OrdinalRules.f_sg" language="fr">digits-ordinal-feminine</localized-string><localized-string key="OrdinalRules.m_pl" language="fr">digits-ordinal-masculine-plural</localized-string><localized-string key="OrdinalRules.f_pl" language="fr">digits-ordinal-feminine-plural</localized-string><localized-string key="note" language="fr">Note</localized-string><localized-string key="note_xref" language="fr">note</localized-string><localized-string key="termnote" language="fr">Note % à l’article</localized-string><localized-string key="para_xref" language="fr">Alinéa</localized-string><localized-string key="figure" language="fr">figure</localized-string><localized-string key="diagram" language="fr">Diagramme</localized-string><localized-string key="formula" language="fr">équation</localized-string><localized-string key="inequality" language="fr">inégalité</localized-string><localized-string key="list" language="fr">liste</localized-string><localized-string key="deflist" language="fr">Liste de définitions</localized-string><localized-string key="table" language="fr">tableau</localized-string><localized-string key="requirement" language="fr">exigence</localized-string><localized-string key="recommendation" language="fr">recommandation</localized-string><localized-string key="permission" language="fr">autorisation</localized-string><localized-string key="box" language="fr">Encadré</localized-string><localized-string key="key" language="fr">Légende</localized-string><localized-string key="example" language="fr">EXEMPLE</localized-string><localized-string key="example_xref" language="fr">exemple</localized-string><localized-string key="where" language="fr">où</localized-string><localized-string key="where_one" language="fr">où</localized-string><localized-string key="wholeoftext" language="fr">Ensemble du texte</localized-string><localized-string key="draft_label" language="fr">brouillon</localized-string><localized-string key="inform_annex" language="fr">informative</localized-string><localized-string key="norm_annex" language="fr">normative</localized-string><localized-string key="modified" language="fr">modifié</localized-string><localized-string key="adapted" language="fr">adapté</localized-string><localized-string key="deprecated" language="fr">DÉCONSEILLÉ</localized-string><localized-string key="edition" language="fr">édition</localized-string><localized-string key="version" language="fr">version</localized-string><localized-string key="and" language="fr">et</localized-string><localized-string key="no_identifier" language="fr">(PAS D'IDENTIFIANT)</localized-string><localized-string key="all_parts" language="fr">toutes les parties</localized-string><localized-string key="edition_ordinal" language="fr">{{ var1 | ordinal_word: 'edition', '' }} édition</localized-string><localized-string key="edition_cardinal" language="fr">édition {{ var1 }}</localized-string><localized-string key="toc_figures" language="fr">Table des figures</localized-string><localized-string key="toc_tables" language="fr">Table des tableaux</localized-string><localized-string key="toc_recommendations" language="fr">Table de recommandations</localized-string><localized-string key="month_january" language="fr">Janvier</localized-string><localized-string key="month_february" language="fr">Février</localized-string><localized-string key="month_march" language="fr">Mars</localized-string><localized-string key="month_april" language="fr">Avril</localized-string><localized-string key="month_may" language="fr">Mai</localized-string><localized-string key="month_june" language="fr">Juin</localized-string><localized-string key="month_july" language="fr">Juillet</localized-string><localized-string key="month_august" language="fr">Août</localized-string><localized-string key="month_september" language="fr">Septembre</localized-string><localized-string key="month_october" language="fr">Octobre</localized-string><localized-string key="month_november" language="fr">Novembre</localized-string><localized-string key="month_december" language="fr">Décembre</localized-string><localized-string key="obligation" language="fr">Obligation</localized-string><localized-string key="admonition.danger" language="fr">Danger</localized-string><localized-string key="admonition.warning" language="fr">Avertissement</localized-string><localized-string key="admonition.caution" language="fr">Attention</localized-string><localized-string key="admonition.important" language="fr">Important</localized-string><localized-string key="admonition.safety_precautions" language="fr">Précautions de Sécurité</localized-string><localized-string key="admonition.editorial" language="fr">Note éditoriale</localized-string><localized-string key="title_prefixes.part" language="fr">Partie</localized-string><localized-string key="title_prefixes.amendment" language="fr">Amendement</localized-string><localized-string key="title_prefixes.corrigendum" language="fr">Rectificatif</localized-string><localized-string key="title_prefixes.addendum" language="fr">Additif</localized-string><localized-string key="title_prefixes.supplement" language="fr">Supplément</localized-string><localized-string key="title_prefixes.annex" language="fr">Annexe</localized-string><localized-string key="title_prefixes.appendix" language="fr">Appendice</localized-string><localized-string key="locality.section" language="fr">Section</localized-string><localized-string key="locality.clause" language="fr">Article</localized-string><localized-string key="locality.part" language="fr">Partie</localized-string><localized-string key="locality.paragraph" language="fr">Alinéa</localized-string><localized-string key="locality.chapter" language="fr">Chapitre</localized-string><localized-string key="locality.page" language="fr">Page</localized-string><localized-string key="locality.table" language="fr">Tableau</localized-string><localized-string key="locality.annex" language="fr">Annexe</localized-string><localized-string key="locality.figure" language="fr">Figure</localized-string><localized-string key="locality.example" language="fr">Exemple</localized-string><localized-string key="locality.note" language="fr">Note</localized-string><localized-string key="locality.formula" language="fr">Formule</localized-string><localized-string key="grammar_abbrevs.masculine" language="fr">masc</localized-string><localized-string key="grammar_abbrevs.feminine" language="fr">fem</localized-string><localized-string key="grammar_abbrevs.neuter" language="fr">neut</localized-string><localized-string key="grammar_abbrevs.common" language="fr">épicène</localized-string><localized-string key="grammar_abbrevs.singular" language="fr">sg</localized-string><localized-string key="grammar_abbrevs.dual" language="fr">duel</localized-string><localized-string key="grammar_abbrevs.plural" language="fr">pl</localized-string><localized-string key="grammar_abbrevs.isPreposition" language="fr">prép</localized-string><localized-string key="grammar_abbrevs.isParticiple" language="fr">part</localized-string><localized-string key="grammar_abbrevs.isAdjective" language="fr">adj</localized-string><localized-string key="grammar_abbrevs.isAdverb" language="fr">adv</localized-string><localized-string key="grammar_abbrevs.isNoun" language="fr">subst</localized-string><localized-string key="grammar_abbrevs.isVerb" language="fr">vb</localized-string><localized-string key="relatedterms.deprecates" language="fr">déprécie</localized-string><localized-string key="relatedterms.supersedes" language="fr">remplace</localized-string><localized-string key="relatedterms.narrower" language="fr">plus étroit</localized-string><localized-string key="relatedterms.broader" language="fr">plus large</localized-string><localized-string key="relatedterms.equivalent" language="fr">équivalent</localized-string><localized-string key="relatedterms.compare" language="fr">comparez</localized-string><localized-string key="relatedterms.contrast" language="fr">contrastez</localized-string><localized-string key="relatedterms.see" language="fr">voir</localized-string><localized-string key="relatedterms.seealso" language="fr">voir aussi</localized-string><localized-string key="Clause.sg" language="fr">Article</localized-string><localized-string key="Clause.pl" language="fr">Articles</localized-string><localized-string key="Annex.sg" language="fr">Annexe</localized-string><localized-string key="Annex.pl" language="fr">Annexes</localized-string><localized-string key="Appendix.sg" language="fr">Appendice</localized-string><localized-string key="Appendix.pl" language="fr">Appendices</localized-string><localized-string key="Note.sg" language="fr">Note</localized-string><localized-string key="Note.pl" language="fr">Notes</localized-string><localized-string key="Note_%_à_l’article.sg" language="fr">Note % à l’article</localized-string><localized-string key="Note_%_à_l’article.pl" language="fr">Notes % à l’article</localized-string><localized-string key="List.sg" language="fr">Liste</localized-string><localized-string key="List.pl" language="fr">Listes</localized-string><localized-string key="Figure.sg" language="fr">Figure</localized-string><localized-string key="Figure.pl" language="fr">Figures</localized-string><localized-string key="Formula.sg" language="fr">Formule</localized-string><localized-string key="Formula.pl" language="fr">Formules</localized-string><localized-string key="Table.sg" language="fr">Tableau</localized-string><localized-string key="Table.pl" language="fr">Tableaux</localized-string><localized-string key="Requirement.sg" language="fr">Exigence</localized-string><localized-string key="Requirement.pl" language="fr">Exigences</localized-string><localized-string key="Recommendation.sg" language="fr">Recommandation</localized-string><localized-string key="Recommendation.pl" language="fr">Recommandations</localized-string><localized-string key="Permission.sg" language="fr">Autorisation</localized-string><localized-string key="Permission.pl" language="fr">Autorisations</localized-string><localized-string key="Example.sg" language="fr">Exemple</localized-string><localized-string key="Example.pl" language="fr">Exemples</localized-string><localized-string key="Part.sg" language="fr">Partie</localized-string><localized-string key="Part.pl" language="fr">Parties</localized-string><localized-string key="Section.sg" language="fr">Section</localized-string><localized-string key="Section.pl" language="fr">Sections</localized-string><localized-string key="Paragraph.sg" language="fr">Alinéa</localized-string><localized-string key="Paragraph.pl" language="fr">Alinéas</localized-string><localized-string key="Chapter.sg" language="fr">Chapitre</localized-string><localized-string key="Chapter.pl" language="fr">Chapitres</localized-string><localized-string key="Page.sg" language="fr">Page</localized-string><localized-string key="Page.pl" language="fr">Pages</localized-string><localized-string key="grammar.gender" language="fr">f</localized-string><localized-string key="punct.colon" language="fr">:</localized-string><localized-string key="punct.comma" language="fr">,</localized-string><localized-string key="punct.enum-comma" language="fr">,</localized-string><localized-string key="punct.semicolon" language="fr">;</localized-string><localized-string key="punct.period" language="fr">.</localized-string><localized-string key="punct.close-paren" language="fr">)</localized-string><localized-string key="punct.open-paren" language="fr">(</localized-string><localized-string key="punct.close-bracket" language="fr">]</localized-string><localized-string key="punct.open-bracket" language="fr">[</localized-string><localized-string key="punct.question-mark" language="fr">?</localized-string><localized-string key="punct.exclamation-mark" language="fr">!</localized-string><localized-string key="punct.em-dash" language="fr">—</localized-string><localized-string key="punct.en-dash" language="fr">–</localized-string><localized-string key="punct.number-en-dash" language="fr">–</localized-string><localized-string key="punct.open-quote" language="fr">«</localized-string><localized-string key="punct.close-quote" language="fr">»</localized-string><localized-string key="punct.open-nested-quote" language="fr">“</localized-string><localized-string key="punct.close-nested-quote" language="fr">”</localized-string><localized-string key="punct.ellipse" language="fr">…</localized-string><localized-string key="level2_ancillary" language="fr">Annexe</localized-string><localized-string key="level3_ancillary" language="fr">Appendice</localized-string><localized-string key="level2_ancillary_2019" language="fr">Annexe</localized-string><localized-string key="level3_ancillary_2019" language="fr">Annexe</localized-string><localized-string key="level2_ancillary_alt" language="fr">Annex</localized-string><localized-string key="level3_ancillary_alt" language="fr">Appendix</localized-string><localized-string key="level2_ancillary_alt_2019" language="fr">Appendix</localized-string><localized-string key="level3_ancillary_alt_2019" language="fr">Annex</localized-string><localized-string key="level4_ancillary" language="fr">Partie</localized-string><localized-string key="level4_ancillary_alt" language="fr">Part</localized-string><localized-string key="level5_ancillary" language="fr">Partie de sub</localized-string><localized-string key="level5_ancillary_alt" language="fr">Sub-part</localized-string><localized-string key="iso_annex" language="fr">Annexe</localized-string><localized-string key="subclause" language="fr">section</localized-string><localized-string key="clause_jcgm" language="fr">Article</localized-string><localized-string key="subclause_jcgm" language="fr">Article</localized-string><localized-string key="doctype_dict.brochure" language="fr">brochure</localized-string><localized-string key="doctype_dict.mise-en-pratique" language="fr">mise-en-pratique</localized-string><localized-string key="doctype_dict.rapport" language="fr">rapport</localized-string><localized-string key="doctype_dict.monographie" language="fr">monographie</localized-string><localized-string key="doctype_dict.guide" language="fr">guide</localized-string><localized-string key="doctype_dict.meeting-report" language="fr">procès-verbal</localized-string><localized-string key="doctype_dict.technical-report" language="fr">rapport-technique</localized-string><localized-string key="doctype_dict.working-party-note" language="fr">note-du-groupe-de-travail</localized-string><localized-string key="doctype_dict.strategy" language="fr">stratégie</localized-string><localized-string key="doctype_dict.cipm-mra" language="fr">cipm-mra</localized-string><localized-string key="doctype_dict.resolution" language="fr">résolution</localized-string><localized-string key="stage_dict.draft-proposal" language="fr">projet-de-proposition</localized-string><localized-string key="stage_dict.draft-development" language="fr">projet-de-développement</localized-string><localized-string key="stage_dict.in-force" language="fr">en-vigeur</localized-string><localized-string key="stage_dict.retired" language="fr">retiré</localized-string><localized-string key="all_rights_reserved" language="fr">Tous droits réservés</localized-string><localized-string key="adapted_from" language="fr">Adapté de: </localized-string><localized-string key="modified_from" language="fr">Modifié de: </localized-string><localized-string key="prefacenote" language="fr">NOTE</localized-string><localized-string key="listnote" language="fr">Remarque</localized-string><localized-string key="date" language="fr">Date</localized-string><localized-string key="authorized" language="fr">Autorisé</localized-string><localized-string key="language" language="fr">fr</localized-string><localized-string key="script" language="fr">Latn</localized-string></localized-strings><metanorma-extension><semantic-metadata><stage-published>true</stage-published></semantic-metadata>
+<UnitsML xmlns="https://schema.unitsml.org/unitsml/1.0"><UnitSet><Unit dimensionURL="#NISTd1" id="U_nm" semx-id="U_nm">
+        <UnitSystem name="SI" type="SI_base" lang="en-US"/>
+        <UnitName lang="en">nm</UnitName>
+        <UnitSymbol type="HTML">nm</UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">nm</mi>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="metre" prefix="n"/>
+        </RootUnits>
+      </Unit></UnitSet><DimensionSet><Dimension id="NISTd1" semx-id="NISTd1">
+        <Length symbol="L" powerNumerator="1"/>
+      </Dimension></DimensionSet><PrefixSet><Prefix prefixBase="10" prefixPower="-9" id="NISTp10_-9" semx-id="NISTp10_-9">
+        <PrefixName lang="en">nano</PrefixName>
+        <PrefixSymbol type="ASCII">n</PrefixSymbol>
+        <PrefixSymbol type="unicode">n</PrefixSymbol>
+        <PrefixSymbol type="LaTeX">n</PrefixSymbol>
+        <PrefixSymbol type="HTML">n</PrefixSymbol>
+      </Prefix></PrefixSet></UnitsML><presentation-metadata><toc-heading-levels>2</toc-heading-levels><html-toc-heading-levels>2</html-toc-heading-levels><doc-toc-heading-levels>2</doc-toc-heading-levels><pdf-toc-heading-levels>2</pdf-toc-heading-levels></presentation-metadata><source-highlighter-css>sourcecode table td { padding: 5px; }
+sourcecode table pre { margin: 0; }
+sourcecode, sourcecode .w {
+  color: #444444;
+}
+sourcecode .cp {
+  color: #CC00A3;
+}
+sourcecode .cs {
+  color: #CC00A3;
+}
+sourcecode .c, sourcecode .ch, sourcecode .cd, sourcecode .cm, sourcecode .cpf, sourcecode .c1 {
+  color: #FF0000;
+}
+sourcecode .kc {
+  color: #C34E00;
+}
+sourcecode .kd {
+  color: #0000FF;
+}
+sourcecode .kr {
+  color: #007575;
+}
+sourcecode .k, sourcecode .kn, sourcecode .kp, sourcecode .kt, sourcecode .kv {
+  color: #0000FF;
+}
+sourcecode .s, sourcecode .sb, sourcecode .sc, sourcecode .ld, sourcecode .sd, sourcecode .s2, sourcecode .se, sourcecode .sh, sourcecode .si, sourcecode .sx, sourcecode .sr, sourcecode .s1, sourcecode .ss {
+  color: #009C00;
+}
+sourcecode .sa {
+  color: #0000FF;
+}
+sourcecode .nb, sourcecode .bp {
+  color: #C34E00;
+}
+sourcecode .nt {
+  color: #0000FF;
+}
+
+</source-highlighter-css></metanorma-extension>
+<boilerplate><copyright-statement>
+
+<clause id="_de529b36-05ca-b9e4-a8ac-4c41964770f0" obligation="normative" semx-id="_de529b36-05ca-b9e4-a8ac-4c41964770f0"><p id="_2c83afdd-6f3c-8a19-1954-83e4ede65ae8" align="center" semx-id="_2c83afdd-6f3c-8a19-1954-83e4ede65ae8">© Bureau International des Poids et Mesures 2019 all rights reserved</p>
+</clause>
+</copyright-statement>
+
+<license-statement>
+
+<clause id="_4ffcd5b5-8039-1aa4-59ce-390aa3b61c7a" obligation="normative" semx-id="_4ffcd5b5-8039-1aa4-59ce-390aa3b61c7a">
+<title id="_75e7fd39-c70e-aeb3-d5ab-dad7d6a4cdf8" semx-id="_29f75465-0cf3-76fd-bc56-6b3aa457ee69">Copyright statement</title><fmt-title depth="1" id="_334524dd-754e-f446-fb20-987623fc6540"><semx element="title" source="_75e7fd39-c70e-aeb3-d5ab-dad7d6a4cdf8">Copyright statement</semx></fmt-title>
+<p id="_50719790-3c5b-c213-8298-0631d690bc21" semx-id="_50719790-3c5b-c213-8298-0631d690bc21">This document is distributed under the terms of the Creative Commons Attribution 4.0 International License (<link target="http://creativecommons.org/licenses/by/4.0/:" id="_5f2ce0a9-fe6f-0280-8849-4352caa82c70"/><semx element="link" source="_5f2ce0a9-fe6f-0280-8849-4352caa82c70"><fmt-link target="http://creativecommons.org/licenses/by/4.0/:"/></semx>), which permits unrestricted use, distribution, and reproduction in any medium, provided you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made.</p>
+</clause>
+</license-statement>
+
+<feedback-statement>
+
+<p id="_5926bc3f-b367-69e7-6cc6-442a91e32db2" semx-id="_5926bc3f-b367-69e7-6cc6-442a91e32db2">BIPM<br/> Pavillon de Breteuil<br/> F-92312 Sèvres Cedex<br/> FRANCE</p>
+</feedback-statement>
+</boilerplate><preface><clause type="toc" id="_5c1a45ef-0335-c28e-3f58-6bf64e3f6a5a" displayorder="1"><fmt-title depth="1" id="_f51d531f-516e-fbd9-af9b-08b11b85ca82">Contents</fmt-title></clause>
+ </preface><sections><clause id="_c2465cff-3de9-5118-2d22-0bceaa34078b" obligation="normative" semx-id="_c2465cff-3de9-5118-2d22-0bceaa34078b" displayorder="2">
+<title id="_c6adaea6-a036-2e0d-8793-b30900cc2285" semx-id="_6a13218d-655a-ce5a-a75b-2a8f4a2affc3">Overview</title><fmt-title depth="1" id="_2db8416b-e843-1c45-a852-61511f88496e"><span class="fmt-caption-label"><semx element="autonum" source="_c2465cff-3de9-5118-2d22-0bceaa34078b">1</semx><span class="fmt-autonum-delim">.</span></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_c6adaea6-a036-2e0d-8793-b30900cc2285">Overview</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">Chapter</span> <semx element="autonum" source="_c2465cff-3de9-5118-2d22-0bceaa34078b">1</semx></fmt-xref-label>
+<p id="_53938110-a3a1-a14c-52e0-2dc416caf8f2" semx-id="_53938110-a3a1-a14c-52e0-2dc416caf8f2">The purpose of this document is to develop CCL/WG-N recommendations for the use of Transmission Electron Microscopy (TEM) and the reference value of the bulk silicon lattice constant as a pathway for traceability to the SI metre for applications in dimensional nanometrology. Displacement interferometry is the most traditional and widely used method of realizing traceability to the SI metre for dimensional metrology at all length scales. For those circumstances for which the uncertainty of a measurement is primarily sensitive to the accuracy of this displacement metrology, an additional link to the SI metre is not necessary. However, most probing techniques, from coordinate measuring machines (CMMs) at large scales to atomic force microscopes (AFMs) at the nanoscale, also have uncertainties related to the probe-specimen interaction. These uncertainties tend to be dramatically larger for those measurements for which this interaction is translationally asymmetric (<em>i.e.</em>., opposite faces of a part or rising versus falling edges). Such measurements are usually classified as bidirectional in CMM metrology or as width measurements in AFM or scanning electron microscope (SEM) dimensional nanometrology. Therefore, the specific emphasis of this document is on the use of TEM as a reference metrology for linewidth measurement of localized nanostructures.</p>
+</clause>
+
+<clause id="_e40f2d36-0778-eebe-2ba7-19542bff8fa8" obligation="normative" semx-id="_e40f2d36-0778-eebe-2ba7-19542bff8fa8" displayorder="3">
+<title id="_3b7d630d-dd94-ae72-d7ee-f2e5d84d9c39" semx-id="_a19ad49e-141f-d88e-87ca-4c5601873060">Background</title><fmt-title depth="1" id="_bc040269-8810-9548-adc1-74103ce679f4"><span class="fmt-caption-label"><semx element="autonum" source="_e40f2d36-0778-eebe-2ba7-19542bff8fa8">2</semx><span class="fmt-autonum-delim">.</span></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_3b7d630d-dd94-ae72-d7ee-f2e5d84d9c39">Background</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">Chapter</span> <semx element="autonum" source="_e40f2d36-0778-eebe-2ba7-19542bff8fa8">2</semx></fmt-xref-label>
+<p id="_a456af2c-e2d4-45cd-a496-57c982248402" semx-id="_a456af2c-e2d4-45cd-a496-57c982248402">The lattice constant of silicon has been determined on bulk silicon
+crystals with very small relative uncertainty down to <stem block="false" type="MathML" id="_236769f2-8286-9613-33d0-2b51aae9ba58"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>8</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math><asciimath>10^(-8)</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_236769f2-8286-9613-33d0-2b51aae9ba58"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>8</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math><asciimath>10^(-8)</asciimath></semx></fmt-stem> by using optical interferometry combined with x-ray interferometry. Up to the present all of measurements performed are in good agreement  <eref type="inline" bibitemid="mohr" citeas="[1]" id="_7e1e0b87-64d4-51f6-50c8-fffc93921219"/><semx element="eref" source="_7e1e0b87-64d4-51f6-50c8-fffc93921219"><fmt-xref type="inline" target="mohr">[1]</fmt-xref></semx>.</p>
+
+<clause id="_378e9afc-7a81-5720-5349-5137c4fd3e57" obligation="normative" semx-id="_378e9afc-7a81-5720-5349-5137c4fd3e57">
+<title id="_07ade0b2-643d-6682-a921-1f7555f8991d" semx-id="_699a2ccb-b3ff-64ff-dcdd-d33f59b69e12">Dimensional Metrology Experience</title><fmt-title depth="2" id="_7afb6b55-930f-1cf3-3529-4123d45f538a"><span class="fmt-caption-label"><semx element="autonum" source="_e40f2d36-0778-eebe-2ba7-19542bff8fa8">2</semx><span class="fmt-autonum-delim">.</span><semx element="autonum" source="_378e9afc-7a81-5720-5349-5137c4fd3e57">1</semx><span class="fmt-autonum-delim">.</span></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_07ade0b2-643d-6682-a921-1f7555f8991d">Dimensional Metrology Experience</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">Section</span> <semx element="autonum" source="_e40f2d36-0778-eebe-2ba7-19542bff8fa8">2</semx><span class="fmt-autonum-delim">.</span><semx element="autonum" source="_378e9afc-7a81-5720-5349-5137c4fd3e57">1</semx></fmt-xref-label>
+<p id="_5ddbb07d-7bcc-3f3d-42e6-766d3cb82f00" semx-id="_5ddbb07d-7bcc-3f3d-42e6-766d3cb82f00">Since the early 2000s, at least two NMIs have experimented with using the known value of the bulk silicon lattice constant to establish traceability to the SI metre for dimensional nanometrology applications. Techniques such as x-ray scattering, can provide a link to the silicon lattice for certain measurands (notably, film thickness) that are defined over large sampling areas. However, for highly localized measurements of specific nanostructures, various forms of transmission electron microscopy (TEM) seem the most appropriate method of linking. During the last 15 years, both NIST and PTB have carried out significant efforts in dimensional nanometrology that relied on this approach.</p>
+
+<p id="_d36864eb-157b-5a57-55e6-72eaeaadde53" semx-id="_d36864eb-157b-5a57-55e6-72eaeaadde53">The NIST single crystal critical dimension reference material (SCCDRM) project has been
+a multi-generation effort to develop standards for linewidth metrology at and below the
+<stem block="false" type="MathML" id="_2514b6dd-26eb-71f0-0ca6-e66172fdba3e"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>100</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_nm">
+      <mstyle mathvariant="normal">
+        <mi>nm</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>100 "unitsml(nm)"</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_2514b6dd-26eb-71f0-0ca6-e66172fdba3e"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>100</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_nm">
+      <mstyle mathvariant="normal">
+        <mi>nm</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>100 "unitsml(nm)"</asciimath></semx></fmt-stem> size scale <eref type="inline" bibitemid="cresswell" citeas="[2]" id="_20de5ad6-ea03-6865-60d4-0e88561f80ad"/><semx element="eref" source="_20de5ad6-ea03-6865-60d4-0e88561f80ad"><fmt-xref type="inline" target="cresswell">[2]</fmt-xref></semx>-<eref type="inline" bibitemid="bogardus" citeas="[4]" id="_f410941a-fede-4882-df8b-46856ed05341"/><semx element="eref" source="_f410941a-fede-4882-df8b-46856ed05341"><fmt-xref type="inline" target="bogardus">[4]</fmt-xref></semx>. The goal of this project
+was to establish traceable width metrology of specific crystalline <stem block="false" type="MathML" id="_d7ed6739-629c-dbec-168f-bc0ece336657"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Si</mtext>
+  </mstyle>
+</math><asciimath>"Si"</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_d7ed6739-629c-dbec-168f-bc0ece336657"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Si</mtext>
+  </mstyle>
+</math><asciimath>"Si"</asciimath></semx></fmt-stem>
+nanostructures. The measurand was localized — with unique mutual navigation indicators
+and equivalent sampling strategy, and only the native silicon oxide was present on
+<stem block="false" type="MathML" id="_4d836703-3c19-d2ff-3864-a781c3c95f93"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Si</mtext>
+  </mstyle>
+</math><asciimath>"Si"</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_4d836703-3c19-d2ff-3864-a781c3c95f93"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Si</mtext>
+  </mstyle>
+</math><asciimath>"Si"</asciimath></semx></fmt-stem> structures.</p>
+
+<p id="_7f324055-1192-d5e4-92f7-ae44af2b5273" semx-id="_7f324055-1192-d5e4-92f7-ae44af2b5273">The general approach was to use critical dimension atomic force microscopy (CD-AFM) as a
+comparator between those structures that were cross-sectioned for TEM and the structures
+remaining intact. The
+limiting expanded uncertainty on transfer experiment was <stem block="false" type="MathML" id="_4d53df90-c5de-8eed-367c-27dd1b069585"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>0.6</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_nm">
+      <mstyle mathvariant="normal">
+        <mi>nm</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>0.6 "unitsml(nm)"</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_4d53df90-c5de-8eed-367c-27dd1b069585"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>0.6</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_nm">
+      <mstyle mathvariant="normal">
+        <mi>nm</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>0.6 "unitsml(nm)"</asciimath></semx></fmt-stem>
+(<stem block="false" type="MathML" id="_a1acbb17-3343-c777-9be8-4f3e51ee45d7"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>k</mi>
+    <mo>=</mo>
+    <mn>2</mn>
+  </mstyle>
+</math><asciimath>k = 2</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_a1acbb17-3343-c777-9be8-4f3e51ee45d7"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>k</mi>
+    <mo>=</mo>
+    <mn>2</mn>
+  </mstyle>
+</math><asciimath>k = 2</asciimath></semx></fmt-stem>). However, the standards distributed to users had expanded uncertainties
+(<stem block="false" type="MathML" id="_ee703ab2-4a78-f61e-2751-3b85c0846043"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>k</mi>
+    <mo>=</mo>
+    <mn>2</mn>
+  </mstyle>
+</math><asciimath>k = 2</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_ee703ab2-4a78-f61e-2751-3b85c0846043"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>k</mi>
+    <mo>=</mo>
+    <mn>2</mn>
+  </mstyle>
+</math><asciimath>k = 2</asciimath></semx></fmt-stem>) of between <stem block="false" type="MathML" id="_be30499e-96ab-96b1-9f6f-d76225179d1d"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1.5</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_nm">
+      <mstyle mathvariant="normal">
+        <mi>nm</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>1.5 "unitsml(nm)"</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_be30499e-96ab-96b1-9f6f-d76225179d1d"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1.5</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_nm">
+      <mstyle mathvariant="normal">
+        <mi>nm</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>1.5 "unitsml(nm)"</asciimath></semx></fmt-stem> and <stem block="false" type="MathML" id="_b3c9718a-09e7-196a-9208-5c1c09e60fb1"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>2</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_nm">
+      <mstyle mathvariant="normal">
+        <mi>nm</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>2 "unitsml(nm)"</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_b3c9718a-09e7-196a-9208-5c1c09e60fb1"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>2</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_nm">
+      <mstyle mathvariant="normal">
+        <mi>nm</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>2 "unitsml(nm)"</asciimath></semx></fmt-stem>.</p>
+
+<p id="_3ca723cc-dcca-fbcc-8ad5-cd8ee99395ee" semx-id="_3ca723cc-dcca-fbcc-8ad5-cd8ee99395ee">This overall approach and the use of TEM to achieve traceability were generally accepted within the dimensional nanometrology community — specifically within the semiconductor metrology field. Indeed, one commercial vendor of secondary standards for that industry implemented a similar approach to calibrate one of their products  <eref type="inline" bibitemid="tortonese" citeas="[5]" id="_24c5a72e-b20b-65b8-8e48-d59617100bf9"/><semx element="eref" source="_24c5a72e-b20b-65b8-8e48-d59617100bf9"><fmt-xref type="inline" target="tortonese">[5]</fmt-xref></semx>.</p>
+
+<p id="_6540b1f6-59df-91cb-dc83-66ca58faf06a" semx-id="_6540b1f6-59df-91cb-dc83-66ca58faf06a">More recently, PTB independently implemented a conceptually related methodology <eref type="inline" bibitemid="dai" citeas="[6]" id="_34be0544-8f6c-b8fb-fe77-872d680fafd8"/><semx element="eref" source="_34be0544-8f6c-b8fb-fe77-872d680fafd8"><fmt-xref type="inline" target="dai">[6]</fmt-xref></semx>. Two important distinctions between the NIST and PTB efforts were that PTB used an in-house form of CD-AFM, rather than the commercially available version used at NIST <eref type="inline" bibitemid="martin" citeas="[7]" id="_1cc5024e-0c8d-5025-30d1-6ae0eae18bba"/><semx element="eref" source="_1cc5024e-0c8d-5025-30d1-6ae0eae18bba"><fmt-xref type="inline" target="martin">[7]</fmt-xref></semx> <eref type="inline" bibitemid="schmitz" citeas="[8]" id="_04d69ee9-b0f1-a426-1243-a7f52bf98a84"/><semx element="eref" source="_04d69ee9-b0f1-a426-1243-a7f52bf98a84"><fmt-xref type="inline" target="schmitz">[8]</fmt-xref></semx>. The PTB implementation of CD-AFM is based on a method known as vector approach probing (VAP)  <eref type="inline" bibitemid="wolff" citeas="[9]" id="_26dd5395-f241-eab8-bc4f-cab63ec2f1f3"/><semx element="eref" source="_26dd5395-f241-eab8-bc4f-cab63ec2f1f3"><fmt-xref type="inline" target="wolff">[9]</fmt-xref></semx>. The PTB project also used a form of scanning TEM (STEM) to provide the TEM reference metrology. NIST relied primarily on high resolution TEM (HRTEM) — a full-field interference-based technique — with subsequent validation using STEM. Ultimately, the final uncertainties of the NIST and PTB implementations were nearly identical. However, consideration of possible outliers suggests that the PTB method can be potentially extended to even lower uncertainties.</p>
+
+<p id="_acceac86-a865-b8fa-ee27-1058a1641b4f" semx-id="_acceac86-a865-b8fa-ee27-1058a1641b4f">Even more recently, PTB has collaborated with a commercial standards vendor to develop a form of crystalline silicon linewidth standard that is commercially available  <eref type="inline" bibitemid="zhu" citeas="[10]" id="_29351c35-2b41-01ea-423c-ab2be3ce7901"/><semx element="eref" source="_29351c35-2b41-01ea-423c-ab2be3ce7901"><fmt-xref type="inline" target="zhu">[10]</fmt-xref></semx>. Ultimately, this development affords the opportunity for other organizations, both NMIs and industrial customers to implement their own versions of a TEM transfer technique to bring lattice traceability to dimensional nanometrology. This may increase the importance of practical guidelines for this application from CCL and WG-N.</p>
+</clause>
+
+<clause id="_00eadc4b-ed15-3657-37f5-528ce8752693" obligation="normative" semx-id="_00eadc4b-ed15-3657-37f5-528ce8752693">
+<title id="_715f5f20-1974-6759-3f08-3e6b584ed29f" semx-id="_94839676-a1f9-6d69-7d6b-cdfe3021eee9">Surface Analysis Experience</title><fmt-title depth="2" id="_ef0f0ff7-8345-66e2-7730-ad8680ce0c0e"><span class="fmt-caption-label"><semx element="autonum" source="_e40f2d36-0778-eebe-2ba7-19542bff8fa8">2</semx><span class="fmt-autonum-delim">.</span><semx element="autonum" source="_00eadc4b-ed15-3657-37f5-528ce8752693">2</semx><span class="fmt-autonum-delim">.</span></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_715f5f20-1974-6759-3f08-3e6b584ed29f">Surface Analysis Experience</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">Section</span> <semx element="autonum" source="_e40f2d36-0778-eebe-2ba7-19542bff8fa8">2</semx><span class="fmt-autonum-delim">.</span><semx element="autonum" source="_00eadc4b-ed15-3657-37f5-528ce8752693">2</semx></fmt-xref-label>
+<p id="_b1c5faf6-a978-77b4-cfa3-c791f3c146bd" semx-id="_b1c5faf6-a978-77b4-cfa3-c791f3c146bd">In contrast to the dimensional metrology community, however, those NMI staff involved
+with the surface analysis and thin film characterization areas have a different
+experience and perspective on the suitability of using TEM for traceability to the SI
+metre. This is due partly to the CCQM experience during the same time period with two
+with comparisons of <stem block="false" type="MathML" id="_8afa3a9b-8bae-a047-adeb-27d29fef2b3d"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mtext>SiO</mtext>
+      <mn>2</mn>
+    </msub>
+  </mstyle>
+</math><asciimath>"SiO"_2</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_8afa3a9b-8bae-a047-adeb-27d29fef2b3d"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mtext>SiO</mtext>
+      <mn>2</mn>
+    </msub>
+  </mstyle>
+</math><asciimath>"SiO"_2</asciimath></semx></fmt-stem> thickness measurements: a pilot study P38 <eref type="inline" bibitemid="seah" citeas="[11]" id="_29cadc01-0c9b-c909-4cac-15497127243b"/><semx element="eref" source="_29cadc01-0c9b-c909-4cac-15497127243b"><fmt-xref type="inline" target="seah">[11]</fmt-xref></semx> and a subsequent key comparison K32  <eref type="inline" bibitemid="unger" citeas="[12]" id="_81b69f82-5f0e-5834-d706-7d073ce8bc4c"/><semx element="eref" source="_81b69f82-5f0e-5834-d706-7d073ce8bc4c"><fmt-xref type="inline" target="unger">[12]</fmt-xref></semx>.</p>
+
+<p id="_f0647346-589f-6c44-c7a2-269deb0c7200" semx-id="_f0647346-589f-6c44-c7a2-269deb0c7200">In the P38 study, multiple specimens were included with <stem block="false" type="MathML" id="_c556cad3-11e3-b3e7-fc36-1fadf2882aab"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mtext>SiO</mtext>
+      <mn>2</mn>
+    </msub>
+  </mstyle>
+</math><asciimath>"SiO"_2</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_c556cad3-11e3-b3e7-fc36-1fadf2882aab"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mtext>SiO</mtext>
+      <mn>2</mn>
+    </msub>
+  </mstyle>
+</math><asciimath>"SiO"_2</asciimath></semx></fmt-stem> thicknesses
+ranging from <stem block="false" type="MathML" id="_ca9b6086-ade7-5a3a-01b5-ce58537700d0"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1.5</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_nm">
+      <mstyle mathvariant="normal">
+        <mi>nm</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>1.5 "unitsml(nm)"</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_ca9b6086-ade7-5a3a-01b5-ce58537700d0"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1.5</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_nm">
+      <mstyle mathvariant="normal">
+        <mi>nm</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>1.5 "unitsml(nm)"</asciimath></semx></fmt-stem> to <stem block="false" type="MathML" id="_f79c9565-d69f-8d15-08d3-b21ee7e6f146"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>8</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_nm">
+      <mstyle mathvariant="normal">
+        <mi>nm</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>8 "unitsml(nm)"</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_f79c9565-d69f-8d15-08d3-b21ee7e6f146"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>8</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_nm">
+      <mstyle mathvariant="normal">
+        <mi>nm</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>8 "unitsml(nm)"</asciimath></semx></fmt-stem>. Regression analysis
+yielded slopes and intercepts for comparison between the measured and reference values.
+TEM calibrated to the <stem block="false" type="MathML" id="_364db9af-571a-022c-1ca3-632db34517cc"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Si</mtext>
+  </mstyle>
+</math><asciimath>"Si"</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_364db9af-571a-022c-1ca3-632db34517cc"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Si</mtext>
+  </mstyle>
+</math><asciimath>"Si"</asciimath></semx></fmt-stem> lattice — through the commercial MAG*I*CAL sample <eref type="inline" bibitemid="mccaffrey" citeas="[13]" id="_7b26f93a-b87e-9e55-78ac-e4e40d3db8e3"/><semx element="eref" source="_7b26f93a-b87e-9e55-78ac-e4e40d3db8e3"><fmt-xref type="inline" target="mccaffrey">[13]</fmt-xref></semx> — was one of the methods included in the study. However, the average TEM
+results were furthest from the reference (slope: <stem block="false" type="MathML" id="_c0c76711-611b-3af4-9aa2-120419cf9969"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>0.92</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_nm">
+      <mstyle mathvariant="normal">
+        <mi>nm</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>0.92 "unitsml(nm)"</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_c0c76711-611b-3af4-9aa2-120419cf9969"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>0.92</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_nm">
+      <mstyle mathvariant="normal">
+        <mi>nm</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>0.92 "unitsml(nm)"</asciimath></semx></fmt-stem>, intercept:
+<stem block="false" type="MathML" id="_f566a6ae-9854-3b93-1b76-59b44b0e5d49"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>0.8</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_nm">
+      <mstyle mathvariant="normal">
+        <mi>nm</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>0.8 "unitsml(nm)"</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_f566a6ae-9854-3b93-1b76-59b44b0e5d49"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>0.8</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_nm">
+      <mstyle mathvariant="normal">
+        <mi>nm</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>0.8 "unitsml(nm)"</asciimath></semx></fmt-stem>). In contrast, x-ray photoelectron spectroscopy (XPS) was the
+closest (slope: <stem block="false" type="MathML" id="_21be8b60-d601-aa4a-8269-529dbf75951d"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle displaystyle="false"><mn>1.045</mn></mstyle></math><asciimath>1.045</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_21be8b60-d601-aa4a-8269-529dbf75951d">1.045<asciimath>1.045</asciimath></semx></fmt-stem>, intercept: <stem block="false" type="MathML" id="_7e1120e5-cc78-16ce-1811-1c7ae7058e28"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle displaystyle="false"><mn>0.172</mn></mstyle></math><asciimath>0.172</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_7e1120e5-cc78-16ce-1811-1c7ae7058e28">0.172<asciimath>0.172</asciimath></semx></fmt-stem>). Due to the perceived performance limitations of TEM for this application, it was not included in the eventual K32 key comparison  <eref type="inline" bibitemid="unger" citeas="[12]" id="_56a5b4c2-c092-4d7a-0fec-a18d27f26dcc"/><semx element="eref" source="_56a5b4c2-c092-4d7a-0fec-a18d27f26dcc"><fmt-xref type="inline" target="unger">[12]</fmt-xref></semx>.</p>
+
+<p id="_99afa40b-52ca-f028-16a0-6ec7cc6f84b1" semx-id="_99afa40b-52ca-f028-16a0-6ec7cc6f84b1">Although TEM was used to measure length-dimensional quantities in both the P38 comparison (layer thickness) and the PTB and NIST linewidth standard projects (line width), there are some fundamental differences between the two applications. In the NIST and PTB efforts, the measurand was highly localized — the width of a specific structure at a specific location. Position markers were used for mutual navigation between AFM and TEM, and multiple measurements were used to help achieve equivalent sampling.</p>
+
+<p id="_3487d27f-a1b0-1b15-e8a7-a9d9956a3f58" semx-id="_3487d27f-a1b0-1b15-e8a7-a9d9956a3f58">In contrast, the film thickness measurand in the P38 study was the amount of
+<stem block="false" type="MathML" id="_ccddd58a-0c4e-5342-7287-9548c616351d"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mtext>SiO</mtext>
+      <mn>2</mn>
+    </msub>
+  </mstyle>
+</math><asciimath>"SiO"_2</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_ccddd58a-0c4e-5342-7287-9548c616351d"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mtext>SiO</mtext>
+      <mn>2</mn>
+    </msub>
+  </mstyle>
+</math><asciimath>"SiO"_2</asciimath></semx></fmt-stem> on a <stem block="false" type="MathML" id="_30d87a8d-7526-fb94-a374-9369a0a0cc7a"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Si</mtext>
+  </mstyle>
+</math><asciimath>"Si"</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_30d87a8d-7526-fb94-a374-9369a0a0cc7a"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Si</mtext>
+  </mstyle>
+</math><asciimath>"Si"</asciimath></semx></fmt-stem> wafer expressed as layer thickness which is not a highly localized property, and the samples used in the P38 study did not have location-specific markers to ensure consistent navigation among the methods. Consequently, the reported results did not necessarily correspond to overlapping regions or sampling of the same size.</p>
+
+<p id="_4f7a0428-126f-c3ab-0315-ae549cd30935" semx-id="_4f7a0428-126f-c3ab-0315-ae549cd30935">One commonality between the applications is that both underscored the importance of
+considering of <stem block="false" type="MathML" id="_cd65727e-324e-cec4-c6f3-3da6d1929f24"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mtext>SiO</mtext>
+      <mn>2</mn>
+    </msub>
+  </mstyle>
+</math><asciimath>"SiO"_2</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_cd65727e-324e-cec4-c6f3-3da6d1929f24"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mtext>SiO</mtext>
+      <mn>2</mn>
+    </msub>
+  </mstyle>
+</math><asciimath>"SiO"_2</asciimath></semx></fmt-stem> /<stem block="false" type="MathML" id="_b89ce6f3-ed70-3f51-22df-74acd7c63f57"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Si</mtext>
+  </mstyle>
+</math><asciimath>"Si"</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_b89ce6f3-ed70-3f51-22df-74acd7c63f57"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Si</mtext>
+  </mstyle>
+</math><asciimath>"Si"</asciimath></semx></fmt-stem> interface ambiguity, sample preparation/capping layer/thinning of layers, and carbonaceous contamination for any application of TEM in dimensional nanometrology.</p>
+</clause>
+</clause>
+
+<clause id="_c65a56fd-bdd8-5179-3849-d5d3aceb6e69" obligation="normative" semx-id="_c65a56fd-bdd8-5179-3849-d5d3aceb6e69" displayorder="4">
+<title id="_543773e0-c481-2b56-d16f-069bd6214656" semx-id="_d7a2b57a-897e-17e6-6031-08b1c3e00c37">Practical Implementation</title><fmt-title depth="1" id="_1417f236-06fb-4da8-2507-c9f8a73470aa"><span class="fmt-caption-label"><semx element="autonum" source="_c65a56fd-bdd8-5179-3849-d5d3aceb6e69">3</semx><span class="fmt-autonum-delim">.</span></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_543773e0-c481-2b56-d16f-069bd6214656">Practical Implementation</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">Chapter</span> <semx element="autonum" source="_c65a56fd-bdd8-5179-3849-d5d3aceb6e69">3</semx></fmt-xref-label>
+<clause id="_a5d37d1a-d440-1457-9c6a-e40efc15c862" obligation="normative" semx-id="_a5d37d1a-d440-1457-9c6a-e40efc15c862">
+<title id="_32866ea9-310a-bc2c-faea-2af2b5e89cb5" semx-id="_18c8bfe1-61b5-43ec-2dbe-f8e9445f46ef">Requirements and Challenges</title><fmt-title depth="2" id="_2e30cb94-199e-c815-2bc4-d0fbeb728eaf"><span class="fmt-caption-label"><semx element="autonum" source="_c65a56fd-bdd8-5179-3849-d5d3aceb6e69">3</semx><span class="fmt-autonum-delim">.</span><semx element="autonum" source="_a5d37d1a-d440-1457-9c6a-e40efc15c862">1</semx><span class="fmt-autonum-delim">.</span></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_32866ea9-310a-bc2c-faea-2af2b5e89cb5">Requirements and Challenges</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">Section</span> <semx element="autonum" source="_c65a56fd-bdd8-5179-3849-d5d3aceb6e69">3</semx><span class="fmt-autonum-delim">.</span><semx element="autonum" source="_a5d37d1a-d440-1457-9c6a-e40efc15c862">1</semx></fmt-xref-label>
+<p id="_03a64676-8ecc-f0a9-e175-f8ab8eba92a0" semx-id="_03a64676-8ecc-f0a9-e175-f8ab8eba92a0">It remains a challenging issue to accurately assign the feature edges in high resolution
+(S)TEM images, and this is of central importance in using TEM metrology to provide a
+traceable reference for dimensional nanometrology. The uncertainties in the feature edge
+locations directly impact the uncertainty of a width measurement. Generally, these
+uncertainties must be <stem block="false" type="MathML" id="_ab0d2d14-7bc9-8225-1667-9c526bbe77bf"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_nm">
+      <mstyle mathvariant="normal">
+        <mi>nm</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>1 "unitsml(nm)"</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_ab0d2d14-7bc9-8225-1667-9c526bbe77bf"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_nm">
+      <mstyle mathvariant="normal">
+        <mi>nm</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>1 "unitsml(nm)"</asciimath></semx></fmt-stem> or less in order to preserve a useful uncertainty in the final width calibration.</p>
+
+<p id="_720a9593-ced5-b2f0-e872-56125a821c9a" semx-id="_720a9593-ced5-b2f0-e872-56125a821c9a">The edge uncertainties are dependent upon multiple factors, including: (1) the nature of the original sample (<em>i.e.</em>, crystallinity), (2) the performance of the sample preparation — including potential damage, annealing, and (3) the image-formation physics in the TEM.</p>
+
+<p id="_694c88d2-c554-5877-e9ca-ed8b1ee5f6c1" semx-id="_694c88d2-c554-5877-e9ca-ed8b1ee5f6c1">In order to directly obtain traceability through resolving the silicon lattice, a necessary requirement is that at least some portion of the sample material, ideally the primary target feature, must be mono-crystalline. For both the NIST and PTB projects this was the case. However, this requirement places considerable limitations on sample design and fabrication. The only comparable commercial implementation used an approach in which the primary target was poly-crystalline, but a nearby feature, which could be included in the same field-of-view (FOV) was mono-crystalline. Although it has been successfully implemented, this approach is partly dependent on a thorough understanding of the imaging performance and non-linearity of the TEM throughout its FOV. When the target feature is crystalline, only nonlinearity over the thickness of the oxide or other capping layer could contribute to the final uncertainty. In the case of an adjacent feature, the separation may be two orders of magnitude larger. In high-end TEM instrumentation, this is unlikely to be significant, but it would be practical consideration for those attempting to implement the approach with lower-end or less-characterized instruments.</p>
+
+<p id="_974dd5d2-60d7-ee36-c564-dd2e8768545a" semx-id="_974dd5d2-60d7-ee36-c564-dd2e8768545a">Another variant on the general approach was also implemented by PTB, referred to as the “<tt>pitch method</tt>” <eref type="inline" bibitemid="dai" citeas="[6]" id="_e79f561a-4d39-884f-97aa-bbe4843b1b18"/><semx element="eref" source="_e79f561a-4d39-884f-97aa-bbe4843b1b18"><fmt-xref type="inline" target="dai">[6]</fmt-xref></semx>. The sample involved had a pair of target structures that could
+be observed within the TEM FOV. Prior to performing the TEM cross-section, the pitch of
+these features was measured using AFM. While AFM width measurements are highly dependent
+upon the tip width, pitch (unidirectional) measurements using AFM are sensitive
+primarily to scanner displacement. PTB used their metrological AFM, which has
+displacement interferometry incorporated into the scanner, to perform pitch measurements
+traceable to the SI metre. Since both of the features could then be observed within the
+same TEM FOV, it was thus possible to transfer the AFM traceability to the TEM scale and
+ultimately to the feature widths. The PTB experimental study demonstrated consistency
+between the pitch method and the silicon lattice approach to better than <stem block="false" type="MathML" id="_f72db53e-4eaf-0606-ba78-225d7593b057"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>0.3</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_nm">
+      <mstyle mathvariant="normal">
+        <mi>nm</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>0.3
+"unitsml(nm)"</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_f72db53e-4eaf-0606-ba78-225d7593b057"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>0.3</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_nm">
+      <mstyle mathvariant="normal">
+        <mi>nm</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>0.3
+"unitsml(nm)"</asciimath></semx></fmt-stem> <eref type="inline" bibitemid="martin" citeas="[7]" id="_5a73e4d0-3857-ce5d-b43d-8b812a5ea6d4"/><semx element="eref" source="_5a73e4d0-3857-ce5d-b43d-8b812a5ea6d4"><fmt-xref type="inline" target="martin">[7]</fmt-xref></semx>. This approach eliminates the dependence on the silicon lattice to connect the TEM image scale to the SI metre. Therefore, it does not necessarily require monocrystalline target features. However, the issues of sample preparation, oxides, encapsulating layers, and edge definition still contribute to the uncertainties.</p>
+
+<p id="_127156eb-4220-c3ec-3619-52673b430dce" semx-id="_127156eb-4220-c3ec-3619-52673b430dce">To achieve low uncertainties, the definition of the “<tt>edge-operator</tt>” must be carefully considered and correspond well with the physical edge of the structure. Modeling of (S)TEM imaging processes in various measurement modalities such as TEM, EFTEM, BF STEM, DF STEM, HAADF STEM etc. as well as different measurement parameters is an important task, so as to relate the images to the “<tt>real structure</tt>”. However, when complex modeling physics, such is used in SEM, is required, this can impact the uncertainties and the traceability.</p>
+
+<p id="_4153dc6f-8002-d737-915a-67a8d3073da9" semx-id="_4153dc6f-8002-d737-915a-67a8d3073da9">The initial appeal of TEM in the original NIST project was that it would substantially realize a lattice plane count across a target feature to measure the width. A monocrystalline target feature combined with lattice resolution meant that only a very basic edge operator was required for the underlying crystalline features and there was very little uncertainty about the width. The oxide layer and its interface with the encapsulating layer contributed more uncertainty. The image quality, however, made it possible to estimate these contributions without reliance on modeling physics to interpret the images.</p>
+
+<p id="_9ba71d1a-a6d6-c6cf-b3e7-e45de3b0d40c" semx-id="_9ba71d1a-a6d6-c6cf-b3e7-e45de3b0d40c">Pushing the general approach to a significantly lower uncertainty may well require complex edge operators and TEM image/signal interpretation, but this would also add an extra step in the traceability chain and introduce new sources of uncertainty.</p>
+</clause>
+</clause>
+
+<clause id="_b41396cb-84a0-c322-d3cc-24ea4fa1ef58" obligation="normative" semx-id="_b41396cb-84a0-c322-d3cc-24ea4fa1ef58" displayorder="5">
+<title id="_564d6f7b-5458-79cf-194a-00229dbc5bd4" semx-id="_34855706-84a2-c03b-22c0-7ea113cefe9e">Position Statement of CCL/WG-N</title><fmt-title depth="1" id="_9940e062-ec57-5aad-77bb-2cc56fce45b2"><span class="fmt-caption-label"><semx element="autonum" source="_b41396cb-84a0-c322-d3cc-24ea4fa1ef58">4</semx><span class="fmt-autonum-delim">.</span></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_564d6f7b-5458-79cf-194a-00229dbc5bd4">Position Statement of CCL/WG-N</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">Chapter</span> <semx element="autonum" source="_b41396cb-84a0-c322-d3cc-24ea4fa1ef58">4</semx></fmt-xref-label>
+<ol id="_c4855f97-c712-ee52-1853-7f112af6ab72" type="arabic" semx-id="_c4855f97-c712-ee52-1853-7f112af6ab72"><li id="_d52e0052-98b0-fde8-4ee2-d06815d96d44"><fmt-name id="_6a1f44ba-ab25-a9da-8ddd-dabf3426495a"><semx element="autonum" source="_d52e0052-98b0-fde8-4ee2-d06815d96d44">1</semx><span class="fmt-label-delim">.</span></fmt-name><p id="_85a8a575-0707-a34a-b9d5-f94324416845" semx-id="_85a8a575-0707-a34a-b9d5-f94324416845">CCL/WG-N believes that TEM, in both full field and scanning instruments, is an important measurement technology for applications in dimensional nanometrology.</p>
+</li>
+<li id="_8b2bcce9-2587-5a6f-876c-952abd9b55ae"><fmt-name id="_9e96e330-a5da-9705-c191-c07c7485fb79"><semx element="autonum" source="_8b2bcce9-2587-5a6f-876c-952abd9b55ae">2</semx><span class="fmt-label-delim">.</span></fmt-name><p id="_ea351989-05eb-fe54-286a-577fee6812c3" semx-id="_ea351989-05eb-fe54-286a-577fee6812c3">If appropriate practices are followed, dimensional measurements with TEM may be made traceable to the SI metre through reference to the silicon lattice.</p>
+</li>
+<li id="_4fa92ae7-d510-173e-6720-60f35621ea35"><fmt-name id="_9ba0e52f-fbce-c5cb-7c29-ba48f0434c09"><semx element="autonum" source="_4fa92ae7-d510-173e-6720-60f35621ea35">3</semx><span class="fmt-label-delim">.</span></fmt-name><p id="_9e21949c-a7bd-2ba5-96f9-6c1b88991bfe" semx-id="_9e21949c-a7bd-2ba5-96f9-6c1b88991bfe">The P38 study of CCQM does illustrate important limitations of TEM. However, these issues are more limiting for film thickness applications than for structural metrology as described here.</p>
+</li>
+<li id="_6c21e44a-c8ed-9ddb-a9b5-b10606bd643b"><fmt-name id="_bfad8304-9d14-d95f-a37b-201d153a3a70"><semx element="autonum" source="_6c21e44a-c8ed-9ddb-a9b5-b10606bd643b">4</semx><span class="fmt-label-delim">.</span></fmt-name><p id="_ad634ffb-b9fa-3404-6fec-3caf8e2f0c87" semx-id="_ad634ffb-b9fa-3404-6fec-3caf8e2f0c87">WG-N regards the localized metrology of micro and nano-structures as residing within the CCL and WG-N space. However, distributed properties such as film thickness fall within the spaces of both CCL and CCQM. Perhaps this might be an area of future cooperation between the two CCs.</p>
+</li>
+</ol>
+</clause>
+
+<clause id="_5c007aab-7200-19e6-4f7e-35196e57caa4" obligation="normative" semx-id="_5c007aab-7200-19e6-4f7e-35196e57caa4" displayorder="6">
+<title id="_85e716da-d571-1db0-c44f-3c9161b0693b" semx-id="_e53bc34a-05d6-7ad5-f926-e07d731ab04f">Recommendations of CCL/WG-N for use of TEM in Traceable Dimensional Nanometrology:</title><fmt-title depth="1" id="_ab6fab4f-0307-9b26-71c7-8104fd45acc6"><span class="fmt-caption-label"><semx element="autonum" source="_5c007aab-7200-19e6-4f7e-35196e57caa4">5</semx><span class="fmt-autonum-delim">.</span></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_85e716da-d571-1db0-c44f-3c9161b0693b">Recommendations of CCL/WG-N for use of TEM in Traceable Dimensional Nanometrology:</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">Chapter</span> <semx element="autonum" source="_5c007aab-7200-19e6-4f7e-35196e57caa4">5</semx></fmt-xref-label>
+<ol id="_503fedbc-01ff-f9f6-f3cd-a27c062e416c" type="arabic" semx-id="_503fedbc-01ff-f9f6-f3cd-a27c062e416c"><li id="_d8adc436-91e7-f88e-1cca-880da916c92d"><fmt-name id="_53ce3fca-9e67-98ec-9a1d-26c597577873"><semx element="autonum" source="_d8adc436-91e7-f88e-1cca-880da916c92d">1</semx><span class="fmt-label-delim">.</span></fmt-name><p id="_e8aa3243-8d58-60be-f349-a881937742e2" semx-id="_e8aa3243-8d58-60be-f349-a881937742e2">The highly localized nature of TEM sample preparation and metrology render it more suitable for dimensional nanometrology of specific nanostructures as opposed to non-localized measurements such as film thickness.</p>
+</li>
+<li id="_6af249eb-51c2-e2f5-8f00-e970288b4bab"><fmt-name id="_d76a1ef6-5d1c-7357-bf82-1386f405da3e"><semx element="autonum" source="_6af249eb-51c2-e2f5-8f00-e970288b4bab">2</semx><span class="fmt-label-delim">.</span></fmt-name><p id="_6970857e-7b99-017f-8332-d665b0f2ff4b" semx-id="_6970857e-7b99-017f-8332-d665b0f2ff4b">Traceability to the SI metre may be realized through the use of specimens and techniques that permit the referencing of the TEM scale to the silicon lattice. Traceability of the TEM image scale may also be achieved through the PTB pitch method.</p>
+</li>
+<li id="_deab47c3-dcdb-22c7-ca60-2004c2041a53"><fmt-name id="_eff8988f-579c-6436-8f32-83147de34b46"><semx element="autonum" source="_deab47c3-dcdb-22c7-ca60-2004c2041a53">3</semx><span class="fmt-label-delim">.</span></fmt-name><p id="_03efd3a2-2926-694b-ed47-e966344edae5" semx-id="_03efd3a2-2926-694b-ed47-e966344edae5">There are two major TEM contrast mechanisms and instrument types that are appropriate for the dimensional nanometrology regime:  <xref target="HRTEM" id="_64553fec-fa84-adb7-c34f-2e341fa6e318"/><semx element="xref" source="_64553fec-fa84-adb7-c34f-2e341fa6e318"><fmt-xref target="HRTEM"><semx element="autonum" source="_deab47c3-dcdb-22c7-ca60-2004c2041a53">3</semx><span class="fmt-autonum-delim">)</span> <semx element="autonum" source="HRTEM">a</semx><span class="fmt-autonum-delim">)</span></fmt-xref></semx> High resolution TEM (HRTEM), and <xref target="HAADF-STEM" id="_d398fec6-46dc-7f0e-8486-0bc5a3b82849"/><semx element="xref" source="_d398fec6-46dc-7f0e-8486-0bc5a3b82849"><fmt-xref target="HAADF-STEM"><semx element="autonum" source="_deab47c3-dcdb-22c7-ca60-2004c2041a53">3</semx><span class="fmt-autonum-delim">)</span> <semx element="autonum" source="HAADF-STEM">b</semx><span class="fmt-autonum-delim">)</span></fmt-xref></semx> high angle annular dark field scanning TEM (HAADF-STEM) <eref type="inline" bibitemid="diebold" citeas="[14]" id="_eccbff98-b9a0-f52b-4963-e5365935e7e9"/><semx element="eref" source="_eccbff98-b9a0-f52b-4963-e5365935e7e9"><fmt-xref type="inline" target="diebold">[14]</fmt-xref></semx>, <eref type="inline" bibitemid="orji" citeas="[15]" id="_c2ef643c-2198-7f1b-5061-b32c198f8147"/><semx element="eref" source="_c2ef643c-2198-7f1b-5061-b32c198f8147"><fmt-xref type="inline" target="orji">[15]</fmt-xref></semx>. In a given application, each technique will have different strengths, but since both are capable of detecting the lattice periodicity either type of measurement could be made traceable.</p>
+<ol id="_02868659-8fb4-0fab-7205-aa3abc2b2d89" type="alphabet" semx-id="_02868659-8fb4-0fab-7205-aa3abc2b2d89"><li id="HRTEM" anchor="HRTEM" semx-id="_0b36f324-de8f-9fa5-962e-9cdc5c8909aa"><fmt-name id="_a9cbe2fc-d25e-edda-32b5-5fb63dc10276"><semx element="autonum" source="HRTEM">a</semx><span class="fmt-label-delim">)</span></fmt-name><p id="_4854fe1c-4699-b175-e466-69d5877dfb28" semx-id="_4854fe1c-4699-b175-e466-69d5877dfb28">HRTEM is a coherent imaging technique in which the contrast is generated by interference between the transmitted and diffracted beams. The correspondence between the intensity of the fringes and the atomic sites is also dependent on the specimen thickness.</p>
+</li>
+<li id="HAADF-STEM" anchor="HAADF-STEM" semx-id="_38c164c9-4564-d3f4-b3a7-fc7203bdaf99"><fmt-name id="_1d99ad6a-1ac8-050a-e0eb-fdb0f3f5b613"><semx element="autonum" source="HAADF-STEM">b</semx><span class="fmt-label-delim">)</span></fmt-name><p id="_7375a81e-4e2f-777a-6882-901c16ff6ee4" semx-id="_7375a81e-4e2f-777a-6882-901c16ff6ee4">HAADF-STEM is an incoherent scanning technique in which the detected signal is proportional to the intensity of the electrons scattered from each lattice site.</p>
+</li>
+</ol>
+</li>
+<li id="_ca23e90a-3735-c3ba-7295-17f8521f9cd6"><fmt-name id="_f123a972-5f66-c3cb-23c3-234dd0d561f9"><semx element="autonum" source="_ca23e90a-3735-c3ba-7295-17f8521f9cd6">4</semx><span class="fmt-label-delim">.</span></fmt-name><p id="_40a4f1aa-ef08-d373-af77-f8812a9538f6" semx-id="_40a4f1aa-ef08-d373-af77-f8812a9538f6">There are two broad cases for how SI traceability might be realized through the silicon lattice for a TEM measurement:  <xref target="DIC" id="_368fc2db-e3c4-d3eb-35e7-5ee291ba2e4e"/><semx element="xref" source="_368fc2db-e3c4-d3eb-35e7-5ee291ba2e4e"><fmt-xref target="DIC"><semx element="autonum" source="_ca23e90a-3735-c3ba-7295-17f8521f9cd6">4</semx><span class="fmt-autonum-delim">)</span> <semx element="autonum" source="DIC">a</semx><span class="fmt-autonum-delim">)</span></fmt-xref></semx> direct image calibration for cases in
+which all or a portion of the structure is crystalline <stem block="false" type="MathML" id="_6a8f69f9-ea14-777d-e05e-08e68d4bbb15"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Si</mtext>
+  </mstyle>
+</math><asciimath>"Si"</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_6a8f69f9-ea14-777d-e05e-08e68d4bbb15"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Si</mtext>
+  </mstyle>
+</math><asciimath>"Si"</asciimath></semx></fmt-stem>, or <xref target="TC" id="_0d2d525e-b265-d87b-d140-db2df13af3b5"/><semx element="xref" source="_0d2d525e-b265-d87b-d140-db2df13af3b5"><fmt-xref target="TC"><semx element="autonum" source="_ca23e90a-3735-c3ba-7295-17f8521f9cd6">4</semx><span class="fmt-autonum-delim">)</span> <semx element="autonum" source="TC">b</semx><span class="fmt-autonum-delim">)</span></fmt-xref></semx> transfer
+calibration using a crystalline <stem block="false" type="MathML" id="_983275ee-6dfc-60a7-1e2e-38fa9e2213d5"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Si</mtext>
+  </mstyle>
+</math><asciimath>"Si"</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_983275ee-6dfc-60a7-1e2e-38fa9e2213d5"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Si</mtext>
+  </mstyle>
+</math><asciimath>"Si"</asciimath></semx></fmt-stem> structure to calibrate the magnification for the target measurement.</p>
+<ol id="_b958005d-fdf0-9228-38de-9205353c1801" type="alphabet" semx-id="_b958005d-fdf0-9228-38de-9205353c1801"><li id="DIC" anchor="DIC" semx-id="_1b38750f-9c1a-8f2c-a04e-e03fd033ec64"><fmt-name id="_3d417ffd-c0f2-ba42-5049-137491d857ac"><semx element="autonum" source="DIC">a</semx><span class="fmt-label-delim">)</span></fmt-name><p id="_7e5d862a-3f6a-5a46-1d7f-b3b5e7ad63a8" semx-id="_7e5d862a-3f6a-5a46-1d7f-b3b5e7ad63a8">Direct image calibration for metrology of crystalline <stem block="false" type="MathML" id="_4c252bf6-0f5d-52cb-6c39-a713ae674f5e"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Si</mtext>
+  </mstyle>
+</math><asciimath>"Si"</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_4c252bf6-0f5d-52cb-6c39-a713ae674f5e"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Si</mtext>
+  </mstyle>
+</math><asciimath>"Si"</asciimath></semx></fmt-stem> structures
+is probably more straightforward but is only applicable to crystalline <stem block="false" type="MathML" id="_446fe566-1b43-2aa5-4b5d-2b5512ea2506"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Si</mtext>
+  </mstyle>
+</math><asciimath>"Si"</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_446fe566-1b43-2aa5-4b5d-2b5512ea2506"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Si</mtext>
+  </mstyle>
+</math><asciimath>"Si"</asciimath></semx></fmt-stem> structures. This was the method used by NIST, a commercial standards vendor, and PTB for TEM calibration of silicon linewidth standards  <eref type="inline" bibitemid="cresswell" citeas="[2]" id="_8cce478d-d611-063f-1654-eb15b6e569da"/><semx element="eref" source="_8cce478d-d611-063f-1654-eb15b6e569da"><fmt-xref type="inline" target="cresswell">[2]</fmt-xref></semx>, <eref type="inline" bibitemid="tortonese" citeas="[5]" id="_3ea01302-4d93-7584-5959-8a553a310e72"/><semx element="eref" source="_3ea01302-4d93-7584-5959-8a553a310e72"><fmt-xref type="inline" target="tortonese">[5]</fmt-xref></semx>, <eref type="inline" bibitemid="dai" citeas="[6]" id="_9188e0e1-86f6-7cd5-9957-f9e9ebab016a"/><semx element="eref" source="_9188e0e1-86f6-7cd5-9957-f9e9ebab016a"><fmt-xref type="inline" target="dai">[6]</fmt-xref></semx>.</p>
+</li>
+<li id="TC" anchor="TC" semx-id="_63082bbe-269d-28a6-d36c-a3700ef73360"><fmt-name id="_0496a606-2f56-4147-3bf8-c6db9b31cdff"><semx element="autonum" source="TC">b</semx><span class="fmt-label-delim">)</span></fmt-name><p id="_48e34b24-ce30-c7e5-5cd5-580eb3863d3b" semx-id="_48e34b24-ce30-c7e5-5cd5-580eb3863d3b">Transfer calibration is more widely applicable but may result in larger measurement uncertainty. At least one commercial standard is available which could be used to implement this method. This standard itself also includes lower magnification (<em>i.e.</em>., larger periodicity) structures that were calibrated using crystalline
+<stem block="false" type="MathML" id="_48c767aa-78e4-3dde-22ad-dc4a42f4751e"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Si</mtext>
+  </mstyle>
+</math><asciimath>"Si"</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_48c767aa-78e4-3dde-22ad-dc4a42f4751e"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Si</mtext>
+  </mstyle>
+</math><asciimath>"Si"</asciimath></semx></fmt-stem> portion of the standard <eref type="inline" bibitemid="mccaffrey" citeas="[13]" id="_733753df-c2ef-5855-44df-18926d87795a"/><semx element="eref" source="_733753df-c2ef-5855-44df-18926d87795a"><fmt-xref type="inline" target="mccaffrey">[13]</fmt-xref></semx>. Participants in the P38 comparison were able to use either or both methods. One participant observed a 0.2 % difference in scale calibration between the two approaches.</p>
+</li>
+</ol>
+
+<p id="_61ec3889-289a-6228-8147-b8363c4b4253" semx-id="_61ec3889-289a-6228-8147-b8363c4b4253">An additional approach for realizing SI traceability for non-crystal structures is to use the pitch method where the metrological AFM and TEM techniques are applied in a combined manner. The metrological AFM offers traceable pitch results, which is transferred via the TEM to the CD results.</p>
+</li>
+<li id="_217bb831-b169-4edb-45a4-6c67e2154512"><fmt-name id="_ee48a365-5238-ac14-1632-e17c2753cbe6"><semx element="autonum" source="_217bb831-b169-4edb-45a4-6c67e2154512">5</semx><span class="fmt-label-delim">.</span></fmt-name><p id="_1767cc79-292d-3f51-240f-becaa5463e9f" semx-id="_1767cc79-292d-3f51-240f-becaa5463e9f">Sample preparation is integral to TEM metrology. With either contrast mechanism or magnification calibration method, it is necessary to pay close attention to sample preparation to protect the integrity of the measured structure — including oxide — during specimen preparation. Major factors to be considered are the protective/encapsulating layers and the thinning process to achieve electron transparency.</p>
+<ol id="_c434dcd9-5cc4-fbf0-1e18-cbed64b67d00" type="alphabet" semx-id="_c434dcd9-5cc4-fbf0-1e18-cbed64b67d00"><li id="_41066ff4-66a0-d2cb-0d86-87899c1295d8"><fmt-name id="_7e5047f2-5dc3-d796-03cc-7e60f3e67da9"><semx element="autonum" source="_41066ff4-66a0-d2cb-0d86-87899c1295d8">a</semx><span class="fmt-label-delim">)</span></fmt-name><p id="_5a048cad-01ac-9a93-c6fd-fbe0c540d913" semx-id="_5a048cad-01ac-9a93-c6fd-fbe0c540d913">Encapsulating layers are often metallic, though epoxies are sometimes used. Metals
+commonly used, including for the P38 comparison, are <stem block="false" type="MathML" id="_2ba22653-2dbe-fc57-95c2-cada3ab4c21d"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Pt</mtext>
+  </mstyle>
+</math><asciimath>"Pt"</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_2ba22653-2dbe-fc57-95c2-cada3ab4c21d"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Pt</mtext>
+  </mstyle>
+</math><asciimath>"Pt"</asciimath></semx></fmt-stem>, <stem block="false" type="MathML" id="_74895178-c3b1-efe9-7526-57db2db36eb6"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Ti</mtext>
+  </mstyle>
+</math><asciimath>"Ti"</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_74895178-c3b1-efe9-7526-57db2db36eb6"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Ti</mtext>
+  </mstyle>
+</math><asciimath>"Ti"</asciimath></semx></fmt-stem>,
+<stem block="false" type="MathML" id="_de52823c-066a-6075-2a56-77e5907081a9"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Al</mtext>
+  </mstyle>
+</math><asciimath>"Al"</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_de52823c-066a-6075-2a56-77e5907081a9"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Al</mtext>
+  </mstyle>
+</math><asciimath>"Al"</asciimath></semx></fmt-stem>, and <stem block="false" type="MathML" id="_300bf108-28cc-0641-9313-912fcbad7918"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Au</mtext>
+  </mstyle>
+</math><asciimath>"Au"</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_300bf108-28cc-0641-9313-912fcbad7918"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Au</mtext>
+  </mstyle>
+</math><asciimath>"Au"</asciimath></semx></fmt-stem>. However, possible interactions between metallic layer and
+the oxide surface, which could modify the <stem block="false" type="MathML" id="_56364aba-bdb8-9707-3754-cf79e5f2e793"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mtext>SiO</mtext>
+      <mn>2</mn>
+    </msub>
+  </mstyle>
+</math><asciimath>"SiO"_2</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_56364aba-bdb8-9707-3754-cf79e5f2e793"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mtext>SiO</mtext>
+      <mn>2</mn>
+    </msub>
+  </mstyle>
+</math><asciimath>"SiO"_2</asciimath></semx></fmt-stem>, should be considered.
+Contamination in the coating is also a possible concern. In the SCCDRM project, NIST
+used an initial <stem block="false" type="MathML" id="_9edc8951-cfde-5e10-4d9a-2f0dcf28a8d4"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Au</mtext>
+  </mstyle>
+</math><asciimath>"Au"</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_9edc8951-cfde-5e10-4d9a-2f0dcf28a8d4"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Au</mtext>
+  </mstyle>
+</math><asciimath>"Au"</asciimath></semx></fmt-stem>-<stem block="false" type="MathML" id="_d498b380-85a3-fc9c-ff3a-77be64dd7e64"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Pd</mtext>
+  </mstyle>
+</math><asciimath>"Pd"</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_d498b380-85a3-fc9c-ff3a-77be64dd7e64"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Pd</mtext>
+  </mstyle>
+</math><asciimath>"Pd"</asciimath></semx></fmt-stem> coating with a <stem block="false" type="MathML" id="_c08aad7a-0c48-23d9-a918-87525f28af39"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Pt</mtext>
+  </mstyle>
+</math><asciimath>"Pt"</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_c08aad7a-0c48-23d9-a918-87525f28af39"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Pt</mtext>
+  </mstyle>
+</math><asciimath>"Pt"</asciimath></semx></fmt-stem> layer. The PTB
+project has included the investigation of different protection layers for the TEM sample
+preparation, and these results indicated that the best combination is an initial carbon
+coating followed by a <stem block="false" type="MathML" id="_ab08bee5-5369-6e72-810a-a2e25b950c63"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Pt</mtext>
+  </mstyle>
+</math><asciimath>"Pt"</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_ab08bee5-5369-6e72-810a-a2e25b950c63"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Pt</mtext>
+  </mstyle>
+</math><asciimath>"Pt"</asciimath></semx></fmt-stem> layer.</p>
+</li>
+<li id="_545f5e74-efe0-2f16-2992-25d88464d9dd"><fmt-name id="_81a9ce43-a28e-0632-f7f5-44f3f0aa0e70"><semx element="autonum" source="_545f5e74-efe0-2f16-2992-25d88464d9dd">b</semx><span class="fmt-label-delim">)</span></fmt-name><p id="_e3d7acb6-1e14-5808-a771-f971a53cbb96" semx-id="_e3d7acb6-1e14-5808-a771-f971a53cbb96">The major methods of thinning are: (1) mechanical polishing, and (2) focused-ion beam
+(FIB) milling — typically using <stem block="false" type="MathML" id="_cec18a50-6471-fed2-e852-7f895b3a7029"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Ga</mtext>
+  </mstyle>
+</math><asciimath>"Ga"</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_cec18a50-6471-fed2-e852-7f895b3a7029"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Ga</mtext>
+  </mstyle>
+</math><asciimath>"Ga"</asciimath></semx></fmt-stem> and <stem block="false" type="MathML" id="_b90c1cf9-3f16-f9e5-b853-9d453a1860ae"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Ar</mtext>
+  </mstyle>
+</math><asciimath>"Ar"</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_b90c1cf9-3f16-f9e5-b853-9d453a1860ae"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Ar</mtext>
+  </mstyle>
+</math><asciimath>"Ar"</asciimath></semx></fmt-stem> ions. <eref type="inline" bibitemid="mayer" citeas="[16]" id="_3f30507d-fd19-30c1-a61c-750e536ff9c8"/><semx element="eref" source="_3f30507d-fd19-30c1-a61c-750e536ff9c8"><fmt-xref type="inline" target="mayer">[16]</fmt-xref></semx> During thinning there is the risk that thin layer of the specimen used for TEM, commonly referred to as a lamella, could be damaged by the ion beam — including the possibility of implantation. While it is expected that dramatic damage to the lamella would be readily observed in the TEM image, the possibility of induced stress or substitution defects, which could change the lattice spacing, should be considered carefully. In their own work, NIST and PTB believe the magnitude of such effects to be lower than the other uncertainties in their TEM measurements. But the potential for subtle effects should be further investigated and may be important in pushing the limits of this traceability transfer paradigm.</p>
+</li>
+<li id="_9212dc1c-1335-66d7-6fa1-7869ce77d638"><fmt-name id="_75211359-2494-3a28-afde-c71dffeb3fd7"><semx element="autonum" source="_9212dc1c-1335-66d7-6fa1-7869ce77d638">c</semx><span class="fmt-label-delim">)</span></fmt-name><p id="_18cf2cce-c6a3-0aa7-631b-f036b9959735" semx-id="_18cf2cce-c6a3-0aa7-631b-f036b9959735">For all methods, it is essential to realizing traceability that the measured feature — including oxide — remains intact with boundaries that can be clearly drawn in the final image. All of these preparation methods have been used successfully, but all have pitfalls that may generate unusable results. In most cases, however, the invalidity of the results will be apparent due to structural damage or the absence of a visible interfaces between the substrate and oxide or oxide and capping layer.</p>
+</li>
+</ol>
+</li>
+</ol>
+</clause>
+
+
+</sections><bibliography><references id="_196c9ade-177e-cfb5-3c51-71ab1f07aedc" normative="false" obligation="informative" semx-id="_196c9ade-177e-cfb5-3c51-71ab1f07aedc" displayorder="7">
+<title id="_9895b634-3b34-495b-f391-c220bb2cc9d2" semx-id="_1d852725-9432-e979-5884-c8c2939954c3">References</title><fmt-title depth="1" id="_4bc16b0d-9aeb-1406-6bdc-3f06886a7e54"><semx element="title" source="_9895b634-3b34-495b-f391-c220bb2cc9d2">References</semx></fmt-title><bibitem anchor="mohr" id="mohr" semx-id="_284e2b8d-b5c9-de59-d7ad-3773c865cb09"><biblio-tag>[1]<tab/></biblio-tag>
+  <formattedref format="application/x-isodoc+xml">Mohr P J, Taylor B N, and Newell DB, “<tt>CODATA recommended values of the fundamental physical constants: 2010</tt>”, <em>Rev. Mod. Phys.</em>, <strong>84</strong> (2012) 1527-1605. <link target="https://doi.org/10.1103/RevModPhys.84.1527" id="_465722fc-d147-850c-84fb-156e62730b01">DOI: 10.1103/RevModPhys.84.1527</link><semx element="link" source="_465722fc-d147-850c-84fb-156e62730b01"><fmt-link target="https://doi.org/10.1103/RevModPhys.84.1527">DOI: 10.1103/RevModPhys.84.1527</fmt-link></semx></formattedref><docidentifier type="metanorma-ordinal">[1]</docidentifier>
+  
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem anchor="cresswell" id="cresswell" semx-id="_4523f7ca-065f-3638-f6ef-ff8ed7306063"><biblio-tag>[2]<tab/></biblio-tag>
+  <formattedref format="application/x-isodoc+xml">Cresswell M, Guthrie W, Dixson R, Allen R A, Murabito C E, Martinez de Pinillos J V, “<tt>RM8111: Development of a Prototype Linewidth Standard</tt>”, <em>J. Res. Natl. Inst. Stand. Technol.</em> <strong>111</strong> (2006) 187—​203. <link target="https://nvlpubs.nist.gov/nistpubs/jres/111/3/V111.N03.A01.pdf" id="_1bcc16cb-4d31-e713-cb1f-1e9a8036c2fa"/><semx element="link" source="_1bcc16cb-4d31-e713-cb1f-1e9a8036c2fa"><fmt-link target="https://nvlpubs.nist.gov/nistpubs/jres/111/3/V111.N03.A01.pdf"/></semx></formattedref><docidentifier type="metanorma-ordinal">[2]</docidentifier>
+  
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem anchor="dixson" id="dixson" semx-id="_561778a4-cdcb-c476-79ef-5793a9d2049d"><biblio-tag>[3]<tab/></biblio-tag>
+  <formattedref format="application/x-isodoc+xml">Dixson R G, Allen R A, Guthrie W F, and Cresswell M W, “<tt>Traceable calibration of critical-dimension atomic force microscope linewidth measurements with nanometer uncertainty</tt>”, <em>J. Vac. Sci. Technol. B</em> <strong>23</strong> (2005) 3028-3032. <link target="https://doi.org/10.1116/1.2130347" id="_333ded1d-ba9b-84f1-be37-f3428cb19903">DOI: 10.1116/1.2130347</link><semx element="link" source="_333ded1d-ba9b-84f1-be37-f3428cb19903"><fmt-link target="https://doi.org/10.1116/1.2130347">DOI: 10.1116/1.2130347</fmt-link></semx></formattedref><docidentifier type="metanorma-ordinal">[3]</docidentifier>
+  
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem anchor="bogardus" id="bogardus" semx-id="_be574b99-6a79-db6e-5658-c79750a42f41"><biblio-tag>[4]<tab/></biblio-tag>
+  <formattedref format="application/x-isodoc+xml">Cresswell M W, Bogardus E H, Martinez de Pinillos J V, Bennett M H, Allen R A, Guthrie W F, Murabito C E, am Ende B A, Linholm L W, “<tt>CD Reference Materials for Sub-Tenth Micrometer Applications</tt>”, <em>Proc. SPIE</em> <strong>4689</strong> (2002) 116—​127. <link target="https://doi.org/10.1117/12.473450" id="_fe638d65-879c-1af9-e3fb-b42a5afbc726">DOI: 10.1117/12.473450</link><semx element="link" source="_fe638d65-879c-1af9-e3fb-b42a5afbc726"><fmt-link target="https://doi.org/10.1117/12.473450">DOI: 10.1117/12.473450</fmt-link></semx></formattedref><docidentifier type="metanorma-ordinal">[4]</docidentifier>
+  
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem anchor="tortonese" id="tortonese" semx-id="_bb0b4647-7c7c-c9f7-1ff3-1675ae627d3a"><biblio-tag>[5]<tab/></biblio-tag>
+  <formattedref format="application/x-isodoc+xml">Tortonese M, Lorusso G, Blanquies R, Prochazka J, and Grella L, “<tt>Sub-50-nm isolated line and trench width artifacts for CD metrology</tt>”, <em>Proc. SPIE</em> <strong>5375</strong> (2004) 647-656. <link target="https://doi.org/10.1117/12.536812" id="_9c5267b2-7f64-b9ae-2e24-1524efbe3d8b">DOI: 10.1117/12.536812</link><semx element="link" source="_9c5267b2-7f64-b9ae-2e24-1524efbe3d8b"><fmt-link target="https://doi.org/10.1117/12.536812">DOI: 10.1117/12.536812</fmt-link></semx></formattedref><docidentifier type="metanorma-ordinal">[5]</docidentifier>
+  
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem anchor="dai" id="dai" semx-id="_71d4169a-ec74-9244-c6e8-73c32a76c8ca"><biblio-tag>[6]<tab/></biblio-tag>
+  <formattedref format="application/x-isodoc+xml">Dai G, Heidelmann M, Kübel C, Prang R, Fuegge J, and Bosse H, “<tt>Reference nano-dimensional metrology by scanning transmission electron microscopy</tt>”, <em>Meas. Sci. Technol.</em> <strong>24</strong> (2013) 085001. <link target="https://doi.org/10.1088/0957-0233/24/8/085001" id="_fbc05c81-3be7-4b42-6d52-ab13d3fdaedd">DOI: 10.1088/0957-0233/24/8/085001</link><semx element="link" source="_fbc05c81-3be7-4b42-6d52-ab13d3fdaedd"><fmt-link target="https://doi.org/10.1088/0957-0233/24/8/085001">DOI: 10.1088/0957-0233/24/8/085001</fmt-link></semx></formattedref><docidentifier type="metanorma-ordinal">[6]</docidentifier>
+  
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem anchor="martin" id="martin" semx-id="_68c791e2-6c1b-9923-0b08-9631e825d17e"><biblio-tag>[7]<tab/></biblio-tag>
+  <formattedref format="application/x-isodoc+xml">Martin Y, Wickramasinghe H K, “<tt>Method for Imaging Sidewalls by Atomic Force Microscopy</tt>”, <em>Applied Physics Letters</em> <strong>64</strong> (1994) 2498-2500. DOI: <link target="https://aip.scitation.org/doi/10.1063/1.111578" id="_e5373e1e-2e4f-81ff-9526-a7a838e06171">10.1063/1.111578</link><semx element="link" source="_e5373e1e-2e4f-81ff-9526-a7a838e06171"><fmt-link target="https://aip.scitation.org/doi/10.1063/1.111578">10.1063/1.111578</fmt-link></semx></formattedref><docidentifier type="metanorma-ordinal">[7]</docidentifier>
+  
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem anchor="schmitz" id="schmitz" semx-id="_b09aa9a6-4fda-9fd3-a656-2e1a60ff2ae8"><biblio-tag>[8]<tab/></biblio-tag>
+  <formattedref format="application/x-isodoc+xml">Schmitz I, Osborn M, Hand S, and Chen Q, “<tt>Improvement in metrology on new 3D-AFM platform</tt>”, <em>Proc. SPIE</em> <strong>7122</strong> (2008) 71222X. <link target="https://doi.org/10.1117/12.803581" id="_b0dc18b7-4fa6-6000-d8ff-8cb08c9b657f">DOI: 10.1117/12.803581</link><semx element="link" source="_b0dc18b7-4fa6-6000-d8ff-8cb08c9b657f"><fmt-link target="https://doi.org/10.1117/12.803581">DOI: 10.1117/12.803581</fmt-link></semx></formattedref><docidentifier type="metanorma-ordinal">[8]</docidentifier>
+  
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem anchor="wolff" id="wolff" semx-id="_352ffefe-ccc6-c3ef-b396-b85a8518a98d"><biblio-tag>[9]<tab/></biblio-tag>
+  <formattedref format="application/x-isodoc+xml">Dai G, Häßler-Grohne W, Hüser D, Wolff H, Fluegge J, and Bosse H, “<tt>New developments at Physikalisch Technische Bundesanstalt in three-dimensional atomic force microscopy with tapping and torsion atomic force microscopy mode and vector approach probing strategy</tt>”, <em>J. Micro/Nanolith. MEMS MOEMS</em> <strong>11</strong> (2012) 011004 (2012). <link target="https://doi.org/10.1117/1.JMM.11.1.011004" id="_db3b8b70-c1f1-cc41-4bd5-71cf7c473f21">DOI: 10.1117/1.JMM.11.1.011004</link><semx element="link" source="_db3b8b70-c1f1-cc41-4bd5-71cf7c473f21"><fmt-link target="https://doi.org/10.1117/1.JMM.11.1.011004">DOI: 10.1117/1.JMM.11.1.011004</fmt-link></semx></formattedref><docidentifier type="metanorma-ordinal">[9]</docidentifier>
+  
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem anchor="zhu" id="zhu" semx-id="_9c191987-c29e-7078-a2ff-09413cdb42dc"><biblio-tag>[10]<tab/></biblio-tag>
+  <formattedref format="application/x-isodoc+xml">Dai G, Zhu F, Heidelmann M, Fritz G, Bayer T, Kalt S, Fluegge J, “<tt>Development and characterisation of a new linewidth reference material</tt>”, <em>Meas. Sci. Technol.</em> <strong>26</strong> (2015) 115006. <link target="https://iopscience.iop.org/article/10.1088/0957-0233/26/11/115006" id="_c5d7db5c-e8d0-8bf5-6f32-82a9a1c87e35">DOI: 10.1088/0957-0233/26/11/115006</link><semx element="link" source="_c5d7db5c-e8d0-8bf5-6f32-82a9a1c87e35"><fmt-link target="https://iopscience.iop.org/article/10.1088/0957-0233/26/11/115006">DOI: 10.1088/0957-0233/26/11/115006</fmt-link></semx></formattedref><docidentifier type="metanorma-ordinal">[10]</docidentifier>
+  
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem anchor="seah" id="seah" semx-id="_bcff54b3-e1b7-e866-74c8-65dce6fefb2f"><biblio-tag>[11]<tab/></biblio-tag>
+  <formattedref format="application/x-isodoc+xml">Seah M P, Spencer S J, Bensebaa F, Vickridge I, Danzebrink H, Krumrey M, Gross T, Oesterle W, Wendler E, Rheinländer B, Azuma Y, Kojima I, Suzuki N, Suzuki M, Tanuma S, Moon D W, Lee H J, Cho H M, Chen H Y, Wee A T S, Osipowicz T, Pan J S, Jordaan W A, Hauert R, Klotz U, van der Marel C, Verheijen M, Tamminga Y, Jeynes C, Bailey P, Biswas S, Falke U, Nguyen N V, Chandler-Horowitz D, Ehrstein J R, Muller D and Dura J A, “Critical review of the current status of thickness measurements for ultrathin <stem block="false" type="MathML" id="_68f6ff68-570a-1e00-e3b0-555c69481eaf"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mtext>SiO</mtext>
+      <mn>2</mn>
+    </msub>
+  </mstyle>
+</math><asciimath>"SiO"_2</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_68f6ff68-570a-1e00-e3b0-555c69481eaf"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mtext>SiO</mtext>
+      <mn>2</mn>
+    </msub>
+  </mstyle>
+</math><asciimath>"SiO"_2</asciimath></semx></fmt-stem> on <stem block="false" type="MathML" id="_a42cb6b4-5c22-43d6-4ad4-2335372137d2"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Si</mtext>
+  </mstyle>
+</math><asciimath>"Si"</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_a42cb6b4-5c22-43d6-4ad4-2335372137d2"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Si</mtext>
+  </mstyle>
+</math><asciimath>"Si"</asciimath></semx></fmt-stem> Part V: Results of a CCQM pilot study”, <em>Surf. Interface Anal.</em> <strong>36</strong> (2004) 1269-1303. <link target="https://doi.org/10.1002/sia.1909" id="_417436f5-b16d-86af-ff18-e5c0427e2628">DOI: 10.1002/sia.1909</link><semx element="link" source="_417436f5-b16d-86af-ff18-e5c0427e2628"><fmt-link target="https://doi.org/10.1002/sia.1909">DOI: 10.1002/sia.1909</fmt-link></semx></formattedref><docidentifier type="metanorma-ordinal">[11]</docidentifier>
+  
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem anchor="unger" id="unger" semx-id="_c2e9d2a0-dcaa-06a6-2de9-02e6728872ab"><biblio-tag>[12]<tab/></biblio-tag>
+  <formattedref format="application/x-isodoc+xml">Seah M P, Unger W E S, Wang H, Jordaan W, Gross Th, Dura J A, Moon D W, Totarong P, Krumrey M, Hauert R, Zhiqiang M, “Ultra-thin <stem block="false" type="MathML" id="_5da6b118-3481-b4c1-ee08-139ac55b78de"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mtext>SiO</mtext>
+      <mn>2</mn>
+    </msub>
+  </mstyle>
+</math><asciimath>"SiO"_2</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_5da6b118-3481-b4c1-ee08-139ac55b78de"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mtext>SiO</mtext>
+      <mn>2</mn>
+    </msub>
+  </mstyle>
+</math><asciimath>"SiO"_2</asciimath></semx></fmt-stem> on <stem block="false" type="MathML" id="_d56c77bd-b6bc-cb04-460f-da4d0b5a0c3b"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Si</mtext>
+  </mstyle>
+</math><asciimath>"Si"</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_d56c77bd-b6bc-cb04-460f-da4d0b5a0c3b"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Si</mtext>
+  </mstyle>
+</math><asciimath>"Si"</asciimath></semx></fmt-stem> IX: absolute measurements of the amount of silicon oxide as a thickness of <stem block="false" type="MathML" id="_fda32ae6-9067-b37d-fb40-e61b75ef4e3a"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mtext>SiO</mtext>
+      <mn>2</mn>
+    </msub>
+  </mstyle>
+</math><asciimath>"SiO"_2</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_fda32ae6-9067-b37d-fb40-e61b75ef4e3a"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mtext>SiO</mtext>
+      <mn>2</mn>
+    </msub>
+  </mstyle>
+</math><asciimath>"SiO"_2</asciimath></semx></fmt-stem> on <stem block="false" type="MathML" id="_25fd106c-55d9-343d-4bc6-ef98fbf7873d"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Si</mtext>
+  </mstyle>
+</math><asciimath>"Si"</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_25fd106c-55d9-343d-4bc6-ef98fbf7873d"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Si</mtext>
+  </mstyle>
+</math><asciimath>"Si"</asciimath></semx></fmt-stem>“, <em>Surf. Interface Anal.</em> <strong>41</strong> (2009) 430-439. <link target="https://onlinelibrary.wiley.com/doi/abs/10.1002/sia.1909" id="_751de1e8-557c-49a1-94db-04a10b27fcd5">DOI: 10.1002/sia.3045</link><semx element="link" source="_751de1e8-557c-49a1-94db-04a10b27fcd5"><fmt-link target="https://onlinelibrary.wiley.com/doi/abs/10.1002/sia.1909">DOI: 10.1002/sia.3045</fmt-link></semx></formattedref><docidentifier type="metanorma-ordinal">[12]</docidentifier>
+  
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem anchor="mccaffrey" id="mccaffrey" semx-id="_94446552-c983-eb98-46e7-4bb3f07fdb9a"><biblio-tag>[13]<tab/></biblio-tag>
+  <formattedref format="application/x-isodoc+xml">McCaffrey J P and Baribeau J-M, “<tt>A transmission electron microscope (TEM) calibration standard sample for all magnification, camera constant and image-diffraction pattern rotation calibrations</tt>”, <em>Microscopy Research and Technique</em>, <strong>32</strong> (5) (1995) 449-454. <link target="https://onlinelibrary.wiley.com/doi/abs/10.1002/sia.3045" id="_e2c074ea-4b72-9704-622a-aa1a13eed5c1">DOI: 10.1002/jemt.1070320507</link><semx element="link" source="_e2c074ea-4b72-9704-622a-aa1a13eed5c1"><fmt-link target="https://onlinelibrary.wiley.com/doi/abs/10.1002/sia.3045">DOI: 10.1002/jemt.1070320507</fmt-link></semx></formattedref><docidentifier type="metanorma-ordinal">[13]</docidentifier>
+  
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem anchor="diebold" id="diebold" semx-id="_ce9999ec-fbe1-9337-c522-7b2bf1ec1676"><biblio-tag>[14]<tab/></biblio-tag>
+  <formattedref format="application/x-isodoc+xml">Diebold A C, Foran B, Kisielowski C, Muller D A, Pennycook S J, Principe E, and Stemmer S, “<tt>Thin Dielectric Film Thickness Determination by Advanced Transmission Electron Microscopy</tt>”, <em>Microsc. Microanal.</em> <strong>9</strong> (2003) 493—​508. <link target="https://doi.org/10.1002/jemt.1070320507" id="_c0a8508a-356e-bec5-5d01-1fcd0d95f98f">DOI: 10.1017/S1431927603030629</link><semx element="link" source="_c0a8508a-356e-bec5-5d01-1fcd0d95f98f"><fmt-link target="https://doi.org/10.1002/jemt.1070320507">DOI: 10.1017/S1431927603030629</fmt-link></semx></formattedref><docidentifier type="metanorma-ordinal">[14]</docidentifier>
+  
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem anchor="orji" id="orji" semx-id="_81bf12ec-b26d-41fe-f0f3-4ef48332e215"><biblio-tag>[15]<tab/></biblio-tag>
+  <formattedref format="application/x-isodoc+xml">Orji N G, Dixson R G, Garcia-Gutierrez D I, Bunday B D, Bishop M, Cresswell M W, Allen R A, and Allgair J A, “<tt>TEM Calibration Methods for Critical Dimension Standards</tt>”, <em>Proc. SPIE</em> <strong>6518</strong> (2007)651810-1-10. <link target="https://doi.org/10.1117/12.713368" id="_9579f8b1-21c1-791d-56a9-2f541cca1bad">DOI: 10.1117/12.713368</link><semx element="link" source="_9579f8b1-21c1-791d-56a9-2f541cca1bad"><fmt-link target="https://doi.org/10.1117/12.713368">DOI: 10.1117/12.713368</fmt-link></semx></formattedref><docidentifier type="metanorma-ordinal">[15]</docidentifier>
+  
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem anchor="mayer" id="mayer" semx-id="_9c3bbca6-11e8-9abf-938e-d877281762d1"><biblio-tag>[16]<tab/></biblio-tag>
+  <formattedref format="application/x-isodoc+xml">Mayer J, Giannuzzi L A, Kamino T, and Michael J, “<tt>TEM Sample Preparation and FIB-Induced Damage</tt>”, <em>Materials Research Society Bulletin</em>, <strong>32</strong> (2007) 400-407. <link target="https://doi.org/10.1557/mrs2007.63" id="_87f20709-a44b-e85b-5e29-584e28bdaea3">DOI: 10.1557/mrs2007.63</link><semx element="link" source="_87f20709-a44b-e85b-5e29-584e28bdaea3"><fmt-link target="https://doi.org/10.1557/mrs2007.63">DOI: 10.1557/mrs2007.63</fmt-link></semx></formattedref><docidentifier type="metanorma-ordinal">[16]</docidentifier>
+  
+  <language>en</language>
+  <script>Latn</script>
+</bibitem>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</references></bibliography>
+<colophon><clause class="doccontrol" id="_cedae1ef-30ce-cab0-b75d-9e3cec507443" displayorder="8">
+<fmt-title id="_f93477da-1d63-c112-3087-e83cdc5a0179" depth="1">Document Control</fmt-title>
+<table id="_25dfc0ff-59cf-4e13-569f-6aa87e47f345" unnumbered="true"><tbody>
+<tr id="_fe7e7cac-4567-e0a8-3c92-30d6f4ada1e9"><th id="_a4831760-079b-f817-2a74-1a6c8bea38fb">Authors:</th><td id="_9e502046-92b0-3338-4223-641aa71c7544"/><td id="_de3e28da-a939-be68-e634-d2b322e34255">Ronald Dixson (NIST) <span class="fmt-conn">and</span> Harald Bosse (PTB)</td></tr>
+<tr id="_c9ad7105-d3bb-6536-c8bc-d828e629a1bf"><td id="_1df731af-2e3e-5fbd-bced-bb9d83d5f22c">Draft 1.0 </td><td id="_b8fe84e1-8999-524f-6e2e-ba00c946012f">2018-06-11</td>
+<td id="_c8de1dd1-2ba5-a123-d4dd-314914d94b3a">WG-N co-chairs: Ronald Dixson (NIST) <span class="fmt-conn">and</span> Harald Bosse (PTB)</td></tr>
+ <tr id="_d8121ff8-6a2c-dcdb-6af1-454f797dd07d"><td> Version 1.0</td><td>2019-04-30</td>
+<td id="_437dda89-cafa-312e-0895-8d6385933637">WG-N chair: Andrew Yacoot (NPL)</td></tr>
+ 
+</tbody></table></clause>
+</colophon></metanorma>

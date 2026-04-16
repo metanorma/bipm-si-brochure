@@ -1,0 +1,2476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metanorma xmlns="https://www.metanorma.org/ns/standoc" type="semantic" version="2.8.3" schema-version="v2.1.5" flavor="bipm">
+<bibdata type="standard">
+<title language="en" type="title-main">CCM detailed note on the dissemination process after the redefinition of the kilogram</title>
+
+<title language="en" type="title-part-prefix">Part 3.2</title>
+
+<title language="en" type="title-appendix-prefix">Appendix 2</title>
+
+<title language="fr" type="title-main">Note sur la procédure de dissémination du kilogramme après la redéfinition de l’unité de masse</title>
+
+<title language="fr" type="title-part-prefix">Partie 3.2</title>
+
+<title language="fr" type="title-appendix-prefix">Appendice 2</title>
+<docidentifier primary="true" type="BIPM">BIPM CCM-GD-RSI-2-3.2 A2</docidentifier><docidentifier type="BIPM-parent-document">BIPM CCM-GD-RSI-2</docidentifier><docnumber>CCM-GD-RSI-2</docnumber><contributor><role type="author"/><organization>
+<name>Bureau International des Poids et Mesures</name>
+<abbreviation>BIPM</abbreviation></organization></contributor><contributor><role type="author"><description>committee</description></role><organization>
+<name>Bureau International des Poids et Mesures</name>
+<subdivision type="Committee">
+<name language="en">Consultative Committee for Amount of Substance: Metrology in Chemistry and Biology</name>
+
+<name language="fr">Comité consultatif pour la quantité de matière : métrologie en chimie et biologie</name>
+<identifier>CCQM</identifier><identifier type="full">CCQM</identifier></subdivision></organization></contributor><contributor><role type="publisher"/><organization>
+<name>Bureau International des Poids et Mesures</name>
+<abbreviation>BIPM</abbreviation></organization></contributor><edition>1</edition><version><revision-date>2019-05-17</revision-date></version><language>en</language><script>Latn</script><status><stage>in-force</stage></status><copyright><from>2019</from><owner><organization>
+<name>Bureau International des Poids et Mesures</name>
+<abbreviation>BIPM</abbreviation></organization></owner></copyright><ext><doctype>guide</doctype><flavor>bipm</flavor><structuredidentifier><docnumber>CCM-GD-RSI-2</docnumber><part>3.2</part><appendix>2</appendix>
+</structuredidentifier><si-aspect>kg_h</si-aspect><meeting-note>Approved at the 17th CCM meeting, 16-17 May 2019</meeting-note></ext></bibdata><metanorma-extension><semantic-metadata><stage-published>true</stage-published></semantic-metadata>
+<UnitsML xmlns="https://schema.unitsml.org/unitsml/1.0"><UnitSet><Unit dimensionURL="#NISTd2" id="U_NISTu2">
+                    <UnitSystem name="SI" type="SI_base" lang="en-US"/>
+                    <UnitName lang="en">kilogram</UnitName>
+                    <UnitSymbol type="HTML">kg</UnitSymbol>
+                    <UnitSymbol type="MathMl">
+                      <math xmlns="http://www.w3.org/1998/Math/MathML">
+                        <mi mathvariant="normal">kg</mi>
+                      </math>
+                    </UnitSymbol>
+                    <RootUnits>
+                      <EnumeratedRootUnit unit="gram" prefix="k"/>
+                    </RootUnits>
+                  </Unit><Unit dimensionURL="#NISTd2" id="U_ug">
+        <UnitSystem name="SI" type="SI_base" lang="en-US"/>
+        <UnitName lang="en">ug</UnitName>
+        <UnitSymbol type="HTML">g</UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">µg</mi>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="gram" prefix="u"/>
+        </RootUnits>
+      </Unit></UnitSet><QuantitySet><Quantity id="NISTq2" quantityType="base" dimensionURL="#NISTd2">
+                    <QuantityName lang="en-US">mass</QuantityName>
+                  </Quantity></QuantitySet><DimensionSet><Dimension id="NISTd2">
+        <Mass symbol="M" powerNumerator="1"/>
+      </Dimension></DimensionSet><PrefixSet><Prefix prefixBase="10" prefixPower="3" id="NISTp10_3">
+                    <PrefixName lang="en">kilo</PrefixName>
+                    <PrefixSymbol type="ASCII">k</PrefixSymbol>
+                    <PrefixSymbol type="unicode">k</PrefixSymbol>
+                    <PrefixSymbol type="LaTeX">k</PrefixSymbol>
+                    <PrefixSymbol type="HTML">k</PrefixSymbol>
+                  </Prefix><Prefix prefixBase="10" prefixPower="-6" id="NISTp10_-6">
+        <PrefixName lang="en">micro</PrefixName>
+        <PrefixSymbol type="ASCII">u</PrefixSymbol>
+        <PrefixSymbol type="unicode">μ</PrefixSymbol>
+        <PrefixSymbol type="LaTeX">$mu$</PrefixSymbol>
+        <PrefixSymbol type="HTML">µ</PrefixSymbol>
+      </Prefix></PrefixSet></UnitsML><presentation-metadata><toc-heading-levels>2</toc-heading-levels><html-toc-heading-levels>2</html-toc-heading-levels><doc-toc-heading-levels>2</doc-toc-heading-levels><pdf-toc-heading-levels>2</pdf-toc-heading-levels></presentation-metadata></metanorma-extension>
+<boilerplate><copyright-statement>
+
+<clause id="_de529b36-05ca-b9e4-a8ac-4c41964770f0" obligation="normative"><p id="_2c83afdd-6f3c-8a19-1954-83e4ede65ae8" align="center">© Bureau International des Poids et Mesures 2019 all rights reserved</p>
+</clause>
+</copyright-statement>
+
+<license-statement>
+
+<clause id="_4ffcd5b5-8039-1aa4-59ce-390aa3b61c7a" obligation="normative">
+<title id="_29f75465-0cf3-76fd-bc56-6b3aa457ee69">Copyright statement</title>
+<p id="_50719790-3c5b-c213-8298-0631d690bc21">This document is distributed under the terms of the Creative Commons Attribution 4.0 International License (<link target="http://creativecommons.org/licenses/by/4.0/:"/>), which permits unrestricted use, distribution, and reproduction in any medium, provided you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made.</p>
+</clause>
+</license-statement>
+
+<feedback-statement>
+
+<p id="_5926bc3f-b367-69e7-6cc6-442a91e32db2">BIPM<br/> Pavillon de Breteuil<br/> F-92312 Sèvres Cedex<br/> FRANCE</p>
+</feedback-statement>
+</boilerplate><preface><foreword id="_f9192ab2-6b38-835b-9680-650fd6cd080b" obligation="informative">
+<title id="_41c9fad3-d4c1-eecc-4fad-f91704acc026">Foreword</title>
+<p id="_1cb3b58d-c2c5-15b4-e62c-cffaa6e2d987"><em>Basic Statement: As of the 20th May 2019 the definition of the SI unit of mass will change from the value of the International Prototype kilogram to a definition related to a fixed numerical value of the Planck constant.</em></p>
+
+<p id="_2bb34c03-8a00-df41-1ee0-063cc08923fe">The four phases necessary for the reliable transition from the IPK to independent NMI realizations of the unit of mass</p>
+
+<p id="_043e0d1a-3477-f52b-e332-16c831cd18b0">Consultative Committee for Mass and Related Quantities</p>
+</foreword></preface><sections>
+<clause id="_d4d7cbe3-a9bf-bfe1-fe8e-a7e6f53cf947" obligation="normative">
+<title id="_46069e95-51f4-1e9a-f2b9-70fe751a0935">Introduction</title>
+<p id="_fb2680d1-0bf8-de05-c5dd-f257b33509b1">This note explains how the <em>mise en pratique</em> <eref type="inline" bibitemid="bipm-si-brochure" citeas="[1]"/> for the definition of the kilogram should be implemented during a transition period to bring it in line with CCM Recommendation G1 (2017) on the dissemination process after the approved redefinition of the kilogram  <eref type="inline" bibitemid="resolution-1" citeas="[2]"/>. It adds greater detail to some elements of the paper:  <link target="http://iopscience.iop.org/article/10.1088/1681-7575/aa8d2d/pdf"/>[Maintaining and disseminating the kilogram following its redefinition], published in <eref type="inline" bibitemid="metrologia54-s99" citeas="[7]"><display-text><em>Metrologia</em> <strong>54</strong>(6), S99-S107 2017</display-text></eref>.</p>
+</clause>
+
+<clause id="_fdce3b75-cfe9-acb8-766b-d44aad89d0b3" obligation="normative">
+<title id="_a19ad49e-141f-d88e-87ca-4c5601873060">Background</title>
+<p id="_c288aa1e-0ea8-7796-c279-e344598d640e">At the 16th meeting (2017) of the Consultative Committee for Mass and Related Quantities (CCM), RECOMMENDATION G 1 (2017), For a new definition of the kilogram in 2018 was agreed (<link target="https://www.bipm.org/cc/CCM/Allowed/16/06E_Final_CCM-Recommendation_G1-2017.pdf"/>). A key part of the recommendation was that;</p>
+
+<quote id="_d6aa273d-ed9f-d4c7-6a29-bd0356a06a99"><p id="_25ff0800-3394-b791-1e45-d6eaebac594a"><em>“those National Metrology Institutes having a realization of the kilogram to avail themselves of the consensus value (as determined from the ongoing comparison) when disseminating the unit of mass according to the new definition, until the dispersion in values becomes compatible with the individual realization uncertainties, thus preserving the international equivalence of calibration certificates and in accordance with the principles and agreed protocols of the CIPM Mutual Recognition Arrangement”</em></p>
+</quote>
+
+<p id="_5b71b5e0-9115-cb03-b1cc-0643c2426dfe">The need to adopt a consensus value for realization of the unit of mass following the
+redefinition of the kilogram has arisen due to the discrepancy between the values of the
+Planck constant (<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>h</mi>
+  </mstyle>
+</math><asciimath>h</asciimath></stem>) measured by the Kibble balance and X-ray crystal density (XRCD) experiments as submitted to CODATA for the 2017 Special Adjustment of the Fundamental Constants  <eref type="inline" bibitemid="newell" citeas="[3]"/>. In order to ensure the continuity, temporal stability and equivalence of the SI unit of mass the use of a consensus value for the kilogram after its redefinition was agreed by the CCM at the 16th meeting in May 2017. The use of a consensus value will facilitate the smooth transition from traceability derived from the International Prototype kilogram (IPK) to a point where individual realization experiments can be used for sovereign realization and dissemination of the unit of mass.</p>
+</clause>
+
+<clause id="_93e88fcb-4d36-da72-5e85-db48cea6411f" obligation="normative">
+<title id="_9f2616c7-a16c-163f-060e-ed06335b87ca">Implementation of the kilogram redefinition</title>
+<clause id="_e945dd93-8102-94db-012f-4667fdb1023b" obligation="normative">
+<title id="_5f984a8c-977d-7ff8-0fdd-ab46e019a7e0">The four phases</title>
+<p id="_78e9a845-a08d-7cc0-5c0c-f912ca8445ca">The implementation of the kilogram dissemination will take place in three consecutive phases following on from the definition relative to the IPK (Phase 0).</p>
+
+<p id="_3911ceee-6ba3-ea3e-a30b-0b33108f7eaa"><xref target="table-1"/> gives details of the present traceability and the three subsequent phases necessary for the reliable transition from the use of the IPK to the eventual realization and dissemination of the unit of mass from individual  <em>National Measurement Institutes</em> (NMIs) realization experiments.</p>
+
+<pagebreak orientation="landscape"/>
+<table id="_59738fb4-e8dc-fe70-5273-79e0b6d81c9b" anchor="table-1">
+<name id="_691a6981-5fe9-737c-d1a0-6373f2277ba9">The four phases necessary for the reliable transition from the IPK to independent NMI realizations of the unit of mass</name>
+<thead><tr id="_f0caedcf-8dec-e2a9-9eed-1c2c15f0a30b"><th id="_d938a55d-1a3a-f4d6-02e9-f26cc5854e60" valign="middle" align="center">Phase</th>
+<th id="_ac0e5689-3153-2d08-5654-9ce17832b9eb" valign="middle" align="center">Time scale</th>
+<th id="_da8d205f-857a-5147-29d8-14f3d904b71c" valign="middle" align="center">Description</th>
+<th id="_2a135418-7ea6-3f38-7a0d-f0c75ce15e84" valign="middle" align="center">Source of traceability</th>
+<th id="_76407ecf-bdca-dda9-8b21-28c98de7dc83" valign="middle" align="center">Uncertainty of BIPM mass calibrations</th>
+<th id="_a23fa1c1-9280-abba-26a4-1f2f88af1f3e" valign="middle" align="center">Role of realization experiments</th>
+<th id="_a5f87baa-5b24-7770-9fb3-a9270cb30e2a" valign="middle" align="center">Dissemination of mass from NMIs with realization experiments</th>
+</tr></thead>
+<tbody><tr id="_74d9f6be-e1c9-921d-18a3-d54c23f2c45f"><td id="_ad21921f-7ff3-14dc-cd67-c8d6d770af26" valign="middle" align="center">0</td>
+<td id="_27238214-d533-137c-74b1-c1430c7a7ac8" valign="middle" align="center">Until 20 May 19<fn id="_664189b5-1a8c-b30e-171a-0b290c88ff79" reference="a"><p id="_06005844-f4c4-2d91-7215-57efd7e3a38e">20 May 2019 = implementation date of revised SI.</p>
+</fn></td>
+<td id="_cbda5c62-e36c-bd94-13c6-349ee8da40f5" valign="middle" align="center">Traceability to the IPK</td>
+<td id="_1bc3dae7-34ae-f1e7-5c71-e3a73e39494b" valign="middle" align="center"><p id="_8bf96399-edca-26f1-3f58-f6fbbe71ee34"><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>m</mi>
+      <mtext>IPK</mtext>
+    </msub>
+    <mi>≡</mi>
+    <mn>1</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu2">
+      <mstyle mathvariant="normal">
+        <mi>kg</mi>
+      </mstyle>
+      
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>m_{"IPK"} -= 1 "unitsml(kg)"</asciimath></stem><br/>
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>u</mi>
+      <msub>
+        <mi>m</mi>
+        <mtext>IPK</mtext>
+      </msub>
+    </msub>
+    <mi>≡</mi>
+    <mn>0</mn>
+  </mstyle>
+</math><asciimath>u_{m_{"IPK"}} -= 0</asciimath></stem></p>
+</td>
+<td id="_789dd55f-8599-bd41-4634-fbdd1d694636" valign="middle" align="center"><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>u</mi>
+      <mtext>stab</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mi>t</mi>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>u_{"stab"}(t)</asciimath></stem></td>
+<td id="_cd2e7dd4-7a39-ef98-a6ac-7a27100ef25b" valign="middle" align="center">Measurement of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>h</mi>
+  </mstyle>
+</math><asciimath>h</asciimath></stem></td>
+<td id="_0b8c4aef-5ffb-90a4-3d94-48a94877fd7c" valign="middle" align="center">Dissemination from national prototype traceable to IPK</td>
+</tr><tr id="_7daa07dc-02d5-15e4-5a2c-95ffcfe8aba0"><td id="_5acbbf16-f1d6-513f-5da5-4297e7113ca6" valign="middle" align="center">1</td>
+<td id="_aa50333c-d56e-2be8-2c57-901d07d0c32c" valign="middle" align="center">20 May 19 — date 1<fn id="_79b81832-a1a2-8569-2164-125fb7cfbca0" reference="b"><p id="_664f9233-de4a-9dbb-23ab-ae42f607f40a">date 1 = CCM approval of the consensus value resulting from the first KC of realization experiments after the implementation of the revised SI, expected Q1 2020.</p>
+</fn></td>
+<td id="_de73ff26-6a18-5329-aa44-19c83ad86e8e" valign="middle" align="center">Traceability to the Planck constant via the IPK, with additional uncertainty from the (new) definition</td>
+<td id="_4c78d3ea-ccf1-e968-cf8b-0f2cee22e16c" valign="middle" align="center"><p id="_34ce10d5-c244-8af9-fb4e-f7b4cbe71b12"><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>m</mi>
+      <mtext>IPK</mtext>
+    </msub>
+    <mo>=</mo>
+    <mn>1</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu2">
+      <mstyle mathvariant="normal">
+        <mi>kg</mi>
+      </mstyle>
+      
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>m_{"IPK"} = 1 "unitsml(kg)"</asciimath></stem><br/>
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>u</mi>
+      <msub>
+        <mi>m</mi>
+        <mtext>IPK</mtext>
+      </msub>
+    </msub>
+    <mo>=</mo>
+    <mn>10</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_ug">
+      <mstyle mathvariant="normal">
+        <mi>µg</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>u_{m_{"IPK"}} = 10 "unitsml(ug)"</asciimath></stem></p>
+</td>
+<td id="_beb41b87-5599-5337-44da-a4d8c6856cfb" valign="middle" align="center"><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo>≈</mo>
+    <msqrt>
+      <mrow>
+        <msubsup>
+          <mi>u</mi>
+          <msub>
+            <mi>m</mi>
+            <mtext>IPK</mtext>
+          </msub>
+          <mn>2</mn>
+        </msubsup>
+        <mo>+</mo>
+        <msubsup>
+          <mi>u</mi>
+          <mtext>stab</mtext>
+          <mn>2</mn>
+        </msubsup>
+        <mrow>
+          <mo>(</mo>
+          <mi>t</mi>
+          <mo>)</mo>
+        </mrow>
+      </mrow>
+    </msqrt>
+  </mstyle>
+</math><asciimath>~~ sqrt{u_{m_{"IPK"}}^2 + u_{"stab"}^2(t)}</asciimath></stem></td>
+<td id="_e4b77b85-a76a-e955-68b1-171af25af5b4" valign="middle" align="center">Contribute to Key Comparison (KC), improve and resolve discrepancies</td>
+<td id="_81ed48f4-c22f-f4b3-841f-d5822e8fa651" valign="middle" align="center">Dissemination from national prototype traceable to IPK, with <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>10</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_ug">
+      <mstyle mathvariant="normal">
+        <mi>µg</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>10 "unitsml(ug)"</asciimath></stem> added uncertainty</td>
+</tr><tr id="_42c38e79-60cb-2bd6-0e94-db4cfe32e4a4"><td id="_0cee8a12-4244-b81a-ceda-2c108947a7d1" valign="middle" align="center">2</td>
+<td id="_cdbde274-efd4-18ec-b867-bb094383e82c" valign="middle" align="center">date 1 –- date 2<fn id="_15e1426f-6607-e1cd-5df4-c8d8b47d311a" reference="c"><p id="_56db2418-0db2-82bc-327c-0ba76facecf5">date 2 = CCM decision that dissemination from consensus value no longer necessary, because dispersion of calibration results from validated primary realization experiments is compatible with their individual uncertainties.</p>
+</fn></td>
+<td id="_c651d4da-912d-3537-923f-173024c5de06" valign="middle" align="center">Traceability to the Planck constant, dissemination from a consensus value<fn id="_7bd4bdfd-24a0-0ba4-01e1-7a9c3835b22a" reference="d"><p id="_98eb520e-699d-06c0-f828-6171d5690cd1">CV (Consensus value). The consensus value (CV) will be managed by a CCM task group to ensure stability and continuity, taking all new realizations and comparisons into account and advising the CCM should it become clear that a consensus value is no longer required.</p>
+</fn> (CV)</td>
+<td id="_dba1389e-5ae6-4a01-1512-f3f3f02c29a2" valign="middle" align="center">Consensus value (CV)</td>
+<td id="_bd4dc696-7ad9-8464-93d4-9a042d15977f" valign="middle" align="center"><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo>≈</mo>
+    <msqrt>
+      <mrow>
+        <msubsup>
+          <mi>u</mi>
+          <mtext>CV</mtext>
+          <mn>2</mn>
+        </msubsup>
+        <mo>+</mo>
+        <msubsup>
+          <mi>u</mi>
+          <mtext>stab</mtext>
+          <mn>2</mn>
+        </msubsup>
+        <mrow>
+          <mo>(</mo>
+          <mi>t</mi>
+          <mo>)</mo>
+        </mrow>
+      </mrow>
+    </msqrt>
+  </mstyle>
+</math><asciimath>~~ sqrt{u_{"CV"}^2 + u_{"stab"}^2 (t)}</asciimath></stem></td>
+<td id="_085b6d5b-5bd1-32e2-1132-197c296abeb1" valign="middle" align="center">contribute to CV (via KC), improve experiments and resolve discrepancies</td>
+<td id="_7125863b-ade2-b733-b467-c69fcd750aaf" valign="middle" align="center">Dissemination from consensus value with uncertainty <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo>≈</mo>
+    <msqrt>
+      <mrow>
+        <msubsup>
+          <mi>u</mi>
+          <mtext>CV</mtext>
+          <mn>2</mn>
+        </msubsup>
+        <mo>+</mo>
+        <msubsup>
+          <mi>u</mi>
+          <mtext>stab.NMI</mtext>
+          <mn>2</mn>
+        </msubsup>
+        <mrow>
+          <mo>(</mo>
+          <mi>t</mi>
+          <mo>)</mo>
+        </mrow>
+      </mrow>
+    </msqrt>
+  </mstyle>
+</math><asciimath>~~ sqrt{u_{"CV"}^2 + u_{"stab.NMI"}^2 (t)}</asciimath></stem></td>
+</tr><tr id="_48812e35-032c-716e-61ca-30c322d597d6"><td id="_58585def-3886-5c1f-7339-fdba3a7c0a5a" valign="middle" align="center">3</td>
+<td id="_a1c70f7e-fb7b-9972-b2eb-0d037f83e2b1" valign="middle" align="center">from date 2</td>
+<td id="_f696e639-cf66-5a16-3c43-186778aae2df" valign="middle" align="center">Traceability to the Planck constant, dissemination by individual realizations</td>
+<td id="_3f8a8745-267b-8db7-adbe-458bc4d70a30" valign="middle" align="center"><p id="_d99c9025-98a0-0e7d-72ba-d036761fffd4">Fixed value of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>h</mi>
+  </mstyle>
+</math><asciimath>h</asciimath></stem><br/>
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>u</mi>
+    <mrow>
+      <mo>(</mo>
+      <mi>h</mi>
+      <mo>)</mo>
+    </mrow>
+    <mi>≡</mi>
+    <mn>0</mn>
+  </mstyle>
+</math><asciimath>u(h) -= 0</asciimath></stem></p>
+</td>
+<td id="_66c9f1b0-cc3d-7673-1a81-ebb2e08f7e50" valign="middle" align="center">(Uncertainty of BIPM realization experiment)</td>
+<td id="_002a5e27-cda6-e3fa-9157-77158592d1f9" valign="middle" align="center">Realization of the unit of mass, Participation in KCs to demonstrate equivalence</td>
+<td id="_5f83b6cb-c33e-f3e3-ede0-f18e38ea5f62" valign="middle" align="center">Dissemination from validated realization experiments with the uncertainty of the experiment. The terms of the CIPM MRA are applicable.</td>
+</tr></tbody>
+</table>
+
+<pagebreak orientation="portrait"/></clause>
+
+<clause id="_f3482ffc-79d5-37e4-ad06-629dc2bdbbbc" obligation="normative">
+<title id="_32e3d2dc-682e-ace9-1f37-2cf82224da63">Definition of the terms used</title>
+<p id="_9249e092-6956-880e-28c0-76341be2c476">KCRV (Key Comparison Reference Value): Output of a statistical analysis of all the data available from completed Key Comparisons (in this case a comparison of realizations of the kilogram).</p>
+
+<p id="_43ba1dc5-add4-891f-5653-c270a8cbaf76"><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>m</mi>
+      <mtext>IPK</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>m_{"IPK"}</asciimath></stem> : The mass of the International Prototype of the Kilogram (IPK)</p>
+
+<p id="_c4b2ad0b-e40f-9fd5-7881-33dfbbada979"><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>u</mi>
+      <msub>
+        <mi>m</mi>
+        <mtext>IPK</mtext>
+      </msub>
+    </msub>
+  </mstyle>
+</math><asciimath>u_{m_{"IPK"}}</asciimath></stem>: The uncertainty assigned to the mass of the IPK directly after the
+redefinition. The uncertainty of the adjusted value of the Planck constant <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>h</mi>
+  </mstyle>
+</math><asciimath>h</asciimath></stem>, prior to the redefinition, will be attributed to the mass of the IPK right after the redefinition. As per Newell et al  <eref type="inline" bibitemid="newell" citeas="[3]"/> the relative standard uncertainty in
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>h</mi>
+  </mstyle>
+</math><asciimath>h</asciimath></stem> is 1 part in <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msup>
+      <mn>10</mn>
+      <mn>8</mn>
+    </msup>
+  </mstyle>
+</math><asciimath>10^8</asciimath></stem>. Thus, after redefinition, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>u</mi>
+      <msub>
+        <mi>m</mi>
+        <mtext>IPK</mtext>
+      </msub>
+    </msub>
+    <mo>=</mo>
+    <mn>10</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_ug">
+      <mstyle mathvariant="normal">
+        <mi>µg</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>u_{m_{"IPK"}} = 10
+"unitsml(ug)"</asciimath></stem>.</p>
+
+<p id="_49a943c9-f423-11ea-27d4-3a11ca05bedd"><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>u</mi>
+      <mtext>stab</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mi>t</mi>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>u_{"stab"} (t)</asciimath></stem> : The uncertainty contribution from the stability of BIPM working
+standards at time <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>t</mi>
+  </mstyle>
+</math><asciimath>t</asciimath></stem>.</p>
+
+<p id="_ecf2e42c-701f-782d-0512-34903b6f7801">Initially, at the point of the kilogram redefinition (May 2019, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>t</mi>
+    <mo>=</mo>
+    <mn>0</mn>
+  </mstyle>
+</math><asciimath>t=0</asciimath></stem>), the value
+of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>u</mi>
+      <mtext>stab</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mi>t</mi>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>u_{"stab"} (t)</asciimath></stem> will be approximately <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>4</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_ug">
+      <mstyle mathvariant="normal">
+        <mi>µg</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>4 "unitsml(ug)"</asciimath></stem>. Each year after
+the redefinition the value of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>u</mi>
+      <mtext>stab</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mi>t</mi>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>u_{"stab"} (t)</asciimath></stem> will increase by approximately
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_ug">
+      <mstyle mathvariant="normal">
+        <mi>µg</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>1 "unitsml(ug)"</asciimath></stem> <eref type="inline" bibitemid="mirandes" citeas="[4]"/>.</p>
+
+<p id="_692a8bde-4825-6a9a-12b1-b4a3f9adaa1e"><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>u</mi>
+      <mtext>stab.NMI</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mi>t</mi>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>u_{"stab.NMI"}(t)</asciimath></stem> : The uncertainty contribution from the stability of the NMI mass standards used to disseminate the consensus value. This will need to be estimated by the individual NMIs. Validation of the estimate will be via CCM and RMO Key Comparisons (KC) as at present.</p>
+</clause>
+</clause>
+
+<clause id="_8c510c48-739f-e3b7-f0f8-f1ac174ebb1c" obligation="normative">
+<title id="_002d7167-1742-5453-0438-41901e506628">The different phases in detail</title>
+<clause id="_483ffcd1-3be0-eef1-46ce-3765e2874064" obligation="normative">
+<title id="_d01ac5c0-7949-7eae-b56e-2c870789ecd1">Phase 1: Traceability to the IPK, with additional uncertainty component</title>
+<p id="_11e5866b-6516-aad7-cc13-3633e22e9421">On 20 May 2019, the reference quantity for the mass unit changes from the mass of the
+IPK to the fixed numerical value of the Planck constant. At that time, the uncertainty
+of the adjusted value of the Planck constant prior to the redefinition (1 part in <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msup>
+      <mn>10</mn>
+      <mn>8</mn>
+    </msup>
+  </mstyle>
+</math><asciimath>10^8</asciimath></stem>)
+will be re-assigned to the mass of the IPK, which will then have an uncertainty of
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>10</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_ug">
+      <mstyle mathvariant="normal">
+        <mi>µg</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>10 "unitsml(ug)"</asciimath></stem>.</p>
+
+<p id="_78c1887d-cecb-e365-38c2-79c908695a9d">On the same date NMIs of Member States will have calibration certificates from the BIPM
+for past calibrations, traceable to the IPK. The standard uncertainties of these
+calibrations are in the range <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>3.5</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_ug">
+      <mstyle mathvariant="normal">
+        <mi>µg</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>3.5 "unitsml(ug)"</asciimath></stem> to <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>7</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_ug">
+      <mstyle mathvariant="normal">
+        <mi>µg</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>7 "unitsml(ug)"</asciimath></stem> for
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Pt</mtext>
+  </mstyle>
+</math><asciimath>"Pt"</asciimath></stem>-<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Ir</mtext>
+  </mstyle>
+</math><asciimath>"Ir"</asciimath></stem> standards and <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>10</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_ug">
+      <mstyle mathvariant="normal">
+        <mi>µg</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>10 "unitsml(ug)"</asciimath></stem> to <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>15</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_ug">
+      <mstyle mathvariant="normal">
+        <mi>µg</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>15 "unitsml(ug)"</asciimath></stem>
+for <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu2">
+      <mstyle mathvariant="normal">
+        <mi>kg</mi>
+      </mstyle>
+      
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>1 "unitsml(kg)"</asciimath></stem> stainless steel standards. On the implementation day <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>10</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_ug">
+      <mstyle mathvariant="normal">
+        <mi>µg</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>10
+"unitsml(ug)"</asciimath></stem> needs to be added in quadrature to the uncertainty stated on past BIPM calibration certificates to allow for the increase in the uncertainty in the IPK. Note that the calibration values issued by the BIPM will not change, since efforts have been made to ensure that the kilogram has the same magnitude, within the uncertainty, before and after the redefinition. The BIPM will issue a note on this matter to all NMIs which have received calibrations in the past. Previous calibration certificates will not be reissued</p>
+
+<p id="_671dd03f-5167-6914-fc67-85464f699530">Calibration and Measurement Capabilities (CMCs) published by NMIs in the KCDB (where
+expanded uncertainties, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>U</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(U)</asciimath></stem>, are listed) will need to be revised to reflect the
+increase in the uncertainty in the IPK (<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>u</mi>
+      <msub>
+        <mi>m</mi>
+        <mtext>IPK</mtext>
+      </msub>
+    </msub>
+    <mo>=</mo>
+    <mn>10</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_ug">
+      <mstyle mathvariant="normal">
+        <mi>µg</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>u_{m_{"IPK"}} = 10 "unitsml(ug)"</asciimath></stem>). It is
+the responsibility of individual NMIs to revise their CMCs to this effect. The revised
+expanded uncertainty, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>U</mi>
+      </mstyle>
+      <mtext>20-05-2019</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(U)_{"20-05-2019"}</asciimath></stem>, can be calculated from <xref target="eq-1"/>.</p>
+
+<formula id="_6653c35e-0868-773a-3148-94390f186323" anchor="eq-1"><stem block="true" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>U</mi>
+      </mstyle>
+      <mtext>20-05-2019</mtext>
+    </msub>
+    <mo>=</mo>
+    <mn>2</mn>
+    <msqrt>
+      <mrow>
+        <msup>
+          <mrow>
+            <mo>(</mo>
+            <mfrac>
+              <mstyle mathvariant="italic">
+                <mi>U</mi>
+              </mstyle>
+              <mn>2</mn>
+            </mfrac>
+            <mo>)</mo>
+          </mrow>
+          <mn>2</mn>
+        </msup>
+        <mo>+</mo>
+        <msup>
+          <mrow>
+            <mo>(</mo>
+            <mfrac>
+              <mstyle mathvariant="italic">
+                <mi>M</mi>
+              </mstyle>
+              <mrow>
+                <mn>1</mn>
+                <mo rspace="thickmathspace">⁢</mo>
+                <mrow xref="U_NISTu2">
+                  <mstyle mathvariant="normal">
+                    <mi>kg</mi>
+                  </mstyle>
+                  
+                  
+                  
+                  
+                </mrow>
+              </mrow>
+            </mfrac>
+            <msub>
+              <mi>u</mi>
+              <msub>
+                <mi>m</mi>
+                <mtext>IPK</mtext>
+              </msub>
+            </msub>
+            <mo>)</mo>
+          </mrow>
+          <mn>2</mn>
+        </msup>
+      </mrow>
+    </msqrt>
+  </mstyle>
+</math><asciimath>ii(U)_{"20-05-2019"} = 2 sqrt{(ii(U)/2)^2 + (ii(M)/{1 "unitsml(kg)"} u_{m_{"IPK"}})^2}</asciimath></stem></formula>
+
+<p id="_47ed4599-9995-1bfd-5a37-0bd96758a31a">Where <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>M</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(M)</asciimath></stem> is the nominal mass value of the CMC. After rounding to two significant digits, many CMC values will remain unchanged.</p>
+
+<p id="_ccb4fcf5-8b55-7a64-01ca-2bd934b0adf9">Calibrations at the BIPM carried out during phase 1 (i.e. between 20 May 2019 and the agreement of the consensus value resulting from the first Key Comparison of kilogram realizations) will continue to be based on the values of the BIPM working standards, traceable to the IPK, but taking into account the additional uncertainty in the mass of the IPK and the uncertainty contribution from the stability of BIPM working standards. This fact will be clearly indicated on the certificates issued by the BIPM.</p>
+
+<p id="_9203de90-5838-d03e-3c2a-7ee5bbb2adde">After 20 May 2019, NMIs must also include the additional uncertainty component of
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>10</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_ug">
+      <mstyle mathvariant="normal">
+        <mi>µg</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>10 "unitsml(ug)"</asciimath></stem> in the calculation of uncertainties quoted on calibration certificates for their own customers. In deciding whether it is necessary to inform recipients of past NMI calibrations about the additional uncertainty component, the uncertainty of these calibrations should be taken into account (in most cases the changes in the quoted uncertainties will be negligible).</p>
+</clause>
+
+<clause id="_8c910f9c-d1a2-8464-0c10-d73564faf079" obligation="normative">
+<title id="_0498b9a5-a7c6-8002-ac7d-618da732e8ed">Phase 2: Dissemination from a consensus value of the kilogram</title>
+<p id="_2de54c5b-7e71-7023-d011-a45ec99e39dc">Phase 2 of the transition period following the SI revision will involve switching from traceability to the IPK to traceability to a consensus value for the kilogram based on measurements made by the realization experiments. This will be initiated following the completion of the first Key Comparison of realization experiments. The determination of this consensus value is crucial to the continuity and ongoing global equivalence of the SI unit of mass.</p>
+
+<clause id="_6a9ff895-5697-478a-3d2b-b5569b42a823" obligation="normative">
+<title id="_0c58524d-62eb-1bba-1b1b-db9ecf782978">Description of the Consensus Value</title>
+<p id="_7b1043c2-e9aa-aca0-6395-bae200531128">It is worth noting that the Consensus Value is an interim solution, the need for which has been brought about by the discrepancy in the mass values (at the kilogram level) which would be determined by the realization experiments at the time of the redefinition of the SI unit of mass. The Consensus Value is thus intended to act as an ersatz realization experiment and its uncertainty needs to reflect a typical uncertainty from the pool of experiments.</p>
+</clause>
+
+<clause id="_dbf9f7ec-7fd4-30c4-5b0d-291d50299f0f" obligation="normative">
+<title id="_343f6301-4349-c9b6-f0b8-6921413f0560">The initial determination of the consensus value</title>
+<p id="_2996cc7e-9c48-19ff-83b9-b26a4f02a05c">Following the completion of the first CCM Key Comparison of realization experiments the consensus value for the kilogram will be adopted. The value will be physically maintained by the BIPM who will provide traceability for national mass standards. The initial consensus value will be calculated based on an arithmetic (non-weighted) mean of three sets of data;</p>
+
+<ol id="_25936795-0c2a-6649-1245-a9f83ccedb66" type="arabic"><li id="_4e007934-62b3-8e09-5ee7-eaf83115fd02" anchor="data1"><p id="_9d7949d9-376f-8c6e-d8b8-134aeea7479c">data directly traceable to the IPK (taking into account the additional uncertainty of 10 micrograms and a contribution for the temporal stability of the BIPM working standards).</p>
+</li>
+<li id="_e9d2b390-ab9e-b80f-7940-07bc9b0d0436" anchor="data2"><p id="_47215fa6-6622-e9ac-550b-91725e2fba05">extant data from the CCM Pilot Study of realization experiments (corrected for the
+shift of 17 parts in <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msup>
+      <mn>10</mn>
+      <mn>9</mn>
+    </msup>
+  </mstyle>
+</math><asciimath>10^9</asciimath></stem> in <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>h</mi>
+  </mstyle>
+</math><asciimath>h</asciimath></stem> introduced by the CODATA 2017 adjustment)</p>
+</li>
+<li id="_e1e6a3af-7602-cf3e-5f0c-64b0a9d567f0" anchor="data3"><p id="_c26db088-bc5d-cf89-b9ce-df87c1c9c991">the KCRV of the first CCM Key Comparison (after removal of outliers)</p>
+</li>
+</ol>
+
+<p id="_444fa81f-ae7a-1f10-6d08-4d9bf5494685">Note that data sets <xref target="data1"/> and <xref target="data2"/> are both linked to the IPK since the Pilot Study was completed prior to CODATA fixing the value of the Planck constant. Data set  <xref target="data3"/>, although
+based on the revised definition of the kilogram, is also linked to the IPK, because
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>h</mi>
+      <mn>2017</mn>
+    </msub>
+  </mstyle>
+</math><asciimath>h_{2017}</asciimath></stem>, which was used for the definition of the kilogram, was determined based on traceability to the IPK. The calculation of the initial consensus value will therefore be strongly weighted to the extant value of the IPK, thus ensuring continuity of the value of the kilogram.</p>
+</clause>
+
+<clause id="_ee93fd19-4eaf-2340-0983-7e5a381b5dab" obligation="normative">
+<title id="_5113600b-e65a-12b6-2263-2eb424fb9f89">The temporal evolution of the consensus value</title>
+<p id="_ea559074-dc7e-f8d7-bf24-6f7595e2e514">On completion of subsequent Key Comparisons, expected to be organized every two years,
+the value of the consensus value will be calculated as the non-weighted mean from the
+three most recent data sets, thus reducing temporal changes in the consensus value.
+Participation of an NMI in each subsequent Key Comparison requires a new realization to
+be undertaken since the previous comparison. Participating laboratories must calculate
+and report the correlation between their reported KC result and that of the previous KC
+to ensure that the new results from individual experiments are significantly independent
+of the previous result of that experiment. It is envisaged that the process by which the
+Consensus Value evolves will mean changes in the value are small. However, to ensure the
+continuity of the mass scale, changes in the Consensus Value between consecutive Key
+Comparisons will be reviewed and, if necessary, limited to <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo>±</mo>
+    <mn>5</mn>
+  </mstyle>
+</math><asciimath>+- 5</asciimath></stem> parts in
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msup>
+      <mn>10</mn>
+      <mn>9</mn>
+    </msup>
+  </mstyle>
+</math><asciimath>10^9</asciimath></stem>.</p>
+</clause>
+
+<clause id="_8585b745-ea00-3a1c-7241-e673a10c83e0" obligation="normative">
+<title id="_151512fa-9bb1-615e-a097-86c9f0644162">Details of the Key Comparisons of realization experiments</title>
+<p id="_7689f072-2c8e-e569-5a11-45f876724b32">Participation in the Key Comparison of realization experiments will be restricted to
+NMIs having published results (for the Planck constant or for the realization of the
+kilogram after 20 May 2019) in peer reviewed journals with a relative standard
+uncertainty lower than or equal to <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>2.0</mn>
+    <mo>×</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>7</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math><asciimath>2.0 xx 10^(-7)</asciimath></stem>. The published paper(s) should include a detailed uncertainty budget and evidence of the long term (preferably &gt; 1 year) stability of the experiment. It is envisaged that the minimum number of participants in the initial Key Comparison should be not less than the number which participated in the Pilot Study  <eref type="inline" bibitemid="stock" citeas="[5]"/>, i.e. five. If five realization experiments of suitable uncertainty are not available at the scheduled time of the KC the comparison should be delayed until such time as enough experiments are available. (The timetable for subsequent KCs will also be deferred to maintain a 2 year periodicity).</p>
+</clause>
+
+<clause id="_a4392354-3e58-61f2-e461-8470ddadbdfb" obligation="normative">
+<title id="_2b78c530-2f3e-6ea6-2584-c88969ef353b">The uncertainty of the consensus value</title>
+<p id="_75003ae1-6f97-779d-a297-35ae0e04554d">It is proposed that the standard uncertainty in the consensus value is <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>20</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_ug">
+      <mstyle mathvariant="normal">
+        <mi>µg</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>20
+"unitsml(ug)"</asciimath></stem> throughout Phase 2 (unless a statistical analysis following a Key Comparison shows that this value should be increased). This value is recommended by the CCM Task group on the Phases for the Dissemination of the kilogram following redefinition (CCM TGPfD-kg) and was arrived at based on:</p>
+
+<ul id="_9d50604f-3c24-84dc-a41d-bf4760e6d9a7"><li><p id="_aba96820-1199-a816-c9be-711875fdd8a5">Typical uncertainty of “<tt>mature</tt>” realization experiments such as those at NIST, NMIJ, NRC and PTB</p>
+</li>
+<li><p id="_95408bd7-6430-8c63-42a2-c1b3e1c7f4c2">The target uncertainty of newer realization experiments which are predicted to be completed in the next 10 years</p>
+</li>
+<li><p id="_8715582e-1681-476e-d6db-2334165d1674">Setting the expectations on future uncertainties from individual realization experiments (Phase 3) at the beginning of Phase 2.</p>
+</li>
+<li><p id="_c0a3b6e2-b987-2587-57fd-2eb47da017f0"><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>20</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_ug">
+      <mstyle mathvariant="normal">
+        <mi>µg</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>20 "unitsml(ug)"</asciimath></stem> was the target uncertainty that the CCM established to proceed with the redefinition of the kilogram  <eref type="inline" bibitemid="recommendation-g" citeas="[6]"/></p>
+</li>
+</ul>
+
+<p id="_caeabc7d-440c-8cbb-75f3-f9c60268b141">In considering the uncertainty assigned to the consensus value, readers are reminded that use of a consensus value during the process of transition from the IPK to individual realizations was driven by the need to address the inconsistency in the results of the realization experiments and not a desire to (statistically) reduce the uncertainty in the realization.</p>
+</clause>
+</clause>
+
+<clause id="_cb95e487-d188-fc1d-84a0-616c8216137e" obligation="normative">
+<title id="_086f6b82-ba8a-9850-177f-75e890440bdb">Phase 3: Dissemination of individual realizations</title>
+<p id="_ba6370df-795a-7e69-2a4d-bf58d27595e3">At such time that the CCM determines that the results from a sufficient number of individual realization experiments are coherent with the consensus value, taking into account the uncertainties of the results, individual realizations can then provide direct traceability to the SI unit of mass. The CMCs of these realizations will be evaluated via the standard CIPM MRA process based on degree of equivalence between the independent realizations and the KCRV. The KC report should specifically include details of the correlation coefficients between the participants to allow full evaluation of the implications of the dissemination of the mass scale from the individual realizations.</p>
+
+<clause id="_e0286aff-52f1-29b7-cc46-5249ac7f796a" obligation="normative">
+<title id="_ccf061e3-0002-47e8-144e-bcd2c85e2524">Criteria for transition from Phase 2 to Phase 3 of the dissemination process</title>
+<ol id="_8b6a7ccf-eadb-ef04-ff05-6542333c08b7" type="arabic"><li><p id="_7a12dfca-35d6-ce20-7f9d-7896eaaf2e4d">A minimum of five consistent realization experiments which:</p>
+<ol id="_80e23756-6b12-aa4e-a9b0-6214ed27a9d3" type="alphabet"><li><p id="_d3286c74-c96c-b988-7a71-41564e701c47">Achieve Key Comparison results with a relative standard uncertainty of 40 parts in
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msup>
+      <mn>10</mn>
+      <mn>9</mn>
+    </msup>
+  </mstyle>
+</math><asciimath>10^9</asciimath></stem> or better</p>
+</li>
+<li><p id="_3bf5a4a6-4b50-47e9-dfcb-5cddef9a35e1">Demonstrate consistency with the KCRV</p>
+</li>
+<li><p id="_5f5c879b-80d0-aec2-2191-01b39c095741">Demonstrate stability by producing consistent (equivalent) results for two consecutive Key Comparisons</p>
+</li>
+</ol>
+</li>
+<li><p id="_2cbf49af-a426-76e2-6747-ac1499006fbd">At least three of the realization experiments meeting the above criteria should have
+uncertainties less than or equal to 20 parts in <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msup>
+      <mn>10</mn>
+      <mn>9</mn>
+    </msup>
+  </mstyle>
+</math><asciimath>10^9</asciimath></stem>.</p>
+</li>
+<li><p id="_dc913c41-4c31-9aa7-1831-5cb64b5eebe8">The consistent set of experiments must include two independent methods of realizing the SI unit of mass (e.g. Kibble balance and X-ray crystal density experiments)</p>
+</li>
+<li><p id="_78f22ca3-183b-3af9-1345-052c0f170a3f">The difference between the Consensus Value for the kilogram (determined from three
+last 3 Key Comparison results) and the KCRV for the final Key Comparison is less than 5
+parts in <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msup>
+      <mn>10</mn>
+      <mn>9</mn>
+    </msup>
+  </mstyle>
+</math><asciimath>10^9</asciimath></stem>.</p>
+</li>
+</ol>
+</clause>
+
+<clause id="_3137eb88-c874-5ec8-c4d5-66786d565962" obligation="normative">
+<title id="_c0682b76-02c2-6684-5099-a4198c9a700f">Traceability in Phase 3 of the dissemination process</title>
+<p id="_bfa50305-3bcc-1ca9-c6a5-96b4a2a75c8c">Once the criteria for the transition from Phase 2 to Phase 3 of the dissemination process have been met the Consensus Value for the kilogram will cease to be used. Those realization experiments which have fulfilled the criteria outlined in the MRA will be able to publish CMCs, validated by the results of the Key Comparisons, and will be able to provide traceable mass calibrations based on these CMCs. The BIPM will also continue to provide traceable calibrations to member states not having validated realization experiments either using the latest Reference Value from the ongoing Key Comparison of realizations, maintained via conventional mass standards or using their own validated realization experiment.</p>
+
+<p id="_d800949b-bfba-f292-1322-dd1fbb761923">As the results from individual realization experiments improve further NMI realizations will meet the criteria outlined in the MRA and will therefore be able to publish CMCs giving an increasing number of NMIs which have the ability to unilaterally realize the kilogram from their individual experiments.</p>
+</clause>
+</clause>
+</clause>
+
+<clause id="_b389e5aa-635f-fb12-57e2-9ff5035bc6c3" obligation="normative"><references id="_ab7f7b2a-dbbc-e0ec-a69c-0d06406a3dc3" normative="false" obligation="informative">
+<title id="_ca461bdd-47cb-f94d-2424-0f438117aa1c">References</title><bibitem anchor="bipm-si-brochure" id="_d66ea9ae-f72d-d5b8-31ac-990b565ad3af">
+  <formattedref format="application/x-isodoc+xml">BIPM, The International System of Units (SI Brochure) [9th edition, 2019], <link target="https://www.bipm.org/en/publications/si-brochure/"/>.</formattedref>
+  <docidentifier type="metanorma">[1]</docidentifier>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem anchor="resolution-1" id="_e54f3d52-99b0-7f97-9303-b01fa9650966">
+  <formattedref format="application/x-isodoc+xml">Resolution 1 of the 26th CGPM (2018), <link target="https://www.bipm.org/en/CGPM/db/26/1/"/>.</formattedref>
+  <docidentifier type="metanorma">[2]</docidentifier>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem id="_bf2bbdb0-b502-dbf7-d1fe-a93cca52cb6b" type="article" schema-version="v1.2.9" anchor="newell">
+  <fetched>2026-04-16</fetched>
+  
+<title format="text/html" script="Latn">The CODATA 2017 values of h, e, k, and N<sub>A</sub> for the revision of the SI</title>
+
+  <uri type="src">https://doi.org/10.1088/1681-7575/aa950a</uri>
+  <uri type="doi">https://doi.org/10.1088/1681-7575/aa950a</uri>
+  <docidentifier type="BIPM" primary="true">Metrologia 55 1 L13</docidentifier><docidentifier type="metanorma">[3]</docidentifier>
+  <docidentifier type="doi">10.1088/1681-7575/aa950a</docidentifier>
+  <date type="published">
+    <on>2018-01-29</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">D B Newell</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Committee on Data for Science and Technology (CODATA) Task Group on Fundamental Constants</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">F Cabiati</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Committee on Data for Science and Technology (CODATA) Task Group on Fundamental Constants</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">J Fischer</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Committee on Data for Science and Technology (CODATA) Task Group on Fundamental Constants</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">K Fujii</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Committee on Data for Science and Technology (CODATA) Task Group on Fundamental Constants</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">S G Karshenboim</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Committee on Data for Science and Technology (CODATA) Task Group on Fundamental Constants</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">H S Margolis</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Committee on Data for Science and Technology (CODATA) Task Group on Fundamental Constants</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">E de Mirandés</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Committee on Data for Science and Technology (CODATA) Task Group on Fundamental Constants</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">P J Mohr</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Committee on Data for Science and Technology (CODATA) Task Group on Fundamental Constants</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">F Nez</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Committee on Data for Science and Technology (CODATA) Task Group on Fundamental Constants</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">K Pachucki</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Committee on Data for Science and Technology (CODATA) Task Group on Fundamental Constants</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">T J Quinn</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Committee on Data for Science and Technology (CODATA) Task Group on Fundamental Constants</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">B N Taylor</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Committee on Data for Science and Technology (CODATA) Task Group on Fundamental Constants</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">M Wang</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Committee on Data for Science and Technology (CODATA) Task Group on Fundamental Constants</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">B M Wood</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Committee on Data for Science and Technology (CODATA) Task Group on Fundamental Constants</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">Z Zhang</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Committee on Data for Science and Technology (CODATA) Task Group on Fundamental Constants</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor><language>en</language><script>Latn</script>
+  <abstract format="text/html" script="Latn">Abstract<p id="_4ae384c4-7254-53a8-02c4-3e28671b0a42">Sufficient progress towards redefining the International System of Units (SI) in terms of exact values of fundamental constants has been achieved. Exact values of the Planck constant h, elementary charge e, Boltzmann constant k, and Avogadro constant N<sub>A</sub> from the CODATA 2017 Special Adjustment of the Fundamental Constants are presented here. These values are recommended to the 26th General Conference on Weights and Measures to form the foundation of the revised SI.</p>
+</abstract>
+  <copyright>
+    <from>2018</from>
+    <owner>
+      <organization>
+        
+<name>BIPM</name>
+
+      </organization>
+    </owner>
+    <owner>
+      <organization>
+        
+<name>IOP Publishing Ltd</name>
+
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="hasManifestation">
+    <bibitem>
+      
+<title format="text/html" script="Latn">The CODATA 2017 values of h, e, k, and N<sub>A</sub> for the revision of the SI</title>
+
+      <date type="ppub">
+        <on>2018-04-01</on>
+      </date>
+      <medium>
+        <carrier>print</carrier>
+      </medium>
+    </bibitem>
+
+  </relation>
+  <relation type="hasManifestation">
+    <bibitem>
+      
+<title format="text/html" script="Latn">The CODATA 2017 values of h, e, k, and N<sub>A</sub> for the revision of the SI</title>
+
+      <date type="epub">
+        <on>2018-01-29</on>
+      </date>
+      <medium>
+        <carrier>online</carrier>
+      </medium>
+    </bibitem>
+
+  </relation>
+  <relation type="hasManifestation">
+    <bibitem>
+      
+<title format="text/html" script="Latn">The CODATA 2017 values of h, e, k, and N<sub>A</sub> for the revision of the SI</title>
+
+      <date type="open-access">
+        <on>2018-01-29</on>
+      </date>
+      <medium>
+        <carrier>print</carrier>
+      </medium>
+    </bibitem>
+
+  </relation>
+  <series>
+    
+<title format="text/plain" language="en" script="Latn">Metrologia</title>
+
+  </series>
+  <extent>
+    <locality type="volume">
+      <referenceFrom>55</referenceFrom>
+    </locality>
+    <locality type="issue">
+      <referenceFrom>1</referenceFrom>
+    </locality>
+    <locality type="page">
+      <referenceFrom>L13</referenceFrom>
+      <referenceTo>L16</referenceTo>
+    </locality>
+  </extent>
+</bibitem><bibitem id="_65a60b08-f29d-ee64-ef7e-a0d94097c1e2" type="article" schema-version="v1.2.9" anchor="mirandes">
+  <fetched>2026-04-16</fetched>
+  
+<title format="text/plain" script="Latn">Calibration campaign against the international prototype of the kilogram in anticipation of the redefinition of the kilogram, part II: evolution of the BIPM as-maintained mass unit from the 3rd periodic verification to 2014</title>
+
+  <uri type="src">https://doi.org/10.1088/0026-1394/53/5/1204</uri>
+  <uri type="doi">https://doi.org/10.1088/0026-1394/53/5/1204</uri>
+  <docidentifier type="BIPM" primary="true">Metrologia 53 5 1204</docidentifier><docidentifier type="metanorma">[4]</docidentifier>
+  <docidentifier type="doi">10.1088/0026-1394/53/5/1204</docidentifier>
+  <date type="published">
+    <on>2016-09-29</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">Estefanía de Mirandés</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Bureau International des Poids et Mesures (BIPM)</name>
+
+          <address>
+            <formattedAddress>Pavillon de Breteuil, F-92312 Sèvres Cedex, France</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">Pauline Barat</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Bureau International des Poids et Mesures (BIPM)</name>
+
+          <address>
+            <formattedAddress>Pavillon de Breteuil, F-92312 Sèvres Cedex, France</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">Michael Stock</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Bureau International des Poids et Mesures (BIPM)</name>
+
+          <address>
+            <formattedAddress>Pavillon de Breteuil, F-92312 Sèvres Cedex, France</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">Martin J T Milton</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Bureau International des Poids et Mesures (BIPM)</name>
+
+          <address>
+            <formattedAddress>Pavillon de Breteuil, F-92312 Sèvres Cedex, France</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor><language>en</language><script>Latn</script>
+  <abstract format="text/html" script="Latn">Abstract<p id="_a8daf9c6-55d1-a5e0-d21d-4e379a6569d3">In 2014 the Bureau International des Poids et Mesures (BIPM) carried out a calibration campaign using the international prototype of the kilogram (IPK). This is the second part in a series of publications describing the results of that campaign. As reported (Metrologia 52 310–6), following the comparisons between the IPK and its official copies, it was found that the BIPM ‘as-maintained mass unit’ was offset by 35 μg from the mass of the IPK in 2014. We report here the results of an investigation into this offset that has considered all data available from internal BIPM mass comparisons carried out between 1992 and 2014. This has enabled us to model the evolution of the offset in the as-maintained mass unit and to identify some possible reasons why it has developed. We also report how the model has been used to estimate corrections to all 1 kg mass calibration certificates issued by the BIPM during this period.</p>
+</abstract>
+  <copyright>
+    <from>2016</from>
+    <owner>
+      <organization>
+        
+<name>BIPM</name>
+
+      </organization>
+    </owner>
+    <owner>
+      <organization>
+        
+<name>IOP Publishing Ltd</name>
+
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="hasManifestation">
+    <bibitem>
+      
+<title format="text/plain" script="Latn">Calibration campaign against the international prototype of the kilogram in anticipation of the redefinition of the kilogram, part II: evolution of the BIPM as-maintained mass unit from the 3rd periodic verification to 2014</title>
+
+      <date type="ppub">
+        <on>2016-10-01</on>
+      </date>
+      <medium>
+        <carrier>print</carrier>
+      </medium>
+    </bibitem>
+
+  </relation>
+  <relation type="hasManifestation">
+    <bibitem>
+      
+<title format="text/plain" script="Latn">Calibration campaign against the international prototype of the kilogram in anticipation of the redefinition of the kilogram, part II: evolution of the BIPM as-maintained mass unit from the 3rd periodic verification to 2014</title>
+
+      <date type="epub">
+        <on>2016-09-29</on>
+      </date>
+      <medium>
+        <carrier>online</carrier>
+      </medium>
+    </bibitem>
+
+  </relation>
+  <relation type="hasManifestation">
+    <bibitem>
+      
+<title format="text/plain" script="Latn">Calibration campaign against the international prototype of the kilogram in anticipation of the redefinition of the kilogram, part II: evolution of the BIPM as-maintained mass unit from the 3rd periodic verification to 2014</title>
+
+      <date type="open-access">
+        <on>2016-09-29</on>
+      </date>
+      <medium>
+        <carrier>print</carrier>
+      </medium>
+    </bibitem>
+
+  </relation>
+  <series>
+    
+<title format="text/plain" language="en" script="Latn">Metrologia</title>
+
+  </series>
+  <extent>
+    <locality type="volume">
+      <referenceFrom>53</referenceFrom>
+    </locality>
+    <locality type="issue">
+      <referenceFrom>5</referenceFrom>
+    </locality>
+    <locality type="page">
+      <referenceFrom>1204</referenceFrom>
+      <referenceTo>1214</referenceTo>
+    </locality>
+  </extent>
+</bibitem><bibitem id="_df9fb3c4-367d-fac0-d4d4-0d5c10a68954" type="article" schema-version="v1.2.9" anchor="stock">
+  <fetched>2026-04-16</fetched>
+  
+<title format="text/plain" script="Latn">A comparison of future realizations of the kilogram</title>
+
+  <uri type="src">https://doi.org/10.1088/1681-7575/aa9a7e</uri>
+  <uri type="doi">https://doi.org/10.1088/1681-7575/aa9a7e</uri>
+  <docidentifier type="BIPM" primary="true">Metrologia 55 1 T1</docidentifier><docidentifier type="metanorma">[5]</docidentifier>
+  <docidentifier type="doi">10.1088/1681-7575/aa9a7e</docidentifier>
+  <date type="published">
+    <on>2018-01-24</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">M Stock</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Bureau International des Poids et Mesures (BIPM)</name>
+
+          <address>
+            <formattedAddress>92310 Sèvres, France</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">P Barat</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Bureau International des Poids et Mesures (BIPM)</name>
+
+          <address>
+            <formattedAddress>92310 Sèvres, France</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">P Pinot</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Conservatoire National des Arts et Métiers (CNAM)</name>
+
+          <address>
+            <formattedAddress>93210 La Plaine St-Denis, France</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">F Beaudoux</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Laboratoire National de Métrologie et d’Essais (LNE)</name>
+
+          <address>
+            <formattedAddress>78197 Trappes, France</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">P Espel</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Laboratoire National de Métrologie et d’Essais (LNE)</name>
+
+          <address>
+            <formattedAddress>78197 Trappes, France</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">F Piquemal</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Laboratoire National de Métrologie et d’Essais (LNE)</name>
+
+          <address>
+            <formattedAddress>78197 Trappes, France</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">M Thomas</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Laboratoire National de Métrologie et d’Essais (LNE)</name>
+
+          <address>
+            <formattedAddress>78197 Trappes, France</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">D Ziane</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Laboratoire National de Métrologie et d’Essais (LNE)</name>
+
+          <address>
+            <formattedAddress>78197 Trappes, France</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">P Abbott</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Institute of Standards and Technology (NIST)</name>
+
+          <address>
+            <formattedAddress>Gaithersburg, MD 20899, United States of America</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">D Haddad</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Institute of Standards and Technology (NIST)</name>
+
+          <address>
+            <formattedAddress>Gaithersburg, MD 20899, United States of America</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">Z Kubarych</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Institute of Standards and Technology (NIST)</name>
+
+          <address>
+            <formattedAddress>Gaithersburg, MD 20899, United States of America</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">J R Pratt</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Institute of Standards and Technology (NIST)</name>
+
+          <address>
+            <formattedAddress>Gaithersburg, MD 20899, United States of America</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">S Schlamminger</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Institute of Standards and Technology (NIST)</name>
+
+          <address>
+            <formattedAddress>Gaithersburg, MD 20899, United States of America</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">K Fujii</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Metrology Institute of Japan (NMIJ)</name>
+
+          <address>
+            <formattedAddress>Tsukuba, Ibaraki 305-8563, Japan</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">K Fujita</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Metrology Institute of Japan (NMIJ)</name>
+
+          <address>
+            <formattedAddress>Tsukuba, Ibaraki 305-8563, Japan</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">N Kuramoto</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Metrology Institute of Japan (NMIJ)</name>
+
+          <address>
+            <formattedAddress>Tsukuba, Ibaraki 305-8563, Japan</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">S Mizushima</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Metrology Institute of Japan (NMIJ)</name>
+
+          <address>
+            <formattedAddress>Tsukuba, Ibaraki 305-8563, Japan</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">L Zhang</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Metrology Institute of Japan (NMIJ)</name>
+
+          <address>
+            <formattedAddress>Tsukuba, Ibaraki 305-8563, Japan</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">S Davidson</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Physical Laboratory (NPL)</name>
+
+          <address>
+            <formattedAddress>Teddington, Middlesex, TW11 0LW, United Kingdom</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">R G Green</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Research Council of Canada (NRC)</name>
+
+          <address>
+            <formattedAddress>Ottawa, ON K1A 0R6, Canada</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">J Liard</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Research Council of Canada (NRC)</name>
+
+          <address>
+            <formattedAddress>Ottawa, ON K1A 0R6, Canada</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">C Sanchez</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Research Council of Canada (NRC)</name>
+
+          <address>
+            <formattedAddress>Ottawa, ON K1A 0R6, Canada</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">B Wood</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Research Council of Canada (NRC)</name>
+
+          <address>
+            <formattedAddress>Ottawa, ON K1A 0R6, Canada</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">H Bettin</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Physikalisch-Technische Bundesanstalt (PTB)</name>
+
+          <address>
+            <formattedAddress>38116 Braunschweig, Germany</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">M Borys</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Physikalisch-Technische Bundesanstalt (PTB)</name>
+
+          <address>
+            <formattedAddress>38116 Braunschweig, Germany</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">I Busch</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Physikalisch-Technische Bundesanstalt (PTB)</name>
+
+          <address>
+            <formattedAddress>38116 Braunschweig, Germany</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">M Hämpke</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Physikalisch-Technische Bundesanstalt (PTB)</name>
+
+          <address>
+            <formattedAddress>38116 Braunschweig, Germany</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">M Krumrey</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Physikalisch-Technische Bundesanstalt (PTB)</name>
+
+          <address>
+            <formattedAddress>38116 Braunschweig, Germany</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">A Nicolaus</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Physikalisch-Technische Bundesanstalt (PTB)</name>
+
+          <address>
+            <formattedAddress>38116 Braunschweig, Germany</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor><language>en</language><script>Latn</script>
+  <abstract format="text/html" script="Latn">Abstract<p id="_405bf262-9daf-d579-0758-815fe58514f7">The definition of the kilogram in the International System of Units (SI) is expected to be revised in 2018. The present definition of the kilogram, the mass of the International Prototype of the Kilogram (IPK), adopted in 1889, would then be replaced by a definition based on a fixed numerical value of the Planck constant. The Consultative Committee for Mass and Related Quantities has requested that, as one of the essential steps before the redefinition, a comparison of kilogram realizations based on future realization methods, Kibble balances and x-ray crystal density (XRCD) experiments, be organized.</p>
+<p id="_24bfd487-1dd5-8611-7851-e0bb998ca612">This comparison was carried out during 2016 in the form of a ‘Pilot Study’. One aim of the study was to determine the uniformity of mass dissemination after the redefinition by comparing mass calibrations based on different future realization experiments. Another aim was to test the continuity of the mass unit across the redefinition by comparing mass calibrations based on Kibble balances and XRCD experiments with those based on the IPK. This paper describes the organization of the comparison and presents its results.</p>
+</abstract>
+  <copyright>
+    <from>2018</from>
+    <owner>
+      <organization>
+        
+<name>BIPM</name>
+
+      </organization>
+    </owner>
+    <owner>
+      <organization>
+        
+<name>IOP Publishing Ltd</name>
+
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="hasManifestation">
+    <bibitem>
+      
+<title format="text/plain" script="Latn">A comparison of future realizations of the kilogram</title>
+
+      <date type="ppub">
+        <on>2018-02-01</on>
+      </date>
+      <medium>
+        <carrier>print</carrier>
+      </medium>
+    </bibitem>
+
+  </relation>
+  <relation type="hasManifestation">
+    <bibitem>
+      
+<title format="text/plain" script="Latn">A comparison of future realizations of the kilogram</title>
+
+      <date type="epub">
+        <on>2018-01-24</on>
+      </date>
+      <medium>
+        <carrier>online</carrier>
+      </medium>
+    </bibitem>
+
+  </relation>
+  <series>
+    
+<title format="text/plain" language="en" script="Latn">Metrologia</title>
+
+  </series>
+  <extent>
+    <locality type="volume">
+      <referenceFrom>55</referenceFrom>
+    </locality>
+    <locality type="issue">
+      <referenceFrom>1</referenceFrom>
+    </locality>
+    <locality type="page">
+      <referenceFrom>T1</referenceFrom>
+      <referenceTo>T7</referenceTo>
+    </locality>
+  </extent>
+</bibitem><bibitem anchor="recommendation-g" id="_4104d4a2-dff0-2759-217a-efdd996ce38e">
+  <formattedref format="application/x-isodoc+xml">RECOMMENDATION OF THE CONSULTATIVE COMMITTEE FOR MASS AND RELATED QUANTITIES SUBMITTED TO THE INTERNATIONAL COMMITTEE FOR WEIGHTS AND MEASURES; RECOMMENDATION G 1 (2013) On a new definition of the kilogram</formattedref>
+  <docidentifier type="metanorma">[6]</docidentifier>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem id="_1aed3484-1948-3d77-d887-ea5d6a0111db" type="article" schema-version="v1.2.9" anchor="metrologia54-s99">
+  <fetched>2026-04-16</fetched>
+  
+<title format="text/plain" script="Latn">Maintaining and disseminating the kilogram following its redefinition</title>
+
+  <uri type="src">https://doi.org/10.1088/1681-7575/aa8d2d</uri>
+  <uri type="doi">https://doi.org/10.1088/1681-7575/aa8d2d</uri>
+  <docidentifier type="BIPM" primary="true">Metrologia 54 6 S99</docidentifier><docidentifier type="metanorma">[7]</docidentifier>
+  <docidentifier type="doi">10.1088/1681-7575/aa8d2d</docidentifier>
+  <date type="published">
+    <on>2017-10-25</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">M Stock</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Bureau International des Poids et Mesures BIPM</name>
+
+          <address>
+            <formattedAddress>Pavillon de Breteuil, 92312 Sèvres Cedex, France</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">S Davidson</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Physical Laboratory NPL</name>
+
+          <address>
+            <formattedAddress>Hampton Road, Teddington, Middlesex TW11 0LW, United Kingdom</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">H Fang</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Bureau International des Poids et Mesures BIPM</name>
+
+          <address>
+            <formattedAddress>Pavillon de Breteuil, 92312 Sèvres Cedex, France</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">M Milton</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Bureau International des Poids et Mesures BIPM</name>
+
+          <address>
+            <formattedAddress>Pavillon de Breteuil, 92312 Sèvres Cedex, France</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">E de Mirandés</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Bureau International des Poids et Mesures BIPM</name>
+
+          <address>
+            <formattedAddress>Pavillon de Breteuil, 92312 Sèvres Cedex, France</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">P Richard</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Federal Institute of Metrology METAS</name>
+
+          <address>
+            <formattedAddress>Lindenweg 50, 3003 Bern-Wabern, Switzerland</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">C Sutton</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Measurement Standards Laboratory of New Zealand</name>
+
+          <address>
+            <formattedAddress>Callaghan Innovation, Lower Hutt 5040, New Zealand</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor><language>en</language><script>Latn</script>
+  <abstract format="text/html" script="Latn">Abstract<p id="_f51f9d75-a989-cd18-6cba-ec2f32ff1f63">The new definition of the kilogram, which is expected to be adopted by the General Conference on Weights and Measures in 2018, will bring some major changes to mass metrology. The most fundamental change will be the replacement of the present artefact-based definition with a universal definition, enabling in principle any National Metrology Institute (NMI) to realize the kilogram. The principles for the realization and dissemination of the kilogram in the revised SI are described in the mise en pratique of the definition of the kilogram. This paper provides some additional information and explains how traceability can be obtained by NMIs that do not operate a primary experiment to realize the definition of the kilogram.</p>
+</abstract>
+  <copyright>
+    <from>2017</from>
+    <owner>
+      <organization>
+        
+<name>BIPM</name>
+
+      </organization>
+    </owner>
+    <owner>
+      <organization>
+        
+<name>IOP Publishing Ltd</name>
+
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="hasManifestation">
+    <bibitem>
+      
+<title format="text/plain" script="Latn">Maintaining and disseminating the kilogram following its redefinition</title>
+
+      <date type="ppub">
+        <on>2017-12-01</on>
+      </date>
+      <medium>
+        <carrier>print</carrier>
+      </medium>
+    </bibitem>
+
+  </relation>
+  <relation type="hasManifestation">
+    <bibitem>
+      
+<title format="text/plain" script="Latn">Maintaining and disseminating the kilogram following its redefinition</title>
+
+      <date type="epub">
+        <on>2017-10-25</on>
+      </date>
+      <medium>
+        <carrier>online</carrier>
+      </medium>
+    </bibitem>
+
+  </relation>
+  <relation type="hasManifestation">
+    <bibitem>
+      
+<title format="text/plain" script="Latn">Maintaining and disseminating the kilogram following its redefinition</title>
+
+      <date type="open-access">
+        <on>2017-10-25</on>
+      </date>
+      <medium>
+        <carrier>print</carrier>
+      </medium>
+    </bibitem>
+
+  </relation>
+  <series>
+    
+<title format="text/plain" language="en" script="Latn">Metrologia</title>
+
+  </series>
+  <extent>
+    <locality type="volume">
+      <referenceFrom>54</referenceFrom>
+    </locality>
+    <locality type="issue">
+      <referenceFrom>6</referenceFrom>
+    </locality>
+    <locality type="page">
+      <referenceFrom>S99</referenceFrom>
+      <referenceTo>S107</referenceTo>
+    </locality>
+  </extent>
+</bibitem>
+
+
+
+
+
+
+
+</references>
+
+<references id="_f08f0284-9aa2-820c-115f-8d0b9a95a8ab" normative="false" obligation="informative">
+<title id="_87c6de51-4873-b2bf-a8f8-1eab3d86d0d7">Bibliography</title><bibitem anchor="lars" id="_76f789d0-1eb3-22ca-4dc8-4a403aa7d924">
+  <formattedref format="application/x-isodoc+xml">Lars Nielsen, Evaluation of measurement intercomparisons by the method of least squares, <link target="https://www.dropbox.com/s/5gtuu1ttgvp2egr/DFM-99-R39%20Evaluation%20of%20measurement%20intercomparisons.pdf?dl=0">DFM-99-R39</link>, 2000.</formattedref>
+  <docidentifier type="metanorma">[8]</docidentifier>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem anchor="nielsen" id="_efcbc7a7-8d01-afbd-e205-712d70323b8b">
+  <formattedref format="application/x-isodoc+xml">Lars Nielsen, Identification and handling of discrepant measurements in key comparisons. <link target="https://www.dropbox.com/s/4197jroang14uwa/DFM-02-R28%20Identification%20of%20discrepant%20measurements_.pdf?dl=0">DFM-02-R28</link>, 2002.</formattedref>
+  <docidentifier type="metanorma">[9]</docidentifier>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem id="_e0e5cebf-78c2-1f5e-fb08-35974b984220" type="article" schema-version="v1.2.9" anchor="gox-1">
+  <fetched>2026-04-16</fetched>
+  
+<title format="text/plain" language="en" script="Latn">The evaluation of key comparison data</title>
+
+  <uri type="src">https://doi.org/10.1088/0026-1394/39/6/10</uri>
+  <uri type="doi">https://doi.org/10.1088/0026-1394/39/6/10</uri>
+  <docidentifier type="BIPM" primary="true">Metrologia 39 6 589</docidentifier><docidentifier type="metanorma">[10]</docidentifier>
+  <docidentifier type="doi">10.1088/0026-1394/39/6/10</docidentifier>
+  <date type="published">
+    <on>2002-12-01</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">M G Cox</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Physical Laboratory (NPL), Teddington, Middlesex TW11 0LW, UK</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor><language>en</language><script>Latn</script>
+  <abstract format="text/html" language="en" script="Latn">
+    <p id="_e9f81588-5fa9-7e2b-e9e4-4e86dedff371">Guidelines containing two procedures are proposed for the evaluation of key comparison data. Theyapply to the simple circulation of a single travelling standard around all the participants. The application of theprocedures to a specific set of key comparison data provides a key comparison reference value (KCRV) and the associated uncertainty, the degree of equivalence of the measurement made by each participating national institute and the degrees of equivalence between measurements made by all pairs of participating institutes. Procedure A is based on the use of the weighted mean, together with consistency checks based on classical statistics regarding its applicability. Should the checks fail, action to remedy the situation is suggested. If the remedy is inappropriate, Procedure B can be applied instead. It is based on the use of the median (or any another informed choice) as a more robust estimator in the circumstances.</p>
+
+  </abstract>
+  <copyright>
+    <from>2002</from>
+    <owner>
+      <organization>
+        
+<name>Published under licence by IOP Publishing Ltd</name>
+
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="hasManifestation">
+    <bibitem>
+      
+<title format="text/plain" language="en" script="Latn">The evaluation of key comparison data</title>
+
+      <date type="ppub">
+        <on>2002-12-01</on>
+      </date>
+      <medium>
+        <carrier>print</carrier>
+      </medium>
+    </bibitem>
+
+  </relation>
+  <series>
+    
+<title format="text/plain" language="en" script="Latn">Metrologia</title>
+
+  </series>
+  <extent>
+    <locality type="volume">
+      <referenceFrom>39</referenceFrom>
+    </locality>
+    <locality type="issue">
+      <referenceFrom>6</referenceFrom>
+    </locality>
+    <locality type="page">
+      <referenceFrom>589</referenceFrom>
+      <referenceTo>595</referenceTo>
+    </locality>
+  </extent>
+</bibitem><bibitem id="_a5e71d6c-75e5-2450-bd99-3141f500833b" type="article" schema-version="v1.2.9" anchor="gox-2">
+  <fetched>2026-04-16</fetched>
+  
+<title format="text/plain" language="en" script="Latn">The evaluation of key comparison data: determining the largest consistent subset</title>
+
+  <uri type="src">https://doi.org/10.1088/0026-1394/44/3/005</uri>
+  <uri type="doi">https://doi.org/10.1088/0026-1394/44/3/005</uri>
+  <docidentifier type="BIPM" primary="true">Metrologia 44 3 187</docidentifier><docidentifier type="metanorma">[11]</docidentifier>
+  <docidentifier type="doi">10.1088/0026-1394/44/3/005</docidentifier>
+  <date type="published">
+    <on>2007-04-27</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">Maurice G Cox</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Physical Laboratory, Teddington, Middlesex, TW11 0LW, UK</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor><language>en</language><script>Latn</script>
+  <abstract format="text/html" language="en" script="Latn">
+    <p id="_399b4802-5c71-e66c-5687-559e92d63271">Suppose a single stable travelling standard is circulated around the national metrology institutes (NMIs) participating in a key comparison. Consider the set of data consisting of a measurement result, comprising a measured value and the associated standard uncertainty, provided independently by each such NMI. Each measured value is the corresponding NMI’s best estimate of a single stipulated property of the standard. The weighted mean (WM) of the measured values can be formed, the weights being proportional to the reciprocals of the squared standard uncertainties. If this WM is consistent with the measured values according to a statistical test, it can be accepted as a key comparison reference value for the comparison. Otherwise, the WM of a largest consistent subset (LCS) can be determined. The LCS contains as many as possible of those results of participating NMIs that are consistent with the WM of that subset. An efficient approach for determining the LCS having smallest chi-squared value is described, and applied to length, temperature and ionizing radiation comparisons.</p>
+
+  </abstract>
+  <copyright>
+    <from>2007</from>
+    <owner>
+      <organization>
+        
+<name>BIPM and IOP Publishing Ltd</name>
+
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="hasManifestation">
+    <bibitem>
+      
+<title format="text/plain" language="en" script="Latn">The evaluation of key comparison data: determining the largest consistent subset</title>
+
+      <date type="epub">
+        <on>2007-04-27</on>
+      </date>
+      <medium>
+        <carrier>online</carrier>
+      </medium>
+    </bibitem>
+
+  </relation>
+  <relation type="hasManifestation">
+    <bibitem>
+      
+<title format="text/plain" language="en" script="Latn">The evaluation of key comparison data: determining the largest consistent subset</title>
+
+      <date type="ppub">
+        <on>2007-06-01</on>
+      </date>
+      <medium>
+        <carrier>print</carrier>
+      </medium>
+    </bibitem>
+
+  </relation>
+  <series>
+    
+<title format="text/plain" language="en" script="Latn">Metrologia</title>
+
+  </series>
+  <extent>
+    <locality type="volume">
+      <referenceFrom>44</referenceFrom>
+    </locality>
+    <locality type="issue">
+      <referenceFrom>3</referenceFrom>
+    </locality>
+    <locality type="page">
+      <referenceFrom>187</referenceFrom>
+      <referenceTo>200</referenceTo>
+    </locality>
+  </extent>
+</bibitem>
+
+
+
+
+</references>
+</clause>
+</sections>
+</metanorma>

@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metanorma xmlns="https://www.metanorma.org/ns/standoc" type="semantic" version="2.8.3" schema-version="v2.1.5" flavor="bipm">
+<bibdata type="standard">
+<title language="en" type="title-main">CCEM Guidelines for Implementation of the 'Revised SI'</title>
+
+<title language="en" type="title-part-prefix">Part 4.2</title>
+
+<title language="en" type="title-appendix-prefix">Appendix 2</title>
+
+<title language="fr" type="title-main">Directives du CCEM concernant la mise en oeuvre du SI révisé</title>
+
+<title language="fr" type="title-part-prefix">Partie 4.2</title>
+
+<title language="fr" type="title-appendix-prefix">Appendice 2</title>
+<docidentifier primary="true" type="BIPM">BIPM CCEM-GD-RSI-1-4.2 A2</docidentifier><docidentifier type="BIPM-parent-document">BIPM CCEM-GD-RSI-1</docidentifier><docnumber>CCEM-GD-RSI-1</docnumber><contributor><role type="author"/><organization>
+<name>Bureau International des Poids et Mesures</name>
+<abbreviation>BIPM</abbreviation></organization></contributor><contributor><role type="author"><description>committee</description></role><organization>
+<name>Bureau International des Poids et Mesures</name>
+<subdivision type="Committee">
+<name language="en">Consultative Committee for Electricity and Magnetism</name>
+
+<name language="fr">Comité consultatif d'électricité et magnétisme</name>
+<identifier>CCEM</identifier><identifier type="full">CCEM</identifier></subdivision></organization></contributor><contributor><role type="publisher"/><organization>
+<name>Bureau International des Poids et Mesures</name>
+<abbreviation>BIPM</abbreviation></organization></contributor><edition>1</edition><version><revision-date>2018-02-01</revision-date></version><language>en</language><script>Latn</script><status><stage>in-force</stage></status><copyright><from>2018</from><owner><organization>
+<name>Bureau International des Poids et Mesures</name>
+<abbreviation>BIPM</abbreviation></organization></owner></copyright><ext><doctype>guide</doctype><flavor>bipm</flavor><structuredidentifier><docnumber>CCEM-GD-RSI-1</docnumber><part>4.2</part><appendix>2</appendix>
+</structuredidentifier><si-aspect>A_e</si-aspect></ext></bibdata><metanorma-extension><semantic-metadata><stage-published>true</stage-published></semantic-metadata>
+<UnitsML xmlns="https://schema.unitsml.org/unitsml/1.0"><UnitSet><Unit dimensionURL="#D_L-2M-1T2I" id="U_GHz.V-1">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">GHz*V^-1</UnitName>
+        <UnitSymbol type="HTML">GHz V
+          <sup>−1</sup>
+        </UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">GHz</mi>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">V</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>1</mn>
+              </mrow>
+            </msup>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="hertz" prefix="G"/>
+          <EnumeratedRootUnit unit="volt" powerNumerator="-1"/>
+        </RootUnits>
+      </Unit><Unit dimensionURL="#D_L2MT4I2" id="U_NISTu18">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">ohm</UnitName>
+        <UnitSymbol type="HTML">Ω</UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">Ω</mi>
+          </math>
+        </UnitSymbol>
+      </Unit></UnitSet><QuantitySet><Quantity id="NISTq28" quantityType="base" dimensionURL="#NISTd20">
+        <QuantityName lang="en-US">electric resistance</QuantityName>
+      </Quantity></QuantitySet><DimensionSet><Dimension id="D_L-2M-1T2I">
+        <Length symbol="L" powerNumerator="-2"/>
+        <Mass symbol="M" powerNumerator="-1"/>
+        <Time symbol="T" powerNumerator="2"/>
+        <ElectricCurrent symbol="I" powerNumerator="1"/>
+      </Dimension><Dimension id="NISTd20">
+        <Length symbol="L" powerNumerator="2"/>
+        <Mass symbol="M" powerNumerator="1"/>
+        <Time symbol="T" powerNumerator="-3"/>
+        <ElectricCurrent symbol="I" powerNumerator="-2"/>
+      </Dimension><Dimension id="D_L2MT4I2">
+        <Length symbol="L" powerNumerator="2"/>
+        <Mass symbol="M" powerNumerator="1"/>
+        <Time symbol="T" powerNumerator="4"/>
+        <ElectricCurrent symbol="I" powerNumerator="2"/>
+      </Dimension></DimensionSet><PrefixSet><Prefix prefixBase="10" prefixPower="9" id="NISTp10_9">
+        <PrefixName lang="en">giga</PrefixName>
+        <PrefixSymbol type="ASCII">G</PrefixSymbol>
+        <PrefixSymbol type="unicode">G</PrefixSymbol>
+        <PrefixSymbol type="LaTeX">G</PrefixSymbol>
+        <PrefixSymbol type="HTML">G</PrefixSymbol>
+      </Prefix></PrefixSet></UnitsML><presentation-metadata><toc-heading-levels>2</toc-heading-levels><html-toc-heading-levels>2</html-toc-heading-levels><doc-toc-heading-levels>2</doc-toc-heading-levels><pdf-toc-heading-levels>2</pdf-toc-heading-levels></presentation-metadata></metanorma-extension>
+<boilerplate><copyright-statement>
+
+<clause id="_740fa11a-6d9e-997b-f669-6016f45bcf1a" obligation="normative"><p id="_f81d45d4-b556-ed46-e7c4-9e11a649f5b7" align="center">© Bureau International des Poids et Mesures 2018 all rights reserved</p>
+</clause>
+</copyright-statement>
+
+<license-statement>
+
+<clause id="_4ffcd5b5-8039-1aa4-59ce-390aa3b61c7a" obligation="normative">
+<title id="_29f75465-0cf3-76fd-bc56-6b3aa457ee69">Copyright statement</title>
+<p id="_50719790-3c5b-c213-8298-0631d690bc21">This document is distributed under the terms of the Creative Commons Attribution 4.0 International License (<link target="http://creativecommons.org/licenses/by/4.0/:"/>), which permits unrestricted use, distribution, and reproduction in any medium, provided you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made.</p>
+</clause>
+</license-statement>
+
+<feedback-statement>
+
+<p id="_5926bc3f-b367-69e7-6cc6-442a91e32db2">BIPM<br/> Pavillon de Breteuil<br/> F-92312 Sèvres Cedex<br/> FRANCE</p>
+</feedback-statement>
+</boilerplate><preface><foreword id="_2b8d4857-93ab-19a2-4efe-dae90f4fe917" obligation="informative">
+<title id="_41c9fad3-d4c1-eecc-4fad-f91704acc026">Foreword</title>
+<p id="_f940a936-7bde-4eaf-6142-4a3dc19ee410">In preparation for the implementation of the ‘<tt>Revised SI</tt>‘ the Consultative Committee for Electricity and Magnetism (CCEM) has prepared the following general guidelines for use by National Metrology Institutes (NMI’s) and their clients concerning the impact of the ‘<tt>Revised SI</tt>‘ on electrical metrology. The purpose of these guidelines is to establish a minimal set of actions and justifications for the electrical community to provide a smooth transition through the implementation of the ‘<tt>Revised SI</tt>‘, maintaining critical measurement traceability while avoiding unnecessary effort.</p>
+</foreword></preface><sections>
+<clause id="_bac4db2d-b5d3-c480-3e16-7e674c9de1a3" obligation="normative">
+<title id="_46069e95-51f4-1e9a-f2b9-70fe751a0935">Introduction</title>
+<p id="_6b3e2eee-cfcd-7901-f460-7807fdbc528a">The ‘<tt>Revised SI</tt>‘ is well documented but the authoritative source should be the latest version of the SI Brochure  <eref type="inline" bibitemid="meas-units" citeas="[1]"/>, as well as related documents of the CIPM, CCU, CCM, CCEM and other consultative committees  <eref type="inline" bibitemid="committes" citeas="[2]"/>. In essence, the change to the SI is the abrogation of the older base unit definitions and the acceptance of exact defining values of seven reference constants. These seven reference values can in turn be utilized to establish direct SI traceability to a number of SI units, both base units and derived units. The distinction between base and derived units is no longer fundamental, but is maintained mainly for historical continuity and pedagogical purposes. Details of the techniques typically used to establish traceability to the ‘<tt>Revised SI</tt>‘ are available in the <em>mise en pratique</em> documents prepared by various Consultative Committees <eref type="inline" bibitemid="committes" citeas="[2]"/>.</p>
+
+<p id="_1db00bae-e219-3138-f45d-6e49f936f0bf">At the time of preparation of this document it is expected that the ‘<tt>Revised SI</tt>‘ will be approved by the CGPM meeting in November, 2018 and that the ‘<tt>Revised SI</tt>‘ will be implemented worldwide on International Metrology Day, May 20, 2019. For the purposes of this document we simply refer to this as the implementation day.</p>
+
+<p id="_47f2a7d9-0668-3777-8fc9-b7b631fc6809">The changes caused by implementing the ‘<tt>Revised SI</tt>‘ can be broadly categorized as follows:</p>
+
+<dl id="_597d7353-257c-6ec6-4624-26b557b6237f"><dt><strong>Text</strong></dt>
+<dd id="_adf2dec0-6908-6b93-f2fe-8f8a0841469d"><p id="_3aabb5fd-7d13-9bd7-b702-255c1a2a8abb">The text of various documents and in particular the text of the definitions of the base units in the SI Brochure will be changed and will now include references to the seven defining constants.</p>
+</dd>
+<dt><strong>Concepts</strong></dt>
+<dd id="_f3e9000d-8f12-038f-523b-ebb17f1603f4"><p id="_2573a64d-873e-f65c-f144-509bf26f98c8">The physical concepts behind the definitions will change for the ampere, the kilogram, the kelvin and the mole. These concepts will be the subject of a longer term public education process.</p>
+</dd>
+<dt><strong>Values and Uncertainties</strong></dt>
+<dd id="_39471e5b-e0fc-5d42-a279-50c162cbbd5a"><p id="_430c66cb-7725-e18e-fb30-fc15bb57613a">The numerical values and uncertainties of various reference constants, some constants of nature and values of high precision reference artifacts will change on the day of implementation. In all cases, apart from the electrical units, these changes will be very small or zero and will go unnoticed by the general public.</p>
+</dd>
+<dt><strong>Traceability Paths</strong></dt>
+<dd id="_97b4b7d3-a187-7921-0519-c624d30d7fca"><p id="_61b39093-8696-7433-6424-37ae34ab6fd7">The transition to the ‘<tt>Revised SI</tt>‘ will allow new paths of SI traceability to the seven reference constants which were not valid in the past. These new traceability paths will have their own new uncertainty budgets.</p>
+</dd>
+</dl>
+
+<p id="_9448f4d6-b293-9d6f-45cf-08b27286cb41">While the transition to the ‘<tt>Revised SI</tt>‘ includes all of these types of change this document is primarily concerned with the impact of the changes to the values and uncertainties in electrical quantities on implementation day and immediately following.</p>
+</clause>
+
+<clause id="_fe87dc42-8b2f-a407-88cd-b39811e8dcef" obligation="normative">
+<title id="_28276819-f2c9-c388-8982-88284bdf3290">The Impact on Electrical Metrology</title>
+<p id="_e261bd2c-1348-7614-b5d7-c91827ba2806">In the electrical community, these changes to the SI primarily involve the fixing of the values of the
+Planck constant, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>h</mi>
+  </mstyle>
+</math><asciimath>h</asciimath></stem>, and the elementary charge, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>e</mi>
+  </mstyle>
+</math><asciimath>e</asciimath></stem>. Fortunately, this concept of using
+values for <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>h</mi>
+  </mstyle>
+</math><asciimath>h</asciimath></stem> and <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>e</mi>
+  </mstyle>
+</math><asciimath>e</asciimath></stem>
+has been in use by the electrical community since 1990 with the adoption of the conventional values
+of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>K</mi>
+      </mstyle>
+      <mrow>
+        <mi mathvariant="normal">J</mi>
+        <mo>−</mo>
+        <mn>90</mn>
+      </mrow>
+    </msub>
+    <mi>≅</mi>
+    <mn>2</mn>
+    <mi>e</mi>
+    <mo>/</mo>
+    <mi>h</mi>
+  </mstyle>
+</math><asciimath>ii(K)_{J-90} ~= 2e//h</asciimath></stem> and <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>R</mi>
+      </mstyle>
+      <mrow>
+        <mi mathvariant="normal">K</mi>
+        <mo>−</mo>
+        <mn>90</mn>
+      </mrow>
+    </msub>
+    <mi>≅</mi>
+    <mi>h</mi>
+    <mo>/</mo>
+    <msup>
+      <mi>e</mi>
+      <mn>2</mn>
+    </msup>
+  </mstyle>
+</math><asciimath>ii(R)_{K-90} ~= h//e^2</asciimath></stem>. However, the new values of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>h</mi>
+  </mstyle>
+</math><asciimath>h</asciimath></stem>
+and <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>e</mi>
+  </mstyle>
+</math><asciimath>e</asciimath></stem> are slightly different from those
+used to set <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>K</mi>
+      </mstyle>
+      <mrow>
+        <mi mathvariant="normal">J</mi>
+        <mo>−</mo>
+        <mn>90</mn>
+      </mrow>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(K)_{J-90}</asciimath></stem> and <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>R</mi>
+      </mstyle>
+      <mrow>
+        <mi mathvariant="normal">K</mi>
+        <mo>−</mo>
+        <mn>90</mn>
+      </mrow>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(R)_{K-90}</asciimath></stem>. The elimination of the ‘<tt>conventional</tt>‘
+units, represented by <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>K</mi>
+      </mstyle>
+      <mrow>
+        <mi mathvariant="normal">J</mi>
+        <mo>−</mo>
+        <mn>90</mn>
+      </mrow>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(K)_{J-90}</asciimath></stem> and <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>R</mi>
+      </mstyle>
+      <mrow>
+        <mi mathvariant="normal">K</mi>
+        <mo>−</mo>
+        <mn>90</mn>
+      </mrow>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(R)_{K-90}</asciimath></stem>, will mean that the disseminated electrical units will become fully coherent with the SI. However, this will result in a small discontinuous change on the day of implementation of the ‘<tt>Revised SI</tt>‘ but, from then on, no further changes will be necessary.</p>
+
+<p id="_6eef65a4-f363-82bb-11ec-94cdbebbac1f">In other communities such as mass, temperature, length, time etc. the changes to the ‘<tt>Revised SI</tt>‘ will not result in an observable discontinuity in quantity values. So the electrical community in particular needs guidance on two generic questions:</p>
+
+<ol id="_48304682-694d-39f4-ee48-e0dcc472ec55" type="arabic"><li><p id="_c2a3665b-ef0f-024b-09cd-88471bf93a7d">What do I need to do in preparation for the ‘<tt>Revised SI</tt>‘?</p>
+</li>
+<li><p id="_6f3b4b72-80b1-033c-98c8-319468783b00">What do I need to do on or immediately following implementation day?</p>
+</li>
+</ol>
+
+<p id="_92aa6819-e8d4-da4e-886e-d9a184c01bc4" align="center"><strong>What do I need to do in preparation for the ‘<tt>Revised SI</tt>‘?</strong></p>
+
+<p id="_d0dc6152-f7f9-54d9-8207-ec2d0c676c71">Well in advance of implementation day several tasks should be initiated.</p>
+
+<p id="_76d64cc4-d8d5-6d2b-d3ea-84b7ca995494">First, familiarize yourself, your staff and your impacted clients about the ‘<tt>Revised SI</tt>‘, its consequences and its implementation. Information is available from the CIPM publicity working group, various NMIs and public presentations  <eref type="inline" bibitemid="cipm-tgsi" citeas="[3]"/>-<eref type="inline" bibitemid="nick" citeas="[9]"/>.</p>
+
+<p id="_750632c9-0e81-07a3-a2f1-01aaf6275944">Secondly, review your traceability requirements by identifying standards, artifacts, instrumentation, control and statistical software and specific measurements that may be affected by this change. Particular focus should be made on the highest accuracy (lowest uncertainty) components (guidance for this is given in the next section).</p>
+
+<p id="_97ecb95d-74f8-c478-348d-e8bb11eebfef">Thirdly, review your quality management documents to identify references to the conventional
+values <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>K</mi>
+      </mstyle>
+      <mrow>
+        <mi mathvariant="normal">J</mi>
+        <mo>−</mo>
+        <mn>90</mn>
+      </mrow>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(K)_{J-90}</asciimath></stem> and <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>R</mi>
+      </mstyle>
+      <mrow>
+        <mi mathvariant="normal">K</mi>
+        <mo>−</mo>
+        <mn>90</mn>
+      </mrow>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(R)_{K-90}</asciimath></stem>, for example in calibration procedures and measurement software. These references need to be updated.</p>
+
+<p id="_b0debf6f-c76b-193e-a72c-df6836cd0010">NMI’s should also contact their clients so that they too can follow these guidelines.</p>
+
+<p id="_10a0387e-01e5-bc6d-3d3e-9c8db03a2f95" align="center"><strong>What do I need to do on or immediately following implementation day?</strong></p>
+
+<p id="_d4712af8-c54e-6d64-1d8a-64acfe29c27f">This question pertains specifically to what metrological changes are required on implementation day.
+On implementation day software, quality system procedures and other associated documentation
+should be updated to reflect the newly defined values of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>h</mi>
+  </mstyle>
+</math><asciimath>h</asciimath></stem> and <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>e</mi>
+  </mstyle>
+</math><asciimath>e</asciimath></stem>, as well as any revised traceability paths. At this time, the calibration values of all electrical instrumentation undergo a small discontinuous change. Of course it is acceptable to numerically correct, or even to recalibrate, all relevant instrumentation and standards. However, it is often impractical, and in many cases simply not necessary, to change the previous calibration values so that acceptable traceability to the SI is maintained.</p>
+
+<p id="_2b09de59-e908-881b-72d4-b4ff9d83913b">The relative change, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>d</mi>
+  </mstyle>
+</math><asciimath>d</asciimath></stem>, will be about <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo>+</mo>
+    <mn>1.066</mn>
+    <mo>×</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>7</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math><asciimath>+1.066 xx 10^(-7)</asciimath></stem> for voltage related quantities
+and about
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mo>+</mo>
+    <mn>1.784</mn>
+    <mo>×</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>8</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math><asciimath>+1.784 xx 10^(-8)</asciimath></stem> for resistance related quantities. The magnitude of these changes establishes
+general criteria
+that can be used to decide what action should be taken on implementation day. In general, if the
+existing <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>k</mi>
+    <mo>=</mo>
+    <mn>2</mn>
+  </mstyle>
+</math><asciimath>k = 2</asciimath></stem> expanded relative uncertainty, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>U</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(U)</asciimath></stem>, of any particular artifact or measurement is such that</p>
+
+<dl id="_1ad64883-ef90-7464-9dad-5331019b6442"><dt><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>2.5</mn>
+    <mtext> </mtext>
+    <mi>d</mi>
+    <mo>≤</mo>
+    <mstyle mathvariant="italic">
+      <mi>U</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>2.5" "d &lt;= ii(U)</asciimath></stem></dt>
+<dd id="_4b140fe2-3c70-56f7-e5fb-9133e167dedc"><p id="_c1dfe18d-9ccf-038a-5a82-ab266f997739">no action is necessary until the next recalibration (or measurement). The
+previous
+calibration data is still metrologically valid and any use of this data between
+implementation day and the next recalibration date should have an insignificant
+impact (the probability of the pre-redefinition confidence interval changes from 95 %
+to 87 %). This indicates that voltage related quantities with relative uncertainties of
+larger than <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>2.5</mn>
+    <mo>×</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>7</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math><asciimath>2.5 xx 10^(-7)</asciimath></stem> require no action. Similarly, resistance (and impedance) related
+quantities with uncertainties of larger than <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>5</mn>
+    <mo>×</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>8</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math><asciimath>5 xx 10^(-8)</asciimath></stem> require no action. The criteria are easily extended to compound quantities like power etc. This criterion applies to the majority of electrical instrumentation.</p>
+</dd>
+<dt><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>U</mi>
+    </mstyle>
+    <mo>&lt;</mo>
+    <mn>2.5</mn>
+    <mtext> </mtext>
+    <mi>d</mi>
+  </mstyle>
+</math><asciimath>ii(U) &lt; 2.5" "d</asciimath></stem></dt>
+<dd id="_78e1c843-3bbf-c928-cf9f-69f5e8710e91"><p id="_818c5d92-c9e1-b272-d4f5-b036463b31da">numerical correct or recalibrate before the standard’s next use for traceability. This criterion applies to all quantum standards, as well as some upper echelon artifact standards such as Zener voltage standards and top-quality resistance and capacitance standards. Note it also applies to the software that controls these measurements and the software that is used to statistically monitor their results.</p>
+</dd>
+</dl>
+
+<p id="_b470c93d-0ed3-6c6c-0826-fbb72cfafb78">Quantum standards such as Josephson voltage standards and quantum Hall resistance standards
+should have their reference values for <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>2</mn>
+    <mi>e</mi>
+    <mo>/</mo>
+    <mi>h</mi>
+  </mstyle>
+</math><asciimath>2e//h</asciimath></stem> and <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>h</mi>
+    <mo>/</mo>
+    <msup>
+      <mi>e</mi>
+      <mn>2</mn>
+    </msup>
+  </mstyle>
+</math><asciimath>h//e^2</asciimath></stem> updated, i.e.</p>
+
+<formula id="_a2f2d91f-6985-064f-c3ba-bb11900c909b" unnumbered="true"><stem block="true" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <mn>2</mn>
+    <mi>e</mi>
+    <mo>/</mo>
+    <mi>h</mi>
+    <mo>=</mo>
+    <mn>483597.848416984</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_GHz.V-1">
+      <mstyle mathvariant="normal">
+        <mi>GHz</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>V</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>1</mn>
+        </mrow>
+      </msup>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>2e // h = 483597.848416984 "unitsml(GHz//V)"</asciimath></stem></formula>
+
+<formula id="_d6ce3a84-a9dd-4f87-085b-26c305228294" unnumbered="true"><stem block="true" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <mi>h</mi>
+    <mo>/</mo>
+    <msup>
+      <mi>e</mi>
+      <mn>2</mn>
+    </msup>
+    <mo>=</mo>
+    <mn>25812.8074593045</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu18">
+      <mstyle mathvariant="normal">
+        <mi>Ω</mi>
+      </mstyle>
+      
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>h // e^2 = 25812.8074593045 "unitsml(Ohm)"</asciimath></stem></formula>
+
+<p id="_4c71df51-af0f-9a23-ef71-1098bc4be131">and their uncertainty budgets reviewed before their next use after implementation day. Truncation of
+the values of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>2</mn>
+    <mi>e</mi>
+    <mo>/</mo>
+    <mi>h</mi>
+  </mstyle>
+</math><asciimath>2e//h</asciimath></stem> and <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>h</mi>
+    <mo>/</mo>
+    <msup>
+      <mi>e</mi>
+      <mn>2</mn>
+    </msup>
+  </mstyle>
+</math><asciimath>h//e^2</asciimath></stem> should adhere to the CCEM <em>mise en pratique</em> <eref type="inline" bibitemid="wgsi" citeas="[4]"/> and should not detrimentally impact the results. In this way ultimate accuracy and subsequent traceability will be maintained through the transition.</p>
+
+<p id="_b2bf2b63-48cd-6c65-b844-b2a591f73ae2">Also note that the electric and magnetic constants, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>ε</mi>
+      </mstyle>
+      <mn>0</mn>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(epsilon)_0</asciimath></stem> and <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>μ</mi>
+      </mstyle>
+      <mn>0</mn>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(mu)_0</asciimath></stem>, will
+have approximately the same values
+after redefinition but now with relative uncertainties the same as that of the fine structure constant,
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>~</mi>
+    <mn>2.3</mn>
+    <mo>×</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>10</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math><asciimath>~ 2.3 xx 10^(-10)</asciimath></stem>.</p>
+
+<p id="_77db5601-2fda-2558-4b36-967b478ad7a8">For more detailed information or advice contact your local NMI, your RMO or BIPM.</p>
+</clause>
+
+
+</sections><bibliography><references id="_10a22c04-cf8d-669f-559f-632d9c46f2f9" normative="false" obligation="informative">
+<title id="_1d852725-9432-e979-5884-c8c2939954c3">References</title><bibitem anchor="meas-units" id="_93804eba-eed7-f4f4-9d4a-2efb0265fd7f">
+  <formattedref format="application/x-isodoc+xml">
+    <link target="http://www.bipm.org/en/measurement-units/new-si/#communication"/>
+  </formattedref>
+  <docidentifier type="metanorma">[1]</docidentifier>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem anchor="committes" id="_e663c33a-a3ad-3a3a-4649-5478dc08ed2e">
+  <formattedref format="application/x-isodoc+xml">
+    <link target="http://www.bipm.org/en/committees/cc/"/>
+  </formattedref>
+  <docidentifier type="metanorma">[2]</docidentifier>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem anchor="cipm-tgsi" id="_20b7f51c-e3f3-e0ea-6e8e-47e8249f5c8d">
+  <formattedref format="application/x-isodoc+xml">
+    <link target="http://www.bipm.org/en/committees/cc/wg/cipm-tgsi.html"/>
+  </formattedref>
+  <docidentifier type="metanorma">[3]</docidentifier>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem anchor="wgsi" id="_cee59784-7949-c82e-8e21-31a8b25beedf">
+  <formattedref format="application/x-isodoc+xml">
+    <link target="http://www.bipm.org/en/committees/cc/wg/wgsi.html"/>
+  </formattedref>
+  <docidentifier type="metanorma">[4]</docidentifier>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem anchor="david" id="_46479fa9-35b1-58e3-b879-5e9af04b44f2">
+  <formattedref format="application/x-isodoc+xml">David B. Newell, “A more fundamental International System of Units”, <em>Physics Today</em> <strong>67(7)</strong>, 35 (2014)</formattedref>
+  <docidentifier type="metanorma">[5]</docidentifier>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem anchor="new-si" id="_5352fd4c-9ece-f072-2335-c88f0cdd155d">
+  <formattedref format="application/x-isodoc+xml">www.npl.co.uk/news/special-journal-edition-on-the-new-si</formattedref>
+  <docidentifier type="metanorma">[6]</docidentifier>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem anchor="si-changes" id="_395a20ca-fbea-ee66-95cd-fffe0b881870">
+  <formattedref format="application/x-isodoc+xml">
+    <link target="http://www.npl.co.uk/reference/measurement-units/proposed-si-changes/"/>
+  </formattedref>
+  <docidentifier type="metanorma">[7]</docidentifier>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem anchor="research-new-si" id="_3c9c10e0-023a-5bf6-8d1a-39d5b6cf08e8">
+  <formattedref format="application/x-isodoc+xml">
+    <link target="https://www.ptb.de/cms/en/research-development/research-on-the-new-si.html"/>
+  </formattedref>
+  <docidentifier type="metanorma">[8]</docidentifier>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem anchor="nick" id="_2d31b368-3000-e116-fd9d-e612818f04c6">
+  <formattedref format="application/x-isodoc+xml">Nick Fletcher, Gert Rietveld, James Olthoff, Ilya Budovsky, and Martin Milton, “Electrical Units in the New SI: Saying Goodbye to the 1990 Values”, <em>NCSLI Measure</em>, <strong>Vol. 9</strong>, Iss. 3, 2014</formattedref>
+  <docidentifier type="metanorma">[9]</docidentifier>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem>
+
+
+
+
+
+
+
+
+
+</references></bibliography>
+</metanorma>

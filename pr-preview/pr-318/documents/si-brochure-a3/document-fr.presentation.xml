@@ -1,0 +1,1710 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metanorma xmlns="https://www.metanorma.org/ns/standoc" type="presentation" version="2.8.3" schema-version="v2.1.5" flavor="bipm">
+<bibdata type="standard">
+<title language="en" type="title-main">Units for photochemical and photobiological quantities</title>
+
+<title language="en" type="title-appendix-prefix">Appendix 3</title>
+
+<title language="fr" type="title-main">Unités pour la mesure des grandeurs photochimiques et photobiologiques</title>
+
+<title language="fr" type="title-appendix-prefix">Appendice 3</title>
+<docidentifier primary="true" type="BIPM">BIPM Brochure A3</docidentifier><docidentifier type="BIPM-parent-document">BIPM Brochure</docidentifier><docidentifier type="BIPM" language="en">BIPM Brochure Annex 3</docidentifier><docidentifier type="BIPM" language="fr">BIPM Brochure Annexe 3</docidentifier><docnumber>Brochure</docnumber><contributor><role type="author"/><organization>
+<name>Bureau international des poids et mesures</name>
+<abbreviation>BIPM</abbreviation></organization></contributor><contributor><role type="author"><description>committee</description></role><organization>
+<name>Bureau international des poids et mesures</name>
+<subdivision type="Committee">
+<name language="en">International Bureau of Weights and Measures</name>
+
+<name language="fr">Bureau International des Poids et Mesures</name>
+<identifier id="_d4ae422a-9f02-7cfc-3df9-f33763a9a36c">BIPM</identifier><fmt-identifier><tt><semx element="identifier" source="_d4ae422a-9f02-7cfc-3df9-f33763a9a36c">BIPM</semx></tt></fmt-identifier><identifier type="full" id="_db2f97ae-98d5-68d3-012b-7ae54ca901fc">BIPM</identifier><fmt-identifier><tt><semx element="identifier" source="_db2f97ae-98d5-68d3-012b-7ae54ca901fc">BIPM</semx></tt></fmt-identifier><logo><image src="" mimetype="image/svg+xml"><svg xmlns="http://www.w3.org/2000/svg" id="uuid-025413ec-7b33-4cab-9252-e1a1cbcbc7d4" width="216.86mm" height="51.44mm" viewBox="0 0 614.73 145.8" preserveaspectratio="xMidYMin slice"><rect x="40.59" y="-.11" width="9.37" height="145.75" style="fill:#0f3c80;"/><rect x="84.49" y="-.11" width="9.37" height="145.75" style="fill:#0f3c80;"/><rect x="129.99" y="-.11" width="9.37" height="145.75" style="fill:#0f3c80;"/><rect x="122.95" y="101.81" width="24.05" height="24.05" transform="translate(120.03 -62.1) rotate(45)" style="fill:#0f3c80;"/><rect x="77.01" y="60.88" width="24.05" height="24.05" transform="translate(77.63 -41.61) rotate(45)" style="fill:#0f3c80;"/><rect x="33.12" y="21.55" width="24.05" height="24.05" transform="translate(36.97 -22.09) rotate(45)" style="fill:#0f3c80;"/><path d="M191.41,25.36h42.05c9.98,0,17.57,2.4,22.75,7.2,5.18,4.8,7.78,11.71,7.78,20.74,0,5.47-.99,10.01-2.95,13.61-1.97,3.6-4.97,6.65-9,9.14,4.03.77,7.46,1.94,10.3,3.53,2.83,1.58,5.13,3.53,6.91,5.83,1.78,2.3,3.05,4.9,3.82,7.78.77,2.88,1.15,5.95,1.15,9.22,0,5.09-.89,9.6-2.66,13.54-1.78,3.94-4.27,7.25-7.49,9.94-3.22,2.69-7.13,4.71-11.74,6.05-4.61,1.34-9.79,2.02-15.55,2.02h-45.36V25.36ZM219.63,67.98h5.18c8.83,0,13.25-3.5,13.25-10.51s-4.42-10.51-13.25-10.51h-5.18v21.02ZM219.63,112.05h6.19c7.1,0,12.19-.91,15.26-2.74,3.07-1.82,4.61-4.75,4.61-8.78s-1.54-6.96-4.61-8.78c-3.07-1.82-8.16-2.74-15.26-2.74h-6.19v23.04Z" style="fill:#0f3c80;"/><path d="M315.68,25.36v108.58h-28.22V25.36h28.22Z" style="fill:#0f3c80;"/><path d="M363.05,133.93h-28.22V25.36h44.93c12.19,0,21.53,3.17,28.01,9.5,6.48,6.34,9.72,15.26,9.72,26.78s-3.24,20.45-9.72,26.78c-6.48,6.34-15.82,9.5-28.01,9.5h-16.7v36ZM363.05,75.18h9.36c10.37,0,15.55-4.51,15.55-13.54s-5.18-13.54-15.55-13.54h-9.36v27.07Z" style="fill:#0f3c80;"/><path d="M423.96,133.93l18.43-108.58h27.94l21.74,57.89,21.6-57.89h27.94l18.43,108.58h-28.08l-9.36-62.5-25.63,62.5h-11.23l-24.34-62.5-9.36,62.5h-28.08Z" style="fill:#0f3c80;"/></svg></image></logo>
+</subdivision></organization></contributor><contributor><role type="publisher"/><organization>
+<name>Bureau international des poids et mesures</name>
+<abbreviation>BIPM</abbreviation><logo type="full"><image src="" mimetype="image/svg+xml"><svg xmlns="http://www.w3.org/2000/svg" id="uuid-4162b5c4-51d5-4227-8dcd-f05974f2b5f8" width="206.54mm" height="104.93mm" viewBox="0 0 585.46 297.43" preserveaspectratio="xMidYMin slice"><path d="M31.43,8h18.98c4.51,0,7.93,1.08,10.27,3.25s3.51,5.29,3.51,9.36c0,2.47-.44,4.52-1.33,6.14-.89,1.62-2.24,3-4.06,4.13,1.82.35,3.37.88,4.65,1.59,1.28.72,2.32,1.59,3.12,2.63.8,1.04,1.38,2.21,1.72,3.51.35,1.3.52,2.69.52,4.16,0,2.3-.4,4.33-1.2,6.11-.8,1.78-1.93,3.27-3.38,4.48-1.45,1.21-3.22,2.12-5.3,2.73-2.08.61-4.42.91-7.02.91h-20.48V8ZM44.17,27.23h2.34c3.99,0,5.98-1.58,5.98-4.75s-1.99-4.74-5.98-4.74h-2.34v9.49ZM44.17,47.13h2.79c3.21,0,5.5-.41,6.89-1.24,1.39-.82,2.08-2.14,2.08-3.96s-.69-3.14-2.08-3.96-3.68-1.24-6.89-1.24h-2.79v10.4Z" style="fill:#0f3c80;"/><path d="M101.63,43.93c0,4.85-.98,8.4-2.94,10.66s-5.01,3.4-9.16,3.4-7.23-1.13-9.17-3.4c-1.95-2.26-2.92-5.82-2.92-10.66v-17.27h5.21v17.08c0,3.24.52,5.59,1.57,7.05,1.05,1.46,2.82,2.19,5.32,2.19s4.26-.72,5.28-2.16c1.03-1.44,1.54-3.8,1.54-7.08v-17.08h5.27v17.27Z" style="fill:#0f3c80;"/><path d="M129.47,26.31l-1.24,5.14c-.38-.23-.79-.41-1.24-.52s-.92-.17-1.43-.17c-2.56,0-4.49,1.1-5.79,3.29-1.3,2.19-1.95,5.46-1.95,9.82v13.14h-5.17v-30.34h5.17v5.33c.74-2.18,1.81-3.77,3.21-4.76s3.26-1.49,5.59-1.49c.55,0,1.08.05,1.6.16s.94.24,1.25.41Z" style="fill:#0f3c80;"/><path d="M161.05,42.63h-24.38c.19,3.28,1.16,5.82,2.9,7.63,1.75,1.81,4.08,2.71,7,2.71,2.22,0,4.11-.44,5.67-1.32,1.55-.88,2.79-2.2,3.7-3.95l4.35,2.29c-1.4,2.65-3.25,4.64-5.57,5.98-2.32,1.34-5.05,2.01-8.2,2.01-4.57,0-8.22-1.49-10.93-4.47s-4.08-6.93-4.08-11.84c0-4.57,1.44-8.37,4.32-11.39,2.88-3.03,6.42-4.54,10.63-4.54s7.83,1.39,10.54,4.16c2.71,2.77,4.06,6.41,4.06,10.92v1.81ZM155.88,38.95c-.28-2.6-1.25-4.63-2.92-6.08-1.67-1.45-3.84-2.17-6.51-2.17s-4.73.75-6.51,2.24c-1.78,1.49-2.82,3.5-3.14,6.01h19.08Z" style="fill:#0f3c80;"/><path d="M197.59,57.01h-5.21v-5.01c-1.04,1.95-2.49,3.43-4.36,4.46-1.87,1.03-4.08,1.54-6.62,1.54-4.23,0-7.71-1.53-10.44-4.6-2.73-3.07-4.09-6.99-4.09-11.78s1.37-8.49,4.11-11.44c2.74-2.95,6.26-4.43,10.55-4.43,2.43,0,4.58.48,6.44,1.43,1.86.95,3.33,2.32,4.41,4.09v-4.6h5.21v30.34ZM192.38,41.48c0-3.32-.92-5.95-2.75-7.89-1.83-1.94-4.27-2.9-7.32-2.9s-5.49,1.01-7.38,3.02-2.84,4.67-2.84,7.97.93,6.06,2.79,8.16c1.86,2.09,4.25,3.14,7.17,3.14s5.42-1.07,7.38-3.22c1.96-2.15,2.94-4.9,2.94-8.27Z" style="fill:#0f3c80;"/><path d="M232.19,43.93c0,4.85-.98,8.4-2.94,10.66s-5.01,3.4-9.16,3.4-7.23-1.13-9.17-3.4c-1.95-2.26-2.92-5.82-2.92-10.66v-17.27h5.21v17.08c0,3.24.52,5.59,1.57,7.05,1.05,1.46,2.82,2.19,5.32,2.19s4.26-.72,5.28-2.16c1.03-1.44,1.54-3.8,1.54-7.08v-17.08h5.27v17.27Z" style="fill:#0f3c80;"/><path d="M153.42,202.46h-12.74v-49.01h20.28c5.5,0,9.72,1.43,12.64,4.29,2.92,2.86,4.39,6.89,4.39,12.09s-1.46,9.23-4.39,12.09c-2.92,2.86-7.14,4.29-12.64,4.29h-7.54v16.25ZM153.42,175.94h4.22c4.68,0,7.02-2.04,7.02-6.11s-2.34-6.11-7.02-6.11h-4.22v12.22Z" style="fill:#0f3c80;"/><path d="M215.68,187.2c0,4.51-1.58,8.34-4.73,11.51-3.15,3.16-6.99,4.74-11.52,4.74s-8.29-1.58-11.41-4.73c-3.12-3.15-4.68-6.99-4.68-11.52s1.54-8.33,4.63-11.39c3.09-3.07,6.91-4.6,11.46-4.6s8.45,1.54,11.57,4.62c3.12,3.08,4.68,6.87,4.68,11.38ZM210.5,187.2c0-3.19-1.06-5.83-3.17-7.92-2.12-2.08-4.73-3.13-7.84-3.13s-5.75,1.04-7.84,3.13-3.14,4.72-3.14,7.92,1.06,5.9,3.19,8.06c2.13,2.16,4.72,3.24,7.79,3.24s5.75-1.08,7.85-3.24,3.16-4.84,3.16-8.06Z" style="fill:#0f3c80;"/><path d="M230.6,160.16c0,.97-.35,1.81-1.06,2.51-.71.7-1.55,1.05-2.52,1.05s-1.81-.35-2.51-1.05c-.7-.7-1.05-1.53-1.05-2.51s.35-1.81,1.05-2.52c.7-.71,1.53-1.06,2.51-1.06s1.81.35,2.52,1.06c.71.71,1.06,1.55,1.06,2.52ZM229.62,202.46h-5.21v-30.34h5.21v30.34Z" style="fill:#0f3c80;"/><path d="M269.3,202.46h-5.21v-5.01c-1.04,1.95-2.49,3.43-4.36,4.46-1.87,1.03-4.08,1.54-6.62,1.54-4.23,0-7.71-1.53-10.44-4.6-2.73-3.07-4.09-6.99-4.09-11.78s1.37-8.49,4.11-11.44c2.74-2.95,6.26-4.43,10.55-4.43,2.43,0,4.58.48,6.44,1.43,1.86.95,3.33,2.32,4.41,4.09v-27.9h5.21v53.64ZM264.09,186.94c0-3.32-.92-5.95-2.75-7.89-1.83-1.94-4.27-2.9-7.32-2.9s-5.49,1.01-7.38,3.02-2.84,4.67-2.84,7.97.93,6.06,2.79,8.16c1.86,2.09,4.25,3.14,7.17,3.14s5.42-1.07,7.38-3.22c1.96-2.15,2.94-4.9,2.94-8.27Z" style="fill:#0f3c80;"/><path d="M298.95,194.28c0,2.79-1.02,5.02-3.05,6.68s-4.8,2.49-8.32,2.49c-2.64,0-4.88-.53-6.71-1.6-1.83-1.07-3.17-2.62-4.01-4.65l4.41-2.79c.61,1.46,1.47,2.55,2.57,3.27,1.1.72,2.45,1.08,4.06,1.08,1.78,0,3.19-.37,4.25-1.11,1.06-.74,1.59-1.76,1.59-3.05,0-1.42-.48-2.5-1.44-3.24-.96-.74-2.84-1.61-5.63-2.6-2.73-1.02-4.78-2.27-6.14-3.78-1.36-1.5-2.05-3.28-2.05-5.33,0-2.62.87-4.69,2.62-6.19,1.75-1.5,4.18-2.25,7.32-2.25,2.29,0,4.19.47,5.71,1.4,1.52.93,2.74,2.37,3.65,4.32l-4.28,2.6c-.55-1.27-1.25-2.21-2.1-2.81-.85-.6-1.9-.9-3.17-.9-1.46,0-2.6.33-3.43,1-.82.67-1.24,1.57-1.24,2.71s.43,2.14,1.29,2.92c.86.78,2.42,1.54,4.68,2.29,3.34,1.08,5.75,2.37,7.22,3.86,1.47,1.49,2.21,3.39,2.21,5.7Z" style="fill:#0f3c80;"/><path d="M349.97,188.09h-24.38c.19,3.28,1.16,5.82,2.9,7.63,1.75,1.81,4.08,2.71,7,2.71,2.22,0,4.11-.44,5.67-1.32,1.55-.88,2.79-2.2,3.7-3.95l4.35,2.29c-1.4,2.65-3.25,4.64-5.57,5.98-2.32,1.34-5.05,2.01-8.2,2.01-4.57,0-8.22-1.49-10.93-4.47s-4.08-6.93-4.08-11.84c0-4.57,1.44-8.37,4.32-11.39,2.88-3.03,6.42-4.54,10.63-4.54s7.83,1.39,10.54,4.16c2.71,2.77,4.06,6.41,4.06,10.92v1.81ZM344.79,184.4c-.28-2.6-1.25-4.63-2.92-6.08-1.67-1.45-3.84-2.17-6.51-2.17s-4.73.75-6.51,2.24c-1.78,1.49-2.82,3.5-3.14,6.01h19.08Z" style="fill:#0f3c80;"/><path d="M365.13,176.79h-4.82v25.68h-5.17v-25.68h-3.65v-4.67h3.65v-12.28h5.17v12.28h4.82v4.67Z" style="fill:#0f3c80;"/><path d="M188.58,275.07l8.32-49.01h12.61l9.81,26.13,9.75-26.13h12.61l8.32,49.01h-12.67l-4.22-28.21-11.57,28.21h-5.07l-10.98-28.21-4.23,28.21h-12.67Z" style="fill:#0f3c80;"/><path d="M284.57,260.69h-24.38c.19,3.28,1.16,5.82,2.9,7.63,1.75,1.81,4.08,2.71,7,2.71,2.22,0,4.11-.44,5.67-1.32,1.55-.88,2.79-2.2,3.7-3.95l4.35,2.29c-1.4,2.65-3.25,4.64-5.57,5.98-2.32,1.34-5.05,2.01-8.2,2.01-4.57,0-8.22-1.49-10.93-4.47s-4.08-6.93-4.08-11.84c0-4.57,1.44-8.37,4.32-11.39,2.88-3.03,6.42-4.54,10.63-4.54s7.83,1.39,10.54,4.16c2.71,2.77,4.06,6.41,4.06,10.92v1.81ZM279.39,257.01c-.28-2.6-1.25-4.63-2.92-6.08-1.67-1.45-3.84-2.17-6.51-2.17s-4.73.75-6.51,2.24c-1.78,1.49-2.82,3.5-3.14,6.01h19.08Z" style="fill:#0f3c80;"/><path d="M310.2,266.88c0,2.79-1.02,5.02-3.05,6.68s-4.8,2.49-8.32,2.49c-2.64,0-4.88-.53-6.71-1.6-1.83-1.07-3.17-2.62-4.01-4.65l4.41-2.79c.61,1.46,1.47,2.55,2.57,3.27,1.1.72,2.45,1.08,4.06,1.08,1.78,0,3.19-.37,4.25-1.11,1.06-.74,1.59-1.76,1.59-3.05,0-1.42-.48-2.5-1.44-3.24-.96-.74-2.84-1.61-5.63-2.6-2.73-1.02-4.78-2.27-6.14-3.78-1.36-1.5-2.05-3.28-2.05-5.33,0-2.62.87-4.69,2.62-6.19,1.75-1.5,4.18-2.25,7.32-2.25,2.29,0,4.19.47,5.71,1.4,1.52.93,2.74,2.37,3.65,4.32l-4.28,2.6c-.55-1.27-1.25-2.21-2.1-2.81-.85-.6-1.9-.9-3.17-.9-1.46,0-2.6.33-3.43,1-.82.67-1.24,1.57-1.24,2.71s.43,2.14,1.29,2.92c.86.78,2.42,1.54,4.68,2.29,3.34,1.08,5.75,2.37,7.22,3.86,1.47,1.49,2.21,3.39,2.21,5.7Z" style="fill:#0f3c80;"/><path d="M342.17,261.99c0,4.85-.98,8.4-2.94,10.66s-5.01,3.4-9.16,3.4-7.23-1.13-9.17-3.4c-1.95-2.26-2.92-5.82-2.92-10.66v-17.27h5.21v17.08c0,3.24.52,5.59,1.57,7.05,1.05,1.46,2.82,2.19,5.32,2.19s4.26-.72,5.28-2.16c1.03-1.44,1.54-3.8,1.54-7.08v-17.08h5.27v17.27Z" style="fill:#0f3c80;"/><path d="M369.04,244.38l-1.24,5.14c-.38-.23-.79-.41-1.24-.52s-.92-.17-1.43-.17c-2.56,0-4.49,1.1-5.79,3.29-1.3,2.19-1.95,5.46-1.95,9.82v13.14h-5.17v-30.34h5.17v5.33c.74-2.18,1.81-3.77,3.21-4.76s3.26-1.49,5.59-1.49c.55,0,1.08.05,1.6.16s.94.24,1.25.41Z" style="fill:#0f3c80;"/><path d="M399.65,260.69h-24.38c.19,3.28,1.16,5.82,2.9,7.63,1.75,1.81,4.08,2.71,7,2.71,2.22,0,4.11-.44,5.67-1.32,1.55-.88,2.79-2.2,3.7-3.95l4.35,2.29c-1.4,2.65-3.25,4.64-5.57,5.98-2.32,1.34-5.05,2.01-8.2,2.01-4.57,0-8.22-1.49-10.93-4.47s-4.08-6.93-4.08-11.84c0-4.57,1.44-8.37,4.32-11.39,2.88-3.03,6.42-4.54,10.63-4.54s7.83,1.39,10.54,4.16c2.71,2.77,4.06,6.41,4.06,10.92v1.81ZM394.47,257.01c-.28-2.6-1.25-4.63-2.92-6.08-1.67-1.45-3.84-2.17-6.51-2.17s-4.73.75-6.51,2.24c-1.78,1.49-2.82,3.5-3.14,6.01h19.08Z" style="fill:#0f3c80;"/><path d="M425.28,266.88c0,2.79-1.02,5.02-3.05,6.68s-4.8,2.49-8.32,2.49c-2.64,0-4.88-.53-6.71-1.6-1.83-1.07-3.17-2.62-4.01-4.65l4.41-2.79c.61,1.46,1.47,2.55,2.57,3.27,1.1.72,2.45,1.08,4.06,1.08,1.78,0,3.19-.37,4.25-1.11,1.06-.74,1.59-1.76,1.59-3.05,0-1.42-.48-2.5-1.44-3.24-.96-.74-2.84-1.61-5.63-2.6-2.73-1.02-4.78-2.27-6.14-3.78-1.36-1.5-2.05-3.28-2.05-5.33,0-2.62.87-4.69,2.62-6.19,1.75-1.5,4.18-2.25,7.32-2.25,2.29,0,4.19.47,5.71,1.4,1.52.93,2.74,2.37,3.65,4.32l-4.28,2.6c-.55-1.27-1.25-2.21-2.1-2.81-.85-.6-1.9-.9-3.17-.9-1.46,0-2.6.33-3.43,1-.82.67-1.24,1.57-1.24,2.71s.43,2.14,1.29,2.92c.86.78,2.42,1.54,4.68,2.29,3.34,1.08,5.75,2.37,7.22,3.86,1.47,1.49,2.21,3.39,2.21,5.7Z" style="fill:#0f3c80;"/><path d="M101.6,80.19v49.01h-12.74v-49.01h12.74Z" style="fill:#0f3c80;"/><path d="M138.13,129.2h-5.21v-18.12c0-2.94-.52-5.1-1.57-6.47-1.05-1.38-2.71-2.06-5-2.06-2.6,0-4.59,1.03-5.95,3.08-1.37,2.05-2.05,5.06-2.05,9.01v14.57h-5.17v-30.34h5.17v4.47c.91-1.8,2.18-3.15,3.81-4.05,1.63-.9,3.62-1.35,5.97-1.35,3.11,0,5.55,1.03,7.33,3.08s2.67,4.93,2.67,8.63v19.55Z" style="fill:#0f3c80;"/><path d="M158.93,103.52h-4.82v25.68h-5.17v-25.68h-3.65v-4.67h3.65v-12.28h5.17v12.28h4.82v4.67Z" style="fill:#0f3c80;"/><path d="M192.55,114.82h-24.38c.19,3.28,1.16,5.82,2.9,7.63,1.75,1.81,4.08,2.71,7,2.71,2.22,0,4.11-.44,5.67-1.32,1.55-.88,2.79-2.2,3.7-3.95l4.35,2.29c-1.4,2.65-3.25,4.64-5.57,5.98-2.32,1.34-5.05,2.01-8.2,2.01-4.57,0-8.22-1.49-10.93-4.47s-4.08-6.93-4.08-11.84c0-4.57,1.44-8.37,4.32-11.39,2.88-3.03,6.42-4.54,10.63-4.54s7.83,1.39,10.54,4.16c2.71,2.77,4.06,6.41,4.06,10.92v1.81ZM187.37,111.14c-.28-2.6-1.25-4.63-2.92-6.08-1.67-1.45-3.84-2.17-6.51-2.17s-4.73.75-6.51,2.24c-1.78,1.49-2.82,3.5-3.14,6.01h19.08Z" style="fill:#0f3c80;"/><path d="M217.66,98.51l-1.24,5.14c-.38-.23-.79-.41-1.24-.52s-.92-.17-1.43-.17c-2.56,0-4.49,1.1-5.79,3.29-1.3,2.19-1.95,5.46-1.95,9.82v13.14h-5.17v-30.34h5.17v5.33c.74-2.18,1.81-3.77,3.21-4.76s3.26-1.49,5.59-1.49c.55,0,1.08.05,1.6.16s.94.24,1.25.41Z" style="fill:#0f3c80;"/><path d="M248.29,129.2h-5.21v-18.12c0-2.94-.52-5.1-1.57-6.47-1.05-1.38-2.71-2.06-5-2.06-2.6,0-4.59,1.03-5.95,3.08-1.37,2.05-2.05,5.06-2.05,9.01v14.57h-5.17v-30.34h5.17v4.47c.91-1.8,2.18-3.15,3.81-4.05,1.63-.9,3.62-1.35,5.97-1.35,3.11,0,5.55,1.03,7.33,3.08s2.67,4.93,2.67,8.63v19.55Z" style="fill:#0f3c80;"/><path d="M287.27,129.2h-5.21v-5.01c-1.04,1.95-2.49,3.43-4.36,4.46-1.87,1.03-4.08,1.54-6.62,1.54-4.23,0-7.71-1.53-10.44-4.6-2.73-3.07-4.09-6.99-4.09-11.78s1.37-8.49,4.11-11.44c2.74-2.95,6.26-4.43,10.55-4.43,2.43,0,4.58.48,6.44,1.43,1.86.95,3.33,2.32,4.41,4.09v-4.6h5.21v30.34ZM282.07,113.68c0-3.32-.92-5.95-2.75-7.89-1.83-1.94-4.27-2.9-7.32-2.9s-5.49,1.01-7.38,3.02-2.84,4.67-2.84,7.97.93,6.06,2.79,8.16c1.86,2.09,4.25,3.14,7.17,3.14s5.42-1.07,7.38-3.22c1.96-2.15,2.94-4.9,2.94-8.27Z" style="fill:#0f3c80;"/><path d="M308.54,103.52h-4.82v25.68h-5.17v-25.68h-3.65v-4.67h3.65v-12.28h5.17v12.28h4.82v4.67Z" style="fill:#0f3c80;"/><path d="M322.93,86.89c0,.97-.35,1.81-1.06,2.51-.71.7-1.55,1.05-2.52,1.05s-1.81-.35-2.51-1.05c-.7-.7-1.05-1.53-1.05-2.51s.35-1.81,1.05-2.52c.7-.71,1.53-1.06,2.51-1.06s1.81.35,2.52,1.06c.71.71,1.06,1.55,1.06,2.52ZM321.94,129.2h-5.21v-30.34h5.21v30.34Z" style="fill:#0f3c80;"/><path d="M363.05,113.93c0,4.51-1.58,8.34-4.73,11.51-3.15,3.16-6.99,4.74-11.52,4.74s-8.29-1.58-11.41-4.73c-3.12-3.15-4.68-6.99-4.68-11.52s1.54-8.33,4.63-11.39c3.09-3.07,6.91-4.6,11.46-4.6s8.45,1.54,11.57,4.62c3.12,3.08,4.68,6.87,4.68,11.38ZM357.88,113.93c0-3.19-1.06-5.83-3.17-7.92-2.12-2.08-4.73-3.13-7.84-3.13s-5.75,1.04-7.84,3.13-3.14,4.72-3.14,7.92,1.06,5.9,3.19,8.06c2.13,2.16,4.72,3.24,7.79,3.24s5.75-1.08,7.85-3.24,3.16-4.84,3.16-8.06Z" style="fill:#0f3c80;"/><path d="M396.29,129.2h-5.21v-18.12c0-2.94-.52-5.1-1.57-6.47-1.05-1.38-2.71-2.06-5-2.06-2.6,0-4.59,1.03-5.95,3.08-1.37,2.05-2.05,5.06-2.05,9.01v14.57h-5.17v-30.34h5.17v4.47c.91-1.8,2.18-3.15,3.81-4.05,1.63-.9,3.62-1.35,5.97-1.35,3.11,0,5.55,1.03,7.33,3.08s2.67,4.93,2.67,8.63v19.55Z" style="fill:#0f3c80;"/><path d="M435.27,129.2h-5.21v-5.01c-1.04,1.95-2.49,3.43-4.36,4.46-1.87,1.03-4.08,1.54-6.62,1.54-4.23,0-7.71-1.53-10.44-4.6-2.73-3.07-4.09-6.99-4.09-11.78s1.37-8.49,4.11-11.44c2.74-2.95,6.26-4.43,10.55-4.43,2.43,0,4.58.48,6.44,1.43,1.86.95,3.33,2.32,4.41,4.09v-4.6h5.21v30.34ZM430.06,113.68c0-3.32-.92-5.95-2.75-7.89-1.83-1.94-4.27-2.9-7.32-2.9s-5.49,1.01-7.38,3.02-2.84,4.67-2.84,7.97.93,6.06,2.79,8.16c1.86,2.09,4.25,3.14,7.17,3.14s5.42-1.07,7.38-3.22c1.96-2.15,2.94-4.9,2.94-8.27Z" style="fill:#0f3c80;"/><path d="M451.59,129.2h-5.17v-53.64h5.17v53.64Z" style="fill:#0f3c80;"/><path d="M507.57,129.2h-5.21v-5.01c-1.04,1.95-2.49,3.43-4.36,4.46-1.87,1.03-4.08,1.54-6.62,1.54-4.23,0-7.71-1.53-10.44-4.6-2.73-3.07-4.09-6.99-4.09-11.78s1.37-8.49,4.11-11.44c2.74-2.95,6.26-4.43,10.55-4.43,2.43,0,4.58.48,6.44,1.43,1.86.95,3.33,2.32,4.41,4.09v-27.9h5.21v53.64ZM502.36,113.68c0-3.32-.92-5.95-2.75-7.89-1.83-1.94-4.27-2.9-7.32-2.9s-5.49,1.01-7.38,3.02-2.84,4.67-2.84,7.97.93,6.06,2.79,8.16c1.86,2.09,4.25,3.14,7.17,3.14s5.42-1.07,7.38-3.22c1.96-2.15,2.94-4.9,2.94-8.27Z" style="fill:#0f3c80;"/><path d="M540.66,114.82h-24.38c.19,3.28,1.16,5.82,2.9,7.63,1.75,1.81,4.08,2.71,7,2.71,2.22,0,4.11-.44,5.67-1.32,1.55-.88,2.79-2.2,3.7-3.95l4.35,2.29c-1.4,2.65-3.25,4.64-5.57,5.98-2.32,1.34-5.05,2.01-8.2,2.01-4.57,0-8.22-1.49-10.93-4.47s-4.08-6.93-4.08-11.84c0-4.57,1.44-8.37,4.32-11.39,2.88-3.03,6.42-4.54,10.63-4.54s7.83,1.39,10.54,4.16c2.71,2.77,4.06,6.41,4.06,10.92v1.81ZM535.49,111.14c-.28-2.6-1.25-4.63-2.92-6.08-1.67-1.45-3.84-2.17-6.51-2.17s-4.73.75-6.51,2.24c-1.78,1.49-2.82,3.5-3.14,6.01h19.08Z" style="fill:#0f3c80;"/><path d="M567.26,121.01c0,2.79-1.02,5.02-3.05,6.68s-4.8,2.49-8.32,2.49c-2.64,0-4.88-.53-6.71-1.6-1.83-1.07-3.17-2.62-4.01-4.65l4.41-2.79c.61,1.46,1.47,2.55,2.57,3.27,1.1.72,2.45,1.08,4.06,1.08,1.78,0,3.19-.37,4.25-1.11,1.06-.74,1.59-1.76,1.59-3.05,0-1.42-.48-2.5-1.44-3.24-.96-.74-2.84-1.61-5.63-2.6-2.73-1.02-4.78-2.27-6.14-3.78-1.36-1.5-2.05-3.28-2.05-5.33,0-2.62.87-4.69,2.62-6.19,1.75-1.5,4.18-2.25,7.32-2.25,2.29,0,4.19.47,5.71,1.4,1.52.93,2.74,2.37,3.65,4.32l-4.28,2.6c-.55-1.27-1.25-2.21-2.1-2.81-.85-.6-1.9-.9-3.17-.9-1.46,0-2.6.33-3.43,1-.82.67-1.24,1.57-1.24,2.71s.43,2.14,1.29,2.92c.86.78,2.42,1.54,4.68,2.29,3.34,1.08,5.75,2.37,7.22,3.86,1.47,1.49,2.21,3.39,2.21,5.7Z" style="fill:#0f3c80;"/><rect x="31.43" y="71.7" width="4.12" height="203.36" style="fill:#0f3c80;"/><rect x="26.32" y="104.96" width="14.34" height="14.34" transform="translate(89.1 9.16) rotate(45)" style="fill:#0f3c80;"/><rect x="86.8" y="144.12" width="4.12" height="130.95" style="fill:#0f3c80;"/><rect x="81.69" y="177.37" width="14.34" height="14.34" transform="translate(156.52 -8.78) rotate(45)" style="fill:#0f3c80;"/><rect x="140.91" y="216.92" width="4.12" height="58.15" style="fill:#0f3c80;"/><rect x="135.8" y="250.17" width="14.34" height="14.34" transform="translate(223.84 -25.72) rotate(45)" style="fill:#0f3c80;"/></svg></image></logo>
+<logo type="small"><image src="" mimetype="image/svg+xml"><svg xmlns="http://www.w3.org/2000/svg" id="uuid-025413ec-7b33-4cab-9252-e1a1cbcbc7d4" width="216.86mm" height="51.44mm" viewBox="0 0 614.73 145.8" preserveaspectratio="xMidYMin slice"><rect x="40.59" y="-.11" width="9.37" height="145.75" style="fill:#0f3c80;"/><rect x="84.49" y="-.11" width="9.37" height="145.75" style="fill:#0f3c80;"/><rect x="129.99" y="-.11" width="9.37" height="145.75" style="fill:#0f3c80;"/><rect x="122.95" y="101.81" width="24.05" height="24.05" transform="translate(120.03 -62.1) rotate(45)" style="fill:#0f3c80;"/><rect x="77.01" y="60.88" width="24.05" height="24.05" transform="translate(77.63 -41.61) rotate(45)" style="fill:#0f3c80;"/><rect x="33.12" y="21.55" width="24.05" height="24.05" transform="translate(36.97 -22.09) rotate(45)" style="fill:#0f3c80;"/><path d="M191.41,25.36h42.05c9.98,0,17.57,2.4,22.75,7.2,5.18,4.8,7.78,11.71,7.78,20.74,0,5.47-.99,10.01-2.95,13.61-1.97,3.6-4.97,6.65-9,9.14,4.03.77,7.46,1.94,10.3,3.53,2.83,1.58,5.13,3.53,6.91,5.83,1.78,2.3,3.05,4.9,3.82,7.78.77,2.88,1.15,5.95,1.15,9.22,0,5.09-.89,9.6-2.66,13.54-1.78,3.94-4.27,7.25-7.49,9.94-3.22,2.69-7.13,4.71-11.74,6.05-4.61,1.34-9.79,2.02-15.55,2.02h-45.36V25.36ZM219.63,67.98h5.18c8.83,0,13.25-3.5,13.25-10.51s-4.42-10.51-13.25-10.51h-5.18v21.02ZM219.63,112.05h6.19c7.1,0,12.19-.91,15.26-2.74,3.07-1.82,4.61-4.75,4.61-8.78s-1.54-6.96-4.61-8.78c-3.07-1.82-8.16-2.74-15.26-2.74h-6.19v23.04Z" style="fill:#0f3c80;"/><path d="M315.68,25.36v108.58h-28.22V25.36h28.22Z" style="fill:#0f3c80;"/><path d="M363.05,133.93h-28.22V25.36h44.93c12.19,0,21.53,3.17,28.01,9.5,6.48,6.34,9.72,15.26,9.72,26.78s-3.24,20.45-9.72,26.78c-6.48,6.34-15.82,9.5-28.01,9.5h-16.7v36ZM363.05,75.18h9.36c10.37,0,15.55-4.51,15.55-13.54s-5.18-13.54-15.55-13.54h-9.36v27.07Z" style="fill:#0f3c80;"/><path d="M423.96,133.93l18.43-108.58h27.94l21.74,57.89,21.6-57.89h27.94l18.43,108.58h-28.08l-9.36-62.5-25.63,62.5h-11.23l-24.34-62.5-9.36,62.5h-28.08Z" style="fill:#0f3c80;"/></svg></image></logo>
+</organization></contributor><edition language="">9</edition><edition language="fr">neuvième édition</edition><version><revision-date>2019-05-20</revision-date></version><language current="true">fr</language><script current="true">Latn</script><status><stage language="">in-force</stage><stage language="fr">en-vigeur</stage></status><copyright><from>2019</from><owner><organization>
+<name>Bureau international des poids et mesures</name>
+<abbreviation>BIPM</abbreviation></organization></owner></copyright><ext><doctype language="">brochure</doctype><doctype language="fr">brochure</doctype><flavor>bipm</flavor><structuredidentifier><docnumber>Brochure</docnumber><appendix>3</appendix>
+</structuredidentifier></ext></bibdata><localized-strings><localized-string key="scope" language="en">Scope</localized-string><localized-string key="symbolsabbrev" language="en">Symbols and abbreviated terms</localized-string><localized-string key="abbrev" language="en">Abbreviated terms</localized-string><localized-string key="symbols" language="en">Symbols</localized-string><localized-string key="table_of_contents" language="en">Contents</localized-string><localized-string key="introduction" language="en">Introduction</localized-string><localized-string key="foreword" language="en">Foreword</localized-string><localized-string key="abstract" language="en">Abstract</localized-string><localized-string key="acknowledgements" language="en">Acknowledgements</localized-string><localized-string key="executivesummary" language="en">Executive summary</localized-string><localized-string key="termsdef" language="en">Terms and definitions</localized-string><localized-string key="termsdefsymbolsabbrev" language="en">Terms, definitions, symbols and abbreviated terms</localized-string><localized-string key="termsdefsymbols" language="en">Terms, definitions and symbols</localized-string><localized-string key="termsdefabbrev" language="en">Terms, definitions and abbreviated terms</localized-string><localized-string key="normref" language="en">Normative references</localized-string><localized-string key="bibliography" language="en">References</localized-string><localized-string key="index" language="en">Index</localized-string><localized-string key="see" language="en">see</localized-string><localized-string key="see_also" language="en">see also</localized-string><localized-string key="preface" language="en">Preface</localized-string><localized-string key="section" language="en">Section</localized-string><localized-string key="clause" language="en">Chapter</localized-string><localized-string key="annex" language="en">Annex</localized-string><localized-string key="appendix" language="en">Appendix</localized-string><localized-string key="continued" language="en">continued</localized-string><localized-string key="no_terms_boilerplate" language="en">No terms and definitions are listed in this document.
+</localized-string><localized-string key="internal_terms_boilerplate" language="en">For the purposes of this document, the following terms and definitions apply.
+</localized-string><localized-string key="norm_with_refs_pref" language="en">The following referenced documents are indispensable for the application of this document. For dated references, only the edition cited applies. For undated references, the latest edition of the referenced document (including any amendments) applies.</localized-string><localized-string key="norm_empty_pref" language="en">There are no normative references in this document.</localized-string><localized-string key="external_terms_boilerplate" language="en">For the purposes of this document, the terms and definitions given in % apply.
+</localized-string><localized-string key="internal_external_terms_boilerplate" language="en">For the purposes of this document, the terms and definitions given in % and the following apply.
+</localized-string><localized-string key="no_information_available" language="en">[NO INFORMATION AVAILABLE]</localized-string><localized-string key="term_defined_in" language="en">(%)</localized-string><localized-string key="binary_and" language="en">%1 <conn>and</conn> %2</localized-string><localized-string key="multiple_and" language="en">%1<enum-comma>,</enum-comma> <conn>and</conn> %2</localized-string><localized-string key="binary_or" language="en">%1 <conn>or</conn> %2</localized-string><localized-string key="multiple_or" language="en">%1<enum-comma>,</enum-comma> <conn>or</conn> %2</localized-string><localized-string key="chain_and" language="en">%1 <conn>and</conn> %2</localized-string><localized-string key="chain_or" language="en">%1 <conn>or</conn> %2</localized-string><localized-string key="chain_from" language="en">%1 <conn>from</conn> %2</localized-string><localized-string key="chain_to" language="en">%1 <conn>to</conn> %2</localized-string><localized-string key="nested_xref" language="en">%1<comma>,</comma> %2</localized-string><localized-string key="list_nested_xref" language="en">%1 %2</localized-string><localized-string key="SpelloutRules" language="en">spellout-ordinal</localized-string><localized-string key="OrdinalRules" language="en">digits-ordinal</localized-string><localized-string key="note" language="en">Note</localized-string><localized-string key="note_xref" language="en">Note</localized-string><localized-string key="termnote" language="en">Note % to entry</localized-string><localized-string key="para_xref" language="en">Paragraph</localized-string><localized-string key="list" language="en">List</localized-string><localized-string key="deflist" language="en">Definition List</localized-string><localized-string key="figure" language="en">Figure</localized-string><localized-string key="diagram" language="en">Diagram</localized-string><localized-string key="formula" language="en">Equation</localized-string><localized-string key="inequality" language="en">Inequality</localized-string><localized-string key="table" language="en">Table</localized-string><localized-string key="requirement" language="en">Requirement</localized-string><localized-string key="recommendation" language="en">Recommendation</localized-string><localized-string key="permission" language="en">Permission</localized-string><localized-string key="box" language="en">Box</localized-string><localized-string key="no_identifier" language="en">(NO ID)</localized-string><localized-string key="recommendationtest" language="en">Recommendation test</localized-string><localized-string key="requirementtest" language="en">Requirement test</localized-string><localized-string key="permissiontest" language="en">Permission test</localized-string><localized-string key="recommendationclass" language="en">Recommendations class</localized-string><localized-string key="requirementclass" language="en">Requirements class</localized-string><localized-string key="permissionclass" language="en">Permissions class</localized-string><localized-string key="abstracttest" language="en">Abstract test</localized-string><localized-string key="conformanceclass" language="en">Conformance class</localized-string><localized-string key="key" language="en">Key</localized-string><localized-string key="example" language="en">EXAMPLE</localized-string><localized-string key="example_xref" language="en">Example</localized-string><localized-string key="where" language="en">where</localized-string><localized-string key="where_one" language="en">where</localized-string><localized-string key="wholeoftext" language="en">Whole of text</localized-string><localized-string key="draft_label" language="en">draft</localized-string><localized-string key="inform_annex" language="en">informative</localized-string><localized-string key="norm_annex" language="en">normative</localized-string><localized-string key="modified" language="en">modified</localized-string><localized-string key="adapted" language="en">adapted</localized-string><localized-string key="deprecated" language="en">DEPRECATED</localized-string><localized-string key="and" language="en">and</localized-string><localized-string key="all_parts" language="en">All Parts</localized-string><localized-string key="edition_ordinal" language="en">{{ var1 | ordinal_word: '', '' }} edition</localized-string><localized-string key="edition_cardinal" language="en">edition {{ var1 }}</localized-string><localized-string key="edition" language="en">edition</localized-string><localized-string key="version" language="en">version</localized-string><localized-string key="toc_figures" language="en">List of figures</localized-string><localized-string key="toc_tables" language="en">List of tables</localized-string><localized-string key="toc_recommendations" language="en">List of recommendations</localized-string><localized-string key="month_january" language="en">January</localized-string><localized-string key="month_february" language="en">February</localized-string><localized-string key="month_march" language="en">March</localized-string><localized-string key="month_april" language="en">April</localized-string><localized-string key="month_may" language="en">May</localized-string><localized-string key="month_june" language="en">June</localized-string><localized-string key="month_july" language="en">July</localized-string><localized-string key="month_august" language="en">August</localized-string><localized-string key="month_september" language="en">September</localized-string><localized-string key="month_october" language="en">October</localized-string><localized-string key="month_november" language="en">November</localized-string><localized-string key="month_december" language="en">December</localized-string><localized-string key="obligation" language="en">Obligation</localized-string><localized-string key="admonition.danger" language="en">Danger</localized-string><localized-string key="admonition.warning" language="en">Warning</localized-string><localized-string key="admonition.caution" language="en">Caution</localized-string><localized-string key="admonition.important" language="en">Important</localized-string><localized-string key="admonition.safety_precautions" language="en">Safety Precautions</localized-string><localized-string key="admonition.editorial" language="en">Editorial Note</localized-string><localized-string key="title_prefixes.part" language="en">Part</localized-string><localized-string key="title_prefixes.amendment" language="en">Amendment</localized-string><localized-string key="title_prefixes.corrigendum" language="en">Corrigendum</localized-string><localized-string key="title_prefixes.addendum" language="en">Addendum</localized-string><localized-string key="title_prefixes.supplement" language="en">Supplement</localized-string><localized-string key="title_prefixes.annex" language="en">Annex</localized-string><localized-string key="title_prefixes.appendix" language="en">Appendix</localized-string><localized-string key="locality.section" language="en">Section</localized-string><localized-string key="locality.clause" language="en">Clause</localized-string><localized-string key="locality.part" language="en">Part</localized-string><localized-string key="locality.paragraph" language="en">Paragraph</localized-string><localized-string key="locality.chapter" language="en">Chapter</localized-string><localized-string key="locality.page" language="en">Page</localized-string><localized-string key="locality.table" language="en">Table</localized-string><localized-string key="locality.annex" language="en">Annex</localized-string><localized-string key="locality.figure" language="en">Figure</localized-string><localized-string key="locality.example" language="en">Example</localized-string><localized-string key="locality.note" language="en">Note</localized-string><localized-string key="locality.formula" language="en">Formula</localized-string><localized-string key="grammar_abbrevs.masculine" language="en">m</localized-string><localized-string key="grammar_abbrevs.feminine" language="en">f</localized-string><localized-string key="grammar_abbrevs.neuter" language="en">n</localized-string><localized-string key="grammar_abbrevs.common" language="en">common</localized-string><localized-string key="grammar_abbrevs.singular" language="en">sg</localized-string><localized-string key="grammar_abbrevs.dual" language="en">dual</localized-string><localized-string key="grammar_abbrevs.pl" language="en">pl</localized-string><localized-string key="grammar_abbrevs.isPreposition" language="en">prep</localized-string><localized-string key="grammar_abbrevs.isParticiple" language="en">part</localized-string><localized-string key="grammar_abbrevs.isAdjective" language="en">adj</localized-string><localized-string key="grammar_abbrevs.isAdverb" language="en">adv</localized-string><localized-string key="grammar_abbrevs.isNoun" language="en">noun</localized-string><localized-string key="grammar_abbrevs.isVerb" language="en">verb</localized-string><localized-string key="relatedterms.deprecates" language="en">deprecates</localized-string><localized-string key="relatedterms.supersedes" language="en">supersedes</localized-string><localized-string key="relatedterms.narrower" language="en">narrower</localized-string><localized-string key="relatedterms.broader" language="en">broader</localized-string><localized-string key="relatedterms.equivalent" language="en">equivalent</localized-string><localized-string key="relatedterms.compare" language="en">compare</localized-string><localized-string key="relatedterms.contrast" language="en">contrast</localized-string><localized-string key="relatedterms.see" language="en">see</localized-string><localized-string key="relatedterms.seealso" language="en">see also</localized-string><localized-string key="Clause.sg" language="en">Clause</localized-string><localized-string key="Clause.pl" language="en">Clauses</localized-string><localized-string key="Annex.sg" language="en">Annex</localized-string><localized-string key="Annex.pl" language="en">Annexes</localized-string><localized-string key="Appendix.sg" language="en">Appendix</localized-string><localized-string key="Appendix.pl" language="en">Appendixes</localized-string><localized-string key="Note.sg" language="en">Note</localized-string><localized-string key="Note.pl" language="en">Notes</localized-string><localized-string key="Note_%_to_entry.sg" language="en">Note % to entry</localized-string><localized-string key="Note_%_to_entry.pl" language="en">Notes % to entry</localized-string><localized-string key="List.sg" language="en">List</localized-string><localized-string key="List.pl" language="en">Lists</localized-string><localized-string key="Figure.sg" language="en">Figure</localized-string><localized-string key="Figure.pl" language="en">Figures</localized-string><localized-string key="Formula.sg" language="en">Formula</localized-string><localized-string key="Formula.pl" language="en">Formulas</localized-string><localized-string key="Table.sg" language="en">Table</localized-string><localized-string key="Table.pl" language="en">Tables</localized-string><localized-string key="Requirement.sg" language="en">Requirement</localized-string><localized-string key="Requirement.pl" language="en">Requirements</localized-string><localized-string key="Recommendation.sg" language="en">Recommendation</localized-string><localized-string key="Recommendation.pl" language="en">Recommendations</localized-string><localized-string key="Permission.sg" language="en">Permission</localized-string><localized-string key="Permission.pl" language="en">Permissions</localized-string><localized-string key="Example.sg" language="en">Example</localized-string><localized-string key="Example.pl" language="en">Examples</localized-string><localized-string key="Part.sg" language="en">Part</localized-string><localized-string key="Part.pl" language="en">Parts</localized-string><localized-string key="Section.sg" language="en">Section</localized-string><localized-string key="Section.pl" language="en">Sections</localized-string><localized-string key="Paragraph.sg" language="en">Paragraph</localized-string><localized-string key="Paragraph.pl" language="en">Paragraphs</localized-string><localized-string key="Chapter.sg" language="en">Chapter</localized-string><localized-string key="Chapter.pl" language="en">Chapters</localized-string><localized-string key="Page.sg" language="en">Page</localized-string><localized-string key="Page.pl" language="en">Pages</localized-string><localized-string key="punct.colon" language="en">:</localized-string><localized-string key="punct.comma" language="en">,</localized-string><localized-string key="punct.enum-comma" language="en">,</localized-string><localized-string key="punct.semicolon" language="en">;</localized-string><localized-string key="punct.period" language="en">.</localized-string><localized-string key="punct.close-paren" language="en">)</localized-string><localized-string key="punct.open-paren" language="en">(</localized-string><localized-string key="punct.close-bracket" language="en">]</localized-string><localized-string key="punct.open-bracket" language="en">[</localized-string><localized-string key="punct.question-mark" language="en">?</localized-string><localized-string key="punct.exclamation-mark" language="en">!</localized-string><localized-string key="punct.em-dash" language="en">—</localized-string><localized-string key="punct.en-dash" language="en">–</localized-string><localized-string key="punct.number-en-dash" language="en">–</localized-string><localized-string key="punct.open-quote" language="en">“</localized-string><localized-string key="punct.close-quote" language="en">”</localized-string><localized-string key="punct.open-nested-quote" language="en">‘</localized-string><localized-string key="punct.close-nested-quote" language="en">’</localized-string><localized-string key="punct.ellipse" language="en">…</localized-string><localized-string key="level2_ancillary" language="en">Annex</localized-string><localized-string key="level3_ancillary" language="en">Appendix</localized-string><localized-string key="level2_ancillary_2019" language="en">Appendix</localized-string><localized-string key="level3_ancillary_2019" language="en">Annex</localized-string><localized-string key="level2_ancillary_alt" language="en">Annexe</localized-string><localized-string key="level3_ancillary_alt" language="en">Appendice</localized-string><localized-string key="level2_ancillary_alt_2019" language="en">Annexe</localized-string><localized-string key="level3_ancillary_alt_2019" language="en">Annexe</localized-string><localized-string key="level4_ancillary" language="en">Part</localized-string><localized-string key="level4_ancillary_alt" language="en">Partie</localized-string><localized-string key="level5_ancillary" language="en">Sub-part</localized-string><localized-string key="level5_ancillary_alt" language="en">Partie de sub</localized-string><localized-string key="iso_annex" language="en">Annex</localized-string><localized-string key="subclause" language="en">Section</localized-string><localized-string key="clause_jcgm" language="en">Clause</localized-string><localized-string key="subclause_jcgm" language="en">Clause</localized-string><localized-string key="all_rights_reserved" language="en">All rights reserved</localized-string><localized-string key="adapted_from" language="en">Adapted from: </localized-string><localized-string key="modified_from" language="en">Modified from: </localized-string><localized-string key="prefacenote" language="en">NOTE</localized-string><localized-string key="listnote" language="en">Note</localized-string><localized-string key="date" language="en">Date</localized-string><localized-string key="authorized" language="en">Authorized</localized-string><localized-string key="language" language="en">en</localized-string><localized-string key="script" language="en">Latn</localized-string><localized-string key="scope" language="fr">Domaine d’application</localized-string><localized-string key="symbolsabbrev" language="fr">Symboles et termes abrégés</localized-string><localized-string key="abbrev" language="fr">Termes abrégés</localized-string><localized-string key="symbols" language="fr">Symboles</localized-string><localized-string key="table_of_contents" language="fr">Table des matières</localized-string><localized-string key="introduction" language="fr">Introduction</localized-string><localized-string key="foreword" language="fr">Avant-propos</localized-string><localized-string key="abstract" language="fr">Résumé</localized-string><localized-string key="acknowledgements" language="fr">Remerciements</localized-string><localized-string key="executivesummary" language="fr">Résumé exécutif</localized-string><localized-string key="termsdef" language="fr">Termes et définitions</localized-string><localized-string key="termsdefsymbolsabbrev" language="fr">Termes, définitions, symboles et termes abrégés</localized-string><localized-string key="termsdefsymbols" language="fr">Termes, définitions et symboles</localized-string><localized-string key="termsdefabbrev" language="fr">Termes, définitions et termes abrégés</localized-string><localized-string key="normref" language="fr">Références normatives</localized-string><localized-string key="bibliography" language="fr">Références</localized-string><localized-string key="index" language="fr">Index</localized-string><localized-string key="see" language="fr">voir</localized-string><localized-string key="see_also" language="fr">voir aussi</localized-string><localized-string key="preface" language="fr">Préface</localized-string><localized-string key="section" language="fr">Section</localized-string><localized-string key="clause" language="fr">chapitre</localized-string><localized-string key="annex" language="fr">Annexe</localized-string><localized-string key="appendix" language="fr">Appendice</localized-string><localized-string key="continued" language="fr">continué</localized-string><localized-string key="no_terms_boilerplate" language="fr">Aucun terme n’est défini dans le présent document.
+</localized-string><localized-string key="internal_terms_boilerplate" language="fr">Pour les besoins du présent document, les termes et définitions suivants s’appliquent.
+</localized-string><localized-string key="norm_with_refs_pref" language="fr">Les documents suivants cités dans le texte sont indispensables pour l'application de ce document. Pour les références datées, seule l’édition citée s’applique. Pour les références non datées, la dernière édition du document de référence s’applique (y compris les éventuels amendements).</localized-string><localized-string key="norm_empty_pref" language="fr">Le présent document ne contient aucune référence normative.</localized-string><localized-string key="external_terms_boilerplate" language="fr">Pour les besoins du présent document, les termes et définitions de % s’appliquent.
+</localized-string><localized-string key="internal_external_terms_boilerplate" language="fr">Pour les besoins du présent document, les termes et définitions de % ainsi que les suivants, s’appliquent.
+</localized-string><localized-string key="no_information_available" language="fr">[PAS D’INFORMATION DISPONIBLE]</localized-string><localized-string key="term_defined_in" language="fr">(%)</localized-string><localized-string key="binary_and" language="fr">%1 <conn>et</conn> %2</localized-string><localized-string key="multiple_and" language="fr">%1<enum-comma>,</enum-comma> <conn>et</conn> %2</localized-string><localized-string key="binary_or" language="fr">%1 <conn>ou</conn> %2</localized-string><localized-string key="multiple_or" language="fr">%1<enum-comma>,</enum-comma> <conn>ou</conn> %2</localized-string><localized-string key="chain_and" language="fr">%1 <conn>et</conn> %2</localized-string><localized-string key="chain_or" language="fr">%1 <conn>ou</conn> %2</localized-string><localized-string key="chain_from" language="fr">%1 <conn>de</conn> %2</localized-string><localized-string key="chain_to" language="fr">%1 <conn>à</conn> %2</localized-string><localized-string key="nested_xref" language="fr">%1<comma>,</comma> %2</localized-string><localized-string key="list_nested_xref" language="fr">%1 %2</localized-string><localized-string key="ordinal_keys.0" language="fr">gender</localized-string><localized-string key="ordinal_keys.1" language="fr">number</localized-string><localized-string key="SpelloutRules.m_sg" language="fr">spellout-ordinal-masculine</localized-string><localized-string key="SpelloutRules.f_sg" language="fr">spellout-ordinal-feminine</localized-string><localized-string key="SpelloutRules.m_pl" language="fr">spellout-ordinal-masculine-plural</localized-string><localized-string key="SpelloutRules.f_pl" language="fr">spellout-ordinal-feminine-plural</localized-string><localized-string key="OrdinalRules.m_sg" language="fr">digits-ordinal-masculine</localized-string><localized-string key="OrdinalRules.f_sg" language="fr">digits-ordinal-feminine</localized-string><localized-string key="OrdinalRules.m_pl" language="fr">digits-ordinal-masculine-plural</localized-string><localized-string key="OrdinalRules.f_pl" language="fr">digits-ordinal-feminine-plural</localized-string><localized-string key="note" language="fr">Note</localized-string><localized-string key="note_xref" language="fr">note</localized-string><localized-string key="termnote" language="fr">Note % à l’article</localized-string><localized-string key="para_xref" language="fr">Alinéa</localized-string><localized-string key="figure" language="fr">figure</localized-string><localized-string key="diagram" language="fr">Diagramme</localized-string><localized-string key="formula" language="fr">équation</localized-string><localized-string key="inequality" language="fr">inégalité</localized-string><localized-string key="list" language="fr">liste</localized-string><localized-string key="deflist" language="fr">Liste de définitions</localized-string><localized-string key="table" language="fr">tableau</localized-string><localized-string key="requirement" language="fr">exigence</localized-string><localized-string key="recommendation" language="fr">recommandation</localized-string><localized-string key="permission" language="fr">autorisation</localized-string><localized-string key="box" language="fr">Encadré</localized-string><localized-string key="key" language="fr">Légende</localized-string><localized-string key="example" language="fr">EXEMPLE</localized-string><localized-string key="example_xref" language="fr">exemple</localized-string><localized-string key="where" language="fr">où</localized-string><localized-string key="where_one" language="fr">où</localized-string><localized-string key="wholeoftext" language="fr">Ensemble du texte</localized-string><localized-string key="draft_label" language="fr">brouillon</localized-string><localized-string key="inform_annex" language="fr">informative</localized-string><localized-string key="norm_annex" language="fr">normative</localized-string><localized-string key="modified" language="fr">modifié</localized-string><localized-string key="adapted" language="fr">adapté</localized-string><localized-string key="deprecated" language="fr">DÉCONSEILLÉ</localized-string><localized-string key="edition" language="fr">édition</localized-string><localized-string key="version" language="fr">version</localized-string><localized-string key="and" language="fr">et</localized-string><localized-string key="no_identifier" language="fr">(PAS D'IDENTIFIANT)</localized-string><localized-string key="all_parts" language="fr">toutes les parties</localized-string><localized-string key="edition_ordinal" language="fr">{{ var1 | ordinal_word: 'edition', '' }} édition</localized-string><localized-string key="edition_cardinal" language="fr">édition {{ var1 }}</localized-string><localized-string key="toc_figures" language="fr">Table des figures</localized-string><localized-string key="toc_tables" language="fr">Table des tableaux</localized-string><localized-string key="toc_recommendations" language="fr">Table de recommandations</localized-string><localized-string key="month_january" language="fr">Janvier</localized-string><localized-string key="month_february" language="fr">Février</localized-string><localized-string key="month_march" language="fr">Mars</localized-string><localized-string key="month_april" language="fr">Avril</localized-string><localized-string key="month_may" language="fr">Mai</localized-string><localized-string key="month_june" language="fr">Juin</localized-string><localized-string key="month_july" language="fr">Juillet</localized-string><localized-string key="month_august" language="fr">Août</localized-string><localized-string key="month_september" language="fr">Septembre</localized-string><localized-string key="month_october" language="fr">Octobre</localized-string><localized-string key="month_november" language="fr">Novembre</localized-string><localized-string key="month_december" language="fr">Décembre</localized-string><localized-string key="obligation" language="fr">Obligation</localized-string><localized-string key="admonition.danger" language="fr">Danger</localized-string><localized-string key="admonition.warning" language="fr">Avertissement</localized-string><localized-string key="admonition.caution" language="fr">Attention</localized-string><localized-string key="admonition.important" language="fr">Important</localized-string><localized-string key="admonition.safety_precautions" language="fr">Précautions de Sécurité</localized-string><localized-string key="admonition.editorial" language="fr">Note éditoriale</localized-string><localized-string key="title_prefixes.part" language="fr">Partie</localized-string><localized-string key="title_prefixes.amendment" language="fr">Amendement</localized-string><localized-string key="title_prefixes.corrigendum" language="fr">Rectificatif</localized-string><localized-string key="title_prefixes.addendum" language="fr">Additif</localized-string><localized-string key="title_prefixes.supplement" language="fr">Supplément</localized-string><localized-string key="title_prefixes.annex" language="fr">Annexe</localized-string><localized-string key="title_prefixes.appendix" language="fr">Appendice</localized-string><localized-string key="locality.section" language="fr">Section</localized-string><localized-string key="locality.clause" language="fr">Article</localized-string><localized-string key="locality.part" language="fr">Partie</localized-string><localized-string key="locality.paragraph" language="fr">Alinéa</localized-string><localized-string key="locality.chapter" language="fr">Chapitre</localized-string><localized-string key="locality.page" language="fr">Page</localized-string><localized-string key="locality.table" language="fr">Tableau</localized-string><localized-string key="locality.annex" language="fr">Annexe</localized-string><localized-string key="locality.figure" language="fr">Figure</localized-string><localized-string key="locality.example" language="fr">Exemple</localized-string><localized-string key="locality.note" language="fr">Note</localized-string><localized-string key="locality.formula" language="fr">Formule</localized-string><localized-string key="grammar_abbrevs.masculine" language="fr">masc</localized-string><localized-string key="grammar_abbrevs.feminine" language="fr">fem</localized-string><localized-string key="grammar_abbrevs.neuter" language="fr">neut</localized-string><localized-string key="grammar_abbrevs.common" language="fr">épicène</localized-string><localized-string key="grammar_abbrevs.singular" language="fr">sg</localized-string><localized-string key="grammar_abbrevs.dual" language="fr">duel</localized-string><localized-string key="grammar_abbrevs.plural" language="fr">pl</localized-string><localized-string key="grammar_abbrevs.isPreposition" language="fr">prép</localized-string><localized-string key="grammar_abbrevs.isParticiple" language="fr">part</localized-string><localized-string key="grammar_abbrevs.isAdjective" language="fr">adj</localized-string><localized-string key="grammar_abbrevs.isAdverb" language="fr">adv</localized-string><localized-string key="grammar_abbrevs.isNoun" language="fr">subst</localized-string><localized-string key="grammar_abbrevs.isVerb" language="fr">vb</localized-string><localized-string key="relatedterms.deprecates" language="fr">déprécie</localized-string><localized-string key="relatedterms.supersedes" language="fr">remplace</localized-string><localized-string key="relatedterms.narrower" language="fr">plus étroit</localized-string><localized-string key="relatedterms.broader" language="fr">plus large</localized-string><localized-string key="relatedterms.equivalent" language="fr">équivalent</localized-string><localized-string key="relatedterms.compare" language="fr">comparez</localized-string><localized-string key="relatedterms.contrast" language="fr">contrastez</localized-string><localized-string key="relatedterms.see" language="fr">voir</localized-string><localized-string key="relatedterms.seealso" language="fr">voir aussi</localized-string><localized-string key="Clause.sg" language="fr">Article</localized-string><localized-string key="Clause.pl" language="fr">Articles</localized-string><localized-string key="Annex.sg" language="fr">Annexe</localized-string><localized-string key="Annex.pl" language="fr">Annexes</localized-string><localized-string key="Appendix.sg" language="fr">Appendice</localized-string><localized-string key="Appendix.pl" language="fr">Appendices</localized-string><localized-string key="Note.sg" language="fr">Note</localized-string><localized-string key="Note.pl" language="fr">Notes</localized-string><localized-string key="Note_%_à_l’article.sg" language="fr">Note % à l’article</localized-string><localized-string key="Note_%_à_l’article.pl" language="fr">Notes % à l’article</localized-string><localized-string key="List.sg" language="fr">Liste</localized-string><localized-string key="List.pl" language="fr">Listes</localized-string><localized-string key="Figure.sg" language="fr">Figure</localized-string><localized-string key="Figure.pl" language="fr">Figures</localized-string><localized-string key="Formula.sg" language="fr">Formule</localized-string><localized-string key="Formula.pl" language="fr">Formules</localized-string><localized-string key="Table.sg" language="fr">Tableau</localized-string><localized-string key="Table.pl" language="fr">Tableaux</localized-string><localized-string key="Requirement.sg" language="fr">Exigence</localized-string><localized-string key="Requirement.pl" language="fr">Exigences</localized-string><localized-string key="Recommendation.sg" language="fr">Recommandation</localized-string><localized-string key="Recommendation.pl" language="fr">Recommandations</localized-string><localized-string key="Permission.sg" language="fr">Autorisation</localized-string><localized-string key="Permission.pl" language="fr">Autorisations</localized-string><localized-string key="Example.sg" language="fr">Exemple</localized-string><localized-string key="Example.pl" language="fr">Exemples</localized-string><localized-string key="Part.sg" language="fr">Partie</localized-string><localized-string key="Part.pl" language="fr">Parties</localized-string><localized-string key="Section.sg" language="fr">Section</localized-string><localized-string key="Section.pl" language="fr">Sections</localized-string><localized-string key="Paragraph.sg" language="fr">Alinéa</localized-string><localized-string key="Paragraph.pl" language="fr">Alinéas</localized-string><localized-string key="Chapter.sg" language="fr">Chapitre</localized-string><localized-string key="Chapter.pl" language="fr">Chapitres</localized-string><localized-string key="Page.sg" language="fr">Page</localized-string><localized-string key="Page.pl" language="fr">Pages</localized-string><localized-string key="grammar.gender" language="fr">f</localized-string><localized-string key="punct.colon" language="fr">:</localized-string><localized-string key="punct.comma" language="fr">,</localized-string><localized-string key="punct.enum-comma" language="fr">,</localized-string><localized-string key="punct.semicolon" language="fr">;</localized-string><localized-string key="punct.period" language="fr">.</localized-string><localized-string key="punct.close-paren" language="fr">)</localized-string><localized-string key="punct.open-paren" language="fr">(</localized-string><localized-string key="punct.close-bracket" language="fr">]</localized-string><localized-string key="punct.open-bracket" language="fr">[</localized-string><localized-string key="punct.question-mark" language="fr">?</localized-string><localized-string key="punct.exclamation-mark" language="fr">!</localized-string><localized-string key="punct.em-dash" language="fr">—</localized-string><localized-string key="punct.en-dash" language="fr">–</localized-string><localized-string key="punct.number-en-dash" language="fr">–</localized-string><localized-string key="punct.open-quote" language="fr">«</localized-string><localized-string key="punct.close-quote" language="fr">»</localized-string><localized-string key="punct.open-nested-quote" language="fr">“</localized-string><localized-string key="punct.close-nested-quote" language="fr">”</localized-string><localized-string key="punct.ellipse" language="fr">…</localized-string><localized-string key="level2_ancillary" language="fr">Annexe</localized-string><localized-string key="level3_ancillary" language="fr">Appendice</localized-string><localized-string key="level2_ancillary_2019" language="fr">Annexe</localized-string><localized-string key="level3_ancillary_2019" language="fr">Annexe</localized-string><localized-string key="level2_ancillary_alt" language="fr">Annex</localized-string><localized-string key="level3_ancillary_alt" language="fr">Appendix</localized-string><localized-string key="level2_ancillary_alt_2019" language="fr">Appendix</localized-string><localized-string key="level3_ancillary_alt_2019" language="fr">Annex</localized-string><localized-string key="level4_ancillary" language="fr">Partie</localized-string><localized-string key="level4_ancillary_alt" language="fr">Part</localized-string><localized-string key="level5_ancillary" language="fr">Partie de sub</localized-string><localized-string key="level5_ancillary_alt" language="fr">Sub-part</localized-string><localized-string key="iso_annex" language="fr">Annexe</localized-string><localized-string key="subclause" language="fr">section</localized-string><localized-string key="clause_jcgm" language="fr">Article</localized-string><localized-string key="subclause_jcgm" language="fr">Article</localized-string><localized-string key="doctype_dict.brochure" language="fr">brochure</localized-string><localized-string key="doctype_dict.mise-en-pratique" language="fr">mise-en-pratique</localized-string><localized-string key="doctype_dict.rapport" language="fr">rapport</localized-string><localized-string key="doctype_dict.monographie" language="fr">monographie</localized-string><localized-string key="doctype_dict.guide" language="fr">guide</localized-string><localized-string key="doctype_dict.meeting-report" language="fr">procès-verbal</localized-string><localized-string key="doctype_dict.technical-report" language="fr">rapport-technique</localized-string><localized-string key="doctype_dict.working-party-note" language="fr">note-du-groupe-de-travail</localized-string><localized-string key="doctype_dict.strategy" language="fr">stratégie</localized-string><localized-string key="doctype_dict.cipm-mra" language="fr">cipm-mra</localized-string><localized-string key="doctype_dict.resolution" language="fr">résolution</localized-string><localized-string key="stage_dict.draft-proposal" language="fr">projet-de-proposition</localized-string><localized-string key="stage_dict.draft-development" language="fr">projet-de-développement</localized-string><localized-string key="stage_dict.in-force" language="fr">en-vigeur</localized-string><localized-string key="stage_dict.retired" language="fr">retiré</localized-string><localized-string key="all_rights_reserved" language="fr">Tous droits réservés</localized-string><localized-string key="adapted_from" language="fr">Adapté de: </localized-string><localized-string key="modified_from" language="fr">Modifié de: </localized-string><localized-string key="prefacenote" language="fr">NOTE</localized-string><localized-string key="listnote" language="fr">Remarque</localized-string><localized-string key="date" language="fr">Date</localized-string><localized-string key="authorized" language="fr">Autorisé</localized-string><localized-string key="language" language="fr">fr</localized-string><localized-string key="script" language="fr">Latn</localized-string></localized-strings><metanorma-extension><semantic-metadata><stage-published>true</stage-published></semantic-metadata>
+<UnitsML xmlns="https://schema.unitsml.org/unitsml/1.0"><UnitSet><Unit dimensionURL="#D_L-2M-1T3J" id="U_lm.W-1" semx-id="U_lm.W-1">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">lm*W^-1</UnitName>
+        <UnitSymbol type="HTML">lm W
+          <sup>−1</sup>
+        </UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">lm</mi>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">W</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>1</mn>
+              </mrow>
+            </msup>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="lumen"/>
+          <EnumeratedRootUnit unit="watt" powerNumerator="-1"/>
+        </RootUnits>
+      </Unit><Unit dimensionURL="#NISTd27" id="U_NISTu7.u1e-2/1" semx-id="U_NISTu7.u1e-2/1">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">candela per square meter</UnitName>
+        <UnitSymbol type="HTML">cd m
+          <sup>−2</sup>
+        </UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">cd</mi>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">m</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>2</mn>
+              </mrow>
+            </msup>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="candela"/>
+          <EnumeratedRootUnit unit="metre" powerNumerator="-2"/>
+        </RootUnits>
+      </Unit><Unit dimensionURL="#D_L-1MT-3" id="U_W.m-2.nm-1" semx-id="U_W.m-2.nm-1">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">W*m^-2*nm^-1</UnitName>
+        <UnitSymbol type="HTML">W m
+          <sup>−2</sup> nm
+          <sup>−1</sup>
+        </UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">W</mi>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">m</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>2</mn>
+              </mrow>
+            </msup>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">nm</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>1</mn>
+              </mrow>
+            </msup>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="watt"/>
+          <EnumeratedRootUnit unit="metre" powerNumerator="-2"/>
+          <EnumeratedRootUnit unit="metre" prefix="n" powerNumerator="-1"/>
+        </RootUnits>
+      </Unit><Unit dimensionURL="#D_L0MT-3" id="U_NISTu14.u1e-2/1" semx-id="U_NISTu14.u1e-2/1">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">watt per square meter</UnitName>
+        <UnitSymbol type="HTML">W m
+          <sup>−2</sup>
+        </UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">W</mi>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">m</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>2</mn>
+              </mrow>
+            </msup>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="watt"/>
+          <EnumeratedRootUnit unit="metre" powerNumerator="-2"/>
+        </RootUnits>
+      </Unit><Unit dimensionURL="#D_L-3T-1" id="U_s-1.m-2.nm-1" semx-id="U_s-1.m-2.nm-1">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">s^-1*m^-2*nm^-1</UnitName>
+        <UnitSymbol type="HTML">s
+          <sup>−1</sup> m
+          <sup>−2</sup> nm
+          <sup>−1</sup>
+        </UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">s</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>1</mn>
+              </mrow>
+            </msup>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">m</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>2</mn>
+              </mrow>
+            </msup>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">nm</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>1</mn>
+              </mrow>
+            </msup>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="second" powerNumerator="-1"/>
+          <EnumeratedRootUnit unit="metre" powerNumerator="-2"/>
+          <EnumeratedRootUnit unit="metre" prefix="n" powerNumerator="-1"/>
+        </RootUnits>
+      </Unit><Unit dimensionURL="#NISTd97" id="U_s-1.m-2" semx-id="U_s-1.m-2">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">s^-1*m^-2</UnitName>
+        <UnitSymbol type="HTML">s
+          <sup>−1</sup> m
+          <sup>−2</sup>
+        </UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">s</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>1</mn>
+              </mrow>
+            </msup>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">m</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>2</mn>
+              </mrow>
+            </msup>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="second" powerNumerator="-1"/>
+          <EnumeratedRootUnit unit="metre" powerNumerator="-2"/>
+        </RootUnits>
+      </Unit></UnitSet><QuantitySet><Quantity id="NISTq56" quantityType="base" dimensionURL="#NISTd27" semx-id="NISTq56">
+        <QuantityName lang="en-US">luminance</QuantityName>
+      </Quantity></QuantitySet><DimensionSet><Dimension id="D_L-2M-1T3J" semx-id="D_L-2M-1T3J">
+        <Length symbol="L" powerNumerator="-2"/>
+        <Mass symbol="M" powerNumerator="-1"/>
+        <Time symbol="T" powerNumerator="3"/>
+        <LuminousIntensity symbol="J" powerNumerator="1"/>
+      </Dimension><Dimension id="NISTd27" semx-id="NISTd27">
+        <Length symbol="L" powerNumerator="-2"/>
+        <LuminousIntensity symbol="J" powerNumerator="1"/>
+      </Dimension><Dimension id="D_L-1MT-3" semx-id="D_L-1MT-3">
+        <Length symbol="L" powerNumerator="-1"/>
+        <Mass symbol="M" powerNumerator="1"/>
+        <Time symbol="T" powerNumerator="-3"/>
+      </Dimension><Dimension id="NISTd38" semx-id="NISTd38">
+        <Mass symbol="M" powerNumerator="1"/>
+        <Time symbol="T" powerNumerator="-3"/>
+      </Dimension><Dimension id="D_L0MT-3" semx-id="D_L0MT-3">
+        <Length symbol="L" powerNumerator="0"/>
+        <Mass symbol="M" powerNumerator="1"/>
+        <Time symbol="T" powerNumerator="-3"/>
+      </Dimension><Dimension id="D_L-3T-1" semx-id="D_L-3T-1">
+        <Length symbol="L" powerNumerator="-3"/>
+        <Time symbol="T" powerNumerator="-1"/>
+      </Dimension><Dimension id="NISTd97" semx-id="NISTd97">
+        <Length symbol="L" powerNumerator="-2"/>
+        <Time symbol="T" powerNumerator="-1"/>
+      </Dimension></DimensionSet><PrefixSet><Prefix prefixBase="10" prefixPower="-9" id="NISTp10_-9" semx-id="NISTp10_-9">
+        <PrefixName lang="en">nano</PrefixName>
+        <PrefixSymbol type="ASCII">n</PrefixSymbol>
+        <PrefixSymbol type="unicode">n</PrefixSymbol>
+        <PrefixSymbol type="LaTeX">n</PrefixSymbol>
+        <PrefixSymbol type="HTML">n</PrefixSymbol>
+      </Prefix></PrefixSet></UnitsML><presentation-metadata><toc-heading-levels>2</toc-heading-levels><html-toc-heading-levels>2</html-toc-heading-levels><doc-toc-heading-levels>2</doc-toc-heading-levels><pdf-toc-heading-levels>2</pdf-toc-heading-levels></presentation-metadata><source-highlighter-css>sourcecode table td { padding: 5px; }
+sourcecode table pre { margin: 0; }
+sourcecode, sourcecode .w {
+  color: #444444;
+}
+sourcecode .cp {
+  color: #CC00A3;
+}
+sourcecode .cs {
+  color: #CC00A3;
+}
+sourcecode .c, sourcecode .ch, sourcecode .cd, sourcecode .cm, sourcecode .cpf, sourcecode .c1 {
+  color: #FF0000;
+}
+sourcecode .kc {
+  color: #C34E00;
+}
+sourcecode .kd {
+  color: #0000FF;
+}
+sourcecode .kr {
+  color: #007575;
+}
+sourcecode .k, sourcecode .kn, sourcecode .kp, sourcecode .kt, sourcecode .kv {
+  color: #0000FF;
+}
+sourcecode .s, sourcecode .sb, sourcecode .sc, sourcecode .ld, sourcecode .sd, sourcecode .s2, sourcecode .se, sourcecode .sh, sourcecode .si, sourcecode .sx, sourcecode .sr, sourcecode .s1, sourcecode .ss {
+  color: #009C00;
+}
+sourcecode .sa {
+  color: #0000FF;
+}
+sourcecode .nb, sourcecode .bp {
+  color: #C34E00;
+}
+sourcecode .nt {
+  color: #0000FF;
+}
+
+</source-highlighter-css></metanorma-extension>
+<boilerplate><copyright-statement>
+
+<clause id="_09a58006-523e-1ee7-e044-b31752b1b986" obligation="normative" semx-id="_09a58006-523e-1ee7-e044-b31752b1b986"><p id="_9fc31267-2b98-aa2e-139c-9d20c55ca3bf" align="center" semx-id="_9fc31267-2b98-aa2e-139c-9d20c55ca3bf">© Bureau international des poids et mesures 2019 tous droits réservés</p>
+</clause>
+</copyright-statement>
+
+<license-statement>
+
+<clause id="_66bc7fdf-ce17-4707-14ba-daf27e199f02" obligation="normative" semx-id="_66bc7fdf-ce17-4707-14ba-daf27e199f02">
+<title id="_8ca8311b-a194-ff39-f7fb-754c5f415c37" semx-id="_4d6d4d8d-b664-aca4-d874-0a30e68cbd34">Note concernant les droits d’auteur</title><fmt-title depth="1" id="_bf5269f6-fb3e-032a-2936-4ef9877a0927"><semx element="title" source="_8ca8311b-a194-ff39-f7fb-754c5f415c37">Note concernant les droits d’auteur</semx></fmt-title>
+<p id="_661d6a7a-cf98-57a5-30fe-ede6dd8af914" semx-id="_661d6a7a-cf98-57a5-30fe-ede6dd8af914">Ce document est distribué selon les termes et conditions de la licence Creative Commons Attribution 4.0 International (<link target="http://creativecommons.org/licenses/by/4.0/:" id="_5f2ce0a9-fe6f-0280-8849-4352caa82c70"/><semx element="link" source="_5f2ce0a9-fe6f-0280-8849-4352caa82c70"><fmt-link target="http://creativecommons.org/licenses/by/4.0/:"/></semx>), qui permet l’utilisation sans restriction, la distribution et la reproduction sur quelque support que soit, sous réserve de mentionner dûment l’auteur ou les auteurs originaux ainsi que la source de l’œuvre, d’intégrer un lien vers la licence Creative Commons et d’indiquer si des modifications ont été effectuées.</p>
+</clause>
+</license-statement>
+
+<feedback-statement>
+
+<p id="_5926bc3f-b367-69e7-6cc6-442a91e32db2" semx-id="_5926bc3f-b367-69e7-6cc6-442a91e32db2">BIPM<br/> Pavillon de Breteuil<br/> F-92312 Sèvres Cedex<br/> FRANCE</p>
+</feedback-statement>
+</boilerplate><preface><clause type="toc" id="_5fa42dec-c1d3-01e6-1b02-b9ff86ee5393" displayorder="1"><fmt-title depth="1" id="_e8e862e4-7b08-07d5-0876-cf13f329143c">Table des matières</fmt-title></clause>
+<foreword id="_076bd29c-5be0-6308-b6b0-ea5939e101d9" obligation="informative" semx-id="_076bd29c-5be0-6308-b6b0-ea5939e101d9" displayorder="2">
+<title id="_a6ad3b95-b82d-4987-ca7c-9449d1b95922" semx-id="_29b8ef0c-dbb7-ae8e-cd4b-fcaa843914e1">Avant-propos</title><fmt-title depth="1" id="_3991bfda-1ac2-cd6a-be47-60e34681887d"><semx element="title" source="_a6ad3b95-b82d-4987-ca7c-9449d1b95922">Avant-propos</semx></fmt-title>
+<p id="_4511c247-9c6d-940f-ff80-172256c462fb" semx-id="_4511c247-9c6d-940f-ff80-172256c462fb">Les rayonnements optiques sont susceptibles de produire des modifications chimiques dans certains matériaux vivants ou inertes. Cette propriété est appelée actinisme et les rayonnements capables de causer de tels changements sont connus sous le nom de rayonnements actiniques. La propriété fondamentale des rayonnements actiniques est qu’à l’échelle moléculaire, un photon interagit avec une molécule pour altérer ou briser cette molécule en de nouvelles espèces moléculaires. En outre, les rayonnements optiques dans les longueurs d’onde infrarouges peuvent causer des dommages thermiques à des matériaux vivants ou inertes à des niveaux d’exposition élevés, bien que dans ce cas l’interaction n’ait pas lieu pas au niveau d’un unique photon. Ces interactions entre les rayonnements optiques incidents et le matériau irradié peuvent être décrits en définissant des grandeurs photochimiques ou photobiologiques spécifiques en fonction de l’effet du rayonnement optique sur le matériau en question et sur les récepteurs chimiques ou biologiques associés.</p>
+
+<p id="_60a6f65a-e00a-0e9c-05a0-604f6947d923" semx-id="_60a6f65a-e00a-0e9c-05a0-604f6947d923">Dans le domaine de la métrologie, la seule grandeur photobiologique qui ait été formellement définie du point de vue des mesures selon les règles du SI est l’interaction de la lumière avec l’oeil humain dans la vision. Une unité de base du SI, la candela, a été définie pour cette importante grandeur photobiologique. Plusieurs autres grandeurs photométriques, dont les unités sont dérivées de la candela, ont également été définies (comme le lumen ou le lux, voir tableau 4, section 2.3.4).<note id="_220a3bfb-289c-31ba-fc40-57b19131a72f" semx-id="_220a3bfb-289c-31ba-fc40-57b19131a72f" autonum=""><fmt-name id="_b63467d9-9a51-c78f-fba8-d090f5e4ff63"><span class="fmt-caption-label">NOTE</span><span class="fmt-label-delim"> :<tab/></span></fmt-name><fmt-xref-label><span class="fmt-element-name">note</span></fmt-xref-label><fmt-xref-label container="_076bd29c-5be0-6308-b6b0-ea5939e101d9"><span class="fmt-xref-container"><semx element="foreword" source="_076bd29c-5be0-6308-b6b0-ea5939e101d9">Avant-propos</semx></span><span class="fmt-comma">,</span> <span class="fmt-element-name">note</span></fmt-xref-label><p id="_ce3ed209-1fd3-7f6d-565a-7594fde90f90" semx-id="_ce3ed209-1fd3-7f6d-565a-7594fde90f90">Les définitions des grandeurs et des unités photométriques sont publiées dans le <em>Vocabulaire international de l’éclairage</em>, norme CIE S 017 ILV : <em>International Lighting Vocabulary</em>, ou dans le <em>Vocabulaire électrotechnique international</em>, norme IEC 60050, chapitre 845 : Éclairage. Des informations sur la réalisation pratique de ces unités sont données dans la mise en pratique de la candela ; d’autres informations sur les conventions de base et la manière de mettre en pratique ces définitions sont précisées dans la publication conjointe BIPM/CIE, <em>018</em> et dans la norme conjointe ISO/CIE ISO 23539 /CIE S 010 <em>Photométrie – Le système CIE de photométrie physique</em>.</p>
+</note></p>
+
+
+</foreword></preface><sections>
+<clause id="_57afc9fe-b0d1-6bf2-9260-5a96f2852f82" obligation="normative" semx-id="_57afc9fe-b0d1-6bf2-9260-5a96f2852f82" displayorder="3">
+<title id="_bcb68050-41be-ffeb-1956-1542b15e731a" semx-id="_679cdc9e-cca3-054f-4672-13f884e5a849">Spectre d’action</title><fmt-title depth="1" id="_49cddca7-939a-ec3f-cc0c-1f04d6867774"><span class="fmt-caption-label"><semx element="autonum" source="_57afc9fe-b0d1-6bf2-9260-5a96f2852f82">1</semx><span class="fmt-autonum-delim">.</span></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_bcb68050-41be-ffeb-1956-1542b15e731a">Spectre d’action</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">chapitre</span> <semx element="autonum" source="_57afc9fe-b0d1-6bf2-9260-5a96f2852f82">1</semx></fmt-xref-label>
+<p id="_7fba413d-d101-4d74-78a2-28e33ccba7b3" semx-id="_7fba413d-d101-4d74-78a2-28e33ccba7b3">Un rayonnement optique peut être caractérisé par sa distribution spectrale. Les mécanismes selon lesquels le rayonnement optique est absorbé par le système chimique ou biologique sont en général très complexes, et sont toujours fonction de la longueur d’onde (ou de la fréquence). Pour les applications métrologiques, cependant, la complexité des mécanismes d’absorption peut être ignorée et l’effet est simplement caractérisé par un spectre d’action qui relie la réponse photochimique ou photobiologique au rayonnement incident. Ce spectre d’action (ou fonction de pondération) décrit l’efficacité relative d’un rayonnement optique monochromatique à la longueur d’onde <stem block="false" type="MathML" id="_e0fc4a63-2839-1b2e-45d5-1ef35849ed38"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>λ</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(lambda)</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_e0fc4a63-2839-1b2e-45d5-1ef35849ed38"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>λ</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(lambda)</asciimath></semx></fmt-stem> à produire une réponse donnée. Il est donné en valeur relative, normalisée à 1 pour la longueur d’onde d’efficacité maximale. Les spectres d’action sont définis et recommandés par les organisations internationales scientifiques ou de normalisation, notamment par la Commission internationale de l’éclairage (CIE). La fonction de pondération peut être combinée à une constante d’efficacité reliant la réponse photochimique ou photobiologique absolue aux unités caractérisant les rayonnements optiques : en photométrie, il s’agit de l’efficacité lumineuse spectrale exprimée en <stem block="false" type="MathML" id="_566c605d-8bf0-d5e2-d472-b6d7f998ed79"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_lm.W-1">
+      <mstyle mathvariant="normal">
+        <mi>lm</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>W</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>1</mn>
+        </mrow>
+      </msup>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(lm*W^(−1))"</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_566c605d-8bf0-d5e2-d472-b6d7f998ed79"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_lm.W-1">
+      <mstyle mathvariant="normal">
+        <mi>lm</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>W</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>1</mn>
+        </mrow>
+      </msup>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(lm*W^(−1))"</asciimath></semx></fmt-stem>.</p>
+
+<p id="_0d3241f1-7184-3a4d-695e-aa148383a0f6" semx-id="_0d3241f1-7184-3a4d-695e-aa148383a0f6">En photochimie et en photobiologie, les mesures de rayonnements optiques peuvent être réalisées en fonction de la distribution spectrale de la grandeur radiométrique (système radiométrique spectral) ou de la distribution spectrale d’une grandeur photonique (système photonique spectral), ci-après simplement dénommées « distribution spectrale de puissance » et « distribution spectrale photonique ». Comme la distribution spectrale de puissance et la distribution spectrale photonique décrivent le rayonnement optique dans des unités différentes, un effet photochimique ou photobiologique donné a deux constantes d’efficacité, une pour chacun des systèmes. Par ailleurs, comme la distribution spectrale de puissance n’est pas proportionnelle à la distribution spectrale photonique, il en résulte que les fonctions de pondération de ces systèmes de mesure ne sont pas, elles non plus, proportionnelles. Pour éviter toute confusion, il est essentiel lors de l’utilisation d’un spectre d’action ou d’une fonction de pondération de préciser le système (radiométrique ou photonique) qui le/la définit. Les deux constantes d’efficacité, et leurs fonctions de pondération respectives, sont étroitement liées, tel que décrit dans la mise en pratique de la candela et des unités dérivées associées pour les grandeurs photométriques et radiométriques dans le Système international d’unités (SI), section 1.2.</p>
+
+<p id="_83895da4-80bc-4dbf-80ff-bb5d39470491" semx-id="_83895da4-80bc-4dbf-80ff-bb5d39470491">Pour la vision, deux fonctions de pondération radiométriques ont été définies par la CIE et approuvées par le CIPM : <stem block="false" type="MathML" id="_08f9c802-3422-b850-5681-e7e54f5843fd"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>V</mi>
+    </mstyle>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>ii(V)(ii(lambda))</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_08f9c802-3422-b850-5681-e7e54f5843fd"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>V</mi>
+    </mstyle>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>ii(V)(ii(lambda))</asciimath></semx></fmt-stem> pour la vision photopique et <stem block="false" type="MathML" id="_f4ae5e6b-8d35-360f-a2b4-c2ae81e9205c"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>V</mi>
+    </mstyle>
+    <mi>ʹ</mi>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>ii(V)ʹ(ii(lambda))</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_f4ae5e6b-8d35-360f-a2b4-c2ae81e9205c"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>V</mi>
+    </mstyle>
+    <mi>ʹ</mi>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>ii(V)ʹ(ii(lambda))</asciimath></semx></fmt-stem> pour la vision scotopique. Ces fonctions sont utilisées dans les mesures des grandeurs photométriques et font implicitement partie de la définition de l’unité SI pour la photométrie, la candela. La vision photopique est régie par une stimulation des cônes de la rétine de l’oeil, qui sont sensibles aux luminances élevées (<stem block="false" type="MathML" id="_195aba5a-af6d-4a00-8dcf-3bebfbd280be"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>L</mtext>
+    <mo>&#x3e;</mo>
+    <mtext> environ </mtext>
+    <mn>5</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu7.u1e-2/1">
+      <mstyle mathvariant="normal">
+        <mi>cd</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>m</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>2</mn>
+        </mrow>
+      </msup>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"L" &#x3e; text( environ ) 5 "unitsml(cd*m^(−2))"</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_195aba5a-af6d-4a00-8dcf-3bebfbd280be"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>L</mtext>
+    <mo>&#x3e;</mo>
+    <mtext> environ </mtext>
+    <mn>5</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu7.u1e-2/1">
+      <mstyle mathvariant="normal">
+        <mi>cd</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>m</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>2</mn>
+        </mrow>
+      </msup>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"L" &#x3e; text( environ ) 5 "unitsml(cd*m^(−2))"</asciimath></semx></fmt-stem>) et sont utilisés pour la vision diurne. La vision scotopique est régie par une stimulation des bâtonnets de la rétine de l’oeil, qui sont sensibles aux faibles luminances (<stem block="false" type="MathML" id="_f39b3cde-4f77-aa37-a673-9a79eab8dfff"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>L</mtext>
+    <mo>&#x3c;</mo>
+    <mtext> environ </mtext>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mi>−</mi>
+        <mn>3</mn>
+      </mrow>
+    </msup>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu7.u1e-2/1">
+      <mstyle mathvariant="normal">
+        <mi>cd</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>m</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>2</mn>
+        </mrow>
+      </msup>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"L" &#x3c; text( environ ) 10^(−3) "unitsml(cd*m^(−2))"</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_f39b3cde-4f77-aa37-a673-9a79eab8dfff"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>L</mtext>
+    <mo>&#x3c;</mo>
+    <mtext> environ </mtext>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mi>−</mi>
+        <mn>3</mn>
+      </mrow>
+    </msup>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu7.u1e-2/1">
+      <mstyle mathvariant="normal">
+        <mi>cd</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>m</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>2</mn>
+        </mrow>
+      </msup>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"L" &#x3c; text( environ ) 10^(−3) "unitsml(cd*m^(−2))"</asciimath></semx></fmt-stem>) et sont utilisés pour la vision nocturne. Dans le cas de luminances intermédiaires entre la vision photopique et la vision scotopique, les cônes et les bâtonnets fonctionnent simultanément, on est alors dans le domaine de la vision mésopique.</p>
+
+<p id="_159e930b-140a-4229-66aa-369c45ef45a3" semx-id="_159e930b-140a-4229-66aa-369c45ef45a3">Des spectres d’action radiométriques ont également été définis par la CIE pour d’autres effets photobiologiques, tel le spectre d’action de l’érythème (rougissement de la peau) dû au rayonnement ultraviolet. Ces spectres n’ont cependant pas de statut particulier dans le SI.</p>
+
+<p id="_4a5de93d-2b4f-6388-6cfb-85be863ba327" semx-id="_4a5de93d-2b4f-6388-6cfb-85be863ba327">Les processus actiniques photochimiques et photobiologiques sont souvent influencés par d’autres facteurs. Par exemple, l’absorption thermique peut altérer l’efficacité actinique d’un rayonnement à une longueur d’onde donnée ou un filtrage optique peut se produire en raison de couches intermédiaires entre la source de rayonnement optique et la couche actinique. Il est souvent pratique d’utiliser des spectres d’action qui combinent ces types d’effets modificateurs avec l’effet actinique, en particulier pour les diverses réponses de la rétine aux rayonnements optiques. C’est pourquoi le terme « spectre d’action » peut également faire référence à des fonctions de pondération utilisées pour dériver les grandeurs pondérées en fonction de leur spectre à partir des effets photochimiques et photobiologiques qui ne sont pas purement actiniques.</p>
+</clause>
+
+<clause id="_fd0d2fd1-3b66-9a19-c591-2461aa179fb7" obligation="normative" semx-id="_fd0d2fd1-3b66-9a19-c591-2461aa179fb7" displayorder="4">
+<title id="_f016c891-8255-e886-437d-474d0a1670fe" semx-id="_93678b70-158d-17ce-9094-54d08bf7e7e2">Mesure des grandeurs photochimiques et photobiologiques ; unités correspondantes</title><fmt-title depth="1" id="_f6ba415f-d4b2-6dd5-0b8d-b4cf32ae20b9"><span class="fmt-caption-label"><semx element="autonum" source="_fd0d2fd1-3b66-9a19-c591-2461aa179fb7">2</semx><span class="fmt-autonum-delim">.</span></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_f016c891-8255-e886-437d-474d0a1670fe">Mesure des grandeurs photochimiques et photobiologiques ; unités correspondantes</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">chapitre</span> <semx element="autonum" source="_fd0d2fd1-3b66-9a19-c591-2461aa179fb7">2</semx></fmt-xref-label>
+<p id="_29bd6334-b7d2-7cd4-d98f-6956c0f53a14" semx-id="_29bd6334-b7d2-7cd4-d98f-6956c0f53a14">Les grandeurs et unités photométriques définies dans le domaine de la vision sont bien établies et très largement utilisées depuis longtemps. Elles ne sont pas concernées par les règles énoncées dans la suite de ce texte. Pour toutes les autres grandeurs photochimiques ou photobiologiques, les règles suivantes doivent être appliquées pour définir les unités à utiliser. Cette façon de définir les unités à l’aide des spectres d’action exprimés selon le système spectral radiométrique a été recommandée par le Comité consultatif de photométrie et radiométrie (CCPR) lors de sa 9<sup>e</sup> réunion en 1977 et était décrite dans l’Annexe 3 de la 8<sup>e</sup> édition de la <em>Brochure sur le SI</em>. Le CCPR, lors de sa 23<sup>e</sup> réunion en 2016, a recommandé de réviser le texte de la version en ligne de l’Annexe 3 de la 9<sup>e</sup> édition de la <em>Brochure sur le SI</em> afin de clarifier l’utilisation des spectres d’action lorsqu’ils sont exprimés selon le système spectral photonique ou selon le système spectral radiométrique.</p>
+
+<p id="_1987ef08-05fb-81f4-83b4-dd6c00131b12" semx-id="_1987ef08-05fb-81f4-83b4-dd6c00131b12">Une grandeur photochimique ou photobiologique est définie de manière purement physique comme la grandeur dérivée de la grandeur radiométrique correspondante par l’évaluation de l’effet du rayonnement selon son action sur un récepteur sélectif, la sensibilité spectrale de ce récepteur étant définie par le spectre d’action de l’effet photochimique ou photobiologique considéré. La grandeur est donnée par l’intégrale par rapport à la longueur d’onde de la distribution spectrale de la grandeur radiométrique considérée, pondérée par la fonction de pondération appropriée. L’utilisation d’une intégrale suppose implicitement l’additivité arithmétique des grandeurs photochimiques ou photobiologiques bien que dans la pratique, cette loi ne soit, souvent, pas parfaitement vérifiée en pratique. La fonction de pondération est donnée en valeur relative ; c’est une grandeur sans dimension dont l’unité SI est le nombre un. La grandeur radiométrique a sa propre unité radiométrique correspondante. Ainsi, selon la règle d’obtention de l’unité SI d’une grandeur dérivée, l’unité de la grandeur photochimique ou photobiologique est celle de la grandeur radiométrique correspondante ; cela signifie également que pour être conforme au SI, la constante d’efficacité est un. Quand on donne un résultat numérique, il est indispensable de préciser s’il s’agit d’une grandeur radiométrique ou d’une grandeur pondérée de manière spectrale puisque les unités sont les mêmes. Si pour un effet photochimique ou photobiologique donné il existe plusieurs spectres d’action, le spectre d’action utilisé pour les mesures doit être clairement indiqué.</p>
+
+<p id="_d79a4f77-5fac-47c4-2a65-1c8f0de59081" semx-id="_d79a4f77-5fac-47c4-2a65-1c8f0de59081">À titre d’exemple, l’éclairement érythémal, <stem block="false" type="MathML" id="_cb13f471-11a0-ca37-ea09-a0b584e415a4"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>E</mi>
+      </mstyle>
+      <mtext>er</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(E)_("er")</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_cb13f471-11a0-ca37-ea09-a0b584e415a4"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>E</mi>
+      </mstyle>
+      <mtext>er</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(E)_("er")</asciimath></semx></fmt-stem>, d’une source de rayonnement ultraviolet est obtenu en pondérant l’éclairement énergétique spectral à la longueur <stem block="false" type="MathML" id="_7949e8a5-120a-8ba2-f727-84703dd22bb3"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>λ</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(lambda)</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_7949e8a5-120a-8ba2-f727-84703dd22bb3"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>λ</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(lambda)</asciimath></semx></fmt-stem> par l’efficacité de ce rayonnement à cette longueur d’onde à provoquer un érythème, et en sommant sur l’ensemble de toutes les longueurs d’onde présentes dans le spectre de la source sur toute la gamme de longueurs d’onde du spectre d’action. Ceci peut s’exprimer sous la forme mathématique suivante :</p>
+
+<formula id="eq-a-3-1" anchor="eq-a-3-1" semx-id="_03930d01-577b-fdea-72e0-2d54c9e9fa8e" autonum="1"><fmt-name id="_ddb82cc6-27d2-3e5a-bcdb-d7b64219efe5"><span class="fmt-caption-label"><span class="fmt-autonum-delim">(</span><semx element="autonum" source="eq-a-3-1">1</semx><span class="fmt-autonum-delim">)</span></span></fmt-name><fmt-xref-label><span class="fmt-element-name">équation</span> <span class="fmt-autonum-delim">(</span><semx element="autonum" source="eq-a-3-1">1</semx><span class="fmt-autonum-delim">)</span></fmt-xref-label><stem block="true" type="MathML" id="_2f70db70-c6cb-437a-03dc-17fa9613b406"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>E</mi>
+      </mstyle>
+      <mtext>er</mtext>
+    </msub>
+    <mo>=</mo>
+    <mo>∫</mo>
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>E</mi>
+      </mstyle>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+    <msub>
+      <mi>s</mi>
+      <mtext>er</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+    <mtext>d</mtext>
+    <mstyle mathvariant="italic">
+      <mi>λ</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(E)_("er") = int ii(E)_(ii(lambda))(ii(lambda)) s_("er")(ii(lambda)) "d" ii(lambda)</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_2f70db70-c6cb-437a-03dc-17fa9613b406"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>E</mi>
+      </mstyle>
+      <mtext>er</mtext>
+    </msub>
+    <mo>=</mo>
+    <mo>∫</mo>
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>E</mi>
+      </mstyle>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+    <msub>
+      <mi>s</mi>
+      <mtext>er</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+    <mtext>d</mtext>
+    <mstyle mathvariant="italic">
+      <mi>λ</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(E)_("er") = int ii(E)_(ii(lambda))(ii(lambda)) s_("er")(ii(lambda)) "d" ii(lambda)</asciimath></semx></fmt-stem></formula>
+
+<p id="_b7d608aa-e12f-6a45-8678-b1c94db54654" semx-id="_b7d608aa-e12f-6a45-8678-b1c94db54654">où <stem block="false" type="MathML" id="_4ed7008a-dfe9-a11a-15ba-2732cce80156"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>E</mi>
+      </mstyle>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>ii(E)_(ii(lambda))(ii(lambda))</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_4ed7008a-dfe9-a11a-15ba-2732cce80156"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>E</mi>
+      </mstyle>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>ii(E)_(ii(lambda))(ii(lambda))</asciimath></semx></fmt-stem> est l’éclairement énergétique spectral à la longueur d’onde <stem block="false" type="MathML" id="_cb2563f8-c405-3d35-82cd-acebc64bdc55"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>λ</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(lambda)</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_cb2563f8-c405-3d35-82cd-acebc64bdc55"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>λ</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(lambda)</asciimath></semx></fmt-stem> (généralement exprimé en unité SI <stem block="false" type="MathML" id="_4b1889eb-0bfe-36b1-d5cf-f83ef06227cd"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_W.m-2.nm-1">
+      <mstyle mathvariant="normal">
+        <mi>W</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>m</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>2</mn>
+        </mrow>
+      </msup>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>nm</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>1</mn>
+        </mrow>
+      </msup>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(W*m^(−2)*nm^(−1))"</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_4b1889eb-0bfe-36b1-d5cf-f83ef06227cd"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_W.m-2.nm-1">
+      <mstyle mathvariant="normal">
+        <mi>W</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>m</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>2</mn>
+        </mrow>
+      </msup>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>nm</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>1</mn>
+        </mrow>
+      </msup>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(W*m^(−2)*nm^(−1))"</asciimath></semx></fmt-stem>) et <stem block="false" type="MathML" id="_35ec21e0-cc8d-3ee4-b2ee-2395b043aaf9"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>s</mi>
+      <mtext>er</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>s_("er")(ii(lambda))</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_35ec21e0-cc8d-3ee4-b2ee-2395b043aaf9"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>s</mi>
+      <mtext>er</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>s_("er")(ii(lambda))</asciimath></semx></fmt-stem> la fonction de pondération spectrale de l’érythème exprimée selon le système radiométrique spectral et normalisée à 1 à sa valeur spectrale maximale. L’éclairement érythémal, <stem block="false" type="MathML" id="_adbd647c-9845-64cd-b6c1-e1fe818f1bd9"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>E</mi>
+      </mstyle>
+      <mtext>er</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(E)_("er")</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_adbd647c-9845-64cd-b6c1-e1fe818f1bd9"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>E</mi>
+      </mstyle>
+      <mtext>er</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(E)_("er")</asciimath></semx></fmt-stem>, déterminé de cette façon est exprimé en unité SI <stem block="false" type="MathML" id="_12dd497d-67e0-1c0b-8f52-acb4b77df032"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu14.u1e-2/1">
+      <mstyle mathvariant="normal">
+        <mi>W</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>m</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>2</mn>
+        </mrow>
+      </msup>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(W*m^(−2))"</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_12dd497d-67e0-1c0b-8f52-acb4b77df032"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu14.u1e-2/1">
+      <mstyle mathvariant="normal">
+        <mi>W</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>m</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>2</mn>
+        </mrow>
+      </msup>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(W*m^(−2))"</asciimath></semx></fmt-stem>.</p>
+</clause>
+
+<clause id="_2d797790-bb41-10ce-e959-0f7a9345f40d" obligation="normative" semx-id="_2d797790-bb41-10ce-e959-0f7a9345f40d" displayorder="5">
+<title id="_03b2be4a-a17f-ec5e-dfc8-3db8f6d6e237" semx-id="_aa36868f-b91c-b1e6-1b44-d93fdf3e2f36">Conversion des spectres d’action entre système radiométrique spectral et système photonique spectral</title><fmt-title depth="1" id="_f9e4252a-fc29-e285-49ab-78a902defc03"><span class="fmt-caption-label"><semx element="autonum" source="_2d797790-bb41-10ce-e959-0f7a9345f40d">3</semx><span class="fmt-autonum-delim">.</span></span><span class="fmt-caption-delim"><tab/></span><semx element="title" source="_03b2be4a-a17f-ec5e-dfc8-3db8f6d6e237">Conversion des spectres d’action entre système radiométrique spectral et système photonique spectral</semx></fmt-title><fmt-xref-label><span class="fmt-element-name">chapitre</span> <semx element="autonum" source="_2d797790-bb41-10ce-e959-0f7a9345f40d">3</semx></fmt-xref-label>
+<p id="_70a86c48-a35f-c73a-5ade-ecaed54624f1" semx-id="_70a86c48-a35f-c73a-5ade-ecaed54624f1">Comme décrit précédemment, les mesures de rayonnements optiques en photochimie et photobiologie peuvent être réalisées en fonction de la distribution spectrale de puissance ou de la distribution spectrale photonique. Si un effet est purement actinique (interaction purement chimique/moléculaire), l’amplitude de l’effet est gouvernée par le nombre de photons absorbés et la fonction de pondération dans le système photonique spectral est ainsi proportionnelle au spectre d’absorption du matériau actinique. Dans ce cas, il est nécessaire d’appliquer une conversion au spectre d’absorption avant de l’utiliser dans le système de distribution spectrale de puissance. Au contraire, si un effet est purement thermique (c’est-à-dire lié à la chaleur, sans changement chimique et donc dépendant de l’énergie absorbée), la fonction de pondération dans le système radiométrique spectral est proportionnelle au spectre d’absorption. Dans ce cas, une conversion doit être appliquée au spectre d’absorption pour pouvoir l’utiliser dans le système photonique spectral.</p>
+
+<p id="_b2a7ecc4-9da8-986c-a384-af619a09363a" semx-id="_b2a7ecc4-9da8-986c-a384-af619a09363a">Les grandeurs photochimiques et photobiologiques peuvent être déterminées à l’aide du système radiométrique spectral ou du système photonique spectral, c’est pourquoi il est essentiel non seulement d’appliquer la fonction de pondération adéquate mais aussi d’indiquer clairement le système utilisé avec la grandeur. Ainsi, par analogie avec l’<xref target="eq-a-3-1" id="_ca08e801-99bb-f086-7f8d-99a7c4c09ef9"/><semx element="xref" source="_ca08e801-99bb-f086-7f8d-99a7c4c09ef9"><fmt-xref target="eq-a-3-1"><span class="fmt-element-name">équation</span> <span class="fmt-autonum-delim">(</span><semx element="autonum" source="eq-a-3-1">1</semx><span class="fmt-autonum-delim">)</span></fmt-xref></semx>, l’érythème causé par une source de rayonnement ultraviolet peut être caractérisé en unités du système de distribution spectrale photonique à l’aide de l’éclairement érythémal photonique :</p>
+
+<formula id="eq-a-3-2" anchor="eq-a-3-2" semx-id="_0f5b0282-cc6e-0d5a-2754-2ed132e0e988" autonum="2"><fmt-name id="_c179ed6c-13a8-19fe-4495-e438d4bb17ef"><span class="fmt-caption-label"><span class="fmt-autonum-delim">(</span><semx element="autonum" source="eq-a-3-2">2</semx><span class="fmt-autonum-delim">)</span></span></fmt-name><fmt-xref-label><span class="fmt-element-name">équation</span> <span class="fmt-autonum-delim">(</span><semx element="autonum" source="eq-a-3-2">2</semx><span class="fmt-autonum-delim">)</span></fmt-xref-label><stem block="true" type="MathML" id="_9c97bf2f-3dc0-bbce-129c-66c78b39666f"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>E</mi>
+      </mstyle>
+      <mtext>p,er</mtext>
+    </msub>
+    <mo>=</mo>
+    <mo>∫</mo>
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>E</mi>
+      </mstyle>
+      <mrow>
+        <mtext>p</mtext>
+        <mo>,</mo>
+        <mstyle mathvariant="italic">
+          <mi>λ</mi>
+        </mstyle>
+      </mrow>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+    <msub>
+      <mi>s</mi>
+      <mtext>p,er</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+    <mtext>d</mtext>
+    <mstyle mathvariant="italic">
+      <mi>λ</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(E)_("p,er") = int ii(E)_("p",ii(lambda))(ii(lambda)) s_("p,er")(ii(lambda)) "d" ii(lambda)</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_9c97bf2f-3dc0-bbce-129c-66c78b39666f"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>E</mi>
+      </mstyle>
+      <mtext>p,er</mtext>
+    </msub>
+    <mo>=</mo>
+    <mo>∫</mo>
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>E</mi>
+      </mstyle>
+      <mrow>
+        <mtext>p</mtext>
+        <mo>,</mo>
+        <mstyle mathvariant="italic">
+          <mi>λ</mi>
+        </mstyle>
+      </mrow>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+    <msub>
+      <mi>s</mi>
+      <mtext>p,er</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+    <mtext>d</mtext>
+    <mstyle mathvariant="italic">
+      <mi>λ</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(E)_("p,er") = int ii(E)_("p",ii(lambda))(ii(lambda)) s_("p,er")(ii(lambda)) "d" ii(lambda)</asciimath></semx></fmt-stem></formula>
+
+<p id="_88da71f5-0c54-a3bc-3adb-8d6cf6d00f8e" semx-id="_88da71f5-0c54-a3bc-3adb-8d6cf6d00f8e">où <stem block="false" type="MathML" id="_b5df223d-e4e4-f0ae-26ef-a2f814c604b8"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>E</mi>
+      </mstyle>
+      <mrow>
+        <mtext>p</mtext>
+        <mo>,</mo>
+        <mstyle mathvariant="italic">
+          <mi>λ</mi>
+        </mstyle>
+      </mrow>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>ii(E)_("p",ii(lambda))(ii(lambda))</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_b5df223d-e4e4-f0ae-26ef-a2f814c604b8"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>E</mi>
+      </mstyle>
+      <mrow>
+        <mtext>p</mtext>
+        <mo>,</mo>
+        <mstyle mathvariant="italic">
+          <mi>λ</mi>
+        </mstyle>
+      </mrow>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>ii(E)_("p",ii(lambda))(ii(lambda))</asciimath></semx></fmt-stem> est le flux spectral de photons<fn id="_5a886dfe-3aca-c300-94a6-90f6f4c11a5c" reference="1" semx-id="_5a886dfe-3aca-c300-94a6-90f6f4c11a5c" original-reference="1" target="_3ea59d35-867b-a9e9-2e13-127948c57ac3"><p semx-id="_0f9c3514-d330-cd3c-4063-67731e32d8f8" original-id="_0f9c3514-d330-cd3c-4063-67731e32d8f8">Le flux de photons est le nombre de photons émis, transmis ou reçus par unité d’intervalle de temps, généralement exprimé en unité <stem block="false" type="MathML" id="_7d65f2a6-3db3-0170-562e-eee3a02501d1"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>u</mi>
+    <mi>n</mi>
+    <mi>i</mi>
+    <mi>t</mi>
+    <mi>s</mi>
+    <mi>m</mi>
+    <mi>l</mi>
+    <mrow>
+      <mo>(</mo>
+      <mtext>s^-1)</mtext>
+      <mo/>
+    </mrow>
+  </mstyle>
+</math><asciimath>unitsml("s^-1)"</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_7d65f2a6-3db3-0170-562e-eee3a02501d1"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>u</mi>
+    <mi>n</mi>
+    <mi>i</mi>
+    <mi>t</mi>
+    <mi>s</mi>
+    <mi>m</mi>
+    <mi>l</mi>
+    <mrow>
+      <mo>(</mo>
+      <mtext>s^-1)</mtext>
+      <mo/>
+    </mrow>
+  </mstyle>
+</math><asciimath>unitsml("s^-1)"</asciimath></semx></fmt-stem>.</p>
+<fmt-fn-label><span class="fmt-caption-label"><sup><span class="fmt-label-delim">(</span><semx element="autonum" source="_5a886dfe-3aca-c300-94a6-90f6f4c11a5c">1</semx><span class="fmt-label-delim">)</span></sup></span></fmt-fn-label></fn> par unité de surface à la longueur d’onde <stem block="false" type="MathML" id="_88e09e4a-28ff-41ee-0df2-38ce35eb428c"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>λ</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(lambda)</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_88e09e4a-28ff-41ee-0df2-38ce35eb428c"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>λ</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(lambda)</asciimath></semx></fmt-stem> (généralement exprimé en unité <stem block="false" type="MathML" id="_499809e3-4282-615a-5fac-e389d65e6d44"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_s-1.m-2.nm-1">
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>s</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>1</mn>
+        </mrow>
+      </msup>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>m</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>2</mn>
+        </mrow>
+      </msup>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>nm</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>1</mn>
+        </mrow>
+      </msup>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(s^(-1)*m^(-2)*nm^(-1))"</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_499809e3-4282-615a-5fac-e389d65e6d44"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_s-1.m-2.nm-1">
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>s</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>1</mn>
+        </mrow>
+      </msup>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>m</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>2</mn>
+        </mrow>
+      </msup>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>nm</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>1</mn>
+        </mrow>
+      </msup>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(s^(-1)*m^(-2)*nm^(-1))"</asciimath></semx></fmt-stem>) et <stem block="false" type="MathML" id="_69c893e5-5558-7b2d-3b0b-6338f157cc37"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>s</mi>
+      <mtext>p,er</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>s_("p,er")(ii(lambda))</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_69c893e5-5558-7b2d-3b0b-6338f157cc37"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>s</mi>
+      <mtext>p,er</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>s_("p,er")(ii(lambda))</asciimath></semx></fmt-stem> est la fonction de pondération spectrale de l’érythème exprimée dans le système de distribution spectrale photonique et normalisée à 1 à sa valeur spectrale maximale. L’éclairement érythémal <strong>photonique</strong>, <stem block="false" type="MathML" id="_54ec7f1a-1578-ae68-ab85-b18c0d2f17c5"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>E</mi>
+      </mstyle>
+      <mtext>p,er</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(E)_("p,er")</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_54ec7f1a-1578-ae68-ab85-b18c0d2f17c5"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>E</mi>
+      </mstyle>
+      <mtext>p,er</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(E)_("p,er")</asciimath></semx></fmt-stem>, déterminé de cette façon est généralement exprimé en unité <stem block="false" type="MathML" id="_526120f0-3c0d-7f05-e9b7-ebd74ec48cb2"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_s-1.m-2">
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>s</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>1</mn>
+        </mrow>
+      </msup>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>m</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>2</mn>
+        </mrow>
+      </msup>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(s^(-1)*m^(-2))"</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_526120f0-3c0d-7f05-e9b7-ebd74ec48cb2"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_s-1.m-2">
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>s</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>1</mn>
+        </mrow>
+      </msup>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>m</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>2</mn>
+        </mrow>
+      </msup>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(s^(-1)*m^(-2))"</asciimath></semx></fmt-stem> car le nombre de photons est une grandeur sans dimension.</p>
+
+<p id="_58fa44da-0a76-f450-3579-105d53530ada" semx-id="_58fa44da-0a76-f450-3579-105d53530ada">Il résulte directement des équations ci-dessus que la relation entre les expressions de la grandeur spectralement pondérée dans les deux systèmes dépend à la fois de la forme spectrale de <stem block="false" type="MathML" id="_704e3491-978e-9ced-d194-21fc081896cb"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>E</mi>
+      </mstyle>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>ii(E)_(ii(lambda))(ii(lambda))</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_704e3491-978e-9ced-d194-21fc081896cb"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>E</mi>
+      </mstyle>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>ii(E)_(ii(lambda))(ii(lambda))</asciimath></semx></fmt-stem> et du spectre d’action. Toutefois, pour un processus de réponse générale <stem block="false" type="MathML" id="_84ed2c0a-9636-f1db-c9af-5d9fb80613a9"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>A</mtext>
+  </mstyle>
+</math><asciimath>"A"</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_84ed2c0a-9636-f1db-c9af-5d9fb80613a9"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>A</mtext>
+  </mstyle>
+</math><asciimath>"A"</asciimath></semx></fmt-stem>, la relation entre les formes des deux fonctions de pondération spectrales <stem block="false" type="MathML" id="_e456f771-c95c-8e6b-d5b7-7d9811f1fae4"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>s</mi>
+      <mtext>p,A</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>s_("p,A")(ii(lambda))</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_e456f771-c95c-8e6b-d5b7-7d9811f1fae4"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>s</mi>
+      <mtext>p,A</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>s_("p,A")(ii(lambda))</asciimath></semx></fmt-stem> et <stem block="false" type="MathML" id="_d3416c1b-d91d-4df7-4439-ca85186e4352"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>s</mi>
+      <mtext>e,A</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>s_("e,A")(ii(lambda))</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_d3416c1b-d91d-4df7-4439-ca85186e4352"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>s</mi>
+      <mtext>e,A</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>s_("e,A")(ii(lambda))</asciimath></semx></fmt-stem> (dans le système photonique et dans le système radiométrique, respectivement) pouvant être utilisée pour décrire l’effet est gouvernée par :</p>
+
+<formula id="eq-a-3-3" anchor="eq-a-3-3" semx-id="_4cc8f661-e9f3-745a-2e25-20f951f13f12" autonum="3"><fmt-name id="_1f969479-58b4-694b-ab3c-e5efc3348917"><span class="fmt-caption-label"><span class="fmt-autonum-delim">(</span><semx element="autonum" source="eq-a-3-3">3</semx><span class="fmt-autonum-delim">)</span></span></fmt-name><fmt-xref-label><span class="fmt-element-name">équation</span> <span class="fmt-autonum-delim">(</span><semx element="autonum" source="eq-a-3-3">3</semx><span class="fmt-autonum-delim">)</span></fmt-xref-label><stem block="true" type="MathML" id="_6a971a5b-ad90-d21d-9abe-ba488d966eb6"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <msub>
+      <mi>s</mi>
+      <mtext>p,A</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+    <mo>=</mo>
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>γ</mi>
+      </mstyle>
+      <mtext>A</mtext>
+    </msub>
+    <mo>⋅</mo>
+    <mfrac>
+      <mrow>
+        <mi>h</mi>
+        <mi>c</mi>
+      </mrow>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+    </mfrac>
+    <mo>⋅</mo>
+    <msub>
+      <mi>n</mi>
+      <mtext>a</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+    <mo>⋅</mo>
+    <msub>
+      <mi>s</mi>
+      <mtext>e,A</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>s_("p,A")(ii(lambda)) = ii(gamma)_"A" * (hc)/(ii(lambda)) * n_"a"(ii(lambda)) * s_("e,A")(ii(lambda))</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_6a971a5b-ad90-d21d-9abe-ba488d966eb6"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <msub>
+      <mi>s</mi>
+      <mtext>p,A</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+    <mo>=</mo>
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>γ</mi>
+      </mstyle>
+      <mtext>A</mtext>
+    </msub>
+    <mo>⋅</mo>
+    <mfrac>
+      <mrow>
+        <mi>h</mi>
+        <mi>c</mi>
+      </mrow>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+    </mfrac>
+    <mo>⋅</mo>
+    <msub>
+      <mi>n</mi>
+      <mtext>a</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+    <mo>⋅</mo>
+    <msub>
+      <mi>s</mi>
+      <mtext>e,A</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>s_("p,A")(ii(lambda)) = ii(gamma)_"A" * (hc)/(ii(lambda)) * n_"a"(ii(lambda)) * s_("e,A")(ii(lambda))</asciimath></semx></fmt-stem></formula>
+
+<p id="_ff1a8373-73ae-43db-8ff0-5966a8409162" semx-id="_ff1a8373-73ae-43db-8ff0-5966a8409162">où <stem block="false" type="MathML" id="_e42534a4-dd0d-ee87-65c4-0ad8c8770888"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>γ</mi>
+      </mstyle>
+      <mtext>A</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(gamma)_"A"</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_e42534a4-dd0d-ee87-65c4-0ad8c8770888"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>γ</mi>
+      </mstyle>
+      <mtext>A</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(gamma)_"A"</asciimath></semx></fmt-stem> est une constante (exprimée en unité <stem block="false" type="MathML" id="_7fb6b25e-82d7-6791-b83a-d8987f5d8143"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msup>
+      <mi mathvariant="normal">J</mi>
+      <mrow>
+        <mo>−</mo>
+        <mn>1</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math><asciimath>J^(-1)</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_7fb6b25e-82d7-6791-b83a-d8987f5d8143"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msup>
+      <mi mathvariant="normal">J</mi>
+      <mrow>
+        <mo>−</mo>
+        <mn>1</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math><asciimath>J^(-1)</asciimath></semx></fmt-stem>), indépendante de l’éclairement énergétique, <stem block="false" type="MathML" id="_4a3c1330-3ed0-1a8b-af1c-48c5cee54585"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>E</mi>
+      </mstyle>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>ii(E)_(ii(lambda))(ii(lambda))</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_4a3c1330-3ed0-1a8b-af1c-48c5cee54585"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>E</mi>
+      </mstyle>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>ii(E)_(ii(lambda))(ii(lambda))</asciimath></semx></fmt-stem>, qui répond à l’exigence de fixer les valeurs maximales de <stem block="false" type="MathML" id="_60d1e671-1d32-db4d-e9ca-664b75768b21"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>s</mi>
+      <mtext>p,A</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>s_("p,A")(ii(lambda))</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_60d1e671-1d32-db4d-e9ca-664b75768b21"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>s</mi>
+      <mtext>p,A</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>s_("p,A")(ii(lambda))</asciimath></semx></fmt-stem> à 1, <stem block="false" type="MathML" id="_66615aa6-46cb-acf3-28f2-91b891107875"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>h</mi>
+  </mstyle>
+</math><asciimath>h</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_66615aa6-46cb-acf3-28f2-91b891107875"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>h</mi>
+  </mstyle>
+</math><asciimath>h</asciimath></semx></fmt-stem> étant la constante de Planck, <stem block="false" type="MathML" id="_91735fc6-0b76-83c1-3553-8cc3b97bb39c"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>c</mi>
+  </mstyle>
+</math><asciimath>c</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_91735fc6-0b76-83c1-3553-8cc3b97bb39c"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>c</mi>
+  </mstyle>
+</math><asciimath>c</asciimath></semx></fmt-stem> la vitesse de la lumière dans le vide, et <stem block="false" type="MathML" id="_5a6446ce-4a26-4c8f-d456-76a6a801552b"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>n</mi>
+      <mtext>a</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>n_"a"(ii(lambda))</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_5a6446ce-4a26-4c8f-d456-76a6a801552b"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>n</mi>
+      <mtext>a</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>n_"a"(ii(lambda))</asciimath></semx></fmt-stem> l’indice de réfraction dans l’air<fn id="_70ffcfc7-9b8c-042f-08ca-5bb246a48246" reference="2" semx-id="_70ffcfc7-9b8c-042f-08ca-5bb246a48246" original-reference="2" target="_9926500f-bd5a-9119-15a1-c9556925b25e"><p semx-id="_8b97bf2f-4973-f219-5618-45bd42c9eff0" original-id="_8b97bf2f-4973-f219-5618-45bd42c9eff0">Les spectres d’action sont définis en termes d’amplitude de l’effet en fonction de la longueur d’onde. La longueur d’onde d’un rayonnement dépend de l’indice de réfraction du milieu, ce qui signifie que la valeur du spectre d’action à une longueur d’onde donnée varie en fonction du milieu dans lequel cette longueur d’onde est déterminée. En général, le milieu pris en considération est l’air et les spectres d’action définis par la CIE mentionnés ci-dessus s’appliquent pour des longueurs d’onde mesurées dans l’air.</p>
+<fmt-fn-label><span class="fmt-caption-label"><sup><span class="fmt-label-delim">(</span><semx element="autonum" source="_70ffcfc7-9b8c-042f-08ca-5bb246a48246">2</semx><span class="fmt-label-delim">)</span></sup></span></fmt-fn-label></fn> à une longueur d’onde donnée, <stem block="false" type="MathML" id="_e57f24de-125c-d75f-3606-7d9ad224317e"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>λ</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(lambda)</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_e57f24de-125c-d75f-3606-7d9ad224317e"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>λ</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(lambda)</asciimath></semx></fmt-stem>. Il convient de noter que les deux fonctions de pondération spectrale <stem block="false" type="MathML" id="_a93921bc-6a3a-4791-dfaa-b2d56cf14501"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>s</mi>
+      <mtext>p,A</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>s_("p,A")(ii(lambda))</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_a93921bc-6a3a-4791-dfaa-b2d56cf14501"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>s</mi>
+      <mtext>p,A</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>s_("p,A")(ii(lambda))</asciimath></semx></fmt-stem> et <stem block="false" type="MathML" id="_e4c8d90b-512b-6708-9222-46e9ec39ef5b"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>s</mi>
+      <mtext>e,A</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>s_("e,A")(ii(lambda))</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_e4c8d90b-512b-6708-9222-46e9ec39ef5b"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>s</mi>
+      <mtext>e,A</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>λ</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>s_("e,A")(ii(lambda))</asciimath></semx></fmt-stem> décrivant le même effet diffèrent par leur forme et que la longueur d’onde de crête de l’effet est différente si les grandeurs sont exprimées en fonction du système photonique ou radiométrique.</p>
+<fmt-footnote-container><fmt-fn-body id="_3ea59d35-867b-a9e9-2e13-127948c57ac3" target="_5a886dfe-3aca-c300-94a6-90f6f4c11a5c" reference="1"><semx element="fn" source="_5a886dfe-3aca-c300-94a6-90f6f4c11a5c"><p id="_0f9c3514-d330-cd3c-4063-67731e32d8f8" semx-id="_0f9c3514-d330-cd3c-4063-67731e32d8f8"><fmt-fn-label><span class="fmt-caption-label"><sup><span class="fmt-label-delim">(</span><semx element="autonum" source="_5a886dfe-3aca-c300-94a6-90f6f4c11a5c">1</semx><span class="fmt-label-delim">)</span></sup></span><span class="fmt-caption-delim"><tab/></span></fmt-fn-label>Le flux de photons est le nombre de photons émis, transmis ou reçus par unité d’intervalle de temps, généralement exprimé en unité <stem block="false" type="MathML" id="_becf9da6-dcf5-682a-793b-167d3596d506"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>u</mi>
+    <mi>n</mi>
+    <mi>i</mi>
+    <mi>t</mi>
+    <mi>s</mi>
+    <mi>m</mi>
+    <mi>l</mi>
+    <mrow>
+      <mo>(</mo>
+      <mtext>s^-1)</mtext>
+      <mo/>
+    </mrow>
+  </mstyle>
+</math><asciimath>unitsml("s^-1)"</asciimath></stem><fmt-stem type="MathML"><semx element="stem" source="_becf9da6-dcf5-682a-793b-167d3596d506"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>u</mi>
+    <mi>n</mi>
+    <mi>i</mi>
+    <mi>t</mi>
+    <mi>s</mi>
+    <mi>m</mi>
+    <mi>l</mi>
+    <mrow>
+      <mo>(</mo>
+      <mtext>s^-1)</mtext>
+      <mo/>
+    </mrow>
+  </mstyle>
+</math><asciimath>unitsml("s^-1)"</asciimath></semx></fmt-stem>.</p>
+</semx></fmt-fn-body><fmt-fn-body id="_9926500f-bd5a-9119-15a1-c9556925b25e" target="_70ffcfc7-9b8c-042f-08ca-5bb246a48246" reference="2"><semx element="fn" source="_70ffcfc7-9b8c-042f-08ca-5bb246a48246"><p id="_8b97bf2f-4973-f219-5618-45bd42c9eff0" semx-id="_8b97bf2f-4973-f219-5618-45bd42c9eff0"><fmt-fn-label><span class="fmt-caption-label"><sup><span class="fmt-label-delim">(</span><semx element="autonum" source="_70ffcfc7-9b8c-042f-08ca-5bb246a48246">2</semx><span class="fmt-label-delim">)</span></sup></span><span class="fmt-caption-delim"><tab/></span></fmt-fn-label>Les spectres d’action sont définis en termes d’amplitude de l’effet en fonction de la longueur d’onde. La longueur d’onde d’un rayonnement dépend de l’indice de réfraction du milieu, ce qui signifie que la valeur du spectre d’action à une longueur d’onde donnée varie en fonction du milieu dans lequel cette longueur d’onde est déterminée. En général, le milieu pris en considération est l’air et les spectres d’action définis par la CIE mentionnés ci-dessus s’appliquent pour des longueurs d’onde mesurées dans l’air.</p>
+</semx></fmt-fn-body></fmt-footnote-container></clause>
+</sections>
+</metanorma>

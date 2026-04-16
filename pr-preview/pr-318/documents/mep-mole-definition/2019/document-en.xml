@@ -1,0 +1,4790 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metanorma xmlns="https://www.metanorma.org/ns/standoc" type="semantic" version="2.8.3" schema-version="v2.1.5" flavor="bipm">
+<bibdata type="standard">
+<title language="en" type="title-main">The International System of Units</title>
+
+<title language="en" type="title-appendix">Mise en pratique</title>
+
+<title language="en" type="title-part">Mise en pratique for the definition of the mole in the SI</title>
+
+<title language="en" type="title-part-prefix">Part 6.1</title>
+
+<title language="en" type="title-appendix-prefix">Appendix 2</title>
+
+<title language="fr" type="title-main">Le système international d’unités</title>
+
+<title language="fr" type="title-appendix">Mise en pratique</title>
+
+<title language="fr" type="title-part">Mise en pratique de la définition de la mole</title>
+
+<title language="fr" type="title-part-prefix">Partie 6.1</title>
+
+<title language="fr" type="title-appendix-prefix">Appendice 2</title>
+<docidentifier primary="true" type="BIPM">BIPM SI MEP Mol1-6.1 A2</docidentifier><docidentifier type="BIPM-parent-document">BIPM SI MEP Mol1</docidentifier><docnumber>SI MEP Mol1</docnumber><contributor><role type="author"/><organization>
+<name>Bureau International des Poids et Mesures</name>
+<abbreviation>BIPM</abbreviation></organization></contributor><contributor><role type="author"><description>committee</description></role><organization>
+<name>Bureau International des Poids et Mesures</name>
+<subdivision type="Committee">
+<name language="en">Consultative Committee for Amount of Substance: Metrology in Chemistry and Biology</name>
+
+<name language="fr">Comité consultatif pour la quantité de matière : métrologie en chimie et biologie</name>
+<identifier>CCQM</identifier><identifier type="full">CCQM</identifier></subdivision></organization></contributor><contributor><role type="publisher"/><organization>
+<name>Bureau International des Poids et Mesures</name>
+<abbreviation>BIPM</abbreviation></organization></contributor><edition>9</edition><version><revision-date>2019-05-20</revision-date></version><language>en</language><script>Latn</script><status><stage>in-force</stage></status><copyright><from>2019</from><owner><organization>
+<name>Bureau International des Poids et Mesures</name>
+<abbreviation>BIPM</abbreviation></organization></owner></copyright><ext><doctype>mise-en-pratique</doctype><flavor>bipm</flavor><structuredidentifier><docnumber>SI MEP Mol1</docnumber><part>6.1</part><appendix>2</appendix>
+</structuredidentifier><si-aspect>mol_NA</si-aspect></ext></bibdata><metanorma-extension><semantic-metadata><stage-published>true</stage-published></semantic-metadata>
+<UnitsML xmlns="https://schema.unitsml.org/unitsml/1.0"><UnitSet><Unit dimensionURL="#NISTd6" id="U_NISTu6">
+        <UnitSystem name="SI" type="SI_base" lang="en-US"/>
+        <UnitName lang="en">mole</UnitName>
+        <UnitSymbol type="HTML">mol</UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">mol</mi>
+          </math>
+        </UnitSymbol>
+      </Unit><Unit dimensionURL="#D_N-1" id="U_mol-1">
+        <UnitSystem name="SI" type="SI_base" lang="en-US"/>
+        <UnitName lang="en">mol^-1</UnitName>
+        <UnitSymbol type="HTML">mol
+          <sup>−1</sup>
+        </UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">mol</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>1</mn>
+              </mrow>
+            </msup>
+          </math>
+        </UnitSymbol>
+      </Unit><Unit dimensionURL="#NISTd34" id="U_NISTu6.u1e-3/1">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">mole per cubic meter</UnitName>
+        <UnitSymbol type="HTML">mol m
+          <sup>−3</sup>
+        </UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">mol</mi>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">m</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>3</mn>
+              </mrow>
+            </msup>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="mole"/>
+          <EnumeratedRootUnit unit="metre" powerNumerator="-3"/>
+        </RootUnits>
+      </Unit><Unit dimensionURL="#D_M-1N" id="U_NISTu6.u27p10_3e-1/1">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">mole per kilogram</UnitName>
+        <UnitSymbol type="HTML">mol kg
+          <sup>−1</sup>
+        </UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">mol</mi>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">kg</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>1</mn>
+              </mrow>
+            </msup>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="mole"/>
+          <EnumeratedRootUnit unit="gram" prefix="k" powerNumerator="-1"/>
+        </RootUnits>
+      </Unit><Unit dimensionURL="#D_N0" id="U_mol.mol-1">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">mol*mol^-1</UnitName>
+        <UnitSymbol type="HTML">mol mol
+          <sup>−1</sup>
+        </UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">mol</mi>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">mol</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>1</mn>
+              </mrow>
+            </msup>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="mole"/>
+          <EnumeratedRootUnit unit="mole" powerNumerator="-1"/>
+        </RootUnits>
+      </Unit><Unit dimensionURL="#NISTd2" id="U_NISTu2">
+        <UnitSystem name="SI" type="SI_base" lang="en-US"/>
+        <UnitName lang="en">kilogram</UnitName>
+        <UnitSymbol type="HTML">kg</UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">kg</mi>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="gram" prefix="k"/>
+        </RootUnits>
+      </Unit><Unit dimensionURL="#D_L2MT-2Theta-1N-1" id="U_Pa.m3.mol-1.K-1">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">Pa*m^3*mol^-1*K^-1</UnitName>
+        <UnitSymbol type="HTML">Pa m
+          <sup>3</sup> mol
+          <sup>−1</sup> K
+          <sup>−1</sup>
+        </UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">Pa</mi>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">m</mi>
+              </mrow>
+              <mrow>
+                <mn>3</mn>
+              </mrow>
+            </msup>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">mol</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>1</mn>
+              </mrow>
+            </msup>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">K</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>1</mn>
+              </mrow>
+            </msup>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="pascal"/>
+          <EnumeratedRootUnit unit="metre" powerNumerator="3"/>
+          <EnumeratedRootUnit unit="mole" powerNumerator="-1"/>
+          <EnumeratedRootUnit unit="kelvin" powerNumerator="-1"/>
+        </RootUnits>
+      </Unit><Unit dimensionURL="#NISTd48" id="U_NISTu13.u6e-1/1.u5e-1/1">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">joule per mole kelvin</UnitName>
+        <UnitSymbol type="HTML">J mol
+          <sup>−1</sup> K
+          <sup>−1</sup>
+        </UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">J</mi>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">mol</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>1</mn>
+              </mrow>
+            </msup>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">K</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>1</mn>
+              </mrow>
+            </msup>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="joule"/>
+          <EnumeratedRootUnit unit="mole" powerNumerator="-1"/>
+          <EnumeratedRootUnit unit="kelvin" powerNumerator="-1"/>
+        </RootUnits>
+      </Unit><Unit dimensionURL="#NISTd48" id="U_kg.m2.s-2.mol-1.K-1">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">kg*m^2*s^-2*mol^-1*K^-1</UnitName>
+        <UnitSymbol type="HTML">kg m
+          <sup>2</sup> s
+          <sup>−2</sup> mol
+          <sup>−1</sup> K
+          <sup>−1</sup>
+        </UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">kg</mi>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">m</mi>
+              </mrow>
+              <mrow>
+                <mn>2</mn>
+              </mrow>
+            </msup>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">s</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>2</mn>
+              </mrow>
+            </msup>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">mol</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>1</mn>
+              </mrow>
+            </msup>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">K</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>1</mn>
+              </mrow>
+            </msup>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="gram" prefix="k"/>
+          <EnumeratedRootUnit unit="metre" powerNumerator="2"/>
+          <EnumeratedRootUnit unit="second" powerNumerator="-2"/>
+          <EnumeratedRootUnit unit="mole" powerNumerator="-1"/>
+          <EnumeratedRootUnit unit="kelvin" powerNumerator="-1"/>
+        </RootUnits>
+      </Unit><Unit dimensionURL="#D_MIN-1" id="U_C.mol-1">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">C*mol^-1</UnitName>
+        <UnitSymbol type="HTML">C mol
+          <sup>−1</sup>
+        </UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">C</mi>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">mol</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>1</mn>
+              </mrow>
+            </msup>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="coulomb"/>
+          <EnumeratedRootUnit unit="mole" powerNumerator="-1"/>
+        </RootUnits>
+      </Unit><Unit id="U_1.m-3">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">1*m^-3</UnitName>
+        <UnitSymbol type="HTML">1 m
+          <sup>−3</sup>
+        </UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">1</mi>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">m</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>3</mn>
+              </mrow>
+            </msup>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="one"/>
+          <EnumeratedRootUnit unit="metre" powerNumerator="-3"/>
+        </RootUnits>
+      </Unit><Unit dimensionURL="#NISTd2" id="U_NISTu27">
+        <UnitSystem name="SI" type="SI_base" lang="en-US"/>
+        <UnitName lang="en">gram</UnitName>
+        <UnitSymbol type="HTML">g</UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">g</mi>
+          </math>
+        </UnitSymbol>
+      </Unit><Unit dimensionURL="#D_MN-1" id="U_g.mol-1">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">g*mol^-1</UnitName>
+        <UnitSymbol type="HTML">g mol
+          <sup>−1</sup>
+        </UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">g</mi>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">mol</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>1</mn>
+              </mrow>
+            </msup>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="gram"/>
+          <EnumeratedRootUnit unit="mole" powerNumerator="-1"/>
+        </RootUnits>
+      </Unit><Unit id="U_NISTu241">
+        <UnitSystem name="not_SI" type="not_SI" lang="en-US"/>
+        <UnitName lang="en">unified atomic mass unit</UnitName>
+        <UnitSymbol type="HTML">u</UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">u</mi>
+          </math>
+        </UnitSymbol>
+      </Unit><Unit dimensionURL="#D_MN-1" id="U_kg.mol-1">
+        <UnitSystem name="SI" type="SI_derived" lang="en-US"/>
+        <UnitName lang="en">kg*mol^-1</UnitName>
+        <UnitSymbol type="HTML">kg mol
+          <sup>−1</sup>
+        </UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">kg</mi>
+            <mo rspace="thickmathspace">⁢</mo>
+            <msup>
+              <mrow>
+                <mi mathvariant="normal">mol</mi>
+              </mrow>
+              <mrow>
+                <mo>−</mo>
+                <mn>1</mn>
+              </mrow>
+            </msup>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="gram" prefix="k"/>
+          <EnumeratedRootUnit unit="mole" powerNumerator="-1"/>
+        </RootUnits>
+      </Unit></UnitSet><QuantitySet><Quantity id="NISTq6" quantityType="base" dimensionURL="#NISTd6">
+        <QuantityName lang="en-US">amount of substance</QuantityName>
+      </Quantity><Quantity id="NISTq55" quantityType="base" dimensionURL="#NISTd34">
+        <QuantityName lang="en-US">amount of substance concentration</QuantityName>
+        <QuantityName lang="en-US">amount concentration</QuantityName>
+      </Quantity><Quantity id="NISTq179" quantityType="base" dimensionURL="#NISTd79">
+        <QuantityName lang="en-US">molality of solute B</QuantityName>
+      </Quantity><Quantity id="NISTq2" quantityType="base" dimensionURL="#NISTd2">
+        <QuantityName lang="en-US">mass</QuantityName>
+      </Quantity></QuantitySet><DimensionSet><Dimension id="NISTd6">
+        <AmountOfSubstance symbol="N" powerNumerator="1"/>
+      </Dimension><Dimension id="D_N-1">
+        <AmountOfSubstance symbol="N" powerNumerator="-1"/>
+      </Dimension><Dimension id="NISTd34">
+        <Length symbol="L" powerNumerator="-3"/>
+        <AmountOfSubstance symbol="N" powerNumerator="1"/>
+      </Dimension><Dimension id="NISTd79">
+        <Mass symbol="M" powerNumerator="1"/>
+        <AmountOfSubstance symbol="N" powerNumerator="1"/>
+      </Dimension><Dimension id="D_M-1N">
+        <Mass symbol="M" powerNumerator="-1"/>
+        <AmountOfSubstance symbol="N" powerNumerator="1"/>
+      </Dimension><Dimension id="D_N0">
+        <AmountOfSubstance symbol="N" powerNumerator="0"/>
+      </Dimension><Dimension id="NISTd2">
+        <Mass symbol="M" powerNumerator="1"/>
+      </Dimension><Dimension id="D_L2MT-2Theta-1N-1">
+        <Length symbol="L" powerNumerator="2"/>
+        <Mass symbol="M" powerNumerator="1"/>
+        <Time symbol="T" powerNumerator="-2"/>
+        <ThermodynamicTemperature symbol="Theta" powerNumerator="-1"/>
+        <AmountOfSubstance symbol="N" powerNumerator="-1"/>
+      </Dimension><Dimension id="NISTd48">
+        <Length symbol="L" powerNumerator="2"/>
+        <Mass symbol="M" powerNumerator="1"/>
+        <Time symbol="T" powerNumerator="-2"/>
+        <ThermodynamicTemperature symbol="Theta" powerNumerator="-1"/>
+        <AmountOfSubstance symbol="N" powerNumerator="-1"/>
+      </Dimension><Dimension id="D_MIN-1">
+        <Mass symbol="M" powerNumerator="1"/>
+        <ElectricCurrent symbol="I" powerNumerator="1"/>
+        <AmountOfSubstance symbol="N" powerNumerator="-1"/>
+      </Dimension><Dimension id="D_MN-1">
+        <Mass symbol="M" powerNumerator="1"/>
+        <AmountOfSubstance symbol="N" powerNumerator="-1"/>
+      </Dimension></DimensionSet><PrefixSet><Prefix prefixBase="10" prefixPower="3" id="NISTp10_3">
+        <PrefixName lang="en">kilo</PrefixName>
+        <PrefixSymbol type="ASCII">k</PrefixSymbol>
+        <PrefixSymbol type="unicode">k</PrefixSymbol>
+        <PrefixSymbol type="LaTeX">k</PrefixSymbol>
+        <PrefixSymbol type="HTML">k</PrefixSymbol>
+      </Prefix></PrefixSet></UnitsML><presentation-metadata><toc-heading-levels>2</toc-heading-levels><html-toc-heading-levels>2</html-toc-heading-levels><doc-toc-heading-levels>2</doc-toc-heading-levels><pdf-toc-heading-levels>2</pdf-toc-heading-levels></presentation-metadata></metanorma-extension>
+<boilerplate><copyright-statement>
+
+<clause id="_de529b36-05ca-b9e4-a8ac-4c41964770f0" obligation="normative"><p id="_2c83afdd-6f3c-8a19-1954-83e4ede65ae8" align="center">© Bureau International des Poids et Mesures 2019 all rights reserved</p>
+</clause>
+</copyright-statement>
+
+<license-statement>
+
+<clause id="_4ffcd5b5-8039-1aa4-59ce-390aa3b61c7a" obligation="normative">
+<title id="_29f75465-0cf3-76fd-bc56-6b3aa457ee69">Copyright statement</title>
+<p id="_50719790-3c5b-c213-8298-0631d690bc21">This document is distributed under the terms of the Creative Commons Attribution 4.0 International License (<link target="http://creativecommons.org/licenses/by/4.0/:"/>), which permits unrestricted use, distribution, and reproduction in any medium, provided you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made.</p>
+</clause>
+</license-statement>
+
+<feedback-statement>
+
+<p id="_5926bc3f-b367-69e7-6cc6-442a91e32db2">BIPM<br/> Pavillon de Breteuil<br/> F-92312 Sèvres Cedex<br/> FRANCE</p>
+</feedback-statement>
+</boilerplate><sections><clause id="_480ddac7-13a2-725e-faa1-84799c5fb7e5" obligation="normative">
+<title id="_46069e95-51f4-1e9a-f2b9-70fe751a0935">Introduction</title>
+<p id="_e9ea1eb5-290e-43e9-d9c8-0122b467e64d">The purpose of this <em>mise en pratique</em>, prepared by the Consultative Committee for Amount of
+Substance — Metrology in Chemistry and Biology (CCQM) of the International Committee for
+Weights and Measures (CIPM), is to indicate how the definition of the SI base unit, the mole,
+symbol <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu6">
+      <mstyle mathvariant="normal">
+        <mi>mol</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(mol)"</asciimath></stem>, may be realized in practice.</p>
+
+<p id="_67d3dbc2-7978-1e0b-92fb-bb8513fcab2c">In general, the term “<tt>to realize a unit</tt>” is interpreted to mean the establishment of the value and associated uncertainty of a quantity of the same kind as the unit that is consistent with the definition of the unit. The future definition of the mole does not imply any particular experiment for its practical realization. Any method capable of deriving an amount of substance value traceable to the set of seven reference constants could, in principle, be used. Thus, the list of methods given is not meant to be an exhaustive list of all possibilities, but rather a list of those methods easiest to implement and/or that provide the smallest uncertainties and which are officially recognized as primary methods by the relevant Consultative Committee.</p>
+
+<p id="_48c4a638-4ce8-1711-8310-a1eed39a881c">A primary method is a method having the highest metrological properties; whose operation can be completely described and understood; for which a complete uncertainty statement can be written down in terms of SI units; and which does not require a reference standard of the same quantity.</p>
+</clause>
+
+<clause id="_6026b377-5172-aa75-3bc6-a2002cfb7b5d" obligation="normative">
+<title id="_b2925e09-428f-0dab-70ef-29188c1161c0">Definition of the mole</title>
+<p id="_bcec2ae4-943d-f012-5c1e-adc05ed8ece2">The definition of the mole, SI base unit of amount of substance, is as follows <eref type="inline" bibitemid="bipm-9th" citeas="[2.1]"/>:</p>
+
+<quote id="_33ee0d75-9a1a-0ecc-b6b5-34b43820a59c"><p id="_7e1ee59c-2a62-0668-116c-b23a57dfb2da"><strong>The mole, symbol <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu6">
+      <mstyle mathvariant="normal">
+        <mi>mol</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(mol)"</asciimath></stem>, is the SI unit of amount of substance. One mole contains
+exactly <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>6.02214076</mn>
+    <mo>×</mo>
+    <msup>
+      <mn>10</mn>
+      <mn>23</mn>
+    </msup>
+  </mstyle>
+</math><asciimath>6.02214076 xx 10^{23}</asciimath></stem> elementary entities. This number is the fixed numerical
+value of the Avogadro constant, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>N</mi>
+      </mstyle>
+      <mtext>A</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(N)_"A"</asciimath></stem>, when expressed in the unit
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_mol-1">
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>mol</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>1</mn>
+        </mrow>
+      </msup>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(mol^(-1))"</asciimath></stem> and is called the Avogadro number.</strong></p>
+
+<p id="_458fd4a0-b6f8-3aff-c653-891a5a7a67a8"><strong>The amount of substance, symbol <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>n</mi>
+  </mstyle>
+</math><asciimath>n</asciimath></stem>, of a system is a measure of the number of specified elementary entities. An elementary entity may be an atom, a molecule, an ion, an electron, any other particle or specified group of particles.</strong></p>
+</quote>
+
+<p id="_91cb8f4c-efdf-0cd0-b4fa-453ffb60fb5f">As a consequence of the definition of the mole, the Avogadro constant and the Avogadro number no longer have an experimental uncertainty in the SI.</p>
+
+<p id="_e5287a2f-d949-2ea5-c548-c8c1316c2a38">This definition was agreed by the 26th General Conference on Weights and Measures (CGPM) in 2018, to take effect on 20 May 2019. It is now based on a fixed number of entities  <eref type="inline" bibitemid="iupac-rec" citeas="[2.2]"/>. It replaces the definition adopted in 1971 which defined the mole as “the amount of substance of a system which contains as many elementary entities as there are atoms in 0.012 kilogram of carbon 12”.</p>
+
+<p id="_0e66b449-6cb8-3c97-9320-4c912cab0b7b">The quantities used to characterize a sample of a pure chemical substance <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>X</mtext>
+  </mstyle>
+</math><asciimath>"X"</asciimath></stem> are:</p>
+
+<dl id="_b52bf3f7-84ab-a7dd-2bd3-95dacf249a35"><dt><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>n</mi>
+  </mstyle>
+</math><asciimath>n</asciimath></stem></dt>
+<dd id="_5ffb6dca-2393-7303-a23b-b6f718ca7b94"><p id="_0ddf2b31-08a3-14dd-2fbe-7581f5fc9804">the amount of substance in the sample of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>X</mtext>
+  </mstyle>
+</math><asciimath>"X"</asciimath></stem>;</p>
+</dd>
+<dt><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>N</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(N)</asciimath></stem></dt>
+<dd id="_831fc4e3-0071-0899-d90f-2dbb914027e3"><p id="_4050e374-0705-c4db-b138-02a31e704101">the number of elementary entities of the substance <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>X</mtext>
+  </mstyle>
+</math><asciimath>"X"</asciimath></stem> in the sample;</p>
+</dd>
+<dt><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>m</mi>
+  </mstyle>
+</math><asciimath>m</asciimath></stem></dt>
+<dd id="_23415d9e-786d-4627-4efd-dfbadd50f26e"><p id="_173a7d38-0e7b-2838-ad36-e7648affcf70">the mass of the <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>N</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(N)</asciimath></stem> elementary entities;</p>
+</dd>
+<dt><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>A</mi>
+      </mstyle>
+      <mtext>r</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mtext>X</mtext>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>ii(A)_"r"("X")</asciimath></stem></dt>
+<dd id="_736a08eb-e57d-79a5-245f-6e0788000f73"><p id="_467d8f2a-ccbf-fce7-6d45-ddfc41ae66af">the relative atomic or molecular mass<fn id="_ceb92047-d7b2-0418-b64d-de5066186496" reference="1"><p id="_5c98a0f1-d9f5-efb7-f71f-be095fd70409">For historical reasons, the equivalent terms “atomic weight” and “molecular weight” are still in use <eref type="inline" bibitemid="iupac-quantities" citeas="[2.3]"/>.</p>
+</fn> of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>X</mtext>
+  </mstyle>
+</math><asciimath>"X"</asciimath></stem> (depending whether <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>X</mtext>
+  </mstyle>
+</math><asciimath>"X"</asciimath></stem> is an element or a compound,
+respectively)</p>
+</dd>
+<dt><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>M</mi>
+      </mstyle>
+      <mtext>u</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(M)_"u"</asciimath></stem></dt>
+<dd id="_bd178610-b060-595d-2aaa-0e105d94a198"><p id="_0f9da932-6716-c76e-80ae-bc7731872a30">the molar mass constant</p>
+</dd>
+</dl>
+
+<p id="_13ce7597-ef2a-d486-c688-4ced9c686209">Two widely used equations relate these quantities:</p>
+
+<formula id="_3796fcea-ca3e-b1ae-41f0-509498e23406" anchor="eq-2-1"><stem block="true" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <mi>n</mi>
+    <mo>=</mo>
+    <mi>m</mi>
+    <mo>/</mo>
+    <mrow>
+      <mo>(</mo>
+      <msub>
+        <mstyle mathvariant="italic">
+          <mi>A</mi>
+        </mstyle>
+        <mtext>r</mtext>
+      </msub>
+      <mrow>
+        <mo>(</mo>
+        <mtext>X</mtext>
+        <mo>)</mo>
+      </mrow>
+      <msub>
+        <mstyle mathvariant="italic">
+          <mi>M</mi>
+        </mstyle>
+        <mtext>u</mtext>
+      </msub>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>n = m // (ii(A)_"r" ("X") ii(M)_"u")</asciimath></stem></formula>
+
+<p id="_a3d60262-f68c-0f9c-64d3-1b115300bb60">and</p>
+
+<formula id="_3df46b45-f4eb-47f1-e651-3d3cf843a154" anchor="eq-2-2"><stem block="true" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <mi>n</mi>
+    <mo>=</mo>
+    <mstyle mathvariant="italic">
+      <mi>N</mi>
+    </mstyle>
+    <mo>/</mo>
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>N</mi>
+      </mstyle>
+      <mtext>A</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>n = ii(N) // ii(N)_"A"</asciimath></stem></formula>
+
+<p id="_9d384cfd-9f3e-cabe-b9e3-7bf6bcd14cc3">These equations are valid under the 2019 definition as they previously were under the 1971 definition. This document explains how the measurement uncertainties of the quantities in these equations should be handled under the 2019 definition.</p>
+
+<p id="_5aeab9d1-a11d-4228-22e6-20fcd4e17048">In <xref target="sec-3"/>, an example of the realization of the unit of amount of substance to the smallest possible uncertainty is given. It uses a method that helped motivate the development of the present definition and now demonstrates its realization on a primary level. In  <xref target="sec-4"/>, some additional practical methods for realizing the mole are described. In  <xref target="sec-5"/>, the issue of quantifying small numbers of entities is discussed. Finally, in  <xref target="sec-6"/>, the continuity of measurement results expressed in moles with respect to the 1971 and 2019 definitions is explained.</p>
+
+<p id="_3a104ea8-d244-46ca-facf-25e7877d045b">In the future, this <em>mise en pratique</em> may be amended to include additional practical realizations or revised uncertainties. The  <em>mise en pratique</em> is published uniquely as an on-line appendix to the latest edition of the SI Brochure. In this way, this appendix can be revised whenever necessary.</p>
+</clause>
+
+<clause id="_c7912266-0860-f589-0b2b-07693a60ed23" anchor="sec-3" obligation="normative">
+<title id="_731e91cf-bf53-b437-1b21-afcadb0f30d7">Practical realization of the definition of the mole with the smallest uncertainty</title>
+<p id="_c1c69af9-0827-0fdb-e739-e4329e25e334">Currently, the most accurate realization of the mole results from an experiment that led to the
+determination of the Avogadro constant. This experiment was carried out within the framework of
+the International Avogadro Coordination and was fundamental to determining the best
+experimental values of both the Avogadro and Planck constants prior to fixing their numerical
+values. It involved the determination of the number of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msup>
+      <mtext>‌</mtext>
+      <mn>28</mn>
+    </msup>
+    <mtext>Si</mtext>
+  </mstyle>
+</math><asciimath>"‌"^{28} "Si"</asciimath></stem> atoms
+(<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>N</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(N)</asciimath></stem>) in a single crystal of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Si</mtext>
+  </mstyle>
+</math><asciimath>"Si"</asciimath></stem>,
+enriched in <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msup>
+      <mtext>‌</mtext>
+      <mn>28</mn>
+    </msup>
+    <mtext>Si</mtext>
+  </mstyle>
+</math><asciimath>"‌"^{28} "Si"</asciimath></stem>, using volumetric and X-ray interferometric measurements <eref type="inline" bibitemid="fujii" citeas="[3.1]"/>,<eref type="inline" bibitemid="bartlg" citeas="[3.2]"/>,<eref type="inline" bibitemid="kuramoto" citeas="[3.3]"/>:</p>
+
+<formula id="_f7c73dcd-d30b-4a65-be18-12db2541de82" anchor="eq-3-1"><stem block="true" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <mstyle mathvariant="italic">
+      <mi>N</mi>
+    </mstyle>
+    <mo>=</mo>
+    <mn>8</mn>
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>V</mi>
+      </mstyle>
+      <mtext>s</mtext>
+    </msub>
+    <mo>/</mo>
+    <mi>a</mi>
+    <msup>
+      <mrow>
+        <mo>(</mo>
+        <msup>
+          <mtext>‌</mtext>
+          <mn>28</mn>
+        </msup>
+        <mtext>Si</mtext>
+        <mo>)</mo>
+      </mrow>
+      <mn>3</mn>
+    </msup>
+  </mstyle>
+</math><asciimath>ii(N) = 8 ii(V)_"s" // a ("‌"^{28} "Si")^3</asciimath></stem></formula>
+
+<p id="_ae352924-3ef3-6868-89bf-b027fb38a706">where <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>V</mi>
+      </mstyle>
+      <mtext>s</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(V)_"s"</asciimath></stem> is the crystal volume, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle displaystyle="false"><mn>8</mn></mstyle></math><asciimath>8</asciimath></stem> is the number of atoms per unit cell of
+crystalline silicon and
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>a</mi>
+    <mrow>
+      <mo>(</mo>
+      <msup>
+        <mtext>‌</mtext>
+        <mn>28</mn>
+      </msup>
+      <mtext>Si</mtext>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>a("‌"^{28} "Si")</asciimath></stem> is the lattice parameter of the cubic unit cell. <xref target="eq-3-1"/> is
+strictly valid only for the
+hypothetical case a perfect crystal of pure <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msup>
+      <mtext>‌</mtext>
+      <mn>28</mn>
+    </msup>
+    <mtext>Si</mtext>
+  </mstyle>
+</math><asciimath>"‌"^{28} "Si"</asciimath></stem> — hence, all elementary
+entities in the crystal were
+identified. This was achieved by determining and correcting for the amount of substance fraction
+of all impurities (elemental and isotope impurities, i.e. <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msup>
+      <mtext>‌</mtext>
+      <mn>29</mn>
+    </msup>
+    <mtext>Si</mtext>
+  </mstyle>
+</math><asciimath>"‌"^{29} "Si"</asciimath></stem>,
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msup>
+      <mtext>‌</mtext>
+      <mn>30</mn>
+    </msup>
+    <mtext>Si</mtext>
+  </mstyle>
+</math><asciimath>"‌"^{30} "Si"</asciimath></stem>) with sufficient accuracy <eref type="inline" bibitemid="fujii" citeas="[3.1]"/>,<eref type="inline" bibitemid="bartlg" citeas="[3.2]"/>. This is consistent with the concept for the realization of the kilogram using the X-ray crystal-density (XRCD) approach as described in the  <em>mise en pratique</em> for the kilogram <eref type="inline" bibitemid="bipm-9th" citeas="[2.1]"/>.</p>
+
+<p id="_6fe78d19-da08-97c6-8994-5b8545aceba7">Utilizing the fixed numerical value of the Avogadro constant <eref type="inline" bibitemid="newell" citeas="[3.4]"/> and <xref target="eq-2-2"/>, the amount
+of substance <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>n</mi>
+  </mstyle>
+</math><asciimath>n</asciimath></stem> of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msup>
+      <mtext>‌</mtext>
+      <mn>28</mn>
+    </msup>
+    <mtext>Si</mtext>
+  </mstyle>
+</math><asciimath>"‌"^{28} "Si"</asciimath></stem> in the macroscopic crystal is given by:</p>
+
+<formula id="_55a03194-369c-5303-3837-1403a9ecf90e"><stem block="true" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <mi>n</mi>
+    <mo>=</mo>
+    <mn>8</mn>
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>V</mi>
+      </mstyle>
+      <mtext>s</mtext>
+    </msub>
+    <mo>/</mo>
+    <mrow>
+      <mo>(</mo>
+      <mi>a</mi>
+      <msup>
+        <mrow>
+          <mo>(</mo>
+          <msup>
+            <mtext>‌</mtext>
+            <mn>28</mn>
+          </msup>
+          <mtext>Si</mtext>
+          <mo>)</mo>
+        </mrow>
+        <mn>3</mn>
+      </msup>
+      <msub>
+        <mstyle mathvariant="italic">
+          <mi>N</mi>
+        </mstyle>
+        <mi mathvariant="normal">A</mi>
+      </msub>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>n = 8 ii(V)_"s" // (a( "‌"^{28} "Si")^3 ii(N)_A )</asciimath></stem></formula>
+
+<p id="_0b1b6ce9-1416-777d-3877-8962b9f37813">This allows the definition of both the mole and the kilogram to be realized with a relative
+standard uncertainty below <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>2</mn>
+    <mo>×</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>8</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math><asciimath>2 xx 10^(-8)</asciimath></stem> <eref type="inline" bibitemid="kuramoto" citeas="[3.3]"/>, <eref type="inline" bibitemid="clade" citeas="[3.5]"/>, <eref type="inline" bibitemid="massa" citeas="[3.6]"/> in a single
+crystal of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Si</mtext>
+  </mstyle>
+</math><asciimath>"Si"</asciimath></stem>, enriched in <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msup>
+      <mtext>‌</mtext>
+      <mn>28</mn>
+    </msup>
+    <mtext>Si</mtext>
+  </mstyle>
+</math><asciimath>"‌"^{28} "Si"</asciimath></stem>.</p>
+
+<p id="_800e296c-26ad-25b6-5c9e-3289cd0b0d2b">This primary realization of the mole with the smallest uncertainty differs from methods generally used to realize the mole. It is presented here as the “<tt>state of the art</tt>” in determining the number of entities in a macroscopic sample, and hence the amount of substance in that sample. It is, at the same time, also a primary realization of the kilogram. It is a primary mass standard and the unit of mass, the kilogram, may be disseminated from this standard  <eref type="inline" bibitemid="mep-kg" citeas="[3.7]"/>. In the following sections, some of the more common and practical methods to realize the mole are described.</p>
+</clause>
+
+<clause id="_ecdbda1a-01fa-570e-e2e1-af447cbfb739" anchor="sec-4" obligation="normative">
+<title id="_9830c90b-dc67-432b-2728-6820e6065203">Common and practical realizations of the definition of the mole and derived units and dissemination of the mole</title>
+<p id="_aaf9ec08-d320-f0fb-ac9c-fa2df509f38c">In practice, chemical measurements require the realization, across all types of chemical entities,
+of derived units involving amount of substance that are relevant to practical chemical
+measurement, such as the amount of substance concentration (<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu6.u1e-3/1">
+      <mstyle mathvariant="normal">
+        <mi>mol</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>m</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>3</mn>
+        </mrow>
+      </msup>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(mol//m^3)"</asciimath></stem>), the
+amount of substance content (<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu6.u27p10_3e-1/1">
+      <mstyle mathvariant="normal">
+        <mi>mol</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>kg</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>1</mn>
+        </mrow>
+      </msup>
+      
+      
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(mol//kg)"</asciimath></stem>) or the amount of substance fraction
+(<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_mol.mol-1">
+      <mstyle mathvariant="normal">
+        <mi>mol</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>mol</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>1</mn>
+        </mrow>
+      </msup>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(mol/mol)"</asciimath></stem>). This may be done by a variety of primary methods of measurement <eref type="inline" bibitemid="quinn" citeas="[4.1]"/>. The present definition of the mole allows the number of entities <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>N</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(N)</asciimath></stem> in a
+sample to be determined to the same accuracy as the amount of substance <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>n</mi>
+  </mstyle>
+</math><asciimath>n</asciimath></stem> in the sample because, from  <xref target="eq-2-2"/>, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>N</mi>
+    </mstyle>
+    <mo>=</mo>
+    <mi>n</mi>
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>N</mi>
+      </mstyle>
+      <mtext>A</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(N) = n ii(N)_"A"</asciimath></stem> and <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>N</mi>
+      </mstyle>
+      <mtext>A</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(N)_"A"</asciimath></stem> has an exact numerical value.</p>
+
+<p id="_81308150-f375-e71f-5096-04f6e2b2580b">Similarly, the atomic or molecular mass <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>m</mi>
+      <mtext>a</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mtext>X</mtext>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>m_"a" ("X")</asciimath></stem> and the molar mass <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>M</mi>
+    </mstyle>
+    <mrow>
+      <mo>(</mo>
+      <mtext>X</mtext>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>ii(M)("X")</asciimath></stem> of
+any entity <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>X</mtext>
+  </mstyle>
+</math><asciimath>"X"</asciimath></stem> are known to the same relative uncertainty because:</p>
+
+<formula id="_ca01ffdd-3747-d7f2-2123-512cdd0f2010" anchor="eq-4-1"><stem block="true" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <msub>
+      <mi>m</mi>
+      <mtext>a</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mtext>X</mtext>
+      <mo>)</mo>
+    </mrow>
+    <mo>=</mo>
+    <mfrac>
+      <mrow>
+        <mstyle mathvariant="italic">
+          <mi>M</mi>
+        </mstyle>
+        <mrow>
+          <mo>(</mo>
+          <mtext>X</mtext>
+          <mo>)</mo>
+        </mrow>
+      </mrow>
+      <msub>
+        <mstyle mathvariant="italic">
+          <mi>N</mi>
+        </mstyle>
+        <mtext>A</mtext>
+      </msub>
+    </mfrac>
+  </mstyle>
+</math><asciimath>m_"a" ("X") = {ii(M)("X")} / {ii(N)_"A"}</asciimath></stem></formula>
+
+<p id="_35fb5936-9cb7-292b-5559-0a19affe5e6c">The atomic mass constant <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>m</mi>
+      <mtext>u</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>m_{"u"}</asciimath></stem> is <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1</mn>
+    <mo>/</mo>
+    <mn>12</mn>
+  </mstyle>
+</math><asciimath>1//12</asciimath></stem> of the mass of a free
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msup>
+      <mtext>‌</mtext>
+      <mn>12</mn>
+    </msup>
+    <mtext>C</mtext>
+  </mstyle>
+</math><asciimath>"‌"^{12} "C"</asciimath></stem> atom, at rest and in its ground state. Its present
+experimentally-determined value is approximately <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1.660539067</mn>
+    <mrow>
+      <mo>(</mo>
+      <mn>1</mn>
+      <mo>)</mo>
+    </mrow>
+    <mo>×</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>27</mn>
+      </mrow>
+    </msup>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu2">
+      <mstyle mathvariant="normal">
+        <mi>kg</mi>
+      </mstyle>
+      
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>1.660539067(1) xx 10^{-27} "unitsml(kg)"</asciimath></stem>
+with a relative uncertainty less than 1 part in <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msup>
+      <mn>10</mn>
+      <mn>9</mn>
+    </msup>
+  </mstyle>
+</math><asciimath>10^9</asciimath></stem> and is identical to that of
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>M</mi>
+      </mstyle>
+      <mtext>u</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(M)_{"u"}</asciimath></stem>. Note that <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>N</mi>
+      </mstyle>
+      <mtext>A</mtext>
+    </msub>
+    <msub>
+      <mi>m</mi>
+      <mtext>u</mtext>
+    </msub>
+    <mo>=</mo>
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>M</mi>
+      </mstyle>
+      <mtext>u</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(N)_"A" m_{"u"} = ii(M)_"u"</asciimath></stem> is a special case of <xref target="eq-4-1"/>. The advantages of these features of the present definition of the mole have been emphasized in the literature  <eref type="inline" bibitemid="milton" citeas="[4.2]"/>. The most up-to-date values and uncertainties of
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>m</mi>
+      <mtext>u</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>m_{"u"}</asciimath></stem> and <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>M</mi>
+      </mstyle>
+      <mtext>u</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(M)_{"u"}</asciimath></stem> are the most recent recommendations of the CODATA task group on fundamental constants.</p>
+
+<p id="_eeaa7858-9b14-58a8-293e-40f706e69054">Three examples of methods to realize the mole (and the number of entities) follow:</p>
+
+<clause id="_d746e673-17de-aeab-87dd-26c9a88a59a9" obligation="normative">
+<title id="_045193f4-1c03-c6f4-f030-f366c053b57e">Gravimetric preparation</title>
+<p id="_07946396-7f26-eb2f-b032-cbf9ff90497f">Based on <xref target="eq-2-1"/> and <xref target="eq-2-2"/>, the number of entities <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>N</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(N)</asciimath></stem> of a substance <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>X</mtext>
+  </mstyle>
+</math><asciimath>"X"</asciimath></stem>
+or its amount of substance <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>n</mi>
+  </mstyle>
+</math><asciimath>n</asciimath></stem> in a sample may be measured by determining the product of the
+mass fraction of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>X</mtext>
+  </mstyle>
+</math><asciimath>"X"</asciimath></stem> in the sample, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>w</mi>
+    <mrow>
+      <mo>(</mo>
+      <mtext>X</mtext>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>w("X")</asciimath></stem>, and the mass <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>m</mi>
+  </mstyle>
+</math><asciimath>m</asciimath></stem> of the sample from
+the following equations<fn id="_af20131d-31c7-1b0a-971f-f507b06fd01e" reference="2"><p id="_75e19d5a-0c23-6497-2e5b-ee2736f56ae9"><xref target="eq-4-2"/> assumes that <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>N</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(N)</asciimath></stem> entities of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>X</mtext>
+  </mstyle>
+</math><asciimath>"X"</asciimath></stem> contribute a mass <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>N</mi>
+    </mstyle>
+    <mo>×</mo>
+    <msub>
+      <mi>m</mi>
+      <mtext>a</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mtext>X</mtext>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>ii(N) xx m_"a"("X")</asciimath></stem> to a sample whose total mass is <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>m</mi>
+  </mstyle>
+</math><asciimath>m</asciimath></stem>.</p>
+</fn>:</p>
+
+<formula id="_9da2a6c1-1ee7-6230-255d-d002241bb07a" anchor="eq-4-2"><stem block="true" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <mstyle mathvariant="italic">
+      <mi>N</mi>
+    </mstyle>
+    <mo>=</mo>
+    <mfrac>
+      <mrow>
+        <mi>w</mi>
+        <mrow>
+          <mo>(</mo>
+          <mtext>X</mtext>
+          <mo>)</mo>
+        </mrow>
+        <mi>m</mi>
+      </mrow>
+      <mrow>
+        <msub>
+          <mi>m</mi>
+          <mtext>a</mtext>
+        </msub>
+        <mrow>
+          <mo>(</mo>
+          <mtext>X</mtext>
+          <mo>)</mo>
+        </mrow>
+      </mrow>
+    </mfrac>
+    <mo>=</mo>
+    <mfrac>
+      <mrow>
+        <mi>w</mi>
+        <mrow>
+          <mo>(</mo>
+          <mtext>X</mtext>
+          <mo>)</mo>
+        </mrow>
+        <mi>m</mi>
+      </mrow>
+      <mrow>
+        <msub>
+          <mstyle mathvariant="italic">
+            <mi>A</mi>
+          </mstyle>
+          <mtext>r</mtext>
+        </msub>
+        <mrow>
+          <mo>(</mo>
+          <mtext>X</mtext>
+          <mo>)</mo>
+        </mrow>
+        <msub>
+          <mi>m</mi>
+          <mtext>u</mtext>
+        </msub>
+      </mrow>
+    </mfrac>
+  </mstyle>
+</math><asciimath>ii(N) = (w("X") m) / (m_"a" ("X")) = {w("X")m} / {ii(A)_"r" ("X") m_{"u"}}</asciimath></stem></formula>
+
+<formula id="_0c5e241d-86f0-f5eb-2d62-f4e5732b5638" anchor="eq-4-3"><stem block="true" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <mi>n</mi>
+    <mo>=</mo>
+    <mfrac>
+      <mstyle mathvariant="italic">
+        <mi>N</mi>
+      </mstyle>
+      <msub>
+        <mstyle mathvariant="italic">
+          <mi>N</mi>
+        </mstyle>
+        <mtext>A</mtext>
+      </msub>
+    </mfrac>
+    <mo>=</mo>
+    <mfrac>
+      <mrow>
+        <mi>w</mi>
+        <mrow>
+          <mo>(</mo>
+          <mtext>X</mtext>
+          <mo>)</mo>
+        </mrow>
+        <mi>m</mi>
+      </mrow>
+      <mrow>
+        <msub>
+          <mstyle mathvariant="italic">
+            <mi>A</mi>
+          </mstyle>
+          <mtext>r</mtext>
+        </msub>
+        <mrow>
+          <mo>(</mo>
+          <mtext>X</mtext>
+          <mo>)</mo>
+        </mrow>
+        <msub>
+          <mstyle mathvariant="italic">
+            <mi>N</mi>
+          </mstyle>
+          <mtext>A</mtext>
+        </msub>
+        <msub>
+          <mi>m</mi>
+          <mtext>u</mtext>
+        </msub>
+      </mrow>
+    </mfrac>
+    <mo>=</mo>
+    <mfrac>
+      <mrow>
+        <mi>w</mi>
+        <mrow>
+          <mo>(</mo>
+          <mtext>X</mtext>
+          <mo>)</mo>
+        </mrow>
+        <mi>m</mi>
+      </mrow>
+      <mrow>
+        <msub>
+          <mstyle mathvariant="italic">
+            <mi>A</mi>
+          </mstyle>
+          <mtext>r</mtext>
+        </msub>
+        <mrow>
+          <mo>(</mo>
+          <mtext>X</mtext>
+          <mo>)</mo>
+        </mrow>
+        <msub>
+          <mstyle mathvariant="italic">
+            <mi>M</mi>
+          </mstyle>
+          <mtext>u</mtext>
+        </msub>
+      </mrow>
+    </mfrac>
+  </mstyle>
+</math><asciimath>n = ii(N) / ii(N)_"A" = {w("X") m} / {ii(A)_"r" ("X") ii(N)_"A" m_{"u"}} = {w("X")m} / {ii(A)_"r" ("X") ii(M)_{"u"}}</asciimath></stem></formula>
+
+<p id="_d14a2042-f00d-b196-f0f2-7199390e25b2">In <xref target="eq-4-2"/> and <xref target="eq-4-3"/>, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>A</mi>
+      </mstyle>
+      <mtext>r</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mtext>X</mtext>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>ii(A)_"r" ("X")</asciimath></stem> is the relative atomic or molecular mass of
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>X</mtext>
+  </mstyle>
+</math><asciimath>"X"</asciimath></stem> as calculated from the chemical formula of the pure substance and tables of the
+relative atomic masses <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>A</mi>
+      </mstyle>
+      <mtext>r</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(A)_"r"</asciimath></stem> of the elements. The relative atomic masses of the elements are tabulated  <eref type="inline" bibitemid="atomic-weights" citeas="[4.3]"/> with uncertainties that, except for the mononuclidic
+elements, are dominated by the uncertainty in the spread of isotopes seen in naturally occurring
+elements from different environments. Because the reported values of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>A</mi>
+      </mstyle>
+      <mtext>r</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(A)_"r"</asciimath></stem> are mass ratios, they are unaffected by changes to the SI.</p>
+
+<p id="_0c15a0b4-9bfb-32e2-75b2-81a6cb64724a">This method of realizing the mole is commonly used because measuring the mass of a sample is
+relatively simple and accurate. The knowledge of the mass fraction <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>w</mi>
+  </mstyle>
+</math><asciimath>w</asciimath></stem> is a prerequisite for
+its use. When very high purity substances are available, the uncertainty of the determination of
+the mass <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>m</mi>
+  </mstyle>
+</math><asciimath>m</asciimath></stem> is often the limiting factor and the mole may be realized with a relative
+standard uncertainty of less than <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1</mn>
+    <mo>×</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>6</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math><asciimath>1 xx 10^(-6)</asciimath></stem>. It is important to note that there are relatively few substances (e.g. pure gases or pure metals), where the mass fraction of the substance (traditionally called its “<tt>purity</tt>”) can be assigned with sufficiently small
+uncertainty to permit a realization of the mole with a relative uncertainty at the <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1</mn>
+    <mo>×</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>6</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math><asciimath>1 xx
+10^(-6)</asciimath></stem> level. Experimental verification that the isotopic composition of the substance is equivalent to that used for the calculation of the molar mass must also be undertaken if uncertainty at this level is to be achieved.</p>
+
+<p id="_90a04231-8929-8068-80bf-07333379f0b9">Realization of the mole for a pure organic or inorganic substance will usually be limited by the uncertainty of the mass fraction assignments to the substance rather than the uncertainty of mass determinations. As there are very few organic substances whose mass fraction (“<tt>purity</tt>”) is
+assigned with relative standard uncertainty below <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1</mn>
+    <mo>×</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>4</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math><asciimath>1 xx 10^(-4)</asciimath></stem>, achieving a relative
+standard uncertainty of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1</mn>
+    <mo>×</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>4</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math><asciimath>1 xx 10^(-4)</asciimath></stem> for a realization of the mole based on a pure organic or inorganic substance is the limit in most cases.</p>
+
+<p id="_245d94ce-157f-52a6-f656-57b3f2d7ae29">This method of realization is used for most chemical entities. However, there are other methods that can be used for certain restricted classes of substances. These are described in  <xref target="sec-4-2"/> and  <xref target="sec-4-3"/>.</p>
+</clause>
+
+<clause id="_58e65a32-fbf6-6c78-b6bb-3b0ca3bed036" anchor="sec-4-2" obligation="normative">
+<title id="_78b6fe01-e92f-aba1-baa3-5f926b170c44">Equations of state for gases</title>
+<p id="_cf28a68a-d6e6-dfe9-7289-4dd44f7dd31b">The amount of substance <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>n</mi>
+  </mstyle>
+</math><asciimath>n</asciimath></stem> of a sample of a pure gas may be determined by solving the equation of state for the gas:</p>
+
+<formula id="_00935ca0-4890-f5a1-dc82-b759160280b5"><stem block="true" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <mi>p</mi>
+    <mstyle mathvariant="italic">
+      <mi>V</mi>
+    </mstyle>
+    <mo>=</mo>
+    <mi>n</mi>
+    <mstyle mathvariant="italic">
+      <mi>R</mi>
+    </mstyle>
+    <mstyle mathvariant="italic">
+      <mi>T</mi>
+    </mstyle>
+    <mrow>
+      <mo>[</mo>
+      <mn>1</mn>
+      <mo>+</mo>
+      <mstyle mathvariant="italic">
+        <mi>B</mi>
+      </mstyle>
+      <mrow>
+        <mo>(</mo>
+        <mstyle mathvariant="italic">
+          <mi>T</mi>
+        </mstyle>
+        <mo>)</mo>
+      </mrow>
+      <mrow>
+        <mo>(</mo>
+        <mfrac>
+          <mi>n</mi>
+          <mstyle mathvariant="italic">
+            <mi>V</mi>
+          </mstyle>
+        </mfrac>
+        <mo>)</mo>
+      </mrow>
+      <mo>+</mo>
+      <mo>…</mo>
+      <mo>]</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>p ii(V) = n ii(R) ii(T) [ 1 + ii(B) (ii(T)) (n / ii(V)) + ldots ]</asciimath></stem></formula>
+
+<p id="_649486ba-ade7-0efe-bdeb-88c7aa491c2a">where <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>p</mi>
+  </mstyle>
+</math><asciimath>p</asciimath></stem> is the pressure, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>V</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(V)</asciimath></stem> is the volume, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>T</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(T)</asciimath></stem> is the temperature, and
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>R</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(R)</asciimath></stem> is the molar gas constant. The value of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>R</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(R)</asciimath></stem> is known exactly (<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>R</mi>
+    </mstyle>
+    <mo>=</mo>
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>N</mi>
+      </mstyle>
+      <mtext>A</mtext>
+    </msub>
+    <mi>k</mi>
+  </mstyle>
+</math><asciimath>ii(R) =
+ii(N)_"A" k</asciimath></stem>, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>k</mi>
+  </mstyle>
+</math><asciimath>k</asciimath></stem> is the Boltzmann constant and its numerical value is fixed). The SI
+coherent unit of the molar gas constant is <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_Pa.m3.mol-1.K-1">
+      <mstyle mathvariant="normal">
+        <mi>Pa</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>m</mi>
+        </mstyle>
+        <mn>3</mn>
+      </msup>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>mol</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>1</mn>
+        </mrow>
+      </msup>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>K</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>1</mn>
+        </mrow>
+      </msup>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(Pa*m^3*mol^(-1)*K^(-1))"</asciimath></stem> or
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu13.u6e-1/1.u5e-1/1">
+      <mstyle mathvariant="normal">
+        <mi>J</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>mol</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>1</mn>
+        </mrow>
+      </msup>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>K</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>1</mn>
+        </mrow>
+      </msup>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(J*mol^(-1)*K^(-1))"</asciimath></stem>, <em>i.e.</em> <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_kg.m2.s-2.mol-1.K-1">
+      <mstyle mathvariant="normal">
+        <mi>kg</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>m</mi>
+        </mstyle>
+        <mn>2</mn>
+      </msup>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>s</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>2</mn>
+        </mrow>
+      </msup>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>mol</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>1</mn>
+        </mrow>
+      </msup>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>K</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>1</mn>
+        </mrow>
+      </msup>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(kg*m^2*s^(-2)*mol^(-1)*K^(-1))"</asciimath></stem> when
+expressed in base units. The terms involving the second virial coefficient <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>B</mi>
+    </mstyle>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>T</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>ii(B)(ii(T))</asciimath></stem> and
+possible higher-order terms are generally small corrections. Virial coefficients expressed in SI
+units are tabulated for a number of simple gases. The uncertainty in a measurement of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>n</mi>
+  </mstyle>
+</math><asciimath>n</asciimath></stem>
+made this way depends on the uncertainty in measuring <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>p</mi>
+  </mstyle>
+</math><asciimath>p</asciimath></stem>, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>V</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(V)</asciimath></stem> and <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>T</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(T)</asciimath></stem>, and
+in the tabulated values of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>B</mi>
+    </mstyle>
+    <mrow>
+      <mo>(</mo>
+      <mstyle mathvariant="italic">
+        <mi>T</mi>
+      </mstyle>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>ii(B)(ii(T))</asciimath></stem>. This method of realizing the mole for a gas relies
+on the use of a pure sample of the gas. The number of molecules in the gas is <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>n</mi>
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>N</mi>
+      </mstyle>
+      <mtext>A</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>n ii(N)_"A"</asciimath></stem>,
+which has the same relative uncertainty as the determination of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>n</mi>
+  </mstyle>
+</math><asciimath>n</asciimath></stem>.</p>
+</clause>
+
+<clause id="_773e4bc7-13c3-e4f8-c78a-0fd2c955df7c" anchor="sec-4-3" obligation="normative">
+<title id="_d4724389-53dc-9540-f677-1c8543091a39">Electrolysis</title>
+<p id="_3832f55e-d6b4-6224-7ddf-b0e0d6679d35">In a chemical electrolysis experiment, the number <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>N</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(N)</asciimath></stem> of entities that have reacted at an
+electrode equals the charge <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>Q</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(Q)</asciimath></stem> passed through the system divided by <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>z</mi>
+    <mi>e</mi>
+  </mstyle>
+</math><asciimath>ze</asciimath></stem>, where
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>z</mi>
+  </mstyle>
+</math><asciimath>z</asciimath></stem> is the charge number of the ions reacted and <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>e</mi>
+  </mstyle>
+</math><asciimath>e</asciimath></stem> is the elementary electrical charge. Thus:</p>
+
+<formula id="_d7a3f700-ef59-ba62-12c7-71e0a9d625a8"><stem block="true" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <mstyle mathvariant="italic">
+      <mi>N</mi>
+    </mstyle>
+    <mo>=</mo>
+    <mfrac>
+      <mstyle mathvariant="italic">
+        <mi>Q</mi>
+      </mstyle>
+      <mrow>
+        <mi>z</mi>
+        <mi>e</mi>
+      </mrow>
+    </mfrac>
+  </mstyle>
+</math><asciimath>ii(N) = ii(Q) / {ze}</asciimath></stem></formula>
+
+<p id="_472d7e49-ab1f-014f-d26b-c62160d82b07">where <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>e</mi>
+  </mstyle>
+</math><asciimath>e</asciimath></stem> has a fixed value. In terms of amount of substance <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>n</mi>
+  </mstyle>
+</math><asciimath>n</asciimath></stem>:</p>
+
+<formula id="_f22c6475-0243-6acc-2fd1-9b04c454fb7f"><stem block="true" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <mi>n</mi>
+    <mo>=</mo>
+    <mfrac>
+      <mstyle mathvariant="italic">
+        <mi>Q</mi>
+      </mstyle>
+      <mrow>
+        <mi>z</mi>
+        <msub>
+          <mstyle mathvariant="italic">
+            <mi>N</mi>
+          </mstyle>
+          <mtext>A</mtext>
+        </msub>
+        <mi>e</mi>
+      </mrow>
+    </mfrac>
+    <mo>=</mo>
+    <mfrac>
+      <mstyle mathvariant="italic">
+        <mi>Q</mi>
+      </mstyle>
+      <mrow>
+        <mi>z</mi>
+        <mstyle mathvariant="italic">
+          <mi>F</mi>
+        </mstyle>
+      </mrow>
+    </mfrac>
+  </mstyle>
+</math><asciimath>n = ii(Q) / {z ii(N)_"A" e} = ii(Q) / {z ii(F)}</asciimath></stem></formula>
+
+<p id="_29720ed2-da71-5cc3-9223-a324e4a6e444">The Faraday constant <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>F</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(F)</asciimath></stem> has the unit <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_C.mol-1">
+      <mstyle mathvariant="normal">
+        <mi>C</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>mol</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>1</mn>
+        </mrow>
+      </msup>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(C//mol)"</asciimath></stem> and is known exactly
+(<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>F</mi>
+    </mstyle>
+    <mo>=</mo>
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>N</mi>
+      </mstyle>
+      <mtext>A</mtext>
+    </msub>
+    <mi>e</mi>
+  </mstyle>
+</math><asciimath>ii(F) = ii(N)_"A" e</asciimath></stem>). The uncertainty of this method of realizing the mole depends on the reaction efficiency of the ion of interest and no interfering ions present.</p>
+</clause>
+</clause>
+
+<clause id="_5eac8071-d3fa-4289-d16e-ac88288bfb46" anchor="sec-5" obligation="normative">
+<title id="_08b7af61-53d2-d6a9-e46e-736e77a526ba">Small numbers of entities</title>
+<p id="_b44fc57b-e6ef-c99c-0c2f-61f3d5c0b634">In cases where the number of entities being considered is small, quantities are commonly expressed as numbers of entities instead of amount of substance  <eref type="inline" bibitemid="brown" citeas="[5.1]"/>. The Avogadro constant is the
+constant of proportionality that links amount of substance to the number of entities. However, the
+number of entities and amount of substance may only be equated in this way if the entities
+considered in both quantities are elementary entities of the same type. The unit for the number of
+entities is one, symbol 1, although this unit is rarely stated explicitly. An example of its use
+is: the number concentration of ozone molecules in air has the unit <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_1.m-3">
+      <mstyle mathvariant="normal">
+        <mi>1</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>m</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>3</mn>
+        </mrow>
+      </msup>
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(1//m^3)"</asciimath></stem>.</p>
+</clause>
+
+<clause id="_6028596c-8fea-ea0c-c79e-18164eaf15f9" anchor="sec-6" obligation="normative">
+<title id="_7326bd5b-6151-9f5e-c099-c3537e09c891">Continuity with previous definition</title>
+<p id="_930208ef-5f1e-2e8b-2b2e-5280ca250d6d">Note that the 1971 definition of the mole made a direct link between the mole and the mass of a
+particular nuclide. This allowed traceability to the mole to be established via mass measurements
+and established a simple relation between macroscopic measurements and microscopic entity numbers
+such as atoms or molecules via the molar mass constant. The mass of one mole of
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msup>
+      <mtext>‌</mtext>
+      <mn>12</mn>
+    </msup>
+    <mtext>C</mtext>
+  </mstyle>
+</math><asciimath>"‌"^{12} "C"</asciimath></stem> was fixed at exactly <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>12</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_NISTu27">
+      <mstyle mathvariant="normal">
+        <mi>g</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>12 "unitsml(g)"</asciimath></stem>. This meant that
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>M</mi>
+    </mstyle>
+    <mrow>
+      <mo>(</mo>
+      <msup>
+        <mtext/>
+        <mn>12</mn>
+      </msup>
+      <mtext>C</mtext>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>ii(M)(""^{12}"C")</asciimath></stem> was exactly <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>12</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_g.mol-1">
+      <mstyle mathvariant="normal">
+        <mi>g</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>mol</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>1</mn>
+        </mrow>
+      </msup>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>12 "unitsml(g//mol)"</asciimath></stem> and <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>M</mi>
+      </mstyle>
+      <mtext>u</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(M)_{"u"}</asciimath></stem> was
+exactly <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_g.mol-1">
+      <mstyle mathvariant="normal">
+        <mi>g</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>mol</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>1</mn>
+        </mrow>
+      </msup>
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>1 "unitsml(g//mol)"</asciimath></stem>.</p>
+
+<p id="_46b9342b-5a4a-fa07-acdd-a76b3b73f5b3">However, the present definition of the mole fixes the numerical value of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>N</mi>
+      </mstyle>
+      <mtext>A</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(N)_"A"</asciimath></stem>. Therefore from:</p>
+
+<formula id="_890017f2-cee1-a23f-427e-de7c403a89ee" anchor="eq-6-1"><stem block="true" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>M</mi>
+      </mstyle>
+      <mtext>u</mtext>
+    </msub>
+    <mo>=</mo>
+    <msub>
+      <mi>m</mi>
+      <mtext>u</mtext>
+    </msub>
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>N</mi>
+      </mstyle>
+      <mtext>A</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(M)_{"u"} = m_{"u"} ii(N)_"A"</asciimath></stem></formula>
+
+<p id="_ba661ad9-6a57-100d-7e60-d09f73a214aa"><stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>M</mi>
+      </mstyle>
+      <mtext>u</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(M)_"u"</asciimath></stem> and <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>m</mi>
+      <mtext>u</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>m_"u"</asciimath></stem> now have the same relative uncertainty.</p>
+
+<p id="_9afc73c3-7a8c-856e-589c-43f854319862">In <xref target="eq-6-1"/> <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>m</mi>
+      <mtext>u</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>m_"u"</asciimath></stem> is the atomic mass constant. The atomic mass unit <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu241">
+      <mstyle mathvariant="normal">
+        <mi>u</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(u)"</asciimath></stem>
+(also known as the dalton, a non-SI unit whose symbol is <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Da</mtext>
+  </mstyle>
+</math><asciimath>"Da"</asciimath></stem>) and the atomic mass constant
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>m</mi>
+      <mtext>u</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>m_"u"</asciimath></stem> are defined in terms of the mass of the <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msup>
+      <mtext>‌</mtext>
+      <mn>12</mn>
+    </msup>
+    <mtext>C</mtext>
+  </mstyle>
+</math><asciimath>"‌"^{12} "C"</asciimath></stem> isotope. The unit
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mrow xref="U_NISTu241">
+      <mstyle mathvariant="normal">
+        <mi>u</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>"unitsml(u)"</asciimath></stem> is related to the constant <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>m</mi>
+      <mtext>u</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>m_"u"</asciimath></stem> by</p>
+
+<formula id="_670eff87-0095-0da7-6bf5-539e766c8eb6"><stem block="true" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <mn>1</mn>
+    <mtext>‌</mtext>
+    <mtext> u</mtext>
+    <mo>=</mo>
+    <msub>
+      <mi>m</mi>
+      <mtext>u</mtext>
+    </msub>
+    <mo>=</mo>
+    <mi>m</mi>
+    <mrow>
+      <mo>(</mo>
+      <msup>
+        <mtext>‌</mtext>
+        <mn>12</mn>
+      </msup>
+      <mtext>C</mtext>
+      <mo>)</mo>
+    </mrow>
+    <mo>/</mo>
+    <mn>12</mn>
+  </mstyle>
+</math><asciimath>1 "‌" " u" = m_"u" = m("‌"^{12} "C") // 12</asciimath></stem></formula>
+
+<p id="_7e9f6c12-6dc8-5b0b-ff78-9c06bfb10cae">The molar mass constant <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>M</mi>
+      </mstyle>
+      <mtext>u</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(M)_"u"</asciimath></stem> and the atomic mass constant <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mi>m</mi>
+      <mtext>u</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>m_"u"</asciimath></stem> are determined to the same relative uncertainty for example from the equation:</p>
+
+<formula id="_aabe2505-0997-f105-04c8-f2b4614c626a" anchor="eq-6-3"><stem block="true" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="true">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>M</mi>
+      </mstyle>
+      <mtext>u</mtext>
+    </msub>
+    <mo>=</mo>
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>N</mi>
+      </mstyle>
+      <mtext>A</mtext>
+    </msub>
+    <msub>
+      <mi>m</mi>
+      <mtext>u</mtext>
+    </msub>
+    <mo>=</mo>
+    <mfrac>
+      <mrow>
+        <mn>2</mn>
+        <msub>
+          <mstyle mathvariant="italic">
+            <mi>N</mi>
+          </mstyle>
+          <mtext>A</mtext>
+        </msub>
+        <mi>h</mi>
+      </mrow>
+      <mi>c</mi>
+    </mfrac>
+    <mfrac>
+      <msub>
+        <mstyle mathvariant="italic">
+          <mi>R</mi>
+        </mstyle>
+        <mo>∞</mo>
+      </msub>
+      <mrow>
+        <msup>
+          <mstyle mathvariant="italic">
+            <mi>α</mi>
+          </mstyle>
+          <mn>2</mn>
+        </msup>
+        <msub>
+          <mstyle mathvariant="italic">
+            <mi>A</mi>
+          </mstyle>
+          <mtext>r</mtext>
+        </msub>
+        <mrow>
+          <mo>(</mo>
+          <mtext>e</mtext>
+          <mo>)</mo>
+        </mrow>
+      </mrow>
+    </mfrac>
+  </mstyle>
+</math><asciimath>ii(M)_"u" = ii(N)_"A" m_"u" = {2 ii(N)_"A" h} / c {ii(R)_{oo}} / {ii(alpha)^2 ii(A)_"r" ("e")}</asciimath></stem></formula>
+
+<p id="_64d3fb2b-f787-5a00-e86f-e8cd3c4c22c6">where the Rydberg constant (<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>R</mi>
+      </mstyle>
+      <mo>∞</mo>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(R)_{oo}</asciimath></stem>), the fine structure constant (<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mstyle mathvariant="italic">
+      <mi>α</mi>
+    </mstyle>
+  </mstyle>
+</math><asciimath>ii(alpha)</asciimath></stem>) and
+the relative atomic mass of the electron (<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>A</mi>
+      </mstyle>
+      <mtext>r</mtext>
+    </msub>
+    <mrow>
+      <mo>(</mo>
+      <mtext>e</mtext>
+      <mo>)</mo>
+    </mrow>
+  </mstyle>
+</math><asciimath>ii(A)_("r")("e")</asciimath></stem>) are determined experimentally.
+The speed of light (<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>c</mi>
+  </mstyle>
+</math><asciimath>c</asciimath></stem>), the Planck constant (<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>h</mi>
+  </mstyle>
+</math><asciimath>h</asciimath></stem>) and the Avogadro constant have fixed numerical values  <eref type="inline" bibitemid="bipm-9th" citeas="[2.1]"/>.</p>
+
+<p id="_b7463bc3-bfc8-6a84-7039-4bdf571f7c31">Continuity conditions imposed on redefinitions of SI base units have ensured that
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mstyle mathvariant="italic">
+        <mi>M</mi>
+      </mstyle>
+      <mtext>u</mtext>
+    </msub>
+  </mstyle>
+</math><asciimath>ii(M)_"u"</asciimath></stem>, now determined experimentally, is still <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1</mn>
+    <mo>×</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>3</mn>
+      </mrow>
+    </msup>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_kg.mol-1">
+      <mstyle mathvariant="normal">
+        <mi>kg</mi>
+      </mstyle>
+      <mi rspace="thickmathspace">⁢</mi>
+      <msup>
+        <mstyle mathvariant="normal">
+          <mi>mol</mi>
+        </mstyle>
+        <mrow>
+          <mo>−</mo>
+          <mn>1</mn>
+        </mrow>
+      </msup>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>1 xx 10^(-3) "unitsml(kg//mol)"</asciimath></stem>
+within a relative standard uncertainty of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>4.5</mn>
+    <mo>×</mo>
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>10</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math><asciimath>4.5 xx 10^(-10)</asciimath></stem> based on <xref target="eq-6-3"/> and additional independent experimental methods  <eref type="inline" bibitemid="mohr" citeas="[6.1]"/>. The present uncertainty is more than sufficient for the needs of chemical measurements, being an order of magnitude smaller than the relative uncertainty achievable in the most accurate realization of the mole <eref type="inline" bibitemid="fujii" citeas="[3.1]"/>-<eref type="inline" bibitemid="kuramoto" citeas="[3.3]"/>, and several orders of magnitude smaller than the uncertainties in examples of more common realizations of the mole described above.</p>
+</clause>
+
+
+</sections><bibliography><references id="_17b87196-9f57-9cd7-cff2-f11fdd3a2157" normative="false" obligation="informative">
+<title id="_1d852725-9432-e979-5884-c8c2939954c3">References</title><bibitem anchor="bipm-9th" id="_faa291b9-5853-9341-2dbb-4d33d2704127">
+  <formattedref format="application/x-isodoc+xml">BIPM, The International System of Units (SI Brochure) [9th edition, 2019], <link target="https://www.bipm.org/en/publications/si-brochure/"/>.</formattedref>
+  <docidentifier type="metanorma">[2.1]</docidentifier>
+  <docidentifier type="BIPM">BIPM si-brochure</docidentifier>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem anchor="iupac-rec" id="_75a29087-4223-6108-9704-f8393aa155b9">
+  <formattedref format="application/x-isodoc+xml"><em>IUPAC Recommendation, Pure Appl. Chem.</em> <strong>90</strong>, (2018) 175-180</formattedref>
+  <docidentifier type="metanorma">[2.2]</docidentifier>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem anchor="iupac-quantities" id="_328e0a16-c952-b41e-17a3-ebcdd7c85494">
+  <formattedref format="application/x-isodoc+xml"><em>IUPAC Quantities, Units and Symbols in Physical Chemistry</em>, third ed. (2007) RSC Publishing, Cambridge UK <link target="https://www.iupac.org/fileadmin/user_upload/publications/e-resources/ONLINE-IUPAC-GB3-2ndPrinting-Online-Sep2012.pdf"/></formattedref>
+  <docidentifier type="metanorma">[2.3]</docidentifier>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem id="_161211d2-61be-3d8d-8295-409885c75f73" type="article" schema-version="v1.2.9" anchor="fujii">
+  <fetched>2026-04-16</fetched>
+  
+<title format="text/plain" script="Latn">Realization of the kilogram by the XRCD method</title>
+
+  <uri type="src">https://doi.org/10.1088/0026-1394/53/5/A19</uri>
+  <uri type="doi">https://doi.org/10.1088/0026-1394/53/5/A19</uri>
+  <docidentifier type="BIPM" primary="true">Metrologia 53 5 A19</docidentifier><docidentifier type="metanorma">[3.1]</docidentifier>
+  <docidentifier type="doi">10.1088/0026-1394/53/5/A19</docidentifier>
+  <date type="published">
+    <on>2016-01-06</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">Kenichi Fujii</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Metrology Institute of Japan (NMIJ)</name>
+
+          <address>
+            <formattedAddress>1-1-1 Umezono, Tsukuba, Ibaraki 305-8563, Japan</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">Horst Bettin</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Physikalisch-Technische Bundesanstalt (PTB)</name>
+
+          <address>
+            <formattedAddress>Bundesallee 100, 38116 Braunschweig, Germany</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">Peter Becker</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Physikalisch-Technische Bundesanstalt (PTB)</name>
+
+          <address>
+            <formattedAddress>Bundesallee 100, 38116 Braunschweig, Germany</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">Enrico Massa</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Istituto Nazionale di Ricerca Metrologica (INRIM)</name>
+
+          <address>
+            <formattedAddress>Str. delle Cacce 91, 10135 Torino, Italy</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">Olaf Rienitz</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Physikalisch-Technische Bundesanstalt (PTB)</name>
+
+          <address>
+            <formattedAddress>Bundesallee 100, 38116 Braunschweig, Germany</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">Axel Pramann</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Physikalisch-Technische Bundesanstalt (PTB)</name>
+
+          <address>
+            <formattedAddress>Bundesallee 100, 38116 Braunschweig, Germany</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">Arnold Nicolaus</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Physikalisch-Technische Bundesanstalt (PTB)</name>
+
+          <address>
+            <formattedAddress>Bundesallee 100, 38116 Braunschweig, Germany</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">Naoki Kuramoto</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Metrology Institute of Japan (NMIJ)</name>
+
+          <address>
+            <formattedAddress>1-1-1 Umezono, Tsukuba, Ibaraki 305-8563, Japan</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">Ingo Busch</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Physikalisch-Technische Bundesanstalt (PTB)</name>
+
+          <address>
+            <formattedAddress>Bundesallee 100, 38116 Braunschweig, Germany</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">Michael Borys</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Physikalisch-Technische Bundesanstalt (PTB)</name>
+
+          <address>
+            <formattedAddress>Bundesallee 100, 38116 Braunschweig, Germany</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor><language>en</language><script>Latn</script>
+  <abstract format="text/html" script="Latn">Abstract<p id="_4d8f3781-f01a-14ae-b4a7-d527d5d70b7d">When the kilogram is redefined in terms of the fixed numerical value of the Planck constant h, the x-ray-crystal-density (XRCD) method, among others, is used for realizing the redefined kilogram. The XRCD method has been used for the determination of the Avogadro constant N<sub>A</sub> by counting the number of atoms in a<sup>28</sup>Si-enriched crystal, contributing to a substantial reduction of uncertainty in the values of N<sub>A</sub> and h to 2 parts in 10<sup>8</sup>. This method can be therefore used reversely for the mass determination of a 1 kg sphere prepared from the crystal. This is realized by SI-traceable measurements of its lattice parameter, isotopic composition, volume, and surface properties. Details of the corresponding measurements are provided, as well as the concept of the XRCD method, isotope enrichment, crystal production, sphere manufacturing, and evaluation of impurities and self-point defects in the crystal, together with mass comparison with respect to the silicon sphere for disseminating mass standards.</p>
+</abstract>
+  <copyright>
+    <from>2016</from>
+    <owner>
+      <organization>
+        
+<name>BIPM</name>
+
+      </organization>
+    </owner>
+    <owner>
+      <organization>
+        
+<name>IOP Publishing Ltd</name>
+
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="hasManifestation">
+    <bibitem>
+      
+<title format="text/plain" script="Latn">Realization of the kilogram by the XRCD method</title>
+
+      <date type="ppub">
+        <on>2016-10-01</on>
+      </date>
+      <medium>
+        <carrier>print</carrier>
+      </medium>
+    </bibitem>
+
+  </relation>
+  <relation type="hasManifestation">
+    <bibitem>
+      
+<title format="text/plain" script="Latn">Realization of the kilogram by the XRCD method</title>
+
+      <date type="epub">
+        <on>2016-09-28</on>
+      </date>
+      <medium>
+        <carrier>online</carrier>
+      </medium>
+    </bibitem>
+
+  </relation>
+  <relation type="hasManifestation">
+    <bibitem>
+      
+<title format="text/plain" script="Latn">Realization of the kilogram by the XRCD method</title>
+
+      <date type="open-access">
+        <on>2016-01-06</on>
+      </date>
+      <medium>
+        <carrier>print</carrier>
+      </medium>
+    </bibitem>
+
+  </relation>
+  <series>
+    
+<title format="text/plain" language="en" script="Latn">Metrologia</title>
+
+  </series>
+  <extent>
+    <locality type="volume">
+      <referenceFrom>53</referenceFrom>
+    </locality>
+    <locality type="issue">
+      <referenceFrom>5</referenceFrom>
+    </locality>
+    <locality type="page">
+      <referenceFrom>A19</referenceFrom>
+      <referenceTo>A45</referenceTo>
+    </locality>
+  </extent>
+</bibitem><bibitem id="_490ddc0c-143d-c8ab-b371-cb46996d8b6f" type="article" schema-version="v1.2.9" anchor="bartlg">
+  <fetched>2026-04-16</fetched>
+  
+<title format="text/html" script="Latn">A new<sup>28</sup>Si single crystal: counting the atoms for the new kilogram definition</title>
+
+  <uri type="src">https://doi.org/10.1088/1681-7575/aa7820</uri>
+  <uri type="doi">https://doi.org/10.1088/1681-7575/aa7820</uri>
+  <docidentifier type="BIPM" primary="true">Metrologia 54 5 693</docidentifier><docidentifier type="metanorma">[3.2]</docidentifier>
+  <docidentifier type="doi">10.1088/1681-7575/aa7820</docidentifier>
+  <date type="published">
+    <on>2017-08-10</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">G Bartl</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Physikalisch-Technische Bundesanstalt PTB</name>
+
+          <address>
+            <formattedAddress>Bundesallee 100, 38116 Braunschweig, Germany</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">P Becker</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Physikalisch-Technische Bundesanstalt PTB</name>
+
+          <address>
+            <formattedAddress>Bundesallee 100, 38116 Braunschweig, Germany</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">B Beckhoff</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Physikalisch-Technische Bundesanstalt PTB</name>
+
+          <address>
+            <formattedAddress>Abbestraße 2-12, 10587 Berlin, Germany</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">H Bettin</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Physikalisch-Technische Bundesanstalt PTB</name>
+
+          <address>
+            <formattedAddress>Bundesallee 100, 38116 Braunschweig, Germany</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">E Beyer</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Physikalisch-Technische Bundesanstalt PTB</name>
+
+          <address>
+            <formattedAddress>Bundesallee 100, 38116 Braunschweig, Germany</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">M Borys</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Physikalisch-Technische Bundesanstalt PTB</name>
+
+          <address>
+            <formattedAddress>Bundesallee 100, 38116 Braunschweig, Germany</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">I Busch</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Physikalisch-Technische Bundesanstalt PTB</name>
+
+          <address>
+            <formattedAddress>Bundesallee 100, 38116 Braunschweig, Germany</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">L Cibik</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Physikalisch-Technische Bundesanstalt PTB</name>
+
+          <address>
+            <formattedAddress>Abbestraße 2-12, 10587 Berlin, Germany</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">G D’Agostino</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Istituto Nazionale di Ricerca Metrologica INRIM</name>
+
+          <address>
+            <formattedAddress>strada delle cacce 91, 10135 Torino, Italy</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">E Darlatt</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Physikalisch-Technische Bundesanstalt PTB</name>
+
+          <address>
+            <formattedAddress>Abbestraße 2-12, 10587 Berlin, Germany</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">M Di Luzio</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Istituto Nazionale di Ricerca Metrologica INRIM</name>
+
+          <address>
+            <formattedAddress>strada delle cacce 91, 10135 Torino, Italy</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+      <affiliation>
+        <organization>
+          
+<name>University of Pavia</name>
+
+          <subdivision>Department of Chemistry</subdivision>
+          <address>
+            <formattedAddress>via Taramelli 12, 27100 Pavia, Italy</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">K Fujii</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Metrology Institute of Japan NMIJ</name>
+
+          <address>
+            <formattedAddress>1-1-1 Umezono, Tsukuba, Ibaraki 305-8563, Japan</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">H Fujimoto</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Metrology Institute of Japan NMIJ</name>
+
+          <address>
+            <formattedAddress>1-1-1 Umezono, Tsukuba, Ibaraki 305-8563, Japan</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">K Fujita</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Metrology Institute of Japan NMIJ</name>
+
+          <address>
+            <formattedAddress>1-1-1 Umezono, Tsukuba, Ibaraki 305-8563, Japan</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">M Kolbe</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Physikalisch-Technische Bundesanstalt PTB</name>
+
+          <address>
+            <formattedAddress>Abbestraße 2-12, 10587 Berlin, Germany</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">M Krumrey</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Physikalisch-Technische Bundesanstalt PTB</name>
+
+          <address>
+            <formattedAddress>Abbestraße 2-12, 10587 Berlin, Germany</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">N Kuramoto</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Metrology Institute of Japan NMIJ</name>
+
+          <address>
+            <formattedAddress>1-1-1 Umezono, Tsukuba, Ibaraki 305-8563, Japan</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">E Massa</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Istituto Nazionale di Ricerca Metrologica INRIM</name>
+
+          <address>
+            <formattedAddress>strada delle cacce 91, 10135 Torino, Italy</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">M Mecke</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Physikalisch-Technische Bundesanstalt PTB</name>
+
+          <address>
+            <formattedAddress>Bundesallee 100, 38116 Braunschweig, Germany</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">S Mizushima</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Metrology Institute of Japan NMIJ</name>
+
+          <address>
+            <formattedAddress>1-1-1 Umezono, Tsukuba, Ibaraki 305-8563, Japan</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">M Müller</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Physikalisch-Technische Bundesanstalt PTB</name>
+
+          <address>
+            <formattedAddress>Abbestraße 2-12, 10587 Berlin, Germany</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">T Narukawa</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Metrology Institute of Japan NMIJ</name>
+
+          <address>
+            <formattedAddress>1-1-1 Umezono, Tsukuba, Ibaraki 305-8563, Japan</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">A Nicolaus</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Physikalisch-Technische Bundesanstalt PTB</name>
+
+          <address>
+            <formattedAddress>Bundesallee 100, 38116 Braunschweig, Germany</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">A Pramann</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Physikalisch-Technische Bundesanstalt PTB</name>
+
+          <address>
+            <formattedAddress>Bundesallee 100, 38116 Braunschweig, Germany</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">D Rauch</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Physikalisch-Technische Bundesanstalt PTB</name>
+
+          <address>
+            <formattedAddress>Bundesallee 100, 38116 Braunschweig, Germany</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">O Rienitz</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Physikalisch-Technische Bundesanstalt PTB</name>
+
+          <address>
+            <formattedAddress>Bundesallee 100, 38116 Braunschweig, Germany</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">C P Sasso</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Istituto Nazionale di Ricerca Metrologica INRIM</name>
+
+          <address>
+            <formattedAddress>strada delle cacce 91, 10135 Torino, Italy</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">A Stopic</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Australian Nuclear Science and Technology Organisation ANSTO</name>
+
+          <address>
+            <formattedAddress>New Illawarra Road, Lucas Heights, New South Wales 2234, Australia</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">R Stosch</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Physikalisch-Technische Bundesanstalt PTB</name>
+
+          <address>
+            <formattedAddress>Bundesallee 100, 38116 Braunschweig, Germany</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">A Waseda</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Metrology Institute of Japan NMIJ</name>
+
+          <address>
+            <formattedAddress>1-1-1 Umezono, Tsukuba, Ibaraki 305-8563, Japan</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">S Wundrack</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Physikalisch-Technische Bundesanstalt PTB</name>
+
+          <address>
+            <formattedAddress>Bundesallee 100, 38116 Braunschweig, Germany</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">L Zhang</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Metrology Institute of Japan NMIJ</name>
+
+          <address>
+            <formattedAddress>1-1-1 Umezono, Tsukuba, Ibaraki 305-8563, Japan</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">X W Zhang</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Chinese Academy of Science</name>
+
+          <subdivision>Institute of High Energy Physics IHEP</subdivision>
+          <address>
+            <formattedAddress>19B Yuquan Road, Shijingshan District, Beijing, People’s Republic of China</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor><language>en</language><script>Latn</script>
+  <abstract format="text/html" script="Latn">Abstract<p id="_d99fc678-dc3e-742d-4ff5-d4db73bad9bd">A new single crystal from isotopically enriched silicon was used to determine the Avogadro constant N<sub>A</sub> by the x-ray-crystal density method. The new crystal, named Si28-23Pr11, has a higher enrichment than the former ‘AVO28’ crystal allowing a smaller uncertainty of the molar mass determination. Again, two 1 kg spheres were manufactured from this crystal. The crystal and the spheres were measured with improved and new methods. One sphere, Si28kg01a, was measured at NMIJ and PTB with very consistent results. The other sphere, Si28kg01b, was measured only at PTB and yielded nearly the same Avogadro constant value. The mean result for both 1 kg spheres is N<sub>A</sub>  =  6.022 140 526(70)  ×  10<sup>23</sup> mol<sup>−1</sup> with a relative standard uncertainty of 1.2  ×  10<sup>−8</sup>. This value deviates from the Avogadro value published in 2015 for the AVO28 crystal by about 3.9(2.1)  ×  10<sup>−8</sup>. Possible reasons for this difference are discussed and additional measurements are proposed.</p>
+</abstract>
+  <copyright>
+    <from>2017</from>
+    <owner>
+      <organization>
+        
+<name>BIPM</name>
+
+      </organization>
+    </owner>
+    <owner>
+      <organization>
+        
+<name>IOP Publishing Ltd</name>
+
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="hasManifestation">
+    <bibitem>
+      
+<title format="text/html" script="Latn">A new<sup>28</sup>Si single crystal: counting the atoms for the new kilogram definition</title>
+
+      <date type="ppub">
+        <on>2017-10-01</on>
+      </date>
+      <medium>
+        <carrier>print</carrier>
+      </medium>
+    </bibitem>
+
+  </relation>
+  <relation type="hasManifestation">
+    <bibitem>
+      
+<title format="text/html" script="Latn">A new<sup>28</sup>Si single crystal: counting the atoms for the new kilogram definition</title>
+
+      <date type="epub">
+        <on>2017-08-10</on>
+      </date>
+      <medium>
+        <carrier>online</carrier>
+      </medium>
+    </bibitem>
+
+  </relation>
+  <relation type="hasManifestation">
+    <bibitem>
+      
+<title format="text/html" script="Latn">A new<sup>28</sup>Si single crystal: counting the atoms for the new kilogram definition</title>
+
+      <date type="open-access">
+        <on>2017-08-10</on>
+      </date>
+      <medium>
+        <carrier>print</carrier>
+      </medium>
+    </bibitem>
+
+  </relation>
+  <series>
+    
+<title format="text/plain" language="en" script="Latn">Metrologia</title>
+
+  </series>
+  <extent>
+    <locality type="volume">
+      <referenceFrom>54</referenceFrom>
+    </locality>
+    <locality type="issue">
+      <referenceFrom>5</referenceFrom>
+    </locality>
+    <locality type="page">
+      <referenceFrom>693</referenceFrom>
+      <referenceTo>715</referenceTo>
+    </locality>
+  </extent>
+</bibitem><bibitem id="_9f103407-da4d-4c42-0a8d-596b0219f2fe" type="article" schema-version="v1.2.9" anchor="kuramoto">
+  <fetched>2026-04-16</fetched>
+  
+<title format="text/html" script="Latn">Determination of the Avogadro constant by the XRCD method using a<sup>28</sup>Si-enriched sphere</title>
+
+  <uri type="src">https://doi.org/10.1088/1681-7575/aa77d1</uri>
+  <uri type="doi">https://doi.org/10.1088/1681-7575/aa77d1</uri>
+  <docidentifier type="BIPM" primary="true">Metrologia 54 5 716</docidentifier><docidentifier type="metanorma">[3.3]</docidentifier>
+  <docidentifier type="doi">10.1088/1681-7575/aa77d1</docidentifier>
+  <date type="published">
+    <on>2017-08-10</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">Naoki Kuramoto</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Institute of Advanced Industrial Science and Technology</name>
+
+          <subdivision>National Metrology Institute of Japan</subdivision>
+          <address>
+            <formattedAddress>1-1-1 Umezono, Tsukuba, Ibaraki 305-8563, Japan</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">Shigeki Mizushima</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Institute of Advanced Industrial Science and Technology</name>
+
+          <subdivision>National Metrology Institute of Japan</subdivision>
+          <address>
+            <formattedAddress>1-1-1 Umezono, Tsukuba, Ibaraki 305-8563, Japan</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">Lulu Zhang</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Institute of Advanced Industrial Science and Technology</name>
+
+          <subdivision>National Metrology Institute of Japan</subdivision>
+          <address>
+            <formattedAddress>1-1-1 Umezono, Tsukuba, Ibaraki 305-8563, Japan</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">Kazuaki Fujita</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Institute of Advanced Industrial Science and Technology</name>
+
+          <subdivision>National Metrology Institute of Japan</subdivision>
+          <address>
+            <formattedAddress>1-1-1 Umezono, Tsukuba, Ibaraki 305-8563, Japan</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">Yasushi Azuma</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Institute of Advanced Industrial Science and Technology</name>
+
+          <subdivision>National Metrology Institute of Japan</subdivision>
+          <address>
+            <formattedAddress>1-1-1 Umezono, Tsukuba, Ibaraki 305-8563, Japan</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">Akira Kurokawa</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Institute of Advanced Industrial Science and Technology</name>
+
+          <subdivision>National Metrology Institute of Japan</subdivision>
+          <address>
+            <formattedAddress>1-1-1 Umezono, Tsukuba, Ibaraki 305-8563, Japan</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">Sho Okubo</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Institute of Advanced Industrial Science and Technology</name>
+
+          <subdivision>National Metrology Institute of Japan</subdivision>
+          <address>
+            <formattedAddress>1-1-1 Umezono, Tsukuba, Ibaraki 305-8563, Japan</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">Hajime Inaba</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Institute of Advanced Industrial Science and Technology</name>
+
+          <subdivision>National Metrology Institute of Japan</subdivision>
+          <address>
+            <formattedAddress>1-1-1 Umezono, Tsukuba, Ibaraki 305-8563, Japan</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">Kenichi Fujii</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Institute of Advanced Industrial Science and Technology</name>
+
+          <subdivision>National Metrology Institute of Japan</subdivision>
+          <address>
+            <formattedAddress>1-1-1 Umezono, Tsukuba, Ibaraki 305-8563, Japan</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor><language>en</language><script>Latn</script>
+  <abstract format="text/html" script="Latn">Abstract<p id="_9c6c3bfd-8cc8-df91-f11a-244c6214542e">To determine the Avogadro constant N<sub>A</sub> by the x-ray crystal density method, the density of a<sup>28</sup>Si-enriched crystal was determined by absolute measurements of the mass and volume of a 1 kg sphere manufactured from the crystal. The mass and volume were determined by an optical interferometer and a vacuum mass comparator, respectively. The sphere surface was characterized by x-ray photoelectron spectroscopy and spectroscopic ellipsometry to derive the mass and volume of the Si core of the sphere excluding the surface layers. From the mass and volume, the density of the Si core was determined with a relative standard uncertainty of 2.3  ×  10<sup>−8</sup>. By combining the Si core density with the lattice constant and the molar mass of the sphere reported by the International Avogadro Coordination (IAC) project in 2015, a new value of 6.022 140 84(15)  ×  10<sup>23</sup> mol<sup>−1</sup> was obtained for N<sub>A</sub> with a relative standard uncertainty of 2.4  ×  10<sup>−8</sup>. To make the N<sub>A</sub> value determined in this work usable for a future adjustment of the fundamental constants by the CODATA Task Group on Fundamental Constants, the correlation of the new N<sub>A</sub> value with the N<sub>A</sub> values determined in our previous works was examined. The correlation coefficients with the values of N<sub>A</sub> determined by IAC in 2011 and 2015 were estimated to be 0.07 and 0.28, respectively. The correlation of the new N<sub>A</sub> value with the N<sub>A</sub> value determined by IAC in 2017 using a different<sup>28</sup>Si-enriched crystal was also examined, and the correlation coefficient was estimated to be 0.21.</p>
+</abstract>
+  <copyright>
+    <from>2017</from>
+    <owner>
+      <organization>
+        
+<name>BIPM</name>
+
+      </organization>
+    </owner>
+    <owner>
+      <organization>
+        
+<name>IOP Publishing Ltd</name>
+
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="hasManifestation">
+    <bibitem>
+      
+<title format="text/html" script="Latn">Determination of the Avogadro constant by the XRCD method using a<sup>28</sup>Si-enriched sphere</title>
+
+      <date type="ppub">
+        <on>2017-10-01</on>
+      </date>
+      <medium>
+        <carrier>print</carrier>
+      </medium>
+    </bibitem>
+
+  </relation>
+  <relation type="hasManifestation">
+    <bibitem>
+      
+<title format="text/html" script="Latn">Determination of the Avogadro constant by the XRCD method using a<sup>28</sup>Si-enriched sphere</title>
+
+      <date type="epub">
+        <on>2017-08-10</on>
+      </date>
+      <medium>
+        <carrier>online</carrier>
+      </medium>
+    </bibitem>
+
+  </relation>
+  <relation type="hasManifestation">
+    <bibitem>
+      
+<title format="text/html" script="Latn">Determination of the Avogadro constant by the XRCD method using a<sup>28</sup>Si-enriched sphere</title>
+
+      <date type="open-access">
+        <on>2017-09-08</on>
+      </date>
+      <medium>
+        <carrier>print</carrier>
+      </medium>
+    </bibitem>
+
+  </relation>
+  <series>
+    
+<title format="text/plain" language="en" script="Latn">Metrologia</title>
+
+  </series>
+  <extent>
+    <locality type="volume">
+      <referenceFrom>54</referenceFrom>
+    </locality>
+    <locality type="issue">
+      <referenceFrom>5</referenceFrom>
+    </locality>
+    <locality type="page">
+      <referenceFrom>716</referenceFrom>
+      <referenceTo>729</referenceTo>
+    </locality>
+  </extent>
+</bibitem><bibitem id="_b8310073-7661-5ca8-4c74-419581355f96" type="article" schema-version="v1.2.9" anchor="newell">
+  <fetched>2026-04-16</fetched>
+  
+<title format="text/html" script="Latn">The CODATA 2017 values of h, e, k, and N<sub>A</sub> for the revision of the SI</title>
+
+  <uri type="src">https://doi.org/10.1088/1681-7575/aa950a</uri>
+  <uri type="doi">https://doi.org/10.1088/1681-7575/aa950a</uri>
+  <docidentifier type="BIPM" primary="true">Metrologia 55 1 L13</docidentifier><docidentifier type="metanorma">[3.4]</docidentifier>
+  <docidentifier type="doi">10.1088/1681-7575/aa950a</docidentifier>
+  <date type="published">
+    <on>2018-01-29</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">D B Newell</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Committee on Data for Science and Technology (CODATA) Task Group on Fundamental Constants</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">F Cabiati</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Committee on Data for Science and Technology (CODATA) Task Group on Fundamental Constants</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">J Fischer</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Committee on Data for Science and Technology (CODATA) Task Group on Fundamental Constants</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">K Fujii</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Committee on Data for Science and Technology (CODATA) Task Group on Fundamental Constants</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">S G Karshenboim</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Committee on Data for Science and Technology (CODATA) Task Group on Fundamental Constants</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">H S Margolis</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Committee on Data for Science and Technology (CODATA) Task Group on Fundamental Constants</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">E de Mirandés</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Committee on Data for Science and Technology (CODATA) Task Group on Fundamental Constants</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">P J Mohr</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Committee on Data for Science and Technology (CODATA) Task Group on Fundamental Constants</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">F Nez</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Committee on Data for Science and Technology (CODATA) Task Group on Fundamental Constants</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">K Pachucki</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Committee on Data for Science and Technology (CODATA) Task Group on Fundamental Constants</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">T J Quinn</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Committee on Data for Science and Technology (CODATA) Task Group on Fundamental Constants</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">B N Taylor</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Committee on Data for Science and Technology (CODATA) Task Group on Fundamental Constants</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">M Wang</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Committee on Data for Science and Technology (CODATA) Task Group on Fundamental Constants</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">B M Wood</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Committee on Data for Science and Technology (CODATA) Task Group on Fundamental Constants</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">Z Zhang</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>Committee on Data for Science and Technology (CODATA) Task Group on Fundamental Constants</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor><language>en</language><script>Latn</script>
+  <abstract format="text/html" script="Latn">Abstract<p id="_42b26aa0-470e-fe75-15a1-e8583125c20a">Sufficient progress towards redefining the International System of Units (SI) in terms of exact values of fundamental constants has been achieved. Exact values of the Planck constant h, elementary charge e, Boltzmann constant k, and Avogadro constant N<sub>A</sub> from the CODATA 2017 Special Adjustment of the Fundamental Constants are presented here. These values are recommended to the 26th General Conference on Weights and Measures to form the foundation of the revised SI.</p>
+</abstract>
+  <copyright>
+    <from>2018</from>
+    <owner>
+      <organization>
+        
+<name>BIPM</name>
+
+      </organization>
+    </owner>
+    <owner>
+      <organization>
+        
+<name>IOP Publishing Ltd</name>
+
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="hasManifestation">
+    <bibitem>
+      
+<title format="text/html" script="Latn">The CODATA 2017 values of h, e, k, and N<sub>A</sub> for the revision of the SI</title>
+
+      <date type="ppub">
+        <on>2018-04-01</on>
+      </date>
+      <medium>
+        <carrier>print</carrier>
+      </medium>
+    </bibitem>
+
+  </relation>
+  <relation type="hasManifestation">
+    <bibitem>
+      
+<title format="text/html" script="Latn">The CODATA 2017 values of h, e, k, and N<sub>A</sub> for the revision of the SI</title>
+
+      <date type="epub">
+        <on>2018-01-29</on>
+      </date>
+      <medium>
+        <carrier>online</carrier>
+      </medium>
+    </bibitem>
+
+  </relation>
+  <relation type="hasManifestation">
+    <bibitem>
+      
+<title format="text/html" script="Latn">The CODATA 2017 values of h, e, k, and N<sub>A</sub> for the revision of the SI</title>
+
+      <date type="open-access">
+        <on>2018-01-29</on>
+      </date>
+      <medium>
+        <carrier>print</carrier>
+      </medium>
+    </bibitem>
+
+  </relation>
+  <series>
+    
+<title format="text/plain" language="en" script="Latn">Metrologia</title>
+
+  </series>
+  <extent>
+    <locality type="volume">
+      <referenceFrom>55</referenceFrom>
+    </locality>
+    <locality type="issue">
+      <referenceFrom>1</referenceFrom>
+    </locality>
+    <locality type="page">
+      <referenceFrom>L13</referenceFrom>
+      <referenceTo>L16</referenceTo>
+    </locality>
+  </extent>
+</bibitem><bibitem id="_d5aa64fe-d422-57a9-a67f-dad74cfe9cee" type="article" schema-version="v1.2.9" anchor="clade">
+  <fetched>2026-04-16</fetched>
+  
+<title format="text/html" script="Latn">Precise determination of the ratio h/m<sub>u</sub>: a way to link microscopic mass to the new kilogram</title>
+
+  <uri type="src">https://doi.org/10.1088/0026-1394/53/5/A75</uri>
+  <uri type="doi">https://doi.org/10.1088/0026-1394/53/5/A75</uri>
+  <docidentifier type="BIPM" primary="true">Metrologia 53 5 A75</docidentifier><docidentifier type="metanorma">[3.5]</docidentifier>
+  <docidentifier type="doi">10.1088/0026-1394/53/5/A75</docidentifier>
+  <date type="published">
+    <on>2016-09-28</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">Pierre Cladé</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>UPMC-Sorbonne Universités, CNRS, ENS-PSL Research University</name>
+
+          <subdivision>Laboratoire Kastler Brossel</subdivision>
+          <address>
+            <formattedAddress>Collège de France, 4 place Jussieu, 75005 Paris, France</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">François Biraben</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>UPMC-Sorbonne Universités, CNRS, ENS-PSL Research University</name>
+
+          <subdivision>Laboratoire Kastler Brossel</subdivision>
+          <address>
+            <formattedAddress>Collège de France, 4 place Jussieu, 75005 Paris, France</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">Lucile Julien</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>UPMC-Sorbonne Universités, CNRS, ENS-PSL Research University</name>
+
+          <subdivision>Laboratoire Kastler Brossel</subdivision>
+          <address>
+            <formattedAddress>Collège de France, 4 place Jussieu, 75005 Paris, France</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">François Nez</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>UPMC-Sorbonne Universités, CNRS, ENS-PSL Research University</name>
+
+          <subdivision>Laboratoire Kastler Brossel</subdivision>
+          <address>
+            <formattedAddress>Collège de France, 4 place Jussieu, 75005 Paris, France</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">Saída Guellati-Khelifa</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>UPMC-Sorbonne Universités, CNRS, ENS-PSL Research University</name>
+
+          <subdivision>Laboratoire Kastler Brossel</subdivision>
+          <address>
+            <formattedAddress>Collège de France, 4 place Jussieu, 75005 Paris, France</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+      <affiliation>
+        <organization>
+          
+<name>Conservatoire National des Arts et Métiers</name>
+
+          <address>
+            <formattedAddress>292 rue Saint Martin, 75003 Paris, France</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor><language>en</language><script>Latn</script>
+  <abstract format="text/html" script="Latn">Abstract<p id="_af898ce3-5e16-b8cc-38de-79efd6d5f6c0">The ratio h/mu between the Planck constant and the unified atomic mass constant should have a special status in the framework of the future international system of units. Currently (before the redefinition), this ratio allowed the comparison between determinations of h (watt balance) and determinations of mu (the XRCD method). In the future SI, as the Planck constant h will be fixed, the ratio h/mu will ensure the realization of the new kilogram (quantum kilogram) at the atomic scale. Furthermore as the Avogadro constant will be fixed, the carbon molar mass M(<sup>12</sup>C), which will no longer be equal to 12 g⋅mol−1, will be determined from m<sub>u</sub>. This ratio is also key data for the realization of the kilogram at the macroscopic scale using the XRCD method.</p>
+<p id="_fdb99058-8447-638f-92d7-2a96d968bd42">In this paper we present the state of the art on experiments that provide the most precise value of the ratio h/mu. We focus on the one that is based on the measurement of the atomic recoil due to the photon momentum.</p>
+</abstract>
+  <copyright>
+    <from>2016</from>
+    <owner>
+      <organization>
+        
+<name>BIPM</name>
+
+      </organization>
+    </owner>
+    <owner>
+      <organization>
+        
+<name>IOP Publishing Ltd</name>
+
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="hasManifestation">
+    <bibitem>
+      
+<title format="text/html" script="Latn">Precise determination of the ratio h/m<sub>u</sub>: a way to link microscopic mass to the new kilogram</title>
+
+      <date type="ppub">
+        <on>2016-10-01</on>
+      </date>
+      <medium>
+        <carrier>print</carrier>
+      </medium>
+    </bibitem>
+
+  </relation>
+  <relation type="hasManifestation">
+    <bibitem>
+      
+<title format="text/html" script="Latn">Precise determination of the ratio h/m<sub>u</sub>: a way to link microscopic mass to the new kilogram</title>
+
+      <date type="epub">
+        <on>2016-09-28</on>
+      </date>
+      <medium>
+        <carrier>online</carrier>
+      </medium>
+    </bibitem>
+
+  </relation>
+  <series>
+    
+<title format="text/plain" language="en" script="Latn">Metrologia</title>
+
+  </series>
+  <extent>
+    <locality type="volume">
+      <referenceFrom>53</referenceFrom>
+    </locality>
+    <locality type="issue">
+      <referenceFrom>5</referenceFrom>
+    </locality>
+    <locality type="page">
+      <referenceFrom>A75</referenceFrom>
+      <referenceTo>A82</referenceTo>
+    </locality>
+  </extent>
+</bibitem><bibitem id="_bf7738e3-e099-6614-75c2-638cbedcbdc2" type="article" schema-version="v1.2.9" anchor="massa">
+  <fetched>2026-04-16</fetched>
+  
+<title format="text/html" script="Latn">Avogadro constant measurements using enriched<sup>28</sup>Si monocrystals</title>
+
+  <uri type="src">https://doi.org/10.1088/1681-7575/aa9abd</uri>
+  <uri type="doi">https://doi.org/10.1088/1681-7575/aa9abd</uri>
+  <docidentifier type="BIPM" primary="true">Metrologia 55 1 L1</docidentifier><docidentifier type="metanorma">[3.6]</docidentifier>
+  <docidentifier type="doi">10.1088/1681-7575/aa9abd</docidentifier>
+  <date type="published">
+    <on>2017-12-12</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">K Fujii</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Institute of Advanced Industrial Science and Technology</name>
+
+          <subdivision>NMIJ—National Metrology Institute of Japan</subdivision>
+          <address>
+            <formattedAddress>1-1-1 Umezono, Tsukuba, Ibaraki 305-8563, Japan</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">E Massa</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>INRIM—Istituto Nazionale di Ricerca Metrologica</name>
+
+          <address>
+            <formattedAddress>str. delle Cacce 91, 10135 Torino, Italy</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">H Bettin</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>PTB—Physikalisch Technische Bundesanstalt</name>
+
+          <address>
+            <formattedAddress>Bundesallee 100, 38116 Braunschweig, Germany</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">N Kuramoto</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Institute of Advanced Industrial Science and Technology</name>
+
+          <subdivision>NMIJ—National Metrology Institute of Japan</subdivision>
+          <address>
+            <formattedAddress>1-1-1 Umezono, Tsukuba, Ibaraki 305-8563, Japan</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">G Mana</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>INRIM—Istituto Nazionale di Ricerca Metrologica</name>
+
+          <address>
+            <formattedAddress>str. delle Cacce 91, 10135 Torino, Italy</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor><language>en</language><script>Latn</script>
+  <abstract format="text/html" script="Latn">Abstract<p id="_dae66834-9b65-3420-7484-0f93225986c8">Since 2011, the International Avogadro Coordination has been measuring the Avogadro constant by counting the atoms in enriched<sup>28</sup>Si monocrystals. This communication provides guidance on how the recently published results should be used to update the values of the Avogadro constant measured so far.</p>
+</abstract>
+  <copyright>
+    <from>2017</from>
+    <owner>
+      <organization>
+        
+<name>BIPM</name>
+
+      </organization>
+    </owner>
+    <owner>
+      <organization>
+        
+<name>IOP Publishing Ltd</name>
+
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="hasManifestation">
+    <bibitem>
+      
+<title format="text/html" script="Latn">Avogadro constant measurements using enriched<sup>28</sup>Si monocrystals</title>
+
+      <date type="ppub">
+        <on>2018-02-01</on>
+      </date>
+      <medium>
+        <carrier>print</carrier>
+      </medium>
+    </bibitem>
+
+  </relation>
+  <relation type="hasManifestation">
+    <bibitem>
+      
+<title format="text/html" script="Latn">Avogadro constant measurements using enriched<sup>28</sup>Si monocrystals</title>
+
+      <date type="epub">
+        <on>2017-12-12</on>
+      </date>
+      <medium>
+        <carrier>online</carrier>
+      </medium>
+    </bibitem>
+
+  </relation>
+  <relation type="hasManifestation">
+    <bibitem>
+      
+<title format="text/html" script="Latn">Avogadro constant measurements using enriched<sup>28</sup>Si monocrystals</title>
+
+      <date type="open-access">
+        <on>2017-12-12</on>
+      </date>
+      <medium>
+        <carrier>print</carrier>
+      </medium>
+    </bibitem>
+
+  </relation>
+  <series>
+    
+<title format="text/plain" language="en" script="Latn">Metrologia</title>
+
+  </series>
+  <extent>
+    <locality type="volume">
+      <referenceFrom>55</referenceFrom>
+    </locality>
+    <locality type="issue">
+      <referenceFrom>1</referenceFrom>
+    </locality>
+    <locality type="page">
+      <referenceFrom>L1</referenceFrom>
+      <referenceTo>L4</referenceTo>
+    </locality>
+  </extent>
+</bibitem><bibitem anchor="mep-kg" id="_b7b9d9bf-98eb-a6d1-ab61-18cc82944c5d">
+  <formattedref format="application/x-isodoc+xml">
+    <link target="https://www.bipm.org/utils/en/pdf/si-mep/MeP-kg-2018.pdf"/>
+  </formattedref>
+  <docidentifier type="metanorma">[3.7]</docidentifier>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem id="_8488f6b9-f6c5-a8aa-f809-1d6f8ae652a0" type="article" schema-version="v1.2.9" anchor="quinn">
+  <fetched>2026-04-16</fetched>
+  
+<title format="text/plain" language="en" script="Latn">Primary methods for the measurement of amount of substance</title>
+
+  <uri type="src">https://doi.org/10.1088/0026-1394/38/4/1</uri>
+  <uri type="doi">https://doi.org/10.1088/0026-1394/38/4/1</uri>
+  <docidentifier type="BIPM" primary="true">Metrologia 38 4 289</docidentifier><docidentifier type="metanorma">[4.1]</docidentifier>
+  <docidentifier type="doi">10.1088/0026-1394/38/4/1</docidentifier>
+  <date type="published">
+    <on>2001-08-01</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">M J T Milton</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>NPL, BIPM</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">T J Quinn</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>NPL, BIPM</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor><language>en</language><script>Latn</script>
+  <abstract format="text/html" language="en" script="Latn">
+    <p id="_df349caf-d241-664b-8e50-ab8fd19aec15">Primary methods of measurement play an important role in metrology because they provide the essential first link in the chain of traceability from the abstract definition of a unit of the International System of Units (SI) to its practical use in measurement. A definition of a primary method of measurement has been developed by the Consultative Committee for Amount of Substance (CCQM) that distinguishes between those methods that measure a quantity directly and those that measure the ratio of two quantities. Methods that do not fulfil the definition of being primary also play an important role in measuring amount of substance. In some cases, it is appropriate to refer to these as secondary methods.</p>
+
+  </abstract>
+  <copyright>
+    <from>2001</from>
+    <owner>
+      <organization>
+        
+<name>Published under licence by IOP Publishing Ltd</name>
+
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="hasManifestation">
+    <bibitem>
+      
+<title format="text/plain" language="en" script="Latn">Primary methods for the measurement of amount of substance</title>
+
+      <date type="ppub">
+        <on>2001-08-01</on>
+      </date>
+      <medium>
+        <carrier>print</carrier>
+      </medium>
+    </bibitem>
+
+  </relation>
+  <series>
+    
+<title format="text/plain" language="en" script="Latn">Metrologia</title>
+
+  </series>
+  <extent>
+    <locality type="volume">
+      <referenceFrom>38</referenceFrom>
+    </locality>
+    <locality type="issue">
+      <referenceFrom>4</referenceFrom>
+    </locality>
+    <locality type="page">
+      <referenceFrom>289</referenceFrom>
+      <referenceTo>296</referenceTo>
+    </locality>
+  </extent>
+</bibitem><bibitem id="_724cdb77-3dc5-1bc5-c4ac-717c95a74c2f" type="article" schema-version="v1.2.9" anchor="milton">
+  <fetched>2026-04-16</fetched>
+  
+<title format="text/plain" language="en" script="Latn">Amount of substance and the proposed redefinition of the mole</title>
+
+  <uri type="src">https://doi.org/10.1088/0026-1394/46/3/022</uri>
+  <uri type="doi">https://doi.org/10.1088/0026-1394/46/3/022</uri>
+  <docidentifier type="BIPM" primary="true">Metrologia 46 3 332</docidentifier><docidentifier type="metanorma">[4.2]</docidentifier>
+  <docidentifier type="doi">10.1088/0026-1394/46/3/022</docidentifier>
+  <date type="published">
+    <on>2009-05-11</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">M J T Milton</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Physical Laboratory, Hampton Road, Teddington, Middlesex, TW11 0LW, UK</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">I M Mills</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>School of Chemistry, University of Reading, Reading, RG6 6AD, UK</name>
+
+        </organization>
+      </affiliation>
+    </person>
+  </contributor><language>en</language><script>Latn</script>
+  <abstract format="text/html" language="en" script="Latn">
+    <p id="_c7443b87-f336-2b5c-c893-4b72cea3902b">There has been considerable discussion about the merits of redefining four of the base units of the SI, including the mole. In this paper, the options for implementing a new definition for the mole based on a fixed value for the Avogadro constant are discussed. They are placed in the context of the macroscopic nature of the quantity amount of substance and the opportunity to introduce a system for molar and atomic masses with unchanged values and consistent relative uncertainties.</p>
+
+  </abstract>
+  <copyright>
+    <from>2009</from>
+    <owner>
+      <organization>
+        
+<name>BIPM and IOP Publishing Ltd</name>
+
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="hasManifestation">
+    <bibitem>
+      
+<title format="text/plain" language="en" script="Latn">Amount of substance and the proposed redefinition of the mole</title>
+
+      <date type="epub">
+        <on>2009-05-11</on>
+      </date>
+      <medium>
+        <carrier>online</carrier>
+      </medium>
+    </bibitem>
+
+  </relation>
+  <relation type="hasManifestation">
+    <bibitem>
+      
+<title format="text/plain" language="en" script="Latn">Amount of substance and the proposed redefinition of the mole</title>
+
+      <date type="ppub">
+        <on>2009-06-01</on>
+      </date>
+      <medium>
+        <carrier>print</carrier>
+      </medium>
+    </bibitem>
+
+  </relation>
+  <series>
+    
+<title format="text/plain" language="en" script="Latn">Metrologia</title>
+
+  </series>
+  <extent>
+    <locality type="volume">
+      <referenceFrom>46</referenceFrom>
+    </locality>
+    <locality type="issue">
+      <referenceFrom>3</referenceFrom>
+    </locality>
+    <locality type="page">
+      <referenceFrom>332</referenceFrom>
+      <referenceTo>338</referenceTo>
+    </locality>
+  </extent>
+</bibitem><bibitem anchor="atomic-weights" id="_91b0ea1e-8b73-99c4-766a-f274eccd9ff0">
+  <formattedref format="application/x-isodoc+xml">Commission of Isotopic Abundances and Atomic Weights, <link target="http://ciaaw.org/atomic-weights.htm"/></formattedref>
+  <docidentifier type="metanorma">[4.3]</docidentifier>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem id="_4c200c0c-6aca-9d75-0210-1eb9ad00a89c" type="article" schema-version="v1.2.9" anchor="brown">
+  <fetched>2026-04-16</fetched>
+  
+<title format="text/plain" script="Latn">The evolution of chemical metrology: distinguishing between amount of substance and counting quantities, now and in the future</title>
+
+  <uri type="src">https://doi.org/10.1088/1681-7575/aaace8</uri>
+  <uri type="doi">https://doi.org/10.1088/1681-7575/aaace8</uri>
+  <docidentifier type="BIPM" primary="true">Metrologia 55 3 L25</docidentifier><docidentifier type="metanorma">[5.1]</docidentifier>
+  <docidentifier type="doi">10.1088/1681-7575/aaace8</docidentifier>
+  <date type="published">
+    <on>2018-05-30</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">Richard J C Brown</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Physical Laboratory</name>
+
+          <subdivision>Chemical, Medical and Environmental Science Department</subdivision>
+          <address>
+            <formattedAddress>Teddington, TW11 0LW, United Kingdom</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor><language>en</language><script>Latn</script>
+  <abstract format="text/html" script="Latn">Abstract<p id="_7c70fe5f-9053-2e52-6637-07e8662a04d7">This discussion article begins by highlighting the benefits of the mole’s incorporation within the international system of units (SI), in particular by bringing chemical measurement within formal metrology structures. The origins of the confusion that has consistently existed between amount of substance (the base quantity of which the mole is the SI base unit) and counting quantities are examined in detail and their differentiating characteristics fully elaborated on. The importance and benefits of distinguishing between these different quantities and the role that the Avogadro constant plays in doing this are highlighted. It is proposed that these issues are becoming increasingly important for two reasons. First, as chemistry and biology consider increasingly small size domains, measurements are being made of significantly reduced collections of entities. Second, the proposed re-definition of the mole makes the link between amount of substance and the number of elementary entities more transparent. Finally, proposals for new ways of expressing very low amounts of substance in terms of new prefixes based on the numerical value of the Avogadro constant are presented as a way to encourage the use of the mole, when appropriate, even for ultra-low level chemical measurement.</p>
+</abstract>
+  <copyright>
+    <from>2018</from>
+    <owner>
+      <organization>
+        
+<name>BIPM</name>
+
+      </organization>
+    </owner>
+    <owner>
+      <organization>
+        
+<name>IOP Publishing Ltd</name>
+
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="hasManifestation">
+    <bibitem>
+      
+<title format="text/plain" script="Latn">The evolution of chemical metrology: distinguishing between amount of substance and counting quantities, now and in the future</title>
+
+      <date type="ppub">
+        <on>2018-06-01</on>
+      </date>
+      <medium>
+        <carrier>print</carrier>
+      </medium>
+    </bibitem>
+
+  </relation>
+  <relation type="hasManifestation">
+    <bibitem>
+      
+<title format="text/plain" script="Latn">The evolution of chemical metrology: distinguishing between amount of substance and counting quantities, now and in the future</title>
+
+      <date type="epub">
+        <on>2018-05-30</on>
+      </date>
+      <medium>
+        <carrier>online</carrier>
+      </medium>
+    </bibitem>
+
+  </relation>
+  <series>
+    
+<title format="text/plain" language="en" script="Latn">Metrologia</title>
+
+  </series>
+  <extent>
+    <locality type="volume">
+      <referenceFrom>55</referenceFrom>
+    </locality>
+    <locality type="issue">
+      <referenceFrom>3</referenceFrom>
+    </locality>
+    <locality type="page">
+      <referenceFrom>L25</referenceFrom>
+      <referenceTo>L33</referenceTo>
+    </locality>
+  </extent>
+</bibitem><bibitem id="_1157faef-3977-3640-828f-fae01d492822" type="article" schema-version="v1.2.9" anchor="mohr">
+  <fetched>2026-04-16</fetched>
+  
+<title format="text/html" script="Latn">Data and analysis for the CODATA 2017 special fundamental constants adjustment**<p id="_b3ce3da3-0ab8-7f97-8bd1-ca9c630f6c71">This report was prepared by the authors under the auspices of the Committee on Data for Science and Technology CODATA Task Group on Fundamental Constants. The members of the task group are F Cabiati, Istituto Nazionale di Ricerca Metrologica, Italy; J Fischer, Physikalisch-Technische Bundesanstalt, Germany; K Fujii, National Metrology Institute of Japan, Japan; S G Karshenboim, Pulkovo Observatory, Russian Federation and Ludwig-Maximilians-Universität, Germany; H S Margolis, National Phyiscal Laboratory, United Kingdom; E de Mirandés, Bureau international des poids et mesures; P J Mohr, National Institute of Standards and Technology, United States of America; D B Newell, National Institute of Standards and Technology, United States of America; F Nez, Laboratoire Kastler-Brossel, France; K Pachucki, University of Warsaw, Poland; T J Quinn, Bureau international des poids et mesures; B N Taylor, National Institute of Standards and Technology, United States of America; M Wang, Chinese Academy of Sciences, People’s Republic of China; B M Wood, National Research Council, Canada; Z Zhang, National Institute of Metrology, People’s Republic of China.</p>
+</title>
+
+  <uri type="src">https://doi.org/10.1088/1681-7575/aa99bc</uri>
+  <uri type="doi">https://doi.org/10.1088/1681-7575/aa99bc</uri>
+  <docidentifier type="BIPM" primary="true">Metrologia 55 1 125</docidentifier><docidentifier type="metanorma">[6.1]</docidentifier>
+  <docidentifier type="doi">10.1088/1681-7575/aa99bc</docidentifier>
+  <date type="published">
+    <on>2018-01-24</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">Peter J Mohr</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Institute of Standards and Technology</name>
+
+          <address>
+            <formattedAddress>Gaithersburg, MD 20899-8420, United States of America</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">David B Newell</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Institute of Standards and Technology</name>
+
+          <address>
+            <formattedAddress>Gaithersburg, MD 20899-8420, United States of America</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">Barry N Taylor</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Institute of Standards and Technology</name>
+
+          <address>
+            <formattedAddress>Gaithersburg, MD 20899-8420, United States of America</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor>
+  <contributor>
+    <role type="author"/>
+    <person>
+      
+<name>          <completename language="en" script="Latn">Eite Tiesinga</completename>       </name>
+
+      <affiliation>
+        <organization>
+          
+<name>National Institute of Standards and Technology</name>
+
+          <address>
+            <formattedAddress>Gaithersburg, MD 20899-8420, United States of America</formattedAddress>
+          </address>
+        </organization>
+      </affiliation>
+    </person>
+  </contributor><language>en</language><script>Latn</script>
+  <abstract format="text/html" script="Latn">Abstract<p id="_c41b178e-0121-83d8-f2de-27cdc429d2f6">The special least-squares adjustment of the values of the fundamental constants, carried out by the Committee on Data for Science and Technology (CODATA) in the summer of 2017, is described in detail. It is based on all relevant data available by 1 July 2017. The purpose of this adjustment is to determine the numerical values of the Planck constant h, elementary charge e, Boltzmann constant k, and Avogadro constant N<sub>A</sub> for the revised SI expected to be established by the 26th General Conference on Weights and Measures when it convenes on 13–16 November 2018.</p>
+</abstract>
+  <copyright>
+    <from>2018</from>
+    <owner>
+      <organization>
+        
+<name>Not subject to copyright in the USA</name>
+
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="hasManifestation">
+    <bibitem>
+      
+<title format="text/html" script="Latn">Data and analysis for the CODATA 2017 special fundamental constants adjustment**<p id="_0ee8213b-fe7a-ca12-4fd4-155878607eff">This report was prepared by the authors under the auspices of the Committee on Data for Science and Technology CODATA Task Group on Fundamental Constants. The members of the task group are F Cabiati, Istituto Nazionale di Ricerca Metrologica, Italy; J Fischer, Physikalisch-Technische Bundesanstalt, Germany; K Fujii, National Metrology Institute of Japan, Japan; S G Karshenboim, Pulkovo Observatory, Russian Federation and Ludwig-Maximilians-Universität, Germany; H S Margolis, National Phyiscal Laboratory, United Kingdom; E de Mirandés, Bureau international des poids et mesures; P J Mohr, National Institute of Standards and Technology, United States of America; D B Newell, National Institute of Standards and Technology, United States of America; F Nez, Laboratoire Kastler-Brossel, France; K Pachucki, University of Warsaw, Poland; T J Quinn, Bureau international des poids et mesures; B N Taylor, National Institute of Standards and Technology, United States of America; M Wang, Chinese Academy of Sciences, People’s Republic of China; B M Wood, National Research Council, Canada; Z Zhang, National Institute of Metrology, People’s Republic of China.</p>
+</title>
+
+      <date type="ppub">
+        <on>2018-02-01</on>
+      </date>
+      <medium>
+        <carrier>print</carrier>
+      </medium>
+    </bibitem>
+
+  </relation>
+  <relation type="hasManifestation">
+    <bibitem>
+      
+<title format="text/html" script="Latn">Data and analysis for the CODATA 2017 special fundamental constants adjustment**<p id="_22e0b97e-eab7-8744-07ab-22ff8c218d18">This report was prepared by the authors under the auspices of the Committee on Data for Science and Technology CODATA Task Group on Fundamental Constants. The members of the task group are F Cabiati, Istituto Nazionale di Ricerca Metrologica, Italy; J Fischer, Physikalisch-Technische Bundesanstalt, Germany; K Fujii, National Metrology Institute of Japan, Japan; S G Karshenboim, Pulkovo Observatory, Russian Federation and Ludwig-Maximilians-Universität, Germany; H S Margolis, National Phyiscal Laboratory, United Kingdom; E de Mirandés, Bureau international des poids et mesures; P J Mohr, National Institute of Standards and Technology, United States of America; D B Newell, National Institute of Standards and Technology, United States of America; F Nez, Laboratoire Kastler-Brossel, France; K Pachucki, University of Warsaw, Poland; T J Quinn, Bureau international des poids et mesures; B N Taylor, National Institute of Standards and Technology, United States of America; M Wang, Chinese Academy of Sciences, People’s Republic of China; B M Wood, National Research Council, Canada; Z Zhang, National Institute of Metrology, People’s Republic of China.</p>
+</title>
+
+      <date type="epub">
+        <on>2018-01-24</on>
+      </date>
+      <medium>
+        <carrier>online</carrier>
+      </medium>
+    </bibitem>
+
+  </relation>
+  <relation type="hasManifestation">
+    <bibitem>
+      
+<title format="text/html" script="Latn">Data and analysis for the CODATA 2017 special fundamental constants adjustment**<p id="_b270dfb2-02f1-7237-a94a-ab96609d2e41">This report was prepared by the authors under the auspices of the Committee on Data for Science and Technology CODATA Task Group on Fundamental Constants. The members of the task group are F Cabiati, Istituto Nazionale di Ricerca Metrologica, Italy; J Fischer, Physikalisch-Technische Bundesanstalt, Germany; K Fujii, National Metrology Institute of Japan, Japan; S G Karshenboim, Pulkovo Observatory, Russian Federation and Ludwig-Maximilians-Universität, Germany; H S Margolis, National Phyiscal Laboratory, United Kingdom; E de Mirandés, Bureau international des poids et mesures; P J Mohr, National Institute of Standards and Technology, United States of America; D B Newell, National Institute of Standards and Technology, United States of America; F Nez, Laboratoire Kastler-Brossel, France; K Pachucki, University of Warsaw, Poland; T J Quinn, Bureau international des poids et mesures; B N Taylor, National Institute of Standards and Technology, United States of America; M Wang, Chinese Academy of Sciences, People’s Republic of China; B M Wood, National Research Council, Canada; Z Zhang, National Institute of Metrology, People’s Republic of China.</p>
+</title>
+
+      <date type="open-access">
+        <on>2018-01-24</on>
+      </date>
+      <medium>
+        <carrier>print</carrier>
+      </medium>
+    </bibitem>
+
+  </relation>
+  <series>
+    
+<title format="text/plain" language="en" script="Latn">Metrologia</title>
+
+  </series>
+  <extent>
+    <locality type="volume">
+      <referenceFrom>55</referenceFrom>
+    </locality>
+    <locality type="issue">
+      <referenceFrom>1</referenceFrom>
+    </locality>
+    <locality type="page">
+      <referenceFrom>125</referenceFrom>
+      <referenceTo>146</referenceTo>
+    </locality>
+  </extent>
+</bibitem>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</references></bibliography>
+</metanorma>

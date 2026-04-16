@@ -1,0 +1,646 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metanorma xmlns="https://www.metanorma.org/ns/standoc" type="semantic" version="2.8.3" schema-version="v2.1.5" flavor="bipm">
+<bibdata type="standard">
+<title language="en" type="title-main">Realization of SI metre using silicon lattice and Transmission Electron Microscopy for Dimensional Nanometrology</title>
+
+<title language="en" type="title-part-prefix">Part 2.2</title>
+
+<title language="en" type="title-appendix-prefix">Appendix 2</title>
+
+<title language="fr" type="title-main">Réalisation de SI mètre utilisant un réseau silicium et microscopie électronique en transmission pour la nanométrologie dimensionnelle</title>
+
+<title language="fr" type="title-part-prefix">Partie 2.2</title>
+
+<title language="fr" type="title-appendix-prefix">Appendice 2</title>
+<docidentifier primary="true" type="BIPM">BIPM CCL-GD-MeP-2-2.2 A2</docidentifier><docidentifier type="BIPM-parent-document">BIPM CCL-GD-MeP-2</docidentifier><docnumber>CCL-GD-MeP-2</docnumber><contributor><role type="author"/><organization>
+<name>Bureau International des Poids et Mesures</name>
+<abbreviation>BIPM</abbreviation></organization></contributor><contributor><role type="author"/><person>
+<name><completename>Ronald Dixson</completename></name>
+<affiliation><organization>
+<name>NIST</name>
+</organization></affiliation></person></contributor><contributor><role type="author"/><person>
+<name><completename>Harald Bosse</completename></name>
+<affiliation><organization>
+<name>PTB</name>
+</organization></affiliation></person></contributor><contributor><role type="editor">WG-N co-chair</role><person>
+<name><completename>Ronald Dixson</completename></name>
+<affiliation><organization>
+<name>NIST</name>
+</organization></affiliation></person></contributor><contributor><role type="editor">WG-N co-chair</role><person>
+<name><completename>Harald Bosse</completename></name>
+<affiliation><organization>
+<name>PTB</name>
+</organization></affiliation></person></contributor><contributor><role type="editor">WG-N chair</role><person>
+<name><completename>Andrew Yacoot</completename></name>
+<affiliation><organization>
+<name>NPL</name>
+</organization></affiliation></person></contributor><contributor><role type="author"><description>committee</description></role><organization>
+<name>Bureau International des Poids et Mesures</name>
+<subdivision type="Committee">
+<name language="en">Consultative Committee for Length</name>
+
+<name language="fr">Comité consultatif des longueurs</name>
+<identifier>CCL</identifier><identifier type="full">CCL</identifier></subdivision></organization></contributor><contributor><role type="publisher"/><organization>
+<name>Bureau International des Poids et Mesures</name>
+<abbreviation>BIPM</abbreviation></organization></contributor><edition>1</edition><version><revision-date>2019-04-30</revision-date></version><language>en</language><script>Latn</script><status><stage>in-force</stage></status><copyright><from>2019</from><owner><organization>
+<name>Bureau International des Poids et Mesures</name>
+<abbreviation>BIPM</abbreviation></organization></owner></copyright><relation type="supersedes"><bibitem><date type="circulated">2018-06-11</date><version><draft>1.0</draft></version></bibitem>
+</relation><relation type="supersedes"><bibitem><date type="published">2019-04-30</date><edition>1.0</edition></bibitem>
+</relation><ext><doctype>guide</doctype><flavor>bipm</flavor><structuredidentifier><docnumber>CCL-GD-MeP-2</docnumber><part>2.2</part><appendix>2</appendix>
+</structuredidentifier><si-aspect>m_c</si-aspect></ext></bibdata><metanorma-extension><semantic-metadata><stage-published>true</stage-published></semantic-metadata>
+<UnitsML xmlns="https://schema.unitsml.org/unitsml/1.0"><UnitSet><Unit dimensionURL="#NISTd1" id="U_nm">
+        <UnitSystem name="SI" type="SI_base" lang="en-US"/>
+        <UnitName lang="en">nm</UnitName>
+        <UnitSymbol type="HTML">nm</UnitSymbol>
+        <UnitSymbol type="MathMl">
+          <math xmlns="http://www.w3.org/1998/Math/MathML">
+            <mi mathvariant="normal">nm</mi>
+          </math>
+        </UnitSymbol>
+        <RootUnits>
+          <EnumeratedRootUnit unit="metre" prefix="n"/>
+        </RootUnits>
+      </Unit></UnitSet><DimensionSet><Dimension id="NISTd1">
+        <Length symbol="L" powerNumerator="1"/>
+      </Dimension></DimensionSet><PrefixSet><Prefix prefixBase="10" prefixPower="-9" id="NISTp10_-9">
+        <PrefixName lang="en">nano</PrefixName>
+        <PrefixSymbol type="ASCII">n</PrefixSymbol>
+        <PrefixSymbol type="unicode">n</PrefixSymbol>
+        <PrefixSymbol type="LaTeX">n</PrefixSymbol>
+        <PrefixSymbol type="HTML">n</PrefixSymbol>
+      </Prefix></PrefixSet></UnitsML><presentation-metadata><toc-heading-levels>2</toc-heading-levels><html-toc-heading-levels>2</html-toc-heading-levels><doc-toc-heading-levels>2</doc-toc-heading-levels><pdf-toc-heading-levels>2</pdf-toc-heading-levels></presentation-metadata></metanorma-extension>
+<boilerplate><copyright-statement>
+
+<clause id="_de529b36-05ca-b9e4-a8ac-4c41964770f0" obligation="normative"><p id="_2c83afdd-6f3c-8a19-1954-83e4ede65ae8" align="center">© Bureau International des Poids et Mesures 2019 all rights reserved</p>
+</clause>
+</copyright-statement>
+
+<license-statement>
+
+<clause id="_4ffcd5b5-8039-1aa4-59ce-390aa3b61c7a" obligation="normative">
+<title id="_29f75465-0cf3-76fd-bc56-6b3aa457ee69">Copyright statement</title>
+<p id="_50719790-3c5b-c213-8298-0631d690bc21">This document is distributed under the terms of the Creative Commons Attribution 4.0 International License (<link target="http://creativecommons.org/licenses/by/4.0/:"/>), which permits unrestricted use, distribution, and reproduction in any medium, provided you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made.</p>
+</clause>
+</license-statement>
+
+<feedback-statement>
+
+<p id="_5926bc3f-b367-69e7-6cc6-442a91e32db2">BIPM<br/> Pavillon de Breteuil<br/> F-92312 Sèvres Cedex<br/> FRANCE</p>
+</feedback-statement>
+</boilerplate><sections><clause id="_c2465cff-3de9-5118-2d22-0bceaa34078b" obligation="normative">
+<title id="_6a13218d-655a-ce5a-a75b-2a8f4a2affc3">Overview</title>
+<p id="_53938110-a3a1-a14c-52e0-2dc416caf8f2">The purpose of this document is to develop CCL/WG-N recommendations for the use of Transmission Electron Microscopy (TEM) and the reference value of the bulk silicon lattice constant as a pathway for traceability to the SI metre for applications in dimensional nanometrology. Displacement interferometry is the most traditional and widely used method of realizing traceability to the SI metre for dimensional metrology at all length scales. For those circumstances for which the uncertainty of a measurement is primarily sensitive to the accuracy of this displacement metrology, an additional link to the SI metre is not necessary. However, most probing techniques, from coordinate measuring machines (CMMs) at large scales to atomic force microscopes (AFMs) at the nanoscale, also have uncertainties related to the probe-specimen interaction. These uncertainties tend to be dramatically larger for those measurements for which this interaction is translationally asymmetric (<em>i.e.</em>., opposite faces of a part or rising versus falling edges). Such measurements are usually classified as bidirectional in CMM metrology or as width measurements in AFM or scanning electron microscope (SEM) dimensional nanometrology. Therefore, the specific emphasis of this document is on the use of TEM as a reference metrology for linewidth measurement of localized nanostructures.</p>
+</clause>
+
+<clause id="_e40f2d36-0778-eebe-2ba7-19542bff8fa8" obligation="normative">
+<title id="_a19ad49e-141f-d88e-87ca-4c5601873060">Background</title>
+<p id="_a456af2c-e2d4-45cd-a496-57c982248402">The lattice constant of silicon has been determined on bulk silicon
+crystals with very small relative uncertainty down to <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msup>
+      <mn>10</mn>
+      <mrow>
+        <mo>−</mo>
+        <mn>8</mn>
+      </mrow>
+    </msup>
+  </mstyle>
+</math><asciimath>10^(-8)</asciimath></stem> by using optical interferometry combined with x-ray interferometry. Up to the present all of measurements performed are in good agreement  <eref type="inline" bibitemid="mohr" citeas="[1]"/>.</p>
+
+<clause id="_378e9afc-7a81-5720-5349-5137c4fd3e57" obligation="normative">
+<title id="_699a2ccb-b3ff-64ff-dcdd-d33f59b69e12">Dimensional Metrology Experience</title>
+<p id="_5ddbb07d-7bcc-3f3d-42e6-766d3cb82f00">Since the early 2000s, at least two NMIs have experimented with using the known value of the bulk silicon lattice constant to establish traceability to the SI metre for dimensional nanometrology applications. Techniques such as x-ray scattering, can provide a link to the silicon lattice for certain measurands (notably, film thickness) that are defined over large sampling areas. However, for highly localized measurements of specific nanostructures, various forms of transmission electron microscopy (TEM) seem the most appropriate method of linking. During the last 15 years, both NIST and PTB have carried out significant efforts in dimensional nanometrology that relied on this approach.</p>
+
+<p id="_d36864eb-157b-5a57-55e6-72eaeaadde53">The NIST single crystal critical dimension reference material (SCCDRM) project has been
+a multi-generation effort to develop standards for linewidth metrology at and below the
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>100</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_nm">
+      <mstyle mathvariant="normal">
+        <mi>nm</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>100 "unitsml(nm)"</asciimath></stem> size scale <eref type="inline" bibitemid="cresswell" citeas="[2]"/>-<eref type="inline" bibitemid="bogardus" citeas="[4]"/>. The goal of this project
+was to establish traceable width metrology of specific crystalline <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Si</mtext>
+  </mstyle>
+</math><asciimath>"Si"</asciimath></stem>
+nanostructures. The measurand was localized — with unique mutual navigation indicators
+and equivalent sampling strategy, and only the native silicon oxide was present on
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Si</mtext>
+  </mstyle>
+</math><asciimath>"Si"</asciimath></stem> structures.</p>
+
+<p id="_7f324055-1192-d5e4-92f7-ae44af2b5273">The general approach was to use critical dimension atomic force microscopy (CD-AFM) as a
+comparator between those structures that were cross-sectioned for TEM and the structures
+remaining intact. The
+limiting expanded uncertainty on transfer experiment was <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>0.6</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_nm">
+      <mstyle mathvariant="normal">
+        <mi>nm</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>0.6 "unitsml(nm)"</asciimath></stem>
+(<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>k</mi>
+    <mo>=</mo>
+    <mn>2</mn>
+  </mstyle>
+</math><asciimath>k = 2</asciimath></stem>). However, the standards distributed to users had expanded uncertainties
+(<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mi>k</mi>
+    <mo>=</mo>
+    <mn>2</mn>
+  </mstyle>
+</math><asciimath>k = 2</asciimath></stem>) of between <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1.5</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_nm">
+      <mstyle mathvariant="normal">
+        <mi>nm</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>1.5 "unitsml(nm)"</asciimath></stem> and <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>2</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_nm">
+      <mstyle mathvariant="normal">
+        <mi>nm</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>2 "unitsml(nm)"</asciimath></stem>.</p>
+
+<p id="_3ca723cc-dcca-fbcc-8ad5-cd8ee99395ee">This overall approach and the use of TEM to achieve traceability were generally accepted within the dimensional nanometrology community — specifically within the semiconductor metrology field. Indeed, one commercial vendor of secondary standards for that industry implemented a similar approach to calibrate one of their products  <eref type="inline" bibitemid="tortonese" citeas="[5]"/>.</p>
+
+<p id="_6540b1f6-59df-91cb-dc83-66ca58faf06a">More recently, PTB independently implemented a conceptually related methodology <eref type="inline" bibitemid="dai" citeas="[6]"/>. Two important distinctions between the NIST and PTB efforts were that PTB used an in-house form of CD-AFM, rather than the commercially available version used at NIST <eref type="inline" bibitemid="martin" citeas="[7]"/> <eref type="inline" bibitemid="schmitz" citeas="[8]"/>. The PTB implementation of CD-AFM is based on a method known as vector approach probing (VAP)  <eref type="inline" bibitemid="wolff" citeas="[9]"/>. The PTB project also used a form of scanning TEM (STEM) to provide the TEM reference metrology. NIST relied primarily on high resolution TEM (HRTEM) — a full-field interference-based technique — with subsequent validation using STEM. Ultimately, the final uncertainties of the NIST and PTB implementations were nearly identical. However, consideration of possible outliers suggests that the PTB method can be potentially extended to even lower uncertainties.</p>
+
+<p id="_acceac86-a865-b8fa-ee27-1058a1641b4f">Even more recently, PTB has collaborated with a commercial standards vendor to develop a form of crystalline silicon linewidth standard that is commercially available  <eref type="inline" bibitemid="zhu" citeas="[10]"/>. Ultimately, this development affords the opportunity for other organizations, both NMIs and industrial customers to implement their own versions of a TEM transfer technique to bring lattice traceability to dimensional nanometrology. This may increase the importance of practical guidelines for this application from CCL and WG-N.</p>
+</clause>
+
+<clause id="_00eadc4b-ed15-3657-37f5-528ce8752693" obligation="normative">
+<title id="_94839676-a1f9-6d69-7d6b-cdfe3021eee9">Surface Analysis Experience</title>
+<p id="_b1c5faf6-a978-77b4-cfa3-c791f3c146bd">In contrast to the dimensional metrology community, however, those NMI staff involved
+with the surface analysis and thin film characterization areas have a different
+experience and perspective on the suitability of using TEM for traceability to the SI
+metre. This is due partly to the CCQM experience during the same time period with two
+with comparisons of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mtext>SiO</mtext>
+      <mn>2</mn>
+    </msub>
+  </mstyle>
+</math><asciimath>"SiO"_2</asciimath></stem> thickness measurements: a pilot study P38 <eref type="inline" bibitemid="seah" citeas="[11]"/> and a subsequent key comparison K32  <eref type="inline" bibitemid="unger" citeas="[12]"/>.</p>
+
+<p id="_f0647346-589f-6c44-c7a2-269deb0c7200">In the P38 study, multiple specimens were included with <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mtext>SiO</mtext>
+      <mn>2</mn>
+    </msub>
+  </mstyle>
+</math><asciimath>"SiO"_2</asciimath></stem> thicknesses
+ranging from <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1.5</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_nm">
+      <mstyle mathvariant="normal">
+        <mi>nm</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>1.5 "unitsml(nm)"</asciimath></stem> to <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>8</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_nm">
+      <mstyle mathvariant="normal">
+        <mi>nm</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>8 "unitsml(nm)"</asciimath></stem>. Regression analysis
+yielded slopes and intercepts for comparison between the measured and reference values.
+TEM calibrated to the <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Si</mtext>
+  </mstyle>
+</math><asciimath>"Si"</asciimath></stem> lattice — through the commercial MAG*I*CAL sample <eref type="inline" bibitemid="mccaffrey" citeas="[13]"/> — was one of the methods included in the study. However, the average TEM
+results were furthest from the reference (slope: <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>0.92</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_nm">
+      <mstyle mathvariant="normal">
+        <mi>nm</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>0.92 "unitsml(nm)"</asciimath></stem>, intercept:
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>0.8</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_nm">
+      <mstyle mathvariant="normal">
+        <mi>nm</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>0.8 "unitsml(nm)"</asciimath></stem>). In contrast, x-ray photoelectron spectroscopy (XPS) was the
+closest (slope: <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle displaystyle="false"><mn>1.045</mn></mstyle></math><asciimath>1.045</asciimath></stem>, intercept: <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML"><mstyle displaystyle="false"><mn>0.172</mn></mstyle></math><asciimath>0.172</asciimath></stem>). Due to the perceived performance limitations of TEM for this application, it was not included in the eventual K32 key comparison  <eref type="inline" bibitemid="unger" citeas="[12]"/>.</p>
+
+<p id="_99afa40b-52ca-f028-16a0-6ec7cc6f84b1">Although TEM was used to measure length-dimensional quantities in both the P38 comparison (layer thickness) and the PTB and NIST linewidth standard projects (line width), there are some fundamental differences between the two applications. In the NIST and PTB efforts, the measurand was highly localized — the width of a specific structure at a specific location. Position markers were used for mutual navigation between AFM and TEM, and multiple measurements were used to help achieve equivalent sampling.</p>
+
+<p id="_3487d27f-a1b0-1b15-e8a7-a9d9956a3f58">In contrast, the film thickness measurand in the P38 study was the amount of
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mtext>SiO</mtext>
+      <mn>2</mn>
+    </msub>
+  </mstyle>
+</math><asciimath>"SiO"_2</asciimath></stem> on a <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Si</mtext>
+  </mstyle>
+</math><asciimath>"Si"</asciimath></stem> wafer expressed as layer thickness which is not a highly localized property, and the samples used in the P38 study did not have location-specific markers to ensure consistent navigation among the methods. Consequently, the reported results did not necessarily correspond to overlapping regions or sampling of the same size.</p>
+
+<p id="_4f7a0428-126f-c3ab-0315-ae549cd30935">One commonality between the applications is that both underscored the importance of
+considering of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mtext>SiO</mtext>
+      <mn>2</mn>
+    </msub>
+  </mstyle>
+</math><asciimath>"SiO"_2</asciimath></stem> /<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Si</mtext>
+  </mstyle>
+</math><asciimath>"Si"</asciimath></stem> interface ambiguity, sample preparation/capping layer/thinning of layers, and carbonaceous contamination for any application of TEM in dimensional nanometrology.</p>
+</clause>
+</clause>
+
+<clause id="_c65a56fd-bdd8-5179-3849-d5d3aceb6e69" obligation="normative">
+<title id="_d7a2b57a-897e-17e6-6031-08b1c3e00c37">Practical Implementation</title>
+<clause id="_a5d37d1a-d440-1457-9c6a-e40efc15c862" obligation="normative">
+<title id="_18c8bfe1-61b5-43ec-2dbe-f8e9445f46ef">Requirements and Challenges</title>
+<p id="_03a64676-8ecc-f0a9-e175-f8ab8eba92a0">It remains a challenging issue to accurately assign the feature edges in high resolution
+(S)TEM images, and this is of central importance in using TEM metrology to provide a
+traceable reference for dimensional nanometrology. The uncertainties in the feature edge
+locations directly impact the uncertainty of a width measurement. Generally, these
+uncertainties must be <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>1</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_nm">
+      <mstyle mathvariant="normal">
+        <mi>nm</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>1 "unitsml(nm)"</asciimath></stem> or less in order to preserve a useful uncertainty in the final width calibration.</p>
+
+<p id="_720a9593-ced5-b2f0-e872-56125a821c9a">The edge uncertainties are dependent upon multiple factors, including: (1) the nature of the original sample (<em>i.e.</em>, crystallinity), (2) the performance of the sample preparation — including potential damage, annealing, and (3) the image-formation physics in the TEM.</p>
+
+<p id="_694c88d2-c554-5877-e9ca-ed8b1ee5f6c1">In order to directly obtain traceability through resolving the silicon lattice, a necessary requirement is that at least some portion of the sample material, ideally the primary target feature, must be mono-crystalline. For both the NIST and PTB projects this was the case. However, this requirement places considerable limitations on sample design and fabrication. The only comparable commercial implementation used an approach in which the primary target was poly-crystalline, but a nearby feature, which could be included in the same field-of-view (FOV) was mono-crystalline. Although it has been successfully implemented, this approach is partly dependent on a thorough understanding of the imaging performance and non-linearity of the TEM throughout its FOV. When the target feature is crystalline, only nonlinearity over the thickness of the oxide or other capping layer could contribute to the final uncertainty. In the case of an adjacent feature, the separation may be two orders of magnitude larger. In high-end TEM instrumentation, this is unlikely to be significant, but it would be practical consideration for those attempting to implement the approach with lower-end or less-characterized instruments.</p>
+
+<p id="_974dd5d2-60d7-ee36-c564-dd2e8768545a">Another variant on the general approach was also implemented by PTB, referred to as the “<tt>pitch method</tt>” <eref type="inline" bibitemid="dai" citeas="[6]"/>. The sample involved had a pair of target structures that could
+be observed within the TEM FOV. Prior to performing the TEM cross-section, the pitch of
+these features was measured using AFM. While AFM width measurements are highly dependent
+upon the tip width, pitch (unidirectional) measurements using AFM are sensitive
+primarily to scanner displacement. PTB used their metrological AFM, which has
+displacement interferometry incorporated into the scanner, to perform pitch measurements
+traceable to the SI metre. Since both of the features could then be observed within the
+same TEM FOV, it was thus possible to transfer the AFM traceability to the TEM scale and
+ultimately to the feature widths. The PTB experimental study demonstrated consistency
+between the pitch method and the silicon lattice approach to better than <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mn>0.3</mn>
+    <mo rspace="thickmathspace">⁢</mo>
+    <mrow xref="U_nm">
+      <mstyle mathvariant="normal">
+        <mi>nm</mi>
+      </mstyle>
+      
+      
+      
+    </mrow>
+  </mstyle>
+</math><asciimath>0.3
+"unitsml(nm)"</asciimath></stem> <eref type="inline" bibitemid="martin" citeas="[7]"/>. This approach eliminates the dependence on the silicon lattice to connect the TEM image scale to the SI metre. Therefore, it does not necessarily require monocrystalline target features. However, the issues of sample preparation, oxides, encapsulating layers, and edge definition still contribute to the uncertainties.</p>
+
+<p id="_127156eb-4220-c3ec-3619-52673b430dce">To achieve low uncertainties, the definition of the “<tt>edge-operator</tt>” must be carefully considered and correspond well with the physical edge of the structure. Modeling of (S)TEM imaging processes in various measurement modalities such as TEM, EFTEM, BF STEM, DF STEM, HAADF STEM etc. as well as different measurement parameters is an important task, so as to relate the images to the “<tt>real structure</tt>”. However, when complex modeling physics, such is used in SEM, is required, this can impact the uncertainties and the traceability.</p>
+
+<p id="_4153dc6f-8002-d737-915a-67a8d3073da9">The initial appeal of TEM in the original NIST project was that it would substantially realize a lattice plane count across a target feature to measure the width. A monocrystalline target feature combined with lattice resolution meant that only a very basic edge operator was required for the underlying crystalline features and there was very little uncertainty about the width. The oxide layer and its interface with the encapsulating layer contributed more uncertainty. The image quality, however, made it possible to estimate these contributions without reliance on modeling physics to interpret the images.</p>
+
+<p id="_9ba71d1a-a6d6-c6cf-b3e7-e45de3b0d40c">Pushing the general approach to a significantly lower uncertainty may well require complex edge operators and TEM image/signal interpretation, but this would also add an extra step in the traceability chain and introduce new sources of uncertainty.</p>
+</clause>
+</clause>
+
+<clause id="_b41396cb-84a0-c322-d3cc-24ea4fa1ef58" obligation="normative">
+<title id="_34855706-84a2-c03b-22c0-7ea113cefe9e">Position Statement of CCL/WG-N</title>
+<ol id="_c4855f97-c712-ee52-1853-7f112af6ab72" type="arabic"><li><p id="_85a8a575-0707-a34a-b9d5-f94324416845">CCL/WG-N believes that TEM, in both full field and scanning instruments, is an important measurement technology for applications in dimensional nanometrology.</p>
+</li>
+<li><p id="_ea351989-05eb-fe54-286a-577fee6812c3">If appropriate practices are followed, dimensional measurements with TEM may be made traceable to the SI metre through reference to the silicon lattice.</p>
+</li>
+<li><p id="_9e21949c-a7bd-2ba5-96f9-6c1b88991bfe">The P38 study of CCQM does illustrate important limitations of TEM. However, these issues are more limiting for film thickness applications than for structural metrology as described here.</p>
+</li>
+<li><p id="_ad634ffb-b9fa-3404-6fec-3caf8e2f0c87">WG-N regards the localized metrology of micro and nano-structures as residing within the CCL and WG-N space. However, distributed properties such as film thickness fall within the spaces of both CCL and CCQM. Perhaps this might be an area of future cooperation between the two CCs.</p>
+</li>
+</ol>
+</clause>
+
+<clause id="_5c007aab-7200-19e6-4f7e-35196e57caa4" obligation="normative">
+<title id="_e53bc34a-05d6-7ad5-f926-e07d731ab04f">Recommendations of CCL/WG-N for use of TEM in Traceable Dimensional Nanometrology:</title>
+<ol id="_503fedbc-01ff-f9f6-f3cd-a27c062e416c" type="arabic"><li><p id="_e8aa3243-8d58-60be-f349-a881937742e2">The highly localized nature of TEM sample preparation and metrology render it more suitable for dimensional nanometrology of specific nanostructures as opposed to non-localized measurements such as film thickness.</p>
+</li>
+<li><p id="_6970857e-7b99-017f-8332-d665b0f2ff4b">Traceability to the SI metre may be realized through the use of specimens and techniques that permit the referencing of the TEM scale to the silicon lattice. Traceability of the TEM image scale may also be achieved through the PTB pitch method.</p>
+</li>
+<li><p id="_03efd3a2-2926-694b-ed47-e966344edae5">There are two major TEM contrast mechanisms and instrument types that are appropriate for the dimensional nanometrology regime:  <xref target="HRTEM"/> High resolution TEM (HRTEM), and <xref target="HAADF-STEM"/> high angle annular dark field scanning TEM (HAADF-STEM) <eref type="inline" bibitemid="diebold" citeas="[14]"/>, <eref type="inline" bibitemid="orji" citeas="[15]"/>. In a given application, each technique will have different strengths, but since both are capable of detecting the lattice periodicity either type of measurement could be made traceable.</p>
+<ol id="_02868659-8fb4-0fab-7205-aa3abc2b2d89" type="alphabet"><li id="_0b36f324-de8f-9fa5-962e-9cdc5c8909aa" anchor="HRTEM"><p id="_4854fe1c-4699-b175-e466-69d5877dfb28">HRTEM is a coherent imaging technique in which the contrast is generated by interference between the transmitted and diffracted beams. The correspondence between the intensity of the fringes and the atomic sites is also dependent on the specimen thickness.</p>
+</li>
+<li id="_38c164c9-4564-d3f4-b3a7-fc7203bdaf99" anchor="HAADF-STEM"><p id="_7375a81e-4e2f-777a-6882-901c16ff6ee4">HAADF-STEM is an incoherent scanning technique in which the detected signal is proportional to the intensity of the electrons scattered from each lattice site.</p>
+</li>
+</ol>
+</li>
+<li><p id="_40a4f1aa-ef08-d373-af77-f8812a9538f6">There are two broad cases for how SI traceability might be realized through the silicon lattice for a TEM measurement:  <xref target="DIC"/> direct image calibration for cases in
+which all or a portion of the structure is crystalline <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Si</mtext>
+  </mstyle>
+</math><asciimath>"Si"</asciimath></stem>, or <xref target="TC"/> transfer
+calibration using a crystalline <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Si</mtext>
+  </mstyle>
+</math><asciimath>"Si"</asciimath></stem> structure to calibrate the magnification for the target measurement.</p>
+<ol id="_b958005d-fdf0-9228-38de-9205353c1801" type="alphabet"><li id="_1b38750f-9c1a-8f2c-a04e-e03fd033ec64" anchor="DIC"><p id="_7e5d862a-3f6a-5a46-1d7f-b3b5e7ad63a8">Direct image calibration for metrology of crystalline <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Si</mtext>
+  </mstyle>
+</math><asciimath>"Si"</asciimath></stem> structures
+is probably more straightforward but is only applicable to crystalline <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Si</mtext>
+  </mstyle>
+</math><asciimath>"Si"</asciimath></stem> structures. This was the method used by NIST, a commercial standards vendor, and PTB for TEM calibration of silicon linewidth standards  <eref type="inline" bibitemid="cresswell" citeas="[2]"/>, <eref type="inline" bibitemid="tortonese" citeas="[5]"/>, <eref type="inline" bibitemid="dai" citeas="[6]"/>.</p>
+</li>
+<li id="_63082bbe-269d-28a6-d36c-a3700ef73360" anchor="TC"><p id="_48e34b24-ce30-c7e5-5cd5-580eb3863d3b">Transfer calibration is more widely applicable but may result in larger measurement uncertainty. At least one commercial standard is available which could be used to implement this method. This standard itself also includes lower magnification (<em>i.e.</em>., larger periodicity) structures that were calibrated using crystalline
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Si</mtext>
+  </mstyle>
+</math><asciimath>"Si"</asciimath></stem> portion of the standard <eref type="inline" bibitemid="mccaffrey" citeas="[13]"/>. Participants in the P38 comparison were able to use either or both methods. One participant observed a 0.2 % difference in scale calibration between the two approaches.</p>
+</li>
+</ol>
+
+<p id="_61ec3889-289a-6228-8147-b8363c4b4253">An additional approach for realizing SI traceability for non-crystal structures is to use the pitch method where the metrological AFM and TEM techniques are applied in a combined manner. The metrological AFM offers traceable pitch results, which is transferred via the TEM to the CD results.</p>
+</li>
+<li><p id="_1767cc79-292d-3f51-240f-becaa5463e9f">Sample preparation is integral to TEM metrology. With either contrast mechanism or magnification calibration method, it is necessary to pay close attention to sample preparation to protect the integrity of the measured structure — including oxide — during specimen preparation. Major factors to be considered are the protective/encapsulating layers and the thinning process to achieve electron transparency.</p>
+<ol id="_c434dcd9-5cc4-fbf0-1e18-cbed64b67d00" type="alphabet"><li><p id="_5a048cad-01ac-9a93-c6fd-fbe0c540d913">Encapsulating layers are often metallic, though epoxies are sometimes used. Metals
+commonly used, including for the P38 comparison, are <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Pt</mtext>
+  </mstyle>
+</math><asciimath>"Pt"</asciimath></stem>, <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Ti</mtext>
+  </mstyle>
+</math><asciimath>"Ti"</asciimath></stem>,
+<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Al</mtext>
+  </mstyle>
+</math><asciimath>"Al"</asciimath></stem>, and <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Au</mtext>
+  </mstyle>
+</math><asciimath>"Au"</asciimath></stem>. However, possible interactions between metallic layer and
+the oxide surface, which could modify the <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mtext>SiO</mtext>
+      <mn>2</mn>
+    </msub>
+  </mstyle>
+</math><asciimath>"SiO"_2</asciimath></stem>, should be considered.
+Contamination in the coating is also a possible concern. In the SCCDRM project, NIST
+used an initial <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Au</mtext>
+  </mstyle>
+</math><asciimath>"Au"</asciimath></stem>-<stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Pd</mtext>
+  </mstyle>
+</math><asciimath>"Pd"</asciimath></stem> coating with a <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Pt</mtext>
+  </mstyle>
+</math><asciimath>"Pt"</asciimath></stem> layer. The PTB
+project has included the investigation of different protection layers for the TEM sample
+preparation, and these results indicated that the best combination is an initial carbon
+coating followed by a <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Pt</mtext>
+  </mstyle>
+</math><asciimath>"Pt"</asciimath></stem> layer.</p>
+</li>
+<li><p id="_e3d7acb6-1e14-5808-a771-f971a53cbb96">The major methods of thinning are: (1) mechanical polishing, and (2) focused-ion beam
+(FIB) milling — typically using <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Ga</mtext>
+  </mstyle>
+</math><asciimath>"Ga"</asciimath></stem> and <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Ar</mtext>
+  </mstyle>
+</math><asciimath>"Ar"</asciimath></stem> ions. <eref type="inline" bibitemid="mayer" citeas="[16]"/> During thinning there is the risk that thin layer of the specimen used for TEM, commonly referred to as a lamella, could be damaged by the ion beam — including the possibility of implantation. While it is expected that dramatic damage to the lamella would be readily observed in the TEM image, the possibility of induced stress or substitution defects, which could change the lattice spacing, should be considered carefully. In their own work, NIST and PTB believe the magnitude of such effects to be lower than the other uncertainties in their TEM measurements. But the potential for subtle effects should be further investigated and may be important in pushing the limits of this traceability transfer paradigm.</p>
+</li>
+<li><p id="_18cf2cce-c6a3-0aa7-631b-f036b9959735">For all methods, it is essential to realizing traceability that the measured feature — including oxide — remains intact with boundaries that can be clearly drawn in the final image. All of these preparation methods have been used successfully, but all have pitfalls that may generate unusable results. In most cases, however, the invalidity of the results will be apparent due to structural damage or the absence of a visible interfaces between the substrate and oxide or oxide and capping layer.</p>
+</li>
+</ol>
+</li>
+</ol>
+</clause>
+
+
+</sections><bibliography><references id="_196c9ade-177e-cfb5-3c51-71ab1f07aedc" normative="false" obligation="informative">
+<title id="_1d852725-9432-e979-5884-c8c2939954c3">References</title><bibitem anchor="mohr" id="_284e2b8d-b5c9-de59-d7ad-3773c865cb09">
+  <formattedref format="application/x-isodoc+xml">Mohr P J, Taylor B N, and Newell DB, “<tt>CODATA recommended values of the fundamental physical constants: 2010</tt>”, <em>Rev. Mod. Phys.</em>, <strong>84</strong> (2012) 1527-1605. <link target="https://doi.org/10.1103/RevModPhys.84.1527">DOI: 10.1103/RevModPhys.84.1527</link></formattedref>
+  <docidentifier type="metanorma">[1]</docidentifier>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem anchor="cresswell" id="_4523f7ca-065f-3638-f6ef-ff8ed7306063">
+  <formattedref format="application/x-isodoc+xml">Cresswell M, Guthrie W, Dixson R, Allen R A, Murabito C E, Martinez de Pinillos J V, “<tt>RM8111: Development of a Prototype Linewidth Standard</tt>”, <em>J. Res. Natl. Inst. Stand. Technol.</em> <strong>111</strong> (2006) 187—​203. <link target="https://nvlpubs.nist.gov/nistpubs/jres/111/3/V111.N03.A01.pdf"/></formattedref>
+  <docidentifier type="metanorma">[2]</docidentifier>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem anchor="dixson" id="_561778a4-cdcb-c476-79ef-5793a9d2049d">
+  <formattedref format="application/x-isodoc+xml">Dixson R G, Allen R A, Guthrie W F, and Cresswell M W, “<tt>Traceable calibration of critical-dimension atomic force microscope linewidth measurements with nanometer uncertainty</tt>”, <em>J. Vac. Sci. Technol. B</em> <strong>23</strong> (2005) 3028-3032. <link target="https://doi.org/10.1116/1.2130347">DOI: 10.1116/1.2130347</link></formattedref>
+  <docidentifier type="metanorma">[3]</docidentifier>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem anchor="bogardus" id="_be574b99-6a79-db6e-5658-c79750a42f41">
+  <formattedref format="application/x-isodoc+xml">Cresswell M W, Bogardus E H, Martinez de Pinillos J V, Bennett M H, Allen R A, Guthrie W F, Murabito C E, am Ende B A, Linholm L W, “<tt>CD Reference Materials for Sub-Tenth Micrometer Applications</tt>”, <em>Proc. SPIE</em> <strong>4689</strong> (2002) 116—​127. <link target="https://doi.org/10.1117/12.473450">DOI: 10.1117/12.473450</link></formattedref>
+  <docidentifier type="metanorma">[4]</docidentifier>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem anchor="tortonese" id="_bb0b4647-7c7c-c9f7-1ff3-1675ae627d3a">
+  <formattedref format="application/x-isodoc+xml">Tortonese M, Lorusso G, Blanquies R, Prochazka J, and Grella L, “<tt>Sub-50-nm isolated line and trench width artifacts for CD metrology</tt>”, <em>Proc. SPIE</em> <strong>5375</strong> (2004) 647-656. <link target="https://doi.org/10.1117/12.536812">DOI: 10.1117/12.536812</link></formattedref>
+  <docidentifier type="metanorma">[5]</docidentifier>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem anchor="dai" id="_71d4169a-ec74-9244-c6e8-73c32a76c8ca">
+  <formattedref format="application/x-isodoc+xml">Dai G, Heidelmann M, Kübel C, Prang R, Fuegge J, and Bosse H, “<tt>Reference nano-dimensional metrology by scanning transmission electron microscopy</tt>”, <em>Meas. Sci. Technol.</em> <strong>24</strong> (2013) 085001. <link target="https://doi.org/10.1088/0957-0233/24/8/085001">DOI: 10.1088/0957-0233/24/8/085001</link></formattedref>
+  <docidentifier type="metanorma">[6]</docidentifier>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem anchor="martin" id="_68c791e2-6c1b-9923-0b08-9631e825d17e">
+  <formattedref format="application/x-isodoc+xml">Martin Y, Wickramasinghe H K, “<tt>Method for Imaging Sidewalls by Atomic Force Microscopy</tt>”, <em>Applied Physics Letters</em> <strong>64</strong> (1994) 2498-2500. DOI: <link target="https://aip.scitation.org/doi/10.1063/1.111578">10.1063/1.111578</link></formattedref>
+  <docidentifier type="metanorma">[7]</docidentifier>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem anchor="schmitz" id="_b09aa9a6-4fda-9fd3-a656-2e1a60ff2ae8">
+  <formattedref format="application/x-isodoc+xml">Schmitz I, Osborn M, Hand S, and Chen Q, “<tt>Improvement in metrology on new 3D-AFM platform</tt>”, <em>Proc. SPIE</em> <strong>7122</strong> (2008) 71222X. <link target="https://doi.org/10.1117/12.803581">DOI: 10.1117/12.803581</link></formattedref>
+  <docidentifier type="metanorma">[8]</docidentifier>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem anchor="wolff" id="_352ffefe-ccc6-c3ef-b396-b85a8518a98d">
+  <formattedref format="application/x-isodoc+xml">Dai G, Häßler-Grohne W, Hüser D, Wolff H, Fluegge J, and Bosse H, “<tt>New developments at Physikalisch Technische Bundesanstalt in three-dimensional atomic force microscopy with tapping and torsion atomic force microscopy mode and vector approach probing strategy</tt>”, <em>J. Micro/Nanolith. MEMS MOEMS</em> <strong>11</strong> (2012) 011004 (2012). <link target="https://doi.org/10.1117/1.JMM.11.1.011004">DOI: 10.1117/1.JMM.11.1.011004</link></formattedref>
+  <docidentifier type="metanorma">[9]</docidentifier>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem anchor="zhu" id="_9c191987-c29e-7078-a2ff-09413cdb42dc">
+  <formattedref format="application/x-isodoc+xml">Dai G, Zhu F, Heidelmann M, Fritz G, Bayer T, Kalt S, Fluegge J, “<tt>Development and characterisation of a new linewidth reference material</tt>”, <em>Meas. Sci. Technol.</em> <strong>26</strong> (2015) 115006. <link target="https://iopscience.iop.org/article/10.1088/0957-0233/26/11/115006">DOI: 10.1088/0957-0233/26/11/115006</link></formattedref>
+  <docidentifier type="metanorma">[10]</docidentifier>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem anchor="seah" id="_bcff54b3-e1b7-e866-74c8-65dce6fefb2f">
+  <formattedref format="application/x-isodoc+xml">Seah M P, Spencer S J, Bensebaa F, Vickridge I, Danzebrink H, Krumrey M, Gross T, Oesterle W, Wendler E, Rheinländer B, Azuma Y, Kojima I, Suzuki N, Suzuki M, Tanuma S, Moon D W, Lee H J, Cho H M, Chen H Y, Wee A T S, Osipowicz T, Pan J S, Jordaan W A, Hauert R, Klotz U, van der Marel C, Verheijen M, Tamminga Y, Jeynes C, Bailey P, Biswas S, Falke U, Nguyen N V, Chandler-Horowitz D, Ehrstein J R, Muller D and Dura J A, “Critical review of the current status of thickness measurements for ultrathin <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mtext>SiO</mtext>
+      <mn>2</mn>
+    </msub>
+  </mstyle>
+</math><asciimath>"SiO"_2</asciimath></stem> on <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Si</mtext>
+  </mstyle>
+</math><asciimath>"Si"</asciimath></stem> Part V: Results of a CCQM pilot study”, <em>Surf. Interface Anal.</em> <strong>36</strong> (2004) 1269-1303. <link target="https://doi.org/10.1002/sia.1909">DOI: 10.1002/sia.1909</link></formattedref>
+  <docidentifier type="metanorma">[11]</docidentifier>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem anchor="unger" id="_c2e9d2a0-dcaa-06a6-2de9-02e6728872ab">
+  <formattedref format="application/x-isodoc+xml">Seah M P, Unger W E S, Wang H, Jordaan W, Gross Th, Dura J A, Moon D W, Totarong P, Krumrey M, Hauert R, Zhiqiang M, “Ultra-thin <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mtext>SiO</mtext>
+      <mn>2</mn>
+    </msub>
+  </mstyle>
+</math><asciimath>"SiO"_2</asciimath></stem> on <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Si</mtext>
+  </mstyle>
+</math><asciimath>"Si"</asciimath></stem> IX: absolute measurements of the amount of silicon oxide as a thickness of <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <msub>
+      <mtext>SiO</mtext>
+      <mn>2</mn>
+    </msub>
+  </mstyle>
+</math><asciimath>"SiO"_2</asciimath></stem> on <stem block="false" type="MathML"><math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mstyle displaystyle="false">
+    <mtext>Si</mtext>
+  </mstyle>
+</math><asciimath>"Si"</asciimath></stem>“, <em>Surf. Interface Anal.</em> <strong>41</strong> (2009) 430-439. <link target="https://onlinelibrary.wiley.com/doi/abs/10.1002/sia.1909">DOI: 10.1002/sia.3045</link></formattedref>
+  <docidentifier type="metanorma">[12]</docidentifier>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem anchor="mccaffrey" id="_94446552-c983-eb98-46e7-4bb3f07fdb9a">
+  <formattedref format="application/x-isodoc+xml">McCaffrey J P and Baribeau J-M, “<tt>A transmission electron microscope (TEM) calibration standard sample for all magnification, camera constant and image-diffraction pattern rotation calibrations</tt>”, <em>Microscopy Research and Technique</em>, <strong>32</strong> (5) (1995) 449-454. <link target="https://onlinelibrary.wiley.com/doi/abs/10.1002/sia.3045">DOI: 10.1002/jemt.1070320507</link></formattedref>
+  <docidentifier type="metanorma">[13]</docidentifier>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem anchor="diebold" id="_ce9999ec-fbe1-9337-c522-7b2bf1ec1676">
+  <formattedref format="application/x-isodoc+xml">Diebold A C, Foran B, Kisielowski C, Muller D A, Pennycook S J, Principe E, and Stemmer S, “<tt>Thin Dielectric Film Thickness Determination by Advanced Transmission Electron Microscopy</tt>”, <em>Microsc. Microanal.</em> <strong>9</strong> (2003) 493—​508. <link target="https://doi.org/10.1002/jemt.1070320507">DOI: 10.1017/S1431927603030629</link></formattedref>
+  <docidentifier type="metanorma">[14]</docidentifier>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem anchor="orji" id="_81bf12ec-b26d-41fe-f0f3-4ef48332e215">
+  <formattedref format="application/x-isodoc+xml">Orji N G, Dixson R G, Garcia-Gutierrez D I, Bunday B D, Bishop M, Cresswell M W, Allen R A, and Allgair J A, “<tt>TEM Calibration Methods for Critical Dimension Standards</tt>”, <em>Proc. SPIE</em> <strong>6518</strong> (2007)651810-1-10. <link target="https://doi.org/10.1117/12.713368">DOI: 10.1117/12.713368</link></formattedref>
+  <docidentifier type="metanorma">[15]</docidentifier>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem><bibitem anchor="mayer" id="_9c3bbca6-11e8-9abf-938e-d877281762d1">
+  <formattedref format="application/x-isodoc+xml">Mayer J, Giannuzzi L A, Kamino T, and Michael J, “<tt>TEM Sample Preparation and FIB-Induced Damage</tt>”, <em>Materials Research Society Bulletin</em>, <strong>32</strong> (2007) 400-407. <link target="https://doi.org/10.1557/mrs2007.63">DOI: 10.1557/mrs2007.63</link></formattedref>
+  <docidentifier type="metanorma">[16]</docidentifier>
+  <language>en</language>
+  <script>Latn</script>
+</bibitem>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</references></bibliography>
+</metanorma>
