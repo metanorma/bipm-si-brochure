@@ -1,11 +1,10 @@
 source "https://rubygems.org"
 
-gem "metanorma-cli"
-# Temporary: pin metanorma-standoc to v3.4.0 + backport of the xref
-# nil-target guard (metanorma/metanorma-standoc PR #1175 / issue #1174).
-# main cannot be used because it carries the in-progress isodoc→metanorma-core
-# refactor, which expects an unreleased metanorma-core.
-# Remove this pin once metanorma-standoc > 3.4.0 is released.
-gem "metanorma-standoc",
-    github: "metanorma/metanorma-standoc",
-    branch: "backport/xref-nil-guard-on-3.4.0"
+# Stay on the 3.3.x metanorma-standoc line. 3.4.0 pins relaton-cli ~> 2.0.0,
+# which drags in relaton-bipm 2.0.0 — whose GH_ENDPOINT reads
+# relaton-data-bipm@data-v2 instead of @main. 3.3.x keeps the relaton 1.20
+# chain (reads @main, where the Metrologia 55 1 125 manifestation fix
+# lives) and also avoids the xref nil-target regression from #1174.
+# metanorma-cli 1.15.6 bumps its transitive iso/ietf to 3.4.0, so pin 1.15.5.
+gem "metanorma-cli", "~> 1.15.5"
+gem "metanorma-standoc", "~> 3.3.4"
